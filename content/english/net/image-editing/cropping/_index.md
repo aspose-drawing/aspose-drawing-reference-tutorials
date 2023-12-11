@@ -1,7 +1,7 @@
 ---
 title: Cropping Images in Aspose.Drawing
 linktitle: Cropping Images in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 10

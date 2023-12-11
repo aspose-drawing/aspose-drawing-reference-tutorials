@@ -1,7 +1,7 @@
 ---
 title: Lines, Curves, and Shapes
 linktitle: Lines, Curves, and Shapes
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 23

@@ -1,7 +1,7 @@
 ---
 title: World Transformation in Aspose.Drawing
 linktitle: World Transformation in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore world transformations in Aspose.Drawing for .NET. Elevate your graphics with easy-to-follow steps.
 type: docs
 weight: 15

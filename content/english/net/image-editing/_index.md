@@ -1,7 +1,7 @@
 ---
 title: Image Editing
 linktitle: Image Editing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 21

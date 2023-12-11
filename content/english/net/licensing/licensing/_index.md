@@ -1,7 +1,7 @@
 ---
 title: Licensing in Aspose.Drawing
 linktitle: Licensing in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Unlock the full potential of Aspose.Drawing in .NET. Master licensing for seamless integration. Download now and elevate your graphics and image manipulation.
 type: docs
 weight: 10

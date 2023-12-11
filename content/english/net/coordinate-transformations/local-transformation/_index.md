@@ -1,7 +1,7 @@
 ---
 title: Local Transformation in Aspose.Drawing for .NET
 linktitle: Local Transformation in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore local transformations in Aspose.Drawing for .NET. Elevate graphics with easy-to-follow steps.
 type: docs
 weight: 11

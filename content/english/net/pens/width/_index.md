@@ -1,7 +1,7 @@
 ---
 title: Setting Width of Pens in Aspose.Drawing
 linktitle: Setting Width of Pens in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 12

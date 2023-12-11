@@ -1,7 +1,7 @@
 ---
 title: Matrix Transformations in Aspose.Drawing for .NET
 linktitle: Matrix Transformations in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Master matrix transformations in Aspose.Drawing for .NET with this step-by-step guide.
 type: docs
 weight: 12

@@ -1,7 +1,7 @@
 ---
 title: Units of Measure in Aspose.Drawing for .NET
 linktitle: Units of Measure in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the versatility of Aspose.Drawing for .NET in this in-depth tutorial, mastering units of measure for precision graphics.
 type: docs
 weight: 14

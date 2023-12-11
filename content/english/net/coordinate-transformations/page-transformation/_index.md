@@ -1,7 +1,7 @@
 ---
 title: Page Transformation in Aspose.Drawing for .NET
 linktitle: Page Transformation in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn step-by-step page transformations in .NET using Aspose.Drawing. Enhance your graphics skills with this comprehensive tutorial.
 type: docs
 weight: 13

@@ -1,7 +1,7 @@
 ---
 title: Global Transformation in Aspose.Drawing for .NET
 linktitle: Global Transformation in Aspose.Drawing
-second_title: Aspose.Zip .NET API - Alternative to System.Drawing.Common
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore global transformations in Aspose.Drawing for .NET, creating stunning graphics with ease. Follow our step-by-step guide for a seamless experience.
 type: docs
 weight: 10
