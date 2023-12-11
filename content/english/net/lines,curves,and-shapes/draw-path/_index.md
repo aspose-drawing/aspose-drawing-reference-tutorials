@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 17
-url: /net/lines,-curves,-and-shapes/draw-path/
+url: /net/lines,curves,and-shapes/draw-path/
 ---
 
 ## Complete Source Code

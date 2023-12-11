@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 10
-url: /net/lines,-curves,-and-shapes/solid-brushes/
+url: /net/lines,curves,and-shapes/solid-brushes/
 ---
 
 ## Complete Source Code

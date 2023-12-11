@@ -1,11 +1,11 @@
 ---
-title: Drawing Rectangles in Aspose.Drawing
-linktitle: Drawing Rectangles in Aspose.Drawing
+title: Drawing Polygons in Aspose.Drawing
+linktitle: Drawing Polygons in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
-weight: 19
-url: /net/lines,-curves,-and-shapes/draw-rectangle/
+weight: 18
+url: /net/lines,curves,and-shapes/draw-polygon/
 ---
 
 ## Complete Source Code
@@ -14,19 +14,19 @@ using System.Drawing;
 
 namespace Aspose.Drawing.Examples.CSharp.LinesCurvesShapes
 {
-    class DrawRectangle
+    class DrawPolygon
     {
         public static void Run()
         {
-            //ExStart: DrawRectangle
+            //ExStart: DrawPolygon
             Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
             Graphics graphics = Graphics.FromImage(bitmap);
 
             Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
-            graphics.DrawRectangle(pen, 10, 10, 900, 700);
+            graphics.DrawPolygon(pen, new Point[] { new Point(100, 100), new Point(500, 700), new Point(900, 100) });
 
-            bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.png");
-            //ExEnd: DrawRectangle
+            bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png");
+            //ExEnd: DrawPolygon
         }
     }
 }

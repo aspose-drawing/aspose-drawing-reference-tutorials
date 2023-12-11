@@ -14,7 +14,7 @@ is_root: true
 
 ### [Licensing](./licensing/)
 
-### [Lines, Curves, and Shapes](./lines,-curves,-and-shapes/)
+### [Lines, Curves, and Shapes](./lines,curves,and-shapes/)
 
 ### [Pens](./pens/)
 

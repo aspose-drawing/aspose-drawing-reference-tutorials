@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 20
-url: /net/lines,-curves,-and-shapes/fill-region/
+url: /net/lines,curves,and-shapes/fill-region/
 ---
 
 ## Complete Source Code

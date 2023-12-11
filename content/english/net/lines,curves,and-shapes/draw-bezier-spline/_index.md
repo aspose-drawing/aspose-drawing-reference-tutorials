@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: 
 type: docs
 weight: 12
-url: /net/lines,-curves,-and-shapes/draw-bezier-spline/
+url: /net/lines,curves,and-shapes/draw-bezier-spline/
 ---
 
 ## Complete Source Code
