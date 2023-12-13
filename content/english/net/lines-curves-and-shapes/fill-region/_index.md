@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to fill regions in Aspose.Drawing for .NET with this step-by-step tutorial. Enhance your graphic design skills effortlessly.
 type: docs
 weight: 20
-url: /net/lines,curves,and-shapes/fill-region/
+url: /net/lines-curves-and-shapes/fill-region/
 ---
 ## Introduction
 

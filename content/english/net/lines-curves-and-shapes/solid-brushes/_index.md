@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Discover the magic of Aspose.Drawing for .NET. Master solid brushes in this step-by-step guide for vibrant graphics.
 type: docs
 weight: 10
-url: /net/lines,curves,and-shapes/solid-brushes/
+url: /net/lines-curves-and-shapes/solid-brushes/
 ---
 ## Introduction
 

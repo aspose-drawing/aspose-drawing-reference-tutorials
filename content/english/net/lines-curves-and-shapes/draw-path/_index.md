@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn to draw paths in Aspose.Drawing for .NET with this step-by-step guide. Create stunning graphics effortlessly.
 type: docs
 weight: 17
-url: /net/lines,curves,and-shapes/draw-path/
+url: /net/lines-curves-and-shapes/draw-path/
 ---
 ## Introduction
 

@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to draw captivating arcs in .NET applications using Aspose.Drawing. Follow our step-by-step guide for stunning visual results.
 type: docs
 weight: 11
-url: /net/lines,curves,and-shapes/draw-arc/
+url: /net/lines-curves-and-shapes/draw-arc/
 ---
 ## Introduction
 

@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to draw ellipses in .NET using Aspose.Drawing. Follow this step-by-step tutorial for creating stunning graphics effortlessly.
 type: docs
 weight: 15
-url: /net/lines,curves,and-shapes/draw-ellipse/
+url: /net/lines-curves-and-shapes/draw-ellipse/
 ---
 ## Introduction
 

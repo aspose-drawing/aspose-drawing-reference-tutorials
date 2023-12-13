@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the power of Aspose.Drawing for .NET in creating stunning graphics. Draw polygons effortlessly with this intuitive library.
 type: docs
 weight: 18
-url: /net/lines,curves,and-shapes/draw-polygon/
+url: /net/lines-curves-and-shapes/draw-polygon/
 ---
 ## Introduction
 

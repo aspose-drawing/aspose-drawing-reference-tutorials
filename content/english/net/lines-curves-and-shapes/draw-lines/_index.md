@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to draw lines in .NET applications with Aspose.Drawing. This step-by-step tutorial guides you through the process for stunning graphics.
 type: docs
 weight: 16
-url: /net/lines,curves,and-shapes/draw-lines/
+url: /net/lines-curves-and-shapes/draw-lines/
 ---
 ## Introduction
 

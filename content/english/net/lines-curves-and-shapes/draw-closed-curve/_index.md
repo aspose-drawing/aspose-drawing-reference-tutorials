@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the art of drawing closed curves in .NET applications with Aspose.Drawing. Elevate your visuals effortlessly.
 type: docs
 weight: 14
-url: /net/lines,curves,and-shapes/draw-closed-curve/
+url: /net/lines-curves-and-shapes/draw-closed-curve/
 ---
 ## Introduction
 

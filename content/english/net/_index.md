@@ -45,7 +45,7 @@ Enhance your graphics skills with our Aspose.Drawing tutorials. Explore global, 
 Enhance your image editing skills with Aspose.Drawing tutorials! Learn cropping, direct data access, displaying, and scaling techniques for stunning results.
 ### [Licensing](./licensing/)
 Unlock Aspose.Drawing's full potential in .NET with seamless licensing tutorials. Integrate effortlessly, elevate graphics, and manipulate images with ease.
-### [Lines, Curves, and Shapes](./lines,curves,and-shapes/)
+### [Lines, Curves, and Shapes](./lines-curves-and-shapes/)
 Unleash Aspose.Drawing's .NET magic! Explore Lines, Curves, and Shapes Tutorials for vibrant graphics—master solid brushes, arcs, splines, ellipses, and more creatively.
 ### [Pens](./pens/)
 Unlock the power of graphic programming in .NET with Aspose.Drawing tutorials. Discover color manipulation, path joining, and dynamic pen width setting for stunning visuals.

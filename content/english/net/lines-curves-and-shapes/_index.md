@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Unleash Aspose.Drawing's .NET magic! Explore Lines, Curves, and Shapes Tutorials for vibrant graphics—master solid brushes, arcs, splines, ellipses, and more creatively.
 type: docs
 weight: 23
-url: /net/lines,curves,and-shapes/
+url: /net/lines-curves-and-shapes/
 ---
 
 ## Introduction

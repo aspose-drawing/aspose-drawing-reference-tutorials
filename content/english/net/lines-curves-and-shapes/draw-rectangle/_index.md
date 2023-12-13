@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to draw rectangles in .NET using Aspose.Drawing. Step-by-step guide with code examples.
 type: docs
 weight: 19
-url: /net/lines,curves,and-shapes/draw-rectangle/
+url: /net/lines-curves-and-shapes/draw-rectangle/
 ---
 ## Introduction
 

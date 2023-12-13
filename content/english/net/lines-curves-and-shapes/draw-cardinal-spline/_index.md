@@ -5,7 +5,7 @@ second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the art of drawing cardinal splines in .NET applications with Aspose.Drawing. Create smooth curves effortlessly.
 type: docs
 weight: 13
-url: /net/lines,curves,and-shapes/draw-cardinal-spline/
+url: /net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
 ## Introduction
 
