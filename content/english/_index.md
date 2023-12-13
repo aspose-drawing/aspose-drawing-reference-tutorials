@@ -21,7 +21,7 @@ These are links to some useful resources:
 - [Coordinate Transformations](./net/coordinate-transformations/)
 - [Image Editing](./net/image-editing/)
 - [Licensing](./net/licensing/)
-- [Lines, Curves, and Shapes](./net/lines,curves,and-shapes/)
+- [Lines, Curves, and Shapes](./net/lines-curves-and-shapes/)
 - [Pens](./net/pens/)
 - [Rendering](./net/rendering/)
 - [Text and Fonts](./net/text-and-fonts/)
