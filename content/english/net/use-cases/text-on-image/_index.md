@@ -67,7 +67,7 @@ Save the modified image to your desired directory.
 This step-by-step guide demonstrates a straightforward process of adding text to images using Aspose.Drawing for .NET. Experiment with different fonts, colors, and text content to achieve the desired visual effect.
 ## Conclusion
 Aspose.Drawing simplifies image manipulation tasks in .NET, providing developers with a robust toolkit. Adding text to images is just one example of its capabilities, showcasing the library's versatility in handling graphical elements.
-### Frequently Asked Questions
+## Frequently Asked Questions
 ### Is Aspose.Drawing compatible with all image formats?
 Aspose.Drawing supports a wide range of image formats, including popular ones like JPEG, PNG, and GIF. Refer to the [documentation](https://reference.aspose.com/drawing/net/) for a complete list.
 ### Can I use Aspose.Drawing for commercial projects?
@@ -78,4 +78,3 @@ Yes, you can obtain a temporary license for testing by visiting [Temporary Licen
 Engage with the community and get support on the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17).
 ### How do I get started with Aspose.Drawing?
 Begin by downloading the library from [here](https://releases.aspose.com/drawing/net/) and explore the comprehensive [documentation](https://reference.aspose.com/drawing/net/).
-#

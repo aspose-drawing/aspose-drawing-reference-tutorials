@@ -94,7 +94,7 @@ A1: Aspose.Drawing is a commercial product, but you can explore its capabilities
 
 ### Q2: Where can I find Aspose.Drawing documentation?
 
-2A: Refer to the [documentation](https://reference.aspose.com/drawing/net/) for comprehensive guidance.
+A2: Refer to the [documentation](https://reference.aspose.com/drawing/net/) for comprehensive guidance.
 
 ### Q3: How can I get support for Aspose.Drawing?
 

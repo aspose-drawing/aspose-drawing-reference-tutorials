@@ -103,7 +103,7 @@ A2: Yes, Aspose.Drawing supports various pixel formats, providing flexibility in
 
 ### Q3: Can I dynamically change the clipping region during runtime?
 
-A4: Absolutely, you can modify the clipping region dynamically based on your application's logic.
+A3: Absolutely, you can modify the clipping region dynamically based on your application's logic.
 
 ### Q4: Is Aspose.Drawing suitable for web-based applications?
 

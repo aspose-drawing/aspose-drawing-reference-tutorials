@@ -86,16 +86,27 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
             }
 ```
 ## Conclusion
+
 Congratulations! You've successfully added callouts to your image using Aspose.Drawing for .NET. Feel free to experiment with different positions and values to customize your callouts further.
----
+
 ## FAQs
+
 ### Can I use Aspose.Drawing for other types of illustrations?
+
 Yes, Aspose.Drawing supports a wide range of drawing operations for various types of illustrations.
+
 ### Is Aspose.Drawing compatible with different image formats?
+
 Absolutely! Aspose.Drawing supports popular image formats like PNG, JPEG, GIF, and more.
+
 ### Where can I find more examples and documentation?
+
 Explore the comprehensive documentation [here](https://reference.aspose.com/drawing/net/).
+
 ### How do I get support if I encounter issues?
+
 Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) for community support.
+
 ### Can I try Aspose.Drawing before purchasing?
+
 Certainly! Get started with a free trial [here](https://releases.aspose.com/).
