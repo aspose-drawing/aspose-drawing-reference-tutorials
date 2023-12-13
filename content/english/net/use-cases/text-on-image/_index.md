@@ -11,7 +11,7 @@ url: /net/use-cases/text-on-image/
 In the dynamic world of .NET development, Aspose.Drawing stands out as a powerful tool for manipulating images with ease. Adding text to images is a common requirement, whether it's for watermarking, annotations, or creating personalized graphics. In this tutorial, we will explore how to leverage Aspose.Drawing to seamlessly integrate text into your images using C#.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following in place:
-1. Aspose.Drawing Library: Download and install the Aspose.Drawing library from the official [Aspose.Drawing for .NET documentation](https://reference.aspose.com/drawing/net/).
+1. Aspose.Drawing Library: Download and install the Aspose.Drawing library from the [Aspose.Drawing for .NET documentation](https://reference.aspose.com/drawing/net/).
 2. Development Environment: Have a working .NET development environment, including Visual Studio or any other compatible IDE.
 Now, let's get started with the step-by-step guide.
 ## Import Namespaces
@@ -69,7 +69,7 @@ This step-by-step guide demonstrates a straightforward process of adding text to
 Aspose.Drawing simplifies image manipulation tasks in .NET, providing developers with a robust toolkit. Adding text to images is just one example of its capabilities, showcasing the library's versatility in handling graphical elements.
 ### Frequently Asked Questions
 ### Is Aspose.Drawing compatible with all image formats?
-Aspose.Drawing supports a wide range of image formats, including popular ones like JPEG, PNG, and GIF. Refer to the [official documentation](https://reference.aspose.com/drawing/net/) for a complete list.
+Aspose.Drawing supports a wide range of image formats, including popular ones like JPEG, PNG, and GIF. Refer to the [documentation](https://reference.aspose.com/drawing/net/) for a complete list.
 ### Can I use Aspose.Drawing for commercial projects?
 Yes, Aspose.Drawing is suitable for both personal and commercial projects. For licensing details, visit the [purchase page](https://purchase.aspose.com/buy).
 ### Are temporary licenses available for testing purposes?

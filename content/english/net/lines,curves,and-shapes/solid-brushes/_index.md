@@ -91,7 +91,7 @@ A3: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) for 
 
 ### Q4: Where can I find comprehensive documentation for Aspose.Drawing for .NET?
 
-A4: Refer to the official [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) for detailed information.
+A4: Refer to the [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) for detailed information.
 
 ### Q5: What is burstiness in the context of Aspose.Drawing?
 

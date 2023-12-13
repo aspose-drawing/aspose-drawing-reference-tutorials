@@ -85,7 +85,7 @@ A1: Aspose.Drawing is a commercial library, but you can explore its features wit
 
 ### Q2: Where can I find detailed documentation?
 
-A2: Refer to the [official documentation](https://reference.aspose.com/drawing/net/) for in-depth information.
+A2: Refer to the [documentation](https://reference.aspose.com/drawing/net/) for in-depth information.
 
 ### Q3: How can I get a temporary license?
 
