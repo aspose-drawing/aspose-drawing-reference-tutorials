@@ -89,7 +89,7 @@ A1 : Oui, Aspose.Drawing s'intègre de manière transparente à d'autres bibliot
 
  A2 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
-### Q3 : Où puis-je trouver de l'assistance pour Aspose.Drawing ?
+### Q3 : Où puis-je trouver de l'aide pour Aspose.Drawing ?
 
  A3 : Visitez Aspose.Drawing[forum](https://forum.aspose.com/c/diagram/17) pour obtenir de l’aide et du soutien communautaire.
 

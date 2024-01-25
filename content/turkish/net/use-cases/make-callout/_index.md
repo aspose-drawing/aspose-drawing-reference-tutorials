@@ -25,7 +25,7 @@ using System.Drawing.Text;
 using System.IO;
 ```
 ## 1. Adım: Görüntüyü Yükleyin
- Açıklama eklemek istediğiniz görseli yükleyerek başlayın. Yer değiştirmek`"Your Document Directory"` Ve`"gears.png"` gerçek dizininiz ve resim dosya adınızla.
+ Açıklama eklemek istediğiniz görseli yükleyerek başlayın. Yer değiştirmek`"Your Document Directory"` Ve`"gears.png"` gerçek dizininiz ve resim dosya adınızla birlikte.
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {

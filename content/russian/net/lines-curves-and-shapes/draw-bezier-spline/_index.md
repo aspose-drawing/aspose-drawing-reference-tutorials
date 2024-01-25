@@ -84,7 +84,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawBezierSpline_out
 
  A3: По любым вопросам или помощи посетите наш[форум поддержки](https://forum.aspose.com/c/diagram/17).
 
-### В4: Есть ли бесплатная пробная версия?
+### В4: Доступна ли бесплатная пробная версия?
 
  О4: Да, вы можете изучить Aspose.Drawing с помощью нашей бесплатной пробной версии.[здесь](https://releases.aspose.com/).
 

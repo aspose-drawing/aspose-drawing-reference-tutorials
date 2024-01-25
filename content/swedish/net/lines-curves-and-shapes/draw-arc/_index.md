@@ -9,7 +9,7 @@ url: /sv/net/lines-curves-and-shapes/draw-arc/
 ---
 ## Introduktion
 
-Att skapa visuellt tilltalande grafik är en viktig aspekt av många applikationer, och Aspose.Drawing för .NET gör denna uppgift till en lek. I den här handledningen kommer vi att fördjupa oss i processen att rita bågar med Aspose.Drawing. Oavsett om du är en erfaren utvecklare eller en nykomling kommer den här guiden att utrusta dig med kunskapen för att införliva slående bågar i dina .NET-applikationer.
+Att skapa visuellt tilltalande grafik är en viktig aspekt av många applikationer, och Aspose.Drawing för .NET gör denna uppgift till en lek. I den här handledningen kommer vi att fördjupa oss i processen att rita bågar med Aspose.Drawing. Oavsett om du är en erfaren utvecklare eller nykomling, kommer den här guiden att utrusta dig med kunskapen för att införliva slående bågar i dina .NET-applikationer.
 
 ## Förutsättningar
 
@@ -34,9 +34,9 @@ Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format3
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
- I detta steg initierar vi en`Bitmap` objekt med önskade dimensioner och en`Graphics` objekt som är kopplat till bitmappen.
+ I det här steget initierar vi en`Bitmap` objekt med önskade dimensioner och en`Graphics` objekt som är kopplat till bitmappen.
 
-## Steg 2: Ställ in penna för ritning
+## Steg 2: Ställ in pennan för ritning
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);

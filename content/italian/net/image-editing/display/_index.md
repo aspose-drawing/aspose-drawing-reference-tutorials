@@ -97,7 +97,7 @@ A3: È possibile controllare il ridimensionamento dell'immagine regolando i para
 
 ### Q4: Ci sono considerazioni sulla licenza per l'utilizzo di Aspose.Drawing in progetti commerciali?
 
-R4: Fare riferimento a[pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli e le opzioni di licenza.
+R4: Fare riferimento a[pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli e le opzioni della licenza.
 
 ### Q5: Dove posso chiedere aiuto se riscontro problemi o ho domande su Aspose.Drawing?
 

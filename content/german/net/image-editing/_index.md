@@ -40,7 +40,7 @@ Behandeln Sie Bilddateien effizient mit Aspose.Drawing. Entdecken Sie die Feinhe
 
 [Skalieren von Bildern in Aspose.Drawing](./scale/)
 
-Übernehmen Sie die Kontrolle über die Bildskalierung mit Aspose.Drawing. Erfahren Sie, wie Sie die Größe von Bildern ändern und dabei Qualität und Proportionen beibehalten. Egal, ob Sie an Webentwicklung oder Grafikdesign arbeiten, unser Tutorial vermittelt Ihnen die Fähigkeiten, Bilder wie ein erfahrener Profi zu skalieren.
+Übernehmen Sie die Kontrolle über die Bildskalierung mit Aspose.Drawing. Erfahren Sie, wie Sie die Größe von Bildern ändern und dabei Qualität und Proportionen beibehalten. Ganz gleich, ob Sie an Webentwicklung oder Grafikdesign arbeiten, unser Tutorial vermittelt Ihnen die Fähigkeiten, Bilder wie ein erfahrener Profi zu skalieren.
 
 Begeben Sie sich mit den Aspose.Drawing-Tutorials auf Ihre Reise zum Meister der Bildbearbeitung. Jedes Tutorial ist sorgfältig ausgearbeitet, um ein nahtloses Lernerlebnis zu bieten und sicherzustellen, dass Sie die Feinheiten der Bildbearbeitung mühelos verstehen. Lassen Sie Ihrer Kreativität freien Lauf und verwandeln Sie gewöhnliche Bilder in außergewöhnliche Kunstwerke!
 ## Bildbearbeitungs-Tutorials

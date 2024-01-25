@@ -9,7 +9,7 @@ url: /tr/net/rendering/clipping/
 ---
 ## giriiş
 
-Grafik tasarım ve görüntü işleme alanında, bir görüntünün bölümlerini seçici olarak görüntüleme veya gizleme yeteneği çok önemlidir. İşte burada kırpma devreye giriyor ve Aspose.Drawing for .NET ile görsel yaratımlarınızı geliştirmek için kırpma tekniklerini sorunsuz bir şekilde dahil edebilirsiniz. Bu eğitimde, Aspose.Drawing'i kullanarak kırpmanın uygulanması sürecini adım adım inceleyerek ilgili incelikleri kavramanızı sağlayacağız.
+Grafik tasarım ve görüntü işleme alanında, bir görüntünün bölümlerini seçici olarak görüntüleme veya gizleme yeteneği çok önemlidir. İşte burada kırpma devreye giriyor ve Aspose.Drawing for .NET ile görsel yaratımlarınızı geliştirmek için kırpma tekniklerini kusursuz bir şekilde dahil edebilirsiniz. Bu eğitimde, Aspose.Drawing'i kullanarak kırpmanın uygulanması sürecini adım adım inceleyerek ilgili incelikleri kavramanızı sağlayacağız.
 
 ## Önkoşullar
 

@@ -73,7 +73,7 @@ Glückwunsch! Sie haben mit Aspose.Drawing für .NET erfolgreich ein Polygon gez
 
 ## Abschluss
 
-In diesem Tutorial haben wir den Prozess des Zeichnens von Polygonen mit Aspose.Drawing untersucht. Mit dieser leistungsstarken Bibliothek können Entwickler mühelos beeindruckende Grafiken erstellen. Experimentieren Sie mit verschiedenen Formen, Farben und Größen, um das volle Potenzial des Grafikdesigns in Ihren .NET-Projekten auszuschöpfen.
+In diesem Tutorial haben wir den Prozess des Zeichnens von Polygonen mit Aspose.Drawing untersucht. Mit dieser leistungsstarken Bibliothek können Entwickler mühelos atemberaubende Grafiken erstellen. Experimentieren Sie mit verschiedenen Formen, Farben und Größen, um das volle Potenzial des Grafikdesigns in Ihren .NET-Projekten auszuschöpfen.
 
 ## FAQs
 

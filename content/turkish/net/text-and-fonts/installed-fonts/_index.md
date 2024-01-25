@@ -48,7 +48,7 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## 3. Adım: Fırça ve Yazı Tipini Ayarlayın
+## 3. Adım: Fırçayı ve Yazı Tipini Ayarlayın
 
 Metniniz için bir fırça ve yazı tipi tanımlayın:
 

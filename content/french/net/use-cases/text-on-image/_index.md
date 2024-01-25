@@ -8,7 +8,7 @@ weight: 12
 url: /fr/net/use-cases/text-on-image/
 ---
 ## Introduction
-Dans le monde dynamique du développement .NET, Aspose.Drawing s'impose comme un outil puissant pour manipuler facilement des images. L'ajout de texte aux images est une exigence courante, qu'il s'agisse de filigrane, d'annotations ou de création de graphiques personnalisés. Dans ce didacticiel, nous explorerons comment exploiter Aspose.Drawing pour intégrer de manière transparente du texte dans vos images à l'aide de C#.
+Dans le monde dynamique du développement .NET, Aspose.Drawing s'impose comme un outil puissant pour manipuler facilement les images. L'ajout de texte aux images est une exigence courante, qu'il s'agisse de filigrane, d'annotations ou de création de graphiques personnalisés. Dans ce didacticiel, nous explorerons comment exploiter Aspose.Drawing pour intégrer de manière transparente du texte dans vos images à l'aide de C#.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous d'avoir mis en place les éléments suivants :
 1.  Bibliothèque Aspose.Drawing : téléchargez et installez la bibliothèque Aspose.Drawing à partir du[Documentation Aspose.Drawing pour .NET](https://reference.aspose.com/drawing/net/).
@@ -72,7 +72,7 @@ Aspose.Drawing simplifie les tâches de manipulation d'images dans .NET, fournis
  Aspose.Drawing prend en charge un large éventail de formats d'image, y compris les formats populaires tels que JPEG, PNG et GIF. Se référer au[Documentation](https://reference.aspose.com/drawing/net/) pour une liste complète.
 ### Puis-je utiliser Aspose.Drawing pour des projets commerciaux ?
 Oui, Aspose.Drawing convient aux projets personnels et commerciaux. Pour plus de détails sur les licences, visitez le[page d'achat](https://purchase.aspose.com/buy).
-### Des licences temporaires sont-elles disponibles à des fins de tests ?
+### Des licences temporaires sont-elles disponibles à des fins de test ?
  Oui, vous pouvez obtenir une licence temporaire pour tester en visitant[Permis temporaire](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver le soutien de la communauté pour Aspose.Drawing ?
  Engagez-vous avec la communauté et obtenez du soutien sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).

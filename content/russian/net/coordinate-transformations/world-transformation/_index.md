@@ -90,7 +90,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\World
 
  A3: обратитесь к документации[здесь](https://reference.aspose.com/drawing/net/) для всестороннего понимания и примеров.
 
-### В4: Есть ли бесплатная пробная версия?
+### В4: Доступна ли бесплатная пробная версия?
 
  A4: Да, изучите возможности с помощью[бесплатная пробная версия](https://releases.aspose.com/) прежде чем совершить покупку.
 

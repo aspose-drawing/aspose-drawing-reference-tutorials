@@ -9,7 +9,7 @@ url: /sv/net/coordinate-transformations/local-transformation/
 ---
 ## Introduktion
 
-Vill du höja grafiken i din .NET-applikation med avancerade lokala transformationer? Aspose.Drawing för .NET ger utvecklare möjlighet att skapa fantastiska bilder genom att integrera lokala transformationer utan ansträngning. I den här handledningen kommer vi att fördjupa oss i världen av lokala transformationer med Aspose.Drawing, och guida dig genom varje steg för att låsa upp den fulla potentialen i detta kraftfulla bibliotek.
+Vill du höja grafiken i din .NET-applikation med avancerade lokala transformationer? Aspose.Drawing för .NET ger utvecklare möjlighet att skapa fantastiska bilder genom att integrera lokala transformationer utan ansträngning. I den här handledningen kommer vi att fördjupa oss i världen av lokala transformationer med hjälp av Aspose.Drawing, och guida dig genom varje steg för att frigöra den fulla potentialen i detta kraftfulla bibliotek.
 
 ## Förutsättningar
 

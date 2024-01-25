@@ -19,7 +19,7 @@ Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan e
 
 2. Geliştirme Ortamı: Aspose.Drawing'in projenize entegrasyonunu kolaylaştırmak için Visual Studio gibi uygun bir geliştirme ortamı kurun.
 
-3. .NET'in Temel Anlaşılması: Bu eğitimde .NET çerçevesine ilişkin temel bilgiler varsayıldığından, temel .NET kavramlarına aşina olun.
+3. .NET'in Temel Anlayışı: Bu eğitimde .NET çerçevesine ilişkin temel bilgiler varsayıldığından, temel .NET kavramlarına aşina olun.
 
 ## Ad Alanlarını İçe Aktar
 

@@ -2,7 +2,7 @@
 title: Dibujar arcos en Aspose.Drawing
 linktitle: Dibujar arcos en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
-description: Aprenda a dibujar arcos cautivadores en aplicaciones .NET utilizando Aspose.Drawing. Siga nuestra guía paso a paso para obtener resultados visuales sorprendentes.
+description: Aprenda a dibujar arcos cautivadores en aplicaciones .NET usando Aspose.Drawing. Siga nuestra guía paso a paso para obtener resultados visuales sorprendentes.
 type: docs
 weight: 11
 url: /es/net/lines-curves-and-shapes/draw-arc/

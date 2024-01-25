@@ -107,6 +107,6 @@ Sí, Aspose.Drawing admite una amplia gama de operaciones de dibujo para varios 
 
  Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para el apoyo de la comunidad.
 
-### ¿Puedo probar Aspose.Drawing antes de comprar?
+### ¿Puedo probar Aspose.Drawing antes de comprarlo?
 
  ¡Ciertamente! Comience con una prueba gratuita[aquí](https://releases.aspose.com/).
