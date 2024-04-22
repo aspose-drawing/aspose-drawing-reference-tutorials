@@ -50,7 +50,7 @@ Explore nuestros tutoriales completos sobre líneas, curvas y formas usando Aspo
 ### [Pinceles sólidos en Aspose.Drawing](./solid-brushes/)
 Descubra la magia de Aspose.Drawing para .NET. Domina los pinceles sólidos en esta guía paso a paso para obtener gráficos vibrantes.
 ### [Dibujar arcos en Aspose.Drawing](./draw-arc/)
-Aprenda a dibujar arcos cautivadores en aplicaciones .NET utilizando Aspose.Drawing. Siga nuestra guía paso a paso para obtener resultados visuales sorprendentes.
+Aprenda a dibujar arcos cautivadores en aplicaciones .NET usando Aspose.Drawing. Siga nuestra guía paso a paso para obtener resultados visuales sorprendentes.
 ### [Dibujar splines de Bézier en Aspose.Drawing](./draw-bezier-spline/)
 Explore el poder de Aspose.Drawing para .NET para crear impresionantes splines Bézier. Siga nuestra guía paso a paso para un desarrollo de gráficos perfecto.
 ### [Dibujar splines cardinales en Aspose.Drawing](./draw-cardinal-spline/)

@@ -43,7 +43,7 @@ Ensuite, initialisez l'objet graphique à partir du bitmap, vous permettant d'ef
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Étape 3 : définir le mode de lissage
+## Étape 3 : Définir le mode de lissage
 
 Activez l'anticrénelage en définissant la propriété SmoothingMode de l'objet graphique sur AntiAlias.
 

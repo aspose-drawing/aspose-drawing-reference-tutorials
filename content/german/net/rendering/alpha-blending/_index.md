@@ -61,7 +61,7 @@ Verwenden Sie die FillEllipse-Methode, um drei überlappende Ellipsen mit unters
 bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 ```
 
-Speichern Sie das resultierende Bild im gewünschten Verzeichnis. Stellen Sie sicher, dass Sie „Ihr Dokumentenverzeichnis“ durch den tatsächlichen Pfad ersetzen.
+Speichern Sie das resultierende Bild im gewünschten Verzeichnis. Stellen Sie sicher, dass Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad ersetzen.
 
 Glückwunsch! Sie haben Alpha Blending mit Aspose.Drawing in .NET erfolgreich angewendet.
 

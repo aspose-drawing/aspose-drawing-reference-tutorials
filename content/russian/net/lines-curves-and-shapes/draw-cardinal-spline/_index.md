@@ -82,7 +82,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_o
 
  A3: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) за поддержку сообщества и обсуждения.
 
-### В4: Есть ли бесплатная пробная версия?
+### В4: Доступна ли бесплатная пробная версия?
 
  A4: Да, изучите возможности с помощью[бесплатная пробная версия](https://releases.aspose.com/)версию перед совершением покупки.
 

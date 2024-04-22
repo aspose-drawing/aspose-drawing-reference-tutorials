@@ -103,7 +103,7 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 
  استكشاف الوثائق الشاملة[هنا](https://reference.aspose.com/drawing/net/).
 
-### كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟
+### كيف يمكنني الحصول على الدعم إذا واجهت مشكلات؟
 
  قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لدعم المجتمع.
 

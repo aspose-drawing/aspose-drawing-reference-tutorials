@@ -81,7 +81,7 @@ Repita estos pasos según sea necesario en su aplicación para aplicar antialias
 
 ## Conclusión
 
-¡Felicidades! Ha implementado con éxito el antialiasing en su aplicación .NET usando Aspose.Drawing. Esta técnica mejora el atractivo visual de sus gráficos, proporcionando imágenes más fluidas y de apariencia más profesional.
+¡Felicidades! Ha implementado con éxito el antialiasing en su aplicación .NET usando Aspose.Drawing. Esta técnica mejora el atractivo visual de sus gráficos, proporcionando imágenes más fluidas y de aspecto más profesional.
 
 ## Preguntas frecuentes
 

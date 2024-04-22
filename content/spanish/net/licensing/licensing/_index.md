@@ -56,7 +56,7 @@ Console.WriteLine("License set successfully.");
 
 ## Cargando licencia desde una secuencia
 
-Cargar una licencia desde una secuencia ofrece flexibilidad. Así es como puedes hacerlo:
+Cargar una licencia desde una transmisión ofrece flexibilidad. Así es como puedes hacerlo:
 
 ### Paso 1: inicializar el objeto de licencia
 

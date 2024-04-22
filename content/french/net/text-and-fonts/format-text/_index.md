@@ -19,7 +19,7 @@ Avant de nous lancer dans ce voyage, assurez-vous d’avoir les conditions préa
 
 2. Environnement de développement : configurez un environnement de développement adapté, tel que Visual Studio, pour faciliter l'intégration d'Aspose.Drawing dans votre projet.
 
-3. Compréhension de base de .NET : Familiarisez-vous avec les concepts de base de .NET, car ce didacticiel suppose une connaissance fondamentale du framework .NET.
+3. Compréhension de base de .NET : familiarisez-vous avec les concepts de base de .NET, car ce didacticiel suppose une connaissance fondamentale du framework .NET.
 
 ## Importer des espaces de noms
 

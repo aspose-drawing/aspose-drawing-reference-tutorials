@@ -80,7 +80,7 @@ A1 : Oui, Aspose.Drawing s'intègre de manière transparente à diverses bibliot
 
 A2 : Absolument ! Aspose.Drawing fournit une interface conviviale, la rendant accessible aussi bien aux développeurs débutants qu'expérimentés.
 
-### Q3 : Où puis-je trouver de l'assistance pour Aspose.Drawing ?
+### Q3 : Où puis-je trouver de l'aide pour Aspose.Drawing ?
 
  A3 : Pour toute question ou assistance, visitez notre[forum d'entraide](https://forum.aspose.com/c/diagram/17).
 

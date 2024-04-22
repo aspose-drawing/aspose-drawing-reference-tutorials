@@ -9,7 +9,7 @@ url: /es/net/coordinate-transformations/units-of-measure/
 ---
 ## Introducción
 
-Bienvenido al mundo de Aspose.Drawing para .NET, donde la precisión y la flexibilidad se combinan en la manipulación gráfica. En este tutorial, profundizaremos en las complejidades de las unidades de medida dentro de Aspose.Drawing, brindándole una guía paso a paso para aprovechar el poder de esta extraordinaria biblioteca.
+Bienvenido al mundo de Aspose.Drawing para .NET, donde la precisión y la flexibilidad se combinan en la manipulación gráfica. En este tutorial, profundizaremos en las complejidades de las unidades de medida dentro de Aspose.Drawing, brindándole una guía paso a paso para aprovechar el poder de esta notable biblioteca.
 
 ## Requisitos previos
 
@@ -117,6 +117,6 @@ R1: Sí, Aspose.Drawing es compatible con varios marcos .NET, lo que brinda flex
 
  R4: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
-### P5: ¿Dónde puedo encontrar documentación detallada para Aspose.Drawing?
+### P5: ¿Dónde puedo encontrar documentación detallada sobre Aspose.Drawing?
 
  A5: La documentación completa está disponible[aquí](https://reference.aspose.com/drawing/net/).

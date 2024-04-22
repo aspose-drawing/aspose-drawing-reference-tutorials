@@ -46,7 +46,7 @@ graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ## 第2步：设置转换
 
 ```csharp
-//设置将世界坐标映射到页面坐标的变换：
+//设置将世界坐标映射到页面坐标的转换：
 graphics.TranslateTransform(500, 400);
 ```
 

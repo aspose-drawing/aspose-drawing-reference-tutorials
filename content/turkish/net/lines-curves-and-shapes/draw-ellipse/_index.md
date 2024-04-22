@@ -93,6 +93,6 @@ A3: Kesinlikle! Aspose.Drawing, karmaşık grafik görevlerini kolaylıkla gerç
 
  Cevap4: Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/diagram/17) Toplumsal destek ve yardım için.
 
-### S5: Ücretsiz deneme sürümü var mı?
+### S5: Ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, ücretsiz deneme sürümüyle kütüphaneyi keşfedebilirsiniz[Burada](https://releases.aspose.com/).

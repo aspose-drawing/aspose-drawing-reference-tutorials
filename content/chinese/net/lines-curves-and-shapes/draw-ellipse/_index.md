@@ -79,7 +79,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 
 ### Q1：我可以自定义椭圆的颜色吗？
 
- A1: 是的，可以。只需修改颜色设置`Pen`对象以获得所需的颜色。
+ A1: 是的，可以。只需修改颜色设置即可`Pen`对象以获得所需的颜色。
 
 ### Q2：我还可以使用 Aspose.Drawing 绘制哪些其他形状？
 
