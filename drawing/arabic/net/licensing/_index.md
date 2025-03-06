@@ -3,10 +3,16 @@ title: الترخيص
 linktitle: الترخيص
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان لإمكانات Aspose.Drawing الكاملة في .NET من خلال دروس الترخيص السلسة. يمكنك الدمج بسهولة ورفع مستوى الرسومات ومعالجة الصور بسهولة.
-type: docs
 weight: 22
 url: /ar/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص
+
 
 ## مقدمة
 
@@ -34,3 +40,9 @@ url: /ar/net/licensing/
 ## دروس الترخيص
 ### [الترخيص في Aspose.Drawing](./licensing/)
 أطلق العنان للإمكانات الكاملة لـ Aspose.Drawing في .NET. الترخيص الرئيسي للتكامل السلس. قم بالتنزيل الآن ورفع مستوى الرسومات ومعالجة الصور.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

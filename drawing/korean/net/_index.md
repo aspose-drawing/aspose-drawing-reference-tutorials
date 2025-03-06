@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose. Drawing의 포괄적인 튜토리얼 및 예
 linktitle: .NET 튜토리얼용 Aspose.드로잉
-type: docs
 weight: 10
 url: /ko/net/
 description: .NET용 Aspose. Drawing으로 그래픽 기술을 향상하세요! 정확한 좌표 변환부터 동적 텍스트 및 글꼴에 이르기까지 당사의 튜토리얼은 그래픽의 잠재력을 최대한 활용합니다.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose. Drawing의 포괄적인 튜토리얼 및 예
+
 
 ## 소개
 
@@ -55,3 +60,9 @@ Aspose.드로잉으로 .NET 그래픽 마스터의 잠금을 해제하세요! �
 .NET용 Aspose.드로잉을 잠금해제하세요! 동적 텍스트, 글꼴 및 이미지 생성을 마스터하세요. 선명한 시각적 효과를 위한 완벽한 텍스트 서식 지정, 힌트 및 글꼴 조작.
 ### [사용 사례](./use-cases/)
 .NET용 Aspose. Drawing을 사용하여 일러스트레이션을 향상시키세요! 튜토리얼을 통해 콜아웃을 추가하고, 멋진 프레임을 만들고, 텍스트를 이미지에 원활하게 통합하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

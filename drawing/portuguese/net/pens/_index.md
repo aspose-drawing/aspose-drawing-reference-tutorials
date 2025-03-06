@@ -3,10 +3,16 @@ title: Canetas
 linktitle: Canetas
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Desbloqueie o poder da programação gráfica em .NET com os tutoriais Aspose.Drawing. Descubra a manipulação de cores, a junção de caminhos e a configuração dinâmica da largura da caneta para obter visuais impressionantes.
-type: docs
 weight: 24
 url: /pt/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Canetas
+
 
 ## Introdução
 
@@ -40,3 +46,9 @@ Explore o mundo vibrante da programação gráfica em .NET com Aspose.Drawing. C
 Explore a arte de unir caminhos com canetas no Aspose.Drawing for .NET. Crie gráficos impressionantes com opções de LineJoin.
 ### [Configurando a largura das canetas em Aspose.Drawing](./width/)
 Explore o mundo dos gráficos com Aspose.Drawing for .NET. Aprenda como definir larguras de caneta dinamicamente para obter visuais impressionantes. Comece com nosso guia passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kreatywnie oprawiaj swoje zdjęcia za pomocą Aspose.Drawing dla .NET
 linktitle: Tworzenie ramek do zdjęć w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Ulepsz swoje obrazy za pomocą Aspose.Drawing dla .NET! Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby stworzyć wspaniałe ramki do zdjęć. Poznaj teraz Aspose.Drawing dla .NET!
-type: docs
 weight: 11
 url: /pl/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kreatywnie oprawiaj swoje zdjęcia za pomocą Aspose.Drawing dla .NET
+
 ## Wstęp
 Czy chcesz dodać swoim zdjęciom odrobinę elegancji? Dzięki Aspose.Drawing dla .NET możesz łatwo tworzyć urzekające ramki do zdjęć, aby poprawić atrakcyjność wizualną swoich zdjęć. Ten przewodnik krok po kroku przeprowadzi Cię przez proces tworzenia wspaniałych ramek do zdjęć przy użyciu zaawansowanych funkcji Aspose.Drawing.
 ## Warunki wstępne
@@ -98,3 +104,9 @@ Absolutnie! Masz pełną kontrolę nad kolorem i grubością ramy, co pozwala na
  Odwiedź forum Aspose.Drawing[Tutaj](https://forum.aspose.com/c/diagram/17) aby uzyskać pomoc i nawiązać kontakt ze społecznością.
 ### Czy mogę używać Aspose.Drawing do projektów komercyjnych?
  Tak, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) do użytku komercyjnego.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

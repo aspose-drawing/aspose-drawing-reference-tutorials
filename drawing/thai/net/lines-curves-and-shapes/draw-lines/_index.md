@@ -3,10 +3,16 @@ title: การวาดเส้นใน Aspose. Drawing
 linktitle: การวาดเส้นใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: เรียนรู้วิธีการวาดเส้นในแอปพลิเคชัน .NET ด้วย Aspose. Drawing บทช่วยสอนแบบทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการเพื่อให้ได้กราฟิกที่น่าทึ่ง
-type: docs
 weight: 16
 url: /th/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดเส้นใน Aspose. Drawing
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการวาดเส้นโดยใช้ Aspose. Drawing สำหรับ .NET! Aspose. Drawing เป็นไลบรารีอันทรงพลังที่ช่วยให้คุณสามารถจัดการและสร้างรูปภาพในแอปพลิเคชัน .NET ของคุณได้ ในบทช่วยสอนนี้ เราจะเน้นที่พื้นฐานของการวาดเส้น ซึ่งเป็นทักษะที่จำเป็นสำหรับการสร้างกราฟิกที่ดึงดูดสายตา
@@ -99,3 +105,9 @@ A4: เพื่อจัดการกับข้อผิดพลาด ค
 ### คำถามที่ 5: ฉันสามารถใช้ Aspose. Drawing สำหรับโครงการเชิงพาณิชย์ได้หรือไม่
 
  A5: ได้ คุณสามารถใช้ Aspose. Drawing สำหรับโครงการเชิงพาณิชย์ได้ เยี่ยมชม[หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดใบอนุญาต
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

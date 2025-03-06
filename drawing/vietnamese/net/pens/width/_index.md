@@ -3,10 +3,16 @@ title: Đặt độ rộng của bút trong Aspose.draw
 linktitle: Đặt độ rộng của bút trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá thế giới đồ họa với Aspose.draw cho .NET. Tìm hiểu cách thiết lập độ rộng bút một cách linh hoạt để có hình ảnh tuyệt đẹp. Bắt đầu với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 12
 url: /vi/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt độ rộng của bút trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thiết lập chiều rộng của bút bằng Aspose.draw cho .NET. Aspose. Draw là một thư viện mạnh mẽ cung cấp chức năng mở rộng để làm việc với đồ họa và hình ảnh trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ tập trung vào một khía cạnh cụ thể—điều chỉnh độ rộng của bút để nâng cao đồ họa của bạn.
@@ -87,3 +93,9 @@ Chúc mừng! Bạn đã học thành công cách đặt chiều rộng của b�
 ### Câu hỏi 5: Hiện có những nguồn tài liệu nào?
 
  A5: Hãy tham khảo[Tài liệu Aspose.draw](https://reference.aspose.com/drawing/net/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

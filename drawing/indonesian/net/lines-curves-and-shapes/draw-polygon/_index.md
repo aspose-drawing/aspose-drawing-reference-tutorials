@@ -3,10 +3,16 @@ title: Menggambar Poligon di Aspose.Drawing
 linktitle: Menggambar Poligon di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi kekuatan Aspose.Drawing untuk .NET dalam menciptakan grafis yang menakjubkan. Gambarlah poligon dengan mudah menggunakan perpustakaan intuitif ini.
-type: docs
 weight: 18
 url: /id/net/lines-curves-and-shapes/draw-polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Poligon di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di dunia manipulasi grafis yang menarik menggunakan Aspose.Drawing untuk .NET! Dalam tutorial ini, kita akan mempelajari proses menggambar poligon, aspek mendasar dari desain grafis dan pembuatan gambar. Aspose.Drawing menyediakan seperangkat alat canggih untuk menjadikan tugas ini intuitif dan efisien.
@@ -96,3 +102,9 @@ A2: Tentu saja! Anda dapat menggambar poligon sebanyak yang diperlukan pada satu
 ### Q5: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas?
 
  A5: Untuk pertanyaan atau diskusi apa pun, kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk terlibat dengan komunitas Aspose yang dinamis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

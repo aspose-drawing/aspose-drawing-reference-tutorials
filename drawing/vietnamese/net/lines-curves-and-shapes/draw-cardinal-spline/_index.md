@@ -3,10 +3,16 @@ title: Vẽ Cardinal Splines trong Aspose.draw
 linktitle: Vẽ Cardinal Splines trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá nghệ thuật vẽ các đường trục chính trong các ứng dụng .NET với Aspose.drawing. Tạo những đường cong mượt mà một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ Cardinal Splines trong Aspose.draw
+
 ## Giới thiệu
 
 Aspose. Draw for .NET trao quyền cho các nhà phát triển tạo ra các ứng dụng đồ họa phức tạp một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của việc vẽ các đường trục chính bằng Aspose.draw. Các đường cong Cardinal cung cấp phép nội suy đường cong mượt mà và với khả năng mạnh mẽ của Aspose. Draw, bạn có thể dễ dàng tích hợp các đường cong này vào các ứng dụng .NET của mình.
@@ -89,3 +95,9 @@ Trong hướng dẫn này, chúng ta đã khám phá quá trình vẽ các đư�
 ### Câu hỏi 5: Làm cách nào để truy cập tài liệu?
 
  A5: Tham khảo toàn diện[tài liệu](https://reference.aspose.com/drawing/net/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

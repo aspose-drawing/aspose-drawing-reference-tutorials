@@ -3,10 +3,16 @@ title: Téglalapok rajzolása Aspose-ban.Drawing
 linktitle: Téglalapok rajzolása Aspose-ban.Drawing
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Ismerje meg, hogyan rajzolhat téglalapokat .NET-ben az Aspose.Drawing segítségével. Útmutató lépésről lépésre kódpéldákkal.
-type: docs
 weight: 19
 url: /hu/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalapok rajzolása Aspose-ban.Drawing
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban, amely a téglalapok Aspose.Drawing for .NET segítségével történő rajzolásáról szól. Akár tapasztalt fejlesztő, akár újonc az Aspose.Drawingben, ez az útmutató végigvezeti Önt a .NET-alkalmazások téglalapok létrehozásának és kezelésének folyamatán.
@@ -98,3 +104,9 @@ A4: Abszolút! Az Aspose.Drawing fejlett funkciókat kínál bonyolult grafikus 
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.Drawing-t?
 
  A5: Látogassa meg[itt](https://purchase.aspose.com/buy) engedélyt vásárolni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

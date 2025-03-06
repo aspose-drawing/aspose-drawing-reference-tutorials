@@ -3,10 +3,16 @@ title: Единицы измерения в Aspose.Drawing для .NET
 linktitle: Единицы измерения в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Изучите универсальность Aspose.Drawing для .NET в этом подробном руководстве и освоите единицы измерения для точной графики.
-type: docs
 weight: 14
 url: /ru/net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Единицы измерения в Aspose.Drawing для .NET
+
 ## Введение
 
 Добро пожаловать в мир Aspose.Drawing для .NET, где точность и гибкость сочетаются в графических манипуляциях. В этом уроке мы углубимся в тонкости единиц измерения в Aspose.Drawing, предоставив вам пошаговое руководство по использованию возможностей этой замечательной библиотеки.
@@ -120,3 +126,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Units
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.Drawing?
 
  A5: доступна полная документация.[здесь](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

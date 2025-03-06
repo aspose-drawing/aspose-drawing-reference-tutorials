@@ -3,10 +3,16 @@ title: Vẽ hình chữ nhật trong Aspose.draw
 linktitle: Vẽ hình chữ nhật trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách vẽ hình chữ nhật trong .NET bằng Aspose.drawing. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 19
 url: /vi/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ hình chữ nhật trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách vẽ hình chữ nhật bằng Aspose.draw cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới sử dụng Aspose.draw, hướng dẫn này sẽ hướng dẫn bạn qua quy trình tạo và thao tác hình chữ nhật trong ứng dụng .NET của bạn.
@@ -98,3 +104,9 @@ A4: Chắc chắn rồi! Aspose.draw cung cấp các tính năng nâng cao để
 ### Câu 5: Tôi có thể mua Aspose.drawing ở đâu?
 
  A5: Thăm quan[đây](https://purchase.aspose.com/buy) để mua giấy phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قص الصور في Aspose.Drawing
 linktitle: قص الصور في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: إتقان اقتصاص الصور باستخدام Aspose.Drawing لـ .NET. يعمل هذا الدليل التفصيلي على تمكين المطورين من تحسين مهارات معالجة الصور دون عناء.
-type: docs
 weight: 10
 url: /ar/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص الصور في Aspose.Drawing
+
 ## مقدمة
 
 في عالم تطوير .NET، تبرز Aspose.Drawing كأداة قوية لمعالجة الصور. إحدى ميزاته المفيدة هي القدرة على اقتصاص الصور بدقة. في هذا البرنامج التعليمي، سنتعرف على عملية اقتصاص الصور باستخدام Aspose.Drawing for .NET. استعد لتعزيز مهاراتك في معالجة الصور!
@@ -106,3 +112,10 @@ bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ### س5: كيف يمكنني الحصول على الدعم للاستعلامات المتعلقة بـ Aspose.Drawing؟
 
  ج5: توجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لطلب المساعدة والتواصل مع المجتمع.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

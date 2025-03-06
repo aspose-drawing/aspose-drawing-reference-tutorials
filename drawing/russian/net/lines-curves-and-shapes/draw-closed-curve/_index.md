@@ -3,10 +3,16 @@ title: Рисование замкнутых кривых в Aspose.Drawing
 linktitle: Рисование замкнутых кривых в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Изучите искусство рисования замкнутых кривых в приложениях .NET с помощью Aspose.Drawing. Улучшите свои визуальные эффекты без особых усилий.
-type: docs
 weight: 14
 url: /ru/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование замкнутых кривых в Aspose.Drawing
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по рисованию замкнутых кривых в Aspose.Drawing для .NET! Если вы хотите улучшить свои .NET-приложения с помощью ярких и точных замкнутых кривых, вы попали по адресу. В этом уроке мы шаг за шагом рассмотрим этот процесс, чтобы вы получили четкое представление о библиотеке Aspose.Drawing и ее возможностях.
@@ -84,3 +90,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 ### Вопрос 5: Какие варианты поддержки доступны?
 
  О5: Если вам нужна помощь или у вас есть вопросы, зайдите на[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

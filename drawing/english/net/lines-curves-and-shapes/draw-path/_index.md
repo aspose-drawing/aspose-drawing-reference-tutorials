@@ -3,10 +3,16 @@ title: Drawing Paths in Aspose.Drawing
 linktitle: Drawing Paths in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn to draw paths in Aspose.Drawing for .NET with this step-by-step guide. Create stunning graphics effortlessly.
-type: docs
 weight: 17
 url: /net/lines-curves-and-shapes/draw-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Paths in Aspose.Drawing
+
 ## Introduction
 
 Welcome to our comprehensive guide on drawing paths in Aspose.Drawing for .NET. Whether you're a seasoned developer or a newcomer to graphics programming, this tutorial will walk you through the process of creating intricate paths using Aspose.Drawing. Aspose.Drawing is a powerful library that simplifies graphics operations in .NET applications, offering a wide range of functionalities for creating, editing, and manipulating images.
@@ -100,3 +106,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Can I purchase Aspose.Drawing?
 
 A5: Yes, you can purchase Aspose.Drawing [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

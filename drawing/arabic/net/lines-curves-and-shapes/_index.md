@@ -3,10 +3,16 @@ title: الخطوط والمنحنيات والأشكال
 linktitle: الخطوط والمنحنيات والأشكال
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان لسحر .NET الخاص بـ Aspose.Drawing! استكشف البرامج التعليمية للخطوط والمنحنيات والأشكال للحصول على رسومات نابضة بالحياة - أتقن استخدام الفرش الصلبة والأقواس والخطوط والقطع الناقص والمزيد من الإبداع.
-type: docs
 weight: 23
 url: /ar/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الخطوط والمنحنيات والأشكال
+
 
 ## مقدمة
 
@@ -69,3 +75,9 @@ url: /ar/net/lines-curves-and-shapes/
 تعرف على كيفية رسم المستطيلات في .NET باستخدام Aspose.Drawing. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
 ### [ملء المناطق في Aspose.Drawing](./fill-region/)
 تعرف على كيفية ملء المناطق في Aspose.Drawing لـ .NET باستخدام هذا البرنامج التعليمي خطوة بخطوة. عزز مهاراتك في التصميم الجرافيكي دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

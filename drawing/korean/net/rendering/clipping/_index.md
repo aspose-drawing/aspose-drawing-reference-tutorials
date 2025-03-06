@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 클리핑
 linktitle: Aspose.드로잉에서 클리핑
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: 향상된 그래픽 디자인을 위한 클리핑 구현에 대한 단계별 튜토리얼을 통해 Aspose. Drawing for .NET의 강력한 기능을 살펴보세요.
-type: docs
 weight: 12
 url: /ko/net/rendering/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 클리핑
+
 ## 소개
 
 그래픽 디자인 및 이미지 처리 영역에서는 이미지의 일부를 선택적으로 표시하거나 숨기는 기능이 가장 중요합니다. 여기가 클리핑이 작동하는 곳이며 .NET용 Aspose. Drawing을 사용하면 클리핑 기술을 원활하게 통합하여 시각적 창작물을 향상시킬 수 있습니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 클리핑을 구현하는 단계별 프로세스를 자세히 살펴보고 관련된 복잡한 사항을 파악할 것입니다.
@@ -112,3 +118,9 @@ A4: 예, Aspose. Drawing은 다목적이며 데스크톱 및 웹 기반 .NET 응
 ### Q5: 리소스 소비 측면에서 클리핑을 사용하면 성능에 어떤 영향을 미치나요?
 
 A5: Clipping은 가벼운 작업이며 Aspose. Drawing은 효율적인 리소스 활용에 최적화되어 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

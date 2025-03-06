@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中縮放影像
 linktitle: 在 Aspose.Drawing 中縮放影像
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 了解如何使用 Aspose.Drawing 在 .NET 中輕鬆縮放影像。我們的逐步指南可確保無縫集成，提供強大的影像處理功能。
-type: docs
 weight: 14
 url: /zh-hant/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中縮放影像
+
 ## 介紹
 
 歡迎閱讀使用 Aspose.Drawing for .NET 縮放影像的綜合指南！在軟體開發的動態世界中，操作和縮放影像是常見的要求。 Aspose.Drawing 簡化了這個過程，提供了強大的工具和功能來處理 .NET 應用程式中的映像。
@@ -107,3 +113,9 @@ A1：是的，Aspose.Drawing 用途廣泛，可用於各種 .NET 應用程序，
 ### Q5：我可以應用自訂插值模式進行影像縮放嗎？
 
 A5：是的，Aspose.Drawing 提供了靈活性，讓您可以選擇各種插值模式來進行影像縮放。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

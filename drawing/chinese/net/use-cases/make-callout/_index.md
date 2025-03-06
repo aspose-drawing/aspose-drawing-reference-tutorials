@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中进行标注
 linktitle: 在 Aspose.Drawing 中进行标注
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing for .NET 增强您的文档插图！逐步了解如何添加标注以获得更清晰、信息丰富的视觉效果。
-type: docs
 weight: 10
 url: /zh/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中进行标注
+
 ## 介绍
 欢迎来到我们关于在 Aspose.Drawing for .NET 中进行标注的分步指南！如果您希望通过标注来增强文档插图，那么您来对地方了。在本教程中，我们将使用 Aspose.Drawing 库将该过程分解为可管理的步骤。
 ## 先决条件
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### 我可以在购买前试用 Aspose.Drawing 吗？
 
 当然！开始免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

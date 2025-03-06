@@ -3,10 +3,16 @@ title: التحويل المحلي في Aspose.Drawing لـ .NET
 linktitle: التحول المحلي في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: استكشف التحولات المحلية في Aspose.Drawing لـ .NET. ارفع مستوى الرسومات بخطوات سهلة المتابعة.
-type: docs
 weight: 11
 url: /ar/net/coordinate-transformations/local-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحويل المحلي في Aspose.Drawing لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى رفع مستوى رسومات تطبيق .NET الخاص بك من خلال التحويلات المحلية المتقدمة؟ يعمل Aspose.Drawing for .NET على تمكين المطورين من إنشاء صور مذهلة من خلال دمج التحويلات المحلية دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في عالم التحولات المحلية باستخدام Aspose.Drawing، ونرشدك خلال كل خطوة لفتح الإمكانات الكاملة لهذه المكتبة القوية.
@@ -111,3 +117,9 @@ A1: نعم، يمكنك سلسلة تحويلات متعددة من خلال ت�
 ### س5: هل يمكنني تجربة Aspose.Drawing قبل الشراء؟*
 
  ج5: نعم، يمكنك استكشاف المكتبة باستخدام أ[تجربة مجانية](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

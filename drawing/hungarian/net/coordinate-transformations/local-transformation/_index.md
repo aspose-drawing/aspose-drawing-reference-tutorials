@@ -3,10 +3,16 @@ title: Helyi átalakítás az Aspose.Drawing for .NET-ben
 linktitle: Helyi átalakulás Aspose-ban.Rajz
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Fedezze fel az Aspose.Drawing for .NET helyi átalakításait. Emelje fel a grafikát könnyen követhető lépésekkel.
-type: docs
 weight: 11
 url: /hu/net/coordinate-transformations/local-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Helyi átalakítás az Aspose.Drawing for .NET-ben
+
 ## Bevezetés
 
 Továbbfejlesztett helyi átalakításokkal szeretné javítani .NET-alkalmazása grafikáját? Az Aspose.Drawing for .NET lehetővé teszi a fejlesztők számára, hogy lenyűgöző látványelemeket hozzanak létre a helyi átalakítások egyszerű beépítésével. Ebben az oktatóanyagban az Aspose.Drawing segítségével elmélyülünk az Aspose.Drawing helyi átalakításainak világában, végigvezetve Önt minden egyes lépésen, hogy kiaknázhassa a nagy teljesítményű könyvtárban rejlő lehetőségeket.
@@ -111,3 +117,9 @@ A3: Az elforgatás mellett az Aspose.Drawing támogatja a fordítást, a mérete
 ### 5. kérdés: Kipróbálhatom az Aspose.Drawing programot vásárlás előtt?*
 
  V5: Igen, felfedezheti a könyvtárat a[ingyenes próbaverzió](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

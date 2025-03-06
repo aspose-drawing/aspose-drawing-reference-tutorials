@@ -3,10 +3,16 @@ title: Масштабирование изображений в Aspose.Drawing
 linktitle: Масштабирование изображений в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Узнайте, как легко масштабировать изображения в .NET с помощью Aspose.Drawing. Наше пошаговое руководство обеспечивает плавную интеграцию и предоставляет мощные возможности манипулирования изображениями.
-type: docs
 weight: 14
 url: /ru/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Масштабирование изображений в Aspose.Drawing
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по масштабированию изображений с помощью Aspose.Drawing для .NET! В динамичном мире разработки программного обеспечения манипулирование и масштабирование изображений является обычным требованием. Aspose.Drawing упрощает этот процесс, предлагая мощные инструменты и функции для работы с изображениями в ваших .NET-приложениях.
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
 ### Вопрос 5. Могу ли я применять собственные режимы интерполяции для масштабирования изображения?
 
 О5: Да, Aspose.Drawing обеспечивает гибкость, позволяя вам выбирать различные режимы интерполяции для масштабирования изображения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

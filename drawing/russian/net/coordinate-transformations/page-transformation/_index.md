@@ -3,10 +3,16 @@ title: Преобразование страниц в Aspose.Drawing для .NET
 linktitle: Преобразование страницы в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Изучите пошаговые преобразования страниц в .NET с помощью Aspose.Drawing. Улучшите свои графические навыки с помощью этого подробного руководства.
-type: docs
 weight: 13
 url: /ru/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование страниц в Aspose.Drawing для .NET
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по преобразованию страниц с помощью Aspose.Drawing для .NET. Если вы хотите улучшить свои навыки работы с графикой и преобразованиями растровых изображений, вы попали по адресу. В этом уроке мы проведем вас через процесс преобразования страниц с помощью Aspose.Drawing, гарантируя, что вы четко поймете каждый шаг.
@@ -109,3 +115,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ### Вопрос 5: Где я могу приобрести Aspose.Drawing?
 
  A5: Вы можете приобрести Aspose.Drawing[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

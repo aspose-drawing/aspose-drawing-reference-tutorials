@@ -3,10 +3,16 @@ title: Ösvények összekapcsolása tollakkal az Aspose.Drawingben
 linktitle: Ösvények összekapcsolása tollakkal az Aspose.Drawingben
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Fedezze fel a pályák tollakkal való összekapcsolásának művészetét az Aspose.Drawing for .NET-ben. Lenyűgöző grafikákat készíthet a LineJoin opciókkal.
-type: docs
 weight: 11
 url: /hu/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ösvények összekapcsolása tollakkal az Aspose.Drawingben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Drawing for .NET világában! Ebben az oktatóanyagban az Aspose.Drawing, a .NET-alkalmazások grafikáival és képeivel való munkavégzéshez széleskörű funkcionalitást biztosító hatékony könyvtár használatával elmélyítjük az útvonalak tollakkal való összekapcsolásának művészetét.
@@ -107,3 +113,9 @@ Ebben az oktatóanyagban az Aspose.Drawing for .NET programban az útvonalak tol
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.Drawing-t?
 
  A5: Vásároljon Aspose.Drawing[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Linie, krzywe i kształty
 linktitle: Linie, krzywe i kształty
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Uwolnij magię .NET Aspose.Drawing! Przeglądaj samouczki dotyczące linii, krzywych i kształtów, aby uzyskać żywą grafikę — opanuj pełne pędzle, łuki, splajny, elipsy i wiele więcej.
-type: docs
 weight: 23
 url: /pl/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linie, krzywe i kształty
+
 
 ## Wstęp
 
@@ -69,3 +75,9 @@ Odkryj moc Aspose.Drawing dla .NET w tworzeniu oszałamiającej grafiki. Dzięki
 Dowiedz się, jak rysować prostokąty w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku z przykładami kodu.
 ### [Wypełnianie regionów w Aspose.Drawing](./fill-region/)
 Dowiedz się, jak wypełnić regiony w Aspose.Drawing dla .NET, korzystając z tego samouczka krok po kroku. Zwiększ swoje umiejętności projektowania graficznego bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vytváření popisků v Aspose.Drawing
 linktitle: Vytváření popisků v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Vylepšete své ilustrace dokumentů pomocí Aspose.Drawing pro .NET! Naučte se krok za krokem přidávat popisky pro jasnější a informativní vizuály.
-type: docs
 weight: 10
 url: /cs/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření popisků v Aspose.Drawing
+
 ## Úvod
 Vítejte v našem podrobném průvodci vytvářením popisků v Aspose.Drawing pro .NET! Pokud chcete vylepšit své ilustrace dokumentů popisky, jste na správném místě. V tomto tutoriálu rozdělíme proces na zvládnutelné kroky pomocí knihovny Aspose.Drawing.
 ## Předpoklady
@@ -110,3 +116,9 @@ Absolutně! Aspose.Drawing podporuje oblíbené obrazové formáty jako PNG, JPE
 ### Mohu Aspose.Drawing před nákupem vyzkoušet?
 
  Rozhodně! Začněte s bezplatnou zkušební verzí[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

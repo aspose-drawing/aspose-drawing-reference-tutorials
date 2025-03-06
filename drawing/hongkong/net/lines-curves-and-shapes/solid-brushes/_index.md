@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的實心畫筆
 linktitle: Aspose.Drawing 中的實心畫筆
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 探索 Aspose.Drawing for .NET 的魔力。在本逐步指南中掌握純色畫筆，打造充滿活力的圖形。
-type: docs
 weight: 10
 url: /zh-hant/net/lines-curves-and-shapes/solid-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的實心畫筆
+
 ## 介紹
 
 歡迎來到我們關於在 Aspose.Drawing for .NET 中使用實體畫筆的綜合指南！如果您希望透過生動的自訂圖形來增強您的 .NET 應用程序，那麼本教程就是為您量身定制的。在本分步演練中，我們將深入研究實體畫筆的世界，教您如何使用 Aspose.Drawing 將鮮豔的色彩無縫地融入圖形中。
@@ -96,3 +102,9 @@ A4：請參閱[Aspose.Drawing for .NET 文檔](https://reference.aspose.com/draw
 ### Q5：Aspose.Drawing 上下文中的突發是什麼？
 
 A5：突發性是指Aspose.Drawing有效處理突然增加的圖形渲染需求的能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

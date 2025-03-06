@@ -3,10 +3,16 @@ title: การครอบตัดรูปภาพใน Aspose. Drawing
 linktitle: การครอบตัดรูปภาพใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: ต้นแบบการครอบตัดรูปภาพด้วย Aspose. Drawing สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ช่วยให้นักพัฒนาสามารถพัฒนาทักษะการประมวลผลภาพได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การครอบตัดรูปภาพใน Aspose. Drawing
+
 ## การแนะนำ
 
 ในโลกของการพัฒนา .NET Aspose. Drawing มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการจัดการรูปภาพ หนึ่งในคุณสมบัติที่มีประโยชน์คือความสามารถในการครอบตัดรูปภาพอย่างแม่นยำ ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการครอบตัดรูปภาพโดยใช้ Aspose. Drawing สำหรับ .NET เตรียมพร้อมที่จะพัฒนาทักษะการประมวลผลภาพของคุณ!
@@ -106,3 +112,10 @@ A3: ได้ คุณสามารถเชื่อมโยงการด
 ### คำถามที่ 5: ฉันจะได้รับการสนับสนุนสำหรับคำถามที่เกี่ยวข้องกับ Aspose. Drawing ได้อย่างไร
 
  A5: ตรงไปที่[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17) เพื่อขอความช่วยเหลือและเชื่อมโยงกับชุมชน
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

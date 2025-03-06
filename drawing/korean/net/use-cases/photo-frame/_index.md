@@ -3,10 +3,16 @@ title: .NET용 Aspose. Drawing을 사용하여 사진을 창의적으로 구성�
 linktitle: Aspose.드로잉에서 사진 프레임 만들기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing을 사용하여 이미지를 향상하세요! 단계별 가이드에 따라 멋진 사진 프레임을 만들어보세요. 지금 .NET용 Aspose.드로잉을 살펴보세요!
-type: docs
 weight: 11
 url: /ko/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose. Drawing을 사용하여 사진을 창의적으로 구성하세요
+
 ## 소개
 이미지에 우아함을 더하고 싶으십니까? .NET용 Aspose. Drawing을 사용하면 매력적인 사진 프레임을 쉽게 만들어 사진의 시각적 매력을 향상시킬 수 있습니다. 이 단계별 가이드는 Aspose. Drawing의 강력한 기능을 사용하여 멋진 사진 프레임을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -98,3 +104,9 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
  Aspose.드로잉 포럼을 방문하세요[여기](https://forum.aspose.com/c/diagram/17) 도움을 받고 지역 사회와 연결됩니다.
 ### 상업용 프로젝트에 Aspose. Drawing을 사용할 수 있나요?
  예, 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy) 상업적인 용도로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

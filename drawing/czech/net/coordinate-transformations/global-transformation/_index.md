@@ -3,10 +3,16 @@ title: Globální transformace v Aspose.Drawing pro .NET
 linktitle: Globální transformace v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Prozkoumejte globální transformace v Aspose.Drawing pro .NET a snadno vytvářejte ohromující grafiku. Postupujte podle našeho podrobného průvodce pro bezproblémový zážitek.
-type: docs
 weight: 10
 url: /cs/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Globální transformace v Aspose.Drawing pro .NET
+
 ## Úvod
 
 Vítejte ve světě Aspose.Drawing pro .NET! V tomto tutoriálu prozkoumáme koncept globální transformace pomocí Aspose.Drawing, výkonné knihovny pro manipulaci s grafikou v aplikacích .NET. Globální transformace umožňuje aplikovat transformace na každou nakreslenou položku v grafickém kontextu. To může být nesmírně užitečné, když chcete vytvářet složité vizuální efekty nebo manipulovat s obrázky v širším měřítku.
@@ -101,3 +107,9 @@ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.Drawing[tady](ht
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Drawing?
 
  A5: Získejte dočasnou licenci pro Aspose.Drawing[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

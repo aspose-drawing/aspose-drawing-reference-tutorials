@@ -3,10 +3,16 @@ title: Aspose.Drawing でのペンの幅の設定
 linktitle: Aspose.Drawing でのペンの幅の設定
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET でグラフィックスの世界を探索してください。素晴らしいビジュアルを実現するためにペンの幅を動的に設定する方法を学びましょう。ステップバイステップのガイドから始めましょう。
-type: docs
 weight: 12
 url: /ja/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing でのペンの幅の設定
+
 ## 導入
 
 Aspose.Drawing for .NET を使用してペンの幅を設定するためのこのステップバイステップ ガイドへようこそ。 Aspose.Drawing は、.NET アプリケーションでグラフィックスやイメージを操作するための広範な機能を提供する強力なライブラリです。このチュートリアルでは、ペンの幅を調整してグラフィックスを向上させるという特定の側面に焦点を当てます。
@@ -87,3 +93,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 ### Q5: どのようなドキュメント リソースが利用可能ですか?
 
  A5: を参照してください。[Aspose.Drawing ドキュメント](https://reference.aspose.com/drawing/net/)詳細な情報と例については、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

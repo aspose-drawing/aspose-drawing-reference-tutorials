@@ -3,10 +3,16 @@ title: تحويل الصفحة في Aspose.Drawing لـ .NET
 linktitle: تحويل الصفحة في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على تحويلات الصفحة خطوة بخطوة في .NET باستخدام Aspose.Drawing. عزز مهاراتك في الرسم باستخدام هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 13
 url: /ar/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل الصفحة في Aspose.Drawing لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تحويل الصفحة باستخدام Aspose.Drawing لـ .NET. إذا كنت تتطلع إلى تحسين مهاراتك في العمل مع الرسومات وتحويلات الصور النقطية، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل الصفحات باستخدام Aspose.Drawing، مما يضمن لك فهم كل خطوة بوضوح.
@@ -109,3 +115,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ### س5: أين يمكنني شراء Aspose.Drawing؟
 
  ج5: يمكنك شراء Aspose.Drawing[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

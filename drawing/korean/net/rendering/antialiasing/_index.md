@@ -3,10 +3,16 @@ title: Aspose.드로잉의 앤티앨리어싱
 linktitle: Aspose.드로잉의 앤티앨리어싱
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET 애플리케이션의 그래픽을 향상하세요. 부드러운 가장자리를 위해 앤티앨리어싱을 구현합니다. 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/rendering/antialiasing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉의 앤티앨리어싱
+
 ## 소개
 
 .NET용 Aspose.드로잉의 앤티앨리어싱 구현에 대한 포괄적인 가이드에 오신 것을 환영합니다. 앤티앨리어싱은 들쭉날쭉한 가장자리를 매끄럽게 만들어 시각적으로 매력적이고 고품질의 이미지를 만들어내는 컴퓨터 그래픽의 중요한 기술입니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 .NET 애플리케이션에 앤티앨리어싱을 통합하는 과정을 안내합니다.
@@ -104,3 +110,9 @@ A3: 예, Aspose. Drawing은 다목적이며 단순하고 복잡한 그래픽 애
 ### Q5: Aspose. Drawing에 대한 문서는 어디서 찾을 수 있나요?
 
  A5: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/drawing/net/), Aspose. Drawing을 최대한 활용하는 데 도움이 되는 포괄적인 정보와 예제를 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

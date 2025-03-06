@@ -3,10 +3,16 @@ title: Bingkai Foto Anda Secara Kreatif dengan Aspose.Drawing untuk .NET
 linktitle: Membuat Bingkai Foto di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Sempurnakan gambar Anda dengan Aspose.Drawing untuk .NET! Ikuti panduan langkah demi langkah kami untuk membuat bingkai foto yang menakjubkan. Jelajahi Aspose.Drawing untuk .NET sekarang!
-type: docs
 weight: 11
 url: /id/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bingkai Foto Anda Secara Kreatif dengan Aspose.Drawing untuk .NET
+
 ## Perkenalan
 Apakah Anda ingin menambahkan sentuhan elegan pada gambar Anda? Dengan Aspose.Drawing for .NET, Anda dapat dengan mudah membuat bingkai foto menawan untuk meningkatkan daya tarik visual gambar Anda. Panduan langkah demi langkah ini akan memandu Anda melalui proses pembuatan bingkai foto menakjubkan menggunakan fitur canggih Aspose.Drawing.
 ## Prasyarat
@@ -98,3 +104,9 @@ Sangat! Anda memiliki kendali penuh atas warna dan ketebalan bingkai, memungkink
  Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/diagram/17) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
 ### Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?
  Ya, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) untuk penggunaan komersial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

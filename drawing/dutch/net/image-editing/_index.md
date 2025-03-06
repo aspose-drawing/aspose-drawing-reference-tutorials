@@ -3,10 +3,16 @@ title: Foto bewerken
 linktitle: Foto bewerken
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Verbeter uw beeldbewerkingsvaardigheden met Aspose.Drawing-tutorials! Leer technieken voor bijsnijden, directe gegevenstoegang, weergave en schaling voor verbluffende resultaten.
-type: docs
 weight: 21
 url: /nl/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Foto bewerken
+
 
 ## Invoering
 
@@ -54,3 +60,9 @@ Leer hoe u afbeeldingen kunt weergeven in .NET-toepassingen met Aspose.Drawing. 
 Masterafbeeldingen laden en opslaan in .NET met Aspose.Drawing. Ontdek moeiteloos BMP-, GIF-, JPG-, PNG- en TIFF-formaten.
 ### [Afbeeldingen schalen in Aspose.Drawing](./scale/)
 Leer hoe u afbeeldingen moeiteloos kunt schalen in .NET met behulp van Aspose.Drawing. Onze stapsgewijze handleiding zorgt voor een naadloze integratie en biedt krachtige mogelijkheden voor beeldmanipulatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

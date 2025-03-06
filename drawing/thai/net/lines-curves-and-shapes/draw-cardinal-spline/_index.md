@@ -3,10 +3,16 @@ title: การวาดพระคาร์ดินัล Splines ใน Asp
 linktitle: การวาดพระคาร์ดินัล Splines ใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: สำรวจศิลปะของการวาดเส้นโค้งสำคัญในแอปพลิเคชัน .NET ด้วย Aspose. Drawing สร้างเส้นโค้งเรียบเนียนได้อย่างง่ายดาย
-type: docs
 weight: 13
 url: /th/net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดพระคาร์ดินัล Splines ใน Aspose. Drawing
+
 ## การแนะนำ
 
 Aspose. Drawing สำหรับ .NET ช่วยให้นักพัฒนาสามารถสร้างแอปพลิเคชันกราฟิกที่ซับซ้อนได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกโลกอันน่าทึ่งของการวาดเส้นโค้งคาร์ดินัลโดยใช้ Aspose. Drawing Cardinal Splines ให้การแก้ไขเส้นโค้งที่ราบรื่น และด้วยความสามารถอันทรงพลังของ Aspose. Drawing คุณสามารถรวมเส้นโค้งเหล่านี้เข้ากับแอปพลิเคชัน .NET ของคุณได้อย่างง่ายดาย
@@ -89,3 +95,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_o
 ### คำถามที่ 5: ฉันจะเข้าถึงเอกสารได้อย่างไร
 
  A5: อ้างถึงเนื้อหาที่ครอบคลุม[เอกสารประกอบ](https://reference.aspose.com/drawing/net/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

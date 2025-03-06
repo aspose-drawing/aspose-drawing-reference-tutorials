@@ -3,10 +3,16 @@ title: Vẽ đường trong Aspose.draw
 linktitle: Vẽ đường trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách vẽ đường trong ứng dụng .NET bằng Aspose.draw. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình để có được đồ họa tuyệt đẹp.
-type: docs
 weight: 16
 url: /vi/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ đường trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách vẽ đường bằng Aspose.draw cho .NET! Aspose. Draw là một thư viện mạnh mẽ cho phép bạn thao tác và tạo hình ảnh trong các ứng dụng .NET của mình. Trong hướng dẫn này, chúng ta sẽ tập trung vào những điều cơ bản về vẽ đường, một kỹ năng thiết yếu để tạo đồ họa hấp dẫn về mặt hình ảnh.
@@ -99,3 +105,9 @@ Câu trả lời 4: Để xử lý lỗi, bạn có thể triển khai các kh�
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.draw cho một dự án thương mại không?
 
  Câu trả lời 5: Có, bạn có thể sử dụng Aspose.draw cho các dự án thương mại. Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để biết chi tiết cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的 Alpha 混合
 linktitle: Aspose.Drawing 中的 Alpha 混合
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 解锁 .NET 图形中 alpha 混合的魔力。通过半透明效果提升您的项目。
-type: docs
 weight: 10
 url: /zh/net/rendering/alpha-blending/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的 Alpha 混合
+
 ## 介绍
 
 欢迎来到 Aspose.Drawing for .NET 的世界！在本教程中，我们将使用 Aspose.Drawing 深入研究 alpha 混合的有趣领域，Aspose.Drawing 是 .NET 应用程序中图形操作的强大工具。无论您是经验丰富的开发人员还是刚刚开始编码之旅，本分步指南都将帮助您掌握 alpha 混合的概念并轻松地将其应用到您的项目中。
@@ -90,3 +96,9 @@ bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 ### Q5：哪里可以找到Aspose.Drawing的文档？
 
  A5：文档可用[这里](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的世界变换
 linktitle: Aspose.Drawing 中的世界变换
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 探索 Aspose.Drawing for .NET 中的世界变换。通过易于遵循的步骤来提升您的图形效果。
-type: docs
 weight: 15
 url: /zh/net/coordinate-transformations/world-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的世界变换
+
 ## 介绍
 
 欢迎来到 Aspose.Drawing for .NET 的世界！在本教程中，我们将使用 Aspose.Drawing 探索世界变换的迷人领域。如果您渴望增强 .NET 应用程序中的图形和成像功能，那么您来对地方了。
@@ -97,3 +103,9 @@ A2：当然！随意链接多个转换以实现复杂的图形效果。
 ### Q5：我如何获得支持或与社区建立联系？
 
  A5：参与讨论并寻求帮助[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

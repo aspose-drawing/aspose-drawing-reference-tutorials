@@ -3,10 +3,16 @@ title: أقلام
 linktitle: أقلام
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان لقوة البرمجة الرسومية في .NET باستخدام دروس Aspose.Drawing التعليمية. اكتشف معالجة الألوان وربط المسار وإعداد عرض القلم الديناميكي للحصول على صور مذهلة.
-type: docs
 weight: 24
 url: /ar/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أقلام
+
 
 ## مقدمة
 
@@ -40,3 +46,9 @@ url: /ar/net/pens/
 اكتشف فن ربط المسارات باستخدام الأقلام في Aspose.Drawing لـ .NET. أنشئ رسومات مذهلة باستخدام خيارات LineJoin.
 ### [تحديد عرض الأقلام في Aspose.Drawing](./width/)
 استكشف عالم الرسومات باستخدام Aspose.Drawing لـ .NET. تعرف على كيفية ضبط عرض القلم ديناميكيًا للحصول على صور مذهلة. ابدأ باستخدام دليلنا خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

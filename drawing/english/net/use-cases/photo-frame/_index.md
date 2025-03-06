@@ -3,10 +3,16 @@ title: Frame Your Photos Creatively with Aspose.Drawing for .NET
 linktitle: Creating Photo Frames in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Enhance your images with Aspose.Drawing for .NET! Follow our step-by-step guide to create stunning photo frames. Explore Aspose.Drawing for .NET now!
-type: docs
 weight: 11
 url: /net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frame Your Photos Creatively with Aspose.Drawing for .NET
+
 ## Introduction
 Are you looking to add a touch of elegance to your images? With Aspose.Drawing for .NET, you can easily create captivating photo frames to enhance the visual appeal of your pictures. This step-by-step guide will walk you through the process of creating stunning photo frames using Aspose.Drawing's powerful features.
 ## Prerequisites
@@ -98,3 +104,10 @@ Yes, you can explore Aspose.Drawing's features with a free trial available [here
 Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/diagram/17) to get assistance and connect with the community.
 ### Can I use Aspose.Drawing for commercial projects?
 Yes, you can purchase a license [here](https://purchase.aspose.com/buy) for commercial use.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

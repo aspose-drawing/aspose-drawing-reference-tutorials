@@ -3,10 +3,16 @@ title: Linjer, kurvor och former
 linktitle: Linjer, kurvor och former
 second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
 description: Släpp loss Aspose.Drawings .NET-magi! Utforska självstudier för linjer, kurvor och former för levande grafik – bemästra solida penslar, bågar, splines, ellipser och mer kreativt.
-type: docs
 weight: 23
 url: /sv/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linjer, kurvor och former
+
 
 ## Introduktion
 
@@ -69,3 +75,9 @@ Utforska kraften i Aspose.Drawing för .NET för att skapa fantastisk grafik. Ri
 Lär dig hur du ritar rektanglar i .NET med Aspose.Drawing. Steg-för-steg guide med kodexempel.
 ### [Fylla regioner i Aspose.Drawing](./fill-region/)
 Lär dig hur du fyller regioner i Aspose.Drawing för .NET med denna steg-för-steg handledning. Förbättra dina färdigheter i grafisk design utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Satuan Ukuran di Aspose.Drawing untuk .NET
 linktitle: Satuan Ukuran dalam Aspose.Gambar
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi keserbagunaan Aspose.Drawing untuk .NET dalam tutorial mendalam ini, kuasai satuan ukuran untuk grafik presisi.
-type: docs
 weight: 14
 url: /id/net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Satuan Ukuran di Aspose.Drawing untuk .NET
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.Drawing untuk .NET, tempat presisi dan fleksibilitas bertemu dalam manipulasi grafis. Dalam tutorial ini, kita akan mempelajari seluk-beluk satuan ukuran dalam Aspose.Drawing, memberi Anda panduan langkah demi langkah untuk memanfaatkan kekuatan perpustakaan yang luar biasa ini.
@@ -120,3 +126,9 @@ A1: Ya, Aspose.Drawing kompatibel dengan berbagai kerangka .NET, memberikan flek
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Drawing?
 
  A5: Dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

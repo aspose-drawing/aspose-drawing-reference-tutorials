@@ -3,10 +3,16 @@ title: إجراء وسائل الشرح في Aspose.Drawing
 linktitle: إجراء وسائل الشرح في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: قم بتحسين الرسوم التوضيحية للمستند الخاص بك باستخدام Aspose.Drawing لـ .NET! تعرف على كيفية إضافة وسائل الشرح خطوة بخطوة للحصول على صور أكثر وضوحًا وغنية بالمعلومات.
-type: docs
 weight: 10
 url: /ar/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إجراء وسائل الشرح في Aspose.Drawing
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول إجراء وسائل الشرح في Aspose.Drawing لـ .NET! إذا كنت تتطلع إلى تحسين الرسوم التوضيحية للمستند باستخدام وسائل الشرح، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنقوم بتقسيم العملية إلى خطوات يمكن التحكم فيها باستخدام مكتبة Aspose.Drawing.
 ## المتطلبات الأساسية
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### هل يمكنني تجربة Aspose.Drawing قبل الشراء؟
 
  بالتأكيد! ابدأ بالتجربة المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

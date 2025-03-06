@@ -3,10 +3,16 @@ title: Lokale transformatie in Aspose.Drawing voor .NET
 linktitle: Lokale transformatie in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Ontdek lokale transformaties in Aspose.Drawing voor .NET. Verbeter afbeeldingen met eenvoudig te volgen stappen.
-type: docs
 weight: 11
 url: /nl/net/coordinate-transformations/local-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lokale transformatie in Aspose.Drawing voor .NET
+
 ## Invoering
 
 Wilt u de grafische weergave van uw .NET-toepassing verbeteren met geavanceerde lokale transformaties? Aspose.Drawing voor .NET stelt ontwikkelaars in staat verbluffende beelden te creëren door moeiteloos lokale transformaties op te nemen. In deze tutorial duiken we in de wereld van lokale transformaties met behulp van Aspose.Drawing, waarbij we je bij elke stap begeleiden om het volledige potentieel van deze krachtige bibliotheek te ontsluiten.
@@ -111,3 +117,9 @@ A3: Naast rotatie ondersteunt Aspose.Drawing vertaling, schaling en scheeftrekki
 ### Vraag 5: Kan ik Aspose.Drawing uitproberen voordat ik een aankoop doe?*
 
  A5: Ja, je kunt de bibliotheek verkennen met een[gratis proefperiode](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

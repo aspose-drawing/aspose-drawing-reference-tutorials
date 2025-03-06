@@ -3,10 +3,16 @@ title: رسم الخطوط الكاردينال في Aspose.Drawing
 linktitle: رسم الخطوط الكاردينال في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف فن رسم الخطوط الأساسية في تطبيقات .NET باستخدام Aspose.Drawing. إنشاء منحنيات ناعمة دون عناء.
-type: docs
 weight: 13
 url: /ar/net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الخطوط الكاردينال في Aspose.Drawing
+
 ## مقدمة
 
 يعمل Aspose.Drawing for .NET على تمكين المطورين من إنشاء تطبيقات رسومات متطورة بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في عالم رسم الخطوط الأساسية باستخدام Aspose.Drawing. توفر الخطوط الأساسية استيفاء منحنى سلسًا، ومع الإمكانات القوية لـ Aspose.Drawing، يمكنك دمج هذه المنحنيات بسهولة في تطبيقات .NET الخاصة بك.
@@ -89,3 +95,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_o
 ### س5: كيف يمكنني الوصول إلى الوثائق؟
 
  ج5: راجع الشامل[توثيق](https://reference.aspose.com/drawing/net/) للحصول على معلومات وأمثلة مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

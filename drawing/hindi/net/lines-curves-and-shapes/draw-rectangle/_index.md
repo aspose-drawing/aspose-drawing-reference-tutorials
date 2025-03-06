@@ -3,10 +3,16 @@ title: Aspose.Drawing में आयत बनाना
 linktitle: Aspose.Drawing में आयत बनाना
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: Aspose.Drawing का उपयोग करके .NET में आयत बनाना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 19
 url: /hi/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing में आयत बनाना
+
 ## परिचय
 
 .NET के लिए Aspose.Drawing का उपयोग करके आयत बनाने के इस व्यापक ट्यूटोरियल में आपका स्वागत है। चाहे आप एक अनुभवी डेवलपर हों या Aspose.Drawing में नए हों, यह मार्गदर्शिका आपको आपके .NET अनुप्रयोगों में आयत बनाने और हेरफेर करने की प्रक्रिया के बारे में बताएगी।
@@ -98,3 +104,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 ### Q5: मैं Aspose.Drawing कहां से खरीद सकता हूं?
 
  ए5: विजिट करें[यहाँ](https://purchase.aspose.com/buy) लाइसेंस खरीदने के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

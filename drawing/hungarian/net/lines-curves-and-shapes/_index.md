@@ -3,10 +3,16 @@ title: Vonalak, görbék és alakzatok
 linktitle: Vonalak, görbék és alakzatok
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Engedd szabadjára az Aspose.Drawing .NET varázslatát! Fedezze fel a vonalak, görbék és alakzatok oktatóanyagait az élénk grafikákért – sajátítsa el a tömör ecseteket, íveket, spline-eket, ellipsziseket és még sok mást.
-type: docs
 weight: 23
 url: /hu/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vonalak, görbék és alakzatok
+
 
 ## Bevezetés
 
@@ -69,3 +75,9 @@ Fedezze fel az Aspose.Drawing for .NET erejét lenyűgöző grafika létrehozás
 Ismerje meg, hogyan rajzolhat téglalapokat .NET-ben az Aspose.Drawing segítségével. Útmutató lépésről lépésre kódpéldákkal.
 ### [Régiók kitöltése az Aspose-ban.Drawing](./fill-region/)
 Ebből a lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan tölthet ki régiókat az Aspose.Drawing for .NET programban. Fejlessze grafikai tervezési készségeit könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

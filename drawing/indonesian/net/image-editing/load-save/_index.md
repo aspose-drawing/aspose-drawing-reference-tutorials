@@ -3,10 +3,16 @@ title: Memuat dan Menyimpan Gambar di Aspose.Drawing
 linktitle: Memuat dan Menyimpan Gambar di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Kuasai pemuatan dan penyimpanan gambar di .NET dengan Aspose.Drawing. Jelajahi format BMP, GIF, JPG, PNG, TIFF dengan mudah.
-type: docs
 weight: 13
 url: /id/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memuat dan Menyimpan Gambar di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami dalam menguasai pemuatan dan penyimpanan gambar menggunakan Aspose.Drawing untuk .NET! Jika Anda ingin meningkatkan keterampilan Anda dalam memanipulasi berbagai format gambar dengan mudah, Anda berada di tempat yang tepat. Aspose.Drawing for .NET adalah perpustakaan canggih yang menyederhanakan proses bekerja dengan gambar, dan dalam tutorial ini, kita akan mendalami cara memuat dan menyimpan gambar dalam berbagai format.
@@ -102,3 +108,9 @@ A2: Lihat dokumentasi resminya[Di Sini](https://reference.aspose.com/drawing/net
 ### Q5: Di mana saya dapat membeli perpustakaan Aspose.Drawing?
 
  A5: Anda bisa membelinya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stifte
 linktitle: Stifte
 second_title: Aspose.Drawing .NET API – Alternative zu System.Drawing.Common
 description: Nutzen Sie die Leistungsfähigkeit der Grafikprogrammierung in .NET mit den Aspose.Drawing-Tutorials. Entdecken Sie Farbmanipulation, Pfadverbindung und dynamische Einstellung der Stiftbreite für atemberaubende Bilder.
-type: docs
 weight: 24
 url: /de/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stifte
+
 
 ## Einführung
 
@@ -40,3 +46,9 @@ Entdecken Sie mit Aspose.Drawing die lebendige Welt der grafischen Programmierun
 Entdecken Sie die Kunst, Pfade mit Stiften in Aspose.Drawing für .NET zu verbinden. Erstellen Sie atemberaubende Grafiken mit LineJoin-Optionen.
 ### [Festlegen der Stiftbreite in Aspose.Drawing](./width/)
 Entdecken Sie die Welt der Grafiken mit Aspose.Drawing für .NET. Erfahren Sie, wie Sie die Stiftbreite für atemberaubende Bilder dynamisch festlegen. Beginnen Sie mit unserer Schritt-für-Schritt-Anleitung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

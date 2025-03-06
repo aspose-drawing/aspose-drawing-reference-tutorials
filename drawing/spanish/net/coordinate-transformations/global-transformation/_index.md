@@ -3,10 +3,16 @@ title: Transformación global en Aspose.Drawing para .NET
 linktitle: Transformación global en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Explore las transformaciones globales en Aspose.Drawing para .NET y cree gráficos impresionantes con facilidad. Siga nuestra guía paso a paso para disfrutar de una experiencia perfecta.
-type: docs
 weight: 10
 url: /es/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformación global en Aspose.Drawing para .NET
+
 ## Introducción
 
 ¡Bienvenido al mundo de Aspose.Drawing para .NET! En este tutorial, exploraremos el concepto de transformación global usando Aspose.Drawing, una poderosa biblioteca para manipulación de gráficos en aplicaciones .NET. La transformación global le permite aplicar transformaciones a cada elemento dibujado en un contexto gráfico. Esto puede resultar inmensamente útil cuando desea crear efectos visuales complejos o manipular imágenes a una escala más amplia.
@@ -101,3 +107,9 @@ R4: Sí, puedes explorar una prueba gratuita de Aspose.Drawing[aquí](https://re
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.Drawing?
 
  A5: Obtenga una licencia temporal para Aspose.Drawing[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

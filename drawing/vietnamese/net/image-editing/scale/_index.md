@@ -3,10 +3,16 @@ title: Chia tỷ lệ hình ảnh trong Aspose.draw
 linktitle: Chia tỷ lệ hình ảnh trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách chia tỷ lệ hình ảnh một cách dễ dàng trong .NET bằng Aspose.draw. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch, cung cấp khả năng xử lý hình ảnh mạnh mẽ.
-type: docs
 weight: 14
 url: /vi/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chia tỷ lệ hình ảnh trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách chia tỷ lệ hình ảnh bằng Aspose.draw cho .NET! Trong thế giới phát triển phần mềm năng động, việc thao tác và chia tỷ lệ hình ảnh là một yêu cầu chung. Aspose. Draw đơn giản hóa quy trình này, cung cấp các công cụ và chức năng mạnh mẽ để làm việc với hình ảnh trong ứng dụng .NET của bạn.
@@ -107,3 +113,9 @@ Câu trả lời 1: Có, Aspose.draw rất linh hoạt và có thể được s�
 ### Câu hỏi 5: Tôi có thể áp dụng các chế độ nội suy tùy chỉnh để chia tỷ lệ hình ảnh không?
 
 Câu trả lời 5: Có, Aspose.draw cung cấp tính linh hoạt, cho phép bạn chọn từ nhiều chế độ nội suy khác nhau để chia tỷ lệ hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

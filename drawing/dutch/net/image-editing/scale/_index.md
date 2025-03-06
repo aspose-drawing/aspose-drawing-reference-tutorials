@@ -3,10 +3,16 @@ title: Afbeeldingen schalen in Aspose.Drawing
 linktitle: Afbeeldingen schalen in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Leer hoe u afbeeldingen moeiteloos kunt schalen in .NET met behulp van Aspose.Drawing. Onze stapsgewijze handleiding zorgt voor een naadloze integratie en biedt krachtige mogelijkheden voor beeldmanipulatie.
-type: docs
 weight: 14
 url: /nl/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen schalen in Aspose.Drawing
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het schalen van afbeeldingen met Aspose.Drawing voor .NET! In de dynamische wereld van softwareontwikkeling is het manipuleren en schalen van afbeeldingen een veel voorkomende vereiste. Aspose.Drawing vereenvoudigt dit proces en biedt krachtige tools en functionaliteiten voor het werken met afbeeldingen in uw .NET-applicaties.
@@ -107,3 +113,9 @@ A1: Ja, Aspose.Drawing is veelzijdig en kan worden gebruikt in verschillende .NE
 ### V5: Kan ik aangepaste interpolatiemodi toepassen voor het schalen van afbeeldingen?
 
 A5: Ja, Aspose.Drawing biedt flexibiliteit, waardoor u kunt kiezen uit verschillende interpolatiemodi voor het schalen van afbeeldingen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

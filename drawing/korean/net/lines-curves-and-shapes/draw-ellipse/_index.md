@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 타원 그리기
 linktitle: Aspose.드로잉에서 타원 그리기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET에서 타원을 그리는 방법을 알아보세요. 멋진 그래픽을 쉽게 만들려면 이 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 15
 url: /ko/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 타원 그리기
+
 ## 소개
 
 .NET용 Aspose. Drawing을 사용하여 타원 그리기에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 숙련된 개발자이든 이제 막 .NET을 시작하는 개발자이든 이 단계별 가이드는 애플리케이션에서 멋진 타원을 만드는 과정을 안내합니다.
@@ -96,3 +102,9 @@ A3: 물론이죠! Aspose.드로잉은 복잡한 그래픽 작업을 쉽게 처�
 ### Q5: 무료 평가판이 제공됩니까?
 
  A5: 예, 무료 평가판을 통해 라이브러리를 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

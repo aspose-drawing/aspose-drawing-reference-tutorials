@@ -3,10 +3,16 @@ title: Lisensi di Aspose.Gambar
 linktitle: Lisensi di Aspose.Gambar
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Buka potensi penuh Aspose.Drawing di .NET. Lisensi master untuk integrasi yang lancar. Unduh sekarang dan tingkatkan grafik dan manipulasi gambar Anda.
-type: docs
 weight: 10
 url: /id/net/licensing/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi di Aspose.Gambar
+
 ## Perkenalan
 
 Di bidang pengembangan .NET, Aspose.Drawing menonjol sebagai alat yang ampuh untuk manipulasi grafis dan gambar. Untuk membuka potensi penuh Aspose.Drawing, memahami lisensi adalah hal yang terpenting. Tutorial ini akan memandu Anda melalui berbagai metode pelisensian, memastikan Anda mengintegrasikan Aspose.Drawing dengan lancar ke dalam proyek .NET Anda.
@@ -138,3 +144,9 @@ A4: Ya, Anda dapat menggunakan Aspose.Drawing di proyek komersial dan non-komers
 ### Q5: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.Drawing?
 
  A5: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

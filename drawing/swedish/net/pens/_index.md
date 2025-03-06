@@ -3,10 +3,16 @@ title: Pennor
 linktitle: Pennor
 second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
 description: Lås upp kraften i grafisk programmering i .NET med Aspose.Drawing tutorials. Upptäck färgmanipulation, banfogning och dynamisk pennbreddsinställning för fantastiska bilder.
-type: docs
 weight: 24
 url: /sv/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pennor
+
 
 ## Introduktion
 
@@ -40,3 +46,9 @@ Utforska den livliga världen av grafisk programmering i .NET med Aspose.Drawing
 Utforska konsten att sammanfoga banor med pennor i Aspose.Drawing för .NET. Skapa fantastisk grafik med LineJoin-alternativ.
 ### [Ställa in bredd på pennor i Aspose.Drawing](./width/)
 Utforska grafikvärlden med Aspose.Drawing för .NET. Lär dig hur du ställer in pennbredder dynamiskt för fantastiska bilder. Kom igång med vår steg-för-steg-guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

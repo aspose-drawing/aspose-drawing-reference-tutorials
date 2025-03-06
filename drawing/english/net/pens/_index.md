@@ -3,10 +3,16 @@ title: Pens
 linktitle: Pens
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Unlock the power of graphic programming in .NET with Aspose.Drawing tutorials. Discover color manipulation, path joining, and dynamic pen width setting for stunning visuals.
-type: docs
 weight: 24
 url: /net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pens
+
 
 ## Introduction
 
@@ -40,3 +46,9 @@ Explore the vibrant world of graphic programming in .NET with Aspose.Drawing. Cr
 Explore the art of joining paths with pens in Aspose.Drawing for .NET. Create stunning graphics with LineJoin options.
 ### [Setting Width of Pens in Aspose.Drawing](./width/)
 Explore the world of graphics with Aspose.Drawing for .NET. Learn how to set pen widths dynamically for stunning visuals. Get started with our step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

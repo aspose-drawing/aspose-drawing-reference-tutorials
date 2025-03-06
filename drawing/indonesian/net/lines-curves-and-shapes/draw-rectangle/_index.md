@@ -3,10 +3,16 @@ title: Menggambar Persegi Panjang di Aspose.Drawing
 linktitle: Menggambar Persegi Panjang di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Pelajari cara menggambar persegi panjang di .NET menggunakan Aspose.Drawing. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 19
 url: /id/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Persegi Panjang di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang menggambar persegi panjang menggunakan Aspose.Drawing untuk .NET. Baik Anda seorang pengembang berpengalaman atau pendatang baru di Aspose.Drawing, panduan ini akan memandu Anda melalui proses membuat dan memanipulasi persegi panjang di aplikasi .NET Anda.
@@ -98,3 +104,9 @@ A4: Tentu saja! Aspose.Drawing menyediakan fitur-fitur canggih untuk menangani o
 ### Q5: Dimana saya bisa membeli Aspose.Drawing?
 
  A5: Kunjungi[Di Sini](https://purchase.aspose.com/buy) untuk membeli lisensi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

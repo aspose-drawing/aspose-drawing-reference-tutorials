@@ -3,10 +3,16 @@ title: Dessiner des rectangles dans Aspose.Drawing
 linktitle: Dessiner des rectangles dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Apprenez à dessiner des rectangles dans .NET à l'aide d'Aspose.Drawing. Guide étape par étape avec des exemples de code.
-type: docs
 weight: 19
 url: /fr/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dessiner des rectangles dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur le dessin de rectangles à l'aide d'Aspose.Drawing pour .NET. Que vous soyez un développeur chevronné ou un nouveau venu sur Aspose.Drawing, ce guide vous guidera tout au long du processus de création et de manipulation de rectangles dans vos applications .NET.
@@ -98,3 +104,9 @@ A4 : Absolument ! Aspose.Drawing fournit des fonctionnalités avancées pour gé
 ### Q5 : Où puis-je acheter Aspose.Drawing ?
 
  A5 : Visite[ici](https://purchase.aspose.com/buy) pour acheter une licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

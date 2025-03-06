@@ -3,10 +3,16 @@ title: Chuyển đổi trang trong Aspose.draw cho .NET
 linktitle: Chuyển đổi trang trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu từng bước chuyển đổi trang trong .NET bằng cách sử dụng Aspose.drawing. Nâng cao kỹ năng đồ họa của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 13
 url: /vi/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi trang trong Aspose.draw cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về chuyển đổi trang bằng Aspose.draw cho .NET. Nếu bạn đang tìm cách nâng cao kỹ năng làm việc với các phép biến đổi đồ họa và bitmap, thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi trang bằng Aspose.drawing, đảm bảo bạn nắm bắt rõ ràng từng bước.
@@ -109,3 +115,9 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước cơ bản �
 ### Câu 5: Tôi có thể mua Aspose.drawing ở đâu?
 
  A5: Bạn có thể mua Aspose.draw[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

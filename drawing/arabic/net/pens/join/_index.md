@@ -3,10 +3,16 @@ title: ربط المسارات باستخدام الأقلام في Aspose.Drawi
 linktitle: ربط المسارات باستخدام الأقلام في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف فن ربط المسارات باستخدام الأقلام في Aspose.Drawing لـ .NET. أنشئ رسومات مذهلة باستخدام خيارات LineJoin.
-type: docs
 weight: 11
 url: /ar/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ربط المسارات باستخدام الأقلام في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Drawing لـ .NET! في هذا البرنامج التعليمي، سوف نتعمق في فن ربط المسارات باستخدام الأقلام باستخدام Aspose.Drawing، وهي مكتبة قوية توفر وظائف واسعة النطاق للعمل مع الرسومات والصور في تطبيقات .NET.
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ### س5: أين يمكنني شراء Aspose.Drawing؟
 
  A5: شراء Aspose.Drawing[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

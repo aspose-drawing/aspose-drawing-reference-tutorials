@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.draw cho .NET
 linktitle: Hướng dẫn Aspose.draw cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Nâng cao kỹ năng đồ họa của bạn với Aspose.draw cho .NET! Từ các phép biến đổi tọa độ chính xác đến văn bản và phông chữ động, hướng dẫn của chúng tôi sẽ khai thác toàn bộ tiềm năng của đồ họa.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.draw cho .NET
+
 
 ## Giới thiệu
 
@@ -55,3 +60,9 @@ Mở khóa khả năng làm chủ đồ họa .NET với Aspose.draw! Nâng cao 
 Mở khóa Aspose.draw cho .NET! Làm chủ việc tạo văn bản, phông chữ và hình ảnh động. Định dạng văn bản, gợi ý và thao tác phông chữ hoàn hảo để có hình ảnh rõ nét.
 ### [Trường hợp sử dụng](./use-cases/)
 Nâng cao hình minh họa của bạn với Aspose.draw cho .NET! Thêm chú thích, tạo khung hình ấn tượng và tích hợp liền mạch văn bản vào hình ảnh bằng hướng dẫn của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

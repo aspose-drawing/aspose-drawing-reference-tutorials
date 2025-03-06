@@ -3,10 +3,16 @@ title: Garis, Kurva, dan Bentuk
 linktitle: Garis, Kurva, dan Bentuk
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Bebaskan keajaiban .NET Aspose.Drawing! Jelajahi Tutorial Garis, Kurva, dan Bentuk untuk grafis yang hidup—kuasai kuas padat, busur, spline, elips, dan banyak lagi secara kreatif.
-type: docs
 weight: 23
 url: /id/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Garis, Kurva, dan Bentuk
+
 
 ## Perkenalan
 
@@ -69,3 +75,9 @@ Jelajahi kekuatan Aspose.Drawing untuk .NET dalam menciptakan grafis yang menakj
 Pelajari cara menggambar persegi panjang di .NET menggunakan Aspose.Drawing. Panduan langkah demi langkah dengan contoh kode.
 ### [Mengisi Wilayah di Aspose.Gambar](./fill-region/)
 Pelajari cara mengisi wilayah di Aspose.Drawing untuk .NET dengan tutorial langkah demi langkah ini. Tingkatkan keterampilan desain grafis Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

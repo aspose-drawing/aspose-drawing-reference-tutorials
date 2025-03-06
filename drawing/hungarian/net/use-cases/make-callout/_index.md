@@ -3,10 +3,16 @@ title: Feliratok készítése Aspose.Drawingben
 linktitle: Feliratok készítése Aspose.Drawingben
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Javítsa dokumentum-illusztrációit az Aspose.Drawing for .NET segítségével! Ismerje meg lépésről lépésre, hogyan adhat hozzá feliratokat a tisztább és informatívabb látvány érdekében.
-type: docs
 weight: 10
 url: /hu/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feliratok készítése Aspose.Drawingben
+
 ## Bevezetés
 Üdvözöljük részletes útmutatónkban az Aspose.Drawing for .NET-ben történő kiemelések készítéséhez! Ha kiemelésekkel szeretné javítani a dokumentum illusztrációit, akkor jó helyen jár. Ebben az oktatóanyagban a folyamatot az Aspose.Drawing könyvtár segítségével kezelhető lépésekre bontjuk.
 ## Előfeltételek
@@ -110,3 +116,9 @@ Teljesen! Az Aspose.Drawing olyan népszerű képformátumokat támogat, mint a 
 ### Vásárlás előtt kipróbálhatom az Aspose.Drawing programot?
 
  Biztosan! Kezdje el egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

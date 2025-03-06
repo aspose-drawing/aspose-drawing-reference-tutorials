@@ -3,10 +3,16 @@ title: Coordonner les transformations
 linktitle: Coordonner les transformations
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Améliorez vos compétences graphiques avec nos tutoriels Aspose.Drawing. Explorez les transformations globales, locales, matricielles, de page et mondiales, en maîtrisant les graphiques de précision dans .NET.
-type: docs
 weight: 20
 url: /fr/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coordonner les transformations
+
 
 ## Introduction
 
@@ -56,3 +62,9 @@ Apprenez les transformations de page étape par étape dans .NET à l'aide d'Asp
 Explorez la polyvalence d'Aspose.Drawing pour .NET dans ce didacticiel approfondi, maîtrisant les unités de mesure pour les graphiques de précision.
 ### [Transformation du monde dans Aspose.Drawing](./world-transformation/)
 Explorez les transformations du monde dans Aspose.Drawing pour .NET. Améliorez vos graphiques avec des étapes faciles à suivre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: عرض الصور في Aspose.Drawing
 linktitle: عرض الصور في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية عرض الصور في تطبيقات .NET باستخدام Aspose.Drawing. اتبع البرنامج التعليمي الخاص بنا للحصول على خطوات سهلة وتحسين المحتوى المرئي الخاص بك.
-type: docs
 weight: 12
 url: /ar/net/image-editing/display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض الصور في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في دليلنا المفصّل حول عرض الصور باستخدام Aspose.Drawing for .NET! Aspose.Drawing هي مكتبة قوية تعمل على تبسيط معالجة الصور في تطبيقات .NET. في هذا البرنامج التعليمي، سنستكشف عملية عرض الصور باستخدام المكتبة، ونزودك بالخطوات والأمثلة التفصيلية.
@@ -102,3 +108,9 @@ A3: يمكنك التحكم في تغيير حجم الصورة عن طريق ض
 ### س5: أين يمكنني طلب المساعدة إذا واجهت مشكلات أو كانت لدي أسئلة حول Aspose.Drawing؟
 
  ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) للحصول على الدعم من المجتمع والخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

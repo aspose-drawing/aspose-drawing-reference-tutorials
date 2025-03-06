@@ -3,10 +3,16 @@ title: Pulpen
 linktitle: Pulpen
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Buka kekuatan pemrograman grafis di .NET dengan tutorial Aspose.Drawing. Temukan manipulasi warna, penggabungan jalur, dan pengaturan lebar pena dinamis untuk visual yang menakjubkan.
-type: docs
 weight: 24
 url: /id/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pulpen
+
 
 ## Perkenalan
 
@@ -40,3 +46,9 @@ Jelajahi dunia pemrograman grafis yang dinamis di .NET dengan Aspose.Drawing. Ci
 Jelajahi seni menggabungkan jalur dengan pena di Aspose.Drawing untuk .NET. Buat grafik menakjubkan dengan opsi LineJoin.
 ### [Mengatur Lebar Pena di Aspose.Drawing](./width/)
 Jelajahi dunia grafis dengan Aspose.Drawing untuk .NET. Pelajari cara mengatur lebar pena secara dinamis untuk visual yang menakjubkan. Mulailah dengan panduan langkah demi langkah kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

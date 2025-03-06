@@ -3,10 +3,16 @@ title: Menggambar Bezier Splines di Aspose.Drawing
 linktitle: Menggambar Bezier Splines di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi kekuatan Aspose.Drawing untuk .NET dalam menciptakan spline Bezier yang menakjubkan. Ikuti panduan langkah demi langkah kami untuk pengembangan grafis yang lancar.
-type: docs
 weight: 12
 url: /id/net/lines-curves-and-shapes/draw-bezier-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Bezier Splines di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah kami tentang menggambar spline Bezier menggunakan Aspose.Drawing untuk .NET! Spline Bezier adalah kurva serbaguna yang banyak digunakan dalam grafik komputer. Dengan Aspose.Drawing, perpustakaan .NET yang kuat, Anda dapat membuat grafik yang menakjubkan dengan mudah. Tutorial ini akan memandu Anda melalui proses menggambar spline Bezier dengan cara yang sederhana dan efektif.
@@ -91,3 +97,9 @@ A2: Tentu saja! Aspose.Drawing menyediakan antarmuka yang ramah pengguna, sehing
 ### Q5: Bagaimana cara membeli Aspose.Drawing untuk .NET?
 
  A5: Untuk membeli, kunjungi kami[halaman beli](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

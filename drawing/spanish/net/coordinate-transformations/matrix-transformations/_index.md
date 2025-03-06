@@ -3,10 +3,16 @@ title: Transformaciones matriciales en Aspose.Drawing para .NET
 linktitle: Transformaciones matriciales en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Domine las transformaciones matriciales en Aspose.Drawing para .NET con esta guía paso a paso.
-type: docs
 weight: 12
 url: /es/net/coordinate-transformations/matrix-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformaciones matriciales en Aspose.Drawing para .NET
+
 ## Introducción
 
 ¡Bienvenido a este completo tutorial sobre transformaciones matriciales en Aspose.Drawing para .NET! Si estás ansioso por mejorar tus habilidades de manipulación gráfica y adentrarte en el mundo de las transformaciones matriciales, estás en el lugar correcto. En este tutorial, exploraremos las fascinantes capacidades de Aspose.Drawing y lo guiaremos a través de ejemplos prácticos para dominar las transformaciones matriciales.
@@ -110,3 +116,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 ### P5: ¿Cómo puedo comprar Aspose.Drawing?
 
  R5: Compre su licencia[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

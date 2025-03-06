@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.Drawing untuk .NET
 linktitle: Aspose.Menggambar untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Tingkatkan keterampilan grafis Anda dengan Aspose.Drawing untuk .NET! Dari transformasi koordinat yang tepat hingga teks dan font dinamis, tutorial kami membuka potensi grafis sepenuhnya.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.Drawing untuk .NET
+
 
 ## Perkenalan
 
@@ -55,3 +60,9 @@ Buka kunci penguasaan grafis .NET dengan Aspose.Drawing! Tingkatkan proyek denga
 Buka kunci Aspose.Drawing untuk .NET! Kuasai teks dinamis, font, dan pembuatan gambar. Pemformatan teks, petunjuk, dan manipulasi font yang sempurna untuk visual sejernih kristal.
 ### [Kasus Penggunaan](./use-cases/)
 Tingkatkan ilustrasi Anda dengan Aspose.Drawing untuk .NET! Tambahkan info, buat bingkai menakjubkan, dan integrasikan teks ke dalam gambar secara mulus dengan tutorial kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

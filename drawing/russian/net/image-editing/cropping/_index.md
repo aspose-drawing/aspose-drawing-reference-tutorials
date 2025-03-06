@@ -3,10 +3,16 @@ title: Обрезка изображений в Aspose.Drawing
 linktitle: Обрезка изображений в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Мастер обрезки изображений с помощью Aspose.Drawing для .NET. Это пошаговое руководство позволяет разработчикам без особых усилий улучшить навыки обработки изображений.
-type: docs
 weight: 10
 url: /ru/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обрезка изображений в Aspose.Drawing
+
 ## Введение
 
 В мире .NET-разработки Aspose.Drawing выделяется как мощный инструмент для манипулирования изображениями. Одной из его удобных функций является возможность точной обрезки изображений. В этом уроке мы рассмотрим процесс обрезки изображений с помощью Aspose.Drawing для .NET. Будьте готовы улучшить свои навыки обработки изображений!
@@ -106,3 +112,10 @@ A4: Действительно, Aspose.Drawing превосходно справ
 ### Вопрос 5: Как я могу получить поддержку для запросов, связанных с Aspose.Drawing?
 
  A5: Отправляйтесь в[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) искать помощи и общаться с сообществом.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

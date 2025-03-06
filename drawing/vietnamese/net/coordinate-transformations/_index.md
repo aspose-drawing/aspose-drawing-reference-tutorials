@@ -3,10 +3,16 @@ title: Phép biến đổi tọa độ
 linktitle: Phép biến đổi tọa độ
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Nâng cao kỹ năng đồ họa của bạn với các hướng dẫn Aspose.draw của chúng tôi. Khám phá các phép biến đổi toàn cầu, cục bộ, ma trận, trang và thế giới, làm chủ đồ họa chính xác trong .NET.
-type: docs
 weight: 20
 url: /vi/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phép biến đổi tọa độ
+
 
 ## Giới thiệu
 
@@ -56,3 +62,9 @@ Tìm hiểu từng bước chuyển đổi trang trong .NET bằng cách sử d�
 Khám phá tính linh hoạt của Aspose.draw cho .NET trong hướng dẫn chuyên sâu này, nắm vững các đơn vị đo lường cho đồ họa chính xác.
 ### [Sự chuyển đổi thế giới trong Aspose.drawing](./world-transformation/)
 Khám phá những biến đổi của thế giới trong Aspose.draw cho .NET. Nâng cao đồ họa của bạn bằng các bước dễ thực hiện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

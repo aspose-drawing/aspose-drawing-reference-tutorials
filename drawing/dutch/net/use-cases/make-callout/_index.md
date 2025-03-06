@@ -3,10 +3,16 @@ title: Bijschriften maken in Aspose.Drawing
 linktitle: Bijschriften maken in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Verbeter uw documentillustraties met Aspose.Drawing voor .NET! Leer stap voor stap hoe u highlights kunt toevoegen voor duidelijkere en informatieve beelden.
-type: docs
 weight: 10
 url: /nl/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bijschriften maken in Aspose.Drawing
+
 ## Invoering
 Welkom bij onze stapsgewijze handleiding voor het maken van highlights in Aspose.Drawing voor .NET! Als u uw documentillustraties wilt verfraaien met toelichtingen, bent u hier aan het juiste adres. In deze zelfstudie splitsen we het proces op in beheersbare stappen met behulp van de Aspose.Drawing-bibliotheek.
 ## Vereisten
@@ -110,3 +116,9 @@ Absoluut! Aspose.Drawing ondersteunt populaire afbeeldingsformaten zoals PNG, JP
 ### Kan ik Aspose.Drawing uitproberen voordat ik een aankoop doe?
 
  Zeker! Ga aan de slag met een gratis proefperiode[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

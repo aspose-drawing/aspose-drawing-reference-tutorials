@@ -3,10 +3,16 @@ title: Sự chuyển đổi thế giới trong Aspose.drawing
 linktitle: Sự chuyển đổi thế giới trong Aspose.drawing
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá những biến đổi của thế giới trong Aspose.draw cho .NET. Nâng cao đồ họa của bạn bằng các bước dễ thực hiện.
-type: docs
 weight: 15
 url: /vi/net/coordinate-transformations/world-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sự chuyển đổi thế giới trong Aspose.drawing
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới của Aspose.draw cho .NET! Trong hướng dẫn này, chúng ta sẽ khám phá lĩnh vực biến đổi thế giới hấp dẫn bằng cách sử dụng Aspose.drawing. Nếu bạn mong muốn nâng cao khả năng đồ họa và hình ảnh của mình trong các ứng dụng .NET thì bạn đã đến đúng nơi.
@@ -97,3 +103,9 @@ A2: Chắc chắn rồi! Hãy thoải mái xâu chuỗi nhiều phép biến đ�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc kết nối với cộng đồng?
 
  Câu trả lời 5: Tham gia thảo luận và tìm kiếm sự hỗ trợ về[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 다각형 그리기
 linktitle: Aspose.드로잉에서 다각형 그리기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: 놀라운 그래픽을 생성하는 데 있어 Aspose. Drawing for .NET의 강력한 기능을 살펴보세요. 이 직관적인 라이브러리를 사용하여 쉽게 다각형을 그릴 수 있습니다.
-type: docs
 weight: 18
 url: /ko/net/lines-curves-and-shapes/draw-polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 다각형 그리기
+
 ## 소개
 
 .NET용 Aspose. Drawing을 사용하여 그래픽 조작의 흥미진진한 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 그래픽 디자인과 이미지 제작의 기본 측면인 다각형을 그리는 과정을 자세히 살펴보겠습니다. Aspose. Drawing은 이 작업을 직관적이고 효율적으로 만들 수 있는 강력한 도구 세트를 제공합니다.
@@ -96,3 +102,9 @@ A2: 물론이죠! 이 튜토리얼에 설명된 프로세스를 반복하여 단
 ### 질문 5: 어디에서 도움을 구하거나 커뮤니티와 연결할 수 있나요?
 
  A5: 질문이나 토론이 있는 경우[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 활기찬 Aspose 커뮤니티에 참여하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

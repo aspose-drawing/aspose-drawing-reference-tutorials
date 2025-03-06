@@ -3,10 +3,16 @@ title: Líneas, curvas y formas
 linktitle: Líneas, curvas y formas
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: ¡Libera la magia .NET de Aspose.Drawing! Explore tutoriales sobre líneas, curvas y formas para obtener gráficos vibrantes domine pinceles sólidos, arcos, splines, elipses y más de forma creativa.
-type: docs
 weight: 23
 url: /es/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Líneas, curvas y formas
+
 
 ## Introducción
 
@@ -69,3 +75,9 @@ Explore el poder de Aspose.Drawing para .NET para crear gráficos impresionantes
 Aprenda a dibujar rectángulos en .NET usando Aspose.Drawing. Guía paso a paso con ejemplos de código.
 ### [Rellenar regiones en Aspose.Drawing](./fill-region/)
 Aprenda a rellenar regiones en Aspose.Drawing para .NET con este tutorial paso a paso. Mejore sus habilidades de diseño gráfico sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

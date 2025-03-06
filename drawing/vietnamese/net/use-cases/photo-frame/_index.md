@@ -3,10 +3,16 @@ title: Đóng khung ảnh của bạn một cách sáng tạo với Aspose.draw 
 linktitle: Tạo khung ảnh trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Nâng cao hình ảnh của bạn với Aspose.draw cho .NET! Làm theo hướng dẫn từng bước của chúng tôi để tạo khung ảnh tuyệt đẹp. Khám phá Aspose.draw cho .NET ngay bây giờ!
-type: docs
 weight: 11
 url: /vi/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đóng khung ảnh của bạn một cách sáng tạo với Aspose.draw cho .NET
+
 ## Giới thiệu
 Bạn đang muốn thêm nét sang trọng cho hình ảnh của mình? Với Aspose.draw cho .NET, bạn có thể dễ dàng tạo các khung ảnh quyến rũ để nâng cao sức hấp dẫn trực quan cho các bức ảnh của mình. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình tạo khung ảnh tuyệt đẹp bằng các tính năng mạnh mẽ của Aspose.draw.
 ## Điều kiện tiên quyết
@@ -98,3 +104,9 @@ Tuyệt đối! Bạn có toàn quyền kiểm soát màu sắc và độ dày c
  Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/diagram/17) để được hỗ trợ và kết nối với cộng đồng.
 ### Tôi có thể sử dụng Aspose.draw cho các dự án thương mại không?
  Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) cho mục đích thương mại.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menampilkan Gambar di Aspose.Drawing
 linktitle: Menampilkan Gambar di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Pelajari cara menampilkan gambar dalam aplikasi .NET dengan Aspose.Drawing. Ikuti tutorial kami untuk langkah mudah dan tingkatkan konten visual Anda.
-type: docs
 weight: 12
 url: /id/net/image-editing/display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menampilkan Gambar di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami dalam menampilkan gambar menggunakan Aspose.Drawing untuk .NET! Aspose.Drawing adalah perpustakaan canggih yang menyederhanakan manipulasi gambar dalam aplikasi .NET. Dalam tutorial ini, kita akan menjelajahi proses menampilkan gambar menggunakan perpustakaan, memberi Anda langkah-langkah dan contoh rinci.
@@ -102,3 +108,9 @@ A4: Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk detail dan o
 ### Q5: Di mana saya dapat mencari bantuan jika saya mengalami masalah atau memiliki pertanyaan tentang Aspose.Drawing?
 
  A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) mendapatkan dukungan dari masyarakat dan para ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

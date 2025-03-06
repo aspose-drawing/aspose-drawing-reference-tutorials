@@ -3,10 +3,16 @@ title: Aspose.드로잉의 직접 데이터 액세스
 linktitle: Aspose.드로잉의 직접 데이터 액세스
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing을 사용하여 이미지를 효율적으로 조작하는 방법을 알아보세요. 단계별 가이드를 통해 직접 데이터 액세스에 대해 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉의 직접 데이터 액세스
+
 ## 소개
 
 개발자가 이미지를 쉽게 조작하고 생성할 수 있도록 지원하는 강력한 라이브러리인 Aspose. Drawing for .NET의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 픽셀 데이터를 효율적으로 작업할 수 있게 해주는 Aspose. Drawing의 중요한 측면인 직접 데이터 액세스의 복잡성을 자세히 살펴보겠습니다.
@@ -95,3 +101,9 @@ A4: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.co
 ### Q5: .NET용 Aspose. Drawing을 어떻게 구매하나요?
 
  A5: Aspose.드로잉 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

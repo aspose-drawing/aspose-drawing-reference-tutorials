@@ -3,10 +3,16 @@ title: Tạo chú thích trong Aspose.draw
 linktitle: Tạo chú thích trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Nâng cao hình ảnh minh họa tài liệu của bạn bằng Aspose.draw cho .NET! Tìm hiểu từng bước cách thêm chú thích để có hình ảnh rõ ràng và giàu thông tin hơn.
-type: docs
 weight: 10
 url: /vi/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo chú thích trong Aspose.draw
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách tạo chú thích trong Aspose.draw cho .NET! Nếu bạn đang tìm cách cải thiện hình minh họa tài liệu của mình bằng chú thích thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ chia quy trình thành các bước có thể quản lý được bằng thư viện Aspose.draw.
 ## Điều kiện tiên quyết
@@ -110,3 +116,9 @@ Tuyệt đối! Aspose.draw hỗ trợ các định dạng hình ảnh phổ bi�
 ### Tôi có thể dùng thử Aspose.draw trước khi mua không?
 
  Chắc chắn! Bắt đầu dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Unindo caminhos com canetas no Aspose.Drawing
 linktitle: Unindo caminhos com canetas no Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Explore a arte de unir caminhos com canetas no Aspose.Drawing for .NET. Crie gráficos impressionantes com opções de LineJoin.
-type: docs
 weight: 11
 url: /pt/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unindo caminhos com canetas no Aspose.Drawing
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.Drawing para .NET! Neste tutorial, nos aprofundaremos na arte de unir caminhos com canetas usando Aspose.Drawing, uma biblioteca poderosa que fornece ampla funcionalidade para trabalhar com gráficos e imagens em aplicativos .NET.
@@ -107,3 +113,9 @@ Neste tutorial, exploramos o processo de união de caminhos com canetas no Aspos
 ### Q5: Onde posso comprar o Aspose.Drawing?
 
  A5: Compre Aspose.Drawing[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

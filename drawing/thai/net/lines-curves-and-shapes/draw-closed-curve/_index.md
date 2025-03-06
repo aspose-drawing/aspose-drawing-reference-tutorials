@@ -3,10 +3,16 @@ title: การวาดเส้นโค้งปิดใน Aspose. Drawing
 linktitle: การวาดเส้นโค้งปิดใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: สำรวจศิลปะของการวาดเส้นโค้งแบบปิดในแอปพลิเคชัน .NET ด้วย Aspose. Drawing ยกระดับภาพของคุณได้อย่างง่ายดาย
-type: docs
 weight: 14
 url: /th/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวาดเส้นโค้งปิดใน Aspose. Drawing
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมของเราเกี่ยวกับการวาดเส้นโค้งแบบปิดใน Aspose. Drawing สำหรับ .NET! หากคุณกำลังมองหาการปรับปรุงแอปพลิเคชัน .NET ของคุณด้วยเส้นโค้งปิดที่ชัดเจนและแม่นยำ คุณมาถูกที่แล้ว ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการทีละขั้นตอน เพื่อให้แน่ใจว่าคุณมีความเข้าใจที่ชัดเจนเกี่ยวกับไลบรารี Aspose. Drawing และความสามารถของไลบรารี
@@ -84,3 +90,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 ### คำถามที่ 5: มีตัวเลือกการสนับสนุนอะไรบ้าง?
 
  A5: หากคุณต้องการความช่วยเหลือหรือมีคำถาม โปรดไปที่[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

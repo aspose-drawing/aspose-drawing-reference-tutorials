@@ -3,10 +3,16 @@ title: Làm việc với các phông chữ đã cài đặt trong Aspose.draw
 linktitle: Làm việc với các phông chữ đã cài đặt trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá sức mạnh của Aspose.draw cho .NET trong việc thao tác các phông chữ đã cài đặt. Nâng cao kỹ năng xử lý hình ảnh của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 13
 url: /vi/net/text-and-fonts/installed-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các phông chữ đã cài đặt trong Aspose.draw
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.draw nổi lên như một công cụ mạnh mẽ để thao tác và làm việc với hình ảnh. Hướng dẫn này tập trung vào một khía cạnh cụ thể - làm việc với các phông chữ đã cài đặt bằng Aspose.draw cho .NET. Phông chữ đóng một vai trò quan trọng trong thiết kế và trình bày, đồng thời việc sử dụng thành thạo phông chữ có thể nâng cao đáng kể khả năng xử lý hình ảnh của bạn.
@@ -106,3 +112,9 @@ A4: Chắc chắn rồi! Khám phá các thuộc tính bổ sung của lớp Ph�
 ### Câu hỏi 5: Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Глобальная трансформация в Aspose.Drawing для 
 linktitle: Глобальная трансформация в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Изучите глобальные преобразования в Aspose.Drawing для .NET, с легкостью создавая потрясающую графику. Следуйте нашему пошаговому руководству, чтобы обеспечить бесперебойную работу.
-type: docs
 weight: 10
 url: /ru/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Глобальная трансформация в Aspose.Drawing для .NET
+
 ## Введение
 
 Добро пожаловать в мир Aspose.Drawing для .NET! В этом уроке мы рассмотрим концепцию глобального преобразования с использованием Aspose.Drawing, мощной библиотеки для манипулирования графикой в приложениях .NET. Глобальное преобразование позволяет применять преобразования к каждому нарисованному элементу в графическом контексте. Это может быть чрезвычайно полезно, если вы хотите создать сложные визуальные эффекты или манипулировать изображениями в более широком масштабе.
@@ -101,3 +107,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Globa
 ### В5: Как я могу получить временную лицензию на Aspose.Drawing?
 
  A5: Получите временную лицензию для Aspose.Drawing[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

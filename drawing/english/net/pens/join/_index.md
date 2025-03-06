@@ -3,10 +3,16 @@ title: Joining Paths with Pens in Aspose.Drawing
 linktitle: Joining Paths with Pens in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the art of joining paths with pens in Aspose.Drawing for .NET. Create stunning graphics with LineJoin options.
-type: docs
 weight: 11
 url: /net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Joining Paths with Pens in Aspose.Drawing
+
 ## Introduction
 
 Welcome to the world of Aspose.Drawing for .NET! In this tutorial, we'll delve into the art of joining paths with pens using Aspose.Drawing, a powerful library that provides extensive functionality for working with graphics and images in .NET applications.
@@ -107,3 +113,10 @@ A4: Yes, you can obtain a [temporary license](https://purchase.aspose.com/tempor
 ### Q5: Where can I purchase Aspose.Drawing?
 
 A5: Purchase Aspose.Drawing [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

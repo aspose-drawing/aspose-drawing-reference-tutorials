@@ -3,10 +3,16 @@ title: قم بتأطير صورك بطريقة إبداعية باستخدام A
 linktitle: إنشاء إطارات الصور في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: قم بتحسين صورك باستخدام Aspose.Drawing لـ .NET! اتبع دليلنا خطوة بخطوة لإنشاء إطارات صور مذهلة. استكشف Aspose.Drawing لـ .NET الآن!
-type: docs
 weight: 11
 url: /ar/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتأطير صورك بطريقة إبداعية باستخدام Aspose.Drawing لـ .NET
+
 ## مقدمة
 هل تتطلع إلى إضافة لمسة من الأناقة إلى صورك؟ باستخدام Aspose.Drawing for .NET، يمكنك بسهولة إنشاء إطارات صور جذابة لتحسين المظهر البصري لصورك. سيرشدك هذا الدليل خطوة بخطوة خلال عملية إنشاء إطارات صور مذهلة باستخدام ميزات Aspose.Drawing القوية.
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
  قم بزيارة منتدى Aspose.Drawing[هنا](https://forum.aspose.com/c/diagram/17) للحصول على المساعدة والتواصل مع المجتمع.
 ### هل يمكنني استخدام Aspose.Drawing للمشاريع التجارية؟
  نعم، يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy) للاستخدام التجاري.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

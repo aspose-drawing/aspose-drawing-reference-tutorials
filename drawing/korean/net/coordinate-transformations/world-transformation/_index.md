@@ -3,10 +3,16 @@ title: Aspose.드로잉의 세계 변환
 linktitle: Aspose.드로잉의 세계 변환
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose.드로잉에서 세계의 변화를 살펴보세요. 따라하기 쉬운 단계를 통해 그래픽을 향상시키세요.
-type: docs
 weight: 15
 url: /ko/net/coordinate-transformations/world-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉의 세계 변환
+
 ## 소개
 
 .NET용 Aspose. Drawing의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose. Drawing을 사용하여 세계 변환의 매혹적인 영역을 탐구합니다. .NET 애플리케이션에서 그래픽 및 이미징 기능을 향상시키고 싶다면 잘 찾아오셨습니다.
@@ -97,3 +103,9 @@ A2: 물론이죠! 복잡한 그래픽 효과를 얻기 위해 자유롭게 여�
 ### Q5: 어떻게 지원을 받거나 커뮤니티에 연결할 수 있나요?
 
  A5: 토론에 참여하고 이에 대한 도움을 구하십시오.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

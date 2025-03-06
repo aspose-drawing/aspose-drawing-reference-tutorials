@@ -3,10 +3,16 @@ title: เส้น เส้นโค้ง และรูปทรง
 linktitle: เส้น เส้นโค้ง และรูปทรง
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: ปลดปล่อยเวทย์มนตร์ .NET ของ Aspose. Drawing! สำรวจบทช่วยสอนเกี่ยวกับเส้น เส้นโค้ง และรูปร่างสำหรับกราฟิกที่มีชีวิตชีวา—ใช้พู่กันทึบ ส่วนโค้ง เส้นโค้ง วงรี และสร้างสรรค์อื่นๆ ได้อย่างเชี่ยวชาญ
-type: docs
 weight: 23
 url: /th/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เส้น เส้นโค้ง และรูปทรง
+
 
 ## การแนะนำ
 
@@ -69,3 +75,9 @@ url: /th/net/lines-curves-and-shapes/
 เรียนรู้วิธีการวาดสี่เหลี่ยมใน .NET โดยใช้ Aspose. Drawing คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
 ### [การเติมขอบเขตใน Aspose. Drawing](./fill-region/)
 เรียนรู้วิธีเติมขอบเขตใน Aspose. Drawing สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ เสริมทักษะการออกแบบกราฟิกของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

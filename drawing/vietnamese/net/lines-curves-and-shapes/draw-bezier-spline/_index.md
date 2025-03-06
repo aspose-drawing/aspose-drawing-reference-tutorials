@@ -3,10 +3,16 @@ title: Vẽ Bezier Splines trong Aspose.draw
 linktitle: Vẽ Bezier Splines trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá sức mạnh của Aspose.draw cho .NET trong việc tạo các đường nối Bezier tuyệt đẹp. Hãy làm theo hướng dẫn từng bước của chúng tôi để phát triển đồ họa liền mạch.
-type: docs
 weight: 12
 url: /vi/net/lines-curves-and-shapes/draw-bezier-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ Bezier Splines trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách vẽ đường trục Bezier bằng Aspose.draw cho .NET! Đường cong Bezier là đường cong linh hoạt được sử dụng rộng rãi trong đồ họa máy tính. Với Aspose.draw, một thư viện .NET mạnh mẽ, bạn có thể tạo đồ họa tuyệt đẹp một cách dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình vẽ đường trục Bezier một cách đơn giản và hiệu quả.
@@ -91,3 +97,9 @@ A2: Chắc chắn rồi! Aspose.draw cung cấp giao diện thân thiện với 
 ### Câu hỏi 5: Làm cách nào tôi có thể mua Aspose.draw cho .NET?
 
  A5: Để mua hàng, hãy truy cập[trang mua](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

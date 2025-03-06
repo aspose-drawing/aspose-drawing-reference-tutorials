@@ -1,12 +1,17 @@
 ---
 title: Tutoriels complets et exemples d'Aspose.Drawing pour .NET
 linktitle: Aspose.Drawing pour les didacticiels .NET
-type: docs
 weight: 10
 url: /fr/net/
 description: Élevez vos compétences graphiques avec Aspose.Drawing pour .NET ! Des transformations de coordonnées précises au texte et aux polices dynamiques, nos didacticiels libèrent tout le potentiel des graphiques.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriels complets et exemples d'Aspose.Drawing pour .NET
+
 
 ## Introduction
 
@@ -55,3 +60,9 @@ Débloquez la maîtrise graphique .NET avec Aspose.Drawing ! Élevez vos projet
 Débloquez Aspose.Drawing pour .NET ! Maîtrisez la création de texte, de polices et d'images dynamiques. Formatage de texte, astuces et manipulation de polices parfaits pour des visuels d'une clarté cristalline.
 ### [Cas d'utilisation](./use-cases/)
 Améliorez vos illustrations avec Aspose.Drawing pour .NET ! Ajoutez des légendes, créez des cadres époustouflants et intégrez de manière transparente du texte dans des images grâce à nos didacticiels.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

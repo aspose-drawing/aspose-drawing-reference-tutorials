@@ -3,10 +3,16 @@ title: Menggambar Garis di Aspose.Menggambar
 linktitle: Menggambar Garis di Aspose.Menggambar
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Pelajari cara menggambar garis dalam aplikasi .NET dengan Aspose.Drawing. Tutorial langkah demi langkah ini memandu Anda melalui proses untuk menghasilkan grafik yang menakjubkan.
-type: docs
 weight: 16
 url: /id/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggambar Garis di Aspose.Menggambar
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang menggambar garis menggunakan Aspose.Drawing untuk .NET! Aspose.Drawing adalah perpustakaan canggih yang memungkinkan Anda memanipulasi dan membuat gambar di aplikasi .NET Anda. Dalam tutorial ini, kita akan fokus pada dasar-dasar menggambar garis, sebuah keterampilan penting untuk membuat grafik yang menarik secara visual.
@@ -99,3 +105,9 @@ A4: Untuk menangani kesalahan, Anda dapat menerapkan blok coba-tangkap dan meruj
 ### Q5: Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?
 
  A5: Ya, Anda dapat menggunakan Aspose.Drawing untuk proyek komersial. Mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

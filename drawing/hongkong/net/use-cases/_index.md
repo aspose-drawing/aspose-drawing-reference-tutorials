@@ -3,10 +3,16 @@ title: 用例
 linktitle: 用例
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing for .NET 提升您的插畫！透過我們的教程添加標註、創建令人驚嘆的框架並將文字無縫整合到圖像中。
-type: docs
 weight: 27
 url: /zh-hant/net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用例
+
 ## 介紹
 
 在數位設計的動態領域中，Aspose.Drawing for .NET 脫穎而出，提供大量功能來增強文件插圖和影像處理。本文透過逐步教學深入探討了 Aspose.Drawing for .NET 的多功能用例，並專注於三個關鍵領域：製作標註、創建相框和在圖像上添加文字。
@@ -32,3 +38,9 @@ Aspose.Drawing 使您能夠透過合併標註將文件插圖提升到一個新�
 使用 Aspose.Drawing for .NET 增強您的圖片！按照我們的逐步指南來創建令人驚嘆的相框。立即探索 Aspose.Drawing for .NET！
 ### [在 Aspose.Drawing 中的圖像上新增文本](./text-on-image/)
 探索使用 Aspose.Drawing for .NET 將文字無縫整合到圖像中。按照我們的逐步指南輕鬆進行影像處理。現在下載！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

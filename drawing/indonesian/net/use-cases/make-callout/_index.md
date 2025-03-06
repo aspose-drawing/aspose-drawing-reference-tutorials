@@ -3,10 +3,16 @@ title: Membuat Callout di Aspose.Drawing
 linktitle: Membuat Callout di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Sempurnakan ilustrasi dokumen Anda menggunakan Aspose.Drawing untuk .NET! Pelajari langkah demi langkah cara menambahkan info untuk visual yang lebih jelas dan informatif.
-type: docs
 weight: 10
 url: /id/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Callout di Aspose.Drawing
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami dalam membuat info di Aspose.Drawing untuk .NET! Jika Anda ingin menyempurnakan ilustrasi dokumen Anda dengan info, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memecah proses menjadi langkah-langkah yang dapat dikelola menggunakan pustaka Aspose.Drawing.
 ## Prasyarat
@@ -110,3 +116,9 @@ Sangat! Aspose.Drawing mendukung format gambar populer seperti PNG, JPEG, GIF, d
 ### Bisakah saya mencoba Aspose.Drawing sebelum membeli?
 
  Tentu! Mulailah dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose. Drawing의 전역 변환
 linktitle: Aspose.드로잉의 전역 변환
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing에서 글로벌 변환을 탐색하여 멋진 그래픽을 쉽게 만들어보세요. 원활한 경험을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose. Drawing의 전역 변환
+
 ## 소개
 
 .NET용 Aspose. Drawing의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 .NET 애플리케이션의 그래픽 조작을 위한 강력한 라이브러리인 Aspose. Drawing을 사용하여 전역 변환의 개념을 살펴보겠습니다. 전역 변환을 사용하면 그래픽 컨텍스트에서 그려진 모든 항목에 변환을 적용할 수 있습니다. 이는 복잡한 시각 효과를 만들거나 더 넓은 규모로 이미지를 조작하려는 경우 매우 유용할 수 있습니다.
@@ -101,3 +107,9 @@ A4: 예, Aspose. Drawing의 무료 평가판을 탐색할 수 있습니다.[여�
 ### Q5: Aspose. Drawing에 대한 임시 라이센스를 어떻게 얻을 수 있나요?
 
  A5: Aspose. Drawing에 대한 임시 라이센스를 얻습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

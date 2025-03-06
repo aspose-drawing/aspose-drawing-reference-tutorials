@@ -3,10 +3,16 @@ title: Kliping di Aspose. Gambar
 linktitle: Kliping di Aspose. Gambar
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi kekuatan Aspose.Drawing untuk .NET dengan tutorial langkah demi langkah tentang penerapan kliping untuk desain grafis yang disempurnakan.
-type: docs
 weight: 12
 url: /id/net/rendering/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kliping di Aspose. Gambar
+
 ## Perkenalan
 
 Dalam bidang desain grafis dan pemrosesan gambar, kemampuan untuk menampilkan atau menyembunyikan bagian gambar secara selektif adalah hal yang terpenting. Di sinilah kliping berperan, dan dengan Aspose.Drawing untuk .NET, Anda dapat menggabungkan teknik kliping dengan lancar untuk menyempurnakan kreasi visual Anda. Dalam tutorial ini, kita akan mempelajari proses langkah demi langkah penerapan kliping menggunakan Aspose.Drawing, memastikan Anda memahami seluk-beluk yang terlibat.
@@ -112,3 +118,9 @@ A4: Ya, Aspose.Drawing serbaguna dan dapat digunakan di aplikasi .NET desktop da
 ### Q5: Apa dampak kinerja penggunaan kliping dalam hal konsumsi sumber daya?
 
 A5: Kliping adalah operasi yang ringan, dan Aspose.Drawing dioptimalkan untuk pemanfaatan sumber daya yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

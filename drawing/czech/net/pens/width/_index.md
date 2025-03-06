@@ -3,10 +3,16 @@ title: Nastavení šířky per v Aspose.Drawing
 linktitle: Nastavení šířky per v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Prozkoumejte svět grafiky s Aspose.Drawing pro .NET. Naučte se dynamicky nastavovat šířky per pro ohromující vizuály. Začněte s naším podrobným průvodcem.
-type: docs
 weight: 12
 url: /cs/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení šířky per v Aspose.Drawing
+
 ## Úvod
 
 Vítejte v tomto podrobném průvodci nastavením šířky per pomocí Aspose.Drawing for .NET. Aspose.Drawing je výkonná knihovna, která poskytuje rozsáhlé funkce pro práci s grafikou a obrázky v aplikacích .NET. V tomto tutoriálu se zaměříme na konkrétní aspekt – úpravu šířky per pro vylepšení grafiky.
@@ -87,3 +93,9 @@ Gratulujeme! Úspěšně jste se naučili, jak nastavit šířku per pomocí Asp
 ### Q5: Jaké zdroje dokumentace jsou k dispozici?
 
  A5: Viz[Aspose.Výkresová dokumentace](https://reference.aspose.com/drawing/net/) pro podrobné informace a příklady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

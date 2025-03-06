@@ -3,10 +3,16 @@ title: ประสานงานการเปลี่ยนแปลง
 linktitle: ประสานงานการเปลี่ยนแปลง
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: เสริมทักษะด้านกราฟิกของคุณด้วยบทช่วยสอน Aspose. Drawing ของเรา สำรวจการเปลี่ยนแปลงระดับโลก ระดับท้องถิ่น เมทริกซ์ เพจ และโลก การเรียนรู้กราฟิกที่แม่นยำใน .NET
-type: docs
 weight: 20
 url: /th/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ประสานงานการเปลี่ยนแปลง
+
 
 ## การแนะนำ
 
@@ -56,3 +62,9 @@ url: /th/net/coordinate-transformations/
 สำรวจความเก่งกาจของ Aspose. Drawing สำหรับ .NET ในบทช่วยสอนเชิงลึกนี้ ซึ่งเป็นการเรียนรู้หน่วยวัดสำหรับกราฟิกที่มีความแม่นยำ
 ### [การเปลี่ยนแปลงโลกใน Aspose. Drawing](./world-transformation/)
 สำรวจการเปลี่ยนแปลงของโลกใน Aspose. Drawing สำหรับ .NET ยกระดับกราฟิกของคุณด้วยขั้นตอนที่ปฏิบัติตามได้ง่าย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

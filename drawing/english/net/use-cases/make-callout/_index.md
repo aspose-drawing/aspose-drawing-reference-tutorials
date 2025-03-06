@@ -3,10 +3,16 @@ title: Making Callouts in Aspose.Drawing
 linktitle: Making Callouts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Enhance your document illustrations using Aspose.Drawing for .NET! Learn step-by-step how to add callouts for clearer and informative visuals.
-type: docs
 weight: 10
 url: /net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Making Callouts in Aspose.Drawing
+
 ## Introduction
 Welcome to our step-by-step guide on making callouts in Aspose.Drawing for .NET! If you're looking to enhance your document illustrations with callouts, you're in the right place. In this tutorial, we'll break down the process into manageable steps using the Aspose.Drawing library.
 ## Prerequisites
@@ -110,3 +116,10 @@ Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) for comm
 ### Can I try Aspose.Drawing before purchasing?
 
 Certainly! Get started with a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

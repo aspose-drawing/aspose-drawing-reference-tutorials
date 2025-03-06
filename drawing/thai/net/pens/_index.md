@@ -3,10 +3,16 @@ title: ปากกา
 linktitle: ปากกา
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: ปลดล็อกพลังของการเขียนโปรแกรมกราฟิกใน .NET ด้วยบทช่วยสอน Aspose. Drawing ค้นพบการปรับแต่งสี การรวมเส้นทาง และการตั้งค่าความกว้างของปากกาแบบไดนามิกเพื่อภาพที่น่าทึ่ง
-type: docs
 weight: 24
 url: /th/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ปากกา
+
 
 ## การแนะนำ
 
@@ -40,3 +46,9 @@ url: /th/net/pens/
 สำรวจศิลปะแห่งการเชื่อมโยงเส้นทางด้วยปากกาใน Aspose. Drawing สำหรับ .NET สร้างกราฟิกที่น่าทึ่งด้วยตัวเลือก LineJoin
 ### [การตั้งค่าความกว้างของปากกาใน Aspose. Drawing](./width/)
 สำรวจโลกของกราฟิกด้วย Aspose. Drawing สำหรับ .NET เรียนรู้วิธีตั้งค่าความกว้างของปากกาแบบไดนามิกเพื่อให้ได้ภาพที่สวยงามน่าทึ่ง เริ่มต้นด้วยคำแนะนำทีละขั้นตอนของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

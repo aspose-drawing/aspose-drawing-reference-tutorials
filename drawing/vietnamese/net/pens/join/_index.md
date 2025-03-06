@@ -3,10 +3,16 @@ title: Nối các đường dẫn bằng bút trong Aspose.draw
 linktitle: Nối các đường dẫn bằng bút trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá nghệ thuật nối các đường dẫn bằng bút trong Aspose.draw cho .NET. Tạo đồ họa tuyệt đẹp với các tùy chọn LineJoin.
-type: docs
 weight: 11
 url: /vi/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nối các đường dẫn bằng bút trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới của Aspose.draw cho .NET! Trong hướng dẫn này, chúng ta sẽ đi sâu vào nghệ thuật nối các đường dẫn bằng bút bằng cách sử dụng Aspose.draw, một thư viện mạnh mẽ cung cấp chức năng mở rộng để làm việc với đồ họa và hình ảnh trong các ứng dụng .NET.
@@ -107,3 +113,9 @@ Trong hướng dẫn này, chúng ta đã khám phá quá trình nối các đư
 ### Câu 5: Tôi có thể mua Aspose.drawing ở đâu?
 
  A5: Mua hàng Aspose.draw[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

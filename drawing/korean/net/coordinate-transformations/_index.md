@@ -3,10 +3,16 @@ title: 좌표 변환
 linktitle: 좌표 변환
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉 튜토리얼을 통해 그래픽 기술을 향상하세요. .NET의 정밀 그래픽을 마스터하면서 글로벌, 로컬, 매트릭스, 페이지 및 월드 변환을 살펴보세요.
-type: docs
 weight: 20
 url: /ko/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 좌표 변환
+
 
 ## 소개
 
@@ -56,3 +62,9 @@ Aspose.드로잉을 사용하여 .NET에서 단계별 페이지 변환을 알아
 정밀 그래픽을 위한 측정 단위를 마스터하는 심층 튜토리얼에서 .NET용 Aspose.드로잉의 다양성을 살펴보세요.
 ### [Aspose.드로잉의 세계 변환](./world-transformation/)
 .NET용 Aspose.드로잉에서 세계의 변화를 살펴보세요. 따라하기 쉬운 단계를 통해 그래픽을 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

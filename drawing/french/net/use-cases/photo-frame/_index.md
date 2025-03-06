@@ -3,10 +3,16 @@ title: Cadrez vos photos de manière créative avec Aspose.Drawing pour .NET
 linktitle: Création de cadres photo dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Améliorez vos images avec Aspose.Drawing pour .NET ! Suivez notre guide étape par étape pour créer de superbes cadres photo. Explorez Aspose.Drawing pour .NET maintenant !
-type: docs
 weight: 11
 url: /fr/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cadrez vos photos de manière créative avec Aspose.Drawing pour .NET
+
 ## Introduction
 Vous cherchez à ajouter une touche d’élégance à vos images ? Avec Aspose.Drawing pour .NET, vous pouvez facilement créer des cadres photo captivants pour améliorer l'attrait visuel de vos images. Ce guide étape par étape vous guidera tout au long du processus de création de superbes cadres photo à l'aide des puissantes fonctionnalités d'Aspose.Drawing.
 ## Conditions préalables
@@ -98,3 +104,9 @@ Absolument! Vous avez un contrôle total sur la couleur et l’épaisseur du cad
  Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/diagram/17) pour obtenir de l'aide et entrer en contact avec la communauté.
 ### Puis-je utiliser Aspose.Drawing pour des projets commerciaux ?
  Oui, vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy) pour un usage commercial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

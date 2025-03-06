@@ -3,10 +3,16 @@ title: Gợi ý trong Aspose.draw
 linktitle: Gợi ý trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khai phá sức mạnh của khả năng hiển thị văn bản chính xác với Aspose.draw cho .NET. Nắm vững các kỹ thuật gợi ý để có phông chữ rõ ràng.
-type: docs
 weight: 12
 url: /vi/net/text-and-fonts/hinting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gợi ý trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của sự chính xác và rõ ràng trong kết xuất văn bản với Aspose.draw cho .NET! Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào tính năng gợi ý mạnh mẽ, nâng cao khả năng kiểm soát của bạn đối với việc hiển thị phông chữ để có kết quả trực quan hấp dẫn. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình với Aspose.draw, hướng dẫn này sẽ trang bị cho bạn những kỹ năng để khai thác toàn bộ tiềm năng của gợi ý.
@@ -103,3 +109,9 @@ Câu trả lời 4: Có, Aspose.draw hỗ trợ nhiều gợi ý kết xuất v�
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc chia sẻ trải nghiệm của mình với Aspose.drawing ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17)để tương tác với cộng đồng và nhận được sự hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

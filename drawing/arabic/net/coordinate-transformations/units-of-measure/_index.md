@@ -3,10 +3,16 @@ title: وحدات القياس في Aspose.Drawing لـ .NET
 linktitle: وحدات القياس في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: استكشف تعدد استخدامات Aspose.Drawing لـ .NET في هذا البرنامج التعليمي المتعمق، وإتقان وحدات القياس للرسومات الدقيقة.
-type: docs
 weight: 14
 url: /ar/net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# وحدات القياس في Aspose.Drawing لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Drawing لـ .NET، حيث تلتقي الدقة والمرونة في معالجة الرسومات. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات وحدات القياس داخل Aspose.Drawing، مما يوفر لك دليلًا خطوة بخطوة للاستفادة من قوة هذه المكتبة الرائعة.
@@ -120,3 +126,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Units
 ### س5: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Drawing؟
 
  ج5: الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

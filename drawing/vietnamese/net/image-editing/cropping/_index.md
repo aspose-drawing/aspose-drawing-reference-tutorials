@@ -3,10 +3,16 @@ title: Cắt ảnh trong Aspose.draw
 linktitle: Cắt ảnh trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Cắt xén hình ảnh thành thạo với Aspose.draw cho .NET. Hướng dẫn từng bước này giúp các nhà phát triển nâng cao kỹ năng xử lý hình ảnh một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt ảnh trong Aspose.draw
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, Aspose.draw nổi bật như một công cụ mạnh mẽ để xử lý hình ảnh. Một trong những tính năng tiện dụng của nó là khả năng cắt ảnh một cách chính xác. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình cắt xén hình ảnh bằng Aspose.draw cho .NET. Hãy sẵn sàng để nâng cao kỹ năng xử lý hình ảnh của bạn!
@@ -106,3 +112,10 @@ Câu trả lời 4: Thật vậy, Aspose.drawing vượt trội trong việc x�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho các truy vấn liên quan đến Aspose.drawing?
 
  A5: Đi tới[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để tìm kiếm sự hỗ trợ và kết nối với cộng đồng.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

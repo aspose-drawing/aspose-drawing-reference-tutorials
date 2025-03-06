@@ -3,10 +3,16 @@ title: Spojení cest s pery v Aspose.Drawing
 linktitle: Spojení cest s pery v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Prozkoumejte umění spojování cest pomocí per v Aspose.Drawing pro .NET. Vytvářejte úžasnou grafiku s možnostmi LineJoin.
-type: docs
 weight: 11
 url: /cs/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spojení cest s pery v Aspose.Drawing
+
 ## Úvod
 
 Vítejte ve světě Aspose.Drawing pro .NET! V tomto tutoriálu se ponoříme do umění spojování cest pomocí per pomocí Aspose.Drawing, výkonné knihovny, která poskytuje rozsáhlé funkce pro práci s grafikou a obrázky v aplikacích .NET.
@@ -107,3 +113,9 @@ V tomto tutoriálu jsme prozkoumali proces spojování cest pomocí per v Aspose
 ### Q5: Kde mohu zakoupit Aspose.Drawing?
 
  A5: Nákup Aspose.Drawing[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

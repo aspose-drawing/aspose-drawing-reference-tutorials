@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET 中的页面转换
 linktitle: Aspose.Drawing 中的页面转换
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 了解 .NET 中的分步页面转换。通过这个综合教程提高您的图形技能。
-type: docs
 weight: 13
 url: /zh/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 中的页面转换
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.Drawing for .NET 进行页面转换的综合教程。如果您希望提高图形和位图转换方面的技能，那么您来对地方了。在本教程中，我们将指导您完成使用 Aspose.Drawing 转换页面的过程，确保您清楚地掌握每个步骤。
@@ -109,3 +115,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ### Q5：哪里可以购买Aspose.Drawing？
 
  A5：您可以购买Aspose.Drawing[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

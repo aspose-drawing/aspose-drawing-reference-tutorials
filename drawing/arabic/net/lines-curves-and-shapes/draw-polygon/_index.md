@@ -3,10 +3,16 @@ title: رسم المضلعات في Aspose.Drawing
 linktitle: رسم المضلعات في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف قوة Aspose.Drawing for .NET في إنشاء رسومات مذهلة. ارسم المضلعات بسهولة باستخدام هذه المكتبة البديهية.
-type: docs
 weight: 18
 url: /ar/net/lines-curves-and-shapes/draw-polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم المضلعات في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في عالم المعالجة الرسومية المثير باستخدام Aspose.Drawing لـ .NET! في هذا البرنامج التعليمي، سنتعمق في عملية رسم المضلعات، وهو جانب أساسي في التصميم الجرافيكي وإنشاء الصور. يوفر Aspose.Drawing مجموعة قوية من الأدوات لجعل هذه المهمة بديهية وفعالة.
@@ -96,3 +102,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png"
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع المجتمع؟
 
  ج5: إذا كانت لديك أية استفسارات أو مناقشات، توجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) للتعامل مع مجتمع Aspose النابض بالحياة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

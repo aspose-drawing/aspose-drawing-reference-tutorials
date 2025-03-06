@@ -3,10 +3,16 @@ title: Mise à l'échelle des images dans Aspose.Drawing
 linktitle: Mise à l'échelle des images dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Apprenez à mettre à l'échelle des images sans effort dans .NET à l'aide d'Aspose.Drawing. Notre guide étape par étape garantit une intégration transparente, offrant de puissantes capacités de manipulation d'images.
-type: docs
 weight: 14
 url: /fr/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mise à l'échelle des images dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur la mise à l'échelle des images à l'aide d'Aspose.Drawing pour .NET ! Dans le monde dynamique du développement logiciel, la manipulation et la mise à l’échelle des images sont une exigence courante. Aspose.Drawing simplifie ce processus en offrant des outils et des fonctionnalités puissants pour travailler avec des images dans vos applications .NET.
@@ -107,3 +113,9 @@ R1 : Oui, Aspose.Drawing est polyvalent et peut être utilisé dans diverses ap
 ### Q5 : Puis-je appliquer des modes d'interpolation personnalisés pour la mise à l'échelle de l'image ?
 
 A5 : Oui, Aspose.Drawing offre une flexibilité, vous permettant de choisir parmi différents modes d'interpolation pour la mise à l'échelle de l'image.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

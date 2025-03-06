@@ -3,10 +3,16 @@ title: Đường thẳng, đường cong và hình dạng
 linktitle: Đường thẳng, đường cong và hình dạng
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Giải phóng phép thuật .NET của Aspose.draw! Khám phá Hướng dẫn về Đường, Đường cong và Hình dạng để có đồ họa sống động—làm chủ các bút vẽ, đường cung, đường nối, hình elip và sáng tạo hơn.
-type: docs
 weight: 23
 url: /vi/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đường thẳng, đường cong và hình dạng
+
 
 ## Giới thiệu
 
@@ -69,3 +75,9 @@ Khám phá sức mạnh của Aspose.draw cho .NET trong việc tạo đồ họ
 Tìm hiểu cách vẽ hình chữ nhật trong .NET bằng Aspose.draw. Hướng dẫn từng bước với các ví dụ về mã.
 ### [Điền các vùng trong Aspose.draw](./fill-region/)
 Tìm hiểu cách điền các vùng trong Aspose.draw cho .NET bằng hướng dẫn từng bước này. Nâng cao kỹ năng thiết kế đồ họa của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

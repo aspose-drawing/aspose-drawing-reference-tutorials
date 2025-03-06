@@ -3,10 +3,16 @@ title: Vẽ các đường cong khép kín trong Aspose.draw
 linktitle: Vẽ các đường cong khép kín trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá nghệ thuật vẽ các đường cong khép kín trong ứng dụng .NET với Aspose.drawing. Nâng cao hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ các đường cong khép kín trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách vẽ các đường cong khép kín trong Aspose.draw cho .NET! Nếu bạn đang tìm cách cải thiện các ứng dụng .NET của mình bằng những đường cong khép kín sống động và chính xác thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình từng bước một, đảm bảo bạn có được sự hiểu biết vững chắc về thư viện Aspose.drawing và các khả năng của nó.
@@ -84,3 +90,9 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu quy trình vẽ các đư�
 ### Câu hỏi 5: Có những lựa chọn hỗ trợ nào?
 
  Câu trả lời 5: Nếu bạn cần hỗ trợ hoặc có thắc mắc, hãy đến[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Unir caminos con bolígrafos en Aspose.Drawing
 linktitle: Unir caminos con bolígrafos en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Explore el arte de unir trazados con bolígrafos en Aspose.Drawing para .NET. Cree gráficos impresionantes con las opciones de LineJoin.
-type: docs
 weight: 11
 url: /es/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unir caminos con bolígrafos en Aspose.Drawing
+
 ## Introducción
 
 ¡Bienvenido al mundo de Aspose.Drawing para .NET! En este tutorial, profundizaremos en el arte de unir trazados con bolígrafos utilizando Aspose.Drawing, una potente biblioteca que proporciona una amplia funcionalidad para trabajar con gráficos e imágenes en aplicaciones .NET.
@@ -107,3 +113,9 @@ En este tutorial, exploramos el proceso de unir trazados con bolígrafos en Aspo
 ### P5: ¿Dónde puedo comprar Aspose.Drawing?
 
  A5: Compra Aspose.Dibujo[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تنسيق النص في Aspose.Drawing
 linktitle: تنسيق النص في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعلم كيفية تنسيق النص في Aspose.Drawing لـ .NET دون عناء. دليل خطوة بخطوة مع الأمثلة.
-type: docs
 weight: 11
 url: /ar/net/text-and-fonts/format-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنسيق النص في Aspose.Drawing
+
 ## مقدمة
 
 عندما يتعلق الأمر بمعالجة النص وتنسيقه في تطبيقات .NET الخاصة بك، فإن Aspose.Drawing هو الحل الأمثل للمطورين الذين يبحثون عن الكفاءة والدقة. توفر هذه المكتبة القوية عددًا لا يحصى من الأدوات لتحسين المظهر المرئي للنص، مما يجعلها أصلًا لا غنى عنه في التطبيقات التي تتطلب رسومًا مكثفة. في هذا البرنامج التعليمي، سنتعمق في الفروق الدقيقة في تنسيق النص باستخدام Aspose.Drawing، مما يوفر دليلًا خطوة بخطوة للتكامل السلس.
@@ -101,3 +107,9 @@ bitmap.Save("Your Document Directory" + @"TextFonts\FormatText_out.png");
 ### س5: أين يمكنني العثور على دعم إضافي لـ Aspose.Drawing؟
 
  ج5: استكشف منتدى Aspose.Drawing[هنا](https://forum.aspose.com/c/diagram/17) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

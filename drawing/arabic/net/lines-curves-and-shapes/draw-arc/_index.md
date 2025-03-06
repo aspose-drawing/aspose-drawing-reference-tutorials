@@ -3,10 +3,16 @@ title: رسم الأقواس في Aspose.Drawing
 linktitle: رسم الأقواس في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية رسم أقواس جذابة في تطبيقات .NET باستخدام Aspose.Drawing. اتبع دليلنا خطوة بخطوة للحصول على نتائج مرئية مذهلة.
-type: docs
 weight: 11
 url: /ar/net/lines-curves-and-shapes/draw-arc/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الأقواس في Aspose.Drawing
+
 ## مقدمة
 
 يعد إنشاء رسومات جذابة بصريًا جانبًا أساسيًا للعديد من التطبيقات، كما أن Aspose.Drawing for .NET يجعل هذه المهمة في غاية السهولة. في هذا البرنامج التعليمي، سوف نتعمق في عملية رسم الأقواس باستخدام Aspose.Drawing. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، فسيزودك هذا الدليل بالمعرفة اللازمة لدمج الأقواس المذهلة في تطبيقات .NET الخاصة بك.
@@ -85,3 +91,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 ### س5: أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية؟
 
  ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Afbeeldingen bijsnijden in Aspose.Drawing
 linktitle: Afbeeldingen bijsnijden in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Beheers het bijsnijden van afbeeldingen met Aspose.Drawing voor .NET. Met deze stapsgewijze handleiding kunnen ontwikkelaars hun vaardigheden op het gebied van beeldverwerking moeiteloos verbeteren.
-type: docs
 weight: 10
 url: /nl/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen bijsnijden in Aspose.Drawing
+
 ## Invoering
 
 In de wereld van .NET-ontwikkeling onderscheidt Aspose.Drawing zich als een krachtig hulpmiddel voor beeldmanipulatie. Een van de handige functies is de mogelijkheid om afbeeldingen nauwkeurig bij te snijden. In deze zelfstudie doorlopen we het proces van het bijsnijden van afbeeldingen met Aspose.Drawing voor .NET. Maak je klaar om je beeldverwerkingsvaardigheden te verbeteren!
@@ -106,3 +112,10 @@ A4: Aspose.Drawing blinkt uit in batchverwerking, waardoor een efficiënte verwe
 ### V5: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing-gerelateerde vragen?
 
  A5: Ga naar de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) om hulp te zoeken en verbinding te maken met de gemeenschap.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

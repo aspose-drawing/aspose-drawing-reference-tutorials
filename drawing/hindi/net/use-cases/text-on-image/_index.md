@@ -3,10 +3,16 @@ title: Aspose.Drawing में छवियों पर टेक्स्ट 
 linktitle: Aspose.Drawing में छवियों पर टेक्स्ट जोड़ना
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: .NET के लिए Aspose.Drawing के साथ छवियों में पाठ के निर्बाध एकीकरण का अन्वेषण करें। सहज छवि हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। अब डाउनलोड करो!
-type: docs
 weight: 12
 url: /hi/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing में छवियों पर टेक्स्ट जोड़ना
+
 ## परिचय
 .NET विकास की गतिशील दुनिया में, Aspose.Drawing आसानी से छवियों में हेरफेर करने के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। छवियों में टेक्स्ट जोड़ना एक सामान्य आवश्यकता है, चाहे वह वॉटरमार्किंग, एनोटेशन, या वैयक्तिकृत ग्राफिक्स बनाने के लिए हो। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि C# का उपयोग करके अपनी छवियों में टेक्स्ट को सहजता से एकीकृत करने के लिए Aspose.Drawing का लाभ कैसे उठाया जाए।
 ## आवश्यक शर्तें
@@ -78,3 +84,9 @@ Aspose.Drawing .NET में छवि हेरफेर कार्यों
  समुदाय के साथ जुड़ें और समर्थन प्राप्त करें[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17).
 ### मैं Aspose.Drawing के साथ कैसे शुरुआत करूं?
  से लाइब्रेरी डाउनलोड करके शुरुआत करें[यहाँ](https://releases.aspose.com/drawing/net/) और व्यापक का अन्वेषण करें[प्रलेखन](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ställa in bredd på pennor i Aspose.Drawing
 linktitle: Ställa in bredd på pennor i Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
 description: Utforska grafikvärlden med Aspose.Drawing för .NET. Lär dig hur du ställer in pennbredder dynamiskt för fantastiska bilder. Kom igång med vår steg-för-steg-guide.
-type: docs
 weight: 12
 url: /sv/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in bredd på pennor i Aspose.Drawing
+
 ## Introduktion
 
 Välkommen till denna steg-för-steg-guide för att ställa in bredden på pennor med Aspose.Drawing för .NET. Aspose.Drawing är ett kraftfullt bibliotek som ger omfattande funktionalitet för att arbeta med grafik och bilder i .NET-applikationer. I den här handledningen kommer vi att fokusera på en specifik aspekt – att justera bredden på pennorna för att förbättra din grafik.
@@ -87,3 +93,9 @@ Grattis! Du har framgångsrikt lärt dig hur du ställer in bredden på pennor m
 ### F5: Vilka dokumentationsresurser finns tillgängliga?
 
  A5: Se[Aspose.Drawing dokumentation](https://reference.aspose.com/drawing/net/) för fördjupad information och exempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

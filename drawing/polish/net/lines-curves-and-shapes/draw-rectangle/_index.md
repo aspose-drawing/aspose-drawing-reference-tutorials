@@ -3,10 +3,16 @@ title: Rysowanie prostokątów w Aspose.Drawing
 linktitle: Rysowanie prostokątów w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Dowiedz się, jak rysować prostokąty w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku z przykładami kodu.
-type: docs
 weight: 19
 url: /pl/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rysowanie prostokątów w Aspose.Drawing
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat rysowania prostokątów przy użyciu Aspose.Drawing dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w Aspose.Drawing, ten przewodnik przeprowadzi Cię przez proces tworzenia prostokątów i manipulowania nimi w aplikacjach .NET.
@@ -98,3 +104,9 @@ A4: Absolutnie! Aspose.Drawing zapewnia zaawansowane funkcje do obsługi skompli
 ### P5: Gdzie mogę kupić Aspose.Drawing?
 
  A5: Odwiedź[Tutaj](https://purchase.aspose.com/buy) kupić licencję.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

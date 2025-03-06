@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中用筆連接路徑
 linktitle: 在 Aspose.Drawing 中用筆連接路徑
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 探索在 Aspose.Drawing for .NET 中使用筆連接路徑的藝術。使用 LineJoin 選項來建立令人驚嘆的圖形。
-type: docs
 weight: 11
 url: /zh-hant/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中用筆連接路徑
+
 ## 介紹
 
 歡迎來到 Aspose.Drawing for .NET 的世界！在本教程中，我們將深入研究使用 Aspose.Drawing 用筆連接路徑的藝術，Aspose.Drawing 是一個功能強大的庫，為在 .NET 應用程式中處理圖形和圖像提供了廣泛的功能。
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ### Q5：哪裡可以購買Aspose.Drawing？
 
  A5：購買Aspose.Drawing[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

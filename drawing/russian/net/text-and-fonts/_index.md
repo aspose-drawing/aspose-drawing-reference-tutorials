@@ -3,10 +3,16 @@ title: Текст и шрифты
 linktitle: Текст и шрифты
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Разблокируйте Aspose.Drawing для .NET! Освойте динамический текст, шрифты и создание изображений. Идеальное форматирование текста, подсказки и манипуляции со шрифтами для кристально четкого изображения.
-type: docs
 weight: 26
 url: /ru/net/text-and-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Текст и шрифты
+
 
 ## Введение
 В сфере .NET-приложений улучшение ваших проектов с помощью привлекательного текста и шрифтов меняет правила игры. В этом уроке рассматриваются тонкости Aspose.Drawing, мощного инструмента для раскрытия творческих способностей и повышения визуальной привлекательности.
@@ -33,3 +39,9 @@ url: /ru/net/text-and-fonts/
 Раскройте возможности точного рендеринга текста с помощью Aspose.Drawing для .NET. Овладейте техникой хинтинга для кристально чистых шрифтов.
 ### [Работа с установленными шрифтами в Aspose.Drawing](./installed-fonts/)
 Исследуйте возможности Aspose.Drawing for .NET в управлении установленными шрифтами. Улучшите свои навыки обработки изображений с помощью этого подробного руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

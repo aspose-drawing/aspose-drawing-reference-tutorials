@@ -3,10 +3,16 @@ title: Transformace souřadnic
 linktitle: Transformace souřadnic
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Vylepšete své grafické dovednosti pomocí našich výukových programů Aspose.Drawing. Prozkoumejte globální, místní, maticové, stránkové a světové transformace a zvládněte precizní grafiku v .NET.
-type: docs
 weight: 20
 url: /cs/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformace souřadnic
+
 
 ## Úvod
 
@@ -56,3 +62,9 @@ Naučte se krok za krokem transformace stránek v .NET pomocí Aspose.Drawing. V
 Prozkoumejte všestrannost Aspose.Drawing pro .NET v tomto podrobném kurzu, který vám pomůže zvládnout měrné jednotky pro přesnou grafiku.
 ### [Transformace světa v Aspose. Kreslení](./world-transformation/)
 Prozkoumejte proměny světa v Aspose.Drawing pro .NET. Zvyšte svou grafiku pomocí jednoduchých kroků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

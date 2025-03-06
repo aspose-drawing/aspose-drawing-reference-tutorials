@@ -3,10 +3,16 @@ title: Joindre des chemins avec des stylos dans Aspose.Drawing
 linktitle: Joindre des chemins avec des stylos dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Découvrez l'art de joindre des chemins avec des stylos dans Aspose.Drawing pour .NET. Créez des graphiques époustouflants avec les options LineJoin.
-type: docs
 weight: 11
 url: /fr/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Joindre des chemins avec des stylos dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.Drawing pour .NET ! Dans ce didacticiel, nous aborderons l'art de joindre des chemins avec des stylets à l'aide d'Aspose.Drawing, une bibliothèque puissante qui offre des fonctionnalités étendues pour travailler avec des graphiques et des images dans des applications .NET.
@@ -107,3 +113,9 @@ Dans ce didacticiel, nous avons exploré le processus de jonction de chemins ave
 ### Q5 : Où puis-je acheter Aspose.Drawing ?
 
  A5 : Acheter Aspose.Dessin[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

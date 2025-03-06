@@ -3,10 +3,16 @@ title: Escalar imágenes en Aspose.Drawing
 linktitle: Escalar imágenes en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Aprenda a escalar imágenes sin esfuerzo en .NET usando Aspose.Drawing. Nuestra guía paso a paso garantiza una integración perfecta y proporciona potentes capacidades de manipulación de imágenes.
-type: docs
 weight: 14
 url: /es/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Escalar imágenes en Aspose.Drawing
+
 ## Introducción
 
 ¡Bienvenido a esta guía completa sobre cómo escalar imágenes usando Aspose.Drawing para .NET! En el dinámico mundo del desarrollo de software, manipular y escalar imágenes es un requisito común. Aspose.Drawing simplifica este proceso y ofrece potentes herramientas y funcionalidades para trabajar con imágenes en sus aplicaciones .NET.
@@ -107,3 +113,9 @@ R1: Sí, Aspose.Drawing es versátil y se puede utilizar en varias aplicaciones 
 ### P5: ¿Puedo aplicar modos de interpolación personalizados para escalar imágenes?
 
 R5: Sí, Aspose.Drawing proporciona flexibilidad, permitiéndole elegir entre varios modos de interpolación para escalar la imagen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

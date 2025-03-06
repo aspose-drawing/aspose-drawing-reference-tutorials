@@ -3,10 +3,16 @@ title: Callouts in Aspose.Drawing erstellen
 linktitle: Callouts in Aspose.Drawing erstellen
 second_title: Aspose.Drawing .NET API – Alternative zu System.Drawing.Common
 description: Verbessern Sie Ihre Dokumentillustrationen mit Aspose.Drawing für .NET! Erfahren Sie Schritt für Schritt, wie Sie Beschriftungen für klarere und informativere Bilder hinzufügen.
-type: docs
 weight: 10
 url: /de/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Callouts in Aspose.Drawing erstellen
+
 ## Einführung
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Erstellen von Callouts in Aspose.Drawing für .NET! Wenn Sie Ihre Dokumentillustrationen mit Beschriftungen aufwerten möchten, sind Sie hier richtig. In diesem Tutorial unterteilen wir den Prozess mithilfe der Aspose.Drawing-Bibliothek in überschaubare Schritte.
 ## Voraussetzungen
@@ -110,3 +116,9 @@ Absolut! Aspose.Drawing unterstützt gängige Bildformate wie PNG, JPEG, GIF und
 ### Kann ich Aspose.Drawing vor dem Kauf ausprobieren?
 
  Sicherlich! Beginnen Sie mit einer kostenlosen Testversion[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

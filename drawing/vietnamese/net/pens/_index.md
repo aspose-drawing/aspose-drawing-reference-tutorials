@@ -3,10 +3,16 @@ title: Bút mực
 linktitle: Bút mực
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khai phá sức mạnh của lập trình đồ họa trong .NET với hướng dẫn Aspose.draw. Khám phá thao tác màu sắc, nối đường dẫn và cài đặt độ rộng bút động để có hình ảnh tuyệt đẹp.
-type: docs
 weight: 24
 url: /vi/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bút mực
+
 
 ## Giới thiệu
 
@@ -40,3 +46,9 @@ Khám phá thế giới lập trình đồ họa sôi động trong .NET với A
 Khám phá nghệ thuật nối các đường dẫn bằng bút trong Aspose.draw cho .NET. Tạo đồ họa tuyệt đẹp với các tùy chọn LineJoin.
 ### [Đặt độ rộng của bút trong Aspose.draw](./width/)
 Khám phá thế giới đồ họa với Aspose.draw cho .NET. Tìm hiểu cách thiết lập độ rộng bút một cách linh hoạt để có hình ảnh tuyệt đẹp. Bắt đầu với hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Úprava obrázku
 linktitle: Úprava obrázku
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Vylepšete své dovednosti v úpravě obrázků pomocí výukových programů Aspose.Drawing! Naučte se techniky ořezávání, přímého přístupu k datům, zobrazování a škálování pro úžasné výsledky.
-type: docs
 weight: 21
 url: /cs/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úprava obrázku
+
 
 ## Úvod
 
@@ -54,3 +60,9 @@ Naučte se zobrazovat obrázky v aplikacích .NET pomocí Aspose.Drawing. Postup
 Ovládněte načítání a ukládání obrázků v .NET pomocí Aspose.Drawing. Prozkoumejte bez námahy formáty BMP, GIF, JPG, PNG, TIFF.
 ### [Změna měřítka obrázků v Aspose.Drawing](./scale/)
 Naučte se, jak bez námahy měnit měřítko obrázků v .NET pomocí Aspose.Drawing. Náš podrobný průvodce zajišťuje bezproblémovou integraci a poskytuje výkonné možnosti manipulace s obrázky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

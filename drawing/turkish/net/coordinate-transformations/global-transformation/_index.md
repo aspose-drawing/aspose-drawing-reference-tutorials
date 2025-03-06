@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET'te Küresel Dönüşüm
 linktitle: Aspose.Drawing'de Küresel Dönüşüm
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing for .NET'teki küresel dönüşümleri keşfedin ve kolaylıkla çarpıcı grafikler oluşturun. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET'te Küresel Dönüşüm
+
 ## giriiş
 
 Aspose.Drawing for .NET dünyasına hoş geldiniz! Bu derste, .NET uygulamalarında grafik manipülasyonu için güçlü bir kütüphane olan Aspose.Drawing'i kullanarak global dönüşüm kavramını keşfedeceğiz. Global dönüşüm, grafik bağlamında çizilen her öğeye dönüşüm uygulamanıza olanak tanır. Karmaşık görsel efektler oluşturmak veya görüntüleri daha geniş ölçekte değiştirmek istediğinizde bu son derece yararlı olabilir.
@@ -101,3 +107,9 @@ Cevap4: Evet, Aspose.Drawing'in ücretsiz deneme sürümünü keşfedebilirsiniz
 ### S5: Aspose.Drawing için nasıl geçici lisans alabilirim?
 
  Cevap5: Aspose.Drawing için geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

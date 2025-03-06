@@ -3,10 +3,16 @@ title: Transformación mundial en Aspose.Drawing
 linktitle: Transformación mundial en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Explore las transformaciones del mundo en Aspose.Drawing para .NET. Mejore sus gráficos con pasos fáciles de seguir.
-type: docs
 weight: 15
 url: /es/net/coordinate-transformations/world-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformación mundial en Aspose.Drawing
+
 ## Introducción
 
 ¡Bienvenido al mundo de Aspose.Drawing para .NET! En este tutorial, exploraremos el fascinante reino de las transformaciones mundiales utilizando Aspose.Drawing. Si está ansioso por mejorar sus capacidades de gráficos e imágenes en aplicaciones .NET, está en el lugar correcto.
@@ -97,3 +103,9 @@ R2: ¡Absolutamente! Siéntete libre de encadenar múltiples transformaciones pa
 ### P5: ¿Cómo puedo obtener soporte o conectarme con la comunidad?
 
  A5: Únase a las discusiones y busque ayuda sobre el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 펜
 linktitle: 펜
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉 튜토리얼을 통해 .NET에서 그래픽 프로그래밍의 강력한 기능을 활용해 보세요. 놀라운 시각적 효과를 위한 색상 조작, 경로 결합 및 동적 펜 너비 설정을 살펴보세요.
-type: docs
 weight: 24
 url: /ko/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 펜
+
 
 ## 소개
 
@@ -40,3 +46,9 @@ Aspose. Drawing을 사용하여 .NET에서 생생한 그래픽 프로그래밍 �
 .NET용 Aspose. Drawing에서 펜을 사용하여 경로를 연결하는 기술을 살펴보세요. LineJoin 옵션으로 멋진 그래픽을 만들어보세요.
 ### [Aspose. Drawing에서 펜 너비 설정](./width/)
 .NET용 Aspose. Drawing을 사용하여 그래픽의 세계를 탐험해보세요. 멋진 시각적 효과를 위해 펜 너비를 동적으로 설정하는 방법을 알아보세요. 단계별 가이드로 시작해 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

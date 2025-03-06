@@ -3,10 +3,16 @@ title: Tollak
 linktitle: Tollak
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Az Aspose.Drawing oktatóanyagok segítségével felszabadíthatja a grafikus programozás erejét a .NET-ben. Fedezze fel a színmanipulációt, az útvonalak összekapcsolását és a dinamikus tollszélesség-beállítást a lenyűgöző látvány érdekében.
-type: docs
 weight: 24
 url: /hu/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tollak
+
 
 ## Bevezetés
 
@@ -40,3 +46,9 @@ Fedezze fel a .NET grafikus programozásának vibráló világát az Aspose.Draw
 Fedezze fel a pályák tollakkal való összekapcsolásának művészetét az Aspose.Drawing for .NET-ben. Lenyűgöző grafikákat készíthet a LineJoin opciókkal.
 ### [A tollak szélességének beállítása az Aspose.Drawingben](./width/)
 Fedezze fel a grafika világát az Aspose.Drawing for .NET segítségével. Ismerje meg, hogyan állíthatja be dinamikusan a tollszélességet a lenyűgöző látvány érdekében. Kezdje el lépésenkénti útmutatónkkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

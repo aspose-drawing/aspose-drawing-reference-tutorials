@@ -3,10 +3,16 @@ title: Добавление текста к изображениям в Aspose.D
 linktitle: Добавление текста к изображениям в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Исследуйте плавную интеграцию текста в изображения с помощью Aspose.Drawing для .NET. Следуйте нашему пошаговому руководству, чтобы легко манипулировать изображениями. Скачать сейчас!
-type: docs
 weight: 12
 url: /ru/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление текста к изображениям в Aspose.Drawing
+
 ## Введение
 В динамичном мире .NET-разработки Aspose.Drawing выделяется как мощный инструмент для простого управления изображениями. Добавление текста к изображениям является распространенным требованием, будь то водяные знаки, аннотации или создание персонализированной графики. В этом уроке мы рассмотрим, как использовать Aspose.Drawing для плавной интеграции текста в ваши изображения с помощью C#.
 ## Предварительные условия
@@ -78,3 +84,9 @@ Aspose.Drawing упрощает задачи манипулирования из
  Взаимодействуйте с сообществом и получайте поддержку на[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
 ### Как мне начать работу с Aspose.Drawing?
  Начните с загрузки библиотеки с сайта[здесь](https://releases.aspose.com/drawing/net/) и изучить всестороннее[документация](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Kapalı Eğriler Çizimi
 linktitle: Aspose.Drawing'de Kapalı Eğriler Çizimi
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing ile .NET uygulamalarında kapalı eğriler çizme sanatını keşfedin. Görsellerinizi zahmetsizce yükseltin.
-type: docs
 weight: 14
 url: /tr/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Kapalı Eğriler Çizimi
+
 ## giriiş
 
 Aspose.Drawing for .NET'te kapalı eğrilerin çizilmesine ilişkin kapsamlı kılavuzumuza hoş geldiniz! .NET uygulamalarınızı canlı ve hassas kapalı eğrilerle geliştirmek istiyorsanız doğru yere geldiniz. Bu eğitimde süreci adım adım inceleyerek Aspose.Drawing kütüphanesi ve yetenekleri hakkında sağlam bir anlayışa sahip olmanızı sağlayacağız.
@@ -84,3 +90,9 @@ Bu eğitimde Aspose.Drawing for .NET'te kapalı eğriler çizme sürecini anlatt
 ### S5: Hangi destek seçenekleri mevcut?
 
  C5: Yardıma ihtiyacınız varsa veya sorularınız varsa[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

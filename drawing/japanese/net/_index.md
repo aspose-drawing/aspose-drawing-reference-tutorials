@@ -1,12 +1,17 @@
 ---
 title: Aspose.Drawing for .NET の包括的なチュートリアルと例
 linktitle: Aspose.Drawing for .NET チュートリアル
-type: docs
 weight: 10
 url: /ja/net/
 description: Aspose.Drawing for .NET でグラフィック スキルを向上させましょう!正確な座標変換から動的なテキストやフォントまで、私たちのチュートリアルはグラフィックスの可能性を最大限に引き出します。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET の包括的なチュートリアルと例
+
 
 ## 導入
 
@@ -55,3 +60,9 @@ Aspose.Drawing で .NET グラフィックの習得を解き放ちましょう!�
 .NET 用の Aspose.Drawing のロックを解除してください!ダイナミック テキスト、フォント、画像の作成をマスターします。完璧なテキストの書式設定、ヒンティング、フォント操作により、非常に鮮明なビジュアルを実現します。
 ### [使用例](./use-cases/)
 Aspose.Drawing for .NET を使用してイラストをレベルアップしましょう!チュートリアルを使用して、吹き出しを追加し、見事なフレームを作成し、テキストを画像にシームレスに統合します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

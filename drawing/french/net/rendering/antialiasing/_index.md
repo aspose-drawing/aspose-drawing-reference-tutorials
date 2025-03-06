@@ -3,10 +3,16 @@ title: Anticrénelage dans Aspose.Drawing
 linktitle: Anticrénelage dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Améliorez les graphiques dans les applications .NET avec Aspose.Drawing. Implémentez l’anticrénelage pour des bords lisses. Suivez notre guide étape par étape.
-type: docs
 weight: 11
 url: /fr/net/rendering/antialiasing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anticrénelage dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur la mise en œuvre de l'anticrénelage dans Aspose.Drawing pour .NET. L'anticrénelage est une technique cruciale en infographie qui permet de lisser les bords irréguliers, ce qui donne lieu à des images visuellement attrayantes et de haute qualité. Dans ce didacticiel, nous vous guiderons tout au long du processus d'intégration de l'anticrénelage dans vos applications .NET à l'aide d'Aspose.Drawing.
@@ -104,3 +110,9 @@ A3 : Oui, Aspose.Drawing est polyvalent et peut être utilisé pour des applicat
 ### Q5 : Où puis-je trouver la documentation d'Aspose.Drawing ?
 
  A5 : La documentation est disponible[ici](https://reference.aspose.com/drawing/net/), fournissant des informations complètes et des exemples pour vous aider à tirer le meilleur parti d'Aspose.Drawing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

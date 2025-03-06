@@ -3,10 +3,16 @@ title: Mengatur Lebar Pena di Aspose.Drawing
 linktitle: Mengatur Lebar Pena di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi dunia grafis dengan Aspose.Drawing untuk .NET. Pelajari cara mengatur lebar pena secara dinamis untuk visual yang menakjubkan. Mulailah dengan panduan langkah demi langkah kami.
-type: docs
 weight: 12
 url: /id/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Lebar Pena di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang mengatur lebar pena menggunakan Aspose.Drawing untuk .NET. Aspose.Drawing adalah perpustakaan canggih yang menyediakan fungsionalitas luas untuk bekerja dengan grafik dan gambar dalam aplikasi .NET. Dalam tutorial ini, kita akan fokus pada aspek tertentu—menyesuaikan lebar pena untuk menyempurnakan grafis Anda.
@@ -87,3 +93,9 @@ Selamat! Anda telah berhasil mempelajari cara mengatur lebar pena menggunakan As
 ### Q5: Sumber dokumentasi apa yang tersedia?
 
  A5: Lihat[Aspose.Dokumentasi gambar](https://reference.aspose.com/drawing/net/) untuk informasi mendalam dan contoh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.드로잉의 로컬 변환
 linktitle: Aspose.드로잉의 로컬 변환
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose.드로잉에서 로컬 변환을 살펴보세요. 따라하기 쉬운 단계를 통해 그래픽을 향상하세요.
-type: docs
 weight: 11
 url: /ko/net/coordinate-transformations/local-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.드로잉의 로컬 변환
+
 ## 소개
 
 고급 로컬 변환을 통해 .NET 애플리케이션의 그래픽을 향상시키고 싶으십니까? .NET용 Aspose. Drawing은 개발자가 로컬 변환을 쉽게 통합하여 놀라운 시각적 개체를 만들 수 있도록 지원합니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 로컬 변환의 세계를 탐구하고 이 강력한 라이브러리의 잠재력을 최대한 활용하기 위한 각 단계를 안내합니다.
@@ -111,3 +117,9 @@ A3: 회전 외에도 Aspose. Drawing은 포괄적인 변환 기능을 위해 변
 ### Q5: 구매하기 전에 Aspose. Drawing을 사용해 볼 수 있나요?*
 
  A5: 네, 도서관을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

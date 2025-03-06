@@ -3,10 +3,16 @@ title: Lisanslama
 linktitle: Lisanslama
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Kesintisiz lisanslama eğitimleriyle Aspose.Drawing'in .NET'teki tüm potansiyelini ortaya çıkarın. Zahmetsizce entegre edin, grafikleri yükseltin ve görüntüleri kolaylıkla değiştirin.
-type: docs
 weight: 22
 url: /tr/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisanslama
+
 
 ## giriiş
 
@@ -34,3 +40,9 @@ Aspose.Drawing'i projelerinize sorunsuz bir şekilde dahil edin ve grafik ve gö
 ## Lisanslama Eğitimleri
 ### [Aspose.Drawing'de Lisanslama](./licensing/)
 .NET'te Aspose.Drawing'in tüm potansiyelini ortaya çıkarın. Sorunsuz entegrasyon için ana lisanslama. Hemen indirin ve grafiklerinizi ve görüntü işlemenizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Drawing でペンを使用してパスを結合する
 linktitle: Aspose.Drawing でペンを使用してパスを結合する
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET でペンを使用してパスを結合する技術を探索してください。 LineJoin オプションを使用して美しいグラフィックを作成します。
-type: docs
 weight: 11
 url: /ja/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing でペンを使用してパスを結合する
+
 ## 導入
 
 Aspose.Drawing for .NET の世界へようこそ!このチュートリアルでは、.NET アプリケーションでグラフィックスやイメージを操作するための広範な機能を提供する強力なライブラリである Aspose.Drawing を使用して、ペンでパスを結合する方法を詳しく説明します。
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ### Q5: Aspose.Drawing はどこで購入できますか?
 
  A5: Aspose.Drawing を購入する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

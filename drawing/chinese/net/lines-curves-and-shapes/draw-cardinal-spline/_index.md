@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中绘制基数样条线
 linktitle: 在 Aspose.Drawing 中绘制基数样条线
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 探索在 .NET 应用程序中绘制基数样条线的艺术。毫不费力地创建平滑的曲线。
-type: docs
 weight: 13
 url: /zh/net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中绘制基数样条线
+
 ## 介绍
 
 Aspose.Drawing for .NET 使开发人员能够无缝地创建复杂的图形应用程序。在本教程中，我们将深入研究使用 Aspose.Drawing 绘制基数样条线的迷人世界。基数样条提供平滑的曲线插值，并且借助 Aspose.Drawing 的强大功能，您可以轻松地将这些曲线集成到您的 .NET 应用程序中。
@@ -89,3 +95,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_o
 ### Q5：如何访问文档？
 
  A5：参考综合[文档](https://reference.aspose.com/drawing/net/)获取详细信息和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

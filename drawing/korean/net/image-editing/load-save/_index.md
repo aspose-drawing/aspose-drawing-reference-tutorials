@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 이미지 로드 및 저장
 linktitle: Aspose. Drawing에서 이미지 로드 및 저장
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose. Drawing을 사용하여 .NET에서 마스터 이미지 로드 및 저장. BMP, GIF, JPG, PNG, TIFF 형식을 손쉽게 탐색해 보세요.
-type: docs
 weight: 13
 url: /ko/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 이미지 로드 및 저장
+
 ## 소개
 
 .NET용 Aspose.드로잉을 사용하여 이미지 로딩 및 저장을 마스터하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다! 다양한 이미지 형식을 쉽게 조작하는 기술을 향상시키고 싶다면 올바른 위치에 오셨습니다. Aspose. Drawing for .NET은 이미지 작업 프로세스를 단순화하는 강력한 라이브러리이며, 이 튜토리얼에서는 다양한 형식으로 이미지를 로드하고 저장하는 방법을 살펴보겠습니다.
@@ -102,3 +108,9 @@ A2: 공식 문서를 확인하세요.[여기](https://reference.aspose.com/drawi
 ### Q5: Aspose. Drawing 라이브러리는 어디서 구입할 수 있나요?
 
  A5: 당신은 그것을 살 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

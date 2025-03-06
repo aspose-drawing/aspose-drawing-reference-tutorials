@@ -3,10 +3,16 @@ title: Affichage des images dans Aspose.Drawing
 linktitle: Affichage des images dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Découvrez comment afficher des images dans des applications .NET avec Aspose.Drawing. Suivez notre tutoriel pour découvrir des étapes simples et améliorer votre contenu visuel.
-type: docs
 weight: 12
 url: /fr/net/image-editing/display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Affichage des images dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur l'affichage d'images à l'aide d'Aspose.Drawing pour .NET ! Aspose.Drawing est une bibliothèque puissante qui simplifie la manipulation d'images dans les applications .NET. Dans ce didacticiel, nous explorerons le processus d'affichage des images à l'aide de la bibliothèque, en vous fournissant des étapes détaillées et des exemples.
@@ -102,3 +108,9 @@ A4 : Reportez-vous au[page d'achat](https://purchase.aspose.com/buy) pour les d
 ### Q5 : Où puis-je demander de l'aide si je rencontre des problèmes ou si j'ai des questions sur Aspose.Drawing ?
 
  A5 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour obtenir le soutien de la communauté et des experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

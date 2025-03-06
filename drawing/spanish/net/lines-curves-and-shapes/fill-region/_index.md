@@ -3,10 +3,16 @@ title: Rellenar regiones en Aspose.Drawing
 linktitle: Rellenar regiones en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Aprenda a rellenar regiones en Aspose.Drawing para .NET con este tutorial paso a paso. Mejore sus habilidades de diseño gráfico sin esfuerzo.
-type: docs
 weight: 20
 url: /es/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rellenar regiones en Aspose.Drawing
+
 ## Introducción
 
 La creación de gráficos visualmente atractivos a menudo implica llenar regiones con colores, patrones o degradados. Aspose.Drawing para .NET proporciona herramientas poderosas para lograr esto de manera eficiente. En este tutorial, profundizaremos en el proceso de llenado de regiones usando Aspose.Drawing, una biblioteca versátil que simplifica las operaciones gráficas en aplicaciones .NET.
@@ -102,3 +108,9 @@ R4: Absolutamente. Aspose.Drawing le permite crear y manipular imágenes dinámi
 ### P5: ¿Hay licencias temporales disponibles?
 
  R5: Sí, se pueden obtener licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

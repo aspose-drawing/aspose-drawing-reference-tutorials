@@ -3,10 +3,16 @@ title: إضافة نص على الصور في Aspose.Drawing
 linktitle: إضافة نص على الصور في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: استكشف التكامل السلس للنص في الصور باستخدام Aspose.Drawing for .NET. اتبع دليلنا خطوة بخطوة لمعالجة الصور بسهولة. التحميل الان!
-type: docs
 weight: 12
 url: /ar/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نص على الصور في Aspose.Drawing
+
 ## مقدمة
 في العالم الديناميكي لتطوير .NET، يبرز Aspose.Drawing كأداة قوية لمعالجة الصور بسهولة. تعد إضافة نص إلى الصور متطلبًا شائعًا، سواء كان ذلك لوضع علامة مائية أو تعليقات توضيحية أو إنشاء رسومات مخصصة. في هذا البرنامج التعليمي، سنستكشف كيفية الاستفادة من Aspose.Drawing لدمج النص بسلاسة في صورك باستخدام لغة C#.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ image.Save(Path.Combine("Your Document Directory", "UseCases", "girl_card_out.jp
  الانخراط مع المجتمع والحصول على الدعم على[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
 ### كيف أبدأ مع Aspose.Drawing؟
  ابدأ بتنزيل المكتبة من[هنا](https://releases.aspose.com/drawing/net/) واستكشاف شاملة[توثيق](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

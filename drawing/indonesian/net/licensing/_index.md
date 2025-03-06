@@ -3,10 +3,16 @@ title: Perizinan
 linktitle: Perizinan
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Buka potensi penuh Aspose.Drawing di .NET dengan tutorial lisensi yang lancar. Integrasikan dengan mudah, tingkatkan grafik, dan manipulasi gambar dengan mudah.
-type: docs
 weight: 22
 url: /id/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Perizinan
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Buka kunci, integrasikan, dan inovasi dengan Aspose.Drawing—pintu gerbang Anda
 ## Tutorial Perizinan
 ### [Lisensi di Aspose.Gambar](./licensing/)
 Buka potensi penuh Aspose.Drawing di .NET. Lisensi master untuk integrasi yang lancar. Unduh sekarang dan tingkatkan grafik dan manipulasi gambar Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

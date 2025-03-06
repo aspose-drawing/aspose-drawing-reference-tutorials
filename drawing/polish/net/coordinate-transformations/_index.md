@@ -3,10 +3,16 @@ title: Transformacje współrzędnych
 linktitle: Transformacje współrzędnych
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Popraw swoje umiejętności graficzne dzięki naszym samouczkom Aspose.Drawing. Eksploruj transformacje globalne, lokalne, macierzowe, stronowe i światowe, opanowując precyzyjną grafikę w .NET.
-type: docs
 weight: 20
 url: /pl/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformacje współrzędnych
+
 
 ## Wstęp
 
@@ -56,3 +62,9 @@ Dowiedz się krok po kroku transformacji stron w .NET przy użyciu Aspose.Drawin
 Odkryj wszechstronność Aspose.Drawing dla .NET w tym szczegółowym samouczku, opanowując jednostki miary dla precyzyjnej grafiki.
 ### [Transformacja świata w Aspose.Drawing](./world-transformation/)
 Przeglądaj transformacje świata w Aspose.Drawing dla .NET. Ulepsz swoją grafikę, wykonując łatwe do wykonania kroki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Przycinanie obrazów w Aspose.Drawing
 linktitle: Przycinanie obrazów w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Opanuj kadrowanie obrazu za pomocą Aspose.Drawing dla .NET. Ten przewodnik krok po kroku umożliwia programistom bezproblemowe doskonalenie umiejętności przetwarzania obrazu.
-type: docs
 weight: 10
 url: /pl/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przycinanie obrazów w Aspose.Drawing
+
 ## Wstęp
 
 świecie programowania .NET Aspose.Drawing wyróżnia się jako potężne narzędzie do manipulacji obrazami. Jedną z jego przydatnych funkcji jest możliwość precyzyjnego przycinania obrazów. W tym samouczku omówimy proces przycinania obrazów przy użyciu Aspose.Drawing dla .NET. Przygotuj się na udoskonalenie swoich umiejętności przetwarzania obrazu!
@@ -106,3 +112,10 @@ Odpowiedź 4: Rzeczywiście, Aspose.Drawing przoduje w przetwarzaniu wsadowym, u
 ### P5: Jak mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Drawing?
 
  A5: Udaj się do[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) szukać pomocy i nawiązywać kontakt ze społecznością.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

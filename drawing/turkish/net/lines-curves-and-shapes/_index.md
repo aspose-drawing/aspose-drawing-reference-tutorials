@@ -3,10 +3,16 @@ title: Çizgiler, Eğriler ve Şekiller
 linktitle: Çizgiler, Eğriler ve Şekiller
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing'in .NET büyüsünü serbest bırakın! Canlı grafikler için Çizgiler, Eğriler ve Şekiller Eğitimlerini keşfedin; katı fırçalar, yaylar, eğri çizgiler, elipsler ve daha yaratıcı bir şekilde ustalaşın.
-type: docs
 weight: 23
 url: /tr/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Çizgiler, Eğriler ve Şekiller
+
 
 ## giriiş
 
@@ -69,3 +75,9 @@ Bu adım adım kılavuzla Aspose.Drawing for .NET'te yollar çizmeyi öğrenin. 
 Aspose.Drawing'i kullanarak .NET'te nasıl dikdörtgen çizeceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
 ### [Aspose.Drawing'de Bölgelerin Doldurulması](./fill-region/)
 Bu adım adım eğitimle Aspose.Drawing for .NET'te bölgeleri nasıl dolduracağınızı öğrenin. Grafik tasarım becerilerinizi zahmetsizce geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

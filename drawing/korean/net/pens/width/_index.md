@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 펜 너비 설정
 linktitle: Aspose. Drawing에서 펜 너비 설정
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing을 사용하여 그래픽의 세계를 탐험해보세요. 멋진 시각적 효과를 위해 펜 너비를 동적으로 설정하는 방법을 알아보세요. 단계별 가이드로 시작해 보세요.
-type: docs
 weight: 12
 url: /ko/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 펜 너비 설정
+
 ## 소개
 
 .NET용 Aspose.드로잉을 사용하여 펜 너비를 설정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose. Drawing은 .NET 애플리케이션에서 그래픽 및 이미지 작업을 위한 광범위한 기능을 제공하는 강력한 라이브러리입니다. 이 튜토리얼에서는 펜의 너비를 조정하여 그래픽을 향상시키는 특정 측면에 중점을 둘 것입니다.
@@ -87,3 +93,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 ### Q5: 어떤 문서 리소스를 사용할 수 있나요?
 
  A5: 다음을 참조하세요.[Aspose.드로잉 문서](https://reference.aspose.com/drawing/net/) 자세한 정보와 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

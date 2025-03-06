@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 닫힌 곡선 그리기
 linktitle: Aspose. Drawing에서 닫힌 곡선 그리기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET 애플리케이션에서 닫힌 곡선을 그리는 기술을 살펴보세요. 손쉽게 시각적인 효과를 높이세요.
-type: docs
 weight: 14
 url: /ko/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 닫힌 곡선 그리기
+
 ## 소개
 
 .NET용 Aspose. Drawing에서 닫힌 곡선 그리기에 대한 포괄적인 가이드에 오신 것을 환영합니다! 생생하고 정확한 닫힌 곡선으로 .NET 애플리케이션을 향상시키려는 경우 올바른 위치에 오셨습니다. 이 튜토리얼에서는 프로세스를 단계별로 탐색하여 Aspose. Drawing 라이브러리와 그 기능을 확실하게 이해할 수 있도록 하겠습니다.
@@ -84,3 +90,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 ### Q5: 어떤 지원 옵션을 사용할 수 있나요?
 
  답변 5: 도움이 필요하거나 질문이 있는 경우[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

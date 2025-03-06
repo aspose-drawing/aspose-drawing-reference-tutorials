@@ -3,10 +3,16 @@ title: 在Aspose.Drawing中設定筆的寬度
 linktitle: 在Aspose.Drawing中設定筆的寬度
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing for .NET 探索圖形世界。了解如何動態設定筆寬度以獲得令人驚嘆的視覺效果。開始使用我們的逐步指南。
-type: docs
 weight: 12
 url: /zh-hant/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Drawing中設定筆的寬度
+
 ## 介紹
 
 歡迎閱讀使用 Aspose.Drawing for .NET 設定筆寬度的逐步指南。 Aspose.Drawing 是一個功能強大的函式庫，為在 .NET 應用程式中處理圖形和影像提供了廣泛的功能。在本教程中，我們將重點放在一個特定方面 - 調整筆的寬度以增強圖形。
@@ -87,3 +93,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 ### Q5：有哪些文檔資源可用？
 
  A5：請參閱[Aspose.Drawing 文檔](https://reference.aspose.com/drawing/net/)獲取深入的資訊和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

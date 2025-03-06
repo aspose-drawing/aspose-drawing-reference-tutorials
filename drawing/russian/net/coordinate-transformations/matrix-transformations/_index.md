@@ -3,10 +3,16 @@ title: Преобразования матриц в Aspose.Drawing для .NET
 linktitle: Преобразования матриц в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Освойте матричные преобразования в Aspose.Drawing для .NET с помощью этого пошагового руководства.
-type: docs
 weight: 12
 url: /ru/net/coordinate-transformations/matrix-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразования матриц в Aspose.Drawing для .NET
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по матричным преобразованиям в Aspose.Drawing для .NET! Если вы хотите улучшить свои навыки работы с графикой и погрузиться в мир матричных преобразований, вы попали по адресу. В этом уроке мы рассмотрим удивительные возможности Aspose.Drawing и познакомим вас с практическими примерами, позволяющими освоить матричные преобразования.
@@ -110,3 +116,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 ### В5: Как я могу приобрести Aspose.Drawing?
 
  A5: Купите лицензию[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

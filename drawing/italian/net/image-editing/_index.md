@@ -3,10 +3,16 @@ title: Modifica delle immagini
 linktitle: Modifica delle immagini
 second_title: API Aspose.Drawing .NET alternativa a System.Drawing.Common
 description: Migliora le tue capacità di editing delle immagini con i tutorial di Aspose.Drawing! Impara le tecniche di ritaglio, accesso diretto ai dati, visualizzazione e ridimensionamento per risultati sorprendenti.
-type: docs
 weight: 21
 url: /it/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica delle immagini
+
 
 ## introduzione
 
@@ -54,3 +60,9 @@ Scopri come visualizzare le immagini nelle applicazioni .NET con Aspose.Drawing.
 Caricamento e salvataggio di immagini principali in .NET con Aspose.Drawing. Esplora i formati BMP, GIF, JPG, PNG e TIFF senza sforzo.
 ### [Ridimensionamento delle immagini in Aspose.Drawing](./scale/)
 Scopri come ridimensionare le immagini senza sforzo in .NET utilizzando Aspose.Drawing. La nostra guida passo passo garantisce un'integrazione perfetta, fornendo potenti funzionalità di manipolazione delle immagini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

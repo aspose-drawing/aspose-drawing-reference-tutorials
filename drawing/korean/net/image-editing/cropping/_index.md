@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 이미지 자르기
 linktitle: Aspose.드로잉에서 이미지 자르기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing을 사용하여 마스터 이미지 자르기. 이 단계별 가이드를 통해 개발자는 손쉽게 이미지 처리 기술을 향상할 수 있습니다.
-type: docs
 weight: 10
 url: /ko/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 이미지 자르기
+
 ## 소개
 
 .NET 개발 세계에서 Aspose. Drawing은 이미지 조작을 위한 강력한 도구로 돋보입니다. 편리한 기능 중 하나는 이미지를 정밀하게 자르는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose. Drawing을 사용하여 이미지를 자르는 과정을 안내합니다. 이미지 처리 기술을 향상할 준비를 하세요!
@@ -106,3 +112,10 @@ A4: 실제로 Aspose.드로잉은 일괄 처리에 탁월하여 한 번에 여�
 ### Q5: Aspose. Drawing 관련 쿼리에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 다음으로 가세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 도움을 구하고 지역 사회와 연결됩니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Рисование эллипсов в Aspose.Drawing
 linktitle: Рисование эллипсов в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Узнайте, как рисовать эллипсы в .NET с помощью Aspose.Drawing. Следуйте этому пошаговому руководству, чтобы легко создавать потрясающую графику.
-type: docs
 weight: 15
 url: /ru/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование эллипсов в Aspose.Drawing
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по рисованию эллипсов с помощью Aspose.Drawing для .NET! Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с .NET, это пошаговое руководство проведет вас через процесс создания потрясающих эллипсов в ваших приложениях.
@@ -96,3 +102,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 ### В5: Есть ли бесплатная пробная версия?
 
  О5: Да, вы можете изучить библиотеку, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

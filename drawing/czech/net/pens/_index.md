@@ -3,10 +3,16 @@ title: Pera
 linktitle: Pera
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Odemkněte sílu grafického programování v .NET pomocí výukových programů Aspose.Drawing. Objevte manipulaci s barvami, spojování cest a dynamické nastavení šířky pera pro ohromující vizuály.
-type: docs
 weight: 24
 url: /cs/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pera
+
 
 ## Úvod
 
@@ -40,3 +46,9 @@ Prozkoumejte pulzující svět grafického programování v .NET s Aspose.Drawin
 Prozkoumejte umění spojování cest pomocí per v Aspose.Drawing pro .NET. Vytvářejte úžasnou grafiku s možnostmi LineJoin.
 ### [Nastavení šířky per v Aspose.Drawing](./width/)
 Prozkoumejte svět grafiky s Aspose.Drawing pro .NET. Naučte se dynamicky nastavovat šířky per pro ohromující vizuály. Začněte s naším podrobným průvodcem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中載入並儲存圖片
 linktitle: 在 Aspose.Drawing 中載入並儲存圖片
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 在 .NET 中掌握映像載入和儲存。輕鬆探索 BMP、GIF、JPG、PNG、TIFF 格式。
-type: docs
 weight: 13
 url: /zh-hant/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中載入並儲存圖片
+
 ## 介紹
 
 歡迎來到我們關於使用 Aspose.Drawing for .NET 掌握圖片載入和儲存的逐步指南！如果您希望提高輕鬆處理各種圖像格式的技能，那麼您來對地方了。 Aspose.Drawing for .NET 是一個功能強大的函式庫，可以簡化影像處理過程，在本教學過程中，我們將深入探討以不同格式載入和儲存影像。
@@ -102,3 +108,9 @@ A2：查看官方文檔[這裡](https://reference.aspose.com/drawing/net/).
 ### Q5：哪裡可以購買Aspose.Drawing庫？
 
  A5：可以買[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

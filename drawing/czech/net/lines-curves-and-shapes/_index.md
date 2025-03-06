@@ -3,10 +3,16 @@ title: Čáry, křivky a tvary
 linktitle: Čáry, křivky a tvary
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Uvolněte kouzlo Aspose.Drawing .NET! Prozkoumejte výukové programy pro čáry, křivky a tvary pro živou grafiku – zvládněte plné štětce, oblouky, splajny, elipsy a kreativněji.
-type: docs
 weight: 23
 url: /cs/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Čáry, křivky a tvary
+
 
 ## Úvod
 
@@ -69,3 +75,9 @@ Prozkoumejte sílu Aspose.Drawing pro .NET při vytváření úžasné grafiky. 
 Naučte se kreslit obdélníky v .NET pomocí Aspose.Drawing. Podrobný průvodce s příklady kódu.
 ### [Vyplnění oblastí v Aspose.Drawing](./fill-region/)
 Naučte se, jak vyplnit oblasti v Aspose.Drawing pro .NET pomocí tohoto podrobného návodu. Vylepšete své dovednosti v oblasti grafického designu bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

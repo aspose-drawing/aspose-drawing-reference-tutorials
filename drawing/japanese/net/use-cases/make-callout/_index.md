@@ -3,10 +3,16 @@ title: Aspose.Drawing で吹き出しを作成する
 linktitle: Aspose.Drawing で吹き出しを作成する
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET を使用してドキュメントのイラストを強化しましょう。コールアウトを追加して、より明確で有益なビジュアルを実現する方法を段階的に学習します。
-type: docs
 weight: 10
 url: /ja/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing で吹き出しを作成する
+
 ## 導入
 Aspose.Drawing for .NET でコールアウトを作成するためのステップバイステップ ガイドへようこそ。吹き出しを使用して文書のイラストを強化したい場合は、ここが正しい場所です。このチュートリアルでは、Aspose.Drawing ライブラリを使用して、プロセスを管理可能なステップに分割します。
 ## 前提条件
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### 購入する前に Aspose.Drawing を試してみることはできますか?
 
 確かに！無料トライアルを始めてみる[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

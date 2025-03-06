@@ -3,10 +3,16 @@ title: Лицензирование в Aspose.Drawing
 linktitle: Лицензирование в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Раскройте весь потенциал Aspose.Drawing в .NET. Мастер-лицензирование для бесшовной интеграции. Загрузите сейчас и улучшите свою графику и обработку изображений.
-type: docs
 weight: 10
 url: /ru/net/licensing/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лицензирование в Aspose.Drawing
+
 ## Введение
 
 В сфере .NET-разработки Aspose.Drawing выделяется как мощный инструмент для работы с графикой и изображениями. Чтобы раскрыть весь потенциал Aspose.Drawing, понимание лицензирования имеет первостепенное значение. Это руководство познакомит вас с различными методами лицензирования, гарантируя беспрепятственную интеграцию Aspose.Drawing в ваши проекты .NET.
@@ -138,3 +144,9 @@ Console.WriteLine("Credits Consumed: " + credits.ToString());
 ### Вопрос 5: Где я могу найти поддержку сообщества для Aspose.Drawing?
 
  A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

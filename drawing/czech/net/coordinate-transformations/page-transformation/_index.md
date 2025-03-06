@@ -3,10 +3,16 @@ title: Transformace stránky v Aspose.Drawing pro .NET
 linktitle: Transformace stránky v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Naučte se krok za krokem transformace stránek v .NET pomocí Aspose.Drawing. Vylepšete své grafické dovednosti pomocí tohoto komplexního tutoriálu.
-type: docs
 weight: 13
 url: /cs/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformace stránky v Aspose.Drawing pro .NET
+
 ## Úvod
 
 Vítejte v tomto komplexním návodu na transformaci stránky pomocí Aspose.Drawing for .NET. Pokud chcete zlepšit své dovednosti v práci s grafikou a bitmapovými transformacemi, jste na správném místě. V tomto tutoriálu vás provedeme procesem transformace stránek pomocí Aspose.Drawing a zajistíme, že každý krok pochopíte srozumitelně.
@@ -109,3 +115,9 @@ V tomto tutoriálu jsme probrali základní kroky k provedení transformace str�
 ### Q5: Kde mohu zakoupit Aspose.Drawing?
 
  A5: Můžete si zakoupit Aspose.Drawing[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

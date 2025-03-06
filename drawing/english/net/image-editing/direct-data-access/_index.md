@@ -3,10 +3,16 @@ title: Direct Data Access in Aspose.Drawing
 linktitle: Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn to manipulate images efficiently with Aspose.Drawing for .NET. Dive into direct data access with our step-by-step guide.
-type: docs
 weight: 11
 url: /net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Direct Data Access in Aspose.Drawing
+
 ## Introduction
 
 Welcome to the world of Aspose.Drawing for .NET, a powerful library that empowers developers to manipulate and create images with ease. In this tutorial, we'll delve into the intricacies of direct data access, a crucial aspect of Aspose.Drawing that allows you to efficiently work with pixel data.
@@ -95,3 +101,10 @@ A4: Refer to the [documentation](https://reference.aspose.com/drawing/net/) for 
 ### Q5: How do I purchase Aspose.Drawing for .NET?
 
 A5: Purchase Aspose.Drawing [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

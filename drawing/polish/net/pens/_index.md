@@ -3,10 +3,16 @@ title: Długopisy
 linktitle: Długopisy
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Odblokuj moc programowania graficznego w .NET dzięki samouczkom Aspose.Drawing. Odkryj manipulację kolorami, łączenie ścieżek i dynamiczne ustawianie szerokości pisaka, aby uzyskać oszałamiające efekty wizualne.
-type: docs
 weight: 24
 url: /pl/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Długopisy
+
 
 ## Wstęp
 
@@ -40,3 +46,9 @@ Poznaj tętniący życiem świat programowania graficznego w .NET dzięki Aspose
 Poznaj sztukę łączenia ścieżek za pomocą pisaków w Aspose.Drawing dla .NET. Twórz oszałamiającą grafikę dzięki opcjom LineJoin.
 ### [Ustawianie szerokości pisaków w Aspose.Drawing](./width/)
 Poznaj świat grafiki dzięki Aspose.Drawing dla .NET. Dowiedz się, jak dynamicznie ustawiać szerokość pisaka, aby uzyskać oszałamiające efekty wizualne. Zacznij od naszego przewodnika krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

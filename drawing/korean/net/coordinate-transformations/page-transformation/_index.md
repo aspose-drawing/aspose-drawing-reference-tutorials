@@ -3,10 +3,16 @@ title: .NET용 Aspose. Drawing의 페이지 변환
 linktitle: Aspose.드로잉의 페이지 변환
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET에서 단계별 페이지 변환을 알아보세요. 이 포괄적인 튜토리얼을 통해 그래픽 기술을 향상시키세요.
-type: docs
 weight: 13
 url: /ko/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose. Drawing의 페이지 변환
+
 ## 소개
 
 .NET용 Aspose.드로잉을 사용한 페이지 변환에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 그래픽 및 비트맵 변환 작업 기술을 향상시키려는 경우 올바른 위치에 있습니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 페이지를 변환하는 과정을 안내하여 각 단계를 명확하게 이해할 수 있도록 합니다.
@@ -109,3 +115,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ### Q5: Aspose.드로잉은 어디서 구매할 수 있나요?
 
  A5: Aspose. Drawing을 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

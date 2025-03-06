@@ -3,10 +3,16 @@ title: Văn bản và Phông chữ
 linktitle: Văn bản và Phông chữ
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Mở khóa Aspose.draw cho .NET! Làm chủ việc tạo văn bản, phông chữ và hình ảnh động. Định dạng văn bản, gợi ý và thao tác phông chữ hoàn hảo để có hình ảnh rõ nét.
-type: docs
 weight: 26
 url: /vi/net/text-and-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Văn bản và Phông chữ
+
 
 ## Giới thiệu
 Trong lĩnh vực ứng dụng .NET, việc nâng cao dự án của bạn bằng văn bản và phông chữ hấp dẫn là yếu tố thay đổi cuộc chơi. Hướng dẫn này đi sâu vào sự phức tạp của Aspose.draw, một công cụ mạnh mẽ giúp giải phóng khả năng sáng tạo và nâng cao sức hấp dẫn trực quan.
@@ -33,3 +39,9 @@ Tìm hiểu cách định dạng văn bản trong Aspose.draw cho .NET một cá
 Khai phá sức mạnh của khả năng hiển thị văn bản chính xác với Aspose.draw cho .NET. Nắm vững các kỹ thuật gợi ý để có phông chữ rõ ràng.
 ### [Làm việc với các phông chữ đã cài đặt trong Aspose.draw](./installed-fonts/)
 Khám phá sức mạnh của Aspose.draw cho .NET trong việc thao tác các phông chữ đã cài đặt. Nâng cao kỹ năng xử lý hình ảnh của bạn với hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

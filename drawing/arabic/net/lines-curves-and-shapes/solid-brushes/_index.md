@@ -3,10 +3,16 @@ title: الفرش الصلبة في Aspose.Drawing
 linktitle: الفرش الصلبة في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف سحر Aspose.Drawing لـ .NET. أتقن استخدام الفرش الصلبة في هذا الدليل المفصّل خطوة بخطوة للحصول على رسومات نابضة بالحياة.
-type: docs
 weight: 10
 url: /ar/net/lines-curves-and-shapes/solid-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الفرش الصلبة في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول استخدام الفرش الصلبة في Aspose.Drawing لـ .NET! إذا كنت تتطلع إلى تحسين تطبيقات .NET الخاصة بك باستخدام رسومات حية ومخصصة، فقد تم تصميم هذا البرنامج التعليمي خصيصًا لك. في هذه الإرشادات التفصيلية خطوة بخطوة، سنتعمق في عالم الفرش الصلبة، وسنعلمك كيفية دمج الألوان النابضة بالحياة بسلاسة في رسوماتك باستخدام Aspose.Drawing.
@@ -96,3 +102,9 @@ bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 ### س5: ما هو الانفجار في سياق Aspose.Drawing؟
 
 A5: يشير الاندفاع إلى قدرة Aspose.Drawing على التعامل مع الزيادات المفاجئة في متطلبات عرض الرسوم بشكل فعال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

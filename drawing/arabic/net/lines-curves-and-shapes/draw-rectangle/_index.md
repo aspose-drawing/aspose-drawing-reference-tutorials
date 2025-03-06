@@ -3,10 +3,16 @@ title: رسم المستطيلات في Aspose.Drawing
 linktitle: رسم المستطيلات في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية رسم المستطيلات في .NET باستخدام Aspose.Drawing. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 19
 url: /ar/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم المستطيلات في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول رسم المستطيلات باستخدام Aspose.Drawing لـ .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى Aspose.Drawing، سيرشدك هذا الدليل خلال عملية إنشاء المستطيلات ومعالجتها في تطبيقات .NET الخاصة بك.
@@ -98,3 +104,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 ### س5: أين يمكنني شراء Aspose.Drawing؟
 
  ج5: زيارة[هنا](https://purchase.aspose.com/buy) لشراء ترخيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

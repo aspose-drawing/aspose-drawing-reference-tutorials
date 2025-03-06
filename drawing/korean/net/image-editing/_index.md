@@ -3,10 +3,16 @@ title: 이미지 편집
 linktitle: 이미지 편집
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉 튜토리얼로 이미지 편집 기술을 향상해보세요! 놀라운 결과를 위한 자르기, 직접 데이터 액세스, 표시 및 크기 조정 기술을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 편집
+
 
 ## 소개
 
@@ -54,3 +60,9 @@ Aspose. Drawing을 사용하여 .NET 애플리케이션에서 이미지를 표�
 Aspose. Drawing을 사용하여 .NET에서 마스터 이미지 로드 및 저장. BMP, GIF, JPG, PNG, TIFF 형식을 손쉽게 탐색해 보세요.
 ### [Aspose. Drawing에서 이미지 크기 조정](./scale/)
 Aspose.드로잉을 사용하여 .NET에서 이미지 크기를 쉽게 조정하는 방법을 알아보세요. 당사의 단계별 가이드는 원활한 통합을 보장하고 강력한 이미지 조작 기능을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lijnen, curven en vormen
 linktitle: Lijnen, curven en vormen
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Ontketen de .NET-magie van Aspose.Drawing! Verken zelfstudies over lijnen, curven en vormen voor levendige afbeeldingen beheers effen penselen, bogen, splines, ellipsen en nog veel meer.
-type: docs
 weight: 23
 url: /nl/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnen, curven en vormen
+
 
 ## Invoering
 
@@ -69,3 +75,9 @@ Ontdek de kracht van Aspose.Drawing voor .NET bij het maken van verbluffende gra
 Leer hoe u rechthoeken tekent in .NET met Aspose.Drawing. Stapsgewijze handleiding met codevoorbeelden.
 ### [Gebieden vullen in Aspose.Drawing](./fill-region/)
 Leer hoe u regio's vult in Aspose.Drawing voor .NET met deze stapsgewijze zelfstudie. Verbeter moeiteloos uw grafische ontwerpvaardigheden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

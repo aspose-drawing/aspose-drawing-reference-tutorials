@@ -3,10 +3,16 @@ title: Configuración del ancho de las plumas en Aspose.Drawing
 linktitle: Configuración del ancho de las plumas en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Explora el mundo de los gráficos con Aspose.Drawing para .NET. Aprenda a configurar dinámicamente el ancho del lápiz para obtener imágenes impresionantes. Comience con nuestra guía paso a paso.
-type: docs
 weight: 12
 url: /es/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración del ancho de las plumas en Aspose.Drawing
+
 ## Introducción
 
 Bienvenido a esta guía paso a paso sobre cómo configurar el ancho de los bolígrafos usando Aspose.Drawing para .NET. Aspose.Drawing es una potente biblioteca que proporciona una amplia funcionalidad para trabajar con gráficos e imágenes en aplicaciones .NET. En este tutorial, nos centraremos en un aspecto específico: ajustar el ancho de los bolígrafos para mejorar sus gráficos.
@@ -87,3 +93,9 @@ Asegúrese de reemplazar "Su directorio de documentos" con la ruta donde desea g
 ### P5: ¿Qué recursos de documentación están disponibles?
 
  R5: Consulte el[Aspose.Documentación de dibujo](https://reference.aspose.com/drawing/net/) para obtener información detallada y ejemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

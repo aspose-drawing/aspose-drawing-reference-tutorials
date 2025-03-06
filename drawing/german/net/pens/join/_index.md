@@ -3,10 +3,16 @@ title: Pfade mit Stiften in Aspose.Drawing verbinden
 linktitle: Pfade mit Stiften in Aspose.Drawing verbinden
 second_title: Aspose.Drawing .NET API – Alternative zu System.Drawing.Common
 description: Entdecken Sie die Kunst, Pfade mit Stiften in Aspose.Drawing für .NET zu verbinden. Erstellen Sie atemberaubende Grafiken mit LineJoin-Optionen.
-type: docs
 weight: 11
 url: /de/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pfade mit Stiften in Aspose.Drawing verbinden
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.Drawing für .NET! In diesem Tutorial befassen wir uns mit der Kunst des Verbindens von Pfaden mit Stiften mithilfe von Aspose.Drawing, einer leistungsstarken Bibliothek, die umfangreiche Funktionen für die Arbeit mit Grafiken und Bildern in .NET-Anwendungen bietet.
@@ -107,3 +113,9 @@ In diesem Tutorial haben wir den Prozess des Verbindens von Pfaden mit Stiften i
 ### F5: Wo kann ich Aspose.Drawing kaufen?
 
  A5: Kaufen Sie Aspose.Drawing[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

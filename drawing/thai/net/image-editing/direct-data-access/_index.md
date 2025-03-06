@@ -3,10 +3,16 @@ title: การเข้าถึงข้อมูลโดยตรงใน 
 linktitle: การเข้าถึงข้อมูลโดยตรงใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: เรียนรู้การจัดการรูปภาพอย่างมีประสิทธิภาพด้วย Aspose. Drawing สำหรับ .NET เจาะลึกการเข้าถึงข้อมูลโดยตรงด้วยคำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 11
 url: /th/net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเข้าถึงข้อมูลโดยตรงใน Aspose. Drawing
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose. Drawing สำหรับ .NET ไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการและสร้างรูปภาพได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของการเข้าถึงข้อมูลโดยตรง ซึ่งเป็นส่วนสำคัญของ Aspose. Drawing ที่ช่วยให้คุณทำงานกับข้อมูลพิกเซลได้อย่างมีประสิทธิภาพ
@@ -95,3 +101,9 @@ A4: โปรดดูที่[เอกสารประกอบ](https://re
 ### คำถามที่ 5: ฉันจะซื้อ Aspose. Drawing สำหรับ .NET ได้อย่างไร
 
  A5: ซื้อ Aspose. Drawing[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

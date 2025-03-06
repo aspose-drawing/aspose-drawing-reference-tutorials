@@ -3,10 +3,16 @@ title: रेखाएँ, वक्र और आकृतियाँ
 linktitle: रेखाएँ, वक्र और आकृतियाँ
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: Aspose.Drawing का .NET जादू उजागर करें! जीवंत ग्राफ़िक्स के लिए रेखाएँ, वक्र और आकृतियाँ ट्यूटोरियल देखें- ठोस ब्रश, आर्क, स्प्लिन, दीर्घवृत्त और अधिक रचनात्मक रूप से मास्टर करें।
-type: docs
 weight: 23
 url: /hi/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# रेखाएँ, वक्र और आकृतियाँ
+
 
 ## परिचय
 
@@ -69,3 +75,9 @@ Aspose.Drawing के साथ .NET अनुप्रयोगों में
 Aspose.Drawing का उपयोग करके .NET में आयत बनाना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [Aspose.Drawing में क्षेत्र भरना](./fill-region/)
 इस चरण-दर-चरण ट्यूटोरियल से जानें कि .NET के लिए Aspose.Drawing में क्षेत्रों को कैसे भरें। अपने ग्राफ़िक डिज़ाइन कौशल को सहजता से बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

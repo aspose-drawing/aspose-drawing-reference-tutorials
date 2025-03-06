@@ -3,10 +3,16 @@ title: Zeichnen von Rechtecken in Aspose.Drawing
 linktitle: Zeichnen von Rechtecken in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative zu System.Drawing.Common
 description: Erfahren Sie, wie Sie mit Aspose.Drawing Rechtecke in .NET zeichnen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 19
 url: /de/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zeichnen von Rechtecken in Aspose.Drawing
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Tutorial zum Zeichnen von Rechtecken mit Aspose.Drawing für .NET. Egal, ob Sie ein erfahrener Entwickler oder ein Aspose.Drawing-Neuling sind, dieser Leitfaden führt Sie durch den Prozess der Erstellung und Bearbeitung von Rechtecken in Ihren .NET-Anwendungen.
@@ -98,3 +104,9 @@ A4: Auf jeden Fall! Aspose.Drawing bietet erweiterte Funktionen für die Handhab
 ### F5: Wo kann ich Aspose.Drawing kaufen?
 
  A5: Besuchen[Hier](https://purchase.aspose.com/buy) eine Lizenz kaufen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

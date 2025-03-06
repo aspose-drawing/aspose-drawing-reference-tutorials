@@ -3,10 +3,16 @@ title: Ustawianie szerokości pisaków w Aspose.Drawing
 linktitle: Ustawianie szerokości pisaków w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Poznaj świat grafiki dzięki Aspose.Drawing dla .NET. Dowiedz się, jak dynamicznie ustawiać szerokość pisaka, aby uzyskać oszałamiające efekty wizualne. Zacznij od naszego przewodnika krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie szerokości pisaków w Aspose.Drawing
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym ustawiania szerokości pisaków przy użyciu Aspose.Drawing dla .NET. Aspose.Drawing to potężna biblioteka zapewniająca rozbudowaną funkcjonalność do pracy z grafiką i obrazami w aplikacjach .NET. W tym samouczku skupimy się na konkretnym aspekcie — dostosowaniu szerokości pisaków w celu ulepszenia grafiki.
@@ -87,3 +93,9 @@ Gratulacje! Pomyślnie nauczyłeś się ustawiać szerokość pisaków za pomoc�
 ### P5: Jakie zasoby dokumentacji są dostępne?
 
  Odpowiedź 5: Patrz[Dokumentacja Aspose.Drawing](https://reference.aspose.com/drawing/net/) szczegółowe informacje i przykłady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

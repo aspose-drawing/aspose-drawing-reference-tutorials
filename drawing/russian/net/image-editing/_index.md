@@ -3,10 +3,16 @@ title: Редактирование изображений
 linktitle: Редактирование изображений
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Совершенствуйте свои навыки редактирования изображений с помощью уроков Aspose.Drawing! Изучите методы обрезки, прямого доступа к данным, отображения и масштабирования для получения потрясающих результатов.
-type: docs
 weight: 21
 url: /ru/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Редактирование изображений
+
 
 ## Введение
 
@@ -54,3 +60,9 @@ url: /ru/net/image-editing/
 Мастер загрузки и сохранения изображений в .NET с помощью Aspose.Drawing. С легкостью исследуйте форматы BMP, GIF, JPG, PNG, TIFF.
 ### [Масштабирование изображений в Aspose.Drawing](./scale/)
 Узнайте, как легко масштабировать изображения в .NET с помощью Aspose.Drawing. Наше пошаговое руководство обеспечивает плавную интеграцию и предоставляет мощные возможности манипулирования изображениями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

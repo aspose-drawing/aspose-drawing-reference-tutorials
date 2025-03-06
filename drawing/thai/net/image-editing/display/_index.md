@@ -3,10 +3,16 @@ title: การแสดงภาพใน Aspose. Drawing
 linktitle: การแสดงภาพใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: เรียนรู้วิธีแสดงรูปภาพในแอปพลิเคชัน .NET ด้วย Aspose. Drawing ปฏิบัติตามบทช่วยสอนของเราสำหรับขั้นตอนง่ายๆ และปรับปรุงเนื้อหาภาพของคุณ
-type: docs
 weight: 12
 url: /th/net/image-editing/display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแสดงภาพใน Aspose. Drawing
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการแสดงภาพโดยใช้ Aspose. Drawing สำหรับ .NET! Aspose. Drawing เป็นไลบรารีอันทรงพลังที่ทำให้การจัดการรูปภาพในแอปพลิเคชัน .NET ง่ายขึ้น ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการแสดงรูปภาพโดยใช้ไลบรารี โดยให้ขั้นตอนและตัวอย่างโดยละเอียดแก่คุณ
@@ -102,3 +108,9 @@ A4: โปรดดูที่[หน้าซื้อ](https://purchase.aspos
 ### คำถามที่ 5: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันพบปัญหาหรือมีคำถามเกี่ยวกับ Aspose. Drawing
 
  A5: เยี่ยมชม[Aspose.กระดานสนทนาการวาดภาพ](https://forum.aspose.com/c/diagram/17) เพื่อรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

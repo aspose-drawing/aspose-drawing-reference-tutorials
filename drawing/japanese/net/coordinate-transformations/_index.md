@@ -3,10 +3,16 @@ title: 座標変換
 linktitle: 座標変換
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing チュートリアルでグラフィックス スキルを向上させます。グローバル、ローカル、マトリックス、ページ、およびワールドの変換を探索し、.NET で高精度のグラフィックスを習得します。
-type: docs
 weight: 20
 url: /ja/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 座標変換
+
 
 ## 導入
 
@@ -56,3 +62,9 @@ Aspose.Drawing を使用した .NET でのページ変換を段階的に学習�
 この詳細なチュートリアルで Aspose.Drawing for .NET の多用途性を探り、高精度グラフィックスの測定単位をマスターしてください。
 ### [Aspose.Drawing での世界変換](./world-transformation/)
 Aspose.Drawing for .NET の世界の変換を探索します。わかりやすい手順でグラフィックを向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

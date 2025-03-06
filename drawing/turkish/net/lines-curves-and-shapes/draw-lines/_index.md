@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Çizgi Çizimi
 linktitle: Aspose.Drawing'de Çizgi Çizimi
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing ile .NET uygulamalarında çizgi çizmeyi öğrenin. Bu adım adım eğitim, çarpıcı grafikler oluşturma süreci boyunca size yol gösterir.
-type: docs
 weight: 16
 url: /tr/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Çizgi Çizimi
+
 ## giriiş
 
 Aspose.Drawing for .NET kullanarak çizgi çizmeye ilişkin bu kapsamlı eğitime hoş geldiniz! Aspose.Drawing, .NET uygulamalarınızdaki görüntüleri değiştirmenize ve oluşturmanıza olanak tanıyan güçlü bir kütüphanedir. Bu derste, görsel olarak çekici grafikler oluşturmak için gerekli bir beceri olan çizgi çizmenin temellerine odaklanacağız.
@@ -99,3 +105,9 @@ Cevap4: Hataları gidermek için try-catch bloklarını uygulayabilir ve Aspose.
 ### S5: Aspose.Drawing'i ticari bir proje için kullanabilir miyim?
 
  Cevap5: Evet, Aspose.Drawing'i ticari projeler için kullanabilirsiniz. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

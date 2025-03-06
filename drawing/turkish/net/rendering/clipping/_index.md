@@ -3,10 +3,16 @@ title: Aspose.Drawing'de kırpma
 linktitle: Aspose.Drawing'de kırpma
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Gelişmiş grafik tasarımı için kırpmanın uygulanmasına yönelik bu adım adım eğitimle Aspose.Drawing for .NET'in gücünü keşfedin.
-type: docs
 weight: 12
 url: /tr/net/rendering/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de kırpma
+
 ## giriiş
 
 Grafik tasarım ve görüntü işleme alanında, bir görüntünün bölümlerini seçici olarak görüntüleme veya gizleme yeteneği çok önemlidir. İşte burada kırpma devreye giriyor ve Aspose.Drawing for .NET ile görsel yaratımlarınızı geliştirmek için kırpma tekniklerini kusursuz bir şekilde dahil edebilirsiniz. Bu eğitimde, Aspose.Drawing'i kullanarak kırpmanın uygulanması sürecini adım adım inceleyerek ilgili incelikleri kavramanızı sağlayacağız.
@@ -112,3 +118,9 @@ Cevap4: Evet, Aspose.Drawing çok yönlüdür ve hem masaüstü hem de web taban
 ### S5: Kaynak tüketimi açısından kırpma kullanmanın performans etkisi nedir?
 
 Cevap5: Kırpma hafif bir işlemdir ve Aspose.Drawing verimli kaynak kullanımı için optimize edilmiştir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

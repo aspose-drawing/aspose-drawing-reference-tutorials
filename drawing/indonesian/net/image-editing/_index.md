@@ -3,10 +3,16 @@ title: Pengeditan Gambar
 linktitle: Pengeditan Gambar
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Tingkatkan keterampilan mengedit gambar Anda dengan Aspose.Tutorial menggambar! Pelajari teknik pemangkasan, akses data langsung, tampilan, dan penskalaan untuk hasil yang menakjubkan.
-type: docs
 weight: 21
 url: /id/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengeditan Gambar
+
 
 ## Perkenalan
 
@@ -54,3 +60,9 @@ Pelajari cara menampilkan gambar dalam aplikasi .NET dengan Aspose.Drawing. Ikut
 Kuasai pemuatan dan penyimpanan gambar di .NET dengan Aspose.Drawing. Jelajahi format BMP, GIF, JPG, PNG, TIFF dengan mudah.
 ### [Menskalakan Gambar di Aspose.Drawing](./scale/)
 Pelajari cara menskalakan gambar dengan mudah di .NET menggunakan Aspose.Drawing. Panduan langkah demi langkah kami memastikan integrasi yang lancar, memberikan kemampuan manipulasi gambar yang hebat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

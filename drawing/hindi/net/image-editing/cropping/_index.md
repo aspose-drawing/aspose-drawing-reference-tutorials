@@ -3,10 +3,16 @@ title: Aspose.Drawing में छवियाँ क्रॉप करना
 linktitle: Aspose.Drawing में छवियाँ क्रॉप करना
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: .NET के लिए Aspose.Drawing के साथ मास्टर इमेज क्रॉपिंग। यह चरण-दर-चरण मार्गदर्शिका डेवलपर्स को छवि प्रसंस्करण कौशल को सहजता से बढ़ाने में सक्षम बनाती है।
-type: docs
 weight: 10
 url: /hi/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing में छवियाँ क्रॉप करना
+
 ## परिचय
 
 .NET विकास की दुनिया में, Aspose.Drawing छवि हेरफेर के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। इसकी उपयोगी विशेषताओं में से एक छवियों को सटीकता के साथ क्रॉप करने की क्षमता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Drawing का उपयोग करके छवियों को क्रॉप करने की प्रक्रिया के बारे में जानेंगे। अपने छवि-प्रसंस्करण कौशल को बढ़ाने के लिए तैयार हो जाइए!
@@ -106,3 +112,10 @@ A4: वास्तव में, Aspose.Drawing बैच प्रोसेस
 ### Q5: मैं Aspose.Drawing-संबंधित प्रश्नों के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
  A5: की ओर जाएं[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17) सहायता प्राप्त करना और समुदाय से जुड़ना।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

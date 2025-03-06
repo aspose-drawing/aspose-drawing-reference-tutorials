@@ -3,10 +3,16 @@ title: Transformacje macierzy w Aspose.Drawing dla .NET
 linktitle: Transformacje macierzy w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Opanuj transformacje macierzy w Aspose.Drawing dla .NET dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/coordinate-transformations/matrix-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformacje macierzy w Aspose.Drawing dla .NET
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat transformacji macierzy w Aspose.Drawing dla .NET! Jeśli chcesz udoskonalić swoje umiejętności manipulacji grafiką i zagłębić się w świat transformacji matrycowych, jesteś we właściwym miejscu. W tym samouczku odkryjemy fascynujące możliwości Aspose.Drawing i przeprowadzimy Cię przez praktyczne przykłady opanowania transformacji macierzy.
@@ -110,3 +116,9 @@ Gratulacje! Pomyślnie przeszedłeś przez transformacje macierzy przy użyciu A
 ### P5: Jak mogę kupić Aspose.Drawing?
 
  A5: Kup licencję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

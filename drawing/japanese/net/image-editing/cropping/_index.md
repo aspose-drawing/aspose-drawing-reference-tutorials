@@ -3,10 +3,16 @@ title: Aspose.Drawing での画像のトリミング
 linktitle: Aspose.Drawing での画像のトリミング
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET を使用したマスター画像のトリミング。このステップバイステップのガイドにより、開発者は画像処理スキルを簡単に向上させることができます。
-type: docs
 weight: 10
 url: /ja/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing での画像のトリミング
+
 ## 導入
 
 .NET 開発の世界では、Aspose.Drawing は画像操作のための強力なツールとして際立っています。その便利な機能の 1 つは、画像を正確にトリミングする機能です。このチュートリアルでは、Aspose.Drawing for .NET を使用して画像をトリミングするプロセスについて説明します。画像処理スキルを向上させる準備をしましょう。
@@ -106,3 +112,10 @@ A4: 確かに、Aspose.Drawing はバッチ処理に優れており、一度に�
 ### Q5: Aspose.Drawing 関連のクエリのサポートを受けるにはどうすればよいですか?
 
  A5: に向かってください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)支援を求め、コミュニティとつながるために。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

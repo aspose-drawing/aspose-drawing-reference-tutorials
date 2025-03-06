@@ -3,10 +3,16 @@ title: Соединение путей с помощью перьев в Aspose.
 linktitle: Соединение путей с помощью перьев в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Изучите искусство соединения контуров с помощью перьев в Aspose.Drawing для .NET. Создавайте потрясающую графику с помощью параметров LineJoin.
-type: docs
 weight: 11
 url: /ru/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Соединение путей с помощью перьев в Aspose.Drawing
+
 ## Введение
 
 Добро пожаловать в мир Aspose.Drawing для .NET! В этом уроке мы углубимся в искусство соединения контуров с помощью перьев с помощью Aspose.Drawing, мощной библиотеки, предоставляющей обширные функциональные возможности для работы с графикой и изображениями в приложениях .NET.
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ### Вопрос 5: Где я могу приобрести Aspose.Drawing?
 
  A5: Приобретение Aspose.Drawing[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

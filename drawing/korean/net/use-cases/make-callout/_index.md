@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 콜아웃 만들기
 linktitle: Aspose.드로잉에서 콜아웃 만들기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose.드로잉을 사용하여 문서 일러스트레이션을 향상시키세요! 더욱 명확하고 유익한 시각적 자료를 위해 콜아웃을 추가하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 콜아웃 만들기
+
 ## 소개
 .NET용 Aspose.드로잉에서 콜아웃을 만드는 방법에 대한 단계별 가이드에 오신 것을 환영합니다! 설명선을 사용하여 문서 일러스트레이션을 향상시키려는 경우 올바른 위치에 오셨습니다. 이 튜토리얼에서는 Aspose. Drawing 라이브러리를 사용하여 프로세스를 관리 가능한 단계로 분류합니다.
 ## 전제 조건
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### 구매하기 전에 Aspose. Drawing을 사용해 볼 수 있나요?
 
  틀림없이! 무료 평가판 시작하기[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

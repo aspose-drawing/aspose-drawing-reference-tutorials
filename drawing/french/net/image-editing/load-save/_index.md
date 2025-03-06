@@ -3,10 +3,16 @@ title: Chargement et enregistrement d'images dans Aspose.Drawing
 linktitle: Chargement et enregistrement d'images dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Chargement et enregistrement d'images principales dans .NET avec Aspose.Drawing. Explorez les formats BMP, GIF, JPG, PNG, TIFF sans effort.
-type: docs
 weight: 13
 url: /fr/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chargement et enregistrement d'images dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la maîtrise du chargement et de l'enregistrement d'images à l'aide d'Aspose.Drawing pour .NET ! Si vous souhaitez améliorer vos compétences dans la manipulation sans effort de différents formats d'image, vous êtes au bon endroit. Aspose.Drawing for .NET est une bibliothèque puissante qui simplifie le processus de travail avec des images. Dans ce didacticiel, nous aborderons le chargement et l'enregistrement d'images dans différents formats.
@@ -102,3 +108,9 @@ A2 : Consultez la documentation officielle[ici](https://reference.aspose.com/dr
 ### Q5 : Où puis-je acheter la bibliothèque Aspose.Drawing ?
 
  A5 : Vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Koordináta transzformációk
 linktitle: Koordináta transzformációk
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Fejleszd grafikai készségeidet Aspose.Drawing oktatóanyagainkkal. Fedezze fel a globális, lokális, mátrix-, oldal- és világátalakításokat, sajátítsa el a precíziós grafikákat a .NET-ben.
-type: docs
 weight: 20
 url: /hu/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Koordináta transzformációk
+
 
 ## Bevezetés
 
@@ -56,3 +62,9 @@ Ismerje meg lépésről lépésre az oldalátalakításokat a .NET-ben az Aspose
 Fedezze fel az Aspose.Drawing for .NET sokoldalúságát ebben a részletes oktatóanyagban, amely a precíziós grafika mértékegységeinek elsajátítását szolgálja.
 ### [A világ átalakulása Aspose-ban.Rajz](./world-transformation/)
 Fedezze fel a világ átalakulását az Aspose.Drawing for .NET-ben. Emelje fel grafikáját könnyen követhető lépésekkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การรวมเส้นทางด้วยปากกาใน 
 linktitle: การรวมเส้นทางด้วยปากกาใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: สำรวจศิลปะแห่งการเชื่อมโยงเส้นทางด้วยปากกาใน Aspose. Drawing สำหรับ .NET สร้างกราฟิกที่น่าทึ่งด้วยตัวเลือก LineJoin
-type: docs
 weight: 11
 url: /th/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวมเส้นทางด้วยปากกาใน Aspose. Drawing
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose. Drawing สำหรับ .NET! ในบทช่วยสอนนี้ เราจะเจาะลึกศิลปะแห่งการเชื่อมโยงเส้นทางด้วยปากกาโดยใช้ Aspose. Drawing ซึ่งเป็นไลบรารีอันทรงพลังที่มีฟังก์ชันการทำงานมากมายสำหรับการทำงานกับกราฟิกและรูปภาพในแอปพลิเคชัน .NET
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ### คำถามที่ 5: Aspose. Drawing หาซื้อได้ที่ไหน
 
  A5: ซื้อ Aspose. Drawing[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

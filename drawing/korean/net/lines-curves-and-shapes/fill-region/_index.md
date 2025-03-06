@@ -3,10 +3,16 @@ title: Aspose. Drawing의 영역 채우기
 linktitle: Aspose. Drawing의 영역 채우기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: 이 단계별 튜토리얼을 통해 .NET용 Aspose. Drawing에서 영역을 채우는 방법을 알아보세요. 그래픽 디자인 기술을 쉽게 향상시킬 수 있습니다.
-type: docs
 weight: 20
 url: /ko/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing의 영역 채우기
+
 ## 소개
 
 시각적으로 매력적인 그래픽을 만들려면 영역을 색상, 패턴 또는 그라데이션으로 채우는 작업이 포함되는 경우가 많습니다. Aspose. Drawing for .NET은 이를 효율적으로 달성할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 .NET 애플리케이션에서 그래픽 작업을 단순화하는 다목적 라이브러리인 Aspose. Drawing을 사용하여 영역을 채우는 프로세스를 자세히 살펴보겠습니다.
@@ -102,3 +108,9 @@ A4: 물론이죠. Aspose. Drawing을 사용하면 .NET 애플리케이션에서 
 ### Q5: 임시 라이센스를 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

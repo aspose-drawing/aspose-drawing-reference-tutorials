@@ -3,10 +3,16 @@ title: Điền các vùng trong Aspose.draw
 linktitle: Điền các vùng trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách điền các vùng trong Aspose.draw cho .NET bằng hướng dẫn từng bước này. Nâng cao kỹ năng thiết kế đồ họa của bạn một cách dễ dàng.
-type: docs
 weight: 20
 url: /vi/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điền các vùng trong Aspose.draw
+
 ## Giới thiệu
 
 Việc tạo đồ họa hấp dẫn trực quan thường liên quan đến việc lấp đầy các vùng bằng màu sắc, hoa văn hoặc độ chuyển màu. Aspose.draw for .NET cung cấp các công cụ mạnh mẽ để đạt được điều này một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình lấp đầy các vùng bằng Aspose.draw, một thư viện đa năng giúp đơn giản hóa các thao tác đồ họa trong các ứng dụng .NET.
@@ -102,3 +108,9 @@ A4: Chắc chắn rồi. Aspose. Draw cho phép bạn tạo và thao tác hình 
 ### Câu hỏi 5: Có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

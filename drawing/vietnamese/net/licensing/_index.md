@@ -3,10 +3,16 @@ title: Cấp phép
 linktitle: Cấp phép
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khai phá toàn bộ tiềm năng của Aspose.draw trong .NET bằng các hướng dẫn cấp phép liền mạch. Tích hợp dễ dàng, nâng cao đồ họa và thao tác hình ảnh một cách dễ dàng.
-type: docs
 weight: 22
 url: /vi/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Mở khóa, tích hợp và đổi mới với Aspose.drawing—cửa ngõ của
 ## Hướng dẫn cấp phép
 ### [Cấp phép trong Aspose.draw](./licensing/)
 Mở khóa toàn bộ tiềm năng của Aspose.draw trong .NET. Cấp phép chính để tích hợp liền mạch. Tải xuống ngay bây giờ và nâng cao khả năng xử lý đồ họa và hình ảnh của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中繪製矩形
 linktitle: 在 Aspose.Drawing 中繪製矩形
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 了解如何使用 Aspose.Drawing 在 .NET 中繪製矩形。帶有程式碼範例的分步指南。
-type: docs
 weight: 19
 url: /zh-hant/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中繪製矩形
+
 ## 介紹
 
 歡迎來到這個關於使用 Aspose.Drawing for .NET 繪製矩形的綜合教學。無論您是經驗豐富的開發人員還是 Aspose.Drawing 的新手，本指南都將引導您完成在 .NET 應用程式中建立和操作矩形的過程。
@@ -98,3 +104,9 @@ A4：當然！ Aspose.Drawing 提供了處理複雜圖形操作的進階功能�
 ### Q5：哪裡可以購買Aspose.Drawing？
 
  A5：參觀[這裡](https://purchase.aspose.com/buy)購買許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

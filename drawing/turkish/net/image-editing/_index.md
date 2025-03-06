@@ -3,10 +3,16 @@ title: Resim düzenleme
 linktitle: Resim düzenleme
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing eğitimleriyle resim düzenleme becerilerinizi geliştirin! Çarpıcı sonuçlar için kırpma, doğrudan veri erişimi, görüntüleme ve ölçeklendirme tekniklerini öğrenin.
-type: docs
 weight: 21
 url: /tr/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resim düzenleme
+
 
 ## giriiş
 
@@ -54,3 +60,9 @@ Aspose.Drawing ile görüntüleri .NET uygulamalarında nasıl görüntüleyece�
 Aspose.Drawing ile .NET'te görüntü yükleme ve kaydetme konusunda uzmanlaşın. BMP, GIF, JPG, PNG, TIFF formatlarını zahmetsizce keşfedin.
 ### [Aspose.Drawing'de Görüntüleri Ölçeklendirme](./scale/)
 Aspose.Drawing'i kullanarak görüntüleri .NET'te zahmetsizce nasıl ölçeklendireceğinizi öğrenin. Adım adım kılavuzumuz, güçlü görüntü işleme yetenekleri sağlayarak kusursuz entegrasyon sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

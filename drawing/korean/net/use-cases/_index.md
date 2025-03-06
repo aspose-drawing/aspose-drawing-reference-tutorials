@@ -3,10 +3,16 @@ title: 사용 사례
 linktitle: 사용 사례
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing을 사용하여 일러스트레이션을 향상시키세요! 튜토리얼을 통해 콜아웃을 추가하고, 멋진 프레임을 만들고, 텍스트를 이미지에 원활하게 통합하세요.
-type: docs
 weight: 27
 url: /ko/net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 사용 사례
+
 ## 소개
 
 디지털 디자인의 역동적인 영역에서 Aspose. Drawing for .NET은 문서 일러스트레이션과 이미지 조작을 향상시키는 다양한 기능을 제공하는 강력한 도구입니다. 이 기사에서는 설명선 만들기, 사진 프레임 만들기, 이미지에 텍스트 추가라는 세 가지 주요 영역에 초점을 맞춘 단계별 튜토리얼을 통해 .NET용 Aspose. Drawing의 다양한 사용 사례를 자세히 살펴봅니다.
@@ -32,3 +38,9 @@ Aspose.드로잉을 사용하면 설명선을 통합하여 문서 일러스트�
 .NET용 Aspose. Drawing을 사용하여 이미지를 향상하세요! 단계별 가이드에 따라 멋진 사진 프레임을 만들어보세요. 지금 .NET용 Aspose.드로잉을 살펴보세요!
 ### [Aspose. Drawing의 이미지에 텍스트 추가](./text-on-image/)
 .NET용 Aspose.드로잉을 사용하여 텍스트를 이미지에 완벽하게 통합하는 방법을 살펴보세요. 간편한 이미지 조작을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

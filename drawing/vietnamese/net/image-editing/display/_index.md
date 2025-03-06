@@ -3,10 +3,16 @@ title: Hiển thị hình ảnh trong Aspose.draw
 linktitle: Hiển thị hình ảnh trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách hiển thị hình ảnh trong ứng dụng .NET với Aspose.draw. Hãy làm theo hướng dẫn của chúng tôi để biết các bước dễ dàng và cải thiện nội dung trực quan của bạn.
-type: docs
 weight: 12
 url: /vi/net/image-editing/display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị hình ảnh trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách hiển thị hình ảnh bằng Aspose.draw cho .NET! Aspose. Draw là một thư viện mạnh mẽ giúp đơn giản hóa thao tác hình ảnh trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình hiển thị hình ảnh bằng thư viện, cung cấp cho bạn các bước và ví dụ chi tiết.
@@ -102,3 +108,9 @@ A4: Hãy tham khảo[trang mua hàng](https://purchase.aspose.com/buy) để bi�
 ### Câu hỏi 5: Tôi có thể tìm trợ giúp ở đâu nếu gặp sự cố hoặc có thắc mắc về Aspose.drawing?
 
  A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

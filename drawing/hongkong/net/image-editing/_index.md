@@ -3,10 +3,16 @@ title: 圖像編輯
 linktitle: 圖像編輯
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 透過 Aspose.Drawing 教學增強您的影像編輯技能！學習裁剪、直接資料存取、顯示和縮放技術以獲得令人驚嘆的結果。
-type: docs
 weight: 21
 url: /zh-hant/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 圖像編輯
+
 
 ## 介紹
 
@@ -54,3 +60,9 @@ url: /zh-hant/net/image-editing/
 使用 Aspose.Drawing 在 .NET 中掌握映像載入和儲存。輕鬆探索 BMP、GIF、JPG、PNG、TIFF 格式。
 ### [在 Aspose.Drawing 中縮放影像](./scale/)
 了解如何使用 Aspose.Drawing 在 .NET 中輕鬆縮放影像。我們的逐步指南可確保無縫集成，提供強大的影像處理功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Définition de la largeur des stylos dans Aspose.Drawing
 linktitle: Définition de la largeur des stylos dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Explorez le monde du graphisme avec Aspose.Drawing pour .NET. Découvrez comment définir dynamiquement la largeur des stylets pour obtenir des visuels époustouflants. Commencez avec notre guide étape par étape.
-type: docs
 weight: 12
 url: /fr/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la largeur des stylos dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur la définition de la largeur des stylos à l'aide d'Aspose.Drawing pour .NET. Aspose.Drawing est une bibliothèque puissante qui fournit des fonctionnalités étendues pour travailler avec des graphiques et des images dans les applications .NET. Dans ce didacticiel, nous nous concentrerons sur un aspect spécifique : ajuster la largeur des stylos pour améliorer vos graphiques.
@@ -87,3 +93,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment définir la lar
 ### Q5 : Quelles ressources de documentation sont disponibles ?
 
  A5 : Reportez-vous au[Aspose.Documentation de dessin](https://reference.aspose.com/drawing/net/) pour des informations détaillées et des exemples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

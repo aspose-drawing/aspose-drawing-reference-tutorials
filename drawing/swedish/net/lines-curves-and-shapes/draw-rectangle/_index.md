@@ -3,10 +3,16 @@ title: Rita rektanglar i Aspose.Drawing
 linktitle: Rita rektanglar i Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
 description: Lär dig hur du ritar rektanglar i .NET med Aspose.Drawing. Steg-för-steg guide med kodexempel.
-type: docs
 weight: 19
 url: /sv/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rita rektanglar i Aspose.Drawing
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om att rita rektanglar med Aspose.Drawing för .NET. Oavsett om du är en erfaren utvecklare eller en nykomling på Aspose.Drawing, kommer den här guiden att leda dig genom processen att skapa och manipulera rektanglar i dina .NET-applikationer.
@@ -98,3 +104,9 @@ A4: Absolut! Aspose.Drawing tillhandahåller avancerade funktioner för att hant
 ### F5: Var kan jag köpa Aspose.Drawing?
 
  A5: Besök[här](https://purchase.aspose.com/buy) att köpa en licens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

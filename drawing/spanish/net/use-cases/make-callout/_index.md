@@ -3,10 +3,16 @@ title: Realizar llamadas en Aspose.Drawing
 linktitle: Realizar llamadas en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: ¡Mejore las ilustraciones de sus documentos usando Aspose.Drawing para .NET! Aprenda paso a paso cómo agregar leyendas para obtener imágenes más claras e informativas.
-type: docs
 weight: 10
 url: /es/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Realizar llamadas en Aspose.Drawing
+
 ## Introducción
 ¡Bienvenido a nuestra guía paso a paso sobre cómo realizar llamadas en Aspose.Drawing para .NET! Si buscas mejorar las ilustraciones de tus documentos con leyendas, estás en el lugar correcto. En este tutorial, dividiremos el proceso en pasos manejables utilizando la biblioteca Aspose.Drawing.
 ## Requisitos previos
@@ -110,3 +116,9 @@ Sí, Aspose.Drawing admite una amplia gama de operaciones de dibujo para varios 
 ### ¿Puedo probar Aspose.Drawing antes de comprarlo?
 
  ¡Ciertamente! Comience con una prueba gratuita[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

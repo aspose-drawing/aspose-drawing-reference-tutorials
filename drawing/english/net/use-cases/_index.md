@@ -3,10 +3,16 @@ title: Use Cases
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Elevate your illustrations with Aspose.Drawing for .NET! Add callouts, create stunning frames, and seamlessly integrate text into images with our tutorials.
-type: docs
 weight: 27
 url: /net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use Cases
+
 ## Introduction
 
 In the dynamic realm of digital design, Aspose.Drawing for .NET stands out as a powerhouse, offering a plethora of features to enhance your document illustrations and image manipulations. This article delves into the versatile use cases of Aspose.Drawing for .NET through step-by-step tutorials, focusing on three key areas: Making Callouts, Creating Photo Frames, and Adding Text on Images.
@@ -32,3 +38,9 @@ Enhance your document illustrations using Aspose.Drawing for .NET! Learn step-by
 Enhance your images with Aspose.Drawing for .NET! Follow our step-by-step guide to create stunning photo frames. Explore Aspose.Drawing for .NET now!
 ### [Adding Text on Images in Aspose.Drawing](./text-on-image/)
 Explore the seamless integration of text into images with Aspose.Drawing for .NET. Follow our step-by-step guide for effortless image manipulation. Download now!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

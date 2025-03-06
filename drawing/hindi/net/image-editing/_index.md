@@ -3,10 +3,16 @@ title: छवि संपादन
 linktitle: छवि संपादन
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: Aspose.Drawing ट्यूटोरियल के साथ अपने छवि संपादन कौशल को बढ़ाएं! आश्चर्यजनक परिणामों के लिए क्रॉपिंग, सीधे डेटा एक्सेस, प्रदर्शन और स्केलिंग तकनीक सीखें।
-type: docs
 weight: 21
 url: /hi/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि संपादन
+
 
 ## परिचय
 
@@ -54,3 +60,9 @@ Aspose.Drawing के साथ .NET अनुप्रयोगों में
 Aspose.Drawing के साथ .NET में इमेज लोडिंग और सेविंग में महारत हासिल करें। बीएमपी, जीआईएफ, जेपीजी, पीएनजी, टीआईएफएफ प्रारूपों को आसानी से एक्सप्लोर करें।
 ### [Aspose.Drawing में छवियाँ स्केल करना](./scale/)
 Aspose.Drawing का उपयोग करके .NET में छवियों को आसानी से स्केल करना सीखें। हमारी चरण-दर-चरण मार्गदर्शिका शक्तिशाली छवि हेरफेर क्षमताएं प्रदान करते हुए, निर्बाध एकीकरण सुनिश्चित करती है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

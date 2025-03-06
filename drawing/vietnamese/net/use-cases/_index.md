@@ -3,10 +3,16 @@ title: Trường hợp sử dụng
 linktitle: Trường hợp sử dụng
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Nâng cao hình minh họa của bạn với Aspose.draw cho .NET! Thêm chú thích, tạo khung hình ấn tượng và tích hợp liền mạch văn bản vào hình ảnh bằng hướng dẫn của chúng tôi.
-type: docs
 weight: 27
 url: /vi/net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trường hợp sử dụng
+
 ## Giới thiệu
 
 Trong lĩnh vực năng động của thiết kế kỹ thuật số, Aspose. Draw for .NET nổi bật như một cỗ máy mạnh mẽ, cung cấp rất nhiều tính năng để nâng cao khả năng minh họa tài liệu và thao tác hình ảnh của bạn. Bài viết này đi sâu vào các trường hợp sử dụng linh hoạt của Aspose.draw cho .NET thông qua hướng dẫn từng bước, tập trung vào ba lĩnh vực chính: Tạo chú thích, Tạo khung ảnh và Thêm văn bản trên hình ảnh.
@@ -32,3 +38,9 @@ Nâng cao hình ảnh minh họa tài liệu của bạn bằng Aspose.draw cho 
 Nâng cao hình ảnh của bạn với Aspose.draw cho .NET! Làm theo hướng dẫn từng bước của chúng tôi để tạo khung ảnh tuyệt đẹp. Khám phá Aspose.draw cho .NET ngay bây giờ!
 ### [Thêm văn bản trên hình ảnh trong Aspose.draw](./text-on-image/)
 Khám phá khả năng tích hợp liền mạch văn bản vào hình ảnh với Aspose.draw cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh dễ dàng. Tải ngay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

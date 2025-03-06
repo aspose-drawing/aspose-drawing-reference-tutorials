@@ -3,10 +3,16 @@ title: تحجيم الصور في Aspose.Drawing
 linktitle: تحجيم الصور في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية تغيير حجم الصور بسهولة في .NET باستخدام Aspose.Drawing. يضمن دليلنا خطوة بخطوة التكامل السلس، مما يوفر إمكانات قوية لمعالجة الصور.
-type: docs
 weight: 14
 url: /ar/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحجيم الصور في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تغيير حجم الصور باستخدام Aspose.Drawing for .NET! في العالم الديناميكي لتطوير البرمجيات، تعد معالجة الصور وقياسها متطلبًا شائعًا. يعمل Aspose.Drawing على تبسيط هذه العملية، حيث يقدم أدوات ووظائف قوية للعمل مع الصور في تطبيقات .NET الخاصة بك.
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
 ### س5: هل يمكنني تطبيق أوضاع الاستيفاء المخصصة لتغيير حجم الصورة؟
 
 ج5: نعم، يوفر Aspose.Drawing المرونة، مما يسمح لك بالاختيار من بين أوضاع الاستيفاء المتنوعة لتغيير حجم الصورة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

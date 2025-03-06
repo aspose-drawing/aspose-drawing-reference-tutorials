@@ -3,10 +3,16 @@ title: Render
 linktitle: Render
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Buka kunci penguasaan grafis .NET dengan Aspose.Drawing! Tingkatkan proyek dengan pencampuran alfa untuk efek tembus cahaya. Pelajari antialiasing dan kliping untuk menyempurnakan desain.
-type: docs
 weight: 25
 url: /id/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render
+
 ## Perkenalan
 
 Selamat datang di dunia penguasaan grafis dengan Aspose.Drawing! Dalam panduan komprehensif ini, kami mempelajari tiga teknik rendering utama: Alpha Blending, Antialiasing, dan Clipping. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan grafis .NET, seri tutorial ini memiliki sesuatu yang menarik untuk semua orang.
@@ -45,3 +51,9 @@ Buka keajaiban pencampuran alfa dalam grafis .NET dengan Aspose.Drawing. Tingkat
 Tingkatkan grafik dalam aplikasi .NET dengan Aspose.Drawing. Terapkan antialiasing untuk tepian yang halus. Ikuti panduan langkah demi langkah kami.
 ### [Kliping di Aspose. Gambar](./clipping/)
 Jelajahi kekuatan Aspose.Drawing untuk .NET dengan tutorial langkah demi langkah tentang penerapan kliping untuk desain grafis yang disempurnakan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Alpha Blending in Aspose.Drawing
 linktitle: Alpha Blending in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Unlock the magic of alpha blending in .NET graphics with Aspose.Drawing. Elevate your projects with translucent effects.
-type: docs
 weight: 10
 url: /net/rendering/alpha-blending/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alpha Blending in Aspose.Drawing
+
 ## Introduction
 
 Welcome to the world of Aspose.Drawing for .NET! In this tutorial, we'll delve into the intriguing realm of alpha blending using Aspose.Drawing, a powerful tool for graphics manipulation in .NET applications. Whether you're a seasoned developer or just starting your coding journey, this step-by-step guide will help you grasp the concept of alpha blending and apply it effortlessly in your projects.
@@ -90,3 +96,10 @@ A4: Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/te
 ### Q5: Where can I find the documentation for Aspose.Drawing?
 
 A5: The documentation is available [here](https://reference.aspose.com/drawing/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

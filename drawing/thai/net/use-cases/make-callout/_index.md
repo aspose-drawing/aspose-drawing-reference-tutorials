@@ -3,10 +3,16 @@ title: การสร้างคำบรรยายภาพใน Aspose. D
 linktitle: การสร้างคำบรรยายภาพใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: ปรับปรุงภาพประกอบเอกสารของคุณโดยใช้ Aspose. Drawing สำหรับ .NET! เรียนรู้วิธีเพิ่มคำบรรยายภาพทีละขั้นตอนเพื่อให้ได้ภาพที่ชัดเจนและให้ข้อมูลมากขึ้น
-type: docs
 weight: 10
 url: /th/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างคำบรรยายภาพใน Aspose. Drawing
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนของเราเกี่ยวกับการสร้างคำบรรยายภาพใน Aspose. Drawing สำหรับ .NET! หากคุณต้องการปรับปรุงภาพประกอบในเอกสารด้วยคำบรรยาย คุณมาถูกที่แล้ว ในบทช่วยสอนนี้ เราจะแบ่งกระบวนการออกเป็นขั้นตอนที่สามารถจัดการได้โดยใช้ไลบรารี Aspose. Drawing
 ## ข้อกำหนดเบื้องต้น
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### ฉันสามารถลองใช้ Aspose. Drawing ก่อนซื้อได้หรือไม่
 
  แน่นอน! เริ่มต้นด้วยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

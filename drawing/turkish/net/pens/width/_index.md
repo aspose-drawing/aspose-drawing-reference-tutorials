@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Kalem Genişliğini Ayarlama
 linktitle: Aspose.Drawing'de Kalem Genişliğini Ayarlama
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing for .NET ile grafik dünyasını keşfedin. Çarpıcı görseller için kalem genişliklerini dinamik olarak nasıl ayarlayacağınızı öğrenin. Adım adım kılavuzumuzla başlayın.
-type: docs
 weight: 12
 url: /tr/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Kalem Genişliğini Ayarlama
+
 ## giriiş
 
 Aspose.Drawing for .NET'i kullanarak kalemlerin genişliğini ayarlamayı anlatan bu adım adım kılavuza hoş geldiniz. Aspose.Drawing, .NET uygulamalarındaki grafikler ve görüntülerle çalışmak için kapsamlı işlevsellik sağlayan güçlü bir kütüphanedir. Bu eğitimde belirli bir konuya odaklanacağız: grafiklerinizi geliştirmek için kalemlerin genişliğini ayarlama.
@@ -87,3 +93,9 @@ Tebrikler! Aspose.Drawing for .NET'i kullanarak kalemlerin genişliğini nasıl 
 ### S5: Hangi dokümantasyon kaynakları mevcut?
 
  A5: Bkz.[Aspose.Drawing belgeleri](https://reference.aspose.com/drawing/net/) Ayrıntılı bilgi ve örnekler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

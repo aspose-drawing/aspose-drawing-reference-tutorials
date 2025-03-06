@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的許可
 linktitle: Aspose.Drawing 中的許可
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 釋放 .NET 中 Aspose.Drawing 的全部潛能。無縫整合的主授權。立即下載並提升您的圖形和影像處理能力。
-type: docs
 weight: 10
 url: /zh-hant/net/licensing/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的許可
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Drawing 作為圖形和影像處理的強大工具脫穎而出。要釋放 Aspose.Drawing 的全部潛力，了解許可至關重要。本教學將引導您完成各種授權方法，確保您將 Aspose.Drawing 無縫整合到您的 .NET 專案中。
@@ -138,3 +144,9 @@ A4：是的，只要有適當的許可，您就可以在商業和非商業項目
 ### Q5：在哪裡可以找到 Aspose.Drawing 的社群支援？
 
  A5：訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

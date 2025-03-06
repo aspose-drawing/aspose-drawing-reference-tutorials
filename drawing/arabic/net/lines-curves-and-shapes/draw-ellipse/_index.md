@@ -3,10 +3,16 @@ title: رسم القطع الناقص في Aspose.Drawing
 linktitle: رسم القطع الناقص في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية رسم الأشكال البيضاوية في .NET باستخدام Aspose.Drawing. اتبع هذا البرنامج التعليمي خطوة بخطوة لإنشاء رسومات مذهلة دون عناء.
-type: docs
 weight: 15
 url: /ar/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم القطع الناقص في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول رسم الأشكال البيضاوية باستخدام Aspose.Drawing لـ .NET! سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام .NET، فسيرشدك هذا الدليل خطوة بخطوة خلال عملية إنشاء علامات الحذف المذهلة في تطبيقاتك.
@@ -96,3 +102,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: نعم، يمكنك استكشاف المكتبة من خلال النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

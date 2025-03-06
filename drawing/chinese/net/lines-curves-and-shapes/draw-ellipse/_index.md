@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中绘制椭圆
 linktitle: 在 Aspose.Drawing 中绘制椭圆
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 了解如何使用 Aspose.Drawing 在 .NET 中绘制椭圆。按照此分步教程轻松创建令人惊叹的图形。
-type: docs
 weight: 15
 url: /zh/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中绘制椭圆
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.Drawing for .NET 绘制椭圆的综合教程！无论您是经验丰富的开发人员还是刚开始使用 .NET，本分步指南都将引导您完成在应用程序中创建令人惊叹的椭圆的过程。
@@ -96,3 +102,9 @@ A3：当然！ Aspose.Drawing 是一个功能强大的库，能够轻松处理�
 ### Q5: 有免费试用吗？
 
  A5：是的，您可以通过免费试用来探索图书馆[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

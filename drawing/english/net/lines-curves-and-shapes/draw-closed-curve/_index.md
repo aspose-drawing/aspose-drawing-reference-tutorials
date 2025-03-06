@@ -3,10 +3,16 @@ title: Drawing Closed Curves in Aspose.Drawing
 linktitle: Drawing Closed Curves in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the art of drawing closed curves in .NET applications with Aspose.Drawing. Elevate your visuals effortlessly.
-type: docs
 weight: 14
 url: /net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Closed Curves in Aspose.Drawing
+
 ## Introduction
 
 Welcome to our comprehensive guide on drawing closed curves in Aspose.Drawing for .NET! If you're looking to enhance your .NET applications with vibrant and precise closed curves, you've come to the right place. In this tutorial, we'll explore the process step by step, ensuring you gain a solid understanding of the Aspose.Drawing library and its capabilities.
@@ -84,3 +90,10 @@ A4: The comprehensive documentation is available [here](https://reference.aspose
 ### Q5: What support options are available?
 
 A5: If you need assistance or have questions, head to the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

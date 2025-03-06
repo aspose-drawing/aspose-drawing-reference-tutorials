@@ -3,10 +3,16 @@ title: Aspose.Drawing での四角形の描画
 linktitle: Aspose.Drawing での四角形の描画
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing を使用して .NET で四角形を描画する方法を学びます。コード例を含むステップバイステップのガイド。
-type: docs
 weight: 19
 url: /ja/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing での四角形の描画
+
 ## 導入
 
 Aspose.Drawing for .NET を使用して四角形を描画するためのこの包括的なチュートリアルへようこそ。経験豊富な開発者でも、Aspose.Drawing の初心者でも、このガイドでは、.NET アプリケーションで四角形を作成および操作するプロセスについて説明します。
@@ -98,3 +104,9 @@ A4：もちろんです！ Aspose.Drawing は、複雑なグラフィック操�
 ### Q5: Aspose.Drawing はどこで購入できますか?
 
  A5: 訪問[ここ](https://purchase.aspose.com/buy)ライセンスを購入するため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

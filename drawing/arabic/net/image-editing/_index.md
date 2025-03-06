@@ -3,10 +3,16 @@ title: تعديل الصوره
 linktitle: تعديل الصوره
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: عزز مهاراتك في تحرير الصور من خلال دروس Aspose.Drawing التعليمية! تعلم تقنيات الاقتصاص والوصول المباشر إلى البيانات والعرض والقياس للحصول على نتائج مذهلة.
-type: docs
 weight: 21
 url: /ar/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل الصوره
+
 
 ## مقدمة
 
@@ -54,3 +60,9 @@ url: /ar/net/image-editing/
 تحميل الصور الرئيسية وحفظها في .NET باستخدام Aspose.Drawing. استكشف تنسيقات BMP، وGIF، وJPG، وPNG، وTIFF دون عناء.
 ### [تحجيم الصور في Aspose.Drawing](./scale/)
 تعرف على كيفية تغيير حجم الصور بسهولة في .NET باستخدام Aspose.Drawing. يضمن دليلنا خطوة بخطوة التكامل السلس، مما يوفر إمكانات قوية لمعالجة الصور.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

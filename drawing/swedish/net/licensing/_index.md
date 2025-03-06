@@ -3,10 +3,16 @@ title: Licensiering
 linktitle: Licensiering
 second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
 description: Lås upp Aspose.Drawings fulla potential i .NET med sömlösa licensieringshandledningar. Integrera enkelt, lyft grafik och manipulera bilder med lätthet.
-type: docs
 weight: 22
 url: /sv/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licensiering
+
 
 ## Introduktion
 
@@ -34,3 +40,9 @@ Lås upp, integrera och förnya med Aspose.Drawing – din inkörsport till oöv
 ## Handledning för licensiering
 ### [Licensiering i Aspose.Drawing](./licensing/)
 Lås upp Aspose.Drawings fulla potential i .NET. Masterlicensiering för sömlös integration. Ladda ner nu och höj din grafik och bildmanipulation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

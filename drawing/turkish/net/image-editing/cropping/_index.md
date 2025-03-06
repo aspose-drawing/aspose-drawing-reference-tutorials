@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Görüntüleri Kırpma
 linktitle: Aspose.Drawing'de Görüntüleri Kırpma
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing for .NET ile görüntü kırpmada ustalaşın. Bu adım adım kılavuz, geliştiricilerin görüntü işleme becerilerini zahmetsizce geliştirmelerine olanak sağlar.
-type: docs
 weight: 10
 url: /tr/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Görüntüleri Kırpma
+
 ## giriiş
 
 .NET geliştirme dünyasında Aspose.Drawing, görüntü işleme için güçlü bir araç olarak öne çıkıyor. Kullanışlı özelliklerinden biri, görüntüleri hassas bir şekilde kırpma yeteneğidir. Bu eğitimde Aspose.Drawing for .NET'i kullanarak görüntüleri kırpma sürecini anlatacağız. Görüntü işleme becerilerinizi geliştirmeye hazır olun!
@@ -106,3 +112,10 @@ Cevap4: Gerçekten de Aspose.Drawing toplu işlemede üstündür ve tek seferde 
 ### S5: Aspose.Drawing ile ilgili sorgular için nasıl destek alabilirim?
 
  A5: Şuraya gidin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17) yardım istemek ve toplulukla bağlantı kurmak.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

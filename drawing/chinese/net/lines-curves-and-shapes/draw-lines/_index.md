@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中绘制线条
 linktitle: 在 Aspose.Drawing 中绘制线条
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 了解如何使用 Aspose.Drawing 在 .NET 应用程序中绘制线条。本分步教程将指导您完成制作精美图形的过程。
-type: docs
 weight: 16
 url: /zh/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中绘制线条
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.Drawing for .NET 绘制线条的综合教程！ Aspose.Drawing 是一个功能强大的库，允许您在 .NET 应用程序中操作和创建图像。在本教程中，我们将重点介绍绘制线条的基础知识，这是创建具有视觉吸引力的图形的基本技能。
@@ -99,3 +105,9 @@ A4：要处理错误，您可以实现try-catch块并参考Aspose.Drawing论坛�
 ### Q5：我可以将Aspose.Drawing用于商业项目吗？
 
  A5：是的，您可以将Aspose.Drawing用于商业项目。参观[购买页面](https://purchase.aspose.com/buy)了解许可详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

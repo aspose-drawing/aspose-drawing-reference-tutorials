@@ -3,10 +3,16 @@ title: رسم النص في Aspose.Drawing
 linktitle: رسم النص في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: قم بتحسين تطبيقات .NET الخاصة بك بنص ديناميكي باستخدام Aspose.Drawing لـ .NET. اتبع دليلنا خطوة بخطوة لرسم النص وتخصيص الخطوط وإنشاء صور جذابة.
-type: docs
 weight: 10
 url: /ar/net/text-and-fonts/draw-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم النص في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل المفصل خطوة بخطوة حول رسم النص باستخدام Aspose.Drawing لـ .NET! إذا كنت تتطلع إلى تحسين تطبيقات .NET الخاصة بك بنص غني وجذاب بصريًا، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء نص ديناميكي في الصور باستخدام Aspose.Drawing.
@@ -102,3 +108,9 @@ A1: نعم، يمكنك تحديد الخطوط المخصصة عند إنشاء
 ### س5: هل يوجد منتدى مجتمعي لدعم Aspose.Drawing؟
 
  ج5: نعم، يمكنك العثور على الدعم ومناقشة القضايا على[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Změna měřítka obrázků v Aspose.Drawing
 linktitle: Změna měřítka obrázků v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Naučte se, jak bez námahy měnit měřítko obrázků v .NET pomocí Aspose.Drawing. Náš podrobný průvodce zajišťuje bezproblémovou integraci a poskytuje výkonné možnosti manipulace s obrázky.
-type: docs
 weight: 14
 url: /cs/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změna měřítka obrázků v Aspose.Drawing
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci změnou měřítka obrázků pomocí Aspose.Drawing for .NET! V dynamickém světě vývoje softwaru je manipulace s obrázky a jejich škálování běžným požadavkem. Aspose.Drawing tento proces zjednodušuje a nabízí výkonné nástroje a funkce pro práci s obrázky ve vašich aplikacích .NET.
@@ -107,3 +113,9 @@ A1: Ano, Aspose.Drawing je univerzální a lze jej využít v různých aplikac�
 ### Q5: Mohu použít vlastní režimy interpolace pro změnu měřítka obrazu?
 
 Odpověď 5: Ano, Aspose.Drawing poskytuje flexibilitu a umožňuje vám vybrat si z různých režimů interpolace pro změnu měřítka obrazu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

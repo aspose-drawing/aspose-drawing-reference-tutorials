@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的直接数据访问
 linktitle: Aspose.Drawing 中的直接数据访问
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 学习使用 Aspose.Drawing for .NET 高效地操作图像。通过我们的分步指南深入了解直接数据访问。
-type: docs
 weight: 11
 url: /zh/net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的直接数据访问
+
 ## 介绍
 
 欢迎来到 Aspose.Drawing for .NET 的世界，这是一个功能强大的库，使开发人员能够轻松操作和创建图像。在本教程中，我们将深入研究直接数据访问的复杂性，这是 Aspose.Drawing 的一个重要方面，它允许您有效地处理像素数据。
@@ -95,3 +101,9 @@ A4：请参阅[文档](https://reference.aspose.com/drawing/net/)进行全面指
 ### Q5：如何购买 Aspose.Drawing for .NET？
 
  A5：购买Aspose.Drawing[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

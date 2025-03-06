@@ -3,10 +3,16 @@ title: 선, 곡선 및 모양
 linktitle: 선, 곡선 및 모양
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉의 .NET 마법을 발휘해보세요! 생동감 넘치는 그래픽을 위한 선, 곡선 및 모양 튜토리얼을 살펴보세요. 단색 브러시, 호, 스플라인, 타원 등을 더욱 창의적으로 마스터하세요.
-type: docs
 weight: 23
 url: /ko/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선, 곡선 및 모양
+
 
 ## 소개
 
@@ -69,3 +75,9 @@ Aspose. Drawing을 사용하여 .NET 애플리케이션에서 선을 그리는 �
 Aspose.드로잉을 사용하여 .NET에서 직사각형을 그리는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
 ### [Aspose. Drawing의 영역 채우기](./fill-region/)
 이 단계별 튜토리얼을 통해 .NET용 Aspose. Drawing에서 영역을 채우는 방법을 알아보세요. 그래픽 디자인 기술을 쉽게 향상시킬 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

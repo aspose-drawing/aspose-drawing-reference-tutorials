@@ -1,12 +1,17 @@
 ---
 title: Aspose.Drawing for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
 linktitle: .NET için Aspose.Drawing Eğitimleri
-type: docs
 weight: 10
 url: /tr/net/
 description: Aspose.Drawing for .NET ile grafik becerilerinizi geliştirin! Hassas koordinat dönüşümlerinden dinamik metin ve yazı tiplerine kadar eğitimlerimiz grafiklerin tüm potansiyelini açığa çıkarır.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+
 
 ## giriiş
 
@@ -55,3 +60,9 @@ Aspose.Drawing ile .NET grafik ustalığının kilidini açın! Yarı saydam efe
 Aspose.Drawing for .NET'in kilidini açın! Dinamik metin, yazı tipleri ve görsel oluşturma konusunda uzmanlaşın. Kristal netliğinde görseller için mükemmel metin biçimlendirme, ipucu ve yazı tipi manipülasyonu.
 ### [Kullanım Durumları](./use-cases/)
 Aspose.Drawing for .NET ile çizimlerinizi geliştirin! Eğitimlerimizle belirtme çizgileri ekleyin, çarpıcı çerçeveler oluşturun ve metinleri görüntülere sorunsuz bir şekilde entegre edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

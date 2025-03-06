@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET 中的全域轉換
 linktitle: Aspose.Drawing 中的全域轉換
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 探索 Aspose.Drawing for .NET 中的全域轉換，輕鬆建立令人驚嘆的圖形。請遵循我們的逐步指南以獲得無縫體驗。
-type: docs
 weight: 10
 url: /zh-hant/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 中的全域轉換
+
 ## 介紹
 
 歡迎來到 Aspose.Drawing for .NET 的世界！在本教學中，我們將使用 Aspose.Drawing 探索全域轉換的概念，Aspose.Drawing 是一個用於 .NET 應用程式中圖形操作的強大函式庫。全域變換可讓您將變換應用於圖形上下文中的每個繪製項目。當您想要創建複雜的視覺效果或在更大範圍內操作圖像時，這非常有用。
@@ -101,3 +107,9 @@ A4：是的，您可以探索 Aspose.Drawing 的免費試用版[這裡](https://
 ### Q5：如何取得 Aspose.Drawing 的臨時授權？
 
  A5：取得 Aspose.Drawing 的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

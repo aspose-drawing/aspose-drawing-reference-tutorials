@@ -3,10 +3,16 @@ title: 钢笔
 linktitle: 钢笔
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 通过 Aspose.Drawing 教程解锁 .NET 中图形编程的强大功能。探索色彩操纵、路径连接和动态笔宽度设置，以获得令人惊叹的视觉效果。
-type: docs
 weight: 24
 url: /zh/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 钢笔
+
 
 ## 介绍
 
@@ -40,3 +46,9 @@ url: /zh/net/pens/
 探索在 Aspose.Drawing for .NET 中使用笔连接路径的艺术。使用 LineJoin 选项创建令人惊叹的图形。
 ### [在Aspose.Drawing中设置笔的宽度](./width/)
 使用 Aspose.Drawing for .NET 探索图形世界。了解如何动态设置笔宽度以获得令人惊叹的视觉效果。开始使用我们的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

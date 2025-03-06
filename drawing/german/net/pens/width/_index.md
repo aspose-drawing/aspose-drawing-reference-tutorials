@@ -3,10 +3,16 @@ title: Festlegen der Stiftbreite in Aspose.Drawing
 linktitle: Festlegen der Stiftbreite in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative zu System.Drawing.Common
 description: Entdecken Sie die Welt der Grafiken mit Aspose.Drawing für .NET. Erfahren Sie, wie Sie die Stiftbreite für atemberaubende Bilder dynamisch festlegen. Beginnen Sie mit unserer Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 12
 url: /de/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen der Stiftbreite in Aspose.Drawing
+
 ## Einführung
 
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Festlegen der Stiftbreite mit Aspose.Drawing für .NET. Aspose.Drawing ist eine leistungsstarke Bibliothek, die umfangreiche Funktionen für die Arbeit mit Grafiken und Bildern in .NET-Anwendungen bietet. In diesem Tutorial konzentrieren wir uns auf einen bestimmten Aspekt: die Anpassung der Stiftbreite, um Ihre Grafiken zu verbessern.
@@ -87,3 +93,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie die Breite von Stiften mit 
 ### F5: Welche Dokumentationsressourcen sind verfügbar?
 
  A5: Siehe[Aspose.Drawing-Dokumentation](https://reference.aspose.com/drawing/net/) für ausführliche Informationen und Beispiele.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

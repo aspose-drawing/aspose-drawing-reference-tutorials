@@ -3,10 +3,16 @@ title: Keretezze meg kreatívan fényképeit az Aspose.Drawing for .NET segíts�
 linktitle: Fényképkeretek készítése az Aspose.Drawing programban
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Javítsa képeit az Aspose.Drawing for .NET segítségével! Kövesse lépésről lépésre szóló útmutatónkat lenyűgöző képkeretek létrehozásához. Fedezze fel az Aspose.Drawing for .NET-et most!
-type: docs
 weight: 11
 url: /hu/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Keretezze meg kreatívan fényképeit az Aspose.Drawing for .NET segítségével
+
 ## Bevezetés
 Egy csipetnyi eleganciát szeretne a képeihez adni? Az Aspose.Drawing for .NET segítségével egyszerűen készíthet lenyűgöző képkereteket, amelyek fokozzák képei látványos vonzerejét. Ez a lépésenkénti útmutató végigvezeti Önt a lenyűgöző képkeretek létrehozásának folyamatán az Aspose.Drawing hatékony funkcióival.
 ## Előfeltételek
@@ -98,3 +104,9 @@ Teljesen! Teljes mértékben uralhatja a keret színét és vastagságát, ami v
  Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/diagram/17) segítséget kapni és kapcsolatba lépni a közösséggel.
 ### Használhatom az Aspose.Drawinget kereskedelmi projektekhez?
  Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy) kereskedelmi használatra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

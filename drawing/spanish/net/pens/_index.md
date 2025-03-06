@@ -3,10 +3,16 @@ title: Plumas
 linktitle: Plumas
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Desbloquee el poder de la programación gráfica en .NET con los tutoriales de Aspose.Drawing. Descubra la manipulación del color, la unión de trazados y la configuración dinámica del ancho del lápiz para obtener imágenes impresionantes.
-type: docs
 weight: 24
 url: /es/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Plumas
+
 
 ## Introducción
 
@@ -40,3 +46,9 @@ Explore el vibrante mundo de la programación gráfica en .NET con Aspose.Drawin
 Explore el arte de unir trazados con bolígrafos en Aspose.Drawing para .NET. Cree gráficos impresionantes con las opciones de LineJoin.
 ### [Configuración del ancho de las plumas en Aspose.Drawing](./width/)
 Explora el mundo de los gráficos con Aspose.Drawing para .NET. Aprenda a configurar dinámicamente el ancho del lápiz para obtener imágenes impresionantes. Comience con nuestra guía paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

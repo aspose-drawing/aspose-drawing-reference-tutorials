@@ -3,10 +3,16 @@ title: Fazendo chamadas em Aspose.Drawing
 linktitle: Fazendo chamadas em Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Aprimore as ilustrações de seus documentos usando Aspose.Drawing for .NET! Aprenda passo a passo como adicionar textos explicativos para obter visuais mais claros e informativos.
-type: docs
 weight: 10
 url: /pt/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fazendo chamadas em Aspose.Drawing
+
 ## Introdução
 Bem-vindo ao nosso guia passo a passo sobre como fazer chamadas no Aspose.Drawing for .NET! Se você deseja aprimorar as ilustrações de seus documentos com textos explicativos, você está no lugar certo. Neste tutorial, dividiremos o processo em etapas gerenciáveis usando a biblioteca Aspose.Drawing.
 ## Pré-requisitos
@@ -110,3 +116,9 @@ Absolutamente! Aspose.Drawing suporta formatos de imagem populares como PNG, JPE
 ### Posso experimentar o Aspose.Drawing antes de comprar?
 
  Certamente! Comece com um teste gratuito[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

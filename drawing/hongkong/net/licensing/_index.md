@@ -3,10 +3,16 @@ title: 授權
 linktitle: 授權
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 透過無縫許可教程釋放 Aspose.Drawing 在 .NET 中的全部潛力。輕鬆整合、提升圖形並輕鬆操作影像。
-type: docs
 weight: 22
 url: /zh-hant/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 授權
+
 
 ## 介紹
 
@@ -34,3 +40,9 @@ Aspose.Drawing 讓您能夠將圖形和影像處理技能提升到新的高度�
 ## 許可教程
 ### [Aspose.Drawing 中的許可](./licensing/)
 釋放 .NET 中 Aspose.Drawing 的全部潛能。無縫整合的主授權。立即下載並提升您的圖形和影像處理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

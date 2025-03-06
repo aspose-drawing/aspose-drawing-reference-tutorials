@@ -3,10 +3,16 @@ title: Aspose.Drawing में क्षेत्र भरना
 linktitle: Aspose.Drawing में क्षेत्र भरना
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: इस चरण-दर-चरण ट्यूटोरियल से जानें कि .NET के लिए Aspose.Drawing में क्षेत्रों को कैसे भरें। अपने ग्राफ़िक डिज़ाइन कौशल को सहजता से बढ़ाएं।
-type: docs
 weight: 20
 url: /hi/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing में क्षेत्र भरना
+
 ## परिचय
 
 देखने में आकर्षक ग्राफ़िक्स बनाने में अक्सर क्षेत्रों को रंगों, पैटर्नों या ग्रेडिएंट से भरना शामिल होता है। .NET के लिए Aspose.Drawing इसे कुशलतापूर्वक प्राप्त करने के लिए शक्तिशाली उपकरण प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.Drawing, एक बहुमुखी लाइब्रेरी का उपयोग करके क्षेत्रों को भरने की प्रक्रिया में गहराई से उतरेंगे जो .NET अनुप्रयोगों में ग्राफिक संचालन को सरल बनाती है।
@@ -102,3 +108,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png")
 ### Q5: क्या अस्थायी लाइसेंस उपलब्ध हैं?
 
  A5: हां, अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

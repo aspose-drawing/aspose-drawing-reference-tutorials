@@ -3,10 +3,16 @@ title: Ładowanie i zapisywanie obrazów w Aspose.Drawing
 linktitle: Ładowanie i zapisywanie obrazów w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Ładowanie i zapisywanie obrazu głównego w .NET za pomocą Aspose.Drawing. Przeglądaj bez wysiłku formaty BMP, GIF, JPG, PNG i TIFF.
-type: docs
 weight: 13
 url: /pl/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ładowanie i zapisywanie obrazów w Aspose.Drawing
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym opanowania ładowania i zapisywania obrazów przy użyciu Aspose.Drawing dla .NET! Jeśli chcesz udoskonalić swoje umiejętności w zakresie łatwego manipulowania różnymi formatami obrazów, jesteś we właściwym miejscu. Aspose.Drawing dla .NET to potężna biblioteka, która upraszcza proces pracy z obrazami. W tym samouczku zajmiemy się ładowaniem i zapisywaniem obrazów w różnych formatach.
@@ -102,3 +108,9 @@ Odpowiedź 2: Sprawdź oficjalną dokumentację[Tutaj](https://reference.aspose.
 ### P5: Gdzie mogę kupić bibliotekę Aspose.Drawing?
 
  A5: Możesz to kupić[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

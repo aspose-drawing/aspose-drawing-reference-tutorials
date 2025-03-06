@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET 中的測量單位
 linktitle: Aspose.Drawing 中的測量單位
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 在這個深入的教學中探索 Aspose.Drawing for .NET 的多功能性，掌握精確圖形的測量單位。
-type: docs
 weight: 14
 url: /zh-hant/net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 中的測量單位
+
 ## 介紹
 
 歡迎來到 Aspose.Drawing for .NET 的世界，在這裡，圖形操作的精確性和靈活性得到了滿足。在本教程中，我們將深入研究 Aspose.Drawing 中測量單位的複雜性，為您提供逐步指南，以利用這個非凡庫的強大功能。
@@ -120,3 +126,9 @@ A1：是的，Aspose.Drawing 與各種 .NET 框架相容，為您的開發環境
 ### Q5：在哪裡可以找到Aspose.Drawing的詳細文件？
 
  A5：提供全面的文檔[這裡](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

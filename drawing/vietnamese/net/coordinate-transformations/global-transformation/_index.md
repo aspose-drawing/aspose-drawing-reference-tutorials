@@ -3,10 +3,16 @@ title: Chuyển đổi toàn cầu trong Aspose.draw cho .NET
 linktitle: Chuyển đổi toàn cầu trong Aspose.drawing
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá các biến đổi toàn cầu trong Aspose.draw cho .NET, tạo đồ họa tuyệt đẹp một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch.
-type: docs
 weight: 10
 url: /vi/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi toàn cầu trong Aspose.draw cho .NET
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới của Aspose.draw cho .NET! Trong hướng dẫn này, chúng ta sẽ khám phá khái niệm về chuyển đổi toàn cục bằng cách sử dụng Aspose.draw, một thư viện mạnh mẽ để thao tác đồ họa trong các ứng dụng .NET. Chuyển đổi toàn cục cho phép bạn áp dụng các phép biến đổi cho mọi mục được vẽ trong ngữ cảnh đồ họa. Điều này có thể cực kỳ hữu ích khi bạn muốn tạo các hiệu ứng hình ảnh phức tạp hoặc xử lý hình ảnh ở quy mô rộng hơn.
@@ -101,3 +107,9 @@ Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn ph�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.drawing?
 
  Câu trả lời 5: Nhận giấy phép tạm thời cho Aspose.drawing[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

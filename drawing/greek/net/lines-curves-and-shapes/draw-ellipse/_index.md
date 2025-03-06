@@ -3,10 +3,16 @@ title: Σχέδιο ελλείψεων στο Aspose.Drawing
 linktitle: Σχέδιο ελλείψεων στο Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Εναλλακτική λύση στο System.Drawing.Common
 description: Μάθετε πώς να σχεδιάζετε ελλείψεις στο .NET χρησιμοποιώντας το Aspose.Drawing. Ακολουθήστε αυτό το βήμα προς βήμα σεμινάριο για να δημιουργήσετε εκπληκτικά γραφικά χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχέδιο ελλείψεων στο Aspose.Drawing
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το περιεκτικό σεμινάριο σχεδίασης ελλείψεων χρησιμοποιώντας το Aspose.Drawing για .NET! Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με το .NET, αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία δημιουργίας εκπληκτικών ελλείψεων στις εφαρμογές σας.
@@ -96,3 +102,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 ### Ε5: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
 
  A5: Ναι, μπορείτε να εξερευνήσετε τη βιβλιοθήκη με μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cas d'utilisation
 linktitle: Cas d'utilisation
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Améliorez vos illustrations avec Aspose.Drawing pour .NET ! Ajoutez des légendes, créez des cadres époustouflants et intégrez de manière transparente du texte dans des images grâce à nos didacticiels.
-type: docs
 weight: 27
 url: /fr/net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cas d'utilisation
+
 ## Introduction
 
 Dans le domaine dynamique de la conception numérique, Aspose.Drawing pour .NET se distingue comme une centrale électrique, offrant une multitude de fonctionnalités pour améliorer les illustrations de vos documents et les manipulations d'images. Cet article explore les cas d'utilisation polyvalents d'Aspose.Drawing pour .NET à travers des didacticiels étape par étape, en se concentrant sur trois domaines clés : création de légendes, création de cadres photo et ajout de texte sur les images.
@@ -32,3 +38,9 @@ Améliorez les illustrations de vos documents à l'aide d'Aspose.Drawing pour .N
 Améliorez vos images avec Aspose.Drawing pour .NET ! Suivez notre guide étape par étape pour créer de superbes cadres photo. Explorez Aspose.Drawing pour .NET maintenant !
 ### [Ajout de texte sur les images dans Aspose.Drawing](./text-on-image/)
 Explorez l'intégration transparente du texte dans les images avec Aspose.Drawing pour .NET. Suivez notre guide étape par étape pour une manipulation d'image sans effort. Télécharger maintenant!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

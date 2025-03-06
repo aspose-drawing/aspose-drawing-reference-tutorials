@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET を使用して写真をクリエイティブに�
 linktitle: Aspose.Drawing でフォト フレームを作成する
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET で画像を強化しましょう!ステップバイステップのガイドに従って、素晴らしいフォトフレームを作成してください。今すぐ Aspose.Drawing for .NET を試してみましょう!
-type: docs
 weight: 11
 url: /ja/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET を使用して写真をクリエイティブにフレーム化する
+
 ## 導入
 画像にエレガントなタッチを加えたいと考えていますか? Aspose.Drawing for .NET を使用すると、写真の視覚的な魅力を高める魅力的なフォト フレームを簡単に作成できます。このステップバイステップのガイドでは、Aspose.Drawing の強力な機能を使用して素晴らしいフォト フレームを作成するプロセスを説明します。
 ## 前提条件
@@ -98,3 +104,9 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
  Aspose.Drawing フォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/diagram/17)支援を受けたり、コミュニティとつながったりするためです。
 ### Aspose.Drawing を商用プロジェクトに使用できますか?
 はい、ライセンスを購入できます[ここ](https://purchase.aspose.com/buy)商用利用向け。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

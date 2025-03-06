@@ -3,10 +3,16 @@ title: Akses Data Langsung di Aspose.Drawing
 linktitle: Akses Data Langsung di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Pelajari cara memanipulasi gambar secara efisien dengan Aspose.Drawing untuk .NET. Selami akses data langsung dengan panduan langkah demi langkah kami.
-type: docs
 weight: 11
 url: /id/net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Akses Data Langsung di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.Drawing for .NET, perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi dan membuat gambar dengan mudah. Dalam tutorial ini, kita akan mempelajari seluk-beluk akses data langsung, aspek penting dari Aspose.Drawing yang memungkinkan Anda bekerja secara efisien dengan data piksel.
@@ -95,3 +101,9 @@ A4: Lihat[dokumentasi](https://reference.aspose.com/drawing/net/) untuk panduan 
 ### Q5: Bagaimana cara membeli Aspose.Drawing untuk .NET?
 
  A5: Beli Aspose. Gambar[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

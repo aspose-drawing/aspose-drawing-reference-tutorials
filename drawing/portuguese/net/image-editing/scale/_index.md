@@ -3,10 +3,16 @@ title: Dimensionando imagens em Aspose.Drawing
 linktitle: Dimensionando imagens em Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Aprenda como dimensionar imagens sem esforço em .NET usando Aspose.Drawing. Nosso guia passo a passo garante integração perfeita, fornecendo recursos poderosos de manipulação de imagens.
-type: docs
 weight: 14
 url: /pt/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dimensionando imagens em Aspose.Drawing
+
 ## Introdução
 
 Bem-vindo a este guia completo sobre dimensionamento de imagens usando Aspose.Drawing for .NET! No mundo dinâmico do desenvolvimento de software, a manipulação e dimensionamento de imagens é um requisito comum. Aspose.Drawing simplifica esse processo, oferecendo ferramentas e funcionalidades poderosas para trabalhar com imagens em suas aplicações .NET.
@@ -107,3 +113,9 @@ A1: Sim, o Aspose.Drawing é versátil e pode ser utilizado em vários aplicativ
 ### P5: Posso aplicar modos de interpolação personalizados para dimensionamento de imagem?
 
 R5: Sim, o Aspose.Drawing oferece flexibilidade, permitindo escolher entre vários modos de interpolação para dimensionamento de imagem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

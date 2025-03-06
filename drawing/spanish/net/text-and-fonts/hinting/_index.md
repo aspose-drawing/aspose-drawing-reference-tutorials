@@ -3,10 +3,16 @@ title: Insinuando en Aspose.Dibujo
 linktitle: Insinuando en Aspose.Dibujo
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Desbloquee el poder de la representación de texto precisa con Aspose.Drawing para .NET. Domina las técnicas de sugerencias para fuentes nítidas.
-type: docs
 weight: 12
 url: /es/net/text-and-fonts/hinting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insinuando en Aspose.Dibujo
+
 ## Introducción
 
 ¡Bienvenido al mundo de la precisión y claridad en la representación de texto con Aspose.Drawing para .NET! En esta guía completa, profundizaremos en la poderosa característica de las sugerencias, mejorando su control sobre la representación de fuentes para obtener un resultado visualmente atractivo. Si es un desarrollador experimentado o recién comienza su viaje con Aspose.Drawing, este tutorial lo equipará con las habilidades para aprovechar todo el potencial de las sugerencias.
@@ -103,3 +109,9 @@ R4: Sí, Aspose.Drawing admite varias sugerencias de representación de texto pa
 ### P5: ¿Dónde puedo buscar ayuda o compartir mis experiencias con Aspose.Drawing?
 
  A5: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17)para interactuar con la comunidad y obtener apoyo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

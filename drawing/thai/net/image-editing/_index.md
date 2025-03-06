@@ -3,10 +3,16 @@ title: การแก้ไขภาพ
 linktitle: การแก้ไขภาพ
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: เสริมทักษะการแก้ไขภาพของคุณด้วย Aspose. บทช่วยสอนการวาดภาพ! เรียนรู้การครอบตัด การเข้าถึงข้อมูลโดยตรง การแสดง และการปรับขนาดเทคนิคเพื่อให้ได้ผลลัพธ์ที่น่าทึ่ง
-type: docs
 weight: 21
 url: /th/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแก้ไขภาพ
+
 
 ## การแนะนำ
 
@@ -54,3 +60,9 @@ url: /th/net/image-editing/
 การโหลดและบันทึกรูปภาพหลักใน .NET ด้วย Aspose. Drawing สำรวจรูปแบบ BMP, GIF, JPG, PNG, TIFF ได้อย่างง่ายดาย
 ### [การปรับขนาดรูปภาพใน Aspose. Drawing](./scale/)
 เรียนรู้วิธีปรับขนาดรูปภาพอย่างง่ายดายใน .NET โดยใช้ Aspose. Drawing คำแนะนำทีละขั้นตอนของเราช่วยให้มั่นใจได้ถึงการบูรณาการที่ราบรื่น โดยให้ความสามารถในการจัดการภาพที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

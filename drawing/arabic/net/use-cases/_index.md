@@ -3,10 +3,16 @@ title: استخدم حالات
 linktitle: استخدم حالات
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: ارفع مستوى الرسوم التوضيحية الخاصة بك باستخدام Aspose.Drawing لـ .NET! يمكنك إضافة وسائل شرح وإنشاء إطارات مذهلة ودمج النص في الصور بسلاسة من خلال برامجنا التعليمية.
-type: docs
 weight: 27
 url: /ar/net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدم حالات
+
 ## مقدمة
 
 في العالم الديناميكي للتصميم الرقمي، يبرز Aspose.Drawing for .NET كقوة قوية، حيث يقدم عددًا كبيرًا من الميزات لتحسين الرسوم التوضيحية للمستندات ومعالجة الصور. تتعمق هذه المقالة في حالات الاستخدام المتعددة لـ Aspose.Drawing لـ .NET من خلال برامج تعليمية خطوة بخطوة، مع التركيز على ثلاثة مجالات رئيسية: إجراء وسائل الشرح، وإنشاء إطارات الصور، وإضافة نص على الصور.
@@ -32,3 +38,9 @@ url: /ar/net/use-cases/
 قم بتحسين صورك باستخدام Aspose.Drawing لـ .NET! اتبع دليلنا خطوة بخطوة لإنشاء إطارات صور مذهلة. استكشف Aspose.Drawing لـ .NET الآن!
 ### [إضافة نص على الصور في Aspose.Drawing](./text-on-image/)
 استكشف التكامل السلس للنص في الصور باستخدام Aspose.Drawing for .NET. اتبع دليلنا خطوة بخطوة لمعالجة الصور بسهولة. التحميل الان!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

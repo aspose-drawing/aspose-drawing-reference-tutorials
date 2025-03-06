@@ -3,10 +3,16 @@ title: Đơn vị đo lường trong Aspose.draw cho .NET
 linktitle: Đơn vị đo lường trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá tính linh hoạt của Aspose.draw cho .NET trong hướng dẫn chuyên sâu này, nắm vững các đơn vị đo lường cho đồ họa chính xác.
-type: docs
 weight: 14
 url: /vi/net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đơn vị đo lường trong Aspose.draw cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.draw cho .NET, nơi đáp ứng được độ chính xác và tính linh hoạt trong thao tác đồ họa. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của các đơn vị đo lường trong Aspose. Draw, cung cấp cho bạn hướng dẫn từng bước để khai thác sức mạnh của thư viện đáng chú ý này.
@@ -120,3 +126,9 @@ Câu trả lời 1: Có, Aspose.draw tương thích với nhiều khung .NET kh�
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.drawing ở đâu?
 
  A5: Tài liệu toàn diện có sẵn[đây](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的填充区域
 linktitle: Aspose.Drawing 中的填充区域
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 通过此分步教程，了解如何在 Aspose.Drawing for .NET 中填充区域。轻松提高您的图形设计技能。
-type: docs
 weight: 20
 url: /zh/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的填充区域
+
 ## 介绍
 
 创建具有视觉吸引力的图形通常涉及用颜色、图案或渐变填充区域。 Aspose.Drawing for .NET 提供了强大的工具来有效地实现这一目标。在本教程中，我们将深入研究使用 Aspose.Drawing 填充区域的过程，Aspose.Drawing 是一个通用库，可简化 .NET 应用程序中的图形操作。
@@ -102,3 +108,9 @@ A4：当然。 Aspose.Drawing 使您能够在 .NET 应用程序中动态创建�
 ### Q5：有临时许可证吗？
 
  A5：是的，可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

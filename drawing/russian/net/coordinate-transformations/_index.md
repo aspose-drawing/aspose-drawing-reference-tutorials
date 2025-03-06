@@ -3,10 +3,16 @@ title: Координатные преобразования
 linktitle: Координатные преобразования
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Улучшите свои графические навыки с помощью наших руководств по Aspose.Drawing. Изучите глобальные, локальные, матричные, страничные и мировые преобразования, освоив точную графику в .NET.
-type: docs
 weight: 20
 url: /ru/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Координатные преобразования
+
 
 ## Введение
 
@@ -56,3 +62,9 @@ url: /ru/net/coordinate-transformations/
 Изучите универсальность Aspose.Drawing для .NET в этом подробном руководстве и освоите единицы измерения для точной графики.
 ### [Трансформация мира в Aspose.Drawing](./world-transformation/)
 Исследуйте трансформации мира в Aspose.Drawing для .NET. Улучшите свою графику с помощью простых шагов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

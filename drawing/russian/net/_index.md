@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.Drawing для .NET
 linktitle: Учебные пособия по Aspose.Drawing для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Совершенствуйте свои графические навыки с помощью Aspose.Drawing для .NET! Наши руководства раскрывают весь потенциал графики — от точных преобразований координат до динамического текста и шрифтов.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.Drawing для .NET
+
 
 ## Введение
 
@@ -55,3 +60,9 @@ Aspose.Drawing для .NET представляет собой мощный ин
 Разблокируйте Aspose.Drawing для .NET! Освойте динамический текст, шрифты и создание изображений. Идеальное форматирование текста, подсказки и манипуляции со шрифтами для кристально четкого изображения.
 ### [Случаи использования](./use-cases/)
 Улучшите свои иллюстрации с помощью Aspose.Drawing для .NET! Добавляйте выноски, создавайте потрясающие рамки и легко интегрируйте текст в изображения с помощью наших руководств.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

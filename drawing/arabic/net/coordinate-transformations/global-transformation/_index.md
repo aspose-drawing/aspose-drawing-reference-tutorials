@@ -3,10 +3,16 @@ title: التحول العالمي في Aspose.Drawing لـ .NET
 linktitle: التحول العالمي في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: استكشف التحولات العالمية في Aspose.Drawing for .NET، مما يؤدي إلى إنشاء رسومات مذهلة بسهولة. اتبع دليلنا خطوة بخطوة للحصول على تجربة سلسة.
-type: docs
 weight: 10
 url: /ar/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحول العالمي في Aspose.Drawing لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Drawing لـ .NET! في هذا البرنامج التعليمي، سوف نستكشف مفهوم التحول الشامل باستخدام Aspose.Drawing، وهي مكتبة قوية لمعالجة الرسومات في تطبيقات .NET. يتيح لك التحويل الشامل تطبيق التحولات على كل عنصر مرسوم في سياق الرسومات. يمكن أن يكون هذا مفيدًا للغاية عندما تريد إنشاء تأثيرات بصرية معقدة أو معالجة الصور على نطاق أوسع.
@@ -101,3 +107,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Globa
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Drawing؟
 
  ج5: الحصول على ترخيص مؤقت لـ Aspose.Drawing[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

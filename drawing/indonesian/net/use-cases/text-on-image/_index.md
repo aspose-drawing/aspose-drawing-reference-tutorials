@@ -3,10 +3,16 @@ title: Menambahkan Teks pada Gambar di Aspose.Drawing
 linktitle: Menambahkan Teks pada Gambar di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi integrasi teks ke dalam gambar dengan Aspose.Drawing for .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi gambar yang mudah. Unduh sekarang!
-type: docs
 weight: 12
 url: /id/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Teks pada Gambar di Aspose.Drawing
+
 ## Perkenalan
 Dalam dunia pengembangan .NET yang dinamis, Aspose.Drawing menonjol sebagai alat yang ampuh untuk memanipulasi gambar dengan mudah. Menambahkan teks ke gambar adalah persyaratan umum, baik untuk memberi tanda air, anotasi, atau membuat grafik yang dipersonalisasi. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Drawing untuk mengintegrasikan teks ke dalam gambar Anda dengan mulus menggunakan C#.
 ## Prasyarat
@@ -78,3 +84,9 @@ Ya, Aspose.Drawing cocok untuk proyek pribadi dan komersial. Untuk rincian periz
  Terlibat dengan komunitas dan dapatkan dukungan di[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17).
 ### Bagaimana cara memulai Aspose.Drawing?
  Mulailah dengan mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/drawing/net/) dan jelajahi secara komprehensif[dokumentasi](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

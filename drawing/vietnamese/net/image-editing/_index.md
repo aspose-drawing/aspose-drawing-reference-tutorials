@@ -3,10 +3,16 @@ title: Chỉnh sửa hình ảnh
 linktitle: Chỉnh sửa hình ảnh
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Nâng cao kỹ năng chỉnh sửa hình ảnh của bạn với hướng dẫn Aspose.draw! Tìm hiểu các kỹ thuật cắt xén, truy cập dữ liệu trực tiếp, hiển thị và chia tỷ lệ để có kết quả tuyệt vời.
-type: docs
 weight: 21
 url: /vi/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa hình ảnh
+
 
 ## Giới thiệu
 
@@ -54,3 +60,9 @@ Tìm hiểu cách hiển thị hình ảnh trong ứng dụng .NET với Aspose.
 Làm chủ việc tải và lưu hình ảnh trong .NET với Aspose.draw. Khám phá các định dạng BMP, GIF, JPG, PNG, TIFF một cách dễ dàng.
 ### [Chia tỷ lệ hình ảnh trong Aspose.draw](./scale/)
 Tìm hiểu cách chia tỷ lệ hình ảnh một cách dễ dàng trong .NET bằng Aspose.draw. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch, cung cấp khả năng xử lý hình ảnh mạnh mẽ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

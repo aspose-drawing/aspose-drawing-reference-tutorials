@@ -3,10 +3,16 @@ title: Engedélyezés
 linktitle: Engedélyezés
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Fedezze fel az Aspose.Drawing teljes potenciálját a .NET-ben a zökkenőmentes licencelési útmutatókkal. Könnyedén integrálhatja, emelheti a grafikát, és könnyedén kezelheti a képeket.
-type: docs
 weight: 22
 url: /hu/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Engedélyezés
+
 
 ## Bevezetés
 
@@ -34,3 +40,9 @@ Oldja fel, integrálja és újítson meg az Aspose.Drawing segítségével – a
 ## Engedélyezési oktatóanyagok
 ### [Licenc az Aspose.Drawingben](./licensing/)
 Használja ki az Aspose.Drawing teljes potenciálját a .NET-ben. Mesterlicenc a zökkenőmentes integrációért. Töltse le most, és javítsa grafikai és képkezelési képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Drawing での画像のスケーリング
 linktitle: Aspose.Drawing での画像のスケーリング
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing を使用して .NET で画像を簡単に拡大縮小する方法を学びます。当社のステップバイステップガイドはシームレスな統合を保証し、強力な画像操作機能を提供します。
-type: docs
 weight: 14
 url: /ja/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing での画像のスケーリング
+
 ## 導入
 
 Aspose.Drawing for .NET を使用した画像のスケーリングに関するこの包括的なガイドへようこそ。ソフトウェア開発の動的な世界では、画像の操作とスケーリングは一般的な要件です。 Aspose.Drawing はこのプロセスを簡素化し、.NET アプリケーションで画像を操作するための強力なツールと機能を提供します。
@@ -107,3 +113,9 @@ A1: はい、Aspose.Drawing は多用途であり、Web やデスクトップな
 ### Q5: 画像のスケーリングにカスタム補間モードを適用できますか?
 
 A5: はい、Aspose.Drawing には柔軟性があり、画像のスケーリングにさまざまな補間モードを選択できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

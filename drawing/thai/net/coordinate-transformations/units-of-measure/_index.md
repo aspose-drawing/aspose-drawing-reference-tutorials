@@ -3,10 +3,16 @@ title: หน่วยวัดใน Aspose. Drawing สำหรับ .NET
 linktitle: หน่วยวัดใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: สำรวจความเก่งกาจของ Aspose. Drawing สำหรับ .NET ในบทช่วยสอนเชิงลึกนี้ ซึ่งเป็นการเรียนรู้หน่วยวัดสำหรับกราฟิกที่มีความแม่นยำ
-type: docs
 weight: 14
 url: /th/net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หน่วยวัดใน Aspose. Drawing สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose. Drawing สำหรับ .NET ที่ซึ่งความแม่นยำและความยืดหยุ่นมาบรรจบกันในการจัดการกราฟิก ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของหน่วยวัดภายใน Aspose. Drawing โดยให้คำแนะนำทีละขั้นตอนเพื่อควบคุมพลังของไลบรารีที่น่าทึ่งนี้
@@ -120,3 +126,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Units
 ### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose. Drawing ได้ที่ไหน
 
  A5: มีเอกสารประกอบที่ครอบคลุม[ที่นี่](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

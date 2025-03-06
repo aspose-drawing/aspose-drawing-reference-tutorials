@@ -3,10 +3,16 @@ title: Units of Measure in Aspose.Drawing for .NET
 linktitle: Units of Measure in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the versatility of Aspose.Drawing for .NET in this in-depth tutorial, mastering units of measure for precision graphics.
-type: docs
 weight: 14
 url: /net/coordinate-transformations/units-of-measure/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Units of Measure in Aspose.Drawing for .NET
+
 ## Introduction
 
 Welcome to the world of Aspose.Drawing for .NET, where precision and flexibility meet in graphic manipulation. In this tutorial, we'll delve into the intricacies of units of measure within Aspose.Drawing, providing you with a step-by-step guide to harness the power of this remarkable library.
@@ -120,3 +126,10 @@ A4: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/t
 ### Q5: Where can I find detailed documentation for Aspose.Drawing?
 
 A5: The comprehensive documentation is available [here](https://reference.aspose.com/drawing/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

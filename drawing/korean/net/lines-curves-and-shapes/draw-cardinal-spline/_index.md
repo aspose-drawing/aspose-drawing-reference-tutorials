@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 기본 스플라인 그리기
 linktitle: Aspose. Drawing에서 기본 스플라인 그리기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET 애플리케이션에서 기본 스플라인을 그리는 기술을 살펴보세요. 손쉽게 부드러운 곡선을 만들어보세요.
-type: docs
 weight: 13
 url: /ko/net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 기본 스플라인 그리기
+
 ## 소개
 
 Aspose. Drawing for .NET은 개발자가 정교한 그래픽 애플리케이션을 원활하게 만들 수 있도록 지원합니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 기본 스플라인을 그리는 매혹적인 세계를 탐구합니다. 기본 스플라인은 부드러운 곡선 보간을 제공하며 Aspose. Drawing의 강력한 기능을 사용하면 이러한 곡선을 .NET 애플리케이션에 쉽게 통합할 수 있습니다.
@@ -89,3 +95,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_o
 ### Q5: 설명서에 어떻게 액세스합니까?
 
  A5: 포괄적인 내용을 참조하세요.[선적 서류 비치](https://reference.aspose.com/drawing/net/) 자세한 정보와 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

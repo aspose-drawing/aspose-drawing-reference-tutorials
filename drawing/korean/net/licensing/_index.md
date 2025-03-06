@@ -3,10 +3,16 @@ title: 라이선스
 linktitle: 라이선스
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: 원활한 라이선스 튜토리얼을 통해 .NET에서 Aspose. Drawing의 잠재력을 최대한 활용하세요. 쉽게 통합하고, 그래픽을 향상하고, 이미지를 쉽게 조작할 수 있습니다.
-type: docs
 weight: 22
 url: /ko/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 라이선스
+
 
 ## 소개
 
@@ -34,3 +40,9 @@ Aspose. Drawing을 프로젝트에 원활하게 통합하고 그래픽 및 이�
 ## 라이선스 튜토리얼
 ### [Aspose.드로잉의 라이선스](./licensing/)
 .NET에서 Aspose. Drawing의 잠재력을 최대한 활용하세요. 원활한 통합을 위한 마스터 라이선스. 지금 다운로드하여 그래픽과 이미지 조작 능력을 향상시켜 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

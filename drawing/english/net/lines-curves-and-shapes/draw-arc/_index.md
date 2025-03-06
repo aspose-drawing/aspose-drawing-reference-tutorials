@@ -3,10 +3,16 @@ title: Drawing Arcs in Aspose.Drawing
 linktitle: Drawing Arcs in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to draw captivating arcs in .NET applications using Aspose.Drawing. Follow our step-by-step guide for stunning visual results.
-type: docs
 weight: 11
 url: /net/lines-curves-and-shapes/draw-arc/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Arcs in Aspose.Drawing
+
 ## Introduction
 
 Creating visually appealing graphics is an essential aspect of many applications, and Aspose.Drawing for .NET makes this task a breeze. In this tutorial, we will delve into the process of drawing arcs using Aspose.Drawing. Whether you're a seasoned developer or a newcomer, this guide will equip you with the knowledge to incorporate striking arcs into your .NET applications.
@@ -85,3 +91,10 @@ A4: Yes, Aspose.Drawing seamlessly integrates with other .NET libraries, providi
 ### Q5: Where can I find additional support or community discussions?
 
 A5: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

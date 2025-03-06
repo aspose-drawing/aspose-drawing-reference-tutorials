@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 선 그리기
 linktitle: Aspose.드로잉에서 선 그리기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose. Drawing을 사용하여 .NET 애플리케이션에서 선을 그리는 방법을 알아보세요. 이 단계별 튜토리얼은 멋진 그래픽을 만드는 과정을 안내합니다.
-type: docs
 weight: 16
 url: /ko/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 선 그리기
+
 ## 소개
 
 .NET용 Aspose.드로잉을 사용하여 선을 그리는 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose. Drawing은 .NET 애플리케이션에서 이미지를 조작하고 생성할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 시각적으로 매력적인 그래픽을 만드는 데 필수적인 기술인 선 그리기의 기본 사항에 중점을 둘 것입니다.
@@ -99,3 +105,9 @@ A4: 오류를 처리하려면 try-catch 블록을 구현하고 Aspose. Drawing �
 ### Q5: Aspose. Drawing을 상업용 프로젝트에 사용할 수 있나요?
 
  A5: 예, 상업용 프로젝트에 Aspose. Drawing을 사용할 수 있습니다. 방문하다[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

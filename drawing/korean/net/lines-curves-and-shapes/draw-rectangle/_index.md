@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 직사각형 그리기
 linktitle: Aspose. Drawing에서 직사각형 그리기
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET에서 직사각형을 그리는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 19
 url: /ko/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 직사각형 그리기
+
 ## 소개
 
 .NET용 Aspose.드로잉을 사용하여 직사각형을 그리는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 당신이 숙련된 개발자이든 Aspose. Drawing을 처음 접하는 사람이든 이 가이드는 .NET 애플리케이션에서 직사각형을 만들고 조작하는 과정을 안내합니다.
@@ -98,3 +104,9 @@ A4: 물론이죠! Aspose. Drawing은 복잡한 그래픽 작업을 처리하기 
 ### Q5: Aspose.드로잉은 어디서 구매할 수 있나요?
 
  A5: 방문[여기](https://purchase.aspose.com/buy) 라이센스를 구입합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

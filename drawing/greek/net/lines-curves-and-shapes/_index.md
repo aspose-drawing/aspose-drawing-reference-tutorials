@@ -3,10 +3,16 @@ title: Γραμμές, καμπύλες και σχήματα
 linktitle: Γραμμές, καμπύλες και σχήματα
 second_title: Aspose.Drawing .NET API - Εναλλακτική λύση στο System.Drawing.Common
 description: Unleash Aspose.Drawing's .NET magic! Εξερευνήστε Οδηγούς Γραμμές, Καμπύλες και Σχήματα για ζωντανά γραφικά—κατακτήστε τα συμπαγή πινέλα, τα τόξα, τις σφήνες, τις ελλείψεις και πιο δημιουργικά.
-type: docs
 weight: 23
 url: /el/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Γραμμές, καμπύλες και σχήματα
+
 
 ## Εισαγωγή
 
@@ -69,3 +75,9 @@ url: /el/net/lines-curves-and-shapes/
 Μάθετε πώς να σχεδιάζετε ορθογώνια στο .NET χρησιμοποιώντας το Aspose.Drawing. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
 ### [Συμπλήρωση περιοχών στο Aspose.Drawing](./fill-region/)
 Μάθετε πώς να γεμίζετε περιοχές στο Aspose.Drawing για .NET με αυτόν τον αναλυτικό οδηγό. Βελτιώστε τις δεξιότητές σας στο γραφικό σχεδιασμό χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

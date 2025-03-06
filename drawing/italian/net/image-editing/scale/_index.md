@@ -3,10 +3,16 @@ title: Ridimensionamento delle immagini in Aspose.Drawing
 linktitle: Ridimensionamento delle immagini in Aspose.Drawing
 second_title: API Aspose.Drawing .NET alternativa a System.Drawing.Common
 description: Scopri come ridimensionare le immagini senza sforzo in .NET utilizzando Aspose.Drawing. La nostra guida passo passo garantisce un'integrazione perfetta, fornendo potenti funzionalità di manipolazione delle immagini.
-type: docs
 weight: 14
 url: /it/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ridimensionamento delle immagini in Aspose.Drawing
+
 ## introduzione
 
 Benvenuti in questa guida completa sul ridimensionamento delle immagini utilizzando Aspose.Drawing per .NET! Nel dinamico mondo dello sviluppo software, la manipolazione e il ridimensionamento delle immagini è un requisito comune. Aspose.Drawing semplifica questo processo, offrendo potenti strumenti e funzionalità per lavorare con le immagini nelle tue applicazioni .NET.
@@ -107,3 +113,9 @@ A1: Sì, Aspose.Drawing è versatile e può essere utilizzato in varie applicazi
 ### Q5: Posso applicare modalità di interpolazione personalizzate per il ridimensionamento delle immagini?
 
 A5: Sì, Aspose.Drawing offre flessibilità, consentendo di scegliere tra varie modalità di interpolazione per il ridimensionamento dell'immagine.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

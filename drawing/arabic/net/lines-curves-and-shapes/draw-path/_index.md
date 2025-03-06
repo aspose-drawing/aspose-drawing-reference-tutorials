@@ -3,10 +3,16 @@ title: رسم المسارات في Aspose.Drawing
 linktitle: رسم المسارات في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعلم كيفية رسم المسارات في Aspose.Drawing لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة. قم بإنشاء رسومات مذهلة دون عناء.
-type: docs
 weight: 17
 url: /ar/net/lines-curves-and-shapes/draw-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم المسارات في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول رسم المسارات في Aspose.Drawing لـ .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى برمجة الرسومات، فسيرشدك هذا البرنامج التعليمي خلال عملية إنشاء مسارات معقدة باستخدام Aspose.Drawing. Aspose.Drawing هي مكتبة قوية تعمل على تبسيط عمليات الرسومات في تطبيقات .NET، وتقدم مجموعة واسعة من الوظائف لإنشاء الصور وتحريرها ومعالجتها.
@@ -100,3 +106,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPath_out.png");
 ### س5: هل يمكنني شراء Aspose.Drawing؟
 
  ج5: نعم، يمكنك شراء Aspose.Drawing[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

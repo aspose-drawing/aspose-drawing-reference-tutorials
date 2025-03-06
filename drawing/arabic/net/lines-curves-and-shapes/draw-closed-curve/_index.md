@@ -3,10 +3,16 @@ title: رسم منحنيات مغلقة في Aspose.Drawing
 linktitle: رسم منحنيات مغلقة في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف فن رسم المنحنيات المغلقة في تطبيقات .NET باستخدام Aspose.Drawing. ارفع مستوى صورك دون عناء.
-type: docs
 weight: 14
 url: /ar/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم منحنيات مغلقة في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول رسم المنحنيات المغلقة في Aspose.Drawing لـ .NET! إذا كنت تتطلع إلى تحسين تطبيقات .NET الخاصة بك بمنحنيات مغلقة دقيقة ونابضة بالحياة، فقد وصلت إلى المكان الصحيح. في هذا البرنامج التعليمي، سنستكشف العملية خطوة بخطوة، مما يضمن حصولك على فهم قوي لمكتبة Aspose.Drawing وإمكانياتها.
@@ -84,3 +90,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 ### س5: ما هي خيارات الدعم المتوفرة؟
 
  ج5: إذا كنت بحاجة إلى مساعدة أو لديك أسئلة، فتوجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

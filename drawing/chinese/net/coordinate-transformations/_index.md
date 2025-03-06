@@ -3,10 +3,16 @@ title: 坐标变换
 linktitle: 坐标变换
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 通过我们的 Aspose.Drawing 教程增强您的图形技能。探索全局、局部、矩阵、页面和世界变换，掌握 .NET 中的精确图形。
-type: docs
 weight: 20
 url: /zh/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 坐标变换
+
 
 ## 介绍
 
@@ -56,3 +62,9 @@ url: /zh/net/coordinate-transformations/
 在这个深入的教程中探索 Aspose.Drawing for .NET 的多功能性，掌握精确图形的测量单位。
 ### [Aspose.Drawing 中的世界变换](./world-transformation/)
 探索 Aspose.Drawing for .NET 中的世界变换。通过易于遵循的步骤来提升您的图形效果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

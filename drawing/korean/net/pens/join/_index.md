@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 펜을 사용하여 경로 결합
 linktitle: Aspose. Drawing에서 펜을 사용하여 경로 결합
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose. Drawing에서 펜을 사용하여 경로를 연결하는 기술을 살펴보세요. LineJoin 옵션으로 멋진 그래픽을 만들어보세요.
-type: docs
 weight: 11
 url: /ko/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 펜을 사용하여 경로 결합
+
 ## 소개
 
 .NET용 Aspose. Drawing의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 .NET 애플리케이션에서 그래픽 및 이미지 작업을 위한 광범위한 기능을 제공하는 강력한 라이브러리인 Aspose. Drawing을 사용하여 펜으로 경로를 연결하는 기술을 자세히 살펴보겠습니다.
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ### Q5: Aspose.드로잉은 어디서 구매할 수 있나요?
 
  A5: Aspose.드로잉 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

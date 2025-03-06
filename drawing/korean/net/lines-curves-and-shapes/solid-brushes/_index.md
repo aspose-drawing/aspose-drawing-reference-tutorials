@@ -3,10 +3,16 @@ title: Aspose.드로잉의 솔리드 브러시
 linktitle: Aspose.드로잉의 솔리드 브러시
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose.드로잉의 마법을 발견해보세요. 생생한 그래픽을 위한 이 단계별 가이드에서 솔리드 브러시를 마스터하세요.
-type: docs
 weight: 10
 url: /ko/net/lines-curves-and-shapes/solid-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉의 솔리드 브러시
+
 ## 소개
 
 .NET용 Aspose. Drawing에서 솔리드 브러시 사용에 대한 포괄적인 가이드에 오신 것을 환영합니다! 생생하고 사용자 정의된 그래픽으로 .NET 애플리케이션을 향상시키려는 경우 이 튜토리얼은 귀하에게 꼭 맞는 것입니다. 이 단계별 연습에서는 견고한 브러시의 세계를 탐구하고 Aspose. Drawing을 사용하여 생생한 색상을 그래픽에 원활하게 통합하는 방법을 알려드립니다.
@@ -96,3 +102,9 @@ A4: 다음을 참조하세요.[.NET 문서용 Aspose.드로잉](https://referenc
 ### Q5: Aspose. Drawing의 맥락에서 버스트란 무엇입니까?
 
 A5: 버스티니스(Burstiness)는 그래픽 렌더링 요구 사항의 갑작스러운 증가를 효과적으로 처리하는 Aspose. Drawing의 능력을 나타냅니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Képszerkesztés
 linktitle: Képszerkesztés
 second_title: Aspose.Drawing .NET API – a System.Drawing.Common alternatívája
 description: Növelje képszerkesztési készségeit az Aspose.Drawing oktatóanyagok segítségével! Ismerje meg a vágási, közvetlen adathozzáférési, megjelenítési és méretezési technikákat a lenyűgöző eredmények érdekében.
-type: docs
 weight: 21
 url: /hu/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képszerkesztés
+
 
 ## Bevezetés
 
@@ -54,3 +60,9 @@ Ismerje meg, hogyan jeleníthet meg képeket .NET-alkalmazásokban az Aspose.Dra
 Mester képbetöltés és mentés .NET-ben az Aspose.Drawing segítségével. Fedezze fel a BMP, GIF, JPG, PNG, TIFF formátumokat könnyedén.
 ### [Képek méretezése az Aspose.Drawing programban](./scale/)
 Ismerje meg, hogyan méretezheti könnyedén a képeket .NET-ben az Aspose.Drawing segítségével. Lépésről lépésre haladó útmutatónk biztosítja a zökkenőmentes integrációt, és hatékony képkezelési lehetőségeket biztosít.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

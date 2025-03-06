@@ -3,10 +3,16 @@ title: Aspose.Drawing में कॉलआउट बनाना
 linktitle: Aspose.Drawing में कॉलआउट बनाना
 second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
 description: .NET के लिए Aspose.Drawing का उपयोग करके अपने दस्तावेज़ चित्रण को बेहतर बनाएं! स्पष्ट और जानकारीपूर्ण दृश्यों के लिए कॉलआउट जोड़ने का चरण-दर-चरण जानें।
-type: docs
 weight: 10
 url: /hi/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing में कॉलआउट बनाना
+
 ## परिचय
 .NET के लिए Aspose.Drawing में कॉलआउट बनाने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है! यदि आप कॉलआउट के साथ अपने दस्तावेज़ चित्रण को बढ़ाना चाह रहे हैं, तो आप सही जगह पर हैं। इस ट्यूटोरियल में, हम Aspose.Drawing लाइब्रेरी का उपयोग करके प्रक्रिया को प्रबंधनीय चरणों में विभाजित करेंगे।
 ## आवश्यक शर्तें
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### क्या मैं खरीदने से पहले Aspose.Drawing आज़मा सकता हूँ?
 
  निश्चित रूप से! निःशुल्क परीक्षण के साथ आरंभ करें[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

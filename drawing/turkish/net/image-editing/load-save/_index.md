@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Görüntüleri Yükleme ve Kaydetme
 linktitle: Aspose.Drawing'de Görüntüleri Yükleme ve Kaydetme
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing ile .NET'te görüntü yükleme ve kaydetme konusunda uzmanlaşın. BMP, GIF, JPG, PNG, TIFF formatlarını zahmetsizce keşfedin.
-type: docs
 weight: 13
 url: /tr/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Görüntüleri Yükleme ve Kaydetme
+
 ## giriiş
 
 Aspose.Drawing for .NET kullanarak görüntü yükleme ve kaydetme konusunda uzmanlaşmaya yönelik adım adım kılavuzumuza hoş geldiniz! Çeşitli görüntü formatlarını zahmetsizce kullanma becerilerinizi geliştirmek istiyorsanız doğru yerdesiniz. Aspose.Drawing for .NET, görüntülerle çalışma sürecini kolaylaştıran güçlü bir kitaplıktır ve bu eğitimde görüntüleri farklı formatlarda yükleme ve kaydetme konularını ele alacağız.
@@ -102,3 +108,9 @@ Cevap2: Resmi belgelere göz atın[Burada](https://reference.aspose.com/drawing/
 ### S5: Aspose.Drawing kütüphanesini nereden satın alabilirim?
 
  A5: Satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

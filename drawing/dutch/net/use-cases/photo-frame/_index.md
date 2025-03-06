@@ -3,10 +3,16 @@ title: Kadreer uw foto's creatief met Aspose.Drawing voor .NET
 linktitle: Fotolijsten maken in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Verbeter uw afbeeldingen met Aspose.Drawing voor .NET! Volg onze stapsgewijze handleiding om prachtige fotolijsten te maken. Ontdek nu Aspose.Drawing voor .NET!
-type: docs
 weight: 11
 url: /nl/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kadreer uw foto's creatief met Aspose.Drawing voor .NET
+
 ## Invoering
 Wilt u een vleugje elegantie toevoegen aan uw afbeeldingen? Met Aspose.Drawing voor .NET kunt u eenvoudig boeiende fotolijsten maken om de visuele aantrekkingskracht van uw foto's te vergroten. Deze stapsgewijze handleiding leidt u door het proces van het maken van verbluffende fotolijsten met behulp van de krachtige functies van Aspose.Drawing.
 ## Vereisten
@@ -98,3 +104,9 @@ Absoluut! Je hebt volledige controle over de kleur en dikte van het frame, waard
  Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/diagram/17) om hulp te krijgen en verbinding te maken met de gemeenschap.
 ### Kan ik Aspose.Drawing gebruiken voor commerciële projecten?
  Ja, u kunt een licentie kopen[hier](https://purchase.aspose.com/buy) voor commercieel gebruik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

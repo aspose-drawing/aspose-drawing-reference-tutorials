@@ -3,10 +3,16 @@ title: Paden verbinden met pennen in Aspose.Drawing
 linktitle: Paden verbinden met pennen in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Ontdek de kunst van het verbinden van paden met pennen in Aspose.Drawing voor .NET. Maak verbluffende afbeeldingen met LineJoin-opties.
-type: docs
 weight: 11
 url: /nl/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Paden verbinden met pennen in Aspose.Drawing
+
 ## Invoering
 
 Welkom in de wereld van Aspose.Drawing voor .NET! In deze zelfstudie verdiepen we ons in de kunst van het verbinden van paden met pennen met behulp van Aspose.Drawing, een krachtige bibliotheek die uitgebreide functionaliteit biedt voor het werken met afbeeldingen en afbeeldingen in .NET-toepassingen.
@@ -107,3 +113,9 @@ In deze zelfstudie hebben we het proces van het samenvoegen van paden met pennen
 ### Vraag 5: Waar kan ik Aspose.Drawing kopen?
 
  A5: Koop Aspose.Tekening[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

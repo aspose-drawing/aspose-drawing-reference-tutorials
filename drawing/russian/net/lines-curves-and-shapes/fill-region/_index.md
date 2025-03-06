@@ -3,10 +3,16 @@ title: Заполнение областей в Aspose.Drawing
 linktitle: Заполнение областей в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Узнайте, как заполнять области в Aspose.Drawing для .NET, с помощью этого пошагового руководства. Совершенствуйте свои навыки графического дизайна без особых усилий.
-type: docs
 weight: 20
 url: /ru/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Заполнение областей в Aspose.Drawing
+
 ## Введение
 
 Создание визуально привлекательной графики часто включает в себя заполнение областей цветами, узорами или градиентами. Aspose.Drawing for .NET предоставляет мощные инструменты для эффективного достижения этой цели. В этом уроке мы углубимся в процесс заполнения областей с помощью Aspose.Drawing, универсальной библиотеки, которая упрощает графические операции в .NET-приложениях.
@@ -102,3 +108,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png")
 ### Вопрос 5: Доступны ли временные лицензии?
 
  О5: Да, временные лицензии можно получить.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

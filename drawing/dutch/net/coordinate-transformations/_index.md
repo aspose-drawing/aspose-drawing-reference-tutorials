@@ -3,10 +3,16 @@ title: Coördineren van transformaties
 linktitle: Coördineren van transformaties
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Verbeter uw grafische vaardigheden met onze Aspose.Drawing-tutorials. Ontdek globale, lokale, matrix-, pagina- en wereldtransformaties en beheers precisiegrafieken in .NET.
-type: docs
 weight: 20
 url: /nl/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coördineren van transformaties
+
 
 ## Invoering
 
@@ -56,3 +62,9 @@ Leer stapsgewijze paginatransformaties in .NET met behulp van Aspose.Drawing. Ve
 Ontdek de veelzijdigheid van Aspose.Drawing voor .NET in deze uitgebreide tutorial, waarin je de maateenheden voor nauwkeurige graphics onder de knie krijgt.
 ### [Wereldtransformatie in Aspose.Drawing](./world-transformation/)
 Ontdek wereldtransformaties in Aspose.Drawing voor .NET. Verbeter uw graphics met eenvoudig te volgen stappen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

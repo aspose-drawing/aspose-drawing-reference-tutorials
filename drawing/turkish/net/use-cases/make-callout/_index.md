@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Açıklamalar Yapma
 linktitle: Aspose.Drawing'de Açıklamalar Yapma
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing for .NET'i kullanarak belge çizimlerinizi geliştirin! Daha net ve bilgilendirici görseller için belirtme çizgilerinin nasıl ekleneceğini adım adım öğrenin.
-type: docs
 weight: 10
 url: /tr/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Açıklamalar Yapma
+
 ## giriiş
 Aspose.Drawing for .NET'te belirtme çizgileri oluşturmaya ilişkin adım adım kılavuzumuza hoş geldiniz! Belge çizimlerinizi belirtme çizgileriyle geliştirmek istiyorsanız doğru yerdesiniz. Bu eğitimde Aspose.Drawing kütüphanesini kullanarak süreci yönetilebilir adımlara ayıracağız.
 ## Önkoşullar
@@ -110,3 +116,9 @@ Kesinlikle! Aspose.Drawing PNG, JPEG, GIF ve daha fazlası gibi popüler görün
 ### Satın almadan önce Aspose.Drawing'i deneyebilir miyim?
 
  Kesinlikle! Ücretsiz denemeyle başlayın[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

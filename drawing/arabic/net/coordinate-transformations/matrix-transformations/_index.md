@@ -3,10 +3,16 @@ title: تحويلات المصفوفة في Aspose.Drawing لـ .NET
 linktitle: تحويلات المصفوفة في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تحويلات المصفوفة الرئيسية في Aspose.Drawing لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/coordinate-transformations/matrix-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويلات المصفوفة في Aspose.Drawing لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تحويلات المصفوفة في Aspose.Drawing لـ .NET! إذا كنت حريصًا على تعزيز مهاراتك في التعامل مع الرسوميات والتعمق في عالم تحويلات المصفوفات، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنستكشف الإمكانات الرائعة لـ Aspose.Drawing ونرشدك عبر أمثلة عملية لإتقان تحويلات المصفوفات.
@@ -110,3 +116,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 ### س5: كيف يمكنني شراء Aspose.Drawing؟
 
  ج5: قم بشراء الترخيص الخاص بك[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

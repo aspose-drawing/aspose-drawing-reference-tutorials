@@ -3,10 +3,16 @@ title: Thêm văn bản trên hình ảnh trong Aspose.draw
 linktitle: Thêm văn bản trên hình ảnh trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá khả năng tích hợp liền mạch văn bản vào hình ảnh với Aspose.draw cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh dễ dàng. Tải ngay!
-type: docs
 weight: 12
 url: /vi/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản trên hình ảnh trong Aspose.draw
+
 ## Giới thiệu
 Trong thế giới năng động của sự phát triển .NET, Aspose. Draw nổi bật như một công cụ mạnh mẽ để thao tác hình ảnh một cách dễ dàng. Thêm văn bản vào hình ảnh là một yêu cầu phổ biến, cho dù đó là để tạo hình mờ, chú thích hay tạo đồ họa được cá nhân hóa. Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.draw để tích hợp liền mạch văn bản vào hình ảnh của bạn bằng C#.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Có, Aspose.draw phù hợp cho cả dự án cá nhân và thương mại. Đ�
  Tương tác với cộng đồng và nhận được sự hỗ trợ về[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
 ### Làm cách nào để bắt đầu với Aspose.draw?
  Bắt đầu bằng cách tải xuống thư viện từ[đây](https://releases.aspose.com/drawing/net/) và khám phá toàn diện[tài liệu](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

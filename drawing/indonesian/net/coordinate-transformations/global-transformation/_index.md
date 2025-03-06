@@ -3,10 +3,16 @@ title: Transformasi Global di Aspose.Drawing untuk .NET
 linktitle: Transformasi Global dalam Aspose.Menggambar
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Jelajahi transformasi global di Aspose.Drawing untuk .NET, buat grafik menakjubkan dengan mudah. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar.
-type: docs
 weight: 10
 url: /id/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformasi Global di Aspose.Drawing untuk .NET
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.Drawing untuk .NET! Dalam tutorial ini, kita akan mengeksplorasi konsep transformasi global menggunakan Aspose.Drawing, perpustakaan canggih untuk manipulasi grafis dalam aplikasi .NET. Transformasi global memungkinkan Anda menerapkan transformasi ke setiap item yang digambar dalam konteks grafis. Ini bisa sangat berguna ketika Anda ingin membuat efek visual yang kompleks atau memanipulasi gambar dalam skala yang lebih luas.
@@ -101,3 +107,9 @@ A4: Ya, Anda dapat menjelajahi uji coba gratis Aspose.Drawing[Di Sini](https://r
 ### Q5: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Drawing?
 
  A5: Dapatkan lisensi sementara untuk Aspose.Drawing[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

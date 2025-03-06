@@ -3,10 +3,16 @@ title: 使用 Aspose.Drawing for .NET 创造性地构图您的照片
 linktitle: 在 Aspose.Drawing 中创建相框
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing for .NET 增强您的图像！按照我们的分步指南来创建令人惊叹的相框。立即探索 Aspose.Drawing for .NET！
-type: docs
 weight: 11
 url: /zh/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Drawing for .NET 创造性地构图您的照片
+
 ## 介绍
 您想为您的图像增添一丝优雅吗？使用 Aspose.Drawing for .NET，您可以轻松创建迷人的相框，以增强图片的视觉吸引力。本分步指南将引导您完成使用 Aspose.Drawing 的强大功能创建令人惊叹的相框的过程。
 ## 先决条件
@@ -98,3 +104,9 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 访问 Aspose.Drawing 论坛[这里](https://forum.aspose.com/c/diagram/17)获得帮助并与社区建立联系。
 ### 我可以将 Aspose.Drawing 用于商业项目吗？
 是的，您可以购买许可证[这里](https://purchase.aspose.com/buy)用于商业用途。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

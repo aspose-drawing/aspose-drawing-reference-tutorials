@@ -1,12 +1,17 @@
 ---
 title: Aspose.Drawing for .NET 的綜合教學與範例
 linktitle: Aspose.Drawing for .NET 教學課程
-type: docs
 weight: 10
 url: /zh-hant/net/
 description: 使用 Aspose.Drawing for .NET 來提升您的圖形技能！從精確的座標轉換到動態文字和字體，我們的教程釋放了圖形的全部潛力。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 的綜合教學與範例
+
 
 ## 介紹
 
@@ -55,3 +60,9 @@ Aspose.Drawing for .NET 是一個強大的工具，可以提升您的圖形遊�
 解鎖 Aspose.Drawing for .NET！掌握動態文字、字體和圖像創作。完美的文字格式、提示和字體操作，帶來水晶般清晰的視覺效果。
 ### [用例](./use-cases/)
 使用 Aspose.Drawing for .NET 提升您的插畫！透過我們的教程添加標註、創建令人驚嘆的框架並將文字無縫整合到圖像中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

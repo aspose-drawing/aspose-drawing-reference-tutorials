@@ -3,10 +3,16 @@ title: Oříznutí obrázků v Aspose.Drawing
 linktitle: Oříznutí obrázků v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Ovládejte ořezávání obrázků pomocí Aspose.Drawing pro .NET. Tento průvodce krok za krokem umožňuje vývojářům bez námahy vylepšit dovednosti zpracování obrazu.
-type: docs
 weight: 10
 url: /cs/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí obrázků v Aspose.Drawing
+
 ## Úvod
 
 Ve světě vývoje .NET vyniká Aspose.Drawing jako výkonný nástroj pro manipulaci s obrázky. Jednou z jeho šikovných funkcí je možnost přesné ořezávání obrázků. V tomto tutoriálu si projdeme procesem oříznutí obrázků pomocí Aspose.Drawing for .NET. Připravte se na vylepšení svých dovedností v oblasti zpracování obrazu!
@@ -106,3 +112,10 @@ A4: Aspose.Drawing skutečně vyniká v dávkovém zpracování a umožňuje efe
 ### Q5: Jak mohu získat podporu pro dotazy související s Aspose.Drawing?
 
  A5: Přejděte na[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) vyhledat pomoc a spojit se s komunitou.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

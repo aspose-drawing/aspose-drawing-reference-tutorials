@@ -3,10 +3,16 @@ title: استدعاء
 linktitle: استدعاء
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان لإتقان رسوميات .NET باستخدام Aspose.Drawing! ارفع مستوى المشروعات باستخدام مزج ألفا للحصول على تأثيرات شفافة. تعلم الحواف والقص للتصميمات المحسنة.
-type: docs
 weight: 25
 url: /ar/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استدعاء
+
 ## مقدمة
 
 مرحبًا بك في عالم إتقان الرسم مع Aspose.Drawing! في هذا الدليل الشامل، نتعمق في ثلاث تقنيات عرض رئيسية: Alpha Blending، Antialiasing، وClipping. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام رسومات .NET، فإن سلسلة البرامج التعليمية هذه تحتوي على شيء مثير للجميع.
@@ -45,3 +51,9 @@ url: /ar/net/rendering/
 قم بتحسين الرسومات في تطبيقات .NET باستخدام Aspose.Drawing. تنفيذ الحواف للحصول على حواف ناعمة. اتبع دليلنا خطوة بخطوة.
 ### [لقطة في Aspose.Drawing](./clipping/)
 اكتشف قوة Aspose.Drawing لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة حول تنفيذ القطع لتصميم رسومي محسّن.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

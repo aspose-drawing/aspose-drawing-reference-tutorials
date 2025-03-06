@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中裁切影像
 linktitle: 在 Aspose.Drawing 中裁切影像
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing for .NET 掌握影像裁切。本逐步指南使開發人員能夠輕鬆提高影像處理技能。
-type: docs
 weight: 10
 url: /zh-hant/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中裁切影像
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Drawing 作為影像處理的強大工具脫穎而出。其方便的功能之一是能夠精確裁切影像。在本教學中，我們將逐步介紹使用 Aspose.Drawing for .NET 裁切影像的過程。準備好提高您的影像處理技能！
@@ -106,3 +112,10 @@ A4：確實，Aspose.Drawing 在批次方面表現出色，能夠一次高效處
 ### Q5：如何獲得 Aspose.Drawing 相關查詢的支援？
 
  A5：前往[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17)尋求協助並與社區建立聯繫。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

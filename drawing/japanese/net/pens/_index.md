@@ -3,10 +3,16 @@ title: ペン
 linktitle: ペン
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing チュートリアルを使用して、.NET でのグラフィック プログラミングの力を解き放ちます。見事なビジュアルを生み出すための色の操作、パス結合、動的なペン幅設定を発見してください。
-type: docs
 weight: 24
 url: /ja/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ペン
+
 
 ## 導入
 
@@ -40,3 +46,9 @@ Aspose.Drawing を使用して、.NET のグラフィック プログラミン�
 Aspose.Drawing for .NET でペンを使用してパスを結合する技術を探索してください。 LineJoin オプションを使用して美しいグラフィックを作成します。
 ### [Aspose.Drawing でのペンの幅の設定](./width/)
 Aspose.Drawing for .NET でグラフィックスの世界を探索してください。素晴らしいビジュアルを実現するためにペンの幅を動的に設定する方法を学びましょう。ステップバイステップのガイドから始めましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

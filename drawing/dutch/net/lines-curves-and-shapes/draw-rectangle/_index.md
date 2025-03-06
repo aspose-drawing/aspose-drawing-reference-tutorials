@@ -3,10 +3,16 @@ title: Rechthoeken tekenen in Aspose.Drawing
 linktitle: Rechthoeken tekenen in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Leer hoe u rechthoeken tekent in .NET met Aspose.Drawing. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 19
 url: /nl/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rechthoeken tekenen in Aspose.Drawing
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het tekenen van rechthoeken met Aspose.Drawing voor .NET. Of u nu een doorgewinterde ontwikkelaar bent of een nieuwkomer bij Aspose.Drawing, deze handleiding leidt u door het proces van het maken en manipuleren van rechthoeken in uw .NET-toepassingen.
@@ -98,3 +104,9 @@ A4: Absoluut! Aspose.Drawing biedt geavanceerde functies voor het verwerken van 
 ### Vraag 5: Waar kan ik Aspose.Drawing kopen?
 
  A5: Bezoek[hier](https://purchase.aspose.com/buy) om een licentie te kopen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: กำลังแสดงผล
 linktitle: กำลังแสดงผล
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: ปลดล็อกความเชี่ยวชาญด้านกราฟิก .NET ด้วย Aspose. Drawing! ยกระดับโปรเจ็กต์ด้วยการผสมผสานอัลฟ่าเพื่อเอฟเฟกต์โปร่งแสง เรียนรู้การลดรอยหยักและการตัดภาพเพื่อการออกแบบที่ได้รับการปรับปรุง
-type: docs
 weight: 25
 url: /th/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำลังแสดงผล
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกแห่งความเชี่ยวชาญด้านกราฟิกด้วย Aspose. Drawing! ในคู่มือที่ครอบคลุมนี้ เราได้เจาะลึกเทคนิคการเรนเดอร์ที่สำคัญสามประการ: การผสมอัลฟ่า การลดรอยหยัก และการตัดภาพ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นด้วยกราฟิก .NET ซีรีส์บทช่วยสอนนี้มีบางสิ่งที่น่าตื่นเต้นสำหรับทุกคน
@@ -45,3 +51,9 @@ url: /th/net/rendering/
 ปรับปรุงกราฟิกในแอปพลิเคชัน .NET ด้วย Aspose. Drawing ใช้การลดรอยหยักเพื่อขอบที่เรียบ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา
 ### [การตัดใน Aspose. Drawing](./clipping/)
 สำรวจพลังของ Aspose. Drawing สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนเกี่ยวกับการใช้การคลิปเพื่อการออกแบบกราฟิกที่ได้รับการปรับปรุง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

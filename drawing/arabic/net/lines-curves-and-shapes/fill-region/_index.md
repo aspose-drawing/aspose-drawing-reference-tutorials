@@ -3,10 +3,16 @@ title: ملء المناطق في Aspose.Drawing
 linktitle: ملء المناطق في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية ملء المناطق في Aspose.Drawing لـ .NET باستخدام هذا البرنامج التعليمي خطوة بخطوة. عزز مهاراتك في التصميم الجرافيكي دون عناء.
-type: docs
 weight: 20
 url: /ar/net/lines-curves-and-shapes/fill-region/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ملء المناطق في Aspose.Drawing
+
 ## مقدمة
 
 غالبًا ما يتضمن إنشاء رسومات جذابة بصريًا ملء المناطق بالألوان أو الأنماط أو التدرجات اللونية. يوفر Aspose.Drawing for .NET أدوات قوية لتحقيق ذلك بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في عملية ملء المناطق باستخدام Aspose.Drawing، وهي مكتبة متعددة الاستخدامات تعمل على تبسيط العمليات الرسومية في تطبيقات .NET.
@@ -102,3 +108,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png")
 ### س5: هل التراخيص المؤقتة متاحة؟
 
  ج5: نعم، يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

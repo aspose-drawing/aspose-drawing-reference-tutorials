@@ -3,10 +3,16 @@ title: 線、曲線、形状
 linktitle: 線、曲線、形状
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing の .NET マジックを解き放ちましょう!線、曲線、および形状のチュートリアルを探索して鮮やかなグラフィックを作成し、ソリッド ブラシ、円弧、スプライン、楕円などを創造的にマスターします。
-type: docs
 weight: 23
 url: /ja/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線、曲線、形状
+
 
 ## 導入
 
@@ -69,3 +75,9 @@ Aspose.Drawing を使用して .NET アプリケーションに線を描画す�
 Aspose.Drawing を使用して .NET で四角形を描画する方法を学びます。コード例を含むステップバイステップのガイド。
 ### [Aspose.Drawing で領域を塗りつぶす](./fill-region/)
 このステップバイステップのチュートリアルで、Aspose.Drawing for .NET で領域を塗りつぶす方法を学びましょう。グラフィック デザインのスキルを簡単に向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

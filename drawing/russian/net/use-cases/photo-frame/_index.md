@@ -3,10 +3,16 @@ title: Креативно оформляйте свои фотографии с 
 linktitle: Создание фоторамок в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Улучшите свои изображения с помощью Aspose.Drawing для .NET! Следуйте нашему пошаговому руководству, чтобы создать потрясающие фоторамки. Изучите Aspose.Drawing для .NET прямо сейчас!
-type: docs
 weight: 11
 url: /ru/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Креативно оформляйте свои фотографии с помощью Aspose.Drawing для .NET
+
 ## Введение
 Хотите придать своим изображениям нотку элегантности? С помощью Aspose.Drawing for .NET вы можете легко создавать привлекательные рамки для фотографий, чтобы повысить визуальную привлекательность ваших фотографий. Это пошаговое руководство проведет вас через процесс создания потрясающих фоторамок с использованием мощных функций Aspose.Drawing.
 ## Предварительные условия
@@ -98,3 +104,9 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
  Посетите форум Aspose.Drawing[здесь](https://forum.aspose.com/c/diagram/17) чтобы получить помощь и связаться с сообществом.
 ### Могу ли я использовать Aspose.Drawing для коммерческих проектов?
  Да, вы можете приобрести лицензию[здесь](https://purchase.aspose.com/buy) для коммерческого использования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

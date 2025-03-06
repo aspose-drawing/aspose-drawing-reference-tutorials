@@ -3,10 +3,16 @@ title: التلميح في Aspose.Drawing
 linktitle: التلميح في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان لقوة العرض الدقيق للنص باستخدام Aspose.Drawing لـ .NET. تقنيات التلميح الرئيسية للخطوط الواضحة تمامًا.
-type: docs
 weight: 12
 url: /ar/net/text-and-fonts/hinting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلميح في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في عالم الدقة والوضوح في عرض النص باستخدام Aspose.Drawing لـ .NET! في هذا الدليل الشامل، سوف نتعمق في الميزة القوية المتمثلة في التلميحات، مما يعزز التحكم في عرض الخط للحصول على مخرجات جذابة بصريًا. سواء كنت مطورًا متمرسًا أو بدأت رحلتك للتو مع Aspose.Drawing، سيزودك هذا البرنامج التعليمي بالمهارات اللازمة لتسخير الإمكانات الكاملة للتلميحات.
@@ -103,3 +109,9 @@ A1: التلميح هو أسلوب يعمل على تحسين مظهر النص 
 ### س5: أين يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.Drawing؟
 
  ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17)للتفاعل مع المجتمع والحصول على الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

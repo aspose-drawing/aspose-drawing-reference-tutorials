@@ -3,10 +3,16 @@ title: Рендеринг
 linktitle: Рендеринг
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Разблокируйте графическое мастерство .NET с помощью Aspose.Drawing! Улучшайте проекты с помощью альфа-смешивания для создания полупрозрачных эффектов. Изучите сглаживание и обрезку для улучшения дизайна.
-type: docs
 weight: 25
 url: /ru/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг
+
 ## Введение
 
 Добро пожаловать в мир графического мастерства с Aspose.Drawing! В этом подробном руководстве мы углубимся в три ключевых метода рендеринга: альфа-смешение, сглаживание и отсечение. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете осваивать графику .NET, в этой серии руководств каждый найдет что-то интересное для себя.
@@ -45,3 +51,9 @@ url: /ru/net/rendering/
 Улучшите графику в приложениях .NET с помощью Aspose.Drawing. Внедрите сглаживание для плавных краев. Следуйте нашему пошаговому руководству.
 ### [Вырезка в Aspose.Drawing](./clipping/)
 Изучите возможности Aspose.Drawing для .NET с помощью этого пошагового руководства по реализации обрезки для улучшенного графического дизайна.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

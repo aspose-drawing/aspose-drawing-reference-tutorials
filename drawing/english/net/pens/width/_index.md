@@ -3,10 +3,16 @@ title: Setting Width of Pens in Aspose.Drawing
 linktitle: Setting Width of Pens in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the world of graphics with Aspose.Drawing for .NET. Learn how to set pen widths dynamically for stunning visuals. Get started with our step-by-step guide.
-type: docs
 weight: 12
 url: /net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Width of Pens in Aspose.Drawing
+
 ## Introduction
 
 Welcome to this step-by-step guide on setting the width of pens using Aspose.Drawing for .NET. Aspose.Drawing is a powerful library that provides extensive functionality for working with graphics and images in .NET applications. In this tutorial, we'll focus on a specific aspect—adjusting the width of pens to enhance your graphics.
@@ -87,3 +93,10 @@ A4: Yes, you can access the free trial version of Aspose.Drawing [here](https://
 ### Q5: What documentation resources are available?
 
 A5: Refer to the [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) for in-depth information and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

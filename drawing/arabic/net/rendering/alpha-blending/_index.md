@@ -3,10 +3,16 @@ title: مزج ألفا في Aspose.Drawing
 linktitle: مزج ألفا في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان لسحر مزج ألفا في رسومات .NET باستخدام Aspose.Drawing. ارفع مشروعاتك بتأثيرات شفافة.
-type: docs
 weight: 10
 url: /ar/net/rendering/alpha-blending/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مزج ألفا في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Drawing لـ .NET! في هذا البرنامج التعليمي، سوف نتعمق في عالم مزج ألفا المثير للاهتمام باستخدام Aspose.Drawing، وهي أداة قوية لمعالجة الرسومات في تطبيقات .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة، سيساعدك هذا الدليل المفصّل خطوة بخطوة على فهم مفهوم مزج ألفا وتطبيقه دون عناء في مشاريعك.
@@ -90,3 +96,9 @@ bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Drawing؟
 
  ج5: الوثائق متاحة[هنا](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

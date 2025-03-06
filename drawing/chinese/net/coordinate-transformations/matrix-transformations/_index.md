@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET 中的矩阵转换
 linktitle: Aspose.Drawing 中的矩阵变换
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 通过此分步指南掌握 Aspose.Drawing for .NET 中的矩阵转换。
-type: docs
 weight: 12
 url: /zh/net/coordinate-transformations/matrix-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 中的矩阵转换
+
 ## 介绍
 
 欢迎来到关于 Aspose.Drawing for .NET 中的矩阵变换的综合教程！如果您渴望提高图形操作技能并深入研究矩阵变换的世界，那么您来对地方了。在本教程中，我们将探索 Aspose.Drawing 的迷人功能，并引导您通过实际示例来掌握矩阵变换。
@@ -110,3 +116,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 ### Q5：如何购买Aspose.Drawing？
 
  A5：购买您的许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

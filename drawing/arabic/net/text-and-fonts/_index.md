@@ -3,10 +3,16 @@ title: النص والخطوط
 linktitle: النص والخطوط
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: فتح Aspose.Drawing لـ .NET! إتقان النص الديناميكي والخطوط وإنشاء الصور. تنسيق مثالي للنص، وتلميحات، ومعالجة الخطوط للحصول على صور واضحة تمامًا.
-type: docs
 weight: 26
 url: /ar/net/text-and-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# النص والخطوط
+
 
 ## مقدمة
 في عالم تطبيقات .NET، يعد الارتقاء بمشاريعك باستخدام النصوص والخطوط الجذابة بمثابة تغيير جذري في قواعد اللعبة. يتعمق هذا البرنامج التعليمي في تعقيدات Aspose.Drawing، وهي أداة قوية لإطلاق العنان للإبداع وتعزيز الجاذبية البصرية.
@@ -33,3 +39,9 @@ url: /ar/net/text-and-fonts/
 أطلق العنان لقوة العرض الدقيق للنص باستخدام Aspose.Drawing لـ .NET. تقنيات التلميح الرئيسية للخطوط الواضحة تمامًا.
 ### [العمل مع الخطوط المثبتة في Aspose.Drawing](./installed-fonts/)
 اكتشف قوة Aspose.Drawing لـ .NET في معالجة الخطوط المثبتة. عزز مهارات معالجة الصور لديك من خلال هذا البرنامج التعليمي الشامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

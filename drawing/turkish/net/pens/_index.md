@@ -3,10 +3,16 @@ title: Kalemler
 linktitle: Kalemler
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing eğitimleriyle .NET'te grafik programlamanın gücünü ortaya çıkarın. Çarpıcı görseller için renk manipülasyonunu, yol birleştirmeyi ve dinamik kalem genişliği ayarını keşfedin.
-type: docs
 weight: 24
 url: /tr/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalemler
+
 
 ## giriiş
 
@@ -40,3 +46,9 @@ Aspose.Drawing ile .NET'te grafik programlamanın canlı dünyasını keşfedin.
 Aspose.Drawing for .NET'te yolları kalemlerle birleştirme sanatını keşfedin. LineJoin seçenekleriyle çarpıcı grafikler oluşturun.
 ### [Aspose.Drawing'de Kalem Genişliğini Ayarlama](./width/)
 Aspose.Drawing for .NET ile grafik dünyasını keşfedin. Çarpıcı görseller için kalem genişliklerini dinamik olarak nasıl ayarlayacağınızı öğrenin. Adım adım kılavuzumuzla başlayın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

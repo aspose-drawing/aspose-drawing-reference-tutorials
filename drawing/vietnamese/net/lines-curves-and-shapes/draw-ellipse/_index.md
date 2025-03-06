@@ -3,10 +3,16 @@ title: Vẽ hình elip trong Aspose.draw
 linktitle: Vẽ hình elip trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách vẽ hình elip trong .NET bằng Aspose.draw. Hãy làm theo hướng dẫn từng bước này để tạo đồ họa tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ hình elip trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách vẽ hình elip bằng Aspose.draw cho .NET! Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với .NET, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quá trình tạo các dấu chấm lửng tuyệt đẹp trong ứng dụng của mình.
@@ -96,3 +102,9 @@ A3: Chắc chắn rồi! Aspose. Draw là một thư viện mạnh mẽ có kh�
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá thư viện với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

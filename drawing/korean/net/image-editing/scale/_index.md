@@ -3,10 +3,16 @@ title: Aspose. Drawing에서 이미지 크기 조정
 linktitle: Aspose. Drawing에서 이미지 크기 조정
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: Aspose.드로잉을 사용하여 .NET에서 이미지 크기를 쉽게 조정하는 방법을 알아보세요. 당사의 단계별 가이드는 원활한 통합을 보장하고 강력한 이미지 조작 기능을 제공합니다.
-type: docs
 weight: 14
 url: /ko/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing에서 이미지 크기 조정
+
 ## 소개
 
 .NET용 Aspose. Drawing을 사용하여 이미지 크기 조정에 대한 포괄적인 가이드에 오신 것을 환영합니다! 역동적인 소프트웨어 개발 세계에서 이미지를 조작하고 크기를 조정하는 것은 일반적인 요구 사항입니다. Aspose.드로잉은 .NET 애플리케이션에서 이미지 작업을 위한 강력한 도구와 기능을 제공하여 이 프로세스를 단순화합니다.
@@ -107,3 +113,9 @@ A1: 예, Aspose. Drawing은 다목적이며 웹 및 데스크톱을 포함한 �
 ### Q5: 이미지 크기 조정에 사용자 정의 보간 모드를 적용할 수 있습니까?
 
 A5: 예, Aspose. Drawing은 유연성을 제공하므로 이미지 크기 조정을 위한 다양한 보간 모드 중에서 선택할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحديد عرض الأقلام في Aspose.Drawing
 linktitle: تحديد عرض الأقلام في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: استكشف عالم الرسومات باستخدام Aspose.Drawing لـ .NET. تعرف على كيفية ضبط عرض القلم ديناميكيًا للحصول على صور مذهلة. ابدأ باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/pens/width/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد عرض الأقلام في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل المفصّل خطوة بخطوة حول ضبط عرض الأقلام باستخدام Aspose.Drawing لـ .NET. Aspose.Drawing هي مكتبة قوية توفر وظائف واسعة النطاق للعمل مع الرسومات والصور في تطبيقات .NET. في هذا البرنامج التعليمي، سنركز على جانب محدد، وهو ضبط عرض الأقلام لتحسين رسوماتك.
@@ -87,3 +93,9 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 ### س5: ما هي مصادر التوثيق المتوفرة؟
 
  ج5: راجع[Aspose.Drawing الوثائق](https://reference.aspose.com/drawing/net/) للحصول على معلومات وأمثلة متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

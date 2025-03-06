@@ -3,10 +3,16 @@ title: Recadrage d'images dans Aspose.Drawing
 linktitle: Recadrage d'images dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Maîtrisez le recadrage d'images avec Aspose.Drawing pour .NET. Ce guide étape par étape permet aux développeurs d'améliorer leurs compétences en traitement d'image sans effort.
-type: docs
 weight: 10
 url: /fr/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrage d'images dans Aspose.Drawing
+
 ## Introduction
 
 Dans le monde du développement .NET, Aspose.Drawing s'impose comme un outil puissant de manipulation d'images. L'une de ses fonctionnalités pratiques est la possibilité de recadrer les images avec précision. Dans ce didacticiel, nous allons parcourir le processus de recadrage d'images à l'aide d'Aspose.Drawing pour .NET. Préparez-vous à améliorer vos compétences en traitement d'images !
@@ -106,3 +112,10 @@ A4 : En effet, Aspose.Drawing excelle dans le traitement par lots, permettant un
 ### Q5 : Comment puis-je obtenir de l'aide pour les requêtes liées à Aspose.Drawing ?
 
  A5 : Rendez-vous au[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour demander de l'aide et entrer en contact avec la communauté.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

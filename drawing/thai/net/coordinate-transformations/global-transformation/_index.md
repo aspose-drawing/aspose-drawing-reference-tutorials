@@ -3,10 +3,16 @@ title: การเปลี่ยนแปลงระดับโลกใน 
 linktitle: การเปลี่ยนแปลงระดับโลกใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: สำรวจการเปลี่ยนแปลงระดับโลกใน Aspose. Drawing สำหรับ .NET สร้างกราฟิกที่น่าทึ่งได้อย่างง่ายดาย ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์ที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเปลี่ยนแปลงระดับโลกใน Aspose. Drawing สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose. Drawing สำหรับ .NET! ในบทช่วยสอนนี้ เราจะสำรวจแนวคิดของการเปลี่ยนแปลงทั่วโลกโดยใช้ Aspose. Drawing ซึ่งเป็นไลบรารีอันทรงพลังสำหรับการจัดการกราฟิกในแอปพลิเคชัน .NET การแปลงแบบโกลบอลทำให้คุณสามารถใช้การแปลงกับทุกรายการที่วาดในบริบทกราฟิก สิ่งนี้มีประโยชน์อย่างมากเมื่อคุณต้องการสร้างเอฟเฟ็กต์ภาพที่ซับซ้อนหรือปรับแต่งรูปภาพในขนาดที่กว้างขึ้น
@@ -101,3 +107,9 @@ A4: ได้ คุณสามารถทดลองใช้ Aspose. Drawin
 ### คำถามที่ 5: ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose. Drawing ได้อย่างไร
 
  A5: รับใบอนุญาตชั่วคราวสำหรับ Aspose. Drawing[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.Drawing .NET-hez
 linktitle: Aspose.Drawing for .NET Tutorials
-type: docs
 weight: 10
 url: /hu/net/
 description: Növelje grafikai készségeit az Aspose.Drawing for .NET segítségével! A pontos koordinátatranszformációktól a dinamikus szövegekig és betűtípusokig oktatóanyagaink felszabadítják a grafikában rejlő lehetőségeket.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.Drawing .NET-hez
+
 
 ## Bevezetés
 
@@ -55,3 +60,9 @@ Oldja fel a .NET grafikus mesteri képességeit az Aspose.Drawing segítségéve
 Oldja fel az Aspose.Drawing zárolását a .NET számára! Sajátítson el dinamikus szöveget, betűtípusokat és képalkotást. Tökéletes szövegformázás, tippelés és betűtípus-manipuláció a kristálytiszta látvány érdekében.
 ### [Használati esetek](./use-cases/)
 Emelje fel illusztrációit az Aspose.Drawing for .NET segítségével! Adjon hozzá feliratokat, hozzon létre lenyűgöző kereteket, és oktatóanyagainkkal zökkenőmentesen integrálja a szöveget a képekbe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

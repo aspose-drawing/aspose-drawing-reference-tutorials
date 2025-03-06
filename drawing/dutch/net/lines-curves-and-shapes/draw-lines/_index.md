@@ -3,10 +3,16 @@ title: Lijnen tekenen in Aspose.Drawing
 linktitle: Lijnen tekenen in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Leer hoe u lijnen tekent in .NET-toepassingen met Aspose.Drawing. Deze stapsgewijze zelfstudie leidt u door het proces voor verbluffende graphics.
-type: docs
 weight: 16
 url: /nl/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnen tekenen in Aspose.Drawing
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het tekenen van lijnen met Aspose.Drawing voor .NET! Aspose.Drawing is een krachtige bibliotheek waarmee u afbeeldingen kunt manipuleren en maken in uw .NET-toepassingen. In deze zelfstudie concentreren we ons op de basisbeginselen van het tekenen van lijnen, een essentiële vaardigheid voor het maken van visueel aantrekkelijke afbeeldingen.
@@ -99,3 +105,9 @@ A4: Om fouten af te handelen, kunt u try-catch-blokken implementeren en verwijze
 ### V5: Kan ik Aspose.Drawing gebruiken voor een commercieel project?
 
  A5: Ja, u kunt Aspose.Drawing gebruiken voor commerciële projecten. Bezoek de[aankooppagina](https://purchase.aspose.com/buy) voor licentiegegevens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

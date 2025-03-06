@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Kenar Yumuşatma
 linktitle: Aspose.Drawing'de Kenar Yumuşatma
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing ile .NET uygulamalarındaki grafikleri geliştirin. Pürüzsüz kenarlar için kenar yumuşatma uygulayın. Adım adım kılavuzumuzu takip edin.
-type: docs
 weight: 11
 url: /tr/net/rendering/antialiasing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Kenar Yumuşatma
+
 ## giriiş
 
 Aspose.Drawing for .NET'te kenar yumuşatmayı uygulamaya yönelik bu kapsamlı kılavuza hoş geldiniz. Antialiasing, bilgisayar grafiklerinde pürüzlü kenarların yumuşatılmasına yardımcı olan, görsel olarak çekici ve yüksek kaliteli görüntüler sağlayan çok önemli bir tekniktir. Bu eğitimde, Aspose.Drawing'i kullanarak antialiasing'i .NET uygulamalarınıza dahil etme sürecinde size yol göstereceğiz.
@@ -104,3 +110,9 @@ Cevap3: Evet, Aspose.Drawing çok yönlüdür ve hem basit hem de karmaşık gra
 ### S5: Aspose.Drawing belgelerini nerede bulabilirim?
 
  A5: Belgeler mevcut[Burada](https://reference.aspose.com/drawing/net/)Aspose.Drawing'den en iyi şekilde yararlanmanıza yardımcı olacak kapsamlı bilgiler ve örnekler sağlıyor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

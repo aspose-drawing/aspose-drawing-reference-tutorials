@@ -3,10 +3,16 @@ title: تحميل الصور وحفظها في Aspose.Drawing
 linktitle: تحميل الصور وحفظها في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تحميل الصور الرئيسية وحفظها في .NET باستخدام Aspose.Drawing. استكشف تنسيقات BMP، وGIF، وJPG، وPNG، وTIFF دون عناء.
-type: docs
 weight: 13
 url: /ar/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل الصور وحفظها في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول إتقان تحميل الصور وحفظها باستخدام Aspose.Drawing for .NET! إذا كنت تتطلع إلى تحسين مهاراتك في التعامل مع تنسيقات الصور المختلفة دون عناء، فأنت في المكان الصحيح. Aspose.Drawing for .NET هي مكتبة قوية تعمل على تبسيط عملية العمل مع الصور، وفي هذا البرنامج التعليمي، سنتعمق في تحميل الصور وحفظها بتنسيقات مختلفة.
@@ -102,3 +108,9 @@ A1: يدعم Aspose.Drawing نطاقًا واسعًا من التنسيقات، 
 ### س5: أين يمكنني شراء مكتبة Aspose.Drawing؟
 
  ج5: يمكنك شرائه[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

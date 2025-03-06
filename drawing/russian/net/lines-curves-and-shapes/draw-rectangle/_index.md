@@ -3,10 +3,16 @@ title: Рисование прямоугольников в Aspose.Drawing
 linktitle: Рисование прямоугольников в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Узнайте, как рисовать прямоугольники в .NET с помощью Aspose.Drawing. Пошаговое руководство с примерами кода.
-type: docs
 weight: 19
 url: /ru/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование прямоугольников в Aspose.Drawing
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по рисованию прямоугольников с помощью Aspose.Drawing для .NET. Независимо от того, являетесь ли вы опытным разработчиком или новичком в Aspose.Drawing, это руководство проведет вас через процесс создания прямоугольников и управления ими в ваших .NET-приложениях.
@@ -98,3 +104,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 ### Вопрос 5: Где я могу приобрести Aspose.Drawing?
 
  А5: Посетите[здесь](https://purchase.aspose.com/buy) купить лицензию.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

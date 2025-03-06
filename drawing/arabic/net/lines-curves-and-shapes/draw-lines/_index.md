@@ -3,10 +3,16 @@ title: رسم الخطوط في Aspose.Drawing
 linktitle: رسم الخطوط في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعرف على كيفية رسم الخطوط في تطبيقات .NET باستخدام Aspose.Drawing. يرشدك هذا البرنامج التعليمي خطوة بخطوة خلال عملية الحصول على رسومات مذهلة.
-type: docs
 weight: 16
 url: /ar/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الخطوط في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول رسم الخطوط باستخدام Aspose.Drawing لـ .NET! Aspose.Drawing هي مكتبة قوية تسمح لك بمعالجة الصور وإنشائها في تطبيقات .NET الخاصة بك. في هذا البرنامج التعليمي، سنركز على أساسيات رسم الخطوط، وهي مهارة أساسية لإنشاء رسومات جذابة بصريًا.
@@ -99,3 +105,9 @@ A2: Aspose.Drawing يدعم الأشكال المختلفة، بما في ذلك
 ### س5: هل يمكنني استخدام Aspose.Drawing لمشروع تجاري؟
 
  ج5: نعم، يمكنك استخدام Aspose.Drawing للمشاريع التجارية. قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

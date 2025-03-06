@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET のグローバル変換
 linktitle: Aspose.Drawing でのグローバル変換
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET のグローバル変換を探索して、美しいグラフィックスを簡単に作成します。シームレスなエクスペリエンスを実現するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET のグローバル変換
+
 ## 導入
 
 Aspose.Drawing for .NET の世界へようこそ!このチュートリアルでは、.NET アプリケーションでグラフィックスを操作するための強力なライブラリである Aspose.Drawing を使用して、グローバル変換の概念を検討します。グローバル変換を使用すると、グラフィックス コンテキスト内のすべての描画アイテムに変換を適用できます。これは、複雑な視覚効果を作成したり、より広範囲の画像を操作したりする場合に非常に役立ちます。
@@ -101,3 +107,9 @@ A4: はい、Aspose.Drawing の無料トライアルを試すことができま�
 ### Q5: Aspose.Drawing の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: Aspose.Drawing の一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

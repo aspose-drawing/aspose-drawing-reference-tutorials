@@ -3,10 +3,16 @@ title: رسم خطوط بيزيير في Aspose.Drawing
 linktitle: رسم خطوط بيزيير في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف قوة Aspose.Drawing لـ .NET في إنشاء خطوط Bezier المذهلة. اتبع دليلنا خطوة بخطوة لتطوير الرسومات بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/lines-curves-and-shapes/draw-bezier-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم خطوط بيزيير في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول رسم خطوط Bezier باستخدام Aspose.Drawing لـ .NET! خطوط بيزير هي منحنيات متعددة الاستخدامات تستخدم على نطاق واسع في رسومات الكمبيوتر. باستخدام Aspose.Drawing، وهي مكتبة .NET قوية، يمكنك إنشاء رسومات مذهلة بسهولة. سيرشدك هذا البرنامج التعليمي خلال عملية رسم خطوط Bezier بطريقة بسيطة وفعالة.
@@ -91,3 +97,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawBezierSpline_out
 ### س5: كيف يمكنني شراء Aspose.Drawing لـ .NET؟
 
  ج5: للشراء، تفضل بزيارة موقعنا[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

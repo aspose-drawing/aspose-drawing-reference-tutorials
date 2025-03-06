@@ -3,10 +3,16 @@ title: Loading and Saving Images in Aspose.Drawing
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Master image loading and saving in .NET with Aspose.Drawing. Explore BMP, GIF, JPG, PNG, TIFF formats effortlessly.
-type: docs
 weight: 13
 url: /net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Loading and Saving Images in Aspose.Drawing
+
 ## Introduction
 
 Welcome to our step-by-step guide on mastering image loading and saving using Aspose.Drawing for .NET! If you're looking to enhance your skills in manipulating various image formats effortlessly, you're in the right place. Aspose.Drawing for .NET is a powerful library that simplifies the process of working with images, and in this tutorial, we'll dive into loading and saving images in different formats.
@@ -102,3 +108,10 @@ A4: Seek assistance from the Aspose.Drawing community at [Aspose Forum](https://
 ### Q5: Where can I purchase the Aspose.Drawing library?
 
 A5: You can buy it [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

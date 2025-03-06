@@ -3,10 +3,16 @@ title: Licensing in Aspose.Drawing
 linktitle: Licensing in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Unlock the full potential of Aspose.Drawing in .NET. Master licensing for seamless integration. Download now and elevate your graphics and image manipulation.
-type: docs
 weight: 10
 url: /net/licensing/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licensing in Aspose.Drawing
+
 ## Introduction
 
 In the realm of .NET development, Aspose.Drawing stands out as a powerful tool for graphics and image manipulation. To unlock the full potential of Aspose.Drawing, understanding licensing is paramount. This tutorial will guide you through various licensing methods, ensuring you seamlessly integrate Aspose.Drawing into your .NET projects.
@@ -138,3 +144,10 @@ A4: Yes, you can use Aspose.Drawing in both commercial and non-commercial projec
 ### Q5: Where can I find community support for Aspose.Drawing?
 
 A5: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

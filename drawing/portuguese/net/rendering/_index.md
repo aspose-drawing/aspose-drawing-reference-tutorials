@@ -3,10 +3,16 @@ title: Renderização
 linktitle: Renderização
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Desbloqueie o domínio gráfico do .NET com Aspose.Drawing! Eleve os projetos com mistura alfa para efeitos translúcidos. Aprenda antialiasing e recorte para designs aprimorados.
-type: docs
 weight: 25
 url: /pt/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderização
+
 ## Introdução
 
 Bem-vindo ao mundo do domínio gráfico com Aspose.Drawing! Neste guia abrangente, nos aprofundamos em três técnicas principais de renderização: Alpha Blending, Antialiasing e Clipping. Quer você seja um desenvolvedor experiente ou esteja apenas começando com gráficos .NET, esta série de tutoriais tem algo interessante para todos.
@@ -45,3 +51,9 @@ Desbloqueie a magia da combinação alfa em gráficos .NET com Aspose.Drawing. E
 Aprimore gráficos em aplicativos .NET com Aspose.Drawing. Implemente antialiasing para bordas suaves. Siga nosso guia passo a passo.
 ### [Recorte em Aspose.Drawing](./clipping/)
 Explore o poder do Aspose.Drawing for .NET com este tutorial passo a passo sobre como implementar recorte para design gráfico aprimorado.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

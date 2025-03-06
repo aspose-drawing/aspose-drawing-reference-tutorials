@@ -3,10 +3,16 @@ title: Ручки
 linktitle: Ручки
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Раскройте возможности графического программирования в .NET с помощью учебных пособий Aspose.Drawing. Откройте для себя манипулирование цветом, объединение путей и динамическую настройку ширины пера для создания потрясающих визуальных эффектов.
-type: docs
 weight: 24
 url: /ru/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ручки
+
 
 ## Введение
 
@@ -40,3 +46,9 @@ url: /ru/net/pens/
 Изучите искусство соединения контуров с помощью перьев в Aspose.Drawing для .NET. Создавайте потрясающую графику с помощью параметров LineJoin.
 ### [Настройка ширины перьев в Aspose.Drawing](./width/)
 Исследуйте мир графики с помощью Aspose.Drawing для .NET. Узнайте, как динамически устанавливать ширину пера для получения потрясающих визуальных эффектов. Начните с нашего пошагового руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

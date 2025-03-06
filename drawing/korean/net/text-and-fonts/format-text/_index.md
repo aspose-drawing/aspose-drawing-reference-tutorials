@@ -3,10 +3,16 @@ title: Aspose.드로잉에서 텍스트 서식 지정
 linktitle: Aspose.드로잉에서 텍스트 서식 지정
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose.드로잉에서 쉽게 텍스트 형식을 지정하는 방법을 알아보세요. 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/text-and-fonts/format-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.드로잉에서 텍스트 서식 지정
+
 ## 소개
 
 .NET 애플리케이션에서 텍스트를 조작하고 서식을 지정할 때 Aspose. Drawing은 효율성과 정확성을 추구하는 개발자를 위한 솔루션입니다. 이 강력한 라이브러리는 텍스트의 시각적 매력을 향상시키는 수많은 도구를 제공하므로 텍스트를 그래픽 중심 애플리케이션에 없어서는 안 될 자산으로 만듭니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 텍스트 서식 지정의 미묘한 차이를 살펴보고 원활한 통합을 위한 단계별 가이드를 제공합니다.
@@ -101,3 +107,9 @@ A4: 예, Aspose. Drawing은 텍스트, 모양 등에 대한 다양한 서식 옵
 ### Q5: Aspose. Drawing에 대한 추가 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.드로잉 포럼 살펴보기[여기](https://forum.aspose.com/c/diagram/17) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

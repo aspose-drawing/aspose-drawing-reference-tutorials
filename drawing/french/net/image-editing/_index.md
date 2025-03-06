@@ -3,10 +3,16 @@ title: L'édition d'image
 linktitle: L'édition d'image
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Améliorez vos compétences en matière d'édition d'images avec les didacticiels Aspose.Drawing ! Apprenez les techniques de recadrage, d’accès direct aux données, d’affichage et de mise à l’échelle pour des résultats époustouflants.
-type: docs
 weight: 21
 url: /fr/net/image-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# L'édition d'image
+
 
 ## Introduction
 
@@ -54,3 +60,9 @@ Découvrez comment afficher des images dans des applications .NET avec Aspose.Dr
 Chargement et enregistrement d'images principales dans .NET avec Aspose.Drawing. Explorez les formats BMP, GIF, JPG, PNG, TIFF sans effort.
 ### [Mise à l'échelle des images dans Aspose.Drawing](./scale/)
 Apprenez à mettre à l'échelle des images sans effort dans .NET à l'aide d'Aspose.Drawing. Notre guide étape par étape garantit une intégration transparente, offrant de puissantes capacités de manipulation d'images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

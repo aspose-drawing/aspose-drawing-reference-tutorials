@@ -3,10 +3,16 @@ title: الوصول المباشر إلى البيانات في Aspose.Drawing
 linktitle: الوصول المباشر إلى البيانات في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: تعلم كيفية التعامل مع الصور بكفاءة باستخدام Aspose.Drawing لـ .NET. انغمس في الوصول المباشر إلى البيانات من خلال دليلنا المفصّل خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الوصول المباشر إلى البيانات في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Drawing for .NET، وهي مكتبة قوية تمكّن المطورين من التعامل مع الصور وإنشائها بسهولة. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات الوصول المباشر إلى البيانات، وهو جانب حاسم في Aspose.Drawing الذي يسمح لك بالعمل بكفاءة مع بيانات البكسل.
@@ -95,3 +101,9 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 ### س5: كيف يمكنني شراء Aspose.Drawing لـ .NET؟
 
  A5: شراء Aspose.Drawing[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

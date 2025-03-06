@@ -3,10 +3,16 @@ title: Drawing Polygons in Aspose.Drawing
 linktitle: Drawing Polygons in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the power of Aspose.Drawing for .NET in creating stunning graphics. Draw polygons effortlessly with this intuitive library.
-type: docs
 weight: 18
 url: /net/lines-curves-and-shapes/draw-polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Polygons in Aspose.Drawing
+
 ## Introduction
 
 Welcome to the exciting world of graphic manipulation using Aspose.Drawing for .NET! In this tutorial, we'll delve into the process of drawing polygons, a fundamental aspect of graphic design and image creation. Aspose.Drawing provides a powerful set of tools to make this task both intuitive and efficient.
@@ -96,3 +102,10 @@ A4: Certainly! Explore the capabilities of Aspose.Drawing with a [free trial](ht
 ### Q5: Where can I seek help or connect with the community?
 
 A5: For any queries or discussions, head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) to engage with the vibrant Aspose community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

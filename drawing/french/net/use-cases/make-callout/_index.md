@@ -3,10 +3,16 @@ title: Faire des légendes dans Aspose.Drawing
 linktitle: Faire des légendes dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Améliorez les illustrations de vos documents à l'aide d'Aspose.Drawing pour .NET ! Apprenez étape par étape comment ajouter des légendes pour des visuels plus clairs et informatifs.
-type: docs
 weight: 10
 url: /fr/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Faire des légendes dans Aspose.Drawing
+
 ## Introduction
 Bienvenue dans notre guide étape par étape sur la création de légendes dans Aspose.Drawing pour .NET ! Si vous souhaitez améliorer les illustrations de vos documents avec des légendes, vous êtes au bon endroit. Dans ce didacticiel, nous décomposerons le processus en étapes gérables à l'aide de la bibliothèque Aspose.Drawing.
 ## Conditions préalables
@@ -110,3 +116,9 @@ Absolument! Aspose.Drawing prend en charge les formats d'image populaires tels q
 ### Puis-je essayer Aspose.Drawing avant d’acheter ?
 
  Certainement! Commencez avec un essai gratuit[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

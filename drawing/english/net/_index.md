@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials and Examples of Aspose.Drawing for .NET 
 linktitle: Aspose.Drawing for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Elevate your graphic skills with Aspose.Drawing for .NET! From precise coordinate transformations to dynamic text and fonts, our tutorials unlock the full potential of graphics.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials and Examples of Aspose.Drawing for .NET
+
 
 ## Introduction
 
@@ -55,3 +60,9 @@ Unlock .NET graphic mastery with Aspose.Drawing! Elevate projects with alpha ble
 Unlock Aspose.Drawing for .NET! Master dynamic text, fonts, and image creation. Perfect text formatting, hinting, and font manipulation for crystal-clear visuals.
 ### [Use Cases](./use-cases/)
 Elevate your illustrations with Aspose.Drawing for .NET! Add callouts, create stunning frames, and seamlessly integrate text into images with our tutorials.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

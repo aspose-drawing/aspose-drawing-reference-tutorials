@@ -3,10 +3,16 @@ title: Vẽ văn bản trong Aspose.draw
 linktitle: Vẽ văn bản trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Nâng cao ứng dụng .NET của bạn bằng văn bản động bằng cách sử dụng Aspose.draw cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để vẽ văn bản, tùy chỉnh phông chữ và tạo hình ảnh hấp dẫn trực quan.
-type: docs
 weight: 10
 url: /vi/net/text-and-fonts/draw-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ văn bản trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước về cách vẽ văn bản bằng Aspose.draw cho .NET! Nếu bạn đang tìm cách cải thiện các ứng dụng .NET của mình bằng văn bản phong phú và hấp dẫn về mặt hình ảnh thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo văn bản động trong hình ảnh bằng Aspose.draw.
@@ -102,3 +108,9 @@ Câu trả lời 3: Có, Aspose.draw hỗ trợ .NET Core, cho phép bạn sử 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.draw không?
 
  Câu trả lời 5: Có, bạn có thể tìm sự hỗ trợ và thảo luận các vấn đề trên[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

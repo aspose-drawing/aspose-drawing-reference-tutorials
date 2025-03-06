@@ -3,10 +3,16 @@ title: Рисование путей в Aspose.Drawing
 linktitle: Рисование путей в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Научитесь рисовать пути в Aspose.Drawing для .NET с помощью этого пошагового руководства. Создавайте потрясающую графику без особых усилий.
-type: docs
 weight: 17
 url: /ru/net/lines-curves-and-shapes/draw-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование путей в Aspose.Drawing
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по рисованию путей в Aspose.Drawing для .NET. Независимо от того, являетесь ли вы опытным разработчиком или новичком в графическом программировании, это руководство проведет вас через процесс создания сложных контуров с помощью Aspose.Drawing. Aspose.Drawing — это мощная библиотека, которая упрощает графические операции в приложениях .NET, предлагая широкий спектр функций для создания, редактирования и управления изображениями.
@@ -100,3 +106,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPath_out.png");
 ### В5: Могу ли я приобрести Aspose.Drawing?
 
  A5: Да, вы можете приобрести Aspose.Drawing.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

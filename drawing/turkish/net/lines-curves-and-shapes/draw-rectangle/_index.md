@@ -3,10 +3,16 @@ title: Aspose.Drawing'de Dikdörtgen Çizimi
 linktitle: Aspose.Drawing'de Dikdörtgen Çizimi
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing'i kullanarak .NET'te nasıl dikdörtgen çizeceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 19
 url: /tr/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing'de Dikdörtgen Çizimi
+
 ## giriiş
 
 Aspose.Drawing for .NET'i kullanarak dikdörtgen çizmeye ilişkin bu kapsamlı eğitime hoş geldiniz. İster deneyimli bir geliştirici olun ister Aspose.Drawing'e yeni başlayan biri olun, bu kılavuz .NET uygulamalarınızda dikdörtgenler oluşturma ve işleme sürecinde size yol gösterecektir.
@@ -98,3 +104,9 @@ Cevap4: Kesinlikle! Aspose.Drawing, karmaşık grafik işlemlerinin üstesinden 
 ### S5: Aspose.Drawing'i nereden satın alabilirim?
 
  A5: Ziyaret edin[Burada](https://purchase.aspose.com/buy) lisans satın almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

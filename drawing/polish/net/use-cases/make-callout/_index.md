@@ -3,10 +3,16 @@ title: Tworzenie objaśnień w Aspose.Drawing
 linktitle: Tworzenie objaśnień w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Ulepsz ilustracje w swoich dokumentach za pomocą Aspose.Drawing dla .NET! Dowiedz się krok po kroku, jak dodawać objaśnienia, aby uzyskać wyraźniejsze i bardziej informacyjne obrazy.
-type: docs
 weight: 10
 url: /pl/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie objaśnień w Aspose.Drawing
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym tworzenia objaśnień w Aspose.Drawing dla .NET! Jeśli chcesz ulepszyć ilustracje dokumentów za pomocą objaśnień, jesteś we właściwym miejscu. W tym samouczku podzielimy proces na łatwe do wykonania kroki, korzystając z biblioteki Aspose.Drawing.
 ## Warunki wstępne
@@ -110,3 +116,9 @@ Absolutnie! Aspose.Drawing obsługuje popularne formaty obrazów, takie jak PNG,
 ### Czy mogę wypróbować Aspose.Drawing przed zakupem?
 
  Z pewnością! Zacznij od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

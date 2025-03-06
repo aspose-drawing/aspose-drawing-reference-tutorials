@@ -3,10 +3,16 @@ title: Enquadre suas fotos de forma criativa com Aspose.Drawing for .NET
 linktitle: Criando molduras para fotos em Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Aprimore suas imagens com Aspose.Drawing for .NET! Siga nosso guia passo a passo para criar molduras de fotos impressionantes. Explore Aspose.Drawing para .NET agora!
-type: docs
 weight: 11
 url: /pt/net/use-cases/photo-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enquadre suas fotos de forma criativa com Aspose.Drawing for .NET
+
 ## Introdução
 Quer adicionar um toque de elegância às suas imagens? Com Aspose.Drawing for .NET, você pode criar facilmente molduras de fotos cativantes para aprimorar o apelo visual de suas fotos. Este guia passo a passo irá orientá-lo no processo de criação de molduras de fotos impressionantes usando os poderosos recursos do Aspose.Drawing.
 ## Pré-requisitos
@@ -98,3 +104,9 @@ Absolutamente! Você tem controle total sobre a cor e a espessura da moldura, pe
  Visite o fórum Aspose.Drawing[aqui](https://forum.aspose.com/c/diagram/17) para obter assistência e se conectar com a comunidade.
 ### Posso usar o Aspose.Drawing para projetos comerciais?
  Sim, você pode comprar uma licença[aqui](https://purchase.aspose.com/buy) para uso comercial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

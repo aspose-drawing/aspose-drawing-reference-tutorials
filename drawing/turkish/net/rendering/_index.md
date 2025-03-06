@@ -3,10 +3,16 @@ title: İşleme
 linktitle: İşleme
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing ile .NET grafik ustalığının kilidini açın! Yarı saydam efektler için alfa harmanlamayla projeleri geliştirin. Gelişmiş tasarımlar için kenar yumuşatma ve kırpmayı öğrenin.
-type: docs
 weight: 25
 url: /tr/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İşleme
+
 ## giriiş
 
 Aspose.Drawing ile grafik ustalığının dünyasına hoş geldiniz! Bu kapsamlı kılavuzda üç temel işleme tekniğini inceliyoruz: Alfa Harmanlama, Kenar Yumuşatma ve Kırpma. İster deneyimli bir geliştirici olun ister .NET grafikleriyle yeni başlıyor olun, bu eğitim serisinde herkes için heyecan verici bir şeyler var.
@@ -45,3 +51,9 @@ Aspose.Drawing ile .NET grafiklerinde alfa harmanlamanın büyüsünün kilidini
 Aspose.Drawing ile .NET uygulamalarındaki grafikleri geliştirin. Pürüzsüz kenarlar için kenar yumuşatma uygulayın. Adım adım kılavuzumuzu takip edin.
 ### [Aspose.Drawing'de kırpma](./clipping/)
 Gelişmiş grafik tasarımı için kırpmanın uygulanmasına yönelik bu adım adım eğitimle Aspose.Drawing for .NET'in gücünü keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

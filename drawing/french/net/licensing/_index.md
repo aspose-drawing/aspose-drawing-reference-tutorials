@@ -3,10 +3,16 @@ title: Licence
 linktitle: Licence
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Libérez tout le potentiel d’Aspose.Drawing dans .NET avec des didacticiels de licence transparents. Intégrez sans effort, rehaussez les graphiques et manipulez les images en toute simplicité.
-type: docs
 weight: 22
 url: /fr/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licence
+
 
 ## Introduction
 
@@ -34,3 +40,9 @@ Débloquez, intégrez et innovez avec Aspose.Drawing, votre passerelle vers des 
 ## Tutoriels sur les licences
 ### [Licences dans Aspose.Drawing](./licensing/)
 Libérez tout le potentiel d’Aspose.Drawing dans .NET. Licence principale pour une intégration transparente. Téléchargez maintenant et améliorez vos graphiques et votre manipulation d'images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

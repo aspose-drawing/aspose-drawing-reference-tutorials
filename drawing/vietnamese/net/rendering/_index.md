@@ -3,10 +3,16 @@ title: Kết xuất
 linktitle: Kết xuất
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Mở khóa khả năng làm chủ đồ họa .NET với Aspose.draw! Nâng cao các dự án với tính năng trộn alpha để tạo hiệu ứng mờ. Tìm hiểu tính năng khử răng cưa và cắt xén cho các thiết kế nâng cao.
-type: docs
 weight: 25
 url: /vi/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới làm chủ đồ họa với Aspose.drawing! Trong hướng dẫn toàn diện này, chúng tôi đi sâu vào ba kỹ thuật kết xuất chính: Trộn Alpha, Khử răng cưa và Cắt. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với đồ họa .NET, loạt bài hướng dẫn này đều có điều gì đó thú vị dành cho tất cả mọi người.
@@ -45,3 +51,9 @@ Mở khóa sự kỳ diệu của việc trộn alpha trong đồ họa .NET v�
 Nâng cao đồ họa trong các ứng dụng .NET với Aspose.drawing. Thực hiện khử răng cưa cho các cạnh mịn. Thực hiện theo hướng dẫn từng bước của chúng tôi.
 ### [Cắt trong Aspose.draw](./clipping/)
 Khám phá sức mạnh của Aspose.draw cho .NET với hướng dẫn từng bước này về cách triển khai cắt xén cho thiết kế đồ họa nâng cao.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

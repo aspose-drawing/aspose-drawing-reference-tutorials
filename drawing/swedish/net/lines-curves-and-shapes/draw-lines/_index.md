@@ -3,10 +3,16 @@ title: Rita linjer i Aspose.Drawing
 linktitle: Rita linjer i Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
 description: Lär dig hur du ritar linjer i .NET-applikationer med Aspose.Drawing. Denna steg-för-steg handledning guidar dig genom processen för fantastisk grafik.
-type: docs
 weight: 16
 url: /sv/net/lines-curves-and-shapes/draw-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rita linjer i Aspose.Drawing
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om att rita linjer med Aspose.Drawing för .NET! Aspose.Drawing är ett kraftfullt bibliotek som låter dig manipulera och skapa bilder i dina .NET-applikationer. I den här handledningen kommer vi att fokusera på grunderna för att rita linjer, en viktig färdighet för att skapa visuellt tilltalande grafik.
@@ -99,3 +105,9 @@ S4: För att hantera fel kan du implementera try-catch-block och hänvisa till A
 ### F5: Kan jag använda Aspose.Drawing för ett kommersiellt projekt?
 
  S5: Ja, du kan använda Aspose.Drawing för kommersiella projekt. Besök[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

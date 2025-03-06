@@ -3,10 +3,16 @@ title: 使用例
 linktitle: 使用例
 second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
 description: Aspose.Drawing for .NET を使用してイラストをレベルアップしましょう!チュートリアルを使用して、吹き出しを追加し、見事なフレームを作成し、テキストを画像にシームレスに統合します。
-type: docs
 weight: 27
 url: /ja/net/use-cases/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用例
+
 ## 導入
 
 デジタル デザインのダイナミックな領域では、Aspose.Drawing for .NET が強力なツールとして際立っており、ドキュメントのイラストや画像の操作を強化するための豊富な機能を提供します。この記事では、吹き出しの作成、フォト フレームの作成、画像へのテキストの追加という 3 つの主要な領域に焦点を当て、段階的なチュートリアルを通じて Aspose.Drawing for .NET の多用途な使用例を詳しく説明します。
@@ -32,3 +38,9 @@ Aspose.Drawing for .NET を使用してドキュメントのイラストを強�
 Aspose.Drawing for .NET で画像を強化しましょう!ステップバイステップのガイドに従って、素晴らしいフォトフレームを作成してください。今すぐ Aspose.Drawing for .NET を試してみましょう!
 ### [Aspose.Drawing で画像にテキストを追加する](./text-on-image/)
 Aspose.Drawing for .NET を使用して、テキストを画像にシームレスに統合する方法を試してください。ステップバイステップのガイドに従って、簡単に画像を操作してください。ダウンロード中！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

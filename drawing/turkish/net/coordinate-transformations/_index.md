@@ -3,10 +3,16 @@ title: Dönüşümleri Koordinat
 linktitle: Dönüşümleri Koordinat
 second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
 description: Aspose.Drawing eğitimlerimiz ile grafik becerilerinizi geliştirin. .NET'te hassas grafiklerde uzmanlaşarak küresel, yerel, matris, sayfa ve dünya dönüşümlerini keşfedin.
-type: docs
 weight: 20
 url: /tr/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dönüşümleri Koordinat
+
 
 ## giriiş
 
@@ -56,3 +62,9 @@ Aspose.Drawing'i kullanarak .NET'te adım adım sayfa dönüşümlerini öğreni
 Hassas grafikler için ölçü birimleri konusunda uzmanlaşan bu ayrıntılı eğitimde Aspose.Drawing for .NET'in çok yönlülüğünü keşfedin.
 ### [Aspose.Drawing'de Dünya Dönüşümü](./world-transformation/)
 Aspose.Drawing for .NET'te dünyadaki dönüşümleri keşfedin. Takip edilmesi kolay adımlarla grafiklerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

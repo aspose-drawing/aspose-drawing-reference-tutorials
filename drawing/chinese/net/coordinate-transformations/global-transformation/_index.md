@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET 中的全局转换
 linktitle: Aspose.Drawing 中的全局转换
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 探索 Aspose.Drawing for .NET 中的全局转换，轻松创建令人惊叹的图形。请遵循我们的分步指南以获得无缝体验。
-type: docs
 weight: 10
 url: /zh/net/coordinate-transformations/global-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 中的全局转换
+
 ## 介绍
 
 欢迎来到 Aspose.Drawing for .NET 的世界！在本教程中，我们将使用 Aspose.Drawing 探索全局转换的概念，Aspose.Drawing 是一个用于 .NET 应用程序中图形操作的强大库。全局变换允许您将变换应用于图形上下文中的每个绘制项目。当您想要创建复杂的视觉效果或在更大范围内操作图像时，这非常有用。
@@ -101,3 +107,9 @@ A4：是的，您可以探索 Aspose.Drawing 的免费试用版[这里](https://
 ### Q5：如何获得 Aspose.Drawing 的临时许可证？
 
  A5：获取 Aspose.Drawing 的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

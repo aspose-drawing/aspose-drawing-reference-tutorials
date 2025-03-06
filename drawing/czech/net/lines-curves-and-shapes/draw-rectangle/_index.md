@@ -3,10 +3,16 @@ title: Kreslení obdélníků v Aspose.Drawing
 linktitle: Kreslení obdélníků v Aspose.Drawing
 second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
 description: Naučte se kreslit obdélníky v .NET pomocí Aspose.Drawing. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 19
 url: /cs/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kreslení obdélníků v Aspose.Drawing
+
 ## Úvod
 
 Vítejte v tomto komplexním návodu na kreslení obdélníků pomocí Aspose.Drawing for .NET. Ať už jste zkušený vývojář nebo nováček v Aspose.Drawing, tento průvodce vás provede procesem vytváření a manipulace s obdélníky ve vašich aplikacích .NET.
@@ -98,3 +104,9 @@ A4: Rozhodně! Aspose.Drawing poskytuje pokročilé funkce pro manipulaci se slo
 ### Q5: Kde mohu zakoupit Aspose.Drawing?
 
  A5: Návštěva[tady](https://purchase.aspose.com/buy) koupit licenci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

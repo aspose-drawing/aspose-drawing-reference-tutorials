@@ -3,10 +3,16 @@ title: Dessiner des courbes fermées dans Aspose.Drawing
 linktitle: Dessiner des courbes fermées dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Explorez l'art de dessiner des courbes fermées dans les applications .NET avec Aspose.Drawing. Élevez vos visuels sans effort.
-type: docs
 weight: 14
 url: /fr/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dessiner des courbes fermées dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur le dessin de courbes fermées dans Aspose.Drawing pour .NET ! Si vous cherchez à améliorer vos applications .NET avec des courbes fermées vibrantes et précises, vous êtes au bon endroit. Dans ce didacticiel, nous explorerons le processus étape par étape, vous assurant ainsi d'acquérir une solide compréhension de la bibliothèque Aspose.Drawing et de ses fonctionnalités.
@@ -84,3 +90,9 @@ Dans ce didacticiel, nous avons parcouru le processus de dessin de courbes ferm�
 ### Q5 : Quelles options d'assistance sont disponibles ?
 
  A5 : Si vous avez besoin d'aide ou si vous avez des questions, rendez-vous au[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menskalakan Gambar di Aspose.Drawing
 linktitle: Menskalakan Gambar di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Pelajari cara menskalakan gambar dengan mudah di .NET menggunakan Aspose.Drawing. Panduan langkah demi langkah kami memastikan integrasi yang lancar, memberikan kemampuan manipulasi gambar yang hebat.
-type: docs
 weight: 14
 url: /id/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menskalakan Gambar di Aspose.Drawing
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang penskalaan gambar menggunakan Aspose.Drawing untuk .NET! Dalam dunia pengembangan perangkat lunak yang dinamis, memanipulasi dan menskalakan gambar adalah persyaratan umum. Aspose.Drawing menyederhanakan proses ini, menawarkan alat dan fungsi canggih untuk bekerja dengan gambar di aplikasi .NET Anda.
@@ -107,3 +113,9 @@ A1: Ya, Aspose.Drawing serbaguna dan dapat digunakan di berbagai aplikasi .NET, 
 ### Q5: Dapatkah saya menerapkan mode interpolasi khusus untuk penskalaan gambar?
 
 A5: Ya, Aspose.Drawing memberikan fleksibilitas, memungkinkan Anda memilih dari berbagai mode interpolasi untuk penskalaan gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

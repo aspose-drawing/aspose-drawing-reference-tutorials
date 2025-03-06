@@ -3,10 +3,16 @@ title: Aspose.Drawing for .NET 中的頁面轉換
 linktitle: Aspose.Drawing 中的頁面轉換
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 了解 .NET 中的逐步頁面轉換。透過這個綜合教程提升您的圖形技能。
-type: docs
 weight: 13
 url: /zh-hant/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing for .NET 中的頁面轉換
+
 ## 介紹
 
 歡迎來到這個關於使用 Aspose.Drawing for .NET 進行頁面轉換的綜合教學。如果您希望提高圖形和點陣圖轉換方面的技能，那麼您來對地方了。在本教學中，我們將引導您完成使用 Aspose.Drawing 轉換頁面的流程，確保您清楚掌握每個步驟。
@@ -109,3 +115,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ### Q5：哪裡可以購買Aspose.Drawing？
 
  A5：您可以購買Aspose.Drawing[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

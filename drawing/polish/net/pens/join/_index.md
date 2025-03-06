@@ -3,10 +3,16 @@ title: Łączenie ścieżek za pomocą pisaków w Aspose.Drawing
 linktitle: Łączenie ścieżek za pomocą pisaków w Aspose.Drawing
 second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
 description: Poznaj sztukę łączenia ścieżek za pomocą pisaków w Aspose.Drawing dla .NET. Twórz oszałamiającą grafikę dzięki opcjom LineJoin.
-type: docs
 weight: 11
 url: /pl/net/pens/join/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Łączenie ścieżek za pomocą pisaków w Aspose.Drawing
+
 ## Wstęp
 
 Witamy w świecie Aspose.Drawing dla .NET! W tym samouczku zagłębimy się w sztukę łączenia ścieżek za pomocą pisaków przy użyciu Aspose.Drawing, potężnej biblioteki zapewniającej rozbudowaną funkcjonalność do pracy z grafiką i obrazami w aplikacjach .NET.
@@ -107,3 +113,9 @@ W tym samouczku zbadaliśmy proces łączenia ścieżek za pomocą pisaków w As
 ### P5: Gdzie mogę kupić Aspose.Drawing?
 
  A5: Kup Aspose.Drawing[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

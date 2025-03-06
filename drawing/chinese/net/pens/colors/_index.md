@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中使用颜色
 linktitle: 在 Aspose.Drawing 中使用颜色
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 探索 .NET 中充满活力的图形编程世界。毫不费力地创造令人惊叹的视觉效果。
-type: docs
 weight: 10
 url: /zh/net/pens/colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中使用颜色
+
 ## 介绍
 
 欢迎来到我们关于在 Aspose.Drawing for .NET 中使用颜色的分步指南！在本教程中，我们将深入研究使用强大的 Aspose.Drawing 库操纵颜色的令人兴奋的世界。无论您是经验丰富的开发人员还是新手，了解颜色操作对于在 .NET 应用程序中创建视觉上令人惊叹的图形都至关重要。
@@ -100,3 +106,10 @@ A4：当然！ Aspose.Drawing 用途广泛，可用于桌面和 Web 应用程序
 ### Q5：Aspose.Drawing 有免费试用版吗？
 
  A5：是的，您可以探索免费试用[这里](https://releases.aspose.com/drawing/net/)，让您在购买前体验 Aspose.Drawing 的功能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

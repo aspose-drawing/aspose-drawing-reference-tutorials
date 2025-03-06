@@ -3,10 +3,16 @@ title: Clipping in Aspose.Drawing
 linktitle: Clipping in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the power of Aspose.Drawing for .NET with this step-by-step tutorial on implementing clipping for enhanced graphic design.
-type: docs
 weight: 12
 url: /net/rendering/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Clipping in Aspose.Drawing
+
 ## Introduction
 
 In the realm of graphic design and image processing, the ability to selectively display or hide portions of an image is paramount. This is where clipping comes into play, and with Aspose.Drawing for .NET, you can seamlessly incorporate clipping techniques to enhance your visual creations. In this tutorial, we'll delve into the step-by-step process of implementing clipping using Aspose.Drawing, ensuring you grasp the intricacies involved.
@@ -112,3 +118,10 @@ A4: Yes, Aspose.Drawing is versatile and can be utilized in both desktop and web
 ### Q5: What is the performance impact of using clipping in terms of resource consumption?
 
 A5: Clipping is a lightweight operation, and Aspose.Drawing is optimized for efficient resource utilization.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Faire allusion dans Aspose.Drawing
 linktitle: Faire allusion dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Libérez la puissance d’un rendu de texte précis avec Aspose.Drawing pour .NET. Maîtrisez les techniques d’indication pour des polices d’une clarté cristalline.
-type: docs
 weight: 12
 url: /fr/net/text-and-fonts/hinting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Faire allusion dans Aspose.Drawing
+
 ## Introduction
 
 Bienvenue dans le monde de précision et de clarté du rendu de texte avec Aspose.Drawing pour .NET ! Dans ce guide complet, nous approfondirons la puissante fonctionnalité d'indication, améliorant votre contrôle sur le rendu des polices pour une sortie visuellement attrayante. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours avec Aspose.Drawing, ce didacticiel vous dotera des compétences nécessaires pour exploiter tout le potentiel des indices.
@@ -103,3 +109,9 @@ A4 : Oui, Aspose.Drawing prend en charge diverses astuces de rendu de texte pour
 ### Q5 : Où puis-je demander de l'aide ou partager mes expériences avec Aspose.Drawing ?
 
  A5 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17)pour s'engager avec la communauté et obtenir du soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 直線、曲線和形狀
 linktitle: 直線、曲線和形狀
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 釋放 Aspose.Drawing 的 .NET 魔力！探索線條、曲線和形狀教程，打造充滿活力的圖形 - 創造性地掌握實體畫筆、圓弧、樣條線、橢圓等。
-type: docs
 weight: 23
 url: /zh-hant/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 直線、曲線和形狀
+
 
 ## 介紹
 
@@ -69,3 +75,9 @@ url: /zh-hant/net/lines-curves-and-shapes/
 了解如何使用 Aspose.Drawing 在 .NET 中繪製矩形。帶有程式碼範例的分步指南。
 ### [Aspose.Drawing 中的填充區域](./fill-region/)
 透過此逐步教學，了解如何在 Aspose.Drawing for .NET 中填滿區域。輕鬆提升您的圖形設計技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

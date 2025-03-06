@@ -3,10 +3,16 @@ title: Gesloten curven tekenen in Aspose.Drawing
 linktitle: Gesloten curven tekenen in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Ontdek de kunst van het tekenen van gesloten curven in .NET-toepassingen met Aspose.Drawing. Verbeter uw visuals moeiteloos.
-type: docs
 weight: 14
 url: /nl/net/lines-curves-and-shapes/draw-closed-curve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gesloten curven tekenen in Aspose.Drawing
+
 ## Invoering
 
 Welkom bij onze uitgebreide gids over het tekenen van gesloten curven in Aspose.Drawing voor .NET! Als u uw .NET-applicaties wilt verbeteren met levendige en nauwkeurige gesloten curven, bent u hier aan het juiste adres. In deze zelfstudie verkennen we het proces stap voor stap, zodat u een goed inzicht krijgt in de Aspose.Drawing-bibliotheek en de mogelijkheden ervan.
@@ -84,3 +90,9 @@ In deze zelfstudie hebben we het proces van het tekenen van gesloten curven in A
 ### Vraag 5: Welke ondersteuningsopties zijn beschikbaar?
 
  A5: Als u hulp nodig heeft of vragen heeft, ga dan naar de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

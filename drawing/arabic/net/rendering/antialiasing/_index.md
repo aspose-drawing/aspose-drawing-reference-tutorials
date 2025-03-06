@@ -3,10 +3,16 @@ title: الحواف في Aspose.Drawing
 linktitle: الحواف في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: قم بتحسين الرسومات في تطبيقات .NET باستخدام Aspose.Drawing. تنفيذ الحواف للحصول على حواف ناعمة. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/rendering/antialiasing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحواف في Aspose.Drawing
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تنفيذ الحواف في Aspose.Drawing لـ .NET. يعد الحواف تقنية مهمة في رسومات الكمبيوتر التي تساعد على تنعيم الحواف الخشنة، مما يؤدي إلى الحصول على صور جذابة بصريًا وعالية الجودة. في هذا البرنامج التعليمي، سنرشدك خلال عملية دمج الحواف في تطبيقات .NET الخاصة بك باستخدام Aspose.Drawing.
@@ -104,3 +110,9 @@ A3: نعم، Aspose.Drawing متعدد الاستخدامات ويمكن است�
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Drawing؟
 
  ج5: الوثائق متاحة[هنا](https://reference.aspose.com/drawing/net/)، مما يوفر معلومات وأمثلة شاملة لمساعدتك في تحقيق أقصى استفادة من Aspose.Drawing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dibujar elipses en Aspose.Drawing
 linktitle: Dibujar elipses en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Aprenda a dibujar elipses en .NET usando Aspose.Drawing. Siga este tutorial paso a paso para crear gráficos impresionantes sin esfuerzo.
-type: docs
 weight: 15
 url: /es/net/lines-curves-and-shapes/draw-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dibujar elipses en Aspose.Drawing
+
 ## Introducción
 
 ¡Bienvenido a este tutorial completo sobre cómo dibujar elipses usando Aspose.Drawing para .NET! Ya sea que sea un desarrollador experimentado o esté comenzando con .NET, esta guía paso a paso lo guiará a través del proceso de creación de impresionantes elipses en sus aplicaciones.
@@ -96,3 +102,9 @@ R3: ¡Absolutamente! Aspose.Drawing es una poderosa biblioteca capaz de manejar 
 ### P5: ¿Hay una prueba gratuita disponible?
 
  R5: Sí, puedes explorar la biblioteca con una prueba gratuita[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

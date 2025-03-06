@@ -3,10 +3,16 @@ title: Aspose. Drawing의 이미지에 텍스트 추가
 linktitle: Aspose. Drawing의 이미지에 텍스트 추가
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: .NET용 Aspose.드로잉을 사용하여 텍스트를 이미지에 완벽하게 통합하는 방법을 살펴보세요. 간편한 이미지 조작을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
-type: docs
 weight: 12
 url: /ko/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose. Drawing의 이미지에 텍스트 추가
+
 ## 소개
 .NET 개발의 역동적인 세계에서 Aspose. Drawing은 이미지를 쉽게 조작할 수 있는 강력한 도구로 돋보입니다. 워터마킹, 주석, 개인화된 그래픽 생성 등을 위해 이미지에 텍스트를 추가하는 것은 일반적인 요구 사항입니다. 이 튜토리얼에서는 C#을 사용하여 Aspose. Drawing을 활용하여 텍스트를 이미지에 원활하게 통합하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -78,3 +84,9 @@ Aspose.드로잉은 .NET에서 이미지 조작 작업을 단순화하여 개발
  커뮤니티에 참여하고 지원을 받으세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
 ### Aspose.드로잉을 시작하려면 어떻게 해야 하나요?
  다음에서 라이브러리를 다운로드하여 시작하세요.[여기](https://releases.aspose.com/drawing/net/) 그리고 포괄적인 탐색[선적 서류 비치](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

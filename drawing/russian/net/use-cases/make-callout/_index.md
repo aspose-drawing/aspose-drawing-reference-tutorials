@@ -3,10 +3,16 @@ title: Создание выносок в Aspose.Drawing
 linktitle: Создание выносок в Aspose.Drawing
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Улучшите иллюстрации в своих документах с помощью Aspose.Drawing для .NET! Узнайте шаг за шагом, как добавлять выноски для более четких и информативных визуальных эффектов.
-type: docs
 weight: 10
 url: /ru/net/use-cases/make-callout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание выносок в Aspose.Drawing
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по созданию выносок в Aspose.Drawing для .NET! Если вы хотите улучшить иллюстрации своих документов с помощью выносок, вы попали по адресу. В этом уроке мы разобьем процесс на управляемые шаги, используя библиотеку Aspose.Drawing.
 ## Предварительные условия
@@ -110,3 +116,9 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 ### Могу ли я попробовать Aspose.Drawing перед покупкой?
 
  Конечно! Начните работу с бесплатной пробной версии[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

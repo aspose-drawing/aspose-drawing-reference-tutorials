@@ -3,10 +3,16 @@ title: Cắt trong Aspose.draw
 linktitle: Cắt trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá sức mạnh của Aspose.draw cho .NET với hướng dẫn từng bước này về cách triển khai cắt xén cho thiết kế đồ họa nâng cao.
-type: docs
 weight: 12
 url: /vi/net/rendering/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt trong Aspose.draw
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế đồ họa và xử lý hình ảnh, khả năng hiển thị hoặc ẩn có chọn lọc các phần của hình ảnh là điều tối quan trọng. Đây là lúc phát huy tác dụng của việc cắt và với Aspose.draw cho .NET, bạn có thể kết hợp liền mạch các kỹ thuật cắt để nâng cao khả năng sáng tạo trực quan của mình. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước triển khai cắt bằng Aspose.draw, đảm bảo bạn nắm bắt được những điều phức tạp liên quan.
@@ -112,3 +118,9 @@ Câu trả lời 4: Có, Aspose.draw rất linh hoạt và có thể được s�
 ### Câu hỏi 5: Tác động hiệu suất của việc sử dụng tính năng cắt bớt về mặt tiêu thụ tài nguyên là gì?
 
 Câu trả lời 5: Cắt là một thao tác nhẹ và Aspose. Draw được tối ưu hóa để sử dụng tài nguyên hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

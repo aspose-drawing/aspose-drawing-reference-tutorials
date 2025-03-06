@@ -3,10 +3,16 @@ title: تحويلات الإحداثيات
 linktitle: تحويلات الإحداثيات
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: عزز مهاراتك الرسومية من خلال دروس Aspose.Drawing التعليمية. استكشف التحولات العالمية والمحلية والمصفوفة والصفحة والعالم، وإتقان الرسومات الدقيقة في .NET.
-type: docs
 weight: 20
 url: /ar/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويلات الإحداثيات
+
 
 ## مقدمة
 
@@ -56,3 +62,9 @@ url: /ar/net/coordinate-transformations/
 استكشف تعدد استخدامات Aspose.Drawing لـ .NET في هذا البرنامج التعليمي المتعمق، وإتقان وحدات القياس للرسومات الدقيقة.
 ### [التحول العالمي في Aspose.Drawing](./world-transformation/)
 اكتشف التحولات العالمية في Aspose.Drawing لـ .NET. ارفع مستوى رسوماتك بخطوات سهلة المتابعة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

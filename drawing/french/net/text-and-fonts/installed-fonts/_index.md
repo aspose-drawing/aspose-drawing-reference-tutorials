@@ -3,10 +3,16 @@ title: Travailler avec les polices installées dans Aspose.Drawing
 linktitle: Travailler avec les polices installées dans Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Découvrez la puissance d'Aspose.Drawing pour .NET dans la manipulation des polices installées. Améliorez vos compétences en traitement d’images avec ce didacticiel complet.
-type: docs
 weight: 13
 url: /fr/net/text-and-fonts/installed-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec les polices installées dans Aspose.Drawing
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Drawing apparaît comme un outil puissant pour manipuler et travailler avec des images. Ce didacticiel se concentre sur un aspect spécifique : l'utilisation des polices installées à l'aide d'Aspose.Drawing for .NET. Les polices jouent un rôle crucial dans la conception et la présentation, et la maîtrise de leur utilisation peut améliorer considérablement vos capacités de traitement d'image.
@@ -106,3 +112,9 @@ A4 : Certainement ! Explorez les propriétés supplémentaires des classes Font 
 ### Q5 : Des licences temporaires sont-elles disponibles à des fins de test ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour évaluation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

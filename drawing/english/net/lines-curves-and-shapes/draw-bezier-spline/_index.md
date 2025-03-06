@@ -3,10 +3,16 @@ title: Drawing Bezier Splines in Aspose.Drawing
 linktitle: Drawing Bezier Splines in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the power of Aspose.Drawing for .NET in creating stunning Bezier splines. Follow our step-by-step guide for seamless graphics development.
-type: docs
 weight: 12
 url: /net/lines-curves-and-shapes/draw-bezier-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Bezier Splines in Aspose.Drawing
+
 ## Introduction
 
 Welcome to our step-by-step tutorial on drawing Bezier splines using Aspose.Drawing for .NET! Bezier splines are versatile curves widely used in computer graphics. With Aspose.Drawing, a powerful .NET library, you can create stunning graphics with ease. This tutorial will guide you through the process of drawing Bezier splines in a simple and effective manner.
@@ -91,3 +97,10 @@ A4: Yes, you can explore Aspose.Drawing with our free trial [here](https://relea
 ### Q5: How can I purchase Aspose.Drawing for .NET?
 
 A5: To purchase, visit our [buy page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

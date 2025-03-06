@@ -3,10 +3,16 @@ title: .NET용 Aspose.드로잉의 매트릭스 변환
 linktitle: Aspose.드로잉의 매트릭스 변환
 second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
 description: 이 단계별 가이드를 통해 .NET용 Aspose. Drawing의 매트릭스 변환을 마스터하세요.
-type: docs
 weight: 12
 url: /ko/net/coordinate-transformations/matrix-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.드로잉의 매트릭스 변환
+
 ## 소개
 
 .NET용 Aspose.드로잉의 매트릭스 변환에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 그래픽 조작 기술을 향상하고 매트릭스 변환의 세계를 탐구하고 싶다면 올바른 위치에 오셨습니다. 이 튜토리얼에서는 Aspose. Drawing의 놀라운 기능을 살펴보고 매트릭스 변환을 마스터하기 위한 실제 예제를 안내합니다.
@@ -110,3 +116,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 ### Q5: Aspose. Drawing을 어떻게 구매할 수 있나요?
 
  A5: 라이센스 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Drawing 中的圖像上新增文本
 linktitle: 在 Aspose.Drawing 中的圖像上新增文本
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 探索使用 Aspose.Drawing for .NET 將文字無縫整合到圖像中。按照我們的逐步指南輕鬆進行影像處理。現在下載！
-type: docs
 weight: 12
 url: /zh-hant/net/use-cases/text-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Drawing 中的圖像上新增文本
+
 ## 介紹
 在 .NET 開發的動態世界中，Aspose.Drawing 作為輕鬆操作影像的強大工具脫穎而出。無論是用於浮水印、註釋還是創建個人化圖形，向圖像添加文字都是常見要求。在本教程中，我們將探索如何利用 C# 利用 Aspose.Drawing 將文字無縫整合到圖像中。
 ## 先決條件
@@ -78,3 +84,9 @@ Aspose.Drawing 支援多種圖片格式，包括 JPEG、PNG 和 GIF 等流行格
 參與社區並獲得支持[Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17).
 ### 我該如何開始使用 Aspose.Drawing？
 首先從下載庫[這裡](https://releases.aspose.com/drawing/net/)並探索全面的[文件](https://reference.aspose.com/drawing/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

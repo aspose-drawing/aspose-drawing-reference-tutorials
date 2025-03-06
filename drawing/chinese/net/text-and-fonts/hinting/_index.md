@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的提示
 linktitle: Aspose.Drawing 中的提示
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing for .NET 释放精确文本渲染的强大功能。掌握水晶般清晰的字体的提示技术。
-type: docs
 weight: 12
 url: /zh/net/text-and-fonts/hinting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的提示
+
 ## 介绍
 
 欢迎来到 Aspose.Drawing for .NET 的精确和清晰文本渲染世界！在本综合指南中，我们将深入研究提示的强大功能，增强您对字体渲染的控制，以获得具有视觉吸引力的输出。无论您是经验丰富的开发人员还是刚刚开始 Aspose.Drawing 之旅，本教程都将为您提供充分利用提示潜力的技能。
@@ -103,3 +109,9 @@ A4：是的，Aspose.Drawing支持各种文本渲染提示，以满足不同的�
 ### Q5：我可以在哪里寻求帮助或分享我使用 Aspose.Drawing 的经验？
 
  A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)与社区互动并获得支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

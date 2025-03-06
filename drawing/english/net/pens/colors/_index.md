@@ -3,10 +3,16 @@ title: Working with Colors in Aspose.Drawing
 linktitle: Working with Colors in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the vibrant world of graphic programming in .NET with Aspose.Drawing. Create stunning visuals effortlessly.
-type: docs
 weight: 10
 url: /net/pens/colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Colors in Aspose.Drawing
+
 ## Introduction
 
 Welcome to our step-by-step guide on working with colors in Aspose.Drawing for .NET! In this tutorial, we'll delve into the exciting world of manipulating colors using the powerful Aspose.Drawing library. Whether you're a seasoned developer or just starting, understanding color manipulation is crucial for creating visually stunning graphics in your .NET applications.
@@ -101,3 +107,10 @@ A4: Absolutely! Aspose.Drawing is versatile and can be used in both desktop and 
 
 A5: Yes, you can explore a free trial [here](https://releases.aspose.com/drawing/net/), allowing you to experience the capabilities of Aspose.Drawing before making a purchase.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

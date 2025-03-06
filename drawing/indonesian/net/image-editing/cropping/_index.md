@@ -3,10 +3,16 @@ title: Memotong Gambar di Aspose.Drawing
 linktitle: Memotong Gambar di Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
 description: Pemotongan gambar master dengan Aspose.Drawing untuk .NET. Panduan langkah demi langkah ini memberdayakan pengembang untuk meningkatkan keterampilan pemrosesan gambar dengan mudah.
-type: docs
 weight: 10
 url: /id/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memotong Gambar di Aspose.Drawing
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET, Aspose.Drawing menonjol sebagai alat yang ampuh untuk manipulasi gambar. Salah satu fitur praktisnya adalah kemampuan memotong gambar dengan presisi. Dalam tutorial ini, kita akan memandu proses pemotongan gambar menggunakan Aspose.Drawing untuk .NET. Bersiaplah untuk meningkatkan keterampilan pemrosesan gambar Anda!
@@ -106,3 +112,10 @@ A4: Memang benar, Aspose.Drawing unggul dalam pemrosesan batch, memungkinkan pen
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Drawing?
 
  A5: Pergilah ke[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk mencari bantuan dan berhubungan dengan komunitas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

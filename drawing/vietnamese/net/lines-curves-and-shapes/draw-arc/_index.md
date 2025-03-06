@@ -3,10 +3,16 @@ title: Vẽ các cung trong Aspose.draw
 linktitle: Vẽ các cung trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Tìm hiểu cách vẽ các vòng cung quyến rũ trong ứng dụng .NET bằng Aspose.draw. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả trực quan ấn tượng.
-type: docs
 weight: 11
 url: /vi/net/lines-curves-and-shapes/draw-arc/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ các cung trong Aspose.draw
+
 ## Giới thiệu
 
 Tạo đồ họa hấp dẫn trực quan là một khía cạnh thiết yếu của nhiều ứng dụng và Aspose.draw cho .NET làm cho công việc này trở nên dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình vẽ vòng cung bằng Aspose.drawing. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ trang bị cho bạn kiến thức để kết hợp các cung nổi bật vào các ứng dụng .NET của bạn.
@@ -85,3 +91,9 @@ Câu trả lời 4: Có, Aspose.draw tích hợp liền mạch với các thư v
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع الخطوط المثبتة في Aspose.Drawing
 linktitle: العمل مع الخطوط المثبتة في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: اكتشف قوة Aspose.Drawing لـ .NET في معالجة الخطوط المثبتة. عزز مهارات معالجة الصور لديك من خلال هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 13
 url: /ar/net/text-and-fonts/installed-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الخطوط المثبتة في Aspose.Drawing
+
 ## مقدمة
 
 في عالم تطوير .NET، يظهر Aspose.Drawing كأداة قوية لمعالجة الصور والعمل معها. يركز هذا البرنامج التعليمي على جانب محدد - وهو العمل مع الخطوط المثبتة باستخدام Aspose.Drawing for .NET. تلعب الخطوط دورًا حاسمًا في التصميم والعرض، كما أن إتقان استخدامها يمكن أن يعزز بشكل كبير قدرات معالجة الصور لديك.
@@ -106,3 +112,9 @@ A1: نعم، يمكنك استخدام الخطوط المخصصة عن طريق
 ### س5: هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

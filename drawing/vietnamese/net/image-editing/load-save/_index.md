@@ -3,10 +3,16 @@ title: Tải và lưu hình ảnh trong Aspose.draw
 linktitle: Tải và lưu hình ảnh trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Làm chủ việc tải và lưu hình ảnh trong .NET với Aspose.draw. Khám phá các định dạng BMP, GIF, JPG, PNG, TIFF một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/image-editing/load-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải và lưu hình ảnh trong Aspose.draw
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách làm chủ việc tải và lưu hình ảnh bằng Aspose.draw cho .NET! Nếu bạn đang tìm cách nâng cao kỹ năng xử lý các định dạng hình ảnh khác nhau một cách dễ dàng thì bạn đã đến đúng nơi. Aspose.draw cho .NET là một thư viện mạnh mẽ giúp đơn giản hóa quá trình làm việc với hình ảnh và trong hướng dẫn này, chúng ta sẽ đi sâu vào tải và lưu hình ảnh ở các định dạng khác nhau.
@@ -102,3 +108,9 @@ A2: Kiểm tra tài liệu chính thức[đây](https://reference.aspose.com/dra
 ### Câu hỏi 5: Tôi có thể mua thư viện Aspose.draw ở đâu?
 
  A5: Bạn có thể mua nó[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cấp phép trong Aspose.draw
 linktitle: Cấp phép trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Mở khóa toàn bộ tiềm năng của Aspose.draw trong .NET. Cấp phép chính để tích hợp liền mạch. Tải xuống ngay bây giờ và nâng cao khả năng xử lý đồ họa và hình ảnh của bạn.
-type: docs
 weight: 10
 url: /vi/net/licensing/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép trong Aspose.draw
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose. Draw nổi bật như một công cụ mạnh mẽ để xử lý đồ họa và hình ảnh. Để mở khóa toàn bộ tiềm năng của Aspose. Draw, việc hiểu rõ về cấp phép là điều tối quan trọng. Hướng dẫn này sẽ hướng dẫn bạn các phương pháp cấp phép khác nhau, đảm bảo bạn tích hợp liền mạch Aspose.draw vào các dự án .NET của mình.
@@ -138,3 +144,9 @@ Câu trả lời 4: Có, bạn có thể sử dụng Aspose.drawing trong cả d
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.drawing ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

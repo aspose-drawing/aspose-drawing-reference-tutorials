@@ -3,10 +3,16 @@ title: Chuyển đổi cục bộ trong Aspose.draw cho .NET
 linktitle: Chuyển đổi cục bộ trong Aspose.draw
 second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
 description: Khám phá các phép biến đổi cục bộ trong Aspose.draw cho .NET. Nâng cao đồ họa với các bước dễ thực hiện.
-type: docs
 weight: 11
 url: /vi/net/coordinate-transformations/local-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi cục bộ trong Aspose.draw cho .NET
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao đồ họa của ứng dụng .NET của mình bằng các phép biến đổi cục bộ nâng cao? Aspose. Draw for .NET trao quyền cho các nhà phát triển tạo ra những hình ảnh tuyệt đẹp bằng cách kết hợp các phép biến đổi cục bộ một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của các phép biến đổi cục bộ bằng Aspose.draw, hướng dẫn bạn qua từng bước để mở khóa toàn bộ tiềm năng của thư viện mạnh mẽ này.
@@ -111,3 +117,9 @@ Câu trả lời 3: Bên cạnh tính năng xoay, Aspose. Draw còn hỗ trợ d
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.draw trước khi mua không?*
 
  Câu trả lời 5: Có, bạn có thể khám phá thư viện bằng một[dùng thử miễn phí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

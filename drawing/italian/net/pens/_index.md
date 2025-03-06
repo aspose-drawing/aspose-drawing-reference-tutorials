@@ -3,10 +3,16 @@ title: Penne
 linktitle: Penne
 second_title: API Aspose.Drawing .NET alternativa a System.Drawing.Common
 description: Sblocca la potenza della programmazione grafica in .NET con i tutorial Aspose.Drawing. Scopri la manipolazione del colore, l'unione dei percorsi e l'impostazione dinamica della larghezza della penna per immagini straordinarie.
-type: docs
 weight: 24
 url: /it/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penne
+
 
 ## introduzione
 
@@ -40,3 +46,9 @@ Esplora il vibrante mondo della programmazione grafica in .NET con Aspose.Drawin
 Esplora l'arte di unire percorsi con le penne in Aspose.Drawing per .NET. Crea grafica straordinaria con le opzioni LineJoin.
 ### [Impostazione della larghezza delle penne in Aspose.Drawing](./width/)
 Esplora il mondo della grafica con Aspose.Drawing per .NET. Scopri come impostare dinamicamente la larghezza della penna per ottenere immagini straordinarie. Inizia con la nostra guida passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

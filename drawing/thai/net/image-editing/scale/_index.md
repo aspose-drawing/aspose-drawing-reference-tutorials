@@ -3,10 +3,16 @@ title: การปรับขนาดรูปภาพใน Aspose. Drawing
 linktitle: การปรับขนาดรูปภาพใน Aspose. Drawing
 second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
 description: เรียนรู้วิธีปรับขนาดรูปภาพอย่างง่ายดายใน .NET โดยใช้ Aspose. Drawing คำแนะนำทีละขั้นตอนของเราช่วยให้มั่นใจได้ถึงการบูรณาการที่ราบรื่น โดยให้ความสามารถในการจัดการภาพที่มีประสิทธิภาพ
-type: docs
 weight: 14
 url: /th/net/image-editing/scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับขนาดรูปภาพใน Aspose. Drawing
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการปรับขนาดภาพโดยใช้ Aspose. Drawing สำหรับ .NET! ในโลกแบบไดนามิกของการพัฒนาซอฟต์แวร์ การจัดการและปรับขนาดรูปภาพถือเป็นข้อกำหนดทั่วไป Aspose. Drawing ช่วยให้กระบวนการนี้ง่ายขึ้น โดยนำเสนอเครื่องมือและฟังก์ชันอันทรงพลังสำหรับการทำงานกับรูปภาพในแอปพลิเคชัน .NET ของคุณ
@@ -107,3 +113,9 @@ bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
 ### คำถามที่ 5: ฉันสามารถใช้โหมดการแก้ไขแบบกำหนดเองสำหรับการปรับขนาดภาพได้หรือไม่
 
 A5: ใช่ Aspose. Drawing ให้ความยืดหยุ่น ช่วยให้คุณสามารถเลือกโหมดการแก้ไขต่างๆ สำหรับการขยายขนาดภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

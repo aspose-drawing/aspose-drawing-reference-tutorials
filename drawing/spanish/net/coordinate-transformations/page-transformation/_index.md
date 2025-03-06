@@ -3,10 +3,16 @@ title: Transformación de página en Aspose.Drawing para .NET
 linktitle: Transformación de página en Aspose.Drawing
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Aprenda las transformaciones de páginas paso a paso en .NET usando Aspose.Drawing. Mejore sus habilidades gráficas con este completo tutorial.
-type: docs
 weight: 13
 url: /es/net/coordinate-transformations/page-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformación de página en Aspose.Drawing para .NET
+
 ## Introducción
 
 Bienvenido a este tutorial completo sobre transformación de páginas usando Aspose.Drawing para .NET. Si está buscando mejorar sus habilidades para trabajar con gráficos y transformaciones de mapas de bits, está en el lugar correcto. En este tutorial, lo guiaremos a través del proceso de transformación de páginas usando Aspose.Drawing, asegurándonos de que comprenda cada paso con claridad.
@@ -109,3 +115,9 @@ En este tutorial, cubrimos los pasos fundamentales para realizar la transformaci
 ### P5: ¿Dónde puedo comprar Aspose.Drawing?
 
  A5: Puedes comprar Aspose.Drawing[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Des stylos
 linktitle: Des stylos
 second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
 description: Libérez la puissance de la programmation graphique dans .NET avec les didacticiels Aspose.Drawing. Découvrez la manipulation des couleurs, la jonction de chemins et le réglage dynamique de la largeur du stylet pour des visuels époustouflants.
-type: docs
 weight: 24
 url: /fr/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Des stylos
+
 
 ## Introduction
 
@@ -40,3 +46,9 @@ Explorez le monde dynamique de la programmation graphique dans .NET avec Aspose.
 Découvrez l'art de joindre des chemins avec des stylos dans Aspose.Drawing pour .NET. Créez des graphiques époustouflants avec les options LineJoin.
 ### [Définition de la largeur des stylos dans Aspose.Drawing](./width/)
 Explorez le monde du graphisme avec Aspose.Drawing pour .NET. Découvrez comment définir dynamiquement la largeur des stylets pour obtenir des visuels époustouflants. Commencez avec notre guide étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

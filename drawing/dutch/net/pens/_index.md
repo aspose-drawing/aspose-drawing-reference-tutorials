@@ -3,10 +3,16 @@ title: Pennen
 linktitle: Pennen
 second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
 description: Ontgrendel de kracht van grafisch programmeren in .NET met Aspose.Drawing-tutorials. Ontdek kleurmanipulatie, padverbinding en dynamische penbreedte-instelling voor verbluffende beelden.
-type: docs
 weight: 24
 url: /nl/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pennen
+
 
 ## Invoering
 
@@ -40,3 +46,9 @@ Ontdek de levendige wereld van grafisch programmeren in .NET met Aspose.Drawing.
 Ontdek de kunst van het verbinden van paden met pennen in Aspose.Drawing voor .NET. Maak verbluffende afbeeldingen met LineJoin-opties.
 ### [Breedte van pennen instellen in Aspose.Drawing](./width/)
 Ontdek de grafische wereld met Aspose.Drawing voor .NET. Leer hoe u de penbreedte dynamisch instelt voor verbluffende beelden. Ga aan de slag met onze stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

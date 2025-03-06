@@ -3,10 +3,16 @@ title: Линии, кривые и фигуры
 linktitle: Линии, кривые и фигуры
 second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
 description: Раскройте магию .NET Aspose.Drawing! Изучите учебные пособия по линиям, кривым и фигурам, чтобы получить яркую графику освойте сплошные кисти, дуги, сплайны, эллипсы и другие творческие способности.
-type: docs
 weight: 23
 url: /ru/net/lines-curves-and-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Линии, кривые и фигуры
+
 
 ## Введение
 
@@ -69,3 +75,9 @@ url: /ru/net/lines-curves-and-shapes/
 Узнайте, как рисовать прямоугольники в .NET с помощью Aspose.Drawing. Пошаговое руководство с примерами кода.
 ### [Заполнение областей в Aspose.Drawing](./fill-region/)
 Узнайте, как заполнять области в Aspose.Drawing для .NET, с помощью этого пошагового руководства. Совершенствуйте свои навыки графического дизайна без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

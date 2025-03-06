@@ -3,10 +3,16 @@ title: Drawing Cardinal Splines in Aspose.Drawing
 linktitle: Drawing Cardinal Splines in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Explore the art of drawing cardinal splines in .NET applications with Aspose.Drawing. Create smooth curves effortlessly.
-type: docs
 weight: 13
 url: /net/lines-curves-and-shapes/draw-cardinal-spline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Cardinal Splines in Aspose.Drawing
+
 ## Introduction
 
 Aspose.Drawing for .NET empowers developers to create sophisticated graphics applications seamlessly. In this tutorial, we'll delve into the fascinating world of drawing cardinal splines using Aspose.Drawing. Cardinal splines provide a smooth curve interpolation, and with the powerful capabilities of Aspose.Drawing, you can effortlessly integrate these curves into your .NET applications.
@@ -89,3 +95,10 @@ A4: Yes, explore the features with the [free trial](https://releases.aspose.com/
 ### Q5: How do I access the documentation?
 
 A5: Refer to the comprehensive [documentation](https://reference.aspose.com/drawing/net/) for detailed information and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

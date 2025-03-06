@@ -3,10 +3,16 @@ title: الترخيص في Aspose.Drawing
 linktitle: الترخيص في Aspose.Drawing
 second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.Drawing في .NET. الترخيص الرئيسي للتكامل السلس. قم بالتنزيل الآن ورفع مستوى الرسومات ومعالجة الصور.
-type: docs
 weight: 10
 url: /ar/net/licensing/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص في Aspose.Drawing
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Drawing كأداة قوية لمعالجة الرسومات والصور. لإطلاق الإمكانات الكاملة لـ Aspose.Drawing، يعد فهم الترخيص أمرًا بالغ الأهمية. سيرشدك هذا البرنامج التعليمي عبر طرق الترخيص المختلفة، مما يضمن لك دمج Aspose.Drawing بسلاسة في مشاريع .NET الخاصة بك.
@@ -138,3 +144,9 @@ Console.WriteLine("Credits Consumed: " + credits.ToString());
 ### س5: أين يمكنني العثور على الدعم المجتمعي لـ Aspose.Drawing؟
 
  ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

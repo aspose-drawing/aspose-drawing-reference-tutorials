@@ -3,10 +3,16 @@ title: 鋼筆
 linktitle: 鋼筆
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 透過 Aspose.Drawing 教學解鎖 .NET 中圖形程式設計的強大功能。探索色彩操縱、路徑連接和動態筆寬度設置，以獲得令人驚嘆的視覺效果。
-type: docs
 weight: 24
 url: /zh-hant/net/pens/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 鋼筆
+
 
 ## 介紹
 
@@ -40,3 +46,9 @@ url: /zh-hant/net/pens/
 探索在 Aspose.Drawing for .NET 中使用筆連接路徑的藝術。使用 LineJoin 選項來建立令人驚嘆的圖形。
 ### [在Aspose.Drawing中設定筆的寬度](./width/)
 使用 Aspose.Drawing for .NET 探索圖形世界。了解如何動態設定筆寬度以獲得令人驚嘆的視覺效果。開始使用我們的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

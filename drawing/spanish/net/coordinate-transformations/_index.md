@@ -3,10 +3,16 @@ title: Transformaciones de coordenadas
 linktitle: Transformaciones de coordenadas
 second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
 description: Mejore sus habilidades gráficas con nuestros tutoriales de Aspose.Drawing. Explore transformaciones globales, locales, matriciales, de páginas y mundiales, dominando los gráficos de precisión en .NET.
-type: docs
 weight: 20
 url: /es/net/coordinate-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformaciones de coordenadas
+
 
 ## Introducción
 
@@ -56,3 +62,9 @@ Aprenda las transformaciones de páginas paso a paso en .NET usando Aspose.Drawi
 Explore la versatilidad de Aspose.Drawing para .NET en este tutorial detallado, dominando las unidades de medida para gráficos de precisión.
 ### [Transformación mundial en Aspose.Drawing](./world-transformation/)
 Explore las transformaciones del mundo en Aspose.Drawing para .NET. Mejore sus gráficos con pasos fáciles de seguir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

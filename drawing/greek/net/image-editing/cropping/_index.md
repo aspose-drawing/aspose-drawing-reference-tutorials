@@ -3,10 +3,16 @@ title: Περικοπή εικόνων στο Aspose.Drawing
 linktitle: Περικοπή εικόνων στο Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Εναλλακτική λύση στο System.Drawing.Common
 description: Κύρια περικοπή εικόνας με Aspose.Drawing για .NET. Αυτός ο οδηγός βήμα προς βήμα δίνει τη δυνατότητα στους προγραμματιστές να βελτιώσουν τις δεξιότητες επεξεργασίας εικόνας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περικοπή εικόνων στο Aspose.Drawing
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης .NET, το Aspose.Drawing ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό εικόνας. Ένα από τα εύχρηστα χαρακτηριστικά του είναι η δυνατότητα περικοπής εικόνων με ακρίβεια. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία περικοπής εικόνων χρησιμοποιώντας το Aspose.Drawing για .NET. Ετοιμαστείτε να βελτιώσετε τις δεξιότητές σας στην επεξεργασία εικόνας!
@@ -106,3 +112,10 @@ A4: Πράγματι, το Aspose.Drawing υπερέχει στη μαζική �
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Drawing;
 
  Α5: Κατευθυνθείτε προς το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17) να αναζητήσει βοήθεια και να συνδεθεί με την κοινότητα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

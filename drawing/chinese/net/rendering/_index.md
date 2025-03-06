@@ -3,10 +3,16 @@ title: 渲染
 linktitle: 渲染
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 使用 Aspose.Drawing 解锁 .NET 图形掌握！通过 Alpha 混合提升项目的半透明效果。了解抗锯齿和剪切以增强设计。
-type: docs
 weight: 25
 url: /zh/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 渲染
+
 ## 介绍
 
 欢迎来到 Aspose.Drawing 的图形大师世界！在本综合指南中，我们深入研究了三种关键渲染技术：Alpha 混合、抗锯齿和剪切。无论您是经验丰富的开发人员还是刚开始接触 .NET 图形，本教程系列都会让每个人都感到兴奋。
@@ -45,3 +51,9 @@ Alpha 混合是 .NET 图形中令人惊叹的半透明效果背后的秘密武�
 使用 Aspose.Drawing 增强 .NET 应用程序中的图形。实现平滑边缘的抗锯齿。请遵循我们的分步指南。
 ### [Aspose.Drawing 中的剪辑](./clipping/)
 通过此分步教程探索 Aspose.Drawing for .NET 的强大功能，实现增强图形设计的裁剪。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

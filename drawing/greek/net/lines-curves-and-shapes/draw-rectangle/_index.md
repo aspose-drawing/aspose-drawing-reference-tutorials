@@ -3,10 +3,16 @@ title: Σχεδιάζοντας ορθογώνια στο Aspose.Drawing
 linktitle: Σχεδιάζοντας ορθογώνια στο Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Εναλλακτική λύση στο System.Drawing.Common
 description: Μάθετε πώς να σχεδιάζετε ορθογώνια στο .NET χρησιμοποιώντας το Aspose.Drawing. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 19
 url: /el/net/lines-curves-and-shapes/draw-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχεδιάζοντας ορθογώνια στο Aspose.Drawing
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το ολοκληρωμένο σεμινάριο σχεδίασης ορθογωνίων χρησιμοποιώντας το Aspose.Drawing για .NET. Είτε είστε έμπειρος προγραμματιστής είτε νέος χρήστης στο Aspose.Drawing, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία δημιουργίας και χειρισμού ορθογωνίων στις εφαρμογές σας .NET.
@@ -98,3 +104,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.Drawing;
 
  Α5: Επίσκεψη[εδώ](https://purchase.aspose.com/buy) να αγοράσει άδεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

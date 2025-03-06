@@ -3,10 +3,16 @@ title: Aspose.Drawing 中的直接資料存取
 linktitle: Aspose.Drawing 中的直接資料存取
 second_title: Aspose.Drawing .NET API - System.Drawing.Common 的替代方案
 description: 學習使用 Aspose.Drawing for .NET 有效率地操作影像。透過我們的逐步指南深入了解直接資料存取。
-type: docs
 weight: 11
 url: /zh-hant/net/image-editing/direct-data-access/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Drawing 中的直接資料存取
+
 ## 介紹
 
 歡迎來到 Aspose.Drawing for .NET 的世界，這是一個功能強大的程式庫，使開發人員能夠輕鬆操作和建立圖像。在本教程中，我們將深入研究直接資料存取的複雜性，這是 Aspose.Drawing 的一個重要方面，它允許您有效地處理像素資料。
@@ -95,3 +101,9 @@ A4：請參閱[文件](https://reference.aspose.com/drawing/net/)進行全面指
 ### Q5：如何購買 Aspose.Drawing for .NET？
 
  A5：購買Aspose.Drawing[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cortando imagens em Aspose.Drawing
 linktitle: Cortando imagens em Aspose.Drawing
 second_title: API Aspose.Drawing .NET - Alternativa ao System.Drawing.Common
 description: Domine o corte de imagens com Aspose.Drawing para .NET. Este guia passo a passo capacita os desenvolvedores a aprimorar as habilidades de processamento de imagens sem esforço.
-type: docs
 weight: 10
 url: /pt/net/image-editing/cropping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cortando imagens em Aspose.Drawing
+
 ## Introdução
 
 No mundo do desenvolvimento .NET, Aspose.Drawing se destaca como uma ferramenta poderosa para manipulação de imagens. Um de seus recursos úteis é a capacidade de cortar imagens com precisão. Neste tutorial, percorreremos o processo de corte de imagens usando Aspose.Drawing for .NET. Prepare-se para aprimorar suas habilidades de processamento de imagens!
@@ -106,3 +112,10 @@ A4: Na verdade, o Aspose.Drawing é excelente no processamento em lote, permitin
 ### P5: Como posso obter suporte para consultas relacionadas ao Aspose.Drawing?
 
  A5: Vá para o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para buscar assistência e se conectar com a comunidade.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
