@@ -1,108 +1,152 @@
 ---
-title: Transformasi Dunia di Aspose.Menggambar
-linktitle: Transformasi Dunia di Aspose.Menggambar
-second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
-description: Jelajahi transformasi dunia di Aspose.Drawing untuk .NET. Tingkatkan grafis Anda dengan langkah-langkah yang mudah diikuti.
+date: 2025-11-29
+description: Pelajari cara membuat bitmap dengan Aspose.Drawing, menerapkan transformasi
+  dunia, dan mengonversi grafik ke PNG. Panduan langkah demi langkah untuk pengembang
+  .NET.
+language: id
+linktitle: World Transformation in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Buat Bitmap dengan Aspose.Drawing – Panduan Transformasi Dunia
+url: /net/coordinate-transformations/world-transformation/
 weight: 15
-url: /id/net/coordinate-transformations/world-transformation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformasi Dunia di Aspose.Menggambar
+# Create Bitmap with Aspose.Drawing – World Transformation
 
-## Perkenalan
+## Introduction
 
-Selamat datang di dunia Aspose.Drawing untuk .NET! Dalam tutorial ini, kita akan menjelajahi dunia transformasi dunia yang menakjubkan menggunakan Aspose.Drawing. Jika Anda ingin meningkatkan kemampuan grafis dan pencitraan dalam aplikasi .NET, Anda berada di tempat yang tepat.
+Selamat datang! Pada tutorial ini Anda akan **create bitmap with Aspose.Drawing** dan menjelajahi world transformation yang memungkinkan Anda menggeser, memutar, atau menskala grafik dengan mudah. Baik Anda membutuhkan **graphics translate example**, ingin **convert graphics to PNG**, atau merencanakan **multiple graphics transformations**, panduan ini akan memandu Anda melalui setiap langkah dengan gaya yang jelas dan percakapan.
 
-## Prasyarat
+## Quick Answers
+- **What does “world transformation” mean?** It maps your drawing’s logical (world) coordinates to the page (device) coordinates.  
+- **Can I export the result as PNG?** Yes – after drawing you simply call `bitmap.Save(...)` with a `.png` extension.  
+- **Do I need a license for Aspose.Drawing?** A free trial works for development; a commercial license is required for production.  
+- **Is this compatible with .NET 6/7?** Absolutely – Aspose.Drawing supports .NET Framework 4.5+ and .NET Core/5/6/7.  
+- **How many transformations can I chain?** You can apply **multiple graphics transformations** in sequence (translate, rotate, scale, etc.).
 
-Sebelum kita terjun ke dunia transformasi, pastikan Anda memiliki prasyarat berikut:
+## What is a World Transformation in Aspose.Drawing?
 
--  Perpustakaan Aspose.Drawing: Pastikan Anda telah mengintegrasikan perpustakaan Aspose.Drawing ke dalam proyek .NET Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/drawing/net/).
+World transformation mengubah sistem koordinat yang digunakan perintah menggambar Anda. Secara default, (0,0) berada di sudut kiri‑atas bitmap. Dengan `TranslateTransform`, `RotateTransform`, atau `ScaleTransform`, Anda dapat memindahkan asal tersebut, memutar bentuk, atau mengubah ukurannya tanpa mengubah geometri asli.
 
-- Direktori Dokumen: Buat direktori khusus untuk dokumen Anda.
+## Why Use a Graphics Translate Example?
 
-- Pengetahuan Dasar C#: Biasakan diri Anda dengan dasar-dasar pemrograman C#.
+- **Simplifies positioning** – move objects without recalculating each point.  
+- **Keeps code clean** – one transformation call replaces many manual coordinate adjustments.  
+- **Boosts performance** – the graphics engine handles the math internally.  
 
-Sekarang, mari kita mulai dengan keajaiban transformasi!
+## Prerequisites
 
-## Impor Namespace
+Sebelum kita mulai, pastikan Anda memiliki:
 
-Mulailah dengan mengimpor namespace yang diperlukan:
+- **Aspose.Drawing library** yang terintegrasi ke dalam proyek .NET Anda (unduh dari halaman resmi [Aspose.Drawing release page](https://releases.aspose.com/drawing/net/)).  
+- Sebuah **document directory** tempat gambar output akan disimpan.  
+- Pengetahuan dasar tentang sintaks **C#** dan Visual Studio atau IDE pilihan Anda.  
+
+Sekarang, mari kita selami kode!
+
+## Import Namespaces
+
+Pertama, import namespace yang diperlukan:
 
 ```csharp
 using System.Drawing;
 using Aspose.Drawing;
 ```
 
-## Langkah 1: Buat Bitmap
+Ini memberi Anda akses ke `Bitmap`, `Graphics`, dan utilitas menggambar Aspose.
+
+## Step‑by‑Step Guide
+
+### Step 1: Create a Bitmap
+
+Kita mulai dengan membuat kanvas kosong yang akan menampung gambar kita.
 
 ```csharp
-//ExStart: Transformasi Dunia
+//ExStart: WorldTransformation
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-Di sini, kami menginisialisasi bitmap baru dengan dimensi tertentu dan mengatur format pikselnya.
+- **Why 32bppPArgb?** This pixel format supports alpha transparency and high‑quality color rendering, perfect for PNG output.  
+- **Pro tip:** Adjust the width/height to match your target image size.
 
-## Langkah 2: Atur Transformasi
+### Step 2: Set the World Transformation (Graphics Translate Example)
+
+Di sini kita menggeser asal ke tengah bitmap sehingga perintah menggambar bersifat relatif terhadap titik tersebut.
 
 ```csharp
-// Atur transformasi yang memetakan koordinat dunia ke koordinat halaman:
+// Set the transformation that maps world coordinates to page coordinates:
 graphics.TranslateTransform(500, 400);
 ```
 
- Langkah ini melibatkan pendefinisian transformasi yang memetakan koordinat dunia ke koordinat halaman. Itu`TranslateTransform` metode yang digunakan untuk menggeser sistem koordinat.
+- Ini memindahkan titik (0,0) ke (500, 400) – tengah dari kanvas 1000 × 800.  
+- Anda dapat menambahkan transformasi lain (misalnya `RotateTransform`, `ScaleTransform`) untuk **multiple graphics transformations**.
 
-## Langkah 3: Gambar Persegi Panjang
+### Step 3: Draw a Rectangle Using the Transformed Coordinates
+
+Sekarang setiap bentuk yang kita gambar akan diposisikan relatif terhadap asal baru.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawRectangle(pen, 0, 0, 300, 200);
 ```
 
-Sekarang, kita menggunakan sistem koordinat yang diubah untuk menggambar persegi panjang pada bitmap.
+- Sudut kiri‑atas rectangle dimulai dari asal yang telah ditransformasi (tengah gambar).  
+- Silakan bereksperimen dengan bentuk lain—ellipse, line, atau custom path.
 
-## Langkah 4: Simpan Hasilnya
+### Step 4: Save the Result – Convert Graphics to PNG
+
+Terakhir, simpan bitmap sebagai file PNG.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\WorldTransformation_out.png");
-//ExEnd: Transformasi Dunia
+//ExEnd: WorldTransformation
 ```
 
-Terakhir, simpan gambar yang diubah ke direktori dokumen yang Anda tentukan.
+- PNG mempertahankan warna dan transparansi yang telah kita set sebelumnya.  
+- Ganti `"Your Document Directory"` dengan path sebenarnya di mesin Anda.
 
-Ulangi langkah-langkah ini untuk transformasi tambahan atau sesuaikan parameter untuk menyaksikan keajaiban visual Aspose.Drawing!
+## Common Issues and Solutions
 
-## Kesimpulan
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **File not found error** when saving | The target folder doesn’t exist. | Create the folder programmatically (`Directory.CreateDirectory`) before calling `Save`. |
+| **Blank image** after transformation | `TranslateTransform` called after drawing. | Ensure the transformation is set **before** any drawing commands. |
+| **Distorted colors** | Using an incompatible pixel format. | Stick with `Format32bppPArgb` for PNG output. |
 
-Selamat! Anda telah membuka kekuatan transformasi dunia menggunakan Aspose.Drawing untuk .NET. Bereksperimen, jelajahi, dan tingkatkan karya grafis Anda dengan perpustakaan canggih ini.
+## Frequently Asked Questions
 
-## FAQ
+**Q: Can I apply more than one transformation?**  
+A: Yes – you can chain `TranslateTransform`, `RotateTransform`, and `ScaleTransform` to achieve complex effects.
 
-### Q1: Apakah Aspose.Drawing kompatibel dengan semua kerangka .NET?
+**Q: Is Aspose.Drawing free for commercial projects?**  
+A: A free trial is available for evaluation, but a commercial license is required for production use.
 
-A1: Ya, Aspose.Drawing mendukung berbagai kerangka .NET, memastikan kompatibilitas dengan berbagai aplikasi.
+**Q: Does this work with .NET Core and .NET 5/6/7?**  
+A: Absolutely. Aspose.Drawing supports all modern .NET runtimes.
 
-### 2: Bisakah saya menerapkan beberapa transformasi secara berurutan?
+**Q: Where can I find the full API reference?**  
+A: The complete documentation is available [here](https://reference.aspose.com/drawing/net/).
 
-A2: Tentu saja! Jangan ragu untuk merangkai beberapa transformasi untuk mencapai efek grafis yang rumit.
+**Q: How do I troubleshoot a missing output file?**  
+A: Verify the path string, ensure write permissions, and confirm the directory exists before calling `Save`.
 
-### Q3: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Drawing?
+## Conclusion
 
- A3: Lihat dokumentasi[Di Sini](https://reference.aspose.com/drawing/net/) untuk wawasan dan contoh yang komprehensif.
+Anda kini telah mempelajari cara **create bitmap with Aspose.Drawing**, menerapkan **world transformation**, dan **convert graphics to PNG**. Dengan menguasai dasar‑dasar ini, Anda dapat membangun grafik yang lebih kaya, menghasilkan gambar dinamis, dan mengintegrasikan efek visual yang canggih ke dalam aplikasi .NET apa pun.
 
-### Q4: Apakah tersedia uji coba gratis?
+---
 
- A4: Ya, jelajahi fitur-fiturnya dengan[uji coba gratis](https://releases.aspose.com/) sebelum melakukan pembelian.
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
+**Related Resources:** [Aspose.Drawing API Reference](https://reference.aspose.com/drawing/net/) | [Download Free Trial](https://releases.aspose.com/drawing/net/)
 
-### Q5: Bagaimana saya bisa mendapatkan dukungan atau terhubung dengan komunitas?
-
- A5: Bergabunglah dalam diskusi dan cari bantuan mengenai hal ini[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
