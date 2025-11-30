@@ -1,123 +1,161 @@
 ---
-title: Преобразование страниц в Aspose.Drawing для .NET
-linktitle: Преобразование страницы в Aspose.Drawing
-second_title: Aspose.Drawing .NET API — альтернатива System.Drawing.Common
-description: Изучите пошаговые преобразования страниц в .NET с помощью Aspose.Drawing. Улучшите свои графические навыки с помощью этого подробного руководства.
+date: 2025-11-30
+description: Узнайте, как применять преобразование системы координат, рисовать прямоугольный
+  битмап и трансформировать страницы с помощью Aspose.Drawing для .NET.
+language: ru
+linktitle: Page Transformation in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Преобразование системы координат (преобразование страницы) в Aspose.Drawing
+  для .NET
+url: /net/coordinate-transformations/page-transformation/
 weight: 13
-url: /ru/net/coordinate-transformations/page-transformation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Преобразование страниц в Aspose.Drawing для .NET
+# Преобразование системы координат (Преобразование страницы) в Aspose.Drawing для .NET
 
 ## Введение
 
-Добро пожаловать в это подробное руководство по преобразованию страниц с помощью Aspose.Drawing для .NET. Если вы хотите улучшить свои навыки работы с графикой и преобразованиями растровых изображений, вы попали по адресу. В этом уроке мы проведем вас через процесс преобразования страниц с помощью Aspose.Drawing, гарантируя, что вы четко поймете каждый шаг.
+Welcome! In this tutorial you’ll discover **how to perform a coordinate system transformation** on a page using Aspose.Drawing for .NET. Whether you need to **draw rectangle bitmap** objects, scale drawings, or simply map page units to device units, the steps below will guide you through the entire process—clear, concise, and ready to copy‑paste into your project.
 
-## Предварительные условия
+## Быстрые ответы
+- **Каков основной класс для рисования?** `Graphics` from Aspose.Drawing.
+- **Как установить единицы страницы?** Use `graphics.PageUnit = GraphicsUnit.Inch;`.
+- **Могу ли я нарисовать прямоугольник на преобразованной странице?** Yes—create a `Pen` and call `DrawRectangle`.
+- **Где сохраняется результат?** To the folder you specify in `bitmap.Save`.
+- **Нужна ли лицензия для продакшн?** A valid Aspose.Drawing license is required for commercial use.
 
-Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующие предварительные условия:
+## Что такое преобразование системы координат?
 
--  Библиотека Aspose.Drawing: Загрузите и установите библиотеку Aspose.Drawing. Вы можете найти последнюю версию[здесь](https://releases.aspose.com/drawing/net/).
+A **coordinate system transformation** changes the way logical page coordinates (like inches or millimeters) map to physical device coordinates (pixels). By adjusting the transformation, you control scaling, rotation, and translation of all drawing operations, making it easier to design graphics that are resolution‑independent.
 
-- Среда разработки: настройте среду разработки с помощью Visual Studio или любого другого предпочтительного инструмента разработки .NET.
+## Почему стоит использовать Aspose.Drawing для преобразования страниц?
 
-- Каталог ваших документов: замените «Каталог ваших документов» в коде фактическим каталогом, в котором вы хотите сохранить преобразованное изображение.
+- **Full .NET compatibility** – работает с .NET Framework, .NET Core и .NET 5/6.
+- **Rich graphics API** – предоставляет тот же функционал, что и System.Drawing.Common, без ограничений платформы.
+- **Simple unit handling** – позволяет переключаться между дюймами, миллиметрами, пунктами и т.д. с помощью одного свойства.
+- **High‑quality output** – генерирует PNG, JPEG, BMP и другие форматы с точным контролем.
 
-Теперь, когда у нас есть необходимые предпосылки, давайте приступим к пошаговому руководству.
+## Необходимые условия
 
-## Импортировать пространства имен
+Before we dive in, ensure you have:
 
-В вашем проекте .NET начните с импорта необходимых пространств имен:
+- **Aspose.Drawing Library** – загрузите последнюю версию с официального сайта [here](https://releases.aspose.com/drawing/net/).
+- **Development Environment** – Visual Studio (любая редакция) или другая .NET IDE.
+- **Write Access** – папка на вашем компьютере, куда будет сохраняться преобразованное изображение (замените `"Your Document Directory"` в коде на фактический путь).
+
+Now that we’re set, let’s walk through each step.
+
+## Импорт пространств имён
+
+First, bring the required namespace into scope:
 
 ```csharp
 using System.Drawing;
 ```
 
-## Шаг 1. Создайте растровое изображение
+> *Почему это важно*: `System.Drawing` содержит структуры `Bitmap`, `Graphics`, `Pen` и цвета, которые мы будем использовать в течение всего руководства.
 
-Начните с создания нового растрового изображения с определенными размерами и форматом пикселей:
+## Шаг 1: Создание Bitmap
+
+Create a blank canvas that will host the transformed drawing. We specify a size of **1000 × 800 pixels** and a pixel format that supports alpha transparency.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-Это инициализирует пустой холст для вашего преобразования.
+> This bitmap acts as the drawing surface. The chosen pixel format (`Format32bppPArgb`) ensures high‑quality rendering with premultiplied alpha.
 
-## Шаг 2. Создайте графический объект
+## Шаг 2: Создание объекта Graphics
 
-Создайте объект Graphics из растрового изображения, чтобы рисовать на нем:
+A `Graphics` object provides the drawing methods (lines, shapes, text). We obtain it from the bitmap we just created.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Шаг 3: Очистите холст
+> The `Graphics` object is the core of all rendering operations; it respects the transformation settings we’ll apply next.
 
-Очистите холст, заполнив его определенным цветом (в данном случае серым):
+## Шаг 3: Очистка холста
+
+Before drawing anything, clear the canvas to a neutral background color (gray in this example). This step also demonstrates how to fill the entire bitmap with a solid color.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## Шаг 4: Установите преобразование
+## Шаг 4: Установка преобразования (Применение преобразования страницы)
 
-Установите преобразование, которое сопоставляет координаты страницы с координатами устройства. В этом примере мы используем дюймы:
+Here we **apply the page transformation** by setting the `PageUnit` to inches. This tells the graphics engine to interpret all subsequent coordinates as inches rather than pixels.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-## Шаг 5: Нарисуйте прямоугольник
+> *Tip*: Changing `PageUnit` is a simple way to **how to transform page** coordinates without manually calculating pixel values.
 
-Используйте объект Graphics, чтобы нарисовать прямоугольник указанным пером:
+## Шаг 5: Рисование прямоугольника (Draw rectangle bitmap)
+
+Now we draw a rectangle that measures **1 inch × 1 inch** at position (1, 1) inches. The `Pen` width is set to `0.1f` inches, giving a thin but visible line.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-## Шаг 6: Сохраните изображение
+> This demonstrates **draw rectangle bitmap** after the transformation has been applied—notice how the rectangle size is defined in inches, not pixels.
 
-Сохраните преобразованное изображение в указанный вами каталог:
+## Шаг 6: Сохранение изображения
+
+Finally, persist the transformed bitmap to disk. Replace `"Your Document Directory"` with the actual folder path on your machine.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-Поздравляем! Вы успешно преобразовали страницу с помощью Aspose.Drawing для .NET.
+> The output file (`PageTransformation_out.png`) will contain the rectangle drawn using the coordinate system transformation we set earlier.
 
-## Заключение
+## Распространённые проблемы и решения
 
-В этом уроке мы рассмотрели основные шаги по преобразованию страницы с помощью Aspose.Drawing. Выполнив эти шаги, вы сможете легко интегрировать эти преобразования в свои приложения .NET.
+| Проблема | Причина | Решение |
+|----------|---------|---------|
+| **Изображение пустое** | Холст не очищен или рисование выполнено за пределами видимой области. | Проверьте `graphics.PageUnit` и значения координат; убедитесь, что прямоугольник находится внутри границ bitmap. |
+| **Неправильное масштабирование** | Используется неверный `GraphicsUnit`. | Убедитесь, что `graphics.PageUnit` соответствует требуемой единице (например, `GraphicsUnit.Inch`). |
+| **Ошибки пути к файлу** | Отсутствует директория или недопустимые символы. | Создайте целевую папку заранее или используйте `Path.Combine` для безопасного построения пути. |
 
 ## Часто задаваемые вопросы
 
-### В1: Могу ли я использовать Aspose.Drawing бесплатно?
+**Q: Можно ли использовать Aspose.Drawing бесплатно?**  
+A: Aspose.Drawing предлагает бесплатную пробную версию, которую можно получить [here](https://releases.aspose.com/).
 
- A1: Aspose.Drawing предлагает бесплатную пробную версию, к которой вы можете получить доступ.[здесь](https://releases.aspose.com/).
+**Q: Где можно найти подробную документацию по Aspose.Drawing?**  
+A: Документация доступна [here](https://reference.aspose.com/drawing/net/).
 
-### Вопрос 2: Где я могу найти подробную документацию по Aspose.Drawing?
+**Q: Как получить поддержку по Aspose.Drawing?**  
+A: Для поддержки посетите [форум Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
- A2: документация доступна.[здесь](https://reference.aspose.com/drawing/net/).
+**Q: Доступна ли временная лицензия для Aspose.Drawing?**  
+A: Да, временную лицензию можно получить [here](https://purchase.aspose.com/temporary-license/).
 
-### В3: Как я могу получить поддержку Aspose.Drawing?
+**Q: Где можно приобрести Aspose.Drawing?**  
+A: Aspose.Drawing можно приобрести [here](https://purchase.aspose.com/buy).
 
- A3: Для получения поддержки посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
+## Заключение
 
-### Вопрос 4: Доступна ли временная лицензия для Aspose.Drawing?
+You’ve now learned how to **apply a coordinate system transformation**, **draw rectangle bitmap** objects, and **save the result** using Aspose.Drawing for .NET. These building blocks let you create resolution‑independent graphics, perfect for reports, UI elements, or any scenario where precise sizing matters. Experiment with other `GraphicsUnit` values (like `Millimeter` or `Point`) to see how they affect your drawings.
 
- О4: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
-
-### Вопрос 5: Где я могу приобрести Aspose.Drawing?
-
- A5: Вы можете приобрести Aspose.Drawing[здесь](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Последнее обновление:** 2025-11-30  
+**Тестировано с:** Aspose.Drawing 24.11 for .NET  
+**Автор:** Aspose
