@@ -39,7 +39,7 @@ A world transformation changes the coordinate system that your drawing commands 
 
 Before we begin, ensure you have:
 
-- **Aspose.Drawing library** integrated into your .NET project (download from the official [Aspose.Drawing release page](https://releases.aspose.com/drawing/net/)).  
+- **Aspose.Drawing library** integrated into your .NET project download from the official [Aspose.Drawing release page](https://releases.aspose.com/drawing/net/).  
 - A **document directory** where the output image will be saved.  
 - Basic familiarity with **C#** syntax and Visual Studio or your preferred IDE.  
 
