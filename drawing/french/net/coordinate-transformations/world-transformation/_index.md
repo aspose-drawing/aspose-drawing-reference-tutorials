@@ -11,7 +11,7 @@ url: /net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -150,6 +150,6 @@ Vous avez maintenant appris à **créer un bitmap avec Aspose.Drawing**, à appl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
