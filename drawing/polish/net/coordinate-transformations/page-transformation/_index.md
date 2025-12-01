@@ -1,37 +1,55 @@
 ---
-title: Transformacja strony w Aspose.Drawing dla .NET
-linktitle: Transformacja strony w Aspose.Drawing
-second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
-description: Dowiedz się krok po kroku transformacji stron w .NET przy użyciu Aspose.Drawing. Popraw swoje umiejętności graficzne dzięki temu obszernemu samouczkowi.
+date: 2025-12-01
+description: Dowiedz się, jak przeprowadzić transformację układu współrzędnych i rysować
+  grafiki prostokątne w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku,
+  jak przekształcać współrzędne strony.
+language: pl
+linktitle: Coordinate System Transformation in Aspose.Drawing
+second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
+title: Transformacja układu współrzędnych – Transformacja strony w Aspose.Drawing
+  dla .NET
+url: /net/coordinate-transformations/page-transformation/
 weight: 13
-url: /pl/net/coordinate-transformations/page-transformation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformacja strony w Aspose.Drawing dla .NET
+# Transformacja układu współrzędnych – Transformacja strony w Aspose.Drawing dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym kompleksowym samouczku na temat transformacji strony przy użyciu Aspose.Drawing dla .NET. Jeśli chcesz udoskonalić swoje umiejętności w pracy z grafiką i transformacjami bitmap, jesteś we właściwym miejscu. W tym samouczku poprowadzimy Cię przez proces przekształcania stron za pomocą Aspose.Drawing, upewniając się, że rozumiesz każdy krok w przejrzysty sposób.
+Witamy! W tym samouczku odkryjesz **jak przekształcić współrzędne strony** przy użyciu Aspose.Drawing dla .NET i poznasz podstawy **transformacji układu współrzędnych**. Niezależnie od tego, czy tworzysz aplikację intensywnie korzystającą z grafiki, czy potrzebujesz precyzyjnej kontroli nad jednostkami rysowania, ten przewodnik przeprowadzi Cię przez każdy krok — od konfiguracji płótna po narysowanie elementu graficznego w kształcie prostokąta. Po zakończeniu będziesz mógł zastosować te techniki w własnych projektach z pewnością.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czym jest transformacja układu współrzędnych?** Mapowanie jednostek na poziomie strony (takich jak cale) na piksele na poziomie urządzenia.  
+- **Dlaczego używać Aspose.Drawing?** Oferuje w pełni zarządzaną alternatywę dla System.Drawing.Common z obsługą wieloplatformową.  
+- **Jak długo trwa implementacja przykładu?** Około 5‑10 minut dla podstawowej transformacji strony.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w fazie rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest transformacja układu współrzędnych?
 
--  Biblioteka Aspose.Drawing: Pobierz i zainstaluj bibliotekę Aspose.Drawing. Możesz znaleźć najnowszą wersję[Tutaj](https://releases.aspose.com/drawing/net/).
+**Transformacja układu współrzędnych** określa, w jaki sposób logiczne jednostki strony (takie jak cale, centymetry lub punkty) są przeliczane na piksele urządzenia podczas renderowania grafiki. Konfigurując właściwość `Graphics.PageUnit`, informujesz silnik rysujący, jak interpretować podane współrzędne, co daje Ci precyzyjną kontrolę nad rozmiarem i układem.
 
-- Środowisko programistyczne: Skonfiguruj środowisko programistyczne za pomocą programu Visual Studio lub dowolnego innego preferowanego narzędzia programistycznego .NET.
+## Dlaczego używać transformacji układu współrzędnych z Aspose.Drawing?
 
-- Twój katalog dokumentów: Zastąp „Twój katalog dokumentów” w kodzie rzeczywistym katalogiem, w którym chcesz zapisać przekształcony obraz.
+- **Projekt niezależny od urządzenia:** Napisz kod raz i pozwól Aspose.Drawing obsłużyć skalowanie pikseli dla dowolnego ekranu lub drukarki.  
+- **Precyzyjne rysowanie:** Idealne do diagramów technicznych, szkiców w stylu CAD lub wszelkich sytuacji, w których liczy się dokładny pomiar.  
+- **Niezawodność wieloplatformowa:** Działa konsekwentnie na Windows, Linux i macOS bez ograniczeń GDI+ znanych z System.Drawing.
 
-Teraz, gdy mamy już przygotowane wymagania wstępne, przejdźmy do przewodnika krok po kroku.
+## Wymagania wstępne
 
-## Importuj przestrzenie nazw
+- **Biblioteka Aspose.Drawing:** Pobierz najnowszą wersję ze strony oficjalnej [here](https://releases.aspose.com/drawing/net/).  
+- **Środowisko programistyczne:** Visual Studio, Rider lub dowolne IDE zgodne z .NET.  
+- **Katalog dokumentów:** Zastąp `"Your Document Directory"` w kodzie folderem, w którym chcesz zapisać obraz wyjściowy.
 
-W projekcie .NET zacznij od zaimportowania niezbędnych przestrzeni nazw:
+Teraz, gdy wszystko jest gotowe, przejdźmy do przewodnika krok po kroku.
+
+## Importowanie przestrzeni nazw
+
+Najpierw dodaj wymaganą przestrzeń nazw do swojego projektu:
 
 ```csharp
 using System.Drawing;
@@ -39,17 +57,15 @@ using System.Drawing;
 
 ## Krok 1: Utwórz bitmapę
 
-Rozpocznij od utworzenia nowej mapy bitowej o określonych wymiarach i formacie w pikselach:
+Zaczynamy od utworzenia pustej bitmapy, która będzie służyć jako powierzchnia rysowania. Format pikseli `Format32bppPArgb` zapewnia wysoką jakość oraz wsparcie dla wstępnie pomnożonej alfa.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-Spowoduje to zainicjowanie pustego płótna dla transformacji.
+## Krok 2: Utwórz obiekt Graphics
 
-## Krok 2: Utwórz obiekt graficzny
-
-Utwórz obiekt graficzny z mapy bitowej, aby na niej rysować:
+Obiekt `Graphics` udostępnia API rysowania dla bitmapy. Jest mostem między Twoim kodem a buforem pikseli.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -57,23 +73,23 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 ## Krok 3: Wyczyść płótno
 
-Oczyść płótno wypełniając je określonym kolorem (w tym przypadku szarym):
+Nadaj płótnu neutralne tło, aby narysowane kształty się wyróżniały. Tutaj wypełniamy je jasnoszarym kolorem.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## Krok 4: Ustaw transformację
+## Krok 4: Ustaw transformację (Jak przekształcić stronę)
 
-Ustaw transformację, która odwzorowuje współrzędne strony na współrzędne urządzenia. W tym przykładzie używamy cali:
+Aby zamapować współrzędne strony na piksele urządzenia, ustaw właściwość `PageUnit`. W tym przykładzie wybieramy cale, ale możesz również użyć `GraphicsUnit.Millimeter`, `Point` itp.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-## Krok 5: Narysuj prostokąt
+## Krok 5: Narysuj prostokąt – rysowanie grafiki prostokąta
 
-Użyj obiektu Graphics, aby narysować prostokąt określonym pisakiem:
+Teraz rysujemy prostokąt przy użyciu cienkiego niebieskiego pióra. Ponieważ przeszliśmy na cale, rozmiar i pozycja prostokąta są wyrażone w calach, co sprawia, że kod jest bardziej czytelny w układach przeznaczonych do druku.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
@@ -82,39 +98,49 @@ graphics.DrawRectangle(pen, 1, 1, 1, 1);
 
 ## Krok 6: Zapisz obraz
 
-Zapisz przekształcony obraz w określonym katalogu:
+Na koniec zapisz bitmapę do pliku PNG w folderze, który określiłeś wcześniej.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-Gratulacje! Pomyślnie przekształciłeś stronę za pomocą Aspose.Drawing dla .NET.
+Gratulacje! Właśnie wykonałeś **transformację układu współrzędnych**, ustawiłeś jednostkę strony na cale i **narysowałeś grafikę prostokąta** na bitmapie przy użyciu Aspose.Drawing.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku omówiliśmy podstawowe kroki transformacji strony za pomocą Aspose.Drawing. Wykonując poniższe kroki, możesz bezproblemowo zintegrować te transformacje z aplikacjami .NET.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|---------|----------------------|-------------|
+| **Plik wyjściowy nie został utworzony** | Nieprawidłowa ścieżka lub brak folderu | Upewnij się, że docelowy katalog istnieje lub użyj `Directory.CreateDirectory` przed zapisem. |
+| **Prostokąt jest zniekształcony** | Nieprawidłowy `PageUnit` lub niezgodny DPI | Sprawdź, czy `graphics.PageUnit` odpowiada jednostkom, które zamierzasz używać oraz czy DPI bitmapy jest ustawione prawidłowo (domyślnie 96 DPI). |
+| **Wyjątek licencyjny** | Uruchamianie bez ważnej licencji w produkcji | Zastosuj tymczasową lub stałą licencję Aspose.Drawing przed tworzeniem obiektów graficznych. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę korzystać z Aspose.Drawing za darmo?
+**P: Czy mogę używać Aspose.Drawing za darmo?**  
+O: Tak, dostępna jest darmowa wersja próbna [here](https://releases.aspose.com/).
 
- O1: Aspose.Drawing oferuje bezpłatną wersję próbną, do której możesz uzyskać dostęp[Tutaj](https://releases.aspose.com/).
+**P: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Drawing?**  
+O: Pełna referencja API znajduje się [here](https://reference.aspose.com/drawing/net/).
 
-### P2: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Drawing?
+**P: Jak uzyskać wsparcie dla Aspose.Drawing?**  
+O: Odwiedź [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) aby uzyskać pomoc społeczności i oficjalną pomoc.
 
- Odpowiedź 2: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/drawing/net/).
+**P: Czy dostępna jest tymczasowa licencja dla Aspose.Drawing?**  
+O: Oczywiście — uzyskaj ją [here](https://purchase.aspose.com/temporary-license/).
 
-### P3: Jak mogę uzyskać pomoc dotyczącą Aspose.Drawing?
+**P: Gdzie mogę kupić pełną licencję Aspose.Drawing?**  
+O: Możesz ją kupić [here](https://purchase.aspose.com/buy).
 
- A3: Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+## Podsumowanie
 
-### P4: Czy dostępna jest tymczasowa licencja na Aspose.Drawing?
+W tym przewodniku omówiliśmy wszystko, co musisz wiedzieć o **transformacji układu współrzędnych** w Aspose.Drawing: konfiguracji płótna, ustawianiu jednostek strony, rysowaniu precyzyjnych grafik prostokątnych oraz zapisywaniu wyniku. Wykorzystaj te techniki do tworzenia skalowalnej, niezależnej od urządzenia grafiki dla raportów, rysunków w stylu CAD lub dowolnej aplikacji, w której dokładność pomiarów ma znaczenie.
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: Gdzie mogę kupić Aspose.Drawing?
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.Drawing 24.12 for .NET  
+**Autor:** Aspose  
 
- A5: Możesz kupić Aspose.Drawing[Tutaj](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

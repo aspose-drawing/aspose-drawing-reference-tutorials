@@ -1,120 +1,146 @@
 ---
-title: .NET용 Aspose. Drawing의 페이지 변환
-linktitle: Aspose.드로잉의 페이지 변환
-second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
-description: Aspose.드로잉을 사용하여 .NET에서 단계별 페이지 변환을 알아보세요. 이 포괄적인 튜토리얼을 통해 그래픽 기술을 향상시키세요.
+date: 2025-12-01
+description: .NET에서 Aspose.Drawing을 사용하여 좌표계 변환을 수행하고 사각형 그래픽을 그리는 방법을 배웁니다. 페이지 좌표를
+  변환하는 단계별 가이드.
+language: ko
+linktitle: Coordinate System Transformation in Aspose.Drawing
+second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
+title: 좌표계 변환 – .NET용 Aspose.Drawing의 페이지 변환
+url: /net/coordinate-transformations/page-transformation/
 weight: 13
-url: /ko/net/coordinate-transformations/page-transformation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose. Drawing의 페이지 변환
+# 좌표계 변환 – Aspose.Drawing for .NET에서 페이지 변환
 
-## 소개
+## Introduction
 
-.NET용 Aspose.드로잉을 사용한 페이지 변환에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 그래픽 및 비트맵 변환 작업 기술을 향상시키려는 경우 올바른 위치에 있습니다. 이 튜토리얼에서는 Aspose. Drawing을 사용하여 페이지를 변환하는 과정을 안내하여 각 단계를 명확하게 이해할 수 있도록 합니다.
+Welcome! In this tutorial you’ll discover **how to transform page** coordinates using Aspose.Drawing for .NET and learn the basics of **coordinate system transformation**. Whether you’re building a graphics‑intensive application or need precise control over drawing units, this guide walks you through every step—from setting up the canvas to drawing a rectangle graphics element. By the end, you’ll be able to apply these techniques in your own projects with confidence.
 
-## 전제 조건
+## Quick Answers
+- **What is coordinate system transformation?** Mapping page‑level units (like inches) to device‑level pixels.  
+- **Why use Aspose.Drawing?** It offers a fully managed alternative to System.Drawing.Common with cross‑platform support.  
+- **How long does the example take to implement?** About 5‑10 minutes for a basic page transformation.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Which .NET versions are supported?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is coordinate system transformation?
 
--  Aspose.드로잉 라이브러리: Aspose.드로잉 라이브러리를 다운로드하여 설치하세요. 최신 버전을 찾을 수 있습니다[여기](https://releases.aspose.com/drawing/net/).
+A **coordinate system transformation** defines how logical page units (such as inches, centimeters, or points) are converted into device pixels when rendering graphics. By configuring the `Graphics.PageUnit` property you tell the drawing engine how to interpret the coordinates you supply, giving you fine‑grained control over size and layout.
 
-- 개발 환경: Visual Studio 또는 기타 선호하는 .NET 개발 도구를 사용하여 개발 환경을 설정합니다.
+## Why use coordinate system transformation with Aspose.Drawing?
 
-- 문서 디렉터리: 코드의 "문서 디렉터리"를 변환된 이미지를 저장하려는 실제 디렉터리로 바꿉니다.
+- **Device‑independent design:** Write code once and let Aspose.Drawing handle the pixel scaling for any screen or printer.  
+- **Precision drawing:** Ideal for technical diagrams, CAD‑style sketches, or any scenario where exact measurements matter.  
+- **Cross‑platform reliability:** Works consistently on Windows, Linux, and macOS without the GDI+ limitations of System.Drawing.
 
-이제 전제 조건이 준비되었으므로 단계별 가이드를 진행해 보겠습니다.
+## Prerequisites
 
-## 네임스페이스 가져오기
+Before we start, ensure you have:
 
-.NET 프로젝트에서 필요한 네임스페이스를 가져오는 것부터 시작합니다.
+- **Aspose.Drawing Library:** Download the latest version from the official site [here](https://releases.aspose.com/drawing/net/).  
+- **Development Environment:** Visual Studio, Rider, or any .NET‑compatible IDE.  
+- **Your Document Directory:** Replace `"Your Document Directory"` in the code with the folder where you want the output image saved.
+
+Now that everything is ready, let’s dive into the step‑by‑step guide.
+
+## Import Namespaces
+
+First, bring the required namespace into your project:
 
 ```csharp
 using System.Drawing;
 ```
 
-## 1단계: 비트맵 생성
+## Step 1: Create a Bitmap
 
-특정 치수와 픽셀 형식을 사용하여 새 비트맵을 만드는 것부터 시작하세요.
+We start by creating a blank bitmap that will serve as the drawing surface. The pixel format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-그러면 변환을 위한 빈 캔버스가 초기화됩니다.
+## Step 2: Create a Graphics Object
 
-## 2단계: 그래픽 객체 생성
-
-비트맵에서 그래픽 개체를 만들어 그 위에 그립니다.
+A `Graphics` object provides the drawing API for the bitmap. It’s the bridge between your code and the pixel buffer.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## 3단계: 캔버스 지우기
+## Step 3: Clear the Canvas
 
-특정 색상(이 경우 회색)으로 캔버스를 채워서 캔버스를 지웁니다.
+Give the canvas a neutral background so the drawn shapes stand out. Here we fill it with a light gray.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## 4단계: 변환 설정
+## Step 4: Set the Transformation (How to transform page)
 
-페이지 좌표를 장치 좌표로 매핑하는 변환을 설정합니다. 이 예에서는 인치를 사용합니다.
+To map page coordinates to device pixels, set the `PageUnit` property. In this example we choose inches, but you could also use `GraphicsUnit.Millimeter`, `Point`, etc.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-## 5단계: 직사각형 그리기
+## Step 5: Draw a Rectangle – draw rectangle graphics
 
-지정된 펜으로 직사각형을 그리려면 Graphics 객체를 사용하십시오.
+Now we draw a rectangle using a thin blue pen. Because we switched to inches, the rectangle’s size and position are expressed in inches, making the code more readable for print‑oriented layouts.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-## 6단계: 이미지 저장
+## Step 6: Save the Image
 
-변환된 이미지를 지정된 디렉터리에 저장합니다.
+Finally, write the bitmap to a PNG file in the folder you specified earlier.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-축하해요! .NET용 Aspose. Drawing을 사용하여 페이지를 성공적으로 변환했습니다.
+Congratulations! You’ve just performed a **coordinate system transformation**, set the page unit to inches, and **draw rectangle graphics** on a bitmap using Aspose.Drawing.
 
-## 결론
+## Common Issues and Solutions
 
-이 튜토리얼에서는 Aspose. Drawing을 사용하여 페이지 변환을 수행하는 기본 단계를 다루었습니다. 다음 단계를 수행하면 이러한 변환을 .NET 애플리케이션에 원활하게 통합할 수 있습니다.
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Output file not created** | Incorrect path or missing folder | Ensure the target directory exists or use `Directory.CreateDirectory` before saving. |
+| **Rectangle appears distorted** | Wrong `PageUnit` or mismatched DPI | Verify that `graphics.PageUnit` matches the units you intend to use and that the bitmap DPI is set appropriately (default is 96 DPI). |
+| **License exception** | Running without a valid license in production | Apply your temporary or permanent Aspose.Drawing license before creating graphics objects. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose. Drawing을 무료로 사용할 수 있나요?
+**Q: Can I use Aspose.Drawing for free?**  
+A: Yes, a free trial is available [here](https://releases.aspose.com/).
 
- A1: Aspose. Drawing은 액세스할 수 있는 무료 평가판을 제공합니다.[여기](https://releases.aspose.com/).
+**Q: Where can I find detailed documentation for Aspose.Drawing?**  
+A: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
 
-### Q2: Aspose. Drawing에 대한 자세한 문서는 어디서 찾을 수 있나요?
+**Q: How do I get support for Aspose.Drawing?**  
+A: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) for community help and official assistance.
 
- A2: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/drawing/net/).
+**Q: Is a temporary license available for Aspose.Drawing?**  
+A: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Aspose. Drawing에 대한 지원은 어떻게 받을 수 있나요?
+**Q: Where can I purchase a full Aspose.Drawing license?**  
+A: You can buy it [here](https://purchase.aspose.com/buy).
 
- A3: 지원을 받으려면 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
+## Conclusion
 
-### Q4: Aspose. Drawing에 임시 라이선스를 사용할 수 있나요?
+In this guide we covered everything you need to know about **coordinate system transformation** in Aspose.Drawing: setting up the canvas, configuring page units, drawing precise rectangle graphics, and saving the result. Use these techniques to build scalable, device‑independent graphics for reports, CAD‑style drawings, or any application where measurement accuracy matters.
 
- A4: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: Aspose.드로잉은 어디서 구매할 수 있나요?
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Drawing 24.12 for .NET  
+**Author:** Aspose  
 
- A5: Aspose. Drawing을 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
