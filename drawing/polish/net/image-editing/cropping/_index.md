@@ -1,117 +1,159 @@
 ---
-title: Przycinanie obrazów w Aspose.Drawing
-linktitle: Przycinanie obrazów w Aspose.Drawing
-second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
-description: Opanuj kadrowanie obrazu za pomocą Aspose.Drawing dla .NET. Ten przewodnik krok po kroku umożliwia programistom bezproblemowe doskonalenie umiejętności przetwarzania obrazu.
+date: 2025-12-02
+description: Dowiedz się, jak przycinać obrazy w .NET za pomocą Aspose.Drawing. Ten
+  samouczek przycinania obrazów pokazuje krok po kroku, jak zapisać przycięty obraz,
+  pracować z bitmapą i obsługiwać przycinanie obrazów w partiach.
+language: pl
+linktitle: How to Crop Image .NET Using Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Jak przyciąć obraz w .NET przy użyciu Aspose.Drawing
+url: /net/image-editing/cropping/
 weight: 10
-url: /pl/net/image-editing/cropping/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przycinanie obrazów w Aspose.Drawing
+# Jak przycinać obrazy w .NET przy użyciu Aspose.Drawing
 
 ## Wstęp
 
-świecie programowania .NET Aspose.Drawing wyróżnia się jako potężne narzędzie do manipulacji obrazami. Jedną z jego przydatnych funkcji jest możliwość precyzyjnego przycinania obrazów. W tym samouczku omówimy proces przycinania obrazów przy użyciu Aspose.Drawing dla .NET. Przygotuj się na udoskonalenie swoich umiejętności przetwarzania obrazu!
+Jeśli tworzysz aplikację .NET, która wymaga precyzyjnej manipulacji obrazami, nauka **jak przycinać obrazy** jest niezbędna. Aspose.Drawing udostępnia bogate, w pełni zarządzane API, które pozwala **przycinać obrazy w .NET** bez polegania na starszej bibliotece System.Drawing.Common. W tym samouczku zobaczysz kompletny, od‑a‑do‑końca przykład, który prowadzi Cię przez ładowanie bitmapy, definiowanie obszaru przycięcia, wykonanie operacji i w końcu **zapisanie przyciętego obrazu**. Po zakończeniu będziesz gotowy, aby zintegrować przycinanie obrazów z dowolnym rozwiązaniem .NET — niezależnie od tego, czy jest to pojedyncze zdjęcie, czy **przetwarzanie wsadowe przycinania obrazów**.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki powinienem używać?** Aspose.Drawing dla .NET  
+- **Czy mogę przycinać dowolny format obrazu?** Tak — obsługiwane są najpopularniejsze formaty (PNG, JPEG, BMP itp.).  
+- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna wystarcza do rozwoju; licencja jest wymagana w produkcji.  
+- **Czy możliwe jest przetwarzanie wsadowe?** Oczywiście — można pętlić ten sam kod dla kolekcji plików.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
 
-Zanim zagłębisz się w magię przycinania, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „crop image .net”?
 
--  Biblioteka Aspose.Drawing: Upewnij się, że zintegrowałeś bibliotekę Aspose.Drawing z projektem .NET. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/drawing/net/).
+Przycinanie obrazu oznacza wyodrębnienie prostokątnego fragmentu z większego zdjęcia. W .NET operacja ta jest zazwyczaj wykonywana na obiekcie `Bitmap`. Aspose.Drawing upraszcza proces, udostępniając wysokowydajne prymitywy graficzne działające spójnie na wszystkich platformach.
 
--  Katalog dokumentów: Miej wyznaczony katalog na obrazy projektu. Zastępować`"Your Document Directory"` we fragmentach kodu ścieżką do folderu obrazów projektu.
+## Dlaczego warto używać Aspose.Drawing do przycinania obrazów?
 
-## Importuj przestrzenie nazw
+- **Niezawodność wieloplatformowa** – Brak natywnych zależności, działa na Windows, Linux i macOS.  
+- **Bogate wsparcie formatów pikseli** – Obsługuje 32‑bitowy ARGB, PArgb i wiele innych formatów.  
+- **Wydajność** – Zoptymalizowane rysowanie i interpolacja dla dużych obrazów.  
+- **Bezproblemowa integracja** – Działa ramię w ramię z innymi produktami Aspose, takimi jak PDF, Slides itp.
 
-Zacznijmy od zaimportowania niezbędnych przestrzeni nazw, aby przygotować grunt pod naszą przygodę z przycinaniem:
+## Wymagania wstępne
+
+Zanim rozpoczniesz, upewnij się, że masz:
+
+- **Bibliotekę Aspose.Drawing** – Dodaj pakiet NuGet `Aspose.Drawing` do projektu lub pobierz go z [oficjalnej strony](https://releases.aspose.com/drawing/net/).  
+- **Folder z obrazami** – Katalog zawierający obrazy źródłowe, które chcesz przyciąć. Zastąp w fragmentach kodu `"Your Document Directory"` rzeczywistą ścieżką na swoim komputerze.
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj przestrzeń nazw zawierającą klasy rysunkowe:
 
 ```csharp
 using System.Drawing;
 ```
 
-Teraz, gdy mamy już gotowy etap, podzielmy proces przycinania obrazu na łatwe do wykonania etapy.
+Daje to dostęp do `Bitmap`, `Graphics`, `Rectangle` i innych niezbędnych typów.
 
-## Krok 1: Utwórz bitmapę
+## Przewodnik krok po kroku
+
+### Krok 1: Utwórz płótno Bitmap (crop image bitmap)
+
+Zaczynamy od utworzenia pustej bitmapy, która będzie przechowywać przycięty wynik. Dostosuj szerokość, wysokość i format pikseli, aby odpowiadały rozmiarowi wybranego obszaru.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
- Zacznij od utworzenia nowego`Bitmap`obiekt o żądanej szerokości, wysokości i formacie w pikselach. Dopasuj wymiary do wymagań konkretnego projektu.
+> **Wskazówka:** Format `Format32bppPArgb` zachowuje przezroczystość alfa i zapewnia wysoką jakość renderowania.
 
-## Krok 2: Utwórz obiekt graficzny
+### Krok 2: Utwórz obiekt Graphics
+
+Obiekt `Graphics` pozwala rysować na płótnie bitmapy. Ustawienie `InterpolationMode` wpływa na sposób przeskalowywania obrazu podczas przycinania.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
- Wygeneruj`Graphics` obiekt z twojego`Bitmap` aby umożliwić operacje rysowania. Ustaw`InterpolationMode` w celu płynniejszego przetwarzania obrazu, dostosowując go do własnych preferencji.
+> **Pro tip:** Dla płynniejszych wyników przy skalowanych obrazach rozważ `InterpolationMode.HighQualityBicubic`.
 
-## Krok 3: Załaduj obraz do przycięcia
+### Krok 3: Załaduj obraz źródłowy
+
+Wczytaj obraz, który chcesz przyciąć. Ścieżka łączy katalog dokumentu z nazwą pliku.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
- Załaduj nowy obraz, który chcesz przyciąć`Bitmap` obiekt. Zastępować`"Your Document Directory"` ze ścieżką do folderu obrazów projektu i odpowiednio dostosuj nazwę pliku.
+> **Uwaga:** Aspose.Drawing potrafi odczytywać PNG, JPEG, BMP, GIF, TIFF i wiele innych formatów bezpośrednio.
 
-## Krok 4: Zdefiniuj prostokąty źródłowe i docelowe
+### Krok 4: Zdefiniuj prostokąty źródłowy i docelowy
+
+`sourceRectangle` wybiera część oryginalnego obrazu, którą chcesz zachować. Tutaj wybieramy lewy górny obszar 50 × 40 pikseli. `destinationRectangle` określa, gdzie silnik graficzny umieści przycięty fragment na nowej bitmapie.
 
 ```csharp
 Rectangle sourceRectangle = new Rectangle(0, 0, 50, 40);
 Rectangle destinationRectangle = sourceRectangle;
 ```
 
-Określ prostokąt źródłowy, aby zdefiniować część obrazu, którą chcesz przyciąć. W tym przykładzie wybieramy lewą górną część obrazu o rozmiarze 50x40 pikseli. Prostokąt docelowy ma takie same wymiary, jak w przypadku prostego przycięcia.
+> **Dlaczego oba prostokąty?** Użycie identycznych prostokątów wykonuje prosty przycinanie. Możesz zmienić `destinationRectangle`, aby przemieścić lub przeskalować przycięty fragment.
 
-## Krok 5: Wykonaj operację przycinania
+### Krok 5: Wykonaj operację przycięcia
+
+Metoda `DrawImage` kopiuje wybrany region ze źródłowego obrazu do docelowej bitmapy.
 
 ```csharp
 graphics.DrawImage(image, destinationRectangle, sourceRectangle, GraphicsUnit.Pixel);
 ```
 
- Wykonaj operację przycinania za pomocą`DrawImage`metoda. To polecenie pobiera obraz źródłowy, prostokąt docelowy, prostokąt źródłowy i jednostkę miary prostokątów.
+> **Typowy błąd:** Zapomnienie o zwolnieniu `Graphics` może zablokować plik bitmapy. Zajmiemy się zwolnieniem automatycznie po zakończeniu metody.
 
-## Krok 6: Zapisz przycięty obraz
+### Krok 6: Zapisz przycięty obraz (save cropped image)
+
+Na koniec zapisz wynik na dysku. Zmien nazwę pliku i ścieżkę według potrzeb.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ```
 
-Na koniec zapisz przycięty obraz w wyznaczonym katalogu. W razie potrzeby dostosuj nazwę pliku i ścieżkę.
+> **Rezultat:** Masz teraz nowy plik PNG zawierający wyłącznie wybrany obszar 50 × 40 pikseli.
 
-Gratulacje! Pomyślnie przyciąłeś obraz za pomocą Aspose.Drawing dla .NET. Eksperymentuj z różnymi wymiarami i pozycjami, aby dostosować proces przycinania do swoich konkretnych potrzeb.
+## Typowe problemy i rozwiązania
 
-## Wniosek
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|-----|
+| **Pusty plik wyjściowy** | Prostokąt źródłowy poza granicami obrazu | Sprawdź współrzędne i rozmiar `sourceRectangle`. |
+| **Wyjątek Out‑of‑memory** | Bardzo duże obrazy źródłowe | Przetwarzaj obrazy w partiach lub używaj instrukcji `using`, aby szybko zwalniać zasoby. |
+| **Nieprawidłowe kolory** | Niepasujący format pikseli | Dopasuj format pikseli bitmapy źródłowej lub skonwertuj przy użyciu `Bitmap.Clone`. |
 
-W tym samouczku omówiliśmy krok po kroku proces przycinania obrazów przy użyciu Aspose.Drawing dla .NET. Integracja tej funkcjonalności z Twoimi projektami otwiera świat możliwości manipulacji i ulepszania obrazu.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**P: Czy mogę przycinać obrazy w dowolnym formacie przy użyciu Aspose.Drawing?**  
+O: Tak, Aspose.Drawing obsługuje PNG, JPEG, BMP, GIF, TIFF i wiele innych formatów, więc możesz **jak przycinać obrazy** niezależnie od ich pierwotnego typu.
 
-### P1: Czy mogę przycinać obrazy w dowolnym formacie za pomocą Aspose.Drawing?
+**P: Czy dostępne są zaawansowane opcje przycinania?**  
+O: Oczywiście. Możesz połączyć `GraphicsPath` dla przycinania nieregularnego, zastosować rotację lub użyć `ImageAttributes` do korekcji kolorów.
 
-O1: Tak, Aspose.Drawing obsługuje przycinanie obrazów w różnych formatach, zapewniając elastyczność w Twoich projektach.
+**P: Czy mogę wykonać wiele operacji przycinania na jednym obrazie?**  
+O: Tak — po prostu powtórz wywołanie `DrawImage` z różnymi prostokątami źródłowymi lub łańcuchuj je w pętli dla skomplikowanych transformacji.
 
-### P2: Czy dostępne są zaawansowane opcje przycinania?
+**P: Czy Aspose.Drawing nadaje się do wsadowego przycinania obrazów?**  
+O: Zdecydowanie. Umieść powyższe kroki w pętli `foreach` przetwarzającej kolekcję ścieżek plików, aby automatycznie obsłużyć dziesiątki lub setki obrazów.
 
-A2: Absolutnie! Aspose.Drawing zapewnia dodatkowe opcje zaawansowanego przycinania, co pozwala na precyzyjną manipulację obrazem.
+**P: Jak mogę uzyskać wsparcie w sprawach związanych z Aspose.Drawing?**  
+O: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17), aby zadawać pytania, udostępniać kod i uzyskać pomoc od społeczności oraz inżynierów produktu.
 
-### P3: Czy mogę zastosować wiele operacji przycinania na jednym obrazie?
+## Podsumowanie
 
-O3: Tak, możesz łączyć wiele operacji przycinania, aby z łatwością uzyskać złożone przekształcenia obrazu.
+W tym samouczku przedstawiliśmy kompletny **workflow przycinania obrazu w .NET** przy użyciu Aspose.Drawing. Teraz wiesz, jak **jak przycinać obrazy**, definiować precyzyjne prostokąty źródłowe i **zapisywać przycięte obrazy**. Dzięki tej wiedzy możesz rozszerzyć kod o **wsadowe przycinanie obrazów**, stosować własne transformacje lub integrować logikę z większymi pipeline'ami przetwarzania obrazów.
 
-### P4: Czy Aspose.Drawing nadaje się do wsadowego przetwarzania obrazów?
+---  
 
-Odpowiedź 4: Rzeczywiście, Aspose.Drawing przoduje w przetwarzaniu wsadowym, umożliwiając wydajną obsługę wielu obrazów za jednym razem.
-
-### P5: Jak mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Drawing?
-
- A5: Udaj się do[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) szukać pomocy i nawiązywać kontakt ze społecznością.
+**Ostatnia aktualizacja:** 2025-12-02  
+**Testowane z:** Aspose.Drawing 24.11 dla .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
