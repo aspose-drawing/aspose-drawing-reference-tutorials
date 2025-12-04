@@ -100,7 +100,7 @@ A3: Tentu saja! Aspose.Drawing serbaguna dan dapat digunakan di aplikasi desktop
 
 ### Q4: Bagaimana cara menangani kesalahan saat menggunakan Aspose.Drawing?
 
-A4: Untuk menangani kesalahan, Anda dapat menerapkan blok coba-tangkap dan merujuk ke forum Aspose.Drawing (https://forum.aspose.com/c/diagram/17) untuk dukungan masyarakat.
+A4: Untuk menangani kesalahan, Anda dapat menerapkan blok coba-tangkap dan merujuk ke forum Aspose.Drawing (https://forum.aspose.com/c/drawing/44) untuk dukungan masyarakat.
 
 ### Q5: Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?
 

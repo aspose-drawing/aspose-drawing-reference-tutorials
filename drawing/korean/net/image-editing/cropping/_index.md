@@ -138,7 +138,7 @@ A4: 네, Aspose.Drawing은 배치 처리에 최적화되어 있어 다수의 이
 
 ### Q5: Aspose.Drawing 관련 문의는 어디에 하면 되나요?
 
-A5: [Aspose.Drawing 포럼](https://forum.aspose.com/c/diagram/17)에서 도움을 받고 커뮤니티와 소통하세요.
+A5: [Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44)에서 도움을 받고 커뮤니티와 소통하세요.
 
 ---
 

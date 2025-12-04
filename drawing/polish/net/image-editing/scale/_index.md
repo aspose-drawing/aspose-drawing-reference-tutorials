@@ -104,7 +104,7 @@ Odpowiedź 1: Tak, Aspose.Drawing jest wszechstronny i może być wykorzystywany
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.Drawing?
 
- O3: W razie jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+ O3: W razie jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ### P4: Czy istnieją jakieś ograniczenia dotyczące formatów obrazów obsługiwanych przez Aspose.Drawing?
 

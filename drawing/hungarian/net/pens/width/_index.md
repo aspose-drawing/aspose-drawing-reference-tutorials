@@ -84,7 +84,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan állíthatja be a tollak szélesség�
 
 ### 3. kérdés: Hol találhatok további támogatást vagy tehetek fel kérdéseket?
 
- A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) segítséget kérni, tapasztalatokat megosztani, és kapcsolatba lépni a közösséggel.
+ A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) segítséget kérni, tapasztalatokat megosztani, és kapcsolatba lépni a közösséggel.
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 

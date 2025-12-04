@@ -87,7 +87,7 @@ Ebben az oktatóanyagban az alfa-keverés lenyűgöző világát fedeztük fel a
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing programhoz?
 
- 3. válasz: Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/diagram/17) közösségi támogatásért.
+ 3. válasz: Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/drawing/44) közösségi támogatásért.
 
 ### 4. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.Drawing számára?
 

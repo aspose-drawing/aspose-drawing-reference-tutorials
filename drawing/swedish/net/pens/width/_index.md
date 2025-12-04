@@ -84,7 +84,7 @@ Grattis! Du har framgångsrikt lärt dig hur du ställer in bredden på pennor m
 
 ### F3: Var kan jag hitta ytterligare support eller ställa frågor?
 
- A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) att söka hjälp, dela erfarenheter och få kontakt med samhället.
+ A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) att söka hjälp, dela erfarenheter och få kontakt med samhället.
 
 ### F4: Finns det en gratis provperiod?
 

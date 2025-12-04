@@ -111,7 +111,7 @@ Sangat! Aspose.Drawing mendukung format gambar populer seperti PNG, JPEG, GIF, d
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
 
- Mengunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan masyarakat.
+ Mengunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan masyarakat.
 
 ### Bisakah saya mencoba Aspose.Drawing sebelum membeli?
 

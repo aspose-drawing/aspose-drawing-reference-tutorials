@@ -143,7 +143,7 @@ Câu trả lời 4: Có, bạn có thể sử dụng Aspose.drawing trong cả d
 
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.drawing ở đâu?
 
- A5: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+ A5: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và thảo luận.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

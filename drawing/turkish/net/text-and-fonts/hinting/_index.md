@@ -108,7 +108,7 @@ Cevap4: Evet, Aspose.Drawing farklı tercihlere ve senaryolara uyum sağlamak i�
 
 ### S5: Aspose.Drawing ile ilgili nereden yardım alabilirim veya deneyimlerimi paylaşabilirim?
 
- A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17)toplulukla etkileşime geçmek ve destek almak.
+ A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44)toplulukla etkileşime geçmek ve destek almak.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -98,7 +98,7 @@ R2: ¡Absolutamente! Puede encadenar múltiples llamadas de transformación para
 
 ### P3: ¿Dónde puedo encontrar más tutoriales y ejemplos para Aspose.Drawing?
 
- A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para obtener una gran cantidad de tutoriales, ejemplos y debates comunitarios.
+ A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para obtener una gran cantidad de tutoriales, ejemplos y debates comunitarios.
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.Drawing?
 

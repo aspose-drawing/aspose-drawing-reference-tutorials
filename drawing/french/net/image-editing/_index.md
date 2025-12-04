@@ -96,6 +96,18 @@ Enfin, découvrez les étapes précises pour redimensionner une image sans perte
 | **Traitement par lots de photos de produits** | Assure la cohérence de la marque sur des milliers d'images | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **Créer des PDF imprimables** | Maintient la résolution prête à l'impression | `Load → Scale (no loss) → Embed in PDF` |
 
+## Tutoriels d'édition d'images
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Maîtrisez le recadrage d'images avec Aspose.Drawing pour .NET. Ce guide pas à pas permet aux développeurs d'améliorer leurs compétences en traitement d'images sans effort.
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Apprenez à manipuler les images efficacement avec Aspose.Drawing pour .NET. Plongez dans l'accès direct aux données avec notre guide pas à pas.
+### [Displaying Images in Aspose.Drawing](./display/)
+Apprenez à afficher des images dans les applications .NET avec Aspose.Drawing. Suivez notre tutoriel pour des étapes simples et améliorez votre contenu visuel.
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Maîtrisez le chargement et l'enregistrement d'images en .NET avec Aspose.Drawing. Explorez les formats BMP, GIF, JPG, PNG, TIFF sans effort.
+### [Scaling Images in Aspose.Drawing](./scale/)
+Apprenez à redimensionner des images sans effort en .NET avec Aspose.Drawing. Notre guide pas à pas assure une intégration fluide, offrant de puissantes capacités de manipulation d'images.
+
 ## Questions fréquemment posées
 
 **Q : Puis‑je redimensionner une image sans perte et changer tout de même son format de fichier ?**  
@@ -125,15 +137,3 @@ A : Aspose.Drawing accepte les dimensions à virgule flottante, et le moteur d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriels d'édition d'images
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Maîtrisez le recadrage d'images avec Aspose.Drawing pour .NET. Ce guide pas à pas permet aux développeurs d'améliorer leurs compétences en traitement d'images sans effort.
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Apprenez à manipuler les images efficacement avec Aspose.Drawing pour .NET. Plongez dans l'accès direct aux données avec notre guide pas à pas.
-### [Displaying Images in Aspose.Drawing](./display/)
-Apprenez à afficher des images dans les applications .NET avec Aspose.Drawing. Suivez notre tutoriel pour des étapes simples et améliorez votre contenu visuel.
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Maîtrisez le chargement et l'enregistrement d'images en .NET avec Aspose.Drawing. Explorez les formats BMP, GIF, JPG, PNG, TIFF sans effort.
-### [Scaling Images in Aspose.Drawing](./scale/)
-Apprenez à redimensionner des images sans effort en .NET avec Aspose.Drawing. Notre guide pas à pas assure une intégration fluide, offrant de puissantes capacités de manipulation d'images.

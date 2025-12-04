@@ -125,7 +125,7 @@ J: Ya, versi percobaan gratis tersedia [di sini](https://releases.aspose.com/)
 J: Referensi API lengkap dapat diakses [di sini](https://reference.aspose.com/drawing/net/).
 
 **T: Bagaimana cara mendapatkan dukungan untuk Aspose.Drawing?**  
-J: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) untuk bantuan komunitas dan dukungan resmi.
+J: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk bantuan komunitas dan dukungan resmi.
 
 **T: Apakah ada lisensi sementara untuk Aspose.Drawing?**  
 J: Tentu—dapatkan satu [di sini](https://purchase.aspose.com/temporary-license/).

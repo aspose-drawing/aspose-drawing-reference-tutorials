@@ -143,7 +143,7 @@ Cevap4: Evet, Aspose.Drawing'i hem ticari hem de ticari olmayan projelerde uygun
 
 ### S5: Aspose.Drawing için topluluk desteğini nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17) topluluk desteği ve tartışmalar için.
+ A5: ziyaret edin[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

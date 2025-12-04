@@ -55,8 +55,6 @@ weight: 21
 - Aspose.Drawing for .NET NuGet パッケージ (`Install-Package Aspose.Drawing`)
 - C# と画像概念（ピクセル、DPI、カラーデプス）の基本的な知識
 
----
-
 ### 画像のクロップ方法 (How to Crop Image)
 
 以下の専用チュートリアルでは、正確なクロップ技術を段階的に解説しています。クロップをマスターすれば、画像の最も重要な部分に焦点を当て、全体的な構図を向上させることができます。
@@ -87,8 +85,6 @@ WinForms、WPF、ASP.NET などで画像を正しく表示するには、適切�
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
-
 ## 主なユースケース
 
 | シナリオ | 重要性 | 主な API 呼び出し |
@@ -98,7 +94,21 @@ WinForms、WPF、ASP.NET などで画像を正しく表示するには、適切�
 | **製品写真のバッチ処理** | 数千枚の画像でもブランドの一貫性を確保します | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **印刷用 PDF の作成** | 印刷に適した解像度を維持します | `Load → Scale (no loss) → Embed in PDF` |
 
----
+## 画像編集チュートリアル
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Aspose.Drawing for .NET を使用した画像のクロップをマスターしましょう。このステップバイステップガイドにより、開発者は画像処理スキルを手軽に向上させることができます。
+
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Aspose.Drawing for .NET を使用して画像を効率的に操作する方法を学びましょう。直接データアクセスに関するステップバイステップガイドです。
+
+### [Displaying Images in Aspose.Drawing](./display/)
+Aspose.Drawing を使用して .NET アプリケーションで画像を表示する方法を学びましょう。簡単な手順で視覚コンテンツを強化できます。
+
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Aspose.Drawing for .NET を使用した画像のロードと保存をマスターしましょう。BMP、GIF、JPG、PNG、TIFF 形式を手軽に扱えるようになります。
+
+### [Scaling Images in Aspose.Drawing](./scale/)
+Aspose.Drawing を使用して .NET で画像を簡単に拡大縮小する方法を学びましょう。ステップバイステップのガイドでシームレスな統合と強力な画像操作機能を提供します。
 
 ## よくある質問
 
@@ -129,19 +139,3 @@ A: Aspose.Drawing は浮動小数点の寸法を受け付け、リサンプリ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 画像編集チュートリアル
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Aspose.Drawing for .NET を使用した画像のクロップをマスターしましょう。このステップバイステップガイドにより、開発者は画像処理スキルを手軽に向上させることができます。
-
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Aspose.Drawing for .NET を使用して画像を効率的に操作する方法を学びましょう。直接データアクセスに関するステップバイステップガイドです。
-
-### [Displaying Images in Aspose.Drawing](./display/)
-Aspose.Drawing を使用して .NET アプリケーションで画像を表示する方法を学びましょう。簡単な手順で視覚コンテンツを強化できます。
-
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Aspose.Drawing for .NET を使用した画像のロードと保存をマスターしましょう。BMP、GIF、JPG、PNG、TIFF 形式を手軽に扱えるようになります。
-
-### [Scaling Images in Aspose.Drawing](./scale/)
-Aspose.Drawing を使用して .NET で画像を簡単に拡大縮小する方法を学びましょう。ステップバイステップのガイドでシームレスな統合と強力な画像操作機能を提供します。

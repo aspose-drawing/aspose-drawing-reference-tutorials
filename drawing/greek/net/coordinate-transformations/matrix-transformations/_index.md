@@ -138,7 +138,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 Α: Αποκτήστε μια προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
 **Ε: Πού μπορώ να ζητήσω υποστήριξη ή να συνδεθώ με την κοινότητα;**  
-Α: Επισκεφθείτε το φόρουμ του Aspose.Drawing [εδώ](https://forum.aspose.com/c/diagram/17).
+Α: Επισκεφθείτε το φόρουμ του Aspose.Drawing [εδώ](https://forum.aspose.com/c/drawing/44).
 
 **Ε: Μπορώ να κατεβάσω το Aspose.Drawing για .NET;**  
 Α: Ναι, κατεβάστε το από [αυτόν τον σύνδεσμο](https://releases.aspose.com/drawing/net/).

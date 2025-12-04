@@ -143,7 +143,7 @@ Az Aspose.Drawing licencelésének elsajátítása kulcsfontosságú a nagy telj
 
 ### 5. kérdés: Hol találok közösségi támogatást az Aspose.Drawing számára?
 
- A5: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
+ A5: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

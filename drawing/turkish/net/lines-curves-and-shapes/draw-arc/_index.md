@@ -90,7 +90,7 @@ Cevap4: Evet, Aspose.Drawing diğer .NET kitaplıklarıyla sorunsuz bir şekilde
 
 ### S5: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) topluluk desteği ve tartışmalar için.
+ A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

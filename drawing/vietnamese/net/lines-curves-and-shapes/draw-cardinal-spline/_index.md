@@ -86,7 +86,7 @@ Trong hướng dẫn này, chúng ta đã khám phá quá trình vẽ các đư�
 
 ### Câu hỏi 3: Tôi có thể tìm thêm hỗ trợ ở đâu?
 
- A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+ A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và thảo luận.
 
 ### Q4: Có bản dùng thử miễn phí không?
 

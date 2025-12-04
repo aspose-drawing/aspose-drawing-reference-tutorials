@@ -111,7 +111,7 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 答：当然——在[此处](https://releases.aspose.com/)下载试用版本。
 
 **问：如何获取 Aspose.Drawing 的支持？**  
-答：访问 [Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17) 获取社区帮助和官方支持。
+答：访问 [Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44) 获取社区帮助和官方支持。
 
 **问：在哪里可以找到 Aspose.Drawing 的文档？**  
 答：完整的 API 参考位于 [Aspose.Drawing 文档站点](https://reference.aspose.com/drawing/net/)。

@@ -81,7 +81,7 @@ Ano, Aspose.Drawing je vhodný pro osobní i komerční projekty. Podrobnosti o 
 ### Jsou dočasné licence dostupné pro testovací účely?
  Ano, dočasnou licenci pro testování můžete získat návštěvou[Dočasná licence](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu podporu komunity pro Aspose.Drawing?
- Zapojte se do komunity a získejte podporu na[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17).
+ Zapojte se do komunity a získejte podporu na[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44).
 ### Jak mohu začít s Aspose.Drawing?
  Začněte stažením knihovny z[tady](https://releases.aspose.com/drawing/net/) a prozkoumat komplexní[dokumentace](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

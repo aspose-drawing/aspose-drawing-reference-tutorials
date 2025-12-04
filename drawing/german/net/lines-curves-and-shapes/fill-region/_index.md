@@ -99,7 +99,7 @@ Das Füllen von Bereichen in Aspose.Drawing für .NET ist ein unkomplizierter Pr
 
 ### F3: Wie kann ich Unterstützung für Aspose.Drawing erhalten?
 
- A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17) um Unterstützung von der Community und Experten zu erhalten.
+ A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) um Unterstützung von der Community und Experten zu erhalten.
 
 ### F4: Kann ich mit Aspose.Drawing dynamische Bilder generieren?
 

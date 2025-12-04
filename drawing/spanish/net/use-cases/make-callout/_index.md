@@ -111,7 +111,7 @@ Sí, Aspose.Drawing admite una amplia gama de operaciones de dibujo para varios 
 
 ### ¿Cómo obtengo soporte si tengo problemas?
 
- Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para el apoyo de la comunidad.
+ Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para el apoyo de la comunidad.
 
 ### ¿Puedo probar Aspose.Drawing antes de comprarlo?
 

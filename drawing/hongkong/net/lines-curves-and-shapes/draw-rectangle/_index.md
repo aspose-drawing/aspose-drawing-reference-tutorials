@@ -81,7 +81,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 
 在本教程中，我們探索了在 Aspose.Drawing for .NET 中繪製矩形的基本步驟。該程式庫提供了強大的圖形操作工具，使其成為 .NET 開發人員的寶貴資產。
 
-如果您遇到任何挑戰或有疑問，請隨時尋求協助[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17).
+如果您遇到任何挑戰或有疑問，請隨時尋求協助[Aspose.繪圖論壇](https://forum.aspose.com/c/drawing/44).
 
 ## 常見問題解答
 

@@ -117,7 +117,7 @@ Câu trả lời 1: Có, Aspose.draw tương thích với nhiều khung .NET kh�
 
 ### Câu hỏi 3: Làm cách nào để nhận được hỗ trợ cho Aspose.draw cho .NET?
 
- A3: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+ A3: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và thảo luận.
 
 ### Câu hỏi 4: Tôi có thể mua giấy phép tạm thời cho các dự án ngắn hạn không?
 

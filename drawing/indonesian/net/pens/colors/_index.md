@@ -83,7 +83,7 @@ Selamat! Anda telah berhasil membuat gambar dengan garis berwarna menggunakan As
 
 Dalam tutorial ini, kita telah menjelajahi dasar-dasar bekerja dengan warna di Aspose.Drawing untuk .NET. Anda telah mempelajari cara membuat Bitmap, menggambar garis dengan pena warna berbeda, dan menyimpan gambar yang dihasilkan. Pengetahuan ini merupakan landasan untuk manipulasi grafis tingkat lanjut dalam aplikasi .NET Anda.
 
- Jangan ragu untuk bereksperimen dengan berbagai warna, bentuk, dan teknik untuk meningkatkan keterampilan pemrograman grafis Anda. Jika Anda menemui tantangan apa pun, Aspose.Drawing[dokumentasi](https://reference.aspose.com/drawing/net/) Dan[forum dukungan](https://forum.aspose.com/c/diagram/17) adalah sumber daya yang sangat baik.
+ Jangan ragu untuk bereksperimen dengan berbagai warna, bentuk, dan teknik untuk meningkatkan keterampilan pemrograman grafis Anda. Jika Anda menemui tantangan apa pun, Aspose.Drawing[dokumentasi](https://reference.aspose.com/drawing/net/) Dan[forum dukungan](https://forum.aspose.com/c/drawing/44) adalah sumber daya yang sangat baik.
 
 ## FAQ
 

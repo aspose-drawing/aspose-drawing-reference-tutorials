@@ -101,7 +101,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png"
 
 ### Вопрос 5. Где я могу обратиться за помощью или связаться с сообществом?
 
- A5: По любым вопросам или обсуждениям перейдите на[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) взаимодействовать с активным сообществом Aspose.
+ A5: По любым вопросам или обсуждениям перейдите на[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44) взаимодействовать с активным сообществом Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

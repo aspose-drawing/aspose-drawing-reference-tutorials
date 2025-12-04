@@ -86,7 +86,7 @@ En este tutorial, exploramos el proceso de dibujar splines cardinales usando Asp
 
 ### P3: ¿Dónde puedo encontrar soporte adicional?
 
- A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para apoyo y debates de la comunidad.
+ A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para apoyo y debates de la comunidad.
 
 ### P4: ¿Hay una prueba gratuita disponible?
 

@@ -106,7 +106,7 @@ A4: Ναι, το Aspose.Drawing παρέχει ένα ολοκληρωμένο �
 
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.Drawing;
 
- A5: Εξερευνήστε το φόρουμ Aspose.Drawing[εδώ](https://forum.aspose.com/c/diagram/17) για κοινοτική υποστήριξη και συζητήσεις.
+ A5: Εξερευνήστε το φόρουμ Aspose.Drawing[εδώ](https://forum.aspose.com/c/drawing/44) για κοινοτική υποστήριξη και συζητήσεις.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

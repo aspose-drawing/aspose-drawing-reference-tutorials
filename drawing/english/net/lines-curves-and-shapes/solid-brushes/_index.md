@@ -93,7 +93,7 @@ A2: Certainly! You can explore the features by downloading the trial version [he
 
 ### Q3: How can I get support for Aspose.Drawing for .NET?
 
-A3: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) for community support and discussions.
+A3: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) for community support and discussions.
 
 ### Q4: Where can I find comprehensive documentation for Aspose.Drawing for .NET?
 

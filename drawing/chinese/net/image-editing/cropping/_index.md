@@ -137,7 +137,7 @@ A4：确实，Aspose.Drawing 在批量处理方面表现出色，能够一次高
 
 ### Q5: 如何获取 Aspose.Drawing 相关问题的支持？
 
-A5：前往 [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) 寻求帮助并与社区交流。
+A5：前往 [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) 寻求帮助并与社区交流。
 
 ---
 

@@ -105,7 +105,7 @@ S3: Ja, Aspose.Drawing är mångsidig och kan användas för både enkla och kom
 
 ### F4: Hur kan jag få support eller söka hjälp med Aspose.Drawing?
 
- A4: Du kan besöka[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) för samhällsstöd. Dessutom kan du överväga att köpa en tillfällig licens eller kontakta Asposes support för mer personlig hjälp.
+ A4: Du kan besöka[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) för samhällsstöd. Dessutom kan du överväga att köpa en tillfällig licens eller kontakta Asposes support för mer personlig hjälp.
 
 ### F5: Var kan jag hitta dokumentationen för Aspose.Drawing?
 

@@ -86,7 +86,7 @@ In questo tutorial, abbiamo esplorato il processo di disegno di spline cardinali
 
 ### Q3: Dove posso trovare ulteriore supporto?
 
- A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) per il supporto e le discussioni della comunità.
+ A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per il supporto e le discussioni della comunità.
 
 ### Q4: È disponibile una prova gratuita?
 

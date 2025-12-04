@@ -112,7 +112,7 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 Đ: Chắc chắn—tải phiên bản dùng thử [tại đây](https://releases.aspose.com/).
 
 **H: Làm sao tôi có thể nhận hỗ trợ cho Aspose.Drawing?**  
-Đ: Truy cập [Diễn đàn Aspose.Drawing](https://forum.aspose.com/c/diagram/17) để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
+Đ: Truy cập [Diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44) để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
 
 **H: Tôi có thể tìm tài liệu cho Aspose.Drawing ở đâu?**  
 Đ: Tham khảo toàn bộ API tại [trang tài liệu Aspose.Drawing](https://reference.aspose.com/drawing/net/).

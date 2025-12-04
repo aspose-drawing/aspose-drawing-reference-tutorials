@@ -97,7 +97,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 
 ### Вопрос 4. Как я могу получить поддержку или обратиться за помощью, если у меня возникнут проблемы?
 
- A4: Посетите форум Aspose.Drawing.[здесь](https://forum.aspose.com/c/diagram/17) за общественную поддержку и помощь.
+ A4: Посетите форум Aspose.Drawing.[здесь](https://forum.aspose.com/c/drawing/44) за общественную поддержку и помощь.
 
 ### В5: Есть ли бесплатная пробная версия?
 

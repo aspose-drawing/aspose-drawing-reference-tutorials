@@ -137,7 +137,7 @@ A4: Indeed, Aspose.Drawing excels in batch processing, enabling efficient handli
 
 ### Q5: How can I get support for Aspose.Drawing‑related queries?
 
-A5: Head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) to seek assistance and connect with the community.
+A5: Head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) to seek assistance and connect with the community.
 
 ---
 

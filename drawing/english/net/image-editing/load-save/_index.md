@@ -124,7 +124,7 @@ A3: Visit [here](https://purchase.aspose.com/temporary-license/) for temporary l
 
 ### Q4: What if I encounter issues or have questions during implementation?
 
-A4: Seek assistance from the Aspose.Drawing community at [Aspose Forum](https://forum.aspose.com/c/diagram/17).
+A4: Seek assistance from the Aspose.Drawing community at [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q5: Where can I purchase the Aspose.Drawing library?
 

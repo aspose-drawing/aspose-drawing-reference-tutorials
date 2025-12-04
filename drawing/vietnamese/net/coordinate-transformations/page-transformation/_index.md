@@ -123,7 +123,7 @@ A: Có, bản dùng thử miễn phí có sẵn [here](https://releases.aspose
 A: Tham khảo toàn bộ API tại [here](https://reference.aspose.com/drawing/net/).
 
 **Q: Làm sao để nhận hỗ trợ cho Aspose.Drawing?**  
-A: Truy cập [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
+A: Truy cập [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
 
 **Q: Có giấy phép tạm thời cho Aspose.Drawing không?**  
 A: Chắc chắn—lấy giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).

@@ -107,7 +107,7 @@ A4: Raadpleeg de[aankooppagina](https://purchase.aspose.com/buy) voor licentiege
 
 ### V5: Waar kan ik hulp zoeken als ik problemen ondervind of vragen heb over Aspose.Drawing?
 
- A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) om steun te krijgen van de gemeenschap en experts.
+ A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) om steun te krijgen van de gemeenschap en experts.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

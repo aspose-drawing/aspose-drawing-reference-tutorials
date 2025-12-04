@@ -98,7 +98,7 @@ A2: Abszolút! Több átalakítási hívást is láncolhat összetett vizuális 
 
 ### 3. kérdés: Hol találok további oktatóanyagokat és példákat az Aspose.Drawinghez?
 
- A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) rengeteg oktatóanyag, példa és közösségi beszélgetés.
+ A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) rengeteg oktatóanyag, példa és közösségi beszélgetés.
 
 ### 4. kérdés: Van ingyenes próbaverzió az Aspose.Drawing számára?
 

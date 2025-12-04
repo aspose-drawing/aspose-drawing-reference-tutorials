@@ -111,7 +111,7 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 
 ### كيف يمكنني الحصول على الدعم إذا واجهت مشكلات؟
 
- قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لدعم المجتمع.
+ قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) لدعم المجتمع.
 
 ### هل يمكنني تجربة Aspose.Drawing قبل الشراء؟
 

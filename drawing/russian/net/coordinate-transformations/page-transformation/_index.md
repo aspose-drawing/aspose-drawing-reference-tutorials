@@ -125,7 +125,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 О: Полный справочник API расположен [здесь](https://reference.aspose.com/drawing/net/).
 
 **В: Как получить поддержку по Aspose.Drawing?**  
-О: Посетите [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) для помощи от сообщества и официальных специалистов.
+О: Посетите [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) для помощи от сообщества и официальных специалистов.
 
 **В: Доступна ли временная лицензия для Aspose.Drawing?**  
 О: Конечно — получите её [здесь](https://purchase.aspose.com/temporary-license/).

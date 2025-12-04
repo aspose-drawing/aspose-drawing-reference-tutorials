@@ -101,7 +101,7 @@ Absolutnie! Masz pełną kontrolę nad kolorem i grubością ramy, co pozwala na
 ### Czy Aspose.Drawing oferuje bezpłatną wersję próbną?
  Tak, możesz odkrywać funkcje Aspose.Drawing w ramach bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Drawing?
- Odwiedź forum Aspose.Drawing[Tutaj](https://forum.aspose.com/c/diagram/17) aby uzyskać pomoc i nawiązać kontakt ze społecznością.
+ Odwiedź forum Aspose.Drawing[Tutaj](https://forum.aspose.com/c/drawing/44) aby uzyskać pomoc i nawiązać kontakt ze społecznością.
 ### Czy mogę używać Aspose.Drawing do projektów komercyjnych?
  Tak, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) do użytku komercyjnego.
 {{< /blocks/products/pf/tutorial-page-section >}}

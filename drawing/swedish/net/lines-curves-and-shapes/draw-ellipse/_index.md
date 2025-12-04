@@ -97,7 +97,7 @@ A3: Absolut! Aspose.Drawing är ett kraftfullt bibliotek som kan hantera inveckl
 
 ### F4: Hur kan jag få support eller söka hjälp om jag stöter på problem?
 
- S4: Besök Aspose.Drawing-forumet[här](https://forum.aspose.com/c/diagram/17) för samhällsstöd och hjälp.
+ S4: Besök Aspose.Drawing-forumet[här](https://forum.aspose.com/c/drawing/44) för samhällsstöd och hjälp.
 
 ### F5: Finns det en gratis provperiod?
 

@@ -125,7 +125,7 @@ Félicitations ! Vous venez d'effectuer une **transformation du système de coor
 **R :** La référence complète de l'API se trouve [here](https://reference.aspose.com/drawing/net/).
 
 **Q : Comment obtenir du support pour Aspose.Drawing ?**  
-**R :** Consultez le [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) pour l'aide communautaire et l'assistance officielle.
+**R :** Consultez le [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pour l'aide communautaire et l'assistance officielle.
 
 **Q : Une licence temporaire est‑elle disponible pour Aspose.Drawing ?**  
 **R :** Absolument — obtenez‑en une [here](https://purchase.aspose.com/temporary-license/).

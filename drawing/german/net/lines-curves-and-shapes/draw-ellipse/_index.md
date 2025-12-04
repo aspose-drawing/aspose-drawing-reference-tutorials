@@ -97,7 +97,7 @@ A3: Auf jeden Fall! Aspose.Drawing ist eine leistungsstarke Bibliothek, die komp
 
 ### F4: Wie kann ich Unterstützung erhalten oder Hilfe suchen, wenn ich auf Probleme stoße?
 
- A4: Besuchen Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/diagram/17) für die Unterstützung und Unterstützung der Gemeinschaft.
+ A4: Besuchen Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/drawing/44) für die Unterstützung und Unterstützung der Gemeinschaft.
 
 ### F5: Gibt es eine kostenlose Testversion?
 

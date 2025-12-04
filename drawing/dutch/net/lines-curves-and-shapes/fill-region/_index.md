@@ -99,7 +99,7 @@ Het vullen van gebieden in Aspose.Drawing voor .NET is een eenvoudig proces en b
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) om hulp te krijgen van de gemeenschap en experts.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) om hulp te krijgen van de gemeenschap en experts.
 
 ### V4: Kan ik dynamische afbeeldingen genereren met Aspose.Drawing?
 

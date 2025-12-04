@@ -97,7 +97,7 @@ A1：是的，Aspose.Drawing 與其他 .NET 程式庫無縫集成，為您的開
 
 ### Q3：哪裡可以找到對 Aspose.Drawing 的支援？
 
- A3：造訪Aspose.Drawing[論壇](https://forum.aspose.com/c/diagram/17)尋求幫助和社區支持。
+ A3：造訪Aspose.Drawing[論壇](https://forum.aspose.com/c/drawing/44)尋求幫助和社區支持。
 
 ### Q4：如何取得臨時駕照？
 

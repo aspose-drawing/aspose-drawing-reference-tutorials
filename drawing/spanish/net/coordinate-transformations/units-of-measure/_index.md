@@ -117,7 +117,7 @@ R1: Sí, Aspose.Drawing es compatible con varios marcos .NET, lo que brinda flex
 
 ### P3: ¿Cómo obtengo soporte para Aspose.Drawing para .NET?
 
- A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para apoyo y debates de la comunidad.
+ A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para apoyo y debates de la comunidad.
 
 ### P4: ¿Puedo comprar una licencia temporal para proyectos a corto plazo?
 

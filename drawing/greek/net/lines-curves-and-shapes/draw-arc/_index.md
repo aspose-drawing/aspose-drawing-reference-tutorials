@@ -90,7 +90,7 @@ A4: Ναι, το Aspose.Drawing ενσωματώνεται άψογα με άλ�
 
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη ή συζητήσεις στην κοινότητα;
 
- A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17) για κοινοτική υποστήριξη και συζητήσεις.
+ A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44) για κοινοτική υποστήριξη και συζητήσεις.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

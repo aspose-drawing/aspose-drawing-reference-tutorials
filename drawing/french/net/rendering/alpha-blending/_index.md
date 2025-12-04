@@ -87,7 +87,7 @@ Dans ce didacticiel, nous avons exploré le monde fascinant du mélange alpha av
 
 ### Q3 : Comment puis-je obtenir de l'aide pour Aspose.Drawing ?
 
- A3 : Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/diagram/17) pour le soutien de la communauté.
+ A3 : Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/drawing/44) pour le soutien de la communauté.
 
 ### Q4 : Des licences temporaires sont-elles disponibles pour Aspose.Drawing ?
 

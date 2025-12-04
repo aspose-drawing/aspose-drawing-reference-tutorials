@@ -104,7 +104,7 @@ A1: Ano, Aspose.Drawing je univerzální a lze jej využít v různých aplikac�
 
 ### Q3: Kde najdu další podporu pro Aspose.Drawing?
 
- A3: Máte-li jakékoli dotazy nebo pomoc, navštivte stránku[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17).
+ A3: Máte-li jakékoli dotazy nebo pomoc, navštivte stránku[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Existují nějaká omezení pro formáty obrázků podporované Aspose.Drawing?
 

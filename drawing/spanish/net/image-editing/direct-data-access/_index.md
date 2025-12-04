@@ -113,7 +113,7 @@ R: Sí, Aspose.Drawing funciona con .NET Framework, .NET Core y .NET 5/6+.
 R: Absolutamente—descarga una versión de prueba [aquí](https://releases.aspose.com/).
 
 **P: ¿Cómo puedo obtener soporte para Aspose.Drawing?**  
-R: Visita el [Foro de Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para ayuda de la comunidad y soporte oficial.
+R: Visita el [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para ayuda de la comunidad y soporte oficial.
 
 **P: ¿Dónde puedo encontrar la documentación de Aspose.Drawing?**  
 R: La referencia completa de la API está disponible en el sitio de [documentación de Aspose.Drawing](https://reference.aspose.com/drawing/net/).

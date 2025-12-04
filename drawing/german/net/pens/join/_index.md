@@ -104,7 +104,7 @@ In diesem Tutorial haben wir den Prozess des Verbindens von Pfaden mit Stiften i
 
 ### F3: Wie kann ich Unterstützung für Aspose.Drawing erhalten?
 
- A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17) für Gemeinschaft und Unterstützung.
+ A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) für Gemeinschaft und Unterstützung.
 
 ### F4: Sind temporäre Lizenzen für Aspose.Drawing verfügbar?
 

@@ -125,7 +125,7 @@ A: Ja, eine kostenlose Testversion ist [hier](https://releases.aspose.com/) ve
 A: Die vollständige API‑Referenz befindet sich [hier](https://reference.aspose.com/drawing/net/).
 
 **F: Wie erhalte ich Support für Aspose.Drawing?**  
-A: Besuchen Sie das [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) für Community‑Hilfe und offizielle Unterstützung.
+A: Besuchen Sie das [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) für Community‑Hilfe und offizielle Unterstützung.
 
 **F: Gibt es eine temporäre Lizenz für Aspose.Drawing?**  
 A: Auf jeden Fall – erhalten Sie eine [hier](https://purchase.aspose.com/temporary-license/).

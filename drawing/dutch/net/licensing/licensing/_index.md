@@ -143,7 +143,7 @@ A4: Ja, u kunt Aspose.Drawing gebruiken in zowel commerciÃ«le als niet-commerciÃ
 
 ### V5: Waar kan ik community-ondersteuning vinden voor Aspose.Drawing?
 
- A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor gemeenschapsondersteuning en discussies.
+ A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

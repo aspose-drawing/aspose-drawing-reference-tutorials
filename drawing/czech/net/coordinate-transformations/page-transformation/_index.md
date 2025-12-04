@@ -125,7 +125,7 @@ A: Ano, bezplatná zkušební verze je k dispozici [here](https://releases.asp
 A: Kompletní referenční API najdete [here](https://reference.aspose.com/drawing/net/).
 
 **Q: Jak získám podporu pro Aspose.Drawing?**  
-A: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) pro komunitní pomoc a oficiální asistenci.
+A: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pro komunitní pomoc a oficiální asistenci.
 
 **Q: Je k dispozici dočasná licence pro Aspose.Drawing?**  
 A: Samozřejmě—obdržíte ji [here](https://purchase.aspose.com/temporary-license/).

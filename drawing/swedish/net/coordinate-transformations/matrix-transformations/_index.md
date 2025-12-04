@@ -137,7 +137,7 @@ A: The documentation is available [here](https://reference.aspose.com/drawing/ne
 A: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
 **Q: Where can I seek support or connect with the community?**  
-A: Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/diagram/17).
+A: Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/drawing/44).
 
 **Q: Can I download Aspose.Drawing for .NET?**  
 A: Yes, download it from [this link](https://releases.aspose.com/drawing/net/).

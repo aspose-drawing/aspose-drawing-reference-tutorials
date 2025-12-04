@@ -57,8 +57,6 @@ Diese drei Aktionen bilden das Rückgrat jedes Bildverarbeitungs‑Workflows, un
 - Aspose.Drawing für .NET NuGet‑Paket (`Install-Package Aspose.Drawing`)
 - Grundlegende Kenntnisse in C# und Bildkonzepten (Pixel, DPI, Farbtiefe)
 
----
-
 ### How to Crop an Image (How to Crop Image)
 
 Unten finden Sie das dedizierte Tutorial, das Sie durch präzise Zuschneidetechniken führt. Das Beherrschen des Zuschneidens hilft Ihnen, sich auf die wichtigsten Bildbereiche zu konzentrieren und die Gesamtkomposition zu verbessern.
@@ -89,8 +87,6 @@ Abschließend entdecken Sie die genauen Schritte, um ein Bild verlustfrei zu ska
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
-
 ## Common Use Cases
 
 | Scenario | Why It Matters | Primary API Calls |
@@ -99,6 +95,18 @@ Abschließend entdecken Sie die genauen Schritte, um ein Bild verlustfrei zu ska
 | **Assets für hochauflösende Displays vorbereiten** | Vermeidet unscharfe UI‑Elemente auf modernen Bildschirmen | `Load → Resize (bicubic) → Save` |
 | **Stapelverarbeitung von Produktfotos** | Sorgt für Marken‑Konsistenz über tausende Bilder hinweg | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **Erstellung druckbarer PDFs** | Erhält die druckfertige Auflösung | `Load → Scale (no loss) → Embed in PDF` |
+
+## Bildbearbeitungs‑Tutorials
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Meistern Sie das Zuschneiden von Bildern mit Aspose.Drawing für .NET. Dieses Schritt‑für‑Schritt‑Guide befähigt Entwickler, ihre Bildverarbeitungsfähigkeiten mühelos zu verbessern.
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Lernen Sie, Bilder effizient mit Aspose.Drawing für .NET zu manipulieren. Tauchen Sie ein in den direkten Datenzugriff mit unserem Schritt‑für‑Schritt‑Guide.
+### [Displaying Images in Aspose.Drawing](./display/)
+Erfahren Sie, wie Sie Bilder in .NET‑Anwendungen mit Aspose.Drawing anzeigen. Folgen Sie unserem Tutorial für einfache Schritte und verbessern Sie Ihre visuellen Inhalte.
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Meistern Sie das Laden und Speichern von Bildern in .NET mit Aspose.Drawing. Erkunden Sie mühelos die Formate BMP, GIF, JPG, PNG, TIFF.
+### [Scaling Images in Aspose.Drawing](./scale/)
+Lernen Sie, Bilder mühelos in .NET mit Aspose.Drawing zu skalieren. Unser Schritt‑für‑Schritt‑Guide gewährleistet nahtlose Integration und bietet leistungsstarke Bildmanipulations‑Funktionen.
 
 ## Frequently Asked Questions
 
@@ -119,8 +127,6 @@ A: Aspose.Drawing akzeptiert Gleitkomma‑Abmessungen, und die Resampling‑Engi
 
 ---
 
----
-
 **Zuletzt aktualisiert:** 2025-12-04  
 **Getestet mit:** Aspose.Drawing for .NET 24.11  
 **Autor:** Aspose  
@@ -131,15 +137,3 @@ A: Aspose.Drawing akzeptiert Gleitkomma‑Abmessungen, und die Resampling‑Engi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Bildbearbeitungs‑Tutorials
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Meistern Sie das Zuschneiden von Bildern mit Aspose.Drawing für .NET. Dieses Schritt‑für‑Schritt‑Guide befähigt Entwickler, ihre Bildverarbeitungsfähigkeiten mühelos zu verbessern.
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Lernen Sie, Bilder effizient mit Aspose.Drawing für .NET zu manipulieren. Tauchen Sie ein in den direkten Datenzugriff mit unserem Schritt‑für‑Schritt‑Guide.
-### [Displaying Images in Aspose.Drawing](./display/)
-Erfahren Sie, wie Sie Bilder in .NET‑Anwendungen mit Aspose.Drawing anzeigen. Folgen Sie unserem Tutorial für einfache Schritte und verbessern Sie Ihre visuellen Inhalte.
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Meistern Sie das Laden und Speichern von Bildern in .NET mit Aspose.Drawing. Erkunden Sie mühelos die Formate BMP, GIF, JPG, PNG, TIFF.
-### [Scaling Images in Aspose.Drawing](./scale/)
-Lernen Sie, Bilder mühelos in .NET mit Aspose.Drawing zu skalieren. Unser Schritt‑für‑Schritt‑Guide gewährleistet nahtlose Integration und bietet leistungsstarke Bildmanipulations‑Funktionen.

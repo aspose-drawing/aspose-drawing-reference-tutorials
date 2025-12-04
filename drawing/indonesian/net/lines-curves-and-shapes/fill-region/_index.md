@@ -99,7 +99,7 @@ Mengisi wilayah di Aspose.Drawing untuk .NET adalah proses yang mudah, memberi A
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Drawing?
 
- A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) mendapatkan bantuan dari masyarakat dan para ahli.
+ A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) mendapatkan bantuan dari masyarakat dan para ahli.
 
 ### Q4: Bisakah saya menghasilkan gambar dinamis menggunakan Aspose.Drawing?
 

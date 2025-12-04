@@ -88,7 +88,7 @@ A2: Kesinlikle! Aspose.Drawing, kullanıcı dostu bir arayüz sunarak hem yeni b
 
 ### S3: Aspose.Drawing desteğini nerede bulabilirim?
 
- A3: Sorularınız veya yardımınız için web sitemizi ziyaret edin.[destek Forumu](https://forum.aspose.com/c/diagram/17).
+ A3: Sorularınız veya yardımınız için web sitemizi ziyaret edin.[destek Forumu](https://forum.aspose.com/c/drawing/44).
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 

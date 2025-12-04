@@ -124,7 +124,7 @@ A: Igen, egy ingyenes próbaverzió elérhető [itt](https://releases.aspose.c
 A: A teljes API‑referencia megtalálható [itt](https://reference.aspose.com/drawing/net/).
 
 **Q: Hogyan kaphatok támogatást az Aspose.Drawing‑hoz?**  
-A: Látogassa meg az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/diagram/17) közösségi segítségért és hivatalos támogatásért.
+A: Látogassa meg az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44) közösségi segítségért és hivatalos támogatásért.
 
 **Q: Elérhető ideiglenes licenc az Aspose.Drawing‑hoz?**  
 A: Természetesen – szerezze be [itt](https://purchase.aspose.com/temporary-license/).

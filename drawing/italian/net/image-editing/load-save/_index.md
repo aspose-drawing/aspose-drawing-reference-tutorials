@@ -127,7 +127,7 @@ R3: Visita [qui](https://purchase.aspose.com/temporary-license/) per i dettagli 
 
 ### Q4: Cosa fare se incontro problemi o ho domande durante l'implementazione?
 
-R4: Richiedi assistenza alla community di Aspose.Drawing su [Aspose Forum](https://forum.aspose.com/c/diagram/17).
+R4: Richiedi assistenza alla community di Aspose.Drawing su [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q5: Dove posso acquistare la libreria Aspose.Drawing?
 

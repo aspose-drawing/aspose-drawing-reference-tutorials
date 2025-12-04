@@ -88,7 +88,7 @@ A2: Abszolút! Az Aspose.Drawing felhasználóbarát felületet biztosít, így 
 
 ### 3. kérdés: Hol találok támogatást az Aspose.Drawing számára?
 
- A3: Bármilyen kérdéssel vagy segítséggel kapcsolatban keresse fel oldalunkat[támogatói fórum](https://forum.aspose.com/c/diagram/17).
+ A3: Bármilyen kérdéssel vagy segítséggel kapcsolatban keresse fel oldalunkat[támogatói fórum](https://forum.aspose.com/c/drawing/44).
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 

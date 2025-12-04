@@ -101,7 +101,7 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 ### क्या Aspose.Drawing निःशुल्क परीक्षण की पेशकश करता है?
  हां, आप नि:शुल्क परीक्षण के साथ Aspose.Drawing की सुविधाओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Drawing के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- Aspose.Drawing फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/diagram/17) सहायता प्राप्त करने और समुदाय से जुड़ने के लिए।
+ Aspose.Drawing फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/drawing/44) सहायता प्राप्त करने और समुदाय से जुड़ने के लिए।
 ### क्या मैं व्यावसायिक परियोजनाओं के लिए Aspose.Drawing का उपयोग कर सकता हूँ?
  हां, आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) व्यावसायिक उपयोग के लिए.
 {{< /blocks/products/pf/tutorial-page-section >}}

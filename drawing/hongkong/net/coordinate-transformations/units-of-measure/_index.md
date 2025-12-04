@@ -117,7 +117,7 @@ A1：是的，Aspose.Drawing 與各種 .NET 框架相容，為您的開發環境
 
 ### 問題 3：如何獲得 Aspose.Drawing for .NET 支援？
 
- A3：訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17)以獲得社區支持和討論。
+ A3：訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/drawing/44)以獲得社區支持和討論。
 
 ### Q4：我可以為短期專案購買臨時許可證嗎？
 

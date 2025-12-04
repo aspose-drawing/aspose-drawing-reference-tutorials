@@ -87,7 +87,7 @@ Dalam tutorial ini, kita menjelajahi dunia pencampuran alfa yang menakjubkan den
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Drawing?
 
- A3: Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/diagram/17) untuk dukungan masyarakat.
+ A3: Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/drawing/44) untuk dukungan masyarakat.
 
 ### Q4: Apakah lisensi sementara tersedia untuk Aspose.Drawing?
 

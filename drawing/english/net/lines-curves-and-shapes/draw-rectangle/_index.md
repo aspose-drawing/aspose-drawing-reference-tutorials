@@ -81,7 +81,7 @@ Congratulations! You've successfully drawn a rectangle using Aspose.Drawing for 
 
 In this tutorial, we explored the fundamental steps to draw rectangles in Aspose.Drawing for .NET. This library provides powerful tools for graphic manipulation, making it a valuable asset for .NET developers.
 
-If you encounter any challenges or have questions, feel free to seek assistance on the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+If you encounter any challenges or have questions, feel free to seek assistance on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
 
 ## FAQ's
 

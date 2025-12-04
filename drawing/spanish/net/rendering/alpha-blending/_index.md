@@ -87,7 +87,7 @@ En este tutorial, exploramos el fascinante mundo de la combinación alfa con Asp
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.Drawing?
 
- A3: Visita el foro Aspose.Drawing[aquí](https://forum.aspose.com/c/diagram/17) para el apoyo de la comunidad.
+ A3: Visita el foro Aspose.Drawing[aquí](https://forum.aspose.com/c/drawing/44) para el apoyo de la comunidad.
 
 ### P4: ¿Hay licencias temporales disponibles para Aspose.Drawing?
 

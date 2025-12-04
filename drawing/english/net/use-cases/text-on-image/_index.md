@@ -81,7 +81,7 @@ Yes, Aspose.Drawing is suitable for both personal and commercial projects. For l
 ### Are temporary licenses available for testing purposes?
 Yes, you can obtain a temporary license for testing by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).
 ### Where can I find community support for Aspose.Drawing?
-Engage with the community and get support on the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17).
+Engage with the community and get support on the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
 ### How do I get started with Aspose.Drawing?
 Begin by downloading the library from [here](https://releases.aspose.com/drawing/net/) and explore the comprehensive [documentation](https://reference.aspose.com/drawing/net/).
 

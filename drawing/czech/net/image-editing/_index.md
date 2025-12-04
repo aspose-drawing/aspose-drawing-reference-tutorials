@@ -57,8 +57,6 @@ Tyto tři akce jsou páteří každého workflow pro zpracování obrázků a As
 - NuGet balíček Aspose.Drawing pro .NET (`Install-Package Aspose.Drawing`)
 - Základní znalost C# a pojmů souvisejících s obrázky (pixely, DPI, barevná hloubka)
 
----
-
 ### Jak oříznout obrázek (How to Crop Image)
 
 Níže je věnovaný tutoriál, který vás provede přesnými technikami ořezávání. Ovládnutí ořezávání vám pomůže zaměřit se na nejdůležitější části obrázku a zlepšit celkovou kompozici.
@@ -89,7 +87,6 @@ Nakonec objevte přesné kroky pro škálování obrázku bez ztráty, výběr v
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
 
 ## Běžné případy použití
 
@@ -100,7 +97,18 @@ Nakonec objevte přesné kroky pro škálování obrázku bez ztráty, výběr v
 | **Dávkové zpracování produktových fotografií** | Zajišťuje konzistenci značky napříč tisíci obrázky | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **Vytváření tisknutelných PDF** | Udržuje rozlišení připravené k tisku | `Load → Scale (no loss) → Embed in PDF` |
 
----
+## Tutoriály úpravy obrázků
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Ovládněte ořezávání obrázků s Aspose.Drawing pro .NET. Tento krok‑za‑krokem průvodce umožní vývojářům snadno zlepšit své dovednosti v oblasti zpracování obrázků.
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Naučte se efektivně manipulovat s obrázky pomocí Aspose.Drawing pro .NET. Prozkoumejte přímý přístup k datům v našem podrobném průvodci.
+### [Displaying Images in Aspose.Drawing](./display/)
+Zjistěte, jak zobrazovat obrázky v .NET aplikacích s Aspose.Drawing. Postupujte podle našeho tutoriálu a vylepšete svůj vizuální obsah.
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Ovládněte načítání a ukládání obrázků v .NET s Aspose.Drawing. Prozkoumejte formáty BMP, GIF, JPG, PNG, TIFF bez problémů.
+### [Scaling Images in Aspose.Drawing](./scale/)
+Naučte se snadno škálovat obrázky v .NET pomocí Aspose.Drawing. Náš krok‑za‑krokem průvodce zajišťuje plynulou integraci a výkonné možnosti manipulace s obrázky.
+
 
 ## Často kladené otázky
 
@@ -131,15 +139,3 @@ A: Aspose.Drawing přijímá rozměry s plovoucí desetinnou čárkou a přeskup
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriály úpravy obrázků
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Ovládněte ořezávání obrázků s Aspose.Drawing pro .NET. Tento krok‑za‑krokem průvodce umožní vývojářům snadno zlepšit své dovednosti v oblasti zpracování obrázků.
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Naučte se efektivně manipulovat s obrázky pomocí Aspose.Drawing pro .NET. Prozkoumejte přímý přístup k datům v našem podrobném průvodci.
-### [Displaying Images in Aspose.Drawing](./display/)
-Zjistěte, jak zobrazovat obrázky v .NET aplikacích s Aspose.Drawing. Postupujte podle našeho tutoriálu a vylepšete svůj vizuální obsah.
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Ovládněte načítání a ukládání obrázků v .NET s Aspose.Drawing. Prozkoumejte formáty BMP, GIF, JPG, PNG, TIFF bez problémů.
-### [Scaling Images in Aspose.Drawing](./scale/)
-Naučte se snadno škálovat obrázky v .NET pomocí Aspose.Drawing. Náš krok‑za‑krokem průvodce zajišťuje plynulou integraci a výkonné možnosti manipulace s obrázky.

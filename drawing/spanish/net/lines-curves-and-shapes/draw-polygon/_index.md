@@ -101,7 +101,7 @@ R2: ¡Por supuesto! Puedes dibujar tantos polígonos como necesites en un solo l
 
 ### P5: ¿Dónde puedo buscar ayuda o conectarme con la comunidad?
 
- R5: Para cualquier consulta o discusión, diríjase al[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para interactuar con la vibrante comunidad de Aspose.
+ R5: Para cualquier consulta o discusión, diríjase al[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para interactuar con la vibrante comunidad de Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

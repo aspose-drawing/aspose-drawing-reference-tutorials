@@ -125,7 +125,7 @@ A: Ja, een gratis proefversie is beschikbaar [here](https://releases.aspose.co
 A: De volledige API‑referentie is te vinden [here](https://reference.aspose.com/drawing/net/).
 
 **Q: Hoe krijg ik ondersteuning voor Aspose.Drawing?**  
-A: Bezoek het [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) voor community‑hulp en officiële ondersteuning.
+A: Bezoek het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) voor community‑hulp en officiële ondersteuning.
 
 **Q: Is er een tijdelijke licentie beschikbaar voor Aspose.Drawing?**  
 A: Zeker—verkrijg er één [here](https://purchase.aspose.com/temporary-license/).

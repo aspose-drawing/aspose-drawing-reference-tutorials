@@ -97,7 +97,7 @@ A1：是的，Aspose.Drawing 与其他 .NET 库无缝集成，为您的开发项
 
 ### Q3：哪里可以找到对 Aspose.Drawing 的支持？
 
- A3：访问Aspose.Drawing[论坛](https://forum.aspose.com/c/diagram/17)寻求帮助和社区支持。
+ A3：访问Aspose.Drawing[论坛](https://forum.aspose.com/c/drawing/44)寻求帮助和社区支持。
 
 ### Q4：如何获得临时驾照？
 

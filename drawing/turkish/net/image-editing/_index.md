@@ -57,8 +57,6 @@ Bu üç eylem, herhangi bir görüntü‑işleme iş akışının temelini oluş
 - Aspose.Drawing for .NET NuGet paketi (`Install-Package Aspose.Drawing`)
 - C# ve görüntü kavramlarına (piksel, DPI, renk derinliği) temel aşinalık
 
----
-
 ### Görüntüyü Kırpma (How to Crop Image)
 
 Aşağıda, kesin kırpma tekniklerini adım adım gösteren özel bir öğretici bulacaksınız. Kırpmayı ustalaşmak, bir resmin en önemli bölümlerine odaklanmanıza ve genel kompozisyonu iyileştirmenize yardımcı olur.
@@ -89,8 +87,6 @@ Son olarak, kayıpsız görüntü ölçeklendirme adımlarını, uygun yeniden �
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
-
 ## Yaygın Kullanım Senaryoları
 
 | Senaryo | Neden Önemli | Primary API Calls |
@@ -99,6 +95,18 @@ Son olarak, kayıpsız görüntü ölçeklendirme adımlarını, uygun yeniden �
 | **Yüksek DPI ekranlar için varlıkları hazırlama** | Modern ekranlarda bulanık UI öğelerini önler | `Load → Resize (bicubic) → Save` |
 | **Ürün fotoğraflarını toplu işleme** | Binlerce görüntüde marka tutarlılığını sağlar | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **Yazdırılabilir PDF'ler oluşturma** | Yazdırmaya hazır çözünürlüğü korur | `Load → Scale (no loss) → Embed in PDF` |
+
+## Görsel Düzenleme Eğitimleri
+### [Aspose.Drawing'de Görüntü Kırpma](./cropping/)
+Aspose.Drawing for .NET ile görüntü kırpmayı öğrenin. Bu adım adım rehber, geliştiricilerin görüntü işleme becerilerini zahmetsizce artırmasını sağlar.
+### [Aspose.Drawing'de Doğrudan Veri Erişimi](./direct-data-access/)
+Aspose.Drawing for .NET ile görüntüleri verimli bir şekilde manipüle etmeyi öğrenin. Doğrudan veri erişimi konusunda adım adım rehberimize dalın.
+### [Aspose.Drawing'de Görüntüleri Görüntüleme](./display/)
+Aspose.Drawing ile .NET uygulamalarında görüntüleri nasıl göstereceğinizi öğrenin. Kolay adımlarla ilerleyen öğreticimiz, görsel içeriğinizi geliştirmenize yardımcı olur.
+### [Aspose.Drawing'de Görüntüleri Yükleme ve Kaydetme](./load-save/)
+Aspose.Drawing ile .NET'te görüntü yükleme ve kaydetmeyi uzmanlıkla öğrenin. BMP, GIF, JPG, PNG, TIFF formatlarını zahmetsizce keşfedin.
+### [Aspose.Drawing'de Görüntüleri Ölçeklendirme](./scale/)
+Aspose.Drawing kullanarak .NET'te görüntüleri sorunsuz bir şekilde ölçeklendirmeyi öğrenin. Adım adım rehberimiz, güçlü görüntü manipülasyonu yetenekleri sağlayarak sorunsuz entegrasyonu garantiler.
 
 ## Sıkça Sorulan Sorular
 
@@ -117,6 +125,8 @@ C: Ölçeklendirdikten sonra, kaydetmeden önce `ResolutionX` ve `ResolutionY` �
 **S: Görüntüyü tam sayı olmayan bir boyuta ölçeklendirmem gerekirse ne olur?**  
 C: Aspose.Drawing kayan nokta boyutlarını kabul eder ve yeniden örnekleme motoru artefaktları önlemek için en uygun piksel değerlerini hesaplar.
 
+---
+
 **Son Güncelleme:** 2025-12-04  
 **Test Edilen Versiyon:** Aspose.Drawing for .NET 24.11  
 **Yazar:** Aspose  
@@ -127,15 +137,3 @@ C: Aspose.Drawing kayan nokta boyutlarını kabul eder ve yeniden örnekleme mot
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Görsel Düzenleme Eğitimleri
-### [Aspose.Drawing'de Görüntü Kırpma](./cropping/)
-Aspose.Drawing for .NET ile görüntü kırpmayı öğrenin. Bu adım adım rehber, geliştiricilerin görüntü işleme becerilerini zahmetsizce artırmasını sağlar.
-### [Aspose.Drawing'de Doğrudan Veri Erişimi](./direct-data-access/)
-Aspose.Drawing for .NET ile görüntüleri verimli bir şekilde manipüle etmeyi öğrenin. Doğrudan veri erişimi konusunda adım adım rehberimize dalın.
-### [Aspose.Drawing'de Görüntüleri Görüntüleme](./display/)
-Aspose.Drawing ile .NET uygulamalarında görüntüleri nasıl göstereceğinizi öğrenin. Kolay adımlarla ilerleyen öğreticimiz, görsel içeriğinizi geliştirmenize yardımcı olur.
-### [Aspose.Drawing'de Görüntüleri Yükleme ve Kaydetme](./load-save/)
-Aspose.Drawing ile .NET'te görüntü yükleme ve kaydetmeyi uzmanlıkla öğrenin. BMP, GIF, JPG, PNG, TIFF formatlarını zahmetsizce keşfedin.
-### [Aspose.Drawing'de Görüntüleri Ölçeklendirme](./scale/)
-Aspose.Drawing kullanarak .NET'te görüntüleri sorunsuz bir şekilde ölçeklendirmeyi öğrenin. Adım adım rehberimiz, güçlü görüntü manipülasyonu yetenekleri sağlayarak sorunsuz entegrasyonu garantiler.

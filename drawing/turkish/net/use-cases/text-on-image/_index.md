@@ -81,7 +81,7 @@ Evet, Aspose.Drawing hem kişisel hem de ticari projeler için uygundur. Lisans 
 ### Test amaçlı geçici lisanslar mevcut mu?
  Evet, adresini ziyaret ederek test için geçici bir lisans alabilirsiniz.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Drawing için topluluk desteğini nerede bulabilirim?
- Toplulukla etkileşime geçin ve bu konuda destek alın[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17).
+ Toplulukla etkileşime geçin ve bu konuda destek alın[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44).
 ### Aspose.Drawing'e nasıl başlayabilirim?
  Kütüphaneyi şuradan indirerek başlayın:[Burada](https://releases.aspose.com/drawing/net/) ve kapsamlı olanı keşfedin[dokümantasyon](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -81,7 +81,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 
 このチュートリアルでは、Aspose.Drawing for .NET で四角形を描画する基本的な手順を説明しました。このライブラリはグラフィック操作のための強力なツールを提供し、.NET 開発者にとって貴重な資産となります。
 
-問題が発生した場合や質問がある場合は、お気軽にサポートを求めてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17).
+問題が発生した場合や質問がある場合は、お気軽にサポートを求めてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44).
 
 ## よくある質問
 

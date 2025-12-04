@@ -122,7 +122,7 @@ A: はい、無料トライアルが利用可能です [here](https://releases
 A: 完全な API リファレンスは [here](https://reference.aspose.com/drawing/net/) にあります。  
 
 **Q: Aspose.Drawing のサポートはどう受けられますか？**  
-A: コミュニティヘルプと公式サポートは [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) でご利用ください。  
+A: コミュニティヘルプと公式サポートは [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) でご利用ください。  
 
 **Q: Aspose.Drawing の一時ライセンスはありますか？**  
 A: もちろんです—一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。  

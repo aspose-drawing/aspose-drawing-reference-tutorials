@@ -123,7 +123,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ج: مرجع API الكامل موجود [هنا](https://reference.aspose.com/drawing/net/).
 
 **س: كيف أحصل على دعم لـ Aspose.Drawing؟**  
-ج: زر [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) للحصول على مساعدة المجتمع والدعم الرسمي.
+ج: زر [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) للحصول على مساعدة المجتمع والدعم الرسمي.
 
 **س: هل يتوفر ترخيص مؤقت لـ Aspose.Drawing؟**  
 ج: بالتأكيد—احصل على واحد [هنا](https://purchase.aspose.com/temporary-license/).

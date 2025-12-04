@@ -104,7 +104,7 @@ Câu trả lời 1: Có, Aspose.draw rất linh hoạt và có thể được s�
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.drawing ở đâu?
 
- A3: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
+ A3: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
 
 ### Câu hỏi 4: Có bất kỳ hạn chế nào đối với các định dạng hình ảnh được Aspose.drawing hỗ trợ không?
 

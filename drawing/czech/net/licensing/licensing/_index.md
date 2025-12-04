@@ -143,7 +143,7 @@ A4: Ano, Aspose.Drawing můžete používat v komerčních i nekomerčních proj
 
 ### Q5: Kde najdu podporu komunity pro Aspose.Drawing?
 
- A5: Navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) za podporu komunity a diskuze.
+ A5: Navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) za podporu komunity a diskuze.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

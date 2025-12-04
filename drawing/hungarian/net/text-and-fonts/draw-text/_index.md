@@ -107,7 +107,7 @@ Ebben az oktatóanyagban a szöveg rajzolásának folyamatát vizsgáltuk meg az
 
 ### 5. kérdés: Létezik közösségi fórum az Aspose.Drawing támogatására?
 
- V5: Igen, támogatást találhat és megvitathatja a problémákat a webhelyen[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17).
+ V5: Igen, támogatást találhat és megvitathatja a problémákat a webhelyen[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

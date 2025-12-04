@@ -86,7 +86,7 @@ Bu eğitimde Aspose.Drawing for .NET kullanarak kardinal spline çizim sürecini
 
 ### S3: Ek desteği nerede bulabilirim?
 
- A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) topluluk desteği ve tartışmalar için.
+ A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği ve tartışmalar için.
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 

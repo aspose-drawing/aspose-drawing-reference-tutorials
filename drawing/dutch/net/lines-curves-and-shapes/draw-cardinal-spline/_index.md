@@ -86,7 +86,7 @@ In deze zelfstudie hebben we het proces van het tekenen van kardinale splines on
 
 ### Vraag 3: Waar kan ik aanvullende ondersteuning vinden?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor gemeenschapsondersteuning en discussies.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning en discussies.
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 

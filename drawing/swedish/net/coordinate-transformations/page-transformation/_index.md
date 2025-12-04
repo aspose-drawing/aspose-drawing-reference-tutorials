@@ -123,7 +123,7 @@ A: Ja, en gratis provversion finns [here](https://releases.aspose.com/).
 A: Den fullständiga API‑referensen finns [here](https://reference.aspose.com/drawing/net/).
 
 **Q: Hur får jag support för Aspose.Drawing?**  
-A: Besök [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) för gemenskaps‑hjälp och officiell assistans.
+A: Besök [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) för gemenskaps‑hjälp och officiell assistans.
 
 **Q: Finns en temporär licens för Aspose.Drawing?**  
 A: Absolut—skaffa en [here](https://purchase.aspose.com/temporary-license/).

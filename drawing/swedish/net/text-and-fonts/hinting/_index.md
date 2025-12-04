@@ -108,7 +108,7 @@ S4: Ja, Aspose.Drawing stöder olika textåtergivningstips för att tillgodose o
 
 ### F5: Var kan jag söka hjälp eller dela mina erfarenheter med Aspose.Drawing?
 
- A5: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17)att engagera sig i samhället och få stöd.
+ A5: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)att engagera sig i samhället och få stöd.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

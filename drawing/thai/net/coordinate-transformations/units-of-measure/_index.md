@@ -117,7 +117,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Units
 
 ### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose. Drawing สำหรับ .NET ได้อย่างไร
 
- A3: เยี่ยมชม[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+ A3: เยี่ยมชม[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/drawing/44) สำหรับการสนับสนุนและการอภิปรายของชุมชน
 
 ### คำถามที่ 4: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับโครงการระยะสั้นได้หรือไม่
 

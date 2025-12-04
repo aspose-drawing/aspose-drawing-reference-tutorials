@@ -136,7 +136,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 ج: احصل على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
 **س: أين يمكنني طلب الدعم أو التواصل مع المجتمع؟**  
-ج: زر منتدى Aspose.Drawing [هنا](https://forum.aspose.com/c/diagram/17).
+ج: زر منتدى Aspose.Drawing [هنا](https://forum.aspose.com/c/drawing/44).
 
 **س: هل يمكنني تحميل Aspose.Drawing لـ .NET؟**  
 ج: نعم، حمّله من [هذا الرابط](https://releases.aspose.com/drawing/net/).

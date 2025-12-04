@@ -143,7 +143,7 @@ A4: はい、適切なライセンスがあれば、商用プロジェクトと�
 
 ### Q5: Aspose.Drawing のコミュニティ サポートはどこで見つけられますか?
 
- A5: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)コミュニティのサポートとディスカッションのために。
+ A5: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティのサポートとディスカッションのために。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

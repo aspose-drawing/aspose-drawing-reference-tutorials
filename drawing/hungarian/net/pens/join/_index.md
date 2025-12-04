@@ -104,7 +104,7 @@ Ebben az oktatóanyagban az Aspose.Drawing for .NET programban az útvonalak tol
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing programhoz?
 
- A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) közösségért és támogatásért.
+ A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) közösségért és támogatásért.
 
 ### 4. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.Drawing számára?
 

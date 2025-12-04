@@ -88,7 +88,7 @@ A2: Rozhodně! Aspose.Drawing poskytuje uživatelsky přívětivé rozhraní, ta
 
 ### Q3: Kde najdu podporu pro Aspose.Drawing?
 
- A3: Máte-li jakékoli dotazy nebo pomoc, navštivte naše[Fórum podpory](https://forum.aspose.com/c/diagram/17).
+ A3: Máte-li jakékoli dotazy nebo pomoc, navštivte naše[Fórum podpory](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 

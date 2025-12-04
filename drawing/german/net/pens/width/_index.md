@@ -84,7 +84,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie die Breite von Stiften mit 
 
 ### F3: Wo kann ich zusätzliche Unterstützung finden oder Fragen stellen?
 
- A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17) um Hilfe zu suchen, Erfahrungen auszutauschen und mit der Community in Kontakt zu treten.
+ A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) um Hilfe zu suchen, Erfahrungen auszutauschen und mit der Community in Kontakt zu treten.
 
 ### F4: Gibt es eine kostenlose Testversion?
 

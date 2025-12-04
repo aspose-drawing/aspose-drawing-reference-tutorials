@@ -138,7 +138,7 @@ J: Dokumentasi tersedia [di sini](https://reference.aspose.com/drawing/net/).
 J: Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
 **T: Di mana saya dapat mencari dukungan atau terhubung dengan komunitas?**  
-J: Kunjungi forum Aspose.Drawing [di sini](https://forum.aspose.com/c/diagram/17).
+J: Kunjungi forum Aspose.Drawing [di sini](https://forum.aspose.com/c/drawing/44).
 
 **T: Bisakah saya mengunduh Aspose.Drawing untuk .NET?**  
 J: Ya, unduh dari [tautan ini](https://releases.aspose.com/drawing/net/).

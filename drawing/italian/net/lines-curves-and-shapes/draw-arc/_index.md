@@ -90,7 +90,7 @@ A4: Sì, Aspose.Drawing si integra perfettamente con altre librerie .NET, fornen
 
 ### Q5: Dove posso trovare ulteriore supporto o discussioni nella community?
 
- A5: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) per il supporto e le discussioni della comunità.
+ A5: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per il supporto e le discussioni della comunità.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -97,7 +97,7 @@ Odpowiedź 1: Tak, Aspose.Drawing bezproblemowo integruje się z innymi bibliote
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.Drawing?
 
- A3: Odwiedź stronę Aspose.Drawing[forum](https://forum.aspose.com/c/diagram/17) za pomoc i wsparcie społeczne.
+ A3: Odwiedź stronę Aspose.Drawing[forum](https://forum.aspose.com/c/drawing/44) za pomoc i wsparcie społeczne.
 
 ### P4: Jak uzyskać licencję tymczasową?
 

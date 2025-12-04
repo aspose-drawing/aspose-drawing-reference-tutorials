@@ -83,7 +83,7 @@ Congratulations! You've successfully created an image with colorful lines using 
 
 In this tutorial, we've explored the basics of working with colors in Aspose.Drawing for .NET. You've learned how to create a Bitmap, draw lines with different colored pens, and save the resulting image. This knowledge is a foundation for more advanced graphics manipulation in your .NET applications.
 
-Feel free to experiment with different colors, shapes, and techniques to enhance your graphic programming skills. If you encounter any challenges, the Aspose.Drawing [documentation](https://reference.aspose.com/drawing/net/) and [support forum](https://forum.aspose.com/c/diagram/17) are excellent resources.
+Feel free to experiment with different colors, shapes, and techniques to enhance your graphic programming skills. If you encounter any challenges, the Aspose.Drawing [documentation](https://reference.aspose.com/drawing/net/) and [support forum](https://forum.aspose.com/c/drawing/44) are excellent resources.
 
 ## FAQ's
 

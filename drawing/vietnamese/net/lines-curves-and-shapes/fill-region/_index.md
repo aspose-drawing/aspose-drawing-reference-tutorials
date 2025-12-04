@@ -99,7 +99,7 @@ Lưu hình ảnh cuối cùng vào thư mục bạn muốn.
 
 ### Câu 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.drawing?
 
- A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia.
+ A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia.
 
 ### Câu hỏi 4: Tôi có thể tạo hình ảnh động bằng Aspose.drawing không?
 

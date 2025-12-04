@@ -111,7 +111,7 @@ A: 可以，Aspose.Drawing 支援 .NET Framework、.NET Core，以及 .NET 5/6
 A: 當然，有試用版可在[此處](https://releases.aspose.com/)下載。
 
 **Q: 如何取得 Aspose.Drawing 的技術支援？**  
-A: 前往 [Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17) 取得社群與官方支援。
+A: 前往 [Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44) 取得社群與官方支援。
 
 **Q: 哪裡可以找到 Aspose.Drawing 的文件？**  
 A: 完整 API 參考位於 [Aspose.Drawing 文件站點](https://reference.aspose.com/drawing/net/)。

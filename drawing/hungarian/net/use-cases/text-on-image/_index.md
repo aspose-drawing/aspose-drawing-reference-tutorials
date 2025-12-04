@@ -81,7 +81,7 @@ Igen, az Aspose.Drawing személyes és kereskedelmi projektekhez egyaránt alkal
 ### Vannak ideiglenes licencek tesztelési célokra?
  Igen, ideiglenes engedélyt szerezhet a teszteléshez, ha felkeresi[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/).
 ### Hol találok közösségi támogatást az Aspose.Drawing számára?
- Vegyen részt a közösséggel, és kérjen támogatást a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17).
+ Vegyen részt a közösséggel, és kérjen támogatást a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44).
 ### Hogyan kezdhetem el az Aspose.Drawing használatát?
  Kezdje a könyvtár letöltésével innen[itt](https://releases.aspose.com/drawing/net/) és fedezze fel az átfogó[dokumentáció](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

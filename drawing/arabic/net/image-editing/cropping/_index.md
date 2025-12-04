@@ -139,7 +139,7 @@ bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 
 ### س5: كيف يمكنني الحصول على دعم لاستفسارات متعلقة بـ Aspose.Drawing؟
 
-ج5: توجه إلى [منتدى Aspose.Drawing](https://forum.aspose.com/c/diagram/17) لطلب المساعدة والتواصل مع المجتمع.
+ج5: توجه إلى [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) لطلب المساعدة والتواصل مع المجتمع.
 
 ---
 

@@ -122,7 +122,7 @@ A: 可以，免费试用版请点击 [here](https://releases.aspose.com/)。
 A: 完整的 API 参考位于 [here](https://reference.aspose.com/drawing/net/)。
 
 **Q: 如何获取 Aspose.Drawing 的技术支持？**  
-A: 访问 [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) 获取社区帮助和官方支持。
+A: 访问 [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) 获取社区帮助和官方支持。
 
 **Q: 是否提供 Aspose.Drawing 的临时许可证？**  
 A: 当然，您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取。

@@ -104,7 +104,7 @@ Bu eğitimde Aspose.Drawing for .NET'te yolları kalemlerle birleştirme süreci
 
 ### S3: Aspose.Drawing için nasıl destek alabilirim?
 
- A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) topluluk ve destek için.
+ A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluk ve destek için.
 
 ### S4: Aspose.Drawing için geçici lisanslar mevcut mu?
 

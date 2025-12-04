@@ -125,7 +125,7 @@ A3: 一時ライセンスの詳細は [here](https://purchase.aspose.com/tempora
 
 ### Q4: 実装中に問題が発生したり質問がある場合はどうすればよいですか？
 
-A4: Aspose.Drawing コミュニティは [Aspose Forum](https://forum.aspose.com/c/diagram/17) でサポートしています。
+A4: Aspose.Drawing コミュニティは [Aspose Forum](https://forum.aspose.com/c/drawing/44) でサポートしています。
 
 ### Q5: Aspose.Drawing ライブラリはどこで購入できますか？
 

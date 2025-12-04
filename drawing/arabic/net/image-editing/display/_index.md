@@ -107,7 +107,7 @@ A3: يمكنك التحكم في تغيير حجم الصورة عن طريق ض
 
 ### س5: أين يمكنني طلب المساعدة إذا واجهت مشكلات أو كانت لدي أسئلة حول Aspose.Drawing؟
 
- ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) للحصول على الدعم من المجتمع والخبراء.
+ ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) للحصول على الدعم من المجتمع والخبراء.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

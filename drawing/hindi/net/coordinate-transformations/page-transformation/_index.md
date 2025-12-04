@@ -124,7 +124,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 उत्तर: पूरी API रेफ़रेंस [यहाँ](https://reference.aspose.com/drawing/net/) स्थित है।
 
 **प्रश्न: Aspose.Drawing के लिए सपोर्ट कैसे प्राप्त करूँ?**  
-उत्तर: समुदाय मदद और आधिकारिक सहायता के लिए [Aspose.Drawing फ़ोरम](https://forum.aspose.com/c/diagram/17) पर जाएँ।
+उत्तर: समुदाय मदद और आधिकारिक सहायता के लिए [Aspose.Drawing फ़ोरम](https://forum.aspose.com/c/drawing/44) पर जाएँ।
 
 **प्रश्न: क्या Aspose.Drawing के लिए अस्थायी लाइसेंस उपलब्ध है?**  
 उत्तर: बिल्कुल—आप इसे [यहाँ](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।

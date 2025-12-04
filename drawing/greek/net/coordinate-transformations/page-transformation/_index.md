@@ -125,7 +125,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 Α: Η πλήρης αναφορά API βρίσκεται [εδώ](https://reference.aspose.com/drawing/net/).
 
 **Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;**  
-Α: Επισκεφθείτε το [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
+Α: Επισκεφθείτε το [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
 
 **Ε: Διατίθεται προσωρινή άδεια για το Aspose.Drawing;**  
 Α: Απολύτως—αποκτήστε τη [εδώ](https://purchase.aspose.com/temporary-license/).

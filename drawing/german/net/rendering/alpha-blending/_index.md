@@ -87,7 +87,7 @@ In diesem Tutorial haben wir die faszinierende Welt des Alpha-Blending mit Aspos
 
 ### F3: Wie kann ich Unterstützung für Aspose.Drawing erhalten?
 
- A3: Besuchen Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/diagram/17) für die Unterstützung der Gemeinschaft.
+ A3: Besuchen Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/drawing/44) für die Unterstützung der Gemeinschaft.
 
 ### F4: Sind temporäre Lizenzen für Aspose.Drawing verfügbar?
 

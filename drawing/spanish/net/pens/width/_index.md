@@ -84,7 +84,7 @@ Asegúrese de reemplazar "Su directorio de documentos" con la ruta donde desea g
 
 ### P3: ¿Dónde puedo encontrar soporte adicional o hacer preguntas?
 
- A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para buscar ayuda, compartir experiencias y conectarse con la comunidad.
+ A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para buscar ayuda, compartir experiencias y conectarse con la comunidad.
 
 ### P4: ¿Hay una prueba gratuita disponible?
 

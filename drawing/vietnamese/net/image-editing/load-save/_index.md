@@ -126,7 +126,7 @@ A3: Truy cập [đây](https://purchase.aspose.com/temporary-license/) để bi�
 
 ### Q4: Nếu gặp vấn đề hoặc có câu hỏi trong quá trình triển khai thì sao?
 
-A4: Nhờ sự hỗ trợ từ cộng đồng Aspose.Drawing tại [Aspose Forum](https://forum.aspose.com/c/diagram/17).
+A4: Nhờ sự hỗ trợ từ cộng đồng Aspose.Drawing tại [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q5: Mua thư viện Aspose.Drawing ở đâu?
 

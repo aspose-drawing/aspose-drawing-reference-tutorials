@@ -97,7 +97,7 @@ A3：もちろんです！ Aspose.Drawing は、複雑なグラフィックス �
 
 ### Q4: 問題が発生した場合、どのようにサポートを受けたり助けを求めたりできますか?
 
- A4: Aspose.Drawing フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/diagram/17)コミュニティのサポートと支援のために。
+ A4: Aspose.Drawing フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/drawing/44)コミュニティのサポートと支援のために。
 
 ### Q5: 無料トライアルはありますか?
 

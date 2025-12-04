@@ -90,7 +90,7 @@ Câu trả lời 4: Có, Aspose.draw tích hợp liền mạch với các thư v
 
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
 
- A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+ A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và thảo luận.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

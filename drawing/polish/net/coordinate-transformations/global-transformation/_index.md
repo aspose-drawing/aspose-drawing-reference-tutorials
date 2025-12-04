@@ -98,7 +98,7 @@ A2: Absolutnie! Możesz łączyć wiele wywołań transformacji, aby uzyskać z�
 
 ### P3: Gdzie mogę znaleźć więcej samouczków i przykładów Aspose.Drawing?
 
- A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) za bogactwo samouczków, przykładów i dyskusji społecznościowych.
+ A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) za bogactwo samouczków, przykładów i dyskusji społecznościowych.
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.Drawing?
 

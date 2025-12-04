@@ -83,7 +83,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 
 이 튜토리얼에서는 .NET용 Aspose. Drawing에서 색상 작업의 기본 사항을 살펴보았습니다. 비트맵을 만들고, 다양한 색상의 펜으로 선을 그리고, 결과 이미지를 저장하는 방법을 배웠습니다. 이러한 지식은 .NET 애플리케이션에서 고급 그래픽 조작을 위한 기초가 됩니다.
 
- 그래픽 프로그래밍 기술을 향상시키기 위해 다양한 색상, 모양 및 기술을 자유롭게 실험해 보세요. 문제가 발생하면 Aspose. Drawing을 사용하세요.[선적 서류 비치](https://reference.aspose.com/drawing/net/) 그리고[지원 포럼](https://forum.aspose.com/c/diagram/17) 훌륭한 자원이다.
+ 그래픽 프로그래밍 기술을 향상시키기 위해 다양한 색상, 모양 및 기술을 자유롭게 실험해 보세요. 문제가 발생하면 Aspose. Drawing을 사용하세요.[선적 서류 비치](https://reference.aspose.com/drawing/net/) 그리고[지원 포럼](https://forum.aspose.com/c/drawing/44) 훌륭한 자원이다.
 
 ## FAQ
 

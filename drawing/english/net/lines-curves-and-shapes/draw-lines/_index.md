@@ -100,7 +100,7 @@ A3: Absolutely! Aspose.Drawing is versatile and can be used in both desktop and 
 
 ### Q4: How can I handle errors while using Aspose.Drawing?
 
-A4: To handle errors, you can implement try-catch blocks and refer to the Aspose.Drawing forum (https://forum.aspose.com/c/diagram/17) for community support.
+A4: To handle errors, you can implement try-catch blocks and refer to the Aspose.Drawing forum (https://forum.aspose.com/c/drawing/44) for community support.
 
 ### Q5: Can I use Aspose.Drawing for a commercial project?
 

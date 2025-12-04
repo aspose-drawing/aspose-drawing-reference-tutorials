@@ -143,7 +143,7 @@ A4: 네, 적절한 라이선스가 있으면 상업용 및 비상업적 프로�
 
 ### Q5: Aspose. Drawing에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
 
- A5: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 커뮤니티 지원 및 토론을 위해.
+ A5: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 커뮤니티 지원 및 토론을 위해.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

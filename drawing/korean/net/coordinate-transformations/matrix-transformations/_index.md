@@ -132,7 +132,7 @@ A: 문서는 [여기](https://reference.aspose.com/drawing/net/)에서 확인할
 A: 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
 
 **Q: 지원을 받거나 커뮤니티와 연결하려면 어디에 가야 하나요?**  
-A: Aspose.Drawing 포럼은 [여기](https://forum.aspose.com/c/diagram/17)에서 방문하세요.
+A: Aspose.Drawing 포럼은 [여기](https://forum.aspose.com/c/drawing/44)에서 방문하세요.
 
 **Q: Aspose.Drawing for .NET을 다운로드할 수 있나요?**  
 A: 예, [이 링크](https://releases.aspose.com/drawing/net/)에서 다운로드하세요.

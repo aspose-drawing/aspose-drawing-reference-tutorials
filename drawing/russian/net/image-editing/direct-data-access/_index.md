@@ -113,7 +113,7 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 О: Абсолютно — скачайте пробную версию [здесь](https://releases.aspose.com/).
 
 **В: Как получить поддержку по Aspose.Drawing?**  
-О: Посетите [форум Aspose.Drawing](https://forum.aspose.com/c/diagram/17) для помощи сообщества и официальной поддержки.
+О: Посетите [форум Aspose.Drawing](https://forum.aspose.com/c/drawing/44) для помощи сообщества и официальной поддержки.
 
 **В: Где найти документацию по Aspose.Drawing?**  
 О: Полный справочник API доступен на сайте [документации Aspose.Drawing](https://reference.aspose.com/drawing/net/).

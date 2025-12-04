@@ -101,7 +101,7 @@ A4: Certainly! Explore the capabilities of Aspose.Drawing with a [free trial](ht
 
 ### Q5: Where can I seek help or connect with the community?
 
-A5: For any queries or discussions, head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) to engage with the vibrant Aspose community.
+A5: For any queries or discussions, head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) to engage with the vibrant Aspose community.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

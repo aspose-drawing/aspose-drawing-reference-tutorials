@@ -111,7 +111,7 @@ A: はい、Aspose.Drawing は .NET Framework、.NET Core、そして .NET 5/6
 A: もちろんです。トライアル版は [here](https://releases.aspose.com/) からダウンロードできます。
 
 **Q: Aspose.Drawing のサポートはどこで受けられますか？**  
-A: コミュニティの助けや公式サポートは [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) でご利用いただけます。
+A: コミュニティの助けや公式サポートは [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) でご利用いただけます。
 
 **Q: Aspose.Drawing のドキュメントはどこにありますか？**  
 A: 完全な API リファレンスは [Aspose.Drawing documentation site](https://reference.aspose.com/drawing/net/) にあります。

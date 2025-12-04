@@ -107,7 +107,7 @@ A3：是的，Aspose.Drawing 支持.NET Core，允许您在跨平台应用程序
 
 ### Q5：有 Aspose.Drawing 支持的社区论坛吗？
 
- A5：是的，您可以在上找到支持并讨论问题[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17).
+ A5：是的，您可以在上找到支持并讨论问题[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -86,7 +86,7 @@ In diesem Tutorial haben wir den Prozess des Zeichnens von Kardinal-Splines mit 
 
 ### F3: Wo finde ich zusätzliche Unterstützung?
 
- A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17) für Community-Unterstützung und Diskussionen.
+ A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) für Community-Unterstützung und Diskussionen.
 
 ### F4: Gibt es eine kostenlose Testversion?
 

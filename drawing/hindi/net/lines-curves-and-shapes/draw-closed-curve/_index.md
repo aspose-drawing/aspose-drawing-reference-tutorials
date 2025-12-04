@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 इस ट्यूटोरियल में, हमने .NET के लिए Aspose.Drawing में बंद वक्र बनाने की प्रक्रिया के बारे में जाना है। बस कुछ सरल चरणों के साथ, आप अपने .NET अनुप्रयोगों की दृश्य अपील को बढ़ा सकते हैं।
 
- यदि आपके कोई प्रश्न हैं या कोई समस्या आती है, तो बेझिझक सहायता लें[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17).
+ यदि आपके कोई प्रश्न हैं या कोई समस्या आती है, तो बेझिझक सहायता लें[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -89,7 +89,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 ### Q5: कौन से सहायता विकल्प उपलब्ध हैं?
 
- ए5: यदि आपको सहायता की आवश्यकता है या आपके कोई प्रश्न हैं, तो यहां जाएं[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17).
+ ए5: यदि आपको सहायता की आवश्यकता है या आपके कोई प्रश्न हैं, तो यहां जाएं[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

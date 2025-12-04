@@ -81,7 +81,7 @@ Glückwunsch! Sie haben mit Aspose.Drawing für .NET erfolgreich ein Rechteck ge
 
 In diesem Tutorial haben wir die grundlegenden Schritte zum Zeichnen von Rechtecken in Aspose.Drawing für .NET untersucht. Diese Bibliothek bietet leistungsstarke Tools zur grafischen Bearbeitung und ist somit ein wertvolles Hilfsmittel für .NET-Entwickler.
 
- Wenn Sie auf Herausforderungen stoßen oder Fragen haben, können Sie sich jederzeit an uns wenden[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+ Wenn Sie auf Herausforderungen stoßen oder Fragen haben, können Sie sich jederzeit an uns wenden[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
 
 ## FAQs
 

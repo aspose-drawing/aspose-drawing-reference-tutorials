@@ -81,7 +81,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 
 이 튜토리얼에서는 .NET용 Aspose.드로잉에서 직사각형을 그리는 기본 단계를 살펴보았습니다. 이 라이브러리는 그래픽 조작을 위한 강력한 도구를 제공하므로 .NET 개발자에게 귀중한 자산입니다.
 
- 문제가 발생하거나 질문이 있는 경우 언제든지 다음 사이트에서 도움을 요청하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
+ 문제가 발생하거나 질문이 있는 경우 언제든지 다음 사이트에서 도움을 요청하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44).
 
 ## FAQ
 

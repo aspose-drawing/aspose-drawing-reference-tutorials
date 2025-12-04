@@ -105,7 +105,7 @@ A3: 예, Aspose. Drawing은 다목적이며 단순하고 복잡한 그래픽 애
 
 ### Q4: Aspose. Drawing에 대한 지원을 받거나 도움을 받으려면 어떻게 해야 합니까?
 
- A4: 다음을 방문할 수 있습니다.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 지역 사회 지원을 위해. 또한, 임시 라이선스를 구매하거나 Aspose 지원팀에 문의하여 더욱 맞춤화된 지원을 받을 수도 있습니다.
+ A4: 다음을 방문할 수 있습니다.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 지역 사회 지원을 위해. 또한, 임시 라이선스를 구매하거나 Aspose 지원팀에 문의하여 더욱 맞춤화된 지원을 받을 수도 있습니다.
 
 ### Q5: Aspose. Drawing에 대한 문서는 어디서 찾을 수 있나요?
 

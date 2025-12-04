@@ -126,7 +126,7 @@ A3: Kunjungi [sini](https://purchase.aspose.com/temporary-license/) untuk detail
 
 ### Q4: Bagaimana jika saya mengalami masalah atau memiliki pertanyaan selama implementasi?
 
-A4: Dapatkan bantuan dari komunitas Aspose.Drawing di [Aspose Forum](https://forum.aspose.com/c/diagram/17).
+A4: Dapatkan bantuan dari komunitas Aspose.Drawing di [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q5: Di mana saya dapat membeli perpustakaan Aspose.Drawing?
 

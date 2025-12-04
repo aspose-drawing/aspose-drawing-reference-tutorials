@@ -111,7 +111,7 @@ A: Yes, Aspose.Drawing is fully compatible with .NET Core, .NET 5, .NET 6, and l
 A: Absolutely! You can chain calls such as `graphics.RotateTransform`, `graphics.ScaleTransform`, and `graphics.TranslateTransform` to build a composite matrix.
 
 **Q: Where can I find more tutorials and examples for Aspose.Drawing?**  
-A: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) for a wealth of tutorials, examples, and community discussions.
+A: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) for a wealth of tutorials, examples, and community discussions.
 
 **Q: Is there a free trial available for Aspose.Drawing?**  
 A: Yes, you can explore a free trial of Aspose.Drawing [here](https://releases.aspose.com/).

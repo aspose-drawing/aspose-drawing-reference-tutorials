@@ -112,7 +112,7 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 ج: بالتأكيد — حمّل نسخة تجريبية [هنا](https://releases.aspose.com/).
 
 **س: كيف يمكنني الحصول على دعم لـ Aspose.Drawing؟**  
-ج: زر [منتدى Aspose.Drawing](https://forum.aspose.com/c/diagram/17) للحصول على مساعدة المجتمع والدعم الرسمي.
+ج: زر [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) للحصول على مساعدة المجتمع والدعم الرسمي.
 
 **س: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Drawing؟**  
 ج: المرجع الكامل للـ API متوفر على موقع [توثيق Aspose.Drawing](https://reference.aspose.com/drawing/net/).

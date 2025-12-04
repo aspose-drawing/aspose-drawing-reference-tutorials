@@ -101,7 +101,7 @@ A2：確かに！このチュートリアルで説明するプロセスを繰り
 
 ### Q5: どこに助けを求めたり、コミュニティに連絡したりできますか?
 
- A5: ご質問やご相談がございましたら、こちらまでお問い合わせください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)活気のある Aspose コミュニティに参加するため。
+ A5: ご質問やご相談がございましたら、こちらまでお問い合わせください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)活気のある Aspose コミュニティに参加するため。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

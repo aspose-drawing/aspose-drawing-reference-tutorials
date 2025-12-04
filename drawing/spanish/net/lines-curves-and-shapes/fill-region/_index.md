@@ -99,7 +99,7 @@ Rellenar regiones en Aspose.Drawing para .NET es un proceso sencillo que le brin
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.Drawing?
 
- A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) para obtener ayuda de la comunidad y de expertos.
+ A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) para obtener ayuda de la comunidad y de expertos.
 
 ### P4: ¿Puedo generar imágenes dinámicas usando Aspose.Drawing?
 

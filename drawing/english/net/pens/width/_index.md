@@ -84,7 +84,7 @@ A2: Obtain a temporary license from [here](https://purchase.aspose.com/temporary
 
 ### Q3: Where can I find additional support or ask questions?
 
-A3: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) to seek assistance, share experiences, and connect with the community.
+A3: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to seek assistance, share experiences, and connect with the community.
 
 ### Q4: Is there a free trial available?
 

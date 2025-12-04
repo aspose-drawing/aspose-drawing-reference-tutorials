@@ -104,7 +104,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Q3: Aspose.Drawing のサポートを受けるにはどうすればよいですか?
 
- A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)コミュニティとサポートのために。
+ A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティとサポートのために。
 
 ### Q4: Aspose.Drawing の一時ライセンスは利用できますか?
 

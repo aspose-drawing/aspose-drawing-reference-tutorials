@@ -86,7 +86,7 @@ Dalam tutorial ini, kita menjelajahi proses menggambar cardinal splines mengguna
 
 ### Q3: Di mana saya bisa mendapatkan dukungan tambahan?
 
- A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
+ A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
 
 ### Q4: Apakah tersedia uji coba gratis?
 

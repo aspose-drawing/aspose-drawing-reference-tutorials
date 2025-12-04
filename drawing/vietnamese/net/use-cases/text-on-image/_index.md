@@ -81,7 +81,7 @@ Có, Aspose.draw phù hợp cho cả dự án cá nhân và thương mại. Đ�
 ### Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
  Có, bạn có thể xin giấy phép tạm thời để thử nghiệm bằng cách truy cập[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.draw ở đâu?
- Tương tác với cộng đồng và nhận được sự hỗ trợ về[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
+ Tương tác với cộng đồng và nhận được sự hỗ trợ về[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
 ### Làm cách nào để bắt đầu với Aspose.draw?
  Bắt đầu bằng cách tải xuống thư viện từ[đây](https://releases.aspose.com/drawing/net/) và khám phá toàn diện[tài liệu](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

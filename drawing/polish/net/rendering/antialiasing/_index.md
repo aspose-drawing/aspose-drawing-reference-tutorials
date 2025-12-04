@@ -105,7 +105,7 @@ O3: Tak, Aspose.Drawing jest wszechstronny i może być używany zarówno do pro
 
 ### P4: Jak mogę uzyskać wsparcie lub szukać pomocy w Aspose.Drawing?
 
- A4: Możesz odwiedzić[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) za wsparcie społeczności. Dodatkowo możesz rozważyć zakup licencji tymczasowej lub skontaktowanie się z pomocą techniczną Aspose w celu uzyskania bardziej spersonalizowanej pomocy.
+ A4: Możesz odwiedzić[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) za wsparcie społeczności. Dodatkowo możesz rozważyć zakup licencji tymczasowej lub skontaktowanie się z pomocą techniczną Aspose w celu uzyskania bardziej spersonalizowanej pomocy.
 
 ### P5: Gdzie mogę znaleźć dokumentację Aspose.Drawing?
 

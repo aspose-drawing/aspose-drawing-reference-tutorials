@@ -87,7 +87,7 @@ I den här handledningen utforskade vi den fascinerande världen av alfablandnin
 
 ### F3: Hur kan jag få support för Aspose.Drawing?
 
- S3: Besök Aspose.Drawing-forumet[här](https://forum.aspose.com/c/diagram/17) för samhällsstöd.
+ S3: Besök Aspose.Drawing-forumet[här](https://forum.aspose.com/c/drawing/44) för samhällsstöd.
 
 ### F4: Finns tillfälliga licenser tillgängliga för Aspose.Drawing?
 

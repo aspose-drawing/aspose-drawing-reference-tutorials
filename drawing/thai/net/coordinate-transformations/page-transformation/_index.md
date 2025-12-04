@@ -123,7 +123,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 ตอบ: API reference เต็มรูปแบบอยู่ [ที่นี่](https://reference.aspose.com/drawing/net/)
 
 **ถาม: จะรับการสนับสนุนสำหรับ Aspose.Drawing อย่างไร?**  
-ตอบ: เยี่ยมชม [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) เพื่อรับความช่วยเหลือจากชุมชนและทีมงานอย่างเป็นทางการ
+ตอบ: เยี่ยมชม [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) เพื่อรับความช่วยเหลือจากชุมชนและทีมงานอย่างเป็นทางการ
 
 **ถาม: มีลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Drawing หรือไม่?**  
 ตอบ: มีแน่นอน—รับได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)

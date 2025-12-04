@@ -125,7 +125,7 @@ A3: 前往 [here](https://purchase.aspose.com/temporary-license/) 取得臨時�
 
 ### Q4: 實作過程中若遇到問題或有疑問該怎麼辦？
 
-A4: 可在 Aspose.Drawing 社群的 [Aspose Forum](https://forum.aspose.com/c/diagram/17) 尋求協助。
+A4: 可在 Aspose.Drawing 社群的 [Aspose Forum](https://forum.aspose.com/c/drawing/44) 尋求協助。
 
 ### Q5: 哪裡可以購買 Aspose.Drawing 函式庫？
 

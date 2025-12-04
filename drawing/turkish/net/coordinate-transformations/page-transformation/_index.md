@@ -124,7 +124,7 @@ C: Evet, ücretsiz deneme sürümü [burada](https://releases.aspose.com/) mev
 C: Tam API referansı [burada](https://reference.aspose.com/drawing/net/) yer alır.
 
 **S: Aspose.Drawing için destek nasıl alabilirim?**  
-C: Topluluk yardımı ve resmi destek için [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) adresini ziyaret edin.
+C: Topluluk yardımı ve resmi destek için [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) adresini ziyaret edin.
 
 **S: Aspose.Drawing için geçici bir lisans mevcut mu?**  
 C: Kesinlikle—geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.

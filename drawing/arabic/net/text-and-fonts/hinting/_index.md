@@ -108,7 +108,7 @@ A1: التلميح هو أسلوب يعمل على تحسين مظهر النص 
 
 ### س5: أين يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.Drawing؟
 
- ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17)للتفاعل مع المجتمع والحصول على الدعم.
+ ج5: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44)للتفاعل مع المجتمع والحصول على الدعم.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

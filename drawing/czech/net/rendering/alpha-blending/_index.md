@@ -87,7 +87,7 @@ V tomto tutoriálu jsme prozkoumali fascinující svět prolínání alfa s Aspo
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing?
 
- A3: Navštivte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/diagram/17) za podporu komunity.
+ A3: Navštivte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/drawing/44) za podporu komunity.
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.Drawing?
 
