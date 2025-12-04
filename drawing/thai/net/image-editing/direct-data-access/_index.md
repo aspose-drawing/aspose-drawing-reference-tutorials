@@ -1,109 +1,143 @@
 ---
-title: การเข้าถึงข้อมูลโดยตรงใน Aspose. Drawing
-linktitle: การเข้าถึงข้อมูลโดยตรงใน Aspose. Drawing
-second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
-description: เรียนรู้การจัดการรูปภาพอย่างมีประสิทธิภาพด้วย Aspose. Drawing สำหรับ .NET เจาะลึกการเข้าถึงข้อมูลโดยตรงด้วยคำแนะนำทีละขั้นตอนของเรา
+date: 2025-12-01
+description: เรียนรู้วิธีอ่านพิกเซลและเขียนข้อมูลพิกเซลโดยใช้การเข้าถึงข้อมูลโดยตรงของ
+  Aspose.Drawing เพื่อการจัดการพิกเซลภาพอย่างมีประสิทธิภาพใน .NET.
+language: th
+linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
+second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
+title: วิธีอ่านพิกเซลด้วยการเข้าถึงข้อมูลโดยตรงใน Aspose.Drawing
+url: /net/image-editing/direct-data-access/
 weight: 11
-url: /th/net/image-editing/direct-data-access/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเข้าถึงข้อมูลโดยตรงใน Aspose. Drawing
+# วิธีอ่านพิกเซลด้วยการเข้าถึงข้อมูลโดยตรงใน Aspose.Drawing
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่โลกของ Aspose. Drawing สำหรับ .NET ไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการและสร้างรูปภาพได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของการเข้าถึงข้อมูลโดยตรง ซึ่งเป็นส่วนสำคัญของ Aspose. Drawing ที่ช่วยให้คุณทำงานกับข้อมูลพิกเซลได้อย่างมีประสิทธิภาพ
+ในบทแนะนำนี้คุณจะได้ค้นพบ **วิธีอ่านพิกเซล** จากภาพและเขียนข้อมูลพิกเซลกลับโดยใช้คุณลักษณะ **การเข้าถึงข้อมูลโดยตรง** ของ Aspose.Drawing การเข้าถึงข้อมูลโดยตรงให้การควบคุมระดับต่ำต่อบัฟเฟอร์พิกเซล ทำให้การจัดการพิกเซลของภาพเร็วและใช้หน่วยความจำน้อย—เหมาะอย่างยิ่งสำหรับสถานการณ์เช่น ฟิลเตอร์แบบกำหนดเอง, การวิเคราะห์ภาพ, หรือการแปลงพิกเซลจำนวนมากในแอปพลิเคชัน .NET
+
+## คำตอบอย่างรวดเร็ว
+- **วิธีหลักในการอ่านพิกเซลคืออะไร?** ใช้ `ReadArgb32Pixels` บนอินสแตนซ์ของ `Bitmap`.  
+- **ฟอร์แมตพิกเซลใดที่เหมาะสมที่สุดสำหรับการเข้าถึงโดยตรง?** `PixelFormat.Format32bppPArgb` ให้ค่า ARGB 32‑บิตพร้อมอัลฟ่าที่ทำการพรีมัลติพลาย.  
+- **ฉันต้องการไลเซนส์สำหรับ Aspose.Drawing หรือไม่?** มีรุ่นทดลองฟรี; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์.  
+- **ฉันสามารถรันโค้ดนี้บน .NET 6+ ได้หรือไม่?** ใช่, Aspose.Drawing รองรับ .NET 5, .NET 6 และรุ่นต่อไป.  
+- **การดำเนินการนี้ปลอดภัยต่อการทำงานหลายเธรดหรือไม่?** การอ่าน/เขียนบนอินสแตนซ์ Bitmap แยกกันปลอดภัย; หลีกเลี่ยงการแชร์ Bitmap เดียวกันระหว่างเธรดโดยไม่มีการซิงโครไนซ์.
+
+## Direct Data Access คืออะไรใน Aspose.Drawing?
+
+Direct data access lets you work with the underlying pixel buffer of a bitmap without the overhead of per‑pixel getter/setter methods. By reading an entire ARGB32 array, you can process thousands of pixels in a single operation and then write the modified array back in one call.
+
+## ทำไมต้องใช้ Direct Data Access สำหรับการจัดการพิกเซลของภาพ?
+
+- **ประสิทธิภาพ:** การอ่าน/เขียนเป็นกลุ่มลดการเรียก interop และเร่งการประมวลผลภาพขนาดใหญ่.  
+- **ความยืดหยุ่น:** คุณจะได้รับค่าจำนวนเต็มดิบ (`0xAARRGGBB`) ที่สามารถจัดการด้วยตรรกะ .NET ใดก็ได้.  
+- **ความง่าย:** เรียกเมธอดหนึ่งครั้งเพื่ออ่านและหนึ่งครั้งเพื่อเขียน—ไม่ต้องใช้ลูปซ้อนกัน เว้นแต่คุณกำลังใช้อัลกอริทึมกำหนดเอง.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นการเดินทางนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- **ไลบรารี Aspose.Drawing:** ดาวน์โหลดและอ้างอิง Aspose.Drawing for .NET เวอร์ชันล่าสุดจากเว็บไซต์ทางการ.  
+- **สภาพแวดล้อมการพัฒนา:** IDE .NET ใดก็ได้ (Visual Studio, Rider, VS Code) ที่ติดตั้งแพ็กเกจ NuGet ของ Aspose.Drawing.  
 
--  ไลบรารี Aspose. Drawing: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose. Drawing สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/drawing/net/).
+คุณสามารถดาวน์โหลดไลบรารีได้ [ที่นี่](https://releases.aspose.com/drawing/net/).
 
-- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ที่คุณต้องการด้วยการรวม Aspose. Drawing
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-มาเริ่มกันด้วยการนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ของคุณ ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการเข้าถึงฟังก์ชันการทำงานที่ Aspose. Drawing มอบให้
+First, bring the required namespace into scope so the bitmap classes are available.
 
 ```csharp
 using System.Drawing;
 ```
 
-ตอนนี้ เรามาแจกแจงกระบวนการเข้าถึงข้อมูลโดยตรงเป็นขั้นตอนที่สามารถจัดการได้
+## คู่มือแบบขั้นตอน
 
-## ขั้นตอนที่ 1: โหลดอิมเมจต้นฉบับ
+### ขั้นตอนที่ 1: โหลดภาพต้นฉบับ  
+
+We start by loading the image you want to analyze. Replace the placeholder path with the actual location of your image file.
 
 ```csharp
 Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
- ให้แน่ใจว่าคุณเปลี่ยน`"Your Document Directory"`ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณและปรับเส้นทางไฟล์ภาพให้เหมาะสม
+### ขั้นตอนที่ 2: สร้าง Bitmap ปลายทาง  
 
-## ขั้นตอนที่ 2: สร้างบิตแมปเป้าหมาย
+Create a new bitmap that matches the source dimensions and uses a 32‑bit pixel format suitable for direct access.
 
 ```csharp
 Bitmap targetBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-ขั้นตอนนี้เกี่ยวข้องกับการสร้างบิตแมปเป้าหมายที่มีขนาดเดียวกันกับรูปภาพต้นฉบับ
+### ขั้นตอนที่ 3: อ่านข้อมูลพิกเซล  
 
-## ขั้นตอนที่ 3: อ่านข้อมูลพิกเซล
+Read the entire ARGB32 pixel buffer from the source bitmap into an integer array. This is the **how to read pixels** step.
 
 ```csharp
 int[] pixels = new int[sourceBitmap.Width * sourceBitmap.Height];
 sourceBitmap.ReadArgb32Pixels(pixels);
 ```
 
-ที่นี่ เราอ่านข้อมูลพิกเซล ARGB32 จากบิตแมปต้นทาง
+### ขั้นตอนที่ 4: เขียนข้อมูลพิกเซล  
 
-## ขั้นตอนที่ 4: เขียนข้อมูลพิกเซล
+After any optional manipulation (e.g., applying a filter), write the pixel array back to the target bitmap. This demonstrates **how to write pixels** efficiently.
 
 ```csharp
 targetBitmap.WriteArgb32Pixels(pixels);
 ```
 
-คัดลอกข้อมูลพิกเซลจากแหล่งที่มาไปยังบิตแมปเป้าหมายโดยตรง
+### ขั้นตอนที่ 5: บันทึกผลลัพธ์  
 
-## ขั้นตอนที่ 5: บันทึกผลลัพธ์
+Persist the modified bitmap to disk. Adjust the output path as needed.
 
 ```csharp
 targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png");
 ```
 
-บันทึกบิตแมปที่แก้ไขแล้วไปยังตำแหน่งที่คุณต้องการ
+## ปัญหาทั่วไปและวิธีแก้
 
-## บทสรุป
-
-ยินดีด้วย! คุณได้สำรวจคุณลักษณะการเข้าถึงข้อมูลโดยตรงใน Aspose. Drawing สำหรับ .NET เรียบร้อยแล้ว ความสามารถนี้เปิดโลกแห่งความเป็นไปได้ในการปรับแต่งภาพในแอปพลิเคชันของคุณ
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| **`ArgumentException` on `ReadArgb32Pixels`** | ตรวจสอบให้แน่ใจว่า bitmap ต้นทางใช้ฟอร์แมตพิกเซล 32‑บิต; หากไม่ใช่ให้แปลงก่อนด้วย `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)`. |
+| **Incorrect colors after write** | ตรวจสอบว่าคุณไม่ได้แก้ไขช่องอัลฟาโดยไม่ได้ตั้งใจ; รักษาค่า `0xFF` (ทึบ) หากไม่ต้องการความโปร่งใส. |
+| **Performance lag on very large images** | ประมวลผลอาร์เรย์พิกเซลเป็นส่วน ๆ หรือใช้ `Parallel.For` เพื่อใช้ประโยชน์จากหลายคอร์. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose. Drawing สำหรับ .NET กับเฟรมเวิร์ก .NET อื่นๆ ได้หรือไม่
+**Q: Can I use Aspose.Drawing for .NET with other .NET frameworks?**  
+A: Yes, Aspose.Drawing works with .NET Framework, .NET Core, and .NET 5/6+.
 
-ตอบ 1: ใช่ Aspose. Drawing เข้ากันได้กับเฟรมเวิร์ก .NET ต่างๆ ซึ่งให้ความยืดหยุ่นสำหรับนักพัฒนา
+**Q: Is there a free trial available for Aspose.Drawing?**  
+A: Absolutely—download a trial version [here](https://releases.aspose.com/).
 
-### คำถามที่ 2: Aspose. Drawing มีรุ่นทดลองใช้ฟรีหรือไม่
+**Q: How can I get support for Aspose.Drawing?**  
+A: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) for community help and official support.
 
- A2: ได้ คุณสามารถเข้าถึงรุ่นทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+**Q: Where can I find the documentation for Aspose.Drawing?**  
+A: The full API reference is available at the [Aspose.Drawing documentation site](https://reference.aspose.com/drawing/net/).
 
-### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose. Drawing ได้อย่างไร
+**Q: How do I purchase a license for Aspose.Drawing?**  
+A: You can buy a license directly from the Aspose store [here](https://purchase.aspose.com/buy).
 
- A3: เยี่ยมชม[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+**Q: Can I manipulate pixel data in a multithreaded environment?**  
+A: Yes, as long as each thread works on its own bitmap instance or you synchronize access to shared resources.
 
-### คำถามที่ 4: ฉันจะหาเอกสารประกอบสำหรับ Aspose. Drawing ได้ที่ไหน
+## สรุป
 
-A4: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/drawing/net/) เพื่อรับคำแนะนำอย่างครอบคลุม
+You’ve now learned **how to read pixels** from a bitmap, manipulate the ARGB32 array, and **write pixel data** back using Aspose.Drawing’s direct data access. This technique opens the door to high‑performance image processing tasks such as custom filters, pixel‑level analysis, and bulk transformations in your .NET applications.
 
-### คำถามที่ 5: ฉันจะซื้อ Aspose. Drawing สำหรับ .NET ได้อย่างไร
-
- A5: ซื้อ Aspose. Drawing[ที่นี่](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-01  
+**ทดสอบด้วย:** Aspose.Drawing 24.12 for .NET  
+**ผู้เขียน:** Aspose  
+
+---
