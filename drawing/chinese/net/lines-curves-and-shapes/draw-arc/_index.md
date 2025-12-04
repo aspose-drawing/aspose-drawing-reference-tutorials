@@ -90,7 +90,7 @@ A4：是的，Aspose.Drawing 与其他 .NET 库无缝集成，为您的开发提
 
 ### 问题 5：我在哪里可以找到其他支持或社区讨论？
 
- A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)以获得社区支持和讨论。
+ A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44)以获得社区支持和讨论。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

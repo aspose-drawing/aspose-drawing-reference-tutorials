@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 在本教程中，我们介绍了在 Aspose.Drawing for .NET 中绘制闭合曲线的过程。只需几个简单的步骤，您就可以提升 .NET 应用程序的视觉吸引力。
 
-如果您有任何疑问或遇到问题，请随时通过以下方式寻求帮助[Aspose.绘图论坛](https://forum.aspose.com/c/diagram/17).
+如果您有任何疑问或遇到问题，请随时通过以下方式寻求帮助[Aspose.绘图论坛](https://forum.aspose.com/c/drawing/44).
 
 ## 常见问题解答
 
@@ -89,7 +89,7 @@ A1：是的，Aspose.Drawing 适合个人和商业用途。查看[购买页面](
 
 ### Q5：有哪些支持选项？
 
- A5：如果您需要帮助或有疑问，请前往[Aspose.绘图论坛](https://forum.aspose.com/c/diagram/17).
+ A5：如果您需要帮助或有疑问，请前往[Aspose.绘图论坛](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

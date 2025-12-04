@@ -107,7 +107,7 @@ A4: का संदर्भ लें[खरीद पृष्ठ](https://pu
 
 ### Q5: अगर मुझे Aspose.Drawing के बारे में कोई समस्या आती है या मेरे मन में कोई प्रश्न हैं तो मैं कहां मदद मांग सकता हूं?
 
- A5: पर जाएँ[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17) समुदाय और विशेषज्ञों से समर्थन प्राप्त करने के लिए।
+ A5: पर जाएँ[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44) समुदाय और विशेषज्ञों से समर्थन प्राप्त करने के लिए।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -104,7 +104,7 @@ In questo tutorial, abbiamo esplorato il processo di unione dei percorsi con le 
 
 ### Q3: Come posso ottenere supporto per Aspose.Drawing?
 
- A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) per la comunità e il sostegno.
+ A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per la comunità e il sostegno.
 
 ### Q4: Sono disponibili licenze temporanee per Aspose.Drawing?
 

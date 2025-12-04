@@ -88,7 +88,7 @@ A2: Absoluut! Aspose.Drawing biedt een gebruiksvriendelijke interface, waardoor 
 
 ### V3: Waar kan ik ondersteuning vinden voor Aspose.Drawing?
 
- A3: Voor vragen of hulp kunt u terecht op onze[Helpforum](https://forum.aspose.com/c/diagram/17).
+ A3: Voor vragen of hulp kunt u terecht op onze[Helpforum](https://forum.aspose.com/c/drawing/44).
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 

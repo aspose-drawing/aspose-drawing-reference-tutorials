@@ -117,7 +117,7 @@ A1: Ya, Aspose.Drawing kompatibel dengan berbagai kerangka .NET, memberikan flek
 
 ### Q3: Bagaimana cara mendapatkan dukungan untuk Aspose.Drawing untuk .NET?
 
- A3: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
+ A3: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
 
 ### Q4: Dapatkah saya membeli lisensi sementara untuk proyek jangka pendek?
 

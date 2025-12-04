@@ -101,7 +101,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png"
 
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συνδεθώ με την κοινότητα;
 
- A5: Για τυχόν απορίες ή συζητήσεις, κατευθυνθείτε στο[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17) να συνεργαστείτε με τη ζωντανή κοινότητα του Aspose.
+ A5: Για τυχόν απορίες ή συζητήσεις, κατευθυνθείτε στο[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44) να συνεργαστείτε με τη ζωντανή κοινότητα του Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

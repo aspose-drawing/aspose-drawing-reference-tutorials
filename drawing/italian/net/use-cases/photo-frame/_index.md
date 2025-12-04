@@ -101,7 +101,7 @@ Assolutamente! Hai il pieno controllo sul colore e sullo spessore del telaio, co
 ### Aspose.Drawing offre una prova gratuita?
  Sì, puoi esplorare le funzionalità di Aspose.Drawing con una prova gratuita disponibile[Qui](https://releases.aspose.com/).
 ### Come posso ottenere supporto per Aspose.Drawing?
- Visita il forum Aspose.Drawing[Qui](https://forum.aspose.com/c/diagram/17) per ottenere assistenza e connettersi con la comunità.
+ Visita il forum Aspose.Drawing[Qui](https://forum.aspose.com/c/drawing/44) per ottenere assistenza e connettersi con la comunità.
 ### Posso utilizzare Aspose.Drawing per progetti commerciali?
  Sì, puoi acquistare una licenza[Qui](https://purchase.aspose.com/buy) per uso commerciale.
 {{< /blocks/products/pf/tutorial-page-section >}}

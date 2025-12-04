@@ -106,7 +106,7 @@ A2: The documentation is available [here](https://reference.aspose.com/drawing/n
 
 ### Q3: How can I get support for Aspose.Drawing?
 
-A3: For support, visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+A3: For support, visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Is a temporary license available for Aspose.Drawing?
 

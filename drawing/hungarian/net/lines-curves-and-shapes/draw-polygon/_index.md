@@ -101,7 +101,7 @@ A2: Természetesen! Annyi sokszöget rajzolhat egyetlen vászonra, amennyi szük
 
 ### 5. kérdés: Hol kérhetek segítséget vagy csatlakozhatok a közösséghez?
 
- 5. válasz: Bármilyen kérdés vagy megbeszélés esetén keresse fel a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17) hogy kapcsolatba lépjen az élénk Aspose közösséggel.
+ 5. válasz: Bármilyen kérdés vagy megbeszélés esetén keresse fel a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44) hogy kapcsolatba lépjen az élénk Aspose közösséggel.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

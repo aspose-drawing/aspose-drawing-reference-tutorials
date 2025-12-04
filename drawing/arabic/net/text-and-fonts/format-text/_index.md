@@ -106,7 +106,7 @@ bitmap.Save("Your Document Directory" + @"TextFonts\FormatText_out.png");
 
 ### س5: أين يمكنني العثور على دعم إضافي لـ Aspose.Drawing؟
 
- ج5: استكشف منتدى Aspose.Drawing[هنا](https://forum.aspose.com/c/diagram/17) لدعم المجتمع والمناقشات.
+ ج5: استكشف منتدى Aspose.Drawing[هنا](https://forum.aspose.com/c/drawing/44) لدعم المجتمع والمناقشات.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

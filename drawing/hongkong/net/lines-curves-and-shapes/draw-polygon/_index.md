@@ -101,7 +101,7 @@ A2：當然！透過重複本教學中概述的過程，您可以根據需要在
 
 ### Q5：我可以在哪裡尋求協助或與社區聯繫？
 
- A5：如有任何疑問或討論，請訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17)參與充滿活力的 Aspose 社區。
+ A5：如有任何疑問或討論，請訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/drawing/44)參與充滿活力的 Aspose 社區。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

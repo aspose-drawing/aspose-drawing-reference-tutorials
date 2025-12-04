@@ -107,7 +107,7 @@ A4: Bkz.[satın alma sayfası](https://purchase.aspose.com/buy) Lisans ayrıntı
 
 ### S5: Aspose.Drawing ile ilgili sorunlarla karşılaşırsam veya sorularım olursa nereden yardım alabilirim?
 
- A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) topluluktan ve uzmanlardan destek almak.
+ A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluktan ve uzmanlardan destek almak.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -83,7 +83,7 @@ Grattis! Du har framgångsrikt skapat en bild med färgglada linjer med Aspose.D
 
 I den här handledningen har vi utforskat grunderna för att arbeta med färger i Aspose.Drawing för .NET. Du har lärt dig hur du skapar en bitmapp, ritar linjer med olika färgade pennor och sparar den resulterande bilden. Denna kunskap är en grund för mer avancerad grafikmanipulation i dina .NET-applikationer.
 
- Experimentera gärna med olika färger, former och tekniker för att förbättra dina färdigheter i grafisk programmering. Om du stöter på några utmaningar kan Aspose.Drawing[dokumentation](https://reference.aspose.com/drawing/net/) och[supportforum](https://forum.aspose.com/c/diagram/17) är utmärkta resurser.
+ Experimentera gärna med olika färger, former och tekniker för att förbättra dina färdigheter i grafisk programmering. Om du stöter på några utmaningar kan Aspose.Drawing[dokumentation](https://reference.aspose.com/drawing/net/) och[supportforum](https://forum.aspose.com/c/drawing/44) är utmärkta resurser.
 
 ## FAQ's
 

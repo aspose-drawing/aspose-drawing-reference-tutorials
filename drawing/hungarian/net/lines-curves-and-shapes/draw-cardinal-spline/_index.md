@@ -86,7 +86,7 @@ Ebben az oktatóanyagban a kardinális spline-ok rajzolásának folyamatát vizs
 
 ### 3. kérdés: Hol találok további támogatást?
 
- A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
+ A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 

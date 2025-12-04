@@ -88,7 +88,7 @@ A2: 물론이죠! Aspose.드로잉은 초보자와 숙련된 개발자 모두가
 
 ### Q3: Aspose. Drawing에 대한 지원은 어디서 찾을 수 있나요?
 
- A3: 질문이나 도움이 필요하면 당사를 방문하세요.[지원 포럼](https://forum.aspose.com/c/diagram/17).
+ A3: 질문이나 도움이 필요하면 당사를 방문하세요.[지원 포럼](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: 무료 평가판이 제공됩니까?
 

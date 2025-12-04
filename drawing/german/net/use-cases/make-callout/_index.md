@@ -111,7 +111,7 @@ Absolut! Aspose.Drawing unterstützt gängige Bildformate wie PNG, JPEG, GIF und
 
 ### Wie erhalte ich Unterstützung, wenn ich auf Probleme stoße?
 
- Besuche den[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17) für die Unterstützung der Gemeinschaft.
+ Besuche den[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) für die Unterstützung der Gemeinschaft.
 
 ### Kann ich Aspose.Drawing vor dem Kauf ausprobieren?
 

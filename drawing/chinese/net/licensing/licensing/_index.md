@@ -143,7 +143,7 @@ A4：是的，只要有适当的许可，您就可以在商业和非商业项目
 
 ### Q5：在哪里可以找到 Aspose.Drawing 的社区支持？
 
- A5：访问[Aspose.绘图论坛](https://forum.aspose.com/c/diagram/17)以获得社区支持和讨论。
+ A5：访问[Aspose.绘图论坛](https://forum.aspose.com/c/drawing/44)以获得社区支持和讨论。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

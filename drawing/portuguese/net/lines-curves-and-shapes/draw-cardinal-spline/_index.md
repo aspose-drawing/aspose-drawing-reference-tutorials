@@ -86,7 +86,7 @@ Neste tutorial, exploramos o processo de desenho de splines cardinais usando Asp
 
 ### P3: Onde posso encontrar suporte adicional?
 
- A3: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para apoio e discussões da comunidade.
+ A3: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para apoio e discussões da comunidade.
 
 ### Q4: Existe um teste gratuito disponível?
 

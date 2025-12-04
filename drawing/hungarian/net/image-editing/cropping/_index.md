@@ -140,7 +140,7 @@ A4: Igen, az Aspose.Drawing kiválóan teljesít kötegelt feldolgozásban, hat�
 
 ### Q5: Hol kaphatok támogatást az Aspose.Drawing‑hez kapcsolódó kérdésekhez?
 
-A5: Látogass el a [Aspose.Drawing Fórumra](https://forum.aspose.com/c/diagram/17), ahol segítséget kérhetsz és csatlakozhatsz a közösséghez.
+A5: Látogass el a [Aspose.Drawing Fórumra](https://forum.aspose.com/c/drawing/44), ahol segítséget kérhetsz és csatlakozhatsz a közösséghez.
 
 ---
 

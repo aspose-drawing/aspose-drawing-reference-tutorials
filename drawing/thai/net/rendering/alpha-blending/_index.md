@@ -87,7 +87,7 @@ bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 
 ### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose. Drawing ได้อย่างไร
 
- A3: เยี่ยมชมฟอรั่ม Aspose. Drawing[ที่นี่](https://forum.aspose.com/c/diagram/17) เพื่อสนับสนุนชุมชน
+ A3: เยี่ยมชมฟอรั่ม Aspose. Drawing[ที่นี่](https://forum.aspose.com/c/drawing/44) เพื่อสนับสนุนชุมชน
 
 ### คำถามที่ 4: Aspose. Drawing มีใบอนุญาตชั่วคราวหรือไม่
 

@@ -117,7 +117,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogy az Aspose.Drawing for .NET hogyan 
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing for .NET-hez?
 
- A3: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
+ A3: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
 
 ### 4. kérdés: Vásárolhatok ideiglenes licencet rövid távú projektekhez?
 

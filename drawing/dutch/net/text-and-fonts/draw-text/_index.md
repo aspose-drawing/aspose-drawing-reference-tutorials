@@ -107,7 +107,7 @@ A3: Ja, Aspose.Drawing ondersteunt .NET Core, waardoor u het in platformonafhank
 
 ### V5: Is er een communityforum voor ondersteuning voor Aspose.Drawing?
 
- A5: Ja, u kunt ondersteuning vinden en problemen bespreken op de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
+ A5: Ja, u kunt ondersteuning vinden en problemen bespreken op de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

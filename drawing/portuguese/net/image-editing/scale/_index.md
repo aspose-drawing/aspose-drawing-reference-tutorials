@@ -104,7 +104,7 @@ A1: Sim, o Aspose.Drawing é versátil e pode ser utilizado em vários aplicativ
 
 ### Q3: Onde posso encontrar suporte adicional para Aspose.Drawing?
 
- A3: Para qualquer dúvida ou assistência, visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+ A3: Para qualquer dúvida ou assistência, visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Há alguma limitação nos formatos de imagem suportados pelo Aspose.Drawing?
 

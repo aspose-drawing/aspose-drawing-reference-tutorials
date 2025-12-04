@@ -57,7 +57,6 @@ Ba hành động này là nền tảng của bất kỳ workflow xử lý ảnh 
 - Gói NuGet Aspose.Drawing cho .NET (`Install-Package Aspose.Drawing`)  
 - Kiến thức cơ bản về C# và các khái niệm ảnh (pixel, DPI, độ sâu màu)  
 
----
 
 ### Cách cắt ảnh (How to Crop Image)
 
@@ -89,7 +88,6 @@ Cuối cùng, khám phá các bước chính xác để phóng to ảnh mà khô
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
 
 ## Các trường hợp sử dụng phổ biến
 
@@ -100,7 +98,17 @@ Cuối cùng, khám phá các bước chính xác để phóng to ảnh mà khô
 | **Xử lý hàng loạt ảnh sản phẩm** | Đảm bảo tính nhất quán thương hiệu trên hàng ngàn ảnh | Vòng lặp qua các tệp với `Load`, `Crop`, `Scale`, `Save` |
 | **Tạo PDF có thể in** | Duy trì độ phân giải chuẩn in | `Load → Scale (no loss) → Embed in PDF` |
 
----
+## Tutorial chỉnh sửa ảnh
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Nắm vững kỹ thuật cắt ảnh với Aspose.Drawing cho .NET. Hướng dẫn từng bước giúp các nhà phát triển nâng cao kỹ năng xử lý ảnh một cách dễ dàng.  
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Học cách thao tác ảnh hiệu quả với Aspose.Drawing cho .NET. Khám phá truy cập dữ liệu trực tiếp qua hướng dẫn chi tiết.  
+### [Displaying Images in Aspose.Drawing](./display/)
+Tìm hiểu cách hiển thị ảnh trong các ứng dụng .NET bằng Aspose.Drawing. Thực hiện các bước đơn giản để nâng cao nội dung hình ảnh của bạn.  
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Thành thạo việc tải và lưu ảnh trong .NET với Aspose.Drawing. Khám phá các định dạng BMP, GIF, JPG, PNG, TIFF một cách dễ dàng.  
+### [Scaling Images in Aspose.Drawing](./scale/)
+Học cách phóng to ảnh một cách mượt mà trong .NET bằng Aspose.Drawing. Hướng dẫn chi tiết của chúng tôi đảm bảo tích hợp liền mạch, cung cấp khả năng thao tác ảnh mạnh mẽ.
 
 ## Câu hỏi thường gặp
 
@@ -121,8 +129,6 @@ Cuối cùng, khám phá các bước chính xác để phóng to ảnh mà khô
 
 ---
 
----
-
 **Cập nhật lần cuối:** 2025-12-04  
 **Kiểm thử với:** Aspose.Drawing for .NET 24.11  
 **Tác giả:** Aspose  
@@ -133,15 +139,3 @@ Cuối cùng, khám phá các bước chính xác để phóng to ảnh mà khô
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutorial chỉnh sửa ảnh
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Nắm vững kỹ thuật cắt ảnh với Aspose.Drawing cho .NET. Hướng dẫn từng bước giúp các nhà phát triển nâng cao kỹ năng xử lý ảnh một cách dễ dàng.  
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Học cách thao tác ảnh hiệu quả với Aspose.Drawing cho .NET. Khám phá truy cập dữ liệu trực tiếp qua hướng dẫn chi tiết.  
-### [Displaying Images in Aspose.Drawing](./display/)
-Tìm hiểu cách hiển thị ảnh trong các ứng dụng .NET bằng Aspose.Drawing. Thực hiện các bước đơn giản để nâng cao nội dung hình ảnh của bạn.  
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Thành thạo việc tải và lưu ảnh trong .NET với Aspose.Drawing. Khám phá các định dạng BMP, GIF, JPG, PNG, TIFF một cách dễ dàng.  
-### [Scaling Images in Aspose.Drawing](./scale/)
-Học cách phóng to ảnh một cách mượt mà trong .NET bằng Aspose.Drawing. Hướng dẫn chi tiết của chúng tôi đảm bảo tích hợp liền mạch, cung cấp khả năng thao tác ảnh mạnh mẽ.

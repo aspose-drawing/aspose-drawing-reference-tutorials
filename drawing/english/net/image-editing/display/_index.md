@@ -107,7 +107,7 @@ A4: Refer to the [purchase page](https://purchase.aspose.com/buy) for licensing 
 
 ### Q5: Where can I seek help if I encounter issues or have questions about Aspose.Drawing?
 
-A5: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) to get support from the community and experts.
+A5: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to get support from the community and experts.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

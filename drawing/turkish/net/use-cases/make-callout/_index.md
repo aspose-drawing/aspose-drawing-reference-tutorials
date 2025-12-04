@@ -111,7 +111,7 @@ Kesinlikle! Aspose.Drawing PNG, JPEG, GIF ve daha fazlası gibi popüler görün
 
 ### Sorunla karşılaşırsam nasıl destek alabilirim?
 
- Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) topluluk desteği için.
+ Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği için.
 
 ### Satın almadan önce Aspose.Drawing'i deneyebilir miyim?
 

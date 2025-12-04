@@ -105,7 +105,7 @@ A3: Ya, Aspose.Drawing serbaguna dan dapat digunakan untuk aplikasi grafis seder
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.Drawing?
 
- A4: Anda dapat mengunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan masyarakat. Selain itu, Anda dapat mempertimbangkan untuk membeli lisensi sementara atau menghubungi dukungan Aspose untuk mendapatkan bantuan yang lebih personal.
+ A4: Anda dapat mengunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan masyarakat. Selain itu, Anda dapat mempertimbangkan untuk membeli lisensi sementara atau menghubungi dukungan Aspose untuk mendapatkan bantuan yang lebih personal.
 
 ### Q5: Di mana saya dapat menemukan dokumentasi untuk Aspose.Drawing?
 

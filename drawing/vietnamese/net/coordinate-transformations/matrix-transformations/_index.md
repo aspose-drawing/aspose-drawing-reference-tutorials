@@ -136,7 +136,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 **A:** Nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
 **Q:** Tôi có thể tìm hỗ trợ hoặc kết nối với cộng đồng ở đâu?  
-**A:** Tham khảo diễn đàn Aspose.Drawing [tại đây](https://forum.aspose.com/c/diagram/17).
+**A:** Tham khảo diễn đàn Aspose.Drawing [tại đây](https://forum.aspose.com/c/drawing/44).
 
 **Q:** Tôi có thể tải xuống Aspose.Drawing cho .NET không?  
 **A:** Có, tải về từ [liên kết này](https://releases.aspose.com/drawing/net/).

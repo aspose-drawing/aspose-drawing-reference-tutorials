@@ -90,7 +90,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 
 ### Вопрос 5. Где я могу найти дополнительную поддержку или обсуждения в сообществе?
 
- A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) за поддержку сообщества и обсуждения.
+ A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44) за поддержку сообщества и обсуждения.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

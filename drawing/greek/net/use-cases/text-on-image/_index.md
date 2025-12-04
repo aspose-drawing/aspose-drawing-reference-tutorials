@@ -81,7 +81,7 @@ image.Save(Path.Combine("Your Document Directory", "UseCases", "girl_card_out.jp
 ### Διατίθενται προσωρινές άδειες για δοκιμαστικούς σκοπούς;
  Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια για δοκιμές επισκεπτόμενοι[Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω την υποστήριξη της κοινότητας για το Aspose.Drawing;
- Ασχοληθείτε με την κοινότητα και λάβετε υποστήριξη σε αυτό[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17).
+ Ασχοληθείτε με την κοινότητα και λάβετε υποστήριξη σε αυτό[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44).
 ### Πώς μπορώ να ξεκινήσω με το Aspose.Drawing;
  Ξεκινήστε κάνοντας λήψη της βιβλιοθήκης από[εδώ](https://releases.aspose.com/drawing/net/) και εξερευνήστε την περιεκτική[τεκμηρίωση](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

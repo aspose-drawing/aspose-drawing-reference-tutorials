@@ -97,7 +97,7 @@ A3: Absolutely! Aspose.Drawing is a powerful library capable of handling intrica
 
 ### Q4: How can I get support or seek help if I encounter issues?
 
-A4: Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/diagram/17) for community support and assistance.
+A4: Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/drawing/44) for community support and assistance.
 
 ### Q5: Is there a free trial available?
 

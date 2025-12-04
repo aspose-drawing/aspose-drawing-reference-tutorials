@@ -139,7 +139,7 @@ A4: Ano, Aspose.Drawing vyniká v hromadném zpracování, což umožňuje efekt
 
 ### Q5: Jak mohu získat podporu pro dotazy související s Aspose.Drawing?
 
-A5: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17), kde můžete získat pomoc a spojit se s komunitou.
+A5: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44), kde můžete získat pomoc a spojit se s komunitou.
 
 ---
 

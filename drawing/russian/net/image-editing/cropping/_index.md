@@ -141,7 +141,7 @@ A4: Конечно, Aspose.Drawing отлично справляется с па
 
 ### В5: Как получить поддержку по вопросам, связанным с Aspose.Drawing?
 
-A5: Перейдите на [форум Aspose.Drawing](https://forum.aspose.com/c/diagram/17), чтобы задать вопросы и связаться с сообществом.
+A5: Перейдите на [форум Aspose.Drawing](https://forum.aspose.com/c/drawing/44), чтобы задать вопросы и связаться с сообществом.
 
 ---
 

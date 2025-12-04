@@ -101,7 +101,7 @@ A2: Oczywiście! Możesz narysować dowolną liczbę wielokątów na jednym pł�
 
 ### P5: Gdzie mogę szukać pomocy lub nawiązać kontakt ze społecznością?
 
- Odpowiedź 5: W przypadku jakichkolwiek pytań lub dyskusji przejdź do[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) nawiązać kontakt z tętniącą życiem społecznością Aspose.
+ Odpowiedź 5: W przypadku jakichkolwiek pytań lub dyskusji przejdź do[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) nawiązać kontakt z tętniącą życiem społecznością Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

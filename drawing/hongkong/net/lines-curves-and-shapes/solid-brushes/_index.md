@@ -93,7 +93,7 @@ A2：當然！您可以透過下載試用版來探索功能[這裡](https://rele
 
 ### Q3：如何獲得 Aspose.Drawing for .NET 支援？
 
- A3：訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17)以獲得社區支持和討論。
+ A3：訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/drawing/44)以獲得社區支持和討論。
 
 ### 問題 4：在哪裡可以找到 Aspose.Drawing for .NET 的綜合文件？
 

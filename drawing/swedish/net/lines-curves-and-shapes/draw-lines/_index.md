@@ -100,7 +100,7 @@ A3: Absolut! Aspose.Drawing är mångsidig och kan användas i både skrivbords-
 
 ### F4: Hur kan jag hantera fel när jag använder Aspose.Drawing?
 
-S4: För att hantera fel kan du implementera try-catch-block och hänvisa till Aspose.Drawing-forumet (https://forum.aspose.com/c/diagram/17) för samhällsstöd.
+S4: För att hantera fel kan du implementera try-catch-block och hänvisa till Aspose.Drawing-forumet (https://forum.aspose.com/c/drawing/44) för samhällsstöd.
 
 ### F5: Kan jag använda Aspose.Drawing för ett kommersiellt projekt?
 

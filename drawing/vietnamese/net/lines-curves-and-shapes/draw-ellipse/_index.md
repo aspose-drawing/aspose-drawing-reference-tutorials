@@ -97,7 +97,7 @@ A3: Chắc chắn rồi! Aspose. Draw là một thư viện mạnh mẽ có kh�
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp nếu gặp sự cố?
 
- A4: Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và giúp đỡ.
+ A4: Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và giúp đỡ.
 
 ### Câu 5: Có bản dùng thử miễn phí không?
 

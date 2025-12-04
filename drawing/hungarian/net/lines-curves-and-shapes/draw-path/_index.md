@@ -97,7 +97,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan rajzoljon útvonalakat az Aspose.Draw
 
 ### 3. kérdés: Hol találok támogatást az Aspose.Drawing számára?
 
- 3. válasz: Látogassa meg az Aspose.Drawing oldalt[fórum](https://forum.aspose.com/c/diagram/17) segítségért és közösségi támogatásért.
+ 3. válasz: Látogassa meg az Aspose.Drawing oldalt[fórum](https://forum.aspose.com/c/drawing/44) segítségért és közösségi támogatásért.
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 

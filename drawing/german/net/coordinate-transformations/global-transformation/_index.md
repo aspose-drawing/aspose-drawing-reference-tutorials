@@ -98,7 +98,7 @@ A2: Auf jeden Fall! Sie können mehrere Transformationsaufrufe verketten, um kom
 
 ### F3: Wo finde ich weitere Tutorials und Beispiele für Aspose.Drawing?
 
- A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17) für eine Fülle von Tutorials, Beispielen und Community-Diskussionen.
+ A3: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) für eine Fülle von Tutorials, Beispielen und Community-Diskussionen.
 
 ### F4: Gibt es eine kostenlose Testversion für Aspose.Drawing?
 

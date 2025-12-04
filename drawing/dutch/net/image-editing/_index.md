@@ -57,7 +57,6 @@ Deze drie acties vormen de ruggengraat van elke afbeelding‑verwerkingsworkflow
 - Aspose.Drawing for .NET NuGet‑pakket (`Install-Package Aspose.Drawing`)
 - Basiskennis van C# en afbeeldingsconcepten (pixels, DPI, kleurdiepte)
 
----
 
 ### Hoe een afbeelding bijsnijden (How to Crop Image)
 
@@ -89,7 +88,6 @@ Ontdek tenslotte de exacte stappen om een afbeelding zonder verlies te schalen, 
 
 [Afbeeldingen schalen in Aspose.Drawing](./scale/)
 
----
 
 ## Veelvoorkomende gebruikssituaties
 
@@ -100,7 +98,18 @@ Ontdek tenslotte de exacte stappen om een afbeelding zonder verlies te schalen, 
 | **Batch‑verwerking van productfoto's** | Zorgt voor merkconsistentie over duizenden afbeeldingen | Loop over bestanden met `Load`, `Crop`, `Scale`, `Save` |
 | **Print‑klare PDF's maken** | Behoudt de resolutie die geschikt is voor afdrukken | `Load → Scale (no loss) → Embed in PDF` |
 
----
+
+## Afbeeldingsbewerkingstutorials
+### [Afbeeldingen bijsnijden in Aspose.Drawing](./cropping/)
+Beheers het bijsnijden van afbeeldingen met Aspose.Drawing for .NET. Deze stap‑voor‑stap gids stelt ontwikkelaars in staat hun afbeelding‑verwerkingsvaardigheden moeiteloos te verbeteren.
+### [Directe gegevens toegang in Aspose.Drawing](./direct-data-access/)
+Leer afbeeldingen efficiënt te manipuleren met Aspose.Drawing for .NET. Duik in directe gegevens toegang met onze stap‑voor‑stap gids.
+### [Afbeeldingen weergeven in Aspose.Drawing](./display/)
+Leer hoe je afbeeldingen weergeeft in .NET‑applicaties met Aspose.Drawing. Volg onze tutorial voor eenvoudige stappen en verbeter je visuele content.
+### [Afbeeldingen laden en opslaan in Aspose.Drawing](./load-save/)
+Beheers het laden en opslaan van afbeeldingen in .NET met Aspose.Drawing. Ontdek BMP, GIF, JPG, PNG, TIFF formaten moeiteloos.
+### [Afbeeldingen schalen in Aspose.Drawing](./scale/)
+Leer hoe je afbeeldingen moeiteloos schaalt in .NET met Aspose.Drawing. Onze stap‑voor‑stap gids zorgt voor naadloze integratie en biedt krachtige afbeelding‑manipulatiemogelijkheden.
 
 ## Veelgestelde vragen
 
@@ -121,8 +130,6 @@ A: Aspose.Drawing accepteert floating‑point afmetingen, en de resampling‑eng
 
 ---
 
----
-
 **Laatst bijgewerkt:** 2025-12-04  
 **Getest met:** Aspose.Drawing for .NET 24.11  
 **Auteur:** Aspose  
@@ -133,15 +140,3 @@ A: Aspose.Drawing accepteert floating‑point afmetingen, en de resampling‑eng
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Afbeeldingsbewerkingstutorials
-### [Afbeeldingen bijsnijden in Aspose.Drawing](./cropping/)
-Beheers het bijsnijden van afbeeldingen met Aspose.Drawing for .NET. Deze stap‑voor‑stap gids stelt ontwikkelaars in staat hun afbeelding‑verwerkingsvaardigheden moeiteloos te verbeteren.
-### [Directe gegevens toegang in Aspose.Drawing](./direct-data-access/)
-Leer afbeeldingen efficiënt te manipuleren met Aspose.Drawing for .NET. Duik in directe gegevens toegang met onze stap‑voor‑stap gids.
-### [Afbeeldingen weergeven in Aspose.Drawing](./display/)
-Leer hoe je afbeeldingen weergeeft in .NET‑applicaties met Aspose.Drawing. Volg onze tutorial voor eenvoudige stappen en verbeter je visuele content.
-### [Afbeeldingen laden en opslaan in Aspose.Drawing](./load-save/)
-Beheers het laden en opslaan van afbeeldingen in .NET met Aspose.Drawing. Ontdek BMP, GIF, JPG, PNG, TIFF formaten moeiteloos.
-### [Afbeeldingen schalen in Aspose.Drawing](./scale/)
-Leer hoe je afbeeldingen moeiteloos schaalt in .NET met Aspose.Drawing. Onze stap‑voor‑stap gids zorgt voor naadloze integratie en biedt krachtige afbeelding‑manipulatiemogelijkheden.

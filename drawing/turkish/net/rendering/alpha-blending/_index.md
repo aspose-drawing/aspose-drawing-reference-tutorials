@@ -87,7 +87,7 @@ Bu eğitimde Aspose.Drawing for .NET ile alfa harmanlamanın büyüleyici dünya
 
 ### S3: Aspose.Drawing için nasıl destek alabilirim?
 
- Cevap3: Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/diagram/17) topluluk desteği için.
+ Cevap3: Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/drawing/44) topluluk desteği için.
 
 ### S4: Aspose.Drawing için geçici lisanslar mevcut mu?
 

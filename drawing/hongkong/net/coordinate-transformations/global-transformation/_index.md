@@ -98,7 +98,7 @@ A2：當然！您可以連結多個轉換呼叫來實現複雜的視覺效果。
 
 ### Q3：在哪裡可以找到更多 Aspose.Drawing 教學和範例？
 
- A3：訪問[Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17)豐富的教學、範例和社群討論。
+ A3：訪問[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44)豐富的教學、範例和社群討論。
 
 ### Q4：Aspose.Drawing 有免費試用版嗎？
 

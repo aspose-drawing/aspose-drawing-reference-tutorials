@@ -83,7 +83,7 @@ Gefeliciteerd! U hebt met succes een afbeelding met kleurrijke lijnen gemaakt me
 
 In deze zelfstudie hebben we de basisprincipes van het werken met kleuren in Aspose.Drawing voor .NET onderzocht. U hebt geleerd hoe u een bitmap maakt, lijnen tekent met verschillende gekleurde pennen en de resulterende afbeelding opslaat. Deze kennis vormt de basis voor meer geavanceerde grafische manipulatie in uw .NET-toepassingen.
 
- Voel je vrij om te experimenteren met verschillende kleuren, vormen en technieken om je grafische programmeervaardigheden te verbeteren. Als je uitdagingen tegenkomt, is de Aspose.Drawing[documentatie](https://reference.aspose.com/drawing/net/) En[Helpforum](https://forum.aspose.com/c/diagram/17) zijn uitstekende hulpmiddelen.
+ Voel je vrij om te experimenteren met verschillende kleuren, vormen en technieken om je grafische programmeervaardigheden te verbeteren. Als je uitdagingen tegenkomt, is de Aspose.Drawing[documentatie](https://reference.aspose.com/drawing/net/) En[Helpforum](https://forum.aspose.com/c/drawing/44) zijn uitstekende hulpmiddelen.
 
 ## Veelgestelde vragen
 

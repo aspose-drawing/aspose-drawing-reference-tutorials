@@ -81,7 +81,7 @@ Aspose.Drawing упрощает задачи манипулирования из
 ### Доступны ли временные лицензии для целей тестирования?
  Да, вы можете получить временную лицензию на тестирование, посетив[Временная лицензия](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти поддержку сообщества для Aspose.Drawing?
- Взаимодействуйте с сообществом и получайте поддержку на[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
+ Взаимодействуйте с сообществом и получайте поддержку на[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44).
 ### Как мне начать работу с Aspose.Drawing?
  Начните с загрузки библиотеки с сайта[здесь](https://releases.aspose.com/drawing/net/) и изучить всестороннее[документация](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

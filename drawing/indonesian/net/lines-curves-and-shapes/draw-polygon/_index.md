@@ -101,7 +101,7 @@ A2: Tentu saja! Anda dapat menggambar poligon sebanyak yang diperlukan pada satu
 
 ### Q5: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas?
 
- A5: Untuk pertanyaan atau diskusi apa pun, kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk terlibat dengan komunitas Aspose yang dinamis.
+ A5: Untuk pertanyaan atau diskusi apa pun, kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44) untuk terlibat dengan komunitas Aspose yang dinamis.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

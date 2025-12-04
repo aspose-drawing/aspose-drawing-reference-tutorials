@@ -105,7 +105,7 @@ A3: Igen, az Aspose.Drawing sokoldalú, egyszerű és összetett grafikus alkalm
 
 ### 4. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Drawing-hez?
 
- A4: Meglátogathatja a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásért. Ezenkívül fontolóra veheti egy ideiglenes licenc vásárlását vagy az Aspose ügyfélszolgálatának megkeresését személyre szabottabb segítségért.
+ A4: Meglátogathatja a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásért. Ezenkívül fontolóra veheti egy ideiglenes licenc vásárlását vagy az Aspose ügyfélszolgálatának megkeresését személyre szabottabb segítségért.
 
 ### 5. kérdés: Hol találom az Aspose.Drawing dokumentációját?
 

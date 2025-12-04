@@ -106,7 +106,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 
 ### س3: كيف يمكنني الحصول على الدعم لـ Aspose.Drawing؟
 
- ج3: للحصول على الدعم، قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
+ ج3: للحصول على الدعم، قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44).
 
 ### س4: هل يتوفر ترخيص مؤقت لـ Aspose.Drawing؟
 

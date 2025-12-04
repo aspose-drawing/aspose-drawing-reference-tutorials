@@ -67,7 +67,7 @@ Parabéns! Você desenhou com sucesso uma curva fechada usando Aspose.Drawing fo
 
 Neste tutorial, percorremos o processo de desenho de curvas fechadas no Aspose.Drawing for .NET. Com apenas algumas etapas simples, você pode aumentar o apelo visual de seus aplicativos .NET.
 
- Se você tiver alguma dúvida ou encontrar problemas, sinta-se à vontade para procurar ajuda no[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+ Se você tiver alguma dúvida ou encontrar problemas, sinta-se à vontade para procurar ajuda no[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ## Perguntas frequentes
 
@@ -89,7 +89,7 @@ Neste tutorial, percorremos o processo de desenho de curvas fechadas no Aspose.D
 
 ### P5: Quais opções de suporte estão disponíveis?
 
- A5: Se precisar de ajuda ou tiver dúvidas, vá para o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+ A5: Se precisar de ajuda ou tiver dúvidas, vá para o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

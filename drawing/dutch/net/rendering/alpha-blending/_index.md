@@ -87,7 +87,7 @@ In deze tutorial hebben we de fascinerende wereld van alpha-blending verkend met
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
 
- A3: Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/diagram/17) voor gemeenschapssteun.
+ A3: Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/drawing/44) voor gemeenschapssteun.
 
 ### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.Drawing?
 

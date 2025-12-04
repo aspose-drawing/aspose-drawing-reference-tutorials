@@ -143,7 +143,7 @@ A4: Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.Dra
 
 ### Ε5: Πού μπορώ να βρω υποστήριξη κοινότητας για το Aspose.Drawing;
 
- A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17) για κοινοτική υποστήριξη και συζητήσεις.
+ A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44) για κοινοτική υποστήριξη και συζητήσεις.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -93,7 +93,7 @@ A2: Kesinlikle! Deneme sürümünü indirerek özellikleri keşfedebilirsiniz.[B
 
 ### S3: Aspose.Drawing for .NET desteğini nasıl alabilirim?
 
- A3: Ziyaret edin[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17) topluluk desteği ve tartışmalar için.
+ A3: Ziyaret edin[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği ve tartışmalar için.
 
 ### S4: Aspose.Drawing for .NET'in kapsamlı belgelerini nerede bulabilirim?
 

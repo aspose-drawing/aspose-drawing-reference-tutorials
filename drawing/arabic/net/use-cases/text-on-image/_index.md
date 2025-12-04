@@ -81,7 +81,7 @@ image.Save(Path.Combine("Your Document Directory", "UseCases", "girl_card_out.jp
 ### هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
  نعم يمكنك الحصول على ترخيص مؤقت للاختبار من خلال الزيارة[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على دعم مجتمعي لـ Aspose.Drawing؟
- الانخراط مع المجتمع والحصول على الدعم على[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
+ الانخراط مع المجتمع والحصول على الدعم على[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44).
 ### كيف أبدأ مع Aspose.Drawing؟
  ابدأ بتنزيل المكتبة من[هنا](https://releases.aspose.com/drawing/net/) واستكشاف شاملة[توثيق](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

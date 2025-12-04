@@ -106,7 +106,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 
 ### Q3：如何獲得 Aspose.Drawing 的支援？
 
- A3：如需支持，請訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/diagram/17).
+ A3：如需支持，請訪問[Aspose.繪圖論壇](https://forum.aspose.com/c/drawing/44).
 
 ### Q4：Aspose.Drawing 是否有臨時授權？
 

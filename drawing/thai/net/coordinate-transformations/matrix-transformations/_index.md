@@ -136,7 +136,7 @@ A: เอกสารพร้อมให้บริการ [here](https://r
 A: รับลิขสิทธิ์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).
 
 **Q: ฉันจะหาการสนับสนุนหรือเข้าร่วมชุมชนได้ที่ไหน?**  
-A: เยี่ยมชมฟอรั่ม Aspose.Drawing [here](https://forum.aspose.com/c/diagram/17).
+A: เยี่ยมชมฟอรั่ม Aspose.Drawing [here](https://forum.aspose.com/c/drawing/44).
 
 **Q: ฉันสามารถดาวน์โหลด Aspose.Drawing for .NET ได้หรือไม่?**  
 A: ได้, ดาวน์โหลดได้จาก [this link](https://releases.aspose.com/drawing/net/).

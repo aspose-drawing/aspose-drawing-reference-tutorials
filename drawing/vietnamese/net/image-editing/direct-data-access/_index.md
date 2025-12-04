@@ -92,7 +92,7 @@ Câu trả lời 1: Có, Aspose.draw tương thích với nhiều khung .NET kh�
 
 ### Câu 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.drawing?
 
- A3: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
+ A3: Tham quan[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và thảo luận.
 
 ### Câu hỏi 4: Tôi có thể tìm tài liệu về Aspose.drawing ở đâu?
 

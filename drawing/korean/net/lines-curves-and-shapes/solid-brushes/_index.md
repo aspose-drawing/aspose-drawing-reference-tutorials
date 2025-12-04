@@ -93,7 +93,7 @@ A2: 물론이죠! 평가판을 다운로드하여 기능을 탐색할 수 있습
 
 ### Q3: .NET용 Aspose. Drawing에 대한 지원을 어떻게 받을 수 있나요?
 
- A3: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 커뮤니티 지원 및 토론을 위해.
+ A3: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 커뮤니티 지원 및 토론을 위해.
 
 ### Q4: .NET용 Aspose. Drawing에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 

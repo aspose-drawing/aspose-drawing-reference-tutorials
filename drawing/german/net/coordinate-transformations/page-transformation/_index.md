@@ -106,7 +106,7 @@ In diesem Tutorial haben wir die grundlegenden Schritte zum Durchführen einer S
 
 ### F3: Wie kann ich Unterstützung für Aspose.Drawing erhalten?
 
- A3: Für Unterstützung besuchen Sie die[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+ A3: Für Unterstützung besuchen Sie die[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
 
 ### F4: Ist eine temporäre Lizenz für Aspose.Drawing verfügbar?
 

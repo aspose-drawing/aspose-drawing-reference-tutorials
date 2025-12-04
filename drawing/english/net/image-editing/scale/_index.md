@@ -104,7 +104,7 @@ A2: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/t
 
 ### Q3: Where can I find additional support for Aspose.Drawing?
 
-A3: For any queries or assistance, visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17).
+A3: For any queries or assistance, visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Are there any limitations on the image formats supported by Aspose.Drawing?
 

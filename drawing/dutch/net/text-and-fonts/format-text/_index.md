@@ -106,7 +106,7 @@ A4: Ja, Aspose.Drawing biedt een uitgebreide set hulpmiddelen voor grafische man
 
 ### V5: Waar kan ik aanvullende ondersteuning vinden voor Aspose.Drawing?
 
- A5: Verken het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/diagram/17) voor gemeenschapsondersteuning en discussies.
+ A5: Verken het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

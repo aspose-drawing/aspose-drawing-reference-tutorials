@@ -106,7 +106,7 @@ V tomto tutoriálu jsme probrali základní kroky k provedení transformace str�
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing?
 
- A3: Pro podporu navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+ A3: Pro podporu navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Je k dispozici dočasná licence pro Aspose.Drawing?
 

@@ -100,7 +100,7 @@ A3: Kesinlikle! Aspose.Drawing çok yönlüdür ve hem masaüstü hem de web uyg
 
 ### S4: Aspose.Drawing'i kullanırken hataları nasıl halledebilirim?
 
-Cevap4: Hataları gidermek için try-catch bloklarını uygulayabilir ve Aspose.Drawing forumuna başvurabilirsiniz (https://forum.aspose.com/c/diagram/17) topluluk desteği için.
+Cevap4: Hataları gidermek için try-catch bloklarını uygulayabilir ve Aspose.Drawing forumuna başvurabilirsiniz (https://forum.aspose.com/c/drawing/44) topluluk desteği için.
 
 ### S5: Aspose.Drawing'i ticari bir proje için kullanabilir miyim?
 

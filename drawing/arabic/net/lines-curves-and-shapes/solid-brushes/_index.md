@@ -93,7 +93,7 @@ bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.Drawing لـ .NET؟
 
- ج3: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لدعم المجتمع والمناقشات.
+ ج3: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) لدعم المجتمع والمناقشات.
 
 ### س4: أين يمكنني العثور على وثائق شاملة لـ Aspose.Drawing لـ .NET؟
 

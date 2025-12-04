@@ -84,7 +84,7 @@ Gratulacje! Pomyślnie nauczyłeś się ustawiać szerokość pisaków za pomoc�
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub zadać pytania?
 
- A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) szukać pomocy, dzielić się doświadczeniami i łączyć się ze społecznością.
+ A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) szukać pomocy, dzielić się doświadczeniami i łączyć się ze społecznością.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 

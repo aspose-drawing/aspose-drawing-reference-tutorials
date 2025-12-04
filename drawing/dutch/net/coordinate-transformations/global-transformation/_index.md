@@ -98,7 +98,7 @@ A2: Absoluut! U kunt meerdere transformatieoproepen aan elkaar koppelen om compl
 
 ### V3: Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.Drawing?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor een schat aan tutorials, voorbeelden en communitydiscussies.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor een schat aan tutorials, voorbeelden en communitydiscussies.
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.Drawing?
 

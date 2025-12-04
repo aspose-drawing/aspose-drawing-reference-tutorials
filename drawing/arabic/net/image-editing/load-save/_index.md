@@ -126,7 +126,7 @@ private static void LoadAndSave(string graphicsFileFormats)
 
 ### س4: ماذا أفعل إذا واجهت مشاكل أو كان لدي أسئلة أثناء التنفيذ؟
 
-ج4: اطلب المساعدة من مجتمع Aspose.Drawing على [منتدى Aspose](https://forum.aspose.com/c/diagram/17).
+ج4: اطلب المساعدة من مجتمع Aspose.Drawing على [منتدى Aspose](https://forum.aspose.com/c/drawing/44).
 
 ### س5: أين يمكنني شراء مكتبة Aspose.Drawing؟
 

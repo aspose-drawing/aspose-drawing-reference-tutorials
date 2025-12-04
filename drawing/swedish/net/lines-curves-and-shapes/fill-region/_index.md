@@ -99,7 +99,7 @@ Att fylla regioner i Aspose.Drawing för .NET är en enkel process som ger dig f
 
 ### F3: Hur kan jag få support för Aspose.Drawing?
 
- A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) för att få hjälp från samhället och experter.
+ A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) för att få hjälp från samhället och experter.
 
 ### F4: Kan jag skapa dynamiska bilder med Aspose.Drawing?
 

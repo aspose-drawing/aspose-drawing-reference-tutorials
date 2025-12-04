@@ -108,7 +108,7 @@ A4 : Oui, Aspose.Drawing prend en charge diverses astuces de rendu de texte pour
 
 ### Q5 : Où puis-je demander de l'aide ou partager mes expériences avec Aspose.Drawing ?
 
- A5 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17)pour s'engager avec la communauté et obtenir du soutien.
+ A5 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44)pour s'engager avec la communauté et obtenir du soutien.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

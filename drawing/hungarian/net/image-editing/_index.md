@@ -57,8 +57,6 @@ Ezek a három művelet bármely képfeldolgozó munkafolyamat gerince, és az As
 - Aspose.Drawing for .NET NuGet csomag (`Install-Package Aspose.Drawing`)
 - Alapvető ismeretek C#-ban és a képek fogalmaiban (pixelek, DPI, színmélység)
 
----
-
 ### Hogyan vágjunk képet (How to Crop Image)
 
 Az alábbi dedikált tutorial pontos vágási technikákat mutat be. A vágás elsajátítása segít a kép legfontosabb részeire fókuszálni és javítja a teljes kompozíciót.
@@ -89,8 +87,6 @@ Végül fedezze fel a pontos lépéseket a kép veszteség nélküli méretezés
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
-
 ## Gyakori felhasználási esetek
 
 | Forgatókönyv | Miért fontos | Elsődleges API hívások |
@@ -99,6 +95,18 @@ Végül fedezze fel a pontos lépéseket a kép veszteség nélküli méretezés
 | **Eszközök előkészítése magas DPI‑ű kijelzőkhöz** | Megakadályozza a homályos UI elemeket a modern képernyőkön | `Load → Resize (bicubic) → Save` |
 | **Termékfotók kötegelt feldolgozása** | Biztosítja a márkakonzisztenciát több ezer kép esetén | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **Nyomtatható PDF-ek létrehozása** | Megőrzi a nyomtatásra kész felbontást | `Load → Scale (no loss) → Embed in PDF` |
+
+## Képszerkesztési tutorialok
+### [Képek vágása az Aspose.Drawing-ben](./cropping/)
+Mestere a képek vágásának az Aspose.Drawing for .NET segítségével. Ez a lépésről‑lépésre útmutató felhatalmazza a fejlesztőket, hogy könnyedén fejlesszék képfeldolgozási képességeiket.
+### [Közvetlen adat-hozzáférés az Aspose.Drawing-ben](./direct-data-access/)
+Tanulja meg a képek hatékony manipulálását az Aspose.Drawing for .NET segítségével. Merüljön el a közvetlen adat-hozzáférésben lépésről‑lépésre útmutatónkkal.
+### [Képek megjelenítése az Aspose.Drawing-ben](./display/)
+Tanulja meg, hogyan jelenítsen meg képeket .NET alkalmazásokban az Aspose.Drawing segítségével. Kövesse tutorialunkat egyszerű lépésekhez, és fejlessze vizuális tartalmát.
+### [Képek betöltése és mentése az Aspose.Drawing-ben](./load-save/)
+Mestere a képek betöltését és mentését .NET-ben az Aspose.Drawing segítségével. Fedezze fel a BMP, GIF, JPG, PNG, TIFF formátumokat könnyedén.
+### [Képek méretezése az Aspose.Drawing-ben](./scale/)
+Tanulja meg, hogyan méretezzen képeket könnyedén .NET-ben az Aspose.Drawing használatával. Lépésről‑lépésre útmutatónk biztosítja a zökkenőmentes integrációt, erőteljes képmódosítási képességekkel.
 
 ## Gyakran ismételt kérdések
 
@@ -129,15 +137,3 @@ V: Az Aspose.Drawing lebegőpontos méreteket is elfogad, és az újramintavéte
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Képszerkesztési tutorialok
-### [Képek vágása az Aspose.Drawing-ben](./cropping/)
-Mestere a képek vágásának az Aspose.Drawing for .NET segítségével. Ez a lépésről‑lépésre útmutató felhatalmazza a fejlesztőket, hogy könnyedén fejlesszék képfeldolgozási képességeiket.
-### [Közvetlen adat-hozzáférés az Aspose.Drawing-ben](./direct-data-access/)
-Tanulja meg a képek hatékony manipulálását az Aspose.Drawing for .NET segítségével. Merüljön el a közvetlen adat-hozzáférésben lépésről‑lépésre útmutatónkkal.
-### [Képek megjelenítése az Aspose.Drawing-ben](./display/)
-Tanulja meg, hogyan jelenítsen meg képeket .NET alkalmazásokban az Aspose.Drawing segítségével. Kövesse tutorialunkat egyszerű lépésekhez, és fejlessze vizuális tartalmát.
-### [Képek betöltése és mentése az Aspose.Drawing-ben](./load-save/)
-Mestere a képek betöltését és mentését .NET-ben az Aspose.Drawing segítségével. Fedezze fel a BMP, GIF, JPG, PNG, TIFF formátumokat könnyedén.
-### [Képek méretezése az Aspose.Drawing-ben](./scale/)
-Tanulja meg, hogyan méretezzen képeket könnyedén .NET-ben az Aspose.Drawing használatával. Lépésről‑lépésre útmutatónk biztosítja a zökkenőmentes integrációt, erőteljes képmódosítási képességekkel.

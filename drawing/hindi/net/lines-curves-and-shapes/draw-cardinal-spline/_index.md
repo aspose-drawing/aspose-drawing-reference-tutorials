@@ -86,7 +86,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_o
 
 ### Q3: मुझे अतिरिक्त सहायता कहां मिल सकती है?
 
- A3: पर जाएँ[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17) सामुदायिक समर्थन और चर्चा के लिए।
+ A3: पर जाएँ[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44) सामुदायिक समर्थन और चर्चा के लिए।
 
 ### Q4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 

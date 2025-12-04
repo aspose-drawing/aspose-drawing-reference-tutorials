@@ -106,7 +106,7 @@ A3. Вы можете управлять переполнением текста
 
 ### Вопрос 5: Где я могу найти дополнительную поддержку Aspose.Drawing?
 
- A5: Посетите форум Aspose.Drawing[здесь](https://forum.aspose.com/c/diagram/17) за поддержку сообщества и обсуждения.
+ A5: Посетите форум Aspose.Drawing[здесь](https://forum.aspose.com/c/drawing/44) за поддержку сообщества и обсуждения.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

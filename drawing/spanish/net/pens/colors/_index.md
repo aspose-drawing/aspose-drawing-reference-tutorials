@@ -83,7 +83,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 
 En este tutorial, exploramos los conceptos básicos del trabajo con colores en Aspose.Drawing para .NET. Ha aprendido a crear un mapa de bits, dibujar líneas con bolígrafos de diferentes colores y guardar la imagen resultante. Este conocimiento es la base para una manipulación de gráficos más avanzada en sus aplicaciones .NET.
 
- Siéntete libre de experimentar con diferentes colores, formas y técnicas para mejorar tus habilidades de programación gráfica. Si encuentra algún desafío, Aspose.Drawing[documentación](https://reference.aspose.com/drawing/net/) y[Foro de soporte](https://forum.aspose.com/c/diagram/17) son excelentes recursos.
+ Siéntete libre de experimentar con diferentes colores, formas y técnicas para mejorar tus habilidades de programación gráfica. Si encuentra algún desafío, Aspose.Drawing[documentación](https://reference.aspose.com/drawing/net/) y[Foro de soporte](https://forum.aspose.com/c/drawing/44) son excelentes recursos.
 
 ## Preguntas frecuentes
 

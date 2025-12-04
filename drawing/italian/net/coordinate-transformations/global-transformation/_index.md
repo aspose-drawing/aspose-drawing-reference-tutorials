@@ -98,7 +98,7 @@ A2: Assolutamente! È possibile concatenare più chiamate di trasformazione per 
 
 ### Q3: Dove posso trovare altri tutorial ed esempi per Aspose.Drawing?
 
- A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) per una vasta gamma di tutorial, esempi e discussioni della community.
+ A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per una vasta gamma di tutorial, esempi e discussioni della community.
 
 ### Q4: È disponibile una prova gratuita per Aspose.Drawing?
 

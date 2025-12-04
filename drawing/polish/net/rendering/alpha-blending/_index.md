@@ -87,7 +87,7 @@ W tym samouczku poznaliśmy fascynujący świat mieszania alfa z Aspose.Drawing 
 
 ### P3: Jak mogę uzyskać pomoc dotyczącą Aspose.Drawing?
 
- A3: Odwiedź forum Aspose.Drawing[Tutaj](https://forum.aspose.com/c/diagram/17) za wsparcie społeczności.
+ A3: Odwiedź forum Aspose.Drawing[Tutaj](https://forum.aspose.com/c/drawing/44) za wsparcie społeczności.
 
 ### P4: Czy dostępne są licencje tymczasowe dla Aspose.Drawing?
 

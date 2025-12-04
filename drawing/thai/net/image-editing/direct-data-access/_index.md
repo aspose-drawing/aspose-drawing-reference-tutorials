@@ -92,7 +92,7 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 ### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose. Drawing ได้อย่างไร
 
- A3: เยี่ยมชม[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+ A3: เยี่ยมชม[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/drawing/44) สำหรับการสนับสนุนและการอภิปรายของชุมชน
 
 ### คำถามที่ 4: ฉันจะหาเอกสารประกอบสำหรับ Aspose. Drawing ได้ที่ไหน
 

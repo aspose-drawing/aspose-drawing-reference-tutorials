@@ -106,7 +106,7 @@ In deze zelfstudie hebben we de fundamentele stappen besproken voor het uitvoere
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
 
- A3: Bezoek voor ondersteuning de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
+ A3: Bezoek voor ondersteuning de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
 
 ### V4: Is er een tijdelijke licentie beschikbaar voor Aspose.Drawing?
 

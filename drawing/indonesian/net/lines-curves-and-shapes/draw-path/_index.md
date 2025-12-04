@@ -97,7 +97,7 @@ A1: Ya, Aspose.Drawing terintegrasi secara mulus dengan pustaka .NET lainnya, me
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.Drawing?
 
- A3: Kunjungi Aspose.Gambar[forum](https://forum.aspose.com/c/diagram/17) untuk bantuan dan dukungan masyarakat.
+ A3: Kunjungi Aspose.Gambar[forum](https://forum.aspose.com/c/drawing/44) untuk bantuan dan dukungan masyarakat.
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara?
 

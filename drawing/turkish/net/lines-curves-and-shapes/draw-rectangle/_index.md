@@ -81,7 +81,7 @@ Tebrikler! Aspose.Drawing for .NET'i kullanarak başarıyla bir dikdörtgen çiz
 
 Bu eğitimde Aspose.Drawing for .NET'te dikdörtgen çizmenin temel adımlarını inceledik. Bu kitaplık, grafik manipülasyonu için güçlü araçlar sağlar ve bu da onu .NET geliştiricileri için değerli bir varlık haline getirir.
 
- Herhangi bir zorlukla karşılaşırsanız veya sorularınız varsa, şu adresten yardım istemekten çekinmeyin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17).
+ Herhangi bir zorlukla karşılaşırsanız veya sorularınız varsa, şu adresten yardım istemekten çekinmeyin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44).
 
 ## SSS'ler
 

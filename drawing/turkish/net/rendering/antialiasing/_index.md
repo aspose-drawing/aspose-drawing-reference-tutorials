@@ -105,7 +105,7 @@ Cevap3: Evet, Aspose.Drawing çok yönlüdür ve hem basit hem de karmaşık gra
 
 ### S4: Aspose.Drawing ile nasıl destek alabilirim veya yardım isteyebilirim?
 
- A4: ziyaret edebilirsiniz[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17) topluluk desteği için. Ayrıca, daha kişiselleştirilmiş yardım için geçici bir lisans satın almayı veya Aspose desteğine ulaşmayı düşünebilirsiniz.
+ A4: ziyaret edebilirsiniz[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği için. Ayrıca, daha kişiselleştirilmiş yardım için geçici bir lisans satın almayı veya Aspose desteğine ulaşmayı düşünebilirsiniz.
 
 ### S5: Aspose.Drawing belgelerini nerede bulabilirim?
 

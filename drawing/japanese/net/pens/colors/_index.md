@@ -83,7 +83,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 
 このチュートリアルでは、Aspose.Drawing for .NET での色の操作の基本を学習しました。ビットマップを作成し、さまざまな色のペンで線を描き、結果の画像を保存する方法を学習しました。この知識は、.NET アプリケーションでのより高度なグラフィックス操作の基礎となります。
 
-さまざまな色、形、テクニックを自由に試して、グラフィック プログラミングのスキルを向上させてください。問題が発生した場合は、Aspose.Drawing[ドキュメンテーション](https://reference.aspose.com/drawing/net/)そして[サポートフォーラム](https://forum.aspose.com/c/diagram/17)は優れたリソースです。
+さまざまな色、形、テクニックを自由に試して、グラフィック プログラミングのスキルを向上させてください。問題が発生した場合は、Aspose.Drawing[ドキュメンテーション](https://reference.aspose.com/drawing/net/)そして[サポートフォーラム](https://forum.aspose.com/c/drawing/44)は優れたリソースです。
 
 ## よくある質問
 

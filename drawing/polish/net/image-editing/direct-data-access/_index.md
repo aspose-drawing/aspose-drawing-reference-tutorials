@@ -92,7 +92,7 @@ Odpowiedź 1: Tak, Aspose.Drawing jest kompatybilny z różnymi frameworkami .NE
 
 ### P3: Jak mogę uzyskać pomoc dotyczącą Aspose.Drawing?
 
- A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) za wsparcie społeczności i dyskusje.
+ A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) za wsparcie społeczności i dyskusje.
 
 ### P4: Gdzie mogę znaleźć dokumentację Aspose.Drawing?
 

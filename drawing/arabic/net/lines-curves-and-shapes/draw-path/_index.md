@@ -97,7 +97,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPath_out.png");
 
 ### س3: أين يمكنني العثور على الدعم لـ Aspose.Drawing؟
 
- A3: قم بزيارة Aspose.Drawing[المنتدى](https://forum.aspose.com/c/diagram/17) للمساعدة والدعم المجتمعي.
+ A3: قم بزيارة Aspose.Drawing[المنتدى](https://forum.aspose.com/c/drawing/44) للمساعدة والدعم المجتمعي.
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت؟
 

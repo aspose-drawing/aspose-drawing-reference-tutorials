@@ -106,7 +106,7 @@ Bu eğitimde Aspose.Drawing'i kullanarak sayfa dönüşümü gerçekleştirmenin
 
 ### S3: Aspose.Drawing için nasıl destek alabilirim?
 
- C3: Destek için şu adresi ziyaret edin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17).
+ C3: Destek için şu adresi ziyaret edin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44).
 
 ### S4: Aspose.Drawing için geçici bir lisans mevcut mu?
 

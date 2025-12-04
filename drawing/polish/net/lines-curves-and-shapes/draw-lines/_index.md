@@ -100,7 +100,7 @@ A3: Absolutnie! Aspose.Drawing jest wszechstronny i może być używany zarówno
 
 ### P4: Jak mogę poradzić sobie z błędami podczas korzystania z Aspose.Drawing?
 
-O4: Aby obsłużyć błędy, możesz zaimplementować bloki try-catch i zapoznać się z forum Aspose.Drawing (https://forum.aspose.com/c/diagram/17) za wsparcie społeczności.
+O4: Aby obsłużyć błędy, możesz zaimplementować bloki try-catch i zapoznać się z forum Aspose.Drawing (https://forum.aspose.com/c/drawing/44) za wsparcie społeczności.
 
 ### P5: Czy mogę używać Aspose.Drawing w projekcie komercyjnym?
 

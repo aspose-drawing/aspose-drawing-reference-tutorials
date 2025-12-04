@@ -104,7 +104,7 @@ Trong hướng dẫn này, chúng ta đã khám phá quá trình nối các đư
 
 ### Câu 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.drawing?
 
- A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) cho cộng đồng và hỗ trợ.
+ A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) cho cộng đồng và hỗ trợ.
 
 ### Câu hỏi 4: Có giấy phép tạm thời cho Aspose.drawing không?
 

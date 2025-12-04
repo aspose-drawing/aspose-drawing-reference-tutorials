@@ -106,7 +106,7 @@ A4: 예, Aspose. Drawing은 텍스트, 모양 등에 대한 다양한 서식 옵
 
 ### Q5: Aspose. Drawing에 대한 추가 지원은 어디서 찾을 수 있나요?
 
- A5: Aspose.드로잉 포럼 살펴보기[여기](https://forum.aspose.com/c/diagram/17) 커뮤니티 지원 및 토론을 위해.
+ A5: Aspose.드로잉 포럼 살펴보기[여기](https://forum.aspose.com/c/drawing/44) 커뮤니티 지원 및 토론을 위해.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

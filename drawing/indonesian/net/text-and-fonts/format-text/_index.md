@@ -106,7 +106,7 @@ A4: Ya, Aspose.Drawing menyediakan seperangkat alat lengkap untuk manipulasi gra
 
 ### Q5: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Drawing?
 
- A5: Jelajahi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
+ A5: Jelajahi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

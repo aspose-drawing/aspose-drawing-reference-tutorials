@@ -86,7 +86,7 @@ W tym samouczku omówiliśmy proces rysowania kardynalnych splajnów przy użyci
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie?
 
- A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) za wsparcie społeczności i dyskusje.
+ A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) za wsparcie społeczności i dyskusje.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 

@@ -84,7 +84,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 
 ### Q3: 추가 지원을 찾거나 질문을 할 수 있는 곳은 어디입니까?
 
- A3: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 도움을 구하고, 경험을 공유하고, 지역사회와 소통합니다.
+ A3: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 도움을 구하고, 경험을 공유하고, 지역사회와 소통합니다.
 
 ### Q4: 무료 평가판이 제공됩니까?
 

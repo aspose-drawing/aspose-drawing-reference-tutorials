@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 في هذا البرنامج التعليمي، تناولنا عملية رسم منحنيات مغلقة في Aspose.Drawing لـ .NET. من خلال بضع خطوات بسيطة، يمكنك رفع المظهر المرئي لتطبيقات .NET الخاصة بك.
 
- إذا كانت لديك أية أسئلة أو واجهت مشاكل، فلا تتردد في طلب المساعدة على[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
+ إذا كانت لديك أية أسئلة أو واجهت مشاكل، فلا تتردد في طلب المساعدة على[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44).
 
 ## الأسئلة الشائعة
 
@@ -89,7 +89,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 ### س5: ما هي خيارات الدعم المتوفرة؟
 
- ج5: إذا كنت بحاجة إلى مساعدة أو لديك أسئلة، فتوجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
+ ج5: إذا كنت بحاجة إلى مساعدة أو لديك أسئلة، فتوجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -97,7 +97,7 @@ C1: Evet, Aspose.Drawing diğer .NET kitaplıklarıyla sorunsuz bir şekilde bü
 
 ### S3: Aspose.Drawing desteğini nerede bulabilirim?
 
- Cevap3: Aspose.Drawing'i ziyaret edin[forum](https://forum.aspose.com/c/diagram/17) yardım ve topluluk desteği için.
+ Cevap3: Aspose.Drawing'i ziyaret edin[forum](https://forum.aspose.com/c/drawing/44) yardım ve topluluk desteği için.
 
 ### S4: Geçici lisansı nasıl edinebilirim?
 

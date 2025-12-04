@@ -101,7 +101,7 @@ Sangat! Anda memiliki kendali penuh atas warna dan ketebalan bingkai, memungkink
 ### Apakah Aspose.Drawing menawarkan uji coba gratis?
  Ya, Anda dapat menjelajahi fitur Aspose.Drawing dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Drawing?
- Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/diagram/17) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
+ Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/drawing/44) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
 ### Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?
  Ya, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) untuk penggunaan komersial.
 {{< /blocks/products/pf/tutorial-page-section >}}

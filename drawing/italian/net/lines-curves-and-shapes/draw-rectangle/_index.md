@@ -81,7 +81,7 @@ Congratulazioni! Hai disegnato con successo un rettangolo utilizzando Aspose.Dra
 
 In questo tutorial, abbiamo esplorato i passaggi fondamentali per disegnare rettangoli in Aspose.Drawing per .NET. Questa libreria fornisce potenti strumenti per la manipolazione grafica, rendendola una risorsa preziosa per gli sviluppatori .NET.
 
- Se riscontri difficoltà o hai domande, non esitare a chiedere assistenza su[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
+ Se riscontri difficoltà o hai domande, non esitare a chiedere assistenza su[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
 
 ## Domande frequenti
 

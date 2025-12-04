@@ -54,7 +54,6 @@ weight: 21
 - Aspose.Drawing for .NET NuGet 套件（`Install-Package Aspose.Drawing`）  
 - 具備 C# 基礎以及圖像概念（像素、DPI、色彩深度）
 
----
 
 ### 如何裁剪圖像（How to Crop Image）
 
@@ -86,7 +85,6 @@ weight: 21
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
 
 ## 常見使用情境
 
@@ -96,6 +94,22 @@ weight: 21
 | **為高 DPI 顯示器準備資產** | 避免現代螢幕上 UI 元素模糊 | `Load → Resize (bicubic) → Save` |
 | **批次處理商品照片** | 確保數千張圖像的品牌一致性 | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **建立可列印的 PDF** | 保持列印所需的解析度 | `Load → Scale (no loss) → Embed in PDF` |
+
+## 圖像編輯教學
+### [Cropping Images in Aspose.Drawing](./cropping/)
+精通使用 Aspose.Drawing for .NET 進行圖像裁剪。此一步一步指南讓開發者輕鬆提升圖像處理技能。
+
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+學習使用 Aspose.Drawing for .NET 高效操作圖像。透過我們的逐步指南深入了解直接資料存取。
+
+### [Displaying Images in Aspose.Drawing](./display/)
+了解如何在 .NET 應用程式中使用 Aspose.Drawing 顯示圖像。遵循我們的教學，輕鬆步驟，提升您的視覺內容。
+
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+精通使用 Aspose.Drawing 在 .NET 中載入與儲存圖像。輕鬆探索 BMP、GIF、JPG、PNG、TIFF 格式。
+
+### [Scaling Images in Aspose.Drawing](./scale/)
+了解如何使用 Aspose.Drawing 在 .NET 中輕鬆縮放圖像。我們的逐步指南確保無縫整合，提供強大的圖像操作功能。
 
 ## 常見問題
 
@@ -124,19 +138,3 @@ A: Aspose.Drawing 接受浮點數尺寸，重取樣引擎會計算最佳像素�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 圖像編輯教學
-### [Cropping Images in Aspose.Drawing](./cropping/)
-精通使用 Aspose.Drawing for .NET 進行圖像裁剪。此一步一步指南讓開發者輕鬆提升圖像處理技能。
-
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-學習使用 Aspose.Drawing for .NET 高效操作圖像。透過我們的逐步指南深入了解直接資料存取。
-
-### [Displaying Images in Aspose.Drawing](./display/)
-了解如何在 .NET 應用程式中使用 Aspose.Drawing 顯示圖像。遵循我們的教學，輕鬆步驟，提升您的視覺內容。
-
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-精通使用 Aspose.Drawing 在 .NET 中載入與儲存圖像。輕鬆探索 BMP、GIF、JPG、PNG、TIFF 格式。
-
-### [Scaling Images in Aspose.Drawing](./scale/)
-了解如何使用 Aspose.Drawing 在 .NET 中輕鬆縮放圖像。我們的逐步指南確保無縫整合，提供強大的圖像操作功能。

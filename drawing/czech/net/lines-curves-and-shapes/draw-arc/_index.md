@@ -90,7 +90,7 @@ Odpověď 4: Ano, Aspose.Drawing se hladce integruje s ostatními knihovnami .NE
 
 ### Q5: Kde najdu další podporu nebo komunitní diskuse?
 
- A5: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) za podporu komunity a diskuze.
+ A5: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) za podporu komunity a diskuze.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

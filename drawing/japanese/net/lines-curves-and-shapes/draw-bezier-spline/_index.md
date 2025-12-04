@@ -88,7 +88,7 @@ A2：もちろんです！ Aspose.Drawing はユーザーフレンドリーな�
 
 ### Q3: Aspose.Drawing のサポートはどこで見つけられますか?
 
- A3: ご質問やサポートが必要な場合は、弊社までお問い合わせください。[サポートフォーラム](https://forum.aspose.com/c/diagram/17).
+ A3: ご質問やサポートが必要な場合は、弊社までお問い合わせください。[サポートフォーラム](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: 無料トライアルはありますか?
 

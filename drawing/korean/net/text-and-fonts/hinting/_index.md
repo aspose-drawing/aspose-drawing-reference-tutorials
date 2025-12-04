@@ -108,7 +108,7 @@ A4: 예, Aspose. Drawing은 다양한 기본 설정과 시나리오에 맞춰 �
 
 ### Q5: 어디에서 Aspose. Drawing에 대한 도움을 구하거나 내 경험을 공유할 수 있나요?
 
- A5: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17)지역 사회에 참여하고 지원을 받으십시오.
+ A5: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44)지역 사회에 참여하고 지원을 받으십시오.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

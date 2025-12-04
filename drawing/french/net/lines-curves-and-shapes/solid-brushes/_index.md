@@ -93,7 +93,7 @@ A2 : Certainement ! Vous pouvez explorer les fonctionnalités en téléchargeant
 
 ### Q3 : Comment puis-je obtenir de l'assistance pour Aspose.Drawing pour .NET ?
 
- A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour le soutien et les discussions de la communauté.
+ A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour le soutien et les discussions de la communauté.
 
 ### Q4 : Où puis-je trouver une documentation complète pour Aspose.Drawing pour .NET ?
 

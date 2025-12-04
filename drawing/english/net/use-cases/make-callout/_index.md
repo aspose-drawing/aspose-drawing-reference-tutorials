@@ -111,7 +111,7 @@ Explore the comprehensive documentation [here](https://reference.aspose.com/draw
 
 ### How do I get support if I encounter issues?
 
-Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) for community support.
+Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) for community support.
 
 ### Can I try Aspose.Drawing before purchasing?
 

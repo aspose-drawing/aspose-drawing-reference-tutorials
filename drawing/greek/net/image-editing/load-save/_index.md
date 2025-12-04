@@ -127,7 +127,7 @@ private static void LoadAndSave(string graphicsFileFormats)
 
 ### Ε4: Τι κάνω αν αντιμετωπίσω προβλήματα ή έχω ερωτήσεις κατά την υλοποίηση;
 
-Α4: Ζητήστε βοήθεια από την κοινότητα Aspose.Drawing στο [Aspose Forum](https://forum.aspose.com/c/diagram/17).
+Α4: Ζητήστε βοήθεια από την κοινότητα Aspose.Drawing στο [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
 ### Ε5: Πού μπορώ να αγοράσω τη βιβλιοθήκη Aspose.Drawing;
 

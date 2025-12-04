@@ -111,7 +111,7 @@ Absolutně! Aspose.Drawing podporuje oblíbené obrazové formáty jako PNG, JPE
 
 ### Jak získám podporu, pokud narazím na problémy?
 
- Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) za podporu komunity.
+ Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) za podporu komunity.
 
 ### Mohu Aspose.Drawing před nákupem vyzkoušet?
 

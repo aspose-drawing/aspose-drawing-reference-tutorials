@@ -100,7 +100,7 @@ A3：もちろんです！ Aspose.Drawing は多用途であり、デスクト�
 
 ### Q4: Aspose.Drawing の使用中にエラーを処理するにはどうすればよいですか?
 
-A4: エラーを処理するには、try-catch ブロックを実装し、Aspose.Drawing フォーラム (https://forum.aspose.com/c/diagram/17) コミュニティサポートのため。
+A4: エラーを処理するには、try-catch ブロックを実装し、Aspose.Drawing フォーラム (https://forum.aspose.com/c/drawing/44) コミュニティサポートのため。
 
 ### Q5: Aspose.Drawing を商用プロジェクトに使用できますか?
 

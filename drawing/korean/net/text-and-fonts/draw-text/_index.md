@@ -107,7 +107,7 @@ A3: 예, Aspose.드로잉은 .NET Core를 지원하므로 크로스 플랫폼 �
 
 ### Q5: Aspose. Drawing 지원을 위한 커뮤니티 포럼이 있습니까?
 
- A5: 예, 다음 사이트에서 지원을 찾고 문제를 논의할 수 있습니다.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
+ A5: 예, 다음 사이트에서 지원을 찾고 문제를 논의할 수 있습니다.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

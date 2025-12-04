@@ -100,7 +100,7 @@ A3: Absoluut! Aspose.Drawing is veelzijdig en kan zowel in desktop- als webappli
 
 ### V4: Hoe kan ik omgaan met fouten tijdens het gebruik van Aspose.Drawing?
 
-A4: Om fouten af te handelen, kunt u try-catch-blokken implementeren en verwijzen naar het Aspose.Drawing-forum (https://forum.aspose.com/c/diagram/17) voor gemeenschapsondersteuning.
+A4: Om fouten af te handelen, kunt u try-catch-blokken implementeren en verwijzen naar het Aspose.Drawing-forum (https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning.
 
 ### V5: Kan ik Aspose.Drawing gebruiken voor een commercieel project?
 

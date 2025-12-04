@@ -88,7 +88,7 @@ A2: Auf jeden Fall! Aspose.Drawing bietet eine benutzerfreundliche Oberfläche, 
 
 ### F3: Wo finde ich Unterstützung für Aspose.Drawing?
 
- A3: Bei Fragen oder Hilfe besuchen Sie unsere[Hilfeforum](https://forum.aspose.com/c/diagram/17).
+ A3: Bei Fragen oder Hilfe besuchen Sie unsere[Hilfeforum](https://forum.aspose.com/c/drawing/44).
 
 ### F4: Gibt es eine kostenlose Testversion?
 

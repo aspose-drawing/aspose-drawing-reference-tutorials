@@ -57,7 +57,6 @@ Ketiga tindakan ini merupakan tulang punggung alur kerja pemrosesan gambar apa p
 - Paket NuGet Aspose.Drawing untuk .NET (`Install-Package Aspose.Drawing`)
 - Familiaritas dasar dengan C# dan konsep gambar (piksel, DPI, kedalaman warna)
 
----
 
 ### Cara Memotong Gambar (How to Crop Image)
 
@@ -89,7 +88,6 @@ Akhirnya, temukan langkah‑langkah tepat untuk mengubah ukuran gambar tanpa keh
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
----
 
 ## Kasus Penggunaan Umum
 
@@ -99,6 +97,18 @@ Akhirnya, temukan langkah‑langkah tepat untuk mengubah ukuran gambar tanpa keh
 | **Menyiapkan aset untuk tampilan high‑DPI** | Menghindari elemen UI yang blur pada layar modern | `Load → Resize (bicubic) → Save` |
 | **Pemrosesan batch foto produk** | Menjamin konsistensi merek pada ribuan gambar | Loop over files dengan `Load`, `Crop`, `Scale`, `Save` |
 | **Membuat PDF yang dapat dicetak** | Mempertahankan resolusi siap cetak | `Load → Scale (no loss) → Embed in PDF` |
+
+## Tutorial Pengeditan Gambar
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Kuasai pemotongan gambar dengan Aspose.Drawing untuk .NET. Panduan langkah‑demi‑langkah ini memberdayakan pengembang untuk meningkatkan keterampilan pemrosesan gambar dengan mudah.
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Pelajari cara memanipulasi gambar secara efisien dengan Aspose.Drawing untuk .NET. Selami akses data langsung melalui panduan langkah‑demi‑langkah kami.
+### [Displaying Images in Aspose.Drawing](./display/)
+Pelajari cara menampilkan gambar dalam aplikasi .NET menggunakan Aspose.Drawing. Ikuti tutorial kami untuk langkah‑langkah mudah dan tingkatkan konten visual Anda.
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Kuasai pemuatan dan penyimpanan gambar di .NET dengan Aspose.Drawing. Jelajahi format BMP, GIF, JPG, PNG, TIFF dengan mudah.
+### [Scaling Images in Aspose.Drawing](./scale/)
+Pelajari cara mengubah ukuran gambar dengan mudah di .NET menggunakan Aspose.Drawing. Panduan langkah‑demi‑langkah kami memastikan integrasi mulus, memberikan kemampuan manipulasi gambar yang kuat.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -129,15 +139,3 @@ J: Aspose.Drawing menerima dimensi floating‑point, dan mesin resampling akan m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutorial Pengeditan Gambar
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Kuasai pemotongan gambar dengan Aspose.Drawing untuk .NET. Panduan langkah‑demi‑langkah ini memberdayakan pengembang untuk meningkatkan keterampilan pemrosesan gambar dengan mudah.
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Pelajari cara memanipulasi gambar secara efisien dengan Aspose.Drawing untuk .NET. Selami akses data langsung melalui panduan langkah‑demi‑langkah kami.
-### [Displaying Images in Aspose.Drawing](./display/)
-Pelajari cara menampilkan gambar dalam aplikasi .NET menggunakan Aspose.Drawing. Ikuti tutorial kami untuk langkah‑langkah mudah dan tingkatkan konten visual Anda.
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Kuasai pemuatan dan penyimpanan gambar di .NET dengan Aspose.Drawing. Jelajahi format BMP, GIF, JPG, PNG, TIFF dengan mudah.
-### [Scaling Images in Aspose.Drawing](./scale/)
-Pelajari cara mengubah ukuran gambar dengan mudah di .NET menggunakan Aspose.Drawing. Panduan langkah‑demi‑langkah kami memastikan integrasi mulus, memberikan kemampuan manipulasi gambar yang kuat.

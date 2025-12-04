@@ -101,7 +101,7 @@ Absolument! Vous avez un contrôle total sur la couleur et l’épaisseur du cad
 ### Aspose.Drawing propose-t-il un essai gratuit ?
  Oui, vous pouvez explorer les fonctionnalités d'Aspose.Drawing avec un essai gratuit disponible[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l’aide pour Aspose.Drawing ?
- Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/diagram/17) pour obtenir de l'aide et entrer en contact avec la communauté.
+ Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/drawing/44) pour obtenir de l'aide et entrer en contact avec la communauté.
 ### Puis-je utiliser Aspose.Drawing pour des projets commerciaux ?
  Oui, vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy) pour un usage commercial.
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -98,7 +98,7 @@ A2: Kesinlikle! Karmaşık görsel efektler elde etmek için birden fazla dönü
 
 ### S3: Aspose.Drawing için daha fazla eğitim ve örneği nerede bulabilirim?
 
- A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) Çok sayıda eğitim, örnek ve topluluk tartışması için.
+ A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) Çok sayıda eğitim, örnek ve topluluk tartışması için.
 
 ### S4: Aspose.Drawing'in ücretsiz deneme sürümü mevcut mu?
 

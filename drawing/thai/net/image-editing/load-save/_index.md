@@ -126,7 +126,7 @@ A3: เยี่ยมชม [ที่นี่](https://purchase.aspose.com/te
 
 ### Q4: หากพบปัญหาหรือมีคำถามระหว่างการใช้งานควรทำอย่างไร?
 
-A4: ขอความช่วยเหลือจากชุมชน Aspose.Drawing ที่ [Aspose Forum](https://forum.aspose.com/c/diagram/17)
+A4: ขอความช่วยเหลือจากชุมชน Aspose.Drawing ที่ [Aspose Forum](https://forum.aspose.com/c/drawing/44)
 
 ### Q5: จะซื้อไลบรารี Aspose.Drawing ได้จากที่ไหน?
 

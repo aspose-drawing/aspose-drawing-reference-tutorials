@@ -97,7 +97,7 @@ A1: Ja, Aspose.Drawing kan naadloos worden geïntegreerd met andere .NET-bibliot
 
 ### V3: Waar kan ik ondersteuning vinden voor Aspose.Drawing?
 
- A3: Bezoek de Aspose.Drawing[forum](https://forum.aspose.com/c/diagram/17) voor hulp en gemeenschapsondersteuning.
+ A3: Bezoek de Aspose.Drawing[forum](https://forum.aspose.com/c/drawing/44) voor hulp en gemeenschapsondersteuning.
 
 ### Vraag 4: Hoe verkrijg ik een tijdelijke licentie?
 

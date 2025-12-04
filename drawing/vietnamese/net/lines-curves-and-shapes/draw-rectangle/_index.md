@@ -81,7 +81,7 @@ Chúc mừng! Bạn đã vẽ thành công hình chữ nhật bằng Aspose.draw
 
 Trong hướng dẫn này, chúng ta đã khám phá các bước cơ bản để vẽ hình chữ nhật trong Aspose.draw cho .NET. Thư viện này cung cấp các công cụ mạnh mẽ để thao tác đồ họa, khiến nó trở thành tài sản quý giá cho các nhà phát triển .NET.
 
- Nếu bạn gặp bất kỳ khó khăn nào hoặc có thắc mắc, vui lòng tìm kiếm sự trợ giúp trên[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
+ Nếu bạn gặp bất kỳ khó khăn nào hoặc có thắc mắc, vui lòng tìm kiếm sự trợ giúp trên[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
 
 ## Câu hỏi thường gặp
 

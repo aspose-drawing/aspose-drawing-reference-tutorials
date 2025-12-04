@@ -105,7 +105,7 @@ Câu trả lời 3: Có, Aspose.draw rất linh hoạt và có thể được s�
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.drawing?
 
- A4: Bạn có thể ghé thăm[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để hỗ trợ cộng đồng. Ngoài ra, bạn có thể cân nhắc việc mua giấy phép tạm thời hoặc liên hệ với bộ phận hỗ trợ của Aspose để được hỗ trợ cá nhân hóa hơn.
+ A4: Bạn có thể ghé thăm[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để hỗ trợ cộng đồng. Ngoài ra, bạn có thể cân nhắc việc mua giấy phép tạm thời hoặc liên hệ với bộ phận hỗ trợ của Aspose để được hỗ trợ cá nhân hóa hơn.
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.drawing ở đâu?
 

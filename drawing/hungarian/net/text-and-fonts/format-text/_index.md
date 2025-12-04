@@ -106,7 +106,7 @@ A4: Igen, az Aspose.Drawing átfogó eszközkészletet biztosít a grafikus mani
 
 ### 5. kérdés: Hol találok további támogatást az Aspose.Drawing programhoz?
 
- 5. válasz: Fedezze fel az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
+ 5. válasz: Fedezze fel az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

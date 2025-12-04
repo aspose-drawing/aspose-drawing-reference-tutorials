@@ -92,7 +92,7 @@ A1: はい、Aspose.Drawing はさまざまな .NET フレームワークと互�
 
 ### Q3: Aspose.Drawing のサポートを受けるにはどうすればよいですか?
 
- A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)コミュニティのサポートとディスカッションのために。
+ A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティのサポートとディスカッションのために。
 
 ### Q4: Aspose.Drawing のドキュメントはどこで見つけられますか?
 

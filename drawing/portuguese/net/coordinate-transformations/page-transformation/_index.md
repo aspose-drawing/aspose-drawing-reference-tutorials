@@ -106,7 +106,7 @@ Neste tutorial, cobrimos as etapas fundamentais para realizar a transformação 
 
 ### Q3: Como posso obter suporte para Aspose.Drawing?
 
- A3: Para suporte, visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+ A3: Para suporte, visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ### Q4: Há uma licença temporária disponível para Aspose.Drawing?
 

@@ -106,7 +106,7 @@ W tym samouczku omówiliśmy podstawowe kroki transformacji strony za pomocą As
 
 ### P3: Jak mogę uzyskać pomoc dotyczącą Aspose.Drawing?
 
- A3: Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
+ A3: Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ### P4: Czy dostępna jest tymczasowa licencja na Aspose.Drawing?
 

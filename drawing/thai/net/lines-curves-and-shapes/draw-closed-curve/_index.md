@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 ในบทช่วยสอนนี้ เราได้อธิบายขั้นตอนการวาดเส้นโค้งแบบปิดใน Aspose. Drawing สำหรับ .NET แล้ว ด้วยขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน คุณก็สามารถยกระดับรูปลักษณ์ที่ดึงดูดใจให้กับแอปพลิเคชัน .NET ของคุณได้
 
- หากคุณมีคำถามหรือพบปัญหา คุณสามารถขอความช่วยเหลือได้ที่[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17).
+ หากคุณมีคำถามหรือพบปัญหา คุณสามารถขอความช่วยเหลือได้ที่[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/drawing/44).
 
 ## คำถามที่พบบ่อย
 
@@ -89,7 +89,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 ### คำถามที่ 5: มีตัวเลือกการสนับสนุนอะไรบ้าง?
 
- A5: หากคุณต้องการความช่วยเหลือหรือมีคำถาม โปรดไปที่[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/diagram/17).
+ A5: หากคุณต้องการความช่วยเหลือหรือมีคำถาม โปรดไปที่[Aspose. ฟอรั่มการวาดภาพ](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

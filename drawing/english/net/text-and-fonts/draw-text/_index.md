@@ -107,7 +107,7 @@ A4: Certainly! Load the existing image using `Bitmap.FromFile()` and then procee
 
 ### Q5: Is there a community forum for Aspose.Drawing support?
 
-A5: Yes, you can find support and discuss issues on the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17).
+A5: Yes, you can find support and discuss issues on the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
