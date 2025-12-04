@@ -108,7 +108,7 @@ A4: Ναι, το Aspose.Drawing υποστηρίζει διάφορες υποδ
 
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να μοιραστώ τις εμπειρίες μου με το Aspose.Drawing;
 
- A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44)να συνεργαστείτε με την κοινότητα και να λάβετε υποστήριξη.
+ A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17)να συνεργαστείτε με την κοινότητα και να λάβετε υποστήριξη.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -141,7 +141,7 @@ R4: De hecho, Aspose.Drawing sobresale en el procesamiento por lotes, permitiend
 
 ### P5: ¿Cómo puedo obtener soporte para consultas relacionadas con Aspose.Drawing?
 
-R5: Dirígete al [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para buscar asistencia y conectar con la comunidad.
+R5: Dirígete al [Foro de Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para buscar asistencia y conectar con la comunidad.
 
 ---
 

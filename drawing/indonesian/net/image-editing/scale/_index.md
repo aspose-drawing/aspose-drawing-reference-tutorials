@@ -104,7 +104,7 @@ A1: Ya, Aspose.Drawing serbaguna dan dapat digunakan di berbagai aplikasi .NET, 
 
 ### Q3: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Drawing?
 
- A3: Untuk pertanyaan atau bantuan apa pun, kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44).
+ A3: Untuk pertanyaan atau bantuan apa pun, kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17).
 
 ### Q4: Apakah ada batasan pada format gambar yang didukung oleh Aspose.Drawing?
 

@@ -101,7 +101,7 @@ A2: Auf jeden Fall! Sie können so viele Polygone wie nötig auf einer einzigen 
 
 ### F5: Wo kann ich Hilfe suchen oder mit der Community in Kontakt treten?
 
- A5: Bei Fragen oder Diskussionen gehen Sie zu[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) um mit der lebendigen Aspose-Community in Kontakt zu treten.
+ A5: Bei Fragen oder Diskussionen gehen Sie zu[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) um mit der lebendigen Aspose-Community in Kontakt zu treten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

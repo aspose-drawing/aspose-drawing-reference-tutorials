@@ -108,7 +108,7 @@ Gratulálunk! Sikeresen elsajátította a tippelést az Aspose.Drawing for .NET-
 
 ### 5. kérdés: Hol kérhetek segítséget vagy oszthatok meg tapasztalataimat az Aspose.Drawing-el kapcsolatban?
 
- A5: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44)kapcsolatba lépni a közösséggel és támogatást kapni.
+ A5: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17)kapcsolatba lépni a közösséggel és támogatást kapni.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

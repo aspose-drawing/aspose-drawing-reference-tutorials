@@ -108,7 +108,7 @@ A4: Ja, Aspose.Drawing ondersteunt verschillende tekstweergavehints om tegemoet 
 
 ### Vraag 5: Waar kan ik hulp zoeken of mijn ervaringen met Aspose.Drawing delen?
 
- A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44)om met de gemeenschap in contact te komen en steun te krijgen.
+ A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17)om met de gemeenschap in contact te komen en steun te krijgen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

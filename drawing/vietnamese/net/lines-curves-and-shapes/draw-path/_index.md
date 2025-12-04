@@ -97,7 +97,7 @@ Câu trả lời 1: Có, Aspose.draw tích hợp liền mạch với các thư v
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.drawing ở đâu?
 
- A3: Truy cập Aspose.draw[diễn đàn](https://forum.aspose.com/c/drawing/44) để được hỗ trợ và hỗ trợ cộng đồng.
+ A3: Truy cập Aspose.draw[diễn đàn](https://forum.aspose.com/c/diagram/17) để được hỗ trợ và hỗ trợ cộng đồng.
 
 ### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời?
 

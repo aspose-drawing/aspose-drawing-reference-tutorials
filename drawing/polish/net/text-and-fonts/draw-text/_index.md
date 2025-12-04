@@ -107,7 +107,7 @@ Odpowiedź 3: Tak, Aspose.Drawing obsługuje .NET Core, co pozwala na używanie 
 
 ### P5: Czy istnieje forum społecznościowe umożliwiające wsparcie Aspose.Drawing?
 
- Odpowiedź 5: Tak, możesz znaleźć wsparcie i omówić problemy na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ Odpowiedź 5: Tak, możesz znaleźć wsparcie i omówić problemy na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

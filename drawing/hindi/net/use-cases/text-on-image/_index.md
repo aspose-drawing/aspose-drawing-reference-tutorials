@@ -81,7 +81,7 @@ Aspose.Drawing .NET में छवि हेरफेर कार्यों
 ### क्या अस्थायी लाइसेंस परीक्षण उद्देश्यों के लिए उपलब्ध हैं?
  हां, आप यहां जाकर परीक्षण के लिए अस्थायी लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 ### मुझे Aspose.Drawing के लिए सामुदायिक समर्थन कहां मिल सकता है?
- समुदाय के साथ जुड़ें और समर्थन प्राप्त करें[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44).
+ समुदाय के साथ जुड़ें और समर्थन प्राप्त करें[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17).
 ### मैं Aspose.Drawing के साथ कैसे शुरुआत करूं?
  से लाइब्रेरी डाउनलोड करके शुरुआत करें[यहाँ](https://releases.aspose.com/drawing/net/) और व्यापक का अन्वेषण करें[प्रलेखन](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

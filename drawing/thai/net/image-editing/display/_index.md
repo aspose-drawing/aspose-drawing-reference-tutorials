@@ -107,7 +107,7 @@ A4: โปรดดูที่[หน้าซื้อ](https://purchase.aspos
 
 ### คำถามที่ 5: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันพบปัญหาหรือมีคำถามเกี่ยวกับ Aspose. Drawing
 
- A5: เยี่ยมชม[Aspose.กระดานสนทนาการวาดภาพ](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญ
+ A5: เยี่ยมชม[Aspose.กระดานสนทนาการวาดภาพ](https://forum.aspose.com/c/diagram/17) เพื่อรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

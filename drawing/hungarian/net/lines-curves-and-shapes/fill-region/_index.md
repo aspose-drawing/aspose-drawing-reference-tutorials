@@ -99,7 +99,7 @@ régiók kitöltése az Aspose.Drawing for .NET-ben egy egyszerű folyamat, amel
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing programhoz?
 
- A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) segítséget kérni a közösségtől és a szakértőktől.
+ A3: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) segítséget kérni a közösségtől és a szakértőktől.
 
 ### 4. kérdés: Létrehozhatok dinamikus képeket az Aspose.Drawing használatával?
 

@@ -101,7 +101,7 @@ Tuyệt đối! Bạn có toàn quyền kiểm soát màu sắc và độ dày c
 ### Aspose.draw có cung cấp bản dùng thử miễn phí không?
  Có, bạn có thể khám phá các tính năng của Aspose. Draw bằng bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.draw?
- Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/drawing/44) để được hỗ trợ và kết nối với cộng đồng.
+ Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/diagram/17) để được hỗ trợ và kết nối với cộng đồng.
 ### Tôi có thể sử dụng Aspose.draw cho các dự án thương mại không?
  Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) cho mục đích thương mại.
 {{< /blocks/products/pf/tutorial-page-section >}}

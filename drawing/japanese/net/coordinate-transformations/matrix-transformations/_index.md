@@ -135,7 +135,7 @@ A: ドキュメントは [こちら](https://reference.aspose.com/drawing/net/) 
 A: 一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から取得できます。
 
 **Q: サポートやコミュニティへの参加方法は？**  
-A: Aspose.Drawing フォーラムは [こちら](https://forum.aspose.com/c/drawing/44) です。
+A: Aspose.Drawing フォーラムは [こちら](https://forum.aspose.com/c/diagram/17) です。
 
 **Q: Aspose.Drawing for .NET をダウンロードできますか？**  
 A: はい、[このリンク](https://releases.aspose.com/drawing/net/) からダウンロードできます。

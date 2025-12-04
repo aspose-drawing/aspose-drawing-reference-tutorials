@@ -98,7 +98,7 @@ A2: Absolut! Du kan koppla flera transformationsanrop för att uppnå komplexa v
 
 ### F3: Var kan jag hitta fler handledningar och exempel för Aspose.Drawing?
 
- A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) för en mängd tutorials, exempel och diskussioner i samhället.
+ A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) för en mängd tutorials, exempel och diskussioner i samhället.
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.Drawing?
 

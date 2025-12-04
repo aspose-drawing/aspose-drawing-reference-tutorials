@@ -101,7 +101,7 @@ A2: Visst! Du kan rita så många polygoner som behövs på en enda duk genom at
 
 ### F5: Var kan jag söka hjälp eller få kontakt med samhället?
 
- S5: För eventuella frågor eller diskussioner, gå över till[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) att engagera sig i det livliga Aspose-samhället.
+ S5: För eventuella frågor eller diskussioner, gå över till[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) att engagera sig i det livliga Aspose-samhället.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

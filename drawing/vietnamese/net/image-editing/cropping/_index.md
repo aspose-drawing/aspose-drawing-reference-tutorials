@@ -140,7 +140,7 @@ A4: Đúng vậy, Aspose.Drawing xuất sắc trong xử lý hàng loạt, cho p
 
 ### Q5: Làm sao tôi có thể nhận hỗ trợ cho các câu hỏi liên quan đến Aspose.Drawing?
 
-A5: Hãy truy cập [Diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44) để tìm kiếm trợ giúp và kết nối với cộng đồng.
+A5: Hãy truy cập [Diễn đàn Aspose.Drawing](https://forum.aspose.com/c/diagram/17) để tìm kiếm trợ giúp và kết nối với cộng đồng.
 
 ---
 

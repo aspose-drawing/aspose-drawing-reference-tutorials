@@ -137,7 +137,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 उत्तर: टेम्पररी लाइसेंस प्राप्त करें [here](https://purchase.aspose.com/temporary-license/)।
 
 **प्रश्न: सपोर्ट या कम्युनिटी से कैसे जुड़ूँ?**  
-उत्तर: Aspose.Drawing फ़ोरम पर जाएँ [here](https://forum.aspose.com/c/drawing/44)।
+उत्तर: Aspose.Drawing फ़ोरम पर जाएँ [here](https://forum.aspose.com/c/diagram/17)।
 
 **प्रश्न: क्या मैं Aspose.Drawing for .NET डाउनलोड कर सकता हूँ?**  
 उत्तर: हाँ, इसे [this link](https://releases.aspose.com/drawing/net/) से डाउनलोड करें।

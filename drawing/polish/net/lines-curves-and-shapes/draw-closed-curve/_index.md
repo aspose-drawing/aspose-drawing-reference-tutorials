@@ -67,7 +67,7 @@ Gratulacje! Pomyślnie narysowałeś zamkniętą krzywą za pomocą Aspose.Drawi
 
 tym samouczku omówiliśmy proces rysowania zamkniętych krzywych w Aspose.Drawing dla .NET. Za pomocą zaledwie kilku prostych kroków możesz podnieść atrakcyjność wizualną aplikacji .NET.
 
- Jeśli masz jakieś pytania lub napotkasz problemy, możesz zwrócić się o pomoc na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ Jeśli masz jakieś pytania lub napotkasz problemy, możesz zwrócić się o pomoc na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
 ## Często zadawane pytania
 
@@ -89,7 +89,7 @@ tym samouczku omówiliśmy proces rysowania zamkniętych krzywych w Aspose.Drawi
 
 ### P5: Jakie opcje wsparcia są dostępne?
 
- A5: Jeśli potrzebujesz pomocy lub masz pytania, udaj się na stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ A5: Jeśli potrzebujesz pomocy lub masz pytania, udaj się na stronę[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

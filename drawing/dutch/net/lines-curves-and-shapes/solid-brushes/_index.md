@@ -93,7 +93,7 @@ A2: Zeker! U kunt de functies verkennen door de proefversie te downloaden[hier](
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing voor .NET?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning en discussies.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor gemeenschapsondersteuning en discussies.
 
 ### V4: Waar kan ik uitgebreide documentatie vinden voor Aspose.Drawing voor .NET?
 

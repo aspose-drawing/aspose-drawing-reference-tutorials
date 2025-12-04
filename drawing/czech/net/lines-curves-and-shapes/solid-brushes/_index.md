@@ -93,7 +93,7 @@ A2: Určitě! Funkce můžete prozkoumat stažením zkušební verze[tady](https
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing pro .NET?
 
- A3: Navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) za podporu komunity a diskuze.
+ A3: Navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) za podporu komunity a diskuze.
 
 ### Q4: Kde najdu komplexní dokumentaci pro Aspose.Drawing for .NET?
 

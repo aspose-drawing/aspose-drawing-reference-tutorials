@@ -101,7 +101,7 @@ A2: 물론이죠! 이 튜토리얼에 설명된 프로세스를 반복하여 단
 
 ### 질문 5: 어디에서 도움을 구하거나 커뮤니티와 연결할 수 있나요?
 
- A5: 질문이나 토론이 있는 경우[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 활기찬 Aspose 커뮤니티에 참여하세요.
+ A5: 질문이나 토론이 있는 경우[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 활기찬 Aspose 커뮤니티에 참여하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -143,7 +143,7 @@ Console.WriteLine("Credits Consumed: " + credits.ToString());
 
 ### Вопрос 5: Где я могу найти поддержку сообщества для Aspose.Drawing?
 
- A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44) за поддержку сообщества и обсуждения.
+ A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) за поддержку сообщества и обсуждения.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

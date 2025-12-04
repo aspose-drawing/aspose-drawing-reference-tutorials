@@ -107,7 +107,7 @@ A3: हाँ, Aspose.Drawing .NET कोर का समर्थन करत
 
 ### Q5: क्या Aspose.Drawing समर्थन के लिए कोई सामुदायिक मंच है?
 
- A5: हां, आप समर्थन पा सकते हैं और मुद्दों पर चर्चा कर सकते हैं[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44).
+ A5: हां, आप समर्थन पा सकते हैं और मुद्दों पर चर्चा कर सकते हैं[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

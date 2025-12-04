@@ -126,7 +126,7 @@ A3: Navštivte [zde](https://purchase.aspose.com/temporary-license/) pro podrobn
 
 ### Q4: Co když narazím na problémy nebo mám otázky během implementace?
 
-A4: Požádejte o pomoc komunitu Aspose.Drawing na [Aspose Forum](https://forum.aspose.com/c/drawing/44).
+A4: Požádejte o pomoc komunitu Aspose.Drawing na [Aspose Forum](https://forum.aspose.com/c/diagram/17).
 
 ### Q5: Kde si mohu zakoupit knihovnu Aspose.Drawing?
 

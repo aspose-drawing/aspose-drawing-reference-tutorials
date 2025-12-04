@@ -106,7 +106,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 
 ### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;
 
- A3: Για υποστήριξη, επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44).
+ A3: Για υποστήριξη, επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17).
 
 ### Ε4: Είναι διαθέσιμη μια προσωρινή άδεια για το Aspose.Drawing;
 

@@ -111,7 +111,7 @@ Assolutamente! Aspose.Drawing supporta i formati di immagine più diffusi come P
 
 ### Come posso ottenere supporto se riscontro problemi?
 
- Visitare il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per il sostegno della comunità.
+ Visitare il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) per il sostegno della comunità.
 
 ### Posso provare Aspose.Drawing prima dell'acquisto?
 

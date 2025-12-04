@@ -101,7 +101,7 @@ Sí, Aspose.Drawing admite una amplia gama de formatos de imagen, lo que garanti
 ### ¿Aspose.Drawing ofrece una prueba gratuita?
  Sí, puedes explorar las funciones de Aspose.Drawing con una prueba gratuita disponible[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.Drawing?
- Visita el foro de Aspose.Drawing[aquí](https://forum.aspose.com/c/drawing/44) para obtener asistencia y conectarse con la comunidad.
+ Visita el foro de Aspose.Drawing[aquí](https://forum.aspose.com/c/diagram/17) para obtener asistencia y conectarse con la comunidad.
 ### ¿Puedo utilizar Aspose.Drawing para proyectos comerciales?
  Sí, puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy) para uso comercial.
 {{< /blocks/products/pf/tutorial-page-section >}}

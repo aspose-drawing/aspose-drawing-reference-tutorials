@@ -83,7 +83,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 
 在本教程中，我們探索了在 Aspose.Drawing for .NET 中使用顏色的基礎知識。您已經學習如何建立點陣圖、使用不同顏色的筆繪製線條以及保存生成的影像。這些知識是 .NET 應用程式中更高階圖形操作的基礎。
 
-請隨意嘗試不同的顏色、形狀和技術，以提高您的圖形程式設計技能。如果您遇到任何挑戰，Aspose.Drawing[文件](https://reference.aspose.com/drawing/net/)和[支援論壇](https://forum.aspose.com/c/drawing/44)都是極好的資源。
+請隨意嘗試不同的顏色、形狀和技術，以提高您的圖形程式設計技能。如果您遇到任何挑戰，Aspose.Drawing[文件](https://reference.aspose.com/drawing/net/)和[支援論壇](https://forum.aspose.com/c/diagram/17)都是極好的資源。
 
 ## 常見問題解答
 

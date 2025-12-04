@@ -90,7 +90,7 @@ A4: 예, Aspose. Drawing은 다른 .NET 라이브러리와 원활하게 통합�
 
 ### Q5: 추가 지원이나 커뮤니티 토론은 어디서 찾을 수 있나요?
 
- A5: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 커뮤니티 지원 및 토론을 위해.
+ A5: 다음을 방문하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 커뮤니티 지원 및 토론을 위해.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -101,7 +101,7 @@ A2: Certamente! Puoi disegnare tutti i poligoni necessari su una singola tela ri
 
 ### D5: Dove posso cercare aiuto o connettermi con la comunità?
 
- R5: Per qualsiasi domanda o discussione, vai al[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) per interagire con la vivace comunità Aspose.
+ R5: Per qualsiasi domanda o discussione, vai al[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) per interagire con la vivace comunità Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

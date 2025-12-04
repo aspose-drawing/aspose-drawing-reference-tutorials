@@ -106,7 +106,7 @@ A4：是的，Aspose.Drawing 提供了一套全面的图形操作工具，包括
 
 ### Q5：在哪里可以找到对 Aspose.Drawing 的额外支持？
 
- A5：探索 Aspose.Drawing 论坛[这里](https://forum.aspose.com/c/drawing/44)以获得社区支持和讨论。
+ A5：探索 Aspose.Drawing 论坛[这里](https://forum.aspose.com/c/diagram/17)以获得社区支持和讨论。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -83,7 +83,7 @@ Chúc mừng! Bạn đã tạo thành công một hình ảnh với các đườ
 
 Trong hướng dẫn này, chúng ta đã khám phá những kiến thức cơ bản về cách làm việc với màu sắc trong Aspose.draw cho .NET. Bạn đã học cách tạo Bitmap, vẽ đường bằng các loại bút màu khác nhau và lưu hình ảnh thu được. Kiến thức này là nền tảng cho các thao tác đồ họa nâng cao hơn trong các ứng dụng .NET của bạn.
 
- Hãy thoải mái thử nghiệm các màu sắc, hình dạng và kỹ thuật khác nhau để nâng cao kỹ năng lập trình đồ họa của bạn. Nếu bạn gặp bất kỳ thử thách nào, Aspose.drawing[tài liệu](https://reference.aspose.com/drawing/net/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/drawing/44) là những nguồn tài nguyên tuyệt vời.
+ Hãy thoải mái thử nghiệm các màu sắc, hình dạng và kỹ thuật khác nhau để nâng cao kỹ năng lập trình đồ họa của bạn. Nếu bạn gặp bất kỳ thử thách nào, Aspose.drawing[tài liệu](https://reference.aspose.com/drawing/net/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/diagram/17) là những nguồn tài nguyên tuyệt vời.
 
 ## Câu hỏi thường gặp
 

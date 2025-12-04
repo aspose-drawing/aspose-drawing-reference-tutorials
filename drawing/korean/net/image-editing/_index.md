@@ -56,6 +56,7 @@ weight: 21
 - Aspose.Drawing for .NET NuGet package (`Install-Package Aspose.Drawing`)
 - Basic familiarity with C# and image concepts (pixels, DPI, color depth)
 
+---
 
 ### 이미지 자르기 (How to Crop Image)
 
@@ -87,6 +88,8 @@ WinForms, WPF, ASP.NET 등에서 이미지를 올바르게 표시하려면 적�
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
+---
+
 ## 일반적인 사용 사례
 
 | 시나리오 | 중요한 이유 | 주요 API 호출 |
@@ -95,18 +98,6 @@ WinForms, WPF, ASP.NET 등에서 이미지를 올바르게 표시하려면 적�
 | **고 DPI 디스플레이용 자산 준비** | 현대 화면에서 흐릿한 UI 요소를 방지합니다 | `Load → Resize (bicubic) → Save` |
 | **제품 사진 일괄 처리** | 수천 개의 이미지에 걸쳐 브랜드 일관성을 보장합니다 | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **인쇄용 PDF 생성** | 인쇄 준비 해상도를 유지합니다 | `Load → Scale (no loss) → Embed in PDF` |
-
-## 이미지 편집 튜토리얼
-### [Cropping Images in Aspose.Drawing](./cropping/)
-Aspose.Drawing for .NET을 사용한 이미지 크롭을 마스터하세요. 이 단계별 가이드는 개발자가 이미지 처리 기술을 손쉽게 향상시킬 수 있도록 돕습니다.
-### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Aspose.Drawing for .NET으로 이미지를 효율적으로 조작하는 방법을 배우세요. 단계별 가이드를 통해 직접 데이터 액세스를 깊이 있게 탐구합니다.
-### [Displaying Images in Aspose.Drawing](./display/)
-Aspose.Drawing을 사용해 .NET 애플리케이션에서 이미지를 표시하는 방법을 배우세요. 쉬운 단계별 튜토리얼로 시각적 콘텐츠를 강화할 수 있습니다.
-### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Aspose.Drawing을 사용해 .NET에서 이미지 로드 및 저장을 마스터하세요. BMP, GIF, JPG, PNG, TIFF 포맷을 손쉽게 다루는 방법을 탐색합니다.
-### [Scaling Images in Aspose.Drawing](./scale/)
-Aspose.Drawing을 사용해 .NET에서 이미지를 손쉽게 스케일링하는 방법을 배우세요. 단계별 가이드를 통해 강력한 이미지 조작 기능을 원활히 통합할 수 있습니다.
 
 ## 자주 묻는 질문
 
@@ -137,3 +128,15 @@ Aspose.Drawing을 사용해 .NET에서 이미지를 손쉽게 스케일링하는
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 이미지 편집 튜토리얼
+### [Cropping Images in Aspose.Drawing](./cropping/)
+Aspose.Drawing for .NET을 사용한 이미지 크롭을 마스터하세요. 이 단계별 가이드는 개발자가 이미지 처리 기술을 손쉽게 향상시킬 수 있도록 돕습니다.
+### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
+Aspose.Drawing for .NET으로 이미지를 효율적으로 조작하는 방법을 배우세요. 단계별 가이드를 통해 직접 데이터 액세스를 깊이 있게 탐구합니다.
+### [Displaying Images in Aspose.Drawing](./display/)
+Aspose.Drawing을 사용해 .NET 애플리케이션에서 이미지를 표시하는 방법을 배우세요. 쉬운 단계별 튜토리얼로 시각적 콘텐츠를 강화할 수 있습니다.
+### [Loading and Saving Images in Aspose.Drawing](./load-save/)
+Aspose.Drawing을 사용해 .NET에서 이미지 로드 및 저장을 마스터하세요. BMP, GIF, JPG, PNG, TIFF 포맷을 손쉽게 다루는 방법을 탐색합니다.
+### [Scaling Images in Aspose.Drawing](./scale/)
+Aspose.Drawing을 사용해 .NET에서 이미지를 손쉽게 스케일링하는 방법을 배우세요. 단계별 가이드를 통해 강력한 이미지 조작 기능을 원활히 통합할 수 있습니다.

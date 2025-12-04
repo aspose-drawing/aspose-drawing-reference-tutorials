@@ -126,7 +126,7 @@ A3: 임시 라이선스 상세 내용은 [여기](https://purchase.aspose.com/te
 
 ### Q4: 구현 중 문제가 발생하거나 질문이 있으면 어떻게 해야 하나요?
 
-A4: Aspose.Drawing 커뮤니티인 [Aspose Forum](https://forum.aspose.com/c/drawing/44)에서 도움을 받을 수 있습니다.
+A4: Aspose.Drawing 커뮤니티인 [Aspose Forum](https://forum.aspose.com/c/diagram/17)에서 도움을 받을 수 있습니다.
 
 ### Q5: Aspose.Drawing 라이브러리를 구매하려면 어디서 해야 하나요?
 

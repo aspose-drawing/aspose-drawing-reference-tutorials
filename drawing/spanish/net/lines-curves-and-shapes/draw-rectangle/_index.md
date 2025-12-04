@@ -81,7 +81,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 
 En este tutorial, exploramos los pasos fundamentales para dibujar rectángulos en Aspose.Drawing para .NET. Esta biblioteca proporciona potentes herramientas para la manipulación de gráficos, lo que la convierte en un activo valioso para los desarrolladores de .NET.
 
- Si encuentra algún desafío o tiene preguntas, no dude en buscar ayuda en el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44).
+ Si encuentra algún desafío o tiene preguntas, no dude en buscar ayuda en el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17).
 
 ## Preguntas frecuentes
 

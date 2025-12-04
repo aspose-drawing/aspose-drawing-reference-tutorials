@@ -100,7 +100,7 @@ A3: Chắc chắn rồi! Aspose.draw rất linh hoạt và có thể được s�
 
 ### Câu hỏi 4: Làm cách nào để xử lý lỗi khi sử dụng Aspose.drawing?
 
-Câu trả lời 4: Để xử lý lỗi, bạn có thể triển khai các khối thử bắt và tham khảo diễn đàn Aspose.draw (https://forum.aspose.com/c/drawing/44) để hỗ trợ cộng đồng.
+Câu trả lời 4: Để xử lý lỗi, bạn có thể triển khai các khối thử bắt và tham khảo diễn đàn Aspose.draw (https://forum.aspose.com/c/diagram/17) để hỗ trợ cộng đồng.
 
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.draw cho một dự án thương mại không?
 

@@ -83,7 +83,7 @@ Toutes nos félicitations! Vous avez créé avec succès une image avec des lign
 
 Dans ce didacticiel, nous avons exploré les bases de l'utilisation des couleurs dans Aspose.Drawing pour .NET. Vous avez appris à créer un Bitmap, à tracer des lignes avec des stylos de différentes couleurs et à enregistrer l'image résultante. Ces connaissances constituent la base d'une manipulation graphique plus avancée dans vos applications .NET.
 
- N'hésitez pas à expérimenter différentes couleurs, formes et techniques pour améliorer vos compétences en programmation graphique. Si vous rencontrez des difficultés, Aspose.Drawing[Documentation](https://reference.aspose.com/drawing/net/) et[forum d'entraide](https://forum.aspose.com/c/drawing/44) sont d'excellentes ressources.
+ N'hésitez pas à expérimenter différentes couleurs, formes et techniques pour améliorer vos compétences en programmation graphique. Si vous rencontrez des difficultés, Aspose.Drawing[Documentation](https://reference.aspose.com/drawing/net/) et[forum d'entraide](https://forum.aspose.com/c/diagram/17) sont d'excellentes ressources.
 
 ## FAQ
 

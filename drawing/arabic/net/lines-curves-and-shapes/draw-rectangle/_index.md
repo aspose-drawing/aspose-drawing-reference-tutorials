@@ -81,7 +81,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 
 في هذا البرنامج التعليمي، استكشفنا الخطوات الأساسية لرسم المستطيلات في Aspose.Drawing لـ .NET. توفر هذه المكتبة أدوات قوية لمعالجة الرسومات، مما يجعلها رصيدًا قيمًا لمطوري .NET.
 
- إذا واجهت أي تحديات أو كانت لديك أسئلة، فلا تتردد في طلب المساعدة على[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44).
+ إذا واجهت أي تحديات أو كانت لديك أسئلة، فلا تتردد في طلب المساعدة على[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
 
 ## الأسئلة الشائعة
 

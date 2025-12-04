@@ -81,7 +81,7 @@ Aspose.Drawing 支援多種圖片格式，包括 JPEG、PNG 和 GIF 等流行格
 ### 臨時許可證是否可用於測試目的？
 是的，您可以透過造訪獲得臨時測試許可證[臨時執照](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到 Aspose.Drawing 的社群支援？
-參與社區並獲得支持[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44).
+參與社區並獲得支持[Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17).
 ### 我該如何開始使用 Aspose.Drawing？
 首先從下載庫[這裡](https://releases.aspose.com/drawing/net/)並探索全面的[文件](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

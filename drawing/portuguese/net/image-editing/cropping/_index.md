@@ -141,7 +141,7 @@ A4: De fato, o Aspose.Drawing se destaca no processamento em lote, permitindo o 
 
 ### Q5: Como posso obter suporte para dúvidas relacionadas ao Aspose.Drawing?
 
-A5: Acesse o [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) para buscar assistência e conectar‑se com a comunidade.
+A5: Acesse o [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) para buscar assistência e conectar‑se com a comunidade.
 
 ---
 

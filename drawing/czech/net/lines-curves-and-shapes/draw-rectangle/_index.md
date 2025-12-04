@@ -81,7 +81,7 @@ Gratulujeme! Úspěšně jste nakreslili obdélník pomocí Aspose.Drawing for .
 
 V tomto tutoriálu jsme prozkoumali základní kroky pro kreslení obdélníků v Aspose.Drawing pro .NET. Tato knihovna poskytuje výkonné nástroje pro grafickou manipulaci, díky čemuž je cenným přínosem pro vývojáře .NET.
 
- Pokud narazíte na nějaké problémy nebo máte otázky, neváhejte požádat o pomoc na[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ Pokud narazíte na nějaké problémy nebo máte otázky, neváhejte požádat o pomoc na[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ
 

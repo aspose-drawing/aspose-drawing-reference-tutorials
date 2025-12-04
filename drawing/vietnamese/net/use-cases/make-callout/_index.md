@@ -111,7 +111,7 @@ Tuyệt đối! Aspose.draw hỗ trợ các định dạng hình ảnh phổ bi�
 
 ### Làm cách nào để nhận được hỗ trợ nếu tôi gặp sự cố?
 
- Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để hỗ trợ cộng đồng.
+ Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để hỗ trợ cộng đồng.
 
 ### Tôi có thể dùng thử Aspose.draw trước khi mua không?
 

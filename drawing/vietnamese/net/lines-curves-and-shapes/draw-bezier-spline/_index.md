@@ -88,7 +88,7 @@ A2: Chắc chắn rồi! Aspose.draw cung cấp giao diện thân thiện với 
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.drawing ở đâu?
 
- A3: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/drawing/44).
+ A3: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/diagram/17).
 
 ### Q4: Có bản dùng thử miễn phí không?
 

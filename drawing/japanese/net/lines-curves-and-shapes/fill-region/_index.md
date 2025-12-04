@@ -99,7 +99,7 @@ Aspose.Drawing for .NET での領域の塗りつぶしは簡単なプロセス�
 
 ### Q3: Aspose.Drawing のサポートを受けるにはどうすればよいですか?
 
- A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティや専門家からの支援が得られます。
+ A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)コミュニティや専門家からの支援が得られます。
 
 ### Q4: Aspose.Drawing を使用して動的イメージを生成できますか?
 

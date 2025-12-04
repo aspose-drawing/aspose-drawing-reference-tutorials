@@ -104,7 +104,7 @@ A1: Ja, Aspose.Drawing is veelzijdig en kan worden gebruikt in verschillende .NE
 
 ### V3: Waar kan ik aanvullende ondersteuning vinden voor Aspose.Drawing?
 
- A3: Ga voor vragen of hulp naar de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
+ A3: Ga voor vragen of hulp naar de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
 
 ### V4: Zijn er beperkingen op de afbeeldingsformaten die door Aspose.Drawing worden ondersteund?
 

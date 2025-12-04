@@ -99,7 +99,7 @@ A2：是的，您可以免费试用[这里](https://releases.aspose.com/).
 
 ### Q3：如何获得 Aspose.Drawing 的支持？
 
- A3：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44)获得社区和专家的帮助。
+ A3：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)获得社区和专家的帮助。
 
 ### Q4：我可以使用Aspose.Drawing生成动态图像吗？
 

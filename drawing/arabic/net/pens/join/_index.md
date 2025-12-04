@@ -104,7 +104,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### س3: كيف يمكنني الحصول على الدعم لـ Aspose.Drawing؟
 
- ج3: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) للمجتمع والدعم.
+ ج3: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) للمجتمع والدعم.
 
 ### س4: هل التراخيص المؤقتة متاحة لـ Aspose.Drawing؟
 

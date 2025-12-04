@@ -101,7 +101,7 @@ Kesinlikle! Çerçevenin rengi ve kalınlığı üzerinde tam kontrole sahip old
 ### Aspose.Drawing ücretsiz deneme sunuyor mu?
  Evet, Aspose.Drawing'in özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Drawing için nasıl destek alabilirim?
- Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/drawing/44) yardım almak ve toplulukla bağlantı kurmak için.
+ Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/diagram/17) yardım almak ve toplulukla bağlantı kurmak için.
 ### Aspose.Drawing'i ticari projeler için kullanabilir miyim?
  Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) ticari kullanım için.
 {{< /blocks/products/pf/tutorial-page-section >}}

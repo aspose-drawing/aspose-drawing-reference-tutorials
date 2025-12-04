@@ -81,7 +81,7 @@ Selamat! Anda telah berhasil menggambar persegi panjang menggunakan Aspose.Drawi
 
 Dalam tutorial ini, kita menjelajahi langkah-langkah dasar menggambar persegi panjang di Aspose.Drawing untuk .NET. Pustaka ini menyediakan alat canggih untuk manipulasi grafis, menjadikannya aset berharga bagi pengembang .NET.
 
- Jika Anda menghadapi tantangan atau memiliki pertanyaan, silakan mencari bantuan di[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44).
+ Jika Anda menghadapi tantangan atau memiliki pertanyaan, silakan mencari bantuan di[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ
 

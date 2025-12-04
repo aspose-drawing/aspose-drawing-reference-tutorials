@@ -106,7 +106,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước cơ bản �
 
 ### Câu 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.drawing?
 
- A3: Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
+ A3: Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
 
 ### Câu hỏi 4: Aspose.drawing có giấy phép tạm thời không?
 

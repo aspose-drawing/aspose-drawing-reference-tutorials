@@ -84,7 +84,7 @@ Parabéns! Você aprendeu com sucesso como definir a largura das canetas usando 
 
 ### P3: Onde posso encontrar suporte adicional ou tirar dúvidas?
 
- A3: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para buscar assistência, compartilhar experiências e se conectar com a comunidade.
+ A3: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para buscar assistência, compartilhar experiências e se conectar com a comunidade.
 
 ### Q4: Existe um teste gratuito disponível?
 

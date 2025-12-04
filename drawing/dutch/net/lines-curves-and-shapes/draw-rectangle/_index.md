@@ -81,7 +81,7 @@ Gefeliciteerd! U hebt met succes een rechthoek getekend met Aspose.Drawing voor 
 
 In deze zelfstudie hebben we de fundamentele stappen onderzocht voor het tekenen van rechthoeken in Aspose.Drawing voor .NET. Deze bibliotheek biedt krachtige tools voor grafische manipulatie, waardoor het een waardevol bezit is voor .NET-ontwikkelaars.
 
- Als u problemen ondervindt of vragen heeft, kunt u terecht voor hulp via de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
+ Als u problemen ondervindt of vragen heeft, kunt u terecht voor hulp via de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
 
 ## Veelgestelde vragen
 

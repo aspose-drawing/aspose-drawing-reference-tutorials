@@ -100,7 +100,7 @@ A3: Abszolút! Az Aspose.Drawing sokoldalú, és asztali és webes alkalmazások
 
 ### 4. kérdés: Hogyan kezelhetem a hibákat az Aspose.Drawing használata közben?
 
-4. válasz: A hibák kezeléséhez alkalmazhat try-catch blokkokat, és tekintse meg az Aspose.Drawing fórumot (https://forum.aspose.com/c/drawing/44) közösségi támogatásért.
+4. válasz: A hibák kezeléséhez alkalmazhat try-catch blokkokat, és tekintse meg az Aspose.Drawing fórumot (https://forum.aspose.com/c/diagram/17) közösségi támogatásért.
 
 ### 5. kérdés: Használhatom az Aspose.Drawing-t kereskedelmi projektekhez?
 

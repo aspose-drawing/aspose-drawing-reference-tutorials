@@ -90,7 +90,7 @@ A4: Ya, Aspose.Drawing terintegrasi secara mulus dengan pustaka .NET lainnya, me
 
 ### Q5: Di mana saya bisa mendapatkan dukungan tambahan atau diskusi komunitas?
 
- A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
+ A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

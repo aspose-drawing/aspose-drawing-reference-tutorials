@@ -81,7 +81,7 @@ Grattis! Du har framgångsrikt ritat en rektangel med Aspose.Drawing för .NET.
 
 I den här handledningen utforskade vi de grundläggande stegen för att rita rektanglar i Aspose.Drawing för .NET. Detta bibliotek tillhandahåller kraftfulla verktyg för grafisk manipulation, vilket gör det till en värdefull tillgång för .NET-utvecklare.
 
- Om du stöter på några utmaningar eller har frågor är du välkommen att söka hjälp[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ Om du stöter på några utmaningar eller har frågor är du välkommen att söka hjälp[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ's
 

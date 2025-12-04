@@ -84,7 +84,7 @@ Chúc mừng! Bạn đã học thành công cách đặt chiều rộng của b�
 
 ### Câu hỏi 3: Tôi có thể tìm thêm hỗ trợ hoặc đặt câu hỏi ở đâu?
 
- A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để tìm kiếm sự hỗ trợ, chia sẻ kinh nghiệm và kết nối với cộng đồng.
+ A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để tìm kiếm sự hỗ trợ, chia sẻ kinh nghiệm và kết nối với cộng đồng.
 
 ### Q4: Có bản dùng thử miễn phí không?
 

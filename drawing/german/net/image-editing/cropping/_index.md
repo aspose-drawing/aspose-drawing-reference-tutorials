@@ -140,7 +140,7 @@ A4: In der Tat, Aspose.Drawing glänzt bei der Batch‑Verarbeitung und ermögli
 
 ### Q5: Wie erhalte ich Support für Fragen zu Aspose.Drawing?
 
-A5: Besuchen Sie das [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44), um Hilfe zu erhalten und sich mit der Community auszutauschen.
+A5: Besuchen Sie das [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17), um Hilfe zu erhalten und sich mit der Community auszutauschen.
 
 ---
 

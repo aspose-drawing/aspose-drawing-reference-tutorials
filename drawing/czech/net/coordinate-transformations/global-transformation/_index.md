@@ -98,7 +98,7 @@ A2: Rozhodně! Můžete řetězit více transformačních volání, abyste dosá
 
 ### Q3: Kde najdu další návody a příklady pro Aspose.Drawing?
 
- A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) za množství výukových programů, příkladů a komunitních diskuzí.
+ A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) za množství výukových programů, příkladů a komunitních diskuzí.
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.Drawing?
 

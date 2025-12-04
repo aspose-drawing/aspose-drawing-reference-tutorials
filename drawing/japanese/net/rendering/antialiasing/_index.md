@@ -105,7 +105,7 @@ A3: はい、Aspose.Drawing は多用途であり、単純なグラフィック 
 
 ### Q4: Aspose.Drawing に関するサポートや支援を求めるにはどうすればよいですか?
 
- A4: にアクセスできます。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティサポートのために。さらに、一時ライセンスを購入するか、より個別のサポートが必要な場合は Aspose サポートに連絡することを検討してください。
+ A4: にアクセスできます。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)コミュニティサポートのために。さらに、一時ライセンスを購入するか、より個別のサポートが必要な場合は Aspose サポートに連絡することを検討してください。
 
 ### Q5: Aspose.Drawing のドキュメントはどこで見つけられますか?
 

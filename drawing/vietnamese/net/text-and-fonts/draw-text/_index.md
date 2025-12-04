@@ -107,7 +107,7 @@ Câu trả lời 3: Có, Aspose.draw hỗ trợ .NET Core, cho phép bạn sử 
 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.draw không?
 
- Câu trả lời 5: Có, bạn có thể tìm sự hỗ trợ và thảo luận các vấn đề trên[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
+ Câu trả lời 5: Có, bạn có thể tìm sự hỗ trợ và thảo luận các vấn đề trên[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -101,7 +101,7 @@ A2: Určitě! Na jedno plátno můžete nakreslit tolik polygonů, kolik potřeb
 
 ### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou?
 
- A5: V případě jakýchkoli dotazů nebo diskuzí přejděte na[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) zapojit se do pulzující komunity Aspose.
+ A5: V případě jakýchkoli dotazů nebo diskuzí přejděte na[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) zapojit se do pulzující komunity Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -101,7 +101,7 @@ A2: Zeker! U kunt zoveel polygonen tekenen als nodig is op één canvas door het
 
 ### Vraag 5: Waar kan ik hulp zoeken of contact maken met de gemeenschap?
 
- A5: Ga voor vragen of discussies naar de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) om deel te nemen aan de levendige Aspose-gemeenschap.
+ A5: Ga voor vragen of discussies naar de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) om deel te nemen aan de levendige Aspose-gemeenschap.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -106,7 +106,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 
 ### Q3: मैं Aspose.Drawing के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
- A3: सहायता के लिए, पर जाएँ[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/drawing/44).
+ A3: सहायता के लिए, पर जाएँ[Aspose.ड्राइंग फोरम](https://forum.aspose.com/c/diagram/17).
 
 ### Q4: क्या Aspose.Drawing के लिए अस्थायी लाइसेंस उपलब्ध है?
 

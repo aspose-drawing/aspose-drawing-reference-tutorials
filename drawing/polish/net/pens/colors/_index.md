@@ -83,7 +83,7 @@ Gratulacje! Pomyślnie utworzyłeś obraz z kolorowymi liniami za pomocą Aspose
 
 W tym samouczku omówiliśmy podstawy pracy z kolorami w Aspose.Drawing dla .NET. Nauczyłeś się, jak tworzyć mapę bitową, rysować linie różnymi kolorowymi pisakami i zapisywać powstały obraz. Wiedza ta stanowi podstawę do bardziej zaawansowanych manipulacji grafiką w aplikacjach .NET.
 
- Możesz eksperymentować z różnymi kolorami, kształtami i technikami, aby udoskonalić swoje umiejętności programowania graficznego. Jeśli napotkasz jakiekolwiek wyzwania, Aspose.Drawing[dokumentacja](https://reference.aspose.com/drawing/net/) I[forum wsparcia](https://forum.aspose.com/c/drawing/44) są doskonałymi zasobami.
+ Możesz eksperymentować z różnymi kolorami, kształtami i technikami, aby udoskonalić swoje umiejętności programowania graficznego. Jeśli napotkasz jakiekolwiek wyzwania, Aspose.Drawing[dokumentacja](https://reference.aspose.com/drawing/net/) I[forum wsparcia](https://forum.aspose.com/c/diagram/17) są doskonałymi zasobami.
 
 ## Często zadawane pytania
 

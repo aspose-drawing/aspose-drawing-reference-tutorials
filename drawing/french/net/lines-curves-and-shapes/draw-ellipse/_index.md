@@ -97,7 +97,7 @@ A3 : Absolument ! Aspose.Drawing est une bibliothèque puissante capable de gér
 
 ### Q4 : Comment puis-je obtenir de l'aide ou demander de l'aide si je rencontre des problèmes ?
 
- A4 : Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/drawing/44) pour le soutien et l’assistance de la communauté.
+ A4 : Visitez le forum Aspose.Drawing[ici](https://forum.aspose.com/c/diagram/17) pour le soutien et l’assistance de la communauté.
 
 ### Q5 : Existe-t-il un essai gratuit ?
 

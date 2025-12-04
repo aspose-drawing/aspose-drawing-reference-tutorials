@@ -104,7 +104,7 @@ En este tutorial, exploramos el proceso de unir trazados con bolígrafos en Aspo
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.Drawing?
 
- A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44) por comunidad y apoyo.
+ A3: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17) por comunidad y apoyo.
 
 ### P4: ¿Hay licencias temporales disponibles para Aspose.Drawing?
 

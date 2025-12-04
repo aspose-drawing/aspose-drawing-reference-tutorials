@@ -90,7 +90,7 @@ A4 : Oui, Aspose.Drawing s'intègre de manière transparente à d'autres bibliot
 
 ### Q5 : Où puis-je trouver une assistance supplémentaire ou des discussions communautaires ?
 
- A5 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour le soutien et les discussions de la communauté.
+ A5 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour le soutien et les discussions de la communauté.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

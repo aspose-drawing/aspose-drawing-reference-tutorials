@@ -100,7 +100,7 @@ A3: 물론이죠! Aspose.드로잉은 다목적이며 데스크탑과 웹 애플
 
 ### Q4: Aspose. Drawing을 사용하는 동안 오류를 어떻게 처리할 수 있나요?
 
-A4: 오류를 처리하려면 try-catch 블록을 구현하고 Aspose. Drawing 포럼(https://forum.aspose.com/c/drawing/44) 커뮤니티 지원을 위해.
+A4: 오류를 처리하려면 try-catch 블록을 구현하고 Aspose. Drawing 포럼(https://forum.aspose.com/c/diagram/17) 커뮤니티 지원을 위해.
 
 ### Q5: Aspose. Drawing을 상업용 프로젝트에 사용할 수 있나요?
 

@@ -101,7 +101,7 @@ Absolutely! You have full control over the color and thickness of the frame, all
 ### Does Aspose.Drawing offer a free trial?
 Yes, you can explore Aspose.Drawing's features with a free trial available [here](https://releases.aspose.com/).
 ### How can I get support for Aspose.Drawing?
-Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/drawing/44) to get assistance and connect with the community.
+Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/diagram/17) to get assistance and connect with the community.
 ### Can I use Aspose.Drawing for commercial projects?
 Yes, you can purchase a license [here](https://purchase.aspose.com/buy) for commercial use.
 

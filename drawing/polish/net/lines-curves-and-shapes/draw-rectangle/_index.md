@@ -81,7 +81,7 @@ Gratulacje! Pomyślnie narysowałeś prostokąt przy użyciu Aspose.Drawing dla 
 
 W tym samouczku omówiliśmy podstawowe kroki rysowania prostokątów w Aspose.Drawing dla .NET. Ta biblioteka zapewnia potężne narzędzia do manipulacji grafiką, co czyni ją cennym nabytkiem dla programistów .NET.
 
- Jeśli napotkasz jakiekolwiek wyzwania lub masz pytania, nie wahaj się zwrócić o pomoc na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ Jeśli napotkasz jakiekolwiek wyzwania lub masz pytania, nie wahaj się zwrócić o pomoc na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
 ## Często zadawane pytania
 

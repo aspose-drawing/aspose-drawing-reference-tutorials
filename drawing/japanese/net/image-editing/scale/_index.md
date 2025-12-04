@@ -104,7 +104,7 @@ A1: はい、Aspose.Drawing は多用途であり、Web やデスクトップな
 
 ### Q3: Aspose.Drawing の追加サポートはどこで見つけられますか?
 
- A3: ご質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44).
+ A3: ご質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17).
 
 ### Q4: Aspose.Drawing でサポートされる画像形式に制限はありますか?
 

@@ -84,7 +84,7 @@ Toutes nos félicitations! Vous avez appris avec succès comment définir la lar
 
 ### Q3 : Où puis-je trouver une assistance supplémentaire ou poser des questions ?
 
- A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour demander de l'aide, partager des expériences et se connecter avec la communauté.
+ A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour demander de l'aide, partager des expériences et se connecter avec la communauté.
 
 ### Q4 : Existe-t-il un essai gratuit ?
 

@@ -67,7 +67,7 @@ Gratulujeme! Úspěšně jste nakreslili uzavřenou křivku pomocí Aspose.Drawi
 
 tomto tutoriálu jsme prošli procesem kreslení uzavřených křivek v Aspose.Drawing for .NET. Pomocí několika jednoduchých kroků můžete zvýšit vizuální přitažlivost svých aplikací .NET.
 
- Pokud máte nějaké dotazy nebo narazíte na problémy, neváhejte požádat o pomoc na[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ Pokud máte nějaké dotazy nebo narazíte na problémy, neváhejte požádat o pomoc na[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ
 
@@ -89,7 +89,7 @@ tomto tutoriálu jsme prošli procesem kreslení uzavřených křivek v Aspose.D
 
 ### Q5: Jaké možnosti podpory jsou k dispozici?
 
- A5: Pokud potřebujete pomoc nebo máte otázky, zamiřte na[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ A5: Pokud potřebujete pomoc nebo máte otázky, zamiřte na[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

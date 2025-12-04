@@ -81,7 +81,7 @@ Gratulálunk! Sikeresen megrajzolt egy téglalapot az Aspose.Drawing for .NET ha
 
 Ebben az oktatóanyagban megvizsgáltuk a téglalapok rajzolásának alapvető lépéseit az Aspose.Drawing for .NET programban. Ez a könyvtár hatékony eszközöket biztosít a grafikus manipulációhoz, így értékes eszköz a .NET-fejlesztők számára.
 
- Ha bármilyen problémába ütközik, vagy kérdése van, forduljon bizalommal segítségért[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44).
+ Ha bármilyen problémába ütközik, vagy kérdése van, forduljon bizalommal segítségért[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17).
 
 ## GYIK
 

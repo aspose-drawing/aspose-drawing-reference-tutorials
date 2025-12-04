@@ -104,7 +104,7 @@ R1 : Oui, Aspose.Drawing est polyvalent et peut être utilisé dans diverses ap
 
 ### Q3 : Où puis-je trouver une assistance supplémentaire pour Aspose.Drawing ?
 
- A3 : Pour toute question ou assistance, visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ A3 : Pour toute question ou assistance, visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
 ### Q4 : Existe-t-il des limitations sur les formats d'image pris en charge par Aspose.Drawing ?
 

@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 В этом уроке мы рассмотрели процесс рисования замкнутых кривых в Aspose.Drawing для .NET. С помощью всего лишь нескольких простых шагов вы можете повысить визуальную привлекательность своих .NET-приложений.
 
- Если у вас есть какие-либо вопросы или возникли проблемы, не стесняйтесь обращаться за помощью по[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44).
+ Если у вас есть какие-либо вопросы или возникли проблемы, не стесняйтесь обращаться за помощью по[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
 
 ## Часто задаваемые вопросы
 
@@ -89,7 +89,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 ### Вопрос 5: Какие варианты поддержки доступны?
 
- О5: Если вам нужна помощь или у вас есть вопросы, зайдите на[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44).
+ О5: Если вам нужна помощь или у вас есть вопросы, зайдите на[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

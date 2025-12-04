@@ -117,7 +117,7 @@ A2: Yes, you can explore Aspose.Drawing with a free trial [here](https://release
 
 ### Q3: How do I get support for Aspose.Drawing for .NET?
 
-A3: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) for community support and discussions.
+A3: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) for community support and discussions.
 
 ### Q4: Can I purchase a temporary license for short-term projects?
 

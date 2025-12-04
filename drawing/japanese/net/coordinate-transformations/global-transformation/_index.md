@@ -98,7 +98,7 @@ A2：もちろんです！複数の変換呼び出しを連鎖させて、複雑
 
 ### Q3: Aspose.Drawing のその他のチュートリアルやサンプルはどこで見つけられますか?
 
- A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)豊富なチュートリアル、例、コミュニティのディスカッションをご覧ください。
+ A3: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)豊富なチュートリアル、例、コミュニティのディスカッションをご覧ください。
 
 ### Q4: Aspose.Drawing に利用できる無料トライアルはありますか?
 

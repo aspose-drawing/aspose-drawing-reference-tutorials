@@ -67,7 +67,7 @@ Selamat! Anda telah berhasil menggambar kurva tertutup menggunakan Aspose.Drawin
 
 Dalam tutorial ini, kita telah mempelajari proses menggambar kurva tertutup di Aspose.Drawing untuk .NET. Hanya dengan beberapa langkah sederhana, Anda dapat meningkatkan daya tarik visual aplikasi .NET Anda.
 
- Jika Anda mempunyai pertanyaan atau mengalami masalah, silakan mencari bantuan di[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44).
+ Jika Anda mempunyai pertanyaan atau mengalami masalah, silakan mencari bantuan di[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ
 
@@ -89,7 +89,7 @@ Dalam tutorial ini, kita telah mempelajari proses menggambar kurva tertutup di A
 
 ### Q5: Opsi dukungan apa yang tersedia?
 
- A5: Jika Anda memerlukan bantuan atau memiliki pertanyaan, kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44).
+ A5: Jika Anda memerlukan bantuan atau memiliki pertanyaan, kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

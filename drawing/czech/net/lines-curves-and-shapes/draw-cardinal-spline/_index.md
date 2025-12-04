@@ -86,7 +86,7 @@ V tomto tutoriálu jsme prozkoumali proces kreslení hlavních splajnů pomocí 
 
 ### Q3: Kde najdu další podporu?
 
- A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) za podporu komunity a diskuze.
+ A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) za podporu komunity a diskuze.
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 

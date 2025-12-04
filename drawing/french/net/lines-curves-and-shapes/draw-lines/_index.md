@@ -100,7 +100,7 @@ A3 : Absolument ! Aspose.Drawing est polyvalent et peut être utilisé à la foi
 
 ### Q4 : Comment puis-je gérer les erreurs lors de l’utilisation d’Aspose.Drawing ?
 
-A4 : Pour gérer les erreurs, vous pouvez implémenter des blocs try-catch et vous référer au forum Aspose.Drawing (https://forum.aspose.com/c/drawing/44) pour le soutien de la communauté.
+A4 : Pour gérer les erreurs, vous pouvez implémenter des blocs try-catch et vous référer au forum Aspose.Drawing (https://forum.aspose.com/c/diagram/17) pour le soutien de la communauté.
 
 ### Q5 : Puis-je utiliser Aspose.Drawing pour un projet commercial ?
 

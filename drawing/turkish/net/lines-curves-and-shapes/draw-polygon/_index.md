@@ -101,7 +101,7 @@ A2: Kesinlikle! Bu eğitimde özetlenen işlemi tekrarlayarak tek bir tuval üze
 
 ### S5: Nereden yardım isteyebilirim veya toplulukla bağlantı kurabilirim?
 
- A5: Herhangi bir sorunuz veya tartışmanız için şu adrese gidin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44) Canlı Aspose topluluğuyla etkileşime geçmek için.
+ A5: Herhangi bir sorunuz veya tartışmanız için şu adrese gidin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17) Canlı Aspose topluluğuyla etkileşime geçmek için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

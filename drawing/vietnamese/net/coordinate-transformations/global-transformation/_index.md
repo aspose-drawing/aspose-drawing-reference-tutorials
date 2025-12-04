@@ -98,7 +98,7 @@ A2: Chắc chắn rồi! Bạn có thể xâu chuỗi nhiều lệnh gọi chuy�
 
 ### Câu hỏi 3: Tôi có thể tìm thêm hướng dẫn và ví dụ về Aspose.drawing ở đâu?
 
- A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để có vô số hướng dẫn, ví dụ và thảo luận cộng đồng.
+ A3: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để có vô số hướng dẫn, ví dụ và thảo luận cộng đồng.
 
 ### Câu hỏi 4: Aspose.drawing có bản dùng thử miễn phí không?
 

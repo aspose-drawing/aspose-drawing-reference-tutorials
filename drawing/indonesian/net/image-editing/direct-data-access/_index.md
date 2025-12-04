@@ -92,7 +92,7 @@ A1: Ya, Aspose.Drawing kompatibel dengan berbagai kerangka .NET, memberikan flek
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Drawing?
 
- A3: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
+ A3: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
 
 ### Q4: Di mana saya dapat menemukan dokumentasi untuk Aspose.Drawing?
 

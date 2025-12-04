@@ -92,7 +92,7 @@ Gratulálunk! Sikeresen felfedezte az Aspose.Drawing for .NET közvetlen adathoz
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing programhoz?
 
- A3: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
+ A3: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
 
 ### 4. kérdés: Hol találom az Aspose.Drawing dokumentációját?
 

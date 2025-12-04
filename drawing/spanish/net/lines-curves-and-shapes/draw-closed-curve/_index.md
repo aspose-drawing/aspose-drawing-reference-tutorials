@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 En este tutorial, recorrimos el proceso de dibujar curvas cerradas en Aspose.Drawing para .NET. Con sólo unos sencillos pasos, puede mejorar el atractivo visual de sus aplicaciones .NET.
 
- Si tiene alguna pregunta o encuentra problemas, no dude en buscar ayuda en el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44).
+ Si tiene alguna pregunta o encuentra problemas, no dude en buscar ayuda en el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17).
 
 ## Preguntas frecuentes
 
@@ -89,7 +89,7 @@ En este tutorial, recorrimos el proceso de dibujar curvas cerradas en Aspose.Dra
 
 ### P5: ¿Qué opciones de soporte están disponibles?
 
- R5: Si necesita ayuda o tiene preguntas, diríjase al[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44).
+ R5: Si necesita ayuda o tiene preguntas, diríjase al[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

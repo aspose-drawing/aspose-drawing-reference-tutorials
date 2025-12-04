@@ -106,7 +106,7 @@ Cevap4: Evet, Aspose.Drawing, metin, şekiller ve daha fazlası için çeşitli 
 
 ### S5: Aspose.Drawing için ek desteği nerede bulabilirim?
 
- Cevap5: Aspose.Drawing forumunu keşfedin[Burada](https://forum.aspose.com/c/drawing/44) topluluk desteği ve tartışmalar için.
+ Cevap5: Aspose.Drawing forumunu keşfedin[Burada](https://forum.aspose.com/c/diagram/17) topluluk desteği ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

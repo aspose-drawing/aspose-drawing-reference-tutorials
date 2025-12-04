@@ -138,7 +138,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Matri
 О: Получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 **В: Где можно получить поддержку или связаться с сообществом?**  
-О: Посетите форум Aspose.Drawing [здесь](https://forum.aspose.com/c/drawing/44).
+О: Посетите форум Aspose.Drawing [здесь](https://forum.aspose.com/c/diagram/17).
 
 **В: Можно ли скачать Aspose.Drawing для .NET?**  
 О: Да, скачайте его по [этой ссылке](https://releases.aspose.com/drawing/net/).

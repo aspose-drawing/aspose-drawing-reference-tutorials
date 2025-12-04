@@ -104,7 +104,7 @@ In deze zelfstudie hebben we het proces van het samenvoegen van paden met pennen
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschap en ondersteuning.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor gemeenschap en ondersteuning.
 
 ### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.Drawing?
 

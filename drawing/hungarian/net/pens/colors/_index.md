@@ -83,7 +83,7 @@ Gratulálunk! Sikeresen készített egy képet színes vonalakkal az Aspose.Draw
 
 Ebben az oktatóanyagban megvizsgáltuk az Aspose.Drawing for .NET színeivel való munka alapjait. Megtanulta, hogyan lehet Bitmap-et létrehozni, vonalakat rajzolni különböző színű tollakkal, és elmenteni a kapott képet. Ez a tudás alapja a .NET-alkalmazások fejlettebb grafikus manipulációjának.
 
- Nyugodtan kísérletezzen különböző színekkel, formákkal és technikákkal grafikus programozási készségeinek fejlesztése érdekében. Ha bármilyen kihívásba ütközik, az Aspose.Drawing[dokumentáció](https://reference.aspose.com/drawing/net/) és[támogatói fórum](https://forum.aspose.com/c/drawing/44) kiváló források.
+ Nyugodtan kísérletezzen különböző színekkel, formákkal és technikákkal grafikus programozási készségeinek fejlesztése érdekében. Ha bármilyen kihívásba ütközik, az Aspose.Drawing[dokumentáció](https://reference.aspose.com/drawing/net/) és[támogatói fórum](https://forum.aspose.com/c/diagram/17) kiváló források.
 
 ## GYIK
 

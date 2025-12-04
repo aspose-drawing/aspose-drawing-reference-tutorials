@@ -104,7 +104,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Q3：如何获得 Aspose.Drawing 的支持？
 
- A3：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44)以获得社区和支持。
+ A3：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)以获得社区和支持。
 
 ### Q4：Aspose.Drawing 是否可以获得临时许可证？
 

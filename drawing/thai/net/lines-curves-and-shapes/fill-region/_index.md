@@ -99,7 +99,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png")
 
 ### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose. Drawing ได้อย่างไร
 
- A3: เยี่ยมชม[Aspose.กระดานสนทนาการวาดภาพ](https://forum.aspose.com/c/drawing/44) เพื่อรับความช่วยเหลือจากชุมชนและผู้เชี่ยวชาญ
+ A3: เยี่ยมชม[Aspose.กระดานสนทนาการวาดภาพ](https://forum.aspose.com/c/diagram/17) เพื่อรับความช่วยเหลือจากชุมชนและผู้เชี่ยวชาญ
 
 ### คำถามที่ 4: ฉันสามารถสร้างภาพไดนามิกโดยใช้ Aspose. Drawing ได้หรือไม่
 

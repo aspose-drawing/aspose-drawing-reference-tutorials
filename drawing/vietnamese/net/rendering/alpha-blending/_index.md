@@ -87,7 +87,7 @@ Trong hướng dẫn này, chúng ta đã khám phá thế giới pha trộn alp
 
 ### Câu 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.drawing?
 
- A3: Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/drawing/44) để hỗ trợ cộng đồng.
+ A3: Truy cập diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/diagram/17) để hỗ trợ cộng đồng.
 
 ### Câu hỏi 4: Có giấy phép tạm thời cho Aspose.drawing không?
 

@@ -99,7 +99,7 @@ Aspose.Drawing for .NET'te bölgeleri doldurmak basit bir işlemdir ve size karm
 
 ### S3: Aspose.Drawing için nasıl destek alabilirim?
 
- A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) toplumdan ve uzmanlardan yardım almak.
+ A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) toplumdan ve uzmanlardan yardım almak.
 
 ### S4: Aspose.Drawing'i kullanarak dinamik görüntüler oluşturabilir miyim?
 

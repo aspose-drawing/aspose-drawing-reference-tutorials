@@ -98,7 +98,7 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Globa
 
 ### Вопрос 3. Где я могу найти дополнительные руководства и примеры для Aspose.Drawing?
 
- A3: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44) за множество руководств, примеров и обсуждений в сообществе.
+ A3: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) за множество руководств, примеров и обсуждений в сообществе.
 
 ### Вопрос 4: Существует ли бесплатная пробная версия Aspose.Drawing?
 

@@ -86,7 +86,7 @@ Dans ce didacticiel, nous avons exploré le processus de dessin de splines cardi
 
 ### Q3 : Où puis-je trouver une assistance supplémentaire ?
 
- A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour le soutien et les discussions de la communauté.
+ A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour le soutien et les discussions de la communauté.
 
 ### Q4 : Existe-t-il un essai gratuit ?
 

@@ -111,7 +111,7 @@ Absoluut! Aspose.Drawing ondersteunt populaire afbeeldingsformaten zoals PNG, JP
 
 ### Hoe krijg ik ondersteuning als ik problemen tegenkom?
 
- Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschapssteun.
+ Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor gemeenschapssteun.
 
 ### Kan ik Aspose.Drawing uitproberen voordat ik een aankoop doe?
 

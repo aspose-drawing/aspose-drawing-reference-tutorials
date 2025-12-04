@@ -137,7 +137,7 @@ A: Dokumentace je dostupná [zde](https://reference.aspose.com/drawing/net/).
 A: Získejte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
 **Q: Kde mohu získat podporu nebo se spojit s komunitou?**  
-A: Navštivte fórum Aspose.Drawing [zde](https://forum.aspose.com/c/drawing/44).
+A: Navštivte fórum Aspose.Drawing [zde](https://forum.aspose.com/c/diagram/17).
 
 **Q: Mohu si stáhnout Aspose.Drawing pro .NET?**  
 A: Ano, stáhněte jej z [tohoto odkazu](https://releases.aspose.com/drawing/net/).

@@ -83,7 +83,7 @@ Glückwunsch! Sie haben mit Aspose.Drawing für .NET erfolgreich ein Bild mit bu
 
 In diesem Tutorial haben wir die Grundlagen der Arbeit mit Farben in Aspose.Drawing für .NET erkundet. Sie haben gelernt, wie Sie eine Bitmap erstellen, Linien mit verschiedenfarbigen Stiften zeichnen und das resultierende Bild speichern. Dieses Wissen ist eine Grundlage für eine erweiterte Grafikbearbeitung in Ihren .NET-Anwendungen.
 
- Experimentieren Sie ruhig mit verschiedenen Farben, Formen und Techniken, um Ihre grafischen Programmierkenntnisse zu verbessern. Wenn Sie auf Herausforderungen stoßen, hilft Ihnen Aspose.Drawing[Dokumentation](https://reference.aspose.com/drawing/net/) Und[Hilfeforum](https://forum.aspose.com/c/drawing/44) sind ausgezeichnete Ressourcen.
+ Experimentieren Sie ruhig mit verschiedenen Farben, Formen und Techniken, um Ihre grafischen Programmierkenntnisse zu verbessern. Wenn Sie auf Herausforderungen stoßen, hilft Ihnen Aspose.Drawing[Dokumentation](https://reference.aspose.com/drawing/net/) Und[Hilfeforum](https://forum.aspose.com/c/diagram/17) sind ausgezeichnete Ressourcen.
 
 ## FAQs
 

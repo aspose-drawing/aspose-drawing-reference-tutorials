@@ -104,7 +104,7 @@ V tomto tutoriálu jsme prozkoumali proces spojování cest pomocí per v Aspose
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing?
 
- A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) za komunitu a podporu.
+ A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) za komunitu a podporu.
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.Drawing?
 

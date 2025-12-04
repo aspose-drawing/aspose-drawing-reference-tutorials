@@ -108,7 +108,7 @@ A4: Ya, Aspose.Drawing mendukung berbagai petunjuk rendering teks untuk memenuhi
 
 ### Q5: Di mana saya dapat mencari bantuan atau berbagi pengalaman saya dengan Aspose.Drawing?
 
- A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44)untuk terlibat dengan komunitas dan mendapatkan dukungan.
+ A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17)untuk terlibat dengan komunitas dan mendapatkan dukungan.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

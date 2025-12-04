@@ -143,7 +143,7 @@ A4: Ya, Anda dapat menggunakan Aspose.Drawing di proyek komersial dan non-komers
 
 ### Q5: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.Drawing?
 
- A5: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
+ A5: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

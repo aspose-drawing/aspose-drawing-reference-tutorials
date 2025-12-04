@@ -101,7 +101,7 @@ Absolutně! Máte plnou kontrolu nad barvou a tloušťkou rámu, což umožňuje
 ### Nabízí Aspose.Drawing bezplatnou zkušební verzi?
  Ano, funkce Aspose.Drawing můžete prozkoumat pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Drawing?
- Navštivte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/drawing/44) získat pomoc a spojit se s komunitou.
+ Navštivte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/diagram/17) získat pomoc a spojit se s komunitou.
 ### Mohu použít Aspose.Drawing pro komerční projekty?
  Ano, můžete si zakoupit licenci[tady](https://purchase.aspose.com/buy) pro komerční využití.
 {{< /blocks/products/pf/tutorial-page-section >}}

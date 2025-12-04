@@ -83,7 +83,7 @@ Tebrikler! Aspose.Drawing for .NET'i kullanarak başarılı bir şekilde renkli 
 
 Bu eğitimde Aspose.Drawing for .NET'te renklerle çalışmanın temellerini inceledik. Bitmap oluşturmayı, farklı renkli kalemlerle çizgiler çizmeyi ve ortaya çıkan görüntüyü kaydetmeyi öğrendiniz. Bu bilgi, .NET uygulamalarınızdaki daha gelişmiş grafik işlemlerinin temelini oluşturur.
 
- Grafik programlama becerilerinizi geliştirmek için farklı renkleri, şekilleri ve teknikleri denemekten çekinmeyin. Herhangi bir zorlukla karşılaşırsanız Aspose.Drawing[dokümantasyon](https://reference.aspose.com/drawing/net/) Ve[destek Forumu](https://forum.aspose.com/c/drawing/44) mükemmel kaynaklardır.
+ Grafik programlama becerilerinizi geliştirmek için farklı renkleri, şekilleri ve teknikleri denemekten çekinmeyin. Herhangi bir zorlukla karşılaşırsanız Aspose.Drawing[dokümantasyon](https://reference.aspose.com/drawing/net/) Ve[destek Forumu](https://forum.aspose.com/c/diagram/17) mükemmel kaynaklardır.
 
 ## SSS'ler
 

@@ -104,7 +104,7 @@ Dalam tutorial ini, kami menjelajahi proses menggabungkan jalur dengan pena di A
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Drawing?
 
- A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) untuk komunitas dan dukungan.
+ A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) untuk komunitas dan dukungan.
 
 ### Q4: Apakah lisensi sementara tersedia untuk Aspose.Drawing?
 

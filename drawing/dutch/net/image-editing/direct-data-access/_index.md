@@ -92,7 +92,7 @@ A1: Ja, Aspose.Drawing is compatibel met verschillende .NET-frameworks en biedt 
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning en discussies.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) voor gemeenschapsondersteuning en discussies.
 
 ### V4: Waar kan ik de documentatie voor Aspose.Drawing vinden?
 

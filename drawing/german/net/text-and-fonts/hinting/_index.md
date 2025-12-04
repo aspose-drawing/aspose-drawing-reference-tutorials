@@ -108,7 +108,7 @@ A4: Ja, Aspose.Drawing unterstützt verschiedene Hinweise zur Textwiedergabe, um
 
 ### F5: Wo kann ich Hilfe suchen oder meine Erfahrungen mit Aspose.Drawing teilen?
 
- A5: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44)um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.
+ A5: Besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17)um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

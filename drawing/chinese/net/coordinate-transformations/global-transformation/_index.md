@@ -98,7 +98,7 @@ A2：当然！您可以链接多个转换调用来实现复杂的视觉效果。
 
 ### Q3：在哪里可以找到更多 Aspose.Drawing 教程和示例？
 
- A3：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44)丰富的教程、示例和社区讨论。
+ A3：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)丰富的教程、示例和社区讨论。
 
 ### Q4：Aspose.Drawing 有免费试用版吗？
 

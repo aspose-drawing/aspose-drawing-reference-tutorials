@@ -67,7 +67,7 @@ Toutes nos félicitations! Vous avez réussi à dessiner une courbe fermée à l
 
 Dans ce didacticiel, nous avons parcouru le processus de dessin de courbes fermées dans Aspose.Drawing pour .NET. En quelques étapes simples, vous pouvez améliorer l'attrait visuel de vos applications .NET.
 
- Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ
 
@@ -89,7 +89,7 @@ Dans ce didacticiel, nous avons parcouru le processus de dessin de courbes ferm�
 
 ### Q5 : Quelles options d'assistance sont disponibles ?
 
- A5 : Si vous avez besoin d'aide ou si vous avez des questions, rendez-vous au[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ A5 : Si vous avez besoin d'aide ou si vous avez des questions, rendez-vous au[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

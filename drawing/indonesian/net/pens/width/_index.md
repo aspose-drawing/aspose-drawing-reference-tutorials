@@ -84,7 +84,7 @@ Selamat! Anda telah berhasil mempelajari cara mengatur lebar pena menggunakan As
 
 ### Q3: Di mana saya dapat menemukan dukungan tambahan atau mengajukan pertanyaan?
 
- A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) untuk mencari bantuan, berbagi pengalaman, dan terhubung dengan komunitas.
+ A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) untuk mencari bantuan, berbagi pengalaman, dan terhubung dengan komunitas.
 
 ### Q4: Apakah tersedia uji coba gratis?
 

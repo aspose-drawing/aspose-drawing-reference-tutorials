@@ -111,7 +111,7 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 
 ### 如果遇到問題，我該如何獲得支援？
 
-參觀[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44)以獲得社區支持。
+參觀[Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17)以獲得社區支持。
 
 ### 購買前我可以試用 Aspose.Drawing 嗎？
 

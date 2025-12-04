@@ -67,7 +67,7 @@ Tebrikler! Aspose.Drawing for .NET'i kullanarak başarıyla kapalı bir eğri ç
 
 Bu eğitimde Aspose.Drawing for .NET'te kapalı eğriler çizme sürecini anlattık. Yalnızca birkaç basit adımla .NET uygulamalarınızın görsel çekiciliğini artırabilirsiniz.
 
- Herhangi bir sorunuz varsa veya sorunla karşılaşırsanız, şu adresten yardım istemekten çekinmeyin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44).
+ Herhangi bir sorunuz varsa veya sorunla karşılaşırsanız, şu adresten yardım istemekten çekinmeyin:[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17).
 
 ## SSS'ler
 
@@ -89,7 +89,7 @@ Bu eğitimde Aspose.Drawing for .NET'te kapalı eğriler çizme sürecini anlatt
 
 ### S5: Hangi destek seçenekleri mevcut?
 
- C5: Yardıma ihtiyacınız varsa veya sorularınız varsa[Aspose.Çizim Forumu](https://forum.aspose.com/c/drawing/44).
+ C5: Yardıma ihtiyacınız varsa veya sorularınız varsa[Aspose.Çizim Forumu](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

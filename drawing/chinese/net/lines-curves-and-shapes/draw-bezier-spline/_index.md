@@ -88,7 +88,7 @@ A2：当然！ Aspose.Drawing 提供了一个用户友好的界面，使初学�
 
 ### Q3：哪里可以找到对 Aspose.Drawing 的支持？
 
- A3：如有任何疑问或帮助，请访问我们的[支持论坛](https://forum.aspose.com/c/drawing/44).
+ A3：如有任何疑问或帮助，请访问我们的[支持论坛](https://forum.aspose.com/c/diagram/17).
 
 ### Q4：有免费试用吗？
 

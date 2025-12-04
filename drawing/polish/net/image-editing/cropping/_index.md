@@ -140,7 +140,7 @@ A4: Z pewnością, Aspose.Drawing wyróżnia się w przetwarzaniu wsadowym, umo�
 
 ### Q5: Jak mogę uzyskać wsparcie w kwestiach związanych z Aspose.Drawing?
 
-A5: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), aby uzyskać pomoc i połączyć się ze społecznością.
+A5: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17), aby uzyskać pomoc i połączyć się ze społecznością.
 
 ---
 

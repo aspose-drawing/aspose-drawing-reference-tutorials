@@ -104,7 +104,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;
 
- A3: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44) για την κοινότητα και την υποστήριξη.
+ A3: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17) για την κοινότητα και την υποστήριξη.
 
 ### Ε4: Διατίθενται προσωρινές άδειες για το Aspose.Drawing;
 

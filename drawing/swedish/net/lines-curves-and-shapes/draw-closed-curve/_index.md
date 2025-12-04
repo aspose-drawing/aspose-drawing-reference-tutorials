@@ -67,7 +67,7 @@ Grattis! Du har framgångsrikt ritat en sluten kurva med Aspose.Drawing för .NE
 
 den här handledningen har vi gått igenom processen att rita slutna kurvor i Aspose.Drawing för .NET. Med bara några enkla steg kan du höja det visuella tilltalandet av dina .NET-applikationer.
 
- Om du har några frågor eller stöter på problem är du välkommen att söka hjälp[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ Om du har några frågor eller stöter på problem är du välkommen att söka hjälp[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ's
 
@@ -89,7 +89,7 @@ den här handledningen har vi gått igenom processen att rita slutna kurvor i As
 
 ### F5: Vilka supportalternativ finns tillgängliga?
 
- S5: Om du behöver hjälp eller har frågor, gå till[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ S5: Om du behöver hjälp eller har frågor, gå till[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -97,7 +97,7 @@ A3：當然！ Aspose.Drawing 是一個功能強大的函式庫，能夠輕鬆�
 
 ### Q4：如果遇到問題，如何獲得支持或尋求協助？
 
- A4：請造訪 Aspose.Drawing 論壇[這裡](https://forum.aspose.com/c/drawing/44)以獲得社區的支持和幫助。
+ A4：請造訪 Aspose.Drawing 論壇[這裡](https://forum.aspose.com/c/diagram/17)以獲得社區的支持和幫助。
 
 ### Q5: 有免費試用嗎？
 

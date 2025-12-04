@@ -97,7 +97,7 @@ A3: Kesinlikle! Aspose.Drawing, karmaşık grafik görevlerini kolaylıkla gerç
 
 ### S4: Sorunlarla karşılaşırsam nasıl destek alabilirim veya yardım isteyebilirim?
 
- Cevap4: Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/drawing/44) Toplumsal destek ve yardım için.
+ Cevap4: Aspose.Drawing forumunu ziyaret edin[Burada](https://forum.aspose.com/c/diagram/17) Toplumsal destek ve yardım için.
 
 ### S5: Ücretsiz deneme sürümü mevcut mu?
 

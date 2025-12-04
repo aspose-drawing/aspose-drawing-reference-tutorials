@@ -107,7 +107,7 @@ A3 : Oui, Aspose.Drawing prend en charge .NET Core, vous permettant de l'utilise
 
 ### Q5 : Existe-t-il un forum communautaire pour le support d'Aspose.Drawing ?
 
- A5 : Oui, vous pouvez trouver de l'aide et discuter des problèmes sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ A5 : Oui, vous pouvez trouver de l'aide et discuter des problèmes sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

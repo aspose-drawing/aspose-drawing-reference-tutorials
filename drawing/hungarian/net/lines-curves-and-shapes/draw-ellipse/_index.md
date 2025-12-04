@@ -97,7 +97,7 @@ A3: Abszolút! Az Aspose.Drawing egy hatékony könyvtár, amely képes könnyed
 
 ### 4. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget, ha problémákba ütközöm?
 
- 4. válasz: Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/drawing/44) közösségi támogatásért és segítségért.
+ 4. válasz: Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/diagram/17) közösségi támogatásért és segítségért.
 
 ### 5. kérdés: Van ingyenes próbaverzió?
 

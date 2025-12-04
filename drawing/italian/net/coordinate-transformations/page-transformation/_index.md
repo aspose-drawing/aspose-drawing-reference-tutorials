@@ -106,7 +106,7 @@ In questo tutorial, abbiamo coperto i passaggi fondamentali per eseguire la tras
 
 ### Q3: Come posso ottenere supporto per Aspose.Drawing?
 
- R3: Per supporto, visitare il[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ R3: Per supporto, visitare il[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ### Q4: È disponibile una licenza temporanea per Aspose.Drawing?
 

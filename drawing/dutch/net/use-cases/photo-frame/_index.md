@@ -101,7 +101,7 @@ Absoluut! Je hebt volledige controle over de kleur en dikte van het frame, waard
 ### Biedt Aspose.Drawing een gratis proefperiode?
  Ja, u kunt de functies van Aspose.Drawing verkennen met een gratis proefversie[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
- Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/drawing/44) om hulp te krijgen en verbinding te maken met de gemeenschap.
+ Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/diagram/17) om hulp te krijgen en verbinding te maken met de gemeenschap.
 ### Kan ik Aspose.Drawing gebruiken voor commerciële projecten?
  Ja, u kunt een licentie kopen[hier](https://purchase.aspose.com/buy) voor commercieel gebruik.
 {{< /blocks/products/pf/tutorial-page-section >}}

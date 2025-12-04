@@ -101,7 +101,7 @@ Absolutamente! Você tem controle total sobre a cor e a espessura da moldura, pe
 ### O Aspose.Drawing oferece um teste gratuito?
  Sim, você pode explorar os recursos do Aspose.Drawing com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).
 ### Como posso obter suporte para Aspose.Drawing?
- Visite o fórum Aspose.Drawing[aqui](https://forum.aspose.com/c/drawing/44) para obter assistência e se conectar com a comunidade.
+ Visite o fórum Aspose.Drawing[aqui](https://forum.aspose.com/c/diagram/17) para obter assistência e se conectar com a comunidade.
 ### Posso usar o Aspose.Drawing para projetos comerciais?
  Sim, você pode comprar uma licença[aqui](https://purchase.aspose.com/buy) para uso comercial.
 {{< /blocks/products/pf/tutorial-page-section >}}

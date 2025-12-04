@@ -101,7 +101,7 @@ Absolut! Sie haben die volle Kontrolle über die Farbe und Dicke des Rahmens und
 ### Bietet Aspose.Drawing eine kostenlose Testversion an?
  Ja, Sie können die Funktionen von Aspose.Drawing mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
 ### Wie kann ich Unterstützung für Aspose.Drawing erhalten?
- Besuchen Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/drawing/44) um Hilfe zu erhalten und mit der Community in Kontakt zu treten.
+ Besuchen Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/diagram/17) um Hilfe zu erhalten und mit der Community in Kontakt zu treten.
 ### Kann ich Aspose.Drawing für kommerzielle Projekte verwenden?
  Ja, Sie können eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy) zur kommerziellen Nutzung.
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -81,7 +81,7 @@ Aspose.드로잉은 .NET에서 이미지 조작 작업을 단순화하여 개발
 ### 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
  네, 다음 사이트를 방문하시면 테스트용 임시 라이센스를 받으실 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/).
 ### Aspose. Drawing에 대한 커뮤니티 지원은 어디에서 찾을 수 있나요?
- 커뮤니티에 참여하고 지원을 받으세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44).
+ 커뮤니티에 참여하고 지원을 받으세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17).
 ### Aspose.드로잉을 시작하려면 어떻게 해야 하나요?
  다음에서 라이브러리를 다운로드하여 시작하세요.[여기](https://releases.aspose.com/drawing/net/) 그리고 포괄적인 탐색[선적 서류 비치](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

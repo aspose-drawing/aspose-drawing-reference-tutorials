@@ -107,7 +107,7 @@ A4: Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk detail dan o
 
 ### Q5: Di mana saya dapat mencari bantuan jika saya mengalami masalah atau memiliki pertanyaan tentang Aspose.Drawing?
 
- A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) mendapatkan dukungan dari masyarakat dan para ahli.
+ A5: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) mendapatkan dukungan dari masyarakat dan para ahli.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

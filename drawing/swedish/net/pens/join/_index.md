@@ -104,7 +104,7 @@ I den här handledningen utforskade vi processen att sammanfoga sökvägar med p
 
 ### F3: Hur kan jag få support för Aspose.Drawing?
 
- A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) för gemenskap och stöd.
+ A3: Besök[Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) för gemenskap och stöd.
 
 ### F4: Finns tillfälliga licenser tillgängliga för Aspose.Drawing?
 

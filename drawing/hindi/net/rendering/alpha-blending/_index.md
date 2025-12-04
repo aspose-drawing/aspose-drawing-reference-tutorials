@@ -87,7 +87,7 @@ bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 
 ### Q3: मैं Aspose.Drawing के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
- A3: Aspose.Drawing फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/drawing/44) सामुदायिक समर्थन के लिए.
+ A3: Aspose.Drawing फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/diagram/17) सामुदायिक समर्थन के लिए.
 
 ### Q4: क्या Aspose.Drawing के लिए अस्थायी लाइसेंस उपलब्ध हैं?
 

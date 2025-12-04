@@ -105,7 +105,7 @@ A3 : Oui, Aspose.Drawing est polyvalent et peut être utilisé pour des applicat
 
 ### Q4 : Comment puis-je obtenir de l'aide ou demander de l'aide avec Aspose.Drawing ?
 
- A4 : Vous pouvez visiter le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour le soutien de la communauté. De plus, vous pouvez envisager d'acheter une licence temporaire ou de contacter le support Aspose pour une assistance plus personnalisée.
+ A4 : Vous pouvez visiter le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour le soutien de la communauté. De plus, vous pouvez envisager d'acheter une licence temporaire ou de contacter le support Aspose pour une assistance plus personnalisée.
 
 ### Q5 : Où puis-je trouver la documentation d'Aspose.Drawing ?
 

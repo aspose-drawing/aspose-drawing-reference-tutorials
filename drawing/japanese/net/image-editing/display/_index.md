@@ -107,7 +107,7 @@ A4: を参照してください。[購入ページ](https://purchase.aspose.com/
 
 ### Q5: Aspose.Drawing に関して問題が発生したり質問がある場合は、どこに助けを求めればよいですか?
 
- A5: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティや専門家からのサポートを得るため。
+ A5: にアクセスしてください。[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17)コミュニティや専門家からのサポートを得るため。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

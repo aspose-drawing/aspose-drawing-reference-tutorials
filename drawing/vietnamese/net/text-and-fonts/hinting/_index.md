@@ -108,7 +108,7 @@ Câu trả lời 4: Có, Aspose.draw hỗ trợ nhiều gợi ý kết xuất v�
 
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc chia sẻ trải nghiệm của mình với Aspose.drawing ở đâu?
 
- A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44)để tương tác với cộng đồng và nhận được sự hỗ trợ.
+ A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17)để tương tác với cộng đồng và nhận được sự hỗ trợ.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

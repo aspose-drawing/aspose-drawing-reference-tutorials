@@ -101,7 +101,7 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 ### Aspose. Drawing은 무료 평가판을 제공합니까?
  예, 무료 평가판을 통해 Aspose. Drawing의 기능을 탐색할 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose. Drawing에 대한 지원은 어떻게 받을 수 있나요?
- Aspose.드로잉 포럼을 방문하세요[여기](https://forum.aspose.com/c/drawing/44) 도움을 받고 지역 사회와 연결됩니다.
+ Aspose.드로잉 포럼을 방문하세요[여기](https://forum.aspose.com/c/diagram/17) 도움을 받고 지역 사회와 연결됩니다.
 ### 상업용 프로젝트에 Aspose. Drawing을 사용할 수 있나요?
  예, 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy) 상업적인 용도로.
 {{< /blocks/products/pf/tutorial-page-section >}}

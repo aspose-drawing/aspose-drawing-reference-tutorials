@@ -97,7 +97,7 @@ A1 : Oui, Aspose.Drawing s'intègre de manière transparente à d'autres bibliot
 
 ### Q3 : Où puis-je trouver de l'aide pour Aspose.Drawing ?
 
- A3 : Visitez Aspose.Drawing[forum](https://forum.aspose.com/c/drawing/44) pour obtenir de l’aide et du soutien communautaire.
+ A3 : Visitez Aspose.Drawing[forum](https://forum.aspose.com/c/diagram/17) pour obtenir de l’aide et du soutien communautaire.
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 

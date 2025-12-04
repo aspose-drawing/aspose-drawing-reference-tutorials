@@ -81,7 +81,7 @@ Toutes nos félicitations! Vous avez réussi à dessiner un rectangle à l'aide 
 
 Dans ce didacticiel, nous avons exploré les étapes fondamentales pour dessiner des rectangles dans Aspose.Drawing for .NET. Cette bibliothèque fournit des outils puissants pour la manipulation graphique, ce qui en fait un atout précieux pour les développeurs .NET.
 
- Si vous rencontrez des difficultés ou avez des questions, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ Si vous rencontrez des difficultés ou avez des questions, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ
 

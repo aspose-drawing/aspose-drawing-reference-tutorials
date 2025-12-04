@@ -106,7 +106,7 @@ Ebben az oktatóanyagban az Aspose.Drawing használatával történő oldalátal
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing programhoz?
 
- A3: Támogatásért keresse fel a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44).
+ A3: Támogatásért keresse fel a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17).
 
 ### 4. kérdés: Rendelkezésre áll az Aspose.Drawing ideiglenes licence?
 

@@ -98,7 +98,7 @@ A2: Tentu saja! Anda dapat merangkai beberapa panggilan transformasi untuk menca
 
 ### Q3: Di mana saya dapat menemukan lebih banyak tutorial dan contoh untuk Aspose.Drawing?
 
- A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/drawing/44) untuk banyak tutorial, contoh, dan diskusi komunitas.
+ A3: Kunjungi[Aspose.Forum menggambar](https://forum.aspose.com/c/diagram/17) untuk banyak tutorial, contoh, dan diskusi komunitas.
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Drawing?
 

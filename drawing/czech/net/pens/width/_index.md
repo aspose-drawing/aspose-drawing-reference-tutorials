@@ -84,7 +84,7 @@ Gratulujeme! Úspěšně jste se naučili, jak nastavit šířku per pomocí Asp
 
 ### Otázka 3: Kde najdu další podporu nebo položím otázky?
 
- A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) hledat pomoc, sdílet zkušenosti a spojit se s komunitou.
+ A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) hledat pomoc, sdílet zkušenosti a spojit se s komunitou.
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 

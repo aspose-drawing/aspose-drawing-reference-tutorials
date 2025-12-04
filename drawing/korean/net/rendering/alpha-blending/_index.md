@@ -87,7 +87,7 @@ bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 
 ### Q3: Aspose. Drawing에 대한 지원은 어떻게 받을 수 있나요?
 
- A3: Aspose.드로잉 포럼을 방문하세요.[여기](https://forum.aspose.com/c/drawing/44) 지역 사회 지원을 위해.
+ A3: Aspose.드로잉 포럼을 방문하세요.[여기](https://forum.aspose.com/c/diagram/17) 지역 사회 지원을 위해.
 
 ### Q4: Aspose. Drawing에 임시 라이선스를 사용할 수 있나요?
 

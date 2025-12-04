@@ -106,7 +106,7 @@ S4: Ja, Aspose.Drawing tillhandahåller en omfattande uppsättning verktyg för 
 
 ### F5: Var kan jag hitta ytterligare stöd för Aspose.Drawing?
 
- S5: Utforska Aspose.Drawing-forumet[här](https://forum.aspose.com/c/drawing/44) för samhällsstöd och diskussioner.
+ S5: Utforska Aspose.Drawing-forumet[här](https://forum.aspose.com/c/diagram/17) för samhällsstöd och diskussioner.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

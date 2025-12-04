@@ -101,7 +101,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png"
 
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع المجتمع؟
 
- ج5: إذا كانت لديك أية استفسارات أو مناقشات، توجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) للتعامل مع مجتمع Aspose النابض بالحياة.
+ ج5: إذا كانت لديك أية استفسارات أو مناقشات، توجه إلى[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) للتعامل مع مجتمع Aspose النابض بالحياة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

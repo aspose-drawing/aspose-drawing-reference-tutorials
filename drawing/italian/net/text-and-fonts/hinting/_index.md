@@ -108,7 +108,7 @@ A4: Sì, Aspose.Drawing supporta vari suggerimenti per il rendering del testo pe
 
 ### Q5: Dove posso cercare aiuto o condividere le mie esperienze con Aspose.Drawing?
 
- A5: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44)per interagire con la comunità e ottenere supporto.
+ A5: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17)per interagire con la comunità e ottenere supporto.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -88,7 +88,7 @@ A2: Absolutnie! Aspose.Drawing zapewnia przyjazny dla użytkownika interfejs, dz
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.Drawing?
 
- A3: W przypadku jakichkolwiek pytań lub pomocy odwiedź naszą stronę[forum wsparcia](https://forum.aspose.com/c/drawing/44).
+ A3: W przypadku jakichkolwiek pytań lub pomocy odwiedź naszą stronę[forum wsparcia](https://forum.aspose.com/c/diagram/17).
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 

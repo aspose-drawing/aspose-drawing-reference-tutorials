@@ -104,7 +104,7 @@ A1：是的，Aspose.Drawing 用途廣泛，可用於各種 .NET 應用程序，
 
 ### Q3：在哪裡可以找到 Aspose.Drawing 的額外支援？
 
- A3：如有任何疑問或幫助，請訪問[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44).
+ A3：如有任何疑問或幫助，請訪問[Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17).
 
 ### Q4：Aspose.Drawing 支援的圖片格式有限制嗎？
 

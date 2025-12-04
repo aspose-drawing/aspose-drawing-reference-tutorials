@@ -108,7 +108,7 @@ A4: Ano, Aspose.Drawing podporuje různé rady pro vykreslování textu, aby vyh
 
 ### Q5: Kde mohu vyhledat pomoc nebo sdílet své zkušenosti s Aspose.Drawing?
 
- A5: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44)zapojit se do komunity a získat podporu.
+ A5: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17)zapojit se do komunity a získat podporu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

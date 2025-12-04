@@ -111,7 +111,7 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
 
- 방문하다[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44) 지역 사회 지원을 위해.
+ 방문하다[Aspose.드로잉 포럼](https://forum.aspose.com/c/diagram/17) 지역 사회 지원을 위해.
 
 ### 구매하기 전에 Aspose. Drawing을 사용해 볼 수 있나요?
 

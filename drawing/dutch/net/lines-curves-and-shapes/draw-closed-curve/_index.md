@@ -67,7 +67,7 @@ Gefeliciteerd! U hebt met succes een gesloten curve getekend met Aspose.Drawing 
 
 In deze zelfstudie hebben we het proces van het tekenen van gesloten curven in Aspose.Drawing voor .NET doorlopen. Met slechts een paar eenvoudige stappen kunt u de visuele aantrekkingskracht van uw .NET-applicaties vergroten.
 
- Als u vragen heeft of problemen ondervindt, kunt u contact opnemen met de helpdesk[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
+ Als u vragen heeft of problemen ondervindt, kunt u contact opnemen met de helpdesk[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
 
 ## Veelgestelde vragen
 
@@ -89,7 +89,7 @@ In deze zelfstudie hebben we het proces van het tekenen van gesloten curven in A
 
 ### Vraag 5: Welke ondersteuningsopties zijn beschikbaar?
 
- A5: Als u hulp nodig heeft of vragen heeft, ga dan naar de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
+ A5: Als u hulp nodig heeft of vragen heeft, ga dan naar de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

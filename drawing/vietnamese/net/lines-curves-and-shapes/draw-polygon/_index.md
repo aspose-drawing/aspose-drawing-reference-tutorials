@@ -101,7 +101,7 @@ A2: Chắc chắn rồi! Bạn có thể vẽ bao nhiêu đa giác tùy thích t
 
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng ở đâu?
 
- Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc thảo luận nào, hãy truy cập[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để tương tác với cộng đồng Aspose sôi động.
+ Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc thảo luận nào, hãy truy cập[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để tương tác với cộng đồng Aspose sôi động.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

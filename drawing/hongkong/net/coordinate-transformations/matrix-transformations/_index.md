@@ -135,7 +135,7 @@ A: 文件說明可於 [here](https://reference.aspose.com/drawing/net/) 取得�
 A: 請於 [here](https://purchase.aspose.com/temporary-license/) 取得暫時授權。
 
 **Q: 哪裡可以取得支援或加入社群？**  
-A: 前往 Aspose.Drawing 論壇 [here](https://forum.aspose.com/c/drawing/44) 交流。
+A: 前往 Aspose.Drawing 論壇 [here](https://forum.aspose.com/c/diagram/17) 交流。
 
 **Q: 可以下載 Aspose.Drawing for .NET 嗎？**  
 A: 可以，請從 [this link](https://releases.aspose.com/drawing/net/) 下載。

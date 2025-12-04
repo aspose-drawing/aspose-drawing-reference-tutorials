@@ -84,7 +84,7 @@ Congratulazioni! Hai imparato con successo come impostare la larghezza delle pen
 
 ### Q3: Dove posso trovare ulteriore supporto o porre domande?
 
- A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per cercare assistenza, condividere esperienze e connettersi con la comunità.
+ A3: Visita il[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) per cercare assistenza, condividere esperienze e connettersi con la comunità.
 
 ### Q4: È disponibile una prova gratuita?
 

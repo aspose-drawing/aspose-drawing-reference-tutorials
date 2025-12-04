@@ -106,7 +106,7 @@ Câu trả lời 4: Có, Aspose. Draw cung cấp một bộ công cụ toàn di�
 
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.drawing ở đâu?
 
- A5: Khám phá diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/drawing/44) để được cộng đồng hỗ trợ và thảo luận.
+ A5: Khám phá diễn đàn Aspose.draw[đây](https://forum.aspose.com/c/diagram/17) để được cộng đồng hỗ trợ và thảo luận.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -93,7 +93,7 @@ A2: Tentu saja! Anda dapat menjelajahi fitur-fiturnya dengan mengunduh versi uji
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Drawing untuk .NET?
 
- A3: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44) untuk dukungan dan diskusi komunitas.
+ A3: Kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/diagram/17) untuk dukungan dan diskusi komunitas.
 
 ### Q4: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Drawing untuk .NET?
 

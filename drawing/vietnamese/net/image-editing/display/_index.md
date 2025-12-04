@@ -107,7 +107,7 @@ A4: Hãy tham khảo[trang mua hàng](https://purchase.aspose.com/buy) để bi�
 
 ### Câu hỏi 5: Tôi có thể tìm trợ giúp ở đâu nếu gặp sự cố hoặc có thắc mắc về Aspose.drawing?
 
- A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia.
+ A5: Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

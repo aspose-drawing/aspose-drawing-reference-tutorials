@@ -107,7 +107,7 @@ A4: Lásd a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyez�
 
 ### 5. kérdés: Hol kérhetek segítséget, ha problémákba ütközöm, vagy kérdéseim vannak az Aspose.Drawing-el kapcsolatban?
 
- A5: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) hogy támogatást kapjon a közösségtől és a szakértőktől.
+ A5: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) hogy támogatást kapjon a közösségtől és a szakértőktől.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -143,7 +143,7 @@ A4: Sim, você pode usar o Aspose.Drawing em projetos comerciais e não comercia
 
 ### P5: Onde posso encontrar suporte da comunidade para Aspose.Drawing?
 
- A5: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para apoio e discussões da comunidade.
+ A5: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para apoio e discussões da comunidade.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

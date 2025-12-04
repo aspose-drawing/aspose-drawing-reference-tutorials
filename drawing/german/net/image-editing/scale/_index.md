@@ -104,7 +104,7 @@ A1: Ja, Aspose.Drawing ist vielseitig und kann in verschiedenen .NET-Anwendungen
 
 ### F3: Wo finde ich zusätzliche Unterstützung für Aspose.Drawing?
 
- A3: Bei Fragen oder Hilfe besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44).
+ A3: Bei Fragen oder Hilfe besuchen Sie die[Aspose.Drawing-Forum](https://forum.aspose.com/c/diagram/17).
 
 ### F4: Gibt es Einschränkungen hinsichtlich der von Aspose.Drawing unterstützten Bildformate?
 

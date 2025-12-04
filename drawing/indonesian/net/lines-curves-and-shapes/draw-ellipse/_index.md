@@ -97,7 +97,7 @@ A3: Tentu saja! Aspose.Drawing adalah perpustakaan canggih yang mampu menangani 
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan jika saya mengalami masalah?
 
- A4: Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/drawing/44) untuk dukungan dan bantuan masyarakat.
+ A4: Kunjungi forum Aspose.Drawing[Di Sini](https://forum.aspose.com/c/diagram/17) untuk dukungan dan bantuan masyarakat.
 
 ### Q5: Apakah tersedia uji coba gratis?
 

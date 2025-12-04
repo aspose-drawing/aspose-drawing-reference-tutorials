@@ -104,7 +104,7 @@ bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
 
 ### В3: Где я могу найти дополнительную поддержку Aspose.Drawing?
 
- A3: По любым вопросам или помощи посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44).
+ A3: По любым вопросам или помощи посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17).
 
 ### Вопрос 4: Существуют ли какие-либо ограничения на форматы изображений, поддерживаемые Aspose.Drawing?
 

@@ -127,7 +127,7 @@ C3: Geçici lisans detayları için [burayı](https://purchase.aspose.com/tempor
 
 ### S4: Uygulama sırasında sorun yaşarsam ya da sorularım olursa ne yapmalıyım?
 
-C4: Aspose.Drawing topluluğundan [Aspose Forum](https://forum.aspose.com/c/drawing/44) üzerinden destek alın.
+C4: Aspose.Drawing topluluğundan [Aspose Forum](https://forum.aspose.com/c/diagram/17) üzerinden destek alın.
 
 ### S5: Aspose.Drawing kütüphanesini nereden satın alabilirim?
 

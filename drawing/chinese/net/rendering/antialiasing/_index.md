@@ -105,7 +105,7 @@ A3：是的，Aspose.Drawing 用途广泛，可用于简单和复杂的图形应
 
 ### Q4：我如何获得 Aspose.Drawing 的支持或寻求帮助？
 
- A4：您可以访问[Aspose.绘图论坛](https://forum.aspose.com/c/drawing/44)以获得社区支持。此外，您可以考虑购买临时许可证或联系 Aspose 支持以获得更个性化的帮助。
+ A4：您可以访问[Aspose.绘图论坛](https://forum.aspose.com/c/diagram/17)以获得社区支持。此外，您可以考虑购买临时许可证或联系 Aspose 支持以获得更个性化的帮助。
 
 ### Q5：哪里可以找到Aspose.Drawing的文档？
 

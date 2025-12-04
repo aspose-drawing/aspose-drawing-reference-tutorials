@@ -106,7 +106,7 @@ I den här handledningen täckte vi de grundläggande stegen för att utföra si
 
 ### F3: Hur kan jag få support för Aspose.Drawing?
 
- S3: För support, besök[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ S3: För support, besök[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ### F4: Finns en tillfällig licens tillgänglig för Aspose.Drawing?
 

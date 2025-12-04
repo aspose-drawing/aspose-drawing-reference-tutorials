@@ -93,7 +93,7 @@ A2: Természetesen! A funkciókat a próbaverzió letöltésével fedezheti fel[
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Drawing for .NET-hez?
 
- A3: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
+ A3: Látogassa meg a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
 
 ### 4. kérdés: Hol találom az Aspose.Drawing for .NET átfogó dokumentációját?
 

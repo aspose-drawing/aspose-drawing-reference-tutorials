@@ -67,7 +67,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 Σε αυτό το σεμινάριο, ακολουθήσαμε τη διαδικασία σχεδίασης κλειστών καμπυλών στο Aspose.Drawing για .NET. Με μερικά απλά βήματα, μπορείτε να αναβαθμίσετε την οπτική ελκυστικότητα των εφαρμογών σας .NET.
 
- Εάν έχετε οποιεσδήποτε ερωτήσεις ή αντιμετωπίζετε προβλήματα, μη διστάσετε να αναζητήσετε βοήθεια σχετικά με το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44).
+ Εάν έχετε οποιεσδήποτε ερωτήσεις ή αντιμετωπίζετε προβλήματα, μη διστάσετε να αναζητήσετε βοήθεια σχετικά με το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17).
 
 ## Συχνές ερωτήσεις
 
@@ -89,7 +89,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 
 ### Ε5: Ποιες επιλογές υποστήριξης είναι διαθέσιμες;
 
- A5: Εάν χρειάζεστε βοήθεια ή έχετε ερωτήσεις, κατευθυνθείτε στο[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44).
+ A5: Εάν χρειάζεστε βοήθεια ή έχετε ερωτήσεις, κατευθυνθείτε στο[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -99,7 +99,7 @@ A2: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
 ### Q3: How can I get support for Aspose.Drawing?
 
-A3: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to get assistance from the community and experts.
+A3: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) to get assistance from the community and experts.
 
 ### Q4: Can I generate dynamic images using Aspose.Drawing?
 

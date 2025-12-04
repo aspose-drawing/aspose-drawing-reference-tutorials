@@ -84,7 +84,7 @@ Gefeliciteerd! U hebt met succes geleerd hoe u de breedte van pennen kunt instel
 
 ### Vraag 3: Waar kan ik aanvullende ondersteuning vinden of vragen stellen?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) om hulp te zoeken, ervaringen uit te wisselen en verbinding te maken met de gemeenschap.
+ A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/diagram/17) om hulp te zoeken, ervaringen uit te wisselen en verbinding te maken met de gemeenschap.
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 

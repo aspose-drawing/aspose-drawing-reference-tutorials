@@ -101,7 +101,7 @@ Teljesen! Teljes mértékben uralhatja a keret színét és vastagságát, ami v
 ### Az Aspose.Drawing ingyenes próbaverziót kínál?
  Igen, az Aspose.Drawing szolgáltatásait ingyenes próbaverzióval fedezheti fel[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Drawing programhoz?
- Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/drawing/44) segítséget kapni és kapcsolatba lépni a közösséggel.
+ Látogassa meg az Aspose.Drawing fórumot[itt](https://forum.aspose.com/c/diagram/17) segítséget kapni és kapcsolatba lépni a közösséggel.
 ### Használhatom az Aspose.Drawinget kereskedelmi projektekhez?
  Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy) kereskedelmi használatra.
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -107,7 +107,7 @@ Cevap3: Evet, Aspose.Drawing, .NET Core'u destekleyerek onu platformlar arası u
 
 ### S5: Aspose.Drawing desteği için bir topluluk forumu var mı?
 
- C5: Evet, destek bulabilir ve sorunları tartışabilirsiniz.[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44).
+ C5: Evet, destek bulabilir ve sorunları tartışabilirsiniz.[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

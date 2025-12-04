@@ -107,7 +107,7 @@ A4: Ανατρέξτε στο[σελίδα αγοράς](https://purchase.aspose
 
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια εάν αντιμετωπίζω προβλήματα ή έχω ερωτήσεις σχετικά με το Aspose.Drawing;
 
- A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44) για να λάβετε υποστήριξη από την κοινότητα και τους ειδικούς.
+ A5: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/diagram/17) για να λάβετε υποστήριξη από την κοινότητα και τους ειδικούς.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -101,7 +101,7 @@ Absolut! Du har full kontroll över färgen och tjockleken på ramen, vilket mö
 ### Erbjuder Aspose.Drawing en gratis provperiod?
  Ja, du kan utforska Aspose.Drawings funktioner med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.Drawing?
- Besök Aspose.Drawing-forumet[här](https://forum.aspose.com/c/drawing/44) för att få hjälp och få kontakt med samhället.
+ Besök Aspose.Drawing-forumet[här](https://forum.aspose.com/c/diagram/17) för att få hjälp och få kontakt med samhället.
 ### Kan jag använda Aspose.Drawing för kommersiella projekt?
  Ja, du kan köpa en licens[här](https://purchase.aspose.com/buy) för kommersiellt bruk.
 {{< /blocks/products/pf/tutorial-page-section >}}

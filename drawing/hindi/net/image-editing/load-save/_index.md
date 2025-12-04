@@ -126,7 +126,7 @@ A3: अस्थायी लाइसेंस विवरण के लिए
 
 ### प्रश्न 4: कार्यान्वयन के दौरान यदि समस्याएँ आती हैं या प्रश्न हों तो क्या करें?
 
-A4: Aspose.Drawing समुदाय से सहायता प्राप्त करें [Aspose Forum](https://forum.aspose.com/c/drawing/44) पर।
+A4: Aspose.Drawing समुदाय से सहायता प्राप्त करें [Aspose Forum](https://forum.aspose.com/c/diagram/17) पर।
 
 ### प्रश्न 5: Aspose.Drawing लाइब्रेरी कहाँ खरीद सकते हैं?
 

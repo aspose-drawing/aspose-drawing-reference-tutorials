@@ -84,7 +84,7 @@ Tebrikler! Aspose.Drawing for .NET'i kullanarak kalemlerin genişliğini nasıl 
 
 ### S3: Nerede ek destek bulabilirim veya soru sorabilirim?
 
- A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) yardım istemek, deneyimleri paylaşmak ve toplulukla bağlantı kurmak.
+ A3: Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17) yardım istemek, deneyimleri paylaşmak ve toplulukla bağlantı kurmak.
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 

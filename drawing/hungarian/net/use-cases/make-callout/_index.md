@@ -111,7 +111,7 @@ Teljesen! Az Aspose.Drawing olyan népszerű képformátumokat támogat, mint a 
 
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?
 
- Meglátogatni a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásért.
+ Meglátogatni a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásért.
 
 ### Vásárlás előtt kipróbálhatom az Aspose.Drawing programot?
 

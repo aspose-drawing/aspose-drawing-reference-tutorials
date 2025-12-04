@@ -107,7 +107,7 @@ A4：请参阅[购买页面](https://purchase.aspose.com/buy)了解许可详细�
 
 ### Q5：如果我遇到问题或对 Aspose.Drawing 有疑问，可以在哪里寻求帮助？
 
- A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44)以获得社区和专家的支持。
+ A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)以获得社区和专家的支持。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

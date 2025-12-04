@@ -104,7 +104,7 @@ Cevap1: Evet, Aspose.Drawing çok yönlüdür ve web ve masaüstü dahil çeşit
 
 ### S3: Aspose.Drawing için ek desteği nerede bulabilirim?
 
- A3: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44).
+ A3: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.Çizim forumu](https://forum.aspose.com/c/diagram/17).
 
 ### S4: Aspose.Drawing'in desteklediği resim formatlarında herhangi bir sınırlama var mı?
 

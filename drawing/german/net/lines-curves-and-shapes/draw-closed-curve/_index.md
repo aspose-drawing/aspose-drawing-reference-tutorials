@@ -67,7 +67,7 @@ Glückwunsch! Sie haben mit Aspose.Drawing für .NET erfolgreich eine geschlosse
 
 In diesem Tutorial haben wir den Prozess des Zeichnens geschlossener Kurven in Aspose.Drawing für .NET durchlaufen. Mit nur wenigen einfachen Schritten können Sie die visuelle Attraktivität Ihrer .NET-Anwendungen steigern.
 
- Wenn Sie Fragen haben oder auf Probleme stoßen, wenden Sie sich bitte an die[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ Wenn Sie Fragen haben oder auf Probleme stoßen, wenden Sie sich bitte an die[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ## FAQs
 
@@ -89,7 +89,7 @@ In diesem Tutorial haben wir den Prozess des Zeichnens geschlossener Kurven in A
 
 ### F5: Welche Supportoptionen stehen zur Verfügung?
 
- A5: Wenn Sie Hilfe benötigen oder Fragen haben, gehen Sie zu[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+ A5: Wenn Sie Hilfe benötigen oder Fragen haben, gehen Sie zu[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -83,7 +83,7 @@ Gratulujeme! Úspěšně jste vytvořili obrázek s barevnými čarami pomocí A
 
 V tomto tutoriálu jsme prozkoumali základy práce s barvami v Aspose.Drawing pro .NET. Naučili jste se, jak vytvořit bitmapu, kreslit čáry různými barevnými pery a uložit výsledný obrázek. Tyto znalosti jsou základem pro pokročilejší manipulaci s grafikou ve vašich aplikacích .NET.
 
- Nebojte se experimentovat s různými barvami, tvary a technikami, abyste zlepšili své dovednosti grafického programování. Pokud narazíte na nějaké problémy, Aspose.Drawing[dokumentace](https://reference.aspose.com/drawing/net/) a[Fórum podpory](https://forum.aspose.com/c/drawing/44) jsou skvělé zdroje.
+ Nebojte se experimentovat s různými barvami, tvary a technikami, abyste zlepšili své dovednosti grafického programování. Pokud narazíte na nějaké problémy, Aspose.Drawing[dokumentace](https://reference.aspose.com/drawing/net/) a[Fórum podpory](https://forum.aspose.com/c/diagram/17) jsou skvělé zdroje.
 
 ## FAQ
 

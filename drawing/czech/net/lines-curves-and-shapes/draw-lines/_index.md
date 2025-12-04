@@ -100,7 +100,7 @@ A3: Rozhodně! Aspose.Drawing je univerzální a lze jej použít v desktopovýc
 
 ### Q4: Jak mohu zpracovat chyby při používání Aspose.Drawing?
 
-A4: Chcete-li ošetřit chyby, můžete implementovat bloky try-catch a odkazovat na fórum Aspose.Drawing (https://forum.aspose.com/c/drawing/44) za podporu komunity.
+A4: Chcete-li ošetřit chyby, můžete implementovat bloky try-catch a odkazovat na fórum Aspose.Drawing (https://forum.aspose.com/c/diagram/17) za podporu komunity.
 
 ### Q5: Mohu použít Aspose.Drawing pro komerční projekt?
 

@@ -125,7 +125,7 @@ A3: 前往 [here](https://purchase.aspose.com/temporary-license/) 获取临时�
 
 ### 问题 4：如果在实现过程中遇到问题或有疑问怎么办？
 
-A4: 可在 Aspose.Drawing 社区的 [Aspose Forum](https://forum.aspose.com/c/drawing/44) 寻求帮助。
+A4: 可在 Aspose.Drawing 社区的 [Aspose Forum](https://forum.aspose.com/c/diagram/17) 寻求帮助。
 
 ### 问题 5：在哪里可以购买 Aspose.Drawing 库？
 

@@ -107,7 +107,7 @@ A3: Вы можете управлять масштабированием изо
 
 ### Вопрос 5. Куда я могу обратиться за помощью, если у меня возникнут проблемы или возникнут вопросы по Aspose.Drawing?
 
- A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/drawing/44) получить поддержку сообщества и экспертов.
+ A5: Посетите[Форум Aspose.Рисование](https://forum.aspose.com/c/diagram/17) получить поддержку сообщества и экспертов.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

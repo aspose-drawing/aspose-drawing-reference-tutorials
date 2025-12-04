@@ -67,7 +67,7 @@ Gratulálunk! Sikeresen megrajzolt egy zárt görbét az Aspose.Drawing for .NET
 
 Ebben az oktatóanyagban végigjártuk a zárt görbék rajzolásának folyamatát az Aspose.Drawing for .NET-ben. Néhány egyszerű lépéssel növelheti .NET-alkalmazásainak vizuális vonzerejét.
 
- Ha bármilyen kérdése van, vagy problémába ütközik, forduljon bizalommal segítségért[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44).
+ Ha bármilyen kérdése van, vagy problémába ütközik, forduljon bizalommal segítségért[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17).
 
 ## GYIK
 
@@ -89,7 +89,7 @@ Ebben az oktatóanyagban végigjártuk a zárt görbék rajzolásának folyamat�
 
 ### 5. kérdés: Milyen támogatási lehetőségek állnak rendelkezésre?
 
- V5: Ha segítségre van szüksége, vagy kérdése van, keresse fel a[Aspose.Rajzfórum](https://forum.aspose.com/c/drawing/44).
+ V5: Ha segítségre van szüksége, vagy kérdése van, keresse fel a[Aspose.Rajzfórum](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -97,7 +97,7 @@ A3: Absoluut! Aspose.Drawing is een krachtige bibliotheek die ingewikkelde grafi
 
 ### Vraag 4: Hoe kan ik ondersteuning krijgen of hulp zoeken als ik problemen tegenkom?
 
- A4: Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/drawing/44) voor steun en hulp van de gemeenschap.
+ A4: Bezoek het Aspose.Drawing-forum[hier](https://forum.aspose.com/c/diagram/17) voor steun en hulp van de gemeenschap.
 
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 

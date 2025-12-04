@@ -88,7 +88,7 @@ A2: Absolut! Aspose.Drawing tillhandahåller ett användarvänligt gränssnitt, 
 
 ### F3: Var kan jag hitta support för Aspose.Drawing?
 
- S3: För eventuella frågor eller hjälp, besök vår[supportforum](https://forum.aspose.com/c/drawing/44).
+ S3: För eventuella frågor eller hjälp, besök vår[supportforum](https://forum.aspose.com/c/diagram/17).
 
 ### F4: Finns det en gratis provperiod?
 

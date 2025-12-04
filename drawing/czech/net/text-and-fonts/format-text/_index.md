@@ -106,7 +106,7 @@ Odpověď 4: Ano, Aspose.Drawing poskytuje komplexní sadu nástrojů pro grafic
 
 ### Q5: Kde najdu další podporu pro Aspose.Drawing?
 
- A5: Prozkoumejte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/drawing/44) za podporu komunity a diskuze.
+ A5: Prozkoumejte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/diagram/17) za podporu komunity a diskuze.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

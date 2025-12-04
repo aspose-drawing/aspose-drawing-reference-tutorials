@@ -106,7 +106,7 @@ Dans ce didacticiel, nous avons couvert les étapes fondamentales pour effectuer
 
 ### Q3 : Comment puis-je obtenir de l'aide pour Aspose.Drawing ?
 
- A3 : Pour obtenir de l'aide, visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+ A3 : Pour obtenir de l'aide, visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17).
 
 ### Q4 : Une licence temporaire est-elle disponible pour Aspose.Drawing ?
 

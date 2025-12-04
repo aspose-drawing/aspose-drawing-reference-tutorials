@@ -107,7 +107,7 @@ A1: نعم، يمكنك تحديد الخطوط المخصصة عند إنشاء
 
 ### س5: هل يوجد منتدى مجتمعي لدعم Aspose.Drawing؟
 
- ج5: نعم، يمكنك العثور على الدعم ومناقشة القضايا على[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44).
+ ج5: نعم، يمكنك العثور على الدعم ومناقشة القضايا على[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

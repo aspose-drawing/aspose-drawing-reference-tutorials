@@ -108,7 +108,7 @@ A4: Yes, Aspose.Drawing supports various text rendering hints to cater to differ
 
 ### Q5: Where can I seek help or share my experiences with Aspose.Drawing?
 
-A5: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to engage with the community and get support.
+A5: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/diagram/17) to engage with the community and get support.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,7 +97,7 @@ R1: Sí, Aspose.Drawing se integra perfectamente con otras bibliotecas .NET, bri
 
 ### P3: ¿Dónde puedo encontrar soporte para Aspose.Drawing?
 
- A3: Visite el dibujo Aspose.[foro](https://forum.aspose.com/c/drawing/44) para asistencia y apoyo comunitario.
+ A3: Visite el dibujo Aspose.[foro](https://forum.aspose.com/c/diagram/17) para asistencia y apoyo comunitario.
 
 ### P4: ¿Cómo obtengo una licencia temporal?
 

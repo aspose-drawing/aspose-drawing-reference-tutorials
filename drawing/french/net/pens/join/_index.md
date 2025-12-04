@@ -104,7 +104,7 @@ Dans ce didacticiel, nous avons exploré le processus de jonction de chemins ave
 
 ### Q3 : Comment puis-je obtenir de l'aide pour Aspose.Drawing ?
 
- A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour la communauté et le soutien.
+ A3 : Visitez le[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) pour la communauté et le soutien.
 
 ### Q4 : Des licences temporaires sont-elles disponibles pour Aspose.Drawing ?
 

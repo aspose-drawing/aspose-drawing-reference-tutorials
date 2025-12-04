@@ -101,7 +101,7 @@ A2: Certamente! Você pode desenhar quantos polígonos forem necessários em uma
 
 ### P5: Onde posso procurar ajuda ou me conectar com a comunidade?
 
- A5: Para qualquer dúvida ou discussão, vá para o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para se envolver com a vibrante comunidade Aspose.
+ A5: Para qualquer dúvida ou discussão, vá para o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para se envolver com a vibrante comunidade Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

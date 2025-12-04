@@ -90,7 +90,7 @@ A3: Abszolút. Az Aspose.Drawing grafikus elemek széles skáláját támogatja,
 
 ### 5. kérdés: Hol találhatok további támogatást vagy közösségi megbeszéléseket?
 
- A5: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44) közösségi támogatásra és beszélgetésekre.
+ A5: Látogassa meg a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17) közösségi támogatásra és beszélgetésekre.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

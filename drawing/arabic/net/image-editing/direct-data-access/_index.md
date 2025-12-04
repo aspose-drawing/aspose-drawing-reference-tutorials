@@ -92,7 +92,7 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 ### س3: كيف يمكنني الحصول على الدعم لـ Aspose.Drawing؟
 
- ج3: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) لدعم المجتمع والمناقشات.
+ ج3: قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/diagram/17) لدعم المجتمع والمناقشات.
 
 ### س4: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Drawing؟
 

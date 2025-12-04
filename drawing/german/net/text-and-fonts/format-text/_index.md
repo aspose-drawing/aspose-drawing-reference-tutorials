@@ -106,7 +106,7 @@ A4: Ja, Aspose.Drawing bietet einen umfassenden Satz an Werkzeugen zur grafische
 
 ### F5: Wo finde ich zusätzliche Unterstützung für Aspose.Drawing?
 
- A5: Entdecken Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/drawing/44) für Community-Unterstützung und Diskussionen.
+ A5: Entdecken Sie das Aspose.Drawing-Forum[Hier](https://forum.aspose.com/c/diagram/17) für Community-Unterstützung und Diskussionen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

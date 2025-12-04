@@ -90,7 +90,7 @@ A4：是的，Aspose.Drawing 與其他 .NET 函式庫無縫集成，為您的開
 
 ### 問題 5：我可以在哪裡找到其他支持或社區討論？
 
- A5：訪問[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44)以獲得社區支持和討論。
+ A5：訪問[Aspose.Drawing 論壇](https://forum.aspose.com/c/diagram/17)以獲得社區支持和討論。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

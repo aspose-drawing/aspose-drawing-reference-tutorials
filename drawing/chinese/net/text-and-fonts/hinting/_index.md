@@ -108,7 +108,7 @@ A4：是的，Aspose.Drawing支持各种文本渲染提示，以满足不同的�
 
 ### Q5：我可以在哪里寻求帮助或分享我使用 Aspose.Drawing 的经验？
 
- A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44)与社区互动并获得支持。
+ A5：访问[Aspose.Drawing 论坛](https://forum.aspose.com/c/diagram/17)与社区互动并获得支持。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

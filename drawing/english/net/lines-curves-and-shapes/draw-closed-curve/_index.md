@@ -67,7 +67,7 @@ Congratulations! You've successfully drawn a closed curve using Aspose.Drawing f
 
 In this tutorial, we've walked through the process of drawing closed curves in Aspose.Drawing for .NET. With just a few simple steps, you can elevate the visual appeal of your .NET applications.
 
-If you have any questions or encounter issues, feel free to seek assistance on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+If you have any questions or encounter issues, feel free to seek assistance on the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 ## FAQ's
 
@@ -89,7 +89,7 @@ A4: The comprehensive documentation is available [here](https://reference.aspose
 
 ### Q5: What support options are available?
 
-A5: If you need assistance or have questions, head to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
+A5: If you need assistance or have questions, head to the [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -152,7 +152,7 @@ A4: Faktiskt, Aspose.Drawing utmärker sig i batch‑behandling, vilket möjligg
 
 ### Q5: Hur kan jag få support för frågor relaterade till Aspose.Drawing?
 
-A5: Gå till [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) för att söka hjälp och ansluta till communityn.
+A5: Gå till [Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) för att söka hjälp och ansluta till communityn.
 
 ---
 

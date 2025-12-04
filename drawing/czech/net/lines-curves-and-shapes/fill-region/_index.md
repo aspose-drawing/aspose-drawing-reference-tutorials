@@ -99,7 +99,7 @@ Vyplňování oblastí v Aspose.Drawing for .NET je přímočarý proces, který
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing?
 
- A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) získat pomoc od komunity a odborníků.
+ A3: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) získat pomoc od komunity a odborníků.
 
 ### Q4: Mohu generovat dynamické obrázky pomocí Aspose.Drawing?
 

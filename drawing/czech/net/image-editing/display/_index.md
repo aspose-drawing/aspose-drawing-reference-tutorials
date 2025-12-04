@@ -107,7 +107,7 @@ A4: Viz[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti a m
 
 ### Q5: Kde mohu vyhledat pomoc, pokud narazím na problémy nebo mám dotazy ohledně Aspose.Drawing?
 
- A5: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/drawing/44) získat podporu od komunity a odborníků.
+ A5: Navštivte[Aspose. Kreslící fórum](https://forum.aspose.com/c/diagram/17) získat podporu od komunity a odborníků.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

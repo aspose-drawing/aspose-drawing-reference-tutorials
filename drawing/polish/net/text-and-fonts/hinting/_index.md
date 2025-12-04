@@ -108,7 +108,7 @@ O4: Tak, Aspose.Drawing obsługuje różne wskazówki dotyczące renderowania te
 
 ### P5: Gdzie mogę szukać pomocy lub podzielić się swoimi doświadczeniami z Aspose.Drawing?
 
- A5: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44)nawiązać kontakt ze społecznością i uzyskać wsparcie.
+ A5: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17)nawiązać kontakt ze społecznością i uzyskać wsparcie.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

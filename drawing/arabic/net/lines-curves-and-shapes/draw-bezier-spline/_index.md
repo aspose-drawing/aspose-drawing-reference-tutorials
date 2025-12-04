@@ -88,7 +88,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawBezierSpline_out
 
 ### س3: أين يمكنني العثور على الدعم لـ Aspose.Drawing؟
 
- ج3: لأية استفسارات أو مساعدة، قم بزيارة موقعنا[منتدى الدعم](https://forum.aspose.com/c/drawing/44).
+ ج3: لأية استفسارات أو مساعدة، قم بزيارة موقعنا[منتدى الدعم](https://forum.aspose.com/c/diagram/17).
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 

@@ -104,7 +104,7 @@ Nyugodtan kísérletezzen tovább, és fedezze fel az Aspose.Drawing által bizt
 
 ### 3. kérdés: Hol találok további támogatást az Aspose.Drawing programhoz?
 
- 3. válasz: Ha kérdése vagy segítsége van, keresse fel a[Aspose.Rajz fórum](https://forum.aspose.com/c/drawing/44).
+ 3. válasz: Ha kérdése vagy segítsége van, keresse fel a[Aspose.Rajz fórum](https://forum.aspose.com/c/diagram/17).
 
 ### 4. kérdés: Vannak-e korlátozások az Aspose.Drawing által támogatott képformátumokra vonatkozóan?
 

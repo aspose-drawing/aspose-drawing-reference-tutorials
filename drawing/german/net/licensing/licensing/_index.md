@@ -143,7 +143,7 @@ A4: Ja, Sie können Aspose.Drawing mit der entsprechenden Lizenz sowohl in komme
 
 ### F5: Wo finde ich Community-Unterstützung für Aspose.Drawing?
 
- A5: Besuchen Sie die[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) für Community-Unterstützung und Diskussionen.
+ A5: Besuchen Sie die[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) für Community-Unterstützung und Diskussionen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -104,7 +104,7 @@ W tym samouczku zbadaliśmy proces łączenia ścieżek za pomocą pisaków w As
 
 ### P3: Jak mogę uzyskać pomoc dotyczącą Aspose.Drawing?
 
- A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) za społeczność i wsparcie.
+ A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) za społeczność i wsparcie.
 
 ### P4: Czy dostępne są licencje tymczasowe dla Aspose.Drawing?
 

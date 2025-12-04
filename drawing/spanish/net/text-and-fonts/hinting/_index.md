@@ -108,7 +108,7 @@ R4: Sí, Aspose.Drawing admite varias sugerencias de representación de texto pa
 
 ### P5: ¿Dónde puedo buscar ayuda o compartir mis experiencias con Aspose.Drawing?
 
- A5: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/drawing/44)para interactuar con la comunidad y obtener apoyo.
+ A5: Visita el[Aspose.Foro de dibujo](https://forum.aspose.com/c/diagram/17)para interactuar con la comunidad y obtener apoyo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

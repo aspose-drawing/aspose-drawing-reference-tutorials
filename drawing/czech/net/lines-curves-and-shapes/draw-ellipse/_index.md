@@ -97,7 +97,7 @@ A3: Rozhodně! Aspose.Drawing je výkonná knihovna schopná snadno zvládnout s
 
 ### Q4: Jak mohu získat podporu nebo vyhledat pomoc, pokud narazím na problémy?
 
- A4: Navštivte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/drawing/44) za podporu a pomoc komunity.
+ A4: Navštivte fórum Aspose.Drawing[tady](https://forum.aspose.com/c/diagram/17) za podporu a pomoc komunity.
 
 ### Q5: Je k dispozici bezplatná zkušební verze?
 

@@ -67,7 +67,7 @@ Chúc mừng! Bạn đã vẽ thành công một đường cong khép kín bằn
 
 Trong hướng dẫn này, chúng ta đã tìm hiểu quy trình vẽ các đường cong khép kín trong Aspose.draw cho .NET. Chỉ với một vài bước đơn giản, bạn có thể nâng cao vẻ hấp dẫn trực quan cho các ứng dụng .NET của mình.
 
- Nếu bạn có bất kỳ câu hỏi hoặc gặp phải vấn đề nào, vui lòng tìm kiếm sự trợ giúp trên[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
+ Nếu bạn có bất kỳ câu hỏi hoặc gặp phải vấn đề nào, vui lòng tìm kiếm sự trợ giúp trên[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
 
 ## Câu hỏi thường gặp
 
@@ -89,7 +89,7 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu quy trình vẽ các đư�
 
 ### Câu hỏi 5: Có những lựa chọn hỗ trợ nào?
 
- Câu trả lời 5: Nếu bạn cần hỗ trợ hoặc có thắc mắc, hãy đến[Diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
+ Câu trả lời 5: Nếu bạn cần hỗ trợ hoặc có thắc mắc, hãy đến[Diễn đàn Aspose.draw](https://forum.aspose.com/c/diagram/17).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

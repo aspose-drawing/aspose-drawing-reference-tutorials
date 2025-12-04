@@ -92,7 +92,7 @@ Odpověď 1: Ano, Aspose.Drawing je kompatibilní s různými frameworky .NET a 
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing?
 
- A3: Navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) za podporu komunity a diskuze.
+ A3: Navštivte[Aspose.Drawing Forum](https://forum.aspose.com/c/diagram/17) za podporu komunity a diskuze.
 
 ### Q4: Kde najdu dokumentaci k Aspose.Drawing?
 

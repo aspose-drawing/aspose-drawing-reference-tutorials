@@ -81,7 +81,7 @@ Aspose.Drawing は、JPEG、PNG、GIF などの一般的な画像形式を含む
 ### 一時ライセンスはテスト目的で利用できますか?
 はい。次のサイトにアクセスして、テスト用の一時ライセンスを取得できます。[仮免許](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Drawing のコミュニティ サポートはどこで見つけられますか?
-コミュニティに参加してサポートを受けましょう[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44).
+コミュニティに参加してサポートを受けましょう[Aspose.Drawing フォーラム](https://forum.aspose.com/c/diagram/17).
 ### Aspose.Drawing を使い始めるにはどうすればよいですか?
 まずはライブラリをダウンロードしてください[ここ](https://releases.aspose.com/drawing/net/)包括的なものを探求します[ドキュメンテーション](https://reference.aspose.com/drawing/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}

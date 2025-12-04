@@ -87,7 +87,7 @@ bitmap.Save("Your Document Directory" + @"Rendering\AlphaBlending_out.png");
 
 ### Q3：如何獲得 Aspose.Drawing 的支援？
 
- A3：請造訪 Aspose.Drawing 論壇[這裡](https://forum.aspose.com/c/drawing/44)以獲得社區支持。
+ A3：請造訪 Aspose.Drawing 論壇[這裡](https://forum.aspose.com/c/diagram/17)以獲得社區支持。
 
 ### Q4：Aspose.Drawing 是否可以獲得臨時授權？
 

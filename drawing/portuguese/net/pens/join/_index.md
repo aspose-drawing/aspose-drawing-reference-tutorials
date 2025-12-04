@@ -104,7 +104,7 @@ Neste tutorial, exploramos o processo de união de caminhos com canetas no Aspos
 
 ### Q3: Como posso obter suporte para Aspose.Drawing?
 
- A3: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para comunidade e apoio.
+ A3: Visite o[Fórum Aspose.Drawing](https://forum.aspose.com/c/diagram/17) para comunidade e apoio.
 
 ### Q4: As licenças temporárias estão disponíveis para Aspose.Drawing?
 
