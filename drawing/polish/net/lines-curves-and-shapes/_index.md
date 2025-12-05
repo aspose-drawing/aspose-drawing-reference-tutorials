@@ -1,83 +1,141 @@
 ---
-title: Linie, krzywe i kształty
-linktitle: Linie, krzywe i kształty
-second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
-description: Uwolnij magię .NET Aspose.Drawing! Przeglądaj samouczki dotyczące linii, krzywych i kształtów, aby uzyskać żywą grafikę — opanuj pełne pędzle, łuki, splajny, elipsy i wiele więcej.
+date: 2025-12-05
+description: Dowiedz się, jak rysować łuki i inne kształty za pomocą Aspose.Drawing
+  dla .NET. Opanuj pędzle stałe, rysuj krzywe Béziera, elipsy i wiele więcej w żywych
+  samouczkach grafiki.
+language: pl
+linktitle: How to Draw Arcs and Other Shapes
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Jak rysować łuki i inne kształty przy użyciu Aspose.Drawing dla .NET
+url: /net/lines-curves-and-shapes/
 weight: 23
-url: /pl/net/lines-curves-and-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Linie, krzywe i kształty
+# Jak rysować łuki i inne kształty przy użyciu Aspose.Drawing dla .NET
 
+## Wprowadzenie
 
-## Wstęp
+W tym obszernym przewodniku odkryjesz **jak rysować łuki** oraz pełen zestaw linii, krzywych i kształtów przy użyciu biblioteki Aspose.Drawing dla .NET. Niezależnie od tego, czy tworzysz komponent wykresów, własny element UI, czy bogaty raport graficzny, opanowanie tych prymitywów rysunkowych daje Ci kontrolę piksel‑po‑piksel nad każdym elementem wizualnym. Przejdziemy przez pędzle stałe, łuki, splajny Beziera, splajny kardynalne, zamknięte krzywe, elipsy, linie, ścieżki, wielokąty, prostokąty i wypełnianie regionów — abyś mógł tworzyć żywe, gotowe do produkcji grafiki w kilka minut.
 
-Odkryj magię Aspose.Drawing dla .NET dzięki naszej obszernej serii samouczków na temat linii, krzywych i kształtów. Podnieś swoje umiejętności projektowania graficznego, zagłębiając się w zawiłości tworzenia urzekających efektów wizualnych.
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do rysowania?** `Graphics` z Aspose.Drawing zapewnia płótno dla wszystkich operacji rysunkowych.  
+- **Jak rysować łuki?** Użyj `Graphics.DrawArc` z `Pen` i `RectangleF`, które definiuje otaczającą elipsę.  
+- **Czy potrzebna jest licencja?** Darmowa licencja ewaluacyjna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Jakie wersje .NET są wspierane?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Czy mogę wypełniać kształty gradientami?** Tak — użyj `LinearGradientBrush` lub `PathGradientBrush` do zaawansowanego wypełniania.
 
-## Solidne pędzle w Aspose.Drawing
-Opanuj sztukę używania solidnych pędzli w Aspose.Drawing dla .NET. Nasz przewodnik krok po kroku odkryje sekrety łatwego wprowadzania żywych kolorów do grafiki. Odkryj magię kolorów i ożyw swoje projekty.
+## Co oznacza „jak rysować łuki” w Aspose.Drawing?
+Rysowanie łuku oznacza renderowanie odcinka elipsy lub koła pomiędzy dwoma kątami. W Aspose.Drawing określasz kąt początkowy, kąt przebycia oraz prostokąt, który ogranicza pełną elipsę. Daje to precyzyjną kontrolę nad krzywizną, grubością i stylem (stały, przerywany itp.).
 
-## Rysowanie łuków w Aspose.Drawing
-Uwolnij kreatywność w rysowaniu łuków za pomocą Aspose.Drawing w aplikacjach .NET. Nasz szczegółowy samouczek poprowadzi Cię przez każdy krok, pomagając w tworzeniu oszałamiających wizualnie łuków, które zachwycą odbiorców. Podnieś poziom swojej gry projektowej dzięki mocy łuków.
+## Dlaczego warto używać Aspose.Drawing do łuków i innych kształtów?
+- **Spójność międzyplatformowa** – Działa tak samo na Windows, Linux i macOS.  
+- **Brak zależności od System.Drawing** – Idealne dla nowoczesnych projektów .NET Core/5+.  
+- **Bogate opcje pędzli i piór** – Wypełnienia stałe, kreskowane, teksturowane i gradientowe.  
+- **Wysokowydajne renderowanie** – Optymalizowane pod kątem generowania obrazów po stronie serwera.
 
-## Rysowanie splajnów Beziera w Aspose.Drawing
-Wyrusz w podróż tworzenia płynnych splajnów Beziera za pomocą Aspose.Drawing dla .NET. Nasz przewodnik krok po kroku umożliwia wykorzystanie pełnego potencjału krzywych Beziera w celu uzyskania efektownej wizualnie grafiki. Zanurz się w świat elegancji i precyzji.
+## Wymagania wstępne
+- Środowisko programistyczne .NET (Visual Studio 2022 lub VS Code).  
+- Pakiet NuGet Aspose.Drawing dla .NET (`Install-Package Aspose.Drawing`).  
+- Podstawowa znajomość C# oraz koncepcji rysowania w stylu GDI.
 
-## Rysowanie splajnów kardynalnych w Aspose.Drawing
-Poznaj sztukę łatwego rysowania splajnów kardynalnych w aplikacjach .NET. Dzięki Aspose.Drawing możesz tworzyć gładkie krzywe, które dodadzą Twojemu projektowi odrobinę wyrafinowania. Postępuj zgodnie z naszym przewodnikiem, aby opanować technikę i ulepszyć swoje efekty wizualne.
+## Przewodnik krok po kroku
 
-## Rysowanie zamkniętych krzywych w Aspose.Drawing
-Zanurz się w świat rysowania zamkniętych krzywych za pomocą Aspose.Drawing dla .NET. Ulepsz swoją grafikę bez wysiłku, postępując zgodnie z naszym samouczkiem krok po kroku. Podnieś swoje umiejętności projektowania i twórz urzekające wizualizacje, które pozostawiają niezatarte wrażenie.
+### Jak rysować łuki w Aspose.Drawing
+Aby narysować łuk, utwórz obiekt `Graphics` z obrazu, zdefiniuj `Pen` i wywołaj `DrawArc`. Metoda wymaga prostokąta ograniczającego oraz kątów początkowego i przebycia.
 
-## Rysowanie elips w Aspose.Drawing
-Naucz się sztuki rysowania elips w .NET przy użyciu Aspose.Drawing. Nasz samouczek stanowi przejrzysty przewodnik, który pomoże Ci opanować technikę i stworzyć oszałamiającą wizualnie grafikę. Zanurz się w świat elips i podnieś estetykę swojego projektu.
+### Jak rysować zamknięte krzywe w Aspose.Drawing
+Zamknięte krzywe są przydatne do tworzenia gładkich, ciągłych kształtów, takich jak niestandardowe wielokąty. Użyj `Graphics.DrawClosedCurve` z tablicą obiektów `PointF`.
 
-## Rysowanie linii w Aspose.Drawing
-Opanuj umiejętność rysowania linii w aplikacjach .NET dzięki Aspose.Drawing. Nasz samouczek krok po kroku to przewodnik po łatwym tworzeniu oszałamiającej grafiki. Podnieś poziom swoich projektów dzięki precyzji idealnie narysowanych linii.
+### Jak rysować linie w Aspose.Drawing
+Linie są podstawowymi elementami większości grafiki wektorowej. Użyj `Graphics.DrawLine` z `Pen` i dwoma punktami (`PointF`).
 
-## Rysowanie ścieżek w Aspose.Drawing
-Naucz się rysować ścieżki w Aspose.Drawing dla .NET, korzystając z naszego obszernego przewodnika. Odblokuj potencjał tworzenia skomplikowanych grafik bez wysiłku. Skorzystaj z naszego samouczka, aby poruszać się po świecie ścieżek i zwiększać swoje możliwości projektowania.
+### Jak rysować splajny Beziera w Aspose.Drawing
+Splajny Beziera dają precyzyjną kontrolę nad napięciem krzywej. Wywołaj `Graphics.DrawBezier` z czterema punktami: początkowym, dwoma punktami kontrolnymi i końcowym.
 
-## Rysowanie wielokątów w Aspose.Drawing
-Wykorzystaj moc Aspose.Drawing dla .NET w tworzeniu urzekającej grafiki. Nasz samouczek poprowadzi Cię przez proces rysowania wielokątów bez wysiłku, uwalniając Twoją kreatywność w każdym zakątku. Podnieś poziom swojej gry projektowej dzięki intuicyjnemu tworzeniu wielokątów.
+### Jak rysować splajny kardynalne w Aspose.Drawing
+Splajny kardynalne generują gładkie krzywe przechodzące przez zestaw punktów. Użyj `Graphics.DrawCurve` i określ wartość napięcia (0.0–1.0).
 
-## Rysowanie prostokątów w Aspose.Drawing
-Odkryj sztukę rysowania prostokątów w .NET przy użyciu Aspose.Drawing. Nasz przewodnik krok po kroku, wraz z przykładami kodu, umożliwia łatwe tworzenie atrakcyjnej wizualnie grafiki. Podnieś estetykę swojego projektu dzięki idealnie proporcjonalnym prostokątom.
+### Jak rysować elipsy w Aspose.Drawing
+Elipsy rysuje się za pomocą `Graphics.DrawEllipse`. Podaj prostokąt ograniczający, a elipsa idealnie wpasuje się w jego wnętrze.
 
-## Wypełnianie regionów w Aspose.Drawing
-Popraw swoje umiejętności projektowania graficznego, ucząc się, jak wypełniać regiony w Aspose.Drawing dla .NET. Nasz samouczek krok po kroku zawiera szczegółowe informacje i techniki pozwalające bez wysiłku ulepszyć Twoje projekty. Uwolnij swoją kreatywność i nadaj swojej grafice nowy wymiar.
+### Jak rysować wielokąty w Aspose.Drawing
+Wielokąty to seria połączonych linii, które automatycznie się zamykają. Użyj `Graphics.DrawPolygon` z tablicą punktów.
 
-Zapoznaj się z naszymi obszernymi samouczkami na temat linii, krzywych i kształtów, korzystając z Aspose.Drawing dla .NET. Podnieś swoje umiejętności projektowania graficznego i odblokuj pełny potencjał tej intuicyjnej biblioteki. Zanurz się w świat kreatywności i bez wysiłku przekształcaj swoje projekty.
-## Poradniki dotyczące linii, krzywych i kształtów
-### [Solidne pędzle w Aspose.Drawing](./solid-brushes/)
-Odkryj magię Aspose.Drawing dla .NET. Opanuj solidne pędzle w tym przewodniku krok po kroku, aby uzyskać żywą grafikę.
-### [Rysowanie łuków w Aspose.Drawing](./draw-arc/)
-Dowiedz się, jak rysować urzekające łuki w aplikacjach .NET przy użyciu Aspose.Drawing. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające rezultaty wizualne.
-### [Rysowanie splajnów Beziera w Aspose.Drawing](./draw-bezier-spline/)
-Odkryj moc Aspose.Drawing dla .NET w tworzeniu niesamowitych splajnów Beziera. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo tworzyć grafikę.
-### [Rysowanie splajnów kardynalnych w Aspose.Drawing](./draw-cardinal-spline/)
-Poznaj sztukę rysowania kardynalnych splajnów w aplikacjach .NET za pomocą Aspose.Drawing. Twórz gładkie krzywizny bez wysiłku.
-### [Rysowanie zamkniętych krzywych w Aspose.Drawing](./draw-closed-curve/)
-Poznaj sztukę rysowania zamkniętych krzywych w aplikacjach .NET za pomocą Aspose.Drawing. Podnieś poziom swoich efektów wizualnych bez wysiłku.
-### [Rysowanie elips w Aspose.Drawing](./draw-ellipse/)
-Dowiedz się, jak rysować elipsy w .NET przy użyciu Aspose.Drawing. Postępuj zgodnie z tym samouczkiem krok po kroku, aby bez wysiłku tworzyć oszałamiającą grafikę.
-### [Rysowanie linii w Aspose.Drawing](./draw-lines/)
-Dowiedz się, jak rysować linie w aplikacjach .NET za pomocą Aspose.Drawing. Ten samouczek krok po kroku poprowadzi Cię przez proces tworzenia oszałamiającej grafiki.
-### [Rysowanie ścieżek w Aspose.Drawing](./draw-path/)
-Naucz się rysować ścieżki w Aspose.Drawing dla .NET, korzystając z tego przewodnika krok po kroku. Twórz oszałamiającą grafikę bez wysiłku.
-### [Rysowanie wielokątów w Aspose.Drawing](./draw-polygon/)
-Odkryj moc Aspose.Drawing dla .NET w tworzeniu oszałamiającej grafiki. Dzięki tej intuicyjnej bibliotece możesz łatwo rysować wielokąty.
-### [Rysowanie prostokątów w Aspose.Drawing](./draw-rectangle/)
-Dowiedz się, jak rysować prostokąty w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku z przykładami kodu.
-### [Wypełnianie regionów w Aspose.Drawing](./fill-region/)
-Dowiedz się, jak wypełnić regiony w Aspose.Drawing dla .NET, korzystając z tego samouczka krok po kroku. Zwiększ swoje umiejętności projektowania graficznego bez wysiłku.
+### Jak rysować prostokąty w Aspose.Drawing
+Prostokąty rysuje się za pomocą `Graphics.DrawRectangle`. Możesz je także wypełniać przy użyciu `Graphics.FillRectangle`.
+
+### Jak rysować ścieżki w Aspose.Drawing
+Ścieżki pozwalają łączyć wiele poleceń rysunkowych w jeden obiekt. Utwórz `GraphicsPath`, dodaj linie, łuki lub krzywe, a następnie wyrenderuj je przy pomocy `Graphics.DrawPath`.
+
+### Jak wypełniać regiony w Aspose.Drawing (fill region graphics)
+Wypełnianie regionu dodaje kolor lub teksturę do dowolnego zamkniętego kształtu. Użyj `Graphics.FillRegion` wraz z obiektem `Region` i pędzlem (stałym, kreskowanym lub gradientowym).
+
+## Typowe pułapki i wskazówki
+- **System współrzędnych** – Pamiętaj, że początek (0,0) znajduje się w lewym górnym rogu; oś Y rośnie w dół.  
+- **Szerokość pióra** – Bardzo cienkie pióra mogą zniknąć przy wysokim DPI; zwiększ `Pen.Width` dla lepszej czytelności.  
+- **Kąty łuku** – Kąty mierzone są zgodnie z ruchem wskazówek zegara od osi X.  
+- **Zarządzanie zasobami** – Zwolnij obiekty `Graphics`, `Pen` i `Brush`, aby szybko zwolnić zasoby GDI.  
+- **Anti‑Aliasing** – Włącz `Graphics.SmoothingMode = SmoothingMode.AntiAlias`, aby uzyskać płynniejsze krzywe.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę rysować łuki ze stylem linii przerywanej?**  
+A: Tak — skonfiguruj właściwość `Pen.DashStyle` (np. `DashStyle.Dash`) przed wywołaniem `DrawArc`.
+
+**Q: Co zrobić, jeśli muszę obrócić łuk?**  
+A: Zastosuj transformację obrotu do obiektu `Graphics` używając `Graphics.RotateTransform(angle)` przed rysowaniem.
+
+**Q: Czy można wypełnić sektor łuku (kawałek koła)?**  
+A: Użyj `Graphics.FillPie` z tymi samymi parametrami co `DrawArc`, aby utworzyć wypełniony sektor.
+
+**Q: Jak wyeksportować gotowy obraz?**  
+A: Wywołaj `image.Save("output.png", ImageFormat.Png)` lub wybierz JPEG, BMP itp., w zależności od potrzeb.
+
+**Q: Czy Aspose.Drawing obsługuje przezroczystość?**  
+A: Oczywiście — użyj `Color.FromArgb(alpha, r, g, b)` dla pędzli lub piór, aby dodać mieszanie alfa.
+
+## Zakończenie
+
+Masz teraz solidne podstawy **jak rysować łuki** oraz pełną paletę innych prymitywów graficznych przy użyciu Aspose.Drawing dla .NET. Łącząc pióra, pędzle i bogaty zestaw metod rysunkowych, możesz generować wszystko, od prostych wykresów liniowych po skomplikowane ilustracje wektorowe — bez polegania na przestarzałej bibliotece System.Drawing.Common. Zapoznaj się z poniższymi samouczkami, aby zgłębić każdy typ kształtu i rozpocząć tworzenie zachwycających grafik już dziś.
+
+## Samouczki: Linie, Krzywe i Kształty
+### [Solid Brushes in Aspose.Drawing](./solid-brushes/)
+Discover the magic of Aspose.Drawing for .NET. Master solid brushes in this step-by-step guide for vibrant graphics.
+### [Drawing Arcs in Aspose.Drawing](./draw-arc/)
+Learn how to draw captivating arcs in .NET applications using Aspose.Drawing. Follow our step-by-step guide for stunning visual results.
+### [Drawing Bezier Splines in Aspose.Drawing](./draw-bezier-spline/)
+Explore the power of Aspose.Drawing for .NET in creating stunning Bezier splines. Follow our step-by-step guide for seamless graphics development.
+### [Drawing Cardinal Splines in Aspose.Drawing](./draw-cardinal-spline/)
+Explore the art of drawing cardinal splines in .NET applications with Aspose.Drawing. Create smooth curves effortlessly.
+### [Drawing Closed Curves in Aspose.Drawing](./draw-closed-curve/)
+Explore the art of drawing closed curves in .NET applications with Aspose.Drawing. Elevate your visuals effortlessly.
+### [Drawing Ellipses in Aspose.Drawing](./draw-ellipse/)
+Learn how to draw ellipses in .NET using Aspose.Drawing. Follow this step-by-step tutorial for creating stunning graphics effortlessly.
+### [Drawing Lines in Aspose.Drawing](./draw-lines/)
+Learn how to draw lines in .NET applications with Aspose.Drawing. This step-by-step tutorial guides you through the process for stunning graphics.
+### [Drawing Paths in Aspose.Drawing](./draw-path/)
+Learn to draw paths in Aspose.Drawing for .NET with this step-by-step guide. Create stunning graphics effortlessly.
+### [Drawing Polygons in Aspose.Drawing](./draw-polygon/)
+Explore the power of Aspose.Drawing for .NET in creating stunning graphics. Draw polygons effortlessly with this intuitive library.
+### [Drawing Rectangles in Aspose.Drawing](./draw-rectangle/)
+Learn how to draw rectangles in .NET using Aspose.Drawing. Step-by-step guide with code examples.
+### [Filling Regions in Aspose.Drawing](./fill-region/)
+Learn how to fill regions in Aspose.Drawing for .NET with this step-by-step tutorial. Enhance your graphic design skills effortlessly.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
+
+---
