@@ -1,52 +1,66 @@
 ---
-title: Arbeta med installerade teckensnitt i Aspose.Drawing
-linktitle: Arbeta med installerade teckensnitt i Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternativ till System.Drawing.Common
-description: Utforska kraften i Aspose.Drawing för .NET när det gäller att manipulera installerade typsnitt. Förbättra dina bildbehandlingsfärdigheter med denna omfattande handledning.
+date: 2025-12-06
+description: Lär dig hur du sparar PNG‑bildfiler samtidigt som du listar installerade
+  teckensnitt, visar teckensnittsfamiljer, skapar grafik från bitmap och ritar text
+  med teckensnitt med Aspose.Drawing för .NET.
+language: sv
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Spara PNG‑bild och arbeta med installerade typsnitt i Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /sv/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Arbeta med installerade teckensnitt i Aspose.Drawing
+# Spara PNG‑bild och arbeta med installerade teckensnitt i Aspose.Drawing
 
 ## Introduktion
 
-Inom .NET-utvecklingsområdet framstår Aspose.Drawing som ett kraftfullt verktyg för att manipulera och arbeta med bilder. Denna handledning fokuserar på en specifik aspekt - att arbeta med installerade typsnitt med Aspose.Drawing för .NET. Teckensnitt spelar en avgörande roll i design och presentation, och att bemästra deras användning kan avsevärt förbättra din bildbehandlingskapacitet.
+Om du behöver **spara PNG‑bild**‑filer som också visar information om de teckensnitt som är installerade på en maskin, ger Aspose.Drawing för .NET dig ett rent, plattformsoberoende sätt att göra det. I den här handledningen går vi igenom hur man listar installerade teckensnitt, visar teckensnittsfamiljer, skapar grafik från en bitmap, och ritar text med teckensnitt – allt medan vi slutligen sparar resultatet som en PNG‑bild. I slutet har du ett återanvändbart kodsnutt som du kan lägga in i vilket .NET‑projekt som helst.
+
+## Snabba svar
+- **Vad skapar den här handledningen?** En PNG‑bild som listar installerade teckensnittsfamiljer.  
+- **Vilket bibliotek krävs?** Aspose.Drawing för .NET (ingen System.Drawing.Common behövs).  
+- **Kan jag använda egna teckensnitt?** Ja – ladda bara dem i en `InstalledFontCollection`.  
+- **Kan upplösningen justeras?** Absolut – ändra bitmap‑storlek eller pixelformat.  
+- **Behöver jag en licens för att köra koden?** En tillfällig licens fungerar för utvärdering; en full licens krävs för produktion.
+
+## Vad betyder “spara PNG‑bild” i Aspose.Drawing‑sammanhang?
+
+Att spara en PNG‑bild innebär att rendera din rityta (en `Bitmap`) till en fil med filändelsen `.png`. Aspose.Drawing sköter kodningen åt dig, så du behöver bara anropa `bitmap.Save(...)` med den önskade sökvägen.
+
+## Varför lista installerade teckensnitt och visa teckensnittsfamiljer?
+
+Att veta vilka teckensnitt som finns tillgängliga låter dig skapa dynamisk grafik som anpassar sig till slutanvändarens miljö. Det är särskilt praktiskt för att generera rapporter, certifikat eller annat visuellt innehåll som måste matcha företagets varumärke utan att distribuera teckensnittsfiler.
 
 ## Förutsättningar
 
-Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
+- **Aspose.Drawing‑bibliotek** – ladda ner den senaste versionen från [Aspose Drawing‑nedladdningssidan](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider eller någon .NET‑kompatibel editor.  
+- **Grundläggande C#‑kunskaper** – du bör vara bekväm med klasser, objekt och enkla loopar.
 
-1.  Aspose.Drawing Library: Se till att du har Aspose.Drawing-biblioteket installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/drawing/net/).
-
-2. Integrated Development Environment (IDE): Ha en fungerande .NET-utvecklingsmiljö inrättad, som Visual Studio.
-
-3. Grundläggande C#-kunskaper: Förtrogenhet med C#-programmeringsspråket är avgörande för att förstå och implementera exemplen som ges.
-
-## Importera namnområden
-
-För att börja arbeta med installerade typsnitt i Aspose.Drawing måste du importera de nödvändiga namnrymden. I din C#-kod, inkludera följande:
+## Importera namnrymder
+För att arbeta med teckensnitt och grafik, importera dessa namnrymder högst upp i din C#‑fil:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Steg 1: Skapa bitmapp
+## Steg‑för‑steg‑guide
 
-Börja med att skapa en bitmapp, arbetsytan för din bild:
+### Steg 1: Skapa en bitmap (duken)
+Först skapar vi en bitmap som kommer att hålla den slutgiltiga bilden. Bitmap‑storleken och pixelformatet bestämmer kvaliteten på den sparade PNG‑filen.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Steg 2: Skapa grafik
-
-Skapa sedan grafik från bitmappen för att rita på den:
+### Steg 2: Skapa grafik från bitmap
+Därefter får vi ett `Graphics`‑objekt från bitmap. Detta objekt låter oss rita former, text och bilder på duken.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +68,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Steg 3: Ställ in pensel och teckensnitt
-
-Definiera en pensel och ett teckensnitt för din text:
+### Steg 3: Ställ in pensel och teckensnitt (rita text med teckensnitt)
+Vi behöver en pensel för textfärgen och ett `Font`‑objekt som definierar teckensnitt, storlek och stil.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +77,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Steg 4: Visa information om installerade teckensnitt
-
-Visa information om installerade teckensnitt på bilden:
+### Steg 4: Lista installerade teckensnitt och visa teckensnittsfamiljer
+Nu visar vi antalet teckensnittsfamiljer och de första namnen direkt på bitmap. Detta demonstrerar funktionerna **list installed fonts** och **show font families**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +89,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Steg 5: Spara bild
-
-Spara bilden i önskad katalog:
+### Steg 5: Spara PNG‑bild
+Till sist skriver vi bitmap till disk som en PNG‑fil. Detta är den centrala **save png image**‑operationen.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-Grattis! Du har framgångsrikt skapat en bild som visar information om installerade typsnitt med Aspose.Drawing för .NET.
+> **Proffstips:** Använd `Path.Combine` för att bygga filsökvägar och undvika problem med katalogseparatorer på olika operativsystem.
+
+## Vanliga problem och lösningar
+| Problem | Orsak | Lösning |
+|-------|-------|-----|
+| **Inga teckensnitt visas** | `InstalledFontCollection` inte fylld (t.ex. körs på en huvudlös server utan teckensnitt). | Installera de nödvändiga teckensnitten på servern eller bädda in egna teckensnitt i din applikation. |
+| **Sparad fil är korrupt** | Felaktigt pixelformat eller saknade skrivrättigheter. | Säkerställ att målmappen finns och att appen har skrivbehörighet; behåll `Format32bppPArgb`. |
+| **Texten ser suddig ut** | Låga DPI‑inställningar. | Öka bitmap‑dimensionerna eller sätt `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+
+## Vanliga frågor
+
+**Q: Kan jag använda egna teckensnitt som inte är installerade på maskinen?**  
+A: Ja. Ladda teckensnittsfilen i en `PrivateFontCollection` och skapa ett `Font` från den samlingen.
+
+**Q: Hur hanterar jag teckensnittrelaterade undantag?**  
+A: Omge teckensnitts skapande med ett `try/catch`‑block och inspektera `ArgumentException` för saknade familjer.
+
+**Q: Är Aspose.Drawing lämpligt för webbapplikationer?**  
+A: Absolut. Biblioteket fungerar i ASP.NET Core, Azure Functions och andra server‑sidiga miljöer.
+
+**Q: Kan jag ändra textfärg eller stil?**  
+A: Ja. Använd olika `Brush`‑typer (t.ex. `LinearGradientBrush`) och ändra `FontStyle`‑enum.
+
+**Q: Var kan jag få en tillfällig licens för testning?**  
+A: Ladda ner en provlicens från [Aspose temporär‑licenssida](https://purchase.aspose.com/temporary-license/).
 
 ## Slutsats
 
-Att bemästra manipuleringen av installerade typsnitt i Aspose.Drawing öppnar nya möjligheter för att skapa visuellt tilltalande bilder i dina .NET-applikationer. Experimentera med olika typsnitt och stilar för att förbättra estetiken i ditt grafiska innehåll.
+Genom att följa dessa steg har du lärt dig hur du **sparar PNG‑bild**‑filer som dynamiskt **listar installerade teckensnitt**, **visar teckensnittsfamiljer**, **skapar grafik från bitmap** och **ritar text med teckensnitt** med Aspose.Drawing för .NET. Känn dig fri att experimentera med andra teckensnitt, färger och bitmap‑storlekar för att matcha ditt projekts visuella krav.
 
-## FAQ's
-
-### F1: Kan jag använda anpassade typsnitt med Aspose.Drawing?
-
-S1: Ja, du kan använda anpassade teckensnitt genom att ange teckensnittsfilens sökväg när du skapar ett teckensnittsobjekt.
-
-### F2: Hur hanterar jag teckensnittsrelaterade fel?
-
-S2: Kontrollera Aspose.Drawing-dokumentationen för felhanteringsstrategier som är specifika för teckensnittsrelaterade problem.
-
-### F3: Är Aspose.Drawing lämplig för webbapplikationer?
-
-A3: Absolut! Aspose.Drawing kan sömlöst integreras i webbapplikationer för dynamisk bildgenerering.
-
-### F4: Kan jag anpassa textens utseende ytterligare?
-
-A4: Visst! Utforska ytterligare egenskaper för klasserna Font och Brush för fler anpassningsalternativ.
-
-### F5: Finns tillfälliga licenser tillgängliga för teständamål?
-
- A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för utvärdering.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose

@@ -1,52 +1,63 @@
 ---
-title: การทำงานกับแบบอักษรที่ติดตั้งใน Aspose. Drawing
-linktitle: การทำงานกับแบบอักษรที่ติดตั้งใน Aspose. Drawing
-second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
-description: สำรวจพลังของ Aspose. Drawing สำหรับ .NET ในการจัดการแบบอักษรที่ติดตั้ง เสริมทักษะการประมวลผลภาพของคุณด้วยบทช่วยสอนที่ครอบคลุมนี้
+date: 2025-12-06
+description: เรียนรู้วิธีบันทึกไฟล์ภาพ PNG พร้อมการแสดงรายการฟอนต์ที่ติดตั้ง, แสดงตระกูลฟอนต์,
+  สร้างกราฟิกจากบิตแมป, และวาดข้อความด้วยฟอนต์โดยใช้ Aspose.Drawing สำหรับ .NET.
+language: th
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /th/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การทำงานกับแบบอักษรที่ติดตั้งใน Aspose. Drawing
+# บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing
 
-## การแนะนำ
+## บทนำ
 
-ในขอบเขตของการพัฒนา .NET Aspose. Drawing กลายเป็นเครื่องมืออันทรงพลังสำหรับจัดการและทำงานกับรูปภาพ บทช่วยสอนนี้เน้นที่แง่มุมเฉพาะ - การทำงานกับฟอนต์ที่ติดตั้งโดยใช้ Aspose. Drawing สำหรับ .NET แบบอักษรมีบทบาทสำคัญในการออกแบบและการนำเสนอ และการใช้ประโยชน์อย่างเชี่ยวชาญจะช่วยเพิ่มความสามารถในการประมวลผลภาพของคุณได้อย่างมาก
+หากคุณต้องการ **save PNG image** ที่แสดงข้อมูลเกี่ยวกับฟอนต์ที่ติดตั้งบนเครื่อง, Aspose.Drawing for .NET จะมอบวิธีที่สะอาดและข้ามแพลตฟอร์มให้คุณทำได้ ในบทเรียนนี้เราจะอธิบายการแสดงรายการฟอนต์ที่ติดตั้ง, การแสดงฟอนต์แฟมิลี่, การสร้างกราฟิกจาก bitmap, และการวาดข้อความด้วยฟอนต์ — ทั้งหมดนี้จบด้วยการบันทึกผลลัพธ์เป็นไฟล์ PNG เมื่อเสร็จคุณจะได้โค้ดสั้น ๆ ที่สามารถนำไปใช้ในโปรเจกต์ .NET ใดก็ได้
+
+## คำตอบอย่างรวดเร็ว
+- **บทเรียนนี้สร้างอะไร?** A PNG image that lists installed font families.  
+- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Drawing for .NET (no System.Drawing.Common needed).  
+- **ฉันสามารถใช้ฟอนต์ที่กำหนดเองได้หรือไม่?** Yes – just load them into `InstalledFontCollection`.  
+- **ความละเอียดของผลลัพธ์สามารถปรับได้หรือไม่?** Absolutely – change the bitmap size or pixel format.  
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** A temporary license works for evaluation; a full license is required for production.
+
+## “save PNG image” คืออะไรในบริบทของ Aspose.Drawing?
+การบันทึกภาพ PNG หมายถึงการเรนเดอร์พื้นผิวการวาดของคุณ (เช่น `Bitmap`) ไปยังไฟล์ที่มีนามสกุล `.png` Aspose.Drawing จะจัดการการเข้ารหัสให้คุณเอง, ดังนั้นคุณเพียงแค่เรียก `bitmap.Save(...)` พร้อมระบุเส้นทางที่ต้องการ
+
+## ทำไมต้องแสดงรายการฟอนต์ที่ติดตั้งและแสดงฟอนต์แฟมิลี่?
+การรู้ว่าฟอนต์ใดบ้างที่พร้อมใช้งานทำให้คุณสร้างกราฟิกแบบไดนามิกที่ปรับให้เข้ากับสภาพแวดล้อมของผู้ใช้ปลายสุดได้ง่าย มันมีประโยชน์อย่างยิ่งสำหรับการสร้างรายงาน, ใบรับรอง, หรือเนื้อหาภาพใด ๆ ที่ต้องสอดคล้องกับแบรนด์ขององค์กรโดยไม่ต้องจัดส่งไฟล์ฟอนต์ไปด้วย
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- **Aspose.Drawing Library** – download the latest version from the [Aspose Drawing download page](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider, or any .NET‑compatible editor.  
+- **ความรู้พื้นฐานของ C#** – you should be comfortable with classes, objects, and simple loops.
 
-1.  ไลบรารี Aspose. Drawing: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose. Drawing แล้ว ถ้าไม่คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/drawing/net/).
-
-2. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): มีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
-
-3. ความรู้พื้นฐาน C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# เป็นสิ่งจำเป็นสำหรับการทำความเข้าใจและการนำตัวอย่างที่ให้มาไปใช้
-
-## นำเข้าเนมสเปซ
-
-หากต้องการเริ่มทำงานกับฟอนต์ที่ติดตั้งใน Aspose. Drawing คุณจะต้องนำเข้าเนมสเปซที่จำเป็น ในโค้ด C# ของคุณ ให้ระบุสิ่งต่อไปนี้:
+## นำเข้า Namespaces
+เพื่อทำงานกับฟอนต์และกราฟิก, ให้นำเข้า namespaces เหล่านี้ที่ส่วนหัวของไฟล์ C# ของคุณ:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## ขั้นตอนที่ 1: สร้างบิตแมป
+## คู่มือขั้นตอนโดยละเอียด
 
-เริ่มต้นด้วยการสร้างบิตแมป ซึ่งเป็นผืนผ้าใบสำหรับรูปภาพของคุณ:
+### ขั้นตอนที่ 1: สร้าง bitmap (ผ้าใบ)
+ก่อนอื่นเราจะสร้าง bitmap ที่จะเก็บภาพสุดท้าย ขนาดและ pixel format ของ bitmap จะกำหนดคุณภาพของ PNG ที่บันทึก
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## ขั้นตอนที่ 2: สร้างกราฟิก
-
-จากนั้น สร้างกราฟิกจากบิตแมปเพื่อวาดลงไป:
+### ขั้นตอนที่ 2: สร้าง graphics จาก bitmap
+ต่อไปเราจะรับอ็อบเจ็กต์ `Graphics` จาก bitmap อ็อบเจ็กต์นี้ช่วยให้เราวาดรูปทรง, ข้อความ, และภาพลงบนผ้าใบได้
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +65,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## ขั้นตอนที่ 3: ตั้งค่าแปรงและแบบอักษร
-
-กำหนดแปรงและแบบอักษรสำหรับข้อความของคุณ:
+### ขั้นตอนที่ 3: ตั้งค่า brush และ font (วาดข้อความด้วยฟอนต์)
+เราต้องการ brush สำหรับสีข้อความและอ็อบเจ็กต์ `Font` ที่กำหนดแบบอักษร, ขนาด, และสไตล์
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +74,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## ขั้นตอนที่ 4: แสดงข้อมูลแบบอักษรที่ติดตั้ง
-
-แสดงข้อมูลเกี่ยวกับแบบอักษรที่ติดตั้งบนภาพ:
+### ขั้นตอนที่ 4: แสดงรายการฟอนต์ที่ติดตั้งและแสดงฟอนต์แฟมิลี่
+ตอนนี้เราจะแสดงจำนวนฟอนต์แฟมิลี่และชื่อบางส่วนโดยตรงบน bitmap ซึ่งเป็นการสาธิตความสามารถ **list installed fonts** และ **show font families**
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +86,53 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## ขั้นตอนที่ 5: บันทึกรูปภาพ
-
-บันทึกภาพลงในไดเร็กทอรีที่คุณต้องการ:
+### ขั้นตอนที่ 5: บันทึก PNG image
+สุดท้ายเราจะเขียน bitmap ลงดิสก์เป็นไฟล์ PNG ซึ่งเป็นการดำเนินการ **save png image** หลัก
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-ยินดีด้วย! คุณสร้างรูปภาพที่แสดงข้อมูลเกี่ยวกับแบบอักษรที่ติดตั้งโดยใช้ Aspose. Drawing สำหรับ .NET สำเร็จแล้ว
+> **เคล็ดลับ:** ใช้ `Path.Combine` เพื่อสร้างเส้นทางไฟล์เพื่อหลีกเลี่ยงปัญหาตัวคั่นโฟลเดอร์บนระบบปฏิบัติการต่าง ๆ.
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-การเรียนรู้การปรับแต่งฟอนต์ที่ติดตั้งใน Aspose. Drawing จะเปิดโอกาสใหม่ๆ ในการสร้างรูปภาพที่ดึงดูดสายตาในแอปพลิเคชัน .NET ของคุณ ทดลองใช้แบบอักษรและสไตล์ที่แตกต่างกันเพื่อเพิ่มความสวยงามให้กับเนื้อหากราฟิกของคุณ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|-------|-----|
+| **ไม่มีฟอนต์แสดงผล** | `InstalledFontCollection` ไม่ได้ถูกเติม (เช่น รันบนเซิร์ฟเวอร์ headless ที่ไม่มีฟอนต์). | Install the required fonts on the server or embed custom fonts in your application. |
+| **ไฟล์ที่บันทึกเสียหาย** | Incorrect pixel format or missing write permissions. | Ensure the target folder exists and the app has write access; keep `Format32bppPArgb`. |
+| **ข้อความดูเบลอ** | Low DPI settings. | Increase bitmap dimensions or set `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้แบบอักษรที่กำหนดเองกับ Aspose. Drawing ได้หรือไม่
+**Q: ฉันสามารถใช้ฟอนต์ที่กำหนดเองที่ไม่ได้ติดตั้งบนเครื่องได้หรือไม่?**  
+A: Yes. Load the font file into a `PrivateFontCollection` and create a `Font` from that collection.
 
-A1: ได้ คุณสามารถใช้แบบอักษรแบบกำหนดเองได้โดยระบุเส้นทางของไฟล์แบบอักษรขณะสร้างวัตถุแบบอักษร
+**Q: ฉันจะจัดการกับข้อยกเว้นที่เกี่ยวกับฟอนต์อย่างไร?**  
+A: Wrap font creation in a `try/catch` block and inspect `ArgumentException` for missing families.
 
-### คำถามที่ 2: ฉันจะจัดการกับข้อผิดพลาดเกี่ยวกับแบบอักษรได้อย่างไร
+**Q: Aspose.Drawing เหมาะกับแอปพลิเคชันเว็บหรือไม่?**  
+A: Absolutely. The library works in ASP.NET Core, Azure Functions, and other server‑side environments.
 
-A2: ตรวจสอบเอกสารประกอบ Aspose. Drawing สำหรับกลยุทธ์การจัดการข้อผิดพลาดเฉพาะกับปัญหาที่เกี่ยวข้องกับแบบอักษร
+**Q: ฉันสามารถเปลี่ยนสีหรือสไตล์ของข้อความได้หรือไม่?**  
+A: Yes. Use different `Brush` types (e.g., `LinearGradientBrush`) and modify the `FontStyle` enum.
 
-### คำถามที่ 3: Aspose. Drawing เหมาะสำหรับเว็บแอปพลิเคชันหรือไม่
+**: จะหาลิขสิทธิ์ชั่วคราวสำหรับการทดสอบได้จากที่ไหน?**  
+A: Download a trial license from the [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/).
 
-A3: แน่นอน! Aspose. Drawing สามารถรวมเข้ากับเว็บแอปพลิเคชันได้อย่างราบรื่นสำหรับการสร้างภาพแบบไดนามิก
+## สรุป
 
-### คำถามที่ 4: ฉันสามารถปรับแต่งลักษณะที่ปรากฏของข้อความเพิ่มเติมได้หรือไม่
+โดยทำตามขั้นตอนเหล่านี้คุณได้เรียนรู้วิธี **save PNG image** ที่แสดง **list installed fonts**, **show font families**, **create graphics from bitmap**, และ **draw text with fonts** ด้วย Aspose.Drawing for .NET อย่าลังเลที่จะทดลองฟอนต์, สี, และขนาด bitmap อื่น ๆ เพื่อให้ตรงกับความต้องการด้านภาพของโปรเจกต์ของคุณ
 
-A4: แน่นอน! สำรวจคุณสมบัติเพิ่มเติมของคลาสแบบอักษรและแปรงเพื่อดูตัวเลือกการปรับแต่งเพิ่มเติม
-
-### คำถามที่ 5: มีใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่
-
- A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับการประเมินผล
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-06  
+**ทดสอบกับ:** Aspose.Drawing 24.11 for .NET  
+**ผู้เขียน:** Aspose

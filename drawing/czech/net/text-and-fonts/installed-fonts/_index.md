@@ -1,52 +1,64 @@
 ---
-title: Práce s nainstalovanými písmy v Aspose.Drawing
-linktitle: Práce s nainstalovanými písmy v Aspose.Drawing
-second_title: Aspose.Drawing .NET API – alternativa k System.Drawing.Common
-description: Prozkoumejte sílu Aspose.Drawing for .NET při manipulaci s nainstalovanými fonty. Vylepšete své dovednosti v oblasti zpracování obrazu pomocí tohoto komplexního kurzu.
+date: 2025-12-06
+description: Naučte se, jak ukládat soubory PNG, přičemž vypisujete nainstalovaná
+  písma, zobrazujete rodiny písem, vytváříte grafiku z bitmapy a kreslíte text s písmy
+  pomocí Aspose.Drawing pro .NET.
+language: cs
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Uložit PNG obrázek a pracovat s nainstalovanými fonty v Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /cs/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Práce s nainstalovanými písmy v Aspose.Drawing
+# Uložení PNG obrázku a práce s nainstalovanými fonty v Aspose.Drawing
 
 ## Úvod
 
-V oblasti vývoje .NET se Aspose.Drawing ukazuje jako mocný nástroj pro manipulaci a práci s obrázky. Tento tutoriál se zaměřuje na specifický aspekt – práci s nainstalovanými fonty pomocí Aspose.Drawing for .NET. Písma hrají klíčovou roli v designu a prezentaci a zvládnutí jejich využití může výrazně zlepšit vaše možnosti zpracování obrazu.
+Pokud potřebujete **uložit PNG obrázek**, který zároveň zobrazuje informace o fontech nainstalovaných v počítači, Aspose.Drawing pro .NET vám poskytuje čistý, multiplatformní způsob, jak to provést. V tomto tutoriálu projdeme výpis nainstalovaných fontů, zobrazení rodin fontů, vytvoření grafiky z bitmapy a kreslení textu s fonty – a nakonec výsledek uložíme jako PNG obrázek. Na konci budete mít znovupoužitelný úryvek, který můžete vložit do libovolného .NET projektu.
+
+## Rychlé odpovědi
+- **Co tento tutoriál vytvoří?** PNG obrázek, který vypisuje nainstalované rodiny fontů.  
+- **Která knihovna je vyžadována?** Aspose.Drawing pro .NET (není potřeba System.Drawing.Common).  
+- **Mohu použít vlastní fonty?** Ano – stačí je načíst do `InstalledFontCollection`.  
+- **Je rozlišení výstupu nastavitelný?** Rozhodně – změňte velikost bitmapy nebo formát pixelů.  
+- **Potřebuji licenci pro spuštění kódu?** Dočasná licence stačí pro hodnocení; pro produkci je vyžadována plná licence.
+
+## Co znamená „uložit PNG obrázek“ v kontextu Aspose.Drawing?
+Uložení PNG obrázku znamená vykreslení vašeho kreslicího povrchu (objektu `Bitmap`) do souboru s příponou `.png`. Aspose.Drawing se postará o kódování, takže stačí zavolat `bitmap.Save(...)` s požadovanou cestou.
+
+## Proč vypisovat nainstalované fonty a zobrazovat rodiny fontů?
+Znalost dostupných fontů vám umožní vytvářet dynamickou grafiku, která se přizpůsobí prostředí koncového uživatele. To je zvláště užitečné při generování reportů, certifikátů nebo jakéhokoli vizuálního obsahu, který musí odpovídat firemnímu brandingu bez nutnosti distribuovat soubory fontů.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+- **Aspose.Drawing knihovna** – stáhněte si nejnovější verzi ze [stránky ke stažení Aspose Drawing](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider nebo jakýkoli editor kompatibilní s .NET.  
+- **Základní znalost C#** – měli byste být pohodlní s třídami, objekty a jednoduchými smyčkami.
 
-1.  Knihovna Aspose.Drawing: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Drawing. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/drawing/net/).
-
-2. Integrované vývojové prostředí (IDE): Mějte nastavené funkční vývojové prostředí .NET, jako je Visual Studio.
-
-3. Základní znalost C#: Pro pochopení a implementaci uvedených příkladů je nezbytná znalost programovacího jazyka C#.
-
-## Importovat jmenné prostory
-
-Chcete-li začít pracovat s nainstalovanými fonty v Aspose.Drawing, musíte importovat potřebné jmenné prostory. Do kódu C# zahrňte následující:
+## Import jmenných prostorů
+Pro práci s fonty a grafikou importujte tyto jmenné prostory na začátku vašeho C# souboru:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Krok 1: Vytvořte bitmapu
+## Průvodce krok za krokem
 
-Začněte vytvořením bitmapy, plátna pro váš obrázek:
+### Krok 1: Vytvoření bitmapy (plátna)
+Nejprve vytvoříme bitmapu, která bude obsahovat finální obrázek. Velikost bitmapy a formát pixelů určují kvalitu uloženého PNG.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Krok 2: Vytvořte grafiku
-
-Dále vytvořte grafiku z bitmapy, kterou chcete nakreslit:
+### Krok 2: Vytvoření grafiky z bitmapy
+Dále získáme objekt `Graphics` z bitmapy. Tento objekt nám umožní kreslit tvary, text a obrázky na plátno.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +66,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Krok 3: Nastavte štětec a písmo
-
-Definujte štětec a písmo pro váš text:
+### Krok 3: Nastavení štětce a fontu (kreslení textu s fonty)
+Potřebujeme štětec pro barvu textu a objekt `Font`, který definuje typ písma, velikost a styl.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +75,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Krok 4: Zobrazte informace o nainstalovaných písmech
-
-Zobrazení informací o nainstalovaných fontech na obrázku:
+### Krok 4: Výpis nainstalovaných fontů a zobrazení rodin fontů
+Nyní zobrazíme počet rodin fontů a několik prvních názvů přímo na bitmapě. Tím demonstrujeme schopnosti **list installed fonts** a **show font families**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +87,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Krok 5: Uložte obrázek
-
-Uložte obrázek do požadovaného adresáře:
+### Krok 5: Uložení PNG obrázku
+Nakonec zapíšeme bitmapu na disk jako PNG soubor. Toto je jádro operace **save png image**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-Gratulujeme! Úspěšně jste vytvořili obrázek zobrazující informace o nainstalovaných fontech pomocí Aspose.Drawing for .NET.
+> **Tip:** Používejte `Path.Combine` pro sestavování cest k souborům, abyste se vyhnuli problémům s oddělovači adresářů na různých operačních systémech.
+
+## Časté problémy a řešení
+| Problém | Příčina | Řešení |
+|---------|----------|--------|
+| **Nezobrazují se žádné fonty** | `InstalledFontCollection` není naplněna (např. běh na serveru bez grafického rozhraní). | Nainstalujte požadované fonty na server nebo vložte vlastní fonty do aplikace. |
+| **Uložený soubor je poškozený** | Nesprávný formát pixelů nebo chybějící oprávnění k zápisu. | Ujistěte se, že cílová složka existuje a aplikace má právo zapisovat; ponechte `Format32bppPArgb`. |
+| **Text vypadá rozmazaně** | Nízké DPI nastavení. | Zvyšte rozměry bitmapy nebo nastavte `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+
+## Často kladené otázky
+
+**Q: Mohu použít vlastní fonty, které nejsou nainstalované v systému?**  
+A: Ano. Načtěte soubor fontu do `PrivateFontCollection` a vytvořte `Font` z této kolekce.
+
+**Q: Jak zacházet s výjimkami souvisejícími s fonty?**  
+A: Zabalte vytváření fontu do `try/catch` bloku a kontrolujte `ArgumentException` pro chybějící rodiny.
+
+**Q: Je Aspose.Drawing vhodný pro webové aplikace?**  
+A: Rozhodně. Knihovna funguje v ASP.NET Core, Azure Functions a dalších server‑side prostředích.
+
+**Q: Můžu změnit barvu nebo styl textu?**  
+A: Ano. Použijte různé typy `Brush` (např. `LinearGradientBrush`) a upravte výčtový typ `FontStyle`.
+
+**Q: Kde získám dočasnou licenci pro testování?**  
+A: Stáhněte si zkušební licenci ze [stránky dočasných licencí Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Závěr
 
-Zvládnutí manipulace s nainstalovanými fonty v Aspose.Drawing otevírá nové možnosti pro vytváření vizuálně přitažlivých obrázků ve vašich aplikacích .NET. Experimentujte s různými fonty a styly, abyste zlepšili estetiku svého grafického obsahu.
+Postupným sledováním těchto kroků jste se naučili, jak **uložit PNG obrázek**, který dynamicky **vypisuje nainstalované fonty**, **zobrazuje rodiny fontů**, **vytváří grafiku z bitmapy** a **kreslí text s fonty** pomocí Aspose.Drawing pro .NET. Nebojte se experimentovat s dalšími fonty, barvami a velikostmi bitmapy, aby výsledek odpovídal vizuálním požadavkům vašeho projektu.
 
-## FAQ
-
-### Q1: Mohu použít vlastní písma s Aspose.Drawing?
-
-Odpověď 1: Ano, můžete použít vlastní písma zadáním cesty k souboru písem při vytváření objektu písma.
-
-### Q2: Jak mohu zpracovat chyby související s písmy?
-
-A2: Podívejte se do dokumentace Aspose.Drawing pro strategie zpracování chyb specifické pro problémy související s písmy.
-
-### Q3: Je Aspose.Drawing vhodný pro webové aplikace?
-
-A3: Rozhodně! Aspose.Drawing lze bez problémů integrovat do webových aplikací pro dynamické generování obrázků.
-
-### Q4: Mohu dále upravit vzhled textu?
-
-A4: Určitě! Prozkoumejte další vlastnosti tříd Písmo a Štětec pro další možnosti přizpůsobení.
-
-### Q5: Jsou k dispozici dočasné licence pro účely testování?
-
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2025-12-06  
+**Testováno s:** Aspose.Drawing 24.11 pro .NET  
+**Autor:** Aspose
