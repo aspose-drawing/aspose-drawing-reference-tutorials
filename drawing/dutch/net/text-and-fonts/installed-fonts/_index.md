@@ -1,52 +1,64 @@
 ---
-title: Werken met geïnstalleerde lettertypen in Aspose.Drawing
-linktitle: Werken met geïnstalleerde lettertypen in Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
-description: Ontdek de kracht van Aspose.Drawing voor .NET bij het manipuleren van geïnstalleerde lettertypen. Verbeter uw beeldverwerkingsvaardigheden met deze uitgebreide tutorial.
+date: 2025-12-06
+description: Leer hoe u PNG‑afbeeldingsbestanden opslaat, geïnstalleerde lettertypen
+  opsomt, lettertypefamilies weergeeft, graphics maakt van een bitmap en tekst tekent
+  met lettertypen, met behulp van Aspose.Drawing voor .NET.
+language: nl
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: PNG-afbeelding opslaan en werken met geïnstalleerde lettertypen in Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /nl/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Werken met geïnstalleerde lettertypen in Aspose.Drawing
+# PNG-afbeelding opslaan en werken met geïnstalleerde lettertypen in Aspose.Drawing
 
-## Invoering
+## Inleiding
 
-Op het gebied van .NET-ontwikkeling komt Aspose.Drawing naar voren als een krachtig hulpmiddel voor het manipuleren van en werken met afbeeldingen. Deze tutorial richt zich op een specifiek aspect: werken met geïnstalleerde lettertypen met behulp van Aspose.Drawing voor .NET. Lettertypen spelen een cruciale rol bij ontwerp en presentatie, en het beheersen van het gebruik ervan kan uw beeldverwerkingsmogelijkheden aanzienlijk verbeteren.
+Als je **PNG‑afbeeldingsbestanden** moet opslaan die ook informatie over de op een machine geïnstalleerde lettertypen weergeven, biedt Aspose.Drawing voor .NET een nette, platformonafhankelijke manier om dit te doen. In deze tutorial lopen we door het opsommen van geïnstalleerde lettertypen, het tonen van lettertypefamilies, het maken van graphics vanuit een bitmap en het tekenen van tekst met lettertypen – alles terwijl we uiteindelijk het resultaat opslaan als een PNG‑afbeelding. Aan het einde heb je een herbruikbare code‑snippet die je in elk .NET‑project kunt gebruiken.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat maakt deze tutorial?** Een PNG‑afbeelding die geïnstalleerde lettertypefamilies opsomt.  
+- **Welke bibliotheek is vereist?** Aspose.Drawing voor .NET (geen System.Drawing.Common nodig).  
+- **Kan ik aangepaste lettertypen gebruiken?** Ja – laad ze gewoon in een `InstalledFontCollection`.  
+- **Is de uitvoerresolutie aanpasbaar?** Absoluut – wijzig de bitmap‑grootte of pixel‑formaat.  
+- **Heb ik een licentie nodig om de code uit te voeren?** Een tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productie.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent “PNG‑afbeelding opslaan” in de context van Aspose.Drawing?
+Een PNG‑afbeelding opslaan betekent dat je je tekenoppervlak (een `Bitmap`) rendert naar een bestand met de extensie `.png`. Aspose.Drawing verzorgt de codering voor je, dus je hoeft alleen `bitmap.Save(...)` aan te roepen met het gewenste pad.
 
-1.  Aspose.Drawing-bibliotheek: Zorg ervoor dat de Aspose.Drawing-bibliotheek is geïnstalleerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/drawing/net/).
+## Waarom geïnstalleerde lettertypen opsommen en lettertypefamilies tonen?
+Weten welke lettertypen beschikbaar zijn, stelt je in staat dynamische graphics te maken die zich aanpassen aan de omgeving van de eindgebruiker. Dit is vooral handig voor het genereren van rapporten, certificaten of andere visuele content die moet overeenkomen met de huisstijl zonder lettertypebestanden mee te leveren.
 
-2. Integrated Development Environment (IDE): Zorg ervoor dat er een werkende .NET-ontwikkelomgeving is opgezet, zoals Visual Studio.
+## Voorvereisten
 
-3. Basiskennis C#: Bekendheid met de programmeertaal C# is essentieel voor het begrijpen en implementeren van de gegeven voorbeelden.
+- **Aspose.Drawing‑bibliotheek** – download de nieuwste versie vanaf de [Aspose Drawing downloadpagina](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider of een andere .NET‑compatibele editor.  
+- **Basiskennis C#** – je moet vertrouwd zijn met klassen, objecten en eenvoudige lussen.
 
-## Naamruimten importeren
-
-Om te gaan werken met geïnstalleerde lettertypen in Aspose.Drawing, moet u de benodigde naamruimten importeren. Neem het volgende op in uw C#-code:
+## Namespaces importeren
+Om met lettertypen en graphics te werken, importeer je deze namespaces bovenaan je C#‑bestand:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Stap 1: Bitmap maken
+## Stapsgewijze handleiding
 
-Begin met het maken van een bitmap, het canvas voor uw afbeelding:
+### Stap 1: Een bitmap maken (het canvas)
+Eerst maken we een bitmap die de uiteindelijke afbeelding zal bevatten. De bitmap‑grootte en pixel‑formaat bepalen de kwaliteit van de opgeslagen PNG.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Stap 2: Maak afbeeldingen
-
-Maak vervolgens afbeeldingen van de bitmap om erop te tekenen:
+### Stap 2: Graphics van bitmap maken
+Vervolgens verkrijgen we een `Graphics`‑object van de bitmap. Dit object laat ons vormen, tekst en afbeeldingen op het canvas tekenen.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +66,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Stap 3: Penseel en lettertype instellen
-
-Definieer een penseel en een lettertype voor uw tekst:
+### Stap 3: Brush en font instellen (tekst tekenen met lettertypen)
+We hebben een brush nodig voor de tekstkleur en een `Font`‑object dat het lettertype, de grootte en de stijl definieert.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +75,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Stap 4: Geef informatie over geïnstalleerde lettertypen weer
-
-Informatie over geïnstalleerde lettertypen op de afbeelding weergeven:
+### Stap 4: Geïnstalleerde lettertypen opsommen en lettertypefamilies tonen
+Nu tonen we het aantal lettertypefamilies en de eerste paar namen direct op de bitmap. Dit demonstreert de **list installed fonts**‑ en **show font families**‑functionaliteit.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +87,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Stap 5: Afbeelding opslaan
-
-Sla de afbeelding op in de gewenste map:
+### Stap 5: PNG‑afbeelding opslaan
+Tot slot schrijven we de bitmap naar schijf als een PNG‑bestand. Dit is de kern van de **save png image**‑operatie.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-Gefeliciteerd! U hebt met succes een afbeelding gemaakt met informatie over geïnstalleerde lettertypen met behulp van Aspose.Drawing voor .NET.
+> **Pro tip:** Gebruik `Path.Combine` voor het bouwen van bestands‑paden om problemen met scheidingstekens op verschillende besturingssystemen te voorkomen.
 
-## Conclusie
-
-Het beheersen van de manipulatie van geïnstalleerde lettertypen in Aspose.Drawing opent nieuwe mogelijkheden voor het creëren van visueel aantrekkelijke afbeeldingen in uw .NET-toepassingen. Experimenteer met verschillende lettertypen en stijlen om de esthetiek van uw grafische inhoud te verbeteren.
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| **Geen lettertypen weergegeven** | `InstalledFontCollection` niet gevuld (bijv. draaien op een headless server zonder lettertypen). | Installeer de benodigde lettertypen op de server of embed aangepaste lettertypen in je applicatie. |
+| **Opgeslagen bestand is corrupt** | Onjuist pixel‑formaat of ontbrekende schrijfrechten. | Zorg dat de doelmap bestaat en de app schrijfrechten heeft; behoud `Format32bppPArgb`. |
+| **Tekst ziet er wazig uit** | Lage DPI‑instellingen. | Vergroot de bitmap‑afmetingen of stel `graphics.SmoothingMode = SmoothingMode.AntiAlias` in. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik aangepaste lettertypen gebruiken met Aspose.Drawing?
+**V: Kan ik aangepaste lettertypen gebruiken die niet op de machine geïnstalleerd zijn?**  
+A: Ja. Laad het lettertypebestand in een `PrivateFontCollection` en maak een `Font` vanuit die collectie.
 
-A1: Ja, u kunt aangepaste lettertypen gebruiken door het pad van het lettertypebestand op te geven terwijl u een Font-object maakt.
+**V: Hoe ga ik om met lettertype‑gerelateerde uitzonderingen?**  
+A: Plaats het maken van het lettertype in een `try/catch`‑blok en inspecteer `ArgumentException` voor ontbrekende families.
 
-### Vraag 2: Hoe ga ik om met lettertypegerelateerde fouten?
+**V: Is Aspose.Drawing geschikt voor webapplicaties?**  
+A: Absoluut. De bibliotheek werkt in ASP.NET Core, Azure Functions en andere server‑side omgevingen.
 
-A2: Controleer de Aspose.Drawing-documentatie voor foutafhandelingsstrategieën die specifiek zijn voor lettertypegerelateerde problemen.
+**V: Kan ik de tekstkleur of stijl wijzigen?**  
+A: Ja. Gebruik verschillende `Brush`‑types (bijv. `LinearGradientBrush`) en wijzig de `FontStyle`‑enum.
 
-### Vraag 3: Is Aspose.Drawing geschikt voor webapplicaties?
+**V: Waar kan ik een tijdelijke licentie voor testdoeleinden krijgen?**  
+A: Download een proeflicentie vanaf de [Aspose tijdelijke‑licentiepagina](https://purchase.aspose.com/temporary-license/).
 
-A3: Absoluut! Aspose.Drawing kan naadloos worden geïntegreerd in webapplicaties voor het dynamisch genereren van afbeeldingen.
+## Conclusie
 
-### Vraag 4: Kan ik het uiterlijk van tekst verder aanpassen?
+Door deze stappen te volgen heb je geleerd hoe je **PNG‑afbeeldingsbestanden** kunt **opslaan** die dynamisch **geïnstalleerde lettertypen opsommen**, **lettertypefamilies tonen**, **graphics van bitmap maken** en **tekst met lettertypen tekenen** met Aspose.Drawing voor .NET. Voel je vrij om te experimenteren met andere lettertypen, kleuren en bitmap‑groottes om te voldoen aan de visuele eisen van je project.
 
-A4: Zeker! Ontdek aanvullende eigenschappen van de klassen Lettertype en Penseel voor meer aanpassingsopties.
-
-### Vraag 5: Zijn er tijdelijke licenties beschikbaar voor testdoeleinden?
-
- A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor evaluatie.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2025-12-06  
+**Getest met:** Aspose.Drawing 24.11 voor .NET  
+**Auteur:** Aspose

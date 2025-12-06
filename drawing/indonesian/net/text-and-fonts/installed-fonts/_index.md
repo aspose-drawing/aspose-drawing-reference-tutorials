@@ -1,52 +1,64 @@
 ---
-title: Bekerja dengan Font Terpasang di Aspose.Drawing
-linktitle: Bekerja dengan Font Terpasang di Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
-description: Jelajahi kekuatan Aspose.Drawing untuk .NET dalam memanipulasi font yang diinstal. Tingkatkan keterampilan pemrosesan gambar Anda dengan tutorial komprehensif ini.
+date: 2025-12-06
+description: Pelajari cara menyimpan file gambar PNG sambil menampilkan daftar font
+  yang terpasang, menunjukkan keluarga font, membuat grafik dari bitmap, dan menggambar
+  teks dengan font menggunakan Aspose.Drawing untuk .NET.
+language: id
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Simpan Gambar PNG dan Bekerja dengan Font yang Terpasang di Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /id/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bekerja dengan Font Terpasang di Aspose.Drawing
+# Simpan Gambar PNG dan Bekerja dengan Font yang Terpasang di Aspose.Drawing
 
-## Perkenalan
+## Pendahuluan
 
-Dalam bidang pengembangan .NET, Aspose.Drawing muncul sebagai alat yang ampuh untuk memanipulasi dan bekerja dengan gambar. Tutorial ini berfokus pada aspek tertentu - bekerja dengan font yang diinstal menggunakan Aspose.Drawing untuk .NET. Font memainkan peran penting dalam desain dan presentasi, dan menguasai pemanfaatannya dapat meningkatkan kemampuan pemrosesan gambar Anda secara signifikan.
+Jika Anda perlu **menyimpan gambar PNG** yang juga menampilkan informasi tentang font yang terpasang pada mesin, Aspose.Drawing untuk .NET memberikan cara yang bersih dan lintas‑platform untuk melakukannya. Dalam tutorial ini kami akan menelusuri cara menampilkan daftar font yang terpasang, memperlihatkan keluarga font, membuat grafik dari bitmap, dan menggambar teks dengan font — semua sambil akhirnya menyimpan hasilnya sebagai gambar PNG. Pada akhir tutorial Anda akan memiliki potongan kode yang dapat digunakan kembali di proyek .NET mana pun.
+
+## Jawaban Cepat
+- **Apa yang dibuat tutorial ini?** Gambar PNG yang menampilkan daftar keluarga font yang terpasang.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Drawing untuk .NET (tidak memerlukan System.Drawing.Common).  
+- **Apakah saya dapat menggunakan font khusus?** Ya – cukup muat mereka ke dalam `InstalledFontCollection`.  
+- **Apakah resolusi output dapat disesuaikan?** Tentu – ubah ukuran bitmap atau format piksel.  
+- **Apakah saya memerlukan lisensi untuk menjalankan kode?** Lisensi sementara berfungsi untuk evaluasi; lisensi penuh diperlukan untuk produksi.
+
+## Apa itu “menyimpan gambar PNG” dalam konteks Aspose.Drawing?
+Menyimpan gambar PNG berarti merender permukaan gambar Anda (sebuah `Bitmap`) ke file dengan ekstensi `.png`. Aspose.Drawing menangani proses enkoding, jadi Anda hanya perlu memanggil `bitmap.Save(...)` dengan jalur yang diinginkan.
+
+## Mengapa menampilkan daftar font yang terpasang dan memperlihatkan keluarga font?
+Mengetahui font apa saja yang tersedia memungkinkan Anda membuat grafik dinamis yang menyesuaikan dengan lingkungan pengguna akhir. Ini sangat berguna untuk menghasilkan laporan, sertifikat, atau konten visual apa pun yang harus mencerminkan identitas merek perusahaan tanpa harus menyertakan file font.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+- **Perpustakaan Aspose.Drawing** – unduh versi terbaru dari [halaman unduhan Aspose Drawing](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider, atau editor lain yang kompatibel dengan .NET.  
+- **Pengetahuan dasar C#** – Anda sebaiknya nyaman dengan kelas, objek, dan perulangan sederhana.
 
-1.  Perpustakaan Aspose.Drawing: Pastikan Anda telah menginstal perpustakaan Aspose.Drawing. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/drawing/net/).
-
-2. Lingkungan Pengembangan Terpadu (IDE): Siapkan lingkungan pengembangan .NET yang berfungsi, seperti Visual Studio.
-
-3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# sangat penting untuk memahami dan menerapkan contoh yang diberikan.
-
-## Impor Namespace
-
-Untuk mulai bekerja dengan font yang diinstal di Aspose.Drawing, Anda perlu mengimpor namespace yang diperlukan. Dalam kode C# Anda, sertakan yang berikut ini:
+## Mengimpor Namespace
+Untuk bekerja dengan font dan grafik, impor namespace berikut di bagian atas file C# Anda:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Langkah 1: Buat Bitmap
+## Panduan Langkah‑per‑Langkah
 
-Mulailah dengan membuat bitmap, kanvas untuk gambar Anda:
+### Langkah 1: Buat bitmap (kanvas)
+Pertama, kami membuat bitmap yang akan menampung gambar akhir. Ukuran bitmap dan format piksel menentukan kualitas PNG yang disimpan.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Langkah 2: Buat Grafik
-
-Selanjutnya, buat grafik dari bitmap untuk digambar di atasnya:
+### Langkah 2: Buat grafik dari bitmap
+Selanjutnya, kami memperoleh objek `Graphics` dari bitmap. Objek ini memungkinkan kami menggambar bentuk, teks, dan gambar ke kanvas.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +66,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Langkah 3: Siapkan Kuas dan Font
-
-Tentukan kuas dan font untuk teks Anda:
+### Langkah 3: Siapkan kuas dan font (menggambar teks dengan font)
+Kami memerlukan kuas untuk warna teks dan objek `Font` yang mendefinisikan jenis huruf, ukuran, serta gaya.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +75,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Langkah 4: Tampilkan Informasi Font yang Terpasang
-
-Menampilkan informasi tentang font yang diinstal pada gambar:
+### Langkah 4: Daftar font yang terpasang dan tampilkan keluarga font
+Sekarang kami menampilkan jumlah keluarga font dan beberapa nama pertama langsung pada bitmap. Ini mendemonstrasikan kemampuan **list installed fonts** dan **show font families**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +87,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Langkah 5: Simpan Gambar
-
-Simpan gambar ke direktori yang Anda inginkan:
+### Langkah 5: Simpan gambar PNG
+Akhirnya, kami menulis bitmap ke disk sebagai file PNG. Inilah operasi inti **save png image**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-Selamat! Anda telah berhasil membuat gambar yang menampilkan informasi tentang font yang diinstal menggunakan Aspose.Drawing untuk .NET.
+> **Tip pro:** Gunakan `Path.Combine` untuk membangun jalur file agar terhindar dari masalah pemisah direktori pada sistem operasi yang berbeda.
+
+## Masalah Umum dan Solusinya
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| **Tidak ada font yang ditampilkan** | `InstalledFontCollection` tidak terisi (misalnya, dijalankan pada server tanpa tampilan grafis). | Pasang font yang diperlukan pada server atau sematkan font khusus dalam aplikasi Anda. |
+| **File yang disimpan rusak** | Format piksel tidak tepat atau izin menulis tidak cukup. | Pastikan folder tujuan ada dan aplikasi memiliki akses menulis; pertahankan `Format32bppPArgb`. |
+| **Teks terlihat buram** | Pengaturan DPI rendah. | Tingkatkan dimensi bitmap atau setel `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya menggunakan font khusus yang tidak terpasang di mesin?**  
+J: Ya. Muat file font ke dalam `PrivateFontCollection` dan buat `Font` dari koleksi tersebut.
+
+**T: Bagaimana cara menangani pengecualian terkait font?**  
+J: Bungkus pembuatan font dalam blok `try/catch` dan periksa `ArgumentException` untuk keluarga yang tidak ditemukan.
+
+**T: Apakah Aspose.Drawing cocok untuk aplikasi web?**  
+J: Tentu. Perpustakaan ini bekerja di ASP.NET Core, Azure Functions, dan lingkungan server‑side lainnya.
+
+**T: Bisakah saya mengubah warna atau gaya teks?**  
+J: Ya. Gunakan tipe `Brush` yang berbeda (misalnya `LinearGradientBrush`) dan ubah enum `FontStyle`.
+
+**T: Di mana saya dapat memperoleh lisensi sementara untuk pengujian?**  
+J: Unduh lisensi percobaan dari [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Kesimpulan
 
-Menguasai manipulasi font yang diinstal di Aspose.Drawing membuka kemungkinan baru untuk membuat gambar yang menarik secara visual di aplikasi .NET Anda. Bereksperimenlah dengan berbagai font dan gaya untuk meningkatkan estetika konten grafis Anda.
+Dengan mengikuti langkah‑langkah ini Anda telah belajar cara **menyimpan gambar PNG** yang secara dinamis **menampilkan daftar font yang terpasang**, **menunjukkan keluarga font**, **membuat grafik dari bitmap**, dan **menggambar teks dengan font** menggunakan Aspose.Drawing untuk .NET. Jangan ragu untuk bereksperimen dengan font lain, warna, dan ukuran bitmap agar sesuai dengan kebutuhan visual proyek Anda.
 
-## FAQ
-
-### Q1: Bisakah saya menggunakan font khusus dengan Aspose.Drawing?
-
-A1: Ya, Anda dapat menggunakan font khusus dengan menentukan jalur file font saat membuat objek Font.
-
-### Q2: Bagaimana cara menangani kesalahan terkait font?
-
-A2: Periksa dokumentasi Aspose.Drawing untuk mengetahui strategi penanganan kesalahan khusus untuk masalah terkait font.
-
-### Q3: Apakah Aspose.Drawing cocok untuk aplikasi web?
-
-A3: Tentu saja! Aspose.Drawing dapat diintegrasikan dengan mulus ke dalam aplikasi web untuk menghasilkan gambar dinamis.
-
-### Q4: Dapatkah saya menyesuaikan tampilan teks lebih lanjut?
-
-A4: Tentu saja! Jelajahi properti tambahan kelas Font dan Kuas untuk opsi penyesuaian lainnya.
-
-### Q5: Apakah lisensi sementara tersedia untuk tujuan pengujian?
-
- A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2025-12-06  
+**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
+**Penulis:** Aspose

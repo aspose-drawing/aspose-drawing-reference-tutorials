@@ -1,52 +1,64 @@
 ---
-title: Làm việc với các phông chữ đã cài đặt trong Aspose.draw
-linktitle: Làm việc với các phông chữ đã cài đặt trong Aspose.draw
-second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
-description: Khám phá sức mạnh của Aspose.draw cho .NET trong việc thao tác các phông chữ đã cài đặt. Nâng cao kỹ năng xử lý hình ảnh của bạn với hướng dẫn toàn diện này.
+date: 2025-12-06
+description: Tìm hiểu cách lưu tệp hình ảnh PNG đồng thời liệt kê các phông chữ đã
+  cài đặt, hiển thị họ phông chữ, tạo đồ họa từ bitmap và vẽ văn bản bằng phông chữ
+  sử dụng Aspose.Drawing cho .NET.
+language: vi
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Lưu hình ảnh PNG và làm việc với các phông chữ đã cài đặt trong Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /vi/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Làm việc với các phông chữ đã cài đặt trong Aspose.draw
+# Lưu ảnh PNG và làm việc với các phông chữ đã cài đặt trong Aspose.Drawing
 
 ## Giới thiệu
 
-Trong lĩnh vực phát triển .NET, Aspose.draw nổi lên như một công cụ mạnh mẽ để thao tác và làm việc với hình ảnh. Hướng dẫn này tập trung vào một khía cạnh cụ thể - làm việc với các phông chữ đã cài đặt bằng Aspose.draw cho .NET. Phông chữ đóng một vai trò quan trọng trong thiết kế và trình bày, đồng thời việc sử dụng thành thạo phông chữ có thể nâng cao đáng kể khả năng xử lý hình ảnh của bạn.
+Nếu bạn cần **lưu tệp ảnh PNG** đồng thời hiển thị thông tin về các phông chữ đã cài đặt trên máy, Aspose.Drawing cho .NET cung cấp cho bạn một cách sạch sẽ, đa nền tảng để thực hiện. Trong hướng dẫn này, chúng ta sẽ đi qua việc liệt kê các phông chữ đã cài đặt, hiển thị các họ phông chữ, tạo đồ họa từ bitmap và vẽ văn bản bằng phông chữ — tất cả đều cuối cùng được lưu dưới dạng ảnh PNG. Khi kết thúc, bạn sẽ có một đoạn mã có thể tái sử dụng trong bất kỳ dự án .NET nào.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **Hướng dẫn này tạo gì?** Một ảnh PNG liệt kê các họ phông chữ đã cài đặt.  
+- **Thư viện nào cần thiết?** Aspose.Drawing cho .NET (không cần System.Drawing.Common).  
+- **Có thể dùng phông chữ tùy chỉnh không?** Có – chỉ cần tải chúng vào một `InstalledFontCollection`.  
+- **Độ phân giải đầu ra có thể điều chỉnh không?** Chắc chắn – thay đổi kích thước bitmap hoặc định dạng pixel.  
+- **Có cần giấy phép để chạy mã không?** Giấy phép tạm thời hoạt động cho việc đánh giá; giấy phép đầy đủ cần thiết cho môi trường sản xuất.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “Lưu ảnh PNG” trong ngữ cảnh Aspose.Drawing là gì?
+Lưu ảnh PNG có nghĩa là render bề mặt vẽ của bạn (một `Bitmap`) thành tệp có phần mở rộng `.png`. Aspose.Drawing xử lý việc mã hoá cho bạn, vì vậy bạn chỉ cần gọi `bitmap.Save(...)` với đường dẫn mong muốn.
 
-1.  Thư viện Aspose.draw: Đảm bảo bạn đã cài đặt thư viện Aspose.draw. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/drawing/net/).
+## Tại sao phải liệt kê các phông chữ đã cài đặt và hiển thị các họ phông chữ?
+Biết được những phông chữ nào có sẵn cho phép bạn tạo đồ họa động thích ứng với môi trường của người dùng cuối. Điều này đặc biệt hữu ích khi tạo báo cáo, chứng chỉ, hoặc bất kỳ nội dung hình ảnh nào cần phù hợp với thương hiệu công ty mà không cần phân phối các tệp phông chữ.
 
-2. Môi trường phát triển tích hợp (IDE): Thiết lập môi trường phát triển .NET đang hoạt động, chẳng hạn như Visual Studio.
+## Yêu cầu trước
 
-3. Kiến thức C# cơ bản: Làm quen với ngôn ngữ lập trình C# là điều cần thiết để hiểu và triển khai các ví dụ được cung cấp.
+- **Thư viện Aspose.Drawing** – tải phiên bản mới nhất từ [trang tải Aspose Drawing](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider, hoặc bất kỳ trình soạn thảo nào hỗ trợ .NET.  
+- **Kiến thức C# cơ bản** – bạn nên quen thuộc với lớp, đối tượng và các vòng lặp đơn giản.
 
 ## Nhập không gian tên
-
-Để bắt đầu làm việc với các phông chữ đã cài đặt trong Aspose.drawing, bạn cần nhập các không gian tên cần thiết. Trong mã C# của bạn, hãy bao gồm những điều sau:
+Để làm việc với phông chữ và đồ họa, nhập các không gian tên sau ở đầu tệp C# của bạn:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Bước 1: Tạo Bitmap
+## Hướng dẫn từng bước
 
-Bắt đầu bằng cách tạo bitmap, canvas cho hình ảnh của bạn:
+### Bước 1: Tạo bitmap (bảng vẽ)
+Đầu tiên, chúng ta tạo một bitmap sẽ chứa ảnh cuối cùng. Kích thước bitmap và định dạng pixel quyết định chất lượng của PNG được lưu.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Bước 2: Tạo đồ họa
-
-Tiếp theo, tạo đồ họa từ bitmap để vẽ lên đó:
+### Bước 2: Tạo graphics từ bitmap
+Tiếp theo, chúng ta lấy một đối tượng `Graphics` từ bitmap. Đối tượng này cho phép chúng ta vẽ hình, văn bản và ảnh lên bảng vẽ.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +66,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Bước 3: Thiết lập Brush và Font
-
-Xác định bút vẽ và phông chữ cho văn bản của bạn:
+### Bước 3: Thiết lập brush và font (vẽ văn bản với phông chữ)
+Chúng ta cần một brush cho màu văn bản và một đối tượng `Font` xác định kiểu chữ, kích thước và kiểu dáng.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +75,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Bước 4: Hiển thị thông tin phông chữ đã cài đặt
-
-Hiển thị thông tin về font chữ đã cài đặt trên ảnh:
+### Bước 4: Liệt kê các phông chữ đã cài đặt và hiển thị các họ phông chữ
+Bây giờ chúng ta hiển thị số lượng các họ phông chữ và một vài tên đầu tiên trực tiếp trên bitmap. Điều này minh họa khả năng **liệt kê các phông chữ đã cài đặt** và **hiển thị các họ phông chữ**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +87,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Bước 5: Lưu hình ảnh
-
-Lưu hình ảnh vào thư mục bạn muốn:
+### Bước 5: Lưu ảnh PNG
+Cuối cùng, chúng ta ghi bitmap ra đĩa dưới dạng tệp PNG. Đây là thao tác cốt lõi **lưu ảnh png**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-Chúc mừng! Bạn đã tạo thành công một hình ảnh hiển thị thông tin về các phông chữ đã cài đặt bằng Aspose.draw cho .NET.
+> **Mẹo chuyên nghiệp:** Sử dụng `Path.Combine` để xây dựng đường dẫn tệp nhằm tránh các vấn đề về ký tự phân tách thư mục trên các hệ điều hành khác nhau.
 
-## Phần kết luận
-
-Việc thành thạo thao tác với các phông chữ được cài đặt trong Aspose. Draw sẽ mở ra những khả năng mới để tạo hình ảnh hấp dẫn trực quan trong các ứng dụng .NET của bạn. Thử nghiệm với các phông chữ và kiểu khác nhau để nâng cao tính thẩm mỹ cho nội dung đồ họa của bạn.
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|-------------|----------------|
+| **Không hiển thị phông chữ** | `InstalledFontCollection` không được nạp (ví dụ: chạy trên máy chủ không có giao diện đồ họa). | Cài đặt các phông chữ cần thiết trên máy chủ hoặc nhúng phông chữ tùy chỉnh vào ứng dụng của bạn. |
+| **Tệp đã lưu bị hỏng** | Định dạng pixel không đúng hoặc thiếu quyền ghi. | Đảm bảo thư mục đích tồn tại và ứng dụng có quyền ghi; giữ `Format32bppPArgb`. |
+| **Văn bản bị mờ** | Cài đặt DPI thấp. | Tăng kích thước bitmap hoặc đặt `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng phông chữ tùy chỉnh với Aspose.drawing không?
+**H: Tôi có thể sử dụng phông chữ tùy chỉnh không có trên máy không?**  
+Đ: Có. Tải tệp phông chữ vào một `PrivateFontCollection` và tạo `Font` từ bộ sưu tập đó.
 
-Câu trả lời 1: Có, bạn có thể sử dụng phông chữ tùy chỉnh bằng cách chỉ định đường dẫn của tệp phông chữ trong khi tạo đối tượng Phông chữ.
+**H: Làm sao xử lý các ngoại lệ liên quan đến phông chữ?**  
+Đ: Bao quanh việc tạo phông chữ bằng khối `try/catch` và kiểm tra `ArgumentException` để biết thiếu họ phông chữ.
 
-### Câu hỏi 2: Làm cách nào để xử lý các lỗi liên quan đến phông chữ?
+**H: Aspose.Drawing có phù hợp cho ứng dụng web không?**  
+Đ: Hoàn toàn. Thư viện hoạt động trong ASP.NET Core, Azure Functions và các môi trường phía máy chủ khác.
 
-Câu trả lời 2: Kiểm tra tài liệu Aspose.drawing để biết các chiến lược xử lý lỗi cụ thể đối với các vấn đề liên quan đến phông chữ.
+**H: Tôi có thể thay đổi màu hoặc kiểu chữ không?**  
+Đ: Có. Sử dụng các loại `Brush` khác nhau (ví dụ: `LinearGradientBrush`) và thay đổi enum `FontStyle`.
 
-### Câu 3: Aspose.draw có phù hợp với các ứng dụng web không?
+**H: Tôi có thể lấy giấy phép tạm thời để thử nghiệm ở đâu?**  
+Đ: Tải giấy phép dùng thử từ [trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
 
-A3: Chắc chắn rồi! Aspose.draw có thể được tích hợp liền mạch vào các ứng dụng web để tạo hình ảnh động.
+## Kết luận
 
-### Q4: Tôi có thể tùy chỉnh thêm hình thức của văn bản không?
+Bằng cách thực hiện các bước trên, bạn đã học được cách **lưu tệp ảnh PNG** mà động **liệt kê các phông chữ đã cài đặt**, **hiển thị các họ phông chữ**, **tạo đồ họa từ bitmap**, và **vẽ văn bản với phông chữ** bằng Aspose.Drawing cho .NET. Hãy tự do thử nghiệm với các phông chữ, màu sắc và kích thước bitmap khác nhau để đáp ứng yêu cầu hình ảnh của dự án.
 
-A4: Chắc chắn rồi! Khám phá các thuộc tính bổ sung của lớp Phông chữ và Bút vẽ để có thêm tùy chọn tùy chỉnh.
-
-### Câu hỏi 5: Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
-
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để đánh giá.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2025-12-06  
+**Đã kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
+**Tác giả:** Aspose
