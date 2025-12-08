@@ -97,12 +97,6 @@ Odkryj magię mieszania alfa w grafice .NET z Aspose.Drawing. Podnieś swoje pro
 Ulepsz grafikę w aplikacjach .NET przy użyciu Aspose.Drawing. Zaimplementuj antyaliasing dla gładkich krawędzi. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Poznaj moc Aspose.Drawing dla .NET w tym samouczku krok po kroku dotyczącym implementacji przycinania dla lepszego projektowania graficznego.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -126,3 +120,10 @@ Poznaj moc Aspose.Drawing dla .NET w tym samouczku krok po kroku dotyczącym imp
 **Ostatnia aktualizacja:** 2025-12-05  
 **Testowano z:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

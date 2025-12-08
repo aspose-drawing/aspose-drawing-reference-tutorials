@@ -86,12 +86,6 @@ Desbloqueie a magia do alpha blending em gráficos .NET com Aspose.Drawing. Elev
 Melhore os gráficos em aplicações .NET com Aspose.Drawing. Implemente antialiasing para bordas suaves. Siga nosso guia passo a passo.
 ### [Clipping no Aspose.Drawing](./clipping/)
 Explore o poder do Aspose.Drawing para .NET com este tutorial passo a passo sobre implementação de clipping para aprimorar o design gráfico.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Perguntas Frequentes
 
@@ -115,3 +109,10 @@ A: Sim. Você pode criar um `GraphicsPath` com qualquer forma e passá‑lo para
 **Última atualização:** 2025-12-05  
 **Testado com:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

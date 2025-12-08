@@ -83,12 +83,6 @@ Alpha blending’in .NET grafiklerindeki büyüsünü keşfedin. Projelerinizi y
 Aspose.Drawing kullanarak .NET uygulamalarında grafikleri geliştirin. Pürüzsüz kenarlar için antialiasing’i uygulayın. Adım adım rehberimizi izleyin.
 ### [Aspose.Drawing'de Clipping](./clipping/)
 Aspose.Drawing’in .NET için sunduğu gücü, clipping uygulamasıyla grafik tasarımınızı geliştirmek için bu adım adım öğreticide keşfedin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Sıkça Sorulan Sorular
 
@@ -112,3 +106,10 @@ C: Evet. Herhangi bir şekle sahip bir `GraphicsPath` oluşturup `SetClip` ile g
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

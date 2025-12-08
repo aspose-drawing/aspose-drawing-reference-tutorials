@@ -75,12 +75,6 @@ Ontgrendel de magie van alpha blending in .NET‑graphics met Aspose.Drawing. Ve
 Verbeter graphics in .NET‑applicaties met Aspose.Drawing. Implementeer antialiasing voor gladde randen. Volg onze stap‑voor‑stap gids.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Ontdek de kracht van Aspose.Drawing voor .NET met deze stap‑voor‑stap tutorial over het implementeren van clipping voor verbeterd grafisch ontwerp.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde Vragen
 
@@ -104,3 +98,10 @@ A: Ja. Je kunt een `GraphicsPath` met elke vorm maken en deze aan `SetClip` door
 **Laatst Bijgewerkt:** 2025-12-05  
 **Getest Met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

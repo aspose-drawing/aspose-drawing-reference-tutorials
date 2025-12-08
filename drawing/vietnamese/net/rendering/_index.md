@@ -83,12 +83,6 @@ Mở khóa phép màu của alpha blending trong đồ họa .NET với Aspose.D
 Cải thiện đồ họa trong các ứng dụng .NET bằng Aspose.Drawing. Triển khai antialiasing để có các cạnh mượt mà. Theo dõi hướng dẫn từng bước của chúng tôi.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Khám phá sức mạnh của Aspose.Drawing cho .NET qua tutorial từng bước về việc triển khai clipping để nâng cao thiết kế đồ họa.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Câu hỏi thường gặp
 
@@ -112,3 +106,10 @@ A: Yes. You can create a `GraphicsPath` with any shape and pass it to `SetClip` 
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

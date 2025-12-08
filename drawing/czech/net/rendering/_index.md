@@ -83,12 +83,6 @@ Odemkněte kouzlo alfa míchání v .NET grafice s Aspose.Drawing. Pozvedněte s
 Vylepšete grafiku v .NET aplikacích s Aspose.Drawing. Implementujte antialiasing pro hladké hrany. Následujte náš krok‑za‑krokem průvodce.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Prozkoumejte sílu Aspose.Drawing pro .NET v tomto krok‑za‑krokem tutoriálu o implementaci ořezávání pro vylepšený grafický design.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Často kladené otázky
 
@@ -112,3 +106,10 @@ A: Ano. Můžete vytvořit `GraphicsPath` s libovolným tvarem a předat jej met
 **Poslední aktualizace:** 2025-12-05  
 **Testováno s:** Aspose.Drawing 24.11 pro .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

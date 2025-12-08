@@ -82,12 +82,6 @@ weight: 25
 حسّن الرسوميات في تطبيقات .NET باستخدام Aspose.Drawing. نفّذ مضاد التسنين لحواف ناعمة. اتبع دليلنا خطوة‑بخطوة.
 ### [القص في Aspose.Drawing](./clipping/)
 استكشف قوة Aspose.Drawing لـ .NET من خلال هذا الدليل خطوة‑بخطوة لتطبيق القص لتحسين تصميم الرسوميات.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -111,3 +105,10 @@ weight: 25
 **آخر تحديث:** 2025-12-05  
 **تم الاختبار مع:** Aspose.Drawing 24.11 لـ .NET  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

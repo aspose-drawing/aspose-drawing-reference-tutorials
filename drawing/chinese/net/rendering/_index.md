@@ -86,12 +86,6 @@ Alpha 混合是 .NET 图形中实现惊艳半透明效果的秘密武器。使�
 
 ### [Clipping in Aspose.Drawing](./clipping/)
 通过本逐步教程，探索 Aspose.Drawing 在 .NET 中实现裁剪的强大功能，提升图形设计的精准度。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常见问题
 
@@ -115,3 +109,10 @@ A: 可以。您可以创建任意形状的 `GraphicsPath`，并将其传递给 `
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

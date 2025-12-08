@@ -80,12 +80,6 @@ Unlock the magic of alpha blending in .NET graphics with Aspose.Drawing. Elevate
 Enhance graphics in .NET applications with Aspose.Drawing. Implement antialiasing for smooth edges. Follow our step‑by‑step guide.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Explore the power of Aspose.Drawing for .NET with this step‑by‑step tutorial on implementing clipping for enhanced graphic design.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -109,3 +103,10 @@ A: Yes. You can create a `GraphicsPath` with any shape and pass it to `SetClip` 
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

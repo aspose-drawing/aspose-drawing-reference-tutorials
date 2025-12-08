@@ -84,13 +84,6 @@ Aspose.Drawing का उपयोग करके .NET एप्लिकेश
 ### [Aspose.Drawing में Clipping](./clipping/)
 .NET के लिए Aspose.Drawing की शक्ति को इस चरण‑दर‑चरण ट्यूटोरियल के साथ एक्सप्लोर करें, जहाँ आप क्लिपिंग को लागू करके ग्राफ़िक डिज़ाइन को बेहतर बनाते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं इन रेंडरिंग तकनीकों को .NET Core प्रोजेक्ट में उपयोग कर सकता हूँ?**  
@@ -113,3 +106,10 @@ Aspose.Drawing का उपयोग करके .NET एप्लिकेश
 **अंतिम अपडेट:** 2025-12-05  
 **टेस्टेड विथ:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -83,12 +83,6 @@ weight: 25
 Улучшайте графику в .NET‑приложениях с Aspose.Drawing. Реализуйте antialiasing для гладких краёв. Следуйте нашему пошаговому руководству.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Исследуйте возможности Aspose.Drawing для .NET в этом пошаговом руководстве по реализации clipping для улучшенного графического дизайна.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Часто задаваемые вопросы
 
@@ -112,3 +106,10 @@ A: Да. Вы можете создать `GraphicsPath` любой формы �
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

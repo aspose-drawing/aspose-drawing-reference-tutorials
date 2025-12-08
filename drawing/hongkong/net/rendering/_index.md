@@ -84,13 +84,6 @@ Alpha blending 是 .NET 圖形中驚豔半透明效果的祕密調味料。使�
 ### [Clipping in Aspose.Drawing](./clipping/)
 探索 Aspose.Drawing 在 .NET 中的強大功能，透過此逐步教學實作 clipping，提升圖形設計的精準度。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在 .NET Core 專案中使用這些渲染技術嗎？**  
@@ -113,3 +106,10 @@ A: 可以。您可以使用任意形狀建立 `GraphicsPath`，再將其傳遞�
 **最後更新：** 2025-12-05  
 **測試環境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

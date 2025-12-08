@@ -85,12 +85,6 @@ Tingkatkan grafis dalam aplikasi .NET dengan Aspose.Drawing. Terapkan antialiasi
 
 ### [Clipping dalam Aspose.Drawing](./clipping/)
 Jelajahi kekuatan Aspose.Drawing untuk .NET dengan tutorial langkah demi langkah ini tentang penerapan clipping untuk desain grafis yang lebih baik.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -114,3 +108,10 @@ A: Ya. Anda dapat membuat `GraphicsPath` dengan bentuk apa pun dan melewatkannya
 **Terakhir Diperbarui:** 2025-12-05  
 **Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

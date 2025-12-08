@@ -83,12 +83,6 @@ Fedezze fel az alfa keverés varázsát a .NET grafikában az Aspose.Drawing seg
 Fejlessze a grafikákat .NET alkalmazásokban az Aspose.Drawing segítségével. Valósítsa meg az antialiasing-et a sima élekért. Kövesse lépésről lépésre útmutatónkat.
 ### [Clipping in Aspose.Drawing](./clipping/)
 Fedezze fel az Aspose.Drawing .NET-re vonatkozó erejét ezzel a lépésről lépésre tutorialral, amely a clipping megvalósítását mutatja a fejlett grafikai tervezéshez.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Gyakran Ismételt Kérdések
 
@@ -112,3 +106,10 @@ A: Igen. Létrehozhat egy `GraphicsPath`-t bármilyen alakzattal, és átadhatja
 **Utoljára frissítve:** 2025-12-05  
 **Tesztelve ezzel:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

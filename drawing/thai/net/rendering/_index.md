@@ -82,12 +82,6 @@ Alpha blending คือสูตรลับเบื้องหลังเ�
 ยกระดับกราฟิกในแอปพลิเคชัน .NET ด้วย Aspose.Drawing ใช้ antialiasing เพื่อให้ขอบเรียบเนียน ตามขั้นตอนของเรา
 ### [Clipping ใน Aspose.Drawing](./clipping/)
 สำรวจพลังของ Aspose.Drawing สำหรับ .NET ผ่านบทเรียนขั้นตอนการทำ clipping เพื่อการออกแบบกราฟิกที่ดียิ่งขึ้น
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## คำถามที่พบบ่อย
 
@@ -111,3 +105,10 @@ A: ได้ คุณสามารถสร้าง `GraphicsPath` ด้ว
 **อัปเดตล่าสุด:** 2025-12-05  
 **ทดสอบกับ:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
