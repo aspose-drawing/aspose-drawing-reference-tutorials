@@ -1,52 +1,64 @@
 ---
-title: Trabajar con fuentes instaladas en Aspose.Drawing
-linktitle: Trabajar con fuentes instaladas en Aspose.Drawing
-second_title: Aspose.Drawing .NET API alternativa a System.Drawing.Common
-description: Explore el poder de Aspose.Drawing para .NET en la manipulación de fuentes instaladas. Mejore sus habilidades de procesamiento de imágenes con este completo tutorial.
+date: 2025-12-06
+description: Aprenda a guardar archivos de imagen PNG mientras enumera las fuentes
+  instaladas, muestra familias de fuentes, crea gráficos a partir de mapas de bits
+  y dibuja texto con fuentes usando Aspose.Drawing para .NET.
+language: es
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Guardar imagen PNG y trabajar con fuentes instaladas en Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /es/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trabajar con fuentes instaladas en Aspose.Drawing
+# Guardar imagen PNG y trabajar con fuentes instaladas en Aspose.Drawing
 
 ## Introducción
 
-En el ámbito del desarrollo .NET, Aspose.Drawing surge como una poderosa herramienta para manipular y trabajar con imágenes. Este tutorial se centra en un aspecto específico: trabajar con fuentes instaladas usando Aspose.Drawing para .NET. Las fuentes desempeñan un papel crucial en el diseño y la presentación, y dominar su utilización puede mejorar significativamente sus capacidades de procesamiento de imágenes.
+Si necesitas **guardar archivos de imagen PNG** que también muestren información sobre las fuentes instaladas en una máquina, Aspose.Drawing para .NET te ofrece una forma limpia y multiplataforma de hacerlo. En este tutorial recorreremos cómo enumerar fuentes instaladas, mostrar familias de fuentes, crear gráficos a partir de un bitmap y dibujar texto con fuentes, todo mientras finalmente guardamos el resultado como una imagen PNG. Al final tendrás un fragmento reutilizable que podrás insertar en cualquier proyecto .NET.
+
+## Respuestas rápidas
+- **¿Qué crea este tutorial?** Una imagen PNG que enumera las familias de fuentes instaladas.  
+- **¿Qué biblioteca se requiere?** Aspose.Drawing para .NET (no se necesita System.Drawing.Common).  
+- **¿Puedo usar fuentes personalizadas?** Sí, solo cárgalas en una `InstalledFontCollection`.  
+- **¿Se puede ajustar la resolución de salida?** Por supuesto, cambia el tamaño del bitmap o el formato de píxel.  
+- **¿Necesito una licencia para ejecutar el código?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para producción.
+
+## ¿Qué significa “guardar imagen PNG” en el contexto de Aspose.Drawing?
+Guardar una imagen PNG implica renderizar tu superficie de dibujo (un `Bitmap`) a un archivo con la extensión `.png`. Aspose.Drawing se encarga de la codificación, por lo que solo necesitas llamar a `bitmap.Save(...)` con la ruta deseada.
+
+## ¿Por qué enumerar fuentes instaladas y mostrar familias de fuentes?
+Saber qué fuentes están disponibles te permite crear gráficos dinámicos que se adapten al entorno del usuario final. Es especialmente útil para generar informes, certificados o cualquier contenido visual que deba coincidir con la identidad corporativa sin distribuir archivos de fuentes.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-1.  Biblioteca Aspose.Drawing: asegúrese de tener instalada la biblioteca Aspose.Drawing. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/drawing/net/).
-
-2. Entorno de desarrollo integrado (IDE): tenga configurado un entorno de desarrollo .NET que funcione, como Visual Studio.
-
-3. Conocimientos básicos de C#: la familiaridad con el lenguaje de programación C# es esencial para comprender e implementar los ejemplos proporcionados.
+- **Biblioteca Aspose.Drawing** – descarga la última versión desde la [página de descarga de Aspose Drawing](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider o cualquier editor compatible con .NET.  
+- **Conocimientos básicos de C#** – deberías estar cómodo con clases, objetos y bucles simples.
 
 ## Importar espacios de nombres
-
-Para comenzar a trabajar con las fuentes instaladas en Aspose.Drawing, debe importar los espacios de nombres necesarios. En su código C#, incluya lo siguiente:
+Para trabajar con fuentes y gráficos, importa estos espacios de nombres al inicio de tu archivo C#:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Paso 1: crear mapa de bits
+## Guía paso a paso
 
-Comience creando un mapa de bits, el lienzo de su imagen:
+### Paso 1: Crear un bitmap (el lienzo)
+Primero, creamos un bitmap que contendrá la imagen final. El tamaño del bitmap y el formato de píxel determinan la calidad del PNG guardado.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Paso 2: crear gráficos
-
-A continuación, cree gráficos a partir del mapa de bits para dibujar en él:
+### Paso 2: Crear gráficos a partir del bitmap
+A continuación, obtenemos un objeto `Graphics` del bitmap. Este objeto nos permite dibujar formas, texto e imágenes sobre el lienzo.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +66,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Paso 3: configurar el pincel y la fuente
-
-Defina un pincel y una fuente para su texto:
+### Paso 3: Configurar pincel y fuente (dibujar texto con fuentes)
+Necesitamos un pincel para el color del texto y un objeto `Font` que defina el tipo de letra, tamaño y estilo.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +75,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Paso 4: Mostrar información de fuentes instaladas
-
-Muestra información sobre las fuentes instaladas en la imagen:
+### Paso 4: Enumerar fuentes instaladas y mostrar familias de fuentes
+Ahora mostramos el número de familias de fuentes y los primeros nombres directamente en el bitmap. Esto demuestra las capacidades de **enumerar fuentes instaladas** y **mostrar familias de fuentes**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +87,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Paso 5: guardar imagen
-
-Guarde la imagen en el directorio que desee:
+### Paso 5: Guardar imagen PNG
+Finalmente, escribimos el bitmap en disco como un archivo PNG. Esta es la operación central de **guardar imagen PNG**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-¡Felicidades! Ha creado con éxito una imagen que muestra información sobre las fuentes instaladas usando Aspose.Drawing para .NET.
+> **Consejo profesional:** Usa `Path.Combine` para construir rutas de archivo y evitar problemas con los separadores de directorio en diferentes sistemas operativos.
 
-## Conclusión
-
-Dominar la manipulación de las fuentes instaladas en Aspose.Drawing abre nuevas posibilidades para crear imágenes visualmente atractivas en sus aplicaciones .NET. Experimente con diferentes fuentes y estilos para mejorar la estética de su contenido gráfico.
+## Problemas comunes y soluciones
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **No se muestran fuentes** | `InstalledFontCollection` no se pobló (p. ej., se ejecuta en un servidor sin cabeza sin fuentes). | Instala las fuentes necesarias en el servidor o incrusta fuentes personalizadas en tu aplicación. |
+| **El archivo guardado está corrupto** | Formato de píxel incorrecto o permisos de escritura insuficientes. | Asegúrate de que la carpeta de destino exista y la aplicación tenga acceso de escritura; mantén `Format32bppPArgb`. |
+| **El texto se ve borroso** | Configuración de DPI baja. | Incrementa las dimensiones del bitmap o establece `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar fuentes personalizadas con Aspose.Drawing?
+**P: ¿Puedo usar fuentes personalizadas que no estén instaladas en la máquina?**  
+R: Sí. Carga el archivo de fuente en una `PrivateFontCollection` y crea un `Font` a partir de esa colección.
 
-R1: Sí, puede utilizar fuentes personalizadas especificando la ruta del archivo de fuente al crear un objeto Fuente.
+**P: ¿Cómo manejo excepciones relacionadas con fuentes?**  
+R: Envuelve la creación de fuentes en un bloque `try/catch` y examina `ArgumentException` para detectar familias faltantes.
 
-### P2: ¿Cómo soluciono los errores relacionados con las fuentes?
+**P: ¿Es Aspose.Drawing adecuado para aplicaciones web?**  
+R: Absolutamente. La biblioteca funciona en ASP.NET Core, Azure Functions y otros entornos del lado del servidor.
 
-R2: Consulte la documentación de Aspose.Drawing para conocer estrategias de manejo de errores específicas de problemas relacionados con fuentes.
+**P: ¿Puedo cambiar el color o estilo del texto?**  
+R: Sí. Usa diferentes tipos de `Brush` (p. ej., `LinearGradientBrush`) y modifica el enumerado `FontStyle`.
 
-### P3: ¿Aspose.Drawing es adecuado para aplicaciones web?
+**P: ¿Dónde puedo obtener una licencia temporal para pruebas?**  
+R: Descarga una licencia de prueba desde la [página de licencia temporal de Aspose](https://purchase.aspose.com/temporary-license/).
 
-R3: ¡Absolutamente! Aspose.Drawing se puede integrar perfectamente en aplicaciones web para la generación dinámica de imágenes.
+## Conclusión
 
-### P4: ¿Puedo personalizar aún más la apariencia del texto?
+Al seguir estos pasos has aprendido cómo **guardar archivos de imagen PNG** que enumeren dinámicamente **fuentes instaladas**, **muestren familias de fuentes**, **creen gráficos a partir de un bitmap** y **dibujen texto con fuentes** usando Aspose.Drawing para .NET. Siéntete libre de experimentar con otras fuentes, colores y tamaños de bitmap para adaptarlos a los requisitos visuales de tu proyecto.
 
-R4: ¡Por supuesto! Explore propiedades adicionales de las clases Fuente y Pincel para obtener más opciones de personalización.
-
-### P5: ¿Hay licencias temporales disponibles para fines de prueba?
-
- R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) Para evaluar.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2025-12-06  
+**Probado con:** Aspose.Drawing 24.11 para .NET  
+**Autor:** Aspose

@@ -1,52 +1,64 @@
 ---
-title: Aspose.Drawing में स्थापित फ़ॉन्ट्स के साथ कार्य करना
-linktitle: Aspose.Drawing में स्थापित फ़ॉन्ट्स के साथ कार्य करना
-second_title: Aspose.Drawing .NET API - System.Drawing.Common का विकल्प
-description: इंस्टॉल किए गए फ़ॉन्ट में हेरफेर करने में .NET के लिए Aspose.Drawing की शक्ति का अन्वेषण करें। इस व्यापक ट्यूटोरियल के साथ अपने छवि-प्रसंस्करण कौशल को बढ़ाएं।
+date: 2025-12-06
+description: Aspose.Drawing for .NET का उपयोग करके स्थापित फ़ॉन्ट्स की सूची बनाते
+  हुए, फ़ॉन्ट परिवार दिखाते हुए, बिटमैप से ग्राफ़िक्स बनाते हुए, और फ़ॉन्ट्स के साथ
+  टेक्स्ट ड्रॉ करते हुए PNG इमेज फ़ाइलें कैसे सहेजें, सीखें।
+language: hi
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Aspose.Drawing में PNG इमेज सहेजें और स्थापित फ़ॉन्ट्स के साथ काम करें
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /hi/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing में स्थापित फ़ॉन्ट्स के साथ कार्य करना
+# PNG इमेज सहेजें और Aspose.Drawing में स्थापित फ़ॉन्ट्स के साथ काम करें
 
-## परिचय
+## Introduction
 
-.NET विकास के क्षेत्र में, Aspose.Drawing छवियों में हेरफेर करने और उनके साथ काम करने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है। यह ट्यूटोरियल एक विशिष्ट पहलू पर केंद्रित है - .NET के लिए Aspose.Drawing का उपयोग करके इंस्टॉल किए गए फ़ॉन्ट के साथ काम करना। फ़ॉन्ट डिज़ाइन और प्रस्तुति में महत्वपूर्ण भूमिका निभाते हैं, और उनके उपयोग में महारत हासिल करने से आपकी छवि-प्रसंस्करण क्षमताओं में काफी वृद्धि हो सकती है।
+यदि आपको **save PNG image** फ़ाइलें चाहिए जो मशीन पर स्थापित फ़ॉन्ट्स की जानकारी भी प्रदर्शित करती हों, तो Aspose.Drawing for .NET आपको इसे करने का एक साफ़, क्रॉस‑प्लेटफ़ॉर्म तरीका देता है। इस ट्यूटोरियल में हम स्थापित फ़ॉन्ट्स की सूची बनाना, फ़ॉन्ट फ़ैमिलीज़ दिखाना, बिटमैप से ग्राफ़िक्स बनाना, और फ़ॉन्ट्स के साथ टेक्स्ट ड्रॉ करना सीखेंगे—और अंत में परिणाम को PNG इमेज के रूप में सहेजेंगे। अंत तक आपके पास एक पुन: उपयोग योग्य स्निपेट होगा जिसे आप किसी भी .NET प्रोजेक्ट में डाल सकते हैं।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does this tutorial create?** एक PNG इमेज जो स्थापित फ़ॉन्ट फ़ैमिलीज़ की सूची देती है।  
+- **Which library is required?** Aspose.Drawing for .NET (System.Drawing.Common की आवश्यकता नहीं)।  
+- **Can I use custom fonts?** हाँ – बस उन्हें `InstalledFontCollection` में लोड करें।  
+- **Is the output resolution adjustable?** बिल्कुल – बिटमैप का आकार या पिक्सेल फ़ॉर्मेट बदलें।  
+- **Do I need a license to run the code?** मूल्यांकन के लिए एक अस्थायी लाइसेंस काम करता है; उत्पादन के लिए पूर्ण लाइसेंस आवश्यक है।
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is “save PNG image” in the context of Aspose.Drawing?
+PNG इमेज सहेजना का मतलब है आपके ड्रॉइंग सतह (`Bitmap`) को `.png` एक्सटेंशन वाली फ़ाइल में रेंडर करना। Aspose.Drawing आपके लिए एन्कोडिंग संभालता है, इसलिए आपको केवल `bitmap.Save(...)` को इच्छित पाथ के साथ कॉल करना है।
 
-1.  Aspose.Drawing लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Drawing लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/drawing/net/).
+## Why list installed fonts and show font families?
+कौन से फ़ॉन्ट उपलब्ध हैं, यह जानने से आप ऐसी डायनामिक ग्राफ़िक्स बना सकते हैं जो अंतिम उपयोगकर्ता के वातावरण के अनुसार अनुकूल हों। यह रिपोर्ट, प्रमाणपत्र, या कोई भी विज़ुअल कंटेंट बनाने में उपयोगी है जिसे कॉर्पोरेट ब्रांडिंग के साथ मेल खाना चाहिए बिना फ़ॉन्ट फ़ाइलें शिप किए।
 
-2. इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (आईडीई): एक कार्यशील .NET डेवलपमेंट एनवायरनमेंट स्थापित करें, जैसे विजुअल स्टूडियो।
+## Prerequisites
 
-3. बुनियादी सी# ज्ञान: दिए गए उदाहरणों को समझने और लागू करने के लिए सी# प्रोग्रामिंग भाषा से परिचित होना आवश्यक है।
+- **Aspose.Drawing Library** – नवीनतम संस्करण [Aspose Drawing download page](https://releases.aspose.com/drawing/net/) से डाउनलोड करें।  
+- **IDE** – Visual Studio, Rider, या कोई भी .NET‑संगत एडिटर।  
+- **Basic C# knowledge** – आपको क्लासेज़, ऑब्जेक्ट्स, और सरल लूप्स में सहज होना चाहिए।
 
-## नामस्थान आयात करें
-
-Aspose.Drawing में स्थापित फ़ॉन्ट के साथ काम करना शुरू करने के लिए, आपको आवश्यक नामस्थान आयात करने की आवश्यकता है। अपने C# कोड में, निम्नलिखित शामिल करें:
+## Import Namespaces
+फ़ॉन्ट्स और ग्राफ़िक्स के साथ काम करने के लिए, अपने C# फ़ाइल के शीर्ष पर इन नेमस्पेसेज़ को इम्पोर्ट करें:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## चरण 1: बिटमैप बनाएं
+## Step‑by‑Step Guide
 
-अपनी छवि के लिए एक बिटमैप, कैनवास बनाकर शुरुआत करें:
+### Step 1: Create a bitmap (the canvas)
+पहले, हम एक बिटमैप बनाते हैं जो अंतिम इमेज को रखेगा। बिटमैप का आकार और पिक्सेल फ़ॉर्मेट सहेजी गई PNG की गुणवत्ता निर्धारित करते हैं।
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## चरण 2: ग्राफ़िक्स बनाएं
-
-इसके बाद, उस पर चित्र बनाने के लिए बिटमैप से ग्राफ़िक्स बनाएं:
+### Step 2: Create graphics from bitmap
+अगला, हम बिटमैप से एक `Graphics` ऑब्जेक्ट प्राप्त करते हैं। यह ऑब्जेक्ट हमें कैनवास पर आकार, टेक्स्ट, और इमेज ड्रॉ करने की अनुमति देता है।
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +66,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## चरण 3: ब्रश और फ़ॉन्ट सेट करें
-
-अपने पाठ के लिए एक ब्रश और एक फ़ॉन्ट परिभाषित करें:
+### Step 3: Set up brush and font (draw text with fonts)
+टेक्स्ट का रंग देने के लिए हमें एक ब्रश चाहिए और एक `Font` ऑब्जेक्ट चाहिए जो टाइपफ़ेस, आकार, और स्टाइल को परिभाषित करता है।
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +75,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## चरण 4: स्थापित फ़ॉन्ट जानकारी प्रदर्शित करें
-
-छवि पर स्थापित फ़ॉन्ट के बारे में जानकारी प्रदर्शित करें:
+### Step 4: List installed fonts and show font families
+अब हम फ़ॉन्ट फ़ैमिलीज़ की संख्या और पहले कुछ नाम सीधे बिटमैप पर प्रदर्शित करते हैं। यह **list installed fonts** और **show font families** क्षमताओं को दर्शाता है।
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +87,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## चरण 5: छवि सहेजें
-
-छवि को अपनी इच्छित निर्देशिका में सहेजें:
+### Step 5: Save PNG image
+अंत में, हम बिटमैप को डिस्क पर PNG फ़ाइल के रूप में लिखते हैं। यही मूल **save png image** ऑपरेशन है।
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-बधाई हो! आपने .NET के लिए Aspose.Drawing का उपयोग करके इंस्टॉल किए गए फ़ॉन्ट के बारे में जानकारी प्रदर्शित करने वाली एक छवि सफलतापूर्वक बनाई है।
+> **Pro tip:** विभिन्न ऑपरेटिंग सिस्टम पर डायरेक्टरी सेपरेटर समस्याओं से बचने के लिए फ़ाइल पाथ बनाने में `Path.Combine` का उपयोग करें।
 
-## निष्कर्ष
+## Common Issues and Solutions
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **No fonts displayed** | `InstalledFontCollection` नहीं भरा गया (उदाहरण के लिए, हेडलेस सर्वर पर फ़ॉन्ट्स नहीं हैं)। | सर्वर पर आवश्यक फ़ॉन्ट्स इंस्टॉल करें या अपनी एप्लिकेशन में कस्टम फ़ॉन्ट्स एम्बेड करें। |
+| **Saved file is corrupted** | गलत पिक्सेल फ़ॉर्मेट या लिखने की अनुमति नहीं है। | सुनिश्चित करें कि लक्ष्य फ़ोल्डर मौजूद है और एप्लिकेशन को लिखने की अनुमति है; `Format32bppPArgb` रखें। |
+| **Text looks blurry** | कम DPI सेटिंग्स। | बिटमैप के आयाम बढ़ाएँ या `graphics.SmoothingMode = SmoothingMode.AntiAlias` सेट करें। |
 
-Aspose.Drawing में इंस्टॉल किए गए फ़ॉन्ट के हेरफेर में महारत हासिल करने से आपके .NET अनुप्रयोगों में आकर्षक छवियां बनाने की नई संभावनाएं खुलती हैं। अपनी ग्राफिकल सामग्री के सौंदर्यशास्त्र को बढ़ाने के लिए विभिन्न फ़ॉन्ट और शैलियों के साथ प्रयोग करें।
+## Frequently Asked Questions
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: क्या मैं उन कस्टम फ़ॉन्ट्स का उपयोग कर सकता हूँ जो मशीन पर स्थापित नहीं हैं?**  
+A: हाँ। फ़ॉन्ट फ़ाइल को `PrivateFontCollection` में लोड करें और उस कलेक्शन से `Font` बनाएं।
 
-### Q1: क्या मैं Aspose.Drawing के साथ कस्टम फ़ॉन्ट का उपयोग कर सकता हूँ?
+**Q: फ़ॉन्ट‑संबंधी एक्सेप्शन को कैसे हैंडल करूँ?**  
+A: फ़ॉन्ट निर्माण को `try/catch` ब्लॉक में रखें और गायब फ़ैमिलीज़ के लिए `ArgumentException` की जाँच करें।
 
-A1: हाँ, आप फ़ॉन्ट ऑब्जेक्ट बनाते समय फ़ॉन्ट फ़ाइल का पथ निर्दिष्ट करके कस्टम फ़ॉन्ट का उपयोग कर सकते हैं।
+**Q: क्या Aspose.Drawing वेब एप्लिकेशन्स के लिए उपयुक्त है?**  
+A: बिल्कुल। यह लाइब्रेरी ASP.NET Core, Azure Functions, और अन्य सर्वर‑साइड वातावरण में काम करती है।
 
-### Q2: मैं फ़ॉन्ट-संबंधी त्रुटियों से कैसे निपटूँ?
+**Q: क्या मैं टेक्स्ट का रंग या स्टाइल बदल सकता हूँ?**  
+A: हाँ। विभिन्न `Brush` प्रकार (जैसे `LinearGradientBrush`) का उपयोग करें और `FontStyle` enum को संशोधित करें।
 
-A2: फ़ॉन्ट-संबंधित मुद्दों के लिए विशिष्ट त्रुटि प्रबंधन रणनीतियों के लिए Aspose.Drawing दस्तावेज़ की जाँच करें।
+**Q: परीक्षण के लिए अस्थायी लाइसेंस कहाँ से प्राप्त करूँ?**  
+A: [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) से ट्रायल लाइसेंस डाउनलोड करें।
 
-### Q3: क्या Aspose.Drawing वेब अनुप्रयोगों के लिए उपयुक्त है?
+## Conclusion
 
-उ3: बिल्कुल! गतिशील छवि निर्माण के लिए Aspose.Drawing को वेब अनुप्रयोगों में सहजता से एकीकृत किया जा सकता है।
+इन चरणों का पालन करके आपने **save PNG image** फ़ाइलें बनाना सीखा जो डायनामिक रूप से **list installed fonts**, **show font families**, **create graphics from bitmap**, और **draw text with fonts** को Aspose.Drawing for .NET के साथ उपयोग करती हैं। अन्य फ़ॉन्ट्स, रंग, और बिटमैप आकारों के साथ प्रयोग करने के लिए स्वतंत्र महसूस करें ताकि आपके प्रोजेक्ट की विज़ुअल आवश्यकताओं को पूरा किया जा सके।
 
-### Q4: क्या मैं टेक्स्ट के स्वरूप को और अधिक अनुकूलित कर सकता हूँ?
-
-ए4: निश्चित रूप से! अधिक अनुकूलन विकल्पों के लिए फ़ॉन्ट और ब्रश कक्षाओं के अतिरिक्त गुणों का अन्वेषण करें।
-
-### Q5: क्या अस्थायी लाइसेंस परीक्षण उद्देश्यों के लिए उपलब्ध हैं?
-
- A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) मूल्यांकन के लिए।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose

@@ -1,52 +1,65 @@
 ---
-title: Travailler avec les polices installées dans Aspose.Drawing
-linktitle: Travailler avec les polices installées dans Aspose.Drawing
-second_title: API Aspose.Drawing .NET - Alternative à System.Drawing.Common
-description: Découvrez la puissance d'Aspose.Drawing pour .NET dans la manipulation des polices installées. Améliorez vos compétences en traitement d’images avec ce didacticiel complet.
+date: 2025-12-06
+description: Apprenez à enregistrer des fichiers image PNG tout en répertoriant les
+  polices installées, en affichant les familles de polices, en créant des graphiques
+  à partir d’un bitmap et en dessinant du texte avec des polices à l’aide d’Aspose.Drawing
+  pour .NET.
+language: fr
+linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Enregistrer une image PNG et travailler avec les polices installées dans Aspose.Drawing
+url: /net/text-and-fonts/installed-fonts/
 weight: 13
-url: /fr/net/text-and-fonts/installed-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Travailler avec les polices installées dans Aspose.Drawing
+# Enregistrer une image PNG et travailler avec les polices installées dans Aspose.Drawing
 
 ## Introduction
 
-Dans le domaine du développement .NET, Aspose.Drawing apparaît comme un outil puissant pour manipuler et travailler avec des images. Ce didacticiel se concentre sur un aspect spécifique : l'utilisation des polices installées à l'aide d'Aspose.Drawing for .NET. Les polices jouent un rôle crucial dans la conception et la présentation, et la maîtrise de leur utilisation peut améliorer considérablement vos capacités de traitement d'image.
+Si vous devez **enregistrer des fichiers image PNG** qui affichent également des informations sur les polices installées sur une machine, Aspose.Drawing pour .NET vous offre une méthode propre et multiplateforme pour le faire. Dans ce tutoriel, nous passerons en revue la liste des polices installées, l’affichage des familles de polices, la création de graphiques à partir d’un bitmap, et le dessin de texte avec des polices — le tout en enregistrant finalement le résultat sous forme d’image PNG. À la fin, vous disposerez d’un extrait réutilisable que vous pourrez intégrer à n’importe quel projet .NET.
 
-## Conditions préalables
+## Réponses rapides
+- **Que crée ce tutoriel ?** Une image PNG qui répertorie les familles de polices installées.  
+- **Quelle bibliothèque est requise ?** Aspose.Drawing pour .NET (pas besoin de System.Drawing.Common).  
+- **Puis‑je utiliser des polices personnalisées ?** Oui – il suffit de les charger dans un `InstalledFontCollection`.  
+- **La résolution de sortie est‑elle réglable ?** Absolument – modifiez la taille du bitmap ou le format de pixel.  
+- **Ai‑je besoin d’une licence pour exécuter le code ?** Une licence temporaire suffit pour l’évaluation ; une licence complète est requise en production.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce que « save PNG image » dans le contexte d’Aspose.Drawing ?
+Enregistrer une image PNG signifie rendre votre surface de dessin (un `Bitmap`) dans un fichier avec l’extension `.png`. Aspose.Drawing se charge de l’encodage, vous n’avez qu’à appeler `bitmap.Save(...)` avec le chemin souhaité.
 
-1.  Bibliothèque Aspose.Drawing : assurez-vous que la bibliothèque Aspose.Drawing est installée. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/drawing/net/).
+## Pourquoi lister les polices installées et afficher les familles de polices ?
+Savoir quelles polices sont disponibles vous permet de créer des graphiques dynamiques qui s’adaptent à l’environnement de l’utilisateur final. C’est particulièrement utile pour générer des rapports, des certificats ou tout contenu visuel qui doit respecter l’identité visuelle de l’entreprise sans devoir distribuer les fichiers de police.
 
-2. Environnement de développement intégré (IDE) : disposez d'un environnement de développement .NET fonctionnel, tel que Visual Studio.
+## Prérequis
 
-3. Connaissances de base en C# : La connaissance du langage de programmation C# est essentielle pour comprendre et mettre en œuvre les exemples fournis.
+- **Bibliothèque Aspose.Drawing** – téléchargez la dernière version depuis la [page de téléchargement Aspose Drawing](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider ou tout éditeur compatible .NET.  
+- **Connaissances de base en C#** – vous devez être à l’aise avec les classes, les objets et les boucles simples.
 
-## Importer des espaces de noms
-
-Pour commencer à travailler avec les polices installées dans Aspose.Drawing, vous devez importer les espaces de noms nécessaires. Dans votre code C#, incluez les éléments suivants :
+## Importer les espaces de noms
+Pour travailler avec les polices et les graphiques, importez ces espaces de noms en haut de votre fichier C# :
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Étape 1 : Créer un bitmap
+## Guide étape par étape
 
-Commencez par créer un bitmap, le canevas de votre image :
+### Étape 1 : Créer un bitmap (le canevas)
+Tout d’abord, nous créons un bitmap qui contiendra l’image finale. La taille du bitmap et le format de pixel déterminent la qualité du PNG enregistré.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Étape 2 : Créer des graphiques
-
-Ensuite, créez des graphiques à partir du bitmap pour dessiner dessus :
+### Étape 2 : Créer un graphique à partir du bitmap
+Ensuite, nous obtenons un objet `Graphics` à partir du bitmap. Cet objet nous permet de dessiner des formes, du texte et des images sur le canevas.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -54,9 +67,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Étape 3 : configurer le pinceau et la police
-
-Définissez un pinceau et une police pour votre texte :
+### Étape 3 : Configurer le pinceau et la police (dessiner du texte avec des polices)
+Nous avons besoin d’un pinceau pour la couleur du texte et d’un objet `Font` qui définit la police, la taille et le style.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -64,9 +76,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Étape 4 : Afficher les informations sur les polices installées
-
-Afficher des informations sur les polices installées sur l'image :
+### Étape 4 : Lister les polices installées et afficher les familles de polices
+Nous affichons maintenant le nombre de familles de polices et les premiers noms directement sur le bitmap. Cela illustre les capacités **list installed fonts** et **show font families**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -77,44 +88,52 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-## Étape 5 : Enregistrer l'image
-
-Enregistrez l'image dans le répertoire souhaité :
+### Étape 5 : Enregistrer l’image PNG
+Enfin, nous écrivons le bitmap sur le disque sous forme de fichier PNG. C’est l’opération centrale **save png image**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-Toutes nos félicitations! Vous avez créé avec succès une image affichant des informations sur les polices installées à l'aide d'Aspose.Drawing pour .NET.
+> **Astuce :** Utilisez `Path.Combine` pour construire les chemins de fichiers afin d’éviter les problèmes de séparateurs de répertoires sur différents systèmes d’exploitation.
+
+## Problèmes courants et solutions
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| **Aucune police affichée** | `InstalledFontCollection` non remplie (par ex., exécution sur un serveur sans affichage). | Installez les polices requises sur le serveur ou intégrez des polices personnalisées dans votre application. |
+| **Le fichier enregistré est corrompu** | Format de pixel incorrect ou permissions d’écriture manquantes. | Assurez‑vous que le dossier cible existe et que l’application possède les droits d’écriture ; conservez `Format32bppPArgb`. |
+| **Le texte apparaît flou** | Paramètres DPI faibles. | Augmentez les dimensions du bitmap ou définissez `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+
+## Foire aux questions
+
+**Q : Puis‑je utiliser des polices personnalisées qui ne sont pas installées sur la machine ?**  
+R : Oui. Chargez le fichier de police dans un `PrivateFontCollection` et créez une `Font` à partir de cette collection.
+
+**Q : Comment gérer les exceptions liées aux polices ?**  
+R : Enveloppez la création de la police dans un bloc `try/catch` et examinez `ArgumentException` pour les familles manquantes.
+
+**Q : Aspose.Drawing est‑il adapté aux applications web ?**  
+R : Absolument. La bibliothèque fonctionne avec ASP.NET Core, Azure Functions et d’autres environnements côté serveur.
+
+**Q : Puis‑je changer la couleur ou le style du texte ?**  
+R : Oui. Utilisez différents types de `Brush` (par ex., `LinearGradientBrush`) et modifiez l’énumération `FontStyle`.
+
+**Q : Où puis‑je obtenir une licence temporaire pour les tests ?**  
+R : Téléchargez une licence d’essai depuis la [page de licence temporaire Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 
-Maîtriser la manipulation des polices installées dans Aspose.Drawing ouvre de nouvelles possibilités pour créer des images visuellement attrayantes dans vos applications .NET. Expérimentez avec différentes polices et styles pour améliorer l'esthétique de votre contenu graphique.
+En suivant ces étapes, vous avez appris à **enregistrer des fichiers image PNG** qui répertorient dynamiquement les **polices installées**, **affichent les familles de polices**, **créent des graphiques à partir d’un bitmap** et **dessinent du texte avec des polices** en utilisant Aspose.Drawing pour .NET. N’hésitez pas à expérimenter avec d’autres polices, couleurs et tailles de bitmap pour répondre aux exigences visuelles de votre projet.
 
-## FAQ
-
-### Q1 : Puis-je utiliser des polices personnalisées avec Aspose.Drawing ?
-
-A1 : Oui, vous pouvez utiliser des polices personnalisées en spécifiant le chemin du fichier de police lors de la création d'un objet Font.
-
-### Q2 : Comment gérer les erreurs liées aux polices ?
-
-A2 : Consultez la documentation Aspose.Drawing pour connaître les stratégies de gestion des erreurs spécifiques aux problèmes liés aux polices.
-
-### Q3 : Aspose.Drawing est-il adapté aux applications Web ?
-
-A3 : Absolument ! Aspose.Drawing peut être intégré de manière transparente aux applications Web pour la génération d'images dynamiques.
-
-### Q4 : Puis-je personnaliser davantage l’apparence du texte ?
-
-A4 : Certainement ! Explorez les propriétés supplémentaires des classes Font et Brush pour plus d’options de personnalisation.
-
-### Q5 : Des licences temporaires sont-elles disponibles à des fins de test ?
-
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour évaluation.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2025-12-06  
+**Testé avec :** Aspose.Drawing 24.11 pour .NET  
+**Auteur :** Aspose
