@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.Drawing for .NET を使用したステップバイステップのチュートリアルで、クリッピング領域の設定方法、画像のクリップ方法、クリップした画像の保存方法、カスタムテキストレンダリングの適用方法を学びましょう。
-language: ja
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawingでクリッピング領域を設定する – .NETガイド
-url: /net/rendering/clipping/
+url: /ja/net/rendering/clipping/
 weight: 12
 ---
 

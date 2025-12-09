@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Krok‑za‑krokem tutoriál o ořezu obrázků pro vývojáře .NET s využitím
   Aspose.Drawing. Naučte se, jak oříznout obrázek do formátu PNG, hromadný ořez obrázků
   a základní techniky ořezu v rámci zpracování obrazu.
-language: cs
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Návod na ořezávání obrázků: Ořezávání obrázků pomocí Aspose.Drawing pro .NET'
-url: /net/image-editing/cropping/
+url: /cs/net/image-editing/cropping/
 weight: 10
 ---
 

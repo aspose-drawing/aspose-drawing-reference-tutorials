@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Lär dig hur du sparar PNG‑bildfiler samtidigt som du listar installerade
   teckensnitt, visar teckensnittsfamiljer, skapar grafik från bitmap och ritar text
   med teckensnitt med Aspose.Drawing för .NET.
-language: sv
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Spara PNG‑bild och arbeta med installerade typsnitt i Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /sv/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีการรับใบอนุญาต Aspose.Drawing สำหรับ .NET ด้วยบทแนะนำขั้นตอนต่อขั้นตอน
   ปลดล็อกความสามารถกราฟิกเต็มรูปแบบ ผสานรวมอย่างราบรื่น และหลีกเลี่ยงปัญหาเรื่องใบอนุญาต
-language: th
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: วิธีการให้สิทธิ์ Aspose.Drawing สำหรับ .NET
-url: /net/licensing/
+url: /th/net/licensing/
 weight: 22
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Pelajari cara melakukan transformasi sistem koordinat dan menggambar
   grafik persegi panjang di .NET menggunakan Aspose.Drawing. Panduan langkah demi
   langkah tentang cara mengubah koordinat halaman.
-language: id
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Transformasi Sistem Koordinat – Transformasi Halaman di Aspose.Drawing untuk
   .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /id/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

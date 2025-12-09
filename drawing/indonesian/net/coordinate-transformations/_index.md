@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Pelajari teknik transformasi langkah demi langkah dengan Aspose.Drawing
   untuk .NET, mencakup transformasi global, lokal, matriks, halaman, dunia, serta
   satuan ukuran grafik.
-language: id
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Transformasi Langkah demi Langkah – Transformasi Koordinat
-url: /net/coordinate-transformations/
+url: /id/net/coordinate-transformations/
 weight: 20
 ---
 

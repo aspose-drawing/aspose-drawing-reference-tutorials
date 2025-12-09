@@ -3,12 +3,11 @@ date: 2025-12-06
 description: Erfahren Sie, wie Sie Fotorahmen erstellen, Text auf Bildern überlagern
   und Text zu einem Bild in .NET mit Aspose.Drawing hinzufügen. Schritt‑für‑Schritt‑Anleitungen
   für Beschriftungen, Fotorahmen und Textüberlagerungen.
-language: de
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Wie man einen Fotorahmen erstellt – Anwendungsfälle mit Aspose.Drawing für
   .NET
-url: /net/use-cases/
+url: /de/net/use-cases/
 weight: 27
 ---
 

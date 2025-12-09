@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีสร้างกรอบรูป, วางข้อความบนภาพ, และเพิ่มข้อความลงในภาพ .NET
   ด้วย Aspose.Drawing. คำแนะนำทีละขั้นตอนสำหรับการใส่คำอธิบาย, กรอบรูป, และการวางข้อความบนภาพ.
-language: th
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: วิธีสร้างกรอบรูปภาพ – ตัวอย่างการใช้งานกับ Aspose.Drawing สำหรับ .NET
-url: /net/use-cases/
+url: /th/net/use-cases/
 weight: 27
 ---
 

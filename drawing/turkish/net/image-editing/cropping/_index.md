@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Drawing kullanarak .NET geliştiricileri için adım adım görüntü
   kırpma öğreticisi. Görüntüyü PNG’ye kırpmayı, toplu görüntü kırpmayı ve temel görüntü
   işleme kırpma tekniklerini öğrenin.
-language: tr
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Resim Kırpma Eğitimi: .NET için Aspose.Drawing ile Resim Kırpma'
-url: /net/image-editing/cropping/
+url: /tr/net/image-editing/cropping/
 weight: 10
 ---
 

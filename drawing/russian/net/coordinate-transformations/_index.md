@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Изучайте пошаговые техники преобразования с Aspose.Drawing для .NET,
   охватывающие глобальное, локальное, матричное, страницное, мировое преобразование
   и единицы измерения графики.
-language: ru
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Пошаговое преобразование — координатные преобразования
-url: /net/coordinate-transformations/
+url: /ru/net/coordinate-transformations/
 weight: 20
 ---
 

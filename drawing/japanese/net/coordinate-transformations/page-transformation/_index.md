@@ -1,11 +1,10 @@
 ---
 date: 2025-12-01
 description: .NETでAspose.Drawingを使用して座標系変換を実行し、矩形グラフィックを描画する方法を学びます。ページ座標を変換する手順をステップバイステップで解説します。
-language: ja
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 座標系変換 – .NET 用 Aspose.Drawing のページ変換
-url: /net/coordinate-transformations/page-transformation/
+url: /ja/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Μάθετε αυτό το σεμινάριο μετασχηματισμού πίνακα για το Aspose.Drawing
   .NET, καλύπτοντας πώς να σχεδιάσετε περιστραμμένο ορθογώνιο, να εφαρμόσετε περιστροφή
   πίνακα και να εκτελέσετε κλιμάκωση πίνακα C#.
-language: el
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Οδηγός Μετασχηματισμού Πίνακα: Μετασχηματισμοί Πίνακα στο Aspose.Drawing για
   .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /el/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

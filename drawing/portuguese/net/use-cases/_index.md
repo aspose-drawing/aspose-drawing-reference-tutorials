@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aprenda a criar moldura de foto, sobrepor texto em imagens e adicionar
   texto a imagens .NET usando Aspose.Drawing. Tutoriais passo a passo para balões
   de chamada, molduras de foto e sobreposição de texto.
-language: pt
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Como criar moldura de foto – Casos de uso com Aspose.Drawing para .NET
-url: /net/use-cases/
+url: /pt/net/use-cases/
 weight: 27
 ---
 

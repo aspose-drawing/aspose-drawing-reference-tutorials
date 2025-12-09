@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Stapsgewijze tutorial voor het bijsnijden van afbeeldingen voor .NET‑ontwikkelaars
   met Aspose.Drawing. Leer hoe je een afbeelding naar PNG bijsnijdt, batchafbeeldingen
   bijsnijdt en essentiële bijsnijdtechnieken voor beeldverwerking.
-language: nl
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Afbeeldingsbijsnijden Tutorial: Afbeeldingen bijsnijden met Aspose.Drawing
   voor .NET'
-url: /net/image-editing/cropping/
+url: /nl/net/image-editing/cropping/
 weight: 10
 ---
 

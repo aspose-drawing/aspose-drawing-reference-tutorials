@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Lär dig steg för steg transformationstekniker med Aspose.Drawing för
   .NET, som omfattar globala, lokala, matris-, sid- och världstransformationer samt
   måttenheter i grafik.
-language: sv
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Steg för steg‑transformation – Koordinattransformationer
-url: /net/coordinate-transformations/
+url: /sv/net/coordinate-transformations/
 weight: 20
 ---
 

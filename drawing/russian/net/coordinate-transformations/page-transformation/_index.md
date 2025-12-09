@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Изучите, как выполнять преобразование системы координат и рисовать прямоугольники
   в .NET с помощью Aspose.Drawing. Пошаговое руководство по преобразованию координат
   страницы.
-language: ru
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Преобразование системы координат – трансформация страницы в Aspose.Drawing
   для .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /ru/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

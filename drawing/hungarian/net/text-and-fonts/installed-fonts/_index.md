@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Ismerje meg, hogyan menthet PNG képfájlokat, miközben felsorolja a telepített
   betűtípusokat, megjeleníti a betűcsaládokat, bitmapből hoz létre grafikákat, és
   betűtípusokkal szöveget rajzol az Aspose.Drawing for .NET segítségével.
-language: hu
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: PNG kép mentése és a telepített betűtípusok használata az Aspose.Drawing‑ban
-url: /net/text-and-fonts/installed-fonts/
+url: /hu/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Naučte se tento tutoriál o maticových transformacích pro Aspose.Drawing
   .NET, který zahrnuje, jak nakreslit otočený obdélník, aplikovat rotaci matice a
   provést škálování matice v C#.
-language: cs
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Tutoriál k transformaci matic: Transformace matic v Aspose.Drawing pro .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /cs/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

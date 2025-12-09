@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Μάθετε βήμα‑βήμα τεχνικές μετασχηματισμού με το Aspose.Drawing για .NET,
   καλύπτοντας παγκόσμιους, τοπικούς, μετασχηματισμούς πίνακα, σελίδας, παγκόσμιου
   και μονάδες μέτρησης γραφικών.
-language: el
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Μετασχηματισμός βήμα-βήμα – Συντεταγμένες μετασχηματισμών
-url: /net/coordinate-transformations/
+url: /el/net/coordinate-transformations/
 weight: 20
 ---
 

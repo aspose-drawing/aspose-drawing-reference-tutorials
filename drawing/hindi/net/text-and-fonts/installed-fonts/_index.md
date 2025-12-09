@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aspose.Drawing for .NET का उपयोग करके स्थापित फ़ॉन्ट्स की सूची बनाते
   हुए, फ़ॉन्ट परिवार दिखाते हुए, बिटमैप से ग्राफ़िक्स बनाते हुए, और फ़ॉन्ट्स के साथ
   टेक्स्ट ड्रॉ करते हुए PNG इमेज फ़ाइलें कैसे सहेजें, सीखें।
-language: hi
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing में PNG इमेज सहेजें और स्थापित फ़ॉन्ट्स के साथ काम करें
-url: /net/text-and-fonts/installed-fonts/
+url: /hi/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

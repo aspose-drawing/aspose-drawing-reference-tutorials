@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Drawing을 사용하여 비트맵을 생성하고, 월드 변환을 적용하며, 그래픽을 PNG로 변환하는 방법을 배워보세요.
   .NET 개발자를 위한 단계별 가이드.
-language: ko
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing으로 비트맵 생성 – 월드 변환 가이드
-url: /net/coordinate-transformations/world-transformation/
+url: /ko/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

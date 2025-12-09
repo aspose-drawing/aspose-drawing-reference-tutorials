@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Dowiedz się, jak przeprowadzić transformację układu współrzędnych i rysować
   grafiki prostokątne w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku,
   jak przekształcać współrzędne strony.
-language: pl
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Transformacja układu współrzędnych – Transformacja strony w Aspose.Drawing
   dla .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /pl/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

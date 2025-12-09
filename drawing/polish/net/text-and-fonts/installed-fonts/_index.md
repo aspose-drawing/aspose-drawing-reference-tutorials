@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Dowiedz się, jak zapisywać pliki PNG, jednocześnie wypisując zainstalowane
   czcionki, wyświetlając rodziny czcionek, tworząc grafikę z bitmapy oraz rysując
   tekst przy użyciu czcionek w Aspose.Drawing dla .NET.
-language: pl
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Zapisz obraz PNG i pracuj z zainstalowanymi czcionkami w Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /pl/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

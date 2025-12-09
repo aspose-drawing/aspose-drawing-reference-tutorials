@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 學習如何使用 Aspose.Drawing 建立點陣圖、套用全域變換，並將圖形轉換為 PNG。適用於 .NET 開發人員的逐步指南。
-language: zh-hant
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 使用 Aspose.Drawing 建立位圖 – 世界變換指南
-url: /net/coordinate-transformations/world-transformation/
+url: /zh-hant/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: 学习如何在列出已安装字体、显示字体系列、从位图创建图形以及使用 Aspose.Drawing for .NET 绘制带字体的文本时保存 PNG
   图像文件。
-language: zh
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 在 Aspose.Drawing 中保存 PNG 图像并使用已安装的字体
-url: /net/text-and-fonts/installed-fonts/
+url: /zh/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

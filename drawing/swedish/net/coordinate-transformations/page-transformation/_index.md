@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Lär dig hur du utför koordinatsystemstransformation och ritar rektangelgrafik
   i .NET med Aspose.Drawing. Steg‑för‑steg‑guide om hur du transformerar sidkoordinater.
-language: sv
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Koordinatsystemstransformation – Sidtransformation i Aspose.Drawing för .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /sv/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

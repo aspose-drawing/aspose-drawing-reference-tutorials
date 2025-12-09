@@ -1,11 +1,10 @@
 ---
 date: 2025-12-01
 description: 學習如何使用 Aspose.Drawing 的直接資料存取來讀取像素與寫入像素資料，以在 .NET 中高效地進行圖像像素操作。
-language: zh-hant
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: 如何在 Aspose.Drawing 中使用直接資料存取讀取像素
-url: /net/image-editing/direct-data-access/
+url: /zh-hant/net/image-editing/direct-data-access/
 weight: 11
 ---
 

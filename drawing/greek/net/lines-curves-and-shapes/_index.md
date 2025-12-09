@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να σχεδιάζετε τόξα και άλλα σχήματα με το Aspose.Drawing για
   .NET. Κατακτήστε τα στερεά πινέλα, σχεδιάστε καμπύλες Bezier, έλλειψη και πολλά
   άλλα σε ζωντανά μαθήματα γραφικών.
-language: el
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Πώς να σχεδιάζετε τόξα και άλλα σχήματα με το Aspose.Drawing για .NET
-url: /net/lines-curves-and-shapes/
+url: /el/net/lines-curves-and-shapes/
 weight: 23
 ---
 

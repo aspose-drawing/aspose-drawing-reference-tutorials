@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Drawing for .NET를 사용하여 호와 기타 도형을 그리는 방법을 배워보세요. 솔리드 브러시를 마스터하고,
   베지어 스플라인, 타원 등을 생생한 그래픽 튜토리얼에서 그려보세요.
-language: ko
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing for .NET을 사용해 호와 기타 도형 그리기
-url: /net/lines-curves-and-shapes/
+url: /ko/net/lines-curves-and-shapes/
 weight: 23
 ---
 

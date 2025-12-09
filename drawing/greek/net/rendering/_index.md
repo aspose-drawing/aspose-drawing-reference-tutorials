@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να συνδυάζετε το άλφα στα γραφικά .NET με το Aspose.Drawing,
   να εφαρμόζετε εξομάλυνση για ομαλές άκρες και να ανακαλύψετε πώς να περικόπτετε
   τα γραφικά για ακριβή σχέδια.
-language: el
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Πώς να αναμείξετε το άλφα: Τεχνικές απόδοσης με το Aspose.Drawing'
-url: /net/rendering/
+url: /el/net/rendering/
 weight: 25
 ---
 

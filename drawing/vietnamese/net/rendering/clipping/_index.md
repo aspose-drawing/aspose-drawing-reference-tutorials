@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách thiết lập vùng cắt, cách cắt ảnh, lưu ảnh đã cắt và áp
   dụng việc hiển thị văn bản tùy chỉnh bằng Aspose.Drawing cho .NET trong một hướng
   dẫn từng bước.
-language: vi
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Thiết lập vùng cắt trong Aspose.Drawing – Hướng dẫn .NET
-url: /net/rendering/clipping/
+url: /vi/net/rendering/clipping/
 weight: 12
 ---
 

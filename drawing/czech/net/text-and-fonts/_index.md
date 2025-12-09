@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak kreslit text, formátovat text, používat hinting a pracovat
   s fonty v Aspose.Drawing pro .NET. Vytvářejte obrázky s dynamickým textem a dokonalou
   typografií.
-language: cs
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Jak kreslit text a písma pomocí Aspose.Drawing pro .NET
-url: /net/text-and-fonts/
+url: /cs/net/text-and-fonts/
 weight: 26
 ---
 

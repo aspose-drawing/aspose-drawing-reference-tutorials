@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.Drawing for .NET में टेक्स्ट कैसे ड्रॉ करें, टेक्स्ट को फॉर्मेट
   करें, हिन्टिंग का उपयोग करें और फ़ॉन्ट्स के साथ काम करना सीखें। डायनेमिक टेक्स्ट
   और परिपूर्ण टाइपोग्राफी के साथ इमेज बनाएँ।
-language: hi
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing for .NET के साथ टेक्स्ट और फ़ॉन्ट कैसे ड्रॉ करें
-url: /net/text-and-fonts/
+url: /hi/net/text-and-fonts/
 weight: 26
 ---
 

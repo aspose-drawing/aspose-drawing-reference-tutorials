@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Ovládněte načítání obrázků, hromadnou konverzi obrázků a změny formátů
   v .NET pomocí Aspose.Drawing. Naučte se převádět BMP na PNG a další.
-language: cs
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Převést BMP na PNG a další formáty pomocí Aspose.Drawing
-url: /net/image-editing/load-save/
+url: /cs/net/image-editing/load-save/
 weight: 13
 ---
 

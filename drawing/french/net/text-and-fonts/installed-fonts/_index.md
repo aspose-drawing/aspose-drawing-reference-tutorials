@@ -4,11 +4,10 @@ description: Apprenez à enregistrer des fichiers image PNG tout en répertorian
   polices installées, en affichant les familles de polices, en créant des graphiques
   à partir d’un bitmap et en dessinant du texte avec des polices à l’aide d’Aspose.Drawing
   pour .NET.
-language: fr
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Enregistrer une image PNG et travailler avec les polices installées dans Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /fr/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

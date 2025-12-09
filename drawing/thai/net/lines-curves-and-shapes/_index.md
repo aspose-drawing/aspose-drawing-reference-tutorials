@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีวาดส่วนโค้งและรูปร่างอื่น ๆ ด้วย Aspose.Drawing สำหรับ .NET.
   เชี่ยวชาญแปรงสีทึบ, วาดเส้นเบเซียร์สไพล์น, วงรี และอื่น ๆ อีกมากในบทเรียนกราฟิกที่มีสีสันสดใส.
-language: th
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: วิธีวาดโค้งและรูปร่างอื่น ๆ ด้วย Aspose.Drawing สำหรับ .NET
-url: /net/lines-curves-and-shapes/
+url: /th/net/lines-curves-and-shapes/
 weight: 23
 ---
 

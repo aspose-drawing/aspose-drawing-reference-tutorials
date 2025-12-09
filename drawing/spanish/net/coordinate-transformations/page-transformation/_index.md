@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Aprenda a realizar la transformación del sistema de coordenadas y a dibujar
   gráficos de rectángulos en .NET usando Aspose.Drawing. Guía paso a paso sobre cómo
   transformar las coordenadas de la página.
-language: es
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Transformación del Sistema de Coordenadas – Transformación de Página en Aspose.Drawing
   para .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /es/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Drawing ile .NET grafiklerinde alfa karıştırmayı öğrenin, pürüzsüz
   kenarlar için antialiasing uygulayın ve hassas tasarımlar için grafikleri nasıl
   kırpacağınızı keşfedin.
-language: tr
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Alfa Nasıl Karıştırılır: Aspose.Drawing ile Görselleştirme Teknikleri'
-url: /net/rendering/
+url: /tr/net/rendering/
 weight: 25
 ---
 

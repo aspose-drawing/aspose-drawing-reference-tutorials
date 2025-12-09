@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Tìm hiểu cách lưu tệp hình ảnh PNG đồng thời liệt kê các phông chữ đã
   cài đặt, hiển thị họ phông chữ, tạo đồ họa từ bitmap và vẽ văn bản bằng phông chữ
   sử dụng Aspose.Drawing cho .NET.
-language: vi
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Lưu hình ảnh PNG và làm việc với các phông chữ đã cài đặt trong Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /vi/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara menggambar busur dan bentuk lainnya dengan Aspose.Drawing
   untuk .NET. Kuasai kuas padat, gambar spline Bezier, elips, dan lainnya dalam tutorial
   grafik yang hidup.
-language: id
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cara Menggambar Busur dan Bentuk Lain dengan Aspose.Drawing untuk .NET
-url: /net/lines-curves-and-shapes/
+url: /id/net/lines-curves-and-shapes/
 weight: 23
 ---
 

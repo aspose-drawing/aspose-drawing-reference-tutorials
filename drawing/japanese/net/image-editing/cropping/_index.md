@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: .NET 開発者向けに Aspose.Drawing を使用したステップバイステップの画像クロッピングチュートリアルです。画像を PNG
   にクロップする方法、バッチ画像クロッピング、そして画像処理の基本的なクロップ技術を学びましょう。
-language: ja
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 画像トリミングチュートリアル：Aspose.Drawing for .NET を使用した画像のトリミング
-url: /net/image-editing/cropping/
+url: /ja/net/image-editing/cropping/
 weight: 10
 ---
 

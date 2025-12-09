@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan licencelje az Aspose.Drawing for .NET-et lépésről‑lépésre
   útmutatókkal. Nyissa ki a teljes grafikai funkciókat, integráljon zökkenőmentesen,
   és kerülje el a licencelési buktatókat.
-language: hu
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hogyan licenceljük az Aspose.Drawing-et .NET-hez
-url: /net/licensing/
+url: /hu/net/licensing/
 weight: 22
 ---
 

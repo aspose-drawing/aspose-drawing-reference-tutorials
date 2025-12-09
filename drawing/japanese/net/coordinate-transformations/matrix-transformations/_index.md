@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: Aspose.Drawing .NET の行列変換チュートリアルを学び、回転矩形の描画、行列回転の適用、行列スケーリングの実行（C#）について解説します。
-language: ja
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 行列変換チュートリアル：.NET 用 Aspose.Drawing の行列変換
-url: /net/coordinate-transformations/matrix-transformations/
+url: /ja/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

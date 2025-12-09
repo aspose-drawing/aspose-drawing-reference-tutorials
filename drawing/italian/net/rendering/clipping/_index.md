@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Impara come impostare la regione di ritaglio, come ritagliare un'immagine,
   salvare l'immagine ritagliata e applicare il rendering di testo personalizzato usando
   Aspose.Drawing per .NET in un tutorial passo‑passo.
-language: it
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Imposta la regione di ritaglio in Aspose.Drawing – Guida .NET
-url: /net/rendering/clipping/
+url: /it/net/rendering/clipping/
 weight: 12
 ---
 

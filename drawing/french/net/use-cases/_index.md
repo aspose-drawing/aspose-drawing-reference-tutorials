@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Apprenez à créer des cadres photo, à superposer du texte sur des images
   et à ajouter du texte à une image .NET avec Aspose.Drawing. Tutoriels étape par
   étape pour les légendes, les cadres photo et la superposition de texte.
-language: fr
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Comment créer un cadre photo – Cas d’utilisation avec Aspose.Drawing pour .NET
-url: /net/use-cases/
+url: /fr/net/use-cases/
 weight: 27
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Узнайте, как создавать фоторамки, накладывать текст на изображения и
   добавлять текст к изображению в .NET с помощью Aspose.Drawing. Пошаговые руководства
   по выноскам, фоторамкам и наложению текста.
-language: ru
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Как создать фоторамку — примеры использования Aspose.Drawing для .NET
-url: /net/use-cases/
+url: /ru/net/use-cases/
 weight: 27
 ---
 

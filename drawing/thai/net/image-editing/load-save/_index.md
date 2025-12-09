@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เชี่ยวชาญการโหลดภาพ, การแปลงภาพเป็นชุด, และการเปลี่ยนรูปแบบใน .NET ด้วย
   Aspose.Drawing. เรียนรู้การแปลง BMP เป็น PNG และอื่น ๆ อีกมากมาย.
-language: th
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: แปลง BMP เป็น PNG และรูปแบบอื่น ๆ ด้วย Aspose.Drawing
-url: /net/image-editing/load-save/
+url: /th/net/image-editing/load-save/
 weight: 13
 ---
 

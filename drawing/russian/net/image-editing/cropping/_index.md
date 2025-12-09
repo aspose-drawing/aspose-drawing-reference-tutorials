@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Пошаговое руководство по обрезке изображений для .NET‑разработчиков с
   использованием Aspose.Drawing. Узнайте, как обрезать изображение до PNG, выполнять
   пакетную обрезку изображений и основные техники обрезки в обработке изображений.
-language: ru
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Учебник по обрезке изображений: Обрезка изображений с помощью Aspose.Drawing
   для .NET'
-url: /net/image-editing/cropping/
+url: /ru/net/image-editing/cropping/
 weight: 10
 ---
 

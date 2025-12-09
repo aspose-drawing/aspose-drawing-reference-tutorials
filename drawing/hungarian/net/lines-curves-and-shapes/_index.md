@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan rajzoljon íveket és más alakzatokat az Aspose.Drawing
   for .NET segítségével. Sajátítsa el a szilárd ecsetek használatát, a Bézier-görbe,
   ellipszisek és még sok más megrajzolását élénk grafikai útmutatókban.
-language: hu
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hogyan rajzolj íveket és más alakzatokat az Aspose.Drawing for .NET segítségével
-url: /net/lines-curves-and-shapes/
+url: /hu/net/lines-curves-and-shapes/
 weight: 23
 ---
 

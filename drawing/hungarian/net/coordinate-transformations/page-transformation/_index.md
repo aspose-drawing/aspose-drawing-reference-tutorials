@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Ismerje meg, hogyan hajtható végre koordináta‑rendszer átalakítás és
   hogyan rajzolhatók téglalap grafikai elemek .NET‑ben az Aspose.Drawing használatával.
   Lépésről‑lépésre útmutató a lapkoordináták átalakításához.
-language: hu
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Koordináta‑rendszer átalakítása – Oldal átalakítása az Aspose.Drawing .NET‑hez
-url: /net/coordinate-transformations/page-transformation/
+url: /hu/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

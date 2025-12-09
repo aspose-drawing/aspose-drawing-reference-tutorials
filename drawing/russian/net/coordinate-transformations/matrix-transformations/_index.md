@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Изучите этот учебник по матричным преобразованиям для Aspose.Drawing .NET,
   в котором рассматривается, как нарисовать повернутый прямоугольник, применить вращение
   матрицы и выполнить масштабирование матрицы на C#.
-language: ru
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Учебник по преобразованию матриц: Преобразования матриц в Aspose.Drawing для
   .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /ru/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aprende a mezclar alfa en gráficos .NET con Aspose.Drawing, aplica antialiasing
   para obtener bordes suaves y descubre cómo recortar gráficos para diseños precisos.
-language: es
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Cómo mezclar alfa: técnicas de renderizado con Aspose.Drawing'
-url: /net/rendering/
+url: /es/net/rendering/
 weight: 25
 ---
 

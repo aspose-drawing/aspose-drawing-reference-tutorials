@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: Aspose.Drawing を使用した .NET で、写真フレームの作成、画像へのテキストオーバーレイ、画像へのテキスト追加方法を学びます。コールアウト、写真フレーム、テキストオーバーレイのステップバイステップチュートリアル。
-language: ja
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 写真フレームの作成方法 – Aspose.Drawing for .NET の使用例
-url: /net/use-cases/
+url: /ja/net/use-cases/
 weight: 27
 ---
 

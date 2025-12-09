@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: เรียนรู้วิธีอ่านพิกเซลและเขียนข้อมูลพิกเซลโดยใช้การเข้าถึงข้อมูลโดยตรงของ
   Aspose.Drawing เพื่อการจัดการพิกเซลภาพอย่างมีประสิทธิภาพใน .NET.
-language: th
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: วิธีอ่านพิกเซลด้วยการเข้าถึงข้อมูลโดยตรงใน Aspose.Drawing
-url: /net/image-editing/direct-data-access/
+url: /th/net/image-editing/direct-data-access/
 weight: 11
 ---
 

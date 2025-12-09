@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig att rita bågar och andra former med Aspose.Drawing för .NET.
   Bemästra solida penslar, rita Bézier-splines, ellipser och mer i livfulla grafikhandledningar.
-language: sv
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hur man ritar bågar och andra former med Aspose.Drawing för .NET
-url: /net/lines-curves-and-shapes/
+url: /sv/net/lines-curves-and-shapes/
 weight: 23
 ---
 

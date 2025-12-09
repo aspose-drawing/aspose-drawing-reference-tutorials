@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lär dig hur du ställer in beskärningsområde, hur du beskär en bild, sparar
   den beskurna bilden och tillämpar anpassad textrendering med Aspose.Drawing för
   .NET i en steg‑för‑steg‑handledning.
-language: sv
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Ange klippningsområde i Aspose.Drawing – .NET‑guide
-url: /net/rendering/clipping/
+url: /sv/net/rendering/clipping/
 weight: 12
 ---
 

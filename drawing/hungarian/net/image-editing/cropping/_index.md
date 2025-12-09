@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Lépésről‑lépésre képkivágási útmutató .NET fejlesztőknek az Aspose.Drawing
   használatával. Tanulja meg, hogyan vágjon ki képet PNG formátumba, kötegelt képkivágást,
   valamint az alapvető képfeldolgozási kivágási technikákat.
-language: hu
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Képkivágási útmutató: Képek kivágása az Aspose.Drawing segítségével .NET-hez'
-url: /net/image-editing/cropping/
+url: /hu/net/image-editing/cropping/
 weight: 10
 ---
 

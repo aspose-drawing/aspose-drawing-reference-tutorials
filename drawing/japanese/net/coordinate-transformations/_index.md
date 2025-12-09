@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: .NET 用 Aspose.Drawing でステップバイステップの変換技法を学び、グローバル、ローカル、マトリックス、ページ、ワールド変換と単位系グラフィックスを網羅します。
-language: ja
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: ステップバイステップ変換 – 座標変換
-url: /net/coordinate-transformations/
+url: /ja/net/coordinate-transformations/
 weight: 20
 ---
 

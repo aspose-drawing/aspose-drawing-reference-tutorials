@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Узнайте, как масштабировать изображение без потери качества с помощью
   Aspose.Drawing для .NET, а также как эффективно обрезать, изменять размер, загружать,
   сохранять и отображать изображения.
-language: ru
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Масштабировать изображение без потери — редактирование изображений с Aspose.Drawing
-url: /net/image-editing/
+url: /ru/net/image-editing/
 weight: 21
 ---
 

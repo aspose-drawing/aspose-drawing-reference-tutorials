@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何為 .NET 的 Aspose.Drawing 取得授權，提供逐步教學。釋放完整圖形功能，無縫整合，並避免授權陷阱。
-language: zh-hant
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 如何為 .NET 授權 Aspose.Drawing
-url: /net/licensing/
+url: /zh-hant/net/licensing/
 weight: 22
 ---
 

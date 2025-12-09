@@ -3,11 +3,10 @@ date: 2025-12-06
 description: تعلم كيفية حفظ ملفات صور PNG أثناء سرد الخطوط المثبتة، وعرض عائلات الخطوط،
   وإنشاء رسومات من صورة نقطية، ورسم النص باستخدام الخطوط باستخدام Aspose.Drawing لـ
   .NET.
-language: ar
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: حفظ صورة PNG والعمل مع الخطوط المثبتة في Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /ar/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aspose.Drawing का उपयोग करके .NET में फोटो फ्रेम बनाना, छवियों पर टेक्स्ट
   ओवरले करना और छवि में टेक्स्ट जोड़ना सीखें। कॉलआउट्स, फोटो फ्रेम और टेक्स्ट ओवरले
   के लिए चरण‑दर‑चरण ट्यूटोरियल।
-language: hi
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: फ़ोटो फ्रेम कैसे बनाएं – .NET के लिए Aspose.Drawing के उपयोग केस
-url: /net/use-cases/
+url: /hi/net/use-cases/
 weight: 27
 ---
 

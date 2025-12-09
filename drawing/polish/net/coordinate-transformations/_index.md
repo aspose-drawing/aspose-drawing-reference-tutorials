@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Poznaj krok po kroku techniki transformacji z Aspose.Drawing dla .NET,
   obejmujące transformacje globalne, lokalne, macierzowe, stronowe, światowe oraz
   jednostki miary w grafice .NET.
-language: pl
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Transformacja krok po kroku – Transformacje współrzędnych
-url: /net/coordinate-transformations/
+url: /pl/net/coordinate-transformations/
 weight: 20
 ---
 

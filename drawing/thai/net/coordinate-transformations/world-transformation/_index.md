@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้วิธีสร้างบิตแมปด้วย Aspose.Drawing, ใช้การแปลงโลก, และแปลงกราฟิกเป็น
   PNG. คู่มือขั้นตอนโดยละเอียดสำหรับนักพัฒนา .NET.
-language: th
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: สร้างบิตแมพด้วย Aspose.Drawing – คู่มือการแปลงโลก
-url: /net/coordinate-transformations/world-transformation/
+url: /th/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

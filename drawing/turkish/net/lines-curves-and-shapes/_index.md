@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Drawing for .NET ile yaylar ve diğer şekilleri çizmeyi öğrenin.
   Katı fırçaları ustalaşın, Bezier spline, elipsler ve daha fazlasını canlı grafik
   öğreticilerinde çizin.
-language: tr
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing for .NET ile Yaylar ve Diğer Şekilleri Çizme
-url: /net/lines-curves-and-shapes/
+url: /tr/net/lines-curves-and-shapes/
 weight: 23
 ---
 

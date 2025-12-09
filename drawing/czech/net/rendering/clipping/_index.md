@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak nastavit oblast ořezu, oříznout obrázek, uložit oříznutý
   obrázek a použít vlastní vykreslování textu pomocí Aspose.Drawing pro .NET v krok‑za‑krokem
   tutoriálu.
-language: cs
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Nastavit ořezovou oblast v Aspose.Drawing – průvodce .NET
-url: /net/rendering/clipping/
+url: /cs/net/rendering/clipping/
 weight: 12
 ---
 

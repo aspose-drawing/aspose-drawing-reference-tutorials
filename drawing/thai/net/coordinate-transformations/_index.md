@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้เทคนิคการแปลงขั้นตอนต่อขั้นตอนด้วย Aspose.Drawing สำหรับ .NET
   ครอบคลุมการแปลงแบบทั่วโลก, แบบท้องถิ่น, เมทริกซ์, หน้า, โลก, .NET และหน่วยวัดของกราฟิก
-language: th
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: การแปลงทีละขั้น – การแปลงพิกัด
-url: /net/coordinate-transformations/
+url: /th/net/coordinate-transformations/
 weight: 20
 ---
 

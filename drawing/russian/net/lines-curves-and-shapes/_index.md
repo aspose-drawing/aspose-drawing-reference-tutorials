@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Изучите, как рисовать дуги и другие фигуры с помощью Aspose.Drawing для
   .NET. Овладейте сплошными кистями, рисуйте сплайны Безье, эллипсы и многое другое
   в ярких графических уроках.
-language: ru
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Как рисовать дуги и другие фигуры с помощью Aspose.Drawing для .NET
-url: /net/lines-curves-and-shapes/
+url: /ru/net/lines-curves-and-shapes/
 weight: 23
 ---
 

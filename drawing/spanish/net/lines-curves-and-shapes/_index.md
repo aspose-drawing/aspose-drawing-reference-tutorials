@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprende a dibujar arcos y otras formas con Aspose.Drawing para .NET.
   Domina los pinceles sólidos, dibuja splines Bézier, elipses y más en tutoriales
   de gráficos vibrantes.
-language: es
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cómo dibujar arcos y otras formas con Aspose.Drawing para .NET
-url: /net/lines-curves-and-shapes/
+url: /es/net/lines-curves-and-shapes/
 weight: 23
 ---
 

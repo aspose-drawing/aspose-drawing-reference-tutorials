@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aprende a escalar imágenes sin pérdida usando Aspose.Drawing para .NET
   y descubre cómo recortar, redimensionar, cargar, guardar y mostrar imágenes de manera
   eficiente.
-language: es
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Escalar imagen sin pérdida – Edición de imágenes con Aspose.Drawing
-url: /net/image-editing/
+url: /es/net/image-editing/
 weight: 21
 ---
 

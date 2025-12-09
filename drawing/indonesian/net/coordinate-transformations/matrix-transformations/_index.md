@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Pelajari tutorial transformasi matriks ini untuk Aspose.Drawing .NET,
   yang mencakup cara menggambar persegi panjang berputar, menerapkan rotasi matriks,
   dan melakukan skala matriks C#.
-language: id
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Tutorial Transformasi Matriks: Transformasi Matriks di Aspose.Drawing untuk
   .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /id/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

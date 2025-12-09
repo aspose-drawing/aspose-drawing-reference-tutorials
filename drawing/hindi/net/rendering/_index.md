@@ -3,11 +3,10 @@ date: 2025-12-05
 description: .NET ग्राफ़िक्स में Aspose.Drawing के साथ अल्फा को ब्लेंड करना सीखें,
   स्मूद किनारों के लिए एंटीएलियासिंग लागू करें, और सटीक डिज़ाइनों के लिए ग्राफ़िक्स
   को क्लिप करने का तरीका जानें।
-language: hi
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'अल्फा को कैसे ब्लेंड करें: Aspose.Drawing के साथ रेंडरिंग तकनीकें'
-url: /net/rendering/
+url: /hi/net/rendering/
 weight: 25
 ---
 

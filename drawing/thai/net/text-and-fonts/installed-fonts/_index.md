@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีบันทึกไฟล์ภาพ PNG พร้อมการแสดงรายการฟอนต์ที่ติดตั้ง, แสดงตระกูลฟอนต์,
   สร้างกราฟิกจากบิตแมป, และวาดข้อความด้วยฟอนต์โดยใช้ Aspose.Drawing สำหรับ .NET.
-language: th
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /th/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

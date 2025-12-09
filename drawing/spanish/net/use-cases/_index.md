@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aprenda a crear marcos de fotos, superponer texto en imágenes y agregar
   texto a una imagen en .NET usando Aspose.Drawing. Tutoriales paso a paso para anotaciones,
   marcos de fotos y superposición de texto.
-language: es
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cómo crear un marco de foto – Casos de uso con Aspose.Drawing para .NET
-url: /net/use-cases/
+url: /es/net/use-cases/
 weight: 27
 ---
 

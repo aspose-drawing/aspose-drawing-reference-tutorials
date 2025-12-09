@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีตั้งค่าพื้นที่ตัด วิธีตัดภาพ บันทึกภาพที่ถูกตัด และใช้การเรนเดอร์ข้อความแบบกำหนดเองด้วย
   Aspose.Drawing สำหรับ .NET ในบทเรียนแบบทีละขั้นตอน
-language: th
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: ตั้งค่าพื้นที่ตัดใน Aspose.Drawing – คู่มือ .NET
-url: /net/rendering/clipping/
+url: /th/net/rendering/clipping/
 weight: 12
 ---
 

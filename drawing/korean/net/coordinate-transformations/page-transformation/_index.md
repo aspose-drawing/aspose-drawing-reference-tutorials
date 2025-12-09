@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: .NET에서 Aspose.Drawing을 사용하여 좌표계 변환을 수행하고 사각형 그래픽을 그리는 방법을 배웁니다. 페이지 좌표를
   변환하는 단계별 가이드.
-language: ko
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 좌표계 변환 – .NET용 Aspose.Drawing의 페이지 변환
-url: /net/coordinate-transformations/page-transformation/
+url: /ko/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

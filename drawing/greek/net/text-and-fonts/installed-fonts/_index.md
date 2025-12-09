@@ -4,11 +4,10 @@ description: Μάθετε πώς να αποθηκεύετε αρχεία εικ
   γραμματοσειρές, εμφανίζετε τις οικογένειες γραμματοσειρών, δημιουργείτε γραφικά
   από bitmap και σχεδιάζετε κείμενο με γραμματοσειρές χρησιμοποιώντας το Aspose.Drawing
   για .NET.
-language: el
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Αποθήκευση εικόνας PNG και εργασία με εγκατεστημένες γραμματοσειρές στο Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /el/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

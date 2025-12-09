@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم كيفية إنشاء صورة نقطية باستخدام Aspose.Drawing، وتطبيق التحويلات
   العالمية، وتحويل الرسومات إلى PNG. دليل خطوة بخطوة لمطوري .NET.
-language: ar
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: إنشاء صورة نقطية باستخدام Aspose.Drawing – دليل تحويل العالم
-url: /net/coordinate-transformations/world-transformation/
+url: /ar/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

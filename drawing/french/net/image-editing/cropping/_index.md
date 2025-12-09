@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Tutoriel de découpage d'image étape par étape pour les développeurs .NET
   utilisant Aspose.Drawing. Apprenez à recadrer une image au format PNG, le découpage
   d'images en lot et les techniques essentielles de recadrage en traitement d'image.
-language: fr
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Tutoriel de recadrage d''images : Recadrer des images avec Aspose.Drawing
   pour .NET'
-url: /net/image-editing/cropping/
+url: /fr/net/image-editing/cropping/
 weight: 10
 ---
 

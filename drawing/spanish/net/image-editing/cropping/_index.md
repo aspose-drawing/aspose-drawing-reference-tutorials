@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Tutorial paso a paso de recorte de imágenes para desarrolladores .NET
   usando Aspose.Drawing. Aprende a recortar imágenes a PNG, recorte de imágenes por
   lotes y técnicas esenciales de recorte en procesamiento de imágenes.
-language: es
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Tutorial de recorte de imágenes: Recortando imágenes con Aspose.Drawing para
   .NET'
-url: /net/image-editing/cropping/
+url: /es/net/image-editing/cropping/
 weight: 10
 ---
 

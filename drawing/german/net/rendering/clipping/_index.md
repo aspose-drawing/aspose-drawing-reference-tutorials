@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie einen Clipping‑Bereich festlegen, ein Bild zuschneiden,
   das zugeschnittene Bild speichern und benutzerdefiniertes Text‑Rendering mit Aspose.Drawing
   für .NET in einer Schritt‑für‑Schritt‑Anleitung anwenden.
-language: de
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Clipping‑Bereich in Aspose.Drawing festlegen – .NET‑Leitfaden
-url: /net/rendering/clipping/
+url: /de/net/rendering/clipping/
 weight: 12
 ---
 

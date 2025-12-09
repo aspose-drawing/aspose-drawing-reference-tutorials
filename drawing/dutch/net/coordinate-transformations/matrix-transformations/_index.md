@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Leer deze matrixtransformatie‑tutorial voor Aspose.Drawing .NET, waarin
   wordt uitgelegd hoe je een geroteerde rechthoek tekent, matrixrotatie toepast en
   matrixschaling uitvoert in C#.
-language: nl
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Matrixtransformatie‑tutorial: Matrixtransformaties in Aspose.Drawing voor
   .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /nl/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

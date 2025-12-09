@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Drawing for .NET kullanarak kayıpsız görüntü ölçeklendirmeyi öğrenin
   ve görüntüleri verimli bir şekilde kırpma, yeniden boyutlandırma, yükleme, kaydetme
   ve gösterme yöntemlerini keşfedin.
-language: tr
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Görüntüyü Kayıpsız Ölçeklendir – Aspose.Drawing ile Görüntü Düzenleme
-url: /net/image-editing/
+url: /tr/net/image-editing/
 weight: 21
 ---
 

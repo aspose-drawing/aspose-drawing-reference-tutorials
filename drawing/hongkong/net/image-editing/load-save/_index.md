@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 掌握在 .NET 中使用 Aspose.Drawing 進行影像載入、批量影像轉換與格式變更。學習將 BMP 轉換為 PNG 以及更多操作。
-language: zh-hant
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 使用 Aspose.Drawing 將 BMP 轉換為 PNG 及其他格式
-url: /net/image-editing/load-save/
+url: /zh-hant/net/image-editing/load-save/
 weight: 13
 ---
 

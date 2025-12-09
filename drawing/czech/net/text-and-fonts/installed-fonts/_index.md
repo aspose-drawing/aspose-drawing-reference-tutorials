@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Naučte se, jak ukládat soubory PNG, přičemž vypisujete nainstalovaná
   písma, zobrazujete rodiny písem, vytváříte grafiku z bitmapy a kreslíte text s písmy
   pomocí Aspose.Drawing pro .NET.
-language: cs
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Uložit PNG obrázek a pracovat s nainstalovanými fonty v Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /cs/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

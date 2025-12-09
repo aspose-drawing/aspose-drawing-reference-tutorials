@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Scopri come creare cornici fotografiche, sovrapporre testo alle immagini
   e aggiungere testo a un'immagine in .NET usando Aspose.Drawing. Tutorial passo‑passo
   per callout, cornici fotografiche e sovrapposizione di testo.
-language: it
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Come creare una cornice fotografica – Casi d'uso con Aspose.Drawing per .NET
-url: /net/use-cases/
+url: /it/net/use-cases/
 weight: 27
 ---
 

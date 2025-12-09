@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Apprenez à dessiner du texte, à formater le texte, à utiliser le hinting
   et à travailler avec les polices dans Aspose.Drawing pour .NET. Créez des images
   avec du texte dynamique et une typographie parfaite.
-language: fr
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Comment dessiner du texte et des polices avec Aspose.Drawing pour .NET
-url: /net/text-and-fonts/
+url: /fr/net/text-and-fonts/
 weight: 26
 ---
 

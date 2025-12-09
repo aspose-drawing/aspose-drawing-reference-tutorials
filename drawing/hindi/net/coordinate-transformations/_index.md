@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Drawing for .NET के साथ चरण‑दर‑चरण ट्रांसफ़ॉर्मेशन तकनीकों को
   सीखें, जिसमें ग्लोबल, लोकल, मैट्रिक्स, पेज, वर्ल्ड ट्रांसफ़ॉर्मेशन और माप इकाइयों
   की ग्राफ़िक्स शामिल हैं।
-language: hi
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: कदम दर कदम रूपांतरण – समन्वय रूपांतरण
-url: /net/coordinate-transformations/
+url: /hi/net/coordinate-transformations/
 weight: 20
 ---
 

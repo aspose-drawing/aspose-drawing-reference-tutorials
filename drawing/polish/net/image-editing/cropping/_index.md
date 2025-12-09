@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Krok po kroku samouczek przycinania obrazów dla programistów .NET korzystających
   z Aspose.Drawing. Dowiedz się, jak przyciąć obraz do formatu PNG, przycinać obrazy
   wsadowo oraz poznać podstawowe techniki przycinania w przetwarzaniu obrazów.
-language: pl
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Samouczek przycinania obrazów: przycinanie obrazów za pomocą Aspose.Drawing
   dla .NET'
-url: /net/image-editing/cropping/
+url: /pl/net/image-editing/cropping/
 weight: 10
 ---
 

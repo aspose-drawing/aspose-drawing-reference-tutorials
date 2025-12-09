@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習如何在 Aspose.Drawing for .NET 中繪製文字、格式化文字、使用字形微調以及操作字型。建立帶有動態文字和完美排版的圖像。
-language: zh-hant
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 如何使用 Aspose.Drawing for .NET 繪製文字與字型
-url: /net/text-and-fonts/
+url: /zh-hant/net/text-and-fonts/
 weight: 26
 ---
 

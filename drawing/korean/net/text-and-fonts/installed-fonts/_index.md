@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.Drawing for .NET를 사용하여 설치된 글꼴을 나열하고, 글꼴 패밀리를 표시하며, 비트맵에서 그래픽을
   생성하고, 글꼴로 텍스트를 그리는 동시에 PNG 이미지 파일을 저장하는 방법을 배웁니다.
-language: ko
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing에서 PNG 이미지 저장 및 설치된 폰트 작업
-url: /net/text-and-fonts/installed-fonts/
+url: /ko/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

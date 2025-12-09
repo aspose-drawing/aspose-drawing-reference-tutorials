@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Drawing for .NET के साथ आर्क और अन्य आकार बनाना सीखें। ठोस ब्रश,
   बेज़ियर स्प्लाइन, दीर्घवृत्त और अधिक को जीवंत ग्राफ़िक्स ट्यूटोरियल में महारत हासिल
   करें।
-language: hi
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing for .NET के साथ आर्क और अन्य आकृतियों को कैसे बनाएं
-url: /net/lines-curves-and-shapes/
+url: /hi/net/lines-curves-and-shapes/
 weight: 23
 ---
 

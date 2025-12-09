@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Μάθετε πώς να εκτελείτε μετασχηματισμό του συστήματος συντεταγμένων και
   να σχεδιάζετε γραφικά ορθογωνίων στο .NET χρησιμοποιώντας το Aspose.Drawing. Οδηγός
   βήμα‑προς‑βήμα για το πώς να μετασχηματίζετε τις συντεταγμένες της σελίδας.
-language: el
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Μετασχηματισμός Συστήματος Συντεταγμένων – Μετασχηματισμός Σελίδας στο Aspose.Drawing
   για .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /el/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

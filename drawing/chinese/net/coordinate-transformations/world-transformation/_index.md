@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 学习如何使用 Aspose.Drawing 创建位图、应用世界变换并将图形转换为 PNG。针对 .NET 开发者的分步指南。
-language: zh
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 使用 Aspose.Drawing 创建位图 – 世界变换指南
-url: /net/coordinate-transformations/world-transformation/
+url: /zh/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

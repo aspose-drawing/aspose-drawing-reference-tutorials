@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Erfahren Sie, wie Sie PNG‑Bilddateien speichern, installierte Schriftarten
   auflisten, Schriftfamilien anzeigen, Grafiken aus Bitmaps erstellen und Text mit
   Schriftarten mithilfe von Aspose.Drawing für .NET zeichnen.
-language: de
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: PNG‑Bild speichern und mit installierten Schriftarten in Aspose.Drawing arbeiten
-url: /net/text-and-fonts/installed-fonts/
+url: /de/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

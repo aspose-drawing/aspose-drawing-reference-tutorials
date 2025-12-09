@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: บทเรียนการตัดรูปภาพแบบทีละขั้นตอนสำหรับนักพัฒนา .NET ด้วย Aspose.Drawing
   เรียนรู้วิธีการตัดรูปเป็น PNG การตัดรูปเป็นชุด และเทคนิคการตัดรูปภาพที่สำคัญในการประมวลผลภาพ
-language: th
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'บทเรียนการตัดภาพ: การตัดภาพด้วย Aspose.Drawing สำหรับ .NET'
-url: /net/image-editing/cropping/
+url: /th/net/image-editing/cropping/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Naučte se, jak škálovat obrázek bez ztráty pomocí Aspose.Drawing pro
   .NET, a zjistěte, jak efektivně ořezávat, měnit velikost, načítat, ukládat a zobrazovat
   obrázky.
-language: cs
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Změna velikosti obrázku bez ztráty – Úprava obrázků s Aspose.Drawing
-url: /net/image-editing/
+url: /cs/net/image-editing/
 weight: 21
 ---
 

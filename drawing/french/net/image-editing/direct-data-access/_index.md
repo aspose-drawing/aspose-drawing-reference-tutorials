@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Apprenez à lire les pixels et à écrire des données de pixels en utilisant
   l’accès direct aux données d’Aspose.Drawing pour une manipulation efficace des pixels
   d’image en .NET.
-language: fr
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: Comment lire les pixels avec un accès direct aux données dans Aspose.Drawing
-url: /net/image-editing/direct-data-access/
+url: /fr/net/image-editing/direct-data-access/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Pelajari cara memperbesar gambar tanpa kehilangan kualitas menggunakan
   Aspose.Drawing untuk .NET, dan temukan cara memotong, mengubah ukuran, memuat, menyimpan,
   serta menampilkan gambar secara efisien.
-language: id
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Skala Gambar Tanpa Kehilangan – Pengeditan Gambar dengan Aspose.Drawing
-url: /net/image-editing/
+url: /id/net/image-editing/
 weight: 21
 ---
 

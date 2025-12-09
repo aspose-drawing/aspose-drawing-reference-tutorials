@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Dowiedz się, jak odczytywać piksele i zapisywać dane pikseli, korzystając
   z bezpośredniego dostępu do danych Aspose.Drawing, aby efektywnie manipulować pikselami
   obrazu w .NET.
-language: pl
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: Jak odczytać piksele przy użyciu bezpośredniego dostępu do danych w Aspose.Drawing
-url: /net/image-editing/direct-data-access/
+url: /pl/net/image-editing/direct-data-access/
 weight: 11
 ---
 

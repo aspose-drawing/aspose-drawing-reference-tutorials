@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Pelajari cara menyimpan file gambar PNG sambil menampilkan daftar font
   yang terpasang, menunjukkan keluarga font, membuat grafik dari bitmap, dan menggambar
   teks dengan font menggunakan Aspose.Drawing untuk .NET.
-language: id
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Simpan Gambar PNG dan Bekerja dengan Font yang Terpasang di Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /id/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

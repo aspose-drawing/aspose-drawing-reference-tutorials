@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Hướng dẫn cắt ảnh từng bước cho các nhà phát triển .NET sử dụng Aspose.Drawing.
   Tìm hiểu cách cắt ảnh thành PNG, cắt ảnh hàng loạt và các kỹ thuật cắt ảnh thiết
   yếu trong xử lý ảnh.
-language: vi
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Hướng dẫn cắt ảnh: Cắt ảnh bằng Aspose.Drawing cho .NET'
-url: /net/image-editing/cropping/
+url: /vi/net/image-editing/cropping/
 weight: 10
 ---
 

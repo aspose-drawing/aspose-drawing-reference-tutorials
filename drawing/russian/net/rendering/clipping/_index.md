@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Узнайте, как установить область отсечения, как обрезать изображение,
   сохранить обрезанное изображение и применить пользовательский рендеринг текста с
   помощью Aspose.Drawing для .NET в пошаговом руководстве.
-language: ru
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Задание области отсечения в Aspose.Drawing – руководство по .NET
-url: /net/rendering/clipping/
+url: /ru/net/rendering/clipping/
 weight: 12
 ---
 

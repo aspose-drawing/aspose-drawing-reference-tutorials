@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Impara a disegnare archi e altre forme con Aspose.Drawing per .NET. Padroneggia
   i pennelli solidi, disegna spline Bézier, ellissi e molto altro in vivaci tutorial
   grafici.
-language: it
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Come disegnare archi e altre forme con Aspose.Drawing per .NET
-url: /net/lines-curves-and-shapes/
+url: /it/net/lines-curves-and-shapes/
 weight: 23
 ---
 

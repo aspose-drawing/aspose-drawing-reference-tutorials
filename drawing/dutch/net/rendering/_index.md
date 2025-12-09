@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe u alfa kunt mengen in .NET-grafische afbeeldingen met Aspose.Drawing,
   antialiasing toepast voor gladde randen, en ontdek hoe u grafische elementen kunt
   bijsnijden voor nauwkeurige ontwerpen.
-language: nl
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Hoe Alpha te mengen: Renderingtechnieken met Aspose.Drawing'
-url: /net/rendering/
+url: /nl/net/rendering/
 weight: 25
 ---
 

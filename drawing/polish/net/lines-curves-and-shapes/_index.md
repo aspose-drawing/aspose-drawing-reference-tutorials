@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak rysować łuki i inne kształty za pomocą Aspose.Drawing
   dla .NET. Opanuj pędzle stałe, rysuj krzywe Béziera, elipsy i wiele więcej w żywych
   samouczkach grafiki.
-language: pl
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Jak rysować łuki i inne kształty przy użyciu Aspose.Drawing dla .NET
-url: /net/lines-curves-and-shapes/
+url: /pl/net/lines-curves-and-shapes/
 weight: 23
 ---
 

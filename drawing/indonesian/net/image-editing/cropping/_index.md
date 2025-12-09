@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tutorial pemotongan gambar langkah demi langkah untuk pengembang .NET
   menggunakan Aspose.Drawing. Pelajari cara memotong gambar menjadi PNG, pemotongan
   gambar secara batch, dan teknik pemrosesan gambar penting untuk pemotongan.
-language: id
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Tutorial Pemotongan Gambar: Memotong Gambar dengan Aspose.Drawing untuk .NET'
-url: /net/image-editing/cropping/
+url: /id/net/image-editing/cropping/
 weight: 10
 ---
 

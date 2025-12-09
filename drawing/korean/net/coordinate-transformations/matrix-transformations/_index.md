@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Drawing .NET용 행렬 변환 튜토리얼을 배우고, 회전된 사각형 그리기, 행렬 회전 적용 및 행렬 스케일링
   수행(C#)에 대해 알아보세요.
-language: ko
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: '행렬 변환 튜토리얼: Aspose.Drawing for .NET의 행렬 변환'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /ko/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

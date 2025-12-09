@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية دمج قيمة ألفا في رسومات .NET باستخدام Aspose.Drawing، وتطبيق
   مضاد التعرجات للحصول على حواف ناعمة، واكتشف كيفية قص الرسومات لتصاميم دقيقة.
-language: ar
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'كيفية دمج الألفا: تقنيات التصيير مع Aspose.Drawing'
-url: /net/rendering/
+url: /ar/net/rendering/
 weight: 25
 ---
 

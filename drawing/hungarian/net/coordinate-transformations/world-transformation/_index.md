@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg, hogyan hozhat létre bitmapet az Aspose.Drawing segítségével,
   hogyan alkalmazzon világtranszformációkat, és hogyan konvertálja a grafikát PNG
   formátumba. Lépésről lépésre útmutató .NET fejlesztőknek.
-language: hu
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Bitmap létrehozása az Aspose.Drawing segítségével – Világtranszformációs útmutató
-url: /net/coordinate-transformations/world-transformation/
+url: /hu/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

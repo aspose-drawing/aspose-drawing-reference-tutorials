@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何使用 Aspose.Drawing for .NET 在不失真的情況下縮放圖像，並探索如何高效地裁切、調整大小、載入、儲存及顯示圖像。
-language: zh-hant
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 無損縮放圖像 – 使用 Aspose.Drawing 進行圖像編輯
-url: /net/image-editing/
+url: /zh-hant/net/image-editing/
 weight: 21
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Học cách vẽ cung và các hình dạng khác với Aspose.Drawing cho .NET. Thành
   thạo các cọ vẽ đặc, vẽ spline Bezier, hình elip và nhiều hơn nữa trong các hướng
   dẫn đồ họa sinh động.
-language: vi
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cách vẽ cung và các hình dạng khác bằng Aspose.Drawing cho .NET
-url: /net/lines-curves-and-shapes/
+url: /vi/net/lines-curves-and-shapes/
 weight: 23
 ---
 

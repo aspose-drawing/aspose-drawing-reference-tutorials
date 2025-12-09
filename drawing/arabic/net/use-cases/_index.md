@@ -3,11 +3,10 @@ date: 2025-12-06
 description: تعلم كيفية إنشاء إطار للصور، وإضافة نص فوق الصور، وإدراج نص في الصورة
   باستخدام .NET وAspose.Drawing. دروس خطوة بخطوة حول التعليقات التوضيحية، وإطارات
   الصور، وتراكب النص.
-language: ar
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: كيفية إنشاء إطار صورة – حالات الاستخدام مع Aspose.Drawing لـ .NET
-url: /net/use-cases/
+url: /ar/net/use-cases/
 weight: 27
 ---
 

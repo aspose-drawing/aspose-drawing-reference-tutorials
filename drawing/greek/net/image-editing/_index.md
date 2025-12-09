@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να κλιμακώνετε εικόνες χωρίς απώλεια χρησιμοποιώντας το Aspose.Drawing
   για .NET και ανακαλύψτε πώς να περικόπτετε, να αλλάζετε το μέγεθος, να φορτώνετε,
   να αποθηκεύετε και να εμφανίζετε εικόνες αποδοτικά.
-language: el
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Κλιμάκωση εικόνας χωρίς απώλεια – Επεξεργασία εικόνας με το Aspose.Drawing
-url: /net/image-editing/
+url: /el/net/image-editing/
 weight: 21
 ---
 

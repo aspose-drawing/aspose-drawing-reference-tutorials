@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du licensierar Aspose.Drawing för .NET med steg‑för‑steg‑handledningar.
   Lås upp fulla grafikfunktioner, integrera sömlöst och undvik licensfallgropar.
-language: sv
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hur man licensierar Aspose.Drawing för .NET
-url: /net/licensing/
+url: /sv/net/licensing/
 weight: 22
 ---
 

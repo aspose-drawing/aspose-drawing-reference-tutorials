@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak ustawić region przycinania, jak przyciąć obraz, zapisać
   przycięty obraz oraz zastosować niestandardowe renderowanie tekstu przy użyciu Aspose.Drawing
   dla .NET w samouczku krok po kroku.
-language: pl
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Ustawianie regionu przycinania w Aspose.Drawing – przewodnik .NET
-url: /net/rendering/clipping/
+url: /pl/net/rendering/clipping/
 weight: 12
 ---
 

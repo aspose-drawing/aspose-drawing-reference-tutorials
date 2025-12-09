@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Ismerje meg, hogyan lehet szöveget rajzolni, szöveget formázni, hintinget
   használni, és betűtípusokkal dolgozni az Aspose.Drawing for .NET-ben. Készítsen
   dinamikus szöveget tartalmazó képeket és tökéletes tipográfiát.
-language: hu
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hogyan rajzoljunk szöveget és betűtípusokat az Aspose.Drawing .NET-hez
-url: /net/text-and-fonts/
+url: /hu/net/text-and-fonts/
 weight: 26
 ---
 

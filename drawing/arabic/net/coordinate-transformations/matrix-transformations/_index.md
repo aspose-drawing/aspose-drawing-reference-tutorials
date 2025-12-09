@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم هذا الدرس حول تحويل المصفوفات لـ Aspose.Drawing .NET، والذي يغطي
   كيفية رسم مستطيل مُدوَّر، تطبيق دوران المصفوفة، وإجراء تحجيم المصفوفة باستخدام C#.
-language: ar
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'دروس تحويل المصفوفات: تحويلات المصفوفة في Aspose.Drawing لـ .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /ar/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Pelajari cara membuat bingkai foto, menambahkan teks pada gambar, dan
   menambahkan teks ke gambar .NET menggunakan Aspose.Drawing. Tutorial langkah demi
   langkah untuk callout, bingkai foto, dan overlay teks.
-language: id
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cara Membuat Bingkai Foto – Kasus Penggunaan dengan Aspose.Drawing untuk .NET
-url: /net/use-cases/
+url: /id/net/use-cases/
 weight: 27
 ---
 

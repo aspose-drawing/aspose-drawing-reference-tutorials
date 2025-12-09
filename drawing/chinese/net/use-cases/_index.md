@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: 了解如何使用 Aspose.Drawing 在 .NET 中创建相框、在图像上覆盖文字以及向图像添加文字。提供关于标注、相框和文字覆盖的逐步教程。
-language: zh
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 如何创建相框 – 使用 Aspose.Drawing for .NET 的案例
-url: /net/use-cases/
+url: /zh/net/use-cases/
 weight: 27
 ---
 

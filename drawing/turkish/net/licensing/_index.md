@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Adım adım öğreticilerle Aspose.Drawing for .NET lisanslamayı öğrenin.
   Tam grafik yeteneklerinin kilidini açın, sorunsuz bir şekilde entegre edin ve lisanslama
   tuzaklarından kaçının.
-language: tr
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing'i .NET için Nasıl Lisanslayabilirsiniz
-url: /net/licensing/
+url: /tr/net/licensing/
 weight: 22
 ---
 

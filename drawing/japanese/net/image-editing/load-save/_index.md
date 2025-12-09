@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: .NETでAspose.Drawingを使用した画像読み込み、バッチ画像変換、フォーマット変更をマスターしよう。BMPからPNGへの変換やその他の方法を学べます。
-language: ja
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.DrawingでBMPをPNGやその他の形式に変換
-url: /net/image-editing/load-save/
+url: /ja/net/image-editing/load-save/
 weight: 13
 ---
 

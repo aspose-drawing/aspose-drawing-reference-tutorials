@@ -3,11 +3,10 @@ date: 2025-12-01
 description: .NET में Aspose.Drawing का उपयोग करके कोऑर्डिनेट सिस्टम ट्रांसफ़ॉर्मेशन
   कैसे करें और आयत ग्राफ़िक्स कैसे बनाएं, सीखें। पेज कोऑर्डिनेट्स को ट्रांसफ़ॉर्म
   करने के लिए चरण‑दर‑चरण गाइड।
-language: hi
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: निर्देशांक प्रणाली रूपांतरण – Aspose.Drawing for .NET में पृष्ठ रूपांतरण
-url: /net/coordinate-transformations/page-transformation/
+url: /hi/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

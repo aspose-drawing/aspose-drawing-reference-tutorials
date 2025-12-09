@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: دليل خطوة بخطوة لقص الصور لمطوري .NET باستخدام Aspose.Drawing. تعلم كيفية
   قص الصورة إلى PNG، قص الصور دفعة واحدة، وتقنيات قص أساسية في معالجة الصور.
-language: ar
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'دليل قص الصور: قص الصور باستخدام Aspose.Drawing لـ .NET'
-url: /net/image-editing/cropping/
+url: /ar/net/image-editing/cropping/
 weight: 10
 ---
 

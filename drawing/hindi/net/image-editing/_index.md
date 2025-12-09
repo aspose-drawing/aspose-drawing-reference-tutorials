@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Drawing for .NET का उपयोग करके बिना नुकसान के छवि को स्केल करना
   सीखें, और जानें कि कैसे कुशलतापूर्वक छवियों को क्रॉप, री‑साइज़, लोड, सेव और प्रदर्शित
   किया जाए।
-language: hi
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: बिना नुकसान के छवि को स्केल करें – Aspose.Drawing के साथ छवि संपादन
-url: /net/image-editing/
+url: /hi/net/image-editing/
 weight: 21
 ---
 

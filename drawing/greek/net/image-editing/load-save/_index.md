@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Αποκτήστε έλεγχο της φόρτωσης εικόνων, της μαζικής μετατροπής εικόνων
   και των αλλαγών μορφής σε .NET χρησιμοποιώντας το Aspose.Drawing. Μάθετε πώς να
   μετατρέπετε BMP σε PNG και άλλα.
-language: el
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Μετατροπή BMP σε PNG και άλλες μορφές με το Aspose.Drawing
-url: /net/image-editing/load-save/
+url: /el/net/image-editing/load-save/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à définir une région de découpage, à découper une image, à enregistrer
   l'image découpée et à appliquer un rendu de texte personnalisé à l’aide d’Aspose.Drawing
   pour .NET dans un tutoriel étape par étape.
-language: fr
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Définir la région de découpage dans Aspose.Drawing – Guide .NET
-url: /net/rendering/clipping/
+url: /fr/net/rendering/clipping/
 weight: 12
 ---
 

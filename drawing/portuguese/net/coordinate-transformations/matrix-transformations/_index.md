@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Aprenda este tutorial de transformação de matriz para Aspose.Drawing
   .NET, abordando como desenhar retângulo rotacionado, aplicar rotação de matriz e
   realizar escala de matriz em C#.
-language: pt
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Tutorial de Transformação de Matriz: Transformações de Matriz no Aspose.Drawing
   para .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /pt/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

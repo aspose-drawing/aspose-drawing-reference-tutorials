@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se kreslit oblouky a další tvary pomocí Aspose.Drawing pro .NET.
   Ovládněte plné štětce, kreslete Bézierovy křivky, elipsy a další v živých grafických
   tutoriálech.
-language: cs
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Jak kreslit oblouky a další tvary pomocí Aspose.Drawing pro .NET
-url: /net/lines-curves-and-shapes/
+url: /cs/net/lines-curves-and-shapes/
 weight: 23
 ---
 

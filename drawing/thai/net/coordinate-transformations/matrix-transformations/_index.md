@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้บทแนะนำการแปลงเมทริกซ์สำหรับ Aspose.Drawing .NET ที่ครอบคลุมวิธีการวาดสี่เหลี่ยมผืนผ้าหมุน,
   การใช้การหมุนเมทริกซ์, และการทำสเกลเมทริกซ์ด้วย C#
-language: th
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'บทเรียนการแปลงเมทริกซ์: การแปลงเมทริกซ์ใน Aspose.Drawing สำหรับ .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /th/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

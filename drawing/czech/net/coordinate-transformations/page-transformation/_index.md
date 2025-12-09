@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Naučte se, jak provádět transformaci souřadnicového systému a kreslit
   obdélníkové grafiky v .NET pomocí Aspose.Drawing. Podrobný návod krok za krokem,
   jak transformovat souřadnice stránky.
-language: cs
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Transformace souřadnicového systému – Transformace stránky v Aspose.Drawing
   pro .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /cs/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

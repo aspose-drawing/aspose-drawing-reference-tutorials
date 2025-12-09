@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du ritar text, formaterar text, använder hinting och arbetar
   med typsnitt i Aspose.Drawing för .NET. Skapa bilder med dynamisk text och perfekt
   typografi.
-language: sv
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hur man ritar text och typsnitt med Aspose.Drawing för .NET
-url: /net/text-and-fonts/
+url: /sv/net/text-and-fonts/
 weight: 26
 ---
 

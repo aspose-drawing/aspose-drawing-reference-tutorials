@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Mesteri képtöltés, kötegelt képkonvertálás és formátumváltás .NET-ben
   az Aspose.Drawing használatával. Tanulja meg a BMP PNG-re konvertálását és még sok
   mást.
-language: hu
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: BMP konvertálása PNG-re és más formátumokra az Aspose.Drawing használatával
-url: /net/image-editing/load-save/
+url: /hu/net/image-editing/load-save/
 weight: 13
 ---
 

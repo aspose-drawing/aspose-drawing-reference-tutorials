@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je bogen en andere vormen tekent met Aspose.Drawing voor .NET.
   Beheers solide penselen, teken Bézier‑splines, ellipsen en meer in levendige grafische
   tutorials.
-language: nl
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hoe bogen en andere vormen te tekenen met Aspose.Drawing voor .NET
-url: /net/lines-curves-and-shapes/
+url: /nl/net/lines-curves-and-shapes/
 weight: 23
 ---
 

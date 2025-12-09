@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية تحجيم الصورة دون فقدان باستخدام Aspose.Drawing لـ .NET، واكتشف
   كيفية قص الصورة، تغيير حجمها، تحميلها، حفظها، وعرضها بكفاءة.
-language: ar
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: تحجيم الصورة دون فقدان – تحرير الصور باستخدام Aspose.Drawing
-url: /net/image-editing/
+url: /ar/net/image-editing/
 weight: 21
 ---
 

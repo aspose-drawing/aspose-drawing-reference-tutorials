@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Poznaj ten samouczek transformacji macierzy dla Aspose.Drawing .NET,
   obejmujący rysowanie obróconego prostokąta, zastosowanie rotacji macierzy oraz skalowanie
   macierzy w C#.
-language: pl
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Samouczek transformacji macierzy: Transformacje macierzy w Aspose.Drawing
   dla .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /pl/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

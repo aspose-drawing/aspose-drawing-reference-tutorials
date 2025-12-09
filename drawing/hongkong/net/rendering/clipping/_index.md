@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何設定裁剪區域、如何裁剪圖像、儲存裁剪後的圖像，以及使用 Aspose.Drawing for .NET 進行自訂文字渲染的逐步教學。
-language: zh-hant
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 在 Aspose.Drawing 中設定裁剪區域 – .NET 指南
-url: /net/rendering/clipping/
+url: /zh-hant/net/rendering/clipping/
 weight: 12
 ---
 

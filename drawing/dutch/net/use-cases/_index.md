@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Leer hoe je een fotolijst maakt, tekst op afbeeldingen overlayt en tekst
   toevoegt aan een afbeelding in .NET met Aspose.Drawing. Stapsgewijze tutorials voor
   call‑outs, fotolijsten en tekstoverlay.
-language: nl
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hoe maak je een fotolijst – Use Cases met Aspose.Drawing voor .NET
-url: /net/use-cases/
+url: /nl/net/use-cases/
 weight: 27
 ---
 

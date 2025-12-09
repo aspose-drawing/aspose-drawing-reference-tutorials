@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aspose.Drawing for .NET kullanarak yüklü yazı tiplerini listeleme, yazı
   tipi ailelerini gösterme, bitmap'ten grafik oluşturma ve yazı tipleriyle metin çizme
   sırasında PNG görüntü dosyalarını nasıl kaydedeceğinizi öğrenin.
-language: tr
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing'de PNG Görüntüsü Kaydetme ve Yüklü Yazı Tipleriyle Çalışma
-url: /net/text-and-fonts/installed-fonts/
+url: /tr/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

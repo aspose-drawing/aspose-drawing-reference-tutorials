@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan állíthat be vágási régiót, hogyan vághat le képet,
   hogyan mentheti el a levágott képet, és hogyan alkalmazhat egyéni szövegmegjelenítést
   az Aspose.Drawing for .NET használatával egy lépésről‑lépésre útmutatóban.
-language: hu
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Kivágási terület beállítása az Aspose.Drawing-ban – .NET útmutató
-url: /net/rendering/clipping/
+url: /hu/net/rendering/clipping/
 weight: 12
 ---
 

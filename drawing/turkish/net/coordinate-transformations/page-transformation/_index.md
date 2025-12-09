@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Aspose.Drawing kullanarak .NET’te koordinat sistemi dönüşümünü nasıl
   gerçekleştireceğinizi ve dikdörtgen grafiklerini nasıl çizeceğinizi öğrenin. Sayfa
   koordinatlarını nasıl dönüştüreceğinize dair adım adım rehber.
-language: tr
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Koordinat Sistemi Dönüşümü – Aspose.Drawing for .NET'te Sayfa Dönüşümü
-url: /net/coordinate-transformations/page-transformation/
+url: /tr/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

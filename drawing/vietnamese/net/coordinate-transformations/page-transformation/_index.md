@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Tìm hiểu cách thực hiện chuyển đổi hệ tọa độ và vẽ đồ họa hình chữ nhật
   trong .NET bằng Aspose.Drawing. Hướng dẫn từng bước về cách chuyển đổi tọa độ trang.
-language: vi
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Biến đổi Hệ tọa độ – Biến đổi Trang trong Aspose.Drawing cho .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /vi/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

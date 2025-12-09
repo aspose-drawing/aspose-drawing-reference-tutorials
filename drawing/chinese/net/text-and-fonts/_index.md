@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 了解如何在 Aspose.Drawing for .NET 中绘制文本、格式化文本、使用 hinting 并处理字体。创建带有动态文本和完美排版的图像。
-language: zh
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 如何使用 Aspose.Drawing for .NET 绘制文本和字体
-url: /net/text-and-fonts/
+url: /zh/net/text-and-fonts/
 weight: 26
 ---
 

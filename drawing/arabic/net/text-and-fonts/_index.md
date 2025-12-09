@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية رسم النص، تنسيق النص، استخدام التلميحات، والعمل مع الخطوط
   في Aspose.Drawing لـ .NET. أنشئ صورًا بنص ديناميكي وطباعة مثالية.
-language: ar
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: كيفية رسم النص والخطوط باستخدام Aspose.Drawing لـ .NET
-url: /net/text-and-fonts/
+url: /ar/net/text-and-fonts/
 weight: 26
 ---
 

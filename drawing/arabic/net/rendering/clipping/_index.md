@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعرّف على كيفية تعيين منطقة القص، وكيفية قص الصورة، وحفظ الصورة المقصوصة،
   وتطبيق عرض نص مخصص باستخدام Aspose.Drawing لـ .NET في دليل خطوة بخطوة.
-language: ar
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: تعيين منطقة القص في Aspose.Drawing – دليل .NET
-url: /net/rendering/clipping/
+url: /ar/net/rendering/clipping/
 weight: 12
 ---
 

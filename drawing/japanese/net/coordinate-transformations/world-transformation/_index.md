@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Drawing を使用してビットマップを作成し、ワールド変換を適用し、グラフィックを PNG に変換する方法を学びます。.NET
   開発者向けのステップバイステップガイドです。
-language: ja
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawingでビットマップを作成 – ワールド変換ガイド
-url: /net/coordinate-transformations/world-transformation/
+url: /ja/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

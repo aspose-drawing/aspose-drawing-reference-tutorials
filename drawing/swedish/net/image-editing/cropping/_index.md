@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Steg‑för‑steg‑handledning för bildbeskärning för .NET‑utvecklare med
   Aspose.Drawing. Lär dig hur du beskär en bild till PNG, batch‑beskärning av bilder
   och grundläggande tekniker för bildbehandling och beskärning.
-language: sv
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Bildbeskärningshandledning: Beskära bilder med Aspose.Drawing för .NET'
-url: /net/image-editing/cropping/
+url: /sv/net/image-editing/cropping/
 weight: 10
 ---
 

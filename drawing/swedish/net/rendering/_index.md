@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du blandar alfa i .NET‑grafik med Aspose.Drawing, tillämpar
   kantutjämning för släta kanter och upptäcker hur du beskär grafik för exakta designer.
-language: sv
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Hur man blandar alfa: Renderingstekniker med Aspose.Drawing'
-url: /net/rendering/
+url: /sv/net/rendering/
 weight: 25
 ---
 

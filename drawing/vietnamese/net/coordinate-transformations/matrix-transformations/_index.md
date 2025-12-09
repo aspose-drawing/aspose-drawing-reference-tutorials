@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Học hướng dẫn chuyển đổi ma trận này cho Aspose.Drawing .NET, bao gồm
   cách vẽ hình chữ nhật xoay, áp dụng quay ma trận và thực hiện thu phóng ma trận
   C#.
-language: vi
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Hướng dẫn Biến đổi Ma trận: Các biến đổi ma trận trong Aspose.Drawing cho
   .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /vi/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

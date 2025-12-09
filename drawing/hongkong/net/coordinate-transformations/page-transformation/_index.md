@@ -1,11 +1,10 @@
 ---
 date: 2025-12-01
 description: 學習如何在 .NET 中使用 Aspose.Drawing 執行座標系統轉換並繪製矩形圖形。一步一步的指南，說明如何轉換頁面座標。
-language: zh-hant
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 座標系統轉換 – Aspose.Drawing for .NET 中的頁面轉換
-url: /net/coordinate-transformations/page-transformation/
+url: /zh-hant/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

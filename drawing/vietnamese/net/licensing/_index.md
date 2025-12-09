@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Học cách cấp phép Aspose.Drawing cho .NET qua các hướng dẫn từng bước.
   Mở khóa đầy đủ khả năng đồ họa, tích hợp liền mạch và tránh các rủi ro về cấp phép.
-language: vi
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cách cấp phép Aspose.Drawing cho .NET
-url: /net/licensing/
+url: /vi/net/licensing/
 weight: 22
 ---
 

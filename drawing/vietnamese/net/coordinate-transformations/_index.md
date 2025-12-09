@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Học các kỹ thuật biến đổi từng bước với Aspose.Drawing cho .NET, bao
   gồm biến đổi toàn cục, cục bộ, ma trận, trang, thế giới và các đơn vị đo trong đồ
   họa.
-language: vi
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Biến đổi từng bước – Các biến đổi tọa độ
-url: /net/coordinate-transformations/
+url: /vi/net/coordinate-transformations/
 weight: 20
 ---
 

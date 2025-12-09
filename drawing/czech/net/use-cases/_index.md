@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Naučte se, jak vytvořit rámeček pro fotografii, překrýt text na obrázcích
   a přidat text do obrázku v .NET pomocí Aspose.Drawing. Krok za krokem návody na
   popisky, rámečky pro fotografie a překrytí textem.
-language: cs
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Jak vytvořit rámeček pro fotografii – Příklady použití Aspose.Drawing pro .NET
-url: /net/use-cases/
+url: /cs/net/use-cases/
 weight: 27
 ---
 

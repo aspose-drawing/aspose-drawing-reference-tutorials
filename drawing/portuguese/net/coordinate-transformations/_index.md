@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aprenda passo a passo as técnicas de transformação com Aspose.Drawing
   para .NET, cobrindo transformações global, local, de matriz, de página, mundial
   e unidades de medida gráficas.
-language: pt
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Transformação passo a passo – Transformações de coordenadas
-url: /net/coordinate-transformations/
+url: /pt/net/coordinate-transformations/
 weight: 20
 ---
 

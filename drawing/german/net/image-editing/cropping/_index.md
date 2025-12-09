@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Schritt‑für‑Schritt‑Tutorial zum Bildzuschnitt für .NET‑Entwickler mit
   Aspose.Drawing. Erfahren Sie, wie Sie Bilder zu PNG zuschneiden, Bildzuschnitte
   stapelweise durchführen und wesentliche Bildverarbeitung‑Zuschneidetechniken anwenden.
-language: de
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Bildzuschnitt‑Tutorial: Bilder zuschneiden mit Aspose.Drawing für .NET'
-url: /net/image-editing/cropping/
+url: /de/net/image-editing/cropping/
 weight: 10
 ---
 

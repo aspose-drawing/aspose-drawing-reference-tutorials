@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Lernen Sie dieses Tutorial zur Matrixtransformation für Aspose.Drawing
   .NET, das erklärt, wie man ein rotiertes Rechteck zeichnet, Matrixrotation anwendet
   und Matrixskalierung in C# durchführt.
-language: de
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Matrix-Transformations‑Tutorial: Matrixtransformationen in Aspose.Drawing
   für .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /de/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

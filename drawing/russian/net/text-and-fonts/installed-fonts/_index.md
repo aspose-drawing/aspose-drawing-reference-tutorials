@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Узнайте, как сохранять PNG‑изображения, выводить список установленных
   шрифтов, показывать семейства шрифтов, создавать графику из растрового изображения
   и рисовать текст с помощью шрифтов, используя Aspose.Drawing для .NET.
-language: ru
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Сохранить PNG‑изображение и работать с установленными шрифтами в Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /ru/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

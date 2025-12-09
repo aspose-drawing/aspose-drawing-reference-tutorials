@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.Drawing を使用した .NET グラフィックスでアルファブレンドの方法を学び、滑らかなエッジのためにアンチエイリアスを適用し、正確なデザインのためにグラフィックのクリッピング方法を発見しましょう。
-language: ja
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: アルファブレンドの方法：Aspose.Drawingによるレンダリング技術
-url: /net/rendering/
+url: /ja/net/rendering/
 weight: 25
 ---
 

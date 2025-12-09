@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie mit Aspose.Drawing für .NET Bögen und andere Formen
   zeichnen. Beherrschen Sie Vollpinsel, zeichnen Sie Bézier‑Splines, Ellipsen und
   mehr in lebendigen Grafik‑Tutorials.
-language: de
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Wie man Bögen und andere Formen mit Aspose.Drawing für .NET zeichnet
-url: /net/lines-curves-and-shapes/
+url: /de/net/lines-curves-and-shapes/
 weight: 23
 ---
 

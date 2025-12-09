@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Drawing for .NET를 사용하여 단계별 변환 기술을 배우고, 전역, 로컬, 매트릭스, 페이지, 월드 변환
   및 측정 단위 그래픽을 다룹니다.
-language: ko
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 단계별 변환 – 좌표 변환
-url: /net/coordinate-transformations/
+url: /ko/net/coordinate-transformations/
 weight: 20
 ---
 

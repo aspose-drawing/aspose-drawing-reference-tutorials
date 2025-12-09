@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 使用 Aspose.Drawing 的 .NET 開發人員逐步圖像裁剪教學。學習如何將圖像裁剪為 PNG、批量圖像裁剪以及基本的圖像處理裁剪技術。
-language: zh-hant
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 圖像裁剪教學：使用 Aspose.Drawing for .NET 裁剪圖像
-url: /net/image-editing/cropping/
+url: /zh-hant/net/image-editing/cropping/
 weight: 10
 ---
 

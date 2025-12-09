@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: تعلم كيفية قراءة البكسلات وكتابة بيانات البكسل باستخدام الوصول المباشر
   للبيانات في Aspose.Drawing لتعديل بكسلات الصورة بكفاءة في .NET.
-language: ar
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: كيفية قراءة البكسلات باستخدام الوصول المباشر إلى البيانات في Aspose.Drawing
-url: /net/image-editing/direct-data-access/
+url: /ar/net/image-editing/direct-data-access/
 weight: 11
 ---
 

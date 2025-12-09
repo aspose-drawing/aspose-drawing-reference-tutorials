@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Μάθετε πώς να διαβάζετε εικονοστοιχεία και να γράφετε δεδομένα εικονοστοιχείων
   χρησιμοποιώντας την άμεση πρόσβαση δεδομένων του Aspose.Drawing για αποδοτική επεξεργασία
   εικονοστοιχείων εικόνας στο .NET.
-language: el
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: Πώς να διαβάσετε εικονοστοιχεία με άμεση πρόσβαση σε δεδομένα στο Aspose.Drawing
-url: /net/image-editing/direct-data-access/
+url: /el/net/image-editing/direct-data-access/
 weight: 11
 ---
 

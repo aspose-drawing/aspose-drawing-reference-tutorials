@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: .NET 개발자를 위한 Aspose.Drawing을 활용한 단계별 이미지 자르기 튜토리얼. PNG로 이미지 자르기, 배치 이미지
   자르기 및 필수 이미지 처리 자르기 기술을 배워보세요.
-language: ko
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: '이미지 자르기 튜토리얼: Aspose.Drawing for .NET을 사용한 이미지 자르기'
-url: /net/image-editing/cropping/
+url: /ko/net/image-editing/cropping/
 weight: 10
 ---
 

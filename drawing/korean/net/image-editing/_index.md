@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Drawing for .NET을 사용하여 손실 없이 이미지를 확대하는 방법을 배우고, 이미지를 효율적으로 자르고,
   크기를 조정하고, 로드하고, 저장하며, 표시하는 방법을 알아보세요.
-language: ko
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 손실 없이 이미지 확대 – Aspose.Drawing 이미지 편집
-url: /net/image-editing/
+url: /ko/net/image-editing/
 weight: 21
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Lär dig hur du skapar fotoram, lägger över text på bilder och lägger
   till text i bild .NET med Aspose.Drawing. Steg‑för‑steg‑handledningar för anmärkningar,
   fotoram och textöverlägg.
-language: sv
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hur man skapar en bildram – Användningsfall med Aspose.Drawing för .NET
-url: /net/use-cases/
+url: /sv/net/use-cases/
 weight: 27
 ---
 

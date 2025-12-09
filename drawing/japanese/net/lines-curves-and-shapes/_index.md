@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.Drawing for .NET を使用して円弧やその他の形状の描き方を学びましょう。ソリッドブラシをマスターし、ベジエスプラインや楕円など、鮮やかなグラフィックチュートリアルでさらに多くを描くことができます。
-language: ja
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: .NET 用 Aspose.Drawing で円弧やその他の図形を描く方法
-url: /net/lines-curves-and-shapes/
+url: /ja/net/lines-curves-and-shapes/
 weight: 23
 ---
 

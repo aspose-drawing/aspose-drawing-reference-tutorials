@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara menggambar teks, memformat teks, menggunakan hinting, dan
   bekerja dengan font di Aspose.Drawing untuk .NET. Buat gambar dengan teks dinamis
   dan tipografi yang sempurna.
-language: id
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cara Menggambar Teks dan Font dengan Aspose.Drawing untuk .NET
-url: /net/text-and-fonts/
+url: /id/net/text-and-fonts/
 weight: 26
 ---
 

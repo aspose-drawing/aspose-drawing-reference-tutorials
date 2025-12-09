@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何在 .NET 图形中使用 Aspose.Drawing 混合 Alpha、应用抗锯齿以实现平滑边缘，并了解如何裁剪图形以实现精确设计。
-language: zh
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 如何混合 Alpha：使用 Aspose.Drawing 的渲染技术
-url: /net/rendering/
+url: /zh/net/rendering/
 weight: 25
 ---
 

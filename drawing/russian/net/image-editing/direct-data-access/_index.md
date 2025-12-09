@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Изучите, как считывать пиксели и записывать данные пикселей, используя
   прямой доступ к данным Aspose.Drawing для эффективного манипулирования пикселями
   изображений в .NET.
-language: ru
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: Как читать пиксели с прямым доступом к данным в Aspose.Drawing
-url: /net/image-editing/direct-data-access/
+url: /ru/net/image-editing/direct-data-access/
 weight: 11
 ---
 

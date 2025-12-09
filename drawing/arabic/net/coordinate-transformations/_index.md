@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعرّف على تقنيات التحويل خطوة بخطوة باستخدام Aspose.Drawing لـ .NET،
   بما يشمل التحويل العالمي، المحلي، المصفوفة، الصفحة، العالم، ووحدات القياس في الرسومات.
-language: ar
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: تحويل خطوة بخطوة – التحويلات الإحداثية
-url: /net/coordinate-transformations/
+url: /ar/net/coordinate-transformations/
 weight: 20
 ---
 

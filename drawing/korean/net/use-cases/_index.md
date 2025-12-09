@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.Drawing을 사용하여 .NET에서 사진 프레임을 만들고, 이미지에 텍스트를 오버레이하고, 이미지에 텍스트를
   추가하는 방법을 배웁니다. 콜아웃, 사진 프레임 및 텍스트 오버레이에 대한 단계별 튜토리얼.
-language: ko
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 사진 프레임 만들기 – Aspose.Drawing for .NET 활용 사례
-url: /net/use-cases/
+url: /ko/net/use-cases/
 weight: 27
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Leer hoe je een afbeelding zonder verlies kunt schalen met Aspose.Drawing
   voor .NET, en ontdek hoe je afbeeldingen efficiënt kunt bijsnijden, van formaat
   kunt wijzigen, laden, opslaan en weergeven.
-language: nl
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Afbeelding schalen zonder verlies – Afbeeldingsbewerking met Aspose.Drawing
-url: /net/image-editing/
+url: /nl/net/image-editing/
 weight: 21
 ---
 

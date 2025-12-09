@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Tutorial passo‑passo sul ritaglio delle immagini per sviluppatori .NET
   con Aspose.Drawing. Scopri come ritagliare un’immagine in PNG, il ritaglio di immagini
   in batch e le tecniche essenziali di ritaglio nella elaborazione delle immagini.
-language: it
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Tutorial di ritaglio delle immagini: Ritagliare le immagini con Aspose.Drawing
   per .NET'
-url: /net/image-editing/cropping/
+url: /it/net/image-editing/cropping/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg lépésről lépésre az átalakítási technikákat az Aspose.Drawing
   for .NET segítségével, beleértve a globális, helyi, mátrix, oldal és világ átalakításokat,
   valamint a mértékegységek grafikai ábrázolását.
-language: hu
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Lépésről lépésre átalakítás – Koordináta-transzformációk
-url: /net/coordinate-transformations/
+url: /hu/net/coordinate-transformations/
 weight: 20
 ---
 

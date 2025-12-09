@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีผสมค่าอัลฟ่าในกราฟิก .NET ด้วย Aspose.Drawing, ใช้การทำแอนตี้เอียลิ้งเพื่อให้ขอบเรียบเนียน,
   และค้นพบวิธีการคลิปกราฟิกเพื่อการออกแบบที่แม่นยำ.
-language: th
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'วิธีผสมอัลฟ่า: เทคนิคการเรนเดอร์ด้วย Aspose.Drawing'
-url: /net/rendering/
+url: /th/net/rendering/
 weight: 25
 ---
 

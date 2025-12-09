@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何使用 Aspose.Drawing for .NET 繪製弧線及其他形狀。精通實心筆刷、繪製貝塞爾樣條、橢圓等，盡在充滿活力的圖形教學中。
-language: zh-hant
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 如何使用 Aspose.Drawing for .NET 繪製弧形及其他形狀
-url: /net/lines-curves-and-shapes/
+url: /zh-hant/net/lines-curves-and-shapes/
 weight: 23
 ---
 

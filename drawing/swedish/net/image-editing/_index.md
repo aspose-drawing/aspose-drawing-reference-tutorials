@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Lär dig hur du skalar bilder utan förlust med Aspose.Drawing för .NET
   och upptäck hur du beskär, ändrar storlek, laddar, sparar och visar bilder effektivt.
-language: sv
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Skala bild utan förlust – Bildredigering med Aspose.Drawing
-url: /net/image-editing/
+url: /sv/net/image-editing/
 weight: 21
 ---
 

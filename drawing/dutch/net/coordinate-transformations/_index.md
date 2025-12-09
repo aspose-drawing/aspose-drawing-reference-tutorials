@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Leer stap voor stap transformatietechnieken met Aspose.Drawing voor .NET,
   met aandacht voor globale, lokale, matrix-, pagina- en wereldtransformaties en eenheden
   van maat in grafische weergave.
-language: nl
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Stap voor stap transformatie – Coördinatentransformaties
-url: /net/coordinate-transformations/
+url: /nl/net/coordinate-transformations/
 weight: 20
 ---
 

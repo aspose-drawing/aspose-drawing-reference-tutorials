@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Tanulja meg ezt a mátrix-transzformációs útmutatót az Aspose.Drawing
   .NET-hez, amely bemutatja, hogyan kell elforgatott téglalapot rajzolni, mátrix-elforgatást
   alkalmazni, és mátrix-méretezést végrehajtani C#-ban.
-language: hu
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Mátrix-transzformációs útmutató: Mátrix-transzformációk az Aspose.Drawing
   .NET-ben'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /hu/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

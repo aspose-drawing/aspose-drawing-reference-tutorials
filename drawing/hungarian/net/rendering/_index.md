@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan keverje az alfát a .NET grafikában az Aspose.Drawing
   segítségével, alkalmazzon antialiasingot a sima élekért, és fedezze fel, hogyan
   vághatja le a grafikákat a pontos tervezéshez.
-language: hu
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Alfa keverése: renderelési technikák az Aspose.Drawing segítségével'
-url: /net/rendering/
+url: /hu/net/rendering/
 weight: 25
 ---
 

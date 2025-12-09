@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Tìm hiểu cách tạo khung ảnh, chồng lớp văn bản lên hình ảnh và thêm văn
   bản vào hình ảnh .NET bằng Aspose.Drawing. Các hướng dẫn từng bước cho chú thích,
   khung ảnh và chồng lớp văn bản.
-language: vi
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cách tạo khung ảnh – Các trường hợp sử dụng Aspose.Drawing cho .NET
-url: /net/use-cases/
+url: /vi/net/use-cases/
 weight: 27
 ---
 

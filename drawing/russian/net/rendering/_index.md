@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Изучите, как смешивать альфа-канал в графике .NET с помощью Aspose.Drawing,
   применять сглаживание для плавных краёв и узнавать, как обрезать графику для точных
   дизайнов.
-language: ru
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Как смешивать альфа: техники рендеринга с Aspose.Drawing'
-url: /net/rendering/
+url: /ru/net/rendering/
 weight: 25
 ---
 

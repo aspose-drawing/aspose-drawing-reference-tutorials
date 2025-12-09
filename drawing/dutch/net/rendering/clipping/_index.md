@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je een knipgebied instelt, hoe je een afbeelding knipt, het
   geknipte beeld opslaat en aangepaste tekstweergave toepast met Aspose.Drawing voor
   .NET in een stapsgewijze tutorial.
-language: nl
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Knipgebied instellen in Aspose.Drawing – .NET-gids
-url: /net/rendering/clipping/
+url: /nl/net/rendering/clipping/
 weight: 12
 ---
 

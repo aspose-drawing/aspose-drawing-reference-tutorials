@@ -3,12 +3,11 @@ date: 2025-12-04
 description: .NET डेवलपर्स के लिए Aspose.Drawing का उपयोग करके चरण-दर-चरण इमेज क्रॉपिंग
   ट्यूटोरियल। जानें कि इमेज को PNG में कैसे क्रॉप करें, बैच इमेज क्रॉपिंग और आवश्यक
   इमेज प्रोसेसिंग क्रॉप तकनीकें।
-language: hi
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'छवि क्रॉपिंग ट्यूटोरियल: Aspose.Drawing के साथ .NET के लिए छवियों को क्रॉप
   करना'
-url: /net/image-editing/cropping/
+url: /hi/net/image-editing/cropping/
 weight: 10
 ---
 

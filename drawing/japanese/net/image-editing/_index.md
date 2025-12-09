@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: Aspose.Drawing for .NET を使用して、画像をロスなく拡大縮小する方法を学び、画像のトリミング、リサイズ、読み込み、保存、表示を効率的に行う方法を発見しましょう。
-language: ja
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 画像を損失なく拡大 – Aspose.Drawingでの画像編集
-url: /net/image-editing/
+url: /ja/net/image-editing/
 weight: 21
 ---
 

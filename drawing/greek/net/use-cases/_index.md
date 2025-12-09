@@ -4,12 +4,11 @@ description: Μάθετε πώς να δημιουργήσετε κορνίζα 
   πάνω σε εικόνες και να προσθέσετε κείμενο σε εικόνα .NET χρησιμοποιώντας το Aspose.Drawing.
   Αναλυτικά βήμα‑βήμα μαθήματα για σημειώσεις, κορνίζες φωτογραφιών και επικάλυψη
   κειμένου.
-language: el
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Πώς να δημιουργήσετε κορνίζα φωτογραφίας – Περιπτώσεις χρήσης με το Aspose.Drawing
   για .NET
-url: /net/use-cases/
+url: /el/net/use-cases/
 weight: 27
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Leer hoe u coördinatensysteemtransformatie uitvoert en rechthoekgrafieken
   tekent in .NET met Aspose.Drawing. Stapsgewijze handleiding over hoe u paginacoördinaten
   transformeert.
-language: nl
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Coördinatensysteemtransformatie – Paginatransformatie in Aspose.Drawing voor
   .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /nl/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

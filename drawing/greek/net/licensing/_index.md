@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να αδειοδοτείτε το Aspose.Drawing για .NET με βήμα‑βήμα οδηγούς.
   Ξεκλειδώστε πλήρεις δυνατότητες γραφικών, ενσωματωθείτε άψογα και αποφύγετε τις
   παγίδες της αδειοδότησης.
-language: el
 linktitle: How to License Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Πώς να αδειοδοτήσετε το Aspose.Drawing για .NET
-url: /net/licensing/
+url: /el/net/licensing/
 weight: 22
 ---
 

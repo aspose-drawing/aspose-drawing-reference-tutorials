@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้วิธีวาดข้อความ, จัดรูปแบบข้อความ, ใช้ hinting, และทำงานกับฟอนต์ใน
   Aspose.Drawing สำหรับ .NET. สร้างภาพด้วยข้อความที่เปลี่ยนแปลงได้และการจัดพิมพ์ที่สมบูรณ์แบบ.
-language: th
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: วิธีวาดข้อความและแบบอักษรด้วย Aspose.Drawing สำหรับ .NET
-url: /net/text-and-fonts/
+url: /th/net/text-and-fonts/
 weight: 26
 ---
 

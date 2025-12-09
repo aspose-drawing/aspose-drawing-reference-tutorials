@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Drawing for .NET ile adım adım dönüşüm tekniklerini öğrenin, küresel,
   yerel, matris, sayfa ve dünya dönüşümleri ile ölçü birimi grafiklerini kapsar.
-language: tr
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Adım Adım Dönüşüm – Koordinat Dönüşümleri
-url: /net/coordinate-transformations/
+url: /tr/net/coordinate-transformations/
 weight: 20
 ---
 

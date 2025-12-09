@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Leer hoe je tekst tekent, tekst opmaakt, hinting gebruikt en werkt met
   lettertypen in Aspose.Drawing voor .NET. Maak afbeeldingen met dynamische tekst
   en perfecte typografie.
-language: nl
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hoe tekst en lettertypen te tekenen met Aspose.Drawing voor .NET
-url: /net/text-and-fonts/
+url: /nl/net/text-and-fonts/
 weight: 26
 ---
 

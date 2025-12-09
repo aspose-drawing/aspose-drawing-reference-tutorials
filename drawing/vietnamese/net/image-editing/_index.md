@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách phóng to hình ảnh mà không mất chất lượng bằng Aspose.Drawing
   cho .NET, và khám phá cách cắt, thay đổi kích thước, tải, lưu và hiển thị hình ảnh
   một cách hiệu quả.
-language: vi
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Phóng to ảnh không mất chất lượng – Chỉnh sửa ảnh với Aspose.Drawing
-url: /net/image-editing/
+url: /vi/net/image-editing/
 weight: 21
 ---
 

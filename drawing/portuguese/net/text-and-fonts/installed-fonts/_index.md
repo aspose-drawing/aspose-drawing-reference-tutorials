@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aprenda a salvar arquivos de imagem PNG enquanto lista fontes instaladas,
   exibe famílias de fontes, cria gráficos a partir de bitmap e desenha texto com fontes
   usando Aspose.Drawing para .NET.
-language: pt
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Salvar imagem PNG e trabalhar com fontes instaladas no Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /pt/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

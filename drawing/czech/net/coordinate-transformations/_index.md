@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Naučte se krok za krokem techniky transformace s Aspose.Drawing pro .NET,
   zahrnující globální, lokální, maticové, stránkové a světové transformace a jednotky
   měření grafiky.
-language: cs
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Krok za krokem transformace – souřadnicové transformace
-url: /net/coordinate-transformations/
+url: /cs/net/coordinate-transformations/
 weight: 20
 ---
 

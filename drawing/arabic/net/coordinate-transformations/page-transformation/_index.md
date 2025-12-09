@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: تعلم كيفية إجراء تحويل نظام الإحداثيات ورسم رسومات المستطيل في .NET باستخدام
   Aspose.Drawing. دليل خطوة بخطوة حول كيفية تحويل إحداثيات الصفحة.
-language: ar
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: تحويل نظام الإحداثيات – تحويل الصفحة في Aspose.Drawing لـ .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /ar/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

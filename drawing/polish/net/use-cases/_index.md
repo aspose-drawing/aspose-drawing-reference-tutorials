@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Dowiedz się, jak tworzyć ramki zdjęć, nakładać tekst na obrazy i dodawać
   tekst do obrazu w .NET przy użyciu Aspose.Drawing. Samouczki krok po kroku dotyczące
   dymków, ramek zdjęć i nakładania tekstu.
-language: pl
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Jak stworzyć ramkę zdjęcia – Przykłady użycia Aspose.Drawing dla .NET
-url: /net/use-cases/
+url: /pl/net/use-cases/
 weight: 27
 ---
 

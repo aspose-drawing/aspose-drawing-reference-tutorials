@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Aspose.Drawing के प्रत्यक्ष डेटा एक्सेस का उपयोग करके .NET में कुशल इमेज
   पिक्सेल हेरफेर के लिए पिक्सेल पढ़ना और पिक्सेल डेटा लिखना सीखें।
-language: hi
 linktitle: How to Read Pixels with Direct Data Access in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Direct Data Access for Image Pixel Manipulation
 title: Aspose.Drawing में प्रत्यक्ष डेटा एक्सेस के साथ पिक्सेल कैसे पढ़ें
-url: /net/image-editing/direct-data-access/
+url: /hi/net/image-editing/direct-data-access/
 weight: 11
 ---
 

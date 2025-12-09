@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Drawing के साथ बिटमैप बनाना, विश्व परिवर्तन लागू करना, और ग्राफिक्स
   को PNG में बदलना सीखें। .NET डेवलपर्स के लिए चरण‑दर‑चरण गाइड।
-language: hi
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing के साथ बिटमैप बनाएं – वर्ल्ड ट्रांसफ़ॉर्मेशन गाइड
-url: /net/coordinate-transformations/world-transformation/
+url: /hi/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

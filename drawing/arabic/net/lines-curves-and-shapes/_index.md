@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية رسم الأقواس والأشكال الأخرى باستخدام Aspose.Drawing لـ .NET.
   أتقن الفرش الصلبة، وارسم منحنيات بيزيه، والبيضاويّات، وأكثر في دروس رسومات حيوية.
-language: ar
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: كيفية رسم الأقواس والأشكال الأخرى باستخدام Aspose.Drawing لـ .NET
-url: /net/lines-curves-and-shapes/
+url: /ar/net/lines-curves-and-shapes/
 weight: 23
 ---
 

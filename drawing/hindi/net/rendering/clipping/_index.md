@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Drawing for .NET का उपयोग करके क्लिपिंग रीजन सेट करना, इमेज को
   क्लिप करना, क्लिप की गई इमेज को सहेजना और कस्टम टेक्स्ट रेंडरिंग लागू करना सीखें,
   एक चरण‑दर‑चरण ट्यूटोरियल में।
-language: hi
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing में क्लिपिंग रीजन सेट करें – .NET गाइड
-url: /net/rendering/clipping/
+url: /hi/net/rendering/clipping/
 weight: 12
 ---
 

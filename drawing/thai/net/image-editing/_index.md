@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เรียนรู้วิธีปรับขนาดภาพโดยไม่สูญเสียคุณภาพด้วย Aspose.Drawing สำหรับ
   .NET และค้นพบวิธีการตัดภาพ ปรับขนาด โหลด บันทึก และแสดงผลภาพอย่างมีประสิทธิภาพ
-language: th
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: ปรับขนาดภาพโดยไม่สูญเสีย – การแก้ไขภาพด้วย Aspose.Drawing
-url: /net/image-editing/
+url: /th/net/image-editing/
 weight: 21
 ---
 

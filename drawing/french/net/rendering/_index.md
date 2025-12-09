@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à gérer la transparence alpha dans les graphiques .NET avec
   Aspose.Drawing, à appliquer l'anticrénelage pour des bords lisses, et découvrez
   comment découper les graphiques pour des conceptions précises.
-language: fr
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Comment mélanger l''alpha : techniques de rendu avec Aspose.Drawing'
-url: /net/rendering/
+url: /fr/net/rendering/
 weight: 25
 ---
 

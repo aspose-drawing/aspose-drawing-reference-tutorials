@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aspose.Drawing kullanarak .NET’te fotoğraf çerçevesi oluşturmayı, görüntülere
   metin bindirmeyi ve görüntüye metin eklemeyi öğrenin. Çağrılar, fotoğraf çerçeveleri
   ve metin bindirme için adım adım öğreticiler.
-language: tr
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Foto Çerçevesi Nasıl Oluşturulur – Aspose.Drawing for .NET ile Kullanım Örnekleri
-url: /net/use-cases/
+url: /tr/net/use-cases/
 weight: 27
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aprenda como criar bitmap com Aspose.Drawing, aplicar transformações
   de mundo e converter gráficos para PNG. Guia passo a passo para desenvolvedores
   .NET.
-language: pt
 linktitle: World Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Criar Bitmap com Aspose.Drawing – Guia de Transformação do Mundo
-url: /net/coordinate-transformations/world-transformation/
+url: /pt/net/coordinate-transformations/world-transformation/
 weight: 15
 ---
 

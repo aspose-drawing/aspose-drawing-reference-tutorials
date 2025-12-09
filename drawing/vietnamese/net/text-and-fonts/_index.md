@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tìm hiểu cách vẽ văn bản, định dạng văn bản, sử dụng hinting và làm việc
   với phông chữ trong Aspose.Drawing cho .NET. Tạo hình ảnh với văn bản động và kiểu
   chữ hoàn hảo.
-language: vi
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cách vẽ văn bản và phông chữ bằng Aspose.Drawing cho .NET
-url: /net/text-and-fonts/
+url: /vi/net/text-and-fonts/
 weight: 26
 ---
 

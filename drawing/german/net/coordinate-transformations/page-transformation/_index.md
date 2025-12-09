@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Erfahren Sie, wie Sie Koordinatensystem‑Transformationen durchführen
   und Rechteckgrafiken in .NET mit Aspose.Drawing zeichnen. Schritt‑für‑Schritt‑Anleitung
   zur Transformation von Seitenkoordinaten.
-language: de
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Koordinatensystem-Transformation – Seiten-Transformation in Aspose.Drawing
   für .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /de/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

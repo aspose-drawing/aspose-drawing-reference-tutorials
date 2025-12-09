@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aprenda como dimensionar imagens sem perda usando Aspose.Drawing para
   .NET e descubra como recortar, redimensionar, carregar, salvar e exibir imagens
   de forma eficiente.
-language: pt
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Redimensionar imagem sem perda – Edição de imagem com Aspose.Drawing
-url: /net/image-editing/
+url: /pt/net/image-editing/
 weight: 21
 ---
 

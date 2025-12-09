@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak míchat alfa kanál v .NET grafice pomocí Aspose.Drawing,
   použít antialiasing pro hladké hrany a zjistit, jak ořezávat grafiku pro přesné
   návrhy.
-language: cs
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Jak míchat alfa: Techniky renderování s Aspose.Drawing'
-url: /net/rendering/
+url: /cs/net/rendering/
 weight: 25
 ---
 

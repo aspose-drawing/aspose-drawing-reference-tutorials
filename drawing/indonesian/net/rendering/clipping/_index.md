@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara mengatur wilayah pemotongan, cara memotong gambar, menyimpan
   gambar yang dipotong, dan menerapkan rendering teks khusus menggunakan Aspose.Drawing
   untuk .NET dalam tutorial langkah demi langkah.
-language: id
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Mengatur Wilayah Pemotongan di Aspose.Drawing – Panduan .NET
-url: /net/rendering/clipping/
+url: /id/net/rendering/clipping/
 weight: 12
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: เรียนรู้วิธีทำการแปลงระบบพิกัดและวาดกราฟิกสี่เหลี่ยมใน .NET ด้วย Aspose.Drawing
   คู่มือแบบขั้นตอนต่อขั้นตอนเกี่ยวกับการแปลงพิกัดของหน้า
-language: th
 linktitle: Coordinate System Transformation in Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: การแปลงระบบพิกัด – การแปลงหน้ากระดาษใน Aspose.Drawing สำหรับ .NET
-url: /net/coordinate-transformations/page-transformation/
+url: /th/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
 

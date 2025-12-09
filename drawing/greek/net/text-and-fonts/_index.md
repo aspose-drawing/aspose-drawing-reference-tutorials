@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να σχεδιάζετε κείμενο, να μορφοποιείτε κείμενο, να χρησιμοποιείτε
   hinting και να εργάζεστε με γραμματοσειρές στο Aspose.Drawing για .NET. Δημιουργήστε
   εικόνες με δυναμικό κείμενο και τέλεια τυπογραφία.
-language: el
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Πώς να σχεδιάσετε κείμενο και γραμματοσειρές με το Aspose.Drawing για .NET
-url: /net/text-and-fonts/
+url: /el/net/text-and-fonts/
 weight: 26
 ---
 

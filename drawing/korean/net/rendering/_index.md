@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: .NET 그래픽에서 Aspose.Drawing을 사용해 알파 블렌딩하는 방법을 배우고, 부드러운 가장자리를 위한 안티앨리어싱을
   적용하며, 정밀한 디자인을 위해 그래픽을 클리핑하는 방법을 알아보세요.
-language: ko
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: '알파 블렌딩 방법: Aspose.Drawing을 활용한 렌더링 기술'
-url: /net/rendering/
+url: /ko/net/rendering/
 weight: 25
 ---
 

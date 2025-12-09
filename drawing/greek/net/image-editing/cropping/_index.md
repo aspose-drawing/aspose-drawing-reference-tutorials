@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Βήμα‑βήμα οδηγός περικοπής εικόνας για προγραμματιστές .NET με χρήση
   του Aspose.Drawing. Μάθετε πώς να περικόψετε εικόνα σε PNG, μαζική περικοπή εικόνων
   και βασικές τεχνικές περικοπής στην επεξεργασία εικόνας.
-language: el
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 'Μάθημα Κοπής Εικόνας: Κοπή Εικόνων με το Aspose.Drawing για .NET'
-url: /net/image-editing/cropping/
+url: /el/net/image-editing/cropping/
 weight: 10
 ---
 

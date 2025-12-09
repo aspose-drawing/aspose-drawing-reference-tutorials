@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Kesme bölgesini nasıl ayarlayacağınızı, görüntüyü nasıl keseceğinizi,
   kesilmiş görüntüyü nasıl kaydedeceğinizi ve Aspose.Drawing for .NET kullanarak özel
   metin renderını nasıl uygulayacağınızı adım adım bir öğreticide öğrenin.
-language: tr
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing'de Kırpma Bölgesi Ayarlama – .NET Rehberi
-url: /net/rendering/clipping/
+url: /tr/net/rendering/clipping/
 weight: 12
 ---
 

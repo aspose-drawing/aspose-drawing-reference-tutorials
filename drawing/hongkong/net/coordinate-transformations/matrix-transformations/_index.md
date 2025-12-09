@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 學習 Aspose.Drawing .NET 的矩陣變換教學，涵蓋如何繪製旋轉矩形、套用矩陣旋轉以及執行矩陣縮放（C#）。
-language: zh-hant
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 矩陣變換教學：在 .NET 中使用 Aspose.Drawing 進行矩陣變換
-url: /net/coordinate-transformations/matrix-transformations/
+url: /zh-hant/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

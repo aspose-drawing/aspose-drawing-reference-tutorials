@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να ορίζετε περιοχή αποκοπής, πώς να αποκόπτετε εικόνα, να
   αποθηκεύετε την αποκομμένη εικόνα και να εφαρμόζετε προσαρμοσμένη απόδοση κειμένου
   χρησιμοποιώντας το Aspose.Drawing για .NET σε ένα βήμα‑βήμα tutorial.
-language: el
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Ορισμός περιοχής αποκοπής στο Aspose.Drawing – Οδηγός .NET
-url: /net/rendering/clipping/
+url: /el/net/rendering/clipping/
 weight: 12
 ---
 

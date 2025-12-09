@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan méretezze a képet veszteség nélkül az Aspose.Drawing
   for .NET használatával, és fedezze fel, hogyan lehet hatékonyan vágni, átméretezni,
   betölteni, menteni és megjeleníteni a képeket.
-language: hu
 linktitle: Image Editing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Kép méretezése veszteség nélkül – Képszerkesztés az Aspose.Drawing segítségével
-url: /net/image-editing/
+url: /hu/net/image-editing/
 weight: 21
 ---
 

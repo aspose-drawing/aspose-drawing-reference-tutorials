@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: Aspose.Drawing for .NET でテキストの描画、テキストの書式設定、ヒンティングの使用、フォントの操作方法を学びましょう。動的なテキストと完璧なタイポグラフィで画像を作成できます。
-language: ja
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: .NET 用 Aspose.Drawing でテキストとフォントを描画する方法
-url: /net/text-and-fonts/
+url: /ja/net/text-and-fonts/
 weight: 26
 ---
 

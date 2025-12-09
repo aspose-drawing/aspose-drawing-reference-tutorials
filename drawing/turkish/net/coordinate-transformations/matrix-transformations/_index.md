@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Drawing .NET için bu matris dönüşüm öğreticisini öğrenin; döndürülmüş
   dikdörtgen çizmeyi, matris döndürmeyi uygulamayı ve C# ile matris ölçeklendirmeyi
   kapsar.
-language: tr
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Matris Dönüşümü Öğreticisi: Aspose.Drawing for .NET''te Matris Dönüşümleri'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /tr/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Học cách pha trộn alpha trong đồ họa .NET với Aspose.Drawing, áp dụng
   khử răng cưa để có các cạnh mượt mà, và khám phá cách cắt đồ họa để thiết kế chính
   xác.
-language: vi
 linktitle: How to Blend Alpha
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Cách pha trộn Alpha: Kỹ thuật render với Aspose.Drawing'
-url: /net/rendering/
+url: /vi/net/rendering/
 weight: 25
 ---
 

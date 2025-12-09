@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Lär dig den här handledningen om matrisomvandling för Aspose.Drawing
   .NET, som täcker hur man ritar en roterad rektangel, applicerar matrisrotation och
   utför matris‑skalning i C#.
-language: sv
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'Matrisomvandlingshandledning: Matrisomvandlingar i Aspose.Drawing för .NET'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /sv/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

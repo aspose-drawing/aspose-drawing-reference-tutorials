@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.Drawing for .NET'te metin çizmeyi, metni biçimlendirmeyi, hinting
   kullanmayı ve fontlarla çalışmayı öğrenin. Dinamik metin ve mükemmel tipografi ile
   görüntüler oluşturun.
-language: tr
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing for .NET ile Metin ve Yazı Tiplerini Çizme
-url: /net/text-and-fonts/
+url: /tr/net/text-and-fonts/
 weight: 26
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Leer hoe u PNG‑afbeeldingsbestanden opslaat, geïnstalleerde lettertypen
   opsomt, lettertypefamilies weergeeft, graphics maakt van een bitmap en tekst tekent
   met lettertypen, met behulp van Aspose.Drawing voor .NET.
-language: nl
 linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: PNG-afbeelding opslaan en werken met geïnstalleerde lettertypen in Aspose.Drawing
-url: /net/text-and-fonts/installed-fonts/
+url: /nl/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 

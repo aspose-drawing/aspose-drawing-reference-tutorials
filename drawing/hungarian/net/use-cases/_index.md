@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Ismerje meg, hogyan hozhat létre fényképkeretet, helyezhet el szöveget
   képeken, és adhat hozzá szöveget a .NET képekhez az Aspose.Drawing segítségével.
   Lépésről lépésre útmutatók a feliratokhoz, fényképkeretekhez és szövegréteghez.
-language: hu
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hogyan készítsünk fényképkeretet – Használati esetek az Aspose.Drawing .NET-hez
-url: /net/use-cases/
+url: /hu/net/use-cases/
 weight: 27
 ---
 

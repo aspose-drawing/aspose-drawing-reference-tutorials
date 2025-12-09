@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.Drawing for .NET에서 텍스트를 그리는 방법, 텍스트를 포맷하는 방법, 힌팅을 사용하는 방법 및 폰트를
   다루는 방법을 배웁니다. 동적인 텍스트와 완벽한 타이포그래피로 이미지를 생성하세요.
-language: ko
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing for .NET를 사용한 텍스트 및 폰트 그리기
-url: /net/text-and-fonts/
+url: /ko/net/text-and-fonts/
 weight: 26
 ---
 

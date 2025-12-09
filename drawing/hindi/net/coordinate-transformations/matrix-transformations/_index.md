@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Drawing .NET के लिए इस मैट्रिक्स ट्रांसफ़ॉर्मेशन ट्यूटोरियल को
   सीखें, जिसमें घुमाए गए आयत को ड्रॉ करना, मैट्रिक्स रोटेशन लागू करना, और C# में मैट्रिक्स
   स्केलिंग करना शामिल है।
-language: hi
 linktitle: Matrix Transformations in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 'मैट्रिक्स रूपांतरण ट्यूटोरियल: Aspose.Drawing for .NET में मैट्रिक्स रूपांतरण'
-url: /net/coordinate-transformations/matrix-transformations/
+url: /hi/net/coordinate-transformations/matrix-transformations/
 weight: 12
 ---
 

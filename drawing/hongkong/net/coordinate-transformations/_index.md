@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 學習使用 Aspose.Drawing for .NET 的逐步轉換技術，涵蓋全局、局部、矩陣、頁面、世界轉換以及單位測量圖形。
-language: zh-hant
 linktitle: Coordinate Transformations
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: 逐步轉換 – 坐標變換
-url: /net/coordinate-transformations/
+url: /zh-hant/net/coordinate-transformations/
 weight: 20
 ---
 
