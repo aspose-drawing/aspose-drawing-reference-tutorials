@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aprenda como unir caminhos com caneta usando Aspose.Drawing para .NET.
   Explore o tratamento de cores, técnicas de junção de caminhos e configurações dinâmicas
   de largura da caneta para gráficos impressionantes.
-language: pt
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Unir caminhos com caneta no Aspose.Drawing .NET
-url: /net/pens/
+url: /pt/net/pens/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Scopri come unire i percorsi con la penna usando Aspose.Drawing per .NET.
   Esplora la gestione dei colori, le tecniche di unione dei percorsi e le impostazioni
   dinamiche della larghezza della penna per grafiche sorprendenti.
-language: it
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Unire i percorsi con Pen in Aspose.Drawing .NET
-url: /net/pens/
+url: /it/net/pens/
 weight: 24
 ---
 

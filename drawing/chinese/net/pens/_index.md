@@ -1,11 +1,10 @@
 ---
 date: 2025-12-09
 description: 学习如何使用 Aspose.Drawing for .NET 的笔来连接路径。探索颜色处理、路径连接技术以及动态笔宽设置，以实现惊艳的图形。
-language: zh
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: 在 Aspose.Drawing .NET 中使用笔合并路径
-url: /net/pens/
+url: /zh/net/pens/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-09
 description: تعلم كيفية دمج المسارات باستخدام القلم عبر Aspose.Drawing لـ .NET. استكشف
   معالجة الألوان، تقنيات دمج المسارات، وإعدادات عرض القلم الديناميكية للحصول على رسومات
   مذهلة.
-language: ar
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: دمج المسارات باستخدام القلم في Aspose.Drawing .NET
-url: /net/pens/
+url: /ar/net/pens/
 weight: 24
 ---
 

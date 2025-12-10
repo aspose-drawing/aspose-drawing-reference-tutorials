@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: เรียนรู้วิธีการเชื่อมต่อเส้นทางด้วยปากกาโดยใช้ Aspose.Drawing สำหรับ
   .NET. สำรวจการจัดการสี เทคนิคการเชื่อมต่อเส้นทาง และการตั้งค่าความกว้างของปากกาที่เปลี่ยนแปลงได้เพื่อกราฟิกที่น่าทึ่ง.
-language: th
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: เชื่อมต่อเส้นทางด้วยปากกาใน Aspose.Drawing .NET
-url: /net/pens/
+url: /th/net/pens/
 weight: 24
 ---
 

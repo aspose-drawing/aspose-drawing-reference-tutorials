@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aprende a unir rutas con lápiz usando Aspose.Drawing para .NET. Explora
   el manejo de colores, técnicas de unión de rutas y configuraciones dinámicas del
   ancho del lápiz para crear gráficos impresionantes.
-language: es
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Unir rutas con lápiz en Aspose.Drawing .NET
-url: /net/pens/
+url: /es/net/pens/
 weight: 24
 ---
 

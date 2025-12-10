@@ -2,12 +2,11 @@
 date: 2025-12-09
 description: Leer hoe je paden kunt samenvoegen met een pen met behulp van Aspose.Drawing
   voor .NET. Ontdek kleurbeheer, technieken voor het samenvoegen van paden en dynamische
-  penbreedte‑instellingen voor verbluffende graphics.
-language: nl
+  penbreedte‑instellingen voor verbluffende graphics. 
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Paden samenvoegen met pen in Aspose.Drawing .NET
-url: /net/pens/
+url: /nl/net/pens/
 weight: 24
 ---
 

@@ -2,12 +2,11 @@
 date: 2025-12-09
 description: Μάθετε πώς να συνδέετε διαδρομές με πέννα χρησιμοποιώντας το Aspose.Drawing
   για .NET. Εξερευνήστε τη διαχείριση χρωμάτων, τις τεχνικές σύνδεσης διαδρομών και
-  τις δυναμικές ρυθμίσεις πλάτους πέννας για εντυπωσιακά γραφικά.
-language: el
+  τις δυναμικές ρυθμίσεις πλάτους πέννας για εντυπωσιακά γραφικά. 
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Σύνδεση διαδρομών με πέννα στο Aspose.Drawing .NET
-url: /net/pens/
+url: /el/net/pens/
 weight: 24
 ---
 

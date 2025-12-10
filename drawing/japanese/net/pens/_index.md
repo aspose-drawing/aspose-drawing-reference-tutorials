@@ -1,11 +1,10 @@
 ---
 date: 2025-12-09
 description: Aspose.Drawing for .NET を使用してペンでパスを結合する方法を学びましょう。カラー処理、パス結合テクニック、動的なペン幅設定を探求し、見事なグラフィックを作成します。
-language: ja
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Aspose.Drawing .NETでペンを使ってパスを結合する
-url: /net/pens/
+url: /ja/net/pens/
 weight: 24
 ---
 

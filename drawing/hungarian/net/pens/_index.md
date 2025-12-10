@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Tanulja meg, hogyan lehet tollal összekapcsolni útvonalakat az Aspose.Drawing
   for .NET használatával. Fedezze fel a színkezelést, az útvonalak összekapcsolási
   technikákat és a dinamikus tollvastagság beállításait a lenyűgöző grafikákhoz.
-language: hu
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Útvonalak összekapcsolása tollal az Aspose.Drawing .NET-ben
-url: /net/pens/
+url: /hu/net/pens/
 weight: 24
 ---
 

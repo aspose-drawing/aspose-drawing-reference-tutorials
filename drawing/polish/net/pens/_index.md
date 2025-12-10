@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Dowiedz się, jak łączyć ścieżki piórem przy użyciu Aspose.Drawing dla
   .NET. Poznaj obsługę kolorów, techniki łączenia ścieżek oraz dynamiczne ustawienia
   szerokości pióra, aby tworzyć zachwycające grafiki.
-language: pl
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Łączenie ścieżek przy użyciu pióra w Aspose.Drawing .NET
-url: /net/pens/
+url: /pl/net/pens/
 weight: 24
 ---
 

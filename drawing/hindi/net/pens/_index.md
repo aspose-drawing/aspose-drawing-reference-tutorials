@@ -2,12 +2,11 @@
 date: 2025-12-09
 description: Aspose.Drawing for .NET का उपयोग करके पेन से पाथ को कैसे जोड़ें सीखें।
   रंग प्रबंधन, पाथ जोड़ने की तकनीकें, और शानदार ग्राफिक्स के लिए डायनेमिक पेन चौड़ाई
-  सेटिंग्स का अन्वेषण करें।
-language: hi
+  सेटिंग्स का अन्वेषण करें। 
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Aspose.Drawing .NET में पेन के साथ पाथ्स को जोड़ें
-url: /net/pens/
+url: /hi/net/pens/
 weight: 24
 ---
 

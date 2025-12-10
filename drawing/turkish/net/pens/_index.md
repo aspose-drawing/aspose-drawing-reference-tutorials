@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Aspose.Drawing for .NET kullanarak kalemle yolları nasıl birleştireceğinizi
   öğrenin. Renk işleme, yol birleştirme teknikleri ve dinamik kalem genişliği ayarlarını
   keşfederek çarpıcı grafikler oluşturun.
-language: tr
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Aspose.Drawing .NET'te Kalem ile Yolları Birleştir
-url: /net/pens/
+url: /tr/net/pens/
 weight: 24
 ---
 

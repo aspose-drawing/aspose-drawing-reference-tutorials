@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Lär dig hur du förenar banor med en penna med Aspose.Drawing för .NET.
   Utforska färghantering, tekniker för att sammanfoga banor och dynamiska inställningar
   för pennbredd för fantastisk grafik.
-language: sv
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Sammanfoga banor med penna i Aspose.Drawing .NET
-url: /net/pens/
+url: /sv/net/pens/
 weight: 24
 ---
 

@@ -2,12 +2,11 @@
 date: 2025-12-09
 description: Naučte se, jak spojovat cesty pomocí pera s využitím Aspose.Drawing pro
   .NET. Prozkoumejte práci s barvami, techniky spojování cest a dynamické nastavení
-  šířky pera pro úchvatnou grafiku.
-language: cs
+  šířky pera pro úchvatnou grafiku. 
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Spojit cesty perem v Aspose.Drawing .NET
-url: /net/pens/
+url: /cs/net/pens/
 weight: 24
 ---
 

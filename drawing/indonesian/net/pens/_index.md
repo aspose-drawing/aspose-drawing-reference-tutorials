@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Pelajari cara menggabungkan jalur dengan pena menggunakan Aspose.Drawing
   untuk .NET. Jelajahi penanganan warna, teknik penggabungan jalur, dan pengaturan
   lebar pena dinamis untuk grafik yang menakjubkan.
-language: id
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Gabungkan Jalur dengan Pena di Aspose.Drawing .NET
-url: /net/pens/
+url: /id/net/pens/
 weight: 24
 ---
 

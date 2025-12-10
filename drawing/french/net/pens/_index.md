@@ -2,12 +2,11 @@
 date: 2025-12-09
 description: Apprenez à joindre des chemins avec un crayon en utilisant Aspose.Drawing
   pour .NET. Explorez la gestion des couleurs, les techniques de jointure de chemins
-  et les réglages dynamiques de l'épaisseur du crayon pour des graphiques époustouflants.
-language: fr
+  et les réglages dynamiques de l'épaisseur du crayon pour des graphiques époustouflants. 
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Joindre des chemins avec un stylo dans Aspose.Drawing .NET
-url: /net/pens/
+url: /fr/net/pens/
 weight: 24
 ---
 

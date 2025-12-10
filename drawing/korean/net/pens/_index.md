@@ -2,11 +2,10 @@
 date: 2025-12-09
 description: Aspose.Drawing for .NET을 사용하여 펜으로 경로를 연결하는 방법을 배워보세요. 색상 처리, 경로 연결 기술
   및 동적 펜 두께 설정을 탐구하여 놀라운 그래픽을 만들어보세요.
-language: ko
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Aspose.Drawing .NET에서 펜으로 경로 결합
-url: /net/pens/
+url: /ko/net/pens/
 weight: 24
 ---
 

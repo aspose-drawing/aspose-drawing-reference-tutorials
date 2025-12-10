@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Узнайте, как соединять пути с помощью пера, используя Aspose.Drawing
   для .NET. Исследуйте работу с цветом, техники соединения путей и динамические настройки
   ширины пера для создания потрясающей графики.
-language: ru
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Соединение путей с помощью пера в Aspose.Drawing .NET
-url: /net/pens/
+url: /ru/net/pens/
 weight: 24
 ---
 

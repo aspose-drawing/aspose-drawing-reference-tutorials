@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Tìm hiểu cách nối các đường dẫn bằng bút vẽ sử dụng Aspose.Drawing cho
   .NET. Khám phá cách xử lý màu sắc, kỹ thuật nối đường và cài đặt độ rộng bút động
   để tạo đồ họa tuyệt đẹp.
-language: vi
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Nối các đường dẫn bằng bút trong Aspose.Drawing .NET
-url: /net/pens/
+url: /vi/net/pens/
 weight: 24
 ---
 

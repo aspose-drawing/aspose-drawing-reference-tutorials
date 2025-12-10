@@ -3,11 +3,10 @@ date: 2025-12-09
 description: Erfahren Sie, wie Sie Pfade mit einem Stift mithilfe von Aspose.Drawing
   für .NET verbinden. Entdecken Sie die Farbverwaltung, Techniken zum Verbinden von
   Pfaden und dynamische Stiftbreiteneinstellungen für beeindruckende Grafiken.
-language: de
 linktitle: Join Paths with Pen
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
 title: Pfade mit Stift in Aspose.Drawing .NET verbinden
-url: /net/pens/
+url: /de/net/pens/
 weight: 24
 ---
 
