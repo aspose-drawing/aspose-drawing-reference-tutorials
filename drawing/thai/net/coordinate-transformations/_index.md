@@ -86,13 +86,6 @@ weight: 20
 ### [การแปลงแบบ World ใน Aspose.Drawing](./world-transformation/)
 สำรวจการแปลงแบบ world ใน Aspose.Drawing for .NET ยกระดับกราฟิกของคุณด้วยขั้นตอนที่ทำตามได้ง่าย
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถรวมการแปลงแบบ global และ local ในการวาดเดียวกันได้หรือไม่?*  
@@ -115,3 +108,10 @@ weight: 20
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

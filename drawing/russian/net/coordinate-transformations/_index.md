@@ -92,13 +92,6 @@ weight: 20
 ### [Мировое преобразование в Aspose.Drawing](./world-transformation/)
 Исследуйте мировые преобразования в Aspose.Drawing for .NET. Поднимите свою графику с помощью простых шагов.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q:** *Can I combine global and local transformations in the same drawing?*  
@@ -119,3 +112,10 @@ weight: 20
 **Последнее обновление:** 2025-11-29  
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

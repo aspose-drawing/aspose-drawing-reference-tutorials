@@ -86,13 +86,6 @@ weight: 20
 ### [التحويل العالمي في Aspose.Drawing](./world-transformation/)
 استكشف التحويلات العالمية في Aspose.Drawing for .NET. ارتقِ برسوماتك من خلال خطوات سهلة المتابعة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س:** *هل يمكنني دمج التحويلات العامة والمحلية في نفس الرسم؟*  
@@ -115,3 +108,10 @@ weight: 20
 **آخر تحديث:** 2025-11-29  
 **تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

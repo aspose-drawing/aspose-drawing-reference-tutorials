@@ -87,13 +87,6 @@ Fedezd fel az Aspose.Drawing for .NET sokoldalúságát ebben a mélyreható okt
 ### [Világ transzformáció az Aspose.Drawing‑ben](./world-transformation/)
 Fedezd fel a világ transzformációkat az Aspose.Drawing for .NET‑ben. Emeld grafikáidat könnyen követhető lépésekkel.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Összevonhatok globális és lokális transzformációkat ugyanabban a rajzban?*  
@@ -116,3 +109,10 @@ Fedezd fel a világ transzformációkat az Aspose.Drawing for .NET‑ben. Emeld 
 **Utoljára frissítve:** 2025-11-29  
 **Tesztelt verzió:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

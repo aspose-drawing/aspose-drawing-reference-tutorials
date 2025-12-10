@@ -87,13 +87,6 @@ Esplora la versatilità di Aspose.Drawing per .NET in questo tutorial approfondi
 ### [Trasformazione del mondo in Aspose.Drawing](./world-transformation/)
 Scopri le trasformazioni del mondo in Aspose.Drawing per .NET. Eleva le tue grafiche con passaggi facili da seguire.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande frequenti
 
 **Q:** *Posso combinare trasformazioni globali e locali nello stesso disegno?*  
@@ -116,3 +109,10 @@ Scopri le trasformazioni del mondo in Aspose.Drawing per .NET. Eleva le tue graf
 **Ultimo aggiornamento:** 2025-11-29  
 **Testato con:** Aspose.Drawing 24.11 per .NET  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

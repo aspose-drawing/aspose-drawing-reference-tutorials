@@ -85,13 +85,6 @@ weight: 20
 ### [Aspose.Drawing 中的世界轉換](./world-transformation/)
 探索 Aspose.Drawing for .NET 的世界轉換。透過簡易步驟提升您的圖形表現。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q:** *我可以在同一張圖中同時結合全域與局部轉換嗎？*  
@@ -112,3 +105,10 @@ weight: 20
 **最後更新：** 2025-11-29  
 **測試環境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -87,13 +87,6 @@ Ontdek de veelzijdigheid van Aspose.Drawing voor .NET in deze diepgaande tutoria
 ### [World Transformation in Aspose.Drawing](./world-transformation/)
 Ontdek wereld‑transformaties in Aspose.Drawing voor .NET. Verhoog je graphics met gemakkelijk te volgen stappen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q:** *Kan ik globale en lokale transformaties combineren in dezelfde tekening?*  
@@ -116,3 +109,10 @@ Ontdek wereld‑transformaties in Aspose.Drawing voor .NET. Verhoog je graphics 
 **Laatst bijgewerkt:** 2025-11-29  
 **Getest met:** Aspose.Drawing 24.11 voor .NET  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

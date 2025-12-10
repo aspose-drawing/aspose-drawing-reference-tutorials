@@ -92,13 +92,6 @@ weight: 20
 ### [Aspose.Drawing 中的世界变换](./world-transformation/)
 在 Aspose.Drawing for .NET 中探索世界变换。通过易于遵循的步骤提升图形水平。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q:** *我可以在同一绘图中组合全局和局部变换吗？*  
@@ -121,3 +114,10 @@ weight: 20
 **最后更新：** 2025-11-29  
 **测试环境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
