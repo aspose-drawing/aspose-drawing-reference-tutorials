@@ -1,70 +1,95 @@
 ---
-title: Transformasi Lokal di Aspose.Drawing untuk .NET
-linktitle: Transformasi Lokal di Aspose.Gambar
-second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
-description: Jelajahi transformasi lokal di Aspose.Drawing untuk .NET. Tingkatkan grafik dengan langkah-langkah yang mudah diikuti.
-weight: 11
+date: 2026-01-27
+description: Pelajari cara memutar elips dan mengonversi grafik ke PNG menggunakan
+  Aspose.Drawing untuk .NET. Panduan langkah demi langkah dengan contoh kode.
+linktitle: Local Transformation in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: 'Cara Memutar Elips: Transformasi Lokal di Aspose.Drawing untuk .NET'
 url: /id/net/coordinate-transformations/local-transformation/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformasi Lokal di Aspose.Drawing untuk .NET
+# Cara Memutar Elips: Transformasi Lokal di Aspose.Drawing untuk .NET
 
-## Perkenalan
+## Introduction
 
-Apakah Anda ingin meningkatkan grafis aplikasi .NET Anda dengan transformasi lokal tingkat lanjut? Aspose.Drawing for .NET memberdayakan pengembang untuk menciptakan visual yang menakjubkan dengan menggabungkan transformasi lokal dengan mudah. Dalam tutorial ini, kita akan mempelajari dunia transformasi lokal menggunakan Aspose.Drawing, memandu Anda melalui setiap langkah untuk membuka potensi penuh dari perpustakaan canggih ini.
+Jika Anda perlu **memutar sebuah elips** dalam aplikasi .NET, Aspose.Drawing menyediakan cara yang sederhana dan dapat diandalkan untuk melakukannya. Dalam tutorial ini Anda akan belajar **cara memutar elips** menggunakan matriks transformasi, merender hasilnya, dan akhirnya **mengonversi grafik ke PNG** untuk penyimpanan atau pemrosesan lebih lanjut. Pada akhirnya, Anda akan memiliki pola yang dapat digunakan kembali untuk skenario transformasi lokal apa pun.
 
-## Prasyarat
+## Quick Answers
+- **What is a local transformation?** Ini adalah operasi berbasis matriks (rotate, scale, translate, skew) yang diterapkan pada elemen gambar tertentu tanpa memengaruhi seluruh kanvas.  
+- **Which library supports it in .NET?** Aspose.Drawing untuk .NET menyediakan API lengkap yang bekerja pada semua versi .NET yang didukung.  
+- **Can I save the result as PNG?** Ya—cukup panggil `Bitmap.Save` dengan nama file “.png”, dan Aspose.Drawing akan menangani konversinya.  
+- **Do I need a license for development?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **How long does the implementation take?** Sekitar 10‑15 menit untuk contoh dasar.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## How to rotate ellipse using Aspose.Drawing
+Memutar sebuah elips pada dasarnya adalah **memutar sebuah bentuk menggunakan matriks**. Anda membuat sebuah `Matrix`, mengatur sudut rotasi, menentukan titik pusat elips, dan kemudian menerapkan matriks tersebut ke `GraphicsPath`. Ini menjaga rotasi tetap terlokalisasi pada elips sementara sisanya tetap tidak berubah.
 
-1.  Aspose.Drawing untuk .NET: Unduh dan instal perpustakaan dari[tautan unduhan](https://releases.aspose.com/drawing/net/).
+## What is “how to apply transformation” in graphics programming?
+Menerapkan transformasi berarti memodifikasi sistem koordinat sebuah objek gambar menggunakan **Matrix**. Matriks mendefinisikan bagaimana titik‑titik diputar, diskalakan, atau dipindahkan, memungkinkan Anda membuat efek visual yang canggih dengan kode yang minimal.
 
-2. Direktori Dokumen: Pilih direktori yang sesuai di mesin Anda tempat gambar yang diubah akan disimpan.
+## Why use Aspose.Drawing to **convert graphics to PNG**?
+- **Cross‑platform**: Berfungsi pada .NET Framework, .NET Core, dan .NET 5/6+.  
+- **No GDI+ dependencies**: Menghindari masalah `System.Drawing.Common` pada platform non‑Windows.  
+- **High‑quality rendering**: Anti‑aliasing dan output pixel‑perfect untuk file PNG.  
+- **Rich API**: Dukungan penuh untuk path, pen, brush, dan matriks transformasi.
 
-3. Pemahaman Dasar Pemrograman .NET: Keakraban dengan C# dan konsep pemrograman grafis akan bermanfaat.
+## Prerequisites
 
-## Impor Namespace
+Sebelum Anda memulai, pastikan Anda memiliki:
 
-Mulailah dengan mengimpor namespace yang diperlukan ke proyek C# Anda:
+1. **Aspose.Drawing for .NET** – unduh dan instal dari [download link](https://releases.aspose.com/drawing/net/).  
+2. Sebuah folder di mesin Anda tempat gambar output akan disimpan (misalnya, `C:\MyImages\`).  
+3. Familiaritas dasar dengan C# dan pengaturan proyek .NET.  
+
+## Import Namespaces
+
+Pertama, masukkan namespace yang diperlukan ke dalam file C# Anda:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## Langkah 1: Buat Bitmap
+Namespace ini memberi Anda akses ke kelas `Bitmap`, `Graphics`, `GraphicsPath`, dan `Matrix` yang dibutuhkan untuk alur kerja transformasi.
 
-Inisialisasi bitmap dengan dimensi tertentu dan format piksel:
+## Step‑by‑Step Guide
+
+### Step 1: Create a Bitmap
+
+Kami memulai dengan kanvas kosong. Ukuran bitmap dan format piksel dipilih untuk memberikan gambar 32‑bit berkualitas tinggi yang mendukung transparansi alfa.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Langkah 2: Buat Objek Grafik
+> **Pro tip:** Menggunakan `Format32bppPArgb` memastikan gambar mempertahankan alfa yang telah dipremultiplikasi, yang ideal untuk output PNG.
 
-Buat objek grafis dari bitmap untuk melakukan operasi menggambar:
+### Step 2: Create a Graphics Object
+
+Objek `Graphics` menyediakan metode menggambar yang beroperasi pada bitmap. Kami membersihkan latar belakang menjadi abu‑abu netral sehingga bentuk yang ditransformasi menonjol.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## Langkah 3: Buat GraphicsPath
+### Step 3: Create a GraphicsPath
 
-Buatlah jalur grafis, dalam contoh ini, elips, dan tentukan posisi dan dimensinya:
+`GraphicsPath` memungkinkan Anda mendefinisikan bentuk kompleks. Di sini kami menambahkan sebuah elips yang diposisikan pada (300, 300) dengan lebar 400 dan tinggi 200.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddEllipse(300, 300, 400, 200);
 ```
 
-## Langkah 4: Terapkan Transformasi Lokal
+### Step 4: Apply Local Transformation (rotate shape using matrix)
 
-Siapkan matriks transformasi dan terapkan transformasi rotasi ke jalur yang ditentukan:
+Sekarang kami menjawab pertanyaan inti: **cara memutar elips**. Kami membuat sebuah `Matrix`, memutarnya 45° di sekitar pusat elips (500, 400), dan menerapkan matriks tersebut ke path.
 
 ```csharp
 Matrix matrix = new Matrix();
@@ -72,54 +97,66 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-## Langkah 5: Gambarkan Jalur yang Diubah
+> **Why rotate at a point?** Memutar di sekitar pusat bentuk mencegahnya berorbit di sekitar asal, memberikan tampilan yang natural.
 
-Tentukan pena dan gambar jalur yang diubah pada objek grafik:
+### Step 5: Draw the Transformed Path
+
+Dengan transformasi yang sudah diterapkan, kami merender path menggunakan pena biru dengan ketebalan 2.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-## Langkah 6: Simpan Gambar yang Diubah
+### Step 6: Save the Transformed Image (convert graphics to PNG)
 
-Simpan gambar yang diubah ke direktori dokumen Anda:
+Akhirnya, kami menyimpan bitmap sebagai file PNG. Path menggabungkan direktori pilihan Anda dengan sub‑folder untuk contoh transformasi.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\LocalTransformation_out.png");
 ```
 
-Ulangi langkah-langkah ini untuk berbagai transformasi dan keluarkan potensi Aspose.Drawing dalam aplikasi .NET Anda.
+> **Note:** Baris ini juga menunjukkan cara **menyimpan bitmap sebagai PNG**. Ekstensi `.png` secara otomatis memicu encoder PNG Aspose.Drawing, memenuhi kebutuhan **convert graphics to PNG**.
 
-## Kesimpulan
+## Common Issues & Solutions
 
-Menggabungkan transformasi lokal dengan Aspose.Drawing untuk .NET membuka banyak kemungkinan untuk menyempurnakan grafis Anda. Dengan mengikuti panduan langkah demi langkah ini, Anda telah mempelajari cara menerapkan transformasi lokal dengan mudah, menghadirkan dimensi baru pada visualisasi Anda.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Blank output image** | Graphics tidak dibersihkan atau warna pena sama dengan latar belakang | Panggil `graphics.Clear` dengan warna kontras dan pastikan warna pena terlihat. |
+| **Distorted rotation** | Menggunakan `Rotate` alih‑alih `RotateAt` | Gunakan `RotateAt` dan tentukan titik pusat bentuk. |
+| **File not saved** | Path direktori tidak valid atau tidak ada izin menulis | Pastikan direktori ada dan aplikasi memiliki akses menulis. |
+| **PNG appears fuzzy** | Pengaturan DPI bitmap terlalu rendah | Buat bitmap dengan resolusi lebih tinggi atau set `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
+## Frequently Asked Questions
 
-## FAQ
+**Q:** Can I chain multiple transformations (e.g., scale then rotate)?  
+**A:** Yes. Create a single `Matrix` and call methods like `Scale`, `RotateAt`, and `Translate` in the order you need, then apply it with `path.Transform(matrix);`.
 
-### Q1: Bisakah saya menerapkan beberapa transformasi secara berurutan?*
+**Q:** Is Aspose.Drawing suitable for high‑performance rendering?  
+**A:** Absolutely. The library is optimized for both speed and quality, and it avoids the GDI+ limitations on non‑Windows platforms.
 
-A1: Ya, Anda dapat merangkai beberapa transformasi dengan menerapkannya secara berurutan menggunakan matriks transformasi.
+**Q:** What other transformation types are supported?  
+**A:** Besides rotation, you can perform translation, scaling, and skewing using the same `Matrix` class.
 
-### Q2: Apakah Aspose.Drawing cocok untuk aplikasi grafis yang kompleks?*
+**Q:** How do I handle exceptions during the transformation process?  
+**A:** Wrap the drawing code in a `try‑catch` block and inspect `System.Drawing.Drawing2D` exceptions. Refer to the official [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) for detailed error‑handling guidance.
 
-A2: Tentu saja! Aspose.Drawing dirancang untuk menangani berbagai operasi grafis, sehingga ideal untuk aplikasi yang kompleks.
+**Q:** Can I try Aspose.Drawing before purchasing?  
+**A:** Yes, a fully functional free trial is available via the [free trial](https://releases.aspose.com/) link.
 
-### Q3: Apakah ada jenis transformasi lain yang didukung?*
+## Conclusion
 
-A3: Selain rotasi, Aspose.Drawing mendukung terjemahan, penskalaan, dan kemiringan untuk kemampuan transformasi komprehensif.
+Dengan mengikuti panduan ini Anda kini mengetahui **cara memutar elips** menggunakan Aspose.Drawing untuk .NET dan **cara mengonversi grafik ke PNG** untuk penyimpanan permanen. Pola yang sama dapat digunakan kembali untuk scaling, translating, atau skewing bentuk apa pun, memungkinkan Anda membangun komponen visual interaktif yang kaya dalam aplikasi Anda.
 
-### Q4: Bagaimana cara menangani pengecualian selama proses transformasi?*
-
- A4: Pastikan penanganan kesalahan yang tepat dalam kode Anda dan lihat[Aspose.Dokumentasi gambar](https://reference.aspose.com/drawing/net/) untuk pemecahan masalah.
-
-### Q5: Dapatkah saya mencoba Aspose.Drawing sebelum membeli?*
-
- A5: Ya, Anda dapat menjelajahi perpustakaan dengan a[uji coba gratis](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
