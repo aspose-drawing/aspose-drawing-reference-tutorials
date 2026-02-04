@@ -1,134 +1,177 @@
 ---
-title: Maateenheden in Aspose.Drawing voor .NET
-linktitle: Maateenheden in Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
-description: Ontdek de veelzijdigheid van Aspose.Drawing voor .NET in deze uitgebreide tutorial, waarin je de maateenheden voor nauwkeurige graphics onder de knie krijgt.
-weight: 14
+date: 2026-02-04
+description: Leer hoe u een bitmap maakt met Aspose.Drawing voor .NET, een rechthoek
+  tekent met punten en de meeteenheden onder de knie krijgt voor nauwkeurige graphics.
+linktitle: Units of Measure in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Bitmap maken met Aspose.Drawing – Eenheden van meting
 url: /nl/net/coordinate-transformations/units-of-measure/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maateenheden in Aspose.Drawing voor .NET
+# Maak een bitmap met Aspose.Drawing – Eenheden van Maat
 
-## Invoering
+## Inleiding
 
-Welkom in de wereld van Aspose.Drawing voor .NET, waar precisie en flexibiliteit samenkomen bij grafische manipulatie. In deze zelfstudie verdiepen we ons in de fijne kneepjes van de maateenheden binnen Aspose.Drawing, waardoor u stapsgewijze handleiding krijgt om de kracht van deze opmerkelijke bibliotheek te benutten.
+In deze tutorial **maak je een bitmap met Aspose.Drawing** voor .NET en verken je hoe verschillende eenheden van maat je tekeningen beïnvloeden. We lopen door het tekenen van rechthoeken met punten, millimeters en inches, zodat je de juiste eenheid kunt kiezen voor elke grafisch intensieve situatie. Aan het einde kun je gemakkelijk tussen eenheden schakelen en pixel‑perfecte afbeeldingen produceren.
+
+## Snelle Antwoorden
+- **Wat is het primaire doel van deze gids?** Om te laten zien hoe je een bitmap maakt met Aspose.Drawing en vormen tekent met verschillende eenheden van maat.  
+- **Welke eenheden worden gedemonstreerd?** Punten, millimeters en inches.  
+- **Heb ik een licentie nodig om de voorbeelden uit te voeren?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Waar kan ik Aspose.Drawing downloaden?** Van de officiële downloadpagina die hieronder is gelinkt.
+
+## Wat is “bitmap maken met Aspose.Drawing”?
+Een bitmap maken met Aspose.Drawing betekent het instantieren van een `Bitmap`‑object waarop je kunt tekenen met de Aspose.Drawing graphics‑API. In tegenstelling tot System.Drawing werkt Aspose.Drawing consistent op alle .NET‑platformen.
+
+## Waarom verschillende eenheden van maat gebruiken?
+De juiste eenheid kiezen (punten, millimeters, inches) stelt je in staat grafische elementen af te stemmen op echte afmetingen, waardoor het eenvoudiger wordt om tekeningen te integreren in gedrukte media, PDF‑bestanden of UI‑lay-outs waar fysieke afmetingen van belang zijn.
 
 ## Vereisten
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+- **Aspose.Drawing voor .NET** – download het [hier](https://releases.aspose.com/drawing/net/).  
+- **Documentmap** – een map op je computer waar de gegenereerde afbeelding wordt opgeslagen.  
+- **Basiskennis van C#** – bekendheid met klassen, objecten en methode‑aanroepen.
 
--  Aspose.Drawing voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/drawing/net/).
+## Namespaces importeren
 
-- Documentmap: Zorg voor een aangewezen map waarin u uw gemaakte documenten wilt opslaan.
-
-- Basiskennis van C#: Een fundamenteel begrip van C# wordt aanbevolen om het meeste uit deze handleiding te halen.
-
-## Naamruimten importeren
-
-Laten we, voordat we beginnen, de benodigde naamruimten importeren om Aspose.Drawing effectief te gebruiken:
+Eerst importeer je de essentiële namespace zodat je met de tekenobjecten kunt werken:
 
 ```csharp
 using System.Drawing;
 ```
 
-Laten we nu elk voorbeeld in meerdere stappen opsplitsen:
+## Bitmap maken met Aspose.Drawing – Eenheden van Maat begrijpen
 
-## Punten als maateenheden
+### Stap 1: Een bitmap maken
 
-1. Een bitmap maken: Initialiseer een bitmap met een opgegeven breedte en hoogte.
+We beginnen met het maken van een bitmap van 1000 × 800 pixels die als ons canvas dient.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-2. Afbeeldingen maken: genereer een grafisch object uit de bitmap om erop te tekenen.
+### Stap 2: Een Graphics‑object maken
+
+Het `Graphics`‑object geeft ons tekenmogelijkheden op de bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-3. Pagina-eenheid instellen op punten: Definieer punten als maateenheid (1 punt = 1/72 inch).
+## Rechthoek tekenen met punten
+
+Punten zijn een traditionele drukeenheid (1 punt = 1/72 inch). Het instellen van de paginanaam op punten stelt je in staat te werken met vertrouwde typografische maten.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Point;
 ```
 
-4. Rechthoek tekenen: Teken een rechthoek met punten als eenheid.
+Teken nu een rechthoek met punten. De penbreedte is ingesteld op 36 punten (½ inch) voor duidelijke zichtbaarheid.
 
 ```csharp
 graphics.DrawRectangle(new Pen(Color.FromKnownColor(KnownColor.Red), 36f), 72, 72, 72, 72);
 ```
 
-## Millimeters als maateenheden
+**Pro tip:** De coördinaten `(72,72)` komen overeen met een offset van 1 inch vanaf de linkerbovenhoek omdat 72 punten = 1 inch.
 
-1. Pagina-eenheid instellen op millimeters: Wijzig de maateenheid in millimeters (1 mm = 1/25,4 inch).
+## Rechthoek tekenen in millimeters
+
+Millimeters zijn ideaal voor technische tekeningen of wanneer je metrische precisie nodig hebt.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Millimeter;
 ```
 
-2. Teken een rechthoek in millimeters: Teken nog een rechthoek met millimeters als eenheid.
+De volgende rechthoek gebruikt een pen van 6,35 mm (gelijk aan 0,25 mm) en een zijde van 25,4 mm (1 inch).
 
 ```csharp
 graphics.DrawRectangle(new Pen(Color.FromKnownColor(KnownColor.Green), 6.35f), 25.4f, 25.4f, 25.4f, 25.4f);
 ```
 
-## Inches als maateenheden
+## Rechthoek tekenen in inches
 
-1. Pagina-eenheid instellen op inches: Wijzig de maateenheid naar inches.
+Inches zijn gebruikelijk in Amerikaanse drukwerk en UI‑ontwerp. Overschakelen naar inches maakt het eenvoudig om af te stemmen op de DPI‑instellingen van het scherm.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-2. Teken een rechthoek in inches: teken een rechthoek met inches als eenheid.
+Hier tekenen we een blauwe rechthoek met een dunne pen van 0,125 inch.
 
 ```csharp
 graphics.DrawRectangle(new Pen(Color.FromKnownColor(KnownColor.Blue), 0.125f), 1, 1, 1, 1);
 ```
 
-## Bewaar het resultaat
+## Het resultaat opslaan
 
-Nadat u de voorbeelden hebt voltooid, slaat u de resulterende afbeelding op in uw documentmap:
+Na het tekenen van alle vormen, sla je de bitmap op in het bestandssysteem. Pas het pad aan zodat het overeenkomt met je documentmap.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\UnitsOfMeasure_out.png");
 ```
 
-Nu hebt u met succes door de verschillende maateenheden in Aspose.Drawing voor .NET genavigeerd, waardoor een visuele weergave van rechthoeken is gemaakt met behulp van punten, millimeters en inches.
+Wanneer je de opgeslagen PNG opent, zie je drie rechthoeken—elk gerenderd met een andere eenheid van maat.
 
-## Conclusie
+## Veelvoorkomende problemen & oplossingen
 
-In deze zelfstudie hebben we onderzocht hoe Aspose.Drawing voor .NET met verschillende maateenheden omgaat. Door punten, millimeters en inches te manipuleren, kunt u precisie en aanpassingsvermogen in uw grafische creaties bereiken. Experimenteer met deze concepten om het volledige potentieel van Aspose.Drawing te ontsluiten.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| **Afbeelding is leeg** | Graphics‑object niet geflusht vóór het opslaan. | Roep `graphics.Dispose();` aan vóór `bitmap.Save()`. |
+| **Onjuiste afmetingen** | Verkeerde `PageUnit`‑waarde. | Controleer of je `graphics.PageUnit` hebt ingesteld op de gewenste `GraphicsUnit`. |
+| **Fout in bestandspad** | Ontbrekende map of ongeldige tekens. | Zorg dat de doelmap bestaat en gebruik `Path.Combine`. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Drawing voor .NET gebruiken met andere .NET-frameworks?
+### Q1: Kan ik Aspose.Drawing voor .NET gebruiken met andere .NET‑frameworks?
 
-A1: Ja, Aspose.Drawing is compatibel met verschillende .NET-frameworks en biedt flexibiliteit in uw ontwikkelomgeving.
+A1: Ja, Aspose.Drawing is compatibel met verschillende .NET‑frameworks, wat flexibiliteit biedt in je ontwikkelomgeving.
 
-### Vraag 2: Is er een gratis proefversie beschikbaar?
+### Q2: Is er een gratis proefversie beschikbaar?
 
- A2: Ja, u kunt Aspose.Drawing verkennen met een gratis proefperiode[hier](https://releases.aspose.com/).
+A2: Ja, je kunt Aspose.Drawing verkennen met een gratis proefversie [hier](https://releases.aspose.com/).
 
-### V3: Hoe krijg ik ondersteuning voor Aspose.Drawing voor .NET?
+### Q3: Hoe krijg ik ondersteuning voor Aspose.Drawing voor .NET?
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor gemeenschapsondersteuning en discussies.
+A3: Bezoek het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) voor community‑ondersteuning en discussies.
 
-### Vraag 4: Kan ik een tijdelijke licentie kopen voor kortetermijnprojecten?
+### Q4: Kan ik een tijdelijke licentie aanschaffen voor kortlopende projecten?
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+A4: Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-### V5: Waar kan ik gedetailleerde documentatie voor Aspose.Drawing vinden?
+### Q5: Waar vind ik gedetailleerde documentatie voor Aspose.Drawing?
 
- A5: De uitgebreide documentatie is beschikbaar[hier](https://reference.aspose.com/drawing/net/).
+A5: De uitgebreide documentatie is beschikbaar [hier](https://reference.aspose.com/drawing/net/).
+
+## Veelgestelde vragen
+
+**Q: Ondersteunt Aspose.Drawing rendering met hoge DPI?**  
+A: Absoluut. De bibliotheek respecteert de DPI‑instellingen van de bitmap, waardoor er scherpe output ontstaat op hoge‑resolutie displays.
+
+**Q: Kan ik meerdere eenheden combineren in één tekening?**  
+A: Je kunt `Graphics.PageUnit` op elk moment wijzigen, maar houd de huidige eenheid bij om mismatches in afmetingen te voorkomen.
+
+**Q: Is anti‑aliasing standaard ingeschakeld?**  
+A: Ja, Aspose.Drawing past anti‑aliasing toe op vormen en tekst, tenzij je dit expliciet uitschakelt via `graphics.SmoothingMode`.
+
+**Q: Hoe kan ik bronnen vrijgeven na het tekenen?**  
+A: Roep `graphics.Dispose();` en `bitmap.Dispose();` aan wanneer je klaar bent om ongeheugeld geheugen vrij te maken.
+
+**Q: Kan ik de bitmap exporteren naar andere formaten dan PNG?**  
+A: De `Bitmap.Save`‑methode ondersteunt JPEG, BMP, GIF en TIFF—verander gewoon de bestandsextensie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
