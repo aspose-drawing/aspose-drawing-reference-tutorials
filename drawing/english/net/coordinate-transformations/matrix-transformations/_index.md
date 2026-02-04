@@ -1,11 +1,11 @@
 ---
-title: "Matrix Transformation Tutorial: Matrix Transformations in Aspose.Drawing for .NET"
+title: "rotate rectangle c# – Matrix Transformation Tutorial in Aspose.Drawing for .NET"
 linktitle: "Matrix Transformations in Aspose.Drawing"
 second_title: "Aspose.Drawing .NET API - Alternative to System.Drawing.Common"
-description: "Learn this matrix transformation tutorial for Aspose.Drawing .NET, covering how to draw rotated rectangle, apply matrix rotation, and perform matrix scaling C#."
+description: "Learn how to rotate rectangle c# using Aspose.Drawing .NET, covering draw rotated rectangle, matrix operations c#, and graphics matrix tutorial."
 weight: 12
 url: /net/coordinate-transformations/matrix-transformations/
-date: 2025-11-29
+date: 2026-02-04
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-11-29
 
 ## Introduction
 
-Welcome to this **matrix transformation tutorial** for Aspose.Drawing .NET! Whether you’re building a graphic editor, generating dynamic reports, or just experimenting with geometric effects, mastering matrix transformations lets you **draw rotated rectangle** shapes, **apply matrix rotation**, and even perform **matrix scaling C#** operations with precision. In the next few minutes you’ll see how to set up a canvas, transform shapes, and save the result—all using the powerful Aspose.Drawing API.
+Welcome to this **matrix transformation tutorial** for Aspose.Drawing .NET! In this guide you’ll learn how to **rotate rectangle c#**, draw rotated rectangle shapes, and perform matrix operations c# with the Aspose.Drawing API. Whether you’re building a graphic editor, generating dynamic reports, or just experimenting with geometric effects, mastering matrix transformations lets you create precise, reusable visual transformations in just a few lines of code.
 
 ## Quick Answers
 - **What does this tutorial cover?** Performing rotate, translate, and scale matrix transformations on a rectangle with Aspose.Drawing.  
@@ -55,7 +55,9 @@ using System.Drawing.Drawing2D;
 
 These namespaces give you access to `Bitmap`, `Graphics`, and the `Matrix` class needed for transformations.
 
-## Step‑by‑Step Guide
+## How to rotate rectangle c# with Aspose.Drawing
+
+Below is a step‑by‑step walkthrough that shows exactly how to **rotate rectangle c#**, translate it, and scale it. Each step reuses the same helper method (`TransformPath`) so you can focus on the matrix logic instead of repetitive drawing code.
 
 ### Step 1: Set Up the Canvas
 
@@ -148,7 +150,7 @@ You’ve now completed a full **matrix transformation tutorial** using Aspose.Dr
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-02-04  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
