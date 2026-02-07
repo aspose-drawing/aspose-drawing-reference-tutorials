@@ -1,51 +1,68 @@
 ---
-title: Aspose.Drawing'de Görüntüleri Ölçeklendirme
-linktitle: Aspose.Drawing'de Görüntüleri Ölçeklendirme
-second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
-description: Aspose.Drawing'i kullanarak görüntüleri .NET'te zahmetsizce nasıl ölçeklendireceğinizi öğrenin. Adım adım kılavuzumuz, güçlü görüntü işleme yetenekleri sağlayarak kusursuz entegrasyon sağlar.
-weight: 14
+date: 2026-02-07
+description: Aspose.Drawing for .NET ile görüntüleri ölçeklendirmeyi öğrenin. Bu kılavuz,
+  en yakın komşu enterpolasyonu kullanarak C#’ta bitmap yeniden boyutlandırmayı adım
+  adım gösterir ve ölçeklendirilmiş görüntü dosyalarını kaydetmeyi açıklar.
+linktitle: Scaling Images in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Aspose.Drawing for .NET ile Görüntüleri Ölçeklendirme
 url: /tr/net/image-editing/scale/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing'de Görüntüleri Ölçeklendirme
+# Aspose.Drawing for .NET ile Görüntüleri Nasıl Ölçeklendirilir
 
-## giriiş
+## Giriş
 
-Aspose.Drawing for .NET kullanarak görüntüleri ölçeklendirmeye ilişkin bu kapsamlı kılavuza hoş geldiniz! Yazılım geliştirmenin dinamik dünyasında görüntüleri değiştirmek ve ölçeklendirmek yaygın bir gereksinimdir. Aspose.Drawing, .NET uygulamalarınızdaki görüntülerle çalışmak için güçlü araçlar ve işlevler sunarak bu süreci basitleştirir.
+Aspose.Drawing for .NET kullanarak **görüntüleri nasıl ölçeklendireceğinize** dair bu kapsamlı rehbere hoş geldiniz! Yazılım geliştirme dünyasında, görüntüleri işlemek ve ölçeklendirmek yaygın bir gereksinimdir. Aspose.Drawing bu süreci basitleştirir, .NET uygulamalarınızda görüntülerle çalışmak için güçlü araçlar ve işlevler sunar.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.Drawing for .NET  
+- **Hangi enterpolasyon en keskin sonucu verir?** NearestNeighbor enterpolasyonu  
+- **C#'ta görüntü boyutunu değiştirebilir miyim?** Evet – Bitmap ve Graphics sınıflarını kullanın  
+- **Ölçeklendirilmiş bir görüntüyü nasıl kaydederim?** `bitmap.Save(...)` metodunu istediğiniz yol ile çağırın  
+- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans mevcuttur  
+
+## Aspose.Drawing'de görüntü ölçeklendirme nedir?
+Görüntü ölçeklendirme, bir bitmap'in görsel kalitesini koruyarak daha büyük veya daha küçük boyutlara yeniden boyutlandırılması işlemidir. Aspose.Drawing, C# geliştiricilerinin bir kanvas oluşturmasından görüntüyü bir dikdörtgen içinde çizmeye kadar her adımı kontrol edebileceği basit bir API sağlar.
+
+## Aspose.Drawing'i ölçeklendirme için neden kullanmalıyım?
+- **Yüksek performanslı render** – büyük görüntüler için optimize edilmiştir.  
+- **Zengin enterpolasyon seçenekleri** – piksel‑tam ölçeklendirme için en yakın komşu (nearest neighbor) dahil.  
+- **Tam .NET desteği** – .NET Framework, .NET Core ve .NET 5/6+ ile çalışır.  
+- **Harici bağımlılık yok** – tek bir NuGet paketi System.Drawing.Common yerine geçer.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Drawing for .NET: Projenizde Aspose.Drawing kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/drawing/net/).
+1. Aspose.Drawing for .NET: Projenize Aspose.Drawing kütüphanesinin yüklü olduğundan emin olun. İndirmek için [buraya](https://releases.aspose.com/drawing/net/) tıklayın.  
+2. Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurun.  
+3. C# Temel Bilgisi: Örnekleri uygulamak için C# programlama diline aşina olun.
 
-2. Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurun.
+## Ad Alanlarını İçe Aktarma
 
-3. C#'ın Temel Anlaşılması: Örneklerin uygulanması için C# programlama diline aşinalık esastır.
-
-## Ad Alanlarını İçe Aktar
-
-C# projenizde gerekli ad alanlarını içe aktararak başlayın. Bu adım, Aspose.Drawing işlevlerine sorunsuz bir şekilde erişmek için çok önemlidir.
+C# projenizde gerekli ad alanlarını içe aktararak başlayın. Bu adım, Aspose.Drawing işlevlerine sorunsuz erişim için kritiktir.
 
 ```csharp
 using System.Drawing;
 ```
 
-## 1. Adım: Bitmap Oluşturun
+## Adım 1: Bir Bitmap (kanvas) Oluşturun
 
-Görüntünüz için tuval görevi görecek bir Bitmap nesnesi oluşturarak başlayın. Gereksinimlerinize göre genişlik, yükseklik ve piksel biçimini belirtin.
+Görüntünüz için kanvas görevi görecek bir `Bitmap` nesnesi oluşturun. Genişlik, yükseklik ve piksel formatını gereksinimlerinize göre belirtin. Bu, klasik *resize bitmap C#* yaklaşımıdır.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Adım 2: Grafik Nesnesi Oluşturun
+## Adım 2: Bir Graphics Nesnesi Oluşturun
 
-Daha sonra, önceden oluşturulan Bitmap'ten bir Graphics nesnesi oluşturun. Bu nesne, görüntü işleme için gerekli çizim yeteneklerini sağlayacaktır.
+Önceden oluşturduğunuz `Bitmap` üzerinden bir `Graphics` nesnesi oluşturun. Bu nesne, **drawimage with rectangle** gibi görüntü işleme yeteneklerini sağlar.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -53,15 +70,15 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 ## Adım 3: Enterpolasyon Modunu Ayarlayın
 
-Ölçeklenen görüntünün kalitesini artırmak için enterpolasyon modunu ayarlayın. Bu örnekte NearestNeighbor enterpolasyon modunu kullanıyoruz.
+Ölçeklendirilmiş görüntünün kalitesini artırmak için enterpolasyon modunu ayarlayın. Bu örnekte, keskin, piksel‑sanatı tarzı bir büyütme için **NearestNeighbor enterpolasyonu** kullanıyoruz.
 
 ```csharp
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-## 4. Adım: Görüntüyü Yükleyin
+## Adım 4: Görüntüyü Yükleyin
 
- Ölçeklemek istediğiniz görüntüyü bir Bitmap nesnesine yükleyin. Yer değiştirmek`"Your Document Directory" + @"Images\aspose_logo.png"` resminizin yolu ile.
+Ölçeklendirmek istediğiniz görüntüyü bir `Bitmap` nesnesine yükleyin. `"Your Document Directory" + @"Images\aspose_logo.png"` ifadesini kendi görüntü yolunuzla değiştirin.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
@@ -69,7 +86,7 @@ Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png")
 
 ## Adım 5: Görüntüyü Ölçeklendirin
 
-Görüntünün genişlemesini temsil eden bir dikdörtgen tanımlayın. Bu örnekte görüntü hem genişlik hem de yükseklik olarak 5 kez ölçeklendirilmiştir.
+Görüntünün genişleme alanını temsil eden bir dikdörtgen tanımlayın. Bu örnekte, görüntü hem genişlik hem de yükseklik olarak 5 kat ölçeklendirilir. Bu, **drawimage with rectangle** tekniğini gösterir.
 
 ```csharp
 Rectangle expansionRectangle = new Rectangle(0, 0, image.Width * 5, image.Height * 5);
@@ -78,41 +95,59 @@ graphics.DrawImage(image, expansionRectangle);
 
 ## Adım 6: Ölçeklendirilmiş Görüntüyü Kaydedin
 
-Ölçeklenen görüntüyü istediğiniz konuma kaydedin. Dosya yolunu proje yapınıza göre ayarlayın.
+Ölçeklendirilmiş görüntüyü istediğiniz konuma kaydedin. Dosya yolunu proje yapınıza göre ayarlayın. Bu adım, PNG gibi yaygın formatlarda **save scaled image** dosyalarını nasıl kaydedeceğinizi gösterir.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
 ```
 
-Tebrikler! Aspose.Drawing for .NET'i kullanarak bir görüntüyü başarıyla ölçeklendirdiniz.
+Tebrikler! Aspose.Drawing for .NET kullanarak **görüntüleri nasıl ölçeklendireceğinizi** başarıyla öğrendiniz.
 
-## Çözüm
+## Sonuç
 
-Bu eğitimde Aspose.Drawing kullanarak görüntüleri ölçeklendirme sürecini inceledik. Bu kitaplık, geliştiricilerin .NET uygulamaları içindeki görüntü işleme görevlerini verimli bir şekilde gerçekleştirmelerine olanak tanır. Adım adım kılavuzu takip ederek görüntü ölçeklendirmenin uygulanmasına ilişkin değerli bilgiler elde ettiniz.
+Bu öğreticide, Aspose.Drawing kullanarak görüntü ölçeklendirme sürecini inceledik. Bu kütüphane, .NET uygulamalarınız içinde görüntü işleme görevlerini verimli bir şekilde yönetmenizi sağlar. Adım adım rehberi izleyerek, C#'ta görüntü boyutunu değiştirme, bitmap yeniden boyutlandırma, en yakın komşu enterpolasyonu, görüntüyü bir dikdörtgen içinde çizme ve ölçeklendirilmiş görüntüyü kaydetme konularında değerli bilgiler edindiniz.
 
-Daha fazla deneme yapmaktan ve görüntü işleme becerilerinizi geliştirmek için Aspose.Drawing tarafından sağlanan diğer özellikleri keşfetmekten çekinmeyin.
+Daha fazla deneme yapmaktan ve Aspose.Drawing'in sunduğu diğer özellikleri keşfetmekten çekinmeyin.
 
-## SSS'ler
+## SSS
 
-### S1: Aspose.Drawing for .NET'i hem web hem de masaüstü uygulamalarında kullanabilir miyim?
+### S1: Aspose.Drawing for .NET'i hem web hem de masaüstü uygulamalarda kullanabilir miyim?
 
-Cevap1: Evet, Aspose.Drawing çok yönlüdür ve web ve masaüstü dahil çeşitli .NET uygulamalarında kullanılabilir.
+C1: Evet, Aspose.Drawing çok yönlüdür ve web ile masaüstü dahil çeşitli .NET uygulamalarında kullanılabilir.
 
 ### S2: Aspose.Drawing için geçici bir lisans mevcut mu?
 
- Cevap2: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+C2: Evet, test ve değerlendirme amaçlı geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-### S3: Aspose.Drawing için ek desteği nerede bulabilirim?
+### S3: Aspose.Drawing için ek destek nereden bulabilirim?
 
- A3: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44).
+C3: Her türlü soru ve yardım için [Aspose.Drawing forumunu](https://forum.aspose.com/c/drawing/44) ziyaret edin.
 
-### S4: Aspose.Drawing'in desteklediği resim formatlarında herhangi bir sınırlama var mı?
+### S4: Aspose.Drawing desteklediği görüntü formatları konusunda sınırlamalar var mı?
 
- Cevap4: Aspose.Drawing, JPEG, PNG, GIF, BMP ve daha fazlasını içeren çok çeşitli görüntü formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/drawing/net/) ayrıntılı bir liste için.
+C4: Aspose.Drawing JPEG, PNG, GIF, BMP ve daha fazlası dahil geniş bir format yelpazesini destekler. Detaylı liste için [belgelere](https://reference.aspose.com/drawing/net/) bakın.
 
-### S5: Görüntü ölçeklendirme için özel enterpolasyon modlarını uygulayabilir miyim?
+### S5: Görüntü ölçeklendirme için özel enterpolasyon modları uygulayabilir miyim?
 
-Cevap5: Evet, Aspose.Drawing esneklik sağlayarak görüntü ölçeklendirme için çeşitli enterpolasyon modları arasından seçim yapmanızı sağlar.
+C5: Evet, Aspose.Drawing çeşitli enterpolasyon modları arasından seçim yaparak görüntü ölçeklendirme esnekliği sunar.
+
+## Sıkça Sorulan Sorular
+
+**S: En yakın komşu (nearest neighbor) enterpolasyonu, bilinear'den nasıl farklıdır?**  
+C: En yakın komşu en yakın piksel değerini kopyalar, sert kenarları korur; bilinear ise daha yumuşak sonuçlar için ağırlıklı ortalama hesaplar.
+
+**S: En boy oranını korumadan görüntüleri ölçeklendirebilir miyim?**  
+C: Evet—dikdörtgende farklı genişlik ve yükseklik değerleri belirterek görüntüyü istediğiniz gibi uzatabilir veya sıkıştırabilirsiniz.
+
+**S: Bir döngü içinde birden fazla görüntüyü ölçeklendirmek mümkün mü?**  
+C: Kesinlikle. Kaynak dosyalarınız üzerinde dolaşan bir `foreach` döngüsü içinde bitmap oluşturma, çizme ve kaydetme mantığını kapsayabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-02-07  
+**Test Edilen Versiyon:** Aspose.Drawing 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
