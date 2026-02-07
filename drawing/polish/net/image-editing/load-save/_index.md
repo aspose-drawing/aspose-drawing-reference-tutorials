@@ -1,10 +1,11 @@
 ---
-date: 2025-12-04
+date: 2026-02-07
 description: Opanuj ładowanie obrazów, konwersję wsadową i zmianę formatów w .NET
-  przy użyciu Aspose.Drawing. Dowiedz się, jak konwertować BMP na PNG i nie tylko.
+  przy użyciu Aspose.Drawing. Dowiedz się, jak konwertować bmp na png, jak konwertować
+  obraz oraz jak efektywnie zmieniać format obrazu.
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Konwertuj BMP na PNG i inne formaty przy użyciu Aspose.Drawing
+title: Konwertuj BMP na PNG i inne formaty za pomocą Aspose.Drawing
 url: /pl/net/image-editing/load-save/
 weight: 13
 ---
@@ -17,18 +18,18 @@ weight: 13
 
 ## Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku, jak **konwertować BMP na PNG** (oraz wiele innych formatów obrazów) przy użyciu Aspose.Drawing dla .NET. Niezależnie od tego, czy musisz **zmienić format obrazu** dla pojedynczego pliku, czy przeprowadzić **wsadową konwersję obrazów** setkami zdjęć, ten tutorial pokazuje dokładnie, jak ładować, przetwarzać i zapisywać obrazy przy użyciu czystego, łatwego w utrzymaniu kodu.
+Witamy w naszym przewodniku krok po kroku, jak **konwertować BMP na PNG** (oraz wiele innych formatów obrazu) przy użyciu Aspose.Drawing dla .NET. Niezależnie od tego, czy musisz **zmienić format obrazu** dla pojedynczego pliku, czy przeprowadzić **wsadową konwersję obrazów** wśród dziesiątek zdjęć, ten tutorial pokazuje dokładnie, jak ładować, przekształcać i zapisywać obrazy przy użyciu czystego, łatwego w utrzymaniu kodu. Omówimy także typowy wzorzec **c# load image file** oraz pokażemy wielokrotnego użytku metodę **load and save image**.
 
 ## Szybkie odpowiedzi
-- **Czy Aspose.Drawing może konwertować BMP na PNG?** Tak – wystarczy załadować plik BMP i wywołać `Save` z rozszerzeniem .png.  
-- **Czy obsługiwana jest konwersja wsadowa?** Zdecydowanie; iteruj pliki i ponownie używaj tej samej metody `LoadAndSave`.  
+- **Czy Aspose.Drawing może konwertować BMP na PNG?** Tak – po prostu załaduj plik BMP i wywołaj `Save` z rozszerzeniem .png.  
+- **Czy wsadowa konwersja jest obsługiwana?** Absolutnie; iteruj po plikach i ponownie używaj tej samej metody `LoadAndSave`.  
 - **Czy potrzebna jest licencja do produkcji?** Licencja jest wymagana do użytku produkcyjnego; tymczasowa licencja jest dostępna do oceny.  
-- **Jakie wersje .NET są kompatybilne?** Działa z .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Które wersje .NET są kompatybilne?** Działa z .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
 - **Gdzie mogę pobrać bibliotekę?** Pobierz najnowszy pakiet Aspose.Drawing z oficjalnej strony pobierania.
 
-## Czym jest konwersja formatu obrazu w C# przy użyciu Aspose.Drawing?
+## Czym jest konwersja formatu obrazu c# przy użyciu Aspose.Drawing?
 
-Aspose.Drawing to wysokowydajna, w pełni zarządzana biblioteka .NET, która zastępuje starszy `System.Drawing.Common`. Daje pełną kontrolę nad scenariuszami **ładowania obrazu w ASP.NET**, obsługuje ponad 100 formatów obrazów i eliminuje ograniczenia specyficzne dla platformy.
+Aspose.Drawing to wysokowydajna, w pełni zarządzana biblioteka .NET, która zastępuje starszą `System.Drawing.Common`. Daje pełną kontrolę nad scenariuszami **load image ASP.NET**, obsługuje ponad 100 formatów obrazu i eliminuje ograniczenia specyficzne dla platformy. Krótko mówiąc, jest to **jak konwertować obrazy** niezawodnie na różnych platformach.
 
 ## Dlaczego warto używać Aspose.Drawing do wsadowej konwersji obrazów?
 
@@ -58,7 +59,7 @@ Te klasy zapewniają podstawową funkcjonalność ładowania i zapisywania obraz
 
 ## Krok 1: Ładowanie obrazu
 
-Pierwszym krokiem jest załadowanie pliku obrazu. Poniższy przykład pokazuje ładowanie obrazów w różnych formatach, w tym BMP, który później przekonwertujemy na PNG.
+Pierwszym krokiem jest załadowanie pliku obrazu. Poniższy przykład demonstruje ładowanie obrazów w różnych formatach, w tym BMP, który później przekonwertujemy na PNG. Ilustruje to typowy scenariusz **c# load image file**.
 
 ```csharp
 public static void Run()
@@ -100,18 +101,19 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-Powtórz wywołanie `LoadAndSave` dla każdego formatu obrazu, który chcesz przetworzyć. Dostosowując rozszerzenie `outputPath`, możesz **konwertować BMP na PNG**, **zmieniać format obrazu** na GIF, JPG itp., wszystko przy użyciu tej samej metody.
+Ta sama metoda demonstruje klasyczny przepływ pracy **load and save image**. Poprzez zmianę rozszerzenia `outputPath`, możesz **konwertować BMP na PNG**, **zmienić format obrazu** na GIF, JPG itp., wszystko przy użyciu tego samego wielokrotnego kodu.
 
-## Częste pułapki i wskazówki
+## Typowe pułapki i wskazówki
 
 - **Separatory ścieżek plików** – używaj `Path.Combine` dla bezpieczeństwa wieloplatformowego zamiast ręcznego łączenia ciągów.  
-- **Zwalnianie Bitmap** – otocz `Bitmap` w bloku `using`, aby szybko zwolnić zasoby natywne.  
+- **Zwalnianie Bitmap** – otocz `Bitmap` blokiem `using`, aby szybko zwolnić zasoby natywne.  
 - **Ustawienia jakości** – przy zapisywaniu JPEG‑ów rozważ podanie obiektu `EncoderParameters`, aby kontrolować jakość kompresji.  
-- **Przetwarzanie wsadowe** – umieść pliki obrazów w folderze i iteruj po `Directory.GetFiles`, aby zautomatyzować konwersje na dużą skalę.
+- **Przetwarzanie wsadowe** – umieść pliki obrazów w folderze i iteruj po `Directory.GetFiles`, aby zautomatyzować konwersje na dużą skalę.  
+- **Równoległe wykonywanie** – aby przyspieszyć wsadową konwersję, możesz uruchomić wywołania `LoadAndSave` wewnątrz pętli `Parallel.ForEach`, ale pamiętaj o prawidłowym zwalnianiu każdego `Bitmap`.
 
 ## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Drawing jest kompatybilny ze wszystkimi formatami obrazów?
+### P1: Czy Aspose.Drawing jest kompatybilny ze wszystkimi formatami obrazu?
 
 O1: Aspose.Drawing obsługuje szeroką gamę formatów, w tym BMP, GIF, JPG, PNG i TIFF.
 
@@ -131,23 +133,23 @@ O4: Szukaj pomocy w społeczności Aspose.Drawing na [forum Aspose](https://foru
 
 O5: Możesz ją kupić [tutaj](https://purchase.aspose.com/buy).
 
-**Additional Q&A**
+**Dodatkowe Pytania i Odpowiedzi**
 
 **P: Czy mogę używać tego kodu w aplikacji webowej ASP.NET?**  
-**O: Tak – ta sama logika `LoadAndSave` działa w ASP.NET, MVC lub Razor Pages; wystarczy zapewnić, że ścieżki plików są dostępne dla procesu webowego.**
+O: Tak – ta sama logika `LoadAndSave` działa w ASP.NET, MVC lub Razor Pages; wystarczy zapewnić, że ścieżki plików są dostępne dla procesu webowego.
 
-**P: Czy możliwe jest przetwarzanie obrazów równolegle w celu szybszej konwersji wsadowej?**  
-**O: Zdecydowanie. Umieść wywołania `LoadAndSave` w pętli `Parallel.ForEach`, ale pamiętaj o bezpiecznym wątkowo zwalnianiu obiektów `Bitmap`.**
+**P: Czy możliwe jest przetwarzanie obrazów równolegle w celu szybszej wsadowej konwersji?**  
+O: Zdecydowanie. Umieść wywołania `LoadAndSave` w pętli `Parallel.ForEach`, ale pamiętaj o bezpiecznym wątkowo zwalnianiu obiektów `Bitmap`.
 
 ## Zakończenie
 
-Teraz wiesz, jak **konwertować BMP na PNG**, przeprowadzać **wsadową konwersję obrazów** oraz **zmieniać format obrazu** przy użyciu Aspose.Drawing dla .NET. Zastosuj te wzorce, aby zautomatyzować potoki obrazów, generować miniatury lub przygotowywać zasoby do dostarczania w sieci. Eksperymentuj z różnymi formatami, integruj kod w swoich usługach i ciesz się niezawodnością w pełni zarządzanej biblioteki graficznej.
+Teraz wiesz, jak **konwertować BMP na PNG**, przeprowadzać **wsadową konwersję obrazów** i **zmieniać format obrazu** przy użyciu Aspose.Drawing dla .NET. Zastosuj te wzorce, aby zautomatyzować potoki obrazów, generować miniatury lub przygotowywać zasoby do dostarczania w sieci. Eksperymentuj z różnymi formatami, integruj kod w swoich usługach i ciesz się niezawodnością w pełni zarządzanej biblioteki graficznej.
 
 ---
 
-**Last Updated:** 2025-12-04  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-02-07  
+**Testowano z:** Aspose.Drawing 24.12 for .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
