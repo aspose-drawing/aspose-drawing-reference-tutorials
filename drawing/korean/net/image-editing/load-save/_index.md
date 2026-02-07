@@ -1,7 +1,7 @@
 ---
-date: 2025-12-04
-description: .NET에서 Aspose.Drawing을 사용하여 이미지 로드, 배치 이미지 변환 및 형식 변경을 마스터하세요. BMP를 PNG로
-  변환하는 방법 등 다양한 내용을 배워보세요.
+date: 2026-02-07
+description: .NET에서 Aspose.Drawing을 사용하여 이미지 로딩, 배치 이미지 변환 및 포맷 변경을 마스터하세요. BMP를 PNG로
+  변환하는 방법, 이미지 변환 방법, 그리고 이미지 포맷을 효율적으로 변경하는 방법을 배웁니다.
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Aspose.Drawing을 사용하여 BMP를 PNG 및 기타 형식으로 변환
@@ -13,52 +13,52 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# BMP를 PNG 및 기타 포맷으로 변환하기 (Aspose.Drawing 사용)
+# Aspose.Drawing을 사용하여 BMP를 PNG 및 기타 형식으로 변환하기
 
-## 소개
+## Introduction
 
-Aspose.Drawing for .NET을 사용하여 **BMP를 PNG**(및 다양한 이미지 포맷)로 **변환**하는 단계별 가이드에 오신 것을 환영합니다. 단일 파일의 **이미지 포맷 변경**이 필요하든, 수십 개의 사진을 대상으로 **배치 이미지 변환**을 수행하든, 이 튜토리얼에서는 이미지를 로드하고, 변환하고, 저장하는 방법을 깔끔하고 유지보수하기 쉬운 코드로 정확히 보여드립니다.
+Aspose.Drawing for .NET을 사용하여 **BMP를 PNG**(및 다양한 이미지 형식)로 **변환**하는 단계별 가이드에 오신 것을 환영합니다. 단일 파일의 **이미지 형식 변경**이 필요하든 수십 개의 사진에 대해 **배치 이미지 변환**을 실행하든, 이 튜토리얼에서는 이미지를 로드하고 변환하며 저장하는 방법을 깔끔하고 유지 보수 가능한 코드로 정확히 보여줍니다. 또한 일반적인 **c# load image file** 패턴을 다루고 재사용 가능한 **load and save image** 메서드를 시연합니다.
 
-## 빠른 답변
-- **Aspose.Drawing이 BMP를 PNG로 변환할 수 있나요?** 예 – BMP를 로드하고 `.png` 확장자를 사용해 `Save`를 호출하면 됩니다.  
-- **배치 변환이 지원되나요?** 물론입니다; 파일을 순회하면서 동일한 `LoadAndSave` 메서드를 재사용하면 됩니다.  
-- **프로덕션에서 라이선스가 필요합니까?** 프로덕션 사용 시 라이선스가 필요합니다; 평가용 임시 라이선스도 제공됩니다.  
-- **지원되는 .NET 버전은 무엇인가요?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7에서 작동합니다.  
-- **라이브러리를 어디서 다운로드할 수 있나요?** 공식 다운로드 페이지에서 최신 Aspose.Drawing 패키지를 받으세요.
+## Quick Answers
+- **Can Aspose.Drawing convert BMP to PNG?** Yes – simply load the BMP and call `Save` with a .png extension.  
+- **Is batch conversion supported?** Absolutely; loop through files and reuse the same `LoadAndSave` method.  
+- **Do I need a license for production?** A license is required for production use; a temporary license is available for evaluation.  
+- **Which .NET versions are compatible?** Works with .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Where can I download the library?** Get the latest Aspose.Drawing package from the official download page.
 
-## Aspose.Drawing을 사용한 C# 이미지 포맷 변환이란?
+## What is image format conversion c# with Aspose.Drawing?
 
-Aspose.Drawing은 이전 `System.Drawing.Common`을 대체하는 고성능, 완전 관리형 .NET 라이브러리입니다. **load image ASP.NET** 시나리오를 완벽히 제어할 수 있으며, 100개가 넘는 이미지 포맷을 지원하고 플랫폼 별 제한을 없앱니다.
+Aspose.Drawing은 이전 `System.Drawing.Common`을 대체하는 고성능 완전 관리형 .NET 라이브러리입니다. **load image ASP.NET** 시나리오를 완전히 제어할 수 있게 해 주며, 100개 이상의 이미지 형식을 지원하고 플랫폼별 제한을 없앱니다. 요컨대, 이는 **how to convert image** 파일을 플랫폼에 구애받지 않고 신뢰성 있게 변환하는 방법입니다.
 
-## 배치 이미지 변환에 Aspose.Drawing을 사용하는 이유
+## Why use Aspose.Drawing for batch image conversion?
 
-- **크로스‑플랫폼 신뢰성** – GDI+ 의존성이 없습니다.  
-- **다양한 포맷 지원** – BMP, GIF, JPG, PNG, TIFF 등 다수.  
-- **일관된 API** – 동일한 코드가 Windows, Linux, macOS에서 동작합니다.  
-- **성능** – 대규모 이미지 처리 파이프라인에 최적화되었습니다.
+- **Cross‑platform reliability** – no GDI+ dependencies.  
+- **Rich format support** – BMP, GIF, JPG, PNG, TIFF, and many more.  
+- **Consistent API** – the same code works on Windows, Linux, and macOS.  
+- **Performance** – optimized for large‑scale image processing pipelines.
 
-## 사전 준비 사항
+## Prerequisites
 
-시작하기 전에 다음을 준비하세요:
+Before we dive in, make sure you have:
 
-- **Aspose.Drawing for .NET** – [여기](https://releases.aspose.com/drawing/net/)에서 다운로드합니다.  
-- 작업 가능한 **.NET 개발 환경**(Visual Studio, VS Code, Rider 등).  
+- **Aspose.Drawing for .NET** – download it [here](https://releases.aspose.com/drawing/net/).  
+- A working **.NET development environment** (Visual Studio, VS Code, or Rider).  
 
-준비가 끝났다면 필요한 네임스페이스를 가져오고 코딩을 시작해 보겠습니다.
+Now that we’re set, let’s import the required namespaces and start coding.
 
-## 네임스페이스 가져오기
+## Import Namespaces
 
-.NET 프로젝트에서 필요한 네임스페이스를 가져옵니다:
+In your .NET project, begin by importing the necessary namespace:
 
 ```csharp
 using System.Drawing;
 ```
 
-이 클래스들은 이미지 로드와 저장을 위한 핵심 기능을 제공합니다.
+These classes provide the core functionality for loading and saving images.
 
-## Step 1: 이미지 로드
+## Step 1: Loading an Image
 
-첫 번째 단계는 이미지 파일을 로드하는 것입니다. 아래 샘플은 BMP를 포함한 다양한 포맷의 이미지를 로드하는 방법을 보여줍니다.
+The first step is to load an image file. The sample below demonstrates loading images of various formats, including BMP, which we’ll later convert to PNG. This illustrates a typical **c# load image file** scenario.
 
 ```csharp
 public static void Run()
@@ -71,11 +71,11 @@ public static void Run()
 }
 ```
 
-## Aspose.Drawing으로 BMP를 PNG로 변환하는 방법
+## How to convert BMP to PNG with Aspose.Drawing
 
-`LoadAndSave` 메서드는 소스 파일을 로드하고 원하는 출력 포맷으로 저장하는 작업을 모두 처리합니다. 인수로 `"bmp"`를 전달하면 `outputPath`의 확장자를 변경했을 때 자동으로 PNG 파일이 생성됩니다.
+The `LoadAndSave` method handles both loading the source file and saving it in the desired output format. By passing `"bmp"` as the argument, the method will automatically produce a PNG file when you change the extension in the `outputPath`.
 
-### Step 2.1: 이미지 로드
+### Step 2.1: Load Image
 
 ```csharp
 private static void LoadAndSave(string graphicsFileFormats)
@@ -85,7 +85,7 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-### Step 2.2: 이미지 저장 (이미지 포맷 변경)
+### Step 2.2: Save Image (change image format)
 
 ```csharp
 private static void LoadAndSave(string graphicsFileFormats)
@@ -100,52 +100,53 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-각 이미지 포맷별로 `LoadAndSave` 호출을 반복하면 됩니다. `outputPath` 확장자를 조정하면 **BMP를 PNG로 변환**, **이미지 포맷을 GIF, JPG 등으로 변경**을 동일한 메서드로 수행할 수 있습니다.
+The same method demonstrates a classic **load and save image** workflow. By adjusting the `outputPath` extension, you can **convert BMP to PNG**, **change image format** to GIF, JPG, etc., all with the same reusable code.
 
-## 흔히 발생하는 문제와 팁
+## Common Pitfalls & Tips
 
-- **파일 경로 구분자** – 문자열을 직접 연결하기보다 `Path.Combine`을 사용해 크로스‑플랫폼 안전성을 확보하세요.  
-- **Bitmap 해제** – `Bitmap`을 `using` 블록으로 감싸서 네이티브 리소스를 즉시 해제합니다.  
-- **품질 설정** – JPEG 저장 시 `EncoderParameters` 객체를 지정해 압축 품질을 제어하는 것을 고려하세요.  
-- **배치 처리** – 이미지 파일을 폴더에 넣고 `Directory.GetFiles`를 순회하면 대규모 변환을 자동화할 수 있습니다.
+- **File path separators** – Use `Path.Combine` for cross‑platform safety instead of manual string concatenation.  
+- **Disposing Bitmaps** – Wrap the `Bitmap` in a `using` block to free native resources promptly.  
+- **Quality settings** – When saving JPEGs, consider specifying an `EncoderParameters` object to control compression quality.  
+- **Batch processing** – Place your image files in a folder and iterate over `Directory.GetFiles` to automate large‑scale conversions.  
+- **Parallel execution** – For faster batch conversion, you can run the `LoadAndSave` calls inside a `Parallel.ForEach` loop, but remember to dispose each `Bitmap` correctly.
 
-## 자주 묻는 질문
+## Frequently Asked Questions
 
-### Q1: Aspose.Drawing이 모든 이미지 포맷을 지원하나요?
+### Q1: Is Aspose.Drawing compatible with all image formats?
 
-A1: Aspose.Drawing은 BMP, GIF, JPG, PNG, TIFF 등 다양한 포맷을 지원합니다.
+A1: Aspose.Drawing supports a wide range of formats, including BMP, GIF, JPG, PNG, and TIFF.
 
-### Q2: Aspose.Drawing에 대한 자세한 문서는 어디서 찾을 수 있나요?
+### Q2: Where can I find detailed documentation for Aspose.Drawing?
 
-A2: 공식 문서는 [여기](https://reference.aspose.com/drawing/net/)에서 확인하세요.
+A2: Check out the official documentation [here](https://reference.aspose.com/drawing/net/).
 
-### Q3: Aspose.Drawing 임시 라이선스는 어떻게 얻나요?
+### Q3: How can I obtain a temporary license for Aspose.Drawing?
 
-A3: 임시 라이선스 상세 내용은 [여기](https://purchase.aspose.com/temporary-license/)에서 확인할 수 있습니다.
+A3: Visit [here](https://purchase.aspose.com/temporary-license/) for temporary license details.
 
-### Q4: 구현 중 문제가 발생하거나 질문이 있으면 어떻게 해야 하나요?
+### Q4: What if I encounter issues or have questions during implementation?
 
-A4: Aspose.Drawing 커뮤니티인 [Aspose Forum](https://forum.aspose.com/c/drawing/44)에서 도움을 받을 수 있습니다.
+A4: Seek assistance from the Aspose.Drawing community at [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
-### Q5: Aspose.Drawing 라이브러리를 구매하려면 어디서 해야 하나요?
+### Q5: Where can I purchase the Aspose.Drawing library?
 
-A5: 구매는 [여기](https://purchase.aspose.com/buy)에서 가능합니다.
+A5: You can buy it [here](https://purchase.aspose.com/buy).
 
-**추가 Q&A**
+**Additional Q&A**
 
-**Q: 이 코드를 ASP.NET 웹 애플리케이션에서 사용할 수 있나요?**  
-A: 예 – 동일한 `LoadAndSave` 로직이 ASP.NET, MVC, Razor Pages에서도 동작합니다; 파일 경로가 웹 프로세스에서 접근 가능하도록만 하면 됩니다.
+**Q: Can I use this code in an ASP.NET web application?**  
+A: Yes – the same `LoadAndSave` logic works in ASP.NET, MVC, or Razor Pages; just ensure the file paths are accessible to the web process.
 
-**Q: 배치 변환 속도를 높이기 위해 이미지를 병렬로 처리할 수 있나요?**  
-A: 물론입니다. `LoadAndSave` 호출을 `Parallel.ForEach` 루프에 넣어 처리할 수 있지만, `Bitmap` 객체의 스레드‑안전한 해제를 반드시 관리해야 합니다.
+**Q: Is it possible to process images in parallel for faster batch conversion?**  
+A: Absolutely. Wrap the `LoadAndSave` calls in a `Parallel.ForEach` loop, but remember to handle thread‑safe disposal of `Bitmap` objects.
 
-## 결론
+## Conclusion
 
-이제 **BMP를 PNG로 변환**, **배치 이미지 변환** 수행, 그리고 **이미지 포맷 변경**을 Aspose.Drawing for .NET으로 구현하는 방법을 익혔습니다. 이 패턴을 활용해 이미지 파이프라인을 자동화하고, 썸네일을 생성하며, 웹 배포용 자산을 준비하세요. 다양한 포맷을 실험하고 코드를 서비스에 통합해 완전 관리형 드로잉 라이브러리의 신뢰성을 경험해 보시기 바랍니다.
+You’ve now learned how to **convert BMP to PNG**, perform **batch image conversion**, and **change image format** using Aspose.Drawing for .NET. Apply these patterns to automate image pipelines, generate thumbnails, or prepare assets for web delivery. Experiment with different formats, integrate the code into your services, and enjoy the reliability of a fully managed drawing library.
 
 ---
 
-**Last Updated:** 2025-12-04  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 

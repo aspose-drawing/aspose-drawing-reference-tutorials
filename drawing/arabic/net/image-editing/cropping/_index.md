@@ -1,10 +1,10 @@
 ---
-date: 2025-12-04
-description: دليل خطوة بخطوة لقص الصور لمطوري .NET باستخدام Aspose.Drawing. تعلم كيفية
-  قص الصورة إلى PNG، قص الصور دفعة واحدة، وتقنيات قص أساسية في معالجة الصور.
+date: 2026-02-07
+description: دليل خطوة بخطوة لقص الصورة إلى PNG باستخدام Aspose.Drawing، البديل لـ
+  System.Drawing لمطوري .NET. يتضمن القص الدفعي والتقنيات الأساسية.
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: 'دليل قص الصور: قص الصور باستخدام Aspose.Drawing لـ .NET'
+title: كيفية قص الصورة إلى PNG باستخدام Aspose.Drawing لـ .NET
 url: /ar/net/image-editing/cropping/
 weight: 10
 ---
@@ -13,44 +13,41 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دليل قص الصور: قص الصور باستخدام Aspose.Drawing لـ .NET
+# كيفية قص الصورة إلى PNG باستخدام Aspose.Drawing لـ .NET
 
-في هذا **دليل قص الصور**، سنوضح لك بالضبط **كيفية قص ملفات الصور** باستخدام Aspose.Drawing، وتصدير النتيجة كملف PNG، وحتى مناقشة استراتيجيات **قص الصور على دفعات**. سواءً كنت تبني محرّراً للصور، أو تولّد صورًا مصغرة، أو تُعدّ أصولًا لتطبيق ويب، فإن إتقان هذه العملية سيمنحك تحكمًا دقيقًا في خط أنابيب معالجة الصور الخاص بك.
+إذا كنت بحاجة إلى **crop image to PNG** بسرعة وموثوقية في بيئة .NET، فأنت في المكان الصحيح. في هذا الدرس سنستعرض الخطوات الدقيقة لتحميل صورة، تعريف منطقة القص، وحفظ النتيجة كملف PNG—كل ذلك باستخدام Aspose.Drawing، **alternative to System.Drawing** حديث يعمل عبر الأنظمة.
 
 ## إجابات سريعة
-- **ما المكتبة التي يجب أن أستخدمها؟** Aspose.Drawing لـ .NET (بديل كامل المميزات عن System.Drawing.Common)  
-- **كم يستغرق القص الأساسي؟** عادةً أقل من ثانية لصورة واحدة على معالج حديث  
-- **هل يمكنني القص إلى PNG؟** نعم – احفظ الـ bitmap المقصوص كملف PNG (انظر الخطوة 6)  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للتطوير؛ الترخيص التجاري مطلوب للإنتاج  
-- **هل المعالجة على دفعات ممكنة؟** بالتأكيد – ضع نفس الخطوات داخل حلقة لمعالجة ملفات متعددة  
+- **What library should I use?** Aspose.Drawing for .NET (a full‑featured alternative to System.Drawing.Common)  
+- **How long does the basic crop take?** Usually under a second for a single image on a modern CPU  
+- **Can I crop to PNG?** Yes – save the cropped bitmap as a PNG file (see Step 6)  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production  
+- **Is batch processing possible?** Absolutely – wrap the same steps in a loop to process multiple files  
 
-## المقدمة
+## ما هو “crop image to PNG”؟
 
-في عالم تطوير .NET، يبرز Aspose.Drawing كأداة قوية لتعديل الصور. إحدى ميزاته المفيدة هي القدرة على قص الصور بدقة. في هذا الدليل، سنستعرض عملية **قص الصور** باستخدام Aspose.Drawing لـ .NET. استعد لتعزيز مهاراتك في معالجة الصور!
+قص الصورة يعني استخراج منطقة مستطيلة من الـ bitmap الأصلي. عندما تحفظ تلك المنطقة كملف PNG، تحتفظ بالشفافية وتستفيد من الضغط غير الفاقد—مثالي للصور المصغرة، الأيقونات، أو أي عنصر واجهة مستخدم.
 
-## لماذا نستخدم Aspose.Drawing لقص الصور؟
+## لماذا Aspose.Drawing هو بديل لـ System.Drawing؟
 
-- **دعم متعدد المنصات** – يعمل على Windows وLinux وmacOS دون الاعتماد على مكتبة GDI+ الأصلية.  
-- **خيارات تنسيقات البكسل الغنية** – يعالج تنسيقات 32‑bit و24‑bit والأنواع المفهرسة بسهولة.  
-- **واجهة برمجة تطبيقات مركزة على الأداء** – مثالية لكل من تعديل صورة واحدة ووظائف قص الصور على نطاق واسع.
+- **Cross‑platform support** – runs on Windows, Linux, and macOS without native GDI+ dependencies.  
+- **Rich pixel‑format handling** – 32‑bit, 24‑bit, indexed, and more.  
+- **Performance‑focused API** – ideal for both single‑image edits and large‑scale batch jobs.  
 
 ## المتطلبات المسبقة
 
-قبل الغوص في سحر القص، تأكد من توفر المتطلبات التالية:
+قبل أن نبدأ، تأكد من وجود:
 
-- مكتبة Aspose.Drawing: تأكد من دمج مكتبة Aspose.Drawing في مشروع .NET الخاص بك. إذا لم تكن قد فعلت ذلك، يمكنك تنزيلها [هنا](https://releases.aspose.com/drawing/net/).
-
-- دليل المستندات: احرص على وجود دليل مخصص لصور مشروعك. استبدل `"Your Document Directory"` في مقتطفات الشيفرة بالمسار إلى مجلد صور مشروعك.
+- **Aspose.Drawing library** مدمجة في مشروع .NET الخاص بك. يمكنك تنزيلها [here](https://releases.aspose.com/drawing/net/).  
+- مجلد يحتوي على الصور المصدرية التي تريد قصها. استبدل `"Your Document Directory"` في مقتطفات الشيفرة بالمسار الفعلي على جهازك.
 
 ## استيراد المساحات الاسمية
-
-لنبدأ باستيراد المساحات الاسمية الضرورية لتجهيز مغامرة القص:
 
 ```csharp
 using System.Drawing;
 ```
 
-الآن بعد أن أعددنا المشهد، دعنا نقسم عملية قص الصورة إلى خطوات قابلة للإدارة.
+مساحة الاسم `System.Drawing` تمنحنا الوصول إلى `Bitmap` و `Graphics` والأنواع ذات الصلة التي يوسعها Aspose.Drawing.
 
 ## دليل خطوة بخطوة
 
@@ -60,7 +57,7 @@ using System.Drawing;
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-ابدأ بإنشاء كائن `Bitmap` جديد بالعرض والارتفاع وتنسيق البكسل المطلوبين. عدّل الأبعاد لتتناسب مع متطلبات مشروعك المحدد.
+نبدأ بلوحة فارغة بحجم يكفي لاستيعاب النتيجة المقصوصة. عدّل العرض والارتفاع ليتطابقا مع أبعاد المنطقة التي تخطط لاستخراجها.
 
 ### الخطوة 2: إنشاء كائن Graphics
 
@@ -69,7 +66,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-أنشئ كائن `Graphics` من الـ `Bitmap` الخاص بك لتمكين عمليات الرسم. اضبط `InterpolationMode` للحصول على معالجة صورة أكثر سلاسة، مع تعديلها وفقًا لتفضيلاتك.
+كائن `Graphics` يتيح لنا الرسم على اللوحة. `InterpolationMode` يتحكم في كيفية حساب قيم البكسل أثناء التحجيم أو التحويل—`NearestNeighbor` يعمل جيدًا للحواف الحادة.
 
 ### الخطوة 3: تحميل الصورة المراد قصها
 
@@ -77,16 +74,16 @@ graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-حمّل الصورة التي تريد قصها في كائن `Bitmap` جديد. استبدل `"Your Document Directory"` بالمسار إلى مجلد صور مشروعك وعدّل اسم الملف وفقًا لذلك.
+حمّل الصورة المصدر. تأكد من أن المسار يشير إلى ملف موجود؛ وإلا سيُطرح استثناء.
 
-### الخطوة 4: تعريف المستطيلات المصدر والوجهة
+### الخطوة 4: تعريف المستطيلات المصدرية والوجهة
 
 ```csharp
 Rectangle sourceRectangle = new Rectangle(0, 0, 50, 40);
 Rectangle destinationRectangle = sourceRectangle;
 ```
 
-حدد المستطيل المصدر لتحديد الجزء من الصورة الذي تريد قصه. في هذا المثال، نختار الجزء العلوي‑الأيسر من الصورة بحجم **50 × 40 بكسل**. يُضبط مستطيل الوجهة على نفس الأبعاد لعملية قص مباشرة.
+`sourceRectangle` يحدد للـ API أي جزء من الصورة الأصلية يجب الاحتفاظ به. هنا نختار المنطقة العلوية اليسرى بحجم 50 × 40 بكسل. بتعيين نفس المستطيل إلى `destinationRectangle`، نحافظ على حجم المنطقة المقصوصة كما هو.
 
 ### الخطوة 5: تنفيذ عملية القص
 
@@ -94,57 +91,48 @@ Rectangle destinationRectangle = sourceRectangle;
 graphics.DrawImage(image, destinationRectangle, sourceRectangle, GraphicsUnit.Pixel);
 ```
 
-نفّذ عملية القص باستخدام طريقة `DrawImage`. تأخذ هذه الدالة الصورة المصدر، مستطيل الوجهة، المستطيل المصدر، ووحدة قياس للمستطيلات.
+`Graphics.DrawImage` ينسخ الجزء المحدد من `image` إلى الـ `bitmap` الفارغ. هذه هي عملية **crop image to PNG** الأساسية.
 
-### الخطوة 6: حفظ الصورة المقصوصة (قص الصورة إلى PNG)
+### الخطوة 6: حفظ الصورة المقصوصة (Crop Image to PNG)
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ```
 
-أخيرًا، احفظ الصورة المقصوصة في الدليل المخصص لك. المثال يحفظ النتيجة كملف **PNG**، مما يحافظ على الشفافية ويقدّم جودة بدون فقدان. عدّل اسم الملف والمسار حسب الحاجة.
+أخيرًا، اكتب اللوحة إلى القرص كملف PNG. PNG يحافظ على أي قناة ألفا ويوفر جودة غير فقدانية—مثالي لأصول الواجهة.
 
 ## كيفية قص الصور في سيناريو دفعي
 
-إذا كنت بحاجة إلى معالجة العشرات أو المئات من الصور، ما عليك سوى وضع الشيفرة أعلاه داخل حلقة `foreach` تت iterates على مجموعة من مسارات الملفات. منطق `Graphics.DrawImage` يبقى نفسه، مما يجعل **قص الصور على دفعات** امتدادًا بسيطًا لهذا الدليل.
+عند وجود العشرات أو المئات من الصور، ضع المقتطف بالكامل داخل حلقة `foreach` تتكرر على مجموعة من مسارات الملفات. نفس منطق `Graphics.DrawImage` يُطبق، مما يجعل **batch image cropping** امتدادًا بسيطًا لهذا الدرس.
 
-## الأخطاء الشائعة والنصائح
+## المشكلات الشائعة والنصائح
 
-- **تعارض تنسيقات البكسل** – تأكد من أن الصورة المصدر ولوحة الـ bitmap تشتركان في تنسيق بكسل متوافق لتجنب تشويه الألوان.  
-- **تحرير كائنات GDI** – ضع `Bitmap` و`Graphics` داخل عبارات `using` أو استدعِ `Dispose()` يدويًا لتحرير الموارد غير المُدارة.  
-- **أخطاء الإحداثيات** – تذكّر أن إحداثيات المستطيل تبدأ من الصفر؛ المستطيل الذي يتجاوز حدود الصورة المصدر سيتسبب في استثناء.
-
-## الخلاصة
-
-في هذا **دليل قص الصور**، استعرضنا العملية خطوة بخطوة لقص الصور باستخدام Aspose.Drawing لـ .NET. دمج هذه الوظيفة في مشاريعك يفتح أمامك عالمًا من إمكانيات تعديل الصور، المعالجة على دفعات، وتصدير PNG.
+- **Pixel format mismatches** – ensure the source image and the canvas bitmap share a compatible pixel format to avoid color shifts.  
+- **Disposal of GDI objects** – wrap `Bitmap` and `Graphics` in `using` statements or call `Dispose()` manually; otherwise you may leak unmanaged resources.  
+- **Coordinate errors** – rectangle coordinates are zero‑based. Selecting a rectangle that exceeds the source image bounds will raise an exception.  
 
 ## الأسئلة المتكررة
 
-### س1: هل يمكنني قص صور بأي تنسيق باستخدام Aspose.Drawing؟
+**س: هل يمكنني قص صور بأي تنسيق باستخدام Aspose.Drawing؟**  
+ج: نعم، يدعم Aspose.Drawing مجموعة واسعة من التنسيقات (PNG, JPEG, BMP, GIF, TIFF, إلخ)، لذا يمكنك قص أي نوع صورة تقريبًا.
 
-ج1: نعم، يدعم Aspose.Drawing قص الصور بمختلف التنسيقات، مما يضمن مرونة في مشاريعك.
+**س: هل تتوفر خيارات قص متقدمة؟**  
+ج: بالتأكيد. يمكنك دمج `GraphicsPath`، وتحويلات `Matrix`، أو استخدام فئة `ImageProcessor` لعمليات اختيار أكثر تعقيدًا مثل القص الدائري.
 
-### س2: هل هناك خيارات قص متقدمة متاحة؟
+**س: هل يمكنني تطبيق عمليات قص متعددة على صورة واحدة؟**  
+ج: نعم. بعد أول قص، يمكنك إعادة استخدام الـ bitmap الناتج كمصدر جديد وتكرار العملية لسلسلة من القصات.
 
-ج2: بالتأكيد! يوفر Aspose.Drawing خيارات إضافية للقص المتقدم، مما يتيح لك ضبط تعديل الصورة بدقة.
+**س: هل Aspose.Drawing مناسب لمعالجة الصور دفعيًا؟**  
+ج: بالفعل. API الخفيف الوزن وعدم الاعتماد على مكونات أصلية يجعله مثاليًا لمعالجة مجموعات صور كبيرة على الخوادم.
 
-### س3: هل يمكنني تطبيق عمليات قص متعددة على صورة واحدة؟
-
-ج3: نعم، يمكنك ربط عمليات قص متعددة لتحقيق تحولات صورة معقدة بسهولة.
-
-### س4: هل Aspose.Drawing مناسب لمعالجة الصور على دفعات؟
-
-ج4: بالفعل، يتفوق Aspose.Drawing في المعالجة على دفعات، مما يتيح التعامل الفعال مع عدة صور في آن واحد.
-
-### س5: كيف يمكنني الحصول على دعم لاستفسارات متعلقة بـ Aspose.Drawing؟
-
-ج5: توجه إلى [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) لطلب المساعدة والتواصل مع المجتمع.
+**س: كيف يمكنني الحصول على دعم لاستفسارات متعلقة بـ Aspose.Drawing؟**  
+ج: توجه إلى [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) لطلب المساعدة والتواصل مع المجتمع.
 
 ---
 
-**آخر تحديث:** 2025-12-04  
-**تم الاختبار مع:** Aspose.Drawing 24.11 لـ .NET  
-**المؤلف:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
