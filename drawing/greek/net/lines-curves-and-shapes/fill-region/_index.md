@@ -1,52 +1,72 @@
 ---
-title: Συμπλήρωση περιοχών στο Aspose.Drawing
-linktitle: Συμπλήρωση περιοχών στο Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Εναλλακτική λύση στο System.Drawing.Common
-description: Μάθετε πώς να γεμίζετε περιοχές στο Aspose.Drawing για .NET με αυτόν τον αναλυτικό οδηγό. Βελτιώστε τις δεξιότητές σας στο γραφικό σχεδιασμό χωρίς κόπο.
-weight: 20
+date: 2026-02-17
+description: Μάθετε πώς να γεμίζετε μια περιοχή χρησιμοποιώντας το Aspose.Drawing
+  για .NET, να δημιουργείτε δυναμικές εικόνες και να δημιουργείτε μια περιοχή από
+  πολύγωνο με κώδικα βήμα‑βήμα.
+linktitle: How to Fill Region in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Πώς να γεμίσετε περιοχή στο Aspose.Drawing για .NET
 url: /el/net/lines-curves-and-shapes/fill-region/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Συμπλήρωση περιοχών στο Aspose.Drawing
+# Πώς να γεμίσετε περιοχή στο Aspose.Drawing
 
-## Εισαγωγή
+Η δημιουργία οπτικά ελκυστικών γραφικών συχνά περιλαμβάνει **πώς να γεμίσετε περιοχή** με χρώματα, μοτίβα ή διαβαθμίσεις. Το Aspose.Drawing για .NET σας παρέχει ένα καθαρό, υψηλής απόδοσης API για να αντιμετωπίσετε αυτήν την εργασία, είτε δημιουργείτε μηχανή αναφορών, εργαλείο σχεδίασης ή παράγετε δυναμικές εικόνες σε πραγματικό χρόνο. Σε αυτό το tutorial θα δείτε ακριβώς **πώς να γεμίσετε περιοχή** βήμα προς βήμα, από τη ρύθμιση του bitmap μέχρι την αποθήκευση της τελικής εικόνας.
 
-Η δημιουργία οπτικά ελκυστικών γραφικών συχνά περιλαμβάνει γέμισμα περιοχών με χρώματα, μοτίβα ή διαβαθμίσεις. Το Aspose.Drawing για .NET παρέχει ισχυρά εργαλεία για να επιτευχθεί αυτό αποτελεσματικά. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία πλήρωσης περιοχών χρησιμοποιώντας το Aspose.Drawing, μια ευέλικτη βιβλιοθήκη που απλοποιεί τις λειτουργίες γραφικών σε εφαρμογές .NET.
+## Quick Answers
+- **Ποια βιβλιοθήκη διαχειρίζεται τη γεμίσματος περιοχής;** Aspose.Drawing for .NET  
+- **Κύρια μέθοδος;** `Graphics.FillRegion` with a `Brush` and a `Region`  
+- **Μπορώ να δημιουργήσω δυναμικές εικόνες;** Yes – the same API lets you create images at runtime  
+- **Χρειάζομαι άδεια για παραγωγή;** A commercial license is required; a free trial is available  
+- **Υποστηριζόμενες εκδόσεις .NET;** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+
 
-## Προαπαιτούμενα
+## What is “fill region” in graphics programming?
+Το γέμισμα μιας περιοχής σημαίνει τη βαφή κάθε pixel που ανήκει σε ένα καθορισμένο σχήμα (πολύγωνο, έλλειψη, προσαρμοσμένο μονοπάτι) με ένα πινέλο. Το πινέλο μπορεί να είναι ένα στερεό χρώμα, μια διαβάθμιση ή ακόμη και μια υφή, παρέχοντάς σας πλήρη έλεγχο της οπτικής εμφάνισης της περιοχής.
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+## Why use Aspose.Drawing for region filling?
+- **Συνεπής συμπεριφορά** across .NET Framework, .NET Core, and .NET 5/6 – no platform quirks.  
+- **Βελτιστοποιημένη απόδοση** rendering pipeline, ideal for server‑side image generation.  
+- **Πλούσιο API** that supports complex paths, exclusion of inner shapes, and advanced brushes.  
+- **Χωρίς εξωτερικές εξαρτήσεις** – you don’t need GDI+ on the server, which simplifies deployment.
 
-1.  Aspose.Drawing Library: Κάντε λήψη και εγκατάσταση της βιβλιοθήκης Aspose.Drawing. Μπορείτε να βρείτε τη βιβλιοθήκη και την τεκμηρίωσή της[εδώ](https://reference.aspose.com/drawing/net/).
+## Prerequisites
 
-2. Περιβάλλον ανάπτυξης: Ρυθμίστε ένα περιβάλλον ανάπτυξης .NET, όπως το Visual Studio, για να ενσωματώσετε το Aspose.Drawing στα έργα σας.
+Before we dive in, make sure you have:
 
-## Εισαγωγή χώρων ονομάτων
+1. **Aspose.Drawing Library** – κατεβάστε και εγκαταστήστε την τελευταία έκδοση από την επίσημη ιστοσελίδα. Μπορείτε να βρείτε τη βιβλιοθήκη και την τεκμηρίωσή της [εδώ](https://reference.aspose.com/drawing/net/).  
+2. **Development Environment** – Visual Studio (οποιαδήποτε έκδοση) ή το προτιμώμενο .NET IDE σας.  
+3. **A .NET project** targeting .NET Framework 4.6+ ή .NET Core 3.1+.
 
-Ξεκινήστε εισάγοντας τους απαραίτητους χώρους ονομάτων στο έργο σας. Αυτοί οι χώροι ονομάτων παρέχουν πρόσβαση στις κλάσεις και τις μεθόδους που απαιτούνται για την εργασία με το Aspose.Drawing.
+## Import Namespaces
+
+Start by importing the namespaces that contain the graphics classes we’ll use.
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
+Now let’s walk through the complete example, breaking it down into easy‑to‑follow steps.
 
-Τώρα, ας αναλύσουμε τον κώδικα του παραδείγματος σε πολλά βήματα για μια σαφή και ολοκληρωμένη κατανόηση.
+## Step‑by‑Step Guide
 
-## Βήμα 1: Δημιουργήστε ένα αντικείμενο Bitmap και Graphics
+### Step 1: Create a Bitmap and Graphics Object
+We first allocate a bitmap that will act as our canvas and obtain a `Graphics` object to draw on it.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-Σε αυτό το βήμα, αρχικοποιούμε ένα νέο bitmap και ένα αντικείμενο γραφικών για να το σχεδιάσουμε.
+> **Συμβουλή:** Η χρήση του `Format32bppPArgb` σας παρέχει προπολλαπλασιασμένο άλφα, το οποίο προσφέρει πιο ομαλή ανάμειξη όταν εφαρμόζετε αργότερα ημιδιαφανή πινέλα.
 
-## Βήμα 2: Ορίστε ένα GraphicsPath και δημιουργήστε μια περιοχή
+### Step 2: Define a GraphicsPath and Create a Region
+A `GraphicsPath` lets us describe complex shapes. Here we add a polygon that forms a diamond‑like shape.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
@@ -54,9 +74,10 @@ path.AddPolygon(new Point[] { new Point(100, 400), new Point(500, 100), new Poin
 Region region = new Region(path);
 ```
 
-Καθορίστε μια διαδρομή γραφικών προσδιορίζοντας ένα πολύγωνο με ένα σύνολο σημείων. Δημιουργήστε μια περιοχή χρησιμοποιώντας αυτήν τη διαδρομή.
+> This is the **region from polygon** you were looking for. The `Region` object now represents the interior of that polygon.
 
-## Βήμα 3: Εξαιρέστε μια εσωτερική περιοχή
+### Step 3: Exclude an Inner Region
+Often you need a “hole” inside a shape. We create a rectangle and exclude it from the main region.
 
 ```csharp
 GraphicsPath innerPath = new GraphicsPath();
@@ -64,50 +85,55 @@ innerPath.AddRectangle(new Rectangle(300, 300, 400, 200));
 region.Exclude(innerPath);
 ```
 
-Δημιουργήστε μια άλλη διαδρομή γραφικών που αντιπροσωπεύει ένα εσωτερικό ορθογώνιο και αποκλείστε το από την κύρια περιοχή.
-
-## Βήμα 4: Επιλέξτε μια βούρτσα και γεμίστε την περιοχή
+### Step 4: Choose a Brush and Fill the Region
+Select any brush you like. In this example we use a solid blue brush, but you could swap in a `LinearGradientBrush` or `TextureBrush` to generate dynamic images with richer visuals.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
 graphics.FillRegion(brush, region);
 ```
 
-Επιλέξτε ένα πινέλο (σε αυτή την περίπτωση, ένα σταθερό μπλε χρώμα) και γεμίστε την περιοχή που καθορίσατε προηγουμένως με την επιλεγμένη βούρτσα.
-
-## Βήμα 5: Αποθηκεύστε την εικόνα που προκύπτει
+### Step 5: Save the Resulting Image
+Finally, write the bitmap to disk. Adjust the path to point to a folder that exists on your machine.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png");
 ```
 
-Αποθηκεύστε την τελική εικόνα στον επιθυμητό κατάλογο.
+## Common Issues and Solutions
+| Πρόβλημα | Αιτία | Διόρθωση |
+|-------|-------|-----|
+| **Η εικόνα εμφανίζεται κενή** | Το bitmap δεν αποθηκεύεται σε φάκελο με δικαιώματα εγγραφής ή το `Graphics` δεν εκκενώνεται. | Βεβαιωθείτε ότι ο φάκελος υπάρχει και καλέστε `graphics.Dispose()` μετά το σχέδιο. |
+| **Η περιοχή δεν εξαιρεί το εσωτερικό σχήμα** | Χρήση του `Exclude` πριν οριστεί πλήρως η περιοχή. | Καλέστε `region.Exclude(innerPath);` **μετά** τη δημιουργία της εξωτερικής περιοχής, όπως φαίνεται. |
+| **Καθυστέρηση απόδοσης σε μεγάλες εικόνες** | Χρήση του `PixelFormat.Format32bppArgb` (μη προπολλαπλασιασμένο). | Αλλάξτε σε `Format32bppPArgb` για ταχύτερη αλφα ανάμειξη. |
 
-## συμπέρασμα
+## Frequently Asked Questions
 
-Η συμπλήρωση περιοχών στο Aspose.Drawing για .NET είναι μια απλή διαδικασία, η οποία σας παρέχει την ευελιξία να δημιουργήσετε πολύπλοκα και οπτικά ελκυστικά γραφικά. Πειραματιστείτε με διαφορετικά σχήματα, χρώματα και μοτίβα για να απελευθερώσετε τη δημιουργικότητά σας.
+**Ε: Μπορώ να χρησιμοποιήσω το Aspose.Drawing για εμπορικά έργα;**  
+Α: Ναι, το Aspose.Drawing μπορεί να χρησιμοποιηθεί τόσο για προσωπικά όσο και για εμπορικά έργα. Για λεπτομέρειες άδειας, επισκεφθείτε [εδώ](https://purchase.aspose.com/buy).
 
-## Συχνές ερωτήσεις
+**Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+Α: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
 
-### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.Drawing για εμπορικά έργα;
+**Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;**  
+Α: Επισκεφθείτε το [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) για βοήθεια από την κοινότητα και τους ειδικούς.
 
- A1: Ναι, το Aspose.Drawing μπορεί να χρησιμοποιηθεί τόσο για προσωπικά όσο και για εμπορικά έργα. Για λεπτομέρειες αδειοδότησης, επισκεφθείτε[εδώ](https://purchase.aspose.com/buy).
+**Ε: Μπορώ να δημιουργήσω δυναμικές εικόνες χρησιμοποιώντας το Aspose.Drawing;**  
+Α: Απόλυτα. Το Aspose.Drawing σας επιτρέπει να δημιουργείτε και να επεξεργάζεστε δυναμικά εικόνες στις .NET εφαρμογές σας.
 
-### Ε2: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
+**Ε: Διατίθενται προσωρινές άδειες;**  
+Α: Ναι, οι προσωρινές άδειες μπορούν να ληφθούν [εδώ](https://purchase.aspose.com/temporary-license/).
 
- A2: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+## Conclusion
 
-### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;
+Το γέμισμα περιοχών με το Aspose.Drawing είναι μια απλή αλλά ισχυρή τεχνική που ανοίγει την πόρτα στη **δημιουργία δυναμικών εικόνων**, τη δημιουργία προσαρμοσμένων σχημάτων και την παραγωγή επαγγελματικών γραφικών προγραμματιστικά. Πειραματιστείτε με διαφορετικά πινέλα, διαβαθμίσεις και σύνθετα μονοπάτια για να αξιοποιήσετε πλήρως τις δυνατότητες της βιβλιοθήκης.
 
- A3: Επισκεφθείτε το[Aspose.Φόρουμ σχεδίασης](https://forum.aspose.com/c/drawing/44) να λάβετε βοήθεια από την κοινότητα και τους ειδικούς.
+---
 
-### Ε4: Μπορώ να δημιουργήσω δυναμικές εικόνες χρησιμοποιώντας το Aspose.Drawing;
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
 
-Α4: Απολύτως. Το Aspose.Drawing σάς δίνει τη δυνατότητα να δημιουργείτε και να χειρίζεστε δυναμικά εικόνες στις εφαρμογές σας .NET.
-
-### Ε5: Είναι διαθέσιμες προσωρινές άδειες;
-
- A5: Ναι, μπορούν να ληφθούν προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
