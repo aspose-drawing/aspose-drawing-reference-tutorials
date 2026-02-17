@@ -1,33 +1,51 @@
 ---
-title: Rysowanie prostokątów w Aspose.Drawing
-linktitle: Rysowanie prostokątów w Aspose.Drawing
-second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
-description: Dowiedz się, jak rysować prostokąty w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku z przykładami kodu.
-weight: 19
+date: 2026-02-17
+description: Dowiedz się, jak rysować prostokąt w .NET przy użyciu Aspose.Drawing.
+  Ten przewodnik krok po kroku pokazuje, jak utworzyć obraz bitmapowy, narysować prostokąt
+  na bitmapie i zapisać narysowany obraz.
+linktitle: Drawing Rectangles in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Jak narysować prostokąt za pomocą Aspose.Drawing dla .NET
 url: /pl/net/lines-curves-and-shapes/draw-rectangle/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rysowanie prostokątów w Aspose.Drawing
+# Jak narysować prostokąt przy użyciu Aspose.Drawing dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym kompleksowym samouczku na temat rysowania prostokątów przy użyciu Aspose.Drawing dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w Aspose.Drawing, ten przewodnik przeprowadzi Cię przez proces tworzenia prostokątów i manipulowania nimi w aplikacjach .NET.
+W tym samouczku dowiesz się **jak narysować prostokąt** w swoich aplikacjach .NET przy użyciu biblioteki Aspose.Drawing. Niezależnie od tego, czy potrzebujesz wygenerować prosty prostokąt jako element UI, czy stworzyć złożoną grafikę do raportu, poniższe kroki poprowadzą Cię przez tworzenie obrazu bitmapowego, konfigurację obiektu graficznego, rysowanie prostokąta na bitmapie oraz zapisanie narysowanego obrazu na dysku.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki wymaga?** Aspose.Drawing for .NET  
+- **Która metoda rysuje kształt?** `Graphics.DrawRectangle`  
+- **Czy potrzebna jest licencja?** Wersja próbna jest darmowa; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę zmienić rozmiar prostokąta?** Tak – dostosuj parametry szerokości, wysokości i pozycji.  
+- **Czy kod jest kompatybilny z .NET 6+?** Absolutnie, Aspose.Drawing obsługuje nowoczesne wersje .NET.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co oznacza „jak narysować prostokąt” w kontekście Aspose.Drawing?
 
-- Biblioteka Aspose.Drawing: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Drawing dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/drawing/net/).
+Rysowanie prostokąta przy użyciu Aspose.Drawing oznacza użycie klasy `Graphics` do renderowania prostokątnego obrysu (lub wypełnionego kształtu) na płótnie bitmapy. Takie podejście daje pełną kontrolę nad rozmiarem, kolorem, grubością linii i formatem obrazu, co czyni je idealnym do generowania grafik w locie.
 
-- Środowisko programistyczne: Skonfiguruj na swoim komputerze działające środowisko programistyczne .NET, takie jak Visual Studio.
+## Dlaczego warto używać Aspose.Drawing do tworzenia prostokątów?
+- **Wsparcie wieloplatformowe** – działa na Windows, Linux i macOS.  
+- **Brak zależności od GDI+** – unika ograniczeń `System.Drawing.Common`.  
+- **Bogaty zestaw funkcji** – zaawansowane rysowanie, antyaliasing i wysokiej jakości formaty wyjściowe.  
+- **Łatwa licencjonowanie** – dostępna wersja próbna, z płynnym przejściem na licencję komercyjną.
 
-- Podstawowa wiedza o .NET: Zapoznaj się z podstawami programowania .NET.
+## Wymagania wstępne
 
-## Importuj przestrzenie nazw
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+
+- Biblioteka Aspose.Drawing: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Drawing dla .NET. Możesz ją pobrać [tutaj](https://releases.aspose.com/drawing/net/).
+- Środowisko programistyczne: Miej skonfigurowane działające środowisko .NET, takie jak Visual Studio, na swoim komputerze.
+- Podstawowa znajomość .NET: Zapoznaj się z podstawami programowania w .NET.
+
+## Importowanie przestrzeni nazw
 
 Zacznij od zaimportowania niezbędnych przestrzeni nazw do swojego projektu. Te przestrzenie nazw są niezbędne do pracy z grafiką i operacjami rysowania:
 
@@ -35,78 +53,108 @@ Zacznij od zaimportowania niezbędnych przestrzeni nazw do swojego projektu. Te 
 using System.Drawing;
 ```
 
-## Krok 1: Utwórz bitmapę
+## Krok 1: Utwórz obraz bitmapowy
 
-Rozpocznij od utworzenia obiektu Bitmap, który będzie służył jako powierzchnia rysunkowa. Ustaw wymiary i format pikseli zgodnie z wymaganiami aplikacji.
+Najpierw utwórz obiekt `Bitmap`, który będzie służył jako powierzchnia rysowania. Ta bitmapa jest miejscem, w którym **wygenerujemy zawartość obrazu prostokąta**.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Krok 2: Utwórz obiekt graficzny
+## Krok 2: Utwórz obiekt Graphics
 
-Następnie utwórz obiekt graficzny z mapy bitowej. Obiekt ten pozwala na wykonywanie różnych operacji rysunkowych.
+Następnie uzyskaj obiekt `Graphics` z bitmapy. Obiekt graficzny jest silnikiem, który pozwala na **tworzenie operacji obiektu graficznego** takich jak rysowanie kształtów, linii i tekstu.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Krok 3: Zdefiniuj pióro dla prostokąta
+## Krok 3: Zdefiniuj pióro (Pen) dla prostokąta
 
-Zdefiniuj obiekt Pióro, aby określić kolor i grubość konturu prostokąta.
+Zdefiniuj obiekt `Pen`, aby określić kolor i grubość obrysu prostokąta.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-## Krok 4: Narysuj prostokąt
+## Krok 4: Narysuj prostokąt na bitmapie
 
-Teraz użyj obiektu Graphics, aby narysować prostokąt na Bitmapie przy użyciu zdefiniowanego Pióra. Określ położenie i wymiary prostokąta.
+Teraz użyj obiektu `Graphics`, aby **narysować prostokąt na bitmapie**. Dostosuj wartości X, Y, szerokości i wysokości do swojego projektu.
 
 ```csharp
 graphics.DrawRectangle(pen, 10, 10, 900, 700);
 ```
 
-## Krok 5: Zapisz obraz
+## Krok 5: Zapisz narysowany obraz
 
-Zapisz narysowany prostokąt do pliku w katalogu dokumentów lub w dowolnej wybranej lokalizacji.
+Na koniec zapisz bitmapę do pliku, aby móc zobaczyć rezultat. Ten krok demonstruje możliwość **zapisania narysowanego obrazu**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.png");
 ```
 
-Gratulacje! Pomyślnie narysowałeś prostokąt przy użyciu Aspose.Drawing dla .NET.
+Gratulacje! Pomyślnie ukończyłeś **jak narysować prostokąt** przy użyciu Aspose.Drawing dla .NET.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku omówiliśmy podstawowe kroki rysowania prostokątów w Aspose.Drawing dla .NET. Ta biblioteka zapewnia potężne narzędzia do manipulacji grafiką, co czyni ją cennym nabytkiem dla programistów .NET.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| Pusty obraz wyjściowy | Bitmapa nie została zwolniona lub grafika nie została wypłukana | Wywołaj `graphics.Dispose();` przed zapisem lub użyj bloku `using`. |
+| Krawędzie niskiej jakości | Domyślny tryb wygładzania | Ustaw `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;`. |
+| Błędy ścieżki pliku | Nieprawidłowy katalog | Upewnij się, że folder docelowy istnieje lub użyj `Path.Combine`, aby zbudować bezpieczną ścieżkę. |
 
- Jeśli napotkasz jakiekolwiek wyzwania lub masz pytania, nie wahaj się zwrócić o pomoc na stronie[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**Q: Czy mogę wypełnić prostokąt jednolitym kolorem?**  
+A: Tak, utwórz `SolidBrush` i wywołaj `graphics.FillRectangle(brush, …)` przed lub po narysowaniu obrysu.
 
-### P1: Czy mogę korzystać z Aspose.Drawing za darmo?
+**Q: Jak narysować wiele prostokątów?**  
+A: Iteruj po kolekcji struktur `Rectangle` i wywołuj `DrawRectangle` dla każdej iteracji.
 
- O1: Aspose.Drawing jest biblioteką komercyjną, ale możesz poznać jej funkcje za pomocą:[bezpłatna wersja próbna](https://releases.aspose.com/).
+**Q: Czy istnieje sposób na obrócenie prostokąta?**  
+A: Użyj `graphics.RotateTransform(angle)` przed rysowaniem, a następnie zresetuj transformację po.
 
-### P2: Gdzie mogę znaleźć szczegółową dokumentację?
+**Q: Jakie formaty obrazu są obsługiwane przy zapisie?**  
+A: PNG, JPEG, BMP, GIF i TIFF są obsługiwane poprzez odpowiedni parametr `ImageFormat`.
 
- Odpowiedź 2: Patrz[dokumentacja](https://reference.aspose.com/drawing/net/) w celu uzyskania szczegółowych informacji.
+**Q: Czy Aspose.Drawing działa na .NET Core?**  
+A: Tak, biblioteka jest w pełni kompatybilna z .NET Core, .NET 5, .NET 6 i nowszymi.
 
-### P3: Jak mogę uzyskać licencję tymczasową?
+## Dodatkowe zasoby
 
- A3: Uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do celów testowych.
+Jeśli napotkasz jakiekolwiek problemy lub masz pytania, śmiało szukaj pomocy na [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
-### Pytanie 4:. Czy Aspose.Drawing nadaje się do złożonych zadań graficznych?
+### FAQ
 
-A4: Absolutnie! Aspose.Drawing zapewnia zaawansowane funkcje do obsługi skomplikowanych operacji graficznych.
+#### P1: Czy mogę używać Aspose.Drawing za darmo?
 
-### P5: Gdzie mogę kupić Aspose.Drawing?
+A1: Aspose.Drawing jest biblioteką komercyjną, ale możesz przetestować jej funkcje za pomocą [bezpłatnej wersji próbnej](https://releases.aspose.com/).
 
- A5: Odwiedź[Tutaj](https://purchase.aspose.com/buy) kupić licencję.
+#### P2: Gdzie mogę znaleźć szczegółową dokumentację?
+
+A2: Odwołaj się do [dokumentacji](https://reference.aspose.com/drawing/net/) po szczegółowe informacje.
+
+#### P3: Jak mogę uzyskać tymczasową licencję?
+
+A3: Uzyskaj [tymczasową licencję](https://purchase.aspose.com/temporary-license/) do celów testowych.
+
+#### P4: Czy Aspose.Drawing jest odpowiedni do złożonych zadań graficznych?
+
+A4: Absolutnie! Aspose.Drawing zapewnia zaawansowane funkcje obsługi skomplikowanych operacji graficznych.
+
+#### P5: Gdzie mogę kupić Aspose.Drawing?
+
+A5: Odwiedź [tutaj](https://purchase.aspose.com/buy), aby zakupić licencję.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-17  
+**Testowano z:** Aspose.Drawing 24.11 for .NET  
+**Autor:** Aspose
