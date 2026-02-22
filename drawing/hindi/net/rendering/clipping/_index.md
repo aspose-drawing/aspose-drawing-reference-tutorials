@@ -1,14 +1,20 @@
 ---
-date: 2025-12-05
+date: 2026-02-22
 description: Aspose.Drawing for .NET का उपयोग करके क्लिपिंग रीजन सेट करना, इमेज को
-  क्लिप करना, क्लिप की गई इमेज को सहेजना और कस्टम टेक्स्ट रेंडरिंग लागू करना सीखें,
+  क्लिप करना, क्लिप की गई इमेज को सेव करना और कस्टम टेक्स्ट रेंडरिंग लागू करना सीखें,
   एक चरण‑दर‑चरण ट्यूटोरियल में।
 linktitle: Set Clipping Region in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Aspose.Drawing में क्लिपिंग रीजन सेट करें – .NET गाइड
+title: Aspose.Drawing में क्लिपिंग क्षेत्र सेट करें – .NET गाइड
 url: /hi/net/rendering/clipping/
 weight: 12
 ---
+
+.
+
+Let's do translation.
+
+I'll produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -16,34 +22,35 @@ weight: 12
 
 # Aspose.Drawing में क्लिपिंग रीजन सेट करें
 
-## परिचय
+## Introduction
 
-जब आपको **क्लिपिंग रीजन सेट** करना हो ताकि छवि के विशिष्ट भागों को छिपाया या दिखाया जा सके, Aspose.Drawing for .NET प्रक्रिया को सरल और तेज़ बनाता है। इस गाइड में हम **इमेज को क्लिप** करने, **कस्टम टेक्स्ट रेंडरिंग** लागू करने, और अंत में **क्लिप्ड इमेज** फ़ाइलों को **सेव** करने के स्पष्ट, प्रोडक्शन‑रेडी कोड के साथ चरण‑दर‑चरण दिखाएंगे। अंत तक आप समझ जाएंगे कि ग्राफिक डिज़ाइन में क्लिपिंग क्यों महत्वपूर्ण है और इसे अपने .NET प्रोजेक्ट्स में कैसे इंटीग्रेट करें।
+जब आपको **set clipping region** की आवश्यकता होती है ताकि किसी इमेज के विशिष्ट हिस्सों को छिपाया या दिखाया जा सके, Aspose.Drawing for .NET प्रक्रिया को सरल और तेज़ बनाता है। इस गाइड में हम **how to clip image** डेटा को क्लिप करना, **custom text rendering** लागू करना, और अंत में **save clipped image** फ़ाइलें सहेजना—सभी स्पष्ट, प्रोडक्शन‑रेडी कोड के साथ—पर चर्चा करेंगे। अंत तक आप समझेंगे कि क्लिपिंग ग्राफिक डिज़ाइन में क्यों महत्वपूर्ण है और इसे अपने .NET प्रोजेक्ट्स में कैसे इंटीग्रेट करें।
 
-## त्वरित उत्तर
-- **“set clipping region” क्या करता है?** यह ड्रॉइंग ऑपरेशन्स को परिभाषित आकार तक सीमित कर देता है, जिससे उस आकार के बाहर की सभी चीज़ें छिप जाती हैं।  
-- **क्लिपिंग सपोर्ट कौन सा नेमस्पेस देता है?** `System.Drawing.Drawing2D` ( `GraphicsPath` के माध्यम से)।  
-- **क्या मैं कई आकारों को क्लिप कर सकता हूँ?** हाँ – विभिन्न पाथ्स के साथ `SetClip` को बार‑बार कॉल करें।  
-- **क्लिप्ड इमेज को कैसे सेव करूँ?** क्लिप्ड एरिया के भीतर ड्रॉ करने के बाद `Bitmap.Save` का उपयोग करें।  
-- **क्या क्लिप के अंदर कस्टम टेक्स्ट रेंडरिंग संभव है?** बिल्कुल – `StringFormat` को क्लिपिंग रीजन के साथ मिलाएँ।
+## Quick Answers
+- **What does “set clipping region” do?** यह ड्रॉइंग ऑपरेशन्स को परिभाषित आकार तक सीमित करता है, और उस आकार के बाहर सब कुछ छिपा देता है।  
+- **Which namespace provides clipping support?** `System.Drawing.Drawing2D` (`GraphicsPath` के माध्यम से)।  
+- **Can I clip multiple shapes?** हाँ – विभिन्न पाथ्स के साथ `SetClip` को बार‑बार कॉल करें।  
+- **How do I save the clipped image?** क्लिप्ड एरिया के अंदर ड्रॉ करने के बाद `Bitmap.Save` का उपयोग करें।  
+- **Is custom text rendering possible inside a clip?** बिल्कुल – `StringFormat` को क्लिपिंग रीजन के साथ संयोजित करें।
 
-## “set clipping region” क्या है?
-क्लिपिंग रीजन सेट करने से ग्राफिक्स इंजन को निर्देश मिलता है कि सभी आगे के ड्रॉइंग कमांड्स को किसी आकार (आयत, अंडाकार, बहुभुज आदि) के अंदर सीमित किया जाए। उस आकार के बाहर जो भी ड्रॉ किया जाता है, वह त्याग दिया जाता है, जिससे पिक्सल‑बाय‑पिक्सल क्रॉपिंग के बिना सटीक विज़ुअल इफ़ेक्ट्स मिलते हैं।
+## What is “set clipping region”?
 
-## Aspose.Drawing के साथ क्लिपिंग क्यों उपयोग करें?
-- **परफ़ॉर्मेंस:** क्लिपिंग लाइब्रेरी द्वारा नेटिव रूप से संभाली जाती है, जिससे महंगे पिक्सल‑बाय‑पिक्सल ऑपरेशन्स से बचा जा सकता है।  
-- **लचीलापन:** किसी भी `GraphicsPath` (अंडाकार, गोल‑आयत, कस्टम पॉलीगॉन) को टेक्स्ट, इमेज या शैप्स के साथ मिलाएँ।  
-- **क्रॉस‑प्लेटफ़ॉर्म:** .NET Framework, .NET Core, और .NET 5/6+ पर समान रूप से काम करता है।  
-- **डिज़ाइन‑सेंट्रिक:** UI ग्राफिक्स में बैज, वॉटरमार्क या फोकस‑एरिया बनाने के लिए आदर्श।
+क्लिपिंग रीजन सेट करने का मतलब है ग्राफ़िक्स इंजन को यह बताना कि सभी बाद के ड्रॉइंग कमांड्स को किसी आकार (आयत, अंडाकार, बहुभुज आदि) के अंदर सीमित किया जाए। उस आकार के बाहर ड्रॉ किया गया कुछ भी त्याग दिया जाता है, जिससे पिक्सेल‑बाय‑पिक्सेल मैन्युअल क्रॉपिंग के बिना सटीक विज़ुअल इफ़ेक्ट्स मिलते हैं।
 
-## पूर्वापेक्षाएँ
+## Why use clipping with Aspose.Drawing?
+- **Performance:** क्लिपिंग लाइब्रेरी द्वारा नेटिव रूप से संभाली जाती है, जिससे महंगे पिक्सेल‑बाय‑पिक्सेल ऑपरेशन्स से बचा जा सकता है।  
+- **Flexibility:** किसी भी `GraphicsPath` (अंडाकार, गोल‑कोने वाला आयत, कस्टम पॉलीगॉन) को टेक्स्ट, इमेज या शैप्स के साथ संयोजित करें।  
+- **Cross‑platform:** .NET Framework, .NET Core, और .NET 5/6+ पर समान रूप से काम करता है।  
+- **Design‑centric:** UI ग्राफ़िक्स में बैज, वॉटरमार्क, या फोकस‑एरिया बनाने के लिए आदर्श।
+
+## Prerequisites
 - C# और .NET विकास का बुनियादी ज्ञान।  
-- Aspose.Drawing for .NET स्थापित हो (NuGet पैकेज `Aspose.Drawing`)।  
+- Aspose.Drawing for .NET स्थापित (NuGet पैकेज `Aspose.Drawing`)।  
 - Visual Studio या कोई भी C#‑संगत IDE।  
-- बुनियादी ग्राफिक‑डिज़ाइन अवधारणाओं (लेयर्स, अपारदर्शिता आदि) की समझ।
+- बुनियादी ग्राफ़िक‑डिज़ाइन अवधारणाओं (लेयर्स, अपारदर्शिता आदि) की समझ।
 
-## नेमस्पेस इम्पोर्ट करें
-क्लिपिंग और ड्रॉइंग क्लासेज़ को कंपाइलर द्वारा पहचाना जा सके, इसके लिए आवश्यक नेमस्पेस जोड़ें।
+## Import Namespaces
+क्लिपिंग और ड्रॉइंग क्लासेज़ को कंपाइलर द्वारा पहचानने के लिए आवश्यक नेमस्पेस जोड़ें।
 
 ```csharp
 using System.Drawing;
@@ -51,25 +58,25 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 ```
 
-## चरण‑दर‑चरण गाइड
+## Step‑by‑Step Guide
 
-### चरण 1: एक Bitmap बनाएं (कैनवास)
+### Step 1: Create a Bitmap (the canvas)
 हम एक खाली बिटमैप से शुरू करते हैं जो अंतिम इमेज को रखेगा।
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### चरण 2: एक Graphics कॉन्टेक्स्ट बनाएं
-`Graphics` ऑब्जेक्ट हमें बिटमैप पर ड्रॉ करने देता है। हम हाई‑क्वालिटी टेक्स्ट रेंडरिंग भी सक्षम करते हैं।
+### Step 2: Create a Graphics Context
+`Graphics` ऑब्जेक्ट हमें बिटमैप पर ड्रॉ करने की सुविधा देता है। हम हाई‑क्वालिटी टेक्स्ट रेंडरिंग भी सक्षम करते हैं।
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 ```
 
-### चरण 3: क्लिपिंग रीजन परिभाषित करें
-यहाँ हम एक आयत के भीतर अंडाकार बनाकर **क्लिपिंग रीजन सेट** करते हैं। यह **इमेज को क्लिप** करने का एक गैर‑आयताकार आकार का उदाहरण है।
+### Step 3: Define the Clipping Region
+यहाँ हम आयत के भीतर एक अंडाकार बनाकर **set clipping region** करते हैं। यह **how to set clipping** को दर्शाता है और साथ ही एक क्लासिक **clip image ellipse** उदाहरण भी दिखाता है।
 
 ```csharp
 Rectangle rectangle = new Rectangle(200, 200, 600, 400);
@@ -78,8 +85,8 @@ clipPath.AddEllipse(rectangle);
 graphics.SetClip(clipPath);
 ```
 
-### चरण 4: कस्टम टेक्स्ट रेंडरिंग लागू करें
-हम `StringFormat` को इस तरह कॉन्फ़िगर करते हैं कि टेक्स्ट को क्षैतिज और लंबवत दोनों दिशा में सेंटर किया जाए—क्लिप्ड एरिया के भीतर **कस्टम टेक्स्ट रेंडरिंग** का एक उदाहरण।
+### Step 4: Apply Custom Text Rendering
+हम `StringFormat` को इस प्रकार कॉन्फ़िगर करते हैं कि टेक्स्ट को क्षैतिज और लंबवत दोनों दिशा में केंद्रित किया जाए—यह **combine text clip** का एक उदाहरण है जो क्लिप्ड एरिया के भीतर लागू होता है।
 
 ```csharp
 StringFormat stringFormat = new StringFormat();
@@ -87,8 +94,8 @@ stringFormat.Alignment = StringAlignment.Center;
 stringFormat.LineAlignment = StringAlignment.Center;
 ```
 
-### चरण 5: क्लिप्ड रीजन पर टेक्स्ट ड्रॉ करें
-अब टेक्स्ट केवल पहले परिभाषित अंडाकार के भीतर रेंडर होगा। अंडाकार के बाहर जो भी होगा, वह स्वतः त्याग दिया जाएगा।
+### Step 5: Draw Text on the Clipped Region
+अब टेक्स्ट केवल पहले परिभाषित अंडाकार के भीतर रेंडर होगा। अंडाकार के बाहर जो भी होगा वह स्वचालित रूप से हट जाएगा।
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.White));
@@ -97,38 +104,51 @@ string text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ..."; //
 graphics.DrawString(text, arial, brush, rectangle, stringFormat);
 ```
 
-### चरण 6: परिणाम को सेव करें (क्लिप्ड इमेज सेव करें)
-अंत में, हम बिटमैप को डिस्क पर सहेजते हैं। यही **सेव क्लिप्ड इमेज** चरण है।
+### Step 6: Save the Result (save clipped image)
+अंत में, हम बिटमैप को डिस्क पर सहेजते हैं। यह **save clipped image** चरण है।
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ```
 
-## सामान्य समस्याएँ और टिप्स
-- **क्लिपिंग लागू नहीं हो रही?** सुनिश्चित करें कि `SetClip` **ड्रॉइंग कमांड्स** से पहले कॉल किया गया हो।  
-- **अप्रत्याशित रंग?** बिटमैप के पिक्सल फ़ॉर्मेट (`Format32bppPArgb` ट्रांसपैरेंसी के लिए उपयुक्त) की जाँच करें।  
-- **परफ़ॉर्मेंस चिंताएँ:** यदि लूप में कई बार क्लिप करना हो तो एक ही `GraphicsPath` को पुनः उपयोग करें।  
-- **प्रो टिप:** कई `GraphicsPath` ऑब्जेक्ट्स को `AddPath` के साथ मिलाकर जटिल कंपोज़िट क्लिप्स बनाएं।
+## Common Issues & Tips
+- **Clipping not applied?** सुनिश्चित करें कि `SetClip` को किसी भी ड्रॉइंग कमांड से **पहले** कॉल किया गया हो।  
+- **Unexpected colors?** बिटमैप के पिक्सेल फ़ॉर्मेट की जाँच करें (`Format32bppPArgb` ट्रांसपैरेंसी के लिए उपयुक्त है)।  
+- **Performance concerns:** यदि लूप में कई बार क्लिप करना है तो वही `GraphicsPath` पुनः उपयोग करें।  
+- **Pro tip:** कई `GraphicsPath` ऑब्जेक्ट्स को `AddPath` के साथ जोड़कर जटिल कॉम्पोजिट क्लिप्स बनाएं।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Common Use Cases
+- **Badge or logo creation:** लोगो को गोल या कस्टम‑शेप्ड बैज में क्लिप करें।  
+- **Dynamic watermarks:** वॉटरमार्क टेक्स्ट को केवल परिभाषित रीजन के भीतर रेंडर करें, बाकी इमेज अपरिवर्तित रहे।  
+- **Interactive UI elements:** UI स्क्रीनशॉट के किसी हिस्से को अर्ध‑पारदर्शी ओवरले क्लिप करके हाइलाइट करें।
 
-**प्रश्न: क्या मैं एक ही इमेज में कई क्लिपिंग रीजन लागू कर सकता हूँ?**  
-उत्तर: हाँ। नया पाथ के साथ `graphics.SetClip` कॉल करें; पिछला क्लिप तब तक बदल जाता है जब तक आप `CombineMode.Intersect` न उपयोग।
+## Troubleshooting & Pitfalls
 
-**प्रश्न: क्या Aspose.Drawing बिटमैप्स के लिए अन्य पिक्सल फ़ॉर्मेट सपोर्ट करता है?**  
-उत्तर: बिल्कुल। `Format24bppRgb`, `Format32bppArgb`, और `Format8bppIndexed` जैसे फ़ॉर्मेट सभी समर्थित हैं।
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| No visible text inside the ellipse | Clip applied after drawing | Move `SetClip` before any `DrawString` calls |
+| Transparent background becomes black | Incorrect pixel format | Use `Format32bppPArgb` for proper alpha handling |
+| Slow rendering on large images | Re‑creating `GraphicsPath` each frame | Cache the path and reuse it |
 
-**प्रश्न: क्या मैं रन‑टाइम पर क्लिपिंग रीजन बदल सकता हूँ?**  
-उत्तर: हाँ, नया `GraphicsPath` बनाकर और फिर से `SetClip` कॉल करके रीजन को गतिशील रूप से बदल सकते हैं।
+## Frequently Asked Questions
 
-**प्रश्न: क्या Aspose.Drawing वेब‑आधारित .NET एप्लिकेशन्स के लिए उपयुक्त है?**  
-उत्तर: हाँ। यह ASP.NET Core, Azure Functions और अन्य सर्वर‑साइड वातावरण में काम करता है।
+**Q: Can I apply multiple clipping regions in a single image?**  
+A: Yes. Call `graphics.SetClip` with a new path; the previous clip is replaced unless you use `CombineMode.Intersect`.
 
-**प्रश्न: क्लिपिंग का परफ़ॉर्मेंस प्रभाव क्या है?**  
-उत्तर: क्लिपिंग हल्का है; Aspose.Drawing नेटिव GDI+ ऑप्टिमाइज़ेशन का उपयोग करता है, इसलिए सामान्य इमेज साइज के लिए ओवरहेड न्यूनतम रहता है।
+**Q: Does Aspose.Drawing support other pixel formats for Bitmaps?**  
+A: Absolutely. Formats such as `Format24bppRgb`, `Format32bppArgb`, and `Format8bppIndexed` are all supported.
 
-## निष्कर्ष
-आपने अब **क्लिपिंग रीजन सेट** करना, **इमेज को क्लिप** करना, **कस्टम टेक्स्ट रेंडरिंग** लागू करना, और Aspose.Drawing for .NET के साथ **क्लिप्ड इमेज** फ़ाइलें **सेव** करना सीख लिया है। ये तकनीकें आपको ग्राफिक आउटपुट पर सूक्ष्म नियंत्रण देती हैं, जिससे कुछ ही कोड लाइनों में परिष्कृत विज़ुअल इफ़ेक्ट्स संभव होते हैं। क्लिपिंग को ग्रेडिएंट, पैटर्न या डायनामिक यूज़र इनपुट के साथ मिलाकर इंटरैक्टिव ग्राफिक्स बनाएं।
+**Q: Can I change the clipping region at runtime?**  
+A: You can modify the region on the fly by creating a new `GraphicsPath` and calling `SetClip` again.
+
+**Q: Is Aspose.Drawing suitable for web‑based .NET applications?**  
+A: Yes. It works in ASP.NET Core, Azure Functions, and other server‑side environments.
+
+**Q: What is the performance impact of clipping?**  
+A: Clipping is lightweight; Aspose.Drawing uses native GDI+ optimizations, so the overhead is minimal for typical image sizes.
+
+## Conclusion
+आप अब **set clipping region**, **clip image** कंटेंट, **custom text rendering** लागू करना, और Aspose.Drawing for .NET का उपयोग करके **save clipped image** फ़ाइलें सहेजना में निपुण हो चुके हैं। ये तकनीकें आपको ग्राफ़िक आउटपुट पर सूक्ष्म नियंत्रण देती हैं, जिससे कुछ ही लाइनों के कोड से परिष्कृत विज़ुअल इफ़ेक्ट्स संभव होते हैं। क्लिपिंग को ग्रेडिएंट, पैटर्न, या डायनामिक यूज़र इनपुट के साथ मिलाकर और अधिक इंटरैक्टिव ग्राफ़िक्स बनाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -139,8 +159,6 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 
 ---
 
-**अंतिम अपडेट:** 2025-12-05  
-**टेस्टेड विथ:** Aspose.Drawing 24.11 for .NET  
-**लेखक:** Aspose  
-
----
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
