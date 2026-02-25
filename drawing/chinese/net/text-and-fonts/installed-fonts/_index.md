@@ -1,10 +1,11 @@
 ---
-date: 2025-12-06
-description: 学习如何在列出已安装字体、显示字体系列、从位图创建图形以及使用 Aspose.Drawing for .NET 绘制带字体的文本时保存 PNG
-  图像文件。
-linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+date: 2026-02-25
+description: 学习如何使用 C# 创建位图图形并保存 PNG 图像，同时列出已安装的字体、使用字体绘制文本，并使用 Aspose.Drawing for
+  .NET 调整位图分辨率。
+linktitle: Create Bitmap Graphics C# – Save PNG Image and Work with Installed Fonts
+  in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: 在 Aspose.Drawing 中保存 PNG 图像并使用已安装的字体
+title: 使用 C# 创建位图图形 – 在 Aspose.Drawing 中保存 PNG 图像并使用已安装的字体
 url: /zh/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
@@ -15,52 +16,51 @@ weight: 13
 
 # 保存 PNG 图像并在 Aspose.Drawing 中使用已安装的字体
 
-## 介绍
+## Introduction
 
-如果您需要 **save PNG image** 文件，并且还想显示机器上已安装字体的信息，Aspose.Drawing for .NET 为您提供了一种简洁、跨平台的实现方式。在本教程中，我们将逐步演示列出已安装字体、显示字体族、从位图创建图形以及使用字体绘制文本——最终将结果保存为 PNG 图像。完成后，您将拥有一个可在任何 .NET 项目中直接使用的可复用代码片段。
+如果您需要 **保存 PNG 图像** 文件，同时 **创建位图图形 C#**，Aspose.Drawing for .NET 为您提供了一种干净、跨平台的方式来实现。在本教程中，我们将演示列出已安装的字体、显示字体族、从位图创建图形以及使用字体绘制文本——最终将结果保存为 PNG 图像。完成后，您将拥有一个可在任何 .NET 项目中使用的可重用代码片段。
 
-## 快速答案
-- **本教程创建什么？** 列出已安装字体族的 PNG 图像。  
+## Quick Answers
+- **本教程创建了什么？** 一个列出已安装字体族的 PNG 图像。  
 - **需要哪个库？** Aspose.Drawing for .NET（不需要 System.Drawing.Common）。  
-- **可以使用自定义字体吗？** 可以——只需将其加载到 `InstalledFontCollection` 中。  
-- **输出分辨率可调吗？** 完全可以——更改位图大小或像素格式。  
-- **运行代码是否需要许可证？** 临时许可证可用于评估；生产环境需要正式许可证。
+- **我可以使用自定义字体吗？** 可以——只需将它们加载到 `InstalledFontCollection`。  
+- **输出分辨率可调吗？** 当然——更改位图大小或像素格式即可 **adjust bitmap resolution C#** 样式。  
+- **运行代码是否需要许可证？** 临时许可证可用于评估；生产环境需要完整许可证。
 
-## 在 Aspose.Drawing 中，“save PNG image” 是什么？
+## What is “save PNG image” in the context of Aspose.Drawing?
+在 Aspose.Drawing 中，“保存 PNG 图像”意味着将您的绘图表面（`Bitmap`）渲染为扩展名为 `.png` 的文件。Aspose.Drawing 会为您处理编码，只需调用 `bitmap.Save(...)` 并提供所需路径即可。
 
-保存 PNG 图像是指将绘图表面（即 `Bitmap`）渲染为扩展名为 `.png` 的文件。Aspose.Drawing 为您处理编码，因此您只需使用目标路径调用 `bitmap.Save(...)` 即可。
+## Why list installed fonts and show font families?
+了解系统中有哪些字体可用，可让您创建能够适应终端用户环境的动态图形。这在生成报告、证书或任何必须符合企业品牌而不需要随应用程序一起分发字体文件的视觉内容时尤为实用。
 
-## 为什么要列出已安装的字体并显示字体族？
+## How to create bitmap graphics C# with Aspose.Drawing?
+下面提供了一个实用的、逐步的演练，展示如何 **create bitmap graphics C#**、使用字体绘制文本，并在需要时调整位图分辨率。
 
-了解可用的字体可以让您创建能够适应最终用户环境的动态图形。这在生成报告、证书或任何必须符合企业品牌而无需随应用程序一起分发字体文件的视觉内容时尤为便利。
+## Prerequisites
 
-## 先决条件
+- **Aspose.Drawing Library** – 从 [Aspose Drawing 下载页面](https://releases.aspose.com/drawing/net/) 下载最新版本。  
+- **IDE** – Visual Studio、Rider 或任何兼容 .NET 的编辑器。  
+- **Basic C# knowledge** – 您应熟悉类、对象以及简单循环。
 
-- **Aspose.Drawing Library** – 从 [Aspose Drawing download page](https://releases.aspose.com/drawing/net/) 下载最新版本。  
-- **IDE** – Visual Studio、Rider 或任何 .NET 兼容的编辑器。  
-- **基本的 C# 知识** – 您应熟悉类、对象以及简单的循环。
-
-## 导入命名空间
-要使用字体和图形功能，请在 C# 文件顶部导入以下命名空间：
+## Import Namespaces
+要使用字体和图形，请在 C# 文件顶部导入以下命名空间：
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## 分步指南
+## Step‑by‑Step Guide
 
-### 步骤 1：创建位图（画布）
-
-首先，我们创建一个用于保存最终图像的位图。位图的尺寸和像素格式决定了保存的 PNG 的质量。
+### Step 1: Create a bitmap (the canvas)
+首先，创建一个位图来容纳最终图像。位图的大小和像素格式决定了保存的 PNG 的质量，并让您能够 **adjust bitmap resolution C#**。
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### 步骤 2：从位图创建 Graphics 对象
-
-接下来，我们从位图获取一个 `Graphics` 对象。该对象允许我们在画布上绘制形状、文本和图像。
+### Step 2: Create graphics from bitmap
+接下来，从位图获取一个 `Graphics` 对象。该对象允许我们在画布上绘制形状、文本和图像。
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -68,9 +68,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-### 步骤 3：设置画刷和字体（使用字体绘制文本）
-
-我们需要一个用于文本颜色的画刷，以及一个定义字体、大小和样式的 `Font` 对象。
+### Step 3: Set up brush and font (draw text with fonts)
+我们需要一个画刷来设置文本颜色，以及一个 `Font` 对象来定义字体、大小和样式。这正是 **draw text with fonts** 的所在。
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -78,9 +77,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-### 步骤 4：列出已安装的字体并显示字体族
-
-现在我们将在位图上直接显示字体族的数量以及前几个名称。这演示了 **list installed fonts** 和 **show font families** 功能。
+### Step 4: List installed fonts and show font families
+现在，我们将在位图上直接显示字体族的数量以及前几个名称，以演示 **list installed fonts** 和 **show font families** 的功能。
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -91,44 +89,42 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-### 步骤 5：保存 PNG 图像
-
-最后，我们将位图写入磁盘保存为 PNG 文件。这就是核心的 **save png image** 操作。
+### Step 5: Save PNG image
+最后，将位图写入磁盘并保存为 PNG 文件。这就是核心的 **save png image** 操作。
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-> **专业提示：** 使用 `Path.Combine` 构建文件路径，可避免不同操作系统目录分隔符带来的问题。
+> **Pro tip:** 使用 `Path.Combine` 构建文件路径，可避免不同操作系统之间目录分隔符的问题。
 
-## 常见问题及解决方案
-
-| 问题 | 原因 | 解决方案 |
+## Common Issues and Solutions
+| Issue | Cause | Fix |
 |-------|-------|-----|
 | **未显示字体** | `InstalledFontCollection` 未填充（例如在没有字体的无头服务器上运行）。 | 在服务器上安装所需字体，或在应用程序中嵌入自定义字体。 |
 | **保存的文件损坏** | 像素格式不正确或缺少写入权限。 | 确保目标文件夹存在且应用具有写入权限；保持使用 `Format32bppPArgb`。 |
-| **文字模糊** | DPI 设置过低。 | 增大位图尺寸或设置 `graphics.SmoothingMode = SmoothingMode.AntiAlias`。 |
+| **文本模糊** | DPI 设置过低。 | 增大位图尺寸或设置 `graphics.SmoothingMode = SmoothingMode.AntiAlias`。 |
 
-## 常见问答
+## Frequently Asked Questions
 
-**问：我可以使用机器上未安装的自定义字体吗？**  
-答：可以。将字体文件加载到 `PrivateFontCollection` 中，然后从该集合创建 `Font`。
+**Q: 我可以使用机器上未安装的自定义字体吗？**  
+A: 可以。将字体文件加载到 `PrivateFontCollection`，然后从该集合创建 `Font`。
 
-**问：如何处理与字体相关的异常？**  
-答：在 `try/catch` 块中包装字体创建，并检查 `ArgumentException` 以判断缺少的字体族。
+**Q: 如何处理与字体相关的异常？**  
+A: 将字体创建代码放在 `try/catch` 块中，捕获 `ArgumentException` 并检查缺失的字体族。
 
-**问：Aspose.Drawing 适用于 Web 应用程序吗？**  
-答：完全适用。该库可在 ASP.NET Core、Azure Functions 以及其他服务器端环境中使用。
+**Q: Aspose.Drawing 适合用于 Web 应用吗？**  
+A: 绝对适合。该库可在 ASP.NET Core、Azure Functions 以及其他服务器端环境中使用。
 
-**问：我可以更改文本颜色或样式吗？**  
-答：可以。使用不同的 `Brush` 类型（例如 `LinearGradientBrush`），并修改 `FontStyle` 枚举。
+**Q: 我可以更改文本颜色或样式吗？**  
+A: 可以。使用不同的 `Brush` 类型（例如 `LinearGradientBrush`）并修改 `FontStyle` 枚举。
 
-**问：在哪里可以获取用于测试的临时许可证？**  
-答：从 [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) 下载试用许可证。
+**Q: 哪里可以获取用于测试的临时许可证？**  
+A: 从 [Aspose 临时许可证页面](https://purchase.aspose.com/temporary-license/) 下载试用许可证。
 
-## 结论
+## Conclusion
 
-通过上述步骤，您已经学习了如何使用 Aspose.Drawing for .NET **save PNG image** 文件，并动态 **list installed fonts**、**show font families**、**create graphics from bitmap**、以及 **draw text with fonts**。欢迎尝试其他字体、颜色和位图尺寸，以满足项目的视觉需求。
+通过遵循上述步骤，您已经学会了如何使用 Aspose.Drawing for .NET **save PNG image**，并动态 **list installed fonts**、**show font families**、**create graphics from bitmap**、以及 **draw text with fonts**。您现在能够 **create bitmap graphics C#**、调整位图分辨率，并在需要时加入自定义字体。欢迎尝试其他字体、颜色和位图尺寸，以满足项目的视觉需求。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -139,6 +135,6 @@ bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 
 ---
 
-**最后更新：** 2025-12-06  
-**测试版本：** Aspose.Drawing 24.11 for .NET  
+**最后更新：** 2026-02-25  
+**测试环境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose

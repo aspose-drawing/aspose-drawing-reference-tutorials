@@ -1,11 +1,11 @@
 ---
-title: "Save PNG Image and Work with Installed Fonts in Aspose.Drawing"
-linktitle: "Save PNG Image and Work with Installed Fonts in Aspose.Drawing"
+title: "Create Bitmap Graphics C# – Save PNG Image and Work with Installed Fonts in Aspose.Drawing"
+linktitle: "Create Bitmap Graphics C# – Save PNG Image and Work with Installed Fonts in Aspose.Drawing"
 second_title: "Aspose.Drawing .NET API - Alternative to System.Drawing.Common"
-description: "Learn how to save PNG image files while listing installed fonts, showing font families, creating graphics from bitmap, and drawing text with fonts using Aspose.Drawing for .NET."
+description: "Learn how to create bitmap graphics C# and save PNG images while listing installed fonts, drawing text with fonts, and adjusting bitmap resolution using Aspose.Drawing for .NET."
 weight: 13
 url: /net/text-and-fonts/installed-fonts/
-date: 2025-12-06
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,13 +16,13 @@ date: 2025-12-06
 
 ## Introduction
 
-If you need to **save PNG image** files that also display information about the fonts installed on a machine, Aspose.Drawing for .NET gives you a clean, cross‑platform way to do it. In this tutorial we’ll walk through listing installed fonts, showing font families, creating graphics from a bitmap, and drawing text with fonts—all while finally saving the result as a PNG image. By the end you’ll have a reusable snippet you can drop into any .NET project.
+If you need to **save PNG image** files while also **create bitmap graphics C#**, Aspose.Drawing for .NET gives you a clean, cross‑platform way to do it. In this tutorial we’ll walk through listing installed fonts, showing font families, creating graphics from a bitmap, and drawing text with fonts—all while finally saving the result as a PNG image. By the end you’ll have a reusable snippet you can drop into any .NET project.
 
 ## Quick Answers
 - **What does this tutorial create?** A PNG image that lists installed font families.  
 - **Which library is required?** Aspose.Drawing for .NET (no System.Drawing.Common needed).  
 - **Can I use custom fonts?** Yes – just load them into an `InstalledFontCollection`.  
-- **Is the output resolution adjustable?** Absolutely – change the bitmap size or pixel format.  
+- **Is the output resolution adjustable?** Absolutely – change the bitmap size or pixel format to **adjust bitmap resolution C#** style.  
 - **Do I need a license to run the code?** A temporary license works for evaluation; a full license is required for production.
 
 ## What is “save PNG image” in the context of Aspose.Drawing?
@@ -30,6 +30,9 @@ Saving a PNG image means rendering your drawing surface (a `Bitmap`) to a file w
 
 ## Why list installed fonts and show font families?
 Knowing which fonts are available lets you create dynamic graphics that adapt to the end‑user’s environment. It’s especially handy for generating reports, certificates, or any visual content that must match corporate branding without shipping font files.
+
+## How to create bitmap graphics C# with Aspose.Drawing?
+Below is a practical, step‑by‑step walkthrough that shows exactly how to **create bitmap graphics C#**, draw text with fonts, and adjust bitmap resolution if needed.
 
 ## Prerequisites
 
@@ -48,7 +51,7 @@ using System.Drawing.Text;
 ## Step‑by‑Step Guide
 
 ### Step 1: Create a bitmap (the canvas)
-First, we create a bitmap that will hold the final image. The bitmap size and pixel format determine the quality of the saved PNG.
+First, we create a bitmap that will hold the final image. The bitmap size and pixel format determine the quality of the saved PNG and let you **adjust bitmap resolution C#** style.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -64,7 +67,7 @@ graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
 ### Step 3: Set up brush and font (draw text with fonts)
-We need a brush for the text colour and a `Font` object that defines the typeface, size, and style.
+We need a brush for the text colour and a `Font` object that defines the typeface, size, and style. This is where we **draw text with fonts**.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -119,7 +122,7 @@ A: Download a trial license from the [Aspose temporary‑license page](https://p
 
 ## Conclusion
 
-By following these steps you’ve learned how to **save PNG image** files that dynamically **list installed fonts**, **show font families**, **create graphics from bitmap**, and **draw text with fonts** using Aspose.Drawing for .NET. Feel free to experiment with other fonts, colors, and bitmap sizes to match your project’s visual requirements.
+By following these steps you’ve learned how to **save PNG image** files that dynamically **list installed fonts**, **show font families**, **create graphics from bitmap**, and **draw text with fonts** using Aspose.Drawing for .NET. You now know how to **create bitmap graphics C#**, adjust bitmap resolution, and incorporate custom fonts when needed. Feel free to experiment with other fonts, colors, and bitmap sizes to match your project’s visual requirements.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -130,6 +133,6 @@ By following these steps you’ve learned how to **save PNG image** files that d
 
 ---
 
-**Last Updated:** 2025-12-06  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose

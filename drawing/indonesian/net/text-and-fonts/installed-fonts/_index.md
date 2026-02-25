@@ -1,11 +1,13 @@
 ---
-date: 2025-12-06
-description: Pelajari cara menyimpan file gambar PNG sambil menampilkan daftar font
-  yang terpasang, menunjukkan keluarga font, membuat grafik dari bitmap, dan menggambar
-  teks dengan font menggunakan Aspose.Drawing untuk .NET.
-linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+date: 2026-02-25
+description: Pelajari cara membuat grafik bitmap C# dan menyimpan gambar PNG sambil
+  mencantumkan font yang terpasang, menggambar teks dengan font, serta menyesuaikan
+  resolusi bitmap menggunakan Aspose.Drawing untuk .NET.
+linktitle: Create Bitmap Graphics C# – Save PNG Image and Work with Installed Fonts
+  in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Simpan Gambar PNG dan Bekerja dengan Font yang Terpasang di Aspose.Drawing
+title: Membuat Grafik Bitmap C# – Menyimpan Gambar PNG dan Bekerja dengan Font yang
+  Terpasang di Aspose.Drawing
 url: /id/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
@@ -16,30 +18,33 @@ weight: 13
 
 # Simpan Gambar PNG dan Bekerja dengan Font yang Terpasang di Aspose.Drawing
 
-## Pendahuluan
+## Introduction
 
-Jika Anda perlu **menyimpan gambar PNG** yang juga menampilkan informasi tentang font yang terpasang pada mesin, Aspose.Drawing untuk .NET memberikan cara yang bersih dan lintas‑platform untuk melakukannya. Dalam tutorial ini kami akan menelusuri cara menampilkan daftar font yang terpasang, memperlihatkan keluarga font, membuat grafik dari bitmap, dan menggambar teks dengan font — semua sambil akhirnya menyimpan hasilnya sebagai gambar PNG. Pada akhir tutorial Anda akan memiliki potongan kode yang dapat digunakan kembali di proyek .NET mana pun.
+Jika Anda perlu **menyimpan file gambar PNG** sekaligus **membuat grafik bitmap C#**, Aspose.Drawing untuk .NET memberi Anda cara bersih dan lintas‑platform untuk melakukannya. Dalam tutorial ini kami akan menelusuri cara menampilkan font yang terpasang, menunjukkan keluarga font, membuat grafik dari bitmap, dan menggambar teks dengan font—semua sambil akhirnya menyimpan hasilnya sebagai gambar PNG. Pada akhir Anda akan memiliki potongan kode yang dapat digunakan kembali dan dapat dimasukkan ke proyek .NET mana pun.
 
-## Jawaban Cepat
-- **Apa yang dibuat tutorial ini?** Gambar PNG yang menampilkan daftar keluarga font yang terpasang.  
-- **Perpustakaan apa yang diperlukan?** Aspose.Drawing untuk .NET (tidak memerlukan System.Drawing.Common).  
-- **Apakah saya dapat menggunakan font khusus?** Ya – cukup muat mereka ke dalam `InstalledFontCollection`.  
-- **Apakah resolusi output dapat disesuaikan?** Tentu – ubah ukuran bitmap atau format piksel.  
-- **Apakah saya memerlukan lisensi untuk menjalankan kode?** Lisensi sementara berfungsi untuk evaluasi; lisensi penuh diperlukan untuk produksi.
+## Quick Answers
+- **What does this tutorial create?** Sebuah gambar PNG yang menampilkan daftar keluarga font yang terpasang.  
+- **Which library is required?** Aspose.Drawing untuk .NET (tidak memerlukan System.Drawing.Common).  
+- **Can I use custom fonts?** Ya – cukup muat mereka ke dalam `InstalledFontCollection`.  
+- **Is the output resolution adjustable?** Tentu – ubah ukuran bitmap atau format piksel untuk **adjust bitmap resolution C#**.  
+- **Do I need a license to run the code?** Lisensi sementara cukup untuk evaluasi; lisensi penuh diperlukan untuk produksi.
 
-## Apa itu “menyimpan gambar PNG” dalam konteks Aspose.Drawing?
-Menyimpan gambar PNG berarti merender permukaan gambar Anda (sebuah `Bitmap`) ke file dengan ekstensi `.png`. Aspose.Drawing menangani proses enkoding, jadi Anda hanya perlu memanggil `bitmap.Save(...)` dengan jalur yang diinginkan.
+## What is “save PNG image” in the context of Aspose.Drawing?
+Menyimpan gambar PNG berarti merender permukaan gambar Anda (sebuah `Bitmap`) ke file dengan ekstensi `.png`. Aspose.Drawing menangani enkoding untuk Anda, jadi Anda hanya perlu memanggil `bitmap.Save(...)` dengan jalur yang diinginkan.
 
-## Mengapa menampilkan daftar font yang terpasang dan memperlihatkan keluarga font?
-Mengetahui font apa saja yang tersedia memungkinkan Anda membuat grafik dinamis yang menyesuaikan dengan lingkungan pengguna akhir. Ini sangat berguna untuk menghasilkan laporan, sertifikat, atau konten visual apa pun yang harus mencerminkan identitas merek perusahaan tanpa harus menyertakan file font.
+## Why list installed fonts and show font families?
+Mengetahui font apa yang tersedia memungkinkan Anda membuat grafik dinamis yang menyesuaikan dengan lingkungan pengguna akhir. Ini sangat berguna untuk menghasilkan laporan, sertifikat, atau konten visual apa pun yang harus sesuai dengan merek perusahaan tanpa harus menyertakan file font.
 
-## Prasyarat
+## How to create bitmap graphics C# with Aspose.Drawing?
+Berikut adalah contoh langkah‑demi‑langkah praktis yang menunjukkan cara **create bitmap graphics C#**, menggambar teks dengan font, dan menyesuaikan resolusi bitmap bila diperlukan.
 
-- **Perpustakaan Aspose.Drawing** – unduh versi terbaru dari [halaman unduhan Aspose Drawing](https://releases.aspose.com/drawing/net/).  
+## Prerequisites
+
+- **Aspose.Drawing Library** – unduh versi terbaru dari [halaman unduhan Aspose Drawing](https://releases.aspose.com/drawing/net/).  
 - **IDE** – Visual Studio, Rider, atau editor lain yang kompatibel dengan .NET.  
-- **Pengetahuan dasar C#** – Anda sebaiknya nyaman dengan kelas, objek, dan perulangan sederhana.
+- **Basic C# knowledge** – Anda harus nyaman dengan kelas, objek, dan loop sederhana.
 
-## Mengimpor Namespace
+## Import Namespaces
 Untuk bekerja dengan font dan grafik, impor namespace berikut di bagian atas file C# Anda:
 
 ```csharp
@@ -47,17 +52,17 @@ using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Panduan Langkah‑per‑Langkah
+## Step‑by‑Step Guide
 
-### Langkah 1: Buat bitmap (kanvas)
-Pertama, kami membuat bitmap yang akan menampung gambar akhir. Ukuran bitmap dan format piksel menentukan kualitas PNG yang disimpan.
+### Step 1: Create a bitmap (the canvas)
+Pertama, kita membuat bitmap yang akan menampung gambar akhir. Ukuran bitmap dan format piksel menentukan kualitas PNG yang disimpan dan memungkinkan Anda **adjust bitmap resolution C#**.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Langkah 2: Buat grafik dari bitmap
-Selanjutnya, kami memperoleh objek `Graphics` dari bitmap. Objek ini memungkinkan kami menggambar bentuk, teks, dan gambar ke kanvas.
+### Step 2: Create graphics from bitmap
+Selanjutnya, kita memperoleh objek `Graphics` dari bitmap. Objek ini memungkinkan kita menggambar bentuk, teks, dan gambar ke kanvas.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -65,8 +70,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-### Langkah 3: Siapkan kuas dan font (menggambar teks dengan font)
-Kami memerlukan kuas untuk warna teks dan objek `Font` yang mendefinisikan jenis huruf, ukuran, serta gaya.
+### Step 3: Set up brush and font (draw text with fonts)
+Kita memerlukan brush untuk warna teks dan objek `Font` yang mendefinisikan jenis huruf, ukuran, dan gaya. Di sinilah kita **draw text with fonts**.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -74,8 +79,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-### Langkah 4: Daftar font yang terpasang dan tampilkan keluarga font
-Sekarang kami menampilkan jumlah keluarga font dan beberapa nama pertama langsung pada bitmap. Ini mendemonstrasikan kemampuan **list installed fonts** dan **show font families**.
+### Step 4: List installed fonts and show font families
+Sekarang kita menampilkan jumlah keluarga font dan beberapa nama pertama langsung pada bitmap. Ini mendemonstrasikan kemampuan **list installed fonts** dan **show font families**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -86,42 +91,42 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-### Langkah 5: Simpan gambar PNG
-Akhirnya, kami menulis bitmap ke disk sebagai file PNG. Inilah operasi inti **save png image**.
+### Step 5: Save PNG image
+Akhirnya, kita menulis bitmap ke disk sebagai file PNG. Ini adalah operasi inti **save png image**.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-> **Tip pro:** Gunakan `Path.Combine` untuk membangun jalur file agar terhindar dari masalah pemisah direktori pada sistem operasi yang berbeda.
+> **Pro tip:** Gunakan `Path.Combine` untuk membangun jalur file agar terhindar dari masalah pemisah direktori pada sistem operasi yang berbeda.
 
-## Masalah Umum dan Solusinya
-| Masalah | Penyebab | Solusi |
+## Common Issues and Solutions
+| Issue | Cause | Fix |
 |-------|-------|-----|
-| **Tidak ada font yang ditampilkan** | `InstalledFontCollection` tidak terisi (misalnya, dijalankan pada server tanpa tampilan grafis). | Pasang font yang diperlukan pada server atau sematkan font khusus dalam aplikasi Anda. |
-| **File yang disimpan rusak** | Format piksel tidak tepat atau izin menulis tidak cukup. | Pastikan folder tujuan ada dan aplikasi memiliki akses menulis; pertahankan `Format32bppPArgb`. |
+| **Tidak ada font yang ditampilkan** | `InstalledFontCollection` tidak terisi (misalnya, berjalan pada server tanpa antarmuka grafis dan tanpa font). | Instal font yang diperlukan pada server atau sematkan font khusus dalam aplikasi Anda. |
+| **File yang disimpan rusak** | Format piksel tidak tepat atau izin menulis yang kurang. | Pastikan folder target ada dan aplikasi memiliki izin menulis; pertahankan `Format32bppPArgb`. |
 | **Teks terlihat buram** | Pengaturan DPI rendah. | Tingkatkan dimensi bitmap atau setel `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
-**T: Bisakah saya menggunakan font khusus yang tidak terpasang di mesin?**  
-J: Ya. Muat file font ke dalam `PrivateFontCollection` dan buat `Font` dari koleksi tersebut.
+**Q: Bisakah saya menggunakan font khusus yang tidak terpasang di mesin?**  
+A: Ya. Muat file font ke dalam `PrivateFontCollection` dan buat `Font` dari koleksi tersebut.
 
-**T: Bagaimana cara menangani pengecualian terkait font?**  
-J: Bungkus pembuatan font dalam blok `try/catch` dan periksa `ArgumentException` untuk keluarga yang tidak ditemukan.
+**Q: Bagaimana cara menangani pengecualian terkait font?**  
+A: Bungkus pembuatan font dalam blok `try/catch` dan periksa `ArgumentException` untuk keluarga yang hilang.
 
-**T: Apakah Aspose.Drawing cocok untuk aplikasi web?**  
-J: Tentu. Perpustakaan ini bekerja di ASP.NET Core, Azure Functions, dan lingkungan server‑side lainnya.
+**Q: Apakah Aspose.Drawing cocok untuk aplikasi web?**  
+A: Tentu. Perpustakaan ini bekerja di ASP.NET Core, Azure Functions, dan lingkungan sisi‑server lainnya.
 
-**T: Bisakah saya mengubah warna atau gaya teks?**  
-J: Ya. Gunakan tipe `Brush` yang berbeda (misalnya `LinearGradientBrush`) dan ubah enum `FontStyle`.
+**Q: Bisakah saya mengubah warna atau gaya teks?**  
+A: Ya. Gunakan tipe `Brush` yang berbeda (mis., `LinearGradientBrush`) dan ubah enum `FontStyle`.
 
-**T: Di mana saya dapat memperoleh lisensi sementara untuk pengujian?**  
-J: Unduh lisensi percobaan dari [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
+**Q: Di mana saya dapat memperoleh lisensi sementara untuk pengujian?**  
+A: Unduh lisensi percobaan dari [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
-## Kesimpulan
+## Conclusion
 
-Dengan mengikuti langkah‑langkah ini Anda telah belajar cara **menyimpan gambar PNG** yang secara dinamis **menampilkan daftar font yang terpasang**, **menunjukkan keluarga font**, **membuat grafik dari bitmap**, dan **menggambar teks dengan font** menggunakan Aspose.Drawing untuk .NET. Jangan ragu untuk bereksperimen dengan font lain, warna, dan ukuran bitmap agar sesuai dengan kebutuhan visual proyek Anda.
+Dengan mengikuti langkah‑langkah ini Anda telah belajar cara **save PNG image** file yang secara dinamis **list installed fonts**, **show font families**, **create graphics from bitmap**, dan **draw text with fonts** menggunakan Aspose.Drawing untuk .NET. Anda kini tahu cara **create bitmap graphics C#**, menyesuaikan resolusi bitmap, dan memasukkan font khusus bila diperlukan. Silakan bereksperimen dengan font lain, warna, dan ukuran bitmap untuk menyesuaikan kebutuhan visual proyek Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -132,6 +137,6 @@ Dengan mengikuti langkah‑langkah ini Anda telah belajar cara **menyimpan gamba
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-06  
-**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
-**Penulis:** Aspose
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
