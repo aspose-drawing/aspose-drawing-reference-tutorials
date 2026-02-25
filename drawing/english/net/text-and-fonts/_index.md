@@ -2,10 +2,10 @@
 title: How to Draw Text and Fonts with Aspose.Drawing for .NET
 linktitle: Text and Fonts
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-description: Learn how to draw text, format text, use hinting, and work with fonts in Aspose.Drawing for .NET. Create images with dynamic text and perfect typography.
+description: Learn how to draw text on image, format text, use hinting, and work with fonts in Aspose.Drawing for .NET. Create image with text and perfect typography.
 weight: 26
 url: /net/text-and-fonts/
-date: 2025-12-08
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -75,7 +75,11 @@ Precision in text rendering is an art, and Aspose.Drawing empowers you to master
 ## Working with Installed Fonts in Aspose.Drawing
 Manipulating installed fonts becomes a breeze with Aspose.Drawing for .NET. Our comprehensive tutorial, accessible [here](./installed-fonts/), delves into the intricacies of font manipulation. Enhance your image‑processing skills and explore the vast possibilities that Aspose.Drawing opens up for you.
 
-In summary, this tutorial series acts as a compass through the rich features of Aspose.Drawing for .NET, guiding you in drawing text, formatting with finesse, mastering hinting techniques, and manipulating installed fonts. Elevate your .NET application's visual storytelling with Aspose.Drawing – where creativity meets precision. Dive in and unleash the potential within your code!
+### How to draw text on image and create image with text using Aspose.Drawing
+Beyond the basics, you can combine the drawing and formatting features to **add text watermark** overlays, generate dynamic captions, or build multi‑line typographic compositions. The workflow remains the same: start with a bitmap, set `Graphics.TextRenderingHint` for optimal clarity, choose your font (or **embed custom font** files when needed), and render. This approach scales from simple watermarks to complex promotional graphics.
+
+## In Summary
+This tutorial series acts as a compass through the rich features of Aspose.Drawing for .NET, guiding you in drawing text, formatting with finesse, mastering hinting techniques, and manipulating installed fonts. Elevate your .NET application's visual storytelling with Aspose.Drawing – where creativity meets precision. Dive in and unleash the potential within your code!
 
 ## Text and Fonts Tutorials
 ### [Drawing Text in Aspose.Drawing](./draw-text/)
@@ -104,9 +108,26 @@ A: Use `SolidBrush` or `LinearGradientBrush` with exact ARGB values when drawing
 **Q: Do I need a commercial license for development?**  
 A: A free evaluation license is available for testing. For production deployments, a commercial license is required to remove evaluation watermarks and unlock full functionality.
 
+## Additional FAQ
+
+**Q: How can I **add text watermark** to an existing photo?**  
+A: Load the photo into a `Bitmap`, create a `Graphics` object, set the desired `TextRenderingHint`, choose a semi‑transparent `SolidBrush`, and call `DrawString` at the desired coordinates.
+
+**Q: What is the best way to **embed custom font** files at runtime?**  
+A: Use `PrivateFontCollection` to load a TTF/OTF stream, then create a `Font` instance from the collection. This avoids the need for the font to be installed on the server.
+
+**Q: Can I **use installed fonts** from a network share?**  
+A: Yes. Add the network path to the process’s font search locations or load the font file manually with `PrivateFontCollection`.
+
+**Q: Is there support for right‑to‑left languages when drawing text?**  
+A: Absolutely. Set `StringFormat.FormatFlags = StringFormatFlags.DirectionRightToLeft` and choose a suitable font that supports the script.
+
+**Q: Does Aspose.Drawing support Unicode characters?**  
+A: Full Unicode support is built‑in. Just ensure the selected font contains the required glyphs, or fall back to a font that does.
+
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
