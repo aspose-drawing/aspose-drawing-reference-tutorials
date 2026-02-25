@@ -1,40 +1,74 @@
 ---
-title: Tekst tekenen in Aspose.Drawing
-linktitle: Tekst tekenen in Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
-description: Verbeter uw .NET-toepassingen met dynamische tekst met Aspose.Drawing voor .NET. Volg onze stapsgewijze handleiding om tekst te tekenen, lettertypen aan te passen en visueel aantrekkelijke afbeeldingen te maken.
-weight: 10
+date: 2026-02-25
+description: Leer hoe u tekst kunt tekenen en dynamische tekstafbeeldingen kunt maken
+  met Aspose.Drawing voor .NET. Deze stapsgewijze gids laat u zien hoe u tekst aan
+  een bitmap toevoegt, een tekenreeks op een afbeelding tekent en de bitmap opslaat
+  als PNG.
+linktitle: How to Draw Text with Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Hoe tekst te tekenen met Aspose.Drawing voor .NET
 url: /nl/net/text-and-fonts/draw-text/
+weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+". Keep as is.
+
+Then Q1 etc translate.
+
+Make sure to keep code placeholders unchanged.
+
+At the end, "Last Updated:" etc keep same but translate labels.
+
+"Last Updated:" -> "Laatst bijgewerkt:".
+
+"Tested With:" -> "Getest met:".
+
+"Author:" -> "Auteur:".
+
+Now produce final content with all shortcodes.
+
+Let's craft.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst tekenen in Aspose.Drawing
+# Hoe Tekst Tekenen met Aspose.Drawing voor .NET
 
-## Invoering
+## Introductie
 
-Welkom bij deze stapsgewijze handleiding voor het tekenen van tekst met Aspose.Drawing voor .NET! Als u uw .NET-toepassingen wilt uitbreiden met rijke en visueel aantrekkelijke tekst, bent u hier aan het juiste adres. In deze zelfstudie leiden we u door het proces van het maken van dynamische tekst in afbeeldingen met Aspose.Drawing.
+In deze stap‑voor‑stap‑gids leer je **hoe je tekst** op afbeeldingen kunt tekenen met Aspose.Drawing voor .NET. Of je nu een *dynamische tekstafbeelding* wilt maken, tekst wilt toevoegen aan een bestaande bitmap, of een grafisch element met aangepaste lettertypen wilt genereren, deze tutorial leidt je door elk detail zodat je binnen enkele minuten tekst kunt tekenen.
+
+## Snelle Antwoorden
+- **Welke bibliotheek wordt gebruikt?** Aspose.Drawing voor .NET  
+- **Primaire taak?** Tekst op een afbeelding tekenen (afbeelding met tekst maken)  
+- **Belangrijkste methode?** `Graphics.DrawString` (teken string op afbeelding)  
+- **Uitvoerformaat?** PNG (bitmap opslaan als PNG)  
+- **Vereisten?** .NET‑ontwikkelomgeving en Aspose.Drawing‑bibliotheek  
+
+## Wat is tekst tekenen met Aspose.Drawing?
+Aspose.Drawing biedt een volledig beheerde API die het klassieke GDI+‑model weerspiegelt en tegelijkertijd cross‑platformondersteuning toevoegt. Het stelt je in staat om tekst, vormen en afbeeldingen van hoge kwaliteit te renderen zonder afhankelijk te zijn van System.Drawing.Common.
+
+## Waarom Aspose.Drawing gebruiken om tekst aan afbeeldingen toe te voegen?
+- **Cross‑platform betrouwbaarheid** – werkt op Windows, Linux en macOS.  
+- **Geavanceerde rendering** – anti‑aliasing en sub‑pixel tekstverzachting voor een scherp resultaat.  
+- **Geen externe afhankelijkheden** – de bibliotheek bevat alles wat je nodig hebt om *afbeelding met tekst te maken*.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat je begint, zorg dat je het volgende hebt:
 
--  Aspose.Drawing voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.Tekendocumentatie](https://reference.aspose.com/drawing/net/).
+- **Aspose.Drawing voor .NET** – download het via de [Aspose.Drawing documentatie](https://reference.aspose.com/drawing/net/).  
+- **Een .NET‑IDE** zoals Visual Studio of VS Code.  
 
-- Ontwikkelomgeving: Stel een .NET-ontwikkelomgeving, zoals Visual Studio, in op uw computer.
+## Namespaces Importeren
 
-## Naamruimten importeren
-
-Begin met het importeren van de benodigde naamruimten in uw project:
+Begin met het importeren van de benodigde namespaces:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Stap 1: Maak bitmap- en grafische objecten
+## Stap 1: Maak Bitmap- en Graphics-objecten
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -43,9 +77,9 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-In deze stap maken we een Bitmap-object met een opgegeven breedte en hoogte. Het Graphics-object wordt vervolgens geïnitialiseerd, waarbij anti-aliasing wordt ingesteld voor vloeiende tekstweergave.
+Hier maken we een `Bitmap` die de uiteindelijke afbeelding zal bevatten en een `Graphics`‑object waarmee we erop kunnen tekenen. De anti‑aliasing‑hint zorgt ervoor dat de tekst er glad uitziet.
 
-## Stap 2: Stel penseel, pen en lettertype in
+## Stap 2: Stel Brush, Pen en Font in
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -53,61 +87,93 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 1);
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-Hier definiëren we een SolidBrush voor de tekstkleur, een Pen voor het tekenen van de rechthoek rond de tekst, en een Font-object met de gewenste lettertypestijl.
+- **Brush** bepaalt de tekstkleur.  
+- **Pen** wordt later gebruikt om een rechthoek rond de tekst te tekenen (optioneel).  
+- **Font** specificeert het lettertype, de grootte en de stijl voor de *teken string op afbeelding*‑operatie.
 
-## Stap 3: Definieer tekst en rechthoek
+## Stap 3: Definieer Tekst en Rechthoek
 
 ```csharp
-string text = "Lorem ipsum..."; // (uw gewenste tekst)
+string text = "Lorem ipsum..."; // (Your desired text)
 Rectangle rectangle = new Rectangle(100, 100, 800, 600);
 ```
 
-Geef de tekstinhoud en de afmetingen van de rechthoek op waar de tekst wordt getekend.
+De `Rectangle` bepaalt waar de tekst wordt geplaatst. Pas de coördinaten en afmetingen aan volgens je lay‑out.
 
-## Stap 4: Teken rechthoek en tekst
+## Stap 4: Teken Rechthoek en Tekst
 
 ```csharp
 graphics.DrawRectangle(pen, rectangle);
 graphics.DrawString(text, arial, brush, rectangle);
 ```
 
-Bij deze stap tekent u de rechthoek met de gedefinieerde pen en plaatst u vervolgens de tekst in de rechthoek met het opgegeven lettertype en penseel.
+Eerst omlijnen we het gebied met een blauwe rechthoek, daarna **voegen we tekst toe aan de bitmap** door `DrawString` aan te roepen. Dit is de kern van *tekst tekenen* op de afbeelding.
 
-## Stap 5: Bewaar het resultaat
+## Stap 5: Sla het Resultaat op
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\DrawText_out.png");
 ```
 
-Sla de resulterende afbeelding op in de gewenste map. Vervang "Uw documentenmap" door het pad waar u de afbeelding wilt opslaan.
+De afbeelding wordt opgeslagen als een PNG‑bestand, waarmee aan de *bitmap opslaan als PNG*‑vereiste wordt voldaan. Vervang het tijdelijke pad door de daadwerkelijke map waar je het bestand wilt bewaren.
 
-Nu hebt u met succes een afbeelding met dynamische tekst gemaakt met Aspose.Drawing voor .NET! Experimenteer met verschillende lettertypen, kleuren en formaten om uw tekst aan te passen.
+## Veelvoorkomende Toepassingen
 
-## Conclusie
+- **Certificaten genereren** met gepersonaliseerde namen.  
+- **Watermerken maken** voor miniaturen in webgalerijen.  
+- **Dynamische grafieken bouwen** die labels of annotaties bevatten.  
 
-In deze zelfstudie hebben we het proces van het tekenen van tekst in Aspose.Drawing voor .NET onderzocht. Door gebruik te maken van de krachtige functies van de bibliotheek kunt u eenvoudig dynamische tekst in uw .NET-toepassingen integreren, waardoor de visuele aantrekkingskracht en gebruikerservaring worden verbeterd.
+## Probleemoplossing & Tips
 
-## Veelgestelde vragen
+- **Lettertype niet gevonden?** Zorg dat het lettertype op de hostmachine is geïnstalleerd of gebruik een private font‑collectie.  
+- **Tekst afgekapt?** Vergroot de rechthoek of verklein de lettergrootte.  
+- **Prestatiezorgen?** Hergebruik hetzelfde `Graphics`‑object voor meerdere tekenbewerkingen wanneer mogelijk.
 
-### V1: Kan ik aangepaste lettertypen gebruiken met Aspose.Drawing voor .NET?
+## FAQ's
 
-A1: Ja, u kunt aangepaste lettertypen opgeven wanneer u het Font-object in uw code maakt.
+### Q1: Kan ik aangepaste lettertypen gebruiken met Aspose.Drawing voor .NET?
 
-### Vraag 2: Hoe kan ik teksteffecten toevoegen, zoals vet of cursief?
+A1: Ja, je kunt aangepaste lettertypen opgeven bij het maken van het `Font`‑object in je code.
 
- A2: Pas de eigenschap FontStyle van het Font-object aan. Gebruik bijvoorbeeld`FontStyle.Bold` voor vetgedrukte tekst.
+### Q2: Hoe kan ik teksteffecten toevoegen zoals vet of cursief?
 
-### V3: Is Aspose.Drawing compatibel met .NET Core?
+A2: Pas de `FontStyle`‑eigenschap van het `Font`‑object aan. Gebruik bijvoorbeeld `FontStyle.Bold` voor vette tekst.
 
-A3: Ja, Aspose.Drawing ondersteunt .NET Core, waardoor u het in platformonafhankelijke toepassingen kunt gebruiken.
+### Q3: Is Aspose.Drawing compatibel met .NET Core?
 
-### Vraag 4: Kan ik tekst op een bestaande afbeelding tekenen?
+A3: Ja, Aspose.Drawing ondersteunt .NET Core, zodat je het kunt gebruiken in cross‑platformtoepassingen.
 
- A4: Zeker! Laad de bestaande afbeelding met`Bitmap.FromFile()`en ga dan verder met de stappen voor het tekenen van de tekst.
+### Q4: Kan ik tekst tekenen op een bestaande afbeelding?
 
-### V5: Is er een communityforum voor ondersteuning voor Aspose.Drawing?
+A4: Zeker! Laad de bestaande afbeelding met `Bitmap.FromFile()` en ga vervolgens verder met de tekst‑tekenstappen.
 
- A5: Ja, u kunt ondersteuning vinden en problemen bespreken op de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44).
+### Q5: Is er een community‑forum voor Aspose.Drawing‑ondersteuning?
+
+A5: Ja, je kunt ondersteuning vinden en discussies voeren op het [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
+
+## Veelgestelde Vragen
+
+**Q: Hoe wijzig ik het uitvoerformaat naar JPEG?**  
+A: Vervang de `.png`‑extensie door `.jpg` in de `Save`‑methode en specificeer eventueel een `ImageCodecInfo` voor JPEG‑kwaliteit.
+
+**Q: Kan ik meerregelige tekst tekenen?**  
+A: Ja, voeg regeleinde‑tekens (`\n`) toe aan de string of gebruik `StringFormat` met `FormatFlags.LineLimit`.
+
+**Q: Is er een manier om de tekstgrootte te meten vóór het tekenen?**  
+A: Gebruik `Graphics.MeasureString` om de exacte afmetingen van de gerenderde tekst te verkrijgen.
+
+**Q: Ondersteunt Aspose.Drawing Unicode‑tekens?**  
+A: Absoluut. Lever een lettertype dat de benodigde glyphs bevat en de bibliotheek rendert ze correct.
+
+**Q: Welke versie van Aspose.Drawing is gebruikt voor de tests?**  
+A: De voorbeelden zijn getest met Aspose.Drawing 24.11 voor .NET.
+
+---
+
+**Laatst bijgewerkt:** 2026-02-25  
+**Getest met:** Aspose.Drawing 24.11 voor .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
