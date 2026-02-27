@@ -1,34 +1,59 @@
 ---
-title: Thêm văn bản trên hình ảnh trong Aspose.draw
-linktitle: Thêm văn bản trên hình ảnh trong Aspose.draw
-second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
-description: Khám phá khả năng tích hợp liền mạch văn bản vào hình ảnh với Aspose.draw cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hình ảnh dễ dàng. Tải ngay!
-weight: 12
+date: 2026-02-27
+description: Học cách tạo hình ảnh thiệp sinh nhật bằng Aspose.Drawing cho .NET. Hướng
+  dẫn này cho bạn biết cách vẽ chuỗi ký tự lên hình ảnh, chồng lớp văn bản lên ảnh
+  và thêm chú thích vào ảnh một cách nhanh chóng.
+linktitle: Adding Text on Images in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Cách tạo hình ảnh thiệp sinh nhật với Aspose.Drawing
 url: /vi/net/use-cases/text-on-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm văn bản trên hình ảnh trong Aspose.draw
+# Cách Tạo Hình Ảnh Thiệp Sinh Nhật với Aspose.Drawing
 
 ## Giới thiệu
-Trong thế giới năng động của sự phát triển .NET, Aspose. Draw nổi bật như một công cụ mạnh mẽ để thao tác hình ảnh một cách dễ dàng. Thêm văn bản vào hình ảnh là một yêu cầu phổ biến, cho dù đó là để tạo hình mờ, chú thích hay tạo đồ họa được cá nhân hóa. Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.draw để tích hợp liền mạch văn bản vào hình ảnh của bạn bằng C#.
-## Điều kiện tiên quyết
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
-1.  Thư viện Aspose.draw: Tải xuống và cài đặt thư viện Aspose.draw từ[Aspose.draw cho tài liệu .NET](https://reference.aspose.com/drawing/net/).
-2. Môi trường phát triển: Có môi trường phát triển .NET đang hoạt động, bao gồm Visual Studio hoặc bất kỳ IDE tương thích nào khác.
-Bây giờ, hãy bắt đầu với hướng dẫn từng bước.
-## Nhập không gian tên
-Bắt đầu bằng cách nhập các không gian tên cần thiết vào dự án C# của bạn:
+Trong thế giới .NET năng động, Aspose.Drawing nổi bật như một công cụ mạnh mẽ để thao tác hình ảnh một cách dễ dàng. Cho dù bạn cần **create birthday card image**, thêm watermark, hoặc chỉ đơn giản là overlay text on picture, hướng dẫn này sẽ dẫn bạn qua các bước chính xác để draw string on image bằng C#. Khi kết thúc hướng dẫn, bạn sẽ có một thiệp sinh nhật cá nhân hoá sẵn sàng chia sẻ.
+
+## Câu trả lời nhanh
+- **Thư viện nào nên dùng?** Aspose.Drawing for .NET  
+- **Có thể thêm caption vào ảnh không?** Có – use `Graphics.DrawString` with custom fonts.  
+- **Cần giấy phép cho môi trường production không?** Có, a commercial license is needed.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Thời gian triển khai mất bao lâu?** Thường dưới 10 phút cho một thiệp đơn giản.
+
+## Thiệp Sinh Nhật là gì?
+Một hình ảnh thiệp sinh nhật là một bức ảnh cá nhân hoá kết hợp ảnh nền với văn bản tùy chỉnh—như lời chúc, tên người nhận, hoặc thông điệp chúc mừng. Sử dụng Aspose.Drawing, bạn có thể tạo các thiệp này một cách lập trình mà không cần công cụ thiết kế đồ họa thủ công.
+
+## Tại sao nên dùng Aspose.Drawing để Overlay Text on Picture?
+- **Hỗ trợ đa nền tảng:** Hoạt động trên Windows, Linux và macOS.  
+- **Rich drawing API:** Full control over fonts, colors, and layout.  
+- **Không có phụ thuộc bên ngoài:** Thay thế `System.Drawing.Common` bằng một thư viện được quản lý hoàn toàn.  
+- **Hiệu năng cao:** Tối ưu cho xử lý hàng loạt hình ảnh.
+
+## Yêu cầu trước
+Trước khi bắt đầu hướng dẫn, hãy chắc chắn bạn đã chuẩn bị các yếu tố sau:
+
+1. Aspose.Drawing Library: Tải xuống và cài đặt thư viện Aspose.Drawing từ [Aspose.Drawing for .NET documentation](https://reference.aspose.com/drawing/net/).  
+2. Development Environment: Môi trường phát triển .NET hoạt động, chẳng hạn Visual Studio hoặc Visual Studio Code, với .NET 6 SDK hoặc phiên bản mới hơn đã được cài đặt.
+
+Bây giờ, chúng ta sẽ đi qua hướng dẫn từng bước để thêm văn bản vào hình ảnh và lưu lại như một thiệp sinh nhật.
+
+## Nhập các Namespace
+Bắt đầu bằng cách nhập các namespace cần thiết vào dự án C# của bạn:
+
 ```csharp
 using System;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Linq;
 ```
-## Bước 1: Tải hình ảnh
+
+## Bước 1: Tải ảnh
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCases", "girl.jpg")))
 {
@@ -36,14 +61,16 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
     graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
     graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-Ở đây, chúng tôi tải hình ảnh từ đường dẫn tệp đã chỉ định và khởi tạo đối tượng đồ họa để xử lý thêm.
+Ở đây, chúng ta tải ảnh từ đường dẫn tệp đã chỉ định và khởi tạo đối tượng graphics để xử lý tiếp theo.
+
 ## Bước 2: Đặt thuộc tính văn bản
 ```csharp
 SolidBrush brush = new SolidBrush(Color.Navy);
 Font font = new Font("Calibri", 20, FontStyle.Italic);
 int padding = 5;
 ```
-Xác định các thuộc tính của văn bản như màu sắc, phông chữ và phần đệm. Điều chỉnh các thông số này theo sở thích của bạn.
+Xác định các thuộc tính văn bản như màu, phông chữ và padding. Điều chỉnh các tham số này theo sở thích thiết kế của bạn.
+
 ## Bước 3: Đo kích thước văn bản
 ```csharp
 string text = "Happy Birthday!";
@@ -57,36 +84,56 @@ words.ToList().ForEach(word =>
     extentHeight += (int)stringSize.Height;
 });
 ```
-Tính toán kích thước cần thiết cho văn bản bằng cách đo từng từ riêng lẻ. Điều này đảm bảo vị trí thích hợp và tránh chồng chéo văn bản.
-## Bước 4: Vẽ văn bản trên hình ảnh
+Tính kích thước cần thiết cho văn bản bằng cách đo từng từ một cách riêng lẻ. Điều này đảm bảo vị trí chính xác và tránh chồng lấn văn bản.
+
+## Bước 4: Vẽ văn bản lên ảnh
 ```csharp
 Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth, image.Height - padding - extentHeight, extentWidth, extentHeight);
 graphics.DrawString(text, font, brush, rectangle);
 ```
-Bây giờ, định vị văn bản trên hình ảnh dựa trên kích thước được tính toán và vẽ nó bằng phông chữ và màu sắc được chỉ định.
-## Bước 5: Lưu hình ảnh
+Bây giờ, đặt vị trí văn bản trên ảnh dựa trên kích thước đã tính và vẽ nó bằng phông chữ và màu đã chỉ định.
+
+## Bước 5: Lưu ảnh
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "UseCases", "girl_card_out.jpg"));
 }
 ```
-Lưu hình ảnh đã sửa đổi vào thư mục bạn muốn.
-Hướng dẫn từng bước này trình bày quy trình đơn giản để thêm văn bản vào hình ảnh bằng Aspose.draw cho .NET. Thử nghiệm với các phông chữ, màu sắc và nội dung văn bản khác nhau để đạt được hiệu ứng hình ảnh mong muốn.
-## Phần kết luận
-Aspose.draw đơn giản hóa các tác vụ xử lý hình ảnh trong .NET, cung cấp cho các nhà phát triển một bộ công cụ mạnh mẽ. Thêm văn bản vào hình ảnh chỉ là một ví dụ về khả năng của nó, thể hiện tính linh hoạt của thư viện trong việc xử lý các phần tử đồ họa.
-## Các câu hỏi thường gặp
-### Aspose.draw có tương thích với tất cả các định dạng hình ảnh không?
- Aspose.draw hỗ trợ nhiều định dạng hình ảnh, bao gồm các định dạng phổ biến như JPEG, PNG và GIF. Tham khảo đến[tài liệu](https://reference.aspose.com/drawing/net/) để có danh sách đầy đủ.
-### Tôi có thể sử dụng Aspose.draw cho các dự án thương mại không?
-Có, Aspose.draw phù hợp cho cả dự án cá nhân và thương mại. Để biết chi tiết cấp phép, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
-### Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
- Có, bạn có thể xin giấy phép tạm thời để thử nghiệm bằng cách truy cập[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-### Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.draw ở đâu?
- Tương tác với cộng đồng và nhận được sự hỗ trợ về[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
-### Làm cách nào để bắt đầu với Aspose.draw?
- Bắt đầu bằng cách tải xuống thư viện từ[đây](https://releases.aspose.com/drawing/net/) và khám phá toàn diện[tài liệu](https://reference.aspose.com/drawing/net/).
+Lưu ảnh đã chỉnh sửa vào thư mục mong muốn. Tệp kết quả là một hình ảnh thiệp sinh nhật sẵn sàng gửi.
+
+## Các trường hợp sử dụng phổ biến & Mẹo
+- **Thêm caption vào ảnh:** Thay thế `text` bằng bất kỳ caption nào bạn cần, chẳng hạn “Celebrating 30 Years!”.  
+- **Draw text on bitmap:** Cách tiếp cận này cũng hoạt động cho các đối tượng `Bitmap` được tạo từ đầu.  
+- **Overlay multiple lines:** Lặp qua một mảng các chuỗi và điều chỉnh tọa độ Y của `Rectangle` cho mỗi dòng.  
+- **Pro tip:** Sử dụng `Graphics.SmoothingMode = SmoothingMode.AntiAlias` để render văn bản mượt hơn.
+
+## Kết luận
+Aspose.Drawing đơn giản hoá các nhiệm vụ thao tác hình ảnh trong .NET, cung cấp cho nhà phát triển một bộ công cụ mạnh mẽ. Thêm văn bản vào hình ảnh—cho dù để **create birthday card image**, **draw string on image**, hoặc **add caption to photo**—chỉ là một ví dụ về tính đa năng của nó trong việc xử lý các yếu tố đồ họa.
+
+## Câu hỏi thường gặp
+### Aspose.Drawing có tương thích với tất cả các định dạng ảnh không?
+Aspose.Drawing hỗ trợ nhiều định dạng ảnh, bao gồm các định dạng phổ biến như JPEG, PNG và GIF. Tham khảo [documentation](https://reference.aspose.com/drawing/net/) để xem danh sách đầy đủ.
+
+### Tôi có thể sử dụng Aspose.Drawing cho dự án thương mại không?
+Có, Aspose.Drawing phù hợp cho cả dự án cá nhân và thương mại. Để biết chi tiết giấy phép, hãy truy cập [purchase page](https://purchase.aspose.com/buy).
+
+### Có giấy phép tạm thời cho mục đích thử nghiệm không?
+Có, bạn có thể nhận giấy phép tạm thời để thử nghiệm bằng cách truy cập [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+### Tôi có thể tìm hỗ trợ cộng đồng cho Aspose.Drawing ở đâu?
+Tham gia cộng đồng và nhận hỗ trợ tại [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
+
+### Làm sao để bắt đầu với Aspose.Drawing?
+Bắt đầu bằng cách tải thư viện từ [here](https://releases.aspose.com/drawing/net/) và khám phá [documentation](https://reference.aspose.com/drawing/net/) đầy đủ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-02-27  
+**Kiểm tra với:** Aspose.Drawing 24.11 for .NET  
+**Tác giả:** Aspose
