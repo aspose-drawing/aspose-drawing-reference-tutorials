@@ -1,11 +1,11 @@
 ---
-date: 2025-12-06
-description: Pelajari cara membuat bingkai foto, menambahkan teks pada gambar, dan
-  menambahkan teks ke gambar .NET menggunakan Aspose.Drawing. Tutorial langkah demi
-  langkah untuk callout, bingkai foto, dan overlay teks.
+date: 2026-02-27
+description: Pelajari cara menambahkan teks ke gambar, menempatkan teks di atas gambar,
+  dan membuat bingkai foto menggunakan Aspose.Drawing untuk .NET. Termasuk balon teks,
+  sudut melengkung, bingkai bayangan jatuh, dan ekspor SVG.
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Cara Membuat Bingkai Foto – Kasus Penggunaan dengan Aspose.Drawing untuk .NET
+title: Tambahkan teks ke gambar & buat bingkai foto dengan Aspose.Drawing
 url: /id/net/use-cases/
 weight: 27
 ---
@@ -14,66 +14,99 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Membuat Bingkai Foto – Kasus Penggunaan dengan Aspose.Drawing untuk .NET
+# Menambahkan teks ke gambar & membuat bingkai foto dengan Aspose.Drawing
 
 ## Introduction
 
-Di dunia desain digital yang dinamis, **Aspose.Drawing untuk .NET** menonjol sebagai solusi kuat untuk manipulasi gambar. Baik Anda perlu **membuat bingkai foto**, menambahkan callout, atau menempatkan teks di atas gambar, panduan ini menunjukkan cara melakukannya dengan cepat dan dapat diandalkan. Kami akan membahas tiga skenario praktis—membuat callout, membuat bingkai foto, dan menambahkan teks pada gambar—sehingga Anda dapat mulai membangun visual yang lebih kaya hari ini.
+Jika Anda perlu **menambahkan teks ke gambar** sekaligus memberikan tampilan yang halus—pikirkan bingkai foto, sudut melengkung, atau border bayangan jatuh—Aspose.Drawing untuk .NET adalah perpustakaan pilihan. Ia bekerja lintas‑platform, menghindari jebakan GDI+ pada `System.Drawing.Common`, dan memungkinkan Anda menempatkan teks di atas gambar, mengekspor gambar ke SVG, bahkan menghasilkan frame GIF animasi—semua dari satu API yang fluently. Dalam tutorial ini kami akan membahas tiga skenario dunia nyata: membuat callout, membuat bingkai foto, dan menambahkan teks pada gambar.
 
 ## Quick Answers
-- **Apa yang dapat saya gunakan untuk membuat bingkai foto di .NET?** Aspose.Drawing untuk .NET menyediakan API yang fluent untuk menggambar bentuk, border, dan bingkai khusus.  
-- **Bagaimana cara menempatkan teks di atas gambar?** Gunakan metode `Graphics.DrawString` bersama dengan `StringFormat` untuk memposisikan teks secara tepat.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Bisakah saya menambahkan teks ke gambar .NET tanpa System.Drawing?** Ya—Aspose.Drawing adalah pengganti drop‑in yang bekerja lintas platform.
+- **Apa yang dapat saya gunakan untuk menambahkan teks ke gambar di .NET?** Aspose.Drawing menyediakan API grafis lengkap yang berfungsi di Windows, Linux, dan macOS.  
+- **Bagaimana cara menempatkan teks di atas gambar?** Buat objek `Graphics`, atur `Font` dan `Brush`, lalu panggil `Graphics.DrawString`.  
+- **Apakah saya dapat mengekspor gambar ke SVG untuk bingkai yang dapat diskalakan?** Ya—Aspose.Drawing dapat menyimpan gambar sebagai SVG, mempertahankan kualitas vektor.  
+- **Apakah lisensi diperlukan untuk produksi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Versi .NET mana yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
 ## What is a Photo Frame in Aspose.Drawing?
 
-*Photo frame* hanyalah border berbentuk persegi panjang (atau bentuk khusus) yang digambar di sekitar sebuah gambar. Dengan Aspose.Drawing Anda dapat mengontrol ketebalan garis, warna, radius sudut, bahkan menambahkan pola dekoratif—semua tanpa meninggalkan ekosistem .NET.
+*photo frame* adalah sekadar border persegi panjang (atau berbentuk khusus) yang digambar di sekitar gambar. Dengan Aspose.Drawing Anda dapat mengontrol ketebalan garis, warna, radius sudut, menambahkan gambar dengan sudut melengkung, atau bahkan menerapkan frame bayangan jatuh untuk menambah kedalaman.
 
 ## Why Use Aspose.Drawing for Creating Photo Frames?
 
-- **Cross‑platform** – Berfungsi di Windows, Linux, dan macOS.  
-- **Tanpa ketergantungan GDI+** – Ideal untuk rendering sisi server di mana `System.Drawing.Common` tidak direkomendasikan.  
-- **Primitif menggambar yang kaya** – Bentuk, gradien, tekstur, dan rendering teks lanjutan sudah tersedia.  
-- **Performa tinggi** – Dioptimalkan untuk pemrosesan gambar skala besar.
+- **Cross‑platform** – Berjalan di mana pun .NET berjalan.  
+- **Tidak ada ketergantungan GDI+** – Ideal untuk rendering sisi server di mana `System.Drawing.Common` tidak disarankan.  
+- **Primitif menggambar yang kaya** – Bentuk, gradien, tekstur, ekspor SVG, dan pembuatan GIF animasi.  
+- **Kinerja tinggi** – Dioptimalkan untuk pemrosesan gambar batch dan skenario berskala besar.
 
 ## Prerequisites
-- .NET 6 SDK (atau versi yang didukung lainnya).  
+- .NET 6 SDK (atau versi yang didukung).  
 - Paket NuGet Aspose.Drawing untuk .NET (`Install-Package Aspose.Drawing`).  
 - Lisensi Aspose yang valid untuk penggunaan produksi (opsional untuk percobaan).
 
 ## Making Callouts in Aspose.Drawing
 
-Callout berguna untuk menyoroti bagian tertentu dari ilustrasi. Pada bagian ini kami akan menambahkan gelembung callout dengan garis penunjuk.
+Callout menyoroti bagian penting dari ilustrasi. Mereka terdiri dari bentuk gelembung plus garis penunjuk.  
+> **Pro tip:** Gunakan kuas semi‑transparan untuk gelembung agar detail di bawah tetap terlihat.
 
-> **Tip:** Callout meningkatkan keterbacaan diagram yang kompleks, memudahkan penonton memahami poin‑poin penting.
-
-*(Potongan kode sebenarnya disediakan di halaman tutorial khusus yang ditautkan di bawah.)*
+*(Potongan kode lengkap tersedia di halaman tutorial khusus yang ditautkan di bawah.)*
 
 ## Creating Photo Frames in Aspose.Drawing
 
-Berikut ikhtisar singkat langkah‑langkah yang akan Anda ikuti untuk **membuat bingkai foto** di sekitar bitmap apa pun:
+Berikut adalah ikhtisar singkat langkah-langkah yang akan Anda ikuti untuk **membuat bingkai foto** di sekitar bitmap apa pun:
 
-1. **Load the source image** – Gunakan `Image.Load` untuk memuat gambar ke memori.  
-2. **Define the frame rectangle** – Hitung persegi panjang yang sedikit lebih besar dari gambar untuk menampung border.  
-3. **Draw the border** – Pilih `Pen` (warna, lebar, gaya dash) dan panggil `Graphics.DrawRectangle`.  
-4. **Optional styling** – Terapkan gradien, sudut melengkung, atau texture brush untuk tampilan khusus.  
-5. **Save the result** – Ekspor ke PNG, JPEG, atau format apa pun yang didukung oleh Aspose.Drawing.
+1. **Muat gambar sumber** – Gunakan `Image.Load` untuk memuat gambar Anda ke memori.  
+2. **Tentukan persegi panjang bingkai** – Hitung persegi panjang yang sedikit lebih besar dari gambar untuk menampung border.  
+3. **Gambar border** – Pilih `Pen` (warna, lebar, gaya dash) dan panggil `Graphics.DrawRectangle`.  
+4. **Gaya opsional** – Terapkan gradien, gambar dengan sudut melengkung, atau kuas tekstur untuk tampilan khusus.  
+5. **Simpan hasil** – Ekspor ke PNG, JPEG, atau format apa pun yang didukung oleh Aspose.Drawing, atau **ekspor gambar ke SVG** untuk bingkai vektor yang dapat diskalakan.
 
-Langkah‑langkah ini ditunjukkan secara detail pada halaman tutorial **Creating Photo Frames**.
+Langkah-langkah ini ditunjukkan secara detail di halaman tutorial **Creating Photo Frames**.
 
-## Adding Text on Images in Aspose.Drawing
+## How to add text to image with Aspose.Drawing
 
-Jika Anda perlu **menambahkan teks ke gambar .NET** atau mempelajari **cara menempatkan teks di atas gambar**, prosesnya sederhana:
+Jika Anda perlu **menambahkan teks ke gambar** atau mempelajari **cara menempatkan teks di atas gambar**, prosesnya sederhana:
 
-1. **Create a `Graphics` object** dari gambar yang telah dimuat.  
-2. **Set up a `Font` and `Brush`** untuk gaya dan warna yang diinginkan.  
-3. **Position the text** menggunakan `PointF` atau `StringFormat` untuk perataan.  
-4. **Render the string** dengan `Graphics.DrawString`.  
-5. **Save** gambar yang telah dimodifikasi.
+1. **Buat objek `Graphics`** dari gambar yang dimuat.  
+2. **Siapkan `Font` dan `Brush`** untuk gaya dan warna yang diinginkan.  
+3. **Posisikan teks** menggunakan `PointF` atau `StringFormat` untuk perataan.  
+4. **Render string** dengan `Graphics.DrawString`.  
+5. **Simpan** gambar yang dimodifikasi, opsional sebagai **SVG** untuk teks berbasis vektor.
 
 Sekali lagi, contoh kode lengkap berada di halaman tutorial **Adding Text on Images**.
+
+## How to overlay text on image
+
+Menempatkan teks di atas gambar ideal untuk watermark, keterangan, atau label dinamis. Dengan menyesuaikan `StringFormat.Alignment` dan `StringFormat.LineAlignment`, Anda dapat menengahkan, meratakan kiri, atau meratakan kanan teks dalam persegi panjang apa pun.
+
+## Export image to SVG
+
+Ketika Anda membutuhkan grafik yang tidak bergantung pada resolusi—seperti untuk tata letak web responsif—ekspor kanvas yang digambar ke SVG:
+
+- Panggil `image.Save("output.svg", new SvgOptions())`.  
+- Semua bentuk vektor, border, dan teks tetap dapat diedit di editor SVG mana pun.
+
+## Add drop shadow frame
+
+Drop‑shadow menambahkan kedalaman pada bingkai foto:
+
+1. Buat `GraphicsPath` untuk persegi panjang bingkai.  
+2. Gambar versi blur, offset dari path menggunakan kuas semi‑transparan.  
+3. Gambar bingkai utama di atasnya.
+
+## Add rounded corners image
+
+Sudut melengkung melunakkan dampak visual:
+
+- Gunakan `GraphicsPath.AddArc` untuk setiap sudut dan `Graphics.FillPath` dengan kuas solid.  
+- Kombinasikan dengan gambar `Pen` untuk border yang tajam.
+
+## Generate animated GIF frames
+
+Aspose.Drawing dapat membuat GIF animasi frame‑per‑frame:
+
+1. Gambar setiap frame pada `Bitmap` terpisah.  
+2. Tambahkan setiap bitmap ke koleksi `GifImage`.  
+3. Atur delay untuk setiap frame dan simpan.
 
 ## Use Cases Tutorials
 ### [Making Callouts in Aspose.Drawing](./make-callout/)
@@ -87,34 +120,42 @@ Jelajahi integrasi teks yang mulus ke dalam gambar dengan Aspose.Drawing untuk .
 
 ## Common Pitfalls & Troubleshooting
 
-| Issue | Cause | Solution |
+| Masalah | Penyebab | Solusi |
 |-------|-------|----------|
-| Frame appears cropped | Rectangle dimensions mismatch | Add padding equal to `Pen.Width` before drawing |
-| Text looks blurry | Image resolution too low | Load a high‑resolution source or set `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
-| Colors shift on Linux | Missing color profile | Use `Image.Save` with explicit `PngOptions` to embed the profile |
+| Bingkai muncul terpotong | Dimensi persegi panjang tidak cocok | Tambahkan padding yang sama dengan `Pen.Width` sebelum menggambar |
+| Teks terlihat buram | Resolusi gambar terlalu rendah | Muat sumber beresolusi tinggi atau set `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
+| Warna bergeser di Linux | Profil warna tidak ada | Gunakan `Image.Save` dengan `PngOptions` eksplisit untuk menyertakan profil |
+| Drop shadow terlihat bergerigi | Tidak ada anti‑alias pada bentuk bayangan | Aktifkan `Graphics.SmoothingMode = SmoothingMode.HighQuality` sebelum menggambar bayangan |
+| Ekspor SVG kehilangan gaya font | Font tidak disertakan | Gunakan `SvgOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll` |
 
 ## Frequently Asked Questions
 
-**Q: Can I use Aspose.Drawing to create animated GIF frames?**  
-A: Yes. After drawing each frame, add it to a `GifImage` collection and set the delay property.
+**Q: Apakah saya dapat menggunakan Aspose.Drawing untuk membuat frame GIF animasi?**  
+A: Ya. Setelah menggambar setiap frame, tambahkan ke koleksi `GifImage` dan atur properti delay.
 
-**Q: Is there a way to apply a drop shadow to the photo frame?**  
-A: Use a `GraphicsPath` for the rectangle and draw a blurred offset shape before the main border.
+**Q: Apakah ada cara untuk menerapkan drop shadow pada bingkai foto?**  
+A: Gunakan `GraphicsPath` untuk persegi panjang dan gambar bentuk blur offset sebelum border utama.
 
-**Q: Does the API support SVG output for vector‑based frames?**  
-A: Aspose.Drawing can export to SVG, preserving shapes and styles, which is ideal for scalable frames.
+**Q: Apakah API mendukung output SVG untuk bingkai berbasis vektor?**  
+A: Aspose.Drawing dapat mengekspor ke SVG, mempertahankan bentuk dan gaya, yang ideal untuk bingkai yang dapat diskalakan.
 
-**Q: How do I overlay text on a transparent PNG without losing transparency?**  
-A: Ensure the image pixel format includes alpha (`PixelFormat.Format32bppArgb`) and set the brush to `SolidBrush(Color.White)` with appropriate opacity.
+**Q: Bagaimana cara menempatkan teks di atas PNG transparan tanpa kehilangan transparansi?**  
+A: Pastikan format piksel gambar mencakup alpha (`PixelFormat.Format32bppArgb`) dan set kuas ke `SolidBrush(Color.White)` dengan opasitas yang sesuai.
 
-**Q: What licensing options are available for production deployments?**  
-A: Aspose offers perpetual, subscription, and cloud‑based licensing models. Contact sales for a tailored plan.
+**Q: Opsi lisensi apa yang tersedia untuk penerapan produksi?**  
+A: Aspose menawarkan model lisensi perpetual, berlangganan, dan berbasis cloud. Hubungi tim penjualan untuk rencana yang disesuaikan.
+
+**Q: Apakah saya dapat menambahkan sudut melengkung pada gambar saat membuat bingkai foto?**  
+A: Tentu—gunakan `GraphicsPath.AddArc` untuk setiap sudut dan isi path sebelum menggambar border luar.
+
+**Q: Bagaimana saya dapat mengekspor gambar berbingkai saya sebagai SVG untuk digunakan di web?**  
+A: Panggil `image.Save("myframe.svg", new SvgOptions())`; data vektor mempertahankan bingkai, sudut, dan teks.
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-02-27  
+**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-06
-description: Aspose.Drawing का उपयोग करके .NET में फोटो फ्रेम बनाना, छवियों पर टेक्स्ट
-  ओवरले करना और छवि में टेक्स्ट जोड़ना सीखें। कॉलआउट्स, फोटो फ्रेम और टेक्स्ट ओवरले
-  के लिए चरण‑दर‑चरण ट्यूटोरियल।
+date: 2026-02-27
+description: Aspose.Drawing for .NET का उपयोग करके छवि में टेक्स्ट जोड़ना, छवि पर
+  टेक्स्ट ओवरले करना और फोटो फ्रेम बनाना सीखें। इसमें कॉलआउट्स, गोल किनारे, ड्रॉप‑शैडो
+  फ्रेम और SVG निर्यात शामिल हैं।
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: फ़ोटो फ्रेम कैसे बनाएं – .NET के लिए Aspose.Drawing के उपयोग केस
+title: Aspose.Drawing के साथ इमेज में टेक्स्ट जोड़ें और फोटो फ्रेम बनाएं
 url: /hi/net/use-cases/
 weight: 27
 ---
@@ -14,107 +14,148 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# फोटो फ्रेम कैसे बनाएं – Aspose.Drawing for .NET के उपयोग केस
+# इमेज में टेक्स्ट जोड़ें और Aspose.Drawing के साथ फोटो फ्रेम बनाएं
 
-## परिचय
+## Introduction
 
-डिजिटल डिज़ाइन की गतिशील दुनिया में, **Aspose.Drawing for .NET** इमेज मैनिपुलेशन के लिए एक शक्तिशाली टूल है। चाहे आपको **फोटो फ्रेम बनाना** हो, कॉलआउट जोड़ना हो, या तस्वीरों पर टेक्स्ट ओवरले करना हो, यह गाइड आपको तेज़ और भरोसेमंद तरीके से यह करने का तरीका दिखाता है। हम तीन व्यावहारिक परिदृश्यों—कॉलआउट बनाना, फोटो फ्रेम बनाना, और इमेज पर टेक्स्ट जोड़ना—के माध्यम से चलेंगे, ताकि आप आज ही समृद्ध विज़ुअल्स बनाना शुरू कर सकें।
+यदि आपको **इमेज में टेक्स्ट जोड़ने** की आवश्यकता है और साथ ही उन्हें एक पॉलिश्ड लुक देना है—जैसे फोटो फ्रेम, गोल कोने, या ड्रॉप‑शैडो बॉर्डर—तो .NET के लिए Aspose.Drawing वह लाइब्रेरी है जिसे आप चुनेंगे। यह क्रॉस‑प्लेटफ़ॉर्म काम करती है, `System.Drawing.Common` की GDI+ समस्याओं से बचाती है, और आपको इमेज पर टेक्स्ट ओवरले करने, इमेज को SVG में एक्सपोर्ट करने, और यहाँ तक कि एनीमेटेड GIF फ्रेम बनाने की सुविधा देती है—सभी एक ही फ़्लुएंट API से। इस ट्यूटोरियल में हम तीन वास्तविक‑दुनिया के परिदृश्यों को देखेंगे: कॉलआउट बनाना, फोटो फ्रेम बनाना, और इमेज पर टेक्स्ट जोड़ना।
 
-## त्वरित उत्तर
-- **.NET में फोटो फ्रेम बनाने के लिए मैं क्या उपयोग कर सकता हूँ?** Aspose.Drawing for .NET आकार, बॉर्डर और कस्टम फ्रेम ड्रॉ करने के लिए एक फ्लुएंट API प्रदान करता है।  
-- **इमेज पर टेक्स्ट ओवरले कैसे करें?** `Graphics.DrawString` मेथड को `StringFormat` के साथ उपयोग करके टेक्स्ट को सटीक रूप से पोजिशन करें।  
-- **क्या लाइसेंस की आवश्यकता है?** डेवलपमेंट के लिए फ्री ट्रायल काम करता है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।  
-- **कौनसे .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7।  
-- **क्या मैं System.Drawing के बिना .NET में इमेज पर टेक्स्ट जोड़ सकता हूँ?** हाँ—Aspose.Drawing एक ड्रॉप‑इन रिप्लेसमेंट है जो क्रॉस‑प्लेटफ़ॉर्म काम करता है।
+## Quick Answers
+- **What can I use to add text to image in .NET?** Aspose.Drawing provides a full‑featured graphics API that works on Windows, Linux, and macOS.  
+- **How do I overlay text on an image?** Create a `Graphics` object, set a `Font` and `Brush`, then call `Graphics.DrawString`.  
+- **Can I export image to SVG for scalable frames?** Yes—Aspose.Drawing can save drawings as SVG, preserving vector quality.  
+- **Is a license required for production?** A free trial is fine for development; a commercial license is needed for production use.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Aspose.Drawing में फोटो फ्रेम क्या है?
+## What is a Photo Frame in Aspose.Drawing?
 
-एक *फोटो फ्रेम* बस एक आयताकार (या कस्टम‑शेप्ड) बॉर्डर है जो इमेज के चारों ओर ड्रॉ किया जाता है। Aspose.Drawing के साथ आप लाइन की मोटाई, रंग, कोर्नर रेडियस, और यहाँ तक कि सजावटी पैटर्न भी नियंत्रित कर सकते हैं—बिना .NET इकोसिस्टम छोड़े।
+एक *फोटो फ्रेम* मूलतः एक आयताकार (या कस्टम‑शेप्ड) बॉर्डर है जो इमेज के चारों ओर खींचा जाता है। Aspose.Drawing के साथ आप लाइन की मोटाई, रंग, कोने की त्रिज्या को नियंत्रित कर सकते हैं, गोल कोने वाली इमेज जोड़ सकते हैं, या गहराई के लिए ड्रॉप‑शैडो फ्रेम लागू कर सकते हैं।
 
-## फोटो फ्रेम बनाने के लिए Aspose.Drawing क्यों उपयोग करें?
+## Why Use Aspose.Drawing for Creating Photo Frames?
 
-- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux, और macOS पर काम करता है।  
-- **कोई GDI+ डिपेंडेंसी नहीं** – सर्वर‑साइड रेंडरिंग के लिए आदर्श जहाँ `System.Drawing.Common` की सलाह नहीं दी जाती।  
-- **समृद्ध ड्रॉइंग प्रिमिटिव्स** – शैप्स, ग्रेडिएंट्स, टेक्सचर, और एडवांस्ड टेक्स्ट रेंडरिंग बिल्ट‑इन हैं।  
-- **उच्च प्रदर्शन** – बड़े पैमाने पर इमेज प्रोसेसिंग के लिए ऑप्टिमाइज़्ड।
+- **Cross‑platform** – Runs everywhere .NET runs.  
+- **No GDI+ dependency** – Ideal for server‑side rendering where `System.Drawing.Common` is discouraged.  
+- **Rich drawing primitives** – Shapes, gradients, textures, SVG export, and animated GIF generation.  
+- **High performance** – Optimized for batch image processing and large‑scale scenarios.
 
-## पूर्वापेक्षाएँ
-- .NET 6 SDK (या कोई भी समर्थित संस्करण)।  
-- Aspose.Drawing for .NET NuGet पैकेज (`Install-Package Aspose.Drawing`)।  
-- प्रोडक्शन उपयोग के लिए वैध Aspose लाइसेंस (ट्रायल के लिए वैकल्पिक)।
+## Prerequisites
+- .NET 6 SDK (or any supported version).  
+- Aspose.Drawing for .NET NuGet package (`Install-Package Aspose.Drawing`).  
+- A valid Aspose license for production use (optional for trial).
 
-## Aspose.Drawing में कॉलआउट बनाना
+## Making Callouts in Aspose.Drawing
 
-कॉलआउट इलेस्ट्रेशन के हिस्सों को हाइलाइट करने में उपयोगी होते हैं। इस सेक्शन में हम एक पॉइंटर लाइन के साथ कॉलआउट बबल जोड़ेंगे।
+Callouts highlight important parts of an illustration. They consist of a bubble shape plus a pointer line.  
+> **Pro tip:** Use a semi‑transparent brush for the bubble to keep underlying details visible.
 
-> **टिप:** कॉलआउट जटिल डायग्राम की पठनीयता बढ़ाते हैं, जिससे दर्शकों के लिए मुख्य बिंदु समझना आसान हो जाता है।
+*(The full code snippet is available on the dedicated tutorial page linked below.)*
 
-*(वास्तविक कोड स्निपेट समर्पित ट्यूटोरियल पेज में नीचे दिया गया है।)*
+## Creating Photo Frames in Aspose.Drawing
 
-## Aspose.Drawing में फोटो फ्रेम बनाना
+Below is a concise overview of the steps you’ll follow to **create a photo frame** around any bitmap:
 
-नीचे फोटो फ्रेम **बनाने** के लिए संक्षिप्त चरणों का सारांश दिया गया है:
+1. **Load the source image** – Use `Image.Load` to bring your picture into memory.  
+2. **Define the frame rectangle** – Calculate a rectangle slightly larger than the image to accommodate the border.  
+3. **Draw the border** – Choose a `Pen` (color, width, dash style) and call `Graphics.DrawRectangle`.  
+4. **Optional styling** – Apply gradients, rounded corners image, or a texture brush for a custom look.  
+5. **Save the result** – Export to PNG, JPEG, or any format supported by Aspose.Drawing, or **export image to SVG** for a scalable vector frame.
 
-1. **सोर्स इमेज लोड करें** – `Image.Load` का उपयोग करके अपनी तस्वीर को मेमोरी में लाएँ।  
-2. **फ़्रेम रेक्टेंगल परिभाषित करें** – इमेज से थोड़ा बड़ा रेक्टेंगल कैलकुलेट करें ताकि बॉर्डर फिट हो सके।  
-3. **बॉर्डर ड्रॉ करें** – एक `Pen` (रंग, चौड़ाई, डैश स्टाइल) चुनें और `Graphics.DrawRectangle` कॉल करें।  
-4. **वैकल्पिक स्टाइलिंग** – कस्टम लुक के लिए ग्रेडिएंट, गोल कोर्नर, या टेक्सचर ब्रश लागू करें।  
-5. **परिणाम सहेजें** – PNG, JPEG, या Aspose.Drawing द्वारा सपोर्टेड किसी भी फॉर्मेट में एक्सपोर्ट करें।
+These steps are demonstrated in detail on the **Creating Photo Frames** tutorial page.
 
-इन चरणों का विस्तृत प्रदर्शन **Creating Photo Frames** ट्यूटोरियल पेज पर है।
+## How to add text to image with Aspose.Drawing
 
-## Aspose.Drawing में इमेज पर टेक्स्ट जोड़ना
+If you need to **add text to image** or learn **how to overlay text on image**, the process is straightforward:
 
-यदि आपको **इमेज पर टेक्स्ट जोड़ना .NET** है या **इमेज पर टेक्स्ट ओवरले कैसे करें** सीखना है, तो प्रक्रिया सीधी है:
+1. **Create a `Graphics` object** from the loaded image.  
+2. **Set up a `Font` and `Brush`** for the desired style and color.  
+3. **Position the text** using `PointF` or `StringFormat` for alignment.  
+4. **Render the string** with `Graphics.DrawString`.  
+5. **Save** the modified image, optionally as **SVG** for vector‑based text.
 
-1. लोडेड इमेज से एक `Graphics` ऑब्जेक्ट बनाएं।  
-2. इच्छित स्टाइल और रंग के लिए `Font` और `Brush` सेट करें।  
-3. `PointF` या `StringFormat` का उपयोग करके टेक्स्ट की पोजिशन निर्धारित करें।  
-4. `Graphics.DrawString` से स्ट्रिंग रेंडर करें।  
-5. संशोधित इमेज सहेजें।
+Again, the full code example lives in the **Adding Text on Images** tutorial page.
 
-पूरा कोड उदाहरण **Adding Text on Images** ट्यूटोरियल पेज में उपलब्ध है।
+## How to overlay text on image
 
-## उपयोग केस ट्यूटोरियल्स
+Overlaying text is ideal for watermarks, captions, or dynamic labels. By adjusting `StringFormat.Alignment` and `StringFormat.LineAlignment`, you can center, left‑align, or right‑align text within any rectangle.
+
+## Export image to SVG
+
+When you need resolution‑independent graphics—such as for responsive web layouts—export the drawn canvas to SVG:
+
+- Call `image.Save("output.svg", new SvgOptions())`.  
+- All vector shapes, borders, and text remain editable in any SVG editor.
+
+## Add drop shadow frame
+
+A drop‑shadow adds depth to a photo frame:
+
+1. Create a `GraphicsPath` for the frame rectangle.  
+2. Draw a blurred, offset version of the path using a semi‑transparent brush.  
+3. Draw the main frame on top.
+
+## Add rounded corners image
+
+Rounded corners soften the visual impact:
+
+- Use `GraphicsPath.AddArc` for each corner and `Graphics.FillPath` with a solid brush.  
+- Combine with `Pen` drawing for a crisp border.
+
+## Generate animated GIF frames
+
+Aspose.Drawing can build animated GIFs frame‑by‑frame:
+
+1. Draw each frame onto a separate `Bitmap`.  
+2. Add each bitmap to a `GifImage` collection.  
+3. Set the delay for each frame and save.
+
+## Use Cases Tutorials
 ### [Making Callouts in Aspose.Drawing](./make-callout/)
-Aspose.Drawing for .NET के साथ अपने डॉक्यूमेंट इलेस्ट्रेशन को बेहतर बनाएं! स्पष्ट और सूचनात्मक विज़ुअल्स के लिए कॉलआउट जोड़ने के चरण‑बद्ध गाइड देखें।
+Aspose.Drawing for .NET का उपयोग करके अपने दस्तावेज़ चित्रण को बेहतर बनाएं! चरण‑दर‑चरण सीखें कि कैसे कॉलआउट जोड़कर विज़ुअल्स को स्पष्ट और सूचनात्मक बनाएं।
 
 ### [Creating Photo Frames in Aspose.Drawing](./photo-frame/)
-Aspose.Drawing for .NET के साथ अपनी इमेज को बेहतर बनाएं! शानदार फोटो फ्रेम बनाने के लिए हमारे चरण‑बद्ध गाइड का पालन करें। अभी Aspose.Drawing for .NET का अन्वेषण करें!
+Aspose.Drawing for .NET के साथ अपनी इमेज को बेहतर बनाएं! चरण‑दर‑चरण गाइड का पालन करके शानदार फोटो फ्रेम बनाएं। अभी Aspose.Drawing for .NET का अन्वेषण करें!
 
 ### [Adding Text on Images in Aspose.Drawing](./text-on-image/)
-Aspose.Drawing for .NET के साथ इमेज में टेक्स्ट को सहजता से इंटीग्रेट करें। आसान इमेज मैनिपुलेशन के लिए हमारे चरण‑बद्ध गाइड का पालन करें। अभी डाउनलोड करें!
+Aspose.Drawing for .NET के साथ इमेज में टेक्स्ट को सहजता से इंटीग्रेट करें। चरण‑दर‑चरण गाइड का पालन करके आसान इमेज मैनिपुलेशन करें। अभी डाउनलोड करें!
 
-## सामान्य समस्याएँ एवं ट्रबलशूटिंग
+## Common Pitfalls & Troubleshooting
 
-| समस्या | कारण | समाधान |
+| Issue | Cause | Solution |
 |-------|-------|----------|
-| फ्रेम कट गया दिख रहा है | रेक्टेंगल डाइमेंशन मेल नहीं खा रहे | ड्रॉ करने से पहले `Pen.Width` के बराबर पैडिंग जोड़ें |
-| टेक्स्ट धुंधला दिख रहा है | इमेज रेज़ोल्यूशन बहुत कम है | हाई‑रेज़ोल्यूशन सोर्स लोड करें या `Graphics.SmoothingMode = SmoothingMode.AntiAlias` सेट करें |
-| Linux पर रंग बदल रहे हैं | कलर प्रोफ़ाइल गायब है | `Image.Save` के साथ स्पष्ट `PngOptions` उपयोग करके प्रोफ़ाइल एम्बेड करें |
+| Frame appears cropped | Rectangle dimensions mismatch | Add padding equal to `Pen.Width` before drawing |
+| Text looks blurry | Image resolution too low | Load a high‑resolution source or set `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
+| Colors shift on Linux | Missing color profile | Use `Image.Save` with explicit `PngOptions` to embed the profile |
+| Drop shadow looks jagged | No anti‑aliasing on shadow shape | Enable `Graphics.SmoothingMode = SmoothingMode.HighQuality` before drawing the shadow |
+| SVG export loses font styles | Fonts not embedded | Use `SvgOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll` |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-**प्रश्न: क्या मैं Aspose.Drawing का उपयोग करके एनिमेटेड GIF फ्रेम बना सकता हूँ?**  
-उत्तर: हाँ। प्रत्येक फ्रेम ड्रॉ करने के बाद उसे `GifImage` कलेक्शन में जोड़ें और डिले प्रॉपर्टी सेट करें।
+**Q: Can I use Aspose.Drawing to create animated GIF frames?**  
+A: Yes. After drawing each frame, add it to a `GifImage` collection and set the delay property.
 
-**प्रश्न: फोटो फ्रेम पर ड्रॉप शैडो कैसे लागू करूँ?**  
-उत्तर: रेक्टेंगल के लिए `GraphicsPath` बनाएं और मुख्य बॉर्डर से पहले ब्लर किया हुआ ऑफसेट शैप ड्रॉ करें।
+**Q: Is there a way to apply a drop shadow to the photo frame?**  
+A: Use a `GraphicsPath` for the rectangle and draw a blurred offset shape before the main border.
 
-**प्रश्न: क्या API SVG आउटपुट को सपोर्ट करता है वेक्टर‑बेस्ड फ्रेम के लिए?**  
-उत्तर: Aspose.Drawing SVG में एक्सपोर्ट कर सकता है, जिससे शैप्स और स्टाइल्स संरक्षित रहते हैं, जो स्केलेबल फ्रेम के लिए आदर्श है।
+**Q: Does the API support SVG output for vector‑based frames?**  
+A: Aspose.Drawing can export to SVG, preserving shapes and styles, which is ideal for scalable frames.
 
-**प्रश्न: ट्रांसपेरेंट PNG पर टेक्स्ट ओवरले करने पर ट्रांसपेरेंसी नहीं खोनी चाहिए, कैसे करें?**  
-उत्तर: इमेज पिक्सेल फॉर्मेट में अल्फा शामिल होना चाहिए (`PixelFormat.Format32bppArgb`) और ब्रश को `SolidBrush(Color.White)` के साथ उचित अपारदर्शिता सेट करें।
+**Q: How do I overlay text on a transparent PNG without losing transparency?**  
+A: Ensure the image pixel format includes alpha (`PixelFormat.Format32bppArgb`) and set the brush to `SolidBrush(Color.White)` with appropriate opacity.
 
-**प्रश्न: प्रोडक्शन डिप्लॉयमेंट के लिए कौनसे लाइसेंस विकल्प उपलब्ध हैं?**  
-उत्तर: Aspose परपेचुअल, सब्सक्रिप्शन, और क्लाउड‑बेस्ड लाइसेंस मॉडल प्रदान करता है। कस्टम प्लान के लिए सेल्स से संपर्क करें।
+**Q: What licensing options are available for production deployments?**  
+A: Aspose offers perpetual, subscription, and cloud‑based licensing models. Contact sales for a tailored plan.
+
+**Q: Can I add rounded corners to an image while creating a photo frame?**  
+A: Absolutely—use `GraphicsPath.AddArc` for each corner and fill the path before drawing the outer border.
+
+**Q: How can I export my framed image as SVG for use on the web?**  
+A: Call `image.Save("myframe.svg", new SvgOptions())`; the vector data retains the frame, corners, and text.
 
 ---
 
-**अंतिम अपडेट:** 2025-12-06  
-**टेस्टेड विथ:** Aspose.Drawing 24.11 for .NET  
-**लेखक:** Aspose  
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

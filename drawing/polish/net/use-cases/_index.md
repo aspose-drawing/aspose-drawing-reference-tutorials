@@ -1,11 +1,11 @@
 ---
-date: 2025-12-06
-description: Dowiedz się, jak tworzyć ramki zdjęć, nakładać tekst na obrazy i dodawać
-  tekst do obrazu w .NET przy użyciu Aspose.Drawing. Samouczki krok po kroku dotyczące
-  dymków, ramek zdjęć i nakładania tekstu.
+date: 2026-02-27
+description: Dowiedz się, jak dodać tekst do obrazu, nałożyć tekst na obraz i tworzyć
+  ramki zdjęć przy użyciu Aspose.Drawing dla .NET. Zawiera dymki, zaokrąglone rogi,
+  ramki z efektem cienia oraz eksport SVG.
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Jak stworzyć ramkę zdjęcia – Przykłady użycia Aspose.Drawing dla .NET
+title: Dodaj tekst do obrazu i twórz ramki zdjęć z Aspose.Drawing
 url: /pl/net/use-cases/
 weight: 27
 ---
@@ -14,105 +14,138 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak stworzyć ramkę zdjęcia – przypadki użycia z Aspose.Drawing dla .NET
+# Dodaj tekst do obrazu i twórz ramki zdjęć za pomocą Aspose.Drawing
 
-## Wprowadzenie
+## Introduction
 
-W dynamicznym świecie projektowania cyfrowego **Aspose.Drawing for .NET** wyróżnia się jako potężne narzędzie do manipulacji obrazami. Niezależnie od tego, czy potrzebujesz **stworzyć ramkę zdjęcia**, dodać dymki (callouts), czy nałożyć tekst na zdjęcia, ten przewodnik pokaże, jak zrobić to szybko i niezawodnie. Przejdziemy przez trzy praktyczne scenariusze — tworzenie dymków, tworzenie ramek zdjęć oraz dodawanie tekstu na obrazach — abyś już dziś mógł budować bogatsze wizualizacje.
+Jeśli potrzebujesz **dodać tekst do obrazu** i jednocześnie nadać mu wykończenie — pomyśl o ramach zdjęć, zaokrąglonych rogach lub obramowaniach z efektem cienia — Aspose.Drawing dla .NET jest biblioteką numer jeden. Działa wieloplatformowo, omija pułapki GDI+ w `System.Drawing.Common` i pozwala nakładać tekst na obraz, eksportować obraz do SVG oraz nawet generować klatki animowanego GIF‑a — wszystko z jednej płynnej API. W tym samouczku przejdziemy przez trzy praktyczne scenariusze: tworzenie etykiet, tworzenie ramek zdjęć oraz dodawanie tekstu na obrazach.
 
-## Szybkie odpowiedzi
-- **What can I use to create a photo frame in .NET?** Aspose.Drawing for .NET provides a fluent API for drawing shapes, borders, and custom frames.  
-- **How do I overlay text on an image?** Use the `Graphics.DrawString` method together with `StringFormat` to position text precisely.  
-- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Can I add text to image .NET without System.Drawing?** Yes—Aspose.Drawing is a drop‑in replacement that works cross‑platform.
+## Quick Answers
+- **Jak mogę dodać tekst do obrazu w .NET?** Aspose.Drawing udostępnia w pełni funkcjonalne API graficzne, które działa na Windows, Linux i macOS.  
+- **Jak nałożyć tekst na obraz?** Utwórz obiekt `Graphics`, ustaw `Font` i `Brush`, a następnie wywołaj `Graphics.DrawString`.  
+- **Czy mogę wyeksportować obraz do SVG dla skalowalnych ramek?** Tak — Aspose.Drawing może zapisać rysunki jako SVG, zachowując jakość wektorową.  
+- **Czy wymagana jest licencja do produkcji?** Darmowa wersja próbna wystarczy do rozwoju; do użytku produkcyjnego potrzebna jest licencja komercyjna.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Co to jest ramka zdjęcia w Aspose.Drawing?
+## What is a Photo Frame in Aspose.Drawing?
 
-*Ramka zdjęcia* to po prostu prostokątna (lub o niestandardowym kształcie) obwódka narysowana wokół obrazu. Dzięki Aspose.Drawing możesz kontrolować grubość linii, kolor, promień narożników oraz dodawać dekoracyjne wzory — wszystko bez opuszczania ekosystemu .NET.
+*Ramka zdjęcia* to po prostu prostokątne (lub o niestandardowym kształcie) obramowanie rysowane wokół obrazu. Dzięki Aspose.Drawing możesz kontrolować grubość linii, kolor, promień narożnika, dodać zaokrąglone rogi obrazu lub nawet zastosować ramkę z efektem cienia dla uzyskania głębi.
 
-## Dlaczego używać Aspose.Drawing do tworzenia ramek zdjęć?
+## Why Use Aspose.Drawing for Creating Photo Frames?
 
-- **Cross‑platform** – Działa na Windows, Linux i macOS.  
-- **No GDI+ dependency** – Idealne dla renderowania po stronie serwera, gdzie `System.Drawing.Common` nie jest zalecany.  
-- **Rich drawing primitives** – Kształty, gradienty, tekstury i zaawansowane renderowanie tekstu są wbudowane.  
-- **High performance** – Optymalizowane pod kątem przetwarzania obrazów na dużą skalę.
+- **Wieloplatformowo** — Działa wszędzie tam, gdzie działa .NET.  
+- **Bez zależności od GDI+** — Idealne do renderowania po stronie serwera, gdzie `System.Drawing.Common` jest odradzane.  
+- **Bogate prymitywy rysunkowe** — Kształty, gradienty, tekstury, eksport do SVG oraz generowanie animowanych GIF‑ów.  
+- **Wysoka wydajność** — Zoptymalizowane do przetwarzania wsadowego obrazów i scenariuszy na dużą skalę.
 
-## Wymagania wstępne
+## Prerequisites
 - .NET 6 SDK (lub dowolna obsługiwana wersja).  
-- Aspose.Drawing for .NET NuGet package (`Install-Package Aspose.Drawing`).  
+- Pakiet NuGet Aspose.Drawing dla .NET (`Install-Package Aspose.Drawing`).  
 - Ważna licencja Aspose do użytku produkcyjnego (opcjonalnie w wersji próbnej).
 
-## Tworzenie dymków w Aspose.Drawing
+## Making Callouts in Aspose.Drawing
 
-Dymki są przydatne do wyróżniania fragmentów ilustracji. W tej sekcji dodamy dymek z linią wskaźnika.
+Callouts podkreślają ważne części ilustracji. Składają się z kształtu dymku oraz linii wskaźnika.  
+> **Pro tip:** Użyj półprzezroczystego pędzla dla dymku, aby zachować widoczność szczegółów pod spodem.
 
-> **Tip:** Dymki poprawiają czytelność złożonych diagramów, ułatwiając odbiorcom zrozumienie kluczowych punktów.
+*Pełny fragment kodu jest dostępny na dedykowanej stronie samouczka pod linkiem poniżej.*
 
-*(Rzeczywisty fragment kodu znajduje się na dedykowanej stronie samouczka, do której odnośnik znajduje się poniżej.)*
+## Creating Photo Frames in Aspose.Drawing
 
-## Tworzenie ramek zdjęć w Aspose.Drawing
+Poniżej znajduje się zwięzły przegląd kroków, które wykonasz, aby **utworzyć ramkę zdjęcia** wokół dowolnego bitmapu:
 
-Poniżej znajduje się zwięzły przegląd kroków, które należy wykonać, aby **stworzyć ramkę zdjęcia** wokół dowolnego bitmapa:
+1. **Załaduj obraz źródłowy** – Użyj `Image.Load`, aby wczytać zdjęcie do pamięci.  
+2. **Zdefiniuj prostokąt ramki** – Oblicz prostokąt nieco większy niż obraz, aby pomieścić obramowanie.  
+3. **Narysuj obramowanie** – Wybierz `Pen` (kolor, szerokość, styl kreski) i wywołaj `Graphics.DrawRectangle`.  
+4. **Opcjonalne stylizowanie** – Zastosuj gradienty, zaokrąglone rogi obrazu lub pędzel tekstur dla niestandardowego wyglądu.  
+5. **Zapisz wynik** – Eksportuj do PNG, JPEG lub dowolnego formatu obsługiwanego przez Aspose.Drawing, lub **wyeksportuj obraz do SVG** dla skalowalnej ramki wektorowej.
 
-1. **Load the source image** – Use `Image.Load` to bring your picture into memory.  
-2. **Define the frame rectangle** – Calculate a rectangle slightly larger than the image to accommodate the border.  
-3. **Draw the border** – Choose a `Pen` (color, width, dash style) and call `Graphics.DrawRectangle`.  
-4. **Optional styling** – Apply gradients, rounded corners, or a texture brush for a custom look.  
-5. **Save the result** – Export to PNG, JPEG, or any format supported by Aspose.Drawing.
+Kroki te są szczegółowo przedstawione na stronie samouczka **Creating Photo Frames**.
 
-These steps are demonstrated in detail on the **Creating Photo Frames** tutorial page.
+## How to add text to image with Aspose.Drawing
 
-## Dodawanie tekstu na obrazach w Aspose.Drawing
+Jeśli potrzebujesz **dodać tekst do obrazu** lub chcesz dowiedzieć się **jak nakładać tekst na obraz**, proces jest prosty:
 
-Jeśli potrzebujesz **add text to image .NET** lub chcesz dowiedzieć się **how to overlay text image**, proces jest prosty:
+1. **Utwórz obiekt `Graphics`** z wczytanego obrazu.  
+2. **Skonfiguruj `Font` i `Brush`** dla pożądanego stylu i koloru.  
+3. **Ustaw pozycję tekstu** używając `PointF` lub `StringFormat` do wyrównania.  
+4. **Wyrenderuj ciąg znaków** za pomocą `Graphics.DrawString`.  
+5. **Zapisz** zmodyfikowany obraz, opcjonalnie jako **SVG** dla tekstu wektorowego.
 
-1. **Create a `Graphics` object** from the loaded image.  
-2. **Set up a `Font` and `Brush`** for the desired style and color.  
-3. **Position the text** using `PointF` or `StringFormat` for alignment.  
-4. **Render the string** with `Graphics.DrawString`.  
-5. **Save** the modified image.
+Pełny przykład kodu znajduje się na stronie samouczka **Adding Text on Images**.
 
-Again, the full code example lives in the **Adding Text on Images** tutorial page.
+## How to overlay text on image
 
-## Samouczki przypadków użycia
+Nakładanie tekstu jest idealne dla znaków wodnych, podpisów lub dynamicznych etykiet. Poprzez dostosowanie `StringFormat.Alignment` i `StringFormat.LineAlignment` możesz wyśrodkować, wyrównać do lewej lub do prawej tekst w dowolnym prostokącie.
+
+## Export image to SVG
+
+Gdy potrzebujesz grafiki niezależnej od rozdzielczości — np. dla responsywnych układów webowych — wyeksportuj narysowane płótno do SVG:
+
+- Wywołaj `image.Save("output.svg", new SvgOptions())`.  
+- Wszystkie kształty wektorowe, obramowania i tekst pozostają edytowalne w dowolnym edytorze SVG.
+
+## Add drop shadow frame
+
+1. Utwórz `GraphicsPath` dla prostokąta ramki.  
+2. Narysuj rozmytą, przesuniętą wersję ścieżki używając półprzezroczystego pędzla.  
+3. Narysuj główną ramkę na wierzchu.
+
+## Add rounded corners image
+
+- Użyj `GraphicsPath.AddArc` dla każdego rogu oraz `Graphics.FillPath` z jednolitym pędzlem.  
+- Połącz z rysowaniem `Pen`, aby uzyskać wyraźne obramowanie.
+
+## Generate animated GIF frames
+
+1. Narysuj każdą klatkę na osobnym `Bitmap`.  
+2. Dodaj każdy bitmap do kolekcji `GifImage`.  
+3. Ustaw opóźnienie dla każdej klatki i zapisz.
+
+## Use Cases Tutorials
 ### [Making Callouts in Aspose.Drawing](./make-callout/)
-Enhance your document illustrations using Aspose.Drawing for .NET! Learn step‑by‑step how to add callouts for clearer and informative visuals.
+Ulepsz ilustracje w dokumentach przy użyciu Aspose.Drawing dla .NET! Dowiedz się krok po kroku, jak dodać callouts dla bardziej przejrzystych i informacyjnych wizualizacji.
 
 ### [Creating Photo Frames in Aspose.Drawing](./photo-frame/)
-Enhance your images with Aspose.Drawing for .NET! Follow our step‑by‑step guide to create stunning photo frames. Explore Aspose.Drawing for .NET now!
+Ulepsz swoje obrazy dzięki Aspose.Drawing dla .NET! Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby tworzyć oszałamiające ramki zdjęć. Odkryj Aspose.Drawing dla .NET już teraz!
 
 ### [Adding Text on Images in Aspose.Drawing](./text-on-image/)
-Explore the seamless integration of text into images with Aspose.Drawing for .NET. Follow our step‑by‑step guide for effortless image manipulation. Download now!
+Poznaj płynną integrację tekstu z obrazami przy użyciu Aspose.Drawing dla .NET. Skorzystaj z naszego przewodnika krok po kroku, aby bez wysiłku manipulować obrazami. Pobierz teraz!
 
-## Typowe problemy i rozwiązywanie
+## Common Pitfalls & Troubleshooting
 
 | Problem | Przyczyna | Rozwiązanie |
 |-------|-------|----------|
-| Frame appears cropped | Rectangle dimensions mismatch | Add padding equal to `Pen.Width` before drawing |
-| Text looks blurry | Image resolution too low | Load a high‑resolution source or set `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
-| Colors shift on Linux | Missing color profile | Use `Image.Save` with explicit `PngOptions` to embed the profile |
+| Ramka jest przycięta | Niezgodność wymiarów prostokąta | Dodaj wypełnienie równe `Pen.Width` przed rysowaniem |
+| Tekst jest rozmyty | Rozdzielczość obrazu jest zbyt niska | Wczytaj źródło o wysokiej rozdzielczości lub ustaw `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
+| Kolory zmieniają się na Linuxie | Brak profilu kolorów | Użyj `Image.Save` z wyraźnym `PngOptions`, aby osadzić profil |
+| Cień wygląda ząbkowanie | Brak antyaliasingu w kształcie cienia | Włącz `Graphics.SmoothingMode = SmoothingMode.HighQuality` przed rysowaniem cienia |
+| Eksport SVG traci style czcionek | Czcionki nie są osadzone | Użyj `SvgOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll` |
 
-## Najczęściej zadawane pytania
+## Frequently Asked Questions
 
-**Q: Can I use Aspose.Drawing to create animated GIF frames?**  
-A: Yes. After drawing each frame, add it to a `GifImage` collection and set the delay property.
+**P: Czy mogę używać Aspose.Drawing do tworzenia animowanych klatek GIF?**  
+O: Tak. Po narysowaniu każdej klatki dodaj ją do kolekcji `GifImage` i ustaw właściwość opóźnienia.
 
-**Q: Is there a way to apply a drop shadow to the photo frame?**  
-A: Use a `GraphicsPath` for the rectangle and draw a blurred offset shape before the main border.
+**P: Czy istnieje sposób, aby dodać cień do ramki zdjęcia?**  
+O: Użyj `GraphicsPath` dla prostokąta i narysuj rozmyty, przesunięty kształt przed głównym obramowaniem.
 
-**Q: Does the API support SVG output for vector‑based frames?**  
-A: Aspose.Drawing can export to SVG, preserving shapes and styles, which is ideal for scalable frames.
+**P: Czy API obsługuje wyjście SVG dla ramek wektorowych?**  
+O: Aspose.Drawing może eksportować do SVG, zachowując kształty i style, co jest idealne dla skalowalnych ramek.
 
-**Q: How do I overlay text on a transparent PNG without losing transparency?**  
-A: Ensure the image pixel format includes alpha (`PixelFormat.Format32bppArgb`) and set the brush to `SolidBrush(Color.White)` with appropriate opacity.
+**P: Jak nałożyć tekst na przezroczysty PNG bez utraty przezroczystości?**  
+O: Upewnij się, że format pikseli obrazu zawiera kanał alfa (`PixelFormat.Format32bppArgb`) i ustaw pędzel na `SolidBrush(Color.White)` z odpowiednią przezroczystością.
 
-**Q: What licensing options are available for production deployments?**  
-A: Aspose offers perpetual, subscription, and cloud‑based licensing models. Contact sales for a tailored plan.
+**P: Jakie opcje licencjonowania są dostępne dla wdrożeń produkcyjnych?**  
+O: Aspose oferuje modele licencjonowania wieczystego, subskrypcyjnego i opartego na chmurze. Skontaktuj się z działem sprzedaży w celu uzyskania dopasowanej oferty.
 
----
+**P: Czy mogę dodać zaokrąglone rogi do obrazu podczas tworzenia ramki zdjęcia?**  
+O: Oczywiście — użyj `GraphicsPath.AddArc` dla każdego rogu i wypełnij ścieżkę przed narysowaniem zewnętrznego obramowania.
 
-**Last Updated:** 2025-12-06  
+**P: Jak mogę wyeksportować moją obrazowaną ramkę jako SVG do użycia w sieci?**  
+O: Wywołaj `image.Save("myframe.svg", new SvgOptions())`; dane wektorowe zachowują ramkę, rogi i tekst.
+
+**Last Updated:** 2026-02-27  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 

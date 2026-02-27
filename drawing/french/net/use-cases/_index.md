@@ -1,97 +1,126 @@
 ---
-date: 2025-12-06
-description: Apprenez à créer des cadres photo, à superposer du texte sur des images
-  et à ajouter du texte à une image .NET avec Aspose.Drawing. Tutoriels étape par
-  étape pour les légendes, les cadres photo et la superposition de texte.
+date: 2026-02-27
+description: Apprenez à ajouter du texte à une image, superposer du texte sur une
+  image et créer des cadres photo avec Aspose.Drawing pour .NET. Comprend des annotations,
+  des coins arrondis, des cadres à ombre portée et l’exportation SVG.
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Comment créer un cadre photo – Cas d’utilisation avec Aspose.Drawing pour .NET
+title: Ajouter du texte à une image et créer des cadres photo avec Aspose.Drawing
 url: /fr/net/use-cases/
 weight: 27
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ construct final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment créer un cadre photo – Cas d’utilisation avec Aspose.Drawing pour .NET
+# Ajouter du texte à une image & créer des cadres photo avec Aspose.Drawing
 
 ## Introduction
 
-Dans le domaine dynamique du design numérique, **Aspose.Drawing pour .NET** se démarque comme une solution puissante de manipulation d’images. Que vous ayez besoin de **créer un cadre photo**, d’ajouter des bulles d’appel ou de superposer du texte sur des images, ce guide vous montre comment le faire rapidement et de manière fiable. Nous parcourrons trois scénarios pratiques — création de bulles d’appel, création de cadres photo et ajout de texte sur des images—afin que vous puissiez commencer à créer des visuels plus riches dès aujourd’hui.
+If you need to **add text to image** files while also giving them a polished look—think photo frames, rounded corners, or drop‑shadow borders—Aspose.Drawing for .NET is the go‑to library. It works cross‑platform, avoids the GDI+ pitfalls of `System.Drawing.Common`, and lets you overlay text on image, export image to SVG, and even generate animated GIF frames—all from a single fluent API. In this tutorial we’ll walk through three real‑world scenarios: making callouts, creating photo frames, and adding text on images.
 
-## Réponses rapides
-- **Quel outil puis‑je utiliser pour créer un cadre photo en .NET ?** Aspose.Drawing pour .NET fournit une API fluide pour dessiner des formes, des bordures et des cadres personnalisés.  
-- **Comment superposer du texte sur une image ?** Utilisez la méthode `Graphics.DrawString` avec `StringFormat` pour positionner le texte avec précision.  
-- **Ai‑je besoin d’une licence ?** Une version d’essai gratuite suffit pour le développement ; une licence commerciale est requise pour la production.  
-- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Puis‑je ajouter du texte à une image .NET sans System.Drawing ?** Oui—Aspose.Drawing est un remplacement « drop‑in » qui fonctionne multiplateforme.
+## Quick Answers
+- **Quel outil puis‑je utiliser pour ajouter du texte à une image en .NET ?** Aspose.Drawing provides a full‑featured graphics API that works on Windows, Linux, and macOS.  
+- **Comment superposer du texte sur une image ?** Create a `Graphics` object, set a `Font` and `Brush`, then call `Graphics.DrawString`.  
+- **Puis‑je exporter l'image au format SVG pour des cadres évolutifs ?** Yes—Aspose.Drawing can save drawings as SVG, preserving vector quality.  
+- **Une licence est‑elle requise pour la production ?** A free trial is fine for development; a commercial license is needed for production use.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Qu’est‑ce qu’un cadre photo dans Aspose.Drawing ?
+## Qu'est‑ce qu'un cadre photo dans Aspose.Drawing ?
 
-Un *cadre photo* est simplement une bordure rectangulaire (ou de forme personnalisée) dessinée autour d’une image. Avec Aspose.Drawing, vous pouvez contrôler l’épaisseur de la ligne, la couleur, le rayon des coins et même ajouter des motifs décoratifs—le tout sans quitter l’écosystème .NET.
+A *photo frame* is simply a rectangular (or custom‑shaped) border drawn around an image. With Aspose.Drawing you can control line thickness, color, corner radius, add rounded corners image, or even apply a drop‑shadow frame for depth.
 
 ## Pourquoi utiliser Aspose.Drawing pour créer des cadres photo ?
 
-- **Multiplateforme** – Fonctionne sous Windows, Linux et macOS.  
-- **Sans dépendance GDI+** – Idéal pour le rendu côté serveur où `System.Drawing.Common` n’est pas recommandé.  
-- **Primitives de dessin riches** – Formes, dégradés, textures et rendu avancé du texte intégrés.  
-- **Haute performance** – Optimisé pour le traitement d’images à grande échelle.
+- **Cross‑platform** – Runs everywhere .NET runs.  
+- **No GDI+ dependency** – Ideal for server‑side rendering where `System.Drawing.Common` is discouraged.  
+- **Rich drawing primitives** – Shapes, gradients, textures, SVG export, and animated GIF generation.  
+- **High performance** – Optimized for batch image processing and large‑scale scenarios.
 
 ## Prérequis
-- SDK .NET 6 (ou toute version prise en charge).  
-- Package NuGet Aspose.Drawing pour .NET (`Install-Package Aspose.Drawing`).  
-- Une licence Aspose valide pour une utilisation en production (optionnelle pour l’essai).
+- .NET 6 SDK (or any supported version).  
+- Aspose.Drawing for .NET NuGet package (`Install-Package Aspose.Drawing`).  
+- A valid Aspose license for production use (optional for trial).
 
-## Créer des bulles d’appel dans Aspose.Drawing
+## Créer des callouts dans Aspose.Drawing
 
-Les bulles d’appel sont utiles pour mettre en évidence des parties d’une illustration. Dans cette section, nous ajouterons une bulle d’appel avec une ligne de pointeur.
+Callouts highlight important parts of an illustration. They consist of a bubble shape plus a pointer line.  
+> **Astuce :** Use a semi‑transparent brush for the bubble to keep underlying details visible.
 
-> **Astuce :** Les bulles d’appel améliorent la lisibilité des diagrammes complexes, facilitant la compréhension des points clés par les spectateurs.
-
-*(Le fragment de code réel est fourni dans la page de tutoriel dédiée liée ci‑dessous.)*
+*(The full code snippet is available on the dedicated tutorial page linked below.)*
 
 ## Créer des cadres photo dans Aspose.Drawing
 
-Voici un aperçu concis des étapes à suivre pour **créer un cadre photo** autour de n’importe quel bitmap :
+Below is a concise overview of the steps you’ll follow to **create a photo frame** around any bitmap:
 
-1. **Charger l’image source** – Utilisez `Image.Load` pour charger votre photo en mémoire.  
-2. **Définir le rectangle du cadre** – Calculez un rectangle légèrement plus grand que l’image afin d’accueillir la bordure.  
-3. **Dessiner la bordure** – Choisissez un `Pen` (couleur, largeur, style de tiret) et appelez `Graphics.DrawRectangle`.  
-4. **Style optionnel** – Appliquez des dégradés, des coins arrondis ou un pinceau de texture pour un rendu personnalisé.  
-5. **Enregistrer le résultat** – Exportez en PNG, JPEG ou tout autre format supporté par Aspose.Drawing.
+1. **Chargez l'image source** – Use `Image.Load` to bring your picture into memory.  
+2. **Définissez le rectangle du cadre** – Calculate a rectangle slightly larger than the image to accommodate the border.  
+3. **Dessinez la bordure** – Choose a `Pen` (color, width, dash style) and call `Graphics.DrawRectangle`.  
+4. **Style optionnel** – Apply gradients, rounded corners image, or a texture brush for a custom look.  
+5. **Enregistrez le résultat** – Export to PNG, JPEG, or any format supported by Aspose.Drawing, or **export image to SVG** for a scalable vector frame.
 
-Ces étapes sont détaillées sur la page de tutoriel **Création de cadres photo**.
+These steps are demonstrated in detail on the **Creating Photo Frames** tutorial page.
 
-## Ajouter du texte sur des images dans Aspose.Drawing
+## Comment ajouter du texte à une image avec Aspose.Drawing
 
-Si vous devez **ajouter du texte à une image .NET** ou apprendre **comment superposer du texte sur une image**, le processus est simple :
+If you need to **add text to image** or learn **how to overlay text on image**, the process is straightforward:
 
-1. **Créer un objet `Graphics`** à partir de l’image chargée.  
-2. **Configurer un `Font` et un `Brush`** pour le style et la couleur souhaités.  
-3. **Positionner le texte** à l’aide de `PointF` ou de `StringFormat` pour l’alignement.  
-4. **Rendre la chaîne** avec `Graphics.DrawString`.  
-5. **Enregistrer** l’image modifiée.
+1. **Créez un objet `Graphics`** from the loaded image.  
+2. **Configurez une `Font` et un `Brush`** for the desired style and color.  
+3. **Positionnez le texte** using `PointF` or `StringFormat` for alignment.  
+4. **Rendez la chaîne** with `Graphics.DrawString`.  
+5. **Enregistrez** the modified image, optionally as **SVG** for vector‑based text.
 
-Encore une fois, l’exemple complet se trouve dans le tutoriel **Ajout de texte sur des images**.
+Again, the full code example lives in the **Adding Text on Images** tutorial page.
 
-## Tutoriels de cas d’utilisation
-### [Créer des bulles d’appel dans Aspose.Drawing](./make-callout/)
-Améliorez vos illustrations de documents avec Aspose.Drawing pour .NET ! Apprenez pas à pas comment ajouter des bulles d’appel pour des visuels plus clairs et informatifs.
+## Comment superposer du texte sur une image
+
+Overlaying text is ideal for watermarks, captions, or dynamic labels. By adjusting `StringFormat.Alignment` and `StringFormat.LineAlignment`, you can center, left‑align, or right‑align text within any rectangle.
+
+## Exporter l'image au format SVG
+
+When you need resolution‑independent graphics—such as for responsive web layouts—export the drawn canvas to SVG:
+
+- Call `image.Save("output.svg", new SvgOptions())`.  
+- All vector shapes, borders, and text remain editable in any SVG editor.
+
+## Ajouter un cadre à ombre portée
+
+1. Créez un `GraphicsPath` for the frame rectangle.  
+2. Dessinez une version floue, décalée du chemin en utilisant un pinceau semi‑transparent.  
+3. Dessinez le cadre principal par-dessus.
+
+## Ajouter des coins arrondis à l'image
+
+- Utilisez `GraphicsPath.AddArc` for each corner and `Graphics.FillPath` with a solid brush.  
+- Combinez avec le dessin `Pen` for a crisp border.
+
+## Générer des cadres GIF animés
+
+1. Dessinez chaque cadre sur un `Bitmap` séparé.  
+2. Ajoutez chaque bitmap à une collection `GifImage`.  
+3. Définissez le délai pour chaque cadre et enregistrez.
+
+## Tutoriels d'exemples d'utilisation
+### [Créer des callouts dans Aspose.Drawing](./make-callout/)
+Améliorez les illustrations de vos documents en utilisant Aspose.Drawing pour .NET ! Apprenez étape par étape comment ajouter des callouts pour des visuels plus clairs et informatifs.
 
 ### [Créer des cadres photo dans Aspose.Drawing](./photo-frame/)
-Valorisez vos images avec Aspose.Drawing pour .NET ! Suivez notre guide pas à pas pour créer de superbes cadres photo. Découvrez dès maintenant Aspose.Drawing pour .NET !
+Améliorez vos images avec Aspose.Drawing pour .NET ! Suivez notre guide étape par étape pour créer de superbes cadres photo. Découvrez dès maintenant Aspose.Drawing pour .NET !
 
 ### [Ajouter du texte sur des images dans Aspose.Drawing](./text-on-image/)
-Explorez l’intégration fluide du texte dans les images avec Aspose.Drawing pour .NET. Suivez notre guide pas à pas pour une manipulation d’image sans effort. Téléchargez dès maintenant !
+Explorez l’intégration transparente du texte dans les images avec Aspose.Drawing pour .NET. Suivez notre guide étape par étape pour une manipulation d’image sans effort. Téléchargez dès maintenant !
 
-## Problèmes courants & Dépannage
+## Problèmes courants et dépannage
 
 | Problème | Cause | Solution |
 |----------|-------|----------|
-| Le cadre apparaît tronqué | Dimensions du rectangle incompatibles | Ajoutez un remplissage égal à `Pen.Width` avant le dessin |
-| Le texte est flou | Résolution de l’image trop basse | Chargez une source haute résolution ou définissez `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
-| Les couleurs changent sous Linux | Profil couleur manquant | Utilisez `Image.Save` avec des `PngOptions` explicites pour incorporer le profil |
+| Le cadre apparaît recadré | Dimensions du rectangle incompatibles | Ajoutez un remplissage égal à `Pen.Width` avant de dessiner |
+| Le texte apparaît flou | Résolution de l'image trop basse | Chargez une source haute résolution ou définissez `Graphics.SmoothingMode = SmoothingMode.AntiAlias` |
+| Les couleurs changent sous Linux | Profil couleur manquant | Utilisez `Image.Save` avec des `PngOptions` explicites pour intégrer le profil |
+| L’ombre portée apparaît dentelée | Pas d’anti‑aliasing sur la forme de l’ombre | Activez `Graphics.SmoothingMode = SmoothingMode.HighQuality` avant de dessiner l’ombre |
+| L’export SVG perd les styles de police | Polices non intégrées | Utilisez `SvgOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll` |
 
 ## Questions fréquentes
 
@@ -102,19 +131,23 @@ R : Oui. Après avoir dessiné chaque cadre, ajoutez‑le à une collection `G
 R : Utilisez un `GraphicsPath` pour le rectangle et dessinez une forme floue décalée avant la bordure principale.
 
 **Q : L’API prend‑elle en charge l’export SVG pour des cadres vectoriels ?**  
-R : Aspose.Drawing peut exporter en SVG, préservant formes et styles, idéal pour des cadres évolutifs.
+R : Aspose.Drawing peut exporter au format SVG, en conservant les formes et les styles, ce qui est idéal pour des cadres évolutifs.
 
 **Q : Comment superposer du texte sur un PNG transparent sans perdre la transparence ?**  
 R : Assurez‑vous que le format de pixel de l’image inclut l’alpha (`PixelFormat.Format32bppArgb`) et définissez le pinceau sur `SolidBrush(Color.White)` avec l’opacité appropriée.
 
 **Q : Quelles options de licence sont disponibles pour les déploiements en production ?**  
-R : Aspose propose des licences perpétuelles, d’abonnement et basées sur le cloud. Contactez le service commercial pour un plan adapté.
+R : Aspose propose des modèles de licence perpétuelle, abonnement et cloud‑based. Contactez les ventes pour un plan adapté.
 
----
+**Q : Puis‑je ajouter des coins arrondis à une image lors de la création d’un cadre photo ?**  
+R : Absolument—utilisez `GraphicsPath.AddArc` pour chaque coin et remplissez le chemin avant de dessiner la bordure extérieure.
 
-**Dernière mise à jour :** 2025-12-06  
-**Testé avec :** Aspose.Drawing 24.11 pour .NET  
-**Auteur :** Aspose  
+**Q : Comment exporter mon image encadrée au format SVG pour une utilisation sur le web ?**  
+R : Appelez `image.Save("myframe.svg", new SvgOptions())`; les données vectorielles conservent le cadre, les coins et le texte.
+
+**Dernière mise à jour** : 2026-02-27  
+**Testé avec** : Aspose.Drawing 24.11 for .NET  
+**Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
