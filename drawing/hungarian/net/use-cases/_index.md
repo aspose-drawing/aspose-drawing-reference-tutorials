@@ -1,119 +1,179 @@
 ---
-date: 2025-12-06
-description: Ismerje meg, hogyan hozhat létre fényképkeretet, helyezhet el szöveget
-  képeken, és adhat hozzá szöveget a .NET képekhez az Aspose.Drawing segítségével.
-  Lépésről lépésre útmutatók a feliratokhoz, fényképkeretekhez és szövegréteghez.
+date: 2026-02-27
+description: Tanulja meg, hogyan adhat szöveget a képre, hogyan helyezhet fel szöveget
+  a képen, és hogyan készíthet fényképkereteket az Aspose.Drawing for .NET használatával.
+  Tartalmaz felhívásokat, lekerekített sarkokat, árnyékos kereteket és SVG exportot.
 linktitle: Use Cases
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Hogyan készítsünk fényképkeretet – Használati esetek az Aspose.Drawing .NET-hez
+title: Szöveg hozzáadása a képhez és fényképkeretek létrehozása az Aspose.Drawing
+  segítségével
 url: /hu/net/use-cases/
 weight: 27
 ---
+
+hooting" etc.
+
+Also "## Frequently Asked Questions" etc.
+
+Also the final metadata lines.
+
+All need translation.
+
+We must keep code names like `Graphics`, `Font`, etc unchanged.
+
+Also keep bullet list items but translate the text.
+
+Let's start constructing final output.
+
+We'll keep the shortcodes exactly as they appear.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan készítsünk fényképkeretet – Felhasználási esetek az Aspose.Drawing for .NET használatával
+# Szöveg hozzáadása a képhez és fényképkeretek létrehozása az Aspose.Drawing segítségével
 
 ## Bevezetés
 
-A digitális tervezés dinamikus világában a **Aspose.Drawing for .NET** kiemelkedik a képfeldolgozás erőteljes eszközeként. Akár **fényképkeretet** szeretne készíteni, akár feliratokat (callouts) adna hozzá, vagy szöveget helyezne el a képeken, ez az útmutató gyorsan és megbízhatóan megmutatja, hogyan teheti ezt. Három gyakorlati példán keresztül vezetünk végig – feliratok (callouts) létrehozása, fényképkeretek készítése és szöveg hozzáadása a képekhez – hogy már ma gazdagabb vizuális anyagokat építhessen.
+Ha **szöveget kell hozzáadni a képhez** úgy, hogy közben kifinomult megjelenést is kapjon – például fényképkeretek, lekerekített sarkok vagy árnyékos szegélyek – az Aspose.Drawing for .NET a megfelelő könyvtár. Platformfüggetlenül működik, elkerüli a `System.Drawing.Common` GDI+ problémáit, és lehetővé teszi a szöveg átfedését a képen, a kép SVG‑ként való exportálását, valamint animált GIF keretek generálását – mindezt egyetlen folyékony API‑ból. Ebben az útmutatóban három valós példát mutatunk be: feliratok (callouts) készítése, fényképkeretek létrehozása és szöveg hozzáadása a képekhez.
 
 ## Gyors válaszok
-- **Mivel hozhatok létre fényképkeretet .NET-ben?** Az Aspose.Drawing for .NET egy folyékony API-t biztosít alakzatok, szegélyek és egyedi keretek rajzolásához.  
-- **Hogyan helyezhetek szöveget egy képre?** Használja a `Graphics.DrawString` metódust a `StringFormat`-tal együtt a szöveg pontos pozicionálásához.  
-- **Szükségem van licencre?** A fejlesztéshez ingyenes próba verzió működik; a termeléshez kereskedelmi licenc szükséges.  
-- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Hozzáadhatok szöveget egy képhez .NET-ben a System.Drawing nélkül?** Igen—az Aspose.Drawing egy drop‑in helyettesítő, amely platformfüggetlenül működik.
+- **Mivel adhatok szöveget a képhez .NET‑ben?** Az Aspose.Drawing egy teljes körű grafikai API‑t biztosít, amely Windows, Linux és macOS rendszereken működik.  
+- **Hogyan helyezhetek szöveget egy képre?** Hozzon létre egy `Graphics` objektumot, állítson be egy `Font`‑ot és egy `Brush`‑t, majd hívja meg a `Graphics.DrawString` metódust.  
+- **Exportálhatom a képet SVG‑ként a méretezhető keretekhez?** Igen – az Aspose.Drawing képes a rajzokat SVG‑ként menteni, megőrizve a vektoros minőséget.  
+- **Szükséges licenc a termeléshez?** Fejlesztéshez elegendő a ingyenes próba; termeléshez kereskedelmi licenc szükséges.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Mi az a fényképkeret az Aspose.Drawing-ban?
+## Mi az a fényképkeret az Aspose.Drawing‑ben?
 
-A *fényképkeret* egyszerűen egy téglalap (vagy egyedi alakú) szegély, amely egy kép köré van rajzolva. Az Aspose.Drawing segítségével szabályozhatja a vonal vastagságát, színét, a sarkok sugárát, és akár díszítő mintákat is hozzáadhat – mindezt a .NET ökoszisztémán belül.
+A *fényképkeret* egyszerűen egy téglalap (vagy egyedi alakú) szegély, amely a kép köré kerül. Az Aspose.Drawing segítségével szabályozhatja a vonalvastagságot, színt, a sarok sugárát, hozzáadhat lekerekített sarkú képet, vagy akár árnyékos keretet is alkalmazhat a mélység érzetéhez.
 
-## Miért használjuk az Aspose.Drawing-ot fényképkeretek létrehozásához?
+## Miért használjuk az Aspose.Drawing‑et fényképkeretek létrehozásához?
 
-- **Keresztplatform – Windows, Linux és macOS rendszereken működik.**  
-- **Nincs GDI+ függőség – Ideális szerveroldali rendereléshez, ahol a `System.Drawing.Common` nem ajánlott.**  
-- **Gazdag rajzoló primitívek – Alakzatok, színátmenetek, textúrák és fejlett szövegmegjelenítés beépítve.**  
-- **Nagy teljesítmény – Nagy léptékű képfeldolgozáshoz optimalizálva.  
+- **Platformfüggetlen** – Fut minden .NET környezetben.  
+- **Nincs GDI+ függőség** – Ideális szerveroldali rendereléshez, ahol a `System.Drawing.Common` nem ajánlott.  
+- **Gazdag rajzoló primitívek** – Alakzatok, színátmenetek, textúrák, SVG export, animált GIF generálás.  
+- **Magas teljesítmény** – Optimalizált kötegelt képfeldolgozáshoz és nagyméretű forgatókönyvekhez.
 
-## Előkövetelmények
+## Előfeltételek
 - .NET 6 SDK (vagy bármely támogatott verzió).  
 - Aspose.Drawing for .NET NuGet csomag (`Install-Package Aspose.Drawing`).  
-- Érvényes Aspose licenc a termelési használathoz (próba esetén opcionális).
+- Érvényes Aspose licenc a termeléshez (próbaverzió esetén opcionális).
 
-## Feliratok (Callouts) készítése az Aspose.Drawing-ban
+## Calloutok készítése az Aspose.Drawing‑ben
 
-A feliratok (callouts) hasznosak egy ábra részeinek kiemelésére. Ebben a szakaszban egy feliratbuborékot és egy mutató vonalat adunk hozzá.
+A calloutok kiemelik egy illusztráció fontos részeit. Egy buborék alakzatból és egy mutató vonalból állnak.  
+> **Pro tip:** Használjon félig átlátszó ecsetet a buborékhoz, hogy az alatta lévő részletek láthatóak maradjanak.
 
-> **Tip:** A feliratok javítják a komplex diagramok olvashatóságát, megkönnyítve a nézők számára a kulcspontok megértését.
+*(A teljes kódrészlet a lentebb található dedikált útmutató oldalon érhető el.)*
 
-*(A tényleges kódrészlet a lentebb található dedikált oktatóoldalon érhető el.)*
+## Fényképkeretek létrehozása az Aspose.Drawing‑ben
 
-## Fényképkeretek létrehozása az Aspose.Drawing-ban
+Az alábbiakban egy tömör áttekintést adunk a **fényképkeret** létrehozásához szükséges lépésekről bármely bitmap körül:
 
-Az alábbiakban egy tömör áttekintést talál a lépésekről, amelyekkel **fényképkeretet** hozhat létre bármely bitmap körül:
+1. **Forráskép betöltése** – Használja az `Image.Load` metódust a kép memóriába hozatalához.  
+2. **Keretszög meghatározása** – Számolja ki azt a téglalapot, amely a képnél valamivel nagyobb, hogy befogadja a szegélyt.  
+3. **Szegély rajzolása** – Válasszon egy `Pen`‑t (szín, vastagság, vonalstílus) és hívja meg a `Graphics.DrawRectangle` metódust.  
+4. **Opcionális stílus** – Alkalmazzon színátmeneteket, lekerekített sarkú képet vagy textúra ecsetet egyedi megjelenéshez.  
+5. **Eredmény mentése** – Exportálja PNG, JPEG vagy bármely, az Aspose.Drawing által támogatott formátumba, vagy **exportálja a képet SVG‑ként** a méretezhető vektoros kerethez.
 
-1. **Töltsd be a forrásképet** – Használd az `Image.Load`-t a kép memóriába betöltéséhez.  
-2. **Határozd meg a keret téglalapot** – Számíts ki egy a képnél valamivel nagyobb téglalapot a szegély befogadásához.  
-3. **Rajzold meg a szegélyt** – Válassz egy `Pen`-t (szín, vastagság, vonalstílus) és hívd meg a `Graphics.DrawRectangle`-t.  
-4. **Opcionális stílus** – Alkalmazz színátmeneteket, lekerekített sarkokat vagy textúra ecsetet egyedi megjelenéshez.  
-5. **Mentés** – Exportálj PNG, JPEG vagy bármely, az Aspose.Drawing által támogatott formátumba.
+Ezek a lépések részletesen bemutatásra kerülnek a **Fényképkeretek létrehozása** útmutató oldalon.
 
-Ezeket a lépéseket részletesen bemutatja a **Fényképkeretek létrehozása** oktatóoldal.
+## Hogyan adhatunk szöveget a képhez az Aspose.Drawing‑del
 
-## Szöveg hozzáadása képekhez az Aspose.Drawing-ban
+Ha **szöveget kell hozzáadni a képhez** vagy szeretné megtudni, **hogyan helyezhetünk szöveget a képre**, a folyamat egyszerű:
 
-Ha **szöveget szeretnél hozzáadni egy képhez .NET-ben** vagy meg szeretnéd tanulni, **hogyan helyezhetsz szöveget egy képre**, a folyamat egyszerű:
+1. **Hozzon létre egy `Graphics` objektumot** a betöltött képből.  
+2. **Állítson be egy `Font`‑ot és egy `Brush`‑t** a kívánt stílus és szín érdekében.  
+3. **Pozícionálja a szöveget** `PointF` vagy `StringFormat` segítségével az igazításhoz.  
+4. **Rajzolja ki a karakterláncot** a `Graphics.DrawString` metódussal.  
+5. **Mentse** a módosított képet, opcionálisan **SVG‑ként** a vektoros szöveghez.
 
-1. **Hozz létre egy `Graphics` objektumot** a betöltött képből.  
-2. **Állíts be egy `Font`-ot és `Brush`-t** a kívánt stílushoz és színhez.  
-3. **Pozicionáld a szöveget** `PointF` vagy `StringFormat` használatával az igazításhoz.  
-4. **Rendeld meg a szöveget** a `Graphics.DrawString` segítségével.  
-5. **Mentés** a módosított képet.
+A teljes kódpélda a **Szöveg hozzáadása a képekhez** útmutató oldalon található.
 
-A teljes kódrészlet a **Szöveg hozzáadása képekhez** oktatóoldalon található.
+## Szöveg átfedése a képen
 
-## Felhasználási esetek oktatóanyagai
-### [Making Callouts in Aspose.Drawing](./make-callout/)
-Fejleszd dokumentumillusztrációidat az Aspose.Drawing for .NET használatával! Tanulj lépésről‑lépésre, hogyan adj hozzá feliratokat (callouts) a tisztább és informatívabb vizuális anyagokért.
+A szöveg átfedése ideális vízjelekhez, feliratokhoz vagy dinamikus címkékhez. A `StringFormat.Alignment` és a `StringFormat.LineAlignment` beállításával középre, balra vagy jobbra igazíthatja a szöveget bármely téglalapon belül.
 
-### [Creating Photo Frames in Aspose.Drawing](./photo-frame/)
-Fejleszd képeidet az Aspose.Drawing for .NET segítségével! Kövesd lépésről‑lépésre útmutatónkat, hogy lenyűgöző fényképkereteket hozz létre. Fedezd fel most az Aspose.Drawing for .NET-et!
+## Kép exportálása SVG‑ként
 
-### [Adding Text on Images in Aspose.Drawing](./text-on-image/)
-Fedezd fel a szöveg képekkel való zökkenőmentes integrációját az Aspose.Drawing for .NET segítségével. Kövesd lépésről‑lépésre útmutatónkat a könnyed képfeldolgozáshoz. Töltsd le most!
+Amikor felbontásfüggetlen grafikára van szükség – például reszponzív weboldalakhoz – exportálja a rajzolt vásznat SVG‑ként:
+
+- Hívja meg az `image.Save("output.svg", new SvgOptions())` metódust.  
+- Minden vektoros alakzat, szegély és szöveg szerkeszthető marad bármely SVG‑szerkesztőben.
+
+## Árnyékos keret hozzáadása
+
+Az árnyékos keret mélységet ad a fényképkeretnek:
+
+1. Hozzon létre egy `GraphicsPath`‑t a keretszöghöz.  
+2. Rajzoljon egy elmosódott, eltolódott változatot a úton egy félig átlátszó ecsettel.  
+3. Rajzolja meg a fő keretet felülre.
+
+## Lekerekített sarkú kép
+
+A lekerekített sarkok enyhítik a vizuális hatást:
+
+- Használja a `GraphicsPath.AddArc` metódust minden sarokhoz, majd `Graphics.FillPath`‑t szilárd ecsettel.  
+- Kombinálja `Pen` rajzolással a tiszta szegélyhez.
+
+## Animált GIF keretek generálása
+
+Az Aspose.Drawing képes animált GIF‑eket keret‑ről‑keretre építeni:
+
+1. Rajzolja meg minden keretet egy külön `Bitmap`‑re.  
+2. Adja hozzá minden bitmapet egy `GifImage` gyűjteményhez.  
+3. Állítsa be az egyes keretek késleltetését, majd mentse.
+
+## Használati esetek – útmutatók
+### [Calloutok készítése az Aspose.Drawing‑ben](./make-callout/)
+Fejlessze dokumentációs illusztrációit az Aspose.Drawing for .NET‑el! Tanulja meg lépésről‑lépésre, hogyan adjon hozzá calloutokat a tisztább és informatívabb vizuálokért.
+
+### [Fényképkeretek létrehozása az Aspose.Drawing‑ben](./photo-frame/)
+Emelje fel képeit az Aspose.Drawing for .NET‑el! Kövesse lépésről‑lépésre a útmutatót a lenyűgöző fényképkeretek elkészítéséhez. Fedezze fel az Aspose.Drawing for .NET‑et most!
+
+### [Szöveg hozzáadása a képekhez az Aspose.Drawing‑ben](./text-on-image/)
+Fedezze fel a szöveg zökkenőmentes integrálását a képekbe az Aspose.Drawing for .NET‑el. Kövesse lépésről‑lépésre az útmutatót az egyszerű képmódosításhoz. Töltse le most!
 
 ## Gyakori hibák és hibaelhárítás
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| A keret levágottnak tűnik | A téglalap méretei nem egyeznek | Adj hozzá `Pen.Width` értékű kitöltést a rajzolás előtt |
-| A szöveg elmosódottnak tűnik | A kép felbontása túl alacsony | Tölts be magas felbontású forrást, vagy állítsd be a `Graphics.SmoothingMode = SmoothingMode.AntiAlias` értéket |
-| A színek eltolódnak Linuxon | Hiányzó színprofil | Használd az `Image.Save`-t kifejezett `PngOptions`-szel a profil beágyazásához |
+| A keret levágott | A téglalap méretei nem egyeznek | A rajzolás előtt adjon hozzá `Pen.Width`‑nek megfelelő kitöltést |
+| A szöveg elmosódott | A kép felbontása túl alacsony | Töltsön be nagy felbontású forrást vagy állítsa be a `Graphics.SmoothingMode = SmoothingMode.AntiAlias` értéket |
+| Színek eltolódnak Linuxon | Hiányzó színprofil | Használja az `Image.Save`‑t explicit `PngOptions`‑szel a profil beágyazásához |
+| Az árnyék szaggatott | Nincs anti‑alias a árnyék alakzaton | Engedélyezze a `Graphics.SmoothingMode = SmoothingMode.HighQuality` beállítást az árnyék rajzolása előtt |
+| SVG exportáláskor elvesznek a betűtípusstílusok | Betűtípusok nincsenek beágyazva | Állítsa be a `SvgOptions.FontEmbeddingMode = FontEmbeddingMode.EmbedAll` értéket |
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
-**Q: Használhatom az Aspose.Drawing-ot animált GIF keretek létrehozásához?**  
-A: Igen. Minden keret megrajzolása után add hozzá egy `GifImage` gyűjteményhez, és állítsd be a késleltetési tulajdonságot.
+**K: Használhatom az Aspose.Drawing‑et animált GIF keretek létrehozásához?**  
+V: Igen. Minden keret megrajzolása után adja hozzá egy `GifImage` gyűjteményhez, és állítsa be a késleltetést.
 
-**Q: Van mód a fényképkeretre vetített árnyék (drop shadow) alkalmazására?**  
-A: Használj egy `GraphicsPath`-t a téglalaphoz, és a fő szegély előtt rajzolj egy elmosódott eltolódott alakzatot.
+**K: Van mód árnyékot alkalmazni a fényképkeretre?**  
+V: Használjon `GraphicsPath`‑t a téglalaphoz, és rajzoljon egy elmosódott, eltolódott alakzatot a fő szegély előtt.
 
-**Q: Támogatja az API az SVG kimenetet vektor‑alapú keretekhez?**  
-A: Az Aspose.Drawing képes SVG formátumba exportálni, megőrizve az alakzatokat és stílusokat, ami ideális a skálázható keretekhez.
+**K: Támogatja az API az SVG kimenetet vektoros keretekhez?**  
+V: Az Aspose.Drawing exportál SVG‑be, megőrizve az alakzatokat és stílusokat, ami ideális a méretezhető keretekhez.
 
-**Q: Hogyan helyezhetek szöveget egy átlátszó PNG-re anélkül, hogy elveszíteném az átlátszóságot?**  
-A: Győződj meg arról, hogy a kép pixelformátuma tartalmazza az alfát (`PixelFormat.Format32bppArgb`), és állítsd a ecsetet `SolidBrush(Color.White)`-ra megfelelő átlátszósággal.
+**K: Hogyan helyezhetek szöveget egy átlátszó PNG‑re anélkül, hogy elveszíteném az átlátszóságot?**  
+V: Győződjön meg róla, hogy a képpontformátum tartalmaz alfa csatornát (`PixelFormat.Format32bppArgb`), és állítsa a `SolidBrush(Color.White)` ecsetet megfelelő átlátszósággal.
 
-**Q: Milyen licencelési lehetőségek állnak rendelkezésre termelési környezetben?**  
-A: Az Aspose kínál örökös, előfizetéses és felhő‑alapú licencmodelleket. Lépj kapcsolatba az értékesítéssel egy testre szabott csomagért.
+**K: Milyen licencelési lehetőségek állnak rendelkezésre termelési környezetben?**  
+V: Az Aspose örökös, előfizetéses és felhőalapú licencmodelleket kínál. Vegye fel a kapcsolatot az értékesítéssel egy testreszabott csomagért.
+
+**K: Hozzáadhatok lekerekített sarkokat a képhez a fényképkeret létrehozása közben?**  
+V: Természetesen – használja a `GraphicsPath.AddArc`‑ot minden sarokhoz, és töltse ki az útvonalat a külső szegély rajzolása előtt.
+
+**K: Hogyan exportálhatom a keretezett képet SVG‑ként a webhez?**  
+V: Hívja meg az `image.Save("myframe.svg", new SvgOptions())` metódust; a vektoros adat megőrzi a keretet, a sarkokat és a szöveget.
 
 ---
 
-**Utolsó frissítés:** 2025-12-06  
-**Tesztelt verzió:** Aspose.Drawing 24.11 for .NET  
+**Utoljára frissítve:** 2026-02-27  
+**Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
