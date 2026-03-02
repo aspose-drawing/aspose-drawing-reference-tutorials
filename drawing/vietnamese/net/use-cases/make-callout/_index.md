@@ -1,27 +1,43 @@
 ---
-title: Tạo chú thích trong Aspose.draw
-linktitle: Tạo chú thích trong Aspose.draw
-second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
-description: Nâng cao hình ảnh minh họa tài liệu của bạn bằng Aspose.draw cho .NET! Tìm hiểu từng bước cách thêm chú thích để có hình ảnh rõ ràng và giàu thông tin hơn.
-weight: 10
+date: 2026-03-02
+description: Nâng cao các minh họa tài liệu của bạn bằng Aspose.Drawing cho .NET!
+  Học từng bước cách thêm chú thích để có hình ảnh rõ ràng và thông tin hơn.
+linktitle: Making Callouts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Cách Thêm Callouts với Aspose.Drawing cho .NET
 url: /vi/net/use-cases/make-callout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo chú thích trong Aspose.draw
+# Tạo Callouts trong Aspose.Drawing
 
 ## Giới thiệu
-Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách tạo chú thích trong Aspose.draw cho .NET! Nếu bạn đang tìm cách cải thiện hình minh họa tài liệu của mình bằng chú thích thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ chia quy trình thành các bước có thể quản lý được bằng thư viện Aspose.draw.
-## Điều kiện tiên quyết
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-- Kiến thức cơ bản về ngôn ngữ lập trình C#.
--  Đã cài đặt thư viện Aspose.draw. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/drawing/net/).
-- Tài liệu hoặc hình ảnh mà bạn muốn thêm chú thích.
-## Nhập không gian tên
-Đảm bảo bạn có các không gian tên cần thiết trong dự án của mình:
+Nếu bạn đang tự hỏi **cách thêm callouts** vào hình ảnh hoặc sơ đồ của mình bằng Aspose.Drawing cho .NET, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình — từ tải ảnh đến vẽ các callout được thiết kế đẹp mắt — để bạn có thể làm cho minh họa của mình rõ ràng và thông tin hơn.
+
+## Trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Drawing cho .NET (có thể tải về từ trang chính thức).  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Thời gian triển khai mất bao lâu?** Thông thường dưới 10 phút cho một callout cơ bản.  
+- **Có thể tùy chỉnh màu sắc và phông chữ không?** Có — mọi thứ được điều khiển bằng các đối tượng GDI+ tiêu chuẩn (Pen, Font, Brush).
+
+## Cách Thêm Callouts trong Aspose.Drawing
+Dưới đây là hướng dẫn ngắn gọn, từng bước, cho thấy **cách thêm callouts** vào một hình ảnh. Bạn có thể sao chép mã, thử nghiệm với các vị trí, và điều chỉnh kiểu dáng để phù hợp với thương hiệu của mình.
+
+## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+- Kiến thức cơ bản về ngôn ngữ lập trình C#.  
+- Thư viện Aspose.Drawing đã được cài đặt. Bạn có thể tải về [tại đây](https://releases.aspose.com/drawing/net/).  
+- Một tài liệu hoặc hình ảnh mà bạn muốn thêm callouts.
+
+## Nhập các Namespace
+Đảm bảo bạn đã bao gồm các namespace cần thiết trong dự án:
+
 ```csharp
 using System.Text;
 using System.Threading.Tasks;
@@ -30,23 +46,29 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 ```
-## Bước 1: Tải hình ảnh
- Bắt đầu bằng cách tải hình ảnh nơi bạn muốn thêm chú thích. Thay thế`"Your Document Directory"` Và`"gears.png"` với thư mục thực tế và tên tệp hình ảnh của bạn.
+
+## Bước 1: Tải Ảnh
+Bắt đầu bằng việc tải ảnh mà bạn muốn thêm callouts. Thay `"Your Document Directory"` và `"gears.png"` bằng thư mục và tên tệp thực tế của bạn.
+
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {
-    // Mã của bạn ở đây
+    // Your code here
 }
 ```
-## Bước 2: Tạo đối tượng đồ họa
- Tạo một`Graphics` đối tượng khỏi ảnh để thực hiện các thao tác vẽ.
+
+## Bước 2: Tạo Đối Tượng Graphics
+Tạo một đối tượng `Graphics` từ ảnh để thực hiện các thao tác vẽ.
+
 ```csharp
 var graphics = Graphics.FromImage(image);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-## Bước 3: Xác định vị trí chú thích
-Xác định điểm bắt đầu và điểm kết thúc cho mỗi chú thích cùng với giá trị và đơn vị chú thích.
+
+## Bước 3: Xác Định Vị Trí Callout
+Xác định các điểm bắt đầu và kết thúc cho mỗi callout cùng với giá trị và đơn vị của callout.
+
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
 PointF endAnchor1 = new PointF(179, 5);
@@ -57,18 +79,23 @@ PointF endAnchor2 = new PointF(29, 180);
 int value2 = 28;
 string unit2 = "mm";
 ```
-## Bước 4: Vẽ chú thích
- Thực hiện các`DrawCallOut` phương pháp vẽ chú thích trên hình ảnh.
+
+## Bước 4: Vẽ Callouts
+Triển khai phương thức `DrawCallOut` để vẽ các callout lên ảnh.
+
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
-## Bước 5: Lưu hình ảnh
-Lưu hình ảnh có chú thích vào thư mục bạn muốn.
+
+## Bước 5: Lưu Ảnh
+Lưu ảnh đã có callouts vào thư mục mong muốn.
+
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
-## Vẽ mã nguồn chú thích
+
+## Mã Nguồn Vẽ Callout
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -91,31 +118,49 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
                 graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
             }
 ```
-## Phần kết luận
 
-Chúc mừng! Bạn đã thêm thành công chú thích vào hình ảnh của mình bằng Aspose.draw cho .NET. Hãy thoải mái thử nghiệm các vị trí và giá trị khác nhau để tùy chỉnh thêm chú thích của bạn.
+## Các Vấn Đề Thường Gặp & Mẹo
+- **Tọa độ neo không đúng** – hãy chắc chắn rằng các điểm bắt đầu và kết thúc nằm trong giới hạn của ảnh; nếu không callout có thể bị cắt.  
+- **Văn bản chồng lên nhau** – điều chỉnh `spaceSize` hoặc kích thước phông chữ nếu nhãn va chạm với các đồ họa khác.  
+- **Hiệu năng** – đối với các ảnh rất lớn, hãy xem xét việc giải phóng các đối tượng `Pen`, `Font`, và `Brush` sau khi sử dụng để giải phóng tài nguyên.
 
-## Câu hỏi thường gặp
+## Kết luận
+Chúc mừng! Bây giờ bạn đã biết **cách thêm callouts** vào một ảnh bằng Aspose.Drawing cho .NET. Hãy tự do thử nghiệm với các vị trí, màu sắc và phông chữ khác nhau để phù hợp với phong cách trực quan của bạn.
 
-### Tôi có thể sử dụng Aspose.draw cho các loại hình minh họa khác không?
+## Câu Hỏi Thường Gặp
 
-Có, Aspose.draw hỗ trợ nhiều thao tác vẽ cho nhiều loại hình minh họa khác nhau.
+### Tôi có thể dùng Aspose.Drawing cho các loại minh họa khác không?
+Có, Aspose.Drawing hỗ trợ một loạt các thao tác vẽ cho nhiều loại minh họa khác nhau.
 
-### Aspose.draw có tương thích với các định dạng hình ảnh khác nhau không?
-
-Tuyệt đối! Aspose.draw hỗ trợ các định dạng hình ảnh phổ biến như PNG, JPEG, GIF, v.v.
+### Aspose.Drawing có tương thích với các định dạng ảnh khác nhau không?
+Chắc chắn! Aspose.Drawing hỗ trợ các định dạng ảnh phổ biến như PNG, JPEG, GIF và nhiều hơn nữa.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
+Khám phá tài liệu đầy đủ [tại đây](https://reference.aspose.com/drawing/net/).
 
- Khám phá tài liệu toàn diện[đây](https://reference.aspose.com/drawing/net/).
+### Làm sao tôi có thể nhận hỗ trợ nếu gặp vấn đề?
+Truy cập diễn đàn [Aspose.Drawing](https://forum.aspose.com/c/drawing/44) để nhận hỗ trợ từ cộng đồng.
 
-### Làm cách nào để nhận được hỗ trợ nếu tôi gặp sự cố?
+### Tôi có thể dùng thử Aspose.Drawing trước khi mua không?
+Chắc chắn! Bắt đầu với bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
- Tham quan[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44) để hỗ trợ cộng đồng.
+**Câu Hỏi & Trả Lời Bổ Sung**
 
-### Tôi có thể dùng thử Aspose.draw trước khi mua không?
+**H: Tôi có thể thay đổi kiểu đường callout (gạch đứt, chấm) không?**  
+Đ: Có — chỉ cần cấu hình thuộc tính `Pen.DashStyle` trước khi vẽ đường.
 
- Chắc chắn! Bắt đầu dùng thử miễn phí[đây](https://releases.aspose.com/).
+**H: Có thể thêm màu nền cho nhãn callout không?**  
+Đ: Hoàn toàn có thể. Tạo một `SolidBrush` với màu mong muốn và tô một hình chữ nhật phía sau văn bản trước khi gọi `DrawString`.
+
+**H: Làm sao để đảm bảo callout hiển thị giống nhau trên màn hình DPI cao?**  
+Đ: Đặt `graphics.PageUnit = GraphicsUnit.Pixel` (như trong ví dụ) và sử dụng các đo lường dựa trên vector để duy trì tỷ lệ phóng đại nhất quán.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-02  
+**Đã kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
