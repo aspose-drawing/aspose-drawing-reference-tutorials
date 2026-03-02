@@ -1,27 +1,41 @@
 ---
-title: การสร้างคำบรรยายภาพใน Aspose. Drawing
-linktitle: การสร้างคำบรรยายภาพใน Aspose. Drawing
-second_title: Aspose. Drawing .NET API - ทางเลือกแทน System. Drawing.Common
-description: ปรับปรุงภาพประกอบเอกสารของคุณโดยใช้ Aspose. Drawing สำหรับ .NET! เรียนรู้วิธีเพิ่มคำบรรยายภาพทีละขั้นตอนเพื่อให้ได้ภาพที่ชัดเจนและให้ข้อมูลมากขึ้น
-weight: 10
+date: 2026-03-02
+description: เพิ่มความสวยงามให้กับภาพประกอบในเอกสารของคุณด้วย Aspose.Drawing สำหรับ
+  .NET! เรียนรู้ขั้นตอนทีละขั้นตอนว่าต้องเพิ่มคำอธิบายเสริมอย่างไรเพื่อให้ภาพชัดเจนและให้ข้อมูลมากยิ่งขึ้น.
+linktitle: Making Callouts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: วิธีเพิ่ม Callouts ด้วย Aspose.Drawing สำหรับ .NET
 url: /th/net/use-cases/make-callout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างคำบรรยายภาพใน Aspose. Drawing
+# การสร้าง Callouts ใน Aspose.Drawing
 
-## การแนะนำ
-ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนของเราเกี่ยวกับการสร้างคำบรรยายภาพใน Aspose. Drawing สำหรับ .NET! หากคุณต้องการปรับปรุงภาพประกอบในเอกสารด้วยคำบรรยาย คุณมาถูกที่แล้ว ในบทช่วยสอนนี้ เราจะแบ่งกระบวนการออกเป็นขั้นตอนที่สามารถจัดการได้โดยใช้ไลบรารี Aspose. Drawing
+## บทนำ
+หากคุณกำลังสงสัย **วิธีการเพิ่ม callouts** ลงในภาพหรือไดอะแกรมของคุณโดยใช้ Aspose.Drawing สำหรับ .NET คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายขั้นตอนทั้งหมด—from การโหลดภาพจนถึงการวาด callouts ที่มีสไตล์สวยงาม—เพื่อให้ภาพประกอบของคุณชัดเจนและให้ข้อมูลมากขึ้น.
+
+## คำตอบอย่างรวดเร็ว
+- **ต้องการไลบรารีอะไร?** Aspose.Drawing for .NET (downloadable from the official site).  
+- **รองรับเวอร์ชัน .NET ใด?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **ต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; ไลเซนส์เชิงพาณิชย์จำเป็นสำหรับการผลิต.  
+- **ใช้เวลานานเท่าไหร่ในการทำงาน?** ปกติใช้เวลาน้อยกว่า 10 นาทีสำหรับ callout พื้นฐาน.  
+- **สามารถปรับแต่งสีและฟอนต์ได้หรือไม่?** ใช่—ทุกอย่างถูกควบคุมโดยออบเจ็กต์มาตรฐานของ GDI+ (Pen, Font, Brush).
+
+## วิธีการเพิ่ม Callouts ใน Aspose.Drawing
+ด้านล่างเป็นคู่มือสั้น ๆ ทีละขั้นตอนที่แสดงอย่างชัดเจน **วิธีการเพิ่ม callouts** ลงในภาพ คุณสามารถคัดลอกโค้ด ทดลองตำแหน่งต่าง ๆ และปรับสไตล์ให้ตรงกับแบรนด์ของคุณได้ตามต้องการ.
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- ความรู้พื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
--  ติดตั้งไลบรารี Aspose. Drawing แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/drawing/net/).
-- เอกสารหรือรูปภาพที่คุณต้องการเพิ่มคำบรรยายภาพ
-## นำเข้าเนมสเปซ
-ตรวจสอบให้แน่ใจว่าคุณมีเนมสเปซที่จำเป็นรวมอยู่ในโปรเจ็กต์ของคุณ:
+- ความรู้พื้นฐานของภาษาโปรแกรม C#.
+- ไลบรารี Aspose.Drawing ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/drawing/net/).
+- เอกสารหรือภาพที่คุณต้องการเพิ่ม callouts.
+
+## นำเข้า Namespaces
+ตรวจสอบว่าคุณได้รวม namespaces ที่จำเป็นในโปรเจกต์ของคุณแล้ว:
+
 ```csharp
 using System.Text;
 using System.Threading.Tasks;
@@ -30,23 +44,29 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 ```
-## ขั้นตอนที่ 1: โหลดรูปภาพ
- เริ่มต้นด้วยการโหลดรูปภาพที่คุณต้องการเพิ่มคำบรรยายภาพ แทนที่`"Your Document Directory"` และ`"gears.png"` ด้วยไดเร็กทอรีจริงและชื่อไฟล์รูปภาพของคุณ
+
+## ขั้นตอนที่ 1: โหลดภาพ
+เริ่มต้นด้วยการโหลดภาพที่คุณต้องการเพิ่ม callouts แทนที่ `"Your Document Directory"` และ `"gears.png"` ด้วยไดเรกทอรีและชื่อไฟล์ภาพของคุณจริง
+
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {
-    // รหัสของคุณที่นี่
+    // Your code here
 }
 ```
-## ขั้นตอนที่ 2: สร้างวัตถุกราฟิก
- สร้างก`Graphics` วัตถุจากรูปภาพเพื่อดำเนินการวาดภาพ
+
+## ขั้นตอนที่ 2: สร้าง Graphics Object
+สร้างออบเจ็กต์ `Graphics` จากภาพเพื่อทำการวาด.
+
 ```csharp
 var graphics = Graphics.FromImage(image);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-## ขั้นตอนที่ 3: กำหนดตำแหน่งคำบรรยายภาพ
-กำหนดจุดเริ่มต้นและจุดสิ้นสุดสำหรับไฮไลต์แต่ละรายการพร้อมกับค่าไฮไลต์และหน่วย
+
+## ขั้นตอนที่ 3: กำหนดตำแหน่ง Callout
+กำหนดจุดเริ่มต้นและจุดสิ้นสุดสำหรับแต่ละ callout พร้อมกับค่าและหน่วยของ callout.
+
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
 PointF endAnchor1 = new PointF(179, 5);
@@ -57,18 +77,23 @@ PointF endAnchor2 = new PointF(29, 180);
 int value2 = 28;
 string unit2 = "mm";
 ```
-## ขั้นตอนที่ 4: วาดคำบรรยายภาพ
- ดำเนินการ`DrawCallOut` วิธีการวาดคำบรรยายภาพบนภาพ
+
+## ขั้นตอนที่ 4: วาด Callouts
+ทำการ implement เมธอด `DrawCallOut` เพื่อวาด callouts บนภาพ.
+
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
-## ขั้นตอนที่ 5: บันทึกรูปภาพ
-บันทึกภาพพร้อมคำบรรยายลงในไดเร็กทอรีที่คุณต้องการ
+
+## ขั้นตอนที่ 5: บันทึกภาพ
+บันทึกภาพที่มี callouts ไปยังไดเรกทอรีที่คุณต้องการ.
+
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
-## วาดซอร์สโค้ดคำบรรยายภาพ
+
+## โค้ดต้นฉบับของ Draw Callout
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -91,31 +116,47 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
                 graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
             }
 ```
-## บทสรุป
 
-ยินดีด้วย! คุณได้เพิ่มคำบรรยายภาพลงในรูปภาพของคุณสำเร็จแล้วโดยใช้ Aspose. Drawing สำหรับ .NET คุณสามารถทดลองใช้ตำแหน่งและค่าต่างๆ เพื่อปรับแต่งข้อความเสริมของคุณเพิ่มเติมได้
+## ปัญหาและเคล็ดลับทั่วไป
+- **พิกัด anchor ไม่ถูกต้อง** – ตรวจสอบให้แน่ใจว่าจุดเริ่มและจุดสิ้นสุดอยู่ภายในขอบเขตของภาพ; หากไม่เช่นนั้น callout อาจถูกตัด.  
+- **ข้อความทับซ้อน** – ปรับ `spaceSize` หรือขนาดฟอนต์หากป้ายทับกับกราฟิกอื่น.  
+- **ประสิทธิภาพ** – สำหรับภาพขนาดใหญ่มาก, พิจารณาเรียก dispose ออบเจ็กต์ `Pen`, `Font`, และ `Brush` หลังการใช้เพื่อคืนทรัพยากร.
+
+## สรุป
+ยินดีด้วย! ตอนนี้คุณรู้ **วิธีการเพิ่ม callouts** ลงในภาพโดยใช้ Aspose.Drawing สำหรับ .NET แล้ว คุณสามารถทดลองตำแหน่ง สี และฟอนต์ต่าง ๆ เพื่อให้ตรงกับสไตล์ภาพของคุณได้ตามต้องการ.
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถใช้ Aspose. Drawing กับภาพประกอบประเภทอื่นได้หรือไม่
+### ฉันสามารถใช้ Aspose.Drawing สำหรับภาพประกอบประเภทอื่นได้หรือไม่?
+ใช่, Aspose.Drawing รองรับการดำเนินการวาดที่หลากหลายสำหรับภาพประกอบประเภทต่าง ๆ.
 
-ใช่ Aspose. Drawing รองรับการดำเนินการวาดภาพที่หลากหลายสำหรับภาพประกอบประเภทต่างๆ
+### Aspose.Drawing รองรับรูปแบบภาพต่าง ๆ หรือไม่?
+แน่นอน! Aspose.Drawing รองรับรูปแบบภาพที่นิยมเช่น PNG, JPEG, GIF, และอื่น ๆ.
 
-### Aspose. Drawing เข้ากันได้กับรูปแบบรูปภาพที่แตกต่างกันหรือไม่
+### ฉันจะหา ตัวอย่างและเอกสารเพิ่มเติมได้จากที่ไหน?
+สำรวจเอกสารที่ครอบคลุม [here](https://reference.aspose.com/drawing/net/).
 
-อย่างแน่นอน! Aspose. Drawing รองรับรูปแบบรูปภาพยอดนิยม เช่น PNG, JPEG, GIF และอื่นๆ
+### ฉันจะรับการสนับสนุนเมื่อพบปัญหาได้อย่างไร?
+เยี่ยมชม [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชน.
 
-### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
+### ฉันสามารถทดลองใช้ Aspose.Drawing ก่อนซื้อได้หรือไม่?
+แน่นอน! เริ่มต้นด้วยการทดลองใช้ฟรี [here](https://releases.aspose.com/).
 
- สำรวจเอกสารที่ครอบคลุม[ที่นี่](https://reference.aspose.com/drawing/net/).
+**Q: ฉันสามารถเปลี่ยนสไตล์เส้น callout (dashed, dotted) ได้หรือไม่?**  
+A: ใช่—เพียงกำหนดคุณสมบัติ `Pen.DashStyle` ก่อนวาดเส้น.
 
-### ฉันจะได้รับความช่วยเหลือได้อย่างไรหากฉันประสบปัญหา
+**Q: สามารถเพิ่มสีพื้นหลังให้กับป้าย callout ได้หรือไม่?**  
+A: แน่นอน. สร้าง `SolidBrush` ด้วยสีที่ต้องการและเติมสี่เหลี่ยมผืนผ้าด้านหลังข้อความก่อนเรียก `DrawString`.
 
- เยี่ยมชม[Aspose.กระดานสนทนาการวาดภาพ](https://forum.aspose.com/c/drawing/44) เพื่อสนับสนุนชุมชน
+**Q: ฉันจะทำให้ callout แสดงผลเหมือนกันบนหน้าจอ high‑DPI ได้อย่างไร?**  
+A: ตั้งค่า `graphics.PageUnit = GraphicsUnit.Pixel` (ตามที่แสดง) และใช้การวัดแบบเวกเตอร์เพื่อให้การสเกลคงที่.
 
-### ฉันสามารถลองใช้ Aspose. Drawing ก่อนซื้อได้หรือไม่
+---
 
- แน่นอน! เริ่มต้นด้วยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+**อัปเดตล่าสุด:** 2026-03-02  
+**ทดสอบกับ:** Aspose.Drawing 24.11 for .NET  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

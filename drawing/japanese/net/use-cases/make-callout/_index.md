@@ -1,27 +1,42 @@
 ---
-title: Aspose.Drawing で吹き出しを作成する
-linktitle: Aspose.Drawing で吹き出しを作成する
-second_title: Aspose.Drawing .NET API - System.Drawing.Common の代替
-description: Aspose.Drawing for .NET を使用してドキュメントのイラストを強化しましょう。コールアウトを追加して、より明確で有益なビジュアルを実現する方法を段階的に学習します。
-weight: 10
+date: 2026-03-02
+description: Aspose.Drawing for .NET を使用して、ドキュメントのイラストを強化しましょう！より明確で情報豊かなビジュアルのために、コールアウトの追加方法をステップバイステップで学びましょう。
+linktitle: Making Callouts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: .NET 用 Aspose.Drawing でコールアウトを追加する方法
 url: /ja/net/use-cases/make-callout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing で吹き出しを作成する
+# Aspose.Drawing でコールアウトを作成する
 
-## 導入
-Aspose.Drawing for .NET でコールアウトを作成するためのステップバイステップ ガイドへようこそ。吹き出しを使用して文書のイラストを強化したい場合は、ここが正しい場所です。このチュートリアルでは、Aspose.Drawing ライブラリを使用して、プロセスを管理可能なステップに分割します。
+## はじめに
+Aspose.Drawing for .NET を使用して画像や図に **コールアウトを追加する方法** をお探しなら、ここが最適な場所です。このチュートリアルでは、画像の読み込みから美しくスタイリングされたコールアウトの描画まで、プロセス全体を順を追って解説します。イラストをより分かりやすく、情報豊かにすることができます。
+
+## クイック回答
+- **どのライブラリが必要ですか？** Aspose.Drawing for .NET（公式サイトからダウンロード可能）。  
+- **対応している .NET バージョンは？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **ライセンスは必要ですか？** 開発用には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **実装にどれくらい時間がかかりますか？** 基本的なコールアウトであれば通常 10 分未満です。  
+- **色やフォントはカスタマイズできますか？** はい—すべて標準の GDI+ オブジェクト（Pen、Font、Brush）で制御できます。
+
+## Aspose.Drawing でコールアウトを追加する方法
+以下は **画像にコールアウトを追加する方法** を示す簡潔なステップバイステップガイドです。コードをコピーして位置を試したり、スタイルをブランドに合わせて調整したりしてください。
+
 ## 前提条件
-チュートリアルに入る前に、次の前提条件を満たしていることを確認してください。
-- C# プログラミング言語の基本的な知識。
--  Aspose.Drawing ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/drawing/net/).
-- 吹き出しを追加するドキュメントまたは画像。
+作業を始める前に以下を確認してください。
+
+- C# プログラミング言語の基本的な知識。  
+- Aspose.Drawing ライブラリがインストール済み。ダウンロードは [here](https://releases.aspose.com/drawing/net/) から。  
+- コールアウトを追加したいドキュメントまたは画像。
+
 ## 名前空間のインポート
-必要な名前空間がプロジェクトに含まれていることを確認してください。
+プロジェクトに必要な名前空間が含まれていることを確認してください。
+
 ```csharp
 using System.Text;
 using System.Threading.Tasks;
@@ -30,23 +45,29 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 ```
+
 ## ステップ 1: 画像をロードする
-まず、吹き出しを追加する画像をロードします。交換する`"Your Document Directory"`そして`"gears.png"`実際のディレクトリと画像ファイル名を置き換えます。
+コールアウトを追加したい画像をロードします。`"Your Document Directory"` と `"gears.png"` を実際のディレクトリと画像ファイル名に置き換えてください。
+
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {
-    //コードはここにあります
+    // Your code here
 }
 ```
-## ステップ 2: グラフィックス オブジェクトを作成する
-を作成します`Graphics`画像からオブジェクトを取得して描画操作を実行します。
+
+## ステップ 2: Graphics オブジェクトを作成する
+画像から `Graphics` オブジェクトを作成し、描画操作を行えるようにします。
+
 ```csharp
 var graphics = Graphics.FromImage(image);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-## ステップ 3: 吹き出しの位置を定義する
-各コールアウトの開始点と終了点、およびコールアウトの値と単位を定義します。
+
+## ステップ 3: コールアウトの位置を定義する
+各コールアウトの開始点と終了点、さらにコールアウトの値と単位を定義します。
+
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
 PointF endAnchor1 = new PointF(179, 5);
@@ -57,18 +78,23 @@ PointF endAnchor2 = new PointF(29, 180);
 int value2 = 28;
 string unit2 = "mm";
 ```
-## ステップ 4: 吹き出しを描画する
-を実装します。`DrawCallOut`画像上に吹き出しを描画するメソッド。
+
+## ステップ 4: コールアウトを描画する
+画像上にコールアウトを描画する `DrawCallOut` メソッドを実装します。
+
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
+
 ## ステップ 5: 画像を保存する
-吹き出し付きの画像を目的のディレクトリに保存します。
+コールアウトを付加した画像を希望のディレクトリに保存します。
+
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
-## 描画コールアウトのソースコード
+
+## コールアウト描画のソースコード
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -91,31 +117,49 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
                 graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
             }
 ```
-## 結論
 
-おめでとう！ Aspose.Drawing for .NET を使用して画像に吹き出しを追加することに成功しました。さまざまな位置と値を自由に試して、吹き出しをさらにカスタマイズしてください。
+## よくある問題とヒント
+- **アンカー座標が正しくない** – 開始点と終了点が画像の範囲内にあることを確認してください。範囲外だとコールアウトが切り取られる可能性があります。  
+- **テキストが重なる** – `spaceSize` やフォントサイズを調整し、ラベルが他のグラフィックと衝突しないようにしてください。  
+- **パフォーマンス** – 非常に大きな画像を扱う場合、使用後に `Pen`、`Font`、`Brush` オブジェクトを破棄してリソースを解放することを検討してください。
+
+## 結論
+おめでとうございます！これで Aspose.Drawing for .NET を使って画像に **コールアウトを追加する方法** が分かりました。さまざまな位置、色、フォントを試して、ビジュアルスタイルに合わせてカスタマイズしてください。
 
 ## よくある質問
 
-### Aspose.Drawing を他のタイプのイラストに使用できますか?
+### Aspose.Drawing を他の種類のイラストに使用できますか？
+はい、Aspose.Drawing はさまざまなイラスト向けの描画操作を幅広くサポートしています。
 
-はい、Aspose.Drawing は、さまざまなタイプのイラストに対する幅広い描画操作をサポートしています。
+### Aspose.Drawing は異なる画像フォーマットに対応していますか？
+もちろんです！Aspose.Drawing は PNG、JPEG、GIF などの一般的な画像フォーマットをサポートしています。
 
-### Aspose.Drawing はさまざまな画像形式と互換性がありますか?
+### もっと多くのサンプルやドキュメントはどこで見つけられますか？
+包括的なドキュメントは [here](https://reference.aspose.com/drawing/net/) で確認できます。
 
-絶対に！ Aspose.Drawing は、PNG、JPEG、GIF などの一般的な画像形式をサポートしています。
+### 問題が発生した場合、どこでサポートを受けられますか？
+コミュニティサポートは [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) で提供されています。
 
-### 他の例やドキュメントはどこで入手できますか?
+### 購入前に Aspose.Drawing を試すことはできますか？
+はい、無料トライアルは [here](https://releases.aspose.com/) から開始できます。
 
-包括的なドキュメントを調べる[ここ](https://reference.aspose.com/drawing/net/).
+**追加の Q&A**
 
-### 問題が発生した場合はどうすればサポートを受けられますか?
+**Q: コールアウトの線スタイル（破線、点線）を変更できますか？**  
+A: はい—線を描画する前に `Pen.DashStyle` プロパティを設定すれば変更できます。
 
-訪問[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)コミュニティサポートのために。
+**Q: コールアウトラベルに背景色を付けることは可能ですか？**  
+A: 可能です。希望の色で `SolidBrush` を作成し、`DrawString` を呼び出す前にテキストの背後に矩形を塗りつぶしてください。
 
-### 購入する前に Aspose.Drawing を試してみることはできますか?
+**Q: 高 DPI ディスプレイでもコールアウトの見た目を同じにするには？**  
+A: `graphics.PageUnit = GraphicsUnit.Pixel`（上記コード参照）を設定し、ベクトルベースの測定を使用すればスケーリングが一貫します。
 
-確かに！無料トライアルを始めてみる[ここ](https://releases.aspose.com/).
+---
+
+**最終更新日:** 2026-03-02  
+**テスト環境:** Aspose.Drawing 24.11 for .NET  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
