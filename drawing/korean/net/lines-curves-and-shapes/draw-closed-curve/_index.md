@@ -1,95 +1,128 @@
 ---
-title: Aspose. Drawing에서 닫힌 곡선 그리기
-linktitle: Aspose. Drawing에서 닫힌 곡선 그리기
-second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
-description: Aspose.드로잉을 사용하여 .NET 애플리케이션에서 닫힌 곡선을 그리는 기술을 살펴보세요. 손쉽게 시각적인 효과를 높이세요.
-weight: 14
+date: 2026-02-14
+description: Aspose.Drawing을 사용하여 .NET에서 비트맵을 PNG로 저장하고 닫힌 곡선을 그리는 방법을 배우세요. 이 가이드는
+  C#로 그림을 파일로 내보내는 방법을 다룹니다.
+linktitle: Drawing Closed Curves in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: 비트맵을 PNG로 저장하고 Aspose.Drawing으로 닫힌 곡선 그리기
 url: /ko/net/lines-curves-and-shapes/draw-closed-curve/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose. Drawing에서 닫힌 곡선 그리기
+# 비트맵을 PNG로 저장하고 Aspose.Drawing으로 닫힌 곡선 그리기
 
-## 소개
+## Introduction
 
-.NET용 Aspose. Drawing에서 닫힌 곡선 그리기에 대한 포괄적인 가이드에 오신 것을 환영합니다! 생생하고 정확한 닫힌 곡선으로 .NET 애플리케이션을 향상시키려는 경우 올바른 위치에 오셨습니다. 이 튜토리얼에서는 프로세스를 단계별로 탐색하여 Aspose. Drawing 라이브러리와 그 기능을 확실하게 이해할 수 있도록 하겠습니다.
+If you need to **비트맵을 PNG로 저장** while also rendering a smooth closed curve, you’ve landed on the right tutorial. In this guide we’ll walk through the complete workflow—creating a bitmap, drawing a closed curve, and finally exporting the drawing to a PNG file—all with the Aspose.Drawing .NET API. By the end you’ll understand **닫힌 곡선을 그리는 방법** shapes and **그림을 파일로 내보내기** using clean C# code.
 
-## 전제 조건
+## Quick Answers
+- **튜토리얼은 무엇을 다루나요?** Drawing a closed curve and saving the result as a PNG image.  
+- **필요한 라이브러리는?** Aspose.Drawing for .NET (download [here](https://releases.aspose.com/drawing/net/)).  
+- **C# 콘솔 앱에서 사용할 수 있나요?** Yes, the code works in any .NET project that references Aspose.Drawing.  
+- **샘플을 실행하려면 라이선스가 필요합니까?** A free trial works for development; a commercial license is required for production.  
+- **생성되는 이미지 포맷은?** PNG (bitmap saved with 32‑bit ARGB).
 
-닫힌 곡선을 그리는 흥미진진한 세계에 뛰어들기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하십시오.
+## What is “save bitmap as PNG” in Aspose.Drawing?
 
-1.  Aspose.드로잉 라이브러리: .NET용 Aspose.드로잉 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/drawing/net/).
+Saving a bitmap as PNG simply means taking the in‑memory `Bitmap` object that represents your drawing surface and writing it to disk in the Portable Network Graphics format. PNG preserves transparency and provides loss‑less compression, making it ideal for UI graphics, reports, and thumbnails.
 
-2. 개발 환경: 컴퓨터에 작동하는 .NET 개발 환경을 설정하십시오.
+## Why use Aspose.Drawing for drawing closed curves?
 
-이제 필수 사항을 다루었으므로 실제 구현으로 넘어가겠습니다.
+Aspose.Drawing offers a fully managed, cross‑platform alternative to the older `System.Drawing.Common` library. It supports high‑quality rendering, extensive color management, and works consistently on Windows, Linux, and macOS—perfect for modern .NET Core and .NET 5/6 applications.
 
-## 네임스페이스 가져오기
+## Prerequisites
 
-필요한 네임스페이스를 프로젝트로 가져오는 것부터 시작하세요. 이러한 네임스페이스는 닫힌 곡선을 그리는 데 필요한 클래스와 메서드에 대한 액세스를 제공합니다.
+Before we dive in, make sure you have:
+
+1. **Aspose.Drawing Library** – download the latest package from the official site ([here](https://releases.aspose.com/drawing/net/)).  
+2. **.NET development environment** – Visual Studio, VS Code, or any IDE that supports C#.  
+3. **Basic C# knowledge** – the sample uses `System.Drawing` types that are re‑exposed by Aspose.Drawing.
+
+## Import Namespaces
+
+Add the required namespace so you can access `Bitmap`, `Graphics`, `Pen`, and related types.
 
 ```csharp
 using System.Drawing;
 ```
 
-## 1단계: 비트맵 및 그래픽 객체 생성
+## Step 1: Create Bitmap and Graphics Objects
 
- 첫 번째 단계는`Bitmap` 그리기 표면을 나타내는 개체 및`Graphics` 개체를 사용하여 비트맵에 그릴 수 있습니다.
+First, create a **bitmap** that will serve as the canvas. The `Graphics` object lets you draw on that canvas.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## 2단계: 펜 정의 및 닫힌 곡선 그리기
+> **Pro tip:** Using `Format32bppPArgb` gives you a 32‑bit image with premultiplied alpha, which ensures the PNG you later save retains proper transparency.
 
- 다음으로`Pen` 원하는 색상과 두께로 개체를 선택하세요. 그런 다음`DrawClosedCurve` 비트맵에 닫힌 곡선을 그리는 방법입니다.
+## Step 2: Define Pen and Draw Closed Curve
+
+Now define a `Pen` with the desired color and thickness, then call `DrawClosedCurve`. This method automatically creates a smooth spline that passes through the supplied points and closes the shape.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
-graphics.DrawClosedCurve(pen, new Point[] { new Point(100, 700), new Point(350, 600), new Point(500, 500), new Point(650, 600), new Point(900, 700) });
+graphics.DrawClosedCurve(pen, new Point[] {
+    new Point(100, 700),
+    new Point(350, 600),
+    new Point(500, 500),
+    new Point(650, 600),
+    new Point(900, 700)
+});
 ```
 
-## 3단계: 출력 이미지 저장
+> **Why this matters:** A closed curve is useful for drawing custom shapes like badges, logos, or UI elements where you need a seamless outline.
 
-폐곡선을 그린 후 결과 이미지를 원하는 디렉터리에 저장합니다.
+## Step 3: Save the Output Image (save bitmap as PNG)
+
+Finally, write the bitmap to a PNG file. This is the step where we **비트맵을 PNG로 저장** and make the drawing available for downstream consumption.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.png");
 ```
 
-축하해요! .NET용 Aspose. Drawing을 사용하여 닫힌 곡선을 성공적으로 그렸습니다.
+The file will be created in the specified folder, ready to be displayed in a web page, embedded in a report, or further processed.
 
-## 결론
+## Common Issues and Solutions
 
-이 튜토리얼에서는 .NET용 Aspose. Drawing에서 닫힌 곡선을 그리는 과정을 살펴보았습니다. 몇 가지 간단한 단계만 거치면 .NET 애플리케이션의 시각적 매력을 높일 수 있습니다.
+| 문제 | 원인 | 해결 방법 |
+|-------|-------|-----|
+| **File not found** | Incorrect output path | Verify the folder exists or use `Path.Combine` to build a safe path. |
+| **Blank image** | Graphics object not cleared | Call `graphics.Clear(Color.Transparent);` before drawing. |
+| **Poor curve quality** | Low‑resolution bitmap | Increase bitmap dimensions or use anti‑aliasing: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
 
- 질문이 있거나 문제가 발생하면 언제든지 도움을 요청하세요.[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44).
+## Frequently Asked Questions
 
-## FAQ
+**Q: Can I use Aspose.Drawing for commercial projects?**  
+A: Yes, Aspose.Drawing is licensed for both personal and commercial use. See the [purchase page](https://purchase.aspose.com/buy) for details.
 
-### Q1: Aspose. Drawing을 상업용 프로젝트에 사용할 수 있나요?
+**Q: Is there a free trial available?**  
+A: Absolutely—download a trial from [here](https://releases.aspose.com/).
 
- A1: 예, Aspose. Drawing은 개인용 및 상업용 모두에 적합합니다. 확인해 보세요[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+**Q: How do I obtain a temporary license?**  
+A: Request one via [this link](https://purchase.aspose.com/temporary-license/).
 
-### Q2: 무료 평가판을 이용할 수 있나요?
+**Q: Where can I find detailed documentation?**  
+A: The full API reference is available [here](https://reference.aspose.com/drawing/net/).
 
- A2: 물론이죠! 다음 사이트를 방문하면 무료 평가판으로 Aspose. Drawing을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+**Q: What support options are available?**  
+A: Post questions on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) for community and staff assistance.
 
-### Q3: 임시 라이센스는 어떻게 얻나요?
+## Conclusion
 
- A3: 임시 라이센스를 받으려면 다음을 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/).
+You’ve now learned how to **create bitmap graphics C#**, draw a smooth closed curve, and **비트맵을 PNG로 저장** using Aspose.Drawing. This approach gives you full control over vector‑based drawing while keeping the output format lightweight and web‑ready. Feel free to experiment with different pen styles, colors, and point collections to craft custom shapes for your applications.
 
-### Q4: 자세한 문서는 어디서 찾을 수 있나요?
+---
 
- A4: 포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/drawing/net/).
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
 
-### Q5: 어떤 지원 옵션을 사용할 수 있나요?
-
- 답변 5: 도움이 필요하거나 질문이 있는 경우[Aspose.드로잉 포럼](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

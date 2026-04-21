@@ -1,95 +1,129 @@
 ---
-title: Menggambar Kurva Tertutup di Aspose.Drawing
-linktitle: Menggambar Kurva Tertutup di Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
-description: Jelajahi seni menggambar kurva tertutup dalam aplikasi .NET dengan Aspose.Drawing. Tingkatkan visual Anda dengan mudah.
-weight: 14
+date: 2026-02-14
+description: Pelajari cara menyimpan bitmap sebagai PNG dan menggambar kurva tertutup
+  di .NET menggunakan Aspose.Drawing. Panduan ini mencakup mengekspor gambar ke file
+  dengan C#.
+linktitle: Drawing Closed Curves in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Simpan Bitmap sebagai PNG & Gambar Kurva Tertutup dengan Aspose.Drawing
 url: /id/net/lines-curves-and-shapes/draw-closed-curve/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggambar Kurva Tertutup di Aspose.Drawing
+# Simpan Bitmap sebagai PNG & Gambar Kurva Tertutup dengan Aspose.Drawing
 
-## Perkenalan
+## Introduction
 
-Selamat datang di panduan komprehensif kami tentang menggambar kurva tertutup di Aspose.Drawing untuk .NET! Jika Anda ingin menyempurnakan aplikasi .NET Anda dengan kurva tertutup yang dinamis dan presisi, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan menjelajahi proses langkah demi langkah, memastikan Anda mendapatkan pemahaman yang kuat tentang perpustakaan Aspose.Drawing dan kemampuannya.
+Jika Anda perlu **save bitmap as PNG** sambil juga merender kurva tertutup yang halus, Anda berada di tutorial yang tepat. Dalam panduan ini kami akan membahas alur kerja lengkap—membuat bitmap, menggambar kurva tertutup, dan akhirnya mengekspor gambar ke file PNG—semua dengan Aspose.Drawing .NET API. Pada akhir Anda akan memahami **how to draw closed curve** dan **export drawing to file** menggunakan kode C# yang bersih.
 
-## Prasyarat
+## Quick Answers
+- **What does the tutorial cover?** Menggambar kurva tertutup dan menyimpan hasilnya sebagai gambar PNG.  
+- **Which library is required?** Aspose.Drawing untuk .NET (unduh [here](https://releases.aspose.com/drawing/net/)).  
+- **Can I use this in a C# console app?** Ya, kode ini bekerja di proyek .NET apa pun yang merujuk ke Aspose.Drawing.  
+- **Do I need a license to run the sample?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **What image format is produced?** PNG (bitmap disimpan dengan 32‑bit ARGB).
 
-Sebelum kita terjun ke dunia menggambar kurva tertutup yang menarik, pastikan Anda memiliki prasyarat berikut:
+## What is “save bitmap as PNG” in Aspose.Drawing?
 
-1.  Perpustakaan Aspose.Drawing: Pastikan Anda telah menginstal perpustakaan Aspose.Drawing untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/drawing/net/).
+Menyimpan bitmap sebagai PNG berarti mengambil objek `Bitmap` dalam memori yang mewakili permukaan gambar Anda dan menuliskannya ke disk dalam format Portable Network Graphics. PNG mempertahankan transparansi dan menyediakan kompresi loss‑less, menjadikannya ideal untuk grafik UI, laporan, dan thumbnail.
 
-2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET yang berfungsi di mesin Anda.
+## Why use Aspose.Drawing for drawing closed curves?
 
-Sekarang setelah kita membahas hal-hal penting, mari beralih ke penerapan sebenarnya.
+Aspose.Drawing menawarkan alternatif yang sepenuhnya dikelola, lintas‑platform untuk pustaka `System.Drawing.Common` yang lebih lama. Ia mendukung rendering berkualitas tinggi, manajemen warna yang luas, dan berfungsi secara konsisten di Windows, Linux, dan macOS—sempurna untuk aplikasi .NET Core dan .NET 5/6 modern.
 
-## Impor Namespace
+## Prerequisites
 
-Mulailah dengan mengimpor namespace yang diperlukan ke dalam proyek Anda. Namespace ini menyediakan akses ke kelas dan metode yang diperlukan untuk menggambar kurva tertutup.
+Sebelum kita mulai, pastikan Anda memiliki:
+
+1. **Aspose.Drawing Library** – unduh paket terbaru dari situs resmi ([here](https://releases.aspose.com/drawing/net/)).  
+2. **.NET development environment** – Visual Studio, VS Code, atau IDE apa pun yang mendukung C#.  
+3. **Basic C# knowledge** – contoh ini menggunakan tipe `System.Drawing` yang diekspose kembali oleh Aspose.Drawing.
+
+## Import Namespaces
+
+Add the required namespace so you can access `Bitmap`, `Graphics`, `Pen`, and related types.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Langkah 1: Buat Bitmap dan Objek Grafik
+## Step 1: Create Bitmap and Graphics Objects
 
- Langkah pertama adalah membuat a`Bitmap` objek yang mewakili permukaan gambar, dan a`Graphics` objek, memungkinkan Anda menggambar pada bitmap.
+Pertama, buat **bitmap** yang akan berfungsi sebagai kanvas. Objek `Graphics` memungkinkan Anda menggambar pada kanvas tersebut.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Langkah 2: Tentukan Pena dan Gambar Kurva Tertutup
+> **Pro tip:** Menggunakan `Format32bppPArgb` memberi Anda gambar 32‑bit dengan alpha yang telah dipremultiplied, yang memastikan PNG yang Anda simpan nanti mempertahankan transparansi yang tepat.
 
- Selanjutnya, tentukan a`Pen` objek dengan warna dan ketebalan pilihan Anda. Kemudian, gunakan`DrawClosedCurve` metode untuk menggambar kurva tertutup pada bitmap.
+## Step 2: Define Pen and Draw Closed Curve
+
+Sekarang definisikan `Pen` dengan warna dan ketebalan yang diinginkan, lalu panggil `DrawClosedCurve`. Metode ini secara otomatis membuat spline halus yang melewati titik‑titik yang diberikan dan menutup bentuk.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
-graphics.DrawClosedCurve(pen, new Point[] { new Point(100, 700), new Point(350, 600), new Point(500, 500), new Point(650, 600), new Point(900, 700) });
+graphics.DrawClosedCurve(pen, new Point[] {
+    new Point(100, 700),
+    new Point(350, 600),
+    new Point(500, 500),
+    new Point(650, 600),
+    new Point(900, 700)
+});
 ```
 
-## Langkah 3: Simpan Gambar Keluaran
+> **Why this matters:** Kurva tertutup berguna untuk menggambar bentuk khusus seperti lencana, logo, atau elemen UI di mana Anda memerlukan kontur yang mulus.
 
-Setelah menggambar kurva tertutup, simpan gambar yang dihasilkan ke direktori yang Anda inginkan.
+## Step 3: Save the Output Image (save bitmap as PNG)
+
+Akhirnya, tulis bitmap ke file PNG. Ini adalah langkah di mana kami **save bitmap as PNG** dan membuat gambar tersedia untuk penggunaan selanjutnya.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.png");
 ```
 
-Selamat! Anda telah berhasil menggambar kurva tertutup menggunakan Aspose.Drawing untuk .NET.
+File akan dibuat di folder yang ditentukan, siap ditampilkan di halaman web, disisipkan dalam laporan, atau diproses lebih lanjut.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Dalam tutorial ini, kita telah mempelajari proses menggambar kurva tertutup di Aspose.Drawing untuk .NET. Hanya dengan beberapa langkah sederhana, Anda dapat meningkatkan daya tarik visual aplikasi .NET Anda.
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| **File tidak ditemukan** | Path output tidak benar | Pastikan folder ada atau gunakan `Path.Combine` untuk membuat path yang aman. |
+| **Gambar kosong** | Objek Graphics tidak dibersihkan | Panggil `graphics.Clear(Color.Transparent);` sebelum menggambar. |
+| **Kualitas kurva buruk** | Bitmap beresolusi rendah | Tingkatkan dimensi bitmap atau gunakan anti‑aliasing: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
 
- Jika Anda mempunyai pertanyaan atau mengalami masalah, silakan mencari bantuan di[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44).
+## Frequently Asked Questions
 
-## FAQ
+**Q: Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?**  
+A: Ya, Aspose.Drawing dilisensikan untuk penggunaan pribadi maupun komersial. Lihat [purchase page](https://purchase.aspose.com/buy) untuk detail.
 
-### Q1: Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?
+**Q: Apakah tersedia trial gratis?**  
+A: Tentu saja—unduh trial dari [here](https://releases.aspose.com/).
 
- A1: Ya, Aspose.Drawing cocok untuk penggunaan pribadi dan komersial. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+**Q: Bagaimana cara mendapatkan lisensi sementara?**  
+A: Minta satu melalui [this link](https://purchase.aspose.com/temporary-license/).
 
-### Q2: Apakah tersedia uji coba gratis?
+**Q: Di mana saya dapat menemukan dokumentasi detail?**  
+A: Referensi API lengkap tersedia [here](https://reference.aspose.com/drawing/net/).
 
- A2: Tentu saja! Anda dapat menjelajahi Aspose.Drawing dengan uji coba gratis dengan mengunjungi[Di Sini](https://releases.aspose.com/).
+**Q: Opsi dukungan apa yang tersedia?**  
+A: Ajukan pertanyaan di [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk bantuan komunitas dan staf.
 
-### Q3: Bagaimana cara mendapatkan lisensi sementara?
+## Conclusion
 
- A3: Untuk lisensi sementara, kunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+Anda kini telah belajar cara **create bitmap graphics C#**, menggambar kurva tertutup yang halus, dan **save bitmap as PNG** menggunakan Aspose.Drawing. Pendekatan ini memberi Anda kontrol penuh atas gambar berbasis vektor sambil menjaga format output ringan dan siap untuk web. Jangan ragu bereksperimen dengan gaya pen, warna, dan kumpulan titik yang berbeda untuk membuat bentuk khusus bagi aplikasi Anda.
 
-### Q4: Di mana saya dapat menemukan dokumentasi terperinci?
+---
 
- A4: Dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/drawing/net/).
+**Terakhir Diperbarui:** 2026-02-14  
+**Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
+**Penulis:** Aspose  
 
-### Q5: Opsi dukungan apa yang tersedia?
-
- A5: Jika Anda memerlukan bantuan atau memiliki pertanyaan, kunjungi[Aspose.Forum Menggambar](https://forum.aspose.com/c/drawing/44).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

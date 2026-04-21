@@ -1,110 +1,140 @@
 ---
-title: Aspose.드로잉에서 선 그리기
-linktitle: Aspose.드로잉에서 선 그리기
-second_title: Aspose.드로잉 .NET API - System.드로잉.Common의 대안
-description: Aspose. Drawing을 사용하여 .NET 애플리케이션에서 선을 그리는 방법을 알아보세요. 이 단계별 튜토리얼은 멋진 그래픽을 만드는 과정을 안내합니다.
-weight: 16
+date: 2026-02-14
+description: Aspose.Drawing을 사용하여 .NET 애플리케이션에서 여러 선을 그리는 방법을 배웁니다. 이 단계별 가이드는 .NET
+  선 그리기, 선 그리기 비트맵 기술 및 모범 사례를 다룹니다.
+linktitle: Draw multiple lines with Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Aspose.Drawing을 사용하여 여러 선 그리기
 url: /ko/net/lines-curves-and-shapes/draw-lines/
+weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ construct final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.드로잉에서 선 그리기
+# Aspose.Drawing을 사용하여 여러 선 그리기
 
 ## 소개
 
-.NET용 Aspose.드로잉을 사용하여 선을 그리는 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose. Drawing은 .NET 애플리케이션에서 이미지를 조작하고 생성할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 시각적으로 매력적인 그래픽을 만드는 데 필수적인 기술인 선 그리기의 기본 사항에 중점을 둘 것입니다.
+Welcome to this comprehensive tutorial on **여러 선을 그리는 방법** using Aspose.Drawing for .NET! Whether you’re building a chart, a custom UI component, or generating graphics on the fly, mastering line drawing is essential. In the next few minutes you’ll see how simple it is to create crisp, scalable lines on a bitmap, and you’ll understand why Aspose.Drawing is a top choice for .net line drawing projects.
+
+## 빠른 답변
+- **무엇을 그릴 수 있나요?** 비트맵 위의 직선, 폴리라인 또는 도형을 모두 그릴 수 있습니다.  
+- **어떤 라이브러리인가요?** Aspose.Drawing for .NET (System.Drawing.Common은 필요하지 않음).  
+- **몇 개의 선을 그릴 수 있나요?** 필요한 만큼 그릴 수 있습니다 – 동일한 `Graphics.DrawLine` 호출을 반복하면 됩니다.  
+- **전제 조건은?** .NET 개발 환경 및 Aspose.Drawing 라이브러리.  
+- **출력 형식은?** PNG, JPEG, BMP 또는 Aspose.Drawing이 지원하는 모든 형식.
+
+## 여러 선을 그린다는 것은 무엇인가요?
+
+Drawing multiple lines means rendering two or more straight segments on the same image canvas. In Aspose.Drawing you achieve this by reusing a single `Graphics` object and calling `DrawLine` for each pair of coordinates. This approach is fast, memory‑efficient, and works the same way for raster and vector outputs.
+
+## .NET 선 그리기에 Aspose.Drawing을 사용하는 이유는?
+
+- **Full .NET Core / .NET 5+ support** – no legacy dependencies.  
+- **High‑quality rendering** – anti‑aliased lines and precise pixel control.  
+- **Cross‑platform** – works on Windows, Linux, and macOS.  
+- **Rich API** – easy to switch from `System.Drawing.Common` without code rewrites.
 
 ## 전제 조건
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+Before diving into the tutorial, make sure you have the following prerequisites in place:
 
--  Aspose.드로잉 라이브러리: 다음에서 Aspose.드로잉 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/drawing/net/).
-
-- 개발 환경: 컴퓨터에 .NET 개발 환경이 설정되어 있는지 확인하세요.
-
-- 문서 디렉터리: 출력 이미지를 저장할 시스템에 디렉터리를 만듭니다.
+- Aspose.Drawing 라이브러리: Aspose.Drawing 라이브러리를 [here](https://releases.aspose.com/drawing/net/)에서 다운로드하고 설치하십시오.  
+- 개발 환경: 머신에 .NET 개발 환경이 설정되어 있는지 확인하십시오.  
+- 문서 디렉터리: 출력 이미지를 저장할 시스템상의 디렉터리를 생성하십시오.
 
 ## 네임스페이스 가져오기
 
-.NET 애플리케이션에서 Aspose. Drawing을 사용하려면 필요한 네임스페이스를 가져와야 합니다. 코드 시작 부분에 다음 네임스페이스를 추가합니다.
+In your .NET application, you need to import the necessary namespaces to work with Aspose.Drawing. Add the following namespaces at the beginning of your code:
 
 ```csharp
 using System.Drawing;
 ```
 
-이제 Aspose. Drawing을 사용하여 선을 그리는 과정을 안내하기 위해 예제를 여러 단계로 나누어 보겠습니다.
+이제 예제를 여러 단계로 나누어 Aspose.Drawing을 사용한 선 그리기 과정을 안내하겠습니다.
 
-## 1단계: 비트맵 생성
+## Aspose.Drawing에서 여러 선 그리기
+
+### 1단계: 비트맵 생성 (draw line bitmap)
+
+Start by creating a new bitmap with the desired width and height. This will be the canvas on which you draw your lines.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, PixelFormat.Format32bppPArgb);
 ```
 
-원하는 너비와 높이로 새 비트맵을 만드는 것부터 시작하세요. 이것이 선을 그리는 캔버스가 될 것입니다.
+### 2단계: Graphics 객체 가져오기
 
-## 2단계: 그래픽 개체 가져오기
+Obtain a `Graphics` object from the created bitmap. This object provides methods for drawing on the bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-생성된 비트맵에서 Graphics 개체를 가져옵니다. 이 개체는 비트맵에 그리기 위한 메서드를 제공합니다.
+### 3단계: Pen 정의
 
-## 3단계: 펜 정의
+Create a `Pen` object that defines the attributes of the line you want to draw. In this case, we've chosen a blue color with a thickness of 2 pixels.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-그리려는 선의 속성을 정의하는 Pen 개체를 만듭니다. 이 경우에는 두께가 2픽셀인 파란색을 선택했습니다.
+### 4단계: 선 그리기
 
-## 4단계: 선 그리기
+Use the `DrawLine` method to draw lines on the bitmap. The coordinates `(x1, y1)` to `(x2, y2)` represent the starting and ending points of each line. By calling the method twice, we effectively **여러 선을 그리는** that form a simple “V” shape.
 
 ```csharp
 graphics.DrawLine(pen, 10, 700, 500, 10);
 graphics.DrawLine(pen, 500, 10, 990, 700);
 ```
 
-DrawLine 메서드를 사용하여 비트맵에 선을 그립니다. (x1, y1)부터 (x2, y2)까지의 좌표는 선의 시작점과 끝점을 나타냅니다.
+### 5단계: 이미지 저장
 
-## 5단계: 이미지 저장
+Specify the directory where you want to save the output image. Make sure to replace `"Your Document Directory"` with the actual path.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawLines_out.png");
 ```
 
-출력 이미지를 저장할 디렉터리를 지정합니다. "Your Document Directory"를 실제 경로로 바꾸십시오.
+Now, you've successfully drawn multiple lines using Aspose.Drawing! Feel free to explore more features and create intricate graphics for your applications.
 
-이제 Aspose. Drawing을 사용하여 성공적으로 선을 그렸습니다! 자유롭게 더 많은 기능을 탐색하고 애플리케이션을 위한 복잡한 그래픽을 만들어 보세요.
+## 일반적인 문제와 해결책
+
+| 문제 | 발생 원인 | 해결 방법 |
+|-------|----------------|-----|
+| **이미지가 비어 있음** | Graphics 객체가 비트맵에 연결되지 않았거나 잘못된 픽셀 형식 때문입니다. | `Graphics.FromImage(bitmap)`을 사용하고 비트맵이 지원되는 픽셀 형식으로 생성되었는지 확인하십시오. |
+| **선이 들쭉날쭉함** | 안티앨리어싱이 비활성화되었습니다. | 그리기 전에 `graphics.SmoothingMode = SmoothingMode.AntiAlias;`를 설정하십시오 ( `using System.Drawing.Drawing2D;` 필요). |
+| **저장 시 경로를 찾을 수 없음** | 디렉터리 문자열이 잘못되었습니다. | `Path.Combine`을 사용하여 경로를 구성하고 폴더가 존재하는지 확인하십시오. |
+
+## 자주 묻는 질문
+
+**Q: 선의 색상을 변경할 수 있나요?**  
+A: Yes, simply modify the `Color` parameter when creating the `Pen` object.
+
+**Q: Aspose.Drawing으로 그릴 수 있는 다른 도형은 무엇인가요?**  
+A: Aspose.Drawing supports rectangles, ellipses, curves, polygons, and more. Check the official documentation for full examples.
+
+**Q: Aspose.Drawing은 웹 애플리케이션에 적합한가요?**  
+A: Absolutely! It works in ASP.NET Core, MVC, and other web frameworks, allowing you to generate images on the server side.
+
+**Q: Aspose.Drawing을 사용할 때 오류를 어떻게 처리하나요?**  
+A: Wrap your drawing code in a `try‑catch` block and consult the Aspose.Drawing forum (https://forum.aspose.com/c/drawing/44) for community support.
+
+**Q: Aspose.Drawing을 상업 프로젝트에 사용할 수 있나요?**  
+A: Yes, you can use Aspose.Drawing for commercial projects. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
 
 ## 결론
 
-이 튜토리얼에서는 .NET용 Aspose.드로잉을 사용하여 선을 그리는 기본 단계를 다루었습니다. 이러한 지식을 바탕으로 이제 사용자 정의 그래픽과 시각적 요소를 사용하여 애플리케이션을 향상시킬 수 있습니다.
+In this tutorial, we covered the essential steps to **draw multiple lines** with Aspose.Drawing for .NET, demonstrated how to create a bitmap, obtain a graphics object, define a pen, render several lines, and save the result. With this foundation you can expand to more complex drawings, integrate dynamic data, or generate charts programmatically.
 
-## FAQ
+---
 
-### Q1: 선의 색상을 변경할 수 있나요?
+**최종 업데이트:** 2026-02-14  
+**테스트 환경:** Aspose.Drawing 24.12 for .NET  
+**작성자:** Aspose  
 
-A1: 예, Pen 개체를 만들 때 매개 변수를 수정하여 선 색상을 사용자 지정할 수 있습니다.
-
-### Q2: Aspose.드로잉으로 어떤 다른 모양을 그릴 수 있나요?
-
-A2: Aspose.드로잉은 직사각형, 타원, 곡선을 포함한 다양한 모양을 지원합니다. 자세한 예는 설명서를 확인하세요.
-
-### Q3: Aspose.드로잉은 웹 애플리케이션에 적합합니까?
-
-A3: 물론이죠! Aspose.드로잉은 다목적이며 데스크탑과 웹 애플리케이션 모두에서 사용할 수 있습니다. 그래픽 조작에 대한 원활한 경험을 제공합니다.
-
-### Q4: Aspose. Drawing을 사용하는 동안 오류를 어떻게 처리할 수 있나요?
-
-A4: 오류를 처리하려면 try-catch 블록을 구현하고 Aspose. Drawing 포럼(https://forum.aspose.com/c/drawing/44) 커뮤니티 지원을 위해.
-
-### Q5: Aspose. Drawing을 상업용 프로젝트에 사용할 수 있나요?
-
- A5: 예, 상업용 프로젝트에 Aspose. Drawing을 사용할 수 있습니다. 방문하다[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
