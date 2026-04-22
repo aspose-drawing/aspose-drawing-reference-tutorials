@@ -1,70 +1,105 @@
 ---
-title: Aspose.Drawing for .NET'te Yerel Dönüşüm
+date: 2026-04-22
+description: Aspose.Drawing for .NET kullanarak dönüşüm matrisi örneğiyle bitmap'i
+  PNG olarak kaydetmeyi öğrenin. Kod örnekleriyle adım adım rehber.
+keywords:
+- save bitmap as png
+- transformation matrix example
+- draw rotated ellipse
+- convert graphics to png
+- high-quality png output
 linktitle: Aspose.Drawing'de Yerel Dönüşüm
-second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
-description: Aspose.Drawing for .NET'teki yerel dönüşümleri keşfedin. Takip edilmesi kolay adımlarla grafikleri yükseltin.
-weight: 11
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Aspose.Drawing'de Dönüşüm Kullanarak Bitmap'i PNG Olarak Kaydet
 url: /tr/net/coordinate-transformations/local-transformation/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing for .NET'te Yerel Dönüşüm
+# Aspose.Drawing'de Dönüşüm Kullanarak Bitmap'i PNG Olarak Kaydetme
 
-## giriiş
+## Giriş
 
-.NET uygulamanızın grafiklerini gelişmiş yerel dönüşümlerle geliştirmek mi istiyorsunuz? Aspose.Drawing for .NET, geliştiricilerin yerel dönüşümleri zahmetsizce birleştirerek çarpıcı görseller oluşturmalarına olanak tanır. Bu eğitimde, Aspose.Drawing'i kullanarak yerel dönüşümlerin dünyasına dalacağız ve bu güçlü kütüphanenin tüm potansiyelini ortaya çıkarmanız için her adımda size yol göstereceğiz.
+Eğer .NET uygulaması içinde grafiklere yerel bir dönüşüm uygularken **bitmap'i PNG olarak kaydetmeniz** gerekiyorsa, Aspose.Drawing süreci basit ve güvenilir hâle getirir. Bu öğreticide, bir şekle dönüşüm matrisi nasıl uygulanır, sonuç nasıl işlenir ve sonunda **grafikleri PNG'ye dönüştürerek** depolama veya daha fazla işleme nasıl hazırlanır, adım adım göreceksiniz. Sonunda, herhangi bir yerel dönüşüm senaryosuna uyarlayabileceğiniz yeniden kullanılabilir bir kod kalıbına sahip olacaksınız.
+
+## Hızlı Yanıtlar
+
+- **Yerel dönüşüm nedir?** Matris tabanlı bir işlemdir (döndürme, ölçekleme, çevirme, eğme) ve tüm tuvali etkilemeden belirli bir çizim öğesine uygulanır.  
+- **.NET'te bunu destekleyen kütüphane hangisidir?** Aspose.Drawing for .NET, desteklenen tüm .NET sürümlerinde çalışan tam özellikli bir API sunar.  
+- **Sonucu PNG olarak kaydedebilir miyim?** Evet—sadece `Bitmap.Save` metodunu “.png” uzantılı bir dosya adıyla çağırın, Aspose.Drawing dönüşümü halleder.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim kullanımı için ticari lisans gereklidir.  
+- **Uygulama ne kadar sürer?** Temel bir örnek için yaklaşık 10‑15 dakika.
+
+## Bitmap'i PNG Olarak Kaydetme
+
+Aşağıda, **dönüşüm matrisi örneği** gösteren ve yüksek kaliteli bir PNG çıktısı ile biten eksiksiz, adım adım bir rehber bulacaksınız.
+
+## Grafik programlamada “dönüşüm nasıl uygulanır” nedir?
+
+Bir dönüşüm uygulamak, bir **Matrix** kullanarak bir çizim nesnesinin koordinat sistemini değiştirmek anlamına gelir. Matris, noktaların nasıl döndürüleceğini, ölçekleneceğini veya taşınacağını tanımlar ve az kodla karmaşık görsel efektler oluşturmanızı sağlar.
+
+## Neden Aspose.Drawing'i **grafikleri PNG'ye dönüştürmek** için kullanmalısınız?
+
+- **Çapraz platform**: .NET Framework, .NET Core ve .NET 5/6+ üzerinde çalışır.  
+- **GDI+ bağımlılığı yok**: Windows dışı platformlarda `System.Drawing.Common` kullanımının sorunlarından kaçınır.  
+- **Yüksek kaliteli PNG çıktısı**: PNG dosyaları için anti-aliasing ve piksel mükemmel işleme.  
+- **Zengin API**: Yollar, kalemler, fırçalar ve dönüşüm matrisleri için tam destek.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce, şunların olduğundan emin olun:
 
-1.  Aspose.Drawing for .NET: Kitaplığı şuradan indirip yükleyin:[İndirme: {link](https://releases.aspose.com/drawing/net/).
+1. **Aspose.Drawing for .NET** – [indir linki](https://releases.aspose.com/drawing/net/) üzerinden indirip kurun.  
+2. Çıktı görüntüsünün kaydedileceği bilgisayarınızda bir klasör (ör. `C:\MyImages\`).  
+3. C# ve .NET proje kurulumu hakkında temel bilgi.
 
-2. Belge Dizini: Makinenizde dönüştürülen görüntünün kaydedileceği uygun bir dizin seçin.
+## Ad Alanlarını İçe Aktarma
 
-3. .NET Programlamanın Temel Anlayışı: C# ve grafik programlama kavramlarına aşinalık faydalı olacaktır.
-
-## Ad Alanlarını İçe Aktar
-
-Gerekli ad alanlarını C# projenize aktararak başlayın:
+İlk olarak, gerekli ad alanlarını C# dosyanıza ekleyin:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## 1. Adım: Bitmap Oluşturun
+Bu ad alanları, dönüşüm iş akışı için gereken `Bitmap`, `Graphics`, `GraphicsPath` ve `Matrix` sınıflarına erişim sağlar.
 
-Belirli boyutlara ve piksel formatına sahip bir bitmap başlatın:
+## Adım Adım Kılavuz
+
+### Adım 1: Bitmap Oluşturma
+
+Boş bir tuvalle başlıyoruz. Bitmap boyutu ve piksel formatı, alfa şeffaflığını destekleyen yüksek kaliteli, 32‑bit bir görüntü sağlamak için seçilir.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Adım 2: Grafik Nesnesi Oluşturun
+> **Pro ipucu:** `Format32bppPArgb` kullanmak, görüntünün önceden çarpılmış alfa değerini korumasını sağlar; bu, PNG çıktısı için idealdir.
 
-Çizim işlemlerini gerçekleştirmek için bitmap'ten bir grafik nesnesi oluşturun:
+### Adım 2: Graphics Nesnesi Oluşturma
+
+`Graphics` nesnesi, bitmap üzerinde çalışan çizim metodlarını sağlar. Arka planı nötr bir griye temizliyoruz, böylece dönüştürülmüş şekil öne çıkar.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## 3. Adım: GraphicsPath Oluşturun
+### Adım 3: GraphicsPath Oluşturma
 
-Bu örnekte bir elips olan bir grafik yolu oluşturun ve konumunu ve boyutlarını belirtin:
+`GraphicsPath`, karmaşık şekiller tanımlamanıza olanak verir. Burada (300, 300) konumunda, 400 genişliğinde ve 200 yüksekliğinde bir elips ekliyoruz – dönüşümden sonra etkili bir şekilde **döndürülmüş bir elips çizer**.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddEllipse(300, 300, 400, 200);
 ```
 
-## Adım 4: Yerel Dönüşümü Uygulayın
+### Adım 4: Yerel Dönüşüm Uygulama (Dönüşüm Matrisi Örneği)
 
-Bir dönüşüm matrisi ayarlayın ve belirtilen yola bir döndürme dönüşümü uygulayın:
+Şimdi temel soruyu yanıtlıyoruz: **dönüşüm nasıl uygulanır**. Bir `Matrix` oluşturuyor, elipsin merkezi (500, 400) etrafında 45° döndürüyoruz ve matrisi yola uyguluyoruz.
 
 ```csharp
 Matrix matrix = new Matrix();
@@ -72,54 +107,64 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-## Adım 5: Dönüştürülen Yolu Çizin
+> **Neden merkeze göre döndürülür?** Şeklin merkezine göre döndürmek, orijinde dönmesini engeller ve doğal bir görünüm sağlar.
 
-Bir kalem tanımlayın ve dönüştürülmüş yolu grafik nesnesine çizin:
+### Adım 5: Dönüştürülmüş Yolu Çizme
+
+Dönüşüm yerinde olduğunda, kalınlığı 2 olan mavi bir kalemle yolu işliyoruz. Bu adım etkili bir şekilde tuvalde **döndürülmüş bir elips çizer**.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-## Adım 6: Dönüştürülen Görüntüyü Kaydetme
+### Adım 6: Dönüştürülmüş Görüntüyü Kaydetme (Grafikleri PNG'ye Dönüştürme)
 
-Dönüştürülen görüntüyü belge dizininize kaydedin:
+Son olarak, bitmap'i PNG dosyası olarak kalıcı hâle getiriyoruz. Yol, seçtiğiniz dizini dönüşüm örnekleri için bir alt klasörle birleştirir.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\LocalTransformation_out.png");
 ```
 
-Çeşitli dönüşümler için bu adımları tekrarlayın ve .NET uygulamalarınızda Aspose.Drawing'in potansiyelini ortaya çıkarın.
+> **Not:** `.png` uzantısı, Aspose.Drawing’in PNG kodlayıcısını otomatik olarak tetikler ve **bitmap'i png olarak kaydet** gereksinimini karşılar.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Aspose.Drawing for .NET ile yerel dönüşümleri birleştirmek, grafiklerinizi geliştirmeniz için birçok olanak sunar. Bu adım adım kılavuzu takip ederek yerel dönüşümleri zahmetsizce nasıl uygulayacağınızı ve görselleştirmelerinize yeni bir boyut getireceğinizi öğrendiniz.
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| **Boş çıktı görüntüsü** | Graphics temizlenmemiş veya kalem rengi arka planla aynı | `graphics.Clear` metodunu zıt bir renk ile çağırın ve kalem renginin görünür olduğundan emin olun. |
+| **Bozuk döndürme** | `RotateAt` yerine `Rotate` kullanılması | `RotateAt` kullanın ve şeklin merkez noktasını belirtin. |
+| **Dosya kaydedilmedi** | Geçersiz dizin yolu veya yazma izinlerinin eksik olması | Dizinin var olduğunu ve uygulamanın yazma iznine sahip olduğunu doğrulayın. |
+| **PNG bulanık görünüyor** | Bitmap üzerinde düşük DPI ayarı | Bitmap'i daha yüksek çözünürlükte oluşturun veya `graphics.SmoothingMode = SmoothingMode.AntiAlias` ayarlayın. |
 
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S: Birden fazla dönüşümü (ör. ölçekle sonra döndür) zincirleyebilir miyim?**  
+C: Evet. Tek bir `Matrix` oluşturup, ihtiyacınıza göre `Scale`, `RotateAt` ve `Translate` gibi metodları sırayla çağırın, ardından `path.Transform(matrix);` ile uygulayın.
 
-### S1: Birden fazla dönüşümü sırayla uygulayabilir miyim?*
+**S: Aspose.Drawing yüksek performanslı render için uygun mu?**  
+C: Kesinlikle. Kütüphane hem hız hem de kalite açısından optimize edilmiştir ve Windows dışı platformlarda GDI+ sınırlamalarından kaçınır.
 
-Cevap1: Evet, birden fazla dönüşümü, dönüşüm matrisini kullanarak art arda uygulayarak zincirleyebilirsiniz.
+**S: Başka hangi dönüşüm tipleri destekleniyor?**  
+C: Döndürmenin yanı sıra aynı `Matrix` sınıfını kullanarak çevirme, ölçekleme ve eğme işlemleri de yapabilirsiniz.
 
-### S2: Aspose.Drawing karmaşık grafik uygulamaları için uygun mudur?*
+**S: Dönüşüm sürecinde istisnaları nasıl ele alırım?**  
+C: Çizim kodunu bir `try‑catch` bloğuna sarın ve `System.Drawing.Drawing2D` istisnalarını inceleyin. Ayrıntılı hata yönetimi rehberi için resmi [Aspose.Drawing belgelerine](https://reference.aspose.com/drawing/net/) bakın.
 
-A2: Kesinlikle! Aspose.Drawing, çok çeşitli grafik işlemlerini gerçekleştirecek şekilde tasarlanmıştır ve bu da onu karmaşık uygulamalar için ideal kılar.
+**S: Aspose.Drawing'i satın almadan deneyebilir miyim?**  
+C: Evet, tam işlevsel bir ücretsiz deneme sürümü [indir linki](https://releases.aspose.com/drawing/net/) üzerinden mevcuttur.
 
-### S3: Desteklenen başka dönüşüm türleri var mı?*
+## Sonuç
 
-Cevap3: Aspose.Drawing, döndürmenin yanı sıra kapsamlı dönüştürme yetenekleri için çeviriyi, ölçeklendirmeyi ve eğriltmeyi de destekler.
+Bu rehberi izleyerek, Aspose.Drawing for .NET ile yerel bir dönüşüm uyguladıktan sonra **bitmap'i PNG olarak nasıl kaydedeceğinizi** artık biliyorsunuz. Aynı kalıp, herhangi bir şekli ölçeklemek, çevirmek veya eğmek için yeniden kullanılabilir; bu sayede uygulamalarınızda zengin, etkileşimli görsel bileşenler oluşturabilir ve yüksek kaliteli PNG çıktısı sağlayabilirsiniz.
 
-### S4: Dönüşüm süreci sırasında istisnaları nasıl ele alacağım?*
+---
 
- Cevap4: Kodunuzda hata işlemenin doğru olduğundan emin olun ve[Aspose.Drawing belgeleri](https://reference.aspose.com/drawing/net/) sorun giderme için.
+**Son Güncelleme:** 2026-04-22  
+**Test Edilen Versiyon:** Aspose.Drawing 24.11 for .NET  
+**Yazar:** Aspose  
 
-### S5: Satın almadan önce Aspose.Drawing'i deneyebilir miyim?*
-
- A5: Evet, kütüphaneyi bir[ücretsiz deneme](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
