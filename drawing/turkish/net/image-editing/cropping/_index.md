@@ -1,11 +1,11 @@
 ---
-date: 2025-12-04
-description: Aspose.Drawing kullanarak .NET geliştiricileri için adım adım görüntü
-  kırpma öğreticisi. Görüntüyü PNG’ye kırpmayı, toplu görüntü kırpmayı ve temel görüntü
-  işleme kırpma tekniklerini öğrenin.
+date: 2026-02-07
+description: Aspose.Drawing kullanarak görüntüyü PNG formatına kırpmak için adım adım
+  öğretici, .NET geliştiricileri için System.Drawing'in alternatifi. Toplu kırpma
+  ve temel teknikleri içerir.
 linktitle: Image Cropping Tutorial – Aspose.Drawing
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: 'Resim Kırpma Eğitimi: .NET için Aspose.Drawing ile Resim Kırpma'
+title: Aspose.Drawing for .NET ile Görüntüyü PNG Olarak Kırpma
 url: /tr/net/image-editing/cropping/
 weight: 10
 ---
@@ -14,138 +14,126 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Image Cropping Tutorial: Cropping Images with Aspose.Drawing for .NET
+# Aspose.Drawing for .NET ile PNG'ye Görüntü Kırpma Nasıl Yapılır
 
-Bu **görüntü kırpma öğreticisinde**, Aspose.Drawing ile **görüntü dosyalarını nasıl kırpacağınızı**, sonucu PNG olarak dışa aktaracağınızı ve **toplu görüntü kırpma** stratejilerini tartışacağız. İster bir fotoğraf düzenleyici, ister küçük resim oluşturucu ya da bir web uygulaması için varlık hazırlıyor olun, bu iş akışını ustalaşmak görüntü işleme hattınız üzerinde kesin kontrol sağlayacaktır.
+Eğer .NET ortamında **görüntüyü PNG'ye kırpmak** istiyorsanız ve hızlı, güvenilir bir çözüm arıyorsanız doğru yerdesiniz. Bu öğreticide bir görüntüyü nasıl yükleyeceğinizi, kırpma alanını nasıl tanımlayacağınızı ve sonucu PNG dosyası olarak nasıl kaydedeceğinizi adım adım göstereceğiz—hepsi Aspose.Drawing kullanarak, **System.Drawing**'e modern bir **alternatif** ve çapraz platform desteği sunan bir kütüphane.
 
-## Quick Answers
-- **What library should I use?** Aspose.Drawing for .NET (a full‑featured alternative to System.Drawing.Common)  
-- **How long does the basic crop take?** Usually under a second for a single image on a modern CPU  
-- **Can I crop to PNG?** Yes – save the cropped bitmap as a PNG file (see Step 6)  
-- **Do I need a license?** A free trial works for development; a commercial license is required for production  
-- **Is batch processing possible?** Absolutely – wrap the same steps in a loop to process multiple files  
+## Hızlı Yanıtlar
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.Drawing for .NET (System.Drawing.Common'a tam özellikli bir alternatif)  
+- **Temel kırpma işlemi ne kadar sürer?** Modern bir CPU'da tek bir görüntü için genellikle bir saniyenin altında  
+- **PNG'ye kırpabilir miyim?** Evet – kırpılmış bitmap'i PNG dosyası olarak kaydedin (bkz. Adım 6)  
+- **Lisans gerekiyor mu?** Geliştirme için ücretsiz deneme sürümü yeterli; üretim için ticari lisans gereklidir  
+- **Toplu işleme mümkün mü?** Kesinlikle – aynı adımları bir döngü içinde tekrarlayarak birden çok dosyayı işleyebilirsiniz  
 
-## Introduction
+## “crop image to PNG” nedir?
 
-.NET geliştirme dünyasında, Aspose.Drawing görüntü manipülasyonu için güçlü bir araç olarak öne çıkar. Kullanışlı özelliklerinden biri de görüntüleri hassas bir şekilde kırpabilmesidir. Bu öğreticide, Aspose.Drawing for .NET kullanarak **görüntü kırpma** sürecini adım adım inceleyeceğiz. Görüntü‑işleme becerilerinizi geliştirmeye hazır olun!
+Görüntüyü kırpmak, orijinal bitmap'ten dikdörtgen bir bölgeyi çıkarmak anlamına gelir. Bu bölgeyi PNG olarak kaydettiğinizde şeffaflığı korur ve kayıpsız sıkıştırma elde edersiniz—küçük resimler, simgeler veya herhangi bir UI varlığı için mükemmeldir.
 
-## Why Use Aspose.Drawing for Image Cropping?
+## Aspose.Drawing, System.Drawing'e alternatif olarak neden tercih edilmeli?
 
-- **Cross‑platform support** – works on Windows, Linux, and macOS without the native GDI+ dependencies.  
-- **Rich pixel‑format options** – handle 32‑bit, 24‑bit, and indexed formats effortlessly.  
-- **Performance‑focused API** – ideal for both single‑image edits and large‑scale batch image cropping jobs.
+- **Çapraz platform desteği** – Windows, Linux ve macOS'ta yerel GDI+ bağımlılıkları olmadan çalışır.  
+- **Zengin piksel formatı işleme** – 32‑bit, 24‑bit, indeksli ve daha fazlası.  
+- **Performansa odaklı API** – tek görüntü düzenlemelerinden büyük ölçekli toplu işlere kadar ideal.  
 
-## Prerequisites
+## Önkoşullar
 
-Kırpma sihrine dalmadan önce aşağıdaki ön koşulların sağlandığından emin olun:
+İlerlemeye başlamadan önce şunların kurulu olduğundan emin olun:
 
-- Aspose.Drawing Library: Ensure you've integrated the Aspose.Drawing library into your .NET project. If not, you can download it [here](https://releases.aspose.com/drawing/net/).
+- **Aspose.Drawing kütüphanesi** .NET projenize entegre edilmiş. İndirmek için [buraya](https://releases.aspose.com/drawing/net/) tıklayın.  
+- Kırpmak istediğiniz kaynak görüntüleri içeren bir klasör. Kod örneklerindeki `"Your Document Directory"` ifadesini makinenizdeki gerçek yol ile değiştirin.
 
-- Document Directory: Have a designated directory for your project images. Replace `"Your Document Directory"` in the code snippets with the path to your project's image folder.
-
-## Import Namespaces
-
-Kırpma maceramız için gerekli ad alanlarını içe aktararak başlayalım:
+## Ad Alanlarını İçe Aktarın
 
 ```csharp
 using System.Drawing;
 ```
 
-Sahneyi kurduğumuza göre, görüntü kırpma sürecini yönetilebilir adımlara bölelim.
+`System.Drawing` ad alanı, Aspose.Drawing'in genişlettiği `Bitmap`, `Graphics` ve ilgili tipleri kullanmamızı sağlar.
 
-## Step‑by‑Step Guide
+## Adım Adım Kılavuz
 
-### Step 1: Create a Bitmap Canvas
+### Adım 1: Bir Bitmap Tuvali Oluşturun
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-İstenen genişlik, yükseklik ve piksel formatı ile yeni bir `Bitmap` nesnesi oluşturun. Boyutları, projenizin gereksinimlerine göre ayarlayın.
+Boş bir tuval oluşturuyoruz; bu tuval kırpılmış sonucun saklanacağı boyutlarda olmalı. Genişlik ve yüksekliği, çıkarmak istediğiniz alanın boyutlarına göre ayarlayın.
 
-### Step 2: Create a Graphics Object
+### Adım 2: Bir Graphics Nesnesi Oluşturun
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-`Bitmap`inizden bir `Graphics` nesnesi oluşturun ve çizim işlemlerini etkinleştirin. Daha pürüzsüz görüntü işleme için `InterpolationMode`u tercihlerinize göre ayarlayın.
+`Graphics` nesnesi, tuval üzerine çizim yapmamızı sağlar. `InterpolationMode`, ölçekleme veya dönüşüm sırasında piksel değerlerinin nasıl hesaplanacağını kontrol eder—`NearestNeighbor` keskin kenarlar için iyi çalışır.
 
-### Step 3: Load the Image to Crop
+### Adım 3: Kırpılacak Görüntüyü Yükleyin
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-Kırpmak istediğiniz görüntüyü yeni bir `Bitmap` nesnesine yükleyin. `"Your Document Directory"` ifadesini projenizin resim klasörünün yolu ile değiştirin ve dosya adını uygun şekilde ayarlayın.
+Kaynak görüntüyü yükleyin. Yolun mevcut bir dosyaya işaret ettiğinden emin olun; aksi takdirde bir istisna fırlatılır.
 
-### Step 4: Define Source and Destination Rectangles
+### Adım 4: Kaynak ve Hedef Dikdörtgenleri Tanımlayın
 
 ```csharp
 Rectangle sourceRectangle = new Rectangle(0, 0, 50, 40);
 Rectangle destinationRectangle = sourceRectangle;
 ```
 
-Kırpmak istediğiniz görüntünün bölümünü tanımlamak için kaynak dikdörtgeni belirtin. Bu örnekte, **50 × 40 piksel** boyutunda görüntünün sol‑üst kısmını seçiyoruz. Hedef dikdörtgen aynı boyutlarda ayarlanarak basit bir kırpma elde edilir.
+`sourceRectangle`, API'nin orijinal görüntünün hangi kısmını tutacağını belirtir. Burada sol‑üst 50 × 40 piksel alanını seçiyoruz. Aynı dikdörtgeni `destinationRectangle`'a atayarak kırpılmış bölgeyi orijinal boyutunda tutarız.
 
-### Step 5: Perform the Crop Operation
+### Adım 5: Kırpma İşlemini Gerçekleştirin
 
 ```csharp
 graphics.DrawImage(image, destinationRectangle, sourceRectangle, GraphicsUnit.Pixel);
 ```
 
-`DrawImage` metodunu kullanarak kırpma işlemini gerçekleştirin. Bu komut, kaynak görüntüyü, hedef dikdörtgeni, kaynak dikdörtgeni ve bir ölçü birimini alır.
+`Graphics.DrawImage`, tanımlanan `image` bölümünü boş `bitmap` üzerine kopyalar. Bu, **crop image to PNG** işleminin çekirdeğidir.
 
-### Step 6: Save the Cropped Image (Crop Image to PNG)
+### Adım 6: Kırpılmış Görüntüyü Kaydedin (Crop Image to PNG)
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ```
 
-Son olarak kırpılmış görüntüyü belirlediğiniz klasöre kaydedin. Örnek, sonucu **PNG** dosyası olarak kaydeder; bu format şeffaflığı korur ve kayıpsız kalite sunar. Dosya adı ve yolunu ihtiyacınıza göre ayarlayın.
+Son olarak, tuvali PNG dosyası olarak diske yazın. PNG, alfa kanalını korur ve kayıpsız kalite sunar—UI varlıkları için idealdir.
 
-## How to Crop Image in a Batch Scenario
+## Toplu Senaryoda Görüntüleri Nasıl Kırparız
 
-Yüzlerce resim işlemek zorundaysanız, yukarıdaki kodu dosya yolu koleksiyonunu dolaşan bir `foreach` döngüsü içine yerleştirin. Aynı `Graphics.DrawImage` mantığı, **toplu görüntü kırpma**yı bu öğreticinin doğal bir uzantısı haline getirir.
+Yüzlerce resimle çalışıyorsanız, tüm kod parçacığını bir `foreach` döngüsü içine alıp dosya yolu koleksiyonunu yineleyebilirsiniz. Aynı `Graphics.DrawImage` mantığı, **toplu görüntü kırpma** işlemini bu öğreticinin doğal bir uzantısı haline getirir.
 
-## Common Pitfalls & Tips
+## Yaygın Tuzaklar ve İpuçları
 
-- **Pixel format mismatches** – ensure the source image and the canvas bitmap share a compatible pixel format to avoid color distortion.  
-- **Disposal of GDI objects** – wrap `Bitmap` and `Graphics` in `using` statements or call `Dispose()` manually to free unmanaged resources.  
-- **Coordinate errors** – remember that rectangle coordinates are zero‑based; a rectangle that exceeds the source image bounds will throw an exception.
+- **Piksel formatı uyumsuzlukları** – Renk kaymalarını önlemek için kaynak görüntü ve tuval bitmap'inin uyumlu bir piksel formatına sahip olduğundan emin olun.  
+- **GDI nesnelerinin serbest bırakılması** – `Bitmap` ve `Graphics` nesnelerini `using` blokları içinde tutun veya manuel olarak `Dispose()` çağırın; aksi takdirde yönetilmeyen kaynaklar sızabilir.  
+- **Koordinat hataları** – Dikdörtgen koordinatları sıfır‑tabanlıdır. Kaynak görüntünün sınırlarını aşan bir dikdörtgen seçmek istisna oluşturur.  
 
-## Conclusion
+## Sıkça Sorulan Sorular
 
-Bu **görüntü kırpma öğreticisinde**, Aspose.Drawing for .NET kullanarak görüntüleri adım adım nasıl kırpacağınızı inceledik. Bu işlevselliği projelerinize entegre etmek, görüntü manipülasyonu, toplu işleme ve PNG dışa aktarımı için yeni olanaklar sunar.
+**S: Aspose.Drawing kullanarak herhangi bir formatta görüntü kırpabilir miyim?**  
+C: Evet, Aspose.Drawing geniş bir format yelpazesini (PNG, JPEG, BMP, GIF, TIFF vb.) destekler; bu sayede neredeyse her görüntü tipini kırpabilirsiniz.
 
-## FAQ's
+**S: Daha gelişmiş kırpma seçenekleri var mı?**  
+C: Kesinlikle. `GraphicsPath`, `Matrix` dönüşümleriyle birleştirebilir veya daha karmaşık seçimler (örneğin dairesel kırpmalar) için `ImageProcessor` sınıfını kullanabilirsiniz.
 
-### Q1: Can I crop images of any format using Aspose.Drawing?
+**S: Tek bir görüntüye birden fazla kırpma işlemi uygulayabilir miyim?**  
+C: Evet. İlk kırpmadan sonra elde edilen bitmap'i yeni kaynak olarak yeniden kullanıp işlemi tekrarlayarak birden çok kırpma zinciri oluşturabilirsiniz.
 
-A1: Yes, Aspose.Drawing supports the cropping of images in various formats, ensuring flexibility in your projects.
+**S: Aspose.Drawing toplu görüntü işleme için uygun mu?**  
+C: Evet. Hafif API'si ve yerel bağımlılıkların olmaması, sunucularda büyük görüntü koleksiyonlarını işlemek için mükemmeldir.
 
-### Q2: Are there advanced cropping options available?
-
-A2: Absolutely! Aspose.Drawing provides additional options for advanced cropping, allowing you to fine‑tune your image manipulation.
-
-### Q3: Can I apply multiple crop operations in a single image?
-
-A3: Yes, you can chain multiple cropping operations to achieve complex image transformations with ease.
-
-### Q4: Is Aspose.Drawing suitable for batch image processing?
-
-A4: Indeed, Aspose.Drawing excels in batch processing, enabling efficient handling of multiple images in one go.
-
-### Q5: How can I get support for Aspose.Drawing‑related queries?
-
-A5: Head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) to seek assistance and connect with the community.
+**S: Aspose.Drawing ile ilgili sorularım için nasıl destek alabilirim?**  
+C: Yardım ve topluluk desteği için [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) adresine göz atabilirsiniz.
 
 ---
 
-**Last Updated:** 2025-12-04  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-07  
+**Test Edilen Versiyon:** Aspose.Drawing 24.11 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

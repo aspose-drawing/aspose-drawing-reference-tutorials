@@ -1,7 +1,8 @@
 ---
-date: 2025-12-04
+date: 2026-02-07
 description: Kuasi pemuatan gambar, konversi gambar batch, dan perubahan format di
-  .NET menggunakan Aspose.Drawing. Pelajari cara mengonversi BMP ke PNG dan lainnya.
+  .NET menggunakan Aspose.Drawing. Pelajari cara mengonversi BMP ke PNG, cara mengonversi
+  gambar, dan mengubah format gambar secara efisien.
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Konversi BMP ke PNG dan Format Lain dengan Aspose.Drawing
@@ -17,38 +18,38 @@ weight: 13
 
 ## Pendahuluan
 
-Selamat datang di panduan langkah‑demi‑langkah kami tentang cara **mengonversi BMP ke PNG** (dan banyak format gambar lainnya) menggunakan Aspose.Drawing untuk .NET. Baik Anda perlu **mengubah format gambar** untuk satu file atau menjalankan **konversi gambar batch** pada puluhan gambar, tutorial ini menunjukkan secara tepat cara memuat, mengubah, dan menyimpan gambar dengan kode yang bersih dan mudah dipelihara.
+Selamat datang di panduan langkah‑demi‑langkah kami tentang cara **convert BMP to PNG** (dan banyak format gambar lainnya) menggunakan Aspose.Drawing untuk .NET. Baik Anda perlu **change image format** untuk satu file atau menjalankan **batch image conversion** pada puluhan gambar, tutorial ini menunjukkan secara tepat cara memuat, mengubah, dan menyimpan gambar dengan kode yang bersih dan dapat dipelihara. Kami juga akan membahas pola **c# load image file** yang umum dan mendemonstrasikan metode **load and save image** yang dapat digunakan kembali.
 
 ## Jawaban Cepat
-- **Apakah Aspose.Drawing dapat mengonversi BMP ke PNG?** Ya – cukup muat BMP dan panggil `Save` dengan ekstensi .png.  
-- **Apakah konversi batch didukung?** Tentu; iterasi melalui file dan gunakan kembali metode `LoadAndSave` yang sama.  
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi diperlukan untuk penggunaan produksi; lisensi sementara tersedia untuk evaluasi.  
-- **Versi .NET mana yang kompatibel?** Berfungsi dengan .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Di mana saya dapat mengunduh perpustakaan?** Dapatkan paket Aspose.Drawing terbaru dari halaman unduhan resmi.
+- **Can Aspose.Drawing convert BMP to PNG?** Ya – cukup muat BMP dan panggil `Save` dengan ekstensi .png.  
+- **Is batch conversion supported?** Tentu; iterasi melalui file dan gunakan kembali metode `LoadAndSave` yang sama.  
+- **Do I need a license for production?** Lisensi diperlukan untuk penggunaan produksi; lisensi sementara tersedia untuk evaluasi.  
+- **Which .NET versions are compatible?** Berfungsi dengan .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Where can I download the library?** Dapatkan paket Aspose.Drawing terbaru dari halaman unduhan resmi.
 
 ## Apa itu konversi format gambar c# dengan Aspose.Drawing?
 
-Aspose.Drawing adalah perpustakaan .NET yang dikelola sepenuhnya, berperforma tinggi, yang menggantikan `System.Drawing.Common` yang lebih lama. Ini memberi Anda kontrol penuh atas skenario **load image ASP.NET**, mendukung lebih dari 100 format gambar, dan menghilangkan batasan spesifik platform.
+Aspose.Drawing adalah perpustakaan .NET yang dikelola sepenuhnya, berperforma tinggi, yang menggantikan `System.Drawing.Common` yang lebih lama. Ini memberi Anda kontrol penuh atas skenario **load image ASP.NET**, mendukung lebih dari 100 format gambar, dan menghilangkan batasan spesifik platform. Singkatnya, ini adalah **how to convert image** file secara andal di berbagai platform.
 
 ## Mengapa menggunakan Aspose.Drawing untuk konversi gambar batch?
 
-- **Keandalan lintas‑platform** – tanpa ketergantungan GDI+.  
-- **Dukungan format kaya** – BMP, GIF, JPG, PNG, TIFF, dan banyak lagi.  
-- **API konsisten** – kode yang sama berfungsi di Windows, Linux, dan macOS.  
-- **Kinerja** – dioptimalkan untuk pipeline pemrosesan gambar skala besar.
+- **Cross‑platform reliability** – tidak ada ketergantungan GDI+.  
+- **Rich format support** – BMP, GIF, JPG, PNG, TIFF, dan banyak lagi.  
+- **Consistent API** – kode yang sama bekerja di Windows, Linux, dan macOS.  
+- **Performance** – dioptimalkan untuk pipeline pemrosesan gambar berskala besar.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
-- **Aspose.Drawing untuk .NET** – unduh di [sini](https://releases.aspose.com/drawing/net/).  
+- **Aspose.Drawing for .NET** – unduh di [here](https://releases.aspose.com/drawing/net/).  
 - Lingkungan pengembangan **.NET** yang berfungsi (Visual Studio, VS Code, atau Rider).  
 
-Setelah semuanya siap, mari impor namespace yang diperlukan dan mulai menulis kode.
+Sekarang kita siap, mari impor namespace yang diperlukan dan mulai menulis kode.
 
 ## Impor Namespace
 
-Dalam proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
+Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
 ```csharp
 using System.Drawing;
@@ -58,7 +59,7 @@ Kelas-kelas ini menyediakan fungsionalitas inti untuk memuat dan menyimpan gamba
 
 ## Langkah 1: Memuat Gambar
 
-Langkah pertama adalah memuat file gambar. Contoh di bawah ini menunjukkan cara memuat gambar dengan berbagai format, termasuk BMP, yang nantinya akan kita konversi ke PNG.
+Langkah pertama adalah memuat file gambar. Contoh di bawah menunjukkan cara memuat gambar dengan berbagai format, termasuk BMP, yang nantinya akan kami konversi ke PNG. Ini menggambarkan skenario **c# load image file** yang umum.
 
 ```csharp
 public static void Run()
@@ -71,9 +72,9 @@ public static void Run()
 }
 ```
 
-## How to convert BMP to PNG with Aspose.Drawing
+## Cara mengonversi BMP ke PNG dengan Aspose.Drawing
 
-Metode `LoadAndSave` menangani pemuatan file sumber dan penyimpanan dalam format output yang diinginkan. Dengan memberikan argumen `"bmp"`, metode ini secara otomatis menghasilkan file PNG ketika Anda mengubah ekstensi pada `outputPath`.
+Metode `LoadAndSave` menangani pemuatan file sumber serta penyimpanannya dalam format output yang diinginkan. Dengan memberikan argumen `"bmp"`, metode ini secara otomatis akan menghasilkan file PNG ketika Anda mengubah ekstensi pada `outputPath`.
 
 ### Langkah 2.1: Memuat Gambar
 
@@ -85,7 +86,7 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-### Langkah 2.2: Menyimpan Gambar (mengubah format gambar)
+### Langkah 2.2: Menyimpan Gambar (ubah format gambar)
 
 ```csharp
 private static void LoadAndSave(string graphicsFileFormats)
@@ -100,14 +101,15 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-Ulangi pemanggilan `LoadAndSave` untuk setiap format gambar yang ingin Anda proses. Dengan menyesuaikan ekstensi `outputPath`, Anda dapat **mengonversi BMP ke PNG**, **mengubah format gambar** ke GIF, JPG, dll., semuanya dengan metode yang sama.
+Metode yang sama menunjukkan alur kerja klasik **load and save image**. Dengan menyesuaikan ekstensi `outputPath`, Anda dapat **convert BMP to PNG**, **change image format** ke GIF, JPG, dll., semuanya dengan kode yang dapat digunakan kembali.
 
 ## Kesalahan Umum & Tips
 
-- **Pememis jalur file** – Gunakan `Path.Combine` untuk keamanan lintas‑platform alih‑alih menggabungkan string secara manual.  
-- **Membuang Bitmap** – Bungkus `Bitmap` dalam blok `using` untuk segera membebaskan sumber daya native.  
-- **Pengaturan kualitas** – Saat menyimpan JPEG, pertimbangkan untuk menentukan objek `EncoderParameters` untuk mengontrol kualitas kompresi.  
-- **Pemrosesan batch** – Letakkan file gambar Anda dalam folder dan iterasi menggunakan `Directory.GetFiles` untuk mengotomatisasi konversi skala besar.
+- **File path separators** – Gunakan `Path.Combine` untuk keamanan lintas‑platform alih-alih menggabungkan string secara manual.  
+- **Disposing Bitmaps** – Bungkus `Bitmap` dalam blok `using` untuk segera membebaskan sumber daya native.  
+- **Quality settings** – Saat menyimpan JPEG, pertimbangkan untuk menentukan objek `EncoderParameters` guna mengontrol kualitas kompresi.  
+- **Batch processing** – Letakkan file gambar Anda dalam folder dan iterasi menggunakan `Directory.GetFiles` untuk mengotomatisasi konversi berskala besar.  
+- **Parallel execution** – Untuk konversi batch yang lebih cepat, Anda dapat menjalankan pemanggilan `LoadAndSave` di dalam loop `Parallel.ForEach`, namun ingat untuk membuang setiap `Bitmap` dengan benar.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -117,11 +119,11 @@ A1: Aspose.Drawing mendukung berbagai format, termasuk BMP, GIF, JPG, PNG, dan T
 
 ### Q2: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Drawing?
 
-A2: Lihat dokumentasi resmi [di sini](https://reference.aspose.com/drawing/net/).
+A2: Lihat dokumentasi resmi [here](https://reference.aspose.com/drawing/net/).
 
 ### Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Drawing?
 
-A3: Kunjungi [sini](https://purchase.aspose.com/temporary-license/) untuk detail lisensi sementara.
+A3: Kunjungi [here](https://purchase.aspose.com/temporary-license/) untuk detail lisensi sementara.
 
 ### Q4: Bagaimana jika saya mengalami masalah atau memiliki pertanyaan selama implementasi?
 
@@ -129,24 +131,24 @@ A4: Dapatkan bantuan dari komunitas Aspose.Drawing di [Aspose Forum](https://for
 
 ### Q5: Di mana saya dapat membeli perpustakaan Aspose.Drawing?
 
-A5: Anda dapat membelinya [di sini](https://purchase.aspose.com/buy).
+A5: Anda dapat membelinya [here](https://purchase.aspose.com/buy).
 
-**Pertanyaan & Jawaban Tambahan**
+**Additional Q&A**
 
-**Q: Bisakah saya menggunakan kode ini dalam aplikasi web ASP.NET?**  
+**Q: Can I use this code in an ASP.NET web application?**  
 A: Ya – logika `LoadAndSave` yang sama berfungsi di ASP.NET, MVC, atau Razor Pages; pastikan jalur file dapat diakses oleh proses web.
 
-**Q: Apakah memungkinkan memproses gambar secara paralel untuk konversi batch yang lebih cepat?**  
-A: Tentu. Bungkus pemanggilan `LoadAndSave` dalam loop `Parallel.ForEach`, tetapi ingat untuk menangani pembuangan `Bitmap` secara thread‑safe.
+**Q: Is it possible to process images in parallel for faster batch conversion?**  
+A: Tentu saja. Bungkus pemanggilan `LoadAndSave` dalam loop `Parallel.ForEach`, namun ingat untuk menangani pembuangan `Bitmap` secara thread‑safe.
 
 ## Kesimpulan
 
-Anda kini telah mempelajari cara **mengonversi BMP ke PNG**, melakukan **konversi gambar batch**, dan **mengubah format gambar** menggunakan Aspose.Drawing untuk .NET. Terapkan pola ini untuk mengotomatisasi pipeline gambar, menghasilkan thumbnail, atau menyiapkan aset untuk pengiriman web. Bereksperimenlah dengan format yang berbeda, integrasikan kode ke dalam layanan Anda, dan nikmati keandalan perpustakaan gambar yang sepenuhnya dikelola.
+Anda kini telah mempelajari cara **convert BMP to PNG**, melakukan **batch image conversion**, dan **change image format** menggunakan Aspose.Drawing untuk .NET. Terapkan pola ini untuk mengotomatisasi pipeline gambar, menghasilkan thumbnail, atau menyiapkan aset untuk pengiriman web. Bereksperimenlah dengan format berbeda, integrasikan kode ke dalam layanan Anda, dan nikmati keandalan perpustakaan drawing yang sepenuhnya dikelola.
 
----  
+---
 
-**Terakhir Diperbarui:** 2025-12-04  
-**Diuji Dengan:** Aspose.Drawing 24.12 untuk .NET  
+**Terakhir Diperbarui:** 2026-02-07  
+**Diuji Dengan:** Aspose.Drawing 24.12 for .NET  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

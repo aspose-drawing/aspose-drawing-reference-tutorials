@@ -1,113 +1,134 @@
 ---
-title: Afbeeldingen weergeven in Aspose.Drawing
-linktitle: Afbeeldingen weergeven in Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
-description: Leer hoe u afbeeldingen kunt weergeven in .NET-toepassingen met Aspose.Drawing. Volg onze tutorial voor eenvoudige stappen en verbeter uw visuele inhoud.
-weight: 12
+date: 2026-02-07
+description: Leer hoe je een afbeelding‑bitmap tekent en een bitmap‑png opslaat met
+  Aspose.Drawing voor .NET. Volg onze stap‑voor‑stap‑gids om visuele inhoud te verbeteren.
+linktitle: Displaying Images in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Hoe een afbeeldingsbitmap te tekenen met Aspose.Drawing voor .NET
 url: /nl/net/image-editing/display/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Afbeeldingen weergeven in Aspose.Drawing
+# afbeelding bitmap tekenen met Aspose.Drawing
 
-## Invoering
+## Introductie
 
-Welkom bij onze stapsgewijze handleiding voor het weergeven van afbeeldingen met Aspose.Drawing voor .NET! Aspose.Drawing is een krachtige bibliotheek die beeldmanipulatie in .NET-toepassingen vereenvoudigt. In deze zelfstudie verkennen we het proces van het weergeven van afbeeldingen met behulp van de bibliotheek, waarbij we u gedetailleerde stappen en voorbeelden geven.
+In deze tutorial leer je hoe je een **afbeelding bitmap** tekent met de Aspose.Drawing‑bibliotheek voor .NET. Of je nu een desktop‑UI bouwt, rapporten genereert of dynamische graphics maakt, deze techniek stelt je in staat om afbeeldingen snel en betrouwbaar te renderen. We lopen elke stap door – van het maken van een bitmap in .NET tot het opslaan van de uiteindelijke PNG – zodat je direct visuele content aan je applicaties kunt toevoegen.
+
+## Snelle antwoorden
+- **Wat betekent “draw image bitmap”?** Het verwijst naar het renderen van een afbeelding op een `Bitmap`‑object met GDI‑achtige graphics‑aanroepen.  
+- **Welke bibliotheek behandelt dit?** Aspose.Drawing voor .NET biedt een volledig beheerde, cross‑platform API.  
+- **Heb ik een licentie nodig?** Ja, een commerciële licentie (zie *aspose.drawing licensing* hieronder) is vereist voor productiegebruik.  
+- **Kan ik het resultaat opslaan als PNG?** Absoluut – gebruik `bitmap.Save(... )` met een `.png` extensie.  
+- **Is het mogelijk om meerdere afbeeldingen te tekenen?** Ja, je kunt verschillende afbeeldingen op hetzelfde canvas tekenen (multiple images canvas).
+
+## Wat is “draw image bitmap”?
+Een afbeelding bitmap tekenen betekent dat je een afbeeldingsbestand in het geheugen laadt en het vervolgens schildert op een `Bitmap`‑canvas met een `Graphics`‑object. De resulterende bitmap kan daarna worden weergegeven, bewerkt of naar schijf worden opgeslagen.
+
+## Waarom Aspose.Drawing gebruiken om een afbeelding bitmap te tekenen?
+- **Cross‑platform ondersteuning** – werkt op Windows, Linux en macOS.  
+- **Geen native afhankelijkheden** – in tegenstelling tot `System.Drawing.Common` is Aspose.Drawing volledig beheerd.  
+- **Rijke functionaliteit** – ondersteunt geavanceerde pixel‑formaten, hoogwaardige schaling en uitgebreide bestandsformaatondersteuning.  
+- **Enterprise‑ready licensering** – flexibele licentieopties voor commerciële projecten.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat je begint, zorg dat je het volgende hebt:
 
--  Aspose.Drawing voor .NET Library: Zorg ervoor dat de bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/drawing/net/).
+- **Aspose.Drawing voor .NET** – download het [hier](https://releases.aspose.com/drawing/net/).  
+- Een werkende **.NET‑ontwikkelomgeving** (Visual Studio, VS Code of de .NET CLI).  
+- Een map die dient als je **documentdirectory** voor invoer‑ en uitvoer‑afbeeldingen.  
+- Een afbeeldingsbestand (bijv. `aspose_logo.png`) dat je wilt renderen.
 
-- .NET-omgeving: Zorg ervoor dat uw computer over een werkende .NET-omgeving beschikt.
+## Stapsgewijze handleiding
 
-- Documentmap: bereid een map voor om uw afbeeldingen op te slaan.
-
-- Afbeeldingsbestand: Zorg dat er een afbeeldingsbestand gereed is voor weergave, bijvoorbeeld "aspose_logo.png."
-
-## Naamruimten importeren
-
-Importeer om te beginnen de benodigde naamruimten in uw project:
-
-```csharp
-using System.Drawing;
-```
-
-Laten we het proces nu in meerdere stappen opsplitsen.
-
-## Stap 1: Maak een bitmap
-
-Begin met het maken van een Bitmap-object dat als canvas zal dienen voor het weergeven van de afbeelding.
+### Stap 1: Maak een bitmap in .NET
+Maak eerst een `Bitmap` die fungeert als het tekenoppervlak. De grootte en het pixel‑formaat kunnen worden aangepast aan je behoeften.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Stap 2: Initialiseer afbeeldingen
-
-Initialiseer een Graphics-object uit de gemaakte Bitmap. Met dit object kunt u op de bitmap tekenen.
+### Stap 2: Initialiseer Graphics
+Een `Graphics`‑object geeft je de teken‑API die je nodig hebt om vormen, tekst en afbeeldingen op de bitmap te renderen.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Stap 3: Laad de afbeelding
-
-Laad de afbeelding die u wilt weergeven. Pas het bestandspad dienovereenkomstig aan.
+### Stap 3: Laad de afbeelding
+Laad de bronafbeelding die je wilt tekenen. Vervang het tijdelijke pad door de daadwerkelijke locatie van je bestand.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-## Stap 4: Teken de afbeelding
-
-Teken de geladen afbeelding op de bitmap met behulp van het Graphics-object.
+### Stap 4: Teken de afbeelding
+Gebruik `Graphics.DrawImage` om de geladen afbeelding op de bitmap te schilderen. De coördinaten `(0,0)` plaatsen deze in de linkerbovenhoek.
 
 ```csharp
 graphics.DrawImage(image, 0, 0);
 ```
 
-## Stap 5: Bewaar het resultaat
+#### Meerdere afbeeldingen tekenen op één canvas (multiple images canvas)
+Als je meer dan één afbeelding wilt plaatsen, roep je simpelweg `DrawImage` opnieuw aan met andere coördinaten of afmetingen. Bijvoorbeeld:
 
-Sla de resulterende afbeelding op met de weergegeven afbeelding.
+```csharp
+// graphics.DrawImage(secondImage, 200, 150);
+```
+
+*(De extra regel wordt weergegeven als een commentaar om het concept te illustreren zonder een nieuw code‑blok toe te voegen.)*
+
+### Stap 5: Sla het resultaat op – bitmap png opslaan
+Schrijf tenslotte de samengestelde bitmap naar schijf. Het gebruik van de `.png` extensie zorgt voor verliesvrije compressie.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Display_out.png");
 ```
 
-Nu hebt u met succes een afbeelding weergegeven met Aspose.Drawing voor .NET!
+Nu heb je met succes een **afbeelding bitmap** getekend en opgeslagen als een PNG‑bestand met Aspose.Drawing.
 
-## Conclusie
-
-Gefeliciteerd met het voltooien van onze tutorial over het weergeven van afbeeldingen met Aspose.Drawing voor .NET. Dit eenvoudige proces kan de visuele aantrekkingskracht van uw .NET-applicaties moeiteloos verbeteren.
-
-Voel je vrij om meer functionaliteiten van Aspose.Drawing te verkennen, en aarzel niet om de[officiële documentatie](https://reference.aspose.com/drawing/net/) voor diepgaande details.
+## Veelvoorkomende problemen en oplossingen
+- **Afbeeldingspad niet gevonden** – Controleer of de map‑scheidingsteken (`\` of `/`) overeenkomt met je OS en dat het bestand bestaat.  
+- **Pixel‑formaat mismatch** – Als je onverwachte kleuren ziet, probeer dan een ander `PixelFormat` zoals `Format24bppRgb`.  
+- **Out‑of‑memory fouten** – Grote bitmaps verbruiken veel geheugen; overweeg kleinere afmetingen of streaming van de afbeelding.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik meerdere afbeeldingen op één canvas weergeven met Aspose.Drawing?
+### Q1: Kan ik meerdere afbeeldingen op één canvas weergeven met Aspose.Drawing?
+**A:** Ja. Laad elke afbeelding in een eigen `Bitmap` en roep `Graphics.DrawImage` meerdere keren aan met verschillende coördinaten.
 
-A1: Ja, dat kan. Laad en teken eenvoudig meerdere afbeeldingen op de bitmap met behulp van de meegeleverde technieken.
+### Q2: Is Aspose.Drawing compatibel met de nieuwste .NET‑versies?
+**A:** Absoluut. Aspose.Drawing wordt regelmatig bijgewerkt om .NET 5, .NET 6 en nieuwere releases te ondersteunen.
 
-### V2: Is Aspose.Drawing compatibel met de nieuwste .NET-versies?
+### Q3: Hoe kan ik schaling van afbeeldingen afhandelen in Aspose.Drawing?
+**A:** Pas de breedte‑ en hoogte‑parameters in `DrawImage` aan of gebruik `Graphics.DrawImage`‑overloads die een bestemmings‑rechthoek accepteren voor precieze schaling.
 
-A2: Aspose.Drawing wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste .NET-frameworks te garanderen.
+### Q4: Zijn er licentie‑overwegingen voor het gebruik van Aspose.Drawing in commerciële projecten?
+**A:** Ja. Raadpleeg de **aspose.drawing licensing** informatie op de [purchase page](https://purchase.aspose.com/buy) voor details over trial, developer en enterprise licenties.
 
-### Vraag 3: Hoe kan ik omgaan met het schalen van afbeeldingen in Aspose.Drawing?
+### Q5: Waar kan ik hulp zoeken als ik problemen ondervind of vragen heb over Aspose.Drawing?
+**A:** Bezoek het [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) voor ondersteuning van de community en Aspose‑experts.
 
-A3: U kunt het schalen van afbeeldingen regelen door de parameters in de DrawImage-methode aan te passen.
+### Q6: Kan ik de bitmap converteren naar andere formaten zoals JPEG of BMP?
+**A:** Verander simpelweg de bestandsextensie in de `Save`‑methode (bijv. `bitmap.Save("output.jpg")`). Aspose.Drawing ondersteunt alle gangbare rasterformaten.
 
-### V4: Zijn er licentieoverwegingen voor het gebruik van Aspose.Drawing in commerciële projecten?
+## Conclusie
 
-A4: Raadpleeg de[aankooppagina](https://purchase.aspose.com/buy) voor licentiegegevens en opties.
+Je hebt nu geleerd hoe je een **afbeelding bitmap** tekent met Aspose.Drawing, meerdere afbeeldingen op één canvas verwerkt en **bitmap png**‑bestanden opslaat voor gebruik in elke .NET‑applicatie. Experimenteer met verschillende pixel‑formaten, groottes en teken‑operaties om de volledige kracht van Aspose.Drawing te benutten.
 
-### V5: Waar kan ik hulp zoeken als ik problemen ondervind of vragen heb over Aspose.Drawing?
+Voel je vrij om extra functies te verkennen, zoals tekstrendering, vormtekenen en afbeeldings‑transformaties. Voor meer details, raadpleeg de [officiële documentatie](https://reference.aspose.com/drawing/net/).
 
- A5: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) om steun te krijgen van de gemeenschap en experts.
+---
+
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

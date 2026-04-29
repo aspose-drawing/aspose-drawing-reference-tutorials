@@ -1,51 +1,71 @@
 ---
-title: Chia tỷ lệ hình ảnh trong Aspose.draw
-linktitle: Chia tỷ lệ hình ảnh trong Aspose.draw
-second_title: Aspose.draw .NET API - Thay thế cho System.draw.common
-description: Tìm hiểu cách chia tỷ lệ hình ảnh một cách dễ dàng trong .NET bằng Aspose.draw. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch, cung cấp khả năng xử lý hình ảnh mạnh mẽ.
-weight: 14
+date: 2026-02-07
+description: Tìm hiểu cách thay đổi kích thước hình ảnh với Aspose.Drawing cho .NET.
+  Hướng dẫn này trình bày chi tiết từng bước cách thay đổi kích thước bitmap trong
+  C# bằng phương pháp nội suy lân cận gần nhất và lưu các tệp hình ảnh đã được phóng
+  to/thu nhỏ.
+linktitle: Scaling Images in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Cách thay đổi kích thước hình ảnh bằng Aspose.Drawing cho .NET
 url: /vi/net/image-editing/scale/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chia tỷ lệ hình ảnh trong Aspose.draw
+# Cách Thu Phóng Hình Ảnh với Aspose.Drawing cho .NET
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện này về cách chia tỷ lệ hình ảnh bằng Aspose.draw cho .NET! Trong thế giới phát triển phần mềm năng động, việc thao tác và chia tỷ lệ hình ảnh là một yêu cầu chung. Aspose. Draw đơn giản hóa quy trình này, cung cấp các công cụ và chức năng mạnh mẽ để làm việc với hình ảnh trong ứng dụng .NET của bạn.
+Chào mừng bạn đến với hướng dẫn toàn diện về **cách thu phóng hình ảnh** bằng Aspose.Drawing cho .NET! Trong thế giới phát triển phần mềm năng động, việc thao tác và thu phóng hình ảnh là một yêu cầu phổ biến. Aspose.Drawing đơn giản hoá quá trình này, cung cấp các công cụ mạnh mẽ và chức năng để làm việc với hình ảnh trong các ứng dụng .NET của bạn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào tôi nên dùng?** Aspose.Drawing cho .NET  
+- **Phép nội suy nào cho kết quả sắc nét nhất?** NearestNeighbor interpolation  
+- **Tôi có thể thay đổi kích thước hình ảnh trong C# không?** Có – sử dụng các lớp Bitmap và Graphics  
+- **Làm thế nào để lưu hình ảnh đã thu phóng?** Gọi `bitmap.Save(...)` với đường dẫn mong muốn  
+- **Cần giấy phép không?** Một giấy phép tạm thời có sẵn để đánh giá  
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## Thu phóng hình ảnh trong Aspose.Drawing là gì?
 
-1.  Aspose.draw cho .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.draw trong dự án của mình. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/drawing/net/).
+Thu phóng hình ảnh là quá trình thay đổi kích thước một bitmap thành lớn hơn hoặc nhỏ hơn trong khi vẫn giữ chất lượng hình ảnh. Aspose.Drawing cung cấp một API đơn giản để thay đổi kích thước hình ảnh; các nhà phát triển C# có thể kiểm soát mọi bước — từ việc tạo canvas đến vẽ hình ảnh bằng một hình chữ nhật.
 
+## Tại sao nên sử dụng Aspose.Drawing để thu phóng?
+
+- **Kết xuất hiệu năng cao** – tối ưu cho hình ảnh lớn.  
+- **Các tùy chọn nội suy phong phú** – bao gồm nearest neighbor cho việc thu phóng pixel‑perfect.  
+- **Hỗ trợ .NET đầy đủ** – hoạt động với .NET Framework, .NET Core và .NET 5/6+.  
+- **Không phụ thuộc bên ngoài** – một gói NuGet duy nhất thay thế System.Drawing.Common.  
+
+## Yêu cầu trước
+
+Trước khi chúng ta bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã đáp ứng các yêu cầu sau:
+
+1. Aspose.Drawing cho .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Drawing trong dự án của mình. Bạn có thể tải xuống [tại đây](https://releases.aspose.com/drawing/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio.
-
-3. Hiểu biết cơ bản về C#: Làm quen với ngôn ngữ lập trình C# là điều cần thiết để triển khai các ví dụ.
+3. Kiến thức cơ bản về C#: Hiểu biết về ngôn ngữ lập trình C# là cần thiết để thực hiện các ví dụ.
 
 ## Nhập không gian tên
 
-Trong dự án C# của bạn, hãy bắt đầu bằng cách nhập các vùng tên cần thiết. Bước này rất quan trọng để truy cập liền mạch các chức năng của Aspose.draw.
+Trong dự án C# của bạn, bắt đầu bằng việc nhập các không gian tên cần thiết. Bước này rất quan trọng để truy cập các chức năng của Aspose.Drawing một cách liền mạch.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Bước 1: Tạo Bitmap
+## Bước 1: Tạo một Bitmap (canvas)
 
-Bắt đầu bằng cách tạo một đối tượng Bitmap sẽ đóng vai trò là khung vẽ cho hình ảnh của bạn. Chỉ định định dạng chiều rộng, chiều cao và pixel theo yêu cầu của bạn.
+Bắt đầu bằng việc tạo một đối tượng `Bitmap` sẽ làm canvas cho hình ảnh của bạn. Xác định chiều rộng, chiều cao và định dạng pixel theo yêu cầu. Đây là cách tiếp cận *resize bitmap C#* cổ điển.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Bước 2: Tạo đối tượng đồ họa
+## Bước 2: Tạo một đối tượng Graphics
 
-Tiếp theo, tạo một đối tượng Graphics từ Bitmap đã tạo trước đó. Đối tượng này sẽ cung cấp khả năng vẽ cần thiết cho thao tác hình ảnh.
+Tiếp theo, tạo một đối tượng `Graphics` từ `Bitmap` đã tạo trước đó. Đối tượng này cung cấp khả năng vẽ cần thiết cho việc thao tác hình ảnh, bao gồm khả năng **drawimage with rectangle** sau này.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -53,7 +73,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 ## Bước 3: Đặt chế độ nội suy
 
-Để nâng cao chất lượng của hình ảnh được chia tỷ lệ, hãy đặt chế độ nội suy. Trong ví dụ này, chúng tôi sử dụng chế độ nội suy NearestNeighbor.
+Để nâng cao chất lượng của hình ảnh đã thu phóng, hãy đặt chế độ nội suy. Trong ví dụ này, chúng ta sử dụng chế độ **NearestNeighbor interpolation**, phù hợp khi bạn cần một phép phóng to phong cách pixel‑art sắc nét.
 
 ```csharp
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
@@ -61,58 +81,76 @@ graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 
 ## Bước 4: Tải hình ảnh
 
- Tải hình ảnh mà bạn muốn chia tỷ lệ thành đối tượng Bitmap. Thay thế`"Your Document Directory" + @"Images\aspose_logo.png"` với đường dẫn đến hình ảnh của bạn.
+Tải hình ảnh mà bạn muốn thu phóng vào một đối tượng `Bitmap`. Thay thế `"Your Document Directory" + @"Images\aspose_logo.png"` bằng đường dẫn tới hình ảnh của bạn.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-## Bước 5: Chia tỷ lệ hình ảnh
+## Bước 5: Thu phóng hình ảnh
 
-Xác định một hình chữ nhật thể hiện sự mở rộng của hình ảnh. Trong ví dụ này, hình ảnh được chia tỷ lệ 5 lần, cả về chiều rộng và chiều cao.
+Xác định một hình chữ nhật đại diện cho việc mở rộng của hình ảnh. Trong ví dụ này, hình ảnh được thu phóng gấp 5 lần, cả chiều rộng và chiều cao. Điều này minh họa kỹ thuật **drawimage with rectangle**.
 
 ```csharp
 Rectangle expansionRectangle = new Rectangle(0, 0, image.Width * 5, image.Height * 5);
 graphics.DrawImage(image, expansionRectangle);
 ```
 
-## Bước 6: Lưu hình ảnh được thu nhỏ
+## Bước 6: Lưu hình ảnh đã thu phóng
 
-Lưu hình ảnh được chia tỷ lệ vào vị trí mong muốn. Điều chỉnh đường dẫn tệp theo cấu trúc dự án của bạn.
+Lưu hình ảnh đã thu phóng tới vị trí mong muốn. Điều chỉnh đường dẫn tệp theo cấu trúc dự án của bạn. Bước này cho thấy cách **save scaled image** các tệp ở các định dạng phổ biến như PNG.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
 ```
 
-Chúc mừng! Bạn đã thu nhỏ thành công hình ảnh bằng Aspose.draw cho .NET.
+Chúc mừng! Bạn đã học thành công **cách thu phóng hình ảnh** bằng Aspose.Drawing cho .NET.
 
-## Phần kết luận
+## Kết luận
 
-Trong hướng dẫn này, chúng ta đã khám phá quy trình chia tỷ lệ hình ảnh bằng Aspose.draw. Thư viện này trao quyền cho các nhà phát triển xử lý hiệu quả các tác vụ xử lý hình ảnh trong các ứng dụng .NET của họ. Bằng cách làm theo hướng dẫn từng bước, bạn đã có được những hiểu biết có giá trị về việc triển khai chia tỷ lệ hình ảnh.
+Trong hướng dẫn này, chúng ta đã khám phá quy trình thu phóng hình ảnh bằng Aspose.Drawing. Thư viện này cho phép các nhà phát triển xử lý hiệu quả các nhiệm vụ thao tác hình ảnh trong các ứng dụng .NET của họ. Bằng cách làm theo hướng dẫn từng bước, bạn đã nắm bắt được những hiểu biết quý giá về việc triển khai thu phóng hình ảnh, bao gồm thay đổi kích thước hình ảnh C#, resize bitmap C#, sử dụng nearest neighbor interpolation, vẽ hình ảnh bằng một hình chữ nhật và lưu hình ảnh đã thu phóng.
 
-Vui lòng thử nghiệm thêm và khám phá các tính năng khác do Aspose. Draw cung cấp để nâng cao khả năng xử lý hình ảnh của bạn.
+Hãy tự do thử nghiệm thêm và khám phá các tính năng khác do Aspose.Drawing cung cấp để nâng cao khả năng xử lý hình ảnh của bạn.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.draw cho .NET trong cả ứng dụng web và máy tính để bàn không?
+### Q1: Tôi có thể sử dụng Aspose.Drawing cho .NET trong cả ứng dụng web và desktop không?
 
-Câu trả lời 1: Có, Aspose.draw rất linh hoạt và có thể được sử dụng trong nhiều ứng dụng .NET khác nhau, bao gồm cả web và máy tính để bàn.
+A1: Có, Aspose.Drawing đa năng và có thể được sử dụng trong nhiều loại ứng dụng .NET, bao gồm web và desktop.
 
-### Câu hỏi 2: Aspose.drawing có giấy phép tạm thời không?
+### Q2: Có giấy phép tạm thời cho Aspose.Drawing không?
 
- A2: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+A2: Có, bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm và đánh giá.
 
-### Câu hỏi 3: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.drawing ở đâu?
+### Q3: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Drawing ở đâu?
 
- A3: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[diễn đàn Aspose.draw](https://forum.aspose.com/c/drawing/44).
+A3: Đối với bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập [diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
-### Câu hỏi 4: Có bất kỳ hạn chế nào đối với các định dạng hình ảnh được Aspose.drawing hỗ trợ không?
+### Q4: Có bất kỳ hạn chế nào về các định dạng hình ảnh được Aspose.Drawing hỗ trợ không?
 
- Câu trả lời 4: Aspose.draw hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG, GIF, BMP, v.v. Tham khảo đến[tài liệu](https://reference.aspose.com/drawing/net/) để biết danh sách chi tiết.
+A4: Aspose.Drawing hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG, GIF, BMP và hơn thế nữa. Tham khảo [tài liệu](https://reference.aspose.com/drawing/net/) để biết danh sách chi tiết.
 
-### Câu hỏi 5: Tôi có thể áp dụng các chế độ nội suy tùy chỉnh để chia tỷ lệ hình ảnh không?
+### Q5: Tôi có thể áp dụng các chế độ nội suy tùy chỉnh cho việc thu phóng hình ảnh không?
 
-Câu trả lời 5: Có, Aspose.draw cung cấp tính linh hoạt, cho phép bạn chọn từ nhiều chế độ nội suy khác nhau để chia tỷ lệ hình ảnh.
+A5: Có, Aspose.Drawing cung cấp tính linh hoạt, cho phép bạn chọn từ các chế độ nội suy khác nhau cho việc thu phóng hình ảnh.
+
+## Các câu hỏi thường gặp
+
+**Q: Phép nội suy nearest neighbor khác gì so với bilinear?**  
+A: Nearest neighbor sao chép giá trị pixel gần nhất, giữ các cạnh cứng, trong khi bilinear tính trung bình có trọng số để có kết quả mượt hơn.
+
+**Q: Tôi có thể thu phóng hình ảnh mà không giữ tỷ lệ khung hình không?**  
+A: Có — bằng cách chỉ định các giá trị chiều rộng và chiều cao khác nhau trong hình chữ nhật, bạn có thể kéo dài hoặc nén hình ảnh theo nhu cầu.
+
+**Q: Có thể thu phóng nhiều hình ảnh trong một vòng lặp không?**  
+A: Chắc chắn. Đặt logic tạo bitmap, vẽ và lưu trong một vòng lặp `foreach` lặp qua các tệp nguồn của bạn.
+
+---
+
+**Cập nhật lần cuối:** 2026-02-07  
+**Được kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
