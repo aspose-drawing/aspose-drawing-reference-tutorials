@@ -1,11 +1,16 @@
 ---
-date: 2025-12-04
-description: Aspose.Drawing for .NET का उपयोग करके बिना नुकसान के छवि को स्केल करना
-  सीखें, और जानें कि कैसे कुशलतापूर्वक छवियों को क्रॉप, री‑साइज़, लोड, सेव और प्रदर्शित
-  किया जाए।
-linktitle: Image Editing
+date: 2026-05-03
+description: Aspose.Drawing for .NET का उपयोग करके बिना हानि के छवि को स्केल करना
+  सीखें, जिससे उच्च गुणवत्ता वाली छवि का आकार बदलना, क्रॉप करना, लोड करना, सहेजना
+  और प्रदर्शित करना संभव हो।
+keywords:
+- how to scale image
+- high quality image resize
+- batch process images
+- scale image high dpi
+linktitle: छवि संपादन
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: बिना नुकसान के छवि को स्केल करें – Aspose.Drawing के साथ छवि संपादन
+title: छवि को बिना नुकसान के स्केल कैसे करें – Aspose.Drawing के साथ छवि संपादन
 url: /hi/net/image-editing/
 weight: 21
 ---
@@ -18,119 +23,126 @@ weight: 21
 
 ## परिचय
 
-स्वागत है! इस गाइड में आप शक्तिशाली Aspose.Drawing .NET API का उपयोग करके **बिना नुकसान के इमेज स्केल** करना सीखेंगे। चाहे आप एक वेब पोर्टल, डेस्कटॉप ग्राफिक्स टूल, या एक स्वचालित इमेज‑प्रोसेसिंग पाइपलाइन बना रहे हों, बिना नुकसान के स्केलिंग—और क्रॉपिंग, रिसाइज़िंग, लोडिंग, सेविंग, और डिस्प्ले जैसी संबंधित तकनीकों—में महारत हासिल करने से आप हर बार स्पष्ट, पेशेवर विज़ुअल्स प्रदान कर सकेंगे।
-
-नीचे आपको एक त्वरित‑संदर्भ चीट शीट, प्रत्येक प्रमुख कार्य की विस्तृत व्याख्याएँ, और चरण‑दर‑चरण उप‑ट्यूटोरियल के लिंक मिलेंगे जो आपको वास्तविक‑दुनिया के परिदृश्यों से परिचित कराते हैं।
+Welcome! In this guide you’ll discover **छवि को स्केल करने का तरीका** without loss using the powerful Aspose.Drawing .NET API. Whether you’re building a web portal, a desktop graphics tool, or an automated image‑processing pipeline, mastering loss‑less scaling—and the surrounding techniques like cropping, resizing, loading, saving, and displaying—will let you deliver crisp, professional visuals every time. We’ll also cover real‑world scenarios such as high‑DPI asset preparation, batch processing of product photos, and high‑quality image resize for print‑ready PDFs.
 
 ## त्वरित उत्तर
-- **कौन सी लाइब्रेरी मुझे बिना नुकसान के इमेज स्केल करने देती है?** Aspose.Drawing for .NET
-- **क्या मैं उसी API के साथ इमेज को क्रॉप, रिसाइज़, लोड, सेव और डिस्प्ले भी कर सकता हूँ?** Yes – all covered in the linked tutorials
+- **कौनसी लाइब्रेरी मुझे छवि को बिना नुकसान के स्केल करने देती है?** Aspose.Drawing for .NET
+- **क्या मैं उसी API के साथ छवियों को क्रॉप, रिसाइज़, लोड, सेव और डिस्प्ले भी कर सकता हूँ?** Yes – all covered in the linked tutorials
 - **क्या उत्पादन उपयोग के लिए मुझे लाइसेंस चाहिए?** A commercial license is required; a free trial is available
-- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7
-- **क्या बड़े इमेज के लिए बिना नुकसान के स्केलिंग सुरक्षित है?** Absolutely – Aspose.Drawing uses high‑quality resampling algorithms
+- **कौनसे .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7
+- **क्या बड़े चित्रों के लिए लॉस‑लेस स्केलिंग सुरक्षित है?** Absolutely – Aspose.Drawing uses high‑quality resampling algorithms
+- **मैं छवियों को बैच में कुशलतापूर्वक कैसे प्रोसेस कर सकता हूँ?** Combine the API calls in a loop or use Parallel.ForEach for concurrent processing
+- **कौनसा रिसैम्पलिंग मोड सबसे अच्छी गुणवत्ता देता है?** Lanczos or high‑quality bicubic provides the highest fidelity for a high quality image resize
 
-## बिना नुकसान के इमेज स्केलिंग क्या है?
+## बिना नुकसान के छवि को स्केल करना क्या है?
 
-बिना नुकसान के इमेज स्केलिंग का मतलब है उसकी आयाम बदलना जबकि मूल दृश्य गुणवत्ता को बनाए रखना। Aspose.Drawing उन्नत इंटरपोलेशन (जैसे, बाइक्यूबिक, लैंकोज़) लागू करके आर्टिफैक्ट्स को न्यूनतम करता है, किनारों को तेज़ और रंगों को सटीक रखता है।
+Scaling an image without loss means changing its dimensions while preserving the original visual fidelity. Aspose.Drawing achieves this by applying advanced interpolation (e.g., bicubic, Lanczos) that minimizes artifacts, keeping edges sharp and colors accurate.
 
-## Aspose.Drawing का उपयोग करके बिना नुकसान के इमेज स्केल कैसे करें
+## Aspose.Drawing का उपयोग करके बिना नुकसान के छवि को कैसे स्केल करें
 
-जब आपको एक रिस्पॉन्सिव वेबसाइट के लिए चित्र का आकार बदलना हो या थंबनेल बनाना हो, तो आप आमतौर पर:
+When you need to resize a picture for a responsive website or generate thumbnails, you’ll typically:
 
-1. **Load the image** – यह “how to load image” चरण है।
-2. **Apply a loss‑less scaling operation** – आप लक्ष्य चौड़ाई/ऊँचाई और रिसैंपलिंग मोड निर्दिष्ट कर सकते हैं।
-3. **Save the result** – यह “how to save image” चरण है, मूल फ़ॉर्मेट को बनाए रखते हुए या आवश्यकतानुसार बदलते हुए।
+1. **Load the image** – this is the “how to load image” step.  
+2. **Apply a loss‑less scaling operation** – you can specify the target width/height and the resampling mode.  
+3. **Save the result** – the “how to save image” step, preserving the original format or converting as needed.
 
-ये तीन क्रियाएँ किसी भी इमेज‑प्रोसेसिंग वर्कफ़्लो की रीढ़ हैं, और Aspose.Drawing प्रत्येक को सरल बनाता है।
+These three actions are the backbone of any image‑processing workflow, and Aspose.Drawing makes each one straightforward.
 
-## इमेज एडिटिंग के लिए Aspose.Drawing क्यों उपयोग करें?
+## उच्च गुणवत्ता वाली छवि रिसाइज़ के लिए Aspose.Drawing क्यों उपयोग करें?
 
-- **Cross‑platform**: Windows, Linux, और macOS पर कार्य करता है।
-- **Full‑featured**: क्रॉपिंग, डायरेक्ट डेटा एक्सेस, डिस्प्ले, लोडिंग/सेविंग, और स्केलिंग को एक ही पैकेज में संभालता है।
-- **High performance**: गति और मेमोरी उपयोग के लिए ऑप्टिमाइज़्ड, बैच जॉब्स के लिए उपयुक्त।
-- **No GDI+ dependencies**: गैर‑Windows वातावरण में `System.Drawing.Common` की समस्याओं से बचाता है।
+- **क्रॉस‑प्लेटफ़ॉर्म**: Works on Windows, Linux, and macOS.  
+- **पूर्ण‑विशेषताएँ**: Handles cropping, direct data access, displaying, loading/saving, and scaling—all in one package.  
+- **उच्च प्रदर्शन**: Optimized for speed and memory usage, perfect for batch jobs.  
+- **कोई GDI+ निर्भरताएँ नहीं**: Avoids the pitfalls of `System.Drawing.Common` in non‑Windows environments.  
+- **उन्नत रिसैम्पलिंग**: Built‑in Lanczos and bicubic filters give you the best possible high quality image resize results.
 
 ## पूर्वापेक्षाएँ
 
-- .NET विकास वातावरण (Visual Studio 2022, VS Code, या Rider)
-- Aspose.Drawing for .NET NuGet पैकेज (`Install-Package Aspose.Drawing`)
-- C# और इमेज अवधारणाओं (पिक्सेल, DPI, कलर डेप्थ) का मूल ज्ञान
+- .NET development environment (Visual Studio 2022, VS Code, or Rider)  
+- Aspose.Drawing for .NET NuGet package (`Install-Package Aspose.Drawing`)  
+- Basic familiarity with C# and image concepts (pixels, DPI, color depth)
 
+### छवि को क्रॉप कैसे करें (How to Crop Image)
 
-### इमेज को क्रॉप कैसे करें (How to Crop Image)
-
-नीचे समर्पित ट्यूटोरियल है जो आपको सटीक क्रॉपिंग तकनीकों से परिचित कराता है। क्रॉपिंग में महारत हासिल करने से आप चित्र के सबसे महत्वपूर्ण भागों पर ध्यान केंद्रित कर सकते हैं और समग्र संरचना में सुधार होता है।
+Below is the dedicated tutorial that walks you through precise cropping techniques. Mastering cropping helps you focus on the most important parts of a picture and improves overall composition.
 
 [Cropping Images in Aspose.Drawing](./cropping/)
 
-### इमेज डेटा को सीधे एक्सेस कैसे करें (How to Resize Image)
+### छवि डेटा को सीधे एक्सेस कैसे करें (How to Resize Image)
 
-डायरेक्ट डेटा एक्सेस आपको पिक्सेल बफ़र्स पर लो‑लेवल नियंत्रण देता है, जिससे कस्टम फ़िल्टर और ट्रांसफ़ॉर्मेशन संभव होते हैं। यह ज्ञान बिना नुकसान के स्केलिंग का भी आधार है।
+Direct data access gives you low‑level control over pixel buffers, enabling custom filters and transformations. This knowledge also underpins loss‑less scaling.
 
 [Direct Data Access in Aspose.Drawing](./direct-data-access/)
 
-### अपने एप्लिकेशन में इमेज को डिस्प्ले कैसे करें (How to Display Image)
+### अपने एप्लिकेशन में छवियों को कैसे प्रदर्शित करें (How to Display Image)
 
-इमेज को सही ढंग से दिखाने के लिए—चाहे WinForms, WPF, या ASP.NET में—सही रेंडरिंग पाइपलाइन की आवश्यकता होती है। यह ट्यूटोरियल “how to display image” वर्कफ़्लो को कवर करता है।
+Showing images correctly—whether in WinForms, WPF, or ASP.NET—requires the right rendering pipeline. This tutorial covers the “how to display image” workflow.
 
 [Displaying Images in Aspose.Drawing](./display/)
 
-### इमेज को लोड और सेव करने के लिए कुशल तरीके (How to Load Image / How to Save Image)
+### छवियों को कुशलतापूर्वक लोड और सेव कैसे करें (How to Load Image / How to Save Image)
 
-लोडिंग और सेविंग किसी भी इमेज वर्कफ़्लो के दो किनारे हैं। BMP, GIF, JPG, PNG, और TIFF फ़ाइलों को बिना गुणवत्ता खोए संभालने के सर्वोत्तम अभ्यास सीखें।
+Loading and saving are the bookends of any image workflow. Learn the best practices for handling BMP, GIF, JPG, PNG, and TIFF files without quality loss.
 
 [Loading and Saving Images in Aspose.Drawing](./load-save/)
 
-### गुणवत्ता बनाए रखते हुए इमेज को स्केल कैसे करें (How to Resize Image)
+### गुणवत्ता बनाए रखते हुए छवियों को स्केल कैसे करें (How to Resize Image)
 
-अंत में, बिना नुकसान के इमेज को स्केल करने के सटीक चरणों को जानें, उचित रिसैंपलिंग मोड चुनें, और एस्पेक्ट रेशियो बनाए रखें।
+Finally, discover the exact steps to **छवि को स्केल करें** without loss, choose the appropriate resampling mode, and maintain aspect ratios.
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
+## छवियों को कुशलतापूर्वक बैच प्रोसेस करें
+
+When you have hundreds or thousands of product photos, you can combine the API calls in a loop or use `Parallel.ForEach` to speed up processing. The same `Load → Crop → Scale → Save` pattern applies, and because Aspose.Drawing is memory‑efficient, it scales well even on modest servers.
+
+## हाई DPI डिस्प्ले के लिए छवियों को स्केल करना
+
+High‑DPI screens demand images that retain sharpness at larger pixel densities. After scaling, simply preserve the original DPI by copying `ResolutionX` and `ResolutionY` to the output image. This ensures the image looks crisp on Retina and 4K displays.
 
 ## सामान्य उपयोग केस
 
-| परिदृश्य | यह क्यों महत्वपूर्ण है | मुख्य API कॉल्स |
-|----------|----------------------|-----------------|
-| **गैलरी के लिए थंबनेल बनाना** | पेज लोड तेज़ रखता है जबकि दृश्य गुणवत्ता बनी रहती है | `Load → Scale (loss‑less) → Save` |
-| **हाई‑DPI डिस्प्ले के लिए एसेट तैयार करना** | आधुनिक स्क्रीन पर ब्लरी UI एलिमेंट्स से बचाता है | `Load → Resize (bicubic) → Save` |
-| **प्रोडक्ट फोटो का बैच‑प्रोसेसिंग** | हजारों इमेज में ब्रांड कंसिस्टेंसी सुनिश्चित करता है | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
-| **प्रिंटेबल PDF बनाना** | प्रिंट‑रेडी रिज़ॉल्यूशन बनाए रखता है | `Load → Scale (no loss) → Embed in PDF` |
+| परिदृश्य | क्यों महत्वपूर्ण है | मुख्य API कॉल्स |
+|----------|-------------------|-------------------|
+| **गैलरी के लिए थंबनेल बनाना** | पेज लोड तेज़ रखता है जबकि दृश्य गुणवत्ता बरकरार रखता है | `Load → Scale (loss‑less) → Save` |
+| **हाई‑DPI डिस्प्ले के लिए एसेट तैयार करना** | आधुनिक स्क्रीन पर धुंधले UI तत्वों से बचाता है | `Load → Resize (bicubic) → Save` |
+| **उत्पाद फोटो का बैच‑प्रोसेसिंग** | हजारों छवियों में ब्रांड स्थिरता सुनिश्चित करता है | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
+| **प्रिंटेबल PDFs बनाना** | प्रिंट‑रेडी रिज़ॉल्यूशन बनाए रखता है | `Load → Scale (no loss) → Embed in PDF` |
 
-## छवि संपादन ट्यूटोरियल
+## छवि संपादन ट्यूटोरियल्स
 ### [Cropping Images in Aspose.Drawing](./cropping/)
-Aspose.Drawing for .NET के साथ इमेज क्रॉपिंग में महारत हासिल करें। यह चरण‑दर‑चरण गाइड डेवलपर्स को इमेज प्रोसेसिंग कौशल को आसानी से बढ़ाने में सक्षम बनाता है।
+Master image cropping with Aspose.Drawing for .NET. This step‑by‑step guide empowers developers to enhance image processing skills effortlessly.  
 
 ### [Direct Data Access in Aspose.Drawing](./direct-data-access/)
-Aspose.Drawing for .NET के साथ इमेज को कुशलता से मैनीपुलेट करना सीखें। हमारे चरण‑दर‑चरण गाइड के साथ डायरेक्ट डेटा एक्सेस में गहराई से जाएँ।
+Learn to manipulate images efficiently with Aspose.Drawing for .NET. Dive into direct data access with our step‑by‑step guide.  
 
 ### [Displaying Images in Aspose.Drawing](./display/)
-Aspose.Drawing के साथ .NET एप्लिकेशन में इमेज को डिस्प्ले करना सीखें। आसान चरणों के लिए हमारे ट्यूटोरियल का पालन करें और अपने विज़ुअल कंटेंट को बेहतर बनाएं।
+Learn how to display images in .NET applications with Aspose.Drawing. Follow our tutorial for easy steps and enhance your visual content.  
 
 ### [Loading and Saving Images in Aspose.Drawing](./load-save/)
-Aspose.Drawing के साथ .NET में इमेज लोडिंग और सेविंग में महारत हासिल करें। BMP, GIF, JPG, PNG, TIFF फ़ॉर्मेट को आसानी से एक्सप्लोर करें।
+Master image loading and saving in .NET with Aspose.Drawing. Explore BMP, GIF, JPG, PNG, TIFF formats effortlessly.  
 
 ### [Scaling Images in Aspose.Drawing](./scale/)
-Aspose.Drawing का उपयोग करके .NET में इमेज को आसानी से स्केल करना सीखें। हमारा चरण‑दर‑चरण गाइड सहज इंटीग्रेशन सुनिश्चित करता है, जिससे शक्तिशाली इमेज मैनिपुलेशन क्षमताएँ मिलती हैं।
+Learn how to scale images effortlessly in .NET using Aspose.Drawing. Our step‑by‑step guide ensures seamless integration, providing powerful image manipulation capabilities.
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: क्या मैं बिना नुकसान के इमेज को स्केल कर सकता हूँ और फिर भी उसकी फ़ाइल फ़ॉर्मेट बदल सकता हूँ?**  
-A: हाँ। स्केलिंग के बाद, आप इमेज को एक अलग फ़ॉर्मेट (जैसे, PNG → JPEG) में सेव कर सकते हैं जबकि स्केल्ड डाइमेंशन को बनाए रखते हैं। यदि आपको हर पिक्सेल को बरकरार रखना है तो एक लॉसलेस टार्गेट फ़ॉर्मेट चुनें।
+**Q: क्या मैं छवि को बिना नुकसान के स्केल कर सकता हूँ और फिर भी फ़ाइल फ़ॉर्मेट बदल सकता हूँ?**  
+A: Yes. After scaling, you can save the image in a different format (e.g., PNG → JPEG) while preserving the scaled dimensions. Choose a lossless target format if you need to keep every pixel intact.
 
-**Q: क्या बिना नुकसान के स्केलिंग उपयोग करने पर प्रदर्शन में कमी आती है?**  
-A: एल्गोरिदम साधारण निकटतम‑पड़ोसी रिसाइज़ की तुलना में अधिक कंप्यूट‑इंटेंसिव है, लेकिन Aspose.Drawing गति के लिए ऑप्टिमाइज़्ड है। बड़े पैमाने पर ऑपरेशन्स के लिए, इमेज को पैरलल में प्रोसेस करने पर विचार करें।
+**Q: क्या लॉस‑लेस स्केलिंग उपयोग करने पर प्रदर्शन में गिरावट आती है?**  
+A: The algorithm is more compute‑intensive than a simple nearest‑neighbor resize, but Aspose.Drawing is optimized for speed. For bulk operations, consider processing images in parallel.
 
 **Q: क्या Aspose.Drawing स्केलिंग के दौरान एनिमेटेड GIFs को सपोर्ट करता है?**  
-A: लाइब्रेरी प्रत्येक फ्रेम को व्यक्तिगत रूप से स्केल कर सकती है, जिससे एनीमेशन बरकरार रहता है। आपको फ्रेम्स पर इटरेट करके समान स्केलिंग सेटिंग्स लागू करनी होंगी।
+A: The library can scale each frame individually, preserving animation. You’ll need to iterate over frames and apply the same scaling settings.
 
 **Q: स्केलिंग के दौरान मूल DPI कैसे बनाए रखें?**  
-A: स्केलिंग के बाद, सेव करने से पहले `ResolutionX` और `ResolutionY` प्रॉपर्टीज़ को मूल DPI मानों पर सेट करें।
+A: After scaling, set the `ResolutionX` and `ResolutionY` properties to the original DPI values before saving.
 
-**Q: यदि मुझे इमेज को गैर‑पूर्णांक आकार में स्केल करना हो तो क्या करें?**  
-A: Aspose.Drawing फ्लोटिंग‑पॉइंट डाइमेंशन स्वीकार करता है, और रिसैंपलिंग इंजन आर्टिफैक्ट्स से बचने के लिए सर्वोत्तम पिक्सेल मानों की गणना करेगा।
+**Q: यदि मुझे छवि को गैर‑पूर्णांक आकार में स्केल करना हो तो क्या करें?**  
+A: Aspose.Drawing accepts floating‑point dimensions, and the resampling engine will calculate the best pixel values to avoid artifacts.
 
-**Last Updated:** 2025-12-04  
+**Last Updated:** 2026-05-03  
 **Tested With:** Aspose.Drawing for .NET 24.11  
 **Author:** Aspose  
 
