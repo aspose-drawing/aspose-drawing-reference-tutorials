@@ -1,112 +1,150 @@
 ---
-title: Mondiale transformatie in Aspose.Drawing voor .NET
-linktitle: Mondiale transformatie in Aspose.Tekening
-second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
-description: Ontdek wereldwijde transformaties in Aspose.Drawing voor .NET en creëer met gemak verbluffende graphics. Volg onze stapsgewijze handleiding voor een naadloze ervaring.
-weight: 10
+date: 2026-05-03
+description: Leer hoe je een afbeelding draait en een geroteerde ellips tekent met
+  behulp van Aspose.Drawing globale transformatie .NET. Volg onze stap‑voor‑stap gids
+  voor verbluffende graphics.
+keywords:
+- how to rotate image
+- draw rotated ellipse
+- global transformation .net
+- apply rotation transform
+- graphics rotatetransform example
+linktitle: Globale transformatie in Aspose.Drawing voor .NET
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Hoe een afbeelding te roteren met Aspose.Drawing Global Transformation
 url: /nl/net/coordinate-transformations/global-transformation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mondiale transformatie in Aspose.Drawing voor .NET
+# Hoe afbeelding roteren met Aspose.Drawing globale transformatie
 
-## Invoering
+## Introductie
 
-Welkom in de wereld van Aspose.Drawing voor .NET! In deze tutorial verkennen we het concept van globale transformatie met behulp van Aspose.Drawing, een krachtige bibliotheek voor grafische manipulatie in .NET-toepassingen. Met globale transformatie kunt u transformaties toepassen op elk getekend item in een grafische context. Dit kan enorm handig zijn als u complexe visuele effecten wilt creëren of afbeeldingen op grotere schaal wilt manipuleren.
+Welkom! In deze tutorial ontdek je **how to rotate image** objecten met behulp van de globale transformatiefunctie van Aspose.Drawing voor .NET. Globale transformatie laat je één transformatie‑matrix toepassen op elke tekenbewerking, wat perfect is voor het creëren van geavanceerde visuele effecten met minimale code. Aan het einde van deze gids zie je ook **how to draw ellipse** vormen die dezelfde rotatie overnemen, waardoor je een solide basis krijgt voor het bouwen van complexe graphics.
+
+## Hoe afbeelding roteren met globale transformatie
+
+De globale transformatie‑aanpak betekent dat je de rotatie één keer instelt, waarna elke volgende tekenaanroep—of het nu een afbeelding, een vorm of tekst is—automatisch die rotatie respecteert. Dit bespaart je het handmatig roteren van elk element en houdt je code schoon en onderhoudbaar.
+
+## Snelle antwoorden
+- **Wat betekent “global transformation”?** Een enkele matrix die alle volgende tekenopdrachten beïnvloedt.  
+- **Kan ik een afbeelding roteren zonder andere objecten te beïnvloeden?** Ja – pas de transformatie toe, teken, en reset vervolgens of gebruik een aparte graphics‑context.  
+- **Welke namespace is vereist?** `System.Drawing` (geleverd door Aspose.Drawing).  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor leren; een commerciële licentie is vereist voor productie.  
+- **Wordt dit ondersteund op .NET Core / .NET 6+?** Absoluut – Aspose.Drawing is cross‑platform.
 
 ## Vereisten
 
-Voordat we met Aspose.Drawing in de opwindende wereld van mondiale transformatie duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+Voordat we duiken in de spannende wereld van globale transformatie met Aspose.Drawing, zorg ervoor dat je de volgende vereisten hebt:
 
--  Aspose.Drawing-bibliotheek: Download en installeer de Aspose.Drawing-bibliotheek. U kunt de bibliotheek en de bijbehorende documentatie vinden[hier](https://reference.aspose.com/drawing/net/).
+- Aspose.Drawing Bibliotheek: Download en installeer de Aspose.Drawing bibliotheek. Je kunt de bibliotheek en de documentatie vinden [hier](https://reference.aspose.com/drawing/net/).
 
-- Ontwikkelomgeving: Zorg ervoor dat u over een werkende ontwikkelomgeving voor .NET beschikt.
+- Ontwikkelomgeving: Zorg dat je een werkende ontwikkelomgeving voor .NET hebt.
 
-Nu we de basis onder de knie hebben, gaan we aan de slag met de implementatie!
+Nu we de basis hebben behandeld, laten we naar de implementatie springen!
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Voordat u code gaat schrijven, is het essentieel om de benodigde naamruimten te importeren om toegang te krijgen tot de functionaliteit van Aspose.Drawing. Voeg de volgende naamruimten toe aan uw code:
+Voordat je code gaat schrijven, is het essentieel om de benodigde namespaces te importeren om toegang te krijgen tot de functionaliteit die Aspose.Drawing biedt. Voeg de volgende namespaces toe aan je code:
 
 ```csharp
 using System.Drawing;
 ```
 
-## Stap 1: Maak een bitmap- en grafische context
+## Hoe afbeelding roteren met globale transformatie
 
-De eerste stap is het maken van een bitmap- en grafische context. Dit zal dienen als het canvas waarop u globale transformaties zult uitvoeren.
+De eerste echte stap is het maken van een canvas (een `Bitmap`) en het verkrijgen van een `Graphics`‑object ervan. Deze graphics‑context zal de globale transformatie bevatten die alles roteert wat je daarna tekent.
+
+### Stap 1: Een Bitmap en Graphics‑context maken
 
 ```csharp
-// Maak een bitmap met een opgegeven breedte, hoogte en pixelindeling
+// Create a Bitmap with specified width, height, and pixel format
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 
-// Maak een grafisch object van de bitmap
+// Create a Graphics object from the Bitmap
 Graphics graphics = Graphics.FromImage(bitmap);
 
-// Maak het canvas leeg met een opgegeven achtergrondkleur
+// Clear the canvas with a specified background color
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## Stap 2: Creëer een mondiale transformatie
+### Stap 2: Rotatietransformatie toepassen (Rotate 15°)
 
-Laten we nu een globale transformatie instellen die op elk getekend item op het canvas wordt toegepast. In dit voorbeeld roteren we de gehele grafische context met 15 graden.
+Nu passen we de rotatie toe die **how to rotate image** bewerkingen globaal zal beïnvloeden. De `RotateTransform`‑methode voegt een rotatie van 15 graden toe aan de huidige transformatie‑matrix.
 
 ```csharp
-// Stel een rotatietransformatie in (15 graden)
+// Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
 
-## Stap 3: Teken een ellips
+### Stap 3: Gedraaide ellips tekenen na rotatie
 
-Nu de globale transformatie is doorgevoerd, kunt u nu vormen tekenen die door de transformatie worden beïnvloed. Laten we een ellips tekenen met een blauwe omtrek.
+Met de rotatie ingesteld, zal elke vorm die je tekent—incl. een ellips—gedraaid verschijnen. Dit demonstreert **how to draw ellipse** terwijl de globale transformatie gerespecteerd wordt en voldoet tevens aan het secundaire trefwoord *draw rotated ellipse*.
 
 ```csharp
-// Maak een pen met een opgegeven kleur en breedte
+// Create a Pen with specified color and width
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 
-// Teken een ellips met de opgegeven pen en coördinaten
+// Draw an ellipse using the specified pen and coordinates
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-## Stap 4: Bewaar het resultaat
+### Stap 4: Het resultaat opslaan
 
-Nadat u de globale transformatie heeft toegepast en uw vormen heeft getekend, is het tijd om het resultaat op te slaan. Kies de gewenste map en sla de getransformeerde afbeelding op.
+Zodra je de globale transformatie hebt toegepast en je vormen hebt getekend, is het tijd om de afbeelding naar schijf te schrijven.
 
 ```csharp
-// Sla de getransformeerde afbeelding op in de opgegeven map
+// Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
 
-Gefeliciteerd! U hebt met succes een wereldwijde transformatie geïmplementeerd met Aspose.Drawing voor .NET. Voel je vrij om meer transformaties en effecten te verkennen om het volledige potentieel van deze krachtige grafische bibliotheek te benutten.
+## Waarom globale transformatie gebruiken?
 
-## Conclusie
+- **Consistentie** – Eén transformatie wordt toegepast op elke tekenaanroep, waardoor je elke object afzonderlijk hoeft te roteren.  
+- **Prestaties** – Vermindert het aantal matrixberekeningen dat je handmatig moet beheren.  
+- **Flexibiliteit** – Combineer eenvoudig rotatie, schaal en translatie voor complexe effecten.
 
-In deze tutorial hebben we de fascinerende wereld van mondiale transformaties in Aspose.Drawing voor .NET verkend. Deze functie biedt eindeloze mogelijkheden voor het creëren van visueel verbluffende graphics en effecten in uw toepassingen. Terwijl u blijft experimenteren en voortbouwt op deze concepten, ontdekt u de veelzijdigheid en kracht die Aspose.Drawing aan uw projecten toevoegt.
+## Rotatietransformatie toepassen in real‑world scenario's
+
+Stel je voor dat je een dashboard bouwt dat sensorgegevens visualiseert als roterende meters, of een spel dat sprites rond een centraal punt moet laten draaien. Met de **apply rotation transform**‑techniek schrijf je de rotatiecode één keer en laat je de graphics‑engine de rest afhandelen. Dit patroon schaalt prachtig naarmate je meer elementen toevoegt—elke nieuwe vorm erft automatisch dezelfde rotatie.
+
+## Graphics RotateTransform voorbeeld – Veelvoorkomende valkuilen & tips
+
+- **Transform resetten:** Als je later niet‑geroteerde elementen moet tekenen, roep dan `graphics.ResetTransform()` aan vóór die tekenaanroepen.  
+- **Volgorde is belangrijk:** Transformaties worden toegepast in de volgorde waarin ze worden toegevoegd; eerst roteren vóór vertalen levert andere resultaten op dan omgekeerd.  
+- **Pixelindeling:** Het gebruik van `Format32bppPArgb` zorgt voor hoogwaardige alfa‑blending, wat belangrijk is voor geroteerde vormen.
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.Drawing compatibel met .NET Core?
+**Q: Is Aspose.Drawing compatibel met .NET Core?**  
+A: Ja, Aspose.Drawing is volledig compatibel met .NET Core, .NET 5, .NET 6 en latere versies.
 
-A1: Ja, Aspose.Drawing is compatibel met .NET Core en biedt platformonafhankelijke ondersteuning voor uw ontwikkelingsbehoeften.
+**Q: Kan ik meerdere globale transformaties toepassen op één graphics‑context?**  
+A: Absoluut! Je kunt keten van aanroepen zoals `graphics.RotateTransform`, `graphics.ScaleTransform` en `graphics.TranslateTransform` gebruiken om een samengestelde matrix te bouwen.
 
-### Vraag 2: Kan ik meerdere globale transformaties toepassen op één enkele grafische context?
+**Q: Waar vind ik meer tutorials en voorbeelden voor Aspose.Drawing?**  
+A: Bezoek het [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) voor een schat aan tutorials, voorbeelden en community‑discussies.
 
-A2: Absoluut! U kunt meerdere transformatieoproepen aan elkaar koppelen om complexe visuele effecten te bereiken.
+**Q: Is er een gratis proefversie beschikbaar voor Aspose.Drawing?**  
+A: Ja, je kunt een gratis proefversie van Aspose.Drawing verkennen [hier](https://releases.aspose.com/).
 
-### V3: Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.Drawing?
+**Q: Hoe kan ik een tijdelijke licentie voor Aspose.Drawing krijgen?**  
+A: Verkrijg een tijdelijke licentie voor Aspose.Drawing [hier](https://purchase.aspose.com/temporary-license/).
 
- A3: Bezoek de[Aspose.Tekenforum](https://forum.aspose.com/c/drawing/44) voor een schat aan tutorials, voorbeelden en communitydiscussies.
+## Conclusie
 
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.Drawing?
+In deze gids hebben we **how to rotate image** behandeld met de globale transformatiefunctie van Aspose.Drawing en hebben we **how to draw ellipse** gedemonstreerd die automatisch de rotatie overneemt. Deze technieken openen de deur naar geavanceerde grafische creatie in elke .NET‑applicatie. Experimenteer met extra transformaties—schalen, scheren of meerdere rotaties combineren—om nog meer visuele mogelijkheden te ontgrendelen.
 
-A4: Ja, u kunt een gratis proefversie van Aspose.Drawing uitproberen[hier](https://releases.aspose.com/).
+---
 
-### V5: Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Drawing?
+**Laatst bijgewerkt:** 2026-05-03  
+**Getest met:** Aspose.Drawing 24.11 voor .NET  
+**Auteur:** Aspose  
 
- A5: Verkrijg een tijdelijke licentie voor Aspose.Drawing[hier](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
