@@ -1,96 +1,164 @@
 ---
-title: Aspose.Drawing'de Yay Çizimi
-linktitle: Aspose.Drawing'de Yay Çizimi
-second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
-description: Aspose.Drawing'i kullanarak .NET uygulamalarında büyüleyici yaylar çizmeyi öğrenin. Çarpıcı görsel sonuçlar için adım adım kılavuzumuzu izleyin.
-weight: 11
+date: 2026-02-12
+description: Aspose.Drawing kullanarak .NET uygulamalarında yay çizmeyi öğrenin. Bu
+  adım adım rehber, C# ile bitmap oluşturmayı, kalem rengini ayarlamayı, bitmap üzerinde
+  yay çizmeyi ve bitmap'i PNG olarak kaydetmeyi gösterir.
+linktitle: Drawing Arcs in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Aspose.Drawing ile Yay Çizme
 url: /tr/net/lines-curves-and-shapes/draw-arc/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing'de Yay Çizimi
+# Aspose.Drawing ile Yay Çizme
 
-## giriiş
+## Giriş
 
-Görsel olarak çekici grafikler oluşturmak birçok uygulamanın önemli bir unsurudur ve Aspose.Drawing for .NET bu görevi çok kolaylaştırır. Bu derste Aspose.Drawing'i kullanarak yay çizme sürecini derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni gelen biri olun, bu kılavuz sizi .NET uygulamalarınıza çarpıcı yaylar dahil etme bilgisi ile donatacaktır.
+Bir .NET projesinde **yay nasıl çizilir** ihtiyacınız varsa, Aspose.Drawing süreci basit ve yüksek performanslı hâle getirir. Bu öğreticide C#'ta bir bitmap oluşturmayı, kalem rengini ayarlamayı, bir yay görüntüsü üretmeyi ve son olarak bitmap'i PNG dosyası olarak kaydetmeyi adım adım göstereceğiz. Raporlama aracı, özel bir UI bileşeni oluşturuyor ya da sadece grafiklerle deneme yapıyor olun, bu adımlar size sağlam bir temel sağlayacaktır.
+
+## Hızlı Yanıtlar
+- **.NET'te yay çizmek için en iyi kütüphane hangisidir?** Aspose.Drawing for .NET  
+- **Yayı oluşturan yöntem hangisidir?** `Graphics.DrawArc`  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim için lisans gereklidir.  
+- **Sonucu PNG olarak kaydedebilir miyim?** Evet, `.png` uzantısı ile `Bitmap.Save` kullanın.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Aspose.Drawing'da “yay nasıl çizilir” nedir?
+
+Bir yay çizmek, bir elips ya da dairenin eğimli bir segmentini bir grafik yüzeyine çizmektir. Aspose.Drawing, tanıdık `Graphics.DrawArc` metodunu sunar ve sınırlayıcı dikdörtgeni, başlangıç açısını ve süpürme açısını piksel‑tam hassasiyetle tanımlamanıza olanak verir.
+
+## Neden Aspose.Drawing'i yaylar için kullanmalısınız?
+
+- **Cross‑platform consistency** – Windows, Linux ve macOS'ta aynı şekilde çalışır.  
+- **No System.Drawing.Common dependency** – Modern .NET Core/5+ uygulamaları için idealdir.  
+- **Rich API** – Renkler, çizgi kalınlıkları ve görüntü formatları üzerinde tam kontrol sağlar.  
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Before we dive in, make sure you have:
 
-- Visual Studio: Makinenizde Visual Studio'nun kurulu olduğundan emin olun.
--  Aspose.Drawing for .NET: Aspose.Drawing kütüphanesini şuradan indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/drawing/net/).
-- Temel C# Bilgisi: C# programlamanın temellerine aşina olun.
+- Visual Studio (herhangi bir güncel sürüm).  
+- Aspose.Drawing for .NET – indirmek için [website](https://releases.aspose.com/drawing/net/).  
+- Temel C# bilgisi (değişkenler, nesneler ve metod çağrıları).  
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarma
 
-Başlamak için C# projenize gerekli ad alanlarını içe aktarın. Kod dosyanızın başına aşağıdaki satırları ekleyin:
+To start, bring the required namespace into scope:
 
 ```csharp
 using System.Drawing;
 ```
 
-## Adım 1: Bitmap ve Grafik Nesneleri Oluşturun
+## Adım‑Adım Kılavuz
+
+### Adım 1: Bir bitmap C# nesnesi oluşturun
+
+İlk olarak, çizimimiz için tuval görevi görecek bir `Bitmap` oluştururuz.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
- Bu adımda bir başlangıç başlatıyoruz.`Bitmap` İstenilen boyutlara sahip nesne ve`Graphics` bitmap ile ilişkili nesne.
+*Açıklama*: Bitmap boyutu (1000 × 800) bize geniş bir alan sağlar ve piksel formatı yüksek kaliteli alfa karışımını garanti eder.
 
-## Adım 2: Çizim İçin Kalemi Ayarlayın
+### Adım 2: Bir kalem ayarlayın ve kalem rengini belirleyin
+
+Şimdi çizginin görünümünü belirleyen bir `Pen` tanımlıyoruz. Burada **kalem rengini** mavi olarak ayarlıyor ve 2 piksel genişliğini seçiyoruz.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
- Burada bir tanım yapıyoruz`Pen` yayı çizmek için kullanılacak kalemin rengini (Mavi) ve genişliğini (2) belirterek nesneyi seçin.
+`KnownColor.Blue` ifadesini başka bir bilinen renk ya da özel bir `Color.FromArgb` değeriyle değiştirebilirsiniz.
 
-## Adım 3: Yayı Çizin
+### Adım 3: Bitmap üzerine yay çizin
+
+Grafik yüzeyi ve kalem hazır olduğunda, **bitmap üzerine yay çizebiliriz**.
 
 ```csharp
 graphics.DrawArc(pen, 0, 0, 700, 700, 0, 180);
 ```
 
-`DrawArc` Yöntemi grafik yüzeyinde bir yay çizmek için kullanılır. Parametreler kalemi, başlangıç noktasını (0,0), boyutları (700x700) ve yayı tanımlayan açıları (0 ila 180 derece) temsil eder.
+Parametreler şunlardır:
 
-## Adım 4: Sonucu Kaydet
+- `pen` – tanımladığımız stil.  
+- `0, 0` – sınırlayıcı dikdörtgenin sol‑üst köşesi.  
+- `700, 700` – dikdörtgenin genişlik ve yüksekliği (tam bir daire oluşturur).  
+- `0` – derece cinsinden başlangıç açısı.  
+- `180` – süpürme açısı, yarım daire yayını üretir.
+
+### Adım 4: Bitmap'i PNG olarak kaydedin
+
+Son olarak, **bitmap'i PNG olarak** diske kaydediyoruz. Yolu, projenizin çıktı klasörüne göre ayarlayın.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 ```
 
-Çıktı dosyasına anlamlı bir ad vererek bitmap'i istediğiniz dizine kaydedin.
+Kaydedilen dosya (`DrawArc_out.png`) oluşturulan yay görüntüsünü içerir ve UI, raporlar veya daha ileri işleme için hazırdır.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Tebrikler! Aspose.Drawing for .NET'i kullanarak başarılı bir şekilde görsel açıdan etkileyici bir yay oluşturdunuz. Bu eğitim, yay çizmek için gereken temel adımları kapsıyor ve size daha fazla araştırma için sağlam bir temel sağlıyor.
+| Sorun | Çözüm |
+|-------|----------|
+| **Yay bozulmuş görünüyor** | Gerçek bir daire için genişlik ve yükseklik değerlerinin eşit olduğundan emin olun; aksi takdirde eliptik bir yay elde edersiniz. |
+| **Dosya bulunamadı hatası** | Hedef dizinin varlığını doğrulayın veya `Save` çağrısı öncesinde programatik olarak oluşturun. |
+| **Renkler Linux'ta farklı görünüyor** | Platformlar arası tutarlı render almak için açık RGBA değerleriyle `Color.FromArgb` kullanın. |
 
-## SSS'ler
+## SSS
 
-### S1: Yayın rengini özelleştirebilir miyim?
+### S1: Yayı rengini özelleştirebilir miyim?
 
- A1: Evet, yapabilirsin. Oluştururken renk parametresini değiştirmeniz yeterlidir.`Pen` nesne.
+**Evet, yapabilirsiniz.** `Pen` nesnesi oluştururken renk parametresini değiştirmeniz yeterlidir.
 
-### S2: Yay için farklı bir başlangıç açısı istersem ne olur?
+### S2: Yayın farklı bir başlangıç açısı olmasını istersem ne yapmalıyım?
 
- A2: Başlangıç açısı parametresini ayarlayın.`DrawArc` Gereksinimlerinize göre yöntem.
+İhtiyacınıza göre `DrawArc` metodundaki başlangıç açısı parametresini ayarlayın.
 
-### S3: Aspose.Drawing diğer grafik öğeleri için uygun mudur?
+### S3: Aspose.Drawing diğer grafik öğeleri için uygun mu?
 
-A3: Kesinlikle. Aspose.Drawing çizgiler, eğriler ve şekiller dahil çok çeşitli grafik öğelerini destekler.
+**Kesinlikle.** Aspose.Drawing, çizgiler, eğriler ve şekiller dahil olmak üzere geniş bir grafik öğe yelpazesini destekler.
 
 ### S4: Aspose.Drawing'i diğer .NET kütüphaneleriyle entegre edebilir miyim?
 
-Cevap4: Evet, Aspose.Drawing diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütünleşerek geliştirmenizde esneklik sağlar.
+**Evet,** Aspose.Drawing diğer .NET kütüphaneleriyle sorunsuz bir şekilde entegre olur ve geliştirme sürecinizde esneklik sağlar.
 
-### S5: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
+### S5: Ek destek veya topluluk tartışmalarını nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği ve tartışmalar için.
+Topluluk desteği ve tartışmalar için [Aspose.Drawing forumunu](https://forum.aspose.com/c/drawing/44) ziyaret edin.
+
+## Sık Sorulan Sorular
+
+**S: Bu .NET 6 ve sonrası ile çalışır mı?**  
+C: Evet, Aspose.Drawing .NET 6, .NET 7 ve .NET 8 çalışma zamanlarını tam olarak destekler.
+
+**S: Bitmap ne kadar büyük olabilir?**  
+C: Boyut yalnızca mevcut bellekle sınırlıdır; çok büyük görüntüler için akış veya döşeme tekniklerini düşünün.
+
+**S: Aynı bitmap üzerinde birden fazla yay çizebilir miyim?**  
+C: Kesinlikle—farklı koordinat veya açılarla `graphics.DrawArc` metodunu birden çok kez çağırmanız yeterlidir.
+
+**S: Anti‑aliasing otomatik olarak uygulanıyor mu?**  
+C: Çizim öncesinde `graphics.SmoothingMode = SmoothingMode.AntiAlias;` ayarlayarak etkinleştirebilirsiniz.
+
+**S: Kaydettikten sonra kaynakları nasıl serbest bırakırım?**  
+C: İşiniz bittiğinde yerel kaynakları serbest bırakmak için `graphics.Dispose();` ve `bitmap.Dispose();` çağırın.
+
+## Sonuç
+
+Artık Aspose.Drawing kullanarak **yay nasıl çizilir** konusunu biliyorsunuz; bitmap C# nesnesi oluşturma, kalem rengini ayarlama, yay görüntüsü üretme ve sonucu PNG olarak kaydetme adımlarını uyguladınız. Farklı açı, renk ve çizgi kalınlıklarıyla deneyler yaparak uygulamalarınızı zenginleştiren özel grafikler oluşturabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-02-12  
+**Test Edilen Sürüm:** Aspose.Drawing 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
