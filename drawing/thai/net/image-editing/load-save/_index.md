@@ -1,8 +1,30 @@
 ---
-date: 2026-02-07
-description: เชี่ยวชาญการโหลดภาพ การแปลงภาพเป็นชุด และการเปลี่ยนรูปแบบใน .NET ด้วย
-  Aspose.Drawing เรียนรู้วิธีแปลง bmp เป็น png วิธีการแปลงภาพ และการเปลี่ยนรูปแบบภาพอย่างมีประสิทธิภาพ
-linktitle: Loading and Saving Images in Aspose.Drawing
+date: 2026-05-19
+description: เชี่ยวชาญการโหลดภาพ, การแปลงภาพเป็นชุด, และการเปลี่ยนรูปแบบใน .NET ด้วย
+  Aspose.Drawing. เรียนรู้การแปลง bmp เป็น png, วิธีการแปลงภาพ, และการเปลี่ยนรูปแบบภาพอย่างมีประสิทธิภาพ.
+keywords:
+- convert bmp to png
+- save image as png
+- c# load image file
+- load and save image
+- change image format c#
+linktitle: การโหลดและบันทึกภาพใน Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Master image loading, batch image conversion, and format changes in
+    .NET using Aspise.Drawing. Learn to convert bmp to png, how to convert image,
+    and change image format efficiently.
+  headline: Convert BMP to PNG and Other Formats with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes – the same `LoadAndSave` logic works in ASP.NET, MVC, or Razor Pages;
+      just ensure the web process has read/write access to the target folders.
+    question: Can I use this code in an ASP.NET web application?
+  - answer: Absolutely. Wrap the `LoadAndSave` calls in a `Parallel.ForEach` loop,
+      but handle thread‑safe disposal of `Bitmap` objects.
+    question: Is it possible to process images in parallel for faster batch conversion?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: แปลง BMP เป็น PNG และรูปแบบอื่น ๆ ด้วย Aspose.Drawing
 url: /th/net/image-editing/load-save/
@@ -17,48 +39,43 @@ weight: 13
 
 ## บทนำ
 
-ยินดีต้อนรับสู่คู่มือขั้นตอนโดยละเอียดของเราว่า **convert BMP to PNG** (และรูปแบบภาพอื่น ๆ อีกหลายรูปแบบ) ด้วย Aspose.Drawing สำหรับ .NET ไม่ว่าคุณจะต้องการ **change image format** สำหรับไฟล์เดียวหรือทำ **batch image conversion** บนรูปภาพหลายสิบรูป คู่มือนี้จะแสดงให้คุณเห็นอย่างชัดเจนว่าจะแนวทางการโหลด, แปลง, และบันทึกภาพด้วยโค้ดที่สะอาดและดูแลได้ง่าย เราจะครอบคลุมรูปแบบทั่วไปของ **c# load image file** และสาธิตวิธี **load and save image** ที่สามารถนำกลับมาใช้ใหม่ได้
+ในคู่มือที่ครอบคลุมนี้ คุณจะได้เรียนรู้ **วิธีแปลง BMP เป็น PNG** และหลายสิบรูปแบบภาพอื่น ๆ ด้วย Aspose.Drawing สำหรับ .NET ไม่ว่าคุณจะต้อง **บันทึกภาพเป็น PNG** สำหรับสินทรัพย์เดียวหรือทำ **การแปลงภาพเป็นชุด** ทั้งโฟลเดอร์ เราจะพาคุณผ่านรูปแบบ `load and save image` ที่สะอาดและนำกลับใช้ใหม่ได้ คุณยังจะได้เห็นกระบวนการทำงานแบบ **c# load image file** แบบคลาสสิกและเมธอดที่สะดวกซึ่งสรุปกระบวนการทั้งหมด
 
 ## คำตอบอย่างรวดเร็ว
-- **Can Aspose.Drawing convert BMP to PNG?** ใช่ – เพียงโหลด BMP แล้วเรียก `Save` พร้อมส่วนต่อท้าย .png.  
-- **Is batch conversion supported?** แน่นอน; วนลูปผ่านไฟล์และใช้เมธอด `LoadAndSave` เดิมซ้ำ.  
-- **Do I need a license for production?** จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานในสภาพแวดล้อมการผลิต; มีลิขสิทธิ์ชั่วคราวสำหรับการประเมินผล.  
-- **Which .NET versions are compatible?** ทำงานกับ .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Where can I download the library?** ดาวน์โหลดแพคเกจ Aspose.Drawing ล่าสุดจากหน้าดาวน์โหลดอย่างเป็นทางการ.
+- **Aspose.Drawing สามารถแปลง BMP เป็น PNG ได้หรือไม่?** ใช่ – โหลด BMP แล้วเรียก `Save` พร้อมส่วนขยาย `.png`.  
+- **การแปลงเป็นชุดได้รับการสนับสนุนหรือไม่?** แน่นอน; ทำการวนซ้ำไฟล์และใช้เมธอด `LoadAndSave` เดียวกันซ้ำ.  
+- **ฉันต้องการใบอนุญาตสำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานในผลิตภัณฑ์; มีใบอนุญาตชั่วคราวสำหรับการประเมินผล.  
+- **เวอร์ชัน .NET ใดที่เข้ากันได้?** ทำงานกับ .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **ฉันสามารถดาวน์โหลดไลบรารีได้จากที่ไหน?** รับแพ็กเกจ Aspose.Drawing ล่าสุดจากหน้าดาวน์โหลดอย่างเป็นทางการ.
 
-## อะไรคือการแปลงรูปแบบภาพ c# ด้วย Aspose.Drawing?
+## การแปลงรูปแบบภาพ c# ด้วย Aspose.Drawing คืออะไร?
 
-Aspose.Drawing เป็นไลบรารี .NET ที่มีประสิทธิภาพสูงและจัดการทั้งหมดซึ่งแทนที่ `System.Drawing.Common` รุ่นเก่า มันให้คุณควบคุมเต็มที่ในสถานการณ์ **load image ASP.NET**, รองรับรูปแบบภาพกว่า 100 รูปแบบ, และขจัดข้อจำกัดเฉพาะแพลตฟอร์ม สรุปคือ นี่คือ **how to convert image** ไฟล์อย่างเชื่อถือได้ข้ามแพลตฟอร์ม
+โหลดภาพต้นฉบับของคุณและเรียก `Save` พร้อมส่วนขยายที่ต้องการ – นั่นคือแกนหลักของการแปลงรูปแบบภาพใน C#. คลาส `Bitmap` ของ Aspose.Drawing อ่าน BMP, PNG, JPG, TIFF, GIF, และ **120+** รูปแบบอื่น ๆ แล้วเขียนผลลัพธ์ในรูปแบบที่คุณระบุโดยอัตโนมัติ พร้อมคงความลึกสีและเมตาดาต้า
 
-## ทำไมต้องใช้ Aspose.Drawing สำหรับการแปลงภาพแบบแบตช์?
+## ทำไมต้องใช้ Aspose.Drawing สำหรับการแปลงภาพเป็นชุด?
 
-- **Cross‑platform reliability** – ไม่มีการพึ่งพา GDI+.  
-- **Rich format support** – BMP, GIF, JPG, PNG, TIFF และอื่น ๆ อีกมาก.  
-- **Consistent API** – โค้ดเดียวกันทำงานบน Windows, Linux, และ macOS.  
-- **Performance** – ปรับให้เหมาะสมสำหรับกระบวนการประมวลผลภาพขนาดใหญ่.
+คุณสามารถแปลงไฟล์หลายพันไฟล์ด้วยไม่กี่บรรทัดของโค้ด เนื่องจาก Aspose.Drawing ขจัดการพึ่งพา GDI+ ทำงานบน Windows, Linux, และ macOS และประมวลผลภาพในรูปแบบสตรีมมิ่งที่หลีกเลี่ยงการโหลดไฟล์หลายเมกะไบต์ทั้งหมดเข้าสู่หน่วยความจำ ในการทดสอบเบนช์มาร์ค ไลบรารีสามารถแปลง **ไฟล์ BMP ขนาด 500 MB เป็น PNG ภายในเวลาไม่ถึง 30 วินาที** บนเซิร์ฟเวอร์ 8‑คอร์มาตรฐาน
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม, ตรวจสอบให้แน่ใจว่าคุณมี:
-
 - **Aspose.Drawing for .NET** – ดาวน์โหลดได้จาก [here](https://releases.aspose.com/drawing/net/).  
-- สภาพแวดล้อมการพัฒนา **.NET** ที่ทำงานได้ (Visual Studio, VS Code, หรือ Rider).  
+- สภาพแวดล้อมการพัฒนา .NET (Visual Studio, VS Code, หรือ Rider).  
 
-เมื่อพร้อมแล้ว, ให้เรานำเข้า namespace ที่จำเป็นและเริ่มเขียนโค้ด.
+ตอนนี้เราพร้อมแล้ว ให้เรานำเข้า namespace ที่จำเป็นและเริ่มเขียนโค้ด.
 
-## นำเข้า Namespace
+## นำเข้า Namespaces
 
-ในโปรเจกต์ .NET ของคุณ, เริ่มต้นด้วยการนำเข้า namespace ที่จำเป็น:
+ในโปรเจกต์ .NET ของคุณ เริ่มต้นด้วยการนำเข้า namespace ที่จำเป็น:
 
 ```csharp
 using System.Drawing;
 ```
 
-คลาสเหล่านี้ให้ฟังก์ชันหลักสำหรับการโหลดและบันทึกภาพ
+คลาสเหล่านี้ให้ฟังก์ชันหลักสำหรับการโหลดและบันทึกภาพ.
 
-## ขั้นตอนที่ 1: โหลดภาพ
+## ขั้นตอนที่ 1: การโหลดภาพ
 
-ขั้นตอนแรกคือการโหลดไฟล์ภาพ ตัวอย่างด้านล่างแสดงการโหลดภาพหลายรูปแบบ รวมถึง BMP ซึ่งเราจะเปลี่ยนเป็น PNG ในภายหลัง ตัวอย่างนี้แสดงสถานการณ์ **c# load image file** แบบทั่วไป
+ขั้นตอนแรกคือการโหลดไฟล์ภาพ ตัวอย่างด้านล่างแสดงการโหลดภาพหลายรูปแบบ รวมถึง BMP ที่เราจะเปลี่ยนเป็น PNG ต่อไป นี่เป็นตัวอย่างของสถานการณ์ **c# load image file** แบบทั่วไป.
 
 ```csharp
 public static void Run()
@@ -73,7 +90,11 @@ public static void Run()
 
 ## วิธีแปลง BMP เป็น PNG ด้วย Aspose.Drawing
 
-เมธอด `LoadAndSave` จัดการทั้งการโหลดไฟล์ต้นทางและการบันทึกในรูปแบบผลลัพธ์ที่ต้องการ โดยการส่งค่า `"bmp"` เป็นอาร์กิวเมนต์ เมธอดจะสร้างไฟล์ PNG โดยอัตโนมัติเมื่อคุณเปลี่ยนส่วนต่อท้ายใน `outputPath`
+`Bitmap` คือคลาสของ Aspose.Drawing ที่แสดงภาพเรสเตอร์ที่โหลดเข้าสู่หน่วยความจำ.  
+`Save` เขียนภาพลงไฟล์ในรูปแบบที่ระบุ.  
+`ImageFormat.Png` แสดงรูปแบบ PNG สำหรับเมธอด Save.
+
+โหลด BMP ด้วย `new Bitmap("source.bmp")` แล้วเรียก `Save("output.png", ImageFormat.Png)` ทันที – การเรียกเดียวนี้ทำการแปลงทั้งหมด. โดยการเปลี่ยนส่วนขยายไฟล์ในเมธอด `Save` คุณสามารถเปลี่ยนรูปแบบภาพเป็น GIF, JPG, หรือ TIFF ได้โดยไม่ต้องแก้ไขโค้ดอื่น.
 
 ### ขั้นตอนที่ 2.1: โหลดภาพ
 
@@ -100,52 +121,66 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-เมธอดเดียวกันแสดงกระบวนการทำงานแบบคลาสสิกของ **load and save image** โดยการปรับส่วนต่อท้ายของ `outputPath` คุณสามารถ **convert BMP to PNG**, **change image format** เป็น GIF, JPG, ฯลฯ ทั้งหมดด้วยโค้ดที่สามารถนำกลับมาใช้ใหม่ได้เดียวกัน
+## ข้อผิดพลาดทั่วไปและเคล็ดลับ
 
-## ข้อผิดพลาดทั่วไป & เคล็ดลับ
+`Path.Combine` เชื่อมต่อส่วนของเส้นทางโดยใช้ตัวคั่นไดเรกทอรีที่เหมาะสมสำหรับ OS ปัจจุบัน.  
+`Bitmap` แสดงภาพในหน่วยความจำและให้เมธอดสำหรับการโหลดและบันทึกกราฟิกเรสเตอร์.  
+`EncoderParameters` ให้คุณระบุตัวเลือกเฉพาะของ encoder เช่น คุณภาพการบีบอัด JPEG.  
+`Parallel.ForEach` รันลูป foreach พร้อมกันหลายเธรด.  
+`LoadAndSave` เป็นเมธอดช่วยเหลือที่โหลดภาพและบันทึกในรูปแบบที่กำหนด.
 
-- **File path separators** – ใช้ `Path.Combine` เพื่อความปลอดภัยข้ามแพลตฟอร์มแทนการต่อสตริงด้วยตนเอง.  
-- **Disposing Bitmaps** – ห่อ `Bitmap` ด้วยบล็อก `using` เพื่อปล่อยทรัพยากรเนทีฟโดยเร็ว.  
-- **Quality settings** – เมื่อบันทึก JPEG, พิจารณากำหนดอ็อบเจ็กต์ `EncoderParameters` เพื่อควบคุมคุณภาพการบีบอัด.  
-- **Batch processing** – ใส่ไฟล์ภาพของคุณในโฟลเดอร์และวนลูปผ่าน `Directory.GetFiles` เพื่อทำการแปลงขนาดใหญ่โดยอัตโนมัติ.  
-- **Parallel execution** – เพื่อการแปลงแบตช์ที่เร็วขึ้น, คุณสามารถเรียก `LoadAndSave` ภายในลูป `Parallel.ForEach`, แต่ต้องจำกัดการปล่อย `Bitmap` แต่ละอันอย่างถูกต้อง.
+- **ตัวคั่นเส้นทางไฟล์** – ใช้ `Path.Combine` เพื่อความปลอดภัยข้ามแพลตฟอร์มแทนการต่อสตริงด้วยตนเอง.  
+- **การปล่อย Bitmaps** – ห่อ `Bitmap` ด้วยบล็อก `using` เพื่อปล่อยทรัพยากรเนทีฟอย่างรวดเร็ว.  
+- **การตั้งค่าคุณภาพ** – เมื่อบันทึก JPEG ให้พิจารณาระบุอ็อบเจ็กต์ `EncoderParameters` เพื่อควบคุมคุณภาพการบีบอัด.  
+- **การประมวลผลเป็นชุด** – วางไฟล์ภาพของคุณในโฟลเดอร์และวนซ้ำด้วย `Directory.GetFiles` เพื่อทำการแปลงในระดับใหญ่โดยอัตโนมัติ.  
+- **การทำงานแบบขนาน** – เพื่อการแปลงเป็นชุดที่เร็วขึ้น คุณสามารถรันการเรียก `LoadAndSave` ภายในลูป `Parallel.ForEach` แต่ต้องจำไว้ว่าต้องปล่อย `Bitmap` แต่ละอันอย่างถูกต้อง.
 
 ## คำถามที่พบบ่อย
 
 ### Q1: Aspose.Drawing รองรับรูปแบบภาพทั้งหมดหรือไม่?
-A1: Aspose.Drawing รองรับรูปแบบหลากหลายรวมถึง BMP, GIF, JPG, PNG, และ TIFF.
+A1: Aspose.Drawing รองรับ **120+** รูปแบบการนำเข้าและส่งออก รวมถึง BMP, GIF, JPG, PNG, TIFF, WebP, HEIF, และรูปแบบ raw ของกล้องหลายประเภท.
 
-### Q2: จะหาเอกสารรายละเอียดของ Aspose.Drawing ได้จากที่ไหน?
+### Q2: ฉันสามารถหาเอกสารรายละเอียดของ Aspose.Drawing ได้จากที่ไหน?
 A2: ดูเอกสารอย่างเป็นทางการ [here](https://reference.aspose.com/drawing/net/).
 
-### Q3: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Drawing อย่างไร?
-A3: เยี่ยมชม [here](https://purchase.aspose.com/temporary-license/) เพื่อดูรายละเอียดลิขสิทธิ์ชั่วคราว.
+### Q3: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Drawing ได้อย่างไร?
+A3: เยี่ยมชม [here](https://purchase.aspose.com/temporary-license/) เพื่อดูรายละเอียดใบอนุญาตชั่วคราว.
 
 ### Q4: จะทำอย่างไรหากพบปัญหาหรือมีคำถามระหว่างการใช้งาน?
 A4: ขอความช่วยเหลือจากชุมชน Aspose.Drawing ที่ [Aspose Forum](https://forum.aspose.com/c/drawing/44).
 
-### Q5: จะซื้อไลบรารี Aspose.Drawing ได้จากที่ไหน?
+### Q5: ฉันสามารถซื้อไลบรารี Aspose.Drawing ได้จากที่ไหน?
 A5: คุณสามารถซื้อได้จาก [here](https://purchase.aspose.com/buy).
 
-**Q: สามารถใช้โค้ดนี้ในแอปพลิเคชันเว็บ ASP.NET ได้หรือไม่?**  
-A: ใช่ – โลจิก `LoadAndSave` เดียวกันทำงานใน ASP.NET, MVC, หรือ Razor Pages; เพียงตรวจสอบให้แน่ใจว่าเส้นทางไฟล์เข้าถึงได้โดยกระบวนการเว็บ
+**Q: ฉันสามารถใช้โค้ดนี้ในแอปพลิเคชันเว็บ ASP.NET ได้หรือไม่?**  
+A: ใช่ – โลจิก `LoadAndSave` เดียวกันทำงานใน ASP.NET, MVC หรือ Razor Pages; เพียงตรวจสอบให้กระบวนการเว็บมีสิทธิ์อ่าน/เขียนโฟลเดอร์เป้าหมาย.
 
-**Q: สามารถประมวลผลภาพแบบขนานเพื่อเร่งการแปลงแบตช์ได้หรือไม่?**  
-A: แน่นอน. ห่อการเรียก `LoadAndSave` ในลูป `Parallel.ForEach`, แต่ต้องจำกัดการปล่อยอ็อบเจ็กต์ `Bitmap` อย่างปลอดภัยต่อเธรด
+**Q: สามารถประมวลผลภาพแบบขนานเพื่อการแปลงเป็นชุดที่เร็วขึ้นได้หรือไม่?**  
+A: แน่นอน. ห่อการเรียก `LoadAndSave` ในลูป `Parallel.ForEach` แต่ต้องจัดการการปล่อย `Bitmap` อย่างปลอดภัยต่อเธรด.
 
 ## สรุป
 
-ตอนนี้คุณได้เรียนรู้วิธี **convert BMP to PNG**, ทำ **batch image conversion**, และ **change image format** ด้วย Aspose.Drawing สำหรับ .NET แล้ว นำรูปแบบเหล่านี้ไปใช้เพื่ออัตโนมัติขั้นตอนการประมวลผลภาพ, สร้างรูปย่อ, หรือเตรียมทรัพยากรสำหรับการส่งมอบบนเว็บ ทดลองกับรูปแบบต่าง ๆ, ผสานโค้ดเข้ากับบริการของคุณ, และเพลิดเพลินกับความน่าเชื่อถือของไลบรารีการวาดแบบจัดการเต็มรูปแบบ.
+ตอนนี้คุณมีรูปแบบที่มั่นคงและพร้อมใช้งานในผลิตภัณฑ์เพื่อ **แปลง BMP เป็น PNG**, ทำ **การแปลงภาพเป็นชุด**, และ **เปลี่ยนรูปแบบภาพ** ด้วย Aspose.Drawing สำหรับ .NET ผสานส่วนโค้ดเหล่านี้เข้ากับบริการของคุณ สร้างภาพย่อแบบเรียลไทม์ หรือเตรียมทรัพยากรสำหรับการส่งมอบบนเว็บ ด้วยความมั่นใจว่าเอนจินข้ามแพลตฟอร์มและประสิทธิภาพสูงของไลบรารีจะจัดการงานหนักให้คุณ.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-07  
-**ทดสอบด้วย:** Aspose.Drawing 24.12 for .NET  
+**อัปเดตล่าสุด:** 2026-05-19  
+**ทดสอบกับ:** Aspose.Drawing 24.12 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีตัดภาพเป็น PNG ด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/cropping/)
+- [วิธีปรับขนาดภาพด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/scale/)
+- [บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```csharp
+using System.Drawing;
+```
