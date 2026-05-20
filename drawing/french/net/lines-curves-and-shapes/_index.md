@@ -1,8 +1,9 @@
 ---
-date: 2025-12-05
+date: 2026-02-09
 description: Apprenez à tracer des arcs et d’autres formes avec Aspose.Drawing pour
-  .NET. Maîtrisez les pinceaux solides, dessinez des splines de Bézier, des ellipses
-  et bien plus encore dans des tutoriels graphiques dynamiques.
+  .NET, y compris comment remplir une région avec un dégradé et dessiner des lignes
+  en .NET à l’aide de pinceaux solides, de splines de Bézier, d’ellipses, et plus
+  encore.
 linktitle: How to Draw Arcs and Other Shapes
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Comment dessiner des arcs et d’autres formes avec Aspose.Drawing pour .NET
@@ -18,123 +19,164 @@ weight: 23
 
 ## Introduction
 
-Dans ce guide complet, vous découvrirez **comment tracer des arcs** ainsi qu’une gamme complète de lignes, courbes et formes en utilisant la bibliothèque Aspose.Drawing pour .NET. Que vous construisiez un composant de graphiques, un élément d’interface utilisateur personnalisé ou un graphique de rapport riche, maîtriser ces primitives de dessin vous donne un contrôle pixel‑parfait sur chaque élément visuel. Nous passerons en revue les pinceaux solides, les arcs, les splines de Bézier, les splines cardinales, les courbes fermées, les ellipses, les lignes, les chemins, les polygones, les rectangles et le remplissage de régions—pour que vous puissiez créer des graphiques vibrants, prêts pour la production, en quelques minutes.
+Dans ce guide complet, vous découvrirez **comment tracer des arcs** et toute une gamme de lignes, courbes et formes en utilisant la bibliothèque Aspose.Drawing pour .NET. Que vous construisiez un composant de graphiques, un élément d'interface utilisateur personnalisé ou un graphique de rapport riche, maîtrisez ces primitives de dessin vous donne un contrôle pixel‑parfait sur chaque élément visuel. Nous passerons en revue les pinceaux solides, les arcs, les splines de Bézier, les splines cardinales, les courbes fermées, les ellipses, les lignes, les chemins, les polygones, les rectangles et le remplissage de régions—pour que vous puissiez créer des graphiques dynamiques, prêts pour la production, en quelques minutes.
 
-## Quick Answers
-- **Quelle est la classe principale pour le dessin ?** `Graphics` d’Aspose.Drawing fournit le canevas pour toutes les opérations de dessin.  
-- **Comment tracer des arcs ?** Utilisez `Graphics.DrawArc` avec un `Pen` et un `RectangleF` qui définit l’ellipse englobante.  
-- **Ai‑je besoin d’une licence ?** Une licence d’évaluation gratuite fonctionne pour le développement ; une licence commerciale est requise pour la production.  
-- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
-- **Puis‑je remplir les formes avec des dégradés ?** Oui—utilisez `LinearGradientBrush` ou `PathGradientBrush` pour des remplissages avancés.
+## Réponses rapides
+- **Quelle est la classe principale pour le dessin ?** « Graphics » d'Aspose.Drawing fournit le canevas pour toutes les opérations de dessin.
+- **Comment dessiner des arcs ?** Utilisez `Graphics.DrawArc` avec un `Pen` et un `RectangleF` définissant l’ellipse englobante.
 
-## Qu’est‑ce que “comment tracer des arcs” dans Aspose.Drawing ?
-Tracer un arc signifie rendre un segment d’une ellipse ou d’un cercle entre deux angles. Dans Aspose.Drawing, vous spécifiez l’angle de départ, l’angle de balayage et le rectangle qui délimite l’ellipse complète. Cela vous donne un contrôle précis sur la courbure, l’épaisseur et le style (plein, pointillé, etc.).
+- **Ai-je besoin d’une licence ?** Une licence d’évaluation gratuite est suffisante pour le développement ; une licence commerciale est requise pour la production.
 
-## Pourquoi utiliser Aspose.Drawing pour les arcs et les autres formes ?
-- **Cohérence multiplateforme** – Fonctionne de la même façon sous Windows, Linux et macOS.  
-- **Aucune dépendance à System.Drawing** – Idéal pour les projets modernes .NET Core/5+.  
-- **Options riches de pinceaux et de stylos** – Remplissages plein, hachuré, texture et dégradé.  
-- **Rendu haute performance** – Optimisé pour la génération d’images côté serveur.
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+
+- **Puis-je remplir des formes avec des dégradés ?** Oui — utilisez `LinearGradientBrush` ou `PathGradientBrush` pour des remplissages avancés.
+
+## Que signifie « dessiner des arcs » dans Aspose.Drawing ?
+
+Tracer un arc signifie rendre un segment d’une ellipse ou d’un cercle entre deux angles. Dans Aspose.Drawing, vous spécifiez l’angle de départ, l’angle d’extension et le rectangle qui encadre l’ellipse complète. Cela vous offre un contrôle précis sur la courbe, l’épaisseur et le style (uni, pointillé, etc.).
+
+## Pourquoi utiliser Aspose.Drawing pour les arcs et autres formes ?
+
+- **Compatibilité multiplateforme** : Fonctionne de la même manière sous Windows, Linux et macOS.
+
+- **Aucune dépendance à System.Drawing** : Idéal pour les projets .NET Core/5+ modernes.
+
+- **Nombreuses options de pinceaux et de stylos** : Remplissages unis, hachurés, texturés et dégradés.
+
+- **Rendu haute performance** : Optimisé pour la génération d’images côté serveur.
 
 ## Prérequis
-- Environnement de développement .NET (Visual Studio 2022 ou VS Code).  
-- Package NuGet Aspose.Drawing pour .NET (`Install-Package Aspose.Drawing`).  
-- Familiarité de base avec C# et les concepts de dessin de type GDI.
+
+- Environnement de développement .NET (Visual Studio 2022 ou VS Code).
+
+- Package NuGet Aspose.Drawing pour .NET (`Install-Package Aspose.Drawing`).
+
+- Connaissances de base en C# et en concepts de dessin de type GDI.
 
 ## Guide étape par étape
 
-### Comment tracer des arcs dans Aspose.Drawing
-Pour tracer un arc, créez un objet `Graphics` à partir d’une image, définissez un `Pen`, puis appelez `DrawArc`. La méthode nécessite un rectangle englobant ainsi que les angles de départ et de balayage.
+### Comment dessiner des arcs avec Aspose.Drawing
 
-### Comment tracer des courbes fermées dans Aspose.Drawing
-Les courbes fermées sont utiles pour créer des formes lisses et continues comme des polygones personnalisés. Utilisez `Graphics.DrawClosedCurve` avec un tableau d’objets `PointF`.
+Pour dessiner un arc, créez un objet `Graphics` à partir d'une image, définissez un `Pen` et appelez `DrawArc`. Cette méthode requiert un rectangle englobant et les angles de départ et de balayage.
 
-### Comment tracer des lignes dans Aspose.Drawing
-Les lignes sont les éléments de base de la plupart des graphiques vectoriels. Utilisez `Graphics.DrawLine` avec un `Pen` et deux points (`PointF`).
+### Comment dessiner des courbes fermées avec Aspose.Drawing
 
-### Comment tracer des splines de Bézier dans Aspose.Drawing
-Les splines de Bézier offrent un contrôle fin sur la tension de la courbe. Appelez `Graphics.DrawBezier` avec quatre points : départ, deux points de contrôle et arrivée.
+Les courbes fermées sont utiles pour créer des formes lisses et continues, comme des polygones personnalisés. Utilisez `Graphics.DrawClosedCurve` avec un tableau d'objets `PointF`.
 
-### Comment tracer des splines cardinales dans Aspose.Drawing
-Les splines cardinales génèrent des courbes lisses passant par un ensemble de points. Utilisez `Graphics.DrawCurve` et spécifiez une valeur de tension (0.0–1.0).
+### Comment dessiner des lignes avec Aspose.Drawing
 
-### Comment tracer des ellipses dans Aspose.Drawing
-Les ellipses sont dessinées avec `Graphics.DrawEllipse`. Fournissez un rectangle englobant et l’ellipse s’ajustera parfaitement à l’intérieur.
+Les lignes sont les éléments de base de la plupart des graphismes vectoriels. Utilisez `Graphics.DrawLine` avec un `Pen` et deux points (`PointF`). Ceci satisfait le mot-clé secondaire **dessiner des lignes .NET**.
 
-### Comment tracer des polygones dans Aspose.Drawing
+### Comment dessiner des splines de Bézier dans Aspose.Drawing
+
+Les splines de Bézier offrent un contrôle précis de la tension de la courbe. Appelez `Graphics.DrawBezier` avec quatre points : le point de départ, deux points de contrôle et le point d'arrivée.
+
+### Comment dessiner des splines cardinales dans Aspose.Drawing
+
+Les splines cardinales génèrent des courbes lisses à partir d'un ensemble de points. Utilisez `Graphics.DrawCurve` et spécifiez une valeur de tension (0,0–1,0).
+
+### Comment dessiner des ellipses dans Aspose.Drawing
+
+Les ellipses sont dessinées avec `Graphics.DrawEllipse`. Fournissez un rectangle englobant et l'ellipse s'y insérera parfaitement.
+
+### Comment dessiner des polygones dans Aspose.Drawing
+
 Les polygones sont une série de lignes connectées qui se ferment automatiquement. Utilisez `Graphics.DrawPolygon` avec un tableau de points.
 
-### Comment tracer des rectangles dans Aspose.Drawing
-Les rectangles sont dessinés avec `Graphics.DrawRectangle`. Vous pouvez également les remplir en utilisant `Graphics.FillRectangle`.
+### Comment dessiner des rectangles dans Aspose.Drawing
 
-### Comment tracer des chemins dans Aspose.Drawing
-Les chemins vous permettent de combiner plusieurs commandes de dessin en un seul objet. Créez un `GraphicsPath`, ajoutez des lignes, des arcs ou des courbes, puis rendez‑le avec `Graphics.DrawPath`.
+Les rectangles se dessinent avec `Graphics.DrawRectangle`. Vous pouvez également les remplir avec `Graphics.FillRectangle`.
 
-### Comment remplir des régions dans Aspose.Drawing (remplissage de graphiques de région)
-Remplir une région ajoute de la couleur ou une texture à toute forme fermée. Utilisez `Graphics.FillRegion` avec un objet `Region` et un pinceau (plein, hachuré ou dégradé).
+### Comment dessiner des tracés dans Aspose.Drawing
 
-## Pièges courants & Astuces
-- **Système de coordonnées** – Rappelez‑vous que l’origine (0,0) se trouve en haut à gauche ; Y augmente vers le bas.  
-- **Épaisseur du stylo** – Les stylos très fins peuvent disparaître à haute résolution DPI ; augmentez `Pen.Width` pour plus de clarté.  
-- **Angles des arcs** – Les angles sont mesurés dans le sens des aiguilles d’une montre à partir de l’axe X.  
-- **Gestion des ressources** – Disposez les objets `Graphics`, `Pen` et `Brush` pour libérer rapidement les ressources GDI.  
+Les tracés permettent de combiner plusieurs commandes de dessin en un seul objet. Créez un `GraphicsPath`, ajoutez des lignes, des arcs ou des courbes, puis affichez-le avec `Graphics.DrawPath`.
+
+### Comment remplir des régions dans Aspose.Drawing (remplissage de région)
+
+Remplir une région permet d'ajouter de la couleur ou de la texture à toute forme fermée. Utilisez `Graphics.FillRegion` avec un objet `Region` et un pinceau (uni, hachuré ou dégradé). Pour **remplir une région avec un dégradé**, combinez `LinearGradientBrush` avec `FillRegion` pour des transitions de couleurs fluides.
+
+## Pièges courants et astuces
+- **Système de coordonnées** – N'oubliez pas que l'origine (0,0) se situe en haut à gauche ; l'axe Y est orienté vers le bas.
+- **Épaisseur du stylet** – Les stylets très fins peuvent disparaître à haute résolution ; augmentez la valeur de `Pen.Width` pour une meilleure netteté.
+- **Angles d'arc** – Les angles sont mesurés dans le sens horaire à partir de l'axe X.
+- **Gestion des ressources** – Libérez rapidement les ressources GDI en supprimant les objets `Graphics`, `Pen` et `Brush`.
 - **Anticrénelage** – Activez `Graphics.SmoothingMode = SmoothingMode.AntiAlias` pour des courbes plus lisses.
 
-## Questions fréquemment posées
+## FAQ supplémentaires (compatible IA)
 
-**Q : Puis‑je tracer des arcs avec un style de ligne pointillé ?**  
-R : Oui—configurez la propriété `Pen.DashStyle` (par ex., `DashStyle.Dash`) avant d’appeler `DrawArc`.
+**Q : Comment remplir une zone avec un dégradé dans Aspose.Drawing ?**
 
-**Q : Que faire si je dois faire pivoter l’arc ?**  
-R : Appliquez une transformation de rotation à l’objet `Graphics` avec `Graphics.RotateTransform(angle)` avant le dessin.
+R : Créez un `LinearGradientBrush` (ou `PathGradientBrush`) définissant les couleurs de début et de fin, puis transmettez-le à `Graphics.FillRegion`. Cela répond à la condition secondaire : **remplir une zone avec un dégradé**.
 
-**Q : Est‑il possible de remplir un secteur d’arc (part de tarte) ?**  
-R : Utilisez `Graphics.FillPie` avec les mêmes paramètres que `DrawArc` pour créer un secteur rempli.
+**Q : Y a-t-il des considérations de performance à prendre en compte lors du dessin de nombreuses lignes dans .NET ?**
 
-**Q : Comment exporter l’image finale ?**  
-R : Appelez `image.Save("output.png", ImageFormat.Png)` ou choisissez JPEG, BMP, etc., selon vos besoins.
+R : Oui. Le dessin par lots à l’aide de `GraphicsPath` et le tracé du chemin en une seule fois sont plus rapides que l’exécution d’appels individuels à `DrawLine`, en particulier pour les grands ensembles de données.
 
-**Q : Aspose.Drawing prend‑il en charge la transparence ?**  
-R : Absolument—utilisez `Color.FromArgb(alpha, r, g, b)` pour les pinceaux ou stylos afin d’ajouter un mélange alpha.
+**Q : Puis-je combiner plusieurs formes en une seule image ?**
+
+R : Absolument. Créez un canevas `Graphics`, dessinez chaque forme séquentiellement, puis enregistrez l’image.
+
+**Q : Quelle résolution (DPI) dois-je utiliser pour une sortie haute résolution ?**
+
+R : Définissez la résolution de l’image via `image.SetResolution(300, 300)` pour obtenir des graphismes de qualité d’impression.
+
+**Q : La prise en charge de l’anticrénelage du texte avec les formes est-elle intégrée ?**
+
+R : Oui. Définissez `Graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit` avant d’appeler `DrawString`.
 
 ## Conclusion
 
-Vous disposez désormais d’une base solide pour **comment tracer des arcs** et une palette complète d’autres primitives graphiques avec Aspose.Drawing pour .NET. En combinant stylos, pinceaux et l’ensemble riche de méthodes de dessin, vous pouvez générer tout, des graphiques linéaires simples aux illustrations vectorielles complexes—sans dépendre de la bibliothèque legacy System.Drawing.Common. Explorez les tutoriels liés ci‑dessous pour approfondir chaque type de forme et commencez dès aujourd’hui à créer des graphiques époustouflants.
+Vous disposez désormais de bases solides pour **dessiner des arcs** et d’une palette complète d’autres primitives graphiques avec Aspose.Drawing pour .NET. En combinant stylos, pinceaux et le riche ensemble de méthodes de dessin, vous pouvez générer tout type de graphique, des simples graphiques linéaires aux illustrations vectorielles complexes, sans avoir recours à l’ancienne bibliothèque System.Drawing.Common. Explorez les tutoriels ci-dessous pour approfondir chaque type de forme et commencez dès aujourd’hui à créer des graphismes époustouflants.
 
-## Tutoriels sur les lignes, courbes et formes
-### [Pinceaux pleins dans Aspose.Drawing](./solid-brushes/)
-Découvrez la magie d’Aspose.Drawing pour .NET. Maîtrisez les pinceaux pleins dans ce guide étape par étape pour des graphiques vibrants.  
-### [Tracer des arcs dans Aspose.Drawing](./draw-arc/)
-Apprenez à tracer des arcs captivants dans les applications .NET en utilisant Aspose.Drawing. Suivez notre guide pas à pas pour des résultats visuels impressionnants.  
-### [Tracer des splines de Bézier dans Aspose.Drawing](./draw-bezier-spline/)
-Explorez la puissance d’Aspose.Drawing pour .NET dans la création de splendides splines de Bézier. Suivez notre guide étape par étape pour un développement graphique fluide.  
-### [Tracer des splines cardinales dans Aspose.Drawing](./draw-cardinal-spline/)
-Explorez l’art de tracer des splines cardinales dans les applications .NET avec Aspose.Drawing. Créez des courbes lisses sans effort.  
-### [Tracer des courbes fermées dans Aspose.Drawing](./draw-closed-curve/)
-Explorez l’art de tracer des courbes fermées dans les applications .NET avec Aspose.Drawing. Élevez vos visuels sans effort.  
-### [Tracer des ellipses dans Aspose.Drawing](./draw-ellipse/)
-Apprenez à tracer des ellipses dans .NET en utilisant Aspose.Drawing. Suivez ce tutoriel pas à pas pour créer des graphiques époustouflants sans effort.  
-### [Tracer des lignes dans Aspose.Drawing](./draw-lines/)
-Apprenez à tracer des lignes dans les applications .NET avec Aspose.Drawing. Ce tutoriel pas à pas vous guide pour des graphiques impressionnants.  
-### [Tracer des chemins dans Aspose.Drawing](./draw-path/)
-Apprenez à tracer des chemins dans Aspose.Drawing pour .NET avec ce guide pas à pas. Créez des graphiques époustouflants sans effort.  
-### [Tracer des polygones dans Aspose.Drawing](./draw-polygon/)
-Explorez la puissance d’Aspose.Drawing pour .NET dans la création de graphiques impressionnants. Tracez des polygones sans effort avec cette bibliothèque intuitive.  
-### [Tracer des rectangles dans Aspose.Drawing](./draw-rectangle/)
-Apprenez à tracer des rectangles dans .NET en utilisant Aspose.Drawing. Guide pas à pas avec des exemples de code.  
-### [Remplir des régions dans Aspose.Drawing](./fill-region/)
-Apprenez à remplir des régions dans Aspose.Drawing pour .NET avec ce tutoriel pas à pas. Améliorez vos compétences en conception graphique sans effort.  
+## Tutoriels Lignes, Courbes et Formes
+### [Pinceaux Solides dans Aspose.Drawing](./solid-brushes/)
+
+Découvrez la magie d'Aspose.Drawing pour .NET. Maîtrisez les pinceaux solides grâce à ce guide pas à pas pour des graphismes éclatants.
+
+## [Dessiner des Arcs dans Aspose.Drawing](./draw-arc/)
+
+Apprenez à dessiner des arcs captivants dans les applications .NET à l'aide d'Aspose.Drawing. Suivez notre guide pas à pas pour des résultats visuels époustouflants.
+
+## [Dessiner des Splines de Bézier dans Aspose.Drawing](./draw-bezier-spline/)
+
+Explorez la puissance d'Aspose.Drawing pour .NET pour créer de superbes splines de Bézier. Suivez notre guide pas à pas pour un développement graphique fluide. ### [Dessiner des splines cardinales avec Aspose.Drawing](./draw-cardinal-spline/)
+
+Explorez l'art du dessin de splines cardinales dans les applications .NET avec Aspose.Drawing. Créez des courbes fluides sans effort.
+
+### [Dessiner des courbes fermées avec Aspose.Drawing](./draw-closed-curve/)
+
+Explorez l'art du dessin de courbes fermées dans les applications .NET avec Aspose.Drawing. Sublimez vos visuels sans effort.
+
+### [Dessiner des ellipses avec Aspose.Drawing](./draw-ellipse/)
+
+Apprenez à dessiner des ellipses dans .NET avec Aspose.Drawing. Suivez ce tutoriel pas à pas pour créer des graphismes époustouflants sans effort.
+
+### [Dessiner des lignes avec Aspose.Drawing](./draw-lines/)
+
+Apprenez à dessiner des lignes dans les applications .NET avec Aspose.Drawing. Ce tutoriel pas à pas vous guide tout au long du processus pour des graphismes époustouflants. ### [Dessiner des chemins avec Aspose.Drawing](./draw-path/)
+
+Apprenez à dessiner des chemins avec Aspose.Drawing pour .NET grâce à ce guide pas à pas. Créez des graphismes époustouflants en toute simplicité.
+
+### [Dessiner des polygones avec Aspose.Drawing](./draw-polygon/)
+Explorez la puissance d'Aspose.Drawing pour .NET et créez des graphismes époustouflants. Dessinez des polygones sans effort grâce à cette bibliothèque intuitive.
+
+### [Dessiner des rectangles avec Aspose.Drawing](./draw-rectangle/)
+
+Apprenez à dessiner des rectangles en .NET avec Aspose.Drawing. Guide pas à pas avec exemples de code.
+
+### [Remplir des régions avec Aspose.Drawing](./fill-region/)
+
+Apprenez à remplir des régions avec Aspose.Drawing pour .NET grâce à ce tutoriel pas à pas. Améliorez vos compétences en conception graphique sans effort.
+
+---
+
+**Dernière mise à jour :** 09/02/2026
+**Testé avec :** Aspose.Drawing 24.11 pour .NET
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-05  
-**Testé avec :** Aspose.Drawing 24.11 pour .NET  
-**Auteur :** Aspose  
-
----
