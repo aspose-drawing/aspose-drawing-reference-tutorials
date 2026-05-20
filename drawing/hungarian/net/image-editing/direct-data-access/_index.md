@@ -134,15 +134,15 @@ V: Igen, amennyiben minden szál saját bitmap példányon dolgozik, vagy szinkr
 
 Most már megtanulta, **hogyan olvassuk ki a pixeleket** egy bitmapből, hogyan manipulálja az ARGB32 tömböt, és **hogyan írjuk vissza a pixel adatokat** az Aspose.Drawing közvetlen adatelérésével. Ez a megközelítés lehetővé teszi a **nagy teljesítményű képfeldolgozást** egyedi szűrők, pixel‑szintű elemzés és tömeges átalakítások számára .NET alkalmazásaiban.
 
+---
+
+**Utolsó frissítés:** 2026-02-09  
+**Tesztelve a következővel:** Aspose.Drawing legújabb .NET-hez  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-02-09  
-**Tesztelve a következővel:** Aspose.Drawing legújabb .NET-hez  
-**Szerző:** Aspose

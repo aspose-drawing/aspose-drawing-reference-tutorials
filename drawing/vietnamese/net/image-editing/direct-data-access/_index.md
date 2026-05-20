@@ -134,13 +134,6 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 Bạn đã học **cách đọc pixel** từ một bitmap, thao tác mảng ARGB32, và **cách ghi dữ liệu pixel** trở lại bằng truy cập dữ liệu trực tiếp của Aspose.Drawing. Cách tiếp cận này cho phép **xử lý hình ảnh hiệu suất cao** cho các bộ lọc tùy chỉnh, phân tích mức pixel, và chuyển đổi hàng loạt trong các ứng dụng .NET của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-02-09  
@@ -148,3 +141,10 @@ Bạn đã học **cách đọc pixel** từ một bitmap, thao tác mảng ARGB
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

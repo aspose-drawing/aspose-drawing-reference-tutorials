@@ -9,36 +9,34 @@ url: /de/net/licensing/licensing/
 weight: 10
 ---
 
-codes.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Aspose.Drawing License
+# Aspose.Drawing-Lizenz festlegen
 
-## Introduction
+## Einführung
 
-Wenn Sie .NET‑Anwendungen entwickeln, die auf leistungsstarke Grafik‑ und Bildbearbeitung angewiesen sind, ist **das Setzen einer Aspose.Drawing‑Lizenz** der erste Schritt, um Evaluierungsbeschränkungen zu entfernen und den vollen Funktionsumfang zu nutzen. In diesem Tutorial lernen Sie drei praktische Methoden, um die Aspose.Drawing‑Lizenz zu setzen – Laden aus einer Datei, Laden aus einem Stream und Verwendung des Metered‑Usage‑Modells – damit Sie die Bibliothek sicher integrieren können.
+Wenn Sie .NET-Anwendungen entwickeln, die auf leistungsstarke Grafik- und Bildbearbeitung angewiesen sind, ist **das Setzen einer Aspose.Drawing-Lizenz** der erste Schritt, um Evaluierungsbeschränkungen zu entfernen und den vollen Funktionsumfang zu nutzen. In diesem Tutorial lernen Sie drei praktische Methoden, um die Aspose.Drawing-Lizenz zu setzen – Laden aus einer Datei, Laden aus einem Stream und Verwendung des Metered-Usage-Modells – damit Sie die Bibliothek sicher integrieren können.
 
-## Quick Answers
-- **Was ist die primäre Methode, um Aspose.Drawing zu aktivieren?** Laden Sie eine Lizenzdatei mit `License.SetLicense("Aspose.Drawing.lic")`.  
-- **Kann ich eine Lizenz zur Laufzeit anwenden?** Ja, Sie können die Lizenz aus einem `Stream` für dynamische Szenarien laden.  
-- **Wird eine Metered‑Lizenz unterstützt?** Absolut; verwenden Sie `Metered.SetMeteredKey(publicKey, privateKey)`, um verbrauchsbasierte Abrechnung zu aktivieren.  
-- **Benötige ich eine Lizenz für Entwicklungs‑Builds?** Eine Testversion funktioniert für Tests, aber eine gültige Lizenz entfernt Wasserzeichen und schaltet alle APIs frei.  
-- **Welche .NET‑Versionen sind kompatibel?** Aspose.Drawing unterstützt .NET Framework 4.x, .NET Core 3.1+ und .NET 5/6+.
+## Schnelle Antworten
+- **Was ist die primäre Methode, um Aspose.Drawing zu aktivieren?** Laden Sie eine Lizenzdatei mit `License.SetLicense("Aspose.Drawing.lic")`.
+- **Kann ich eine Lizenz zur Laufzeit anwenden?** Ja, Sie können die Lizenz aus einem „Stream“ für dynamische Szenarien laden.
+- **Wird eine Metered‑Lizenz unterstützt?** Absolut; Verwenden Sie „Metered.SetMeteredKey(publicKey, privateKey)“, um verbrauchsbasierte Abrechnung zu aktivieren.
+- **Benötige ich eine Lizenz für Entwicklungs‑Builds?** Eine Testversion funktioniert für Tests, aber eine gültige Lizenz entfernt Wasserzeichen und schaltet alle APIs frei.
+- **Welche .NET-Versionen sind kompatibel?** Aspose.Drawing unterstützt .NET Framework 4.x, .NET Core 3.1+ und .NET 5/6+.
 
-## Prerequisites
+## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie folgendes haben:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- **Aspose.Drawing Library** – laden Sie das neueste Paket von [here](https://releases.aspose.com/drawing/net/) herunter.  
-- **Lizenzdatei** – erhalten Sie eine gültige `.lic`‑Datei von [Aspose](https://purchase.aspose.com/buy).  
-- **.NET‑Entwicklungsumgebung** – Visual Studio, Rider oder jede IDE, die .NET Framework/.NET Core unterstützt.
+- **Aspose.Drawing Library** – laden Sie das neueste Paket von [here](https://releases.aspose.com/drawing/net/) herunter.
+- **Lizenzdatei** – Sie erhalten eine gültige `.lic`‑Datei von [Aspose](https://purchase.aspose.com/buy).
+- **.NET-Entwicklungsumgebung** – Visual Studio, Rider oder jede IDE, die .NETFramework/.NETCore unterstützt.
 
-## Import Namespaces
+## Namespaces importieren
 
-Wir benötigen die Standard‑.NET‑Namespaces sowie den Aspose.Drawing‑Namespace für die Lizenzierung. Fügen Sie die folgenden `using`‑Anweisungen am Anfang Ihrer C#‑Datei hinzu:
+Wir benötigen die Standard‑.NET‑Namespaces sowie den Aspose.Drawing‑Namespace für die Lizenzierung. Fügen Sie die folgenden `using`-Anweisungen am Anfang Ihrer C#-Datei hinzu:
 
 ```csharp
 using System;
@@ -49,7 +47,7 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Loading License from a File
+## Lizenz aus einer Datei laden
 
 Das Laden einer Lizenz aus einer Datei ist der einfachste Ansatz. Befolgen Sie diese drei Schritte:
 
@@ -73,7 +71,7 @@ Console.WriteLine("License set successfully.");
 
 > **Pro Tipp:** Legen Sie die `.lic`‑Datei im selben Ordner wie Ihre ausführbare Datei ab oder geben Sie einen absoluten Pfad an, um „Datei nicht gefunden“-Fehler zu vermeiden.
 
-## Loading License from a Stream
+## Lizenz aus einem Stream laden
 
 Wenn Ihre Lizenzdatei als Ressource eingebettet oder von einem entfernten Ort abgerufen wird, bietet das Laden aus einem `Stream` Ihnen Flexibilität.
 
@@ -98,7 +96,7 @@ Console.WriteLine("License set successfully.");
 
 > **Warnung:** Denken Sie daran, den `FileStream` zu entsorgen (oder einen `using`‑Block zu verwenden), um Dateihandles freizugeben.
 
-## Using Metered License
+## Nutzung einer nutzungsabhängigen Lizenz
 
 Metered‑Lizenzierung ist ideal für SaaS‑ oder Pay‑per‑Use‑Szenarien. Sie verfolgt den Verbrauch und berechnet Ihnen basierend auf der tatsächlichen Nutzung.
 

@@ -134,13 +134,6 @@ A: Ya, selama setiap thread bekerja pada instance bitmap masing‑masing atau An
 
 Anda kini telah mempelajari **cara membaca piksel** dari bitmap, memanipulasi array ARGB32, dan **menulis data piksel** kembali menggunakan akses data langsung Aspose.Drawing. Pendekatan ini memungkinkan **pengolahan gambar berkinerja tinggi** untuk filter khusus, analisis tingkat piksel, dan transformasi massal dalam aplikasi .NET Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-02-09  
@@ -148,3 +141,10 @@ Anda kini telah mempelajari **cara membaca piksel** dari bitmap, memanipulasi ar
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

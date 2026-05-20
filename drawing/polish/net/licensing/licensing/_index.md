@@ -13,30 +13,30 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Aspose.Drawing License
+# Ustaw licencję Aspose.Drawing
 
-## Introduction
+## Wstęp
 
-Jeśli tworzysz aplikacje .NET, które korzystają z potężnych funkcji graficznych i manipulacji obrazami, **ustawienie licencji Aspose.Drawing** jest pierwszym krokiem do usunięcia ograniczeń wersji próbnej i uzyskania pełnego zestawu funkcji. W tym samouczku poznasz trzy praktyczne sposoby ustawienia licencji Aspose.Drawing — ładowanie z pliku, ładowanie ze strumienia oraz użycie modelu rozliczania na podstawie zużycia — abyś mógł zintegrować bibliotekę z pewnością.
+Jeśli tworzysz aplikacje .NET, które są dostępne z funkcji graficznych i manipulacji obrazami, **ustawienie licencji Aspose.Drawing** jest najpierw dostępne dla ograniczenia wersji i uzyskiwania zestawu funkcji. W tym samouczku poznasz trzy praktyczne systemy ustawień Aspose.Drawing — ładowanie z pliku, ładowanie ze strumienia oraz zastosowanie modelu określającego na podstawie użycia — możliwość podłączenia biblioteki z możliwością.
 
-## Quick Answers
-- **Jaki jest podstawowy sposób aktywacji Aspose.Drawing?** Załaduj plik licencji używając `License.SetLicense("Aspose.Drawing.lic")`.  
-- **Czy mogę zastosować licencję w czasie działania?** Tak, możesz załadować licencję ze `Stream` w dynamicznych scenariuszach.  
-- **Czy licencja rozliczana na podstawie zużycia jest obsługiwana?** Zdecydowanie; użyj `Metered.SetMeteredKey(publicKey, privateKey)`, aby włączyć rozliczanie oparte na konsumpcji.  
-- **Czy potrzebuję licencji do wersji deweloperskich?** Wersja próbna działa do testów, ale ważna licencja usuwa znaki wodne i odblokowuje wszystkie API.  
-- **Które wersje .NET są kompatybilne?** Aspose.Drawing obsługuje .NET Framework 4.x, .NET Core 3.1+ oraz .NET 5/6+.
+## Szybkie odpowiedzi
+- **Jaki jest podstawowy sposób stosowania Aspose.Drawing?** Załadować plik licencji używający `License.SetLicense("Aspose.Drawing.lic")`.
+- **Czy możliwe jest rozpoznanie w czasie działania?** Tak, można za pomocą pilota ze `Stream` w automatycznych scenariuszach.
+- **Czy licencja rozliczana na podstawie stosowania jest usługana?** Zdecydowanie; `Metered.SetMeteredKey(publicKey, privateKey)`, aby włączyć rozliczanie konsumpcji na konsumpcję.
+- **Czy licencja jest dostępna dla wersji deweloperskich?** Wersja próbna działa w testach, ale ważne są licencjami wodnymi i odblokowuje wszystkie API.
+- **Które wersje .NET są obsługiwane?** Aspose.Drawing obsługuje .NET Framework 4.x, .NET Core 3.1+ oraz .NET 5/6+.
 
-## Prerequisites
+## Warunki wstępne
 
-Before you start, make sure you have:
+Zanim zaczniesz, upewnij się, że masz:
 
-- **Aspose.Drawing Library** – download the latest package from [here](https://releases.aspose.com/drawing/net/).  
-- **License File** – obtain a valid `.lic` file from [Aspose](https://purchase.aspose.com/buy).  
-- **.NET Development Environment** – Visual Studio, Rider, or any IDE that targets .NET Framework/.NET Core.
+- **Aspose.Drawing Library** – pobierz najnowszy pakiet z [tutaj](https://releases.aspose.com/drawing/net/).
+- **Plik licencji** – uzyskaj prawidłowy plik `.lic` od [Aspose](https://purchase.aspose.com/buy).
+- **Środowisko programistyczne .NET** – Visual Studio, Rider lub dowolne IDE przeznaczone dla .NETFramework/.NETCore.
 
-## Import Namespaces
+## Importuj przestrzenie nazw
 
-Potrzebujemy standardowych przestrzeni nazw .NET oraz przestrzeni nazw Aspose.Drawing do licencjonowania. Dodaj następujące instrukcje `using` na początku swojego pliku C#:
+dostępmy do przestrzeni nazw .NET oraz przestrzeni nazw Aspose.Drawing do licencjonowania. Dodaj instrukcję `using` na rodzimym pliku C#:
 
 ```csharp
 using System;
@@ -47,23 +47,23 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Loading License from a File
+## Ładowanie licencji z pliku
 
-Ładowanie licencji z pliku jest najprostszym podejściem. Postępuj zgodnie z tymi trzema krokami:
+Ładowanie licencji z pliku jest możliwe. Postępuj zgodnie z trzema krokami:
 
-### Step 1: Initialize the License Object
+### Krok 1: Zainicjuj obiekt licencji
 
 ```csharp
 System.Drawing.AsposeDrawing.License license = new System.Drawing.AsposeDrawing.License();
 ```
 
-### Step 2: Set the License from the `.lic` File
+### Krok 2: Ustaw licencję z pliku `.lic`
 
 ```csharp
 license.SetLicense("Aspose.Drawing.lic");
 ```
 
-### Step 3: Confirm Success
+### Krok 3: Potwierdź sukces
 
 ```csharp
 Console.WriteLine("License set successfully.");
@@ -71,24 +71,24 @@ Console.WriteLine("License set successfully.");
 
 > **Pro tip:** Umieść plik `.lic` w tym samym folderze co Twój plik wykonywalny lub podaj pełną ścieżkę, aby uniknąć błędów „plik nie znaleziony”.
 
-## Loading License from a Stream
+## Ładowanie licencji ze strumienia
 
-Kiedy plik licencji jest osadzony jako zasób lub pobierany zdalnie, ładowanie go ze `Stream` zapewnia elastyczność.
+Kiedy plik licencji jest osadzony jako zasób lub pobierany zdalnie, ładowanie go ze `Stream` zapewnia dostępność.
 
-### Step 1: Initialize the License Object
+### Krok 1: Zainicjuj obiekt licencji
 
 ```csharp
 System.Drawing.AsposeDrawing.License license = new System.Drawing.AsposeDrawing.License();
 ```
 
-### Step 2: Load the License Using a `FileStream`
+### Krok 2: Załaduj licencję za pomocą `FileStream`
 
 ```csharp
 FileStream myStream = new FileStream("Aspose.Drawing.lic", FileMode.Open);
 license.SetLicense(myStream);
 ```
 
-### Step 3: Confirm Success
+### Krok 3: Potwierdź sukces
 
 ```csharp
 Console.WriteLine("License set successfully.");
@@ -96,36 +96,36 @@ Console.WriteLine("License set successfully.");
 
 > **Warning:** Pamiętaj, aby zwolnić `FileStream` (lub użyć bloku `using`), aby zwolnić uchwyty plików.
 
-## Using Metered License
+## Korzystanie z licencji taryfowej
 
-Licencjonowanie rozliczane na podstawie zużycia jest idealne dla SaaS lub modeli płatności za użycie. Śledzi zużycie i fakturuje na podstawie rzeczywistego wykorzystania.
+Licencjonowanie rozliczane na zasadzie użytkowania jest idealnym rozwiązaniem dla SaaS lub modeli płatności za zastosowanie. Śledzi i fakturuje na podstawie faktycznego wykorzystania.
 
-### Step 1: Initialize the Metered Object
+### Krok 1: Zainicjuj obiekt objęty pomiarem
 
 ```csharp
 System.Drawing.AsposeDrawing.Metered metered = new System.Drawing.AsposeDrawing.Metered();
 ```
 
-### Step 2: Set Public and Private Keys
+### Krok 2: Ustaw klucze publiczne i prywatne
 
 ```csharp
 metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
-### Step 3: Perform Your Image Processing
+### Krok 3: Przetwórz obraz
 
 ```csharp
 // Your image processing logic here
 ```
 
-### Step 4: Retrieve Consumption Information
+### Krok 4: Pobierz informacje o zużyciu
 
 ```csharp
 decimal amount = System.Drawing.AsposeDrawing.Metered.GetConsumptionQuantity();
 decimal credits = System.Drawing.AsposeDrawing.Metered.GetConsumptionCredit();
 ```
 
-### Step 5: Display the Consumption Details
+### Krok 5: Wyświetl szczegóły zużycia
 
 ```csharp
 Console.WriteLine("Amount Consumed: " + amount.ToString());
@@ -134,47 +134,47 @@ Console.WriteLine("Credits Consumed: " + credits.ToString());
 
 > **Common pitfall:** Typowy problem: Jeśli zapomnisz wywołać `SetMeteredKey`, API przełączy się w tryb próbny i zobaczysz znaki wodne w wyniku.
 
-## Why Set the Aspose.Drawing License Correctly?
+## Dlaczego należy poprawnie ustawić licencję Aspose.Drawing?
 
-- **Usuwa znaki wodne**, które pojawiają się w trybie próbnym.  
-- **Odblokowuje premium API**, takie jak zaawansowane filtry obrazu i konwersja do PDF.  
-- **Zapewnia zgodność** z warunkami licencjonowania Aspose dla dystrybucji komercyjnej.  
-- **Umożliwia rozliczanie na podstawie zużycia**, pozwalając płacić tylko za to, co wykorzystasz.
+- **Usuwa znaki wodne**, które pojawiają się w próbach.
+- **Odblokowuje API premium**, takie jak zaawansowany filtry obrazu i konwersja do PDF.
+- **Zapewnienie zgodności** z możliwością stosowania Aspose dla dystrybucji komercyjnej.
+- **Umożliwia rozliczanie na podstawie użytkowania**, podlega tylko za to, co wykorzystujesz.
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 
 | Problem | Przyczyna | Rozwiązanie |
 |-------|-------|-----|
-| Błąd „License file not found” | Nieprawidłowa ścieżka lub brak pliku w folderze wyjściowym | Użyj pełnej ścieżki lub ustaw właściwość pliku *Copy to Output Directory* na *Copy always*. |
-| Znak wodny nadal się pojawia po ustawieniu licencji | Licencja nie została załadowana przed pierwszym wywołaniem API | Załaduj licencję **przed** jakąkolwiek operacją Aspose.Drawing. |
-| Zużycie w modelu rozliczanym zawsze zero | Nie ustawiono kluczy lub błędne zmienne środowiskowe | Sprawdź klucze publiczny/prywatny i zapewnij połączenie internetowe z serwerem rozliczania Aspose. |
+| Błąd „Nie znaleziono pliku licencji” | Nieprawidłowa ścieżka lub brak pliku w folderze wyjściowym | *Kopiuj do katalogu wyjściowego* na *Kopiuj zawsze*. |
+| Znak wodny nadal pojawia się po uruchomieniu licencji | Licencja nie została uruchomiona przed pierwszym wywołaniem API | Załadowane obciążenie **przed** rozszerzoną operacją Aspose.Drawing. |
+| Zużycie w modelu rozliczanym zawsze zero | Nieumieszczone klucze lub niebezpieczne zmienne skutki | Sprawdź klucze założycielskie/prywatny i zapewnij połączenie internetowe z serwerem rozliczającym Aspose. |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**Q1: Czy mogę używać Aspose.Drawing bez licencji?**  
-A1: Tak, licencja próbna działa w celach rozwojowych i ewaluacyjnych, ale dodaje znaki wodne i ogranicza niektóre funkcje.
+**Pyt.1: Czy mogę zainstalować Aspose.Drawing bez licencji?**
+A1: Tak, licencjackie próby działają w badaniach rozwojowych i ewaluacyjnych, ale dodają znaki wodne i ograniczają niektóre funkcje.
 
-**Q2: Jak często muszę odnawiać licencję Aspose.Drawing?**  
-A2: Licencje są wieczyste dla zakupionej wersji. Odnowienie jest wymagane tylko w celu uzyskania wsparcia i aktualizacji.
+**Q2: Jak często muszę odnawiać zadanie Aspose.Drawing?**
+A2: Licencje są wieczyste dla wersji alternatywnej. Odnowienie jest wymagane tylko w celu uzyskania wsparcia i aktualizacji.
 
-**Q3: Czym jest licencjonowanie rozliczane na podstawie zużycia i kiedy powinienem je stosować?**  
-A3: Licencjonowanie rozliczane nalicza opłaty w zależności od użycia (operacji lub przetworzonych danych). Jest idealne dla usług w chmurze lub modeli płatności za użycie.
+**Pyt. 3: Czym jest licencjonowanie, rozliczane na podstawie stosowania i kiedy należy je stosować?**
+A3: Licencjonowanie rozliczające naliczane opłaty w zależności od użycia (operacji lub przetworzonych danych). Jest idealnym rozwiązaniem dla usług w chmurze lub modeli płatności za platformę.
 
-**Q4: Czy mogę używać Aspose.Drawing w projektach komercyjnych?**  
-A4: Absolutnie — po uzyskaniu ważnej licencji możesz osadzać Aspose.Drawing w dowolnej aplikacji komercyjnej.
+**Q4: Czy można zastosować Aspose.Drawing w projektach wykonawczych?**
+A4: Absolutnie — po ważnej licencji, którą można umieścić na platformie Aspose.Drawing w dodatkowej aplikacji komercyjnej.
 
-**Q5: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.Drawing?**  
-A5: Odwiedź [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44), aby uzyskać pomoc społeczności, przykłady i dyskusje.
+**Pytanie 5: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.Drawing?**
+A5: Odwiedź [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44), aby uzyskać pomoc społeczności, skutki i skuteczność.
 
-## Conclusion
+## Wniosek
 
-Opanowanie sposobu **ustawiania licencji Aspose.Drawing** — niezależnie od tego, czy z pliku, ze strumienia, czy poprzez model rozliczania — zapewnia maksymalne wykorzystanie tej potężnej biblioteki graficznej .NET. Postępuj zgodnie z powyższymi krokami, zwracaj uwagę na typowe pułapki i będziesz gotowy tworzyć solidne rozwiązania przetwarzania obrazów bez żadnych przeszkód licencyjnych.
+Opanowanie sposobu **ustawiania licencji Aspose.Drawing** — uzyskanie od tego, czy z pliku, ze strumienia, czy poprzez model rozliczania — zapewnia wykorzystanie tej biblioteki graficznej .NET. Postępowanie zgodnie z opisem i krokami, zwrócenie uwagi na typowe pułapki i dbałość o przestrzeganie zasad solidnych rozwiązań dotyczących stosowania systemów bez żadnych wymagań licencyjnych.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-09  
-**Testowano z:** Aspose.Drawing 24.11 dla .NET  
-**Autor:** Aspose  
+**Aktualizacja Ostatnia:** 2026-02-09
+**Testowano z:** Aspose.Drawing 24.11 dla .NET
+**Autor:** Asponuj  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

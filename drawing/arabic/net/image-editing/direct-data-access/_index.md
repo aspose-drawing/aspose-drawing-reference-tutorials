@@ -133,15 +133,15 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 لقد تعلمت الآن **كيفية قراءة البكسلات** من bitmap، تعديل مصفوفة ARGB32، و**كتابة بيانات البكسل** مرة أخرى باستخدام الوصول المباشر للبيانات في Aspose.Drawing. يتيح لك هذا النهج **معالجة الصور عالية الأداء** للفلاتر المخصصة، التحليل على مستوى البكسل، والتحويلات الجماعية في تطبيقات .NET الخاصة بك.
 
+---
+
+**آخر تحديث:** 2026-02-09  
+**تم الاختبار مع:** أحدث نسخة من Aspose.Drawing لـ .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-09  
-**تم الاختبار مع:** أحدث نسخة من Aspose.Drawing لـ .NET  
-**المؤلف:** Aspose

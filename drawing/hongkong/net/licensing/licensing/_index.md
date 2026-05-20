@@ -8,17 +8,7 @@ url: /zh-hant/net/licensing/licensing/
 weight: 10
 ---
 
-**Tested With:** Aspose.Drawing 24.11 for .NET" -> "**測試環境：** Aspose.Drawing 24.11 for .NET"
-
-"**Author:** Aspose" -> "**作者：** Aspose"
-
-Then closing shortcodes.
-
-Also include the backtop button shortcode after.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

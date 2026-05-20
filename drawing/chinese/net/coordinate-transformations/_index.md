@@ -8,33 +8,6 @@ url: /zh/net/coordinate-transformations/
 weight: 20
 ---
 
- they used **Q:** and then *question*? Let's see:
-
-**Q:** *Can I combine global and local transformations in the same drawing?*  
-**A:** Yes. ...
-
-So we need to translate the question inside italics, keep **Q:** and **A:**.
-
-Proceed.
-
-Then "Last Updated:" line.
-
-Translate "Last Updated" to Chinese "最后更新". Keep date.
-
-"Tested With:" translate to "测试环境". Keep value.
-
-"Author:" translate to "作者". Keep value.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode at end.
-
-Now produce final content.
-
-Be careful to preserve all markdown formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

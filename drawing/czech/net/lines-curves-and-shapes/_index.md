@@ -82,23 +82,6 @@ Vyplnění oblasti přidá barvu nebo texturu k libovolnému uzavřenému tvaru.
 - **Resource Management** – Uvolněte objekty `Graphics`, `Pen` a `Brush`, aby se rychle uvolnily GDI zdroje.  
 - **Anti‑Aliasing** – Povolením `Graphics.SmoothingMode = SmoothingMode.AntiAlias` získáte hladší křivky.
 
-## Často kladené otázky
-
-**Q: Can I draw arcs with a dashed line style?**  
-A: Yes—configure the `Pen.DashStyle` property (e.g., `DashStyle.Dash`) before calling `DrawArc`.
-
-**Q: What if I need to rotate the arc?**  
-A: Použijte rotační transformaci na objekt `Graphics` pomocí `Graphics.RotateTransform(angle)` před kreslením.
-
-**Q: Is it possible to fill an arc sector (pie slice)?**  
-A: Použijte `Graphics.FillPie` se stejnými parametry jako `DrawArc` k vytvoření vyplněného sektoru.
-
-**Q: How do I export the final image?**  
-A: Zavolejte `image.Save("output.png", ImageFormat.Png)` nebo vyberte JPEG, BMP atd., podle vašich potřeb.
-
-**Q: Does Aspose.Drawing support transparency?**  
-A: Rozhodně — použijte `Color.FromArgb(alpha, r, g, b)` pro štětce nebo pera k přidání alfa míchání.
-
 ## Další FAQ (AI‑friendly)
 
 **Q: How can I fill a region with a gradient in Aspose.Drawing?**  
@@ -143,12 +126,6 @@ Prozkoumejte sílu Aspose.Drawing pro .NET při tvorbě úžasné grafiky. Kresl
 Naučte se kreslit obdélníky v .NET pomocí Aspose.Drawing. Krok‑za‑krokem průvodce s ukázkami kódu.
 ### [Filling Regions in Aspose.Drawing](./fill-region/)
 Naučte se vyplňovat oblasti v Aspose.Drawing pro .NET pomocí tohoto krok‑za‑krokem tutoriálu. Zlepšete své dovednosti v grafickém designu bez námahy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -157,3 +134,10 @@ Naučte se vyplňovat oblasti v Aspose.Drawing pro .NET pomocí tohoto krok‑za
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

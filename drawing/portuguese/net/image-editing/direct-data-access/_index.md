@@ -134,14 +134,14 @@ R: Sim, desde que cada thread trabalhe em sua própria instância de bitmap ou v
 
 Agora você aprendeu **como ler pixels** de um bitmap, manipular o array ARGB32 e **gravar dados de pixel** de volta usando o acesso direto a dados do Aspose.Drawing. Essa abordagem habilita **processamento de imagem de alto desempenho** para filtros personalizados, análise a nível de pixel e transformações em lote em suas aplicações .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Drawing latest for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -78,23 +78,6 @@ Cardinal 曲線會在一組點之間產生平滑曲線。使用 `Graphics.DrawCu
 - **資源管理** – 及時釋放 `Graphics`、`Pen`、`Brush` 等物件，以免佔用 GDI 資源。  
 - **抗鋸齒** – 設定 `Graphics.SmoothingMode = SmoothingMode.AntiAlias` 可獲得更平滑的曲線。
 
-## 常見問答
-
-**Q: 可以使用虛線樣式繪製弧形嗎？**  
-A: 可以——在呼叫 `DrawArc` 前，先設定 `Pen.DashStyle`（例如 `DashStyle.Dash`）。
-
-**Q: 若要旋轉弧形該怎麼做？**  
-A: 在繪製前，使用 `Graphics.RotateTransform(angle)` 對 `Graphics` 物件套用旋轉變換。
-
-**Q: 能否填滿弧形區段（餅形）？**  
-A: 使用 `Graphics.FillPie`，傳入與 `DrawArc` 相同的參數，即可產生填滿的扇形。
-
-**Q: 如何匯出最終影像？**  
-A: 呼叫 `image.Save("output.png", ImageFormat.Png)`，亦可依需求選擇 JPEG、BMP 等格式。
-
-**Q: Aspose.Drawing 支援透明度嗎？**  
-A: 完全支援——使用 `Color.FromArgb(alpha, r, g, b)` 為筆刷或畫筆設定透明度。
-
 ## 其他 FAQ（AI 友好）
 
 **Q: 如何在 Aspose.Drawing 中使用漸層填充區域？**  
@@ -139,12 +122,6 @@ A: 支援。於繪製文字前設定 `Graphics.TextRenderingHint = TextRendering
 學習在 .NET 中使用 Aspose.Drawing 繪製矩形，提供程式碼範例的步驟教學。
 ### [在 Aspose.Drawing 中填充區域](./fill-region/)
 學習在 Aspose.Drawing for .NET 中填充區域的步驟教學，輕鬆提升您的圖形設計技巧。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -153,3 +130,10 @@ A: 支援。於繪製文字前設定 `Graphics.TextRenderingHint = TextRendering
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -80,23 +80,6 @@ Wypełnianie regionu dodaje kolor lub teksturę do dowolnego zamkniętego kszta�
 - **Zarządzanie zasobami** – Zwolnij obiekty `Graphics`, `Pen` i `Brush`, aby szybko zwolnić zasoby GDI.  
 - **Anti‑Aliasing** – Włącz `Graphics.SmoothingMode = SmoothingMode.AntiAlias`, aby uzyskać płynniejsze krzywe.
 
-## Najczęściej zadawane pytania
-
-**Q: Czy mogę rysować łuki z przerywanym stylem linii?**  
-A: Tak — skonfiguruj właściwość `Pen.DashStyle` (np. `DashStyle.Dash`) przed wywołaniem `DrawArc`.
-
-**Q: Co zrobić, jeśli muszę obrócić łuk?**  
-A: Zastosuj transformację rotacji na obiekcie `Graphics` używając `Graphics.RotateTransform(angle)` przed rysowaniem.
-
-**Q: Czy można wypełnić sektor łuku (kawałek koła)?**  
-A: Użyj `Graphics.FillPie` z tymi samymi parametrami co `DrawArc`, aby utworzyć wypełniony sektor.
-
-**Q: Jak wyeksportować gotowy obraz?**  
-A: Wywołaj `image.Save("output.png", ImageFormat.Png)` lub wybierz JPEG, BMP itp., w zależności od potrzeb.
-
-**Q: Czy Aspose.Drawing obsługuje przezroczystość?**  
-A: Absolutnie — użyj `Color.FromArgb(alpha, r, g, b)` dla pędzli lub piór, aby dodać mieszanie alfa.
-
 ## Dodatkowe FAQ (przyjazne AI)
 
 **Q: How can I fill a region with a gradient in Aspose.Drawing?**  
@@ -141,15 +124,16 @@ Poznaj moc Aspose.Drawing dla .NET w tworzeniu zachwycających grafik. Rysuj wie
 Dowiedz się, jak rysować prostokąty w .NET przy użyciu Aspose.Drawing. Przewodnik krok po kroku z przykładami kodu.
 ### [Wypełnianie regionów w Aspose.Drawing](./fill-region/)
 Dowiedz się, jak wypełniać regiony w Aspose.Drawing dla .NET dzięki temu przewodnikowi krok po kroku. Rozwijaj swoje umiejętności projektowania graficznego bez wysiłku.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

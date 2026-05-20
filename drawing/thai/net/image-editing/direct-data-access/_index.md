@@ -133,13 +133,6 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 คุณได้เรียนรู้ **วิธีการอ่านพิกเซล** จาก bitmap, ปรับแต่งอาเรย์ ARGB32, และ **วิธีการเขียนข้อมูลพิกเซล** กลับโดยใช้ direct data access ของ Aspose.Drawing วิธีนี้ทำให้คุณสามารถทำ **การประมวลผลภาพความเร็วสูง** สำหรับฟิลเตอร์กำหนดเอง, การวิเคราะห์ระดับพิกเซล, และการแปลงเป็นกลุ่มในแอปพลิเคชัน .NET ของคุณได้อย่างมีประสิทธิภาพ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2026-02-09  
@@ -147,3 +140,10 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

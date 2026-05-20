@@ -134,15 +134,15 @@ A: Ano, pokud každý vláken pracuje s vlastní instancí bitmapy nebo synchron
 
 Nyní jste se naučili **jak číst pixely** z bitmapy, manipulovat s polem ARGB32 a **jak zapisovat pixelová data** zpět pomocí přímého přístupu k datům v Aspose.Drawing. Tento přístup umožňuje **vysoce výkonné zpracování obrazu** pro vlastní filtry, pixel‑úrovňovou analýzu a hromadné transformace ve vašich .NET aplikacích.
 
+---
+
+**Poslední aktualizace:** 2026-02-09  
+**Testováno s:** Aspose.Drawing latest for .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-09  
-**Testováno s:** Aspose.Drawing latest for .NET  
-**Autor:** Aspose

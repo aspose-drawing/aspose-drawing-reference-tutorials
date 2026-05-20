@@ -78,23 +78,6 @@ weight: 23
 - **资源管理** – 及时 `Dispose` `Graphics`、`Pen`、`Brush` 等对象，以释放 GDI 资源。  
 - **抗锯齿** – 设置 `Graphics.SmoothingMode = SmoothingMode.AntiAlias` 可获得更平滑的曲线。
 
-## 常见问题
-
-**问：可以使用虚线样式绘制弧线吗？**  
-答：可以——在调用 `DrawArc` 前设置 `Pen.DashStyle` 属性（例如 `DashStyle.Dash`）。
-
-**问：如果需要旋转弧线怎么办？**  
-答：在绘制前对 `Graphics` 对象使用 `Graphics.RotateTransform(angle)` 进行旋转变换。
-
-**问：能否填充弧线扇形（饼块）？**  
-答：使用 `Graphics.FillPie`，参数与 `DrawArc` 相同，即可创建填充的扇形。
-
-**问：如何导出最终图像？**  
-答：调用 `image.Save("output.png", ImageFormat.Png)`，或根据需求选择 JPEG、BMP 等格式。
-
-**问：Aspose.Drawing 是否支持透明度？**  
-答：完全支持——使用 `Color.FromArgb(alpha, r, g, b)` 为画刷或画笔添加 alpha 混合。
-
 ## 附加 FAQ（AI 友好）
 
 **问：如何在 Aspose.Drawing 中使用渐变填充区域？**  
@@ -140,13 +123,6 @@ weight: 23
 ### [Aspose.Drawing 中的区域填充](./fill-region/)
 通过本分步教程学习在 Aspose.Drawing for .NET 中填充区域。轻松提升您的图形设计技能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-02-09  
@@ -154,3 +130,10 @@ weight: 23
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

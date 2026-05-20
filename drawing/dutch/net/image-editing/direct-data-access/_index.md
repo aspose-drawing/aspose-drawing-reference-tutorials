@@ -134,13 +134,6 @@ A: Ja, zolang elke thread werkt met zijn eigen bitmap‑instantie of je de toega
 
 Je hebt nu geleerd **hoe je pixels** uit een bitmap kunt lezen, de ARGB32‑array kunt manipuleren, en **pixelgegevens** kunt terugschrijven met de directe data‑toegang van Aspose.Drawing. Deze aanpak maakt **high performance image processing** mogelijk voor aangepaste filters, pixel‑niveau analyses en bulk transformaties in je .NET‑applicaties.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-02-09  
@@ -148,3 +141,10 @@ Je hebt nu geleerd **hoe je pixels** uit een bitmap kunt lezen, de ARGB32‑arra
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

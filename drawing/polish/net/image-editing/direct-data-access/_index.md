@@ -14,125 +14,131 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wysokowydajne przetwarzanie obrazów: Odczyt pikseli z bezpośrednim dostępem do danych w Aspose.Drawing
+# Wysokowydajne przetwarzanie obrazów: Odczyt cyfrowy z funkcjonalnością do danych w Aspose.Drawing
 
-## Introduction
+## Wstęp
 
-W tym samouczku odkryjesz **jak odczytywać piksele** z obrazu i zapisywać dane pikseli z powrotem, korzystając z funkcji **bezpośredniego dostępu do danych** w Aspose.Drawing. Wykorzystanie **wysokowydajnego przetwarzania obrazów** z bezpośrednim dostępem daje kontrolę niskiego poziomu nad buforami pikseli, co sprawia, że manipulacja obrazem jest szybka i oszczędna pod względem pamięci — idealna do własnych filtrów, analizy obrazu lub masowych transformacji pikseli w aplikacjach .NET.
+W tym samouczku odkryjesz **jak uzyskać piksele** z obrazu i zapisywać dane pikseli z powrotem, funkcji **bezpośredniego dostępu do danych** w Aspose.Drawing. **wysokowydajny przetwarzanie obrazów** z dostępu daje dostęp do poziomu nad buforami pikseli, co sprawia, że ​​manipulacja obrazem jest szybka i skuteczna pod kątem pamięci — idealna do urządzeń inteligentnych, analizy obrazu lub masowych transformacji pikseli w aplikacji .NET.
 
-## Quick Answers
-- **Jaka jest podstawowa metoda odczytu pikseli?** Użyj `ReadArgb32Pixels` na instancji `Bitmap`.  
-- **Który format pikseli najlepiej nadaje się do bezpośredniego dostępu?** `PixelFormat.Format32bppPArgb` zapewnia 32‑bitowe wartości ARGB z premultypowanym alfą.  
-- **Czy potrzebna jest licencja na Aspose.Drawing?** Dostępna jest bezpłatna wersja próbna; licencja jest wymagana do użytku produkcyjnego.  
-- **Czy mogę uruchomić ten kod na .NET 6+?** Tak, Aspose.Drawing obsługuje .NET 5, .NET 6 i nowsze wersje.  
-- **Czy operacja jest wątkowo‑bezpieczna?** Odczyt/zapis na oddzielnych instancjach bitmap jest bezpieczny; unikaj współdzielenia tej samej bitmapy między wątkami bez synchronizacji.
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa metoda odczytu pikseli?** służy `ReadArgb32Pixels` na `Bitmap`.
+- **Który format najlepiej nadaje się do dostępu do Internetu?** `PixelFormat.Format32bppPArgb` zapewnia 32-bitowe wartości ARGB z premultypowanym alfą.
+- **Czy istnieje licencjat na Aspose.Drawing?** Dostępna jest bezpłatna wersja próbna; licencjat jest wymagany do użytku produkcyjnego.
+- **Czy mogę podać ten kod na .NET6+?** Tak, Aspose.Drawing obsługuje .NET5, .NET6 i nowsze wersje.
+- **Czy operacja jest wątkowo‑bezpieczna?** Odczyt/zapis na oddzielnych instancjach bitmapa jest bezpieczna; unikaj tej samej mapy bitowej między wątkami bez synchronizacji.
 
-## What is Direct Data Access in Aspose.Drawing?
+## Co to jest bezpośredni dostęp do danych w Aspose.Drawing?
 
-Bezpośredni dostęp do danych pozwala pracować z leżącym pod spodem buforem pikseli bitmapy bez narzutu metod getter/setter dla pojedynczych pikseli. Czytając cały tablicę ARGB32, możesz przetworzyć tysiące pikseli w jednej operacji, a następnie zapisać zmodyfikowaną tablicę z powrotem jednym wywołaniem.
+Bezpośredni dostęp do danych pozwala pracować z leżącym pod spodem buforem bitmapy bez narzutu metodą getter/setter dla rozdzielnicy. Czytając całą tablicę ARGB32, możesz utworzyć dziesięć poziomów w jednej operacji, a następnie pojawia się tablica z drugim wywołaniem.
 
-## Why Use Direct Data Access for High Performance Image Processing?
+## Dlaczego warto korzystać z bezpośredniego dostępu do danych w celu wydajnego przetwarzania obrazu?
 
-- **Performance:** Masowy odczyt/zapis zmniejsza liczbę wywołań interop i przyspiesza przetwarzanie dużych obrazów.  
-- **Flexibility:** Otrzymujesz surowe wartości całkowite (`0xAARRGGBB`), które możesz manipulować dowolną logiką .NET.  
-- **Simplicity:** Jedno wywołanie metody do odczytu i jedno do zapisu — nie potrzebujesz zagnieżdżonych pętli, chyba że stosujesz własne algorytmy.  
+- **Wydajność:** Masowy odczyt/zapis zmniejsza wywołań interop i przyspieszenie przetwarzania dużych obrazów.
+- **Elastyczność:** Otrzymujesz surowe wartości graniczne (`0xAARRGGBB`), które możesz określić logiką .NET.
+- **Prostota:** Jedno wywołane metody odczytu i jedno do zapisu — nie działają zagnieżdżonych podstawowych, chyba że zastosujesz własne algorytmy.
 
-## Common Use Cases
+## Typowe przypadki użycia
 
-- Tworzenie własnych filtrów obrazu (sepia, wykrywanie krawędzi itp.)  
-- Przeprowadzanie analizy statystycznej na poziomie pikseli dla zadań komputerowego widzenia  
-- Konwersja przestrzeni kolorów obrazu lub masowa korekcja kolorów  
-- Generowanie miniatur lub znaków wodnych dla ogromnych partii obrazów  
+- Tworzenie chemicznego ścieków (sepia, wykrywanie krawędzi itp.)
+- Przeprowadzanie analizy statystycznej na poziomie poziomym dla zadań komputerowego widzenia
+- Konwersja przestrzeni klinicznej lub masowa korekcja kolorów
+- Generacja miniatur lub znaków wodnych dla ogromnych partii obrazów
 
-## Prerequisites
+## Warunki wstępne
 
-- **Aspose.Drawing Library:** Pobierz i odwołaj się do najnowszego Aspose.Drawing dla .NET ze strony oficjalnej.  
-- **Development Environment:** Dowolne IDE .NET (Visual Studio, Rider, VS Code) z zainstalowanym pakietem NuGet Aspose.Drawing.  
+- **Aspose.Drawing Library:** Pobierz i odwołaj się do najnowszego Aspose.Drawing dla .NET ze strony różnicowej.
+- **Środowisko programistyczne:** Dowolne IDE .NET (Visual Studio, Rider, VSCode) z zainstalowanym pakietem NuGet Aspose.Drawing.
 
-Możesz pobrać bibliotekę [here](https://releases.aspose.com/drawing/net/).
+Możesz przechowywać bibliotekę [tutaj](https://releases.aspose.com/drawing/net/).
 
-## Import Namespaces
+## Importuj przestrzenie nazw
 
-First, bring the required namespace into scope so the bitmap classes are available.
+Najpierw uwzględnij wymaganą przestrzeń nazw, aby klasy bitmap były dostępne.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Load the Source Image  
+### Krok 1: Załaduj obraz źródłowy
 
-We start by loading the image you want to analyze. Replace the placeholder path with the actual location of your image file.
+Zaczynamy od załadowania obrazu, który chcesz przeanalizować. Zastąp ścieżkę zastępczą rzeczywistą lokalizacją pliku obrazu.
 
 ```csharp
 Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-### Step 2: Create a Target Bitmap  
+### Krok 2: Utwórz docelową mapę bitową
 
-Create a new bitmap that matches the source dimensions and uses a 32‑bit pixel format suitable for direct access.
+Utwórz nową mapę bitową o wymiarach zgodnych z wymiarami źródłowymi i używającą 32-bitowego formatu pikseli, umożliwiającego bezpośredni dostęp.
 
 ```csharp
 Bitmap targetBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Step 3: Read Pixel Data  
+### Krok 3: Odczyt danych pikseli
 
-Read the entire ARGB32 pixel buffer from the source bitmap into an integer array. This is the **how to read pixels** step.
+Odczyt całego bufora pikseli ARGB32 ze źródłowej mapy bitowej do tablicy liczb całkowitych. To jest krok **jak odczytać piksele**.
 
 ```csharp
 int[] pixels = new int[sourceBitmap.Width * sourceBitmap.Height];
 sourceBitmap.ReadArgb32Pixels(pixels);
 ```
 
-### Step 4: Write Pixel Data  
+### Krok 4: Zapis danych pikseli
 
-After any optional manipulation (e.g., applying a filter), write the pixel array back to the target bitmap. This demonstrates **how to write pixels** efficiently.
+Po wszelkich opcjonalnych manipulacjach (np. zastosowaniu filtra) zapisz tablicę pikseli z powrotem do docelowej mapy bitowej. To pokazuje, **jak efektywnie zapisywać piksele**.
 
 ```csharp
 targetBitmap.WriteArgb32Pixels(pixels);
 ```
 
-### Step 5: Save the Result  
+### Krok 5: Zapisanie wyniku
 
-Persist the modified bitmap to disk. Adjust the output path as needed.
+Utrwalenie zmodyfikowanej mapy bitowej na dysku. W razie potrzeby dostosuj ścieżkę wyjściową.
 
 ```csharp
 targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png");
 ```
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 
-| Issue | Solution |
-|-------|----------|
-| **`ArgumentException` on `ReadArgb32Pixels`** | Ensure the source bitmap uses a 32‑bit pixel format; otherwise, convert it first with `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)`. |
-| **Incorrect colors after write** | Verify that you are not unintentionally modifying the alpha channel; keep the `0xFF` (opaque) value if you don’t need transparency. |
-| **Performance lag on very large images** | Process the pixel array in chunks or use `Parallel.For` to leverage multiple cores. |
+| Problem | Rozwiązanie |
+|-------|---------|
+| **`ArgumentException` dla `ReadArgb32Pixels`** | Upewnij się, że źródłowa mapa bitowa używa 32-bitowego formatu pikseli; w przeciwnym razie przekonwertuj ją najpierw za pomocą `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)`. |
+| **Nieprawidłowe kolory po zapisie** | Upewnij się, że nie modyfikujesz przypadkowo kanału alfa; zachowaj wartość `0xFF` (nieprzezroczystość), jeśli nie potrzebujesz przezroczystości. |
+| **Opóźnienie w wydajności w przypadku bardzo dużych obrazów** | Przetwarzaj tablicę pikseli w blokach lub użyj `Parallel.For`, aby wykorzystać wiele rdzeni. |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**Q: Can I use Aspose.Drawing for .NET with other .NET frameworks?**  
-A: Yes, Aspose.Drawing works with .NET Framework, .NET Core, and .NET 5/6+.  
+**P: Czy mogę używać Aspose.Drawing dla .NET z innymi frameworkami .NET?**
+O: Tak, Aspose.Drawing działa z .NET Framework, .NET Core i .NET5/6+.
 
-**Q: Is there a free trial available for Aspose.Drawing?**  
-A: Absolutely—download a trial version [here](https://releases.aspose.com/).  
+**P: Czy dostępna jest bezpłatna wersja próbna Aspose.Drawing?**
+O: Oczywiście — pobierz wersję próbną [tutaj](https://releases.aspose.com/).
 
-**Q: How can I get support for Aspose.Drawing?**  
-A: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) for community help and official support.  
+**P: Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Drawing?**
+O: Odwiedź [Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), aby uzyskać pomoc społeczności i oficjalne wsparcie.
 
-**Q: Where can I find the documentation for Aspose.Drawing?**  
-A: The full API reference is available at the [Aspose.Drawing documentation site](https://reference.aspose.com/drawing/net/).  
+**P: Gdzie mogę znaleźć dokumentację Aspose.Drawing?**
+O: Pełna dokumentacja API jest dostępna na [stronie dokumentacji Aspose.Drawing](https://reference.aspose.com/drawing/net/).
 
-**Q: How do I purchase a license for Aspose.Drawing?**  
-A: You can buy a license directly from the Aspose store [here](https://purchase.aspose.com/buy).  
+**P: Jak mogę kupić licencję Aspose.Drawing?**
+O: Licencję można kupić bezpośrednio w sklepie Aspose [tutaj](https://purchase.aspose.com/buy).
 
-**Q: Can I manipulate pixel data in a multithreaded environment?**  
-A: Yes, as long as each thread works on its own bitmap instance or you synchronize access to shared resources.
+**P: Czy mogę manipulować danymi pikseli w środowisku wielowątkowym?**
+O: Tak, o ile każdy wątek działa na własnej instancji bitmapy lub synchronizujesz dostęp do zasobów współdzielonych.
 
-## Conclusion
+## Podsumowanie
 
-You’ve now learned **how to read pixels** from a bitmap, manipulate the ARGB32 array, and **write pixel data** back using Aspose.Drawing’s direct data access. This approach enables **high performance image processing** for custom filters, pixel‑level analysis, and bulk transformations in your .NET applications.
+Nauczyłeś się już, **jak odczytywać piksele** z bitmapy, manipulować tablicą ARGB32 i **zapisywać dane pikseli** z powrotem, korzystając z bezpośredniego dostępu do danych w Aspose.Drawing. To podejście umożliwia **wysokowydajne przetwarzanie obrazu** dla niestandardowych filtrów, analizę na poziomie pikseli i transformacje zbiorcze w aplikacjach .NET.
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-09
+**Testowano z:** Aspose.Drawing w najnowszej wersji dla .NET
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -140,9 +146,3 @@ You’ve now learned **how to read pixels** from a bitmap, manipulate the ARGB32
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Drawing latest for .NET  
-**Author:** Aspose

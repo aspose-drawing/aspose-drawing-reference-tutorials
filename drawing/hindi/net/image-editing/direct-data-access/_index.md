@@ -10,16 +10,6 @@ url: /hi/net/image-editing/direct-data-access/
 weight: 11
 ---
 
- and A: labels.
-
-Let's produce.
-
-Check for any URLs: they must stay unchanged.
-
-Check for any code block fences: there are placeholders not actual fences. But there might be actual fenced code blocks? The placeholders are inside double braces, not fences. So fine.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -144,13 +134,6 @@ A: हाँ, बशर्ते प्रत्येक थ्रेड अप
 
 आपने अब **bitmap से पिक्सेल पढ़ना**, ARGB32 एरे को मैनिपुलेट करना, और Aspose.Drawing की डायरेक्ट डेटा एक्सेस का उपयोग करके **पिक्सेल डेटा लिखना** सीख लिया है। यह तरीका आपके .NET एप्लिकेशन्स में कस्टम फ़िल्टर, पिक्सेल‑लेवल एनालिसिस, और बल्क ट्रांसफ़ॉर्मेशन के लिए **हाई परफ़ॉर्मेंस इमेज प्रोसेसिंग** को सक्षम बनाता है।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2026-02-09  
@@ -158,3 +141,10 @@ A: हाँ, बशर्ते प्रत्येक थ्रेड अप
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

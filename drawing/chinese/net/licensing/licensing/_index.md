@@ -8,14 +8,6 @@ url: /zh/net/licensing/licensing/
 weight: 10
 ---
 
- etc. Keep code block placeholders unchanged.
-
-Let's produce translation.
-
-We must keep the shortcodes at top and bottom as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

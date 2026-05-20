@@ -9,14 +9,6 @@ url: /tr/net/coordinate-transformations/
 weight: 20
 ---
 
- closing shortcodes.
-
-Now produce final output.
-
-Be careful to preserve markdown formatting, code fences (none), shortcodes.
-
-Let's craft the translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

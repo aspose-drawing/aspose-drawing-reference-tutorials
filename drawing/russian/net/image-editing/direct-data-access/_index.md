@@ -134,13 +134,6 @@ A: Да, при условии, что каждый поток работает 
 
 Теперь вы знаете **как читать пиксели** из bitmap, манипулировать массивом ARGB32 и **как записывать данные пикселей** обратно, используя прямой доступ к данным Aspose.Drawing. Такой подход обеспечивает **высокопроизводительную обработку изображений** для пользовательских фильтров, пиксельного анализа и массовых преобразований в ваших .NET‑приложениях.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-09  
@@ -148,3 +141,10 @@ A: Да, при условии, что каждый поток работает 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -10,13 +10,7 @@ url: /it/net/lines-curves-and-shapes/
 weight: 23
 ---
 
- produce final output with all translations.
-
-Be careful to keep code blocks unchanged; there are none except inline code.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -86,23 +80,6 @@ Riempire una regione aggiunge colore o texture a qualsiasi forma chiusa. Usa `Gr
 - **Gestione delle risorse** – Dispone gli oggetti `Graphics`, `Pen` e `Brush` per liberare rapidamente le risorse GDI.  
 - **Anti‑Aliasing** – Abilita `Graphics.SmoothingMode = SmoothingMode.AntiAlias` per curve più fluide.
 
-## Domande frequenti
-
-**D: Posso disegnare archi con uno stile di linea tratteggiata?**  
-R: Sì—configura la proprietà `Pen.DashStyle` (ad es., `DashStyle.Dash`) prima di chiamare `DrawArc`.
-
-**D: E se devo ruotare l'arco?**  
-R: Applica una trasformazione di rotazione all'oggetto `Graphics` usando `Graphics.RotateTransform(angle)` prima del disegno.
-
-**D: È possibile riempire un settore di arco (fetta di torta)?**  
-R: Usa `Graphics.FillPie` con gli stessi parametri di `DrawArc` per creare un settore riempito.
-
-**D: Come esportare l'immagine finale?**  
-R: Chiama `image.Save("output.png", ImageFormat.Png)` o scegli JPEG, BMP, ecc., in base alle tue esigenze.
-
-**D: Aspose.Drawing supporta la trasparenza?**  
-R: Assolutamente—usa `Color.FromArgb(alpha, r, g, b)` per pennelli o penne per aggiungere blending alfa.
-
 ## FAQ aggiuntive (AI‑friendly)
 
 **D: Come posso riempire una regione con un gradiente in Aspose.Drawing?**  
@@ -147,15 +124,16 @@ Esplora la potenza di Aspose.Drawing per .NET nella creazione di grafiche sorpre
 Impara a disegnare rettangoli in .NET usando Aspose.Drawing. Guida passo‑passo con esempi di codice.  
 ### [Riempire regioni in Aspose.Drawing](./fill-region/)
 Impara a riempire regioni in Aspose.Drawing per .NET con questo tutorial passo‑passo. Migliora le tue competenze di design grafico senza sforzo.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -83,23 +83,6 @@ Egy terület kitöltése színt vagy textúrát ad bármely zárt alakzathoz. Ha
 - **Erőforrás-kezelés** – A `Graphics`, `Pen` és `Brush` objektumokat használd fel a GDI erőforrások gyors felszabadításához.  
 - **Anti‑Aliasing** – Engedélyezd a `Graphics.SmoothingMode = SmoothingMode.AntiAlias`‑t a simább görbékhez.
 
-## Frequently Asked Questions
-
-**Q: Rajzolhatok íveket szaggatott vonalstílussal?**  
-A: Igen—állítsd be a `Pen.DashStyle` tulajdonságot (pl. `DashStyle.Dash`) a `DrawArc` hívása előtt.
-
-**Q: Mi van, ha el kell forgatni az ívet?**  
-A: Alkalmazz forgatási transzformációt a `Graphics` objektumra a `Graphics.RotateTransform(angle)` használatával a rajzolás előtt.
-
-**Q: Lehet-e kitölteni egy ívszakaszt (pitét)?**  
-A: Használd a `Graphics.FillPie`‑t ugyanazokkal a paraméterekkel, mint a `DrawArc`, egy kitöltött szektor létrehozásához.
-
-**Q: Hogyan exportálom a végső képet?**  
-A: Hívd meg az `image.Save("output.png", ImageFormat.Png)`‑t, vagy válassz JPEG, BMP stb. formátumot az igényeid szerint.
-
-**Q: Támogatja az Aspose.Drawing az átlátszóságot?**  
-A: Teljesen—használd a `Color.FromArgb(alpha, r, g, b)`‑t ecsetekhez vagy tollakhoz az alfa keveréshez.
-
 ## Additional FAQ (AI‑friendly)
 
 **Q: Hogyan tölthetek ki egy területet színátmenettel az Aspose.Drawing‑ban?**  
@@ -154,15 +137,16 @@ Tanuld meg, hogyan rajzolj téglalapokat .NET‑ben az Aspose.Drawing használat
 
 ### [Filling Regions in Aspose.Drawing](./fill-region/)
 Tanuld meg, hogyan tölts ki területeket az Aspose.Drawing for .NET‑ben ezzel a lépésről‑lépésre útmutatóval. Fejleszd grafikai tervezői képességeidet könnyedén.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

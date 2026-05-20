@@ -59,7 +59,7 @@ using System.Drawing;
 
 ## 步驟說明
 
-### Step 1: Load the Source Image  
+### 步驟 1：載入來源影像  
 
 先載入您要分析的影像。請將佔位路徑替換為實際的影像檔案位置。
 
@@ -67,7 +67,7 @@ using System.Drawing;
 Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-### Step 2: Create a Target Bitmap  
+### 步驟 2：建立目標點陣圖 
 
 建立一個與來源尺寸相同、且使用適合直接存取的 32 位元像素格式的新 bitmap。
 
@@ -75,7 +75,7 @@ Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_log
 Bitmap targetBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Step 3: Read Pixel Data  
+### 步驟 3：讀取像素數據  
 
 將來源 bitmap 的完整 ARGB32 像素緩衝區讀入整數陣列。這就是 **如何讀取像素** 的步驟。
 
@@ -84,7 +84,7 @@ int[] pixels = new int[sourceBitmap.Width * sourceBitmap.Height];
 sourceBitmap.ReadArgb32Pixels(pixels);
 ```
 
-### Step 4: Write Pixel Data  
+### 步驟 4：寫入像素數據
 
 在完成任意可選的操作（例如套用濾鏡）後，將像素陣列寫回目標 bitmap。這示範了 **如何高效寫入像素**。
 
@@ -92,7 +92,7 @@ sourceBitmap.ReadArgb32Pixels(pixels);
 targetBitmap.WriteArgb32Pixels(pixels);
 ```
 
-### Step 5: Save the Result  
+### 步驟 5：儲存結果
 
 將修改後的 bitmap 儲存至磁碟。請依需求調整輸出路徑。
 
@@ -132,15 +132,15 @@ A: 可以，只要每個執行緒使用各自的 bitmap 實例，或對共享資
 
 您已學會 **如何從 bitmap 讀取像素**、操作 ARGB32 陣列，並使用 Aspose.Drawing 的直接資料存取 **寫回像素資料**。此方法可為自訂濾鏡、像素層級分析以及大量轉換提供 **高效能影像處理** 能力，適用於您的 .NET 應用程式。
 
+---
+
+**最後更新：** 2026-02-09  
+**測試環境：** Aspose.Drawing latest for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-09  
-**測試環境：** Aspose.Drawing latest for .NET  
-**作者：** Aspose

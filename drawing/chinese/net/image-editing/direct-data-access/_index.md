@@ -132,13 +132,6 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 现在，您已经掌握了 **如何从 bitmap 读取像素**、操作 ARGB32 数组，并使用 Aspose.Drawing 的直接数据访问 **写回像素数据**。此方法为在 .NET 应用中实现自定义滤镜、像素级分析以及批量转换提供了 **高性能图像处理** 的能力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-02-09  
@@ -146,3 +139,10 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

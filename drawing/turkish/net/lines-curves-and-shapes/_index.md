@@ -80,23 +80,6 @@ Bir bölge doldurmak, kapalı herhangi bir şekle renk veya doku ekler. `Graphic
 - **Kaynak Yönetimi** – GDI kaynaklarını hızlıca serbest bırakmak için `Graphics`, `Pen` ve `Brush` nesnelerini Dispose edin.  
 - **Anti‑Aliasing** – Daha pürüzsüz eğriler için `Graphics.SmoothingMode = SmoothingMode.AntiAlias` etkinleştirin.
 
-## Sıkça Sorulan Sorular
-
-**S: Yayları kesikli çizgi stiliyle çizebilir miyim?**  
-C: Evet—`DrawArc` metodunu çağırmadan önce `Pen.DashStyle` özelliğini (ör. `DashStyle.Dash`) yapılandırın.
-
-**S: Yayı döndürmem gerekirse ne yapmalıyım?**  
-C: Çizmeden önce `Graphics.RotateTransform(angle)` kullanarak `Graphics` nesnesine bir döndürme dönüşümü uygulayın.
-
-**S: Bir yay sektörü (pasta dilimi) doldurmak mümkün mü?**  
-C: `DrawArc` ile aynı parametreleri kullanarak `Graphics.FillPie` metodunu çağırın; böylece doldurulmuş bir sektör elde edersiniz.
-
-**S: Son görüntüyü nasıl dışa aktarırım?**  
-C: `image.Save("output.png", ImageFormat.Png)` metodunu çağırın veya ihtiyacınıza göre JPEG, BMP vb. formatları seçin.
-
-**S: Aspose.Drawing şeffaflığı destekliyor mu?**  
-C: Kesinlikle—fırçalar veya kalemler için `Color.FromArgb(alpha, r, g, b)` kullanarak alfa karıştırması ekleyebilirsiniz.
-
 ## Ek SSS (AI‑dostu)
 
 **S: Aspose.Drawing'de bir bölgeyi degrade ile nasıl doldurabilirim?**  
@@ -141,12 +124,6 @@ Aspose.Drawing for .NET'in gücünü keşfederek çarpıcı grafikler oluşturun
 Aspose.Drawing kullanarak .NET'te dikdörtgenleri çizmeyi öğrenin. Kod örnekleriyle adım‑adım rehber.
 ### [Aspose.Drawing'de Bölgeleri Doldurma](./fill-region/)
 Aspose.Drawing for .NET ile bölgeleri doldurmayı bu adım‑adım öğreticide öğrenin. Grafik tasarım becerilerinizi zahmetsizce geliştirin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -155,3 +132,10 @@ Aspose.Drawing for .NET ile bölgeleri doldurmayı bu adım‑adım öğreticide
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

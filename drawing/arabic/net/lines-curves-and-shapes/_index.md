@@ -80,23 +80,6 @@ weight: 23
 - **إدارة الموارد** – حرّر كائنات `Graphics`، `Pen`، و`Brush` لتفريغ موارد GDI بسرعة.  
 - **مضاد التعرج** – فعّل `Graphics.SmoothingMode = SmoothingMode.AntiAlias` للحصول على منحنيات أكثر سلاسة.
 
-## الأسئلة المتكررة
-
-**س: هل يمكنني رسم أقواس بنمط خط متقطع؟**  
-ج: نعم—قم بتعيين خاصية `Pen.DashStyle` (مثل `DashStyle.Dash`) قبل استدعاء `DrawArc`.
-
-**س: ماذا لو احتجت إلى تدوير القوس؟**  
-ج: طبّق تحويل تدوير على كائن `Graphics` باستخدام `Graphics.RotateTransform(angle)` قبل الرسم.
-
-**س: هل يمكن تعبئة قطاع قوس (شريحة فطيرة)؟**  
-ج: استخدم `Graphics.FillPie` بنفس المعلمات المستخدمة في `DrawArc` لإنشاء قطاع مُعبأ.
-
-**س: كيف أصدر الصورة النهائية؟**  
-ج: استدعِ `image.Save("output.png", ImageFormat.Png)` أو اختر JPEG، BMP، إلخ حسب الحاجة.
-
-**س: هل يدعم Aspose.Drawing الشفافية؟**  
-ج: بالتأكيد—استخدم `Color.FromArgb(alpha, r, g, b)` للفرش أو الأقلام لإضافة دمج ألفا.
-
 ## أسئلة شائعة إضافية (صديقة للذكاء الاصطناعي)
 
 **س: كيف يمكنني تعبئة منطقة بتدرج لوني في Aspose.Drawing؟**  
@@ -141,12 +124,6 @@ weight: 23
 تعلم كيفية رسم المستطيلات في .NET باستخدام Aspose.Drawing. دليل خطوة بخطوة مع أمثلة شفرة.
 ### [تعبئة المناطق في Aspose.Drawing](./fill-region/)
 تعلم كيفية تعبئة المناطق في Aspose.Drawing لـ .NET من خلال هذا الدليل خطوة بخطوة. حسّن مهاراتك في تصميم الرسومات بسهولة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -155,3 +132,10 @@ weight: 23
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
