@@ -102,28 +102,6 @@ Cserélje le a `"Your Document Directory"`-t a tényleges mappára, ahová a PNG
 
 Gratulálunk! Most már tudja, **hogyan rajzolj ellipszist** az Aspose.Drawing for .NET használatával. Ez az útmutató mindent lefedett a bitmap vászon beállításától a végső kép mentéséig, szilárd alapot biztosítva a fejlettebb grafikai munkákhoz, például egyedi diagramok, UI ikonok vagy dinamikus jelentésgrafikák készítéséhez.
 
-## GYIK
-
-### Q1: Testreszabhatom az ellipszis színét?
-
-A1: Igen, lehet. Egyszerűen módosítsa a színbeállításokat a `Pen` objektumban a kívánt szín eléréséhez.
-
-### Q2: Milyen egyéb alakzatokat rajzolhatok az Aspose.Drawing segítségével?
-
-A2: Az Aspose.Drawing különféle alakzatokat támogat, például vonalakat, téglalapokat és sokszögeket. További részletekért tekintse meg a dokumentációt [itt](https://reference.aspose.com/drawing/net/).
-
-### Q3: Az Aspose.Drawing alkalmas összetett grafikai alkalmazásokra?
-
-A3: Teljesen! Az Aspose.Drawing egy erőteljes könyvtár, amely könnyedén képes kezelni a bonyolult grafikai feladatokat.
-
-### Q4: Hogyan kaphatok támogatást vagy segítséget, ha problémáim merülnek fel?
-
-A4: Látogassa meg az Aspose.Drawing fórumot [itt](https://forum.aspose.com/c/drawing/44) a közösségi támogatás és segítségért.
-
-### Q5: Elérhető ingyenes próba?
-
-A5: Igen, a könyvtárat ingyenes próba verzióval felfedezheti [itt](https://releases.aspose.com/).
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom a generált ellipszis képet webalkalmazásban?**  

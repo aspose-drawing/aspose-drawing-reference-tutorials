@@ -102,23 +102,6 @@ Gefeliciteerd! Je weet nu **hoe je een ellips tekent** met Aspose.Drawing voor .
 
 ## Veelgestelde vragen
 
-### V1: Kan ik de kleur van de ellips aanpassen?
-A1: Ja, dat kan. Pas eenvoudigweg de kleurinstellingen in het `Pen`‑object aan om de gewenste kleur te krijgen.
-
-### V2: Welke andere vormen kan ik tekenen met Aspose.Drawing?
-A2: Aspose.Drawing ondersteunt verschillende vormen zoals lijnen, rechthoeken en polygonen. Bekijk de documentatie [hier](https://reference.aspose.com/drawing/net/) voor meer details.
-
-### V3: Is Aspose.Drawing geschikt voor complexe grafische toepassingen?
-A3: Absoluut! Aspose.Drawing is een krachtige bibliotheek die moeiteloos complexe grafische taken aankan.
-
-### V4: Hoe kan ik ondersteuning krijgen of hulp zoeken als ik problemen ondervind?
-A4: Bezoek het Aspose.Drawing‑forum [hier](https://forum.aspose.com/c/drawing/44) voor community‑ondersteuning en hulp.
-
-### V5: Is er een gratis proefversie beschikbaar?
-A5: Ja, je kunt de bibliotheek verkennen met een gratis proefversie [hier](https://releases.aspose.com/).
-
-## Veelgestelde vragen
-
 **V: Kan ik de gegenereerde ellips‑afbeelding gebruiken in een webapplicatie?**  
 **A:** Ja. Sla de bitmap op als PNG of JPEG en serveer deze zoals elk ander afbeeldings‑asset.
 

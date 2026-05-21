@@ -102,28 +102,6 @@ Reemplace `"Your Document Directory"` con la carpeta real donde desea almacenar 
 
 ## Preguntas frecuentes
 
-### Q1: ¿Puedo personalizar el color de la elipse?
-
-R1: Sí, puede. Simplemente modifique la configuración de color en el objeto `Pen` para lograr el color deseado.
-
-### Q2: ¿Qué otras formas puedo dibujar con Aspose.Drawing?
-
-R2: Aspose.Drawing admite varias formas como líneas, rectángulos y polígonos. Consulte la documentación [aquí](https://reference.aspose.com/drawing/net/) para más detalles.
-
-### Q3: ¿Es Aspose.Drawing adecuado para aplicaciones gráficas complejas?
-
-R3: ¡Absolutamente! Aspose.Drawing es una biblioteca potente capaz de manejar tareas gráficas complejas con facilidad.
-
-### Q4: ¿Cómo puedo obtener soporte o ayuda si encuentro problemas?
-
-R4: Visite el foro de Aspose.Drawing [aquí](https://forum.aspose.com/c/drawing/44) para obtener soporte y asistencia de la comunidad.
-
-### Q5: ¿Hay una prueba gratuita disponible?
-
-R5: Sí, puede explorar la biblioteca con una prueba gratuita [aquí](https://releases.aspose.com/).
-
-## Preguntas frecuentes
-
 **P: ¿Puedo usar la imagen de elipse generada en una aplicación web?**  
 R: Sí. Guarde el bitmap como PNG o JPEG y sírvalo como cualquier otro recurso de imagen.
 

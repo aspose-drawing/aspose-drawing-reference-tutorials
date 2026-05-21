@@ -10,26 +10,6 @@ url: /cs/net/lines-curves-and-shapes/draw-ellipse/
 weight: 15
 ---
 
-šební verze?" etc.
-
-Answer.
-
-Then "Frequently Asked Questions" heading maybe keep same but translate: "Často kladené otázky". But we already have FAQ's. The section repeats. We'll translate heading.
-
-Then each Q: "Q: Can I use the generated ellipse image in a web application?" translate.
-
-Answers translate.
-
-Make sure to keep bold formatting for Q and A? In original they have **Q:** and **A:**. We'll keep same.
-
-Now final metadata lines: "Last Updated:", "Tested With:", "Author:" translate.
-
-But keep dates and version numbers unchanged.
-
-Now close shortcodes.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -119,28 +99,6 @@ Nahraďte `"Your Document Directory"` skutečnou složkou, kam chcete uložit so
 ## Závěr
 
 Gratulujeme! Nyní víte **jak nakreslit elipsu** pomocí Aspose.Drawing pro .NET. Tento průvodce pokrýval vše od nastavení bitmapového plátna až po uložení finálního obrázku, což vám poskytuje pevný základ pro pokročilejší grafické práce, jako jsou vlastní grafy, UI ikony nebo dynamické grafiky v reportech.
-
-## Často kladené otázky
-
-### Q1: Mohu přizpůsobit barvu elipsy?
-
-A1: Ano, můžete. Jednoduše upravte nastavení barvy v objektu `Pen`, abyste dosáhli požadované barvy.
-
-### Q2: Jaké další tvary mohu kreslit pomocí Aspose.Drawing?
-
-A2: Aspose.Drawing podporuje různé tvary, jako jsou čáry, obdélníky a mnohoúhelníky. Podrobnosti najdete v dokumentaci [zde](https://reference.aspose.com/drawing/net/).
-
-### Q3: Je Aspose.Drawing vhodný pro složité grafické aplikace?
-
-A3: Rozhodně! Aspose.Drawing je výkonná knihovna, která dokáže snadno zvládnout i složité grafické úkoly.
-
-### Q4: Jak mohu získat podporu nebo pomoc, pokud narazím na problémy?
-
-A4: Navštivte fórum Aspose.Drawing [zde](https://forum.aspose.com/c/drawing/44) pro komunitní podporu a pomoc.
-
-### Q5: Je k dispozici bezplatná zkušební verze?
-
-A5: Ano, knihovnu můžete prozkoumat pomocí bezplatné zkušební verze [zde](https://releases.aspose.com/).
 
 ## Často kladené otázky
 

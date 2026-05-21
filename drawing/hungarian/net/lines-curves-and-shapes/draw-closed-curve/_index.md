@@ -10,15 +10,7 @@ url: /hu/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
 
-", "Megoldás". Also rows content.
-
-Also FAQ questions: translate Q and A but keep links.
-
-Let's write.
-
-Also "Last Updated" etc.
-
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

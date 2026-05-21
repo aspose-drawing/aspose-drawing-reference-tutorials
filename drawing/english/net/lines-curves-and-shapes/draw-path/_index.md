@@ -1,5 +1,5 @@
 ---
-title: How to Use GraphicsPath: Drawing Paths in Aspose.Drawing
+title: How to Use GraphicsPath - Drawing Paths in Aspose.Drawing
 linktitle: Drawing Paths in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 description: Learn how to use GraphicsPath to draw paths in Aspose.Drawing for .NET with this step‑by‑step guide. Create stunning graphics effortlessly.

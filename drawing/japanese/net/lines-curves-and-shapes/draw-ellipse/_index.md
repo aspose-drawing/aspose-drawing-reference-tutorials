@@ -100,28 +100,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 
 おめでとうございます！これで Aspose.Drawing for .NET を使用した **楕円の描き方** が分かりました。このガイドでは、ビットマップキャンバスの設定から最終画像の保存までを網羅し、カスタムチャート、UI アイコン、動的レポートグラフィックなど、より高度なグラフィック作業のための確固たる基礎を提供します。
 
-## FAQ
-
-### Q1: 楕円の色をカスタマイズできますか？
-
-A1: はい、可能です。`Pen` オブジェクトの色設定を変更するだけで、目的の色にできます。
-
-### Q2: Aspose.Drawing で描ける他の形状は何ですか？
-
-A2: Aspose.Drawing は線、矩形、ポリゴンなどさまざまな形状をサポートしています。詳細はドキュメント [here](https://reference.aspose.com/drawing/net/) をご覧ください。
-
-### Q3: 複雑なグラフィックアプリケーションに Aspose.Drawing は適していますか？
-
-A3: もちろんです！Aspose.Drawing は高度なグラフィックタスクを容易に処理できる強力なライブラリです。
-
-### Q4: 問題が発生した場合、サポートやヘルプはどのように受けられますか？
-
-A4: コミュニティサポートと支援のために、Aspose.Drawing フォーラム [here](https://forum.aspose.com/c/drawing/44) をご利用ください。
-
-### Q5: 無料トライアルはありますか？
-
-A5: はい、無料トライアルでライブラリを試すことができます [here](https://releases.aspose.com/)。
-
 ## よくある質問
 
 **Q: 生成した楕円画像をウェブアプリケーションで使用できますか？**  

@@ -9,12 +9,6 @@ url: /vi/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
 
- any missed items: The "Quick Answers" bullet list: need to keep dash and bold formatting. Ensure we keep the markdown.
-
-Also the table header: we need to translate header cells but keep pipe separators.
-
-Let's construct final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

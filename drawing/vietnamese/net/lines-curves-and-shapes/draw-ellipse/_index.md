@@ -99,28 +99,6 @@ Thay thế `"Your Document Directory"` bằng thư mục thực tế nơi bạn 
 
 Chúc mừng! Bạn đã biết **cách vẽ ellipse** bằng Aspose.Drawing cho .NET. Hướng dẫn này đã bao phủ mọi thứ từ việc thiết lập canvas bitmap đến lưu ảnh cuối cùng, cung cấp cho bạn nền tảng vững chắc cho các công việc đồ họa nâng cao hơn như biểu đồ tùy chỉnh, biểu tượng UI, hoặc đồ họa báo cáo động.
 
-## FAQ's
-
-### Q1: Tôi có thể tùy chỉnh màu của ellipse không?
-
-A1: Có, bạn chỉ cần sửa đổi cài đặt màu trong đối tượng `Pen` để đạt được màu mong muốn.
-
-### Q2: Những hình dạng khác tôi có thể vẽ bằng Aspose.Drawing là gì?
-
-A2: Aspose.Drawing hỗ trợ nhiều hình dạng như đường thẳng, hình chữ nhật và đa giác. Kiểm tra tài liệu [here](https://reference.aspose.com/drawing/net/) để biết chi tiết.
-
-### Q3: Aspose.Drawing có phù hợp cho các ứng dụng đồ họa phức tạp không?
-
-A3: Chắc chắn! Aspose.Drawing là một thư viện mạnh mẽ, có khả năng xử lý các nhiệm vụ đồ họa phức tạp một cách dễ dàng.
-
-### Q4: Làm sao tôi có thể nhận hỗ trợ hoặc tìm trợ giúp nếu gặp vấn đề?
-
-A4: Truy cập diễn đàn Aspose.Drawing [here](https://forum.aspose.com/c/drawing/44) để nhận hỗ trợ cộng đồng và trợ giúp.
-
-### Q5: Có bản dùng thử miễn phí không?
-
-A5: Có, bạn có thể khám phá thư viện với bản dùng thử miễn phí [here](https://releases.aspose.com/).
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng ảnh ellipse đã tạo trong ứng dụng web không?**  

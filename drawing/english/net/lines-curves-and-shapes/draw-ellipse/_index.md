@@ -98,28 +98,6 @@ Replace `"Your Document Directory"` with the actual folder where you want the PN
 
 Congratulations! You now know **how to draw ellipse** using Aspose.Drawing for .NET. This guide covered everything from setting up the bitmap canvas to saving the final image, giving you a solid foundation for more advanced graphics work such as custom charts, UI icons, or dynamic report graphics.
 
-## FAQ's
-
-### Q1: Can I customize the color of the ellipse?
-
-A1: Yes, you can. Simply modify the color settings in the `Pen` object to achieve the desired color.
-
-### Q2: What other shapes can I draw with Aspose.Drawing?
-
-A2: Aspose.Drawing supports various shapes like lines, rectangles, and polygons. Check the documentation [here](https://reference.aspose.com/drawing/net/) for more details.
-
-### Q3: Is Aspose.Drawing suitable for complex graphic applications?
-
-A3: Absolutely! Aspose.Drawing is a powerful library capable of handling intricate graphics tasks with ease.
-
-### Q4: How can I get support or seek help if I encounter issues?
-
-A4: Visit the Aspose.Drawing forum [here](https://forum.aspose.com/c/drawing/44) for community support and assistance.
-
-### Q5: Is there a free trial available?
-
-A5: Yes, you can explore the library with a free trial [here](https://releases.aspose.com/).
-
 ## Frequently Asked Questions
 
 **Q: Can I use the generated ellipse image in a web application?**  

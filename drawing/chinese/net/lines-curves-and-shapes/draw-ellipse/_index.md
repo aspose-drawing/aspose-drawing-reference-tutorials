@@ -8,10 +8,6 @@ url: /zh/net/lines-curves-and-shapes/draw-ellipse/
 weight: 15
 ---
 
- placeholders. The instruction says preserve code blocks: fenced code blocks. But these placeholders are not fenced. So we just keep them.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -101,28 +97,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 ## 结论
 
 恭喜！您现在已经掌握了使用 Aspose.Drawing for .NET **绘制椭圆**的方法。本指南涵盖了从设置位图画布到保存最终图像的全部步骤，为您进行更高级的图形工作（如自定义图表、UI 图标或动态报告图形）奠定了坚实基础。
-
-## 常见问题
-
-### Q1：我可以自定义椭圆的颜色吗？
-
-A1：可以，只需在 `Pen` 对象中修改颜色设置即可实现所需颜色。
-
-### Q2：我还能用 Aspose.Drawing 绘制哪些形状？
-
-A2：Aspose.Drawing 支持多种形状，如直线、矩形和多边形。请查看文档[此处](https://reference.aspose.com/drawing/net/)获取更多细节。
-
-### Q3：Aspose.Drawing 适用于复杂的图形应用吗？
-
-A3：当然！Aspose.Drawing 是功能强大的库，能够轻松处理复杂的图形任务。
-
-### Q4：如果遇到问题，我该如何获取支持或帮助？
-
-A4：请访问 Aspose.Drawing 论坛[此处](https://forum.aspose.com/c/drawing/44)获取社区支持和帮助。
-
-### Q5：是否提供免费试用？
-
-A5：是的，您可以通过[此处](https://releases.aspose.com/)的免费试用来探索该库。
 
 ## 常见问答
 

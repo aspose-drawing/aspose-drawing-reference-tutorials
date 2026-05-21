@@ -10,8 +10,6 @@ url: /fr/net/lines-curves-and-shapes/draw-ellipse/
 weight: 15
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -101,28 +99,6 @@ Remplacez `"Your Document Directory"` par le dossier réel où vous souhaitez st
 ## Conclusion
 
 Félicitations ! Vous savez maintenant **comment tracer une ellipse** en utilisant Aspose.Drawing pour .NET. Ce guide a couvert tout, de la configuration du canevas bitmap à l’enregistrement de l’image finale, vous offrant une base solide pour des travaux graphiques plus avancés tels que des graphiques personnalisés, des icônes UI ou des graphiques dynamiques de rapports.
-
-## FAQ
-
-### Q1 : Puis‑je personnaliser la couleur de l’ellipse ?
-
-R1 : Oui, vous pouvez. Modifiez simplement les paramètres de couleur dans l’objet `Pen` pour obtenir la couleur souhaitée.
-
-### Q2 : Quelles autres formes puis‑je dessiner avec Aspose.Drawing ?
-
-R2 : Aspose.Drawing prend en charge diverses formes comme les lignes, les rectangles et les polygones. Consultez la documentation [ici](https://reference.aspose.com/drawing/net/) pour plus de détails.
-
-### Q3 : Aspose.Drawing convient‑il aux applications graphiques complexes ?
-
-R3 : Absolument ! Aspose.Drawing est une bibliothèque puissante capable de gérer des tâches graphiques complexes avec aisance.
-
-### Q4 : Comment obtenir du support ou de l’aide en cas de problème ?
-
-R4 : Visitez le forum Aspose.Drawing [ici](https://forum.aspose.com/c/drawing/44) pour le support communautaire et l’assistance.
-
-### Q5 : Un essai gratuit est‑il disponible ?
-
-R5 : Oui, vous pouvez explorer la bibliothèque avec un essai gratuit [ici](https://releases.aspose.com/).
 
 ## Questions fréquemment posées
 

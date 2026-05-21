@@ -9,7 +9,7 @@ url: /ko/net/lines-curves-and-shapes/draw-lines/
 weight: 16
 ---
 
- construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

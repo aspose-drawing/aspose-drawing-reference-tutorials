@@ -101,28 +101,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 
 Tebrikler! Artık Aspose.Drawing for .NET kullanarak **elips nasıl çizilir** biliyorsunuz. Bu rehber, bitmap kanvasını kurmaktan son görüntüyü kaydetmeye kadar her şeyi kapsadı ve size özel grafikler, UI ikonları veya dinamik rapor grafikleri gibi daha ileri düzey grafik çalışmaları için sağlam bir temel sağladı.
 
-## SSS'ler
-
-### Q1: Elipsin rengini özelleştirebilir miyim?
-
-A1: Evet, yapabilirsiniz. İstediğiniz rengi elde etmek için `Pen` nesnesindeki renk ayarlarını değiştirmeniz yeterlidir.
-
-### Q2: Aspose.Drawing ile başka hangi şekilleri çizebilirim?
-
-A2: Aspose.Drawing, çizgiler, dikdörtgenler ve çokgenler gibi çeşitli şekilleri destekler. Daha fazla detay için belgeleri [burada](https://reference.aspose.com/drawing/net/) inceleyin.
-
-### Q3: Aspose.Drawing karmaşık grafik uygulamaları için uygun mu?
-
-A3: Kesinlikle! Aspose.Drawing, karmaşık grafik görevlerini kolaylıkla yönetebilen güçlü bir kütüphanedir.
-
-### Q4: Sorun yaşarsam nasıl destek alabilir veya yardım isteyebilirim?
-
-A4: Topluluk desteği ve yardım için Aspose.Drawing forumunu [burada](https://forum.aspose.com/c/drawing/44) ziyaret edin.
-
-### Q5: Ücretsiz deneme sürümü mevcut mu?
-
-A5: Evet, kütüphaneyi ücretsiz deneme sürümüyle [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
-
 ## Sık Sorulan Sorular
 
 **S: Oluşturulan elips görüntüsünü bir web uygulamasında kullanabilir miyim?**  

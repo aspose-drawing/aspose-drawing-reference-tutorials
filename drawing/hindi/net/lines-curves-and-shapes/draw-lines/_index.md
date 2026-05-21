@@ -14,129 +14,136 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing के साथ कई रेखाएँ बनाना
+# Aspose.Drawing के साथ कई लाइनें बनाना
 
-## Introduction
+## इंट्रोडक्शन
 
-Welcome to this comprehensive tutorial on **how to draw multiple lines** using Aspose.Drawing for .NET! Whether you’re building a chart, a custom UI component, or generating graphics on the fly, mastering line drawing is essential. In the next few minutes you’ll see how simple it is to create crisp, scalable lines on a bitmap, and you’ll understand why Aspose.Drawing is a top choice for .net line drawing projects.
+.NET के लिए Aspose.Drawing का इस्तेमाल करके **कई लाइनें कैसे बनाएं** इस पूरे ट्यूटोरियल में आपका स्वागत है! चाहे आप चार्ट बना रहे हों, कस्टम UI कंपोनेंट बना रहे हों, या तुरंत ग्राफ़िक्स बना रहे हों, लाइन ड्रॉइंग में माहिर होना ज़रूरी है। अगले कुछ मिनटों में आप देखेंगे कि बिटमैप पर साफ़, स्केलेबल लाइनें बनाना कितना आसान है, और आप समझ जाएंगे कि .net लाइन ड्रॉइंग प्रोजेक्ट्स के लिए Aspose.Drawing एक टॉप चॉइस क्यों है।
 
-## Quick Answers
-- **What can I draw?** Any straight line, polyline, or shape on a bitmap.  
-- **Which library?** Aspose.Drawing for .NET (no System.Drawing.Common required).  
-- **How many lines?** Draw as many as you need – the same `Graphics.DrawLine` call can be repeated.  
-- **Prerequisites?** .NET development environment and the Aspose.Drawing library.  
-- **Output format?** PNG, JPEG, BMP, or any format supported by Aspose.Drawing.
+## तुरंत जवाब
+- **मैं क्या ड्रॉ कर सकता हूँ?** बिटमैप पर कोई भी सीधी लाइन, पॉलीलाइन, या शेप।
 
-## What is drawing multiple lines?
+- **कौन सी लाइब्रेरी?** .NET के लिए Aspose.Drawing (System.Drawing.Common की ज़रूरत नहीं)।
 
-Drawing multiple lines means rendering two or more straight segments on the same image canvas. In Aspose.Drawing you achieve this by reusing a single `Graphics` object and calling `DrawLine` for each pair of coordinates. This approach is fast, memory‑efficient, and works the same way for raster and vector outputs.
+- **कितनी लाइनें?** जितनी ज़रूरत हो उतनी ड्रॉ करें – वही `Graphics.DrawLine` कॉल दोहराया जा सकता है।
 
-## Why use Aspose.Drawing for .net line drawing?
+- **ज़रूरी शर्तें?** .NET डेवलपमेंट एनवायरनमेंट और Aspose.Drawing लाइब्रेरी।
 
-- **Full .NET Core / .NET 5+ support** – no legacy dependencies.  
-- **High‑quality rendering** – anti‑aliased lines and precise pixel control.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.  
-- **Rich API** – easy to switch from `System.Drawing.Common` without code rewrites.
+- **आउटपुट फ़ॉर्मेट?** PNG, JPEG, BMP, या Aspose.Drawing द्वारा सपोर्ट किया गया कोई भी फ़ॉर्मेट।
 
-## Prerequisites
+## कई लाइनें बनाना क्या है?
 
-Before diving into the tutorial, make sure you have the following prerequisites in place:
+कई लाइनें बनाने का मतलब है एक ही इमेज कैनवस पर दो या ज़्यादा सीधे सेगमेंट रेंडर करना। Aspose.Drawing में आप इसे एक ही `Graphics` ऑब्जेक्ट का दोबारा इस्तेमाल करके और हर कोऑर्डिनेट के जोड़े के लिए `DrawLine` को कॉल करके हासिल करते हैं। यह तरीका तेज़, मेमोरी-एफ़िशिएंट है, और रैस्टर और वेक्टर आउटपुट के लिए उसी तरह काम करता है।
 
-- Aspose.Drawing Library: Download and install the Aspose.Drawing library from [here](https://releases.aspose.com/drawing/net/).
+## .net लाइन बनाने के लिए Aspose.Drawing का इस्तेमाल क्यों करें?
 
-- Development Environment: Ensure that you have a .NET development environment set up on your machine.
+- **पूरा .NET Core / .NET 5+ सपोर्ट** – कोई लेगेसी डिपेंडेंसी नहीं।
 
-- Document Directory: Create a directory on your system where you want to save the output images.
+- **हाई-क्वालिटी रेंडरिंग** – एंटी-अलियास्ड लाइनें और सटीक पिक्सेल कंट्रोल।
 
-## Import Namespaces
+- **क्रॉस-प्लेटफ़ॉर्म** – Windows, Linux और macOS पर काम करता है।
 
-In your .NET application, you need to import the necessary namespaces to work with Aspose.Drawing. Add the following namespaces at the beginning of your code:
+- **रिच API** – बिना कोड रीराइट किए `System.Drawing.Common` से स्विच करना आसान है।
+
+## ज़रूरी शर्तें
+
+ट्यूटोरियल शुरू करने से पहले, पक्का कर लें कि आपके पास ये ज़रूरी शर्तें हैं:
+
+- Aspose.Drawing लाइब्रेरी: [यहां](https://releases.aspose.com/drawing/net/) से Aspose.Drawing लाइब्रेरी डाउनलोड और इंस्टॉल करें।
+
+- डेवलपमेंट एनवायरनमेंट: पक्का करें कि आपकी मशीन पर .NET डेवलपमेंट एनवायरनमेंट सेट अप है।
+
+- डॉक्यूमेंट डायरेक्टरी: अपने सिस्टम पर एक डायरेक्टरी बनाएं जहां आप आउटपुट इमेज सेव करना चाहते हैं।
+
+## नेमस्पेस इंपोर्ट करें
+
+अपने .NET एप्लिकेशन में, आपको Aspose.Drawing के साथ काम करने के लिए ज़रूरी नेमस्पेस इंपोर्ट करने होंगे। अपने कोड की शुरुआत में ये नेमस्पेस जोड़ें:
 
 ```csharp
 using System.Drawing;
 ```
 
-Now, let's break down the example into multiple steps to guide you through the process of drawing lines using Aspose.Drawing.
+अब, Aspose.Drawing का इस्तेमाल करके लाइन बनाने के प्रोसेस में आपको गाइड करने के लिए इस उदाहरण को कई स्टेप्स में तोड़ते हैं।
 
-## How to draw multiple lines in Aspose.Drawing
+## Aspose.Drawing में कई लाइन कैसे बनाएं
 
-### Step 1: Create a Bitmap (draw line bitmap)
+### स्टेप 1: एक बिटमैप बनाएं (ड्रा लाइन बिटमैप)
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, PixelFormat.Format32bppPArgb);
 ```
 
-Start by creating a new bitmap with the desired width and height. This will be the canvas on which you draw your lines.
+अपनी पसंद की चौड़ाई और ऊंचाई वाला एक नया बिटमैप बनाकर शुरू करें। यह वह कैनवस होगा जिस पर आप अपनी लाइन बनाएंगे।
 
-### Step 2: Get Graphics Object
+### स्टेप 2: ग्राफ़िक्स ऑब्जेक्ट पाएं
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-Obtain a `Graphics` object from the created bitmap. This object provides methods for drawing on the bitmap.
+बनाए गए बिटमैप से एक `ग्राफ़िक्स` ऑब्जेक्ट पाएं। यह ऑब्जेक्ट बिटमैप पर ड्राइंग के लिए तरीके देता है।
 
-### Step 3: Define a Pen
+### स्टेप 3: एक पेन बनाएं
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-Create a `Pen` object that defines the attributes of the line you want to draw. In this case, we've chosen a blue color with a thickness of 2 pixels.
+एक `पेन` ऑब्जेक्ट बनाएं जो उस लाइन के एट्रिब्यूट को बताए जिसे आप बनाना चाहते हैं। इस मामले में, हमने 2 पिक्सेल की मोटाई वाला नीला रंग चुना है।
 
-### Step 4: Draw Lines
+### स्टेप 4: लाइन बनाएं
 
 ```csharp
 graphics.DrawLine(pen, 10, 700, 500, 10);
 graphics.DrawLine(pen, 500, 10, 990, 700);
 ```
 
-Use the `DrawLine` method to draw lines on the bitmap. The coordinates `(x1, y1)` to `(x2, y2)` represent the starting and ending points of each line. By calling the method twice, we effectively **draw multiple lines** that form a simple “V” shape.
+बिटमैप पर लाइन बनाने के लिए `DrawLine` तरीके का इस्तेमाल करें। कोऑर्डिनेट्स `(x1, y1)` से `(x2, y2)` हर लाइन के शुरू और आखिर के पॉइंट दिखाते हैं। मेथड को दो बार कॉल करके, हम असरदार तरीके से **कई लाइनें बनाते हैं** जो एक सिंपल “V” शेप बनाती हैं।
 
-### Step 5: Save the Image
+### स्टेप 5: इमेज सेव करें
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawLines_out.png");
 ```
 
-Specify the directory where you want to save the output image. Make sure to replace `"Your Document Directory"` with the actual path.
+वह डायरेक्टरी बताएं जहां आप आउटपुट इमेज सेव करना चाहते हैं। पक्का करें कि `"Your Document Directory"` को असली पाथ से बदल दिया गया है।
 
-Now, you've successfully drawn multiple lines using Aspose.Drawing! Feel free to explore more features and create intricate graphics for your applications.
+अब, आपने Aspose.Drawing का इस्तेमाल करके कई लाइनें सफलतापूर्वक खींच ली हैं! बेझिझक और फीचर्स देखें और अपने एप्लिकेशन के लिए मुश्किल ग्राफिक्स बनाएं।
 
-## Common Issues and Solutions
+## आम दिक्कतें और समाधान
 
-| Issue | Why it Happens | Fix |
+| दिक्कत | ऐसा क्यों होता है | ठीक करें |
 |-------|----------------|-----|
-| **Image appears blank** | Graphics object not linked to bitmap or wrong pixel format. | Ensure `Graphics.FromImage(bitmap)` is used and the bitmap is created with a supported pixel format. |
-| **Lines are jagged** | Anti‑aliasing disabled. | Set `graphics.SmoothingMode = SmoothingMode.AntiAlias;` before drawing (requires `using System.Drawing.Drawing2D;`). |
-| **Path not found on Save** | Invalid directory string. | Use `Path.Combine` to build the path and verify the folder exists. |
+| **इमेज खाली दिखती है** | ग्राफिक्स ऑब्जेक्ट बिटमैप से लिंक नहीं है या गलत पिक्सेल फॉर्मेट है। | पक्का करें कि `Graphics.FromImage(bitmap)` का इस्तेमाल किया गया है और बिटमैप सपोर्टेड पिक्सेल फॉर्मेट के साथ बनाया गया है। |
+| **लाइनें टेढ़ी-मेढ़ी हैं** | एंटी-अलियासिंग डिसेबल है। | ड्राइंग से पहले `graphics.SmoothingMode = SmoothingMode.AntiAlias;` सेट करें (इसके लिए `using System.Drawing.Drawing2D;` की ज़रूरत है)। |
+| **सेव करने पर पाथ नहीं मिला** | इनवैलिड डायरेक्टरी स्ट्रिंग। | पाथ बनाने और वेरिफ़ाई करने के लिए `Path.Combine` का इस्तेमाल करें कि फ़ोल्डर मौजूद है। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
-**Q: Can I change the color of the lines?**  
-A: Yes, simply modify the `Color` parameter when creating the `Pen` object.
+**सवाल: क्या मैं लाइनों का रंग बदल सकता हूँ?**
+जवाब: हाँ, `Pen` ऑब्जेक्ट बनाते समय बस `Color` पैरामीटर को बदलें।
 
-**Q: What other shapes can I draw with Aspose.Drawing?**  
-A: Aspose.Drawing supports rectangles, ellipses, curves, polygons, and more. Check the official documentation for full examples.
+**सवाल: Aspose.Drawing से मैं और कौन से शेप बना सकता हूँ?**
+जवाब: Aspose.Drawing रेक्टेंगल, एलिप्स, कर्व, पॉलीगॉन और भी बहुत कुछ सपोर्ट करता है। पूरे उदाहरणों के लिए ऑफ़िशियल डॉक्यूमेंटेशन देखें।
 
-**Q: Is Aspose.Drawing suitable for web applications?**  
-A: Absolutely! It works in ASP.NET Core, MVC, and other web frameworks, allowing you to generate images on the server side.
+**सवाल: क्या Aspose.Drawing वेब एप्लिकेशन के लिए सही है?**
+जवाब: बिल्कुल! यह ASP.NET Core, MVC और दूसरे वेब फ़्रेमवर्क में काम करता है, जिससे आप सर्वर साइड पर इमेज बना सकते हैं।
 
-**Q: How can I handle errors while using Aspose.Drawing?**  
-A: Wrap your drawing code in a `try‑catch` block and consult the Aspose.Drawing forum (https://forum.aspose.com/c/drawing/44) for community support.
+**सवाल: Aspose.Drawing इस्तेमाल करते समय मैं गलतियों को कैसे हैंडल कर सकता हूँ?**
+जवाब: अपने ड्राइंग कोड को `try‑catch` ब्लॉक में रैप करें और कम्युनिटी सपोर्ट के लिए Aspose.Drawing फ़ोरम (https://forum.aspose.com/c/drawing/44) देखें।
 
-**Q: Can I use Aspose.Drawing for a commercial project?**  
-A: Yes, you can use Aspose.Drawing for commercial projects. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
+**सवाल: क्या मैं कमर्शियल प्रोजेक्ट के लिए Aspose.Drawing इस्तेमाल कर सकता हूँ?**
+जवाब: हाँ, आप कमर्शियल प्रोजेक्ट के लिए Aspose.Drawing इस्तेमाल कर सकते हैं। लाइसेंसिंग डिटेल्स के लिए [परचेज़ पेज](https://purchase.aspose.com/buy) पर जाएँ।
 
-## Conclusion
+## नतीजा
 
-In this tutorial, we covered the essential steps to **draw multiple lines** with Aspose.Drawing for .NET, demonstrated how to create a bitmap, obtain a graphics object, define a pen, render several lines, and save the result. With this foundation you can expand to more complex drawings, integrate dynamic data, or generate charts programmatically.
+इस ट्यूटोरियल में, हमने .NET के लिए Aspose.Drawing से **कई लाइनें** बनाने के ज़रूरी स्टेप्स बताए हैं, दिखाया है कि बिटमैप कैसे बनाते हैं, ग्राफ़िक्स ऑब्जेक्ट कैसे पाते हैं, पेन कैसे डिफाइन करते हैं, कई लाइनें कैसे रेंडर करते हैं, और रिज़ल्ट कैसे सेव करते हैं। इस बेस के साथ आप ज़्यादा कॉम्प्लेक्स ड्राइंग बना सकते हैं, डायनामिक डेटा इंटीग्रेट कर सकते हैं, या प्रोग्रामेटिकली चार्ट बना सकते हैं।
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**पिछला अपडेट:** 2026-02-14
+**इसके साथ टेस्ट किया गया:** Aspose.Drawing 24.12 for .NET
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

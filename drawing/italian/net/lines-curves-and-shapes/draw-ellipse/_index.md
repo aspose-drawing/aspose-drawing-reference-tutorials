@@ -10,21 +10,7 @@ url: /it/net/lines-curves-and-shapes/draw-ellipse/
 weight: 15
 ---
 
-.11 for .NET
-
-**Author:** Aspose
-
-These can stay English? The labels are in English but could translate. The instruction says translate all text content naturally to Italian, but keep technical terms. So translate labels: "Last Updated" -> "Ultimo aggiornamento". "Tested With" -> "Testato con". "Author" -> "Autore". Keep dates unchanged.
-
-Proceed.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Make sure to keep shortcodes exactly as original.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -115,28 +101,6 @@ Sostituisci `"Your Document Directory"` con la cartella reale dove desideri salv
 ## Conclusione
 
 Congratulazioni! Ora sai **come disegnare un'ellisse** usando Aspose.Drawing per .NET. Questa guida ha coperto tutto, dalla configurazione della tela bitmap al salvataggio dell'immagine finale, fornendoti una solida base per lavori grafici più avanzati come grafici personalizzati, icone UI o grafica dinamica per report.
-
-## FAQ
-
-### Q1: Posso personalizzare il colore dell'ellisse?
-
-A1: Sì, puoi. Basta modificare le impostazioni del colore nell'oggetto `Pen` per ottenere il colore desiderato.
-
-### Q2: Quali altre forme posso disegnare con Aspose.Drawing?
-
-A2: Aspose.Drawing supporta varie forme come linee, rettangoli e poligoni. Consulta la documentazione [qui](https://reference.aspose.com/drawing/net/) per maggiori dettagli.
-
-### Q3: Aspose.Drawing è adatto per applicazioni grafiche complesse?
-
-A3: Assolutamente! Aspose.Drawing è una libreria potente in grado di gestire compiti grafici complessi con facilità.
-
-### Q4: Come posso ottenere supporto o assistenza se incontro problemi?
-
-A4: Visita il forum di Aspose.Drawing [qui](https://forum.aspose.com/c/drawing/44) per supporto e assistenza dalla community.
-
-### Q5: È disponibile una versione di prova gratuita?
-
-A5: Sì, puoi esplorare la libreria con una versione di prova gratuita [qui](https://releases.aspose.com/).
 
 ## Domande frequenti
 

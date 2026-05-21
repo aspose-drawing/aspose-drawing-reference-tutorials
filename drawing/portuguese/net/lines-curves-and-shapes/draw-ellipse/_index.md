@@ -10,27 +10,7 @@ url: /pt/net/lines-curves-and-shapes/draw-ellipse/
 weight: 15
 ---
 
-: ... translate.
-
-Make sure to keep markdown bold.
-
-Continue.
-
-After list, the horizontal line and metadata.
-
-"**Last Updated:** 2026-02-14" keep date same.
-
-"**Tested With:** Aspose.Drawing 24.11 for .NET" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode after.
-
-All placeholders remain.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -119,28 +99,6 @@ Substitua `"Your Document Directory"` pela pasta real onde você deseja que o ar
 ## Conclusão
 
 Parabéns! Agora você sabe **como desenhar elipse** usando Aspose.Drawing para .NET. Este guia cobriu tudo, desde a configuração do canvas bitmap até a gravação da imagem final, proporcionando uma base sólida para trabalhos gráficos mais avançados, como gráficos personalizados, ícones de UI ou gráficos dinâmicos de relatórios.
-
-## Perguntas Frequentes
-
-### Q1: Posso personalizar a cor da elipse?
-
-A1: Sim, você pode. Basta modificar as configurações de cor no objeto `Pen` para obter a cor desejada.
-
-### Q2: Que outras formas posso desenhar com Aspose.Drawing?
-
-A2: Aspose.Drawing suporta várias formas como linhas, retângulos e polígonos. Consulte a documentação [aqui](https://reference.aspose.com/drawing/net/) para mais detalhes.
-
-### Q3: O Aspose.Drawing é adequado para aplicações gráficas complexas?
-
-A3: Absolutamente! Aspose.Drawing é uma biblioteca poderosa capaz de lidar com tarefas gráficas intrincadas com facilidade.
-
-### Q4: Como posso obter suporte ou ajuda se encontrar problemas?
-
-A4: Visite o fórum do Aspose.Drawing [aqui](https://forum.aspose.com/c/drawing/44) para suporte da comunidade e assistência.
-
-### Q5: Há uma versão de avaliação gratuita disponível?
-
-A5: Sim, você pode explorar a biblioteca com uma avaliação gratuita [aqui](https://releases.aspose.com/).
 
 ## Perguntas Frequentes
 

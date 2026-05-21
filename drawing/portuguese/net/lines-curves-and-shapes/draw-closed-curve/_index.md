@@ -9,11 +9,7 @@ url: /pt/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
 
-, etc.
-
-Make sure to keep markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

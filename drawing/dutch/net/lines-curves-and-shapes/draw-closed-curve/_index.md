@@ -10,9 +10,7 @@ url: /nl/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
 
-}} etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

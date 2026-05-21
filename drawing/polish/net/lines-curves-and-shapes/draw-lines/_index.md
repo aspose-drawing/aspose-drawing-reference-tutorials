@@ -10,7 +10,7 @@ url: /pl/net/lines-curves-and-shapes/draw-lines/
 weight: 16
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -100,28 +100,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png"
 
 恭喜！您現在已掌握使用 Aspose.Drawing for .NET **繪製橢圓** 的方法。本指南涵蓋了從設定 bitmap 畫布到儲存最終圖像的全部步驟，為您進一步開發自訂圖表、UI 圖示或動態報表圖形奠定了堅實基礎。
 
-## 常見問題
-
-### Q1：我可以自訂橢圓的顏色嗎？
-
-A1：可以。只需在 `Pen` 物件中修改顏色設定，即可取得想要的顏色。
-
-### Q2：我還能用 Aspose.Drawing 繪製哪些形狀？
-
-A2：Aspose.Drawing 支援多種形狀，如線條、矩形與多邊形。請參閱文件 [here](https://reference.aspose.com/drawing/net/) 了解更多細節。
-
-### Q3：Aspose.Drawing 適合用於複雜的圖形應用嗎？
-
-A3：絕對適合！Aspose.Drawing 是功能強大的函式庫，能輕鬆處理複雜的圖形任務。
-
-### Q4：如果遇到問題，我該如何取得支援或協助？
-
-A4：請前往 Aspose.Drawing 論壇 [here](https://forum.aspose.com/c/drawing/44) 獲得社群支援與協助。
-
-### Q5：是否提供免費試用？
-
-A5：是的，您可以透過此連結取得免費試用版 [here](https://releases.aspose.com/)。
-
 ## 常見問答
 
 **Q: 我可以在 Web 應用程式中使用產生的橢圓圖像嗎？**  

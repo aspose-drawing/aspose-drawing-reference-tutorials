@@ -9,31 +9,7 @@ url: /cs/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
 
-purchase page](https://purchase.aspose.com/buy) for details.
-
-Translate.
-
-**Q: Is there a free trial available?** etc.
-
-Make sure to keep markdown formatting.
-
-## Conclusion -> "Závěr"
-
-Paragraph translate.
-
-At end: **Last Updated:** keep date same. "Poslední aktualizace:".
-
-**Tested With:** "Testováno s:".
-
-**Author:** "Autor:".
-
-Close shortcodes.
-
-Also there is a backtop button shortcode after.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

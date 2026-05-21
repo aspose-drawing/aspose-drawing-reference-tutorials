@@ -100,28 +100,6 @@ Zastąp `"Your Document Directory"` rzeczywistym folderem, w którym chcesz prze
 
 Gratulacje! Teraz wiesz **jak narysować elipsę** przy użyciu Aspose.Drawing dla .NET. Ten przewodnik obejmuje wszystko, od konfiguracji płótna bitmapy po zapisanie finalnego obrazu, dając solidne podstawy do bardziej zaawansowanych prac graficznych, takich jak niestandardowe wykresy, ikony UI czy dynamiczne grafiki raportowe.
 
-## FAQ
-
-### Pytanie 1: Czy mogę dostosować kolor elipsy?
-
-A1: Tak, możesz. Po prostu zmodyfikuj ustawienia koloru w obiekcie `Pen`, aby uzyskać pożądany kolor.
-
-### Pytanie 2: Jakie inne kształty mogę rysować przy użyciu Aspose.Drawing?
-
-A2: Aspose.Drawing obsługuje różne kształty, takie jak linie, prostokąty i wielokąty. Sprawdź dokumentację [tutaj](https://reference.aspose.com/drawing/net/) dla więcej szczegółów.
-
-### Pytanie 3: Czy Aspose.Drawing nadaje się do złożonych aplikacji graficznych?
-
-A3: Zdecydowanie! Aspose.Drawing to potężna biblioteka, zdolna do łatwego obsługiwania skomplikowanych zadań graficznych.
-
-### Pytanie 4: Jak mogę uzyskać wsparcie lub pomoc, jeśli napotkam problemy?
-
-A4: Odwiedź forum Aspose.Drawing [tutaj](https://forum.aspose.com/c/drawing/44) aby uzyskać wsparcie społeczności i pomoc.
-
-### Pytanie 5: Czy dostępna jest bezpłatna wersja próbna?
-
-A5: Tak, możesz przetestować bibliotekę w ramach bezpłatnej wersji próbnej [tutaj](https://releases.aspose.com/).
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę użyć wygenerowanego obrazu elipsy w aplikacji webowej?**  
