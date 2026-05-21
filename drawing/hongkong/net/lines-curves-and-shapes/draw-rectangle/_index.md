@@ -117,39 +117,6 @@ A: 透過對應的 `ImageFormat` 參數，可支援 PNG、JPEG、BMP、GIF 與 T
 **Q: Aspose.Drawing 能在 .NET Core 上執行嗎？**  
 A: 能，該套件完整相容於 .NET Core、.NET 5、.NET 6 以及更高版本。
 
-## 其他資源
-
-若您在使用過程中遇到問題或有任何疑問，歡迎前往 [Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44) 取得協助。
-
-### 常見問答
-
-#### Q1: 可以免費使用 Aspose.Drawing 嗎？
-
-A1: Aspose.Drawing 為商業套件，但您可透過 [免費試用](https://releases.aspose.com/) 先行體驗功能。
-
-#### Q2: 哪裡可以找到詳細文件？
-
-A2: 請參考 [文件說明](https://reference.aspose.com/drawing/net/) 取得深入資訊。
-
-#### Q3: 如何取得臨時授權？
-
-A3: 前往取得 [臨時授權](https://purchase.aspose.com/temporary-license/) 以供測試使用。
-
-#### Q4: Aspose.Drawing 適合用於複雜圖形任務嗎？
-
-A4: 絕對適合！Aspose.Drawing 提供先進功能，能處理複雜的圖形操作。
-
-#### Q5: 哪裡可以購買 Aspose.Drawing？
-
-A5: 前往 [此處](https://purchase.aspose.com/buy) 購買授權。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-02-17  
@@ -157,3 +124,10 @@ A5: 前往 [此處](https://purchase.aspose.com/buy) 購買授權。
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

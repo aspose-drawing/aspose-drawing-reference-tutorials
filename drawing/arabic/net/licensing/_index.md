@@ -9,18 +9,6 @@ url: /ar/net/licensing/
 weight: 22
 ---
 
- code: `Aspose.Drawing.License` etc remain unchanged.
-
-Also bullet list items with **bold**: keep bold formatting but translate text inside.
-
-Also the "## Quick Answers" heading.
-
-Let's translate.
-
-Will produce Arabic text with proper punctuation.
-
-Let's start.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

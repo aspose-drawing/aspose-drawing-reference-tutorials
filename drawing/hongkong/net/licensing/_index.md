@@ -8,16 +8,6 @@ url: /zh-hant/net/licensing/
 weight: 22
 ---
 
-". Keep rest.
-
-Then closing shortcodes.
-
-Let's produce final content.
-
-Be careful to preserve markdown formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

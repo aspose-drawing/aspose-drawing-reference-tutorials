@@ -10,10 +10,6 @@ url: /pl/net/lines-curves-and-shapes/solid-brushes/
 weight: 10
 ---
 
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -110,28 +106,6 @@ Powtarzaj te kroki, dostosowując kolory i kształty do wymagań Twojej aplikacj
 | **Błąd „file not found”** przy zapisie | Folder docelowy nie istnieje | Upewnij się, że katalog (`Your Document Directory\Brushes`) został utworzony przed wywołaniem `Save`. |
 | **Nieprawidłowe kolory** | Użycie `KnownColor`, które mapuje się na motyw systemowy | Użyj `Color.FromArgb` dla precyzyjnych wartości RGBA. |
 | **Utrata przezroczystości** | Użycie formatu pikseli bez kanału alfa | Zachowaj `PixelFormat.Format32bppPArgb`, jak pokazano, aby zachować kanał alfa. |
-
-## FAQ
-
-### Q1: Czy mogę używać Aspose.Drawing dla .NET z innymi frameworkami .NET?
-
-A1: Tak, Aspose.Drawing dla .NET jest kompatybilny z różnymi frameworkami .NET, zapewniając elastyczność dla różnych wymagań projektowych.
-
-### Q2: Czy dostępna jest wersja próbna przed zakupem?
-
-A2: Oczywiście! Możesz przetestować funkcje, pobierając wersję próbną [tutaj](https://releases.aspose.com/).
-
-### Q3: Jak mogę uzyskać wsparcie dla Aspose.Drawing dla .NET?
-
-A3: Odwiedź [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) w celu uzyskania pomocy społeczności i dyskusji.
-
-### Q4: Gdzie znajdę pełną dokumentację Aspose.Drawing dla .NET?
-
-A4: Zapoznaj się z [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) po szczegółowe informacje.
-
-### Q5: Co to jest „burstiness” w kontekście Aspose.Drawing?
-
-A5: „Burstiness” odnosi się do zdolności Aspose.Drawing do efektywnego radzenia sobie ze nagłymi wzrostami wymagań renderowania grafiki.
 
 ## Najczęściej zadawane pytania
 

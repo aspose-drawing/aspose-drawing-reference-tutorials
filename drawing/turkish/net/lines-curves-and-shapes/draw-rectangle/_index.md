@@ -119,39 +119,6 @@ Tebrikler! Aspose.Drawing for .NET kullanarak **dikdörtgen çizme** işlemini b
 **Q: Aspose.Drawing .NET Core üzerinde çalışıyor mu?**  
 **A:** Evet, kütüphane .NET Core, .NET 5, .NET 6 ve sonraki sürümlerle tam uyumludur.
 
-## Ek Kaynaklar
-
-Herhangi bir zorlukla karşılaşırsanız veya sorularınız olursa, [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) üzerinden yardım alabilirsiniz.
-
-### SSS
-
-#### Q1: Aspose.Drawing'ı ücretsiz kullanabilir miyim?
-
-**A1:** Aspose.Drawing ticari bir kütüphanedir, ancak özelliklerini bir [ücretsiz deneme](https://releases.aspose.com/) ile keşfedebilirsiniz.
-
-#### Q2: Detaylı belgeleri nerede bulabilirim?
-
-**A2:** Derinlemesine bilgi için [belgelere](https://reference.aspose.com/drawing/net/) bakın.
-
-#### Q3: Geçici bir lisans nasıl alabilirim?
-
-**A3:** Test amaçlı bir [geçici lisans](https://purchase.aspose.com/temporary-license/) edinin.
-
-#### Q4:. Aspose.Drawing karmaşık grafik görevleri için uygun mu?
-
-**A4:** Kesinlikle! Aspose.Drawing karmaşık grafik işlemlerini yönetmek için gelişmiş özellikler sunar.
-
-#### Q5: Aspose.Drawing'ı nereden satın alabilirim?
-
-**A5:** Lisans satın almak için [buraya](https://purchase.aspose.com/buy) gidin.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-17  
@@ -159,3 +126,10 @@ Herhangi bir zorlukla karşılaşırsanız veya sorularınız olursa, [Aspose.Dr
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

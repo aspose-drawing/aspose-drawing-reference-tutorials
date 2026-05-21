@@ -10,16 +10,6 @@ url: /id/net/lines-curves-and-shapes/fill-region/
 weight: 20
 ---
 
-Diuji Dengan:".
-
-"Author:" translate to "Penulis:".
-
-Then closing shortcodes.
-
-Also include backtop button shortcode unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

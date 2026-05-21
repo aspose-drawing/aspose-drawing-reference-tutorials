@@ -10,25 +10,7 @@ url: /es/net/licensing/
 weight: 22
 ---
 
- applied successfully?** translate.
-
-**Q: Is it safe to store the license file in source control?** translate.
-
-Then after list, a horizontal line "---". Keep.
-
-Then "**Last Updated:** 2026-02-17" keep date.
-
-"**Tested With:** Aspose.Drawing 24.11 for .NET" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Finally backtop button shortcode.
-
-Make sure to preserve all markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -86,26 +68,26 @@ Desbloquee todo el potencial de Aspose.Drawing en .NET. Domine la licencia para 
 
 ## Preguntas frecuentes
 
-**Q: Can I use the same license file for multiple projects?**  
-**A:** Yes. A single license file can be referenced by any number of applications on the same machine, as long as the license terms allow it.
+**P: ¿Puedo usar el mismo archivo de licencia para varios proyectos?**
+**R:** Sí. Un único archivo de licencia puede ser referenciado por cualquier número de aplicaciones en la misma máquina, siempre que los términos de la licencia lo permitan.
 
-**Q: What should I do if the license is not recognized at runtime?**  
-**A:** Verify that the license file is copied to the output directory, that the file name matches exactly, and that the `License` class is instantiated before any Aspose.Drawing calls.
+**P: ¿Qué debo hacer si la licencia no se reconoce en tiempo de ejecución?**
+**R:** Verifique que el archivo de licencia se haya copiado al directorio de salida, que el nombre del archivo coincida exactamente y que la clase `License` se haya instanciado antes de cualquier llamada a Aspose.Drawing.
 
-**Q: Does a trial license have usage limitations?**  
-**A:** The trial mode adds a watermark to generated images and limits certain premium features. A full license removes these restrictions.
+**P: ¿Tiene una licencia de prueba limitaciones de uso?**
+**R:** El modo de prueba agrega una marca de agua a las imágenes generadas y limita ciertas funciones premium. Una licencia completa elimina estas restricciones.
 
-**Q: How can I programmatically check if the license was applied successfully?**  
-**A:** After calling `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`, you can catch any exceptions to confirm successful registration.
+**P: ¿Cómo puedo verificar mediante programación si la licencia se aplicó correctamente?**
+**R:** Después de llamar a `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`, puede capturar cualquier excepción para confirmar el registro correcto.
 
-**Q: Is it safe to store the license file in source control?**  
-**A:** For security reasons, avoid committing the license file to public repositories. Use environment‑specific deployment mechanisms instead.
+**P: ¿Es seguro almacenar el archivo de licencia en el control de versiones?**
+**R:** Por motivos de seguridad, evite incluir el archivo de licencia en repositorios públicos. En su lugar, utilice mecanismos de implementación específicos para su entorno.
 
----
+--
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Última actualización:** 17/02/2026
+**Probado con:** Aspose.Drawing 24.11 para .NET
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

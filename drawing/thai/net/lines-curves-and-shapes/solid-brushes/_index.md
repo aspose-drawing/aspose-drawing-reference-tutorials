@@ -15,36 +15,36 @@ weight: 10
 
 # บันทึก Bitmap เป็น PNG ด้วย Solid Brushes ใน Aspose.Drawing
 
-## Introduction
+## การแนะนำ
 
-ยินดีต้อนรับสู่คู่มือฉบับสมบัติของเราเกี่ยวกับ **วิธีบันทึก bitmap เป็น PNG** โดยใช้ solid brushes ใน Aspose.Drawing สำหรับ .NET! หากคุณต้องการเพิ่มกราฟิกสีสันที่กำหนดเองในแอปพลิเคชัน .NET ของคุณ บทแนะนำนี้สร้างมาสำหรับคุณโดยเฉพาะ เราจะเดินผ่านทุกขั้นตอน—from การตั้งค่า canvas ไปจนถึงการเติมรูปด้วย solid brush และสุดท้ายบันทึกผลลัพธ์เป็นไฟล์ PNG.
+ยินดีต้อนรับสู่คู่มือฉบับสมบัติของเราเกี่ยวกับ **วิธีบันทึกบิตแมปเป็น PNG** สำหรับ solid Brush ใน Aspose.ถอนเงินสำหรับ .NET! อย่าลืมเพิ่มกราฟิกสีสันในแอปพลิเคชัน .NET บทแนะนำนี้สร้างมาสำหรับคุณโดยเฉพาะในส่วนที่ทุกขั้นตอน—จากผืนผ้าใบไม่จำเป็นต้องการเติมรูปด้วยแปรงทึบ และสุดท้ายบันทึกผลลัพธ์เป็นไฟล์ PNG
 
-## Quick Answers
-- **“save bitmap as png” หมายถึงอะไร?** หมายถึงการส่งออกอ็อบเจ็กต์ `Bitmap` ไปเป็นไฟล์ภาพ PNG บนดิสก์.  
-- **คลาสใดสร้าง solid brush?** `SolidBrush` จากเนมสเปซ `System.Drawing`.  
-- **ฉันสามารถเปลี่ยนสีของ brush ได้หรือไม่?** ได้ — เพียงส่ง `Color` ที่ต่างออกไปไปยังคอนสตรัคเตอร์ของ `SolidBrush`.  
-- **ต้องมีลิขสิทธิ์เพื่อรันโค้ดนี้หรือไม่?** เวอร์ชันทดลองทำงานสำหรับการประเมินผล; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
-- **วิธีนี้เข้ากันได้กับ .NET 6+ หรือไม่?** แน่นอน — Aspose.Drawing รองรับ .NET Core และ .NET 5/6.
+## คำตอบด่วน
+- **“save bitmap as png” ส่วนใหญ่อะไร?** ส่วนที่เป็นอ็อบเจ็กต์ `Bitmap` ไปเป็นไฟล์ภาพ PNG.
+- ** คลาสใดสร้าง solid brush?** `SolidBrush` จากเนมสเปซ `System. Drawing`.
+- **ปกติเปลี่ยนสีของแปรงได้หรือเปล่า** ได้ — เพียงส่ง `Color` ที่ต่างออกไปไปยังคอนสตรัคเตอร์ของ `SolidBrush`
+- **ต้องมีลิขสิทธิ์เพื่อรันโค้ดนี้หรือไม่?** นักวิทยาศาสตร์ทดลองทำงานสำหรับไดรฟ์; การควบคุมลิขสิทธิ์ในเรื่องดังกล่าวในผลิตภัณฑ์
+- ** วิธีการที่ต้องการ .NET 6+ จำเป็นต้องมี?** แน่นอน — Aspose. Drawing รองรับ .NET Core และ .NET 5/6
 
-## What is “save bitmap as png”?
+## “บันทึกบิตแมปเป็น PNG” คืออะไร?
 
-การบันทึก bitmap เป็น PNG จะเปลี่ยนข้อมูลพิกเซลในหน่วยความจำให้เป็นไฟล์ PNG แบบ loss‑less ซึ่งคงรักษาความโปร่งใสและความแม่นยำของสี Aspose.Drawing ทำให้กระบวนการนี้ง่ายขึ้นพร้อมกับให้คุณ **ใช้ solid brush** เพื่อวาดรูปก่อนทำการส่งออก.
+การวิจัยบิตแมปเป็น PNG จะเปลี่ยนข้อมูลในการตรวจสอบให้เป็นไฟล์ PNG แบบสูญเสียน้อยกว่า ซึ่งคงรักษาความควบคุมและการควบคุมของสี Aspose. การวาดรูปโดยไม่ต้องใช้แปรงนี้จะช่วยให้คุณ **ใช้แปรงทึบ** สำหรับการตรวจสอบก่อนทำ
 
-## Why use solid brushes to save bitmap as png?
+## เหตุใดจึงต้องใช้แปรงทึบเพื่อบันทึกบิตแมปเป็น PNG
 
-Solid brushes ให้สีเดียวที่สม่ำเสมอซึ่งเติมเต็มรูปทรงใด ๆ ที่คุณวาด — เหมาะสำหรับไอคอน, แบจ, หรือกราฟิกง่าย ๆ ที่ต้องการลุคที่สะอาดและสม่ำเสมอ การผสมผสาน solid brush กับเอนจินการเรนเดอร์ประสิทธิภาพสูงของ Aspose.Drawing ทำให้ PNG สุดท้ายคมชัดและพร้อมใช้บนเว็บหรือเดสก์ท็อป.
+Solid Brush ให้สีเดียวที่สามารถปรับแต่งซึ่งเติมเต็มรูปทรงต่างๆ ที่คุณวาด — สำหรับไอคอน, แบจ, หรือกราฟิกอย่างง่ายที่ต้องการลุคที่สะอาดและครอบคลุมถึง Solid Brush กับเอนจินการเรนเดอร์ตามลำดับของ Aspose. Drawing สามารถตรวจสอบ PNG ได้ทันทีที่ความคมชัดและพร้อมใช้ความสามารถหรือการติดตาม
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะลงลึกในบทแนะนำ โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
+เราจะลงลึกในบทแนะนำการพิจารณาคดีของคุณเองโดยละเอียดพร้อมใช้งาน:
 
-- Aspose.Drawing for .NET Library: ดาวน์โหลดและติดตั้งไลบรารีจาก [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/).
+- Aspose. Drawing for .NET Library: ดาวน์โหลดไลบรารีจาก [Aspose. Drawing for .NET Documentation](https://reference.aspose.com/writing/net/)
 
-- Integrated Development Environment (IDE): มีสภาพแวดล้อมการพัฒนา .NET ที่ทำงานได้ เช่น Visual Studio ตั้งค่าไว้บนเครื่องของคุณแล้ว.
+- Integrated Development Environment (IDE): มีการพัฒนา .NET ที่ทำงานได้ เช่น Visual Studio ตั้งไว้บนเครื่องของคุณแล้ว.
 
-เมื่อคุณเตรียมทุกอย่างพร้อมแล้ว ไปสู่การดำเนินการต่อ.
+ไม่ต้องเตรียมทุกอย่างพร้อมแล้วเพื่อดำเนินการต่อ
 
-## Import Namespaces
+## นำเข้าเนมสเปซ
 
 ในแอปพลิเคชัน .NET ของคุณ เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นเพื่อใช้พลังของ Aspose.Drawing:
 
@@ -52,11 +52,11 @@ Solid brushes ให้สีเดียวที่สม่ำเสมอซ
 using System.Drawing;
 ```
 
-## How to Save Bitmap as PNG with Solid Brushes
+## วิธีบันทึกภาพบิตแมปเป็นไฟล์ PNG ด้วยแปรงสีทึบ
 
 ต่อไปนี้เป็นขั้นตอนแบบละเอียดที่แสดงวิธี **ใช้ solid brush** เติมรูปทรงและจากนั้น **บันทึก bitmap เป็น png**.
 
-### Step 1: Create a Bitmap
+### ขั้นตอนที่ 1: สร้างภาพบิตแมป
 
 เพื่อใช้ solid brushes อย่างมีประสิทธิภาพ เริ่มต้นด้วยการสร้าง bitmap ที่จะทำหน้าที่เป็น canvas สำหรับกราฟิกของคุณ:
 
@@ -64,7 +64,7 @@ using System.Drawing;
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Step 2: Create Graphics Object
+### ขั้นตอนที่ 2: สร้างวัตถุกราฟิก
 
 ต่อไปสร้างอ็อบเจ็กต์ `Graphics` เพื่อโต้ตอบกับ bitmap:
 
@@ -72,7 +72,7 @@ Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format3
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Step 3: Choose a Solid Brush
+### ขั้นตอนที่ 3: เลือกแปรงสีทึบ
 
 ตอนนี้ให้เลือกสีสำหรับ solid brush ของเรา ในตัวอย่างนี้เราจะใช้สีฟ้า:
 
@@ -80,7 +80,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
 ```
 
-### Step 4: Fill Shapes with Brush
+### ขั้นตอนที่ 4: เติมสีลงในรูปทรงด้วยแปรง
 
 ใช้ solid brush ที่เลือกกับอ็อบเจ็กต์ graphics ที่นี่เราจะเติมรูปวงรีด้วย solid brush สีน้ำเงิน — นี้เป็นการสาธิตวิธี **เติมรูปด้วย brush**:
 
@@ -88,7 +88,7 @@ Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
 graphics.FillEllipse(brush, 100, 100, 800, 600);
 ```
 
-### Step 5: Save the Result as PNG
+### ขั้นตอนที่ 5: บันทึกผลลัพธ์เป็นไฟล์ PNG
 
 สุดท้าย ส่งออก bitmap ไปเป็นไฟล์ PNG นี่คือช่วงเวลาที่เราจะ **บันทึก bitmap เป็น png**:
 
@@ -98,58 +98,36 @@ bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 
 ทำซ้ำขั้นตอนเหล่านี้ ปรับสีและรูปทรงตามความต้องการของแอปพลิเคชันของคุณ.
 
-## Common Issues and Solutions
+## ปัญหาทั่วไปและแนวทางแก้ไข
 
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **File not found error** when saving | โฟลเดอร์เป้าหมายไม่มีอยู่ | ตรวจสอบให้แน่ใจว่าได้สร้างไดเรกทอรี (`Your Document Directory\Brushes`) ก่อนเรียก `Save`. |
-| **Incorrect colors** | ใช้ `KnownColor` ที่แมปกับธีมระบบ | ใช้ `Color.FromArgb` เพื่อกำหนดค่า RGBA ที่แม่นยำ. |
-| **Transparency lost** | ใช้ pixel format ที่ไม่มี alpha | คง `PixelFormat.Format32bppPArgb` ตามที่แสดงเพื่อรักษาช่อง alpha. |
+| ปัญหา | ทำไมมันถึงเกิดขึ้น | แก้ไข |
+|----------------------|----------------|-----|
+| **ข้อผิดพลาดไม่พบไฟล์** เมื่อบันทึก | เป้าหมายไม่มีอยู่ | การดำเนินการนี้จะเป็นไปได้ (`Your Document Directory\Brushes`) ก่อนที่จะเรียก `Save` |
+| **สีผิด** | ใช้ `KnownColor` ที่แมปกับธีมระบบ | ใช้ `Color.FromArgb` สามารถใช้กับ RGBA ได้ |
+| **ความโปร่งใสหายไป** | ใช้รูปแบบพิกเซลไม่ได้ alpha | คงไว้ `PixelFormat.Format32bppPArgb` นำเสนอคุณสมบัติของช่อง alpha. |
 
-## FAQ's
+## คำถามที่พบบ่อย
 
-### Q1: Can I use Aspose.Drawing for .NET with other .NET frameworks?
+**ถาม: ฉันสามารถใช้รูปร่างอื่นแทนวงรีได้ไหม**
+ตอบ: เรา — เมธอดเช่น `FillRectangle`, `FillPolygon`, หรือ `DrawPath` สวัสดี solid brush เดียวกัน.
 
-A1: ใช่, Aspose.Drawing for .NET เข้ากันได้กับหลาย .NET framework, ให้ความยืดหยุ่นสำหรับความต้องการของโครงการต่าง ๆ.
+**ถาม: ฉันจะเปลี่ยนรูปแบบเอาต์พุตเป็น JPEG ได้อย่างไร**
+ตอบ: สามารถใช้ไฟล์ใน `Save` และ `ImageFormat.Jpeg` (เช่น `bitmap.Save("output.jpg", ImageFormat.Jpeg);`)
 
-### Q2: Is there a trial version available before purchasing?
+**ถาม: เป็นไปได้ไหมที่จะวาดรูปทรงหลายรูปแบบด้วยแปรงที่แตกต่างกันในบิตแมปเดียว**
+ตอบ: ได้ — สร้าง `SolidBrush` ส่วนที่เหลือของสีและเรียกเมธอด `Fill*` สำหรับข้อมูลเพิ่มเติม
 
-A2: แน่นอน! คุณสามารถสำรวจคุณสมบัติโดยดาวน์โหลดเวอร์ชันทดลอง [here](https://releases.aspose.com/).
+**ถาม: ฉันจำเป็นต้องกำจัดวัตถุ 'กราฟิก' และ 'บิตแมป' หรือไม่**
+ตอบ: แนวปฏิบัติที่ดีให้ห่อหุ้มในคำสั่ง `using` หรือเรียก `Dispose()` เพื่อปล่อยทรัพยากรที่ไม่เป็นระเบียบ
 
-### Q3: How can I get support for Aspose.Drawing for .NET?
-
-A3: เยี่ยมชม [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
-
-### Q4: Where can I find comprehensive documentation for Aspose.Drawing for .NET?
-
-A4: ดูที่ [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) สำหรับข้อมูลรายละเอียด.
-
-### Q5: What is burstiness in the context of Aspose.Drawing?
-
-A5: Burstiness หมายถึงความสามารถของ Aspose.Drawing ในการจัดการกับการเพิ่มขึ้นอย่างฉับพลันของความต้องการเรนเดอร์กราฟิกได้อย่างมีประสิทธิภาพ.
-
-## Frequently Asked Questions
-
-**Q: Can I use a different shape instead of an ellipse?**  
-A: แน่นอน — เมธอดเช่น `FillRectangle`, `FillPolygon`, หรือ `DrawPath` ทำงานร่วมกับ solid brush เดียวกัน.
-
-**Q: How do I change the output format to JPEG?**  
-A: แทนที่ส่วนขยายไฟล์ใน `Save` และใช้ `ImageFormat.Jpeg` (เช่น `bitmap.Save("output.jpg", ImageFormat.Jpeg);`).
-
-**Q: Is it possible to draw multiple shapes with different brushes in one bitmap?**  
-A: ได้ — สร้างอินสแตนซ์ `SolidBrush` แยกต่างหากสำหรับแต่ละสีและเรียกเมธอด `Fill*` ที่เหมาะสมตามลำดับ.
-
-**Q: Do I need to dispose of the `Graphics` and `Bitmap` objects?**  
-A: เป็นแนวปฏิบัติที่ดีให้ห่อหุ้มพวกมันในคำสั่ง `using` หรือเรียก `Dispose()` เพื่อปล่อยทรัพยากรที่ไม่ได้จัดการ.
-
-**Q: Will this work on Linux/macOS with .NET Core?**  
-A: Aspose.Drawing เป็นข้ามแพลตฟอร์ม; โค้ดเดียวกันทำงานบน Linux และ macOS เมื่อทำการ target .NET Core หรือ .NET 5+.
+**ถาม: สิ่งนี้จะใช้งานบน Linux/macOS ที่ใช้ .NET Core ได้หรือไม่**
+A: Aspose.การเขียนแบบเป็นข้ามแพลตฟอร์ม; โค้ดเดียวกันทำงานบน Linux และ macOS เมื่อทำการกำหนดเป้าหมาย .NET Core หรือ .NET 5+.
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-02-17
+**ทดสอบกับ:** Aspose.Drawing 24.12 สำหรับ .NET
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

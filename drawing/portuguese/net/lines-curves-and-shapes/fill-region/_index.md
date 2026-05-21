@@ -10,12 +10,6 @@ url: /pt/net/lines-curves-and-shapes/fill-region/
 weight: 20
 ---
 
- code; they likely will be replaced later. Should we translate them? No, keep as is.
-
-Translate all other text.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

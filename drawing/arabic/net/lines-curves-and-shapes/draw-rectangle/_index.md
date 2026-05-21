@@ -9,9 +9,7 @@ url: /ar/net/lines-curves-and-shapes/draw-rectangle/
 weight: 19
 ---
 
- keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -122,39 +120,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 **س: هل يعمل Aspose.Drawing على .NET Core؟**  
 ج: نعم، المكتبة متوافقة تمامًا مع .NET Core، .NET 5، .NET 6، والإصدارات اللاحقة.
 
-## موارد إضافية
-
-إذا واجهت أي تحديات أو كان لديك أسئلة، لا تتردد في طلب المساعدة على [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
-
-### الأسئلة المتكررة
-
-#### س1: هل يمكنني استخدام Aspose.Drawing مجانًا؟
-
-A1: Aspose.Drawing مكتبة تجارية، ولكن يمكنك استكشاف ميزاتها عبر [نسخة تجريبية مجانية](https://releases.aspose.com/).
-
-#### س2: أين يمكنني العثور على الوثائق التفصيلية؟
-
-A2: راجع [الوثائق](https://reference.aspose.com/drawing/net/) للحصول على معلومات مفصلة.
-
-#### س3: كيف يمكنني الحصول على ترخيص مؤقت؟
-
-A3: احصل على [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار.
-
-#### س4: هل Aspose.Drawing مناسب لمهام الرسومات المعقدة؟
-
-A4: بالطبع! Aspose.Drawing يوفر ميزات متقدمة للتعامل مع عمليات رسومية معقدة.
-
-#### س5: أين يمكنني شراء Aspose.Drawing؟
-
-A5: زر [هنا](https://purchase.aspose.com/buy) لشراء ترخيص.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-02-17  
@@ -162,3 +127,10 @@ A5: زر [هنا](https://purchase.aspose.com/buy) لشراء ترخيص.
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

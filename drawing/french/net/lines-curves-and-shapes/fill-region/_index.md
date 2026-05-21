@@ -10,8 +10,6 @@ url: /fr/net/lines-curves-and-shapes/fill-region/
 weight: 20
 ---
 
- produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

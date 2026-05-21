@@ -10,10 +10,6 @@ url: /vi/net/licensing/
 weight: 22
 ---
 
- content with all translations.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

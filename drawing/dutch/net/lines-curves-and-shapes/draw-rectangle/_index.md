@@ -119,39 +119,6 @@ A: PNG, JPEG, BMP, GIF en TIFF worden allemaal ondersteund via de juiste `ImageF
 **V: Werkt Aspose.Drawing op .NET Core?**  
 A: Ja, de bibliotheek is volledig compatibel met .NET Core, .NET 5, .NET 6 en latere versies.
 
-## Aanvullende bronnen
-
-Als je tegen uitdagingen aanloopt of vragen hebt, kun je terecht op het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
-
-### FAQ's
-
-#### V1: Kan ik Aspose.Drawing gratis gebruiken?
-
-A1: Aspose.Drawing is een commerciële bibliotheek, maar je kunt de functionaliteit verkennen met een [gratis proefversie](https://releases.aspose.com/).
-
-#### V2: Waar kan ik gedetailleerde documentatie vinden?
-
-A2: Raadpleeg de [documentatie](https://reference.aspose.com/drawing/net/) voor diepgaande informatie.
-
-#### V3: Hoe kan ik een tijdelijke licentie krijgen?
-
-A3: Verkrijg een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
-
-#### V4: Is Aspose.Drawing geschikt voor complexe grafische taken?
-
-A4: Absoluut! Aspose.Drawing biedt geavanceerde functies voor het afhandelen van ingewikkelde grafische bewerkingen.
-
-#### V5: Waar kan ik Aspose.Drawing kopen?
-
-A5: Bezoek [hier](https://purchase.aspose.com/buy) om een licentie aan te schaffen.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-02-17  
@@ -159,3 +126,10 @@ A5: Bezoek [hier](https://purchase.aspose.com/buy) om een licentie aan te schaff
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

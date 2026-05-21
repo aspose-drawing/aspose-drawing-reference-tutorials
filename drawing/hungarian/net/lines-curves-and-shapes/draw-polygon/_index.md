@@ -11,9 +11,7 @@ url: /hu/net/lines-curves-and-shapes/draw-polygon/
 weight: 18
 ---
 
- to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

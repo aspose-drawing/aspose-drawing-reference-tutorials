@@ -109,28 +109,6 @@ Upprepa dessa steg och anpassa färger och former efter dina applikationskrav.
 
 ## Vanliga frågor
 
-### Q1: Kan jag använda Aspose.Drawing för .NET med andra .NET‑ramverk?
-
-A1: Ja, Aspose.Drawing för .NET är kompatibel med olika .NET‑ramverk, vilket ger flexibilitet för olika projektkrav.
-
-### Q2: Finns det en provversion tillgänglig innan köp?
-
-A2: Självklart! Du kan utforska funktionerna genom att ladda ner provversionen [här](https://releases.aspose.com/).
-
-### Q3: Hur kan jag få support för Aspose.Drawing för .NET?
-
-A3: Besök [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) för community‑support och diskussioner.
-
-### Q4: Var kan jag hitta omfattande dokumentation för Aspose.Drawing för .NET?
-
-A4: Se [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) för detaljerad information.
-
-### Q5: Vad är burstiness i samband med Aspose.Drawing?
-
-A5: Burstiness avser Aspose.Drawing:s förmåga att effektivt hantera plötsliga ökningar i grafisk renderingsbelastning.
-
-## Vanliga frågor
-
 **Q: Kan jag använda en annan form istället för en ellips?**  
 A: Absolut—metoder som `FillRectangle`, `FillPolygon` eller `DrawPath` fungerar med samma solid brush.
 

@@ -10,10 +10,6 @@ url: /id/net/licensing/
 weight: 22
 ---
 
-](./licensing/) we kept as is? Should translate link text there too. Let's translate: "Lisensi di Aspose.Drawing". So change.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

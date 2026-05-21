@@ -104,28 +104,6 @@ Répétez ces étapes, en personnalisant les couleurs et les formes selon les ex
 | **Couleurs incorrectes** | Utilisation de `KnownColor` qui correspond au thème du système | Utilisez `Color.FromArgb` pour des valeurs RGBA précises. |
 | **Transparence perdue** | Utilisation d’un format de pixel sans canal alpha | Conservez `PixelFormat.Format32bppPArgb` comme indiqué pour conserver le canal alpha. |
 
-## FAQ
-
-### Q1: Puis‑je utiliser Aspose.Drawing pour .NET avec d’autres frameworks .NET ?
-
-A1: Oui, Aspose.Drawing pour .NET est compatible avec divers frameworks .NET, offrant une flexibilité pour différents besoins de projet.
-
-### Q2: Existe‑t‑il une version d’essai disponible avant l’achat ?
-
-A2: Bien sûr ! Vous pouvez explorer les fonctionnalités en téléchargeant la version d’essai [ici](https://releases.aspose.com/).
-
-### Q3: Comment obtenir du support pour Aspose.Drawing pour .NET ?
-
-A3: Visitez le [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pour le support communautaire et les discussions.
-
-### Q4: Où trouver une documentation complète pour Aspose.Drawing pour .NET ?
-
-A4: Consultez la [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) pour des informations détaillées.
-
-### Q5: Qu’est‑ce que la « burstiness » dans le contexte d’Aspose.Drawing ?
-
-A5: La burstiness désigne la capacité d’Aspose.Drawing à gérer efficacement des augmentations soudaines de la charge de rendu graphique.
-
 ## Questions fréquemment posées
 
 **Q : Puis‑je utiliser une forme différente au lieu d’une ellipse ?**  

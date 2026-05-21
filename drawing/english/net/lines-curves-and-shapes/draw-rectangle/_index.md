@@ -117,39 +117,6 @@ A: PNG, JPEG, BMP, GIF, and TIFF are all supported via the appropriate `ImageFor
 **Q: Does Aspose.Drawing work on .NET Core?**  
 A: Yes, the library is fully compatible with .NET Core, .NET 5, .NET 6, and later.
 
-## Additional Resources
-
-If you encounter any challenges or have questions, feel free to seek assistance on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44).
-
-### FAQ's
-
-#### Q1: Can I use Aspose.Drawing for free?
-
-A1: Aspose.Drawing is a commercial library, but you can explore its features with a [free trial](https://releases.aspose.com/).
-
-#### Q2: Where can I find detailed documentation?
-
-A2: Refer to the [documentation](https://reference.aspose.com/drawing/net/) for in‑depth information.
-
-#### Q3: How can I get a temporary license?
-
-A3: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for testing purposes.
-
-#### Q4:. Is Aspose.Drawing suitable for complex graphics tasks?
-
-A4: Absolutely! Aspose.Drawing provides advanced features for handling intricate graphic operations.
-
-#### Q5: Where can I purchase Aspose.Drawing?
-
-A5: Visit [here](https://purchase.aspose.com/buy) to buy a license.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-17  
@@ -157,3 +124,10 @@ A5: Visit [here](https://purchase.aspose.com/buy) to buy a license.
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

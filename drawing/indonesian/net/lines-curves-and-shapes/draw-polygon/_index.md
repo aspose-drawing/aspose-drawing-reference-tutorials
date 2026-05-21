@@ -9,54 +9,50 @@ url: /id/net/lines-curves-and-shapes/draw-polygon/
 weight: 18
 ---
 
- not needed.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggambar Poligon dalam Aspose.Drawing
 
-## Introduction
+## Perkenalan
 
-Selamat datang di dunia menarik manipulasi grafis menggunakan Aspose.Drawing untuk .NET! Pada tutorial ini, Anda akan **create bitmap aspose.drawing** dan kemudian menggambar sebuah poligon di atasnya. Memahami cara **create bitmap aspose.drawing** memberi Anda dasar yang kuat untuk tugas pemrosesan gambar apa pun, dan kami juga akan menunjukkan cara **create graphics object C#** untuk merender bentuk secara efisien.
+Selamat datang di dunia manipulasi grafis yang menarik menggunakan Aspose.Drawing untuk .NET! Pada tutorial ini, Anda akan **membuat bitmap aspose.drawing** dan kemudian menggambar poligon di atasnya. Memahami cara **membuat bitmap aspose.gambar** memberi Anda dasar yang kuat untuk tugas pemrosesan gambar apa pun, dan kami juga akan menunjukkan cara **membuat objek grafis C#** untuk merender bentuk secara efisien.
 
 Setelah Anda mengerti mengapa hal ini penting, mari langsung masuk ke langkah‑langkahnya.
 
-## Quick Answers
-- **What library do I need?** Aspose.Drawing for .NET  
-- **Can I use it with .NET Core / .NET 5+?** Yes, fully supported.  
-- **What is the first step?** Create a bitmap aspose.drawing canvas.  
-- **How do I draw a polygon?** Use `Graphics.DrawPolygon` with a `Pen`.  
-- **Do I need a license for testing?** A free trial is available.
+## Jawaban Cepat
+- **Perpustakaan apa yang saya perlukan?** Aspose.Drawing untuk .NET
+- **Dapatkah saya menggunakannya dengan .NET Core / .NET 5+?** Ya, didukung penuh.
+- **Apa langkah pertama?** Buat kanvas aspose.drawing bitmap.
+- **Bagaimana cara menggambar poligon?** Gunakan `Graphics.DrawPolygon` dengan `Pen`.
+- **Apakah saya memerlukan lisensi untuk menguji?** Tersedia uji coba gratis.
 
-## What is **create bitmap aspose.drawing**?
-`create bitmap aspose.drawing` berarti menginstansiasi objek `Bitmap` dari namespace Aspose.Drawing. Bitmap ini berfungsi sebagai gambar dalam memori yang dapat Anda lukis, simpan, atau manipulasi lebih lanjut.
+## Apa itu **buat bitmap aspose.drawing**?
+`buat bitmap aspose.drawing` berarti menginstansiasi objek `Bitmap` dari namespace Aspose.Drawing. Bitmap ini berfungsi sebagai gambar dalam memori yang dapat Anda lukis, simpan, atau manipulasi lebih lanjut.
 
-## Why use Aspose.Drawing to **create graphics object C#**?
+## Mengapa menggunakan Aspose.Drawing untuk **membuat objek grafis C#**?
 Aspose.Drawing menawarkan API modern lintas‑platform yang menggantikan `System.Drawing.Common` yang lebih lama. API ini memberikan kinerja yang lebih baik, fitur menggambar yang lebih kaya, dan dukungan mulus untuk .NET 6+.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita memulai perjalanan menggambar poligon, pastikan Anda telah menyiapkan prasyarat berikut:
 
-- Aspose.Drawing Library: Unduh dan instal library Aspose.Drawing. Anda dapat menemukan library dan dokumentasi detailnya [di sini](https://reference.aspose.com/drawing/net/).
+- Aspose.Drawing Library: Unduh dan instal perpustakaan Aspose.Drawing. Anda dapat menemukan perpustakaan dan dokumentasi detailnya [di sini](https://reference.aspose.com/drawing/net/).
 
-- Development Environment: Siapkan lingkungan pengembangan .NET di mesin Anda.
+- Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET di mesin Anda.
 
 Setelah kami dilengkapi dengan alat‑alat yang diperlukan, mari langsung ke aksi!
 
-## Import Namespaces
+## Impor Namespace
 
-Di proyek .NET Anda, mulailah dengan mengimpor namespace yang relevan. Langkah ini memastikan Anda memiliki akses ke fungsionalitas Aspose.Drawing yang diperlukan untuk menggambar poligon.
+Di proyek .NET Anda, dimulai dengan mengimpor namespace yang relevan. Langkah ini memastikan Anda memiliki akses ke fungsionalitas Aspose.Gambar yang diperlukan untuk menggambar poligon.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Step 1: Create a Bitmap
+## Langkah 1: Buat Bitmap
 
 Mulailah dengan membuat bitmap, kanvas tempat Anda akan menggambar poligon. Tentukan lebar, tinggi, dan format piksel bitmap.
 
@@ -64,7 +60,7 @@ Mulailah dengan membuat bitmap, kanvas tempat Anda akan menggambar poligon. Tent
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Step 2: Create Graphics Object
+## Langkah 2: Buat Objek Grafis
 
 Selanjutnya, **create graphics object C#** dengan memperoleh instance `Graphics` dari bitmap. Objek ini akan berfungsi sebagai permukaan menggambar Anda.
 
@@ -72,7 +68,7 @@ Selanjutnya, **create graphics object C#** dengan memperoleh instance `Graphics`
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Step 3: Define Pen Properties
+## Langkah 3: Tentukan Properti Pena
 
 Pilih properti pena Anda, seperti warna dan lebar. Pada contoh ini, kami menggunakan pena biru dengan ketebalan 2.
 
@@ -80,7 +76,7 @@ Pilih properti pena Anda, seperti warna dan lebar. Pada contoh ini, kami menggun
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-## Step 4: Draw Polygon
+## Langkah 4: Gambar Poligon
 
 Tentukan titik‑titik poligon menggunakan struktur `Point`. Gambar poligon menggunakan objek `Graphics` dan pena yang telah didefinisikan.
 
@@ -88,7 +84,7 @@ Tentukan titik‑titik poligon menggunakan struktur `Point`. Gambar poligon meng
 graphics.DrawPolygon(pen, new Point[] { new Point(100, 100), new Point(500, 700), new Point(900, 100) });
 ```
 
-## Step 5: Save Image
+## Langkah 5: Simpan Gambar
 
 Simpan gambar yang dihasilkan ke direktori yang Anda inginkan.
 
@@ -98,41 +94,45 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png"
 
 Selamat! Anda telah berhasil menggambar poligon menggunakan Aspose.Drawing untuk .NET.
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusinya
 
-| Issue | Why it Happens | Fix |
+| Masalah | Mengapa Terjadi | Perbaikan |
+
 |-------|----------------|-----|
-| **Bitmap appears blank** | The graphics object was not flushed before saving. | Call `graphics.Dispose()` or wrap it in a `using` block. |
-| **Incorrect colors** | `KnownColor` may map differently on high‑DPI screens. | Use `Color.FromArgb` with explicit ARGB values. |
-| **File path errors** | Relative path does not exist. | Use `Path.Combine` and ensure the folder exists before saving. |
 
-## Frequently Asked Questions
+| **Bitmap tampak kosong** | Objek grafis tidak di-flush sebelum disimpan. | Panggil `graphics.Dispose()` atau bungkus dalam blok `using`. |
 
-### Q1: Is Aspose.Drawing suitable for professional graphic design?
+| **Warna tidak tepat** | `KnownColor` mungkin dipetakan secara berbeda pada layar beresolusi tinggi. | Gunakan `Color.FromArgb` dengan nilai ARGB eksplisit. |
 
-A1: Absolutely! Aspose.Drawing is a robust library designed for professional graphic manipulation, providing a wide range of features for creating visually appealing images.
+| **Kesalahan jalur file** | Jalur relatif tidak ada. | Gunakan `Path.Combine` dan pastikan folder tersebut ada sebelum menyimpan. |
 
-### Q2: Can I draw multiple polygons on the same canvas?
+## Pertanyaan yang Sering Diajukan
 
-A2: Certainly! You can draw as many polygons as needed on a single canvas by repeating the process outlined in this tutorial.
+### T1: Apakah Aspose.Drawing cocok untuk desain grafis profesional?
 
-### Q3: Are there additional resources for learning Aspose.Drawing?
+J1: Tentu saja! Aspose.Drawing adalah pustaka yang tangguh yang dirancang untuk manipulasi grafis profesional, menyediakan berbagai fitur untuk membuat gambar yang menarik secara visual.
 
-A3: Yes, visit the [Aspose.Drawing Documentation](https://reference.aspose.com/drawing/net/) for in‑depth guides, examples, and API references.
+### T2: Bisakah saya menggambar beberapa poligon pada kanvas yang sama?
 
-### Q4: Can I try Aspose.Drawing before purchasing?
+J2: Tentu! Anda dapat menggambar poligon sebanyak yang dibutuhkan pada satu kanvas dengan mengulangi proses yang dijelaskan dalam tutorial ini.
 
-A4: Certainly! Explore the capabilities of Aspose.Drawing with a [free trial](https://releases.aspose.com/).
+### T3: Apakah ada sumber daya tambahan untuk mempelajari Aspose.Drawing?
 
-### Q5: Where can I seek help or connect with the community?
+J3: Ya, kunjungi [Dokumentasi Aspose.Drawing](https://reference.aspose.com/drawing/net/) untuk panduan mendalam, contoh, dan referensi API.
 
-A5: For any queries or discussions, head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) to engage with the vibrant Aspose community.
+### T4: Bisakah saya mencoba Aspose.Drawing sebelum membeli?
+
+J4: Tentu! Jelajahi kemampuan Aspose.Drawing dengan [uji coba gratis](https://releases.aspose.com/).
+
+### T5: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas?
+
+A5: Untuk pertanyaan atau diskusi apa pun, kunjungi [Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) untuk berinteraksi dengan komunitas Aspose yang dinamis.
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-02-17
+**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET
+**Pengarang:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

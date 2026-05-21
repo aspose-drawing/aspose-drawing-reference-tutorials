@@ -8,10 +8,6 @@ url: /ja/net/lines-curves-and-shapes/draw-rectangle/
 weight: 19
 ---
 
-Translate content.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -122,39 +118,6 @@ A: PNG、JPEG、BMP、GIF、TIFF が `ImageFormat` パラメータで指定可�
 **Q: Aspose.Drawing は .NET Core でも動作しますか？**  
 A: はい、.NET Core、.NET 5、.NET 6 以降すべてに完全対応しています。
 
-## 追加リソース
-
-質問や課題がある場合は、[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44) でサポートを受けられます。
-
-### FAQ's
-
-#### Q1: Aspose.Drawing を無料で使用できますか？
-
-A1: Aspose.Drawing は商用ライブラリですが、[無料トライアル](https://releases.aspose.com/)で機能を試すことができます。
-
-#### Q2: 詳細なドキュメントはどこにありますか？
-
-A2: 詳細情報は [ドキュメント](https://reference.aspose.com/drawing/net/) を参照してください。
-
-#### Q3: 一時ライセンスは取得できますか？
-
-A3: テスト目的で使用できる [一時ライセンス](https://purchase.aspose.com/temporary-license/) を取得してください。
-
-#### Q4: Aspose.Drawing は複雑なグラフィックタスクに適していますか？
-
-A4: はい！Aspose.Drawing は高度なグラフィック操作を処理するための豊富な機能を提供します。
-
-#### Q5: Aspose.Drawing の購入先はどこですか？
-
-A5: ライセンスは [こちら](https://purchase.aspose.com/buy) から購入できます。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2026-02-17  
@@ -162,3 +125,10 @@ A5: ライセンスは [こちら](https://purchase.aspose.com/buy) から購入
 **作成者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

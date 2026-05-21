@@ -119,39 +119,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.pn
 **В: Работает ли Aspose.Drawing на .NET Core?**  
 О: Да, библиотека полностью совместима с .NET Core, .NET 5, .NET 6 и более новыми версиями.
 
-## Дополнительные ресурсы
-
-Если у вас возникнут сложности или вопросы, обратитесь за помощью на [форум Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
-
-### Часто задаваемые вопросы
-
-#### Q1: Могу ли я использовать Aspose.Drawing бесплатно?
-
-A1: Aspose.Drawing – коммерческая библиотека, но вы можете изучить её возможности с помощью [бесплатной пробной версии](https://releases.aspose.com/).
-
-#### Q2: Где я могу найти подробную документацию?
-
-A2: Обратитесь к [документации](https://reference.aspose.com/drawing/net/) для получения подробной информации.
-
-#### Q3: Как я могу получить временную лицензию?
-
-A3: Получите [временную лицензию](https://purchase.aspose.com/temporary-license/) для тестовых целей.
-
-#### Q4: Подходит ли Aspose.Drawing для сложных графических задач?
-
-A4: Абсолютно! Aspose.Drawing предоставляет расширенные возможности для работы со сложными графическими операциями.
-
-#### Q5: Где я могу приобрести Aspose.Drawing?
-
-A5: Перейдите [сюда](https://purchase.aspose.com/buy), чтобы купить лицензию.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-02-17  
@@ -159,3 +126,10 @@ A5: Перейдите [сюда](https://purchase.aspose.com/buy), чтобы �
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

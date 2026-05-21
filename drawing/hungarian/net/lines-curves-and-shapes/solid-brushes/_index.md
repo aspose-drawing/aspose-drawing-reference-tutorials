@@ -107,28 +107,6 @@ Ismételje meg ezeket a lépéseket, testre szabva a színeket és alakzatokat a
 | **Helytelen színek** | `KnownColor` használata, amely a rendszer témához van rendelve | `Color.FromArgb` használata pontos RGBA értékekhez. |
 | **Átlátszóság elveszítve** | Alfa csatorna nélküli pixel formátum használata | Tartsa meg a `PixelFormat.Format32bppPArgb` formátumot, ahogy látható, az alfa csatorna megtartásához. |
 
-## GYIK
-
-### Q1: Használhatom az Aspose.Drawing for .NET-et más .NET keretrendszerekkel?
-
-A1: Igen, az Aspose.Drawing for .NET kompatibilis különböző .NET keretrendszerekkel, rugalmas megoldást kínálva a különböző projektigényekhez.
-
-### Q2: Elérhető próbaverzió a vásárlás előtt?
-
-A2: Természetesen! A funkciókat a próbaverzió letöltésével ismerheti meg [itt](https://releases.aspose.com/).
-
-### Q3: Hogyan kaphatok támogatást az Aspose.Drawing for .NET-hez?
-
-A3: Látogassa meg az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44) a közösségi támogatásért és megbeszélésekért.
-
-### Q4: Hol találhatom meg az Aspose.Drawing for .NET átfogó dokumentációját?
-
-A4: Tekintse meg a [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) oldalt a részletes információkért.
-
-### Q5: Mi az a burstiness az Aspose.Drawing kontextusában?
-
-A5: A burstiness azt jelenti, hogy az Aspose.Drawing képes hatékonyan kezelni a grafikus renderelési igények hirtelen növekedését.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatok másik alakzatot az ellipszis helyett?**  

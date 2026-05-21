@@ -8,10 +8,6 @@ url: /ja/net/lines-curves-and-shapes/fill-region/
 weight: 20
 ---
 
- bullet lists.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -20,7 +16,7 @@ Let's craft.
 
 視覚的に魅力的なグラフィックを作成する際には、**領域の塗りつぶし**が重要です。Aspose.Drawing for .NET は、レポートエンジンやデザインツール、あるいは動的に画像を生成するシナリオでも、クリーンで高性能な API を提供します。このチュートリアルでは、ビットマップの設定から最終画像の保存まで、**領域の塗りつぶし**をステップバイステップで解説します。
 
-## Quick Answers
+## 簡単な回答
 - **領域の塗りつぶしを扱うライブラリは？** Aspose.Drawing for .NET  
 - **主なメソッドは？** `Graphics.FillRegion`（`Brush` と `Region` を使用）  
 - **動的画像を生成できるか？** はい – 同じ API で実行時に画像を作成できます  

@@ -119,39 +119,6 @@ A: PNG, JPEG, BMP, GIF a TIFF jsou všechny podporovány pomocí odpovídající
 **Q: Funguje Aspose.Drawing na .NET Core?**  
 A: Ano, knihovna je plně kompatibilní s .NET Core, .NET 5, .NET 6 a novějšími verzemi.
 
-## Další zdroje
-
-Pokud narazíte na potíže nebo máte otázky, neváhejte požádat o pomoc na [Aspose.Drawing fóru](https://forum.aspose.com/c/drawing/44).
-
-### FAQ
-
-#### Q1: Mohu používat Aspose.Drawing zdarma?
-
-A1: Aspose.Drawing je komerční knihovna, ale můžete si vyzkoušet její funkce pomocí [zdarma zkušební verze](https://releases.aspose.com/).
-
-#### Q2: Kde najdu podrobnou dokumentaci?
-
-A2: Viz [dokumentace](https://reference.aspose.com/drawing/net/) pro podrobné informace.
-
-#### Q3: Jak získat dočasnou licenci?
-
-A3: Získejte [dočasnou licenci](https://purchase.aspose.com/temporary-license/) pro testovací účely.
-
-#### Q4: Je Aspose.Drawing vhodný pro složité grafické úlohy?
-
-A4: Rozhodně! Aspose.Drawing poskytuje pokročilé funkce pro práci s komplikovanými grafickými operacemi.
-
-#### Q5: Kde si mohu zakoupit Aspose.Drawing?
-
-A5: Navštivte [zde](https://purchase.aspose.com/buy) pro nákup licence.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-02-17  
@@ -159,3 +126,10 @@ A5: Navštivte [zde](https://purchase.aspose.com/buy) pro nákup licence.
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

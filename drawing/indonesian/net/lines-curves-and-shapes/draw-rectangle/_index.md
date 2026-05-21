@@ -119,39 +119,6 @@ A: PNG, JPEG, BMP, GIF, dan TIFF semuanya didukung melalui parameter `ImageForma
 **Q: Apakah Aspose.Drawing bekerja pada .NET Core?**  
 A: Ya, pustaka ini sepenuhnya kompatibel dengan .NET Core, .NET 5, .NET 6, dan versi selanjutnya.
 
-## Sumber Daya Tambahan
-
-Jika Anda mengalami tantangan atau memiliki pertanyaan, silakan mencari bantuan di [Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
-
-### FAQ
-
-#### Q1: Bisakah saya menggunakan Aspose.Drawing secara gratis?
-
-A1: Aspose.Drawing adalah pustaka komersial, tetapi Anda dapat menjelajahi fiturnya dengan [versi percobaan gratis](https://releases.aspose.com/).
-
-#### Q2: Di mana saya dapat menemukan dokumentasi detail?
-
-A2: Lihat [dokumentasi](https://reference.aspose.com/drawing/net/) untuk informasi mendalam.
-
-#### Q3: Bagaimana saya dapat memperoleh lisensi sementara?
-
-A3: Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk keperluan pengujian.
-
-#### Q4:. Apakah Aspose.Drawing cocok untuk tugas grafik kompleks?
-
-A4: Tentu saja! Aspose.Drawing menyediakan fitur lanjutan untuk menangani operasi grafik yang rumit.
-
-#### Q5: Di mana saya dapat membeli Aspose.Drawing?
-
-A5: Kunjungi [di sini](https://purchase.aspose.com/buy) untuk membeli lisensi.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-02-17  
@@ -159,3 +126,10 @@ A5: Kunjungi [di sini](https://purchase.aspose.com/buy) untuk membeli lisensi.
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

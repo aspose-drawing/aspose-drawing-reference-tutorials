@@ -106,28 +106,6 @@ bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 | **Incorrect colors** | 시스템 테마에 매핑되는 `KnownColor` 사용 | 정확한 RGBA 값을 위해 `Color.FromArgb`를 사용합니다. |
 | **Transparency lost** | 알파 채널이 없는 픽셀 포맷 사용 | 알파 채널을 유지하려면 예시와 같이 `PixelFormat.Format32bppPArgb`를 유지합니다. |
 
-## FAQ
-
-### Q1: Aspose.Drawing for .NET을 다른 .NET 프레임워크와 함께 사용할 수 있나요?
-
-A1: 네, Aspose.Drawing for .NET은 다양한 .NET 프레임워크와 호환되어 프로젝트 요구에 따라 유연하게 사용할 수 있습니다.
-
-### Q2: 구매 전에 체험판 버전을 사용할 수 있나요?
-
-A2: 물론입니다! 기능을 직접 확인하려면 체험판 버전을 [여기](https://releases.aspose.com/)에서 다운로드하세요.
-
-### Q3: Aspose.Drawing for .NET에 대한 지원은 어디서 받을 수 있나요?
-
-A3: 커뮤니티 지원 및 토론은 [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)에서 확인할 수 있습니다.
-
-### Q4: Aspose.Drawing for .NET에 대한 자세한 문서는 어디서 찾을 수 있나요?
-
-A4: 자세한 내용은 [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/)을 참고하세요.
-
-### Q5: Aspose.Drawing에서 “burstiness”란 무엇을 의미하나요?
-
-A5: Burstiness는 갑작스러운 그래픽 렌더링 요구 증가를 효과적으로 처리할 수 있는 Aspose.Drawing의 능력을 의미합니다.
-
 ## 자주 묻는 질문
 
 **Q: 타원 대신 다른 도형을 사용할 수 있나요?**  

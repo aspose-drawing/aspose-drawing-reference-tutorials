@@ -107,28 +107,6 @@ Herhaal deze stappen, pas kleuren en vormen aan om te voldoen aan de eisen van j
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Drawing voor .NET gebruiken met andere .NET‑frameworks?
-
-A1: Ja, Aspose.Drawing voor .NET is compatibel met verschillende .NET‑frameworks, waardoor flexibiliteit voor diverse projectvereisten wordt geboden.
-
-### V2: Is er een proefversie beschikbaar vóór aankoop?
-
-A2: Zeker! Je kunt de functies verkennen door de proefversie te downloaden [hier](https://releases.aspose.com/).
-
-### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing voor .NET?
-
-A3: Bezoek het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) voor community‑ondersteuning en discussies.
-
-### V4: Waar kan ik uitgebreide documentatie vinden voor Aspose.Drawing voor .NET?
-
-A4: Raadpleeg de [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) voor gedetailleerde informatie.
-
-### V5: Wat is burstiness in de context van Aspose.Drawing?
-
-A5: Burstiness verwijst naar het vermogen van Aspose.Drawing om plotselinge stijgingen in grafische rendervereisten effectief aan te kunnen.
-
-## Veelgestelde vragen
-
 **V: Kan ik een andere vorm gebruiken in plaats van een ellips?**  
 A: Absoluut—methoden zoals `FillRectangle`, `FillPolygon` of `DrawPath` werken met dezelfde solide pen.
 

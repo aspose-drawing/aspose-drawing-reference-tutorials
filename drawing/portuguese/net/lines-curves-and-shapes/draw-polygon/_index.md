@@ -9,7 +9,7 @@ url: /pt/net/lines-curves-and-shapes/draw-polygon/
 weight: 18
 ---
 
- final content. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

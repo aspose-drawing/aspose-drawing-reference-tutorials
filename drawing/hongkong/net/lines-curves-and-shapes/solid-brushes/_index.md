@@ -8,7 +8,7 @@ url: /zh-hant/net/lines-curves-and-shapes/solid-brushes/
 weight: 10
 ---
 
- answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -102,28 +102,6 @@ bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 | **儲存時檔案未找到錯誤** | 目標資料夾不存在 | 在呼叫 `Save` 前，請確保已建立目錄 (`Your Document Directory\Brushes`)。 |
 | **顏色不正確** | 使用對應系統主題的 `KnownColor` | 使用 `Color.FromArgb` 以取得精確的 RGBA 值。 |
 | **透明度遺失** | 使用不含 alpha 通道的像素格式 | 如範例所示，保留 `PixelFormat.Format32bppPArgb` 以維持 alpha 通道。 |
-
-## 常見問答
-
-### Q1：我可以在其他 .NET 框架中使用 Aspose.Drawing for .NET 嗎？
-
-A1：可以，Aspose.Drawing for .NET 相容於多種 .NET 框架，提供不同專案需求的彈性。
-
-### Q2：購買前是否有試用版可供使用？
-
-A2：當然！您可前往下載試用版以體驗功能，[此處](https://releases.aspose.com/)。
-
-### Q3：如何取得 Aspose.Drawing for .NET 的支援？
-
-A3：前往 [Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44) 取得社群支援與討論。
-
-### Q4：在哪裡可以找到 Aspose.Drawing for .NET 的完整文件？
-
-A4：請參考 [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) 以取得詳細資訊。
-
-### Q5：在 Aspose.Drawing 中，burstiness 是什麼意思？
-
-A5：Burstiness 指的是 Aspose.Drawing 能有效應對圖形渲染需求突增的能力。
 
 ## 常見問題
 

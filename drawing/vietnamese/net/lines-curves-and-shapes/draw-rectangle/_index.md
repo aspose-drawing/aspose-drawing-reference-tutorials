@@ -119,39 +119,6 @@ A: PNG, JPEG, BMP, GIF và TIFF đều được hỗ trợ thông qua tham số 
 **Q: Aspose.Drawing có hoạt động trên .NET Core không?**  
 A: Có, thư viện hoàn toàn tương thích với .NET Core, .NET 5, .NET 6 và các phiên bản sau.
 
-## Tài nguyên bổ sung
-
-Nếu bạn gặp bất kỳ khó khăn nào hoặc có câu hỏi, hãy tìm kiếm trợ giúp trên [Diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
-
-### FAQ's
-
-#### Q1: Tôi có thể dùng Aspose.Drawing miễn phí không?
-
-A1: Aspose.Drawing là một thư viện thương mại, nhưng bạn có thể khám phá các tính năng của nó với một [bản dùng thử miễn phí](https://releases.aspose.com/).
-
-#### Q2: Tôi có thể tìm tài liệu chi tiết ở đâu?
-
-A2: Tham khảo [tài liệu](https://reference.aspose.com/drawing/net/) để có thông tin chi tiết.
-
-#### Q3: Làm sao để có giấy phép tạm thời?
-
-A3: Nhận một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
-
-#### Q4: Aspose.Drawing có phù hợp cho các tác vụ đồ họa phức tạp không?
-
-A4: Chắc chắn! Aspose.Drawing cung cấp các tính năng nâng cao để xử lý các thao tác đồ họa phức tạp.
-
-#### Q5: Tôi có thể mua Aspose.Drawing ở đâu?
-
-A5: Truy cập [tại đây](https://purchase.aspose.com/buy) để mua giấy phép.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-17  
@@ -159,3 +126,10 @@ A5: Truy cập [tại đây](https://purchase.aspose.com/buy) để mua giấy p
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -104,28 +104,6 @@ bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 | **颜色不正确** | 使用映射到系统主题的 `KnownColor` | 使用 `Color.FromArgb` 获取精确的 RGBA 值。 |
 | **透明度丢失** | 使用不带 alpha 通道的像素格式 | 如示例所示保持使用 `PixelFormat.Format32bppPArgb` 以保留 alpha 通道。 |
 
-## 常见问答
-
-### 问 1：我可以在其他 .NET 框架中使用 Aspose.Drawing for .NET 吗？
-
-A1：是的，Aspose.Drawing for .NET 兼容多种 .NET 框架，为不同项目需求提供灵活性。
-
-### 问 2：购买前是否有试用版？
-
-A2：当然！您可以通过下载试用版来体验功能，[这里](https://releases.aspose.com/)。
-
-### 问 3：如何获取 Aspose.Drawing for .NET 的支持？
-
-A3：访问 [Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44) 获取社区支持和讨论。
-
-### 问 4：在哪里可以找到 Aspose.Drawing for .NET 的完整文档？
-
-A4：请参考 [Aspose.Drawing for .NET 文档](https://reference.aspose.com/drawing/net/) 获取详细信息。
-
-### 问 5：在 Aspose.Drawing 中，burstiness 是什么？
-
-A5：Burstiness 指 Aspose.Drawing 能够有效应对图形渲染需求突增的能力。
-
 ## 常见问题
 
 **问：我可以使用除椭圆之外的其他形状吗？**  

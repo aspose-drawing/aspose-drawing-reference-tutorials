@@ -106,28 +106,6 @@ Opakujte tyto kroky a přizpůsobte barvy a tvary podle požadavků vaší aplik
 
 ## Často kladené otázky
 
-### Q1: Mohu používat Aspose.Drawing pro .NET s jinými .NET frameworky?
-
-A1: Ano, Aspose.Drawing pro .NET je kompatibilní s různými .NET frameworky, což poskytuje flexibilitu pro různé požadavky projektů.
-
-### Q2: Je k dispozici zkušební verze před zakoupením?
-
-A2: Samozřejmě! Funkce můžete vyzkoušet stažením zkušební verze [zde](https://releases.aspose.com/).
-
-### Q3: Jak mohu získat podporu pro Aspose.Drawing pro .NET?
-
-A3: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pro komunitní podporu a diskuse.
-
-### Q4: Kde najdu komplexní dokumentaci pro Aspose.Drawing pro .NET?
-
-A4: Odkazujte se na [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/) pro podrobné informace.
-
-### Q5: Co je burstiness v kontextu Aspose.Drawing?
-
-A5: Burstiness označuje schopnost Aspose.Drawing efektivně zvládat náhlé zvýšení požadavků na renderování grafiky.
-
-## Často kladené otázky
-
 **Q: Mohu použít jiný tvar místo elipsy?**  
 A: Rozhodně – metody jako `FillRectangle`, `FillPolygon` nebo `DrawPath` fungují se stejným pevným štětcem.
 

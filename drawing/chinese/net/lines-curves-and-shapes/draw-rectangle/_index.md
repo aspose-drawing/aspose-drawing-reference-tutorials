@@ -117,31 +117,11 @@ A: 通过相应的 `ImageFormat` 参数，PNG、JPEG、BMP、GIF 和 TIFF 均受
 **Q: Aspose.Drawing 在 .NET Core 上可用吗？**  
 A: 可以，库完全兼容 .NET Core、.NET 5、.NET 6 以及更高版本。
 
-## 其他资源
+---
 
-如果您遇到任何困难或有疑问，欢迎前往 [Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44) 寻求帮助。
-
-### 常见问答
-
-#### Q1: 可以免费使用 Aspose.Drawing 吗？
-
-A1: Aspose.Drawing 是商业库，但您可以通过 [免费试用](https://releases.aspose.com/) 体验其功能。
-
-#### Q2: 哪里可以找到详细文档？
-
-A2: 请参阅 [文档](https://reference.aspose.com/drawing/net/) 获取深入信息。
-
-#### Q3: 如何获取临时许可证？
-
-A3: 可获取 [临时许可证](https://purchase.aspose.com/temporary-license/) 用于测试。
-
-#### Q4: Aspose.Drawing 适合复杂图形任务吗？
-
-A4: 绝对适合！Aspose.Drawing 提供了处理复杂图形操作的高级功能。
-
-#### Q5: 哪里可以购买 Aspose.Drawing？
-
-A5: 前往 [此处](https://purchase.aspose.com/buy) 购买许可证。
+**最后更新：** 2026-02-17  
+**测试环境：** Aspose.Drawing 24.11 for .NET  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -149,9 +129,3 @@ A5: 前往 [此处](https://purchase.aspose.com/buy) 购买许可证。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-17  
-**测试环境：** Aspose.Drawing 24.11 for .NET  
-**作者：** Aspose

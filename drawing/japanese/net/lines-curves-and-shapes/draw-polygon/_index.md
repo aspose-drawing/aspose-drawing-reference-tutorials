@@ -20,7 +20,7 @@ Aspose.Drawing for .NET を使用したグラフィック操作のエキサイ�
 
 この重要性が分かったところで、さっそく手順に進みましょう。
 
-## Quick Answers
+## 簡単な回答
 - **どのライブラリが必要ですか？** Aspose.Drawing for .NET  
 - **.NET Core / .NET 5+ でも使用できますか？** はい、完全にサポートされています。  
 - **最初のステップは何ですか？** Create a bitmap aspose.drawing canvas.  
@@ -51,7 +51,7 @@ Aspose.Drawing は、従来の `System.Drawing.Common` に代わるモダンで�
 using System.Drawing;
 ```
 
-## Step 1: Create a Bitmap
+## ステップ1：ビットマップを作成する
 
 ポリゴンを描くキャンバスとなるビットマップを作成します。ビットマップの幅・高さ・ピクセル形式を指定してください。
 
@@ -59,7 +59,7 @@ using System.Drawing;
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Step 2: Create Graphics Object
+## ステップ2：グラフィックオブジェクトを作成する
 
 次に、ビットマップから `Graphics` インスタンスを取得して **create graphics object C#** スタイルで作成します。このオブジェクトが描画面となります。
 
@@ -67,7 +67,7 @@ Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format3
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Step 3: Define Pen Properties
+## ステップ3：ペンのプロパティを定義する
 
 ペンの色や幅などのプロパティを設定します。この例では、太さ 2 の青いペンを使用しています。
 
@@ -75,7 +75,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-## Step 4: Draw Polygon
+## ステップ4：ポリゴンを描画する
 
 `Point` 構造体を使用してポリゴンの頂点を指定し、定義したペンで `Graphics` オブジェクトを使ってポリゴンを描画します。
 
@@ -83,7 +83,7 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPolygon(pen, new Point[] { new Point(100, 100), new Point(500, 700), new Point(900, 100) });
 ```
 
-## Step 5: Save Image
+## ステップ5：画像を保存する
 
 作成した画像を希望のディレクトリに保存します。
 
@@ -101,7 +101,7 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawPolygon_out.png"
 | **Incorrect colors** | `KnownColor` が高 DPI 画面で異なるマッピングになることがあります。 | 明示的な ARGB 値で `Color.FromArgb` を使用してください。 |
 | **File path errors** | 相対パスが存在しません。 | `Path.Combine` を使用し、保存前にフォルダーが存在することを確認してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 ### Q1: Aspose.Drawing はプロフェッショナルなグラフィックデザインに適していますか？
 

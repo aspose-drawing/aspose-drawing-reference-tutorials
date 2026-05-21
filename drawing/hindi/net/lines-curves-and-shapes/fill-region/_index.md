@@ -13,49 +13,49 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing में Region कैसे Fill करें
+# Aspose.Drawing में रीजन कैसे भरें
 
-Creating visually appealing graphics often involves **how to fill region** with colors, patterns, or gradients. Aspose.Drawing for .NET gives you a clean, high‑performance API to tackle this task, whether you’re building a reporting engine, a design tool, or generating dynamic images on the fly. In this tutorial you’ll see exactly **how to fill region** step by step, from setting up the bitmap to saving the final picture.
+देखने में अच्छे ग्राफ़िक्स बनाने में अक्सर **रीजन को रंगों, पैटर्न या ग्रेडिएंट से कैसे भरें** यह शामिल होता है। .NET के लिए Aspose.Drawing आपको इस काम को करने के लिए एक साफ़, हाई-परफ़ॉर्मेंस API देता है, चाहे आप रिपोर्टिंग इंजन बना रहे हों, डिज़ाइन टूल बना रहे हों, या तुरंत डायनामिक इमेज बना रहे हों। इस ट्यूटोरियल में आप देखेंगे कि **रीजन को कैसे भरें** स्टेप-बाय-स्टेप, बिटमैप सेट अप करने से लेकर फ़ाइनल पिक्चर सेव करने तक।
 
-## Quick Answers
-- **कौन सा लाइब्रेरी region filling को संभालती है?** Aspose.Drawing for .NET  
-- **मुख्य मेथड?** `Graphics.FillRegion` with a `Brush` and a `Region`  
-- **क्या मैं डायनेमिक इमेजेज जेनरेट कर सकता हूँ?** Yes – the same API lets you create images at runtime  
-- **प्रोडक्शन के लिए लाइसेंस चाहिए?** A commercial license is required; a free trial is available  
-- **समर्थित .NET संस्करण?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+
+## हाजिर जवाब
+- **कौन सा लाइब्रेरी रीजन फिलिंग को संभालती है?** Aspose.Drawing for .NET
+- **मुख्य तरीका?** `Graphics.FillRegion` एक `Brush` और एक `Region` के साथ
+- **क्या मैं मूविंग इमेजेज जेनरेट कर सकता हूँ?** हाँ – वही API आपको रनटाइम पर इमेज बनाने देता है
+- **प्रोडक्शन के लिए लाइसेंस चाहिए?** एक कमर्शियल लाइसेंस ज़रूरी है; एक फ्री ट्रायल उपलब्ध है
+- **समर्थित .NET वर्जन?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+
 
-## Graphics प्रोग्रामिंग में “fill region” क्या है?
-Region को fill करना मतलब है कि एक परिभाषित आकार (जैसे polygon, ellipse, कस्टम पाथ) के सभी पिक्सेल को ब्रश से रंगना। ब्रश एक सॉलिड रंग, ग्रेडिएंट, या यहाँ तक कि टेक्सचर भी हो सकता है, जिससे आप उस क्षेत्र की दृश्य उपस्थिति पर पूर्ण नियंत्रण रख सकते हैं।
+## Graphics प्रोग्रामिंग में “फिल रीजन” क्या है?
+रीजन को फिल करना मतलब है कि एक परिभाषित आकार (जैसे पॉलीगॉन, एलिप्स, कस्टम पाथ) के सभी पिक्सेल को ब्रश से रंगना। ब्रश एक सॉलिड कलर, ग्रेडिएंट, या यहाँ तक कि टेक्सचर भी हो सकता है, जिससे आप उस एरिया की व्यू अपीयरेंस पर फुल कंट्रोल रख सकते हैं।
 
-## Aspose.Drawing को region filling के लिए क्यों चुनें?
-- **सुसंगत व्यवहार** .NET Framework, .NET Core, और .NET 5/6 में – कोई प्लेटफ़ॉर्म क्विर्क नहीं।  
-- **परफ़ॉर्मेंस‑ऑप्टिमाइज़्ड** रेंडरिंग पाइपलाइन, सर्वर‑साइड इमेज जेनरेशन के लिए आदर्श।  
-- **समृद्ध API** जो जटिल पाथ, अंदरूनी आकारों को बाहर करने, और उन्नत ब्रश को सपोर्ट करती है।  
+## Aspose.Drawing को रीजन फिलिंग के लिए क्यों चुनें?
+- **सुसंगत व्यवहार** .NET Framework, .NET Core, और .NET 5/6 में – कोई प्लेटफ़ॉर्म क्विर्क नहीं।
+- **परफ़ॉर्मेंस‑ऑप्टिमाइज़्ड** रेंडरिंग पाइपलाइन, सर्वर‑साइड इमेज जेनरेशन के लिए आदर्श।
+- **समृद्ध API** जो कॉम्प्लेक्स पाथ, इंटरमीडिएट इंस्टॉलेशन को बाहर करने, और एडवांस ब्रश को सपोर्ट करती है।
 - **कोई बाहरी निर्भरताएँ नहीं** – आपको सर्वर पर GDI+ की आवश्यकता नहीं है, जिससे डिप्लॉयमेंट सरल हो जाता है।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
-Before we dive in, make sure you have:
+इससे पहले कि हम शुरू करें, पक्का करें कि आपके पास ये हैं:
 
-1. **Aspose.Drawing Library** – download and install the latest version from the official site. You can find the library and its documentation [here](https://reference.aspose.com/drawing/net/).  
-2. **Development Environment** – Visual Studio (any edition) or your preferred .NET IDE.  
-3. **A .NET project** targeting .NET Framework 4.6+ or .NET Core 3.1+.
+1. **Aspose.Drawing Library** – ऑफिशियल साइट से लेटेस्ट वर्शन डाउनलोड और इंस्टॉल करें। आप लाइब्रेरी और उसका डॉक्यूमेंटेशन [यहां](https://reference.aspose.com/drawing/net/) पा सकते हैं।
+2. **डेवलपमेंट एनवायरनमेंट** – विज़ुअल स्टूडियो (कोई भी एडिशन) या आपका पसंदीदा .NET IDE।
+3. **एक .NET प्रोजेक्ट** जो .NET Framework 4.6+ या .NET Core 3.1+ को टारगेट करता हो।
 
-## Import Namespaces
+## नेमस्पेस इंपोर्ट करें
 
-Start by importing the namespaces that contain the graphics classes we’ll use.
+सबसे पहले उन नेमस्पेस को इंपोर्ट करें जिनमें वे ग्राफ़िक्स क्लास हैं जिनका हम इस्तेमाल करेंगे।
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-Now let’s walk through the complete example, breaking it down into easy‑to‑follow steps.
+अब पूरा उदाहरण देखते हैं, इसे आसान स्टेप्स में तोड़ते हैं।
 
-## Step‑by‑Step Guide
+## स्टेप-बाय-स्टेप गाइड
 
-### Step 1: Create a Bitmap and Graphics Object
-We first allocate a bitmap that will act as our canvas and obtain a `Graphics` object to draw on it.
+### स्टेप 1: एक बिटमैप और ग्राफ़िक्स ऑब्जेक्ट बनाएँ
+हम सबसे पहले एक बिटमैप एलोकेट करते हैं जो हमारे कैनवस की तरह काम करेगा और उस पर ड्रॉ करने के लिए एक `ग्राफ़िक्स` ऑब्जेक्ट मिलता है।
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -64,8 +64,8 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 > **Pro tip:** `Format32bppPArgb` का उपयोग करने से आपको प्री‑मल्टिप्लाइड अल्फा मिलता है, जो बाद में सेमी‑ट्रांसपेरेंट ब्रश लागू करने पर स्मूथर ब्लेंडिंग देता है।
 
-### Step 2: Define a GraphicsPath and Create a Region
-A `GraphicsPath` lets us describe complex shapes. Here we add a polygon that forms a diamond‑like shape.
+### स्टेप 2: एक ग्राफ़िक्सपाथ डिफाइन करें और एक रीजन बनाएँ
+एक `ग्राफ़िक्सपाथ` हमें कॉम्प्लेक्स शेप्स को डिस्क्राइब करने देता है। यहाँ हम एक पॉलीगॉन जोड़ते हैं जो डायमंड जैसा शेप बनाता है।
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
@@ -75,8 +75,8 @@ Region region = new Region(path);
 
 > यह वह **region from polygon** है जिसकी आप तलाश कर रहे थे। `Region` ऑब्जेक्ट अब उस polygon के अंदरूनी हिस्से को दर्शाता है।
 
-### Step 3: Exclude an Inner Region
-Often you need a “hole” inside a shape. We create a rectangle and exclude it from the main region.
+### स्टेप 3: एक इनर रीजन को एक्सक्लूड करें
+अक्सर आपको किसी शेप के अंदर एक “होल” की ज़रूरत होती है। हम एक रेक्टेंगल बनाते हैं और उसे मेन रीजन से एक्सक्लूड करते हैं।
 
 ```csharp
 GraphicsPath innerPath = new GraphicsPath();
@@ -84,46 +84,46 @@ innerPath.AddRectangle(new Rectangle(300, 300, 400, 200));
 region.Exclude(innerPath);
 ```
 
-### Step 4: Choose a Brush and Fill the Region
-Select any brush you like. In this example we use a solid blue brush, but you could swap in a `LinearGradientBrush` or `TextureBrush` to generate dynamic images with richer visuals.
+### स्टेप 4: एक ब्रश चुनें और रीजन भरें
+अपनी पसंद का कोई भी ब्रश चुनें। इस उदाहरण में हम एक सॉलिड ब्लू ब्रश का इस्तेमाल करते हैं, लेकिन आप रिच विज़ुअल्स वाली डायनामिक इमेज बनाने के लिए `LinearGradientBrush` या `TextureBrush` का इस्तेमाल कर सकते हैं।
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
 graphics.FillRegion(brush, region);
 ```
 
-### Step 5: Save the Resulting Image
-Finally, write the bitmap to disk. Adjust the path to point to a folder that exists on your machine.
+### स्टेप 5: रिज़ल्टिंग इमेज को सेव करें
+आखिर में, बिटमैप को डिस्क पर लिखें। पाथ को एडजस्ट करें ताकि वह आपकी मशीन पर मौजूद फ़ोल्डर की ओर पॉइंट करे।
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png");
 ```
 
-## Common Issues and Solutions
+## आम समस्याएँ और समाधान
 | समस्या | कारण | समाधान |
 |-------|-------|-----|
-| **Image appears blank** | Bitmap को लिखने योग्य फ़ोल्डर में सेव नहीं किया गया या `Graphics` फ्लश नहीं हुआ। | सुनिश्चित करें कि डायरेक्टरी मौजूद है और ड्रॉ करने के बाद `graphics.Dispose()` कॉल करें। |
-| **Region not excluding inner shape** | `Exclude` को region पूरी तरह परिभाषित होने से पहले उपयोग किया गया। | `region.Exclude(innerPath);` **after** बाहरी region बन जाने के बाद कॉल करें, जैसा कि दिखाया गया है। |
-| **Performance lag on large images** | `PixelFormat.Format32bppArgb` (non‑premultiplied) का उपयोग। | तेज़ अल्फा ब्लेंडिंग के लिए `Format32bppPArgb` पर स्विच करें। |
+| **इमेज खाली दिखती है** | बिटमैप को लिखने लायक फ़ोल्डर में सेव नहीं किया गया या `Graphics` फ्लश नहीं हुआ। | सुनिश्चित करें कि डायरेक्टरी मौजूद है और ड्रॉ करने के बाद `graphics.Dispose()` कॉल करें। |
+| **Region not excepting inner shape** | `Exclude` को region पूरी तरह से परिभाषित होने से पहले इस्तेमाल किया गया। | `region.Exclude(innerPath);` **after** बाहरी region बन जाने के बाद कॉल करें, जैसा कि दिखाया गया है। |
+| **बड़ी इमेज पर परफ़ॉर्मेंस लैग** | `PixelFormat.Format32bppArgb` (non‑premultiplied) का इस्तेमाल। | तेज़ अल्फ़ा ब्लेंडिंग के लिए `Format32bppPArgb` पर स्विच करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
-**प्र: क्या मैं Aspose.Drawing को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
-**उ:** हाँ, Aspose.Drawing को व्यक्तिगत और व्यावसायिक दोनों प्रोजेक्ट्स में उपयोग किया जा सकता है। लाइसेंसिंग विवरण के लिए [here](https://purchase.aspose.com/buy) देखें।
+**प्र: क्या मैं Aspose.Drawing को प्रोफेशनल प्रोजेक्ट्स में इस्तेमाल कर सकता हूँ?**
+**उ:** हाँ, Aspose.Drawing को पर्सनल और प्रोफेशनल दोनों प्रोजेक्ट्स में इस्तेमाल किया जा सकता है। लाइसेंसिंग विवरण के लिए [here](https://purchase.aspose.com/buy) देखें।
 
-**प्र: क्या कोई फ्री ट्रायल उपलब्ध है?**  
+**प्र: क्या कोई फ्री ट्रायल उपलब्ध है?**
 **उ:** हाँ, आप फ्री ट्रायल [here](https://releases.aspose.com/) से एक्सेस कर सकते हैं।
 
-**प्र: Aspose.Drawing के लिए सपोर्ट कैसे प्राप्त करूँ?**  
-**उ:** समुदाय और विशेषज्ञों से सहायता पाने के लिए [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) पर जाएँ।
+**प्र: Aspose.Drawing के लिए सपोर्ट कैसे प्राप्त करूँ?**
+**उ:** कम्युनिटी और कॉन्ट्रैक्ट से सहायता पाने के लिए [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) पर जाएँ।
 
-**प्र: क्या मैं Aspose.Drawing का उपयोग करके डायनेमिक इमेजेज जेनरेट कर सकता हूँ?**  
-**उ:** बिल्कुल। Aspose.Drawing आपको आपके .NET एप्लिकेशन में डायनेमिक रूप से इमेजेज बनाना और मैनीपुलेट करना सक्षम बनाता है।
+**प्र: क्या मैं Aspose.Drawing का इस्तेमाल करके मूविंग इमेजेज जेनरेट कर सकता हूँ?**
+**उ:** बिल्कुल। Aspose.Drawing आपको आपके .NET एप्लिकेशन में गतिशील रूप से इमेजेज बनाने और मैनीपुलेट करना सक्षम बनाता है।
 
-**प्र: क्या टेम्पररी लाइसेंस उपलब्ध हैं?**  
-**उ:** हाँ, टेम्पररी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त किए जा सकते हैं।
+**प्र: क्या टेम्पररी लाइसेंस उपलब्ध हैं?**
+**उ:** हाँ, टेम्पररी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) से प्राप्त किए जा सकते हैं।
 
-## Conclusion
+## निष्कर्ष
 
 Aspose.Drawing के साथ regions को fill करना एक सीधी लेकिन शक्तिशाली तकनीक है जो आपको **generate dynamic images**, कस्टम शैप्स बनाने और प्रोग्रामेटिकली पॉलिश्ड ग्राफ़िक्स उत्पन्न करने का द्वार खोलती है। विभिन्न ब्रश, ग्रेडिएंट और जटिल पाथ के साथ प्रयोग करें ताकि लाइब्रेरी की पूरी क्षमता को अनलॉक किया जा सके।
 

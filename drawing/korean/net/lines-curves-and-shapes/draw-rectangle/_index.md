@@ -9,18 +9,6 @@ url: /ko/net/lines-curves-and-shapes/draw-rectangle/
 weight: 19
 ---
 
- So translate.
-
-- "Tested With:" => "테스트 환경:" maybe "테스트 대상:" but translate.
-
-- "Author:" => "작성자:"
-
-- Keep dates.
-
-Now produce final content with same shortcodes.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -130,39 +118,6 @@ A: PNG, JPEG, BMP, GIF, TIFF 등 적절한 `ImageFormat` 매개변수를 사용�
 **Q: Aspose.Drawing이 .NET Core에서 작동하나요?**  
 A: 예, 라이브러리는 .NET Core, .NET 5, .NET 6 및 이후 버전과 완전히 호환됩니다.
 
-## 추가 리소스
-
-문제가 발생하거나 궁금한 점이 있으면 언제든지 [Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44)에서 도움을 받아보세요.
-
-### FAQ
-
-#### Q1: Aspose.Drawing을 무료로 사용할 수 있나요?
-
-A1: Aspose.Drawing은 상용 라이브러리이지만, [무료 체험판](https://releases.aspose.com/)을 통해 기능을 살펴볼 수 있습니다.
-
-#### Q2: 자세한 문서는 어디서 찾을 수 있나요?
-
-A2: 심층 정보를 원한다면 [문서 페이지](https://reference.aspose.com/drawing/net/)를 참고하세요.
-
-#### Q3: 임시 라이선스를 얻으려면 어떻게 해야 하나요?
-
-A3: 테스트 목적이라면 [임시 라이선스](https://purchase.aspose.com/temporary-license/)를 발급받으세요.
-
-#### Q4: Aspose.Drawing이 복잡한 그래픽 작업에 적합한가요?
-
-A4: 물론입니다! Aspose.Drawing은 복잡한 그래픽 작업을 처리할 수 있는 고급 기능을 제공합니다.
-
-#### Q5: Aspose.Drawing을 어디서 구매하나요?
-
-A5: [여기](https://purchase.aspose.com/buy)에서 라이선스를 구매할 수 있습니다.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-02-17  
@@ -170,3 +125,10 @@ A5: [여기](https://purchase.aspose.com/buy)에서 라이선스를 구매할 �
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

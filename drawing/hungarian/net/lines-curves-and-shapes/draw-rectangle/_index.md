@@ -119,39 +119,6 @@ A: PNG, JPEG, BMP, GIF és TIFF is támogatott a megfelelő `ImageFormat` param�
 **Q: Az Aspose.Drawing működik .NET Core-on?**  
 A: Igen, a könyvtár teljes mértékben kompatibilis a .NET Core, .NET 5, .NET 6 és újabb verziókkal.
 
-## További források
-
-Ha bármilyen nehézsége adódik vagy kérdése van, keresse fel az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44).
-
-### GyIK
-
-#### Q1: Használhatom ingyenesen az Aspose.Drawing-ot?
-
-A1: Az Aspose.Drawing egy kereskedelmi könyvtár, de funkcióit egy **[ingyenes próba](https://releases.aspose.com/)** keretében felfedezheti.
-
-#### Q2: Hol találok részletes dokumentációt?
-
-A2: Tekintse meg a [dokumentációt](https://reference.aspose.com/drawing/net/) a mélyreható információkért.
-
-#### Q3: Hogyan szerezhetek ideiglenes licencet?
-
-A3: Szerezzen **[ideiglenes licencet](https://purchase.aspose.com/temporary-license/)** tesztelési célokra.
-
-#### Q4: Az Aspose.Drawing alkalmas összetett grafikai feladatokra?
-
-A4: Teljes mértékben! Az Aspose.Drawing fejlett funkciókat kínál összetett grafikai műveletek kezelésére.
-
-#### Q5: Hol vásárolhatom meg az Aspose.Drawing-ot?
-
-A5: Látogasson el **[ide](https://purchase.aspose.com/buy)** a licenc megvásárlásához.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2026-02-17  
@@ -159,3 +126,10 @@ A5: Látogasson el **[ide](https://purchase.aspose.com/buy)** a licenc megvásá
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -10,18 +10,6 @@ url: /el/net/licensing/
 weight: 22
 ---
 
-; there are none.
-
-Check for any markdown images: none.
-
-Check for any other links: only one link in Getting Started and one in Licensing Tutorials. Already translated link text.
-
-Check for any other inline code: `bin/Debug`, `bin/Release`, `Main`, `Startup.cs`, `Aspose.Drawing.License`, `SetLicense`, `License`, `Aspose.Drawing.lic`. Keep unchanged.
-
-Now produce final content with all translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

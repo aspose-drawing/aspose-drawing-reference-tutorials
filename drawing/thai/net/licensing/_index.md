@@ -9,16 +9,6 @@ url: /th/net/licensing/
 weight: 22
 ---
 
- sure to preserve markdown formatting.
-
-Also note "## Quick Answers" etc.
-
-Let's translate.
-
-Will produce final content with same shortcodes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
