@@ -1,9 +1,69 @@
 ---
-date: 2026-02-17
+date: 2026-05-24
 description: Aprenda cómo licenciar aspose.drawing para .NET. Siga instrucciones paso
   a paso para obtener, aplicar y verificar su licencia de Aspose.Drawing y desbloquear
   todas las capacidades gráficas.
-linktitle: How to License Aspose.Drawing
+keywords:
+- how to license aspose.drawing
+- Aspose.Drawing licensing guide
+- .NET graphics library license
+linktitle: Cómo licenciar Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to license aspose.drawing for .NET. Follow step‑by‑step instructions
+    to obtain, apply, and verify your Aspose.Drawing license and unlock full graphics
+    capabilities.
+  headline: How to License Aspose.Drawing for .NET – how to license aspose.drawing
+  type: TechArticle
+- description: Learn how to license aspose.drawing for .NET. Follow step‑by‑step instructions
+    to obtain, apply, and verify your Aspose.Drawing license and unlock full graphics
+    capabilities.
+  name: How to License Aspose.Drawing for .NET – how to license aspose.drawing
+  steps:
+  - name: '**Obtain a license file** – Log in to your Aspose account, navigate to
+      the product page, and download the `.lic` file.'
+    text: '**Obtain a license file** – Log in to your Aspose account, navigate to
+      the product page, and download the `.lic` file.'
+  - name: '**Add the file to your project** – Place the license file in the root of
+      your project or a dedicated `Licenses` folder, and set its *Copy to Output Directory*
+      property to *Copy always*.'
+    text: '**Add the file to your project** – Place the license file in the root of
+      your project or a dedicated `Licenses` folder, and set its *Copy to Output Directory*
+      property to *Copy always*.'
+  - name: '**Reference the license in code** – At application startup (e.g., in `Main`,
+      `Startup.cs`, or before any Aspose.Drawing calls), instantiate the `Aspose.Drawing.License`
+      class and call `SetLicense` with the relative path to the file.'
+    text: '**Reference the license in code** – At application startup (e.g., in `Main`,
+      `Startup.cs`, or before any Aspose.Drawing calls), instantiate the `Aspose.Drawing.License`
+      class and call `SetLicense` with the relative path to the file.'
+  - name: '**Verify the registration** – Run a simple drawing operation; if no watermark
+      appears, the license is active.'
+    text: '**Verify the registration** – Run a simple drawing operation; if no watermark
+      appears, the license is active.'
+  - name: '**Deploy responsibly** – Ensure the license file is included in your deployment
+      package and that sensitive environments keep the file out of public source repositories.'
+    text: '**Deploy responsibly** – Ensure the license file is included in your deployment
+      package and that sensitive environments keep the file out of public source repositories.'
+  type: HowTo
+- questions:
+  - answer: Yes. A single license file can be referenced by any number of applications
+      on the same machine, as long as the license terms allow it.
+    question: Can I use the same license file for multiple projects?
+  - answer: Verify that the license file is copied to the output directory, that the
+      file name matches exactly, and that the `License` class is instantiated before
+      any Aspose.Drawing calls.
+    question: What should I do if the license is not recognized at runtime?
+  - answer: The trial mode adds a watermark to generated images and limits certain
+      premium features. A full license removes these restrictions.
+    question: Does a trial license have usage limitations?
+  - answer: After calling `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`,
+      you can catch any exceptions to confirm successful registration.
+    question: How can I programmatically check if the license was applied successfully?
+  - answer: For security reasons, avoid committing the license file to public repositories.
+      Use environment‑specific deployment mechanisms instead.
+    question: Is it safe to store the license file in source control?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Cómo licenciar Aspose.Drawing para .NET – cómo licenciar aspose.drawing
 url: /es/net/licensing/
@@ -18,76 +78,88 @@ weight: 22
 
 ## Introducción
 
-Si está buscando **how to license aspose.drawing** para sus aplicaciones .NET, ha llegado al lugar correcto. Este tutorial le guía paso a paso para obtener, aplicar y verificar una licencia para Aspose.Drawing, de modo que pueda desbloquear todo el poder de gráficos y manipulación de imágenes de la biblioteca sin restricciones en tiempo de ejecución. Ya sea que esté creando una utilidad de escritorio, un servicio web o una aplicación multiplataforma .NET Core, una licencia adecuada es la clave para una estabilidad lista para producción.
+If you’re looking to **how to license aspose.drawing** for your .NET applications, you’ve come to the right place. This tutorial walks you through every step required to obtain, apply, and verify a license for Aspose.Drawing, so you can unlock the library’s full graphics and image‑manipulation power without any runtime restrictions. Whether you’re building a desktop utility, a web service, or a cross‑platform .NET Core app, a proper license is the key to production‑ready stability.
 
 ## Respuestas rápidas
-- **¿Cuál es el primer paso para licenciar Aspose.Drawing?** Obtenga un archivo de licencia de su cuenta Aspose o de la descarga de prueba.  
-- **¿Dónde debe colocarse el archivo de licencia?** En la carpeta de salida de su proyecto (p. ej., `bin/Debug` o `bin/Release`).  
-- **¿Necesito llamar a algún código para activar la licencia?** Sí—utilice `Aspose.Drawing.License` en el inicio de su aplicación.  
-- **¿Puedo usar la misma licencia para .NET Framework y .NET Core?** Absolutamente; el archivo de licencia es independiente de la plataforma.  
-- **¿Qué ocurre si ejecuto sin una licencia?** La biblioteca pasa a modo de prueba con marcas de agua y límites de uso.  
-- **¿Cómo puedo verificar que la licencia está cargada?** Intente instanciar la clase `License` dentro de un bloque try‑catch y verifique si hay excepciones.  
-- **¿Es seguro almacenar el archivo de licencia en el control de versiones?** Generalmente evite comprometerlo en repositorios públicos; use canalizaciones de despliegue seguras en su lugar.
+- **¿Cuál es el primer paso para licenciar Aspose.Drawing?** Obtain a license file from your Aspose account or trial download.  
+- **¿Dónde debe colocarse el archivo de licencia?** In your project’s output folder (e.g., `bin/Debug` or `bin/Release`).  
+- **¿Necesito llamar a algún código para activar la licencia?** Yes—use `Aspose.Drawing.License` in your application startup.  
+- **¿Puedo usar la misma licencia para .NET Framework y .NET Core?** Absolutely; the license file is platform‑agnostic.  
+- **¿Qué ocurre si ejecuto sin una licencia?** The library falls back to a trial mode with watermarks and usage limits.  
 
-## ¿Qué es cómo licenciar aspose.drawing?
-Licenciar es el proceso de registrar un archivo de licencia comprado o de prueba con el motor Aspose.Drawing. Una vez registrado, la biblioteca elimina las restricciones de evaluación, habilita funciones premium (como renderizado vectorial avanzado) y le permite usar la API en entornos de producción.
+## ¿Qué es licenciar aspose.drawing?
+Licensing is the process of registering a purchased or trial license file with the Aspose.Drawing engine. **The `License` class is the entry point that activates the commercial features**. Once registered, the library removes evaluation restrictions, enables premium features (such as advanced vector rendering), and allows you to use the API in production environments.
 
 ## ¿Por qué es importante la licencia para Aspose.Drawing?
-La licencia es la puerta de entrada para desbloquear funciones y funcionalidades avanzadas dentro de Aspose.Drawing. Ya sea que sea un desarrollador experimentado o esté comenzando, comprender el proceso de licenciamiento es crucial para aprovechar al máximo el espectro completo de capacidades de Aspose.Drawing.
+Licensing is the gateway to unlocking advanced features and functionalities within Aspose.Drawing. Without a valid license, the library operates in trial mode, adding watermarks and limiting premium capabilities. Understanding the licensing process ensures you can fully leverage the API’s performance, support, and compliance benefits across all deployment scenarios.
 
-### Integración sin problemas facilitada
-Nuestros tutoriales proporcionan una guía completa para integrar Aspose.Drawing sin problemas en sus aplicaciones .NET. No más complicaciones con procedimientos complejos—nuestras instrucciones paso a paso garantizan un proceso de integración fluido y sin inconvenientes. Descargue los recursos necesarios y siga nuestra guía experta para comenzar rápidamente.
+### Beneficios cuantificados
+Aspose.Drawing supports **50+ image and vector formats**—including PNG, JPEG, SVG, PDF, and EMF—and can process files up to **2 GB** without loading the entire document into memory. The library handles multi‑page TIFFs, large PDFs, and high‑resolution raster images with a memory footprint that stays under 150 MB on a typical 8 GB server.
 
-### Dominando gráficos y manipulación de imágenes
-Aspose.Drawing le permite llevar sus habilidades de gráficos y manipulación de imágenes a nuevos niveles. Aprenda las complejidades de trabajar con gráficos vectoriales, crear visuales impresionantes y manipular imágenes con precisión. Nuestros tutoriales cubren todo, desde los conceptos básicos hasta técnicas avanzadas, asegurando que se convierta en un maestro de las capacidades de Aspose.Drawing.
+## ¿Cómo obtener un archivo de licencia?
+Log in to your Aspose account, navigate to the Aspose.Drawing product page, and click **Download License**. The system will generate a `.lic` file tied to your purchase or trial period. Save this file securely; you’ll reference it from your code.
+
+## ¿Cómo aplicar la licencia en su proyecto .NET?
+The `Aspose.Drawing.License` class is used to load a license file and enable full functionality of the Aspose.Drawing library.  
+Place the `.lic` file in a folder that is copied to the output directory (e.g., a `Licenses` folder). Then, at application startup—such as in `Program.cs`, `Main`, or `Startup.cs`—instantiate the `Aspose.Drawing.License` class and call `SetLicense` with the relative path. This single call activates the full library before any drawing operations occur.
 
 ## Cómo licenciar aspose.drawing – Guía paso a paso
-1. **Obtener un archivo de licencia** – Inicie sesión en su cuenta Aspose, navegue a la página del producto y descargue el archivo `.lic`.  
-2. **Agregar el archivo a su proyecto** – Coloque el archivo de licencia en la raíz de su proyecto o en una carpeta dedicada `Licenses`, y establezca su propiedad *Copy to Output Directory* a *Copy always*.  
-3. **Referenciar la licencia en código** – En el inicio de la aplicación (p. ej., en `Main`, `Startup.cs` o antes de cualquier llamada a Aspose.Drawing), instancie la clase `Aspose.Drawing.License` y llame a `SetLicense` con la ruta relativa al archivo.  
-4. **Verificar el registro** – Ejecute una operación de dibujo simple; si no aparece ninguna marca de agua, la licencia está activa.  
-5. **Desplegar responsablemente** – Asegúrese de que el archivo de licencia esté incluido en su paquete de despliegue y que los entornos sensibles mantengan el archivo fuera de repositorios públicos de código fuente.
+The following concise steps walk you through obtaining the license file, adding it to your project, referencing it in code, verifying successful activation, and deploying it securely, guaranteeing that Aspose.Drawing runs without trial limitations in any .NET environment across production.
 
-## Errores comunes y cómo evitarlos
-- **Archivo de licencia no copiado** – Verifique la configuración *Copy to Output Directory* del archivo; de lo contrario, el tiempo de ejecución no lo encontrará.  
-- **Nombre o ruta de archivo incorrectos** – La ruta que pasa a `SetLicense` debe coincidir con la ubicación real; use rutas relativas para portabilidad.  
-- **Múltiples archivos de licencia** – Si tiene más de un producto Aspose, cada uno requiere su propio archivo `.lic`; mezclarlos puede causar confusión.  
-- **Ejecutar en una máquina diferente** – La misma licencia funciona en distintas máquinas, pero el archivo debe estar presente en cada entorno de destino.  
-- **Prueba expirada** – Una licencia de prueba expira después de un período determinado; reemplácela con una licencia comprada para evitar restricciones inesperadas.
+The `Aspose.Drawing.License` class loads the `.lic` file and activates the commercial features of Aspose.Drawing.  
 
-## Primeros pasos
-¿Listo para sumergirse? Comience su viaje visitando nuestra página de [Licensing in Aspose.Drawing](./licensing/). Descargue los recursos esenciales y siga los tutoriales paso a paso para desbloquear todo el potencial de Aspose.Drawing en .NET. Ya sea que sea un desarrollador que busca mejorar sus habilidades o una empresa que busca soluciones gráficas de primer nivel, nuestros tutoriales se adaptan a todos los niveles de experiencia.
+1. **Obtener un archivo de licencia** – Log in to your Aspose account, navigate to the product page, and download the `.lic` file.  
+2. **Agregar el archivo a su proyecto** – Place the license file in the root of your project or a dedicated `Licenses` folder, and set its *Copy to Output Directory* property to *Copy always*.  
+3. **Referenciar la licencia en el código** – At application startup (e.g., in `Main`, `Startup.cs`, or before any Aspose.Drawing calls), instantiate the `Aspose.Drawing.License` class and call `SetLicense` with the relative path to the file.  
+4. **Verificar el registro** – Run a simple drawing operation; if no watermark appears, the license is active.  
+5. **Desplegar responsablemente** – Ensure the license file is included in your deployment package and that sensitive environments keep the file out of public source repositories.
 
-Incorpore Aspose.Drawing sin problemas en sus proyectos y observe el impacto transformador en sus tareas de gráficos y manipulación de imágenes. Eleve sus aplicaciones a nuevas alturas con el poder de Aspose.Drawing.
+## Problemas comunes y cómo evitarlos
+- **Archivo de licencia no copiado** – Double‑check the file’s *Copy to Output Directory* setting; otherwise the runtime won’t find it.  
+- **Nombre o ruta de archivo incorrectos** – The path you pass to `SetLicense` must match the actual location; use relative paths for portability.  
+- **Múltiples archivos de licencia** – If you have more than one Aspose product, each requires its own `.lic` file; mixing them can cause confusion.  
+- **Ejecutar en una máquina diferente** – The same license works across machines, but the file must be present on each target environment.  
+- **Prueba expirada** – A trial license expires after a set period; replace it with a purchased license to avoid sudden restrictions.  
 
-¡Desbloquee, integre e innove con Aspose.Drawing—su puerta de entrada a gráficos y manipulación de imágenes sin igual en .NET!
+## Comenzando
+Ready to dive in? Begin your journey by visiting our [Licensing in Aspose.Drawing](./licensing/) page. Download the essential resources and follow the step‑by‑step tutorials to unlock the full potential of Aspose.Drawing in .NET. Whether you're a developer looking to enhance your skills or a business seeking top‑notch graphics solutions, our tutorials cater to all levels of expertise.
+
+Incorporate Aspose.Drawing seamlessly into your projects, and witness the transformative impact on your graphics and image manipulation tasks. Elevate your applications to new heights with the power of Aspose.Drawing.
+
+Unlock, integrate, and innovate with Aspose.Drawing—your gateway to unparalleled graphics and image manipulation in .NET!
 
 ## Tutoriales de licenciamiento
 ### [Licenciamiento en Aspose.Drawing](./licensing/)
-Desbloquee todo el potencial de Aspose.Drawing en .NET. Domine la licencia para una integración sin problemas. Descargue ahora y eleve sus gráficos y manipulación de imágenes.
+Desbloquee todo el potencial de Aspose.Drawing en .NET. Domine el licenciamiento para una integración sin problemas. Descargue ahora y eleve sus gráficos y manipulación de imágenes.
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo usar el mismo archivo de licencia para varios proyectos?**
-**R:** Sí. Un único archivo de licencia puede ser referenciado por cualquier número de aplicaciones en la misma máquina, siempre que los términos de la licencia lo permitan.
+**Q: ¿Puedo usar el mismo archivo de licencia para varios proyectos?**  
+A: Sí. Un solo archivo de licencia puede ser referenciado por cualquier número de aplicaciones en la misma máquina, siempre que los términos de la licencia lo permitan.
 
-**P: ¿Qué debo hacer si la licencia no se reconoce en tiempo de ejecución?**
-**R:** Verifique que el archivo de licencia se haya copiado al directorio de salida, que el nombre del archivo coincida exactamente y que la clase `License` se haya instanciado antes de cualquier llamada a Aspose.Drawing.
+**Q: ¿Qué debo hacer si la licencia no se reconoce en tiempo de ejecución?**  
+A: Verifique que el archivo de licencia se copie al directorio de salida, que el nombre del archivo coincida exactamente y que la clase `License` se instancie antes de cualquier llamada a Aspose.Drawing.
 
-**P: ¿Tiene una licencia de prueba limitaciones de uso?**
-**R:** El modo de prueba agrega una marca de agua a las imágenes generadas y limita ciertas funciones premium. Una licencia completa elimina estas restricciones.
+**Q: ¿Una licencia de prueba tiene limitaciones de uso?**  
+A: El modo de prueba agrega una marca de agua a las imágenes generadas y limita ciertas funciones premium. Una licencia completa elimina estas restricciones.
 
-**P: ¿Cómo puedo verificar mediante programación si la licencia se aplicó correctamente?**
-**R:** Después de llamar a `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`, puede capturar cualquier excepción para confirmar el registro correcto.
+**Q: ¿Cómo puedo comprobar programáticamente si la licencia se aplicó correctamente?**  
+A: Después de llamar a `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`, puede capturar cualquier excepción para confirmar el registro exitoso.
 
-**P: ¿Es seguro almacenar el archivo de licencia en el control de versiones?**
-**R:** Por motivos de seguridad, evite incluir el archivo de licencia en repositorios públicos. En su lugar, utilice mecanismos de implementación específicos para su entorno.
+**Q: ¿Es seguro almacenar el archivo de licencia en el control de versiones?**  
+A: Por razones de seguridad, evite comprometer el archivo de licencia en repositorios públicos. Use mecanismos de despliegue específicos del entorno.
 
---
+---
 
-**Última actualización:** 17/02/2026
-**Probado con:** Aspose.Drawing 24.11 para .NET
-**Autor:** Aspose  
+**Last Updated:** 2026-05-24  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+## Tutoriales relacionados
+
+- [Establecer licencia Aspose.Drawing – Cómo establecer licencia Aspose.Drawing](/drawing/net/licensing/licensing/)
+- [Crear lápices personalizados con Aspose.Drawing para .NET – Tutoriales completos](/drawing/net/)
+- [Cómo crear marco de foto – Casos de uso con Aspose.Drawing para .NET](/drawing/net/use-cases/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

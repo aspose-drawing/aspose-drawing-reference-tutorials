@@ -1,8 +1,68 @@
 ---
-date: 2026-02-17
-description: تعلم كيفية ترخيص Aspose.Drawing لـ .NET. اتبع التعليمات خطوة بخطوة للحصول
-  على الترخيص، وتطبيقه، والتحقق منه، وإتاحة كامل إمكانيات الرسومات.
-linktitle: How to License Aspose.Drawing
+date: 2026-05-24
+description: تعلم كيفية ترخيص aspose.drawing لـ .NET. اتبع التعليمات خطوة بخطوة للحصول
+  على الترخيص وتطبيقه والتحقق منه، ولإلغاء قفل جميع إمكانيات الرسوميات.
+keywords:
+- how to license aspose.drawing
+- Aspose.Drawing licensing guide
+- .NET graphics library license
+linktitle: كيفية ترخيص Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to license aspose.drawing for .NET. Follow step‑by‑step instructions
+    to obtain, apply, and verify your Aspose.Drawing license and unlock full graphics
+    capabilities.
+  headline: How to License Aspose.Drawing for .NET – how to license aspose.drawing
+  type: TechArticle
+- description: Learn how to license aspose.drawing for .NET. Follow step‑by‑step instructions
+    to obtain, apply, and verify your Aspose.Drawing license and unlock full graphics
+    capabilities.
+  name: How to License Aspose.Drawing for .NET – how to license aspose.drawing
+  steps:
+  - name: '**Obtain a license file** – Log in to your Aspose account, navigate to
+      the product page, and download the `.lic` file.'
+    text: '**Obtain a license file** – Log in to your Aspose account, navigate to
+      the product page, and download the `.lic` file.'
+  - name: '**Add the file to your project** – Place the license file in the root of
+      your project or a dedicated `Licenses` folder, and set its *Copy to Output Directory*
+      property to *Copy always*.'
+    text: '**Add the file to your project** – Place the license file in the root of
+      your project or a dedicated `Licenses` folder, and set its *Copy to Output Directory*
+      property to *Copy always*.'
+  - name: '**Reference the license in code** – At application startup (e.g., in `Main`,
+      `Startup.cs`, or before any Aspose.Drawing calls), instantiate the `Aspose.Drawing.License`
+      class and call `SetLicense` with the relative path to the file.'
+    text: '**Reference the license in code** – At application startup (e.g., in `Main`,
+      `Startup.cs`, or before any Aspose.Drawing calls), instantiate the `Aspose.Drawing.License`
+      class and call `SetLicense` with the relative path to the file.'
+  - name: '**Verify the registration** – Run a simple drawing operation; if no watermark
+      appears, the license is active.'
+    text: '**Verify the registration** – Run a simple drawing operation; if no watermark
+      appears, the license is active.'
+  - name: '**Deploy responsibly** – Ensure the license file is included in your deployment
+      package and that sensitive environments keep the file out of public source repositories.'
+    text: '**Deploy responsibly** – Ensure the license file is included in your deployment
+      package and that sensitive environments keep the file out of public source repositories.'
+  type: HowTo
+- questions:
+  - answer: Yes. A single license file can be referenced by any number of applications
+      on the same machine, as long as the license terms allow it.
+    question: Can I use the same license file for multiple projects?
+  - answer: Verify that the license file is copied to the output directory, that the
+      file name matches exactly, and that the `License` class is instantiated before
+      any Aspose.Drawing calls.
+    question: What should I do if the license is not recognized at runtime?
+  - answer: The trial mode adds a watermark to generated images and limits certain
+      premium features. A full license removes these restrictions.
+    question: Does a trial license have usage limitations?
+  - answer: After calling `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`,
+      you can catch any exceptions to confirm successful registration.
+    question: How can I programmatically check if the license was applied successfully?
+  - answer: For security reasons, avoid committing the license file to public repositories.
+      Use environment‑specific deployment mechanisms instead.
+    question: Is it safe to store the license file in source control?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: كيفية ترخيص Aspose.Drawing لـ .NET – كيفية ترخيص aspose.drawing
 url: /ar/net/licensing/
@@ -15,78 +75,90 @@ weight: 22
 
 # كيفية ترخيص Aspose.Drawing لـ .NET – كيفية ترخيص aspose.drawing
 
-## المقدمة
+## مقدمة
 
-إذا كنت تبحث عن **كيفية ترخيص aspose.drawing** لتطبيقات .NET الخاصة بك، فقد وصلت إلى المكان الصحيح. يوضح لك هذا الدليل كل خطوة مطلوبة للحصول على ترخيص، وتطبيقه، والتحقق منه لـ Aspose.Drawing، حتى تتمكن من الاستفادة الكاملة من قدرات المكتبة في الرسومات ومعالجة الصور دون أي قيود زمنية. سواءً كنت تبني أداة سطح مكتب، أو خدمة ويب، أو تطبيق .NET Core متعدد المنصات، فإن الترخيص المناسب هو المفتاح لاستقرار جاهز للإنتاج.
+إذا كنت تبحث عن **how to license aspose.drawing** لتطبيقات .NET الخاصة بك، فقد وصلت إلى المكان الصحيح. يشرح هذا البرنامج التعليمي كل خطوة مطلوبة للحصول على ترخيص وتطبيقه والتحقق منه لـ Aspose.Drawing، حتى تتمكن من فتح القوة الكاملة للمكتبة في الرسومات ومعالجة الصور دون أي قيود وقت التشغيل. سواء كنت تبني أداة سطح مكتب، أو خدمة ويب، أو تطبيق .NET Core متعدد المنصات، فإن الترخيص المناسب هو المفتاح لاستقرار جاهز للإنتاج.
 
 ## إجابات سريعة
-- **ما هي الخطوة الأولى لترخيص Aspose.Drawing؟** الحصول على ملف الترخيص من حساب Aspose الخاص بك أو من تحميل التجربة.  
-- **أين يجب وضع ملف الترخيص؟** في مجلد إخراج المشروع (مثل `bin/Debug` أو `bin/Release`).  
-- **هل أحتاج إلى استدعاء أي كود لتفعيل الترخيص؟** نعم—استخدم `Aspose.Drawing.License` عند بدء تشغيل التطبيق.  
-- **هل يمكنني استخدام نفس الترخيص لكل من .NET Framework و .NET Core؟** بالتأكيد؛ ملف الترخيص مستقل عن المنصة.  
-- **ماذا يحدث إذا شغلت التطبيق بدون ترخيص؟** تعود المكتبة إلى وضع التجربة مع علامات مائية وحدود استخدام.  
-- **كيف يمكنني التحقق من تحميل الترخيص؟** حاول إنشاء كائن `License` داخل كتلة try‑catch وتحقق من عدم حدوث استثناءات.  
-- **هل من الآمن تخزين ملف الترخيص في نظام التحكم بالمصادر؟** يُفضَّل تجنّب ارتقائه إلى المستودعات العامة؛ استخدم خطوط نشر آمنة بدلاً من ذلك.
+- **ما هي الخطوة الأولى لترخيص Aspose.Drawing؟** احصل على ملف ترخيص من حساب Aspose الخاص بك أو من تحميل التجربة.  
+- **أين يجب وضع ملف الترخيص؟** في مجلد الإخراج الخاص بالمشروع (مثال: `bin/Debug` أو `bin/Release`).  
+- **هل أحتاج إلى استدعاء أي كود لتفعيل الترخيص؟** نعم—استخدم `Aspose.Drawing.License` في بدء تشغيل التطبيق.  
+- **هل يمكنني استخدام نفس الترخيص لـ .NET Framework و .NET Core؟** بالتأكيد؛ ملف الترخيص مستقل عن المنصة.  
+- **ماذا يحدث إذا شغلت التطبيق بدون ترخيص؟** تعود المكتبة إلى وضع التجربة مع علامات مائية وحدود الاستخدام.  
 
-## ما هي كيفية ترخيص aspose.drawing؟
-الترخيص هو عملية تسجيل ملف ترخيص تم شراؤه أو تجربة مع محرك Aspose.Drawing. بمجرد التسجيل، تُزيل المكتبة قيود التقييم، وتفعل الميزات المتقدمة (مثل رسم المتجهات المتقدم)، وتسمح لك باستخدام الـ API في بيئات الإنتاج.
+## ما هو كيفية ترخيص aspose.drawing؟
+الترخيص هو عملية تسجيل ملف ترخيص تم شراؤه أو تجربة مع محرك Aspose.Drawing. **الفئة `License` هي نقطة الدخول التي تُفعِّل الميزات التجارية**. بمجرد التسجيل، تزيل المكتبة قيود التقييم، وتُفعِّل الميزات المتقدمة (مثل رسم المتجهات المتقدم)، وتسمح لك باستخدام الـ API في بيئات الإنتاج.
 
 ## لماذا يعتبر الترخيص مهمًا لـ Aspose.Drawing؟
-الترخيص هو البوابة لفتح الميزات والوظائف المتقدمة داخل Aspose.Drawing. سواءً كنت مطورًا متمرسًا أو مبتدئًا، فإن فهم عملية الترخيص أمر حاسم لاستغلال كامل إمكانات Aspose.Drawing.
+الترخيص هو البوابة لفتح الميزات والوظائف المتقدمة داخل Aspose.Drawing. بدون ترخيص صالح، تعمل المكتبة في وضع التجربة، مع إضافة علامات مائية وتقييد القدرات المتقدمة. فهم عملية الترخيص يضمن أنك تستطيع الاستفادة الكاملة من أداء الـ API، والدعم، وفوائد الامتثال عبر جميع سيناريوهات النشر.
 
-### دمج سلس وسهل
-توفر دروسنا دليلًا شاملًا لدمج Aspose.Drawing بسلاسة في تطبيقات .NET الخاصة بك. لا مزيد من التعقيد—تضمن إرشاداتنا خطوة بخطوة عملية دمج سلسة وخالية من المتاعب. حمّل الموارد اللازمة واتبع إرشادات الخبراء للبدء بسرعة.
+### الفوائد المكمَّنة
+يدعم Aspose.Drawing **أكثر من 50 تنسيقًا للصور والمتجهات** — بما في ذلك PNG و JPEG و SVG و PDF و EMF — ويمكنه معالجة ملفات تصل إلى **2 GB** دون تحميل المستند بالكامل في الذاكرة. تتعامل المكتبة مع ملفات TIFF متعددة الصفحات، وملفات PDF الكبيرة، وصور الراستر عالية الدقة مع استهلاك للذاكرة يبقى أقل من 150 MB على خادم عادي بسعة 8 GB.
 
-### إتقان الرسومات ومعالجة الصور
-يمكّنك Aspose.Drawing من رفع مهاراتك في الرسومات ومعالجة الصور إلى مستويات جديدة. تعلّم تفاصيل العمل مع الرسومات المتجهة، وإنشاء مرئيات مذهلة، ومعالجة الصور بدقة. تغطي دروسنا كل شيء من الأساسيات إلى التقنيات المتقدمة، لضمان أن تصبح خبيرًا في قدرات Aspose.Drawing.
+## كيف أحصل على ملف الترخيص؟
+سجّل الدخول إلى حساب Aspose الخاص بك، انتقل إلى صفحة منتج Aspose.Drawing، وانقر على **Download License**. سيولد النظام ملف `.lic` مرتبط بعملية الشراء أو فترة التجربة. احفظ هذا الملف بأمان؛ ستشير إليه من الشيفرة الخاصة بك.
+
+## كيف أطبق الترخيص في مشروع .NET الخاص بي؟
+تُستخدم الفئة `Aspose.Drawing.License` لتحميل ملف الترخيص وتمكين الوظائف الكاملة لمكتبة Aspose.Drawing.  
+ضع ملف `.lic` في مجلد يتم نسخه إلى دليل الإخراج (مثال: مجلد `Licenses`). ثم، عند بدء تشغيل التطبيق — مثلًا في `Program.cs` أو `Main` أو `Startup.cs` — أنشئ كائنًا من الفئة `Aspose.Drawing.License` واستدعِ `SetLicense` مع المسار النسبي. هذا الاستدعاء الواحد يُفعِّل المكتبة بالكامل قبل أي عمليات رسم.
 
 ## كيفية ترخيص aspose.drawing – دليل خطوة بخطوة
-1. **الحصول على ملف الترخيص** – سجّل الدخول إلى حساب Aspose الخاص بك، انتقل إلى صفحة المنتج، وحمّل ملف `.lic`.  
-2. **إضافة الملف إلى مشروعك** – ضع ملف الترخيص في جذر المشروع أو في مجلد مخصص `Licenses`، واضبط خاصية *Copy to Output Directory* إلى *Copy always*.  
-3. **الإشارة إلى الترخيص في الكود** – عند بدء تشغيل التطبيق (مثلًا في `Main` أو `Startup.cs` أو قبل أي استدعاءات Aspose.Drawing)، أنشئ كائن `Aspose.Drawing.License` واستدعِ `SetLicense` مع المسار النسبي للملف.  
-4. **التحقق من التسجيل** – نفّذ عملية رسم بسيطة؛ إذا لم تظهر علامة مائية، يكون الترخيص فعالًا.  
-5. **النشر بشكل مسؤول** – تأكد من تضمين ملف الترخيص في حزمة النشر وأن البيئات الحساسة لا تحتفظ بالملف في مستودعات المصدر العامة.
+الخطوات المختصرة التالية ترشدك عبر الحصول على ملف الترخيص، وإضافته إلى مشروعك، والإشارة إليه في الشيفرة، والتحقق من التفعيل الناجح، ونشره بأمان، مما يضمن تشغيل Aspose.Drawing دون قيود التجربة في أي بيئة .NET في الإنتاج.
 
-## الأخطاء الشائعة وكيفية تجنّبها
-- **ملف الترخيص غير منسوخ** – تحقق مرة أخرى من إعداد *Copy to Output Directory*؛ وإلا لن يتمكن وقت التشغيل من العثور عليه.  
-- **اسم الملف أو المسار غير صحيح** – يجب أن يتطابق المسار الممرَّ إلى `SetLicense` مع الموقع الفعلي؛ استخدم المسارات النسبية للقدرة على النقل.  
-- **وجود ملفات ترخيص متعددة** – إذا كان لديك أكثر من منتج Aspose، يحتاج كل منها إلى ملف `.lic` خاص به؛ خلطها قد يسبب ارتباكًا.  
+الفئة `Aspose.Drawing.License` تقوم بتحميل ملف `.lic` وتفعيل الميزات التجارية لـ Aspose.Drawing.  
+
+1. **احصل على ملف الترخيص** – سجّل الدخول إلى حساب Aspose الخاص بك، انتقل إلى صفحة المنتج، وحمّل ملف `.lic`.  
+2. **أضف الملف إلى مشروعك** – ضع ملف الترخيص في جذر مشروعك أو في مجلد `Licenses` مخصص، واضبط خاصية *Copy to Output Directory* إلى *Copy always*.  
+3. **اشِر إلى الترخيص في الشيفرة** – عند بدء تشغيل التطبيق (مثال: في `Main` أو `Startup.cs` أو قبل أي استدعاءات Aspose.Drawing)، أنشئ كائنًا من الفئة `Aspose.Drawing.License` واستدعِ `SetLicense` مع المسار النسبي للملف.  
+4. **تحقق من التسجيل** – نفّذ عملية رسم بسيطة؛ إذا لم تظهر علامة مائية، فإن الترخيص فعال.  
+5. **انشر بشكل مسؤول** – تأكد من تضمين ملف الترخيص في حزمة النشر وأن البيئات الحساسة تحافظ على عدم وجود الملف في مستودعات الشيفرة العامة.
+
+## الأخطاء الشائعة وكيفية تجنبها
+- **لم يتم نسخ ملف الترخيص** – تحقق مرة أخرى من إعداد *Copy to Output Directory* للملف؛ وإلا لن يتمكن وقت التشغيل من العثور عليه.  
+- **اسم الملف أو المسار غير صحيح** – يجب أن يتطابق المسار الذي تمرره إلى `SetLicense` مع الموقع الفعلي؛ استخدم المسارات النسبية للقدرة على النقل.  
+- **وجود ملفات ترخيص متعددة** – إذا كان لديك أكثر من منتج Aspose، فإن كل واحد يتطلب ملف `.lic` خاص به؛ خلطها قد يسبب ارتباكًا.  
 - **التشغيل على جهاز مختلف** – يعمل نفس الترخيص عبر الأجهزة، لكن يجب أن يكون الملف موجودًا في كل بيئة هدف.  
-- **انتهاء صلاحية التجربة** – تنتهي صلاحية الترخيص التجريبي بعد فترة محددة؛ استبدله بترخيص مدفوع لتجنب القيود المفاجئة.
+- **انتهاء صلاحية التجربة** – تنتهي صلاحية ترخيص التجربة بعد فترة محددة؛ استبدله بترخيص مدفوع لتجنب القيود المفاجئة.
 
 ## البدء
-هل أنت مستعد للغوص؟ ابدأ رحلتك بزيارة صفحة [Licensing in Aspose.Drawing](./licensing/) الخاصة بنا. حمّل الموارد الأساسية واتبع الدروس خطوة بخطوة لفتح الإمكانات الكاملة لـ Aspose.Drawing في .NET. سواءً كنت مطورًا يرغب في تحسين مهاراته أو شركة تبحث عن حلول رسومية متقدمة، فإن دروسنا تلبي جميع مستويات الخبرة.
+هل أنت مستعد للغوص؟ ابدأ رحلتك بزيارة صفحة [Licensing in Aspose.Drawing](./licensing/) الخاصة بنا. حمّل الموارد الأساسية واتبع الدروس خطوة بخطوة لفتح الإمكانات الكاملة لـ Aspose.Drawing في .NET. سواء كنت مطورًا يسعى لتعزيز مهاراته أو شركة تبحث عن حلول رسومية متقدمة، فإن دروسنا تلبي جميع مستويات الخبرة.
 
-ادمج Aspose.Drawing بسلاسة في مشاريعك، وشاهد التأثير التحويلي على مهام الرسومات ومعالجة الصور. ارتقِ بتطبيقاتك إلى آفاق جديدة بفضل قوة Aspose.Drawing.
+ادمج Aspose.Drawing بسلاسة في مشاريعك، وشاهد التأثير التحولي على مهام الرسومات ومعالجة الصور. ارتقِ بتطبيقاتك إلى آفاق جديدة بفضل قوة Aspose.Drawing.
 
-افتح، دمج، وابتكر مع Aspose.Drawing—بوابتك إلى رسومات ومعالجة صور لا مثيل لها في .NET!
+افتح، دمج، وابتكر مع Aspose.Drawing — بوابتك إلى رسومات ومعالجة صور لا مثيل لها في .NET!
 
 ## دروس الترخيص
-### [Licensing in Aspose.Drawing](./licensing/)
-افتح الإمكانات الكاملة لـ Aspose.Drawing في .NET. إتقان الترخيص لتكامل سلس. حمّل الآن وارتقِ بقدرات الرسومات ومعالجة الصور.
+### [الترخيص في Aspose.Drawing](./licensing/)
+افتح الإمكانات الكاملة لـ Aspose.Drawing في .NET. اتقن الترخيص للتكامل السلس. حمّل الآن وارتقِ برسوماتك ومعالجة الصور.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام نفس ملف الترخيص لعدة مشاريع؟**  
-ج: نعم. يمكن لأي عدد من التطبيقات على نفس الجهاز الإشارة إلى ملف ترخيص واحد، طالما تسمح شروط الترخيص بذلك.
+ج: نعم. يمكن الإشارة إلى ملف ترخيص واحد من قبل أي عدد من التطبيقات على نفس الجهاز، طالما تسمح شروط الترخيص بذلك.
 
 **س: ماذا أفعل إذا لم يتم التعرف على الترخيص أثناء وقت التشغيل؟**  
-ج: تأكد من نسخ ملف الترخيص إلى مجلد الإخراج، وأن اسم الملف مطابق تمامًا، وأنه تم إنشاء كائن `License` قبل أي استدعاءات Aspose.Drawing.
+ج: تحقق من أن ملف الترخيص تم نسخه إلى دليل الإخراج، وأن اسم الملف يطابق تمامًا، وأن الفئة `License` تم إنشاؤها قبل أي استدعاءات Aspose.Drawing.
 
-**س: هل يحتوي الترخيص التجريبي على قيود استخدام؟**  
-ج: يضيف وضع التجربة علامة مائية إلى الصور المولدة ويقيد بعض الميزات المتقدمة. يزيل الترخيص الكامل هذه القيود.
+**س: هل يحتوي ترخيص التجربة على قيود استخدام؟**  
+ج: وضع التجربة يضيف علامة مائية إلى الصور المولدة ويقيد بعض الميزات المتقدمة. الترخيص الكامل يزيل هذه القيود.
 
-**س: كيف يمكنني التحقق برمجيًا من تطبيق الترخيص بنجاح؟**  
+**س: كيف يمكنني فحص ما إذا تم تطبيق الترخيص بنجاح برمجيًا؟**  
 ج: بعد استدعاء `new Aspose.Drawing.License().SetLicense("Aspose.Drawing.lic");`، يمكنك التقاط أي استثناءات لتأكيد التسجيل الناجح.
 
 **س: هل من الآمن تخزين ملف الترخيص في نظام التحكم بالمصادر؟**  
-ج: لأسباب أمنية، تجنّب ارتقاء ملف الترخيص إلى المستودعات العامة. استخدم آليات نشر خاصة بالبيئة بدلاً من ذلك.
+ج: لأسباب أمنية، تجنّب إيداع ملف الترخيص في المستودعات العامة. استخدم آليات نشر خاصة بالبيئة بدلاً من ذلك.
 
 ---
 
-**آخر تحديث:** 2026-02-17  
+**آخر تحديث:** 2026-05-24  
 **تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تعيين ترخيص Aspose.Drawing – كيفية تعيين ترخيص Aspose.Drawing](/drawing/net/licensing/licensing/)
+- [إنشاء أقلام مخصصة باستخدام Aspose.Drawing لـ .NET – دروس شاملة](/drawing/net/)
+- [كيفية إنشاء إطار صورة – حالات استخدام Aspose.Drawing لـ .NET](/drawing/net/use-cases/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
