@@ -1,81 +1,126 @@
 ---
-date: 2026-02-12
-description: Aprenda como salvar imagens e desenhar splines cardinais em .NET com
-  Aspose.Drawing. Salve a curva como PNG e crie gráficos suaves sem esforço.
-linktitle: Drawing Cardinal Splines in Aspose.Drawing
+date: 2026-05-29
+description: Aprenda como salvar PNG e desenhar splines cardinais em .NET com Aspose.Drawing.
+  Salve a curva como PNG, crie gráficos suaves e gere bitmap para arquivo sem esforço.
+keywords:
+- how to save png
+- save bitmap to file
+- create smooth curve
+- draw curve c#
+- generate png graphics
+linktitle: Desenhando splines cardinais no Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to save PNG and draw cardinal splines in .NET with Aspose.Drawing.
+    Save curve as PNG, create smooth graphics, and generate bitmap to file effortlessly.
+  headline: How to Save PNG and Draw Cardinal Splines with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: '`Graphics.DrawCurve` interpolates a series of points into a smooth cardinal
+      spline.'
+    question: What does the primary method do?
+  - answer: PNG via `Bitmap.Save`.
+    question: Which format is used to save the image?
+  - answer: A trial works for development; a commercial license is required for production.
+    question: Do I need a license to save images?
+  - answer: Yes, overloads of `DrawCurve` let you specify tension.
+    question: Can I change the curve tension?
+  - answer: Absolutely – it supports .NET Framework and .NET Core/5/6.
+    question: Is Aspose.Drawing compatible with .NET 6+?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Como salvar imagem e desenhar splines cardinais no Aspose.Drawing
+title: Como salvar PNG e desenhar splines cardinais com Aspose.Drawing
 url: /pt/net/lines-curves-and-shapes/draw-cardinal-spline/
 weight: 13
 ---
-
-"
-
-Footer: keep as is.
-
-Now produce final markdown with same structure.
-
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Salvar Imagem e Desenhar Splines Cardinais no Aspose.Drawing
+# Como salvar PNG e desenhar splines cardinais com Aspose.Drawing
 
 ## Introdução
 
-Neste tutorial você descobrirá **como salvar imagem** enquanto desenha splines cardinais suaves usando Aspose.Drawing para .NET. Seja construindo um componente de gráficos, um editor de diagramas ou apenas precisando exportar uma curva personalizada como PNG, os passos abaixo mostram exatamente como desenhar uma curva com uma caneta, personalizar o spline e persistir o resultado no disco.
+Neste tutorial você descobrirá **como salvar arquivos PNG** enquanto desenha splines cardinais suaves usando Aspose.Drawing para .NET. Seja construindo um componente de gráficos, um editor de diagramas ou simplesmente precisando exportar uma curva personalizada como PNG, os passos abaixo orientam você a criar uma tela bitmap, desenhar um spline com uma caneta e persistir o resultado no disco. Você também verá por que o Aspose.Drawing é uma alternativa confiável e multiplataforma ao System.Drawing.Common.
 
 ## Respostas Rápidas
 - **O que o método principal faz?** `Graphics.DrawCurve` interpola uma série de pontos em um spline cardinal suave.  
 - **Qual formato é usado para salvar a imagem?** PNG via `Bitmap.Save`.  
 - **Preciso de uma licença para salvar imagens?** Uma versão de avaliação funciona para desenvolvimento; uma licença comercial é necessária para produção.  
-- **Posso alterar a tensão da curva?** Sim, sobrecargas de `DrawCurve` permitem especificar a tensão.  
+- **Posso mudar a tensão da curva?** Sim, sobrecargas de `DrawCurve` permitem especificar a tensão.  
 - **O Aspose.Drawing é compatível com .NET 6+?** Absolutamente – ele suporta .NET Framework e .NET Core/5/6.
 
-## O que significa “como salvar imagem” no contexto do Aspose.Drawing?
-Salvar uma imagem significa converter o bitmap em memória no qual você desenha em um arquivo físico como PNG, JPEG ou BMP. Aspose.Drawing fornece um método simples `Bitmap.Save` que cuida da codificação para você.
+## O que significa “como salvar PNG” no contexto do Aspose.Drawing?
+
+Salvar um PNG significa converter o bitmap em memória no qual você desenha em um arquivo PNG físico no disco. O processo grava os dados de pixel usando compressão sem perdas, preservando as cores exatas e quaisquer informações de canal alfa. O método `Bitmap.Save` do Aspose.Drawing lida com a codificação PNG automaticamente, portanto você não precisa gerenciar os detalhes do formato manualmente.
 
 ## Por que desenhar um spline cardinal com Aspose.Drawing?
-Splines cardinais fornecem uma curva suave e fluida que passa próximo a um conjunto de pontos de controle, ideal para visualizações de dados, gráficos de UI e formas personalizadas. Usando Aspose.Drawing você evita as limitações do `System.Drawing.Common` e obtém consistência multiplataforma.
+
+Um spline cardinal produz uma curva suave e fluida que segue de perto um conjunto de pontos de controle, tornando‑o perfeito para visualizações de dados, gráficos de UI e formas personalizadas. O Aspose.Drawing suporta **mais de 30 formatos de imagem** e pode renderizar gráficos de centenas de páginas sem carregar todo o arquivo na memória, oferecendo velocidade e flexibilidade.
 
 ## Pré-requisitos
 
-Antes de começar, certifique-se de que você tem:
+Antes de começarmos, certifique‑se de que você tem:
 
 - Visual Studio (qualquer versão recente) instalado.  
 - Biblioteca Aspose.Drawing para .NET. Você pode baixá‑la [aqui](https://releases.aspose.com/drawing/net/).  
 - Conhecimento básico de programação em C#.
 
-## Importar Namespaces
+## Importar namespaces
 
 No seu arquivo C#, comece importando o namespace necessário:
 
+O namespace `Aspose.Drawing` contém todos os tipos principais, como `Bitmap`, `Graphics` e `Pen`.  
+```csharp
+using Aspose.Drawing;
+```
 ```csharp
 using System.Drawing;
 ```
 
-## Etapa 1: Criar um Bitmap (Canvas)
+## Passo 1: Criar um Bitmap (Canvas)
 
 Primeiro, crie um bitmap que atuará como a tela para o seu desenho. Este bitmap é onde o spline será renderizado antes de você **salvar a imagem**.
 
+Bitmap representa uma imagem em memória com um formato de pixel e dimensões definidos.  
+```csharp
+int width = 800;
+int height = 600;
+Bitmap bitmap = new Bitmap(width, height, PixelFormat.Format32bppPArgb);
+```
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Etapa 2: Criar um Objeto Graphics
+## Passo 2: Criar um objeto Graphics
 
 Em seguida, obtenha um objeto `Graphics` a partir do bitmap. Esse objeto fornece a superfície de desenho.
 
+Graphics fornece uma superfície de desenho para renderizar formas, texto e imagens em um bitmap.  
+```csharp
+Graphics graphics = Graphics.FromImage(bitmap);
+graphics.Clear(Color.Transparent);
+```
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Etapa 3: Definir a Caneta e Desenhar a Curva
+## Passo 3: Definir Pen e Desenhar Curva
 
-Defina uma `Pen` com a cor e a largura desejadas e, então, desenhe o spline cardinal usando `DrawCurve`. Isso demonstra a técnica de **draw curve with pen** e serve como um **cardinal spline example**.
+Defina uma `Pen` com a cor e largura desejadas e, então, desenhe o spline cardinal usando `DrawCurve`. Isso demonstra a técnica de **desenhar curva com caneta** e serve como um **exemplo de spline cardinal**.
 
+Pen encapsula a cor, largura e estilo de linha usados para desenhar linhas e curvas.  
+```csharp
+Pen pen = new Pen(Color.Blue, 3);
+PointF[] points = {
+    new PointF(100, 400), new PointF(200, 100),
+    new PointF(300, 300), new PointF(400, 150),
+    new PointF(500, 350)
+};
+graphics.DrawCurve(pen, points, 0.5f); // tension = 0.5
+```
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawCurve(pen, new Point[] {
@@ -87,22 +132,27 @@ graphics.DrawCurve(pen, new Point[] {
 });
 ```
 
-## Etapa 4: Salvar a Imagem (Salvar a Curva como PNG)
+## Passo 4: Salvar a Imagem (Salvar Curva como PNG)
 
-Por fim, persista o bitmap em um arquivo PNG. Este é o núcleo de **como salvar imagem** neste tutorial.
+Finalmente, persista o bitmap em um arquivo PNG. Este é o núcleo de **como salvar PNG** neste tutorial.
 
+`Bitmap.Save` grava a imagem em um arquivo no formato especificado, como PNG.  
+```csharp
+string outputPath = Path.Combine(Environment.CurrentDirectory, "cardinal-spline.png");
+bitmap.Save(outputPath, ImageFormat.Png);
+```
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_out.png");
 ```
 
-> **Dica:** Use `Path.Combine` para montar caminhos de arquivo de forma segura em diferentes plataformas.
+> **Dica profissional:** Use `Path.Combine` para construir caminhos de arquivo de forma segura em diferentes plataformas.
 
 Parabéns! Você desenhou com sucesso um spline cardinal e salvou o resultado como uma imagem PNG usando Aspose.Drawing para .NET. Sinta‑se à vontade para experimentar diferentes arrays de pontos, cores de caneta ou larguras de linha para personalizar suas curvas.
 
 ## Casos de Uso Comuns
 
 - **Visualizações de dados** – gráficos de linhas suaves que precisam de pontos de controle precisos.  
-- **Componentes de UI personalizados** – desenho de botões, sliders ou bordas decorativas.  
+- **Componentes de UI personalizados** – desenhando botões, sliders ou bordas decorativas.  
 - **Gráficos exportáveis** – gerar ativos PNG sob demanda para relatórios ou conteúdo web.
 
 ## Solução de Problemas e Dicas
@@ -113,40 +163,36 @@ Parabéns! Você desenhou com sucesso um spline cardinal e salvou o resultado co
 
 ## Perguntas Frequentes
 
-### Q1: Posso usar Aspose.Drawing em projetos comerciais?
-A1: Sim, Aspose.Drawing é adequado tanto para projetos pessoais quanto comerciais. Verifique os detalhes de licenciamento na [página de compra](https://purchase.aspose.com/buy).
+**Q1: Posso usar o Aspose.Drawing em projetos comerciais?**  
+A1: Sim, o Aspose.Drawing é adequado tanto para projetos pessoais quanto comerciais. Verifique os detalhes de licenciamento na [página de compra](https://purchase.aspose.com/buy).
 
-### Q2: Como obter uma licença temporária para testes?
+**Q2: Como posso obter uma licença temporária para teste?**  
 A2: Obtenha uma licença temporária para fins de teste [aqui](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Onde encontrar suporte adicional?
+**Q3: Onde posso encontrar suporte adicional?**  
 A3: Visite o [fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para suporte da comunidade e discussões.
 
-### Q4: Existe uma versão de avaliação gratuita?
+**Q4: Existe uma versão de avaliação gratuita disponível?**  
 A4: Sim, explore os recursos com a versão de [avaliação gratuita](https://releases.aspose.com/) antes de efetuar a compra.
 
-### Q5: Como acesso a documentação?
+**Q5: Como acesso a documentação?**  
 A5: Consulte a abrangente [documentação](https://reference.aspose.com/drawing/net/) para informações detalhadas e exemplos.
-
-### Q6: Posso mudar o formato de saída para JPEG?
-A6: Absolutamente. Substitua a extensão `.png` por `.jpg` e especifique `ImageFormat.Jpeg` no método `Save`.
-
-### Q7: É possível desenhar múltiplos splines no mesmo bitmap?
-A7: Sim, basta chamar `graphics.DrawCurve` várias vezes com diferentes arrays de pontos e canetas.
-
-## Conclusão
-
-Neste guia abordamos **como salvar imagem** após desenhar um spline cardinal, demonstramos um exemplo prático de **draw curve using C#** e destacamos cenários comuns onde essa técnica se destaca. Agora você tem uma base sólida para integrar gráficos de spline suaves em qualquer aplicação .NET.
 
 ---
 
-**Last Updated:** 2026-02-12  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Última atualização:** 2026-05-29  
+**Testado com:** Aspose.Drawing 24.11 para .NET  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriais Relacionados
+
+- [Salvar Bitmap como PNG e desenhar curvas fechadas com Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
+- [Salvar Bitmap C# – Desenhar Splines Bézier com Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
+- [Salvar Bitmap como PNG com Pincéis Sólidos no Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

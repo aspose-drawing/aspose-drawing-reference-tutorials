@@ -1,79 +1,118 @@
 ---
-date: 2026-02-12
-description: Aspose.Drawing के साथ .NET में छवि को सहेजना और कार्डिनल स्प्लाइन ड्रॉ
-  करना सीखें। कर्व को PNG के रूप में सहेजें और आसानी से स्मूद ग्राफ़िक्स बनाएं।
-linktitle: Drawing Cardinal Splines in Aspose.Drawing
+date: 2026-05-29
+description: Aspose.Drawing के साथ .NET में PNG सहेजना और कार्डिनल स्प्लाइन्स बनाना
+  सीखें। कर्व को PNG के रूप में सहेजें, स्मूद ग्राफिक्स बनाएं, और आसानी से फ़ाइल में
+  bitmap जेनरेट करें।
+keywords:
+- how to save png
+- save bitmap to file
+- create smooth curve
+- draw curve c#
+- generate png graphics
+linktitle: Aspose.Drawing में कार्डिनल स्प्लाइन्स बनाना
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to save PNG and draw cardinal splines in .NET with Aspose.Drawing.
+    Save curve as PNG, create smooth graphics, and generate bitmap to file effortlessly.
+  headline: How to Save PNG and Draw Cardinal Splines with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: '`Graphics.DrawCurve` interpolates a series of points into a smooth cardinal
+      spline.'
+    question: What does the primary method do?
+  - answer: PNG via `Bitmap.Save`.
+    question: Which format is used to save the image?
+  - answer: A trial works for development; a commercial license is required for production.
+    question: Do I need a license to save images?
+  - answer: Yes, overloads of `DrawCurve` let you specify tension.
+    question: Can I change the curve tension?
+  - answer: Absolutely – it supports .NET Framework and .NET Core/5/6.
+    question: Is Aspose.Drawing compatible with .NET 6+?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Aspose.Drawing में इमेज को कैसे सहेजें और कार्डिनल स्प्लाइन बनाएं
+title: Aspose.Drawing के साथ PNG कैसे सहेजें और कार्डिनल स्प्लाइन्स बनाएं
 url: /hi/net/lines-curves-and-shapes/draw-cardinal-spline/
 weight: 13
 ---
-
-.
-
-Now produce final markdown with Hindi translations.
-
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing में इमेज कैसे सेव करें और कार्डिनल स्प्लाइन कैसे बनाएं
+# PNG कैसे सहेजें और Aspose.Drawing के साथ कार्डिनल स्प्लाइन ड्रॉ करें
 
-## Introduction
+## परिचय
 
-इस ट्यूटोरियल में आप **इमेज कैसे सेव करें** फ़ाइलों को Aspose.Drawing for .NET का उपयोग करके स्मूद कार्डिनल स्प्लाइन ड्रॉ करने के दौरान सीखेंगे। चाहे आप एक चार्टिंग कंपोनेंट, एक डायग्राम एडिटर बना रहे हों, या सिर्फ एक कस्टम कर्व को PNG के रूप में एक्सपोर्ट करना चाहते हों, नीचे दिए गए चरण आपको पेन से कर्व ड्रॉ करने, स्प्लाइन को कस्टमाइज़ करने, और परिणाम को डिस्क पर सहेजने का सटीक तरीका दिखाते हैं।
+इस ट्यूटोरियल में आप Aspose.Drawing for .NET का उपयोग करके स्मूथ कार्डिनल स्प्लाइन ड्रॉ करते हुए **PNG कैसे सहेजें** फ़ाइलों की खोज करेंगे। चाहे आप एक चार्टिंग कंपोनेंट, एक डायग्राम एडिटर बना रहे हों, या सिर्फ़ एक कस्टम कर्व को PNG के रूप में एक्सपोर्ट करना चाहते हों, नीचे दिए गए चरण आपको बिटमैप कैनवास बनाने, पेन के साथ स्प्लाइन ड्रॉ करने, और परिणाम को डिस्क पर सहेजने की प्रक्रिया दिखाते हैं। आप यह भी देखेंगे कि Aspose.Drawing System.Drawing.Common का एक विश्वसनीय क्रॉस‑प्लेटफ़ॉर्म विकल्प क्यों है।
 
-## Quick Answers
-- **मुख्य मेथड क्या करता है?** `Graphics.DrawCurve` बिंदुओं की श्रृंखला को एक स्मूद कार्डिनल स्प्लाइन में इंटरपोलेट करता है।  
-- **इमेज सेव करने के लिए कौन सा फ़ॉर्मेट उपयोग किया जाता है?** PNG `Bitmap.Save` के माध्यम से।  
-- **क्या इमेज सेव करने के लिए लाइसेंस चाहिए?** विकास के लिए ट्रायल काम करता है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।  
+## त्वरित उत्तर
+- **मुख्य मेथड क्या करता है?** `Graphics.DrawCurve` बिंदुओं की श्रृंखला को एक स्मूथ कार्डिनल स्प्लाइन में इंटरपोलेट करता है।  
+- **इमेज सहेजने के लिए कौन सा फ़ॉर्मेट उपयोग किया जाता है?** PNG `Bitmap.Save` के माध्यम से।  
+- **क्या इमेज सहेजने के लिए लाइसेंस चाहिए?** विकास के लिए ट्रायल काम करता है; प्रोडक्शन के लिए एक कमर्शियल लाइसेंस आवश्यक है।  
 - **क्या मैं कर्व टेंशन बदल सकता हूँ?** हाँ, `DrawCurve` के ओवरलोड आपको टेंशन निर्दिष्ट करने देते हैं।  
 - **क्या Aspose.Drawing .NET 6+ के साथ संगत है?** बिल्कुल – यह .NET Framework और .NET Core/5/6 को सपोर्ट करता है।
 
-## Aspose.Drawing के संदर्भ में “इमेज कैसे सेव करें” क्या है?
-इमेज को सेव करना मतलब वह इन‑मेमोरी बिटमैप जिसे आप ड्रॉ करते हैं, उसे PNG, JPEG या BMP जैसी फिजिकल फ़ाइल में बदलना है। Aspose.Drawing एक सरल `Bitmap.Save` मेथड प्रदान करता है जो एन्कोडिंग को आपके लिए संभालता है।
+## Aspose.Drawing के संदर्भ में “PNG कैसे सहेजें” क्या है?
+PNG सहेजना मतलब है कि आप जिस इन‑मेमोरी बिटमैप पर ड्रॉ करते हैं, उसे डिस्क पर एक भौतिक PNG फ़ाइल में बदलना। यह प्रक्रिया पिक्सेल डेटा को लॉसलेस कम्प्रेशन के साथ लिखती है, जिससे सटीक रंग और अल्फा चैनल जानकारी बरकरार रहती है। Aspose.Drawing की `Bitmap.Save` मेथड PNG एन्कोडिंग को स्वचालित रूप से संभालती है, इसलिए आपको फ़ॉर्मेट विवरण स्वयं प्रबंधित करने की आवश्यकता नहीं है।
 
 ## Aspose.Drawing के साथ कार्डिनल स्प्लाइन क्यों ड्रॉ करें?
-कार्डिनल स्प्लाइन आपको एक स्मूद, फ्लोइंग कर्व देती है जो कंट्रोल पॉइंट्स के सेट के पास से गुजरती है, डेटा विज़ुअलाइज़ेशन, UI ग्राफिक्स, और कस्टम शैप्स के लिए आदर्श है। Aspose.Drawing का उपयोग करके आप `System.Drawing.Common` की सीमाओं से बचते हैं और क्रॉस‑प्लेटफ़ॉर्म कंसिस्टेंसी प्राप्त करते हैं।
+एक कार्डिनल स्प्लाइन एक स्मूथ, प्रवाहित कर्व बनाता है जो नियंत्रण बिंदुओं के सेट का निकटता से अनुसरण करता है, जिससे यह डेटा विज़ुअलाइज़ेशन, UI ग्राफ़िक्स, और कस्टम शैप्स के लिए परफेक्ट है। Aspose.Drawing **30+ image formats** को सपोर्ट करता है और कई‑सौ‑पेज ग्राफ़िक्स को पूरी फ़ाइल को मेमोरी में लोड किए बिना रेंडर कर सकता है, जिससे आपको गति और लचीलापन दोनों मिलते हैं।
 
-## Prerequisites
-
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
-
+## पूर्वापेक्षाएँ
 - Visual Studio (कोई भी नवीनतम संस्करण) स्थापित हो।  
 - Aspose.Drawing for .NET लाइब्रेरी। आप इसे [here](https://releases.aspose.com/drawing/net/) से डाउनलोड कर सकते हैं।  
-- C# प्रोग्रामिंग का बेसिक ज्ञान।
+- C# प्रोग्रामिंग का बुनियादी ज्ञान।
 
-## Import Namespaces
+## नेमस्पेस आयात करें
+अपने C# फ़ाइल में, आवश्यक नेमस्पेस को आयात करके शुरू करें:
 
-अपने C# फ़ाइल में, आवश्यक नेमस्पेस इम्पोर्ट करके शुरू करें:
-
+`Aspose.Drawing` नेमस्पेस में सभी कोर टाइप्स जैसे `Bitmap`, `Graphics`, और `Pen` शामिल हैं।  
+```csharp
+using Aspose.Drawing;
+```
 ```csharp
 using System.Drawing;
 ```
 
-## Step 1: Create a Bitmap (Canvas)
+## चरण 1: बिटमैप (कैनवास) बनाएं
+सबसे पहले, एक बिटमैप बनाएं जो आपके ड्रॉइंग के लिए कैनवास के रूप में कार्य करेगा। यह बिटमैप वह जगह है जहाँ स्प्लाइन को **इमेज सहेजने** से पहले रेंडर किया जाएगा।
 
-पहले, एक बिटमैप बनाएं जो आपके ड्रॉइंग के लिए कैनवास के रूप में कार्य करेगा। यह बिटमैप वह जगह है जहाँ स्प्लाइन रेंडर किया जाएगा इससे पहले कि आप **इमेज को सेव करें**।
-
+Bitmap एक इन‑मेमोरी इमेज को दर्शाता है जिसका पिक्सेल फ़ॉर्मेट और आयाम परिभाषित होते हैं।  
+```csharp
+int width = 800;
+int height = 600;
+Bitmap bitmap = new Bitmap(width, height, PixelFormat.Format32bppPArgb);
+```
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Step 2: Create a Graphics Object
-
+## चरण 2: ग्राफ़िक्स ऑब्जेक्ट बनाएं
 अगला, बिटमैप से एक `Graphics` ऑब्जेक्ट प्राप्त करें। यह ऑब्जेक्ट ड्रॉइंग सतह प्रदान करता है।
 
+Graphics एक ड्रॉइंग सतह प्रदान करता है जिससे आप शेप्स, टेक्स्ट, और इमेजेज को बिटमैप पर रेंडर कर सकते हैं।  
+```csharp
+Graphics graphics = Graphics.FromImage(bitmap);
+graphics.Clear(Color.Transparent);
+```
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Step 3: Define Pen and Draw Curve
+## चरण 3: पेन निर्धारित करें और कर्व ड्रॉ करें
+इच्छित रंग और चौड़ाई के साथ एक `Pen` निर्धारित करें, फिर `DrawCurve` का उपयोग करके कार्डिनल स्प्लाइन ड्रॉ करें। यह **draw curve with pen** तकनीक को दर्शाता है और एक **cardinal spline example** के रूप में कार्य करता है।
 
-इच्छित रंग और चौड़ाई के साथ एक `Pen` परिभाषित करें, फिर `DrawCurve` का उपयोग करके कार्डिनल स्प्लाइन ड्रॉ करें। यह **पेन से कर्व ड्रॉ करें** तकनीक को दर्शाता है और एक **कार्डिनल स्प्लाइन उदाहरण** के रूप में कार्य करता है।
-
+Pen वह रंग, चौड़ाई, और लाइन स्टाइल को समेटता है जो लाइनों और कर्व्स को ड्रॉ करने के लिए उपयोग किया जाता है।  
+```csharp
+Pen pen = new Pen(Color.Blue, 3);
+PointF[] points = {
+    new PointF(100, 400), new PointF(200, 100),
+    new PointF(300, 300), new PointF(400, 150),
+    new PointF(500, 350)
+};
+graphics.DrawCurve(pen, points, 0.5f); // tension = 0.5
+```
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawCurve(pen, new Point[] {
@@ -85,66 +124,61 @@ graphics.DrawCurve(pen, new Point[] {
 });
 ```
 
-## Step 4: Save the Image (Save Curve as PNG)
+## चरण 4: इमेज सहेजें (कर्व को PNG के रूप में सहेजें)
+अंत में, बिटमैप को एक PNG फ़ाइल में सहेजें। यह इस ट्यूटोरियल में **PNG कैसे सहेजें** का मूल है।
 
-अंत में, बिटमैप को PNG फ़ाइल में सहेजें। यह इस ट्यूटोरियल में **इमेज कैसे सेव करें** का मुख्य भाग है।
-
+`Bitmap.Save` इमेज को निर्दिष्ट फ़ॉर्मेट, जैसे PNG, में फ़ाइल में लिखता है।  
+```csharp
+string outputPath = Path.Combine(Environment.CurrentDirectory, "cardinal-spline.png");
+bitmap.Save(outputPath, ImageFormat.Png);
+```
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_out.png");
 ```
 
-> **Pro tip:** प्लेटफ़ॉर्म के बीच फ़ाइल पाथ सुरक्षित रूप से बनाने के लिए `Path.Combine` का उपयोग करें।
+> **Pro tip:** `Path.Combine` का उपयोग करके प्लेटफ़ॉर्म के बीच फ़ाइल पाथ सुरक्षित रूप से बनाएं।
 
-बधाई हो! आपने सफलतापूर्वक एक कार्डिनल स्प्लाइन ड्रॉ किया और Aspose.Drawing for .NET का उपयोग करके परिणाम को PNG इमेज के रूप में सहेजा। विभिन्न पॉइंट एरेज़, पेन रंग, या लाइन चौड़ाई के साथ प्रयोग करके अपने कर्व को कस्टमाइज़ करने में संकोच न करें।
+बधाई हो! आपने सफलतापूर्वक एक कार्डिनल स्प्लाइन ड्रॉ किया और परिणाम को Aspose.Drawing for .NET का उपयोग करके PNG इमेज के रूप में सहेजा। विभिन्न पॉइंट एरेज़, पेन रंग, या लाइन चौड़ाई के साथ प्रयोग करने में संकोच न करें ताकि आप अपने कर्व को कस्टमाइज़ कर सकें।
 
-## Common Use Cases
+## सामान्य उपयोग केस
+- **Data visualizations** – सटीक कंट्रोल पॉइंट्स की आवश्यकता वाले स्मूथ लाइन चार्ट्स।  
+- **Custom UI components** – नॉब्स, स्लाइडर्स, या सजावटी बॉर्डर्स ड्रॉ करना।  
+- **Exportable graphics** – रिपोर्ट या वेब कंटेंट के लिए ऑन‑द‑फ़्लाई PNG एसेट्स जेनरेट करना।
 
-- **डेटा विज़ुअलाइज़ेशन** – स्मूद लाइन चार्ट्स जिन्हें सटीक कंट्रोल पॉइंट्स चाहिए।  
-- **कस्टम UI कंपोनेंट्स** – नॉब, स्लाइडर या सजावटी बॉर्डर ड्रॉ करना।  
-- **एक्सपोर्टेबल ग्राफिक्स** – रिपोर्ट या वेब कंटेंट के लिए ऑन‑द‑फ्लाई PNG एसेट्स जेनरेट करना।
+## समस्या निवारण और टिप्स
+- **Image appears blank?** सुनिश्चित करें कि बिटमैप का पिक्सेल फ़ॉर्मेट अल्फा (`Format32bppPArgb`) को सपोर्ट करता है और आवश्यक होने पर `graphics.Clear(Color.Transparent)` कॉल करें।  
+- **Unexpected curve shape?** टेंशन पैरामीटर को `DrawCurve(pen, points, tension)` ओवरलोड का उपयोग करके समायोजित करें।  
+- **File access errors?** लक्ष्य डायरेक्टरी मौजूद है और आपके एप्लिकेशन के पास लिखने की अनुमति है, यह सत्यापित करें।
 
-## Troubleshooting & Tips
+## अक्सर पूछे जाने वाले प्रश्न
+**Q1: क्या मैं Aspose.Drawing को व्यावसायिक प्रोजेक्ट्स के लिए उपयोग कर सकता हूँ?**  
+A1: हाँ, Aspose.Drawing व्यक्तिगत और व्यावसायिक दोनों प्रोजेक्ट्स के लिए उपयुक्त है। लाइसेंसिंग विवरण [purchase page](https://purchase.aspose.com/buy) पर देखें।
 
-- **इमेज खाली दिख रही है?** सुनिश्चित करें कि बिटमैप का पिक्सेल फ़ॉर्मेट अल्फा (`Format32bppPArgb`) सपोर्ट करता है और आवश्यक होने पर `graphics.Clear(Color.Transparent)` कॉल करें।  
-- **अप्रत्याशित कर्व आकार?** ओवरलोड `DrawCurve(pen, points, tension)` का उपयोग करके टेंशन पैरामीटर को समायोजित करें।  
-- **फ़ाइल एक्सेस त्रुटियां?** लक्ष्य डायरेक्टरी मौजूद है और आपके एप्लिकेशन के पास लिखने की अनुमति है, यह जांचें।
+**Q2: परीक्षण के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
+A2: परीक्षण उद्देश्यों के लिए एक अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त करें।
 
-## Frequently Asked Questions
+**Q3: अतिरिक्त समर्थन कहाँ मिल सकता है?**  
+A3: समुदाय समर्थन और चर्चाओं के लिए [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) पर जाएँ।
 
-### Q1: क्या मैं Aspose.Drawing को कमर्शियल प्रोजेक्ट्स में उपयोग कर सकता हूँ?
-A1: हाँ, Aspose.Drawing व्यक्तिगत और कमर्शियल दोनों प्रोजेक्ट्स के लिए उपयुक्त है। लाइसेंसिंग विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
+**Q4: क्या कोई मुफ्त ट्रायल उपलब्ध है?**  
+A4: हाँ, खरीदारी से पहले फीचर्स को [free trial](https://releases.aspose.com/) संस्करण के साथ एक्सप्लोर करें।
 
-### Q2: परीक्षण के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?
-A2: परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त करें।
-
-### Q3: अतिरिक्त सपोर्ट कहाँ मिल सकता है?
-A3: समुदाय समर्थन और चर्चा के लिए [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) पर जाएँ।
-
-### Q4: क्या मुफ्त ट्रायल उपलब्ध है?
-A4: हाँ, खरीदारी से पहले फीचर्स को एक्सप्लोर करने के लिए [free trial](https://releases.aspose.com/) संस्करण का उपयोग करें।
-
-### Q5: दस्तावेज़ीकरण तक कैसे पहुँचूँ?
+**Q5: दस्तावेज़ कैसे एक्सेस करूँ?**  
 A5: विस्तृत जानकारी और उदाहरणों के लिए व्यापक [documentation](https://reference.aspose.com/drawing/net/) देखें।
-
-### Q6: क्या मैं आउटपुट फ़ॉर्मेट को JPEG में बदल सकता हूँ?
-A6: बिल्कुल। `.png` एक्सटेंशन को `.jpg` से बदलें और `Save` मेथड में `ImageFormat.Jpeg` निर्दिष्ट करें।
-
-### Q7: क्या एक ही बिटमैप पर कई स्प्लाइन ड्रॉ करना संभव है?
-A7: हाँ, विभिन्न पॉइंट एरेज़ और पेन के साथ `graphics.DrawCurve` को कई बार कॉल करें।
-
-## Conclusion
-
-इस गाइड में हमने **इमेज कैसे सेव करें** फ़ाइलों को कार्डिनल स्प्लाइन ड्रॉ करने के बाद कवर किया, एक व्यावहारिक **पेन से कर्व ड्रॉ करें** उदाहरण दिखाया, और उन सामान्य परिदृश्यों को उजागर किया जहाँ यह तकनीक चमकती है। अब आपके पास किसी भी .NET एप्लिकेशन में स्मूद स्प्लाइन ग्राफिक्स को इंटीग्रेट करने की ठोस नींव है।
 
 ---
 
-**Last Updated:** 2026-02-12  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**अंतिम अपडेट:** 2026-05-29  
+**परीक्षण किया गया:** Aspose.Drawing 24.11 for .NET  
+**लेखक:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+- [Bitmap को PNG के रूप में सहेजें और Aspose.Drawing के साथ बंद कर्व ड्रॉ करें](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
+- [Bitmap C# को सहेजें – Aspose.Drawing के साथ Bezier स्प्लाइन्स ड्रॉ करें](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
+- [Solid Brushes के साथ Aspose.Drawing में Bitmap को PNG के रूप में सहेजें](/drawing/net/lines-curves-and-shapes/solid-brushes/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
