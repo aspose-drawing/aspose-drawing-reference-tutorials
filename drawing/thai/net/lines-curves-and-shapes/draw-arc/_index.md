@@ -1,77 +1,129 @@
 ---
-date: 2026-02-12
-description: เรียนรู้วิธีวาดส่วนโค้งในแอปพลิเคชัน .NET ด้วย Aspose.Drawing คู่มือแบบทีละขั้นตอนนี้จะแสดงวิธีสร้างบิตแมพด้วย
-  C# ตั้งค่าสีปากกา วาดส่วนโค้งบนบิตแมพ และบันทึกบิตแมพเป็น PNG.
-linktitle: Drawing Arcs in Aspose.Drawing
+date: 2026-05-29
+description: เรียนรู้วิธีวาดโค้งและบันทึกภาพ PNG ในแอปพลิเคชัน .NET ด้วย Aspose.Drawing
+  บทแนะนำการวาดภาพแบบขั้นตอนนี้จะแสดงวิธีสร้างบิตแมพใน C# ตั้งค่าสีเส้น วาดโค้ง และบันทึกผลลัพธ์เป็นไฟล์
+  PNG
+keywords:
+- save image png
+- how to draw arc
+- set line color
+- cross platform drawing
+- replace system drawing
+linktitle: การวาดโค้งใน Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to draw arc and save image PNG in .NET applications using
+    Aspose.Drawing. This step‑by‑step image drawing tutorial shows you how to create
+    a bitmap in C#, set line color, draw the arc, and save the result as a PNG file.
+  headline: How to Draw Arc and Save Image PNG with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to draw arc and save image PNG in .NET applications using
+    Aspose.Drawing. This step‑by‑step image drawing tutorial shows you how to create
+    a bitmap in C#, set line color, draw the arc, and save the result as a PNG file.
+  name: How to Draw Arc and Save Image PNG with Aspose.Drawing
+  steps:
+  - name: Create a bitmap C# object
+    text: 'We first create a `Bitmap` that will serve as the canvas for our drawing.
+      *Explanation*: The bitmap size (1000 × 800) gives us plenty of room, and the
+      pixel format ensures high‑quality alpha blending.'
+  - name: Set up a pen and set pen color
+    text: Now we define a `Pen` that determines the line’s appearance. Here we **set
+      pen color** to blue and choose a width of 2 pixels. You can replace `KnownColor.Blue`
+      with any other known color or a custom `Color.FromArgb` value.
+  - name: Draw the arc on bitmap
+    text: 'With the graphics surface and pen ready, we can **draw arc on bitmap**.
+      The parameters are: - `pen` – the styling we defined. - `0, 0` – the top‑left
+      corner of the bounding rectangle. - `700, 700` – width and height of the rectangle
+      (creates a perfect circle). - `0` – start angle in degrees. - `180`'
+  - name: Save the bitmap PNG
+    text: Load the bitmap into memory and call `Save` with a `.png` extension to **save
+      image PNG** to disk. Adjust the path to match your project’s output folder.
+      The saved file (`DrawArc_out.png`) contains the generated arc image, ready for
+      use in UI, reports, or further processing.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing fully supports .NET 6, .NET 7, and .NET 8 runtimes.
+    question: Does this work with .NET 6 and later?
+  - answer: The size is limited only by the available memory; for very large images
+      consider streaming or tiling techniques.
+    question: How large can the bitmap be?
+  - answer: Absolutely—just call `graphics.DrawArc` multiple times with different
+      coordinates or angles.
+    question: Can I draw multiple arcs on the same bitmap?
+  - answer: You can enable it by setting `graphics.SmoothingMode = SmoothingMode.AntiAlias;`
+      before drawing.
+    question: Is anti‑aliasing applied automatically?
+  - answer: Call `graphics.Dispose();` and `bitmap.Dispose();` when you’re done to
+      free native resources.
+    question: How do I release resources after saving?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: วิธีวาดโค้งด้วย Aspose.Drawing
+title: วิธีวาดโค้งและบันทึกภาพ PNG ด้วย Aspose.Drawing
 url: /th/net/lines-curves-and-shapes/draw-arc/
 weight: 11
 ---
-
- markdown formatting.
-
-Let's craft final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีวาดโค้งด้วย Aspose.Drawing
+# วิธีวาดส่วนโค้งและบันทึกภาพ PNG ด้วย Aspose.Drawing
 
-## คำนำ
+## บทนำ
 
-หากคุณต้องการ **วิธีวาดโค้ง** ในโครงการ .NET, Aspose.Drawing ทำให้กระบวนการเป็นเรื่องง่ายและมีประสิทธิภาพ ในบทแนะนำนี้เราจะอธิบายขั้นตอนการสร้าง bitmap ด้วย C#, ตั้งค่าสีของปากกา, สร้างภาพโค้ง, และสุดท้ายบันทึก bitmap เป็นไฟล์ PNG ไม่ว่าคุณจะกำลังสร้างเครื่องมือรายงาน, คอมโพเนนต์ UI แบบกำหนดเอง, หรือแค่ทดลองกับกราฟิก ขั้นตอนเหล่านี้จะให้พื้นฐานที่มั่นคงแก่คุณ
+หากคุณต้องการ **วาดส่วนโค้งและบันทึกภาพ PNG** ในโครงการ .NET, Aspose.Drawing ทำให้กระบวนการเป็นเรื่องง่ายและมีประสิทธิภาพสูง ในบทแนะนำนี้เราจะเดินผ่านการสร้าง bitmap ด้วย C#, ตั้งค่าสีเส้น, สร้างภาพส่วนโค้ง, และสุดท้ายบันทึก bitmap เป็นไฟล์ PNG ไม่ว่าคุณจะสร้างเครื่องมือรายงาน, คอมโพเนนต์ UI แบบกำหนดเอง, หรือเพียงแค่สำรวจกราฟิก, ขั้นตอนเหล่านี้จะให้พื้นฐานการวาดข้ามแพลตฟอร์มที่มั่นคง
 
-## คำตอบสั้น ๆ
-- **ไลบรารีที่ดีที่สุดสำหรับการวาดโค้งใน .NET คืออะไร?** Aspose.Drawing for .NET  
-- **เมธอดใดที่สร้างโค้ง?** `Graphics.DrawArc`  
-- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** ทดลองใช้ฟรีได้สำหรับการทดสอบ; จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานจริง  
-- **ฉันสามารถบันทึกผลลัพธ์เป็น PNG ได้หรือไม่?** ได้, ใช้ `Bitmap.Save` พร้อมส่วนขยาย `.png`  
-- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+## คำตอบสั้น
+- **ไลบรารีที่ดีที่สุดสำหรับวาดส่วนโค้งใน .NET คืออะไร?** Aspose.Drawing for .NET  
+- **เมธอดใดที่สร้างส่วนโค้ง?** `Graphics.DrawArc`  
+- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** ทดลองใช้ฟรีได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
+- **สามารถบันทึกผลลัพธ์เป็น PNG ได้หรือไม่?** ใช่—ใช้ `Bitmap.Save` พร้อมส่วนขยาย `.png` เพื่อ **บันทึกภาพ PNG**  
+- **รองรับเวอร์ชัน .NET ใดบ้าง?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
 
-## “วิธีวาดโค้ง” ใน Aspose.Drawing คืออะไร?
+## “วิธีวาดส่วนโค้ง” ใน Aspose.Drawing คืออะไร?
 
-การวาดโค้งหมายถึงการเรนเดอร์ส่วนโค้งของวงรีหรือวงกลมบนพื้นผิวกราฟิก Aspose.Drawing เปิดเผยเมธอด `Graphics.DrawArc` ที่คุ้นเคย, ให้คุณกำหนดสี่เหลี่ยมผูกขอบ, มุมเริ่มต้น, และมุมสวิงด้วยความแม่นยำระดับพิกเซล
+การวาดส่วนโค้งใน Aspose.Drawing หมายถึงการเรนเดอร์ส่วนหนึ่งของวงรีหรือวงกลมลงบน bitmap หรือพื้นผิวกราฟิกอื่น ๆ คุณจะโหลดอ็อบเจกต์ `Graphics` จาก `Bitmap`, ระบุสี่เหลี่ยมขอบ, มุมเริ่มต้น, และมุมสวิง, แล้วไลบรารีจะวาดส่วนโค้งด้วยความแม่นยำระดับพิกเซล  
+`Graphics.DrawArc` วาดส่วนโค้งของวงรีหรือวงกลมลงบนพื้นผิวกราฟิก
 
-## ทำไมต้องใช้ Aspose.Drawing สำหรับโค้ง?
+## ทำไมต้องใช้ Aspose.Drawing สำหรับส่วนโค้ง?
 
-- **ความสอดคล้องข้ามแพลตฟอร์ม** – ทำงานเหมือนกันบน Windows, Linux, และ macOS  
-- **ไม่มีการพึ่งพา System.Drawing.Common** – เหมาะสำหรับแอป .NET Core/5+ สมัยใหม่  
-- **API ที่ครบครัน** – ควบคุมสี, ความกว้างของเส้น, และรูปแบบภาพได้เต็มที่  
+Aspose.Drawing ให้การเรนเดอร์ที่สอดคล้องกันบน Windows, Linux, และ macOS โดยไม่พึ่งพา System.Drawing.Common, ทำให้เหมาะกับแอปพลิเคชัน .NET Core และ .NET 5+ สมัยใหม่ รองรับภาพความละเอียดสูง, การทำ anti‑aliasing, และชุดคำสั่งวาดที่หลากหลาย ทำให้ส่วนโค้งดูเรียบและแม่นยำไม่ว่าระบบปฏิบัติการใด
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
-
 - Visual Studio (รุ่นใดก็ได้ที่ทันสมัย)  
-- Aspose.Drawing for .NET – ดาวน์โหลดจาก [เว็บไซต์](https://releases.aspose.com/drawing/net/)  
-- ความรู้พื้นฐานของ C# (ตัวแปร, อ็อบเจ็กต์, และการเรียกเมธอด)  
+- Aspose.Drawing for .NET – ดาวน์โหลดจาก [website](https://releases.aspose.com/drawing/net/)  
+- ความรู้พื้นฐาน C# (ตัวแปร, อ็อบเจกต์, การเรียกเมธอด)  
 
 ## นำเข้า Namespaces
 
-เพื่อเริ่มต้น, นำ namespace ที่จำเป็นเข้ามาในสโคป:
+`Graphics` เป็นคลาสหลักที่ให้เมธอดวาดสำหรับพื้นผิว bitmap  
+
+`Bitmap` แทนภาพในหน่วยความจำที่คุณสามารถวาดลงไปได้  
+
+`Pen` กำหนดสไตล์เส้น, ความกว้าง, และสีสำหรับการวาด  
 
 ```csharp
 using System.Drawing;
 ```
 
-## คู่มือแบบขั้นตอน
+## คู่มือขั้นตอนโดยละเอียด
 
-### ขั้นตอนที่ 1: สร้างอ็อบเจ็กต์ bitmap C#
+### ขั้นตอนที่ 1: สร้างอ็อบเจกต์ bitmap C#
 
-เราจะสร้าง `Bitmap` ที่ทำหน้าที่เป็นผ้าใบสำหรับการวาดของเรา
+เราจะสร้าง `Bitmap` ที่ทำหน้าที่เป็นผืนผ้าใบสำหรับการวาดของเรา
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-*คำอธิบาย*: ขนาด bitmap (1000 × 800) ให้พื้นที่เพียงพอ, และรูปแบบพิกเซลรับประกันการผสมสีอัลฟ่าแบบคุณภาพสูง
+*คำอธิบาย*: ขนาด bitmap (1000 × 800) ให้พื้นที่เพียงพอ, และรูปแบบพิกเซลรับประกันการผสมสีแอลฟาที่มีคุณภาพสูง
 
-### ขั้นตอนที่ 2: ตั้งค่าปากกาและกำหนดสีปากกา
+### ขั้นตอนที่ 2: ตั้งค่า pen และกำหนดสี pen
 
-ต่อไปเราจะกำหนด `Pen` ที่กำหนดลักษณะของเส้น. ที่นี่เราจะ **ตั้งค่าสีปากกา** เป็นสีน้ำเงินและเลือกความกว้าง 2 พิกเซล
+ต่อไปเราจะกำหนด `Pen` ที่กำหนดลักษณะของเส้น ที่นี่เราจะ **ตั้งค่าสี pen** เป็นสีน้ำเงินและเลือกความกว้าง 2 พิกเซล
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
@@ -79,88 +131,95 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 
 คุณสามารถแทนที่ `KnownColor.Blue` ด้วยสีที่รู้จักอื่นหรือค่าที่กำหนดเองโดยใช้ `Color.FromArgb`
 
-### ขั้นตอนที่ 3: วาดโค้งบน bitmap
+### ขั้นตอนที่ 3: วาดส่วนโค้งบน bitmap
 
-เมื่อพื้นผิวกราฟิกและปากกาเตรียมพร้อม, เราสามารถ **วาดโค้งบน bitmap** ได้
+เมื่อพื้นผิวกราฟิกและ pen พร้อม, เราสามารถ **วาดส่วนโค้งบน bitmap** ได้
 
 ```csharp
 graphics.DrawArc(pen, 0, 0, 700, 700, 0, 180);
 ```
 
-พารามิเตอร์ประกอบด้วย:
+พารามิเตอร์มีดังนี้:
 
 - `pen` – สไตล์ที่เรากำหนดไว้  
-- `0, 0` – มุมบนซ้ายของสี่เหลี่ยมผูกขอบ  
+- `0, 0` – มุมซ้ายบนของสี่เหลี่ยมขอบ  
 - `700, 700` – ความกว้างและความสูงของสี่เหลี่ยม (สร้างวงกลมที่สมบูรณ์)  
 - `0` – มุมเริ่มต้นเป็นองศา  
-- `180` – มุมสวิง, สร้างโค้งครึ่งวงกลม  
+- `180` – มุมสวิง, สร้างส่วนโค้งครึ่งวงกลม  
 
 ### ขั้นตอนที่ 4: บันทึก bitmap เป็น PNG
 
-สุดท้าย, เราจะ **บันทึก bitmap เป็น PNG** ลงดิสก์ ปรับเส้นทางให้ตรงกับโฟลเดอร์เอาต์พุตของโครงการของคุณ
+โหลด bitmap เข้าหน่วยความจำและเรียก `Save` พร้อมส่วนขยาย `.png` เพื่อ **บันทึกภาพ PNG** ลงดิสก์ ปรับเส้นทางให้ตรงกับโฟลเดอร์เอาต์พุตของโครงการคุณ
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 ```
 
-ไฟล์ที่บันทึก (`DrawArc_out.png`) จะมีภาพโค้งที่สร้างขึ้น, พร้อมใช้งานใน UI, รายงาน, หรือการประมวลผลต่อไป
+ไฟล์ที่บันทึก (`DrawArc_out.png`) จะมีภาพส่วนโค้งที่สร้างขึ้น, พร้อมใช้ใน UI, รายงาน, หรือการประมวลผลต่อไป
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| **โค้งดูบิดเบี้ยว** | ตรวจสอบให้ค่าความกว้างและความสูงเท่ากันเพื่อให้ได้วงกลมที่แท้จริง; หากไม่เท่ากันจะได้โค้งรูปวงรี |
-| **เกิดข้อยกเว้นไฟล์ไม่พบ** | ยืนยันว่าไดเรกทอรีเป้าหมายมีอยู่หรือสร้างมันโดยโปรแกรมก่อนเรียก `Save` |
-| **สีแสดงผลต่างกันบน Linux** | ใช้ `Color.FromArgb` พร้อมค่ารหัส RGBA ชัดเจนเพื่อรับประกันการเรนเดอร์ที่สอดคล้องข้ามแพลตฟอร์ม |
+| **ส่วนโค้งดูบิดเบี้ยว** | ตรวจสอบให้ค่าความกว้างและความสูงเท่ากันเพื่อให้ได้วงกลมที่แท้จริง; หากไม่เท่ากันจะได้ส่วนโค้งรูปวงรี |
+| **เกิดข้อยกเว้น File not found** | ยืนยันว่าไดเรกทอรีเป้าหมายมีอยู่หรือสร้างมันโดยโปรแกรมก่อนเรียก `Save` |
+| **สีแสดงผลต่างกันบน Linux** | ใช้ `Color.FromArgb` พร้อมค่าระบุ RGBA อย่างชัดเจนเพื่อให้การเรนเดอร์สอดคล้องข้ามแพลตฟอร์ม |
 
-## คำถามที่พบบ่อย
+## คำถามที่พบบ่อย (FAQ's)
 
-### Q1: ฉันสามารถปรับสีของโค้งได้หรือไม่?
+### Q1: สามารถปรับสีของส่วนโค้งได้หรือไม่?
 
-A1: ได้, เพียงแก้ไขพารามิเตอร์สีเมื่อสร้างอ็อบเจ็กต์ `Pen`
+A1: ได้, เพียงแก้ไขพารามิเตอร์สีเมื่อสร้างอ็อบเจกต์ `Pen`
 
-### Q2: ถ้าฉันต้องการมุมเริ่มต้นที่ต่างออกไปสำหรับโค้งจะทำอย่างไร?
+### Q2: อยากเปลี่ยนมุมเริ่มต้นของส่วนโค้งต้องทำอย่างไร?
 
-A2: ปรับพารามิเตอร์มุมเริ่มต้นในเมธอด `DrawArc` ตามความต้องการของคุณ
+A2: ปรับค่ามุมเริ่มต้นในเมธอด `DrawArc` ตามความต้องการของคุณ
 
 ### Q3: Aspose.Drawing เหมาะกับองค์ประกอบกราฟิกอื่น ๆ หรือไม่?
 
 A3: แน่นอน, Aspose.Drawing รองรับองค์ประกอบกราฟิกหลากหลายรวมถึงเส้น, โค้ง, และรูปร่างต่าง ๆ
 
-### Q4: ฉันสามารถผสาน Aspose.Drawing กับไลบรารี .NET อื่น ๆ ได้หรือไม่?
+### Q4: สามารถรวม Aspose.Drawing กับไลบรารี .NET อื่นได้หรือไม่?
 
-A4: ได้, Aspose.Drawing สามารถผสานรวมกับไลบรารี .NET อื่น ๆ ได้อย่างราบรื่น, ให้ความยืดหยุ่นในการพัฒนา
+A4: ได้, Aspose.Drawing สามารถทำงานร่วมกับไลบรารี .NET อื่นได้อย่างราบรื่น, ให้ความยืดหยุ่นในการพัฒนา
 
-### Q5: ฉันจะหาแหล่งสนับสนุนเพิ่มเติมหรือการสนทนาชุมชนได้จากที่ไหน?
+### Q5: จะหาแหล่งสนับสนุนหรือชุมชนเพิ่มเติมได้จากที่ไหน?
 
-A5: เยี่ยมชม [ฟอรั่ม Aspose.Drawing](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนและการสนทนาจากชุมชน
+A5: เยี่ยมชม [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนและการสนทนาจากชุมชน
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย (Frequently Asked Questions)
 
-**Q: ทำงานกับ .NET 6 และรุ่นต่อไปได้หรือไม่?**  
-A: ได้, Aspose.Drawing รองรับ .NET 6, .NET 7, และ .NET 8 อย่างเต็มที่
+**Q: ทำงานได้กับ .NET 6 และรุ่นต่อไปหรือไม่?**  
+A: ใช่, Aspose.Drawing รองรับ .NET 6, .NET 7, และ .NET 8 อย่างเต็มที่
 
-**Q: ขนาดสูงสุดของ bitmap สามารถเป็นเท่าไหร่?**  
+**Q: bitmap สามารถใหญ่ได้มากแค่ไหน?**  
 A: ขนาดจำกัดเพียงตามหน่วยความจำที่มี; สำหรับภาพขนาดใหญ่มากควรพิจารณาเทคนิคสตรีมมิ่งหรือการแบ่งเป็นไทล์
 
-**Q: ฉันสามารถวาดหลายโค้งบน bitmap เดียวกันได้หรือไม่?**  
-A: แน่นอน—เรียก `graphics.DrawArc` หลายครั้งพร้อมพิกัดหรือมุมที่ต่างกัน
+**Q: สามารถวาดหลายส่วนโค้งบน bitmap เดียวได้หรือไม่?**  
+A: ได้, เพียงเรียก `graphics.DrawArc` หลายครั้งพร้อมพิกัดหรือมุมที่ต่างกัน
 
-**Q: มีการทำ anti‑alias โดยอัตโนมัติหรือไม่?**  
-A: คุณสามารถเปิดได้โดยตั้งค่า `graphics.SmoothingMode = SmoothingMode.AntiAlias;` ก่อนวาด
+**Q: มีการทำ anti‑aliasing โดยอัตโนมัติหรือไม่?**  
+A: สามารถเปิดได้โดยตั้งค่า `graphics.SmoothingMode = SmoothingMode.AntiAlias;` ก่อนวาด
 
-**Q: ฉันจะปล่อยทรัพยากรหลังจากบันทึกอย่างไร?**  
-A: เรียก `graphics.Dispose();` และ `bitmap.Dispose();` เมื่อทำเสร็จเพื่อคืนทรัพยากรเนทีฟ
+**Q: จะปล่อยทรัพยากรหลังจากบันทึกอย่างไร?**  
+A: เรียก `graphics.Dispose();` และ `bitmap.Dispose();` เมื่อเสร็จเพื่อคืนทรัพยากรเนทีฟ
 
 ## สรุป
 
-คุณได้เรียนรู้ **วิธีวาดโค้ง** ด้วย Aspose.Drawing ตั้งแต่การสร้างอ็อบเจ็กต์ bitmap C# ไปจนถึงการตั้งค่าสีปากกา, การสร้างภาพโค้ง, และการบันทึกผลลัพธ์เป็น PNG ทดลองปรับมุม, สี, และความกว้างของเส้นต่าง ๆ เพื่อสร้างกราฟิกที่กำหนดเองและเพิ่มคุณค่าให้กับแอปพลิเคชันของคุณ
+ตอนนี้คุณรู้ **วิธีวาดส่วนโค้งและบันทึกภาพ PNG** ด้วย Aspose.Drawing ตั้งแต่การสร้างอ็อบเจกต์ bitmap C#, การตั้งค่าสีเส้น, การสร้างส่วนโค้ง, และการบันทึกผลลัพธ์เป็นไฟล์ PNG ทดลองปรับมุม, สี, และความกว้างของเส้นเพื่อสร้างกราฟิกที่กำหนดเองและเพิ่มคุณค่าให้กับแอปพลิเคชันของคุณ
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-12  
+**อัปเดตล่าสุด:** 2026-05-29  
 **ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
-**ผู้เขียน:** Aspose  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [How to Draw Arcs and Other Shapes with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/)
+- [How to Draw Ellipse with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
+- [How to create bitmap aspose.drawing – Draw Polygons in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
