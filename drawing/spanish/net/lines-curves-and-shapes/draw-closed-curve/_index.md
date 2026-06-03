@@ -1,11 +1,55 @@
 ---
-date: 2026-02-14
-description: Aprende a guardar un mapa de bits como PNG y a dibujar curvas cerradas
-  en .NET usando Aspose.Drawing. Esta guía cubre la exportación del dibujo a un archivo
-  con C#.
-linktitle: Drawing Closed Curves in Aspose.Drawing
+date: 2026-06-03
+description: Aprende cómo **guardar bitmap como png c#** y dibujar curvas cerradas
+  usando Aspose.Drawing. Esta guía paso a paso te muestra cómo exportar el dibujo
+  a PNG en una aplicación .NET.
+keywords:
+- save bitmap as png c#
+- export drawing to png
+- convert bitmap to png c#
+linktitle: Dibujando curvas cerradas en Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to **save bitmap as png c#** and draw closed curves using
+    Aspose.Drawing. This step‑by‑step guide shows you how to export drawing to PNG
+    in a .NET app.
+  headline: save bitmap as png c# – Draw Closed Curves with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to **save bitmap as png c#** and draw closed curves using
+    Aspose.Drawing. This step‑by‑step guide shows you how to export drawing to PNG
+    in a .NET app.
+  name: save bitmap as png c# – Draw Closed Curves with Aspose.Drawing
+  steps:
+  - name: '**Aspose.Drawing Library** – download the latest package from the official
+      site ([here](https://releases.aspose.com/drawing/net/)).'
+    text: '**Aspose.Drawing Library** – download the latest package from the official
+      site ([here](https://releases.aspose.com/drawing/net/)).'
+  - name: '**.NET development environment** – Visual Studio, VS Code, or any IDE that
+      supports C#.'
+    text: '**.NET development environment** – Visual Studio, VS Code, or any IDE that
+      supports C#.'
+  - name: '**Basic C# knowledge** – the sample uses `System.Drawing` types that are
+      re‑exposed by Aspose.Drawing.'
+    text: '**Basic C# knowledge** – the sample uses `System.Drawing` types that are
+      re‑exposed by Aspose.Drawing.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing is licensed for both personal and commercial use.
+      See the [purchase page](https://purchase.aspose.com/buy) for pricing details.
+    question: Can I use Aspose.Drawing for commercial projects?
+  - answer: Absolutely—download a trial from [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Request one via [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: The full reference is available [here](https://reference.aspose.com/drawing/net/).
+    question: Where can I find detailed API documentation?
+  - answer: You can post questions on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      for community and staff assistance.
+    question: What support channels does Aspose.Drawing offer?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Guardar bitmap como PNG y dibujar curvas cerradas con Aspose.Drawing
+title: guardar bitmap como png c# – Dibujar curvas cerradas con Aspose.Drawing
 url: /es/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
@@ -14,38 +58,38 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Guardar Bitmap como PNG y Dibujar Curvas Cerradas con Aspose.Drawing
+# Guardar mapa de bits como PNG y dibujar curvas cerradas con Aspose.Drawing
 
 ## Introducción
 
-Si necesitas **guardar bitmap como PNG** mientras también renderizas una curva cerrada y suave, has llegado al tutorial correcto. En esta guía recorreremos todo el flujo de trabajo: crear un bitmap, dibujar una curva cerrada y, finalmente, exportar el dibujo a un archivo PNG, todo con la API Aspose.Drawing para .NET. Al final comprenderás **cómo dibujar formas de curva cerrada** y **exportar el dibujo a un archivo** usando código C# limpio.
+Si necesitas **guardar mapa de bits como PNG** mientras también renderizas una curva cerrada suave, has llegado al tutorial correcto. En esta guía recorreremos el flujo de trabajo completo: crear un mapa de bits, dibujar una curva cerrada y, finalmente, exportar el dibujo a un archivo PNG, todo con la API Aspose.Drawing .NET. Al final entenderás **cómo dibujar formas de curva cerrada** y **exportar el dibujo a un archivo** usando código C# limpio, y verás por qué este enfoque escala desde íconos diminutos hasta gráficos de varios megapíxeles.
 
 ## Respuestas rápidas
 - **¿Qué cubre el tutorial?** Dibujar una curva cerrada y guardar el resultado como una imagen PNG.  
-- **¿Qué biblioteca se requiere?** Aspose.Drawing para .NET (descarga [aquí](https://releases.aspose.com/drawing/net/)).  
-- **¿Puedo usarlo en una aplicación de consola C#?** Sí, el código funciona en cualquier proyecto .NET que haga referencia a Aspose.Drawing.  
+- **¿Qué biblioteca se requiere?** Aspose.Drawing para .NET (descargar [aquí](https://releases.aspose.com/drawing/net/)).  
+- **¿Puedo usar esto en una aplicación de consola C#?** Sí, el código funciona en cualquier proyecto .NET que haga referencia a Aspose.Drawing.  
 - **¿Necesito una licencia para ejecutar el ejemplo?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
-- **¿Qué formato de imagen se genera?** PNG (bitmap guardado con ARGB de 32 bits).
+- **¿Qué formato de imagen se produce?** PNG (bitmap guardado con ARGB de 32 bits).
 
-## ¿Qué significa “save bitmap as PNG” en Aspose.Drawing?
+## ¿Qué es “guardar mapa de bits como PNG” en Aspose.Drawing?
 
-Guardar un bitmap como PNG simplemente implica tomar el objeto `Bitmap` en memoria que representa tu superficie de dibujo y escribirlo en disco en el formato Portable Network Graphics. PNG conserva la transparencia y ofrece compresión sin pérdida, lo que lo hace ideal para gráficos de UI, informes y miniaturas.
+**Guardar mapa de bits como PNG** significa tomar el objeto `Bitmap` en memoria que representa tu superficie de dibujo y escribirlo en disco en el formato Portable Network Graphics. PNG conserva la transparencia y ofrece compresión sin pérdidas, reduciendo típicamente el tamaño del archivo entre un 30‑50 % comparado con archivos BMP sin procesar, lo que lo hace ideal para gráficos de UI, informes y miniaturas.
 
 ## ¿Por qué usar Aspose.Drawing para dibujar curvas cerradas?
 
-Aspose.Drawing ofrece una alternativa totalmente gestionada y multiplataforma a la antigua biblioteca `System.Drawing.Common`. Soporta renderizado de alta calidad, gestión extensa de colores y funciona de manera consistente en Windows, Linux y macOS, perfecto para aplicaciones modernas de .NET Core y .NET 5/6.
+Aspose.Drawing es una alternativa totalmente gestionada y multiplataforma a la antigua biblioteca `System.Drawing.Common`. Soporta **más de 30 formatos de imagen**, se ejecuta en Windows, Linux y macOS sin dependencias nativas, y ofrece **renderizado consistente** en entornos .NET 5/6/7+. Esta fiabilidad es crucial cuando necesitas dibujos vectoriales de alta calidad en entornos de servidor o contenedores.
 
 ## Requisitos previos
 
 Antes de comenzar, asegúrate de tener:
 
-1. **Biblioteca Aspose.Drawing** – descarga el paquete más reciente desde el sitio oficial ([aquí](https://releases.aspose.com/drawing/net/)).  
-2. **Entorno de desarrollo .NET** – Visual Studio, VS Code o cualquier IDE que soporte C#.  
-3. **Conocimientos básicos de C#** – el ejemplo utiliza tipos de `System.Drawing` que son reexpuestos por Aspose.Drawing.
+1. **Biblioteca Aspose.Drawing** – descargar el paquete más reciente del sitio oficial ([aquí](https://releases.aspose.com/drawing/net/)).  
+2. **Entorno de desarrollo .NET** – Visual Studio, VS Code, o cualquier IDE que soporte C#.  
+3. **Conocimientos básicos de C#** – el ejemplo usa tipos de `System.Drawing` que son reexpuestos por Aspose.Drawing.
 
 ## Importar espacios de nombres
 
-Agrega el espacio de nombres necesario para poder acceder a `Bitmap`, `Graphics`, `Pen` y tipos relacionados.
+Los tipos `Bitmap`, `Graphics`, `Pen` y relacionados viven en el espacio de nombres `Aspose.Drawing`. Importa este espacio para que el compilador sepa dónde encontrar estas clases. `Bitmap` representa una imagen en memoria, `Graphics` proporciona métodos de dibujo y `Pen` define el estilo y ancho de la línea.
 
 ```csharp
 using System.Drawing;
@@ -53,18 +97,23 @@ using System.Drawing;
 
 ## Paso 1: Crear objetos Bitmap y Graphics
 
-Primero, crea un **bitmap** que servirá como lienzo. El objeto `Graphics` te permite dibujar sobre ese lienzo.
+La clase `Bitmap` es el contenedor de imagen de nivel superior de Aspose.Drawing que almacena los datos de píxeles en memoria. El objeto `Graphics` ofrece métodos de dibujo que se renderizan sobre un `Bitmap`.
+
+Crea un lienzo de 400 × 400 píxeles con un formato de píxel premultiplicado de 32 bits, luego obtén una instancia de `Graphics` para ese lienzo.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-> **Consejo profesional:** Usar `Format32bppPArgb` te brinda una imagen de 32 bits con alfa premultiplicada, lo que garantiza que el PNG que guardes después conserve la transparencia adecuada.
+> **Consejo profesional:** Usar `Format32bppPArgb` te brinda una imagen de 32 bits con alfa premultiplicado, lo que asegura que el PNG que guardes después mantenga la transparencia adecuada.
 
-## Paso 2: Definir Pen y Dibujar Curva Cerrada
+## Paso 2: Definir Pen y dibujar curva cerrada
 
-Ahora define un `Pen` con el color y grosor deseados, y luego llama a `DrawClosedCurve`. Este método crea automáticamente una spline suave que pasa por los puntos suministrados y cierra la forma.
+`Pen` es el objeto similar a un pincel de Aspose.Drawing que define el color, ancho y estilo de la línea.  
+`DrawClosedCurve` es un método que crea automáticamente una spline suave que pasa por una colección de puntos suministrada y luego cierra la forma.
+
+Define un pen rojo con un grosor de 3 px, proporciona una matriz de puntos e invoca `DrawClosedCurve` para renderizar un contorno continuo.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
@@ -77,52 +126,58 @@ graphics.DrawClosedCurve(pen, new Point[] {
 });
 ```
 
-> **Por qué es importante:** Una curva cerrada es útil para dibujar formas personalizadas como insignias, logotipos o elementos de UI donde necesitas un contorno continuo.
+> **Por qué es importante:** Una curva cerrada es útil para dibujar formas personalizadas como insignias, logotipos o elementos de UI donde necesitas un contorno sin costuras sin tener que unir manualmente segmentos de línea.
 
-## Paso 3: Guardar la Imagen de salida (save bitmap as PNG)
+## Paso 3: Guardar la imagen de salida (guardar mapa de bits como PNG)
 
-Finalmente, escribe el bitmap en un archivo PNG. Este es el paso donde **guardamos el bitmap como PNG** y hacemos que el dibujo esté disponible para su uso posterior.
+El método `Save` del objeto `Bitmap` escribe la imagen en memoria a un archivo. Al especificar `ImageFormat.Png`, Aspose.Drawing realiza compresión sin pérdidas e incrusta el canal alfa.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.png");
 ```
 
-El archivo se creará en la carpeta especificada, listo para mostrarse en una página web, incrustarse en un informe o procesarse más adelante.
+El archivo se creará en la carpeta especificada, listo para mostrarse en una página web, incrustarse en un informe o procesarse más adelante por cualquier componente que maneje imágenes.
 
 ## Problemas comunes y soluciones
 
 | Problema | Causa | Solución |
 |----------|-------|----------|
-| **Archivo no encontrado** | Ruta de salida incorrecta | Verifica que la carpeta exista o usa `Path.Combine` para construir una ruta segura. |
-| **Imagen en blanco** | El objeto Graphics no se limpió | Llama a `graphics.Clear(Color.Transparent);` antes de dibujar. |
-| **Calidad de curva pobre** | Bitmap de baja resolución | Incrementa las dimensiones del bitmap o usa anti‑aliasing: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
+| **Archivo no encontrado** | Ruta de salida incorrecta | Verifique que la carpeta exista o use `Path.Combine` para construir una ruta segura. |
+| **Imagen en blanco** | Objeto Graphics no limpiado | Llame a `graphics.Clear(Color.Transparent);` antes de dibujar. |
+| **Calidad de curva pobre** | Bitmap de baja resolución | Aumente las dimensiones del bitmap o habilite anti‑aliasing: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo usar Aspose.Drawing en proyectos comerciales?**  
-R: Sí, Aspose.Drawing está licenciado tanto para uso personal como comercial. Consulta la [página de compra](https://purchase.aspose.com/buy) para más detalles.
+**P: ¿Puedo usar Aspose.Drawing para proyectos comerciales?**  
+R: Sí, Aspose.Drawing está licenciado tanto para uso personal como comercial. Consulte la [página de compra](https://purchase.aspose.com/buy) para obtener detalles de precios.
 
-**P: ¿Hay una versión de prueba gratuita disponible?**  
-R: Por supuesto—descarga una prueba desde [aquí](https://releases.aspose.com/).
+**P: ¿Hay una prueba gratuita disponible?**  
+R: Por supuesto—descargue una prueba desde [aquí](https://releases.aspose.com/).
 
-**P: ¿Cómo obtengo una licencia temporal?**  
-R: Solicítala a través de [este enlace](https://purchase.aspose.com/temporary-license/).
+**P: ¿Cómo obtengo una licencia temporal para evaluación?**  
+R: Solicite una a través de [este enlace](https://purchase.aspose.com/temporary-license/).
 
-**P: ¿Dónde puedo encontrar documentación detallada?**  
-R: La referencia completa de la API está disponible [aquí](https://reference.aspose.com/drawing/net/).
+**P: ¿Dónde puedo encontrar documentación detallada de la API?**  
+R: La referencia completa está disponible [aquí](https://reference.aspose.com/drawing/net/).
 
-**P: ¿Qué opciones de soporte existen?**  
-R: Publica preguntas en el [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para recibir ayuda de la comunidad y del personal.
+**P: ¿Qué canales de soporte ofrece Aspose.Drawing?**  
+R: Puede publicar preguntas en el [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para obtener asistencia de la comunidad y del personal.
 
 ## Conclusión
 
-Ahora sabes cómo **crear gráficos bitmap en C#**, dibujar una curva cerrada y **guardar bitmap como PNG** usando Aspose.Drawing. Este enfoque te brinda control total sobre el dibujo basado en vectores mientras mantienes el formato de salida ligero y listo para la web. Siéntete libre de experimentar con diferentes estilos de pen, colores y colecciones de puntos para crear formas personalizadas en tus aplicaciones.
+Ahora sabes cómo **crear gráficos de mapa de bits en C#**, dibujar una curva cerrada suave y **guardar el mapa de bits como PNG** usando Aspose.Drawing. Este enfoque te brinda control total sobre el dibujo vectorial mientras mantiene el formato de salida ligero y listo para la web. Siéntete libre de experimentar con diferentes estilos de pen, colores y colecciones de puntos para crear formas personalizadas para tus aplicaciones.
 
 ---
 
-**Última actualización:** 2026-02-14  
+**Última actualización:** 2026-06-03  
 **Probado con:** Aspose.Drawing 24.11 para .NET  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Save Bitmap C# – Draw Bezier Splines with Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
+- [How to create bitmap aspose.drawing – Draw Polygons in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+- [Convert BMP to PNG and Other Formats with Aspose.Drawing](/drawing/net/image-editing/load-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

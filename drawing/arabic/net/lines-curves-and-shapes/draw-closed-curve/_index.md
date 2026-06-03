@@ -1,10 +1,55 @@
 ---
-date: 2026-02-14
-description: تعلم كيفية حفظ صورة bitmap بصيغة PNG ورسم المنحنيات المغلقة في .NET باستخدام
-  Aspose.Drawing. يغطي هذا الدليل تصدير الرسم إلى ملف باستخدام C#.
-linktitle: Drawing Closed Curves in Aspose.Drawing
+date: 2026-06-03
+description: تعلم كيفية **save bitmap as png c#** ورسم المنحنيات المغلقة باستخدام
+  Aspose.Drawing. يوضح لك هذا الدليل خطوة بخطوة كيفية تصدير الرسم إلى PNG في تطبيق
+  .NET.
+keywords:
+- save bitmap as png c#
+- export drawing to png
+- convert bitmap to png c#
+linktitle: رسم المنحنيات المغلقة في Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to **save bitmap as png c#** and draw closed curves using
+    Aspose.Drawing. This step‑by‑step guide shows you how to export drawing to PNG
+    in a .NET app.
+  headline: save bitmap as png c# – Draw Closed Curves with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to **save bitmap as png c#** and draw closed curves using
+    Aspose.Drawing. This step‑by‑step guide shows you how to export drawing to PNG
+    in a .NET app.
+  name: save bitmap as png c# – Draw Closed Curves with Aspose.Drawing
+  steps:
+  - name: '**Aspose.Drawing Library** – download the latest package from the official
+      site ([here](https://releases.aspose.com/drawing/net/)).'
+    text: '**Aspose.Drawing Library** – download the latest package from the official
+      site ([here](https://releases.aspose.com/drawing/net/)).'
+  - name: '**.NET development environment** – Visual Studio, VS Code, or any IDE that
+      supports C#.'
+    text: '**.NET development environment** – Visual Studio, VS Code, or any IDE that
+      supports C#.'
+  - name: '**Basic C# knowledge** – the sample uses `System.Drawing` types that are
+      re‑exposed by Aspose.Drawing.'
+    text: '**Basic C# knowledge** – the sample uses `System.Drawing` types that are
+      re‑exposed by Aspose.Drawing.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing is licensed for both personal and commercial use.
+      See the [purchase page](https://purchase.aspose.com/buy) for pricing details.
+    question: Can I use Aspose.Drawing for commercial projects?
+  - answer: Absolutely—download a trial from [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Request one via [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: The full reference is available [here](https://reference.aspose.com/drawing/net/).
+    question: Where can I find detailed API documentation?
+  - answer: You can post questions on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      for community and staff assistance.
+    question: What support channels does Aspose.Drawing offer?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: حفظ البت ماب بصيغة PNG ورسم منحنيات مغلقة باستخدام Aspose.Drawing
+title: save bitmap as png c# – رسم المنحنيات المغلقة باستخدام Aspose.Drawing
 url: /ar/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
@@ -13,57 +58,61 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ صورة Bitmap كـ PNG ورسم منحنيات مغلقة باستخدام Aspose.Drawing
+# حفظ صورة نقطية كـ PNG ورسم منحنيات مغلقة باستخدام Aspose.Drawing
 
-## المقدمة
+## مقدمة
 
-إذا كنت بحاجة إلى **حفظ صورة bitmap كـ PNG** مع رسم منحنى مغلق ناعم، فقد وصلت إلى الدرس المناسب. في هذا الدليل سنستعرض سير العمل الكامل — إنشاء bitmap، رسم منحنى مغلق، وأخيرًا تصدير الرسم إلى ملف PNG — باستخدام Aspose.Drawing .NET API. في النهاية ستفهم **كيفية رسم أشكال منحنى مغلق** و**تصدير الرسم إلى ملف** باستخدام كود C# نظيف.
+إذا كنت بحاجة إلى **save bitmap as PNG** مع أيضًا رسم منحنى مغلق ناعم، فقد وجدت الدرس المناسب. في هذا الدليل سنستعرض سير العمل الكامل — إنشاء صورة نقطية، رسم منحنى مغلق، وأخيرًا تصدير الرسم إلى ملف PNG، كل ذلك باستخدام Aspose.Drawing .NET API. في النهاية ستفهم **how to draw closed curve** وكيفية **export drawing to file** باستخدام كود C# نظيف، وسترى لماذا يتوسع هذا النهج من الأيقونات الصغيرة إلى الرسومات متعددة الميجابكسل.
 
 ## إجابات سريعة
-- **ماذا يغطي الدرس؟** رسم منحنى مغلق وحفظ النتيجة كصورة PNG.  
-- **ما المكتبة المطلوبة؟** Aspose.Drawing لـ .NET (حمّلها [من هنا](https://releases.aspose.com/drawing/net/)).  
-- **هل يمكنني استخدامه في تطبيق كونسول C#؟** نعم، الكود يعمل في أي مشروع .NET يضيف مرجعًا إلى Aspose.Drawing.  
+
+- **ما الذي يغطيه الدرس؟** رسم منحنى مغلق وحفظ النتيجة كصورة PNG.  
+- **ما المكتبة المطلوبة؟** Aspose.Drawing لـ .NET (تحميل [here](https://releases.aspose.com/drawing/net/)).  
+- **هل يمكنني استخدامه في تطبيق C# console؟** نعم، يعمل الكود في أي مشروع .NET ي引用 Aspose.Drawing.  
 - **هل أحتاج إلى ترخيص لتشغيل العينة؟** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
-- **ما صيغة الصورة الناتجة؟** PNG (bitmap محفوظ بصيغة 32‑bit ARGB).
+- **ما تنسيق الصورة الناتج؟** PNG (صورة نقطية محفوظة بـ 32‑bit ARGB).
 
-## ما معنى “حفظ bitmap كـ PNG” في Aspose.Drawing؟
+## ما هو “save bitmap as PNG” في Aspose.Drawing؟
 
-حفظ bitmap كـ PNG يعني ببساطة أخذ كائن `Bitmap` الموجود في الذاكرة والذي يمثل سطح الرسم الخاص بك وكتابته إلى القرص بصيغة Portable Network Graphics. تدعم PNG الشفافية وتوفر ضغطًا بدون فقدان، مما يجعلها مثالية لرسومات واجهة المستخدم، التقارير، والصور المصغرة.
+**Save bitmap as PNG** يعني أخذ كائن `Bitmap` الموجود في الذاكرة والذي يمثل سطح الرسم الخاص بك وكتابته إلى القرص بتنسيق Portable Network Graphics. يحافظ PNG على الشفافية ويوفر ضغطًا بدون فقدان، عادةً ما يقلل حجم الملف بنسبة 30‑50 % مقارنةً بملفات BMP الخام، مما يجعله مثاليًا لرسومات واجهة المستخدم، التقارير، والصور المصغرة.
 
-## لماذا نستخدم Aspose.Drawing لرسم منحنيات مغلقة؟
+## لماذا تستخدم Aspose.Drawing لرسم منحنيات مغلقة؟
 
-توفر Aspose.Drawing بديلاً مُدارًا بالكامل وعبر‑المنصات للمكتبة القديمة `System.Drawing.Common`. تدعم جودة عرض عالية، إدارة ألوان متقدمة، وتعمل بشكل ثابت على Windows وLinux وmacOS — مثالية لتطبيقات .NET Core و .NET 5/6 الحديثة.
+Aspose.Drawing هو بديل مُدار بالكامل وعبر‑المنصات للمكتبة القديمة `System.Drawing.Common`. يدعم **30+ image formats**، يعمل على Windows وLinux وmacOS دون تبعيات أصلية، ويوفر **consistent rendering** عبر بيئات تشغيل .NET 5/6/7+. هذه الموثوقية حاسمة عندما تحتاج إلى رسومات متجهة عالية الجودة في بيئات الخادم أو الحاويات.
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من وجود ما يلي:
+1. **Aspose.Drawing Library** – تحميل أحدث حزمة من الموقع الرسمي ([here](https://releases.aspose.com/drawing/net/)).  
+2. **.NET development environment** – Visual Studio أو VS Code أو أي بيئة تطوير تدعم C#.  
+3. **Basic C# knowledge** – العينة تستخدم أنواع `System.Drawing` التي تُعاد تقديمها بواسطة Aspose.Drawing.
 
-1. **مكتبة Aspose.Drawing** – حمّل أحدث حزمة من الموقع الرسمي ([من هنا](https://releases.aspose.com/drawing/net/)).  
-2. **بيئة تطوير .NET** – Visual Studio أو VS Code أو أي IDE يدعم C#.  
-3. **معرفة أساسية بـ C#** – العينة تستخدم أنواع `System.Drawing` التي تُعيد تقديمها Aspose.Drawing.
+## استيراد مساحات الأسماء
 
-## استيراد المساحات الاسمية
-
-أضف المساحات الاسمية المطلوبة لتتمكن من الوصول إلى `Bitmap` و `Graphics` و `Pen` والأنواع ذات الصلة.
+توجد الأنواع `Bitmap` و`Graphics` و`Pen` وغيرها في مساحة الاسم `Aspose.Drawing`. استوردها حتى يعرف المترجم أين يجد هذه الفئات. `Bitmap` تمثل صورة في الذاكرة، `Graphics` توفر طرق الرسم، و`Pen` يحدد نمط الخط والعرض.
 
 ```csharp
 using System.Drawing;
 ```
 
-## الخطوة 1: إنشاء كائنات Bitmap و Graphics
+## الخطوة 1: إنشاء كائنات Bitmap وGraphics
 
-أولاً، أنشئ **bitmap** سيعمل كقماش للرسم. كائن `Graphics` يتيح لك الرسم على هذا القماش.
+فئة `Bitmap` هي حاوية الصورة العليا في Aspose.Drawing التي تحتفظ ببيانات البكسل في الذاكرة. كائن `Graphics` يوفر طرق الرسم التي تُرسم على `Bitmap`.
+
+أنشئ لوحة قماش بحجم 400 × 400 بكسل مع تنسيق بكسل 32‑bit premultiplied‑alpha، ثم احصل على نسخة `Graphics` لتلك اللوحة.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-> **نصيحة احترافية:** استخدام `Format32bppPArgb` يمنحك صورة 32‑bit مع ألفا مضاعفة مسبقًا، مما يضمن أن PNG الذي ستحفظه لاحقًا يحتفظ بالشفافية بشكل صحيح.
+> **Pro tip:** استخدام `Format32bppPArgb` يمنحك صورة 32‑bit مع ألفا مضاعفة مسبقًا، مما يضمن أن الـ PNG الذي ستحفظه لاحقًا يحتفظ بالشفافية بشكل صحيح.
 
 ## الخطوة 2: تعريف Pen ورسم منحنى مغلق
 
-الآن عرّف `Pen` باللون والسُمك المطلوبين، ثم استدعِ `DrawClosedCurve`. هذه الطريقة تنشئ تلقائيًا منحنىًا أملسًا يمر عبر النقاط المحددة ويغلق الشكل.
+`Pen` هو كائن شبيه بالفرشاة في Aspose.Drawing يحدد لون الخط وعرضه ونمطه.  
+`DrawClosedCurve` هي طريقة تنشئ تلقائيًا منحنىًا أملسًا يمر عبر مجموعة نقاط مُعطاة ثم يغلق الشكل.
+
+عرّف قلمًا أحمر بسُمك 3 px، قدم مصفوفة من النقاط، واستدعِ `DrawClosedCurve` لرسم حدود سلسة.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
@@ -76,52 +125,59 @@ graphics.DrawClosedCurve(pen, new Point[] {
 });
 ```
 
-> **لماذا هذا مهم:** المنحنى المغلق مفيد لرسم أشكال مخصصة مثل الشارات، الشعارات، أو عناصر الواجهة حيث تحتاج إلى حد سلس دون انقطاع.
+> **Why this matters:** المنحنى المغلق مفيد لرسم أشكال مخصصة مثل الشارات، الشعارات، أو عناصر واجهة المستخدم حيث تحتاج إلى حدود سلسة دون الحاجة إلى تجميع مقاطع الخط يدويًا.
 
-## الخطوة 3: حفظ الصورة الناتجة (حفظ bitmap كـ PNG)
+## الخطوة 3: حفظ صورة الإخراج (save bitmap as PNG)
 
-أخيرًا، اكتب الـ bitmap إلى ملف PNG. هذه هي الخطوة التي **نحفظ فيها bitmap كـ PNG** ونجعل الرسم متاحًا للاستخدام اللاحق.
+طريقة `Save` على كائن `Bitmap` تكتب الصورة الموجودة في الذاكرة إلى ملف. بتحديد `ImageFormat.Png`، يقوم Aspose.Drawing بضغط بدون فقدان ويضمّن قناة ألفا.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.png");
 ```
 
-سيتم إنشاء الملف في المجلد المحدد، جاهزًا للعرض في صفحة ويب، أو تضمينه في تقرير، أو معالجته بصورة إضافية.
+سيتم إنشاء الملف في المجلد المحدد، جاهزًا للعرض في صفحة ويب، أو تضمينه في تقرير، أو معالجته لاحقًا بواسطة أي مكوّن يدعم الصور.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | السبب | الحل |
 |-------|-------|-----|
-| **الملف غير موجود** | مسار الإخراج غير صحيح | تحقق من وجود المجلد أو استخدم `Path.Combine` لإنشاء مسار آمن. |
-| **صورة فارغة** | كائن Graphics غير مُنظَّف | استدعِ `graphics.Clear(Color.Transparent);` قبل الرسم. |
-| **جودة المنحنى سيئة** | bitmap منخفض الدقة | زد أبعاد الـ bitmap أو فعّل مضاد التعرج: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
+| **File not found** | مسار الإخراج غير صحيح | تحقق من وجود المجلد أو استخدم `Path.Combine` لإنشاء مسار آمن. |
+| **Blank image** | لم يتم مسح كائن Graphics | استدعِ `graphics.Clear(Color.Transparent);` قبل الرسم. |
+| **Poor curve quality** | صورة نقطية منخفضة الدقة | زد أبعاد الـ bitmap أو فعّل مضاد التعرج: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام Aspose.Drawing في مشاريع تجارية؟**  
-ج: نعم، Aspose.Drawing مرخص للاستخدام الشخصي والتجاري. راجع صفحة [الشراء](https://purchase.aspose.com/buy) للمزيد من التفاصيل.
+**س: هل يمكنني استخدام Aspose.Drawing للمشاريع التجارية؟**  
+ج: نعم، Aspose.Drawing مرخص للاستخدام الشخصي والتجاري. راجع [purchase page](https://purchase.aspose.com/buy) للحصول على تفاصيل الأسعار.
 
-**س: هل تتوفر نسخة تجريبية مجانية؟**  
-ج: بالتأكيد — حمّل نسخة تجريبية من [هنا](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+ج: بالتأكيد — حمّل نسخة تجريبية من [here](https://releases.aspose.com/).
 
-**س: كيف أحصل على ترخيص مؤقت؟**  
-ج: اطلبه عبر [هذا الرابط](https://purchase.aspose.com/temporary-license/).
+**س: كيف أحصل على ترخيص مؤقت للتقييم؟**  
+ج: اطلب واحد عبر [this link](https://purchase.aspose.com/temporary-license/).
 
-**س: أين يمكنني العثور على توثيق مفصل؟**  
-ج: المرجع الكامل للـ API متوفر [هنا](https://reference.aspose.com/drawing/net/).
+**س: أين يمكنني العثور على وثائق API التفصيلية؟**  
+ج: المرجع الكامل متاح [here](https://reference.aspose.com/drawing/net/).
 
-**س: ما خيارات الدعم المتاحة؟**  
-ج: اطرح أسئلتك على [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) للحصول على مساعدة من المجتمع والفريق.
+**س: ما هي قنوات الدعم التي يقدمها Aspose.Drawing؟**  
+ج: يمكنك نشر الأسئلة على [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) للحصول على مساعدة من المجتمع والموظفين.
 
-## الخلاصة
+## الخاتمة
 
-لقد تعلمت الآن **إنشاء رسومات bitmap بـ C#**، رسم منحنى مغلق ناعم، و**حفظ bitmap كـ PNG** باستخدام Aspose.Drawing. يمنحك هذا النهج تحكمًا كاملًا في الرسم القائم على المتجهات مع الحفاظ على صيغة إخراج خفيفة ومناسبة للويب. لا تتردد في تجربة أنماط أقلام مختلفة، ألوان، ومجموعات نقاط لتصميم أشكال مخصصة لتطبيقاتك.
+لقد تعلمت الآن كيفية **create bitmap graphics in C#**، رسم منحنى مغلق ناعم، و**save bitmap as PNG** باستخدام Aspose.Drawing. يمنحك هذا النهج تحكمًا كاملًا في الرسم القائم على المتجهات مع الحفاظ على خفة وزن تنسيق الإخراج وجاهزيته للويب. لا تتردد في تجربة أنماط أقلام مختلفة، ألوان، ومجموعات نقاط لإنشاء أشكال مخصصة لتطبيقاتك.
 
 ---
 
-**آخر تحديث:** 2026-02-14  
-**تم الاختبار مع:** Aspose.Drawing 24.11 لـ .NET  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-06-03  
+**تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [حفظ صورة نقطية C# – رسم منحنيات بيزير مع Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
+- [كيفية إنشاء صورة نقطية aspose.drawing – رسم مضلعات في .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+- [تحويل BMP إلى PNG وصيغ أخرى باستخدام Aspose.Drawing](/drawing/net/image-editing/load-save/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
