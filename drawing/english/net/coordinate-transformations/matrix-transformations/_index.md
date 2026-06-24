@@ -5,7 +5,13 @@ second_title: "Aspose.Drawing .NET API - Alternative to System.Drawing.Common"
 description: "Learn this matrix transformation tutorial for Aspose.Drawing .NET, covering how to draw rotated rectangle, apply matrix rotation, and perform matrix scaling C#."
 weight: 12
 url: /net/coordinate-transformations/matrix-transformations/
-date: 2025-11-29
+date: 2026-05-03
+keywords:
+- matrix transformation tutorial
+- draw rotated rectangle
+- cross platform drawing
+- matrix rotation c#
+- c# graphics matrix
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -31,7 +37,7 @@ A matrix transformation tutorial explains how to use a 3 × 3 transformation
 
 ## Why use Aspose.Drawing for matrix transformations?
 
-- **Cross‑platform compatibility** – works on Windows, Linux, and macOS without the System.Drawing.Common limitations.  
+- **Cross‑platform drawing** – works on Windows, Linux, and macOS without the System.Drawing.Common limitations.  
 - **High‑performance rendering** – optimized for large images and complex vector operations.  
 - **Full .NET API coverage** – identical to GDI+ concepts, making migration painless.
 
@@ -56,6 +62,8 @@ using System.Drawing.Drawing2D;
 These namespaces give you access to `Bitmap`, `Graphics`, and the `Matrix` class needed for transformations.
 
 ## Step‑by‑Step Guide
+
+Below is a concise, numbered walkthrough. Each step includes a brief explanation followed by the exact code you’ll need (the code blocks are unchanged from the original tutorial).
 
 ### Step 1: Set Up the Canvas
 
@@ -148,7 +156,7 @@ You’ve now completed a full **matrix transformation tutorial** using Aspose.Dr
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-05-03  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
