@@ -143,15 +143,15 @@ R: Il ritaglio è leggero; Aspose.Drawing utilizza ottimizzazioni native GDI+, q
 ## Conclusione
 Hai ora padroneggiato come **impostare la regione di ritaglio**, **ritagliare contenuti di immagine**, applicare **rendering di testo personalizzato** e **salvare file di immagine ritagliata** usando Aspose.Drawing per .NET. Queste tecniche ti offrono un controllo granulare sull'output grafico, consentendo effetti visivi sofisticati con poche righe di codice. Esplora ulteriormente combinando il ritaglio con gradienti, pattern o input dinamico dell'utente per creare grafiche davvero interattive.
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose

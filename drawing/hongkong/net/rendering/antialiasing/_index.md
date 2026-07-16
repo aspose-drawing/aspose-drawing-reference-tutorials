@@ -122,15 +122,15 @@ bitmap.Save("Your Document Directory" + @"Rendering\Antialiasing_out.png");
 
 **A5：** 文件可於 [here](https://reference.aspose.com/drawing/net/) 取得，內含完整說明與範例，協助您充分發揮 Aspose.Drawing 的功能。
 
+---
+
+**最後更新：** 2026-02-22  
+**測試環境：** Aspose.Drawing 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-22  
-**測試環境：** Aspose.Drawing 24.11 for .NET  
-**作者：** Aspose

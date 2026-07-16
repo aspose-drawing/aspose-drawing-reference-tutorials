@@ -142,13 +142,6 @@ A: Ořezávání je lehké; Aspose.Drawing využívá nativní optimalizace GDI+
 ## Závěr
 Nyní ovládáte **nastavení ořezové oblasti**, **ořezávání obsahu obrázku**, aplikaci **vlastního vykreslování textu** a **ukládání oříznutých souborů** pomocí Aspose.Drawing pro .NET. Tyto techniky vám poskytují jemnou kontrolu nad grafickým výstupem a umožňují vytvářet sofistikované vizuální efekty pouhými několika řádky kódu. Dále experimentujte s kombinací ořezů, gradientů, vzorů nebo dynamického vstupu uživatele a vytvořte skutečně interaktivní grafiku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-02-22  
@@ -156,3 +149,10 @@ Nyní ovládáte **nastavení ořezové oblasti**, **ořezávání obsahu obráz
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

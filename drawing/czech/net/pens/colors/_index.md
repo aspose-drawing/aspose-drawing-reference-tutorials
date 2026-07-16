@@ -41,7 +41,7 @@ Nastavení barvy pera znamená přiřadit hodnotu `Color` objektu `Pen` před kr
 
 Než se pustíme do kódu, ujistěte se, že máte:
 
-1. **Knihovnu Aspose.Drawing** – stáhněte a nainstalujte z oficiálního webu **[zde](https://releases.aspose.com/drawing/net/)**.  
+1. **Knihovnu Aspose.Drawing** – stáhněte a nainstalujte z oficiálního webu **[zde](https://releases.aspose.com/drawing/net/) **.  
 2. **Vývojové prostředí .NET** – Visual Studio, VS Code nebo jakékoli IDE dle vašeho výběru.  
 3. **Základní znalosti C#** – orientace v třídách, objektech a jmenných prostorech.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: Ano, Aspose.Drawing se bez problémů integruje s ostatními .NET knihovnami a poskytuje všestranné prostředí pro manipulaci s grafikou.
 
 **Q: Jak získám dočasnou licenci pro Aspose.Drawing?**  
-A: Dočasnou licenci můžete získat **[zde](https://purchase.aspose.com/temporary-license/)**, což vám umožní prozkoumat plný potenciál Aspose.Drawing.
+A: Dočasnou licenci můžete získat **[zde](https://purchase.aspose.com/temporary-license/) **, což vám umožní prozkoumat plný potenciál Aspose.Drawing.
 
 **Q: Podporuje Aspose.Drawing formáty obrázků kromě PNG?**  
 A: Ano, Aspose.Drawing podporuje různé formáty obrázků, včetně JPEG, GIF, BMP a dalších. Kompletní seznam najdete v dokumentaci.
@@ -118,11 +118,11 @@ A: Ano, Aspose.Drawing podporuje různé formáty obrázků, včetně JPEG, GIF,
 A: Rozhodně! Aspose.Drawing je univerzální a může být používán jak v desktopových, tak ve webových aplikacích, čímž přidává dynamické grafické funkce vašim webům.
 
 **Q: Je k dispozici bezplatná zkušební verze Aspose.Drawing?**  
-A: Ano, bezplatnou zkušební verzi můžete vyzkoušet **[zde](https://releases.aspose.com/drawing/net/)**, což vám umožní vyzkoušet schopnosti Aspose.Drawing před zakoupením.
+A: Ano, bezplatnou zkušební verzi můžete vyzkoušet **[zde](https://releases.aspose.com/drawing/net/) **, což vám umožní vyzkoušet schopnosti Aspose.Drawing před zakoupením.
 
 ## Závěr
 
-V tomto tutoriálu jsme si ukázali, jak **nastavit barvu pera**, **kreslit barevné čáry**, **vytvořit grafický objekt** a **uložit výsledek jako PNG** pomocí Aspose.Drawing pro .NET. Tyto základy otevírají dveře k pokročilejším scénářům, jako je kreslení tvarů, vykreslování textu a dynamické generování grafů. Pokud narazíte na potíže, podívejte se do **[dokumentace Aspose.Drawing](https://reference.aspose.com/drawing/net/)** a **[fóra podpory](https://forum.aspose.com/c/drawing/44)** – jsou to výborná místa, kde najdete odpovědi.
+V tomto tutoriálu jsme si ukázali, jak **nastavit barvu pera**, **kreslit barevné čáry**, **vytvořit grafický objekt** a **uložit výsledek jako PNG** pomocí Aspose.Drawing pro .NET. Tyto základy otevírají dveře k pokročilejším scénářům, jako je kreslení tvarů, vykreslování textu a dynamické generování grafů. Pokud narazíte na potíže, podívejte se do **[dokumentace Aspose.Drawing](https://reference.aspose.com/drawing/net/) ** a **[fóra podpory](https://forum.aspose.com/c/drawing/44) ** – jsou to výborná místa, kde najdete odpovědi.
 
 ---
 

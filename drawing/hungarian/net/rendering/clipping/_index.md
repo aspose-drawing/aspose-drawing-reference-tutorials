@@ -142,15 +142,15 @@ V: A vágás könnyű; az Aspose.Drawing natív GDI+ optimalizációkat használ
 ## Következtetés
 Most már elsajátította, hogyan **állítsa be a vágási területet**, **vágja le a kép** tartalmát, alkalmazzon **egyéni szövegmegjelenítést**, és **mentse a vágott képet** az Aspose.Drawing for .NET segítségével. Ezek a technikák finom kontrollt biztosítanak a grafikai kimenet felett, lehetővé téve kifinomult vizuális hatások létrehozását néhány kódsorral. Fedezze fel tovább a vágás kombinálását színátmenetekkel, mintákkal vagy dinamikus felhasználói bemenettel, hogy valóban interaktív grafikákat hozzon létre.
 
+---
+
+**Utolsó frissítés:** 2026-02-22  
+**Tesztelve:** Aspose.Drawing 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-02-22  
-**Tesztelve:** Aspose.Drawing 24.11 for .NET  
-**Szerző:** Aspose

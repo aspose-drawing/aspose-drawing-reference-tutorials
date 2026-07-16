@@ -41,7 +41,7 @@ Mengatur warna pena berarti menetapkan nilai `Color` ke objek `Pen` sebelum meng
 
 Sebelum kita menyelami kode, pastikan Anda memiliki:
 
-1. **Aspose.Drawing Library** – unduh dan instal dari situs resmi **[here](https://releases.aspose.com/drawing/net/)**.  
+1. **Aspose.Drawing Library** – unduh dan instal dari situs resmi **[here](https://releases.aspose.com/drawing/net/) **.  
 2. **Lingkungan pengembangan .NET** – Visual Studio, VS Code, atau IDE apa pun yang Anda sukai.  
 3. **Pengetahuan dasar C#** – familiaritas dengan kelas, objek, dan namespace.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: Ya, Aspose.Drawing terintegrasi mulus dengan perpustakaan .NET lain, menyediakan lingkungan yang serbaguna untuk manipulasi grafis.
 
 **Q: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Drawing?**  
-A: Anda dapat mendapatkan lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)**, memungkinkan Anda menjelajahi potensi penuh Aspose.Drawing.
+A: Anda dapat mendapatkan lisensi sementara **[here](https://purchase.aspose.com/temporary-license/) **, memungkinkan Anda menjelajahi potensi penuh Aspose.Drawing.
 
 **Q: Apakah Aspose.Drawing mendukung format gambar selain PNG?**  
 A: Ya, Aspose.Drawing mendukung berbagai format gambar, termasuk JPEG, GIF, BMP, dan lainnya. Lihat dokumentasi untuk daftar lengkap.
@@ -118,11 +118,11 @@ A: Ya, Aspose.Drawing mendukung berbagai format gambar, termasuk JPEG, GIF, BMP,
 A: Tentu saja! Aspose.Drawing serbaguna dan dapat digunakan baik dalam aplikasi desktop maupun web, menambahkan fitur grafis dinamis ke situs web Anda.
 
 **Q: Apakah ada percobaan gratis untuk Aspose.Drawing?**  
-A: Ya, Anda dapat menjelajahi percobaan gratis **[here](https://releases.aspose.com/drawing/net/)**, memungkinkan Anda merasakan kemampuan Aspose.Drawing sebelum melakukan pembelian.
+A: Ya, Anda dapat menjelajahi percobaan gratis **[here](https://releases.aspose.com/drawing/net/) **, memungkinkan Anda merasakan kemampuan Aspose.Drawing sebelum melakukan pembelian.
 
 ## Kesimpulan
 
-Dalam tutorial ini kami membahas cara **mengatur warna pena**, **menggambar garis berwarna**, **membuat objek graphics**, dan **menyimpan hasil sebagai PNG** menggunakan Aspose.Drawing untuk .NET. Dasar‑dasar ini membuka pintu ke skenario yang lebih maju seperti menggambar bentuk, merender teks, dan menghasilkan diagram secara dinamis. Jika Anda menghadapi tantangan, **[documentation](https://reference.aspose.com/drawing/net/)** dan **[support forum](https://forum.aspose.com/c/drawing/44)** Aspose.Drawing adalah tempat yang sangat baik untuk menemukan jawaban.
+Dalam tutorial ini kami membahas cara **mengatur warna pena**, **menggambar garis berwarna**, **membuat objek graphics**, dan **menyimpan hasil sebagai PNG** menggunakan Aspose.Drawing untuk .NET. Dasar‑dasar ini membuka pintu ke skenario yang lebih maju seperti menggambar bentuk, merender teks, dan menghasilkan diagram secara dinamis. Jika Anda menghadapi tantangan, **[documentation](https://reference.aspose.com/drawing/net/) ** dan **[support forum](https://forum.aspose.com/c/drawing/44) ** Aspose.Drawing adalah tempat yang sangat baik untuk menemukan jawaban.
 
 ---
 

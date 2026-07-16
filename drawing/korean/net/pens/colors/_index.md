@@ -41,7 +41,7 @@ Aspose.Drawing for .NET을 사용하여 그릴 때 **펜 색상 설정**에 대�
 
 코드를 진행하기 전에 다음을 준비하세요:
 
-1. **Aspose.Drawing 라이브러리** – 공식 사이트 **[here](https://releases.aspose.com/drawing/net/)**에서 다운로드 및 설치합니다.  
+1. **Aspose.Drawing 라이브러리** – 공식 사이트 **[here](https://releases.aspose.com/drawing/net/) **에서 다운로드 및 설치합니다.  
 2. **.NET 개발 환경** – Visual Studio, VS Code 또는 선호하는 IDE.  
 3. **기본 C# 지식** – 클래스, 객체, 네임스페이스에 익숙해야 합니다.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: 예, Aspose.Drawing은 다른 .NET 라이브러리와 원활히 통합되어 그래픽 조작을 위한 다목적 환경을 제공합니다.
 
 **Q: Aspose.Drawing 임시 라이선스는 어떻게 얻나요?**  
-A: **[here](https://purchase.aspose.com/temporary-license/)**에서 임시 라이선스를 받아 Aspose.Drawing의 전체 기능을 탐색할 수 있습니다.
+A: **[here](https://purchase.aspose.com/temporary-license/) **에서 임시 라이선스를 받아 Aspose.Drawing의 전체 기능을 탐색할 수 있습니다.
 
 **Q: PNG 외에 다른 이미지 포맷을 지원하나요?**  
 A: 예, Aspose.Drawing은 JPEG, GIF, BMP 등 다양한 이미지 포맷을 지원합니다. 전체 목록은 문서를 참고하세요.
@@ -118,11 +118,11 @@ A: 예, Aspose.Drawing은 JPEG, GIF, BMP 등 다양한 이미지 포맷을 지�
 A: 물론입니다! Aspose.Drawing은 데스크톱 및 웹 애플리케이션 모두에서 사용 가능하며, 웹 사이트에 동적 그래픽 기능을 추가할 수 있습니다.
 
 **Q: Aspose.Drawing 무료 체험판이 있나요?**  
-A: 예, **[here](https://releases.aspose.com/drawing/net/)**에서 무료 체험판을 다운로드하여 구매 전 기능을 체험할 수 있습니다.
+A: 예, **[here](https://releases.aspose.com/drawing/net/) **에서 무료 체험판을 다운로드하여 구매 전 기능을 체험할 수 있습니다.
 
 ## 결론
 
-이 튜토리얼에서는 **펜 색상 설정**, **색상이 있는 선 그리기**, **Graphics 객체 생성**, 그리고 Aspose.Drawing for .NET을 사용해 **PNG로 결과 저장**하는 방법을 다루었습니다. 이러한 기본기를 바탕으로 도형 그리기, 텍스트 렌더링, 차트 동적 생성 등 더 복잡한 시나리오에도 도전할 수 있습니다. 문제가 발생하면 Aspose.Drawing **[documentation](https://reference.aspose.com/drawing/net/)** 및 **[support forum](https://forum.aspose.com/c/drawing/44)**을 참고하세요.
+이 튜토리얼에서는 **펜 색상 설정**, **색상이 있는 선 그리기**, **Graphics 객체 생성**, 그리고 Aspose.Drawing for .NET을 사용해 **PNG로 결과 저장**하는 방법을 다루었습니다. 이러한 기본기를 바탕으로 도형 그리기, 텍스트 렌더링, 차트 동적 생성 등 더 복잡한 시나리오에도 도전할 수 있습니다. 문제가 발생하면 Aspose.Drawing **[documentation](https://reference.aspose.com/drawing/net/) ** 및 **[support forum](https://forum.aspose.com/c/drawing/44) **을 참고하세요.
 
 ---
 

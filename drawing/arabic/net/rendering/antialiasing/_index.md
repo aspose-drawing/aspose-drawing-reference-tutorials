@@ -9,13 +9,7 @@ url: /ar/net/rendering/antialiasing/
 weight: 11
 ---
 
-02-22", "Tested With: Aspose.Drawing 24.11 for .NET", "Author: Aspose". Translate labels but keep dates.
-
-Probably translate "Last Updated" => "آخر تحديث". "Tested With" => "تم الاختبار باستخدام". "Author" => "المؤلف". Keep date.
-
-Make sure to keep the markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -130,15 +124,15 @@ A4: يمكنك زيارة [منتدى Aspose.Drawing](https://forum.aspose.com/c
 
 A5: الوثائق متاحة [هنا](https://reference.aspose.com/drawing/net/)، وتوفر معلومات شاملة وأمثلة لمساعدتك على الاستفادة القصوى من Aspose.Drawing.
 
+---
+
+**آخر تحديث:** 2026-02-22  
+**تم الاختبار باستخدام:** Aspose.Drawing 24.11 لـ .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-22  
-**تم الاختبار باستخدام:** Aspose.Drawing 24.11 لـ .NET  
-**المؤلف:** Aspose

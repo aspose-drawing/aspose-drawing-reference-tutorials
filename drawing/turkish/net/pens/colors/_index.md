@@ -42,7 +42,7 @@ Kalem rengini ayarlamak, çizim yapmadan önce bir `Pen` nesnesine bir `Color` d
 
 Kodlamaya başlamadan önce şunların kurulu olduğundan emin olun:
 
-1. **Aspose.Drawing Kütüphanesi** – resmi siteden **[buradan](https://releases.aspose.com/drawing/net/)** indirin ve kurun.  
+1. **Aspose.Drawing Kütüphanesi** – resmi siteden **[buradan](https://releases.aspose.com/drawing/net/) ** indirin ve kurun.  
 2. **.NET geliştirme ortamı** – Visual Studio, VS Code veya tercih ettiğiniz herhangi bir IDE.  
 3. **Temel C# bilgisi** – sınıflar, nesneler ve ad alanları konusunda temel bir anlayış.
 
@@ -110,7 +110,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 C: Evet, Aspose.Drawing diğer .NET kütüphaneleriyle sorunsuz bir şekilde bütünleşir ve grafik manipülasyonu için çok yönlü bir ortam sunar.
 
 **S: Aspose.Drawing için geçici bir lisans nasıl alınır?**  
-C: **[Buradan](https://purchase.aspose.com/temporary-license/)** geçici bir lisans alabilirsiniz; bu sayede Aspose.Drawing’in tam potansiyelini keşfedebilirsiniz.
+C: **[Buradan](https://purchase.aspose.com/temporary-license/) ** geçici bir lisans alabilirsiniz; bu sayede Aspose.Drawing’in tam potansiyelini keşfedebilirsiniz.
 
 **S: Aspose.Drawing PNG dışındaki görüntü formatlarını destekliyor mu?**  
 C: Evet, Aspose.Drawing JPEG, GIF, BMP ve daha fazlası dahil olmak üzere çeşitli görüntü formatlarını destekler. Tam liste için dokümantasyona bakın.
@@ -119,11 +119,11 @@ C: Evet, Aspose.Drawing JPEG, GIF, BMP ve daha fazlası dahil olmak üzere çeş
 C: Kesinlikle! Aspose.Drawing hem masaüstü hem de web uygulamalarında kullanılabilir; web sitelerinize dinamik grafik özellikleri eklemenizi sağlar.
 
 **S: Aspose.Drawing için ücretsiz deneme sürümü var mı?**  
-C: Evet, **[buradan](https://releases.aspose.com/drawing/net/)** ücretsiz bir deneme sürümü deneyebilir, satın almadan önce Aspose.Drawing’in yeteneklerini test edebilirsiniz.
+C: Evet, **[buradan](https://releases.aspose.com/drawing/net/) ** ücretsiz bir deneme sürümü deneyebilir, satın almadan önce Aspose.Drawing’in yeteneklerini test edebilirsiniz.
 
 ## Sonuç
 
-Bu öğreticide **kalem rengini ayarlama**, **renkli çizgiler çizme**, **graphics nesnesi oluşturma** ve **sonucu PNG olarak kaydetme** konularını Aspose.Drawing for .NET ile ele aldık. Bu temeller, şekil çizme, metin render etme ve dinamik grafikler oluşturma gibi daha ileri senaryoların kapısını açar. Zorluklarla karşılaşırsanız, Aspose.Drawing **[dokümantasyonu](https://reference.aspose.com/drawing/net/)** ve **[destek forumu](https://forum.aspose.com/c/drawing/44)** mükemmel kaynaklardır.
+Bu öğreticide **kalem rengini ayarlama**, **renkli çizgiler çizme**, **graphics nesnesi oluşturma** ve **sonucu PNG olarak kaydetme** konularını Aspose.Drawing for .NET ile ele aldık. Bu temeller, şekil çizme, metin render etme ve dinamik grafikler oluşturma gibi daha ileri senaryoların kapısını açar. Zorluklarla karşılaşırsanız, Aspose.Drawing **[dokümantasyonu](https://reference.aspose.com/drawing/net/) ** ve **[destek forumu](https://forum.aspose.com/c/drawing/44) ** mükemmel kaynaklardır.
 
 ---
 

@@ -9,13 +9,7 @@ url: /nl/net/rendering/antialiasing/
 weight: 11
 ---
 
- "Author:" -> "**Auteur:**".
-
-Now produce final content with all translations.
-
-Check for any stray spaces. Ensure code block placeholders remain unchanged.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -124,15 +118,15 @@ A4: Je kunt het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) be
 ### Q5: Waar kan ik de documentatie voor Aspose.Drawing vinden?
 A5: De documentatie is beschikbaar [hier](https://reference.aspose.com/drawing/net/), met uitgebreide informatie en voorbeelden om je te helpen het maximale uit Aspose.Drawing te halen.
 
+---
+
+**Laatst bijgewerkt:** 2026-02-22  
+**Getest met:** Aspose.Drawing 24.11 for .NET  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-22  
-**Getest met:** Aspose.Drawing 24.11 for .NET  
-**Auteur:** Aspose

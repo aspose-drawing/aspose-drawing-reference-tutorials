@@ -9,12 +9,6 @@ url: /hu/net/rendering/antialiasing/
 weight: 11
 ---
 
-Last Updated" and "Tested With" and "Author"? Probably yes, as they are text. But they are not URLs. So translate to Hungarian: "Utolsó frissítés:", "Tesztelve:", "Szerző:".
-
-Make sure to keep bold formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -129,15 +123,15 @@ A4: Látogasson el az [Aspose.Drawing Fórumra](https://forum.aspose.com/c/drawi
 
 A5: A dokumentáció elérhető [itt](https://reference.aspose.com/drawing/net/), átfogó információkat és példákat tartalmazva, hogy a legtöbbet hozhassa ki az Aspose.Drawing-ból.
 
+---
+
+**Utolsó frissítés:** 2026-02-22  
+**Tesztelve:** Aspose.Drawing 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-02-22  
-**Tesztelve:** Aspose.Drawing 24.11 for .NET  
-**Szerző:** Aspose

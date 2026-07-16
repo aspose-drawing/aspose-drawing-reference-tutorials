@@ -142,13 +142,6 @@ C: Kesme hafiftir; Aspose.Drawing yerel GDI+ optimizasyonlarını kullanır, tip
 ## Sonuç
 Artık **kesme bölgesi ayarlama**, **görüntüyü kırpma**, **özel metin render'ı** uygulama ve **kırpılmış görüntüyü kaydetme** konularında Aspose.Drawing for .NET ile uzmanlaştınız. Bu teknikler, grafik çıktısı üzerinde ince ayar yapmanızı sağlar ve sadece birkaç satır kodla sofistike görsel efektler oluşturmanıza imkan tanır. Kırpmayı degrade, desen veya dinamik kullanıcı girişi ile birleştirerek gerçekten etkileşimli grafikler yaratmaya devam edin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2026-02-22  
@@ -156,3 +149,10 @@ Artık **kesme bölgesi ayarlama**, **görüntüyü kırpma**, **özel metin ren
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

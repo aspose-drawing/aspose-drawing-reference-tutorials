@@ -9,9 +9,7 @@ url: /it/net/rendering/antialiasing/
 weight: 11
 ---
 
- they appear.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -126,15 +124,15 @@ A4: Puoi visitare il [Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/4
 
 A5: La documentazione è disponibile [qui](https://reference.aspose.com/drawing/net/), fornendo informazioni complete ed esempi per aiutarti a sfruttare al meglio Aspose.Drawing.
 
+---
+
+**Ultimo Aggiornamento:** 2026-02-22  
+**Testato Con:** Aspose.Drawing 24.11 per .NET  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2026-02-22  
-**Testato Con:** Aspose.Drawing 24.11 per .NET  
-**Autore:** Aspose

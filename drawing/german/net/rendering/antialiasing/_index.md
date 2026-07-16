@@ -9,17 +9,7 @@ url: /de/net/rendering/antialiasing/
 weight: 11
 ---
 
-Getestet mit:"
-
-"Author:" -> "Autor:"
-
-But keep dates and version unchanged.
-
-Now produce final content.
-
-Make sure to keep all shortcodes exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -133,15 +123,15 @@ A4: Sie können das [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44
 
 A5: Die Dokumentation ist [hier](https://reference.aspose.com/drawing/net/) verfügbar und bietet umfassende Informationen sowie Beispiele, die Ihnen helfen, das Beste aus Aspose.Drawing herauszuholen.
 
+---
+
+**Zuletzt aktualisiert:** 2026-02-22  
+**Getestet mit:** Aspose.Drawing 24.11 für .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-02-22  
-**Getestet mit:** Aspose.Drawing 24.11 für .NET  
-**Autor:** Aspose

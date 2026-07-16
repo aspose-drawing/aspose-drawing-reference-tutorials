@@ -9,11 +9,7 @@ url: /vi/net/rendering/antialiasing/
 weight: 11
 ---
 
-Make sure to keep backticks.
-
-Now ensure all shortcodes remain.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -127,15 +123,15 @@ A4: Bạn có thể truy cập [Diễn đàn Aspose.Drawing](https://forum.aspos
 
 A5: Tài liệu có sẵn [tại đây](https://reference.aspose.com/drawing/net/), cung cấp thông tin chi tiết và các ví dụ giúp bạn tận dụng tối đa Aspose.Drawing.
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose

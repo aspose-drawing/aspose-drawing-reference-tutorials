@@ -123,15 +123,15 @@ bitmap.Save("Your Document Directory" + @"Rendering\Antialiasing_out.png");
 
 Η τεκμηρίωση είναι διαθέσιμη [εδώ](https://reference.aspose.com/drawing/net/), παρέχοντας ολοκληρωμένες πληροφορίες και παραδείγματα για να αξιοποιήσετε στο έπακρο το Aspose.Drawing.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-22  
+**Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-22  
-**Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
-**Συγγραφέας:** Aspose

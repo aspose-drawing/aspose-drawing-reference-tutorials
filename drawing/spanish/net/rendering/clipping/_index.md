@@ -10,12 +10,6 @@ url: /es/net/rendering/clipping/
 weight: 12
 ---
 
- to "Autor:".
-
-Make sure to keep the markdown separators.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -148,13 +142,6 @@ R: El recorte es ligero; Aspose.Drawing utiliza optimizaciones nativas de GDI+, 
 ## Conclusión
 Ahora dominas cómo **establecer una región de recorte**, **recortar contenido de imagen**, aplicar **renderizado de texto personalizado**, y **guardar archivos de imagen recortados** usando Aspose.Drawing para .NET. Estas técnicas te brindan un control granular sobre la salida gráfica, permitiendo efectos visuales sofisticados con solo unas pocas líneas de código. Explora más combinando recortes con degradados, patrones o entrada dinámica del usuario para crear gráficos verdaderamente interactivos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-02-22  
@@ -162,3 +149,10 @@ Ahora dominas cómo **establecer una región de recorte**, **recortar contenido 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -41,7 +41,7 @@ Ustawienie koloru pióra oznacza przypisanie wartości `Color` do obiektu `Pen` 
 
 Zanim przejdziemy do kodu, upewnij się, że masz:
 
-1. **Bibliotekę Aspose.Drawing** – pobierz i zainstaluj z oficjalnej strony **[tutaj](https://releases.aspose.com/drawing/net/)**.  
+1. **Bibliotekę Aspose.Drawing** – pobierz i zainstaluj z oficjalnej strony **[tutaj](https://releases.aspose.com/drawing/net/) **.  
 2. **Środowisko programistyczne .NET** – Visual Studio, VS Code lub dowolne IDE, które preferujesz.  
 3. **Podstawową znajomość C#** – znajomość klas, obiektów i przestrzeni nazw.  
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 O: Tak, Aspose.Drawing płynnie integruje się z innymi bibliotekami .NET, zapewniając wszechstronne środowisko do manipulacji grafiką.
 
 **P: Jak mogę uzyskać tymczasową licencję na Aspose.Drawing?**  
-O: Tymczasową licencję możesz uzyskać **[tutaj](https://purchase.aspose.com/temporary-license/)**, co pozwala na poznanie pełnego potencjału Aspose.Drawing.
+O: Tymczasową licencję możesz uzyskać **[tutaj](https://purchase.aspose.com/temporary-license/) **, co pozwala na poznanie pełnego potencjału Aspose.Drawing.
 
 **P: Czy Aspose.Drawing obsługuje formaty obrazów inne niż PNG?**  
 O: Tak, Aspose.Drawing obsługuje różne formaty obrazów, w tym JPEG, GIF, BMP i inne. Zapoznaj się z dokumentacją, aby zobaczyć pełną listę.
@@ -118,11 +118,11 @@ O: Tak, Aspose.Drawing obsługuje różne formaty obrazów, w tym JPEG, GIF, BMP
 O: Zdecydowanie! Aspose.Drawing jest wszechstronny i może być używany zarówno w aplikacjach desktopowych, jak i webowych, dodając dynamiczne funkcje graficzne do Twoich stron internetowych.
 
 **P: Czy dostępna jest darmowa wersja próbna Aspose.Drawing?**  
-O: Tak, możesz wypróbować darmową wersję **[tutaj](https://releases.aspose.com/drawing/net/)**, co pozwala na zapoznanie się z możliwościami Aspose.Drawing przed zakupem.
+O: Tak, możesz wypróbować darmową wersję **[tutaj](https://releases.aspose.com/drawing/net/) **, co pozwala na zapoznanie się z możliwościami Aspose.Drawing przed zakupem.
 
 ## Podsumowanie
 
-W tym samouczku omówiliśmy, jak **ustawić kolor pióra**, **rysować kolorowe linie**, **utworzyć obiekt graficzny** oraz **zapisać wynik jako PNG** przy użyciu Aspose.Drawing dla .NET. Te podstawy otwierają drzwi do bardziej zaawansowanych scenariuszy, takich jak rysowanie kształtów, renderowanie tekstu i dynamiczne generowanie wykresów. Jeśli napotkasz problemy, **[dokumentacja](https://reference.aspose.com/drawing/net/)** i **[forum wsparcia](https://forum.aspose.com/c/drawing/44)** Aspose.Drawing są doskonałymi miejscami, aby znaleźć odpowiedzi.
+W tym samouczku omówiliśmy, jak **ustawić kolor pióra**, **rysować kolorowe linie**, **utworzyć obiekt graficzny** oraz **zapisać wynik jako PNG** przy użyciu Aspose.Drawing dla .NET. Te podstawy otwierają drzwi do bardziej zaawansowanych scenariuszy, takich jak rysowanie kształtów, renderowanie tekstu i dynamiczne generowanie wykresów. Jeśli napotkasz problemy, **[dokumentacja](https://reference.aspose.com/drawing/net/) ** i **[forum wsparcia](https://forum.aspose.com/c/drawing/44) ** Aspose.Drawing są doskonałymi miejscami, aby znaleźć odpowiedzi.
 
 ---
 

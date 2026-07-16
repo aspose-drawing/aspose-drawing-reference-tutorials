@@ -10,26 +10,6 @@ url: /vi/net/rendering/clipping/
 weight: 12
 ---
 
- block placeholders, etc.
-
-We must translate headings and content. Also tables.
-
-We need to keep the shortcodes at top and bottom.
-
-Let's produce final content.
-
-Check for any URLs: none.
-
-We need to keep code block placeholders as they are.
-
-Proceed translation.
-
-Be careful with bullet points.
-
-Translate sentences.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -162,13 +142,6 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## Kết luận
 Bạn đã nắm vững cách **đặt vùng cắt**, **cắt nội dung hình ảnh**, áp dụng **kết xuất văn bản tùy chỉnh**, và **lưu các tệp hình ảnh đã cắt** bằng Aspose.Drawing cho .NET. Những kỹ thuật này cung cấp cho bạn khả năng kiểm soát chi tiết đầu ra đồ họa, cho phép tạo ra các hiệu ứng hình ảnh tinh vi chỉ với vài dòng mã. Hãy khám phá thêm bằng cách kết hợp clipping với gradient, mẫu, hoặc đầu vào người dùng động để tạo ra các đồ họa thực sự tương tác.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-02-22  
@@ -176,3 +149,10 @@ Bạn đã nắm vững cách **đặt vùng cắt**, **cắt nội dung hình �
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

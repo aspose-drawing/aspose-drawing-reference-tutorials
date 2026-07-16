@@ -140,15 +140,15 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## 結論
 您現在已掌握如何 **set clipping region**、**clip image** 內容、套用 **custom text rendering**，以及 **save clipped image** 檔案的完整流程。這些技巧讓您能對圖形輸出進行細緻控制，只需幾行程式碼即可實現高階視覺效果。進一步探索時，可將裁剪與漸層、圖案或動態使用者輸入結合，打造真正互動的圖形作品。
 
+---
+
+**最後更新：** 2026-02-22  
+**測試於：** Aspose.Drawing 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-22  
-**測試於：** Aspose.Drawing 24.11 for .NET  
-**作者：** Aspose

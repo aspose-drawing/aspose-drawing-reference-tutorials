@@ -41,7 +41,7 @@ A toll színének beállítása azt jelenti, hogy egy `Color` értéket rendelü
 
 Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következőkkel rendelkezik:
 
-1. **Aspose.Drawing Library** – töltse le és telepítse a hivatalos oldalról **[itt](https://releases.aspose.com/drawing/net/)**.  
+1. **Aspose.Drawing Library** – töltse le és telepítse a hivatalos oldalról **[itt](https://releases.aspose.com/drawing/net/) **.  
 2. **.NET fejlesztői környezet** – Visual Studio, VS Code vagy bármely kedvenc IDE.  
 3. **Alapvető C# ismeretek** – osztályok, objektumok és névterek használata.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 V: Igen, az Aspose.Drawing zökkenőmentesen integrálható más .NET könyvtárakkal, így sokoldalú környezetet biztosít a grafikus manipulációhoz.
 
 **K: Hogyan szerezhetek ideiglenes licencet az Aspose.Drawing‑hoz?**  
-V: Ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/)** kaphat, amely lehetővé teszi az Aspose.Drawing teljes potenciáljának felfedezését.
+V: Ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/) ** kaphat, amely lehetővé teszi az Aspose.Drawing teljes potenciáljának felfedezését.
 
 **K: Támogatja az Aspose.Drawing más képformátumokat is a PNG‑en kívül?**  
 V: Igen, az Aspose.Drawing számos formátumot támogat, többek között JPEG, GIF, BMP és továbbiakat. A teljes listáért tekintse meg a dokumentációt.
@@ -118,11 +118,11 @@ V: Igen, az Aspose.Drawing számos formátumot támogat, többek között JPEG, 
 V: Teljes mértékben! Az Aspose.Drawing rugalmas, és használható asztali és webalkalmazásokban egyaránt, dinamikus grafikus funkciókat adva weboldalaihoz.
 
 **K: Van ingyenes próba verzió az Aspose.Drawing‑ból?**  
-V: Igen, egy ingyenes próbát **[itt](https://releases.aspose.com/drawing/net/)** érhet el, amely lehetővé teszi az Aspose.Drawing képességeinek kipróbálását vásárlás előtt.
+V: Igen, egy ingyenes próbát **[itt](https://releases.aspose.com/drawing/net/) ** érhet el, amely lehetővé teszi az Aspose.Drawing képességeinek kipróbálását vásárlás előtt.
 
 ## Összegzés
 
-Ebben a tutorialban megtanultuk, hogyan **állítsuk be a toll színét**, **rajzoljunk színes vonalakat**, **hozzunk létre egy graphics objektumot**, és **mentsük el az eredményt PNG‑ként** az Aspose.Drawing for .NET segítségével. Ezek az alapok kaput nyitnak a fejlettebb szcenáriók felé, mint például alakzatok rajzolása, szöveg renderelése és dinamikus diagramok generálása. Ha problémába ütközik, az Aspose.Drawing **[dokumentációja](https://reference.aspose.com/drawing/net/)** és a **[támogatási fórum](https://forum.aspose.com/c/drawing/44)** kiváló források a megoldások megtalálásához.
+Ebben a tutorialban megtanultuk, hogyan **állítsuk be a toll színét**, **rajzoljunk színes vonalakat**, **hozzunk létre egy graphics objektumot**, és **mentsük el az eredményt PNG‑ként** az Aspose.Drawing for .NET segítségével. Ezek az alapok kaput nyitnak a fejlettebb szcenáriók felé, mint például alakzatok rajzolása, szöveg renderelése és dinamikus diagramok generálása. Ha problémába ütközik, az Aspose.Drawing **[dokumentációja](https://reference.aspose.com/drawing/net/) ** és a **[támogatási fórum](https://forum.aspose.com/c/drawing/44) ** kiváló források a megoldások megtalálásához.
 
 ---
 

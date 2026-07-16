@@ -41,7 +41,7 @@ Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi 
 
 Trước khi chúng ta bắt đầu với mã, hãy đảm bảo bạn có:
 
-1. **Thư viện Aspose.Drawing** – tải xuống và cài đặt từ trang chính thức **[tại đây](https://releases.aspose.com/drawing/net/)**.  
+1. **Thư viện Aspose.Drawing** – tải xuống và cài đặt từ trang chính thức **[tại đây](https://releases.aspose.com/drawing/net/) **.  
 2. **Môi trường phát triển .NET** – Visual Studio, VS Code, hoặc bất kỳ IDE nào bạn ưa thích.  
 3. **Kiến thức cơ bản về C#** – quen thuộc với lớp, đối tượng và không gian tên.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: Có, Aspose.Drawing tích hợp liền mạch với các thư viện .NET khác, cung cấp môi trường đa năng cho việc thao tác đồ họa.
 
 **Q: Làm sao tôi có thể nhận giấy phép tạm thời cho Aspose.Drawing?**  
-A: Bạn có thể nhận giấy phép tạm thời **[tại đây](https://purchase.aspose.com/temporary-license/)**, cho phép bạn khám phá toàn bộ tiềm năng của Aspose.Drawing.
+A: Bạn có thể nhận giấy phép tạm thời **[tại đây](https://purchase.aspose.com/temporary-license/) **, cho phép bạn khám phá toàn bộ tiềm năng của Aspose.Drawing.
 
 **Q: Aspose.Drawing có hỗ trợ các định dạng ảnh khác ngoài PNG không?**  
 A: Có, Aspose.Drawing hỗ trợ nhiều định dạng ảnh, bao gồm JPEG, GIF, BMP và hơn nữa. Tham khảo tài liệu để biết danh sách đầy đủ.
@@ -118,11 +118,11 @@ A: Có, Aspose.Drawing hỗ trợ nhiều định dạng ảnh, bao gồm JPEG, 
 A: Chắc chắn! Aspose.Drawing đa năng và có thể được sử dụng cả trong ứng dụng desktop và web, thêm các tính năng đồ họa động vào trang web của bạn.
 
 **Q: Có bản dùng thử miễn phí cho Aspose.Drawing không?**  
-A: Có, bạn có thể khám phá bản dùng thử miễn phí **[tại đây](https://releases.aspose.com/drawing/net/)**, cho phép bạn trải nghiệm các khả năng của Aspose.Drawing trước khi mua.
+A: Có, bạn có thể khám phá bản dùng thử miễn phí **[tại đây](https://releases.aspose.com/drawing/net/) **, cho phép bạn trải nghiệm các khả năng của Aspose.Drawing trước khi mua.
 
 ## Kết luận
 
-Trong tutorial này chúng ta đã đề cập cách **đặt màu bút**, **vẽ các đường màu**, **tạo một đối tượng graphics**, và **lưu kết quả dưới dạng PNG** bằng Aspose.Drawing cho .NET. Những kiến thức cơ bản này mở ra cánh cửa cho các kịch bản nâng cao hơn như vẽ hình dạng, render văn bản và tạo biểu đồ động. Nếu gặp khó khăn, **[tài liệu](https://reference.aspose.com/drawing/net/)** và **[diễn đàn hỗ trợ](https://forum.aspose.com/c/drawing/44)** của Aspose.Drawing là những nơi tuyệt vời để tìm câu trả lời.
+Trong tutorial này chúng ta đã đề cập cách **đặt màu bút**, **vẽ các đường màu**, **tạo một đối tượng graphics**, và **lưu kết quả dưới dạng PNG** bằng Aspose.Drawing cho .NET. Những kiến thức cơ bản này mở ra cánh cửa cho các kịch bản nâng cao hơn như vẽ hình dạng, render văn bản và tạo biểu đồ động. Nếu gặp khó khăn, **[tài liệu](https://reference.aspose.com/drawing/net/) ** và **[diễn đàn hỗ trợ](https://forum.aspose.com/c/drawing/44) ** của Aspose.Drawing là những nơi tuyệt vời để tìm câu trả lời.
 
 ---
 

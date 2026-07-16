@@ -39,7 +39,7 @@ Het instellen van de penkleur betekent dat je een `Color`‑waarde toewijst aan 
 
 ## Voorvereisten
 
-1. **Aspose.Drawing Library** – download en installeer van de officiële site **[hier](https://releases.aspose.com/drawing/net/)**.  
+1. **Aspose.Drawing Library** – download en installeer van de officiële site **[hier](https://releases.aspose.com/drawing/net/) **.  
 2. **Een .NET‑ontwikkelomgeving** – Visual Studio, VS Code of elke IDE die je verkiest.  
 3. **Basiskennis van C#** – vertrouwd met klassen, objecten en namespaces.
 
@@ -107,7 +107,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: Ja, Aspose.Drawing integreert naadloos met andere .NET‑bibliotheken en biedt een veelzijdige omgeving voor grafische manipulatie.
 
 **V: Hoe kan ik een tijdelijke licentie voor Aspose.Drawing verkrijgen?**  
-A: Je kunt een tijdelijke licentie krijgen **[hier](https://purchase.aspose.com/temporary-license/)**, waarmee je het volledige potentieel van Aspose.Drawing kunt verkennen.
+A: Je kunt een tijdelijke licentie krijgen **[hier](https://purchase.aspose.com/temporary-license/) **, waarmee je het volledige potentieel van Aspose.Drawing kunt verkennen.
 
 **V: Ondersteunt Aspose.Drawing beeldformaten anders dan PNG?**  
 A: Ja, Aspose.Drawing ondersteunt diverse beeldformaten, waaronder JPEG, GIF, BMP en meer. Raadpleeg de documentatie voor een volledige lijst.
@@ -116,11 +116,11 @@ A: Ja, Aspose.Drawing ondersteunt diverse beeldformaten, waaronder JPEG, GIF, BM
 A: Absoluut! Aspose.Drawing is veelzijdig en kan zowel in desktop‑ als webapplicaties worden gebruikt, waardoor dynamische grafische functies aan je websites worden toegevoegd.
 
 **V: Is er een gratis proefversie beschikbaar voor Aspose.Drawing?**  
-A: Ja, je kunt een gratis proefversie verkennen **[hier](https://releases.aspose.com/drawing/net/)**, zodat je de mogelijkheden van Aspose.Drawing kunt ervaren voordat je een aankoop doet.
+A: Ja, je kunt een gratis proefversie verkennen **[hier](https://releases.aspose.com/drawing/net/) **, zodat je de mogelijkheden van Aspose.Drawing kunt ervaren voordat je een aankoop doet.
 
 ## Conclusie
 
-In deze tutorial hebben we behandeld hoe je **penkleur instelt**, **gekleurde lijnen tekent**, **een graphics‑object maakt** en **het resultaat opslaat als PNG** met Aspose.Drawing voor .NET. Deze basisprincipes openen de deur naar meer geavanceerde scenario's, zoals het tekenen van vormen, renderen van tekst en dynamisch genereren van grafieken. Als je tegen uitdagingen aanloopt, zijn de Aspose.Drawing **[documentatie](https://reference.aspose.com/drawing/net/)** en **[ondersteuningsforum](https://forum.aspose.com/c/drawing/44)** uitstekende plekken om antwoorden te vinden.
+In deze tutorial hebben we behandeld hoe je **penkleur instelt**, **gekleurde lijnen tekent**, **een graphics‑object maakt** en **het resultaat opslaat als PNG** met Aspose.Drawing voor .NET. Deze basisprincipes openen de deur naar meer geavanceerde scenario's, zoals het tekenen van vormen, renderen van tekst en dynamisch genereren van grafieken. Als je tegen uitdagingen aanloopt, zijn de Aspose.Drawing **[documentatie](https://reference.aspose.com/drawing/net/) ** en **[ondersteuningsforum](https://forum.aspose.com/c/drawing/44) ** uitstekende plekken om antwoorden te vinden.
 
 ---
 

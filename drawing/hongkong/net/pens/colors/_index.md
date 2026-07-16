@@ -40,7 +40,7 @@ weight: 10
 
 在開始撰寫程式碼前，請確保您已具備：
 
-1. **Aspose.Drawing Library** – 從官方網站 **[此處](https://releases.aspose.com/drawing/net/)** 下載並安裝。  
+1. **Aspose.Drawing Library** – 從官方網站 **[此處](https://releases.aspose.com/drawing/net/) ** 下載並安裝。  
 2. **.NET 開發環境** – Visual Studio、VS Code 或您慣用的任何 IDE。  
 3. **基本的 C# 知識** – 熟悉類別、物件與命名空間。
 
@@ -108,7 +108,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: 可以，Aspose.Drawing 可無縫整合其他 .NET 函式庫，提供多功能的圖形操作環境。
 
 **Q: 如何取得 Aspose.Drawing 的臨時授權？**  
-A: 您可在 **[此處](https://purchase.aspose.com/temporary-license/)** 取得臨時授權，讓您探索 Aspose.Drawing 的全部功能。
+A: 您可在 **[此處](https://purchase.aspose.com/temporary-license/) ** 取得臨時授權，讓您探索 Aspose.Drawing 的全部功能。
 
 **Q: Aspose.Drawing 是否支援 PNG 以外的影像格式？**  
 A: 是的，Aspose.Drawing 支援多種影像格式，包括 JPEG、GIF、BMP 等。請參閱文件取得完整清單。
@@ -117,11 +117,11 @@ A: 是的，Aspose.Drawing 支援多種影像格式，包括 JPEG、GIF、BMP �
 A: 當然可以！Aspose.Drawing 多功能且可用於桌面與網頁應用程式，為您的網站加入動態圖形功能。
 
 **Q: 是否提供 Aspose.Drawing 的免費試用？**  
-A: 是的，您可在 **[此處](https://releases.aspose.com/drawing/net/)** 取得免費試用，先體驗 Aspose.Drawing 的功能再決定是否購買。
+A: 是的，您可在 **[此處](https://releases.aspose.com/drawing/net/) ** 取得免費試用，先體驗 Aspose.Drawing 的功能再決定是否購買。
 
 ## 結論
 
-在本教學中，我們說明了如何 **設定筆刷顏色**、**繪製彩色線條**、**建立 graphics 物件**，以及 **將結果儲存為 PNG**，全部使用 Aspose.Drawing for .NET。這些基礎為更進階的情境鋪路，例如繪製形狀、渲染文字與動態產生圖表。如遇到問題，請參考 Aspose.Drawing 的 **[文件](https://reference.aspose.com/drawing/net/)** 與 **[支援論壇](https://forum.aspose.com/c/drawing/44)**，那裡有豐富的解答。
+在本教學中，我們說明了如何 **設定筆刷顏色**、**繪製彩色線條**、**建立 graphics 物件**，以及 **將結果儲存為 PNG**，全部使用 Aspose.Drawing for .NET。這些基礎為更進階的情境鋪路，例如繪製形狀、渲染文字與動態產生圖表。如遇到問題，請參考 Aspose.Drawing 的 **[文件](https://reference.aspose.com/drawing/net/) ** 與 **[支援論壇](https://forum.aspose.com/c/drawing/44) **，那裡有豐富的解答。
 
 ---
 

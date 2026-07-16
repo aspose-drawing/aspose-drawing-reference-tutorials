@@ -10,9 +10,7 @@ url: /pl/net/rendering/clipping/
 weight: 12
 ---
 
- table formatting: keep pipes.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -144,15 +142,15 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## Zakończenie
 Teraz opanowałeś, jak **ustawić region przycinania**, **przyciąć zawartość obrazu**, zastosować **niestandardowe renderowanie tekstu** oraz **zapisować przycięte obrazy** przy użyciu Aspose.Drawing dla .NET. Te techniki dają Ci precyzyjną kontrolę nad wyjściem graficznym, umożliwiając tworzenie zaawansowanych efektów wizualnych przy użyciu kilku linii kodu. Eksploruj dalej, łącząc przycinanie z gradientami, wzorami lub dynamicznym wejściem użytkownika, aby tworzyć naprawdę interaktywne grafiki.
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-22  
+**Testowano z:** Aspose.Drawing 24.11 for .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-22  
-**Testowano z:** Aspose.Drawing 24.11 for .NET  
-**Autor:** Aspose

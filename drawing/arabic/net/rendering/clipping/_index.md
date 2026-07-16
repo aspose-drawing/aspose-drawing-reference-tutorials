@@ -9,7 +9,7 @@ url: /ar/net/rendering/clipping/
 weight: 12
 ---
 
-. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -141,15 +141,15 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## الخلاصة
 لقد أتقنت الآن كيفية **تعيين منطقة القص**، **قص محتوى الصورة**، تطبيق **عرض نص مخصص**، و**حفظ ملفات الصورة المقصوصة** باستخدام Aspose.Drawing لـ .NET. تمنحك هذه التقنيات تحكمًا دقيقًا في مخرجات الرسومات، مما يتيح تأثيرات بصرية متطورة ببضع أسطر من الكود فقط. استكشف المزيد بدمج القص مع التدرجات، الأنماط، أو مدخلات المستخدم الديناميكية لإنشاء رسومات تفاعلية حقًا.
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose

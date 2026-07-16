@@ -9,16 +9,6 @@ url: /fr/net/rendering/alpha-blending/
 weight: 10
 ---
 
- mise à jour :"; "Tested With:" -> "Testé avec :"; "Author:" -> "Auteur :".
-
-But the dates remain.
-
-Now ensure we keep all shortcodes and code block placeholders unchanged.
-
-Also ensure we keep markdown formatting.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -9,12 +9,6 @@ url: /de/net/pens/colors/
 weight: 10
 ---
 
- shortcodes. Keep them unchanged.
-
-Now produce final markdown.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -47,7 +41,7 @@ Die Stiftfarbe zu setzen bedeutet, einem `Pen`‑Objekt vor dem Zeichnen einen `
 
 Bevor wir in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Aspose.Drawing‑Bibliothek** – herunterladen und installieren Sie sie von der offiziellen Seite **[hier](https://releases.aspose.com/drawing/net/)**.  
+1. **Aspose.Drawing‑Bibliothek** – herunterladen und installieren Sie sie von der offiziellen Seite **[hier](https://releases.aspose.com/drawing/net/) **.  
 2. **Eine .NET‑Entwicklungsumgebung** – Visual Studio, VS Code oder ein beliebiges IDE Ihrer Wahl.  
 3. **Grundkenntnisse in C#** – Vertrautheit mit Klassen, Objekten und Namespaces.
 
@@ -115,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: Ja, Aspose.Drawing lässt sich nahtlos in andere .NET‑Bibliotheken integrieren und bietet eine vielseitige Umgebung für die Grafikmanipulation.
 
 **F: Wie kann ich eine temporäre Lizenz für Aspose.Drawing erhalten?**  
-A: Sie können eine temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/)** erhalten, um das volle Potenzial von Aspose.Drawing zu erkunden.
+A: Sie können eine temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/) ** erhalten, um das volle Potenzial von Aspose.Drawing zu erkunden.
 
 **F: Unterstützt Aspose.Drawing Bildformate außer PNG?**  
 A: Ja, Aspose.Drawing unterstützt verschiedene Bildformate, darunter JPEG, GIF, BMP und mehr. Siehe die Dokumentation für eine vollständige Liste.
@@ -124,11 +118,11 @@ A: Ja, Aspose.Drawing unterstützt verschiedene Bildformate, darunter JPEG, GIF,
 A: Absolut! Aspose.Drawing ist vielseitig einsetzbar und kann sowohl in Desktop‑ als auch in Web‑Anwendungen verwendet werden, um dynamische Grafikfunktionen zu Ihren Websites hinzuzufügen.
 
 **F: Gibt es eine kostenlose Testversion von Aspose.Drawing?**  
-A: Ja, Sie können eine kostenlose Testversion **[hier](https://releases.aspose.com/drawing/net/)** ausprobieren, um die Fähigkeiten von Aspose.Drawing vor einem Kauf zu testen.
+A: Ja, Sie können eine kostenlose Testversion **[hier](https://releases.aspose.com/drawing/net/) ** ausprobieren, um die Fähigkeiten von Aspose.Drawing vor einem Kauf zu testen.
 
 ## Fazit
 
-In diesem Tutorial haben wir behandelt, wie man **die Stiftfarbe setzt**, **farbige Linien zeichnet**, ein **Graphics‑Objekt erstellt** und **das Ergebnis als PNG speichert** mit Aspose.Drawing für .NET. Diese Grundlagen öffnen die Tür zu fortgeschritteneren Szenarien wie dem Zeichnen von Formen, Rendern von Text und dynamischer Diagrammerstellung. Wenn Sie auf Schwierigkeiten stoßen, sind die Aspose.Drawing **[Dokumentation](https://reference.aspose.com/drawing/net/)** und das **[Support‑Forum](https://forum.aspose.com/c/drawing/44)** ausgezeichnete Anlaufstellen für Antworten.
+In diesem Tutorial haben wir behandelt, wie man **die Stiftfarbe setzt**, **farbige Linien zeichnet**, ein **Graphics‑Objekt erstellt** und **das Ergebnis als PNG speichert** mit Aspose.Drawing für .NET. Diese Grundlagen öffnen die Tür zu fortgeschritteneren Szenarien wie dem Zeichnen von Formen, Rendern von Text und dynamischer Diagrammerstellung. Wenn Sie auf Schwierigkeiten stoßen, sind die Aspose.Drawing **[Dokumentation](https://reference.aspose.com/drawing/net/) ** und das **[Support‑Forum](https://forum.aspose.com/c/drawing/44) ** ausgezeichnete Anlaufstellen für Antworten.
 
 ---
 

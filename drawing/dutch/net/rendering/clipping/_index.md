@@ -142,15 +142,15 @@ A: Knippen is lichtgewicht; Aspose.Drawing maakt gebruik van native GDI+ optimal
 ## Conclusie
 Je hebt nu onder de knie hoe je een **set clipping region**, **clip image** inhoud, **custom text rendering** kunt toepassen en **save clipped image** bestanden kunt opslaan met Aspose.Drawing voor .NET. Deze technieken geven je fijne controle over grafische output, waardoor je geavanceerde visuele effecten kunt realiseren met slechts een paar regels code. Verken verder door knippen te combineren met verlopen, patronen of dynamische gebruikersinvoer om echt interactieve graphics te maken.
 
+---
+
+**Laatst bijgewerkt:** 2026-02-22  
+**Getest met:** Aspose.Drawing 24.11 voor .NET  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-22  
-**Getest met:** Aspose.Drawing 24.11 voor .NET  
-**Auteur:** Aspose

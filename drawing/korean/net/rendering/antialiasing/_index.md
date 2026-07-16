@@ -9,17 +9,7 @@ url: /ko/net/rendering/antialiasing/
 weight: 11
 ---
 
-.
-
-Then metadata lines: "Last Updated:", "Tested With:", "Author:" translate? These are part of content; we should translate the labels but keep dates and version unchanged.
-
-So translate "Last Updated:" to "마지막 업데이트:" etc.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -133,15 +123,15 @@ A4: 커뮤니티 지원을 위해 [Aspose.Drawing Forum](https://forum.aspose.co
 
 A5: 문서는 [여기](https://reference.aspose.com/drawing/net/)에서 확인할 수 있으며, Aspose.Drawing을 최대한 활용할 수 있도록 포괄적인 정보와 예제가 제공됩니다.
 
+---
+
+**마지막 업데이트:** 2026-02-22  
+**테스트 환경:** Aspose.Drawing 24.11 for .NET  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-22  
-**테스트 환경:** Aspose.Drawing 24.11 for .NET  
-**작성자:** Aspose

@@ -142,13 +142,6 @@ R: O recorte é leve; o Aspose.Drawing usa otimizações nativas do GDI+, de mod
 ## Conclusão
 Agora você domina como **definir região de recorte**, **recortar conteúdo de imagem**, aplicar **renderização de texto personalizada** e **salvar arquivos de imagem recortados** usando Aspose.Drawing para .NET. Essas técnicas fornecem controle granular sobre a saída gráfica, permitindo efeitos visuais sofisticados com apenas algumas linhas de código. Explore mais combinando recorte com gradientes, padrões ou entrada dinâmica do usuário para criar gráficos verdadeiramente interativos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-02-22  
@@ -156,3 +149,10 @@ Agora você domina como **definir região de recorte**, **recortar conteúdo de 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

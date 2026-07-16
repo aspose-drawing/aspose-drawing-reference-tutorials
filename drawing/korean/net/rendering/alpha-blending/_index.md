@@ -9,11 +9,7 @@ url: /ko/net/rendering/alpha-blending/
 weight: 10
 ---
 
-All good.
-
-Now produce final content with same placeholders.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

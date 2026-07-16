@@ -9,10 +9,6 @@ url: /sv/net/rendering/antialiasing/
 weight: 11
 ---
 
-, likely translate. But they are part of content. Should translate to Swedish: "Senast uppdaterad:", "Testat med:", "Författare:". Keep dates and values unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -128,15 +124,15 @@ A4: Du kan besöka [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
 
 A5: Dokumentationen finns tillgänglig [här](https://reference.aspose.com/drawing/net/), och ger omfattande information och exempel för att hjälpa dig att utnyttja Aspose.Drawing fullt ut.
 
+---
+
+**Senast uppdaterad:** 2026-02-22  
+**Testat med:** Aspose.Drawing 24.11 för .NET  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-22  
-**Testat med:** Aspose.Drawing 24.11 för .NET  
-**Författare:** Aspose

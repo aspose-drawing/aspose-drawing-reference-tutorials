@@ -124,15 +124,15 @@ A4: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pro
 
 A5: Dokumentace je k dispozici [zde](https://reference.aspose.com/drawing/net/), poskytuje komplexní informace a příklady, které vám pomohou maximálně využít Aspose.Drawing.
 
+---
+
+**Poslední aktualizace:** 2026-02-22  
+**Testováno s:** Aspose.Drawing 24.11 pro .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.Drawing 24.11 pro .NET  
-**Autor:** Aspose

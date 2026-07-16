@@ -142,13 +142,6 @@ A: Klippning är lättviktig; Aspose.Drawing använder inbyggda GDI+‑optimerin
 ## Slutsats
 Du har nu bemästrat hur man **ställer in klippningsområde**, **klipper bild**‑innehåll, applicerar **anpassad textrendering** och **sparar klippta bild**‑filer med Aspose.Drawing för .NET. Dessa tekniker ger dig fin‑granulär kontroll över grafikutdata, vilket möjliggör sofistikerade visuella effekter med bara några rader kod. Utforska vidare genom att kombinera klippning med gradienter, mönster eller dynamisk användarinmatning för att skapa riktigt interaktiva grafik.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-02-22  
@@ -156,3 +149,10 @@ Du har nu bemästrat hur man **ställer in klippningsområde**, **klipper bild**
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

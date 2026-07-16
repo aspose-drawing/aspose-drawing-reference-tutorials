@@ -108,7 +108,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: 可以，Aspose.Drawing 与其他 .NET 库无缝集成，提供了一个多功能的图形操作环境。
 
 **Q: 如何获取 Aspose.Drawing 的临时许可证？**  
-A: 您可以在 **[here](https://purchase.aspose.com/temporary-license/)** 获取临时许可证，允许您探索 Aspose.Drawing 的全部潜能。
+A: 您可以在 **[here](https://purchase.aspose.com/temporary-license/) ** 获取临时许可证，允许您探索 Aspose.Drawing 的全部潜能。
 
 **Q: Aspose.Drawing 是否支持除 PNG 之外的图像格式？**  
 A: 是的，Aspose.Drawing 支持多种图像格式，包括 JPEG、GIF、BMP 等。请参阅文档获取完整列表。
@@ -117,11 +117,11 @@ A: 是的，Aspose.Drawing 支持多种图像格式，包括 JPEG、GIF、BMP �
 A: 当然！Aspose.Drawing 多才多艺，可用于桌面和 Web 应用，为您的网站添加动态图形功能。
 
 **Q: Aspose.Drawing 是否提供免费试用？**  
-A: 是的，您可以在 **[here](https://releases.aspose.com/drawing/net/)** 体验免费试用，在购买前感受 Aspose.Drawing 的功能。
+A: 是的，您可以在 **[here](https://releases.aspose.com/drawing/net/) ** 体验免费试用，在购买前感受 Aspose.Drawing 的功能。
 
 ## 结论
 
-在本教程中，我们介绍了如何使用 Aspose.Drawing for .NET **set pen color**、**draw colored lines**、**create a graphics object**，以及 **save the result as a PNG**。这些基础为更高级的场景打开了大门，例如绘制形状、渲染文本和动态生成图表。如果遇到困难，Aspose.Drawing 的 **[documentation](https://reference.aspose.com/drawing/net/)** 和 **[support forum](https://forum.aspose.com/c/drawing/44)** 是获取答案的极佳资源。
+在本教程中，我们介绍了如何使用 Aspose.Drawing for .NET **set pen color**、**draw colored lines**、**create a graphics object**，以及 **save the result as a PNG**。这些基础为更高级的场景打开了大门，例如绘制形状、渲染文本和动态生成图表。如果遇到困难，Aspose.Drawing 的 **[documentation](https://reference.aspose.com/drawing/net/) ** 和 **[support forum](https://forum.aspose.com/c/drawing/44) ** 是获取答案的极佳资源。
 
 ---
 

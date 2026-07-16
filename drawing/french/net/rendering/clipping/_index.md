@@ -142,13 +142,6 @@ R : La découpe est légère ; Aspose.Drawing utilise les optimisations nati
 ## Conclusion
 Vous avez maintenant maîtrisé comment **définir une région de découpe**, **découper le contenu d’une image**, appliquer un **rendu de texte personnalisé**, et **enregistrer des fichiers d’image découpés** avec Aspose.Drawing pour .NET. Ces techniques vous offrent un contrôle granulaire sur la sortie graphique, permettant des effets visuels sophistiqués avec seulement quelques lignes de code. Explorez davantage en combinant la découpe avec des dégradés, des motifs ou des entrées utilisateur dynamiques pour créer des graphiques véritablement interactifs.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-02-22  
@@ -156,3 +149,10 @@ Vous avez maintenant maîtrisé comment **définir une région de découpe**, **
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

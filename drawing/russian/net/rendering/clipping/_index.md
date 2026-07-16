@@ -142,15 +142,15 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## Заключение
 Теперь вы освоили **установку области обрезки**, **обрезку содержимого изображения**, применение **пользовательского рендеринга текста** и **сохранение обрезанных файлов** с помощью Aspose.Drawing для .NET. Эти приёмы дают вам тонкий контроль над графическим выводом, позволяя создавать сложные визуальные эффекты всего несколькими строками кода. Экспериментируйте, комбинируя обрезку с градиентами, узорами или динамическим вводом пользователя, чтобы создавать действительно интерактивную графику.
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose

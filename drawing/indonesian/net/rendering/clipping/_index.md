@@ -10,15 +10,7 @@ url: /id/net/rendering/clipping/
 weight: 12
 ---
 
-Penulis:** Aspose"
-
-But keep markdown formatting.
-
-Now produce final content with all translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -150,15 +142,15 @@ A: Kliping ringan; Aspose.Drawing menggunakan optimasi GDI+ native, sehingga beb
 ## Kesimpulan
 Anda kini telah menguasai cara **set clipping region**, konten **clip image**, menerapkan **custom text rendering**, dan **save clipped image** file menggunakan Aspose.Drawing untuk .NET. Teknik ini memberi Anda kontrol detail atas output grafis, memungkinkan efek visual yang canggih dengan hanya beberapa baris kode. Jelajahi lebih lanjut dengan menggabungkan kliping dengan gradien, pola, atau input pengguna dinamis untuk membuat grafik yang benar‑benar interaktif.
 
+---
+
+**Terakhir Diperbarui:** 2026-02-22  
+**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-22  
-**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
-**Penulis:** Aspose

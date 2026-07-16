@@ -8,8 +8,6 @@ url: /ja/net/rendering/alpha-blending/
 weight: 10
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

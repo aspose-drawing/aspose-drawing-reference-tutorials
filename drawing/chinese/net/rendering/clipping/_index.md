@@ -8,15 +8,7 @@ url: /zh/net/rendering/clipping/
 weight: 12
 ---
 
-.
-
-- Footer lines: "Last Updated", "Tested With", "Author". Should translate? Probably keep as is? The content is English; but we can translate the labels. The requirement: translate all text content. So translate those lines.
-
-Let's produce.
-
-Be careful to keep markdown formatting.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -148,13 +140,6 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## 结论
 现在，您已经掌握了如何 **设置裁剪区域**、**裁剪图像** 内容、应用 **自定义文本渲染**，以及使用 Aspose.Drawing for .NET **保存裁剪后的图像** 文件。这些技巧让您能够对图形输出进行细粒度控制，仅用几行代码即可实现复杂的视觉效果。进一步探索时，可将裁剪与渐变、图案或动态用户输入相结合，创建真正交互式的图形。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-02-22  
@@ -162,3 +147,10 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

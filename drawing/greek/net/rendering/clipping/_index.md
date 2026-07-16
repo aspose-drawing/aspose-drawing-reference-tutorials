@@ -142,13 +142,6 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ## Συμπέρασμα
 Τώρα έχετε κατακτήσει πώς να **ορίσετε περιοχή κοπής**, να **κόψετε περιεχόμενο εικόνας**, να εφαρμόσετε **προσαρμοσμένη απόδοση κειμένου**, και να **αποθηκεύσετε αρχεία εικόνας με κοπή** χρησιμοποιώντας το Aspose.Drawing για .NET. Αυτές οι τεχνικές σας δίνουν λεπτομερή έλεγχο πάνω στην έξοδο γραφικών, επιτρέποντας εξελιγμένα οπτικά εφέ με λίγες μόνο γραμμές κώδικα. Εξερευνήστε περαιτέρω συνδυάζοντας την κοπή με διαβαθμίσεις, μοτίβα ή δυναμική είσοδο χρήστη για να δημιουργήσετε πραγματικά διαδραστικά γραφικά.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2026-02-22  
@@ -156,3 +149,10 @@ bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

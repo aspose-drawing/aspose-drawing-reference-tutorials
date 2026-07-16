@@ -41,7 +41,7 @@ weight: 10
 
 قبل الغوص في الشفرة، تأكد من وجود ما يلي:
 
-1. **مكتبة Aspose.Drawing** – قم بتحميلها وتثبيتها من الموقع الرسمي **[here](https://releases.aspose.com/drawing/net/)**.  
+1. **مكتبة Aspose.Drawing** – قم بتحميلها وتثبيتها من الموقع الرسمي **[here](https://releases.aspose.com/drawing/net/) **.  
 2. **بيئة تطوير .NET** – Visual Studio أو VS Code أو أي بيئة تطوير تفضلها.  
 3. **معرفة أساسية بـ C#** – الإلمام بالصفوف (classes)، الكائنات (objects)، والمساحات الاسمية (namespaces).
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 ج: نعم، Aspose.Drawing يندمج بسلاسة مع مكتبات .NET الأخرى، موفرًا بيئة متعددة الاستخدامات لتعديل الرسومات.
 
 **س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Drawing؟**  
-ج: يمكنك الحصول على ترخيص مؤقت **[here](https://purchase.aspose.com/temporary-license/)**، مما يتيح لك استكشاف كامل إمكانيات Aspose.Drawing.
+ج: يمكنك الحصول على ترخيص مؤقت **[here](https://purchase.aspose.com/temporary-license/) **، مما يتيح لك استكشاف كامل إمكانيات Aspose.Drawing.
 
 **س: هل يدعم Aspose.Drawing صيغ صور غير PNG؟**  
 ج: نعم، Aspose.Drawing يدعم صيغ صور متعددة بما فيها JPEG و GIF و BMP وغيرها. راجع الوثائق للقائمة الكاملة.
@@ -118,11 +118,11 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 ج: بالتأكيد! Aspose.Drawing متعدد الاستخدامات ويمكن استعماله في تطبيقات سطح المكتب والويب على حد سواء، مضيفًا ميزات رسومية ديناميكية إلى مواقعك.
 
 **س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Drawing؟**  
-ج: نعم، يمكنك تجربة نسخة تجريبية مجانية **[here](https://releases.aspose.com/drawing/net/)**، لتجربة قدرات Aspose.Drawing قبل الشراء.
+ج: نعم، يمكنك تجربة نسخة تجريبية مجانية **[here](https://releases.aspose.com/drawing/net/) **، لتجربة قدرات Aspose.Drawing قبل الشراء.
 
 ## الخاتمة
 
-في هذا البرنامج التعليمي غطينا كيفية **تعيين لون القلم**، **رسم خطوط ملونة**، **إنشاء كائن رسومي**، و**حفظ النتيجة كـ PNG** باستخدام Aspose.Drawing لـ .NET. هذه الأساسيات تفتح الباب أمام سيناريوهات أكثر تقدمًا مثل رسم الأشكال، عرض النص، وتوليد المخططات ديناميكيًا. إذا واجهت أي صعوبات، فإن **[الوثائق](https://reference.aspose.com/drawing/net/)** و**[منتدى الدعم](https://forum.aspose.com/c/drawing/44)** لـ Aspose.Drawing هما مكانان ممتازان للعثور على الإجابات.
+في هذا البرنامج التعليمي غطينا كيفية **تعيين لون القلم**، **رسم خطوط ملونة**، **إنشاء كائن رسومي**، و**حفظ النتيجة كـ PNG** باستخدام Aspose.Drawing لـ .NET. هذه الأساسيات تفتح الباب أمام سيناريوهات أكثر تقدمًا مثل رسم الأشكال، عرض النص، وتوليد المخططات ديناميكيًا. إذا واجهت أي صعوبات، فإن **[الوثائق](https://reference.aspose.com/drawing/net/) ** و**[منتدى الدعم](https://forum.aspose.com/c/drawing/44) ** لـ Aspose.Drawing هما مكانان ممتازان للعثور على الإجابات.
 
 ---
 

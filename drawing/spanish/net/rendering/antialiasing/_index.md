@@ -124,15 +124,15 @@ A4: Puedes visitar el [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawin
 
 A5: La documentación está disponible [aquí](https://reference.aspose.com/drawing/net/), ofreciendo información completa y ejemplos para ayudarte a aprovechar al máximo Aspose.Drawing.
 
+---
+
+**Última actualización:** 2026-02-22  
+**Probado con:** Aspose.Drawing 24.11 para .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-02-22  
-**Probado con:** Aspose.Drawing 24.11 para .NET  
-**Autor:** Aspose

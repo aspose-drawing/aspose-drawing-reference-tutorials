@@ -122,15 +122,15 @@ A4: 你可以访问 [Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/4
 
 A5: 文档可在[此处](https://reference.aspose.com/drawing/net/)查看，提供了全面的信息和示例，帮助你充分利用 Aspose.Drawing。
 
+---
+
+**最后更新：** 2026-02-22  
+**测试环境：** Aspose.Drawing 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-22  
-**测试环境：** Aspose.Drawing 24.11 for .NET  
-**作者：** Aspose

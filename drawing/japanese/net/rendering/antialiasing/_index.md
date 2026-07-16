@@ -122,15 +122,15 @@ A4: コミュニティサポートは [Aspose.Drawing Forum](https://forum.aspos
 
 A5: ドキュメントは [here](https://reference.aspose.com/drawing/net/) にあります。包括的な情報とサンプルが掲載されており、Aspose.Drawing を最大限に活用する手助けとなります。
 
+---
+
+**最終更新日:** 2026-02-22  
+**テスト環境:** Aspose.Drawing 24.11 for .NET  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-22  
-**テスト環境:** Aspose.Drawing 24.11 for .NET  
-**作者:** Aspose

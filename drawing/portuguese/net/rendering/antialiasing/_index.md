@@ -9,9 +9,7 @@ url: /pt/net/rendering/antialiasing/
 weight: 11
 ---
 
- placeholders.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -125,15 +123,15 @@ A4: Você pode visitar o [Aspose.Drawing Forum](https://forum.aspose.com/c/drawi
 
 A5: A documentação está disponível [aqui](https://reference.aspose.com/drawing/net/), oferecendo informações abrangentes e exemplos para ajudá‑lo a aproveitar ao máximo o Aspose.Drawing.
 
+---
+
+**Última atualização:** 2026-02-22  
+**Testado com:** Aspose.Drawing 24.11 for .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-02-22  
-**Testado com:** Aspose.Drawing 24.11 for .NET  
-**Autor:** Aspose

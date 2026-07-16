@@ -40,7 +40,7 @@ Aspose.Drawing for .NET を使用して描画する際の **ペンの色の設�
 
 コードに入る前に、以下が揃っていることを確認してください：
 
-1. **Aspose.Drawing ライブラリ** – 公式サイト **[here](https://releases.aspose.com/drawing/net/)** からダウンロードしてインストールしてください。  
+1. **Aspose.Drawing ライブラリ** – 公式サイト **[here](https://releases.aspose.com/drawing/net/) ** からダウンロードしてインストールしてください。  
 2. **.NET 開発環境** – Visual Studio、VS Code、またはお好みの IDE。  
 3. **基本的な C# の知識** – クラス、オブジェクト、名前空間に慣れていること。
 
@@ -108,7 +108,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: はい、Aspose.Drawing は他の .NET ライブラリとシームレスに統合でき、グラフィック操作のための柔軟な環境を提供します。
 
 **Q: Aspose.Drawing の一時ライセンスはどのように取得できますか？**  
-A: **[here](https://purchase.aspose.com/temporary-license/)** から一時ライセンスを取得でき、Aspose.Drawing のすべての機能を試すことができます。
+A: **[here](https://purchase.aspose.com/temporary-license/) ** から一時ライセンスを取得でき、Aspose.Drawing のすべての機能を試すことができます。
 
 **Q: Aspose.Drawing は PNG 以外の画像形式もサポートしていますか？**  
 A: はい、Aspose.Drawing は JPEG、GIF、BMP など多数の画像形式をサポートしています。完全な一覧はドキュメントをご参照ください。
@@ -117,11 +117,11 @@ A: はい、Aspose.Drawing は JPEG、GIF、BMP など多数の画像形式を�
 A: もちろんです！Aspose.Drawing は汎用性が高く、デスクトップアプリとウェブアプリの両方で使用でき、ウェブサイトに動的なグラフィック機能を追加できます。
 
 **Q: Aspose.Drawing の無料トライアルはありますか？**  
-A: はい、**[here](https://releases.aspose.com/drawing/net/)** で無料トライアルを試すことができ、購入前に Aspose.Drawing の機能を体験できます。
+A: はい、**[here](https://releases.aspose.com/drawing/net/) ** で無料トライアルを試すことができ、購入前に Aspose.Drawing の機能を体験できます。
 
 ## 結論
 
-このチュートリアルでは、Aspose.Drawing for .NET を使用して **ペンの色を設定**、**カラーラインを描画**、**Graphics オブジェクトを作成**、そして **結果を PNG として保存** する方法を紹介しました。これらの基本をマスターすれば、形状の描画、テキストのレンダリング、チャートの動的生成など、より高度なシナリオにも挑戦できます。問題が発生した場合は、Aspose.Drawing の **[documentation](https://reference.aspose.com/drawing/net/)** と **[support forum](https://forum.aspose.com/c/drawing/44)** が有力な情報源です。
+このチュートリアルでは、Aspose.Drawing for .NET を使用して **ペンの色を設定**、**カラーラインを描画**、**Graphics オブジェクトを作成**、そして **結果を PNG として保存** する方法を紹介しました。これらの基本をマスターすれば、形状の描画、テキストのレンダリング、チャートの動的生成など、より高度なシナリオにも挑戦できます。問題が発生した場合は、Aspose.Drawing の **[documentation](https://reference.aspose.com/drawing/net/) ** と **[support forum](https://forum.aspose.com/c/drawing/44) ** が有力な情報源です。
 
 ---
 

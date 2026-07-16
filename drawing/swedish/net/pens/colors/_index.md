@@ -41,7 +41,7 @@ Att sätta pennfärg innebär att tilldela ett `Color`‑värde till ett `Pen`�
 
 Innan vi dyker in i koden, se till att du har:
 
-1. **Aspose.Drawing Library** – ladda ner och installera från den officiella sidan **[här](https://releases.aspose.com/drawing/net/)**.  
+1. **Aspose.Drawing Library** – ladda ner och installera från den officiella sidan **[här](https://releases.aspose.com/drawing/net/) **.  
 2. **En .NET‑utvecklingsmiljö** – Visual Studio, VS Code eller någon annan IDE du föredrar.  
 3. **Grundläggande C#‑kunskaper** – bekantskap med klasser, objekt och namnrymder.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 A: Ja, Aspose.Drawing integreras sömlöst med andra .NET‑bibliotek och ger en flexibel miljö för grafisk manipulation.
 
 **Q: Hur kan jag skaffa en tillfällig licens för Aspose.Drawing?**  
-A: Du kan få en tillfällig licens **[här](https://purchase.aspose.com/temporary-license/)**, vilket låter dig utforska hela potentialen i Aspose.Drawing.
+A: Du kan få en tillfällig licens **[här](https://purchase.aspose.com/temporary-license/) **, vilket låter dig utforska hela potentialen i Aspose.Drawing.
 
 **Q: Stöder Aspose.Drawing bildformat förutom PNG?**  
 A: Ja, Aspose.Drawing stödjer flera bildformat, inklusive JPEG, GIF, BMP och fler. Se dokumentationen för en komplett lista.
@@ -118,11 +118,11 @@ A: Ja, Aspose.Drawing stödjer flera bildformat, inklusive JPEG, GIF, BMP och fl
 A: Absolut! Aspose.Drawing är mångsidigt och kan användas både i skrivbords‑ och webbapplikationer, vilket ger dynamiska grafiska funktioner till dina webbplatser.
 
 **Q: Finns det en gratis provversion av Aspose.Drawing?**  
-A: Ja, du kan utforska en gratis provversion **[här](https://releases.aspose.com/drawing/net/)**, vilket låter dig uppleva Aspose.Drawings funktioner innan du köper.
+A: Ja, du kan utforska en gratis provversion **[här](https://releases.aspose.com/drawing/net/) **, vilket låter dig uppleva Aspose.Drawings funktioner innan du köper.
 
 ## Slutsats
 
-I den här handledningen gick vi igenom hur du **sätter pennfärg**, **ritar färgade linjer**, **skapar ett graphics‑objekt** och **sparar resultatet som PNG** med Aspose.Drawing för .NET. Dessa grunder öppnar dörren till mer avancerade scenarier som att rita former, rendera text och generera diagram dynamiskt. Om du stöter på problem är Aspose.Drawing **[dokumentation](https://reference.aspose.com/drawing/net/)** och **[supportforum](https://forum.aspose.com/c/drawing/44)** utmärkta resurser för att hitta svar.
+I den här handledningen gick vi igenom hur du **sätter pennfärg**, **ritar färgade linjer**, **skapar ett graphics‑objekt** och **sparar resultatet som PNG** med Aspose.Drawing för .NET. Dessa grunder öppnar dörren till mer avancerade scenarier som att rita former, rendera text och generera diagram dynamiskt. Om du stöter på problem är Aspose.Drawing **[dokumentation](https://reference.aspose.com/drawing/net/) ** och **[supportforum](https://forum.aspose.com/c/drawing/44) ** utmärkta resurser för att hitta svar.
 
 ---
 

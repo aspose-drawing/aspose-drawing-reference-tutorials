@@ -140,13 +140,6 @@ A: Clipping is lightweight; Aspose.Drawing uses native GDI+ optimizations, so th
 ## Conclusion
 You’ve now mastered how to **set clipping region**, **clip image** content, apply **custom text rendering**, and **save clipped image** files using Aspose.Drawing for .NET. These techniques give you fine‑grained control over graphic output, enabling sophisticated visual effects with just a few lines of code. Explore further by combining clipping with gradients, patterns, or dynamic user input to create truly interactive graphics.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -154,3 +147,10 @@ You’ve now mastered how to **set clipping region**, **clip image** content, ap
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

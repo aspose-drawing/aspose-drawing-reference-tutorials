@@ -41,7 +41,7 @@ Definir a cor da caneta significa atribuir um valor `Color` a um objeto `Pen` an
 
 Antes de mergulharmos no código, certifique‑se de que você tem:
 
-1. **Biblioteca Aspose.Drawing** – faça o download e instale a partir do site oficial **[aqui](https://releases.aspose.com/drawing/net/)**.  
+1. **Biblioteca Aspose.Drawing** – faça o download e instale a partir do site oficial **[aqui](https://releases.aspose.com/drawing/net/) **.  
 2. **Um ambiente de desenvolvimento .NET** – Visual Studio, VS Code ou qualquer IDE de sua preferência.  
 3. **Conhecimento básico de C#** – familiaridade com classes, objetos e namespaces.
 
@@ -109,7 +109,7 @@ bitmap.Save("Your Document Directory" + @"Pens\Colors_out.png");
 R: Sim, o Aspose.Drawing integra‑se perfeitamente com outras bibliotecas .NET, proporcionando um ambiente versátil para manipulação gráfica.
 
 **P: Como posso obter uma licença temporária para o Aspose.Drawing?**  
-R: Você pode obter uma licença temporária **[aqui](https://purchase.aspose.com/temporary-license/)**, permitindo explorar todo o potencial do Aspose.Drawing.
+R: Você pode obter uma licença temporária **[aqui](https://purchase.aspose.com/temporary-license/) **, permitindo explorar todo o potencial do Aspose.Drawing.
 
 **P: O Aspose.Drawing suporta formatos de imagem além de PNG?**  
 R: Sim, o Aspose.Drawing suporta vários formatos de imagem, incluindo JPEG, GIF, BMP e mais. Consulte a documentação para a lista completa.
@@ -118,11 +118,11 @@ R: Sim, o Aspose.Drawing suporta vários formatos de imagem, incluindo JPEG, GIF
 R: Absolutamente! O Aspose.Drawing é versátil e pode ser usado tanto em aplicações desktop quanto web, adicionando recursos gráficos dinâmicos aos seus sites.
 
 **P: Existe um teste gratuito disponível para o Aspose.Drawing?**  
-R: Sim, você pode experimentar um teste gratuito **[aqui](https://releases.aspose.com/drawing/net/)**, permitindo conhecer as capacidades do Aspose.Drawing antes de efetuar a compra.
+R: Sim, você pode experimentar um teste gratuito **[aqui](https://releases.aspose.com/drawing/net/) **, permitindo conhecer as capacidades do Aspose.Drawing antes de efetuar a compra.
 
 ## Conclusão
 
-Neste tutorial cobrimos como **definir a cor da caneta**, **desenhar linhas coloridas**, **criar um objeto graphics** e **salvar o resultado como PNG** usando Aspose.Drawing para .NET. Esses fundamentos abrem caminho para cenários mais avançados, como desenhar formas, renderizar texto e gerar gráficos dinamicamente. Se encontrar desafios, a **[documentação](https://reference.aspose.com/drawing/net/)** do Aspose.Drawing e o **[fórum de suporte](https://forum.aspose.com/c/drawing/44)** são excelentes fontes de respostas.
+Neste tutorial cobrimos como **definir a cor da caneta**, **desenhar linhas coloridas**, **criar um objeto graphics** e **salvar o resultado como PNG** usando Aspose.Drawing para .NET. Esses fundamentos abrem caminho para cenários mais avançados, como desenhar formas, renderizar texto e gerar gráficos dinamicamente. Se encontrar desafios, a **[documentação](https://reference.aspose.com/drawing/net/) ** do Aspose.Drawing e o **[fórum de suporte](https://forum.aspose.com/c/drawing/44) ** são excelentes fontes de respostas.
 
 ---
 

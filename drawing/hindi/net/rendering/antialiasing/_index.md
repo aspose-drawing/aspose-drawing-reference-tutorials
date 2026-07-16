@@ -9,11 +9,7 @@ url: /hi/net/rendering/antialiasing/
 weight: 11
 ---
 
- "अंतिम अपडेट:" etc. But they are not part of content? It's after the content. Should translate as well.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -128,15 +124,15 @@ A4: आप समुदाय समर्थन के लिए [Aspose.Drawin
 
 A5: डॉक्यूमेंटेशन [यहाँ](https://reference.aspose.com/drawing/net/) उपलब्ध है, जिसमें व्यापक जानकारी और उदाहरण शामिल हैं जो आपको Aspose.Drawing का अधिकतम उपयोग करने में मदद करेंगे।
 
+---
+
+**अंतिम अपडेट:** 2026-02-22  
+**टेस्टेड विद:** Aspose.Drawing 24.11 for .NET  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-02-22  
-**टेस्टेड विद:** Aspose.Drawing 24.11 for .NET  
-**लेखक:** Aspose
