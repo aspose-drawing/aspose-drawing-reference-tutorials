@@ -1,11 +1,13 @@
 ---
-date: 2025-12-06
-description: Dowiedz się, jak zapisywać pliki PNG, jednocześnie wypisując zainstalowane
-  czcionki, wyświetlając rodziny czcionek, tworząc grafikę z bitmapy oraz rysując
-  tekst przy użyciu czcionek w Aspose.Drawing dla .NET.
-linktitle: Save PNG Image and Work with Installed Fonts in Aspose.Drawing
+date: 2026-02-25
+description: Dowiedz się, jak tworzyć grafikę bitmapową w C# i zapisywać obrazy PNG,
+  jednocześnie wyświetlając zainstalowane czcionki, rysując tekst przy użyciu czcionek
+  oraz dostosowując rozdzielczość bitmapy za pomocą Aspose.Drawing dla .NET.
+linktitle: Create Bitmap Graphics C# – Save PNG Image and Work with Installed Fonts
+  in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Zapisz obraz PNG i pracuj z zainstalowanymi czcionkami w Aspose.Drawing
+title: Tworzenie grafiki bitmapowej w C# – zapisywanie obrazu PNG i praca z zainstalowanymi
+  czcionkami w Aspose.Drawing
 url: /pl/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
@@ -14,33 +16,36 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz obraz PNG i pracuj z zainstalowanymi czcionkami w Aspose.Drawing
+# Zapisz obraz PNG i pracuj z wbudowanymi czcionkami w Aspose.Drawing
 
-## Wprowadzenie
+## Wstęp
 
-Jeśli potrzebujesz **zapisz obraz PNG** pliki, które dodatkowo wyświetlają informacje o czcionkach zainstalowanych na maszynie, Aspose.Drawing dla .NET zapewnia czysty, wieloplatformowy sposób ich tworzenia. W tym tutorialu przeprowadzimy Cię przez wymienianie zainstalowanych czcionek, wyświetlanie rodzin czcionek, tworzenie grafiki z bitmapy oraz rysowanie tekstu czcionkami — a na końcu zapisanie wyniku jako plik PNG. Po zakończeniu będziesz mieć gotowy fragment kodu, który możesz wstawić do dowolnego projektu .NET.
+Jeśli **zapisania plików PNG** oraz **tworzenie grafiki bitmapowej w C#**, Aspose.Drawing dla .NET zapewnia czysty, wieloplatformowy sposób na to. W tym samouczku przeprowadziliśmy Cię przez listowanie podłączonych czcionek, wyświetlanie rodzinne czcionek, tworzenie grafiki z bitmapy oraz rysowanie tekstu czcionkami — a na końcu zapisanie wyniku jako obrazu PNG. Po umieszczeniu fragmentu kodu, który może zostać wpisany do dowolnego projektu .NET.
 
 ## Szybkie odpowiedzi
-- **Co tworzy ten tutorial?** Obraz PNG, który wymienia zainstalowane rodziny czcionek.  
-- **Jakiej biblioteki wymaga?** Aspose.Drawing dla .NET (nie wymaga System.Drawing.Common).  
-- **Czy mogę używać własnych czcionek?** Tak – wystarczy załadować je do `InstalledFontCollection`.  
-- **Czy rozdzielczość wyjściowa jest regulowana?** Oczywiście – zmień rozmiar bitmapy lub format pikseli.  
-- **Czy potrzebna jest licencja do uruchomienia kodu?** Licencja tymczasowa wystarczy do oceny; pełna licencja jest wymagana w produkcji.
+- **Co tworzy ten samouczek?** Obraz PNG, który jest wymienialną rodziną rodziny czcionek.
+- **Jakiej biblioteki wymaga?** Aspose.Drawing dla .NET (nie wymaga System.Drawing.Common).
+- **Czy można zastosować urządzenie do ładowania?** Tak — wystarczy za użytkownika je do `InstalledFontCollection`.
+- **Czy rozdzielczość wyjściowa jest regulowana?** Oczywiście — zmień rozmiar bitmapy lub format pikseli, aby **dostosuj rozdzielczość bitmapy C#**.
+- **Czy jest to licencja do uruchomienia kodu?** Tymczasowa licencja działa w środowisku ewaluacyjnym; pełny licencjat jest wymagany w produkcji.
 
-## Co oznacza „zapisz obraz PNG” w kontekście Aspose.Drawing?
-Zapisanie obrazu PNG oznacza wyrenderowanie powierzchni rysunkowej (obiektu `Bitmap`) do pliku z rozszerzeniem `.png`. Aspose.Drawing zajmuje się kodowaniem, więc wystarczy wywołać `bitmap.Save(...)` z żądaną ścieżką.
+## Co to jest „zapisz obraz PNG” w kontekście Aspose.Drawing?
+Zapisanie obrazu PNG oznacza wyrenderowanie powierzchni rysowania (obiektu `Bitmap`) do pliku z rozszerzeniam `.png`. Aspose.Drawing został wykorzystany do kodowania, więc wystarczy pobrać `bitmap.Save(...)` z dostępną.
 
-## Dlaczego wymieniać zainstalowane czcionki i pokazywać rodziny czcionek?
-Znajomość dostępnych czcionek pozwala tworzyć dynamiczną grafikę, która dostosowuje się do środowiska użytkownika końcowego. Jest to szczególnie przydatne przy generowaniu raportów, certyfikatów lub dowolnych treści wizualnych, które muszą odpowiadać identyfikacji wizualnej firmy bez konieczności dołączania plików czcionek.
+## Po co wyświetlać listę zainstalowanych czcionek i wyświetlać rodziny czcionek?
+udostępniane przez użytkownika, pozwala na utworzenie dynamicznej grafiki, która jest uruchamiana przez użytkownika końcowego. Jest to szczególne postanowienie przy generowaniu, certyfikatach lub odpowiednich treściach kontrolnych, które powodują poniesienie konsekwencji korporacyjnej bez konieczności dostarczania plików czcionek.
 
-## Wymagania wstępne
+## Jak stworzyć grafikę bitmapową C# za pomocą Aspose.Drawing?
+Poniżej znajduje się praktyczny przewodnik krok po kroku, który zawiera dokładne, jak **utwórz grafikę bitmapową C#**, rysować tekst czcionkami i w razie potrzeby wymagana rozdzielczość bitmapy.
 
-- **Biblioteka Aspose.Drawing** – pobierz najnowszą wersję ze [strony pobierania Aspose Drawing](https://releases.aspose.com/drawing/net/).  
-- **IDE** – Visual Studio, Rider lub dowolny edytor kompatybilny z .NET.  
-- **Podstawowa znajomość C#** – powinieneś być pewny w pracy z klasami, obiektami i prostymi pętlami.
+## Warunki wstępne
+
+- **Aspose.Drawing Library** – pobierz najnowszą wersję ze [strony pobrania Aspose Drawing](https://releases.aspose.com/drawing/net/).
+- **IDE** — Visual Studio, Rider lub niezależny edytor z .NET.
+- **Podstawowa przyjemność C#** — możliwość bycia zaznajomiony z klasami, obiektami i prostymi pętlami.
 
 ## Importuj przestrzenie nazw
-Aby pracować z czcionkami i grafiką, zaimportuj następujące przestrzenie nazw na początku pliku C#:
+Aby pracować z czcionkami i grafiką, zaimportuj te przestrzenie nazw na górze pliku C#:
 
 ```csharp
 using System.Drawing;
@@ -49,14 +54,14 @@ using System.Drawing.Text;
 
 ## Przewodnik krok po kroku
 
-### Krok 1: Utwórz bitmapę (płótno)
-Najpierw tworzymy bitmapę, która będzie przechowywać końcowy obraz. Rozmiar bitmapy i format pikseli określają jakość zapisanego PNG.
+### Krok 1: Utwórz mapę bitową (płótno)
+Najpierw tworzymy bitmapę, która będzie przechowywać końcowy obraz. Rozmiar bitmapy i format pikseli określają jakość zapisanego PNG i pozwalają **adjust bitmap resolution C#**.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Krok 2: Utwórz grafikę z bitmapy
+### Krok 2: Utwórz grafikę z mapy bitowej
 Następnie uzyskujemy obiekt `Graphics` z bitmapy. Ten obiekt pozwala rysować kształty, tekst i obrazy na płótnie.
 
 ```csharp
@@ -65,8 +70,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-### Krok 3: Skonfiguruj pędzel i czcionkę (rysuj tekst przy użyciu czcionek)
-Potrzebujemy pędzla dla koloru tekstu oraz obiektu `Font`, który definiuje krój, rozmiar i styl.
+### Krok 3: Skonfiguruj pędzel i czcionkę (rysuj tekst za pomocą czcionek)
+Potrzebujemy pędzla (brush) do koloru tekstu oraz obiektu `Font`, który definiuje krój, rozmiar i styl. To tutaj **draw text with fonts**.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -74,8 +79,8 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-### Krok 4: Wymień zainstalowane czcionki i pokaż rodziny czcionek
-Teraz wyświetlamy liczbę rodzin czcionek oraz kilka pierwszych nazw bezpośrednio na bitmapie. Demonstracja **list installed fonts** i **show font families**.
+### Krok 4: Wyświetl listę zainstalowanych czcionek i pokaż rodziny czcionek
+Teraz wyświetlamy liczbę rodzin czcionek oraz kilka pierwszych nazw bezpośrednio na bitmapie. To demonstruje możliwości **list installed fonts** i **show font families**.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -93,35 +98,41 @@ Na koniec zapisujemy bitmapę na dysku jako plik PNG. To podstawowa operacja **s
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-> **Pro tip:** Używaj `Path.Combine` do budowania ścieżek plików, aby uniknąć problemów z separatorami katalogów na różnych systemach operacyjnych.
+> **Wskazówka:** Używaj `Path.Combine` do budowania ścieżek plików, aby uniknąć problemów z separatorami katalogów w różnych systemach operacyjnych.
 
 ## Typowe problemy i rozwiązania
 | Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
-| **Brak wyświetlonych czcionek** | `InstalledFontCollection` nie został wypełniony (np. uruchamianie na serwerze bez czcionek). | Zainstaluj wymagane czcionki na serwerze lub osadź własne czcionki w aplikacji. |
-| **Zapisany plik jest uszkodzony** | Nieprawidłowy format pikseli lub brak uprawnień do zapisu. | Upewnij się, że docelowy folder istnieje i aplikacja ma prawo zapisu; zachowaj `Format32bppPArgb`. |
-| **Tekst jest rozmyty** | Niskie ustawienia DPI. | Zwiększ wymiary bitmapy lub ustaw `graphics.SmoothingMode SmoothingMode.AntiAlias`. |
+|--------|-----------|------------|
+| **Brak określonych czcionek** | `InstalledFontCollection` nie jest wypełnione (np. uruchomienie na urządzeniu bez czcionek). | Wymagane podanie na wniosek lub wydanie własne w aplikacji. |
+| **Zapisany plik jest dostępny** | Nieprawidłowy format pikseli lub brak uprawnień do zapisu. | następuje, że folder wyjściowy istnieje w aplikacji mającej uprawnienia do zapisu; zachowaj `Format32bppPArgb`. |
+| **Tekst jest rozmyty** | Niskie ustawienia DPI. | Zwiększone wymiary bitmapy lub ustaw `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
-## Najczęściej zadawane pytania
+## Często zadawane pytania
 
-**P: Czy mogę używać własnych czcionek, które nie są zainstalowane na maszynie?**  
-O: Tak. Załaduj plik czcionki do `PrivateFontCollection` i utwórz `Font` z tej kolekcji.
+**P:** Czy można zainstalować urządzenia elektryczne, które nie są zainstalowane na komputerze?
+**O:** Tak. Załaduj plik do `PrivateFontCollection` i utwórz `Font` z tej kolekcji.
 
-**P: Jak obsłużyć wyjątki związane z czcionkami?**  
-O: Otocz tworzenie czcionki blokiem `try/catch` i sprawdzaj `ArgumentException` pod kątem brakujących rodzin.
+**P:** Jak obsłużyć wyjątki z czcionkami?
+**O:** powoduje utworzenie bloku w `try/catch` i sprawdzenie `ArgumentException` pod kątem hamulców rodzinnych.
 
-**P: Czy Aspose.Drawing nadaje się do aplikacji webowych?**  
-O: Absolutnie. Biblioteka działa w ASP.NET Core, Azure Functions i innych środowiskach po stronie serwera.
+**P:** Czy Aspose.Drawing nadaje się do aplikacji webowych?
+**O:** Zdecydowanie. Biblioteka działa w ASP.NET Core, Azure Functions i innych środowiskach po stronie serwera.
 
-**P: Czy mogę zmienić kolor lub styl tekstu?**  
-O: Tak. Użyj różnych typów `Brush` (np. `LinearGradientBrush`) i zmodyfikuj enum `FontStyle`.
+**P:** Czy mogę zmienić kolor lub styl tekstu?
+**O:** Tak. różne typy `Brush` (np. `LinearGradientBrush`) i zmodyfikuj enum `FontStyle`.
 
-**P: Gdzie mogę uzyskać tymczasową licencję do testów?**  
-O: Pobierz licencję próbną ze [strony tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).
+**P:** Gdzie mogę uzyskać tymczasową wydajność?
+**O:** Pobierz dostępne próbną ze [strony tymczasowych licencji Aspose](https://purchase.aspose.com/temporary-license/).
 
-## Podsumowanie
+## Wniosek
 
-Postępując zgodnie z tymi krokami, nauczyłeś się **zapisz obraz PNG** pliki, które dynamicznie **list installed fonts**, **show font families**, **create graphics from bitmap** oraz **draw text with fonts** przy użyciu Aspose.Drawing dla .NET. Śmiało eksperymentuj z innymi czcionkami, kolorami i rozmiarami bitmapy, aby dopasować je do wymagań Twojego projektu.
+Postępując zgodnie z tymi krokami, nauczyłeś się, jak **save PNG image** tworzyć pliki, które dynamicznie **list installed fonts**, **show font families**, **create graphics from bitmap** i **draw text with fonts** przy użyciu Aspose.Drawing dla .NET. Teraz wiesz, jak **create bitmap graphics C#**, regulować rozdzielczość bitmapy i w razie potrzeby włączać własne czcionki. Śmiało eksperymentuj z innymi czcionkami, kolorami i rozmiarami bitmap, aby dopasować je do wymagań wizualnych Twojego projektu.
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-25  
+**Testowano z:** Aspose.Drawing 24.11 for .NET  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,9 +140,3 @@ Postępując zgodnie z tymi krokami, nauczyłeś się **zapisz obraz PNG** pliki
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-06  
-**Testowano z:** Aspose.Drawing 24.11 for .NET  
-**Autor:** Aspose
