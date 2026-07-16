@@ -10,8 +10,6 @@ url: /de/net/pens/width/
 weight: 12
 ---
 
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

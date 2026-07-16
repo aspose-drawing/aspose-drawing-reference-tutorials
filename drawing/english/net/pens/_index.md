@@ -76,6 +76,17 @@ Dynamic pen widths let you adapt line thickness based on zoom level, output reso
 - **Avoid over‑use of rounded joins** on very high‑resolution output; they can increase file size and rendering time.  
 - **Test different `MiterLimit` values** if you notice overly long spikes on sharp angles.
 
+## Pens Tutorials
+### [Working with Colors in Aspose.Drawing](./colors/)
+Explore the vibrant world of graphic programming in .NET with Aspose.Drawing. Create stunning visuals effortlessly.
+
+### [Joining Paths with Pens in Aspose.Drawing](./join/)
+Explore the art of joining paths with pens in Aspose.Drawing for .NET. Create stunning graphics with LineJoin options.
+
+### [Setting Width of Pens in Aspose.Drawing](./width/)
+Explore the world of graphics with Aspose.Drawing for .NET. Learn how to set pen widths dynamically for stunning visuals. Get started with our step‑by‑step guide.
+
+
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.Drawing in a web application?**  
@@ -99,21 +110,11 @@ A: Rounded or beveled joins require more calculations; for high‑volume renderi
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Pens Tutorials
-### [Working with Colors in Aspose.Drawing](./colors/)
-Explore the vibrant world of graphic programming in .NET with Aspose.Drawing. Create stunning visuals effortlessly.
-
-### [Joining Paths with Pens in Aspose.Drawing](./join/)
-Explore the art of joining paths with pens in Aspose.Drawing for .NET. Create stunning graphics with LineJoin options.
-
-### [Setting Width of Pens in Aspose.Drawing](./width/)
-Explore the world of graphics with Aspose.Drawing for .NET. Learn how to set pen widths dynamically for stunning visuals. Get started with our step‑by‑step guide.
-
----

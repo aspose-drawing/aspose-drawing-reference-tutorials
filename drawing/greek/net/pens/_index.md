@@ -10,14 +10,6 @@ url: /el/net/pens/
 weight: 24
 ---
 
- -> "## Σεμινάρια Πένων"
-
-Then each tutorial heading and description translate.
-
-Need to keep markdown headings levels.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -86,6 +78,16 @@ Let's craft final output.
 - **Avoid over‑use of rounded joins** σε εξόδους πολύ υψηλής ανάλυσης· μπορούν να αυξήσουν το μέγεθος του αρχείου και τον χρόνο απόδοσης.  
 - **Test different `MiterLimit` values** εάν παρατηρήσετε υπερβολικά μακριές ακίδες σε οξείς γωνίες.
 
+## Σεμινάρια Πένων
+### [Εργασία με Χρώματα στο Aspose.Drawing](./colors/)
+Εξερευνήστε τον ζωντανό κόσμο του προγραμματισμού γραφικών στο .NET με το Aspose.Drawing. Δημιουργήστε εκπληκτικά οπτικά στοιχεία με ευκολία.
+
+### [Σύνδεση Διαδρομών με Πένα στο Aspose.Drawing](./join/)
+Ανακαλύψτε την τέχνη της σύνδεσης διαδρομών με πένα στο Aspose.Drawing για .NET. Δημιουργήστε εντυπωσιακά γραφικά με επιλογές LineJoin.
+
+### [Ορισμός Πλάτους Πένων στο Aspose.Drawing](./width/)
+Εξερευνήστε τον κόσμο των γραφικών με το Aspose.Drawing για .NET. Μάθετε πώς να ορίζετε δυναμικά το πλάτος των πένων για εντυπωσιακά οπτικά αποτελέσματα. Ξεκινήστε με τον βήμα‑βήμα οδηγό μας.
+
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.Drawing σε εφαρμογή web;**  
@@ -113,13 +115,3 @@ A: Οι στρογγυλεμένες ή λοξές συνδέσεις απαιτ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Σεμινάρια Πένων
-### [Εργασία με Χρώματα στο Aspose.Drawing](./colors/)
-Εξερευνήστε τον ζωντανό κόσμο του προγραμματισμού γραφικών στο .NET με το Aspose.Drawing. Δημιουργήστε εκπληκτικά οπτικά στοιχεία με ευκολία.
-
-### [Σύνδεση Διαδρομών με Πένα στο Aspose.Drawing](./join/)
-Ανακαλύψτε την τέχνη της σύνδεσης διαδρομών με πένα στο Aspose.Drawing για .NET. Δημιουργήστε εντυπωσιακά γραφικά με επιλογές LineJoin.
-
-### [Ορισμός Πλάτους Πένων στο Aspose.Drawing](./width/)
-Εξερευνήστε τον κόσμο των γραφικών με το Aspose.Drawing για .NET. Μάθετε πώς να ορίζετε δυναμικά το πλάτος των πένων για εντυπωσιακά οπτικά αποτελέσματα. Ξεκινήστε με τον βήμα‑βήμα οδηγό μας.

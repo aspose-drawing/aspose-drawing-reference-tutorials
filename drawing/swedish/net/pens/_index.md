@@ -78,6 +78,16 @@ Dynamiska pen‑bredder låter dig anpassa linjetjocklek baserat på zoomnivå, 
 - **Undvik överanvändning av rundade anslutningar** på mycket högupplöst output; de kan öka filstorlek och renderingtid.  
 - **Testa olika `MiterLimit`‑värden** om du märker onormalt långa spetsar på skarpa vinklar.
 
+## Penna‑handledningar
+### [Arbeta med färger i Aspose.Drawing](./colors/)
+Utforska den färgstarka världen av grafisk programmering i .NET med Aspose.Drawing. Skapa fantastiska visuella element utan ansträngning.
+
+### [Förening av banor med Penna i Aspose.Drawing](./join/)
+Utforska konsten att förena banor med penna i Aspose.Drawing för .NET. Skapa imponerande grafik med LineJoin‑alternativ.
+
+### [Ställa in bredd på Penna i Aspose.Drawing](./width/)
+Utforska grafikvärlden med Aspose.Drawing för .NET. Lär dig hur du dynamiskt ställer in pen‑bredder för fantastiska visuella resultat. Kom igång med vår steg‑för‑steg‑guide.
+
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.Drawing i en webbapplikation?**  
@@ -95,6 +105,8 @@ A: Standard är `LineJoin.Miter`, vilket skapar skarpa hörn såvida inte miter�
 **Q: Finns det prestandaöverväganden vid användning av komplexa anslutningar?**  
 A: Rundade eller avfasade anslutningar kräver fler beräkningar; för högvolymrendering, testa och välj den stil som balanserar kvalitet och hastighet.
 
+---
+
 **Senast uppdaterad:** 2026-02-19  
 **Testad med:** Aspose.Drawing 24.11 for .NET  
 **Författare:** Aspose  
@@ -105,15 +117,3 @@ A: Rundade eller avfasade anslutningar kräver fler beräkningar; för högvolym
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Penna‑handledningar
-### [Arbeta med färger i Aspose.Drawing](./colors/)
-Utforska den färgstarka världen av grafisk programmering i .NET med Aspose.Drawing. Skapa fantastiska visuella element utan ansträngning.
-
-### [Förening av banor med Penna i Aspose.Drawing](./join/)
-Utforska konsten att förena banor med penna i Aspose.Drawing för .NET. Skapa imponerande grafik med LineJoin‑alternativ.
-
-### [Ställa in bredd på Penna i Aspose.Drawing](./width/)
-Utforska grafikvärlden med Aspose.Drawing för .NET. Lär dig hur du dynamiskt ställer in pen‑bredder för fantastiska visuella resultat. Kom igång med vår steg‑för‑steg‑guide.
-
----

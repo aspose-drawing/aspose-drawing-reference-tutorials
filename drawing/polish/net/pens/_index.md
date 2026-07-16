@@ -10,9 +10,7 @@ url: /pl/net/pens/
 weight: 24
 ---
 
- and markdown.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -80,6 +78,16 @@ Dynamiczne szerokości pióra pozwalają dostosować grubość linii w zależno�
 - **Unikaj nadmiernego użycia zaokrąglonych połączeń** przy bardzo wysokiej rozdzielczości wyjścia; mogą zwiększyć rozmiar pliku i czas renderowania.  
 - **Testuj różne wartości `MiterLimit`** jeśli zauważysz nadmiernie długie ostre kąty.  
 
+## Samouczki piór
+### [Praca z kolorami w Aspose.Drawing](./colors/)
+Odkryj barwny świat programowania graficznego w .NET z Aspose.Drawing. Twórz zachwycające wizualizacje bez wysiłku.
+
+### [Łączenie ścieżek przy użyciu piór w Aspose.Drawing](./join/)
+Poznaj sztukę łączenia ścieżek przy użyciu piór w Aspose.Drawing dla .NET. Twórz zachwycające grafiki z opcjami LineJoin.
+
+### [Ustawianie szerokości piór w Aspose.Drawing](./width/)
+Odkryj świat grafiki z Aspose.Drawing dla .NET. Dowiedz się, jak dynamicznie ustawiać szerokość pióra dla zachwycających wizualizacji. Rozpocznij z naszym przewodnikiem krok po kroku.
+
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać Aspose.Drawing w aplikacji webowej?**  
@@ -103,21 +111,11 @@ A: Zaokrąglone lub ścięte połączenia wymagają więcej obliczeń; przy rend
 **Testowano z:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Samouczki piór
-### [Praca z kolorami w Aspose.Drawing](./colors/)
-Odkryj barwny świat programowania graficznego w .NET z Aspose.Drawing. Twórz zachwycające wizualizacje bez wysiłku.
-
-### [Łączenie ścieżek przy użyciu piór w Aspose.Drawing](./join/)
-Poznaj sztukę łączenia ścieżek przy użyciu piór w Aspose.Drawing dla .NET. Twórz zachwycające grafiki z opcjami LineJoin.
-
-### [Ustawianie szerokości piór w Aspose.Drawing](./width/)
-Odkryj świat grafiki z Aspose.Drawing dla .NET. Dowiedz się, jak dynamicznie ustawiać szerokość pióra dla zachwycających wizualizacji. Rozpocznij z naszym przewodnikiem krok po kroku.
-
----

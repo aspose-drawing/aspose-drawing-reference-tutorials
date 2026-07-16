@@ -123,23 +123,23 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.Drawing δωρεάν;
 
-Α1: Το Aspose.Drawing είναι εμπορικό προϊόν, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια **[δωρεάν δοκιμή](https://releases.aspose.com/)**.
+Α1: Το Aspose.Drawing είναι εμπορικό προϊόν, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια **[δωρεάν δοκιμή](https://releases.aspose.com/) **.
 
 ### Ε2: Πού μπορώ να βρω την τεκμηρίωση του Aspose.Drawing;
 
-Α2: Ανατρέξτε στην **[τεκμηρίωση](https://reference.aspose.com/drawing/net/)** για ολοκληρωμένη καθοδήγηση.
+Α2: Ανατρέξτε στην **[τεκμηρίωση](https://reference.aspose.com/drawing/net/) ** για ολοκληρωμένη καθοδήγηση.
 
 ### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;
 
-Α3: Επισκεφθείτε το **[φόρουμ Aspose.Drawing](https://forum.aspose.com/c/drawing/44)** για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
+Α3: Επισκεφθείτε το **[φόρουμ Aspose.Drawing](https://forum.aspose.com/c/drawing/44) ** για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
 
 ### Ε4: Διατίθενται προσωρινές άδειες για το Aspose.Drawing;
 
-Α4: Ναι, μπορείτε να αποκτήσετε μια **[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)** για βραχυπρόθεσμη χρήση.
+Α4: Ναι, μπορείτε να αποκτήσετε μια **[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) ** για βραχυπρόθεσμη χρήση.
 
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.Drawing;
 
-Α5: Αγοράστε το Aspose.Drawing **[εδώ](https://purchase.aspose.com/buy)**.
+Α5: Αγοράστε το Aspose.Drawing **[εδώ](https://purchase.aspose.com/buy) **.
 
 ## Συμπέρασμα
 

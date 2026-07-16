@@ -8,16 +8,7 @@ url: /zh-hant/net/pens/
 weight: 24
 ---
 
-/)
-Explore the world of graphics with Aspose.Drawing for .NET. Learn how to set pen widths dynamically for stunning visuals. Get started with our step‑by‑step guide.
-
----
-
-Now translate each.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -85,6 +76,16 @@ Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 - **避免過度使用圓角連接** 在極高解析度輸出時，會增加檔案大小與渲染時間。  
 - **測試不同的 `MiterLimit` 數值**，若在銳角處出現過長的尖刺，請調整此參數。
 
+## 筆 (Pen) 教學
+### [Working with Colors in Aspose.Drawing](./colors/)
+探索 .NET 中 Aspose.Drawing 的繽紛圖形程式世界，輕鬆打造驚豔視覺效果。
+
+### [Joining Paths with Pens in Aspose.Drawing](./join/)
+探索在 Aspose.Drawing for .NET 中使用筆加入路徑的技巧，利用 LineJoin 選項創造精美圖形。
+
+### [Setting Width of Pens in Aspose.Drawing](./width/)
+深入了解 Aspose.Drawing for .NET 的圖形世界，學習如何動態設定筆寬，打造令人讚嘆的視覺效果，並透過步驟指南快速上手。
+
 ## 常見問題
 
 **Q: 可以在 Web 應用程式中使用 Aspose.Drawing 嗎？**  
@@ -114,13 +115,3 @@ A: 圓角或斜角連接需要較多計算；在大量渲染時，請測試並�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 筆 (Pen) 教學
-### [Working with Colors in Aspose.Drawing](./colors/)
-探索 .NET 中 Aspose.Drawing 的繽紛圖形程式世界，輕鬆打造驚豔視覺效果。
-
-### [Joining Paths with Pens in Aspose.Drawing](./join/)
-探索在 Aspose.Drawing for .NET 中使用筆加入路徑的技巧，利用 LineJoin 選項創造精美圖形。
-
-### [Setting Width of Pens in Aspose.Drawing](./width/)
-深入了解 Aspose.Drawing for .NET 的圖形世界，學習如何動態設定筆寬，打造令人讚嘆的視覺效果，並透過步驟指南快速上手。

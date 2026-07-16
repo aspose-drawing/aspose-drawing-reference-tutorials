@@ -41,7 +41,7 @@ Att rita en path betyder att konstruera ett `GraphicsPath` som innehåller en se
 
 Innan vi dyker ner i koden, se till att du har:
 
-1. **Aspose.Drawing Library** – ladda ner den **[here](https://releases.aspose.com/drawing/net/)**.  
+1. **Aspose.Drawing Library** – ladda ner den **[here](https://releases.aspose.com/drawing/net/) **.  
 2. **.NET Development Environment** – Visual Studio, VS Code eller någon IDE som stödjer C#.
 
 Nu när allt är klart, låt oss gå igenom varje steg.
@@ -123,23 +123,23 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Q1: Kan jag använda Aspose.Drawing gratis?
 
-A1: Aspose.Drawing är en kommersiell produkt, men du kan utforska dess funktioner med en **[free trial](https://releases.aspose.com/)**.
+A1: Aspose.Drawing är en kommersiell produkt, men du kan utforska dess funktioner med en **[free trial](https://releases.aspose.com/) **.
 
 ### Q2: Var kan jag hitta Aspose.Drawing‑dokumentationen?
 
-A2: Se **[documentation](https://reference.aspose.com/drawing/net/)** för omfattande vägledning.
+A2: Se **[documentation](https://reference.aspose.com/drawing/net/) ** för omfattande vägledning.
 
 ### Q3: Hur kan jag få support för Aspose.Drawing?
 
-A3: Besök **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)** för gemenskaps‑hjälp och officiell support.
+A3: Besök **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) ** för gemenskaps‑hjälp och officiell support.
 
 ### Q4: Finns tillfälliga licenser för Aspose.Drawing?
 
-A4: Ja, du kan skaffa en **[temporary license](https://purchase.aspose.com/temporary-license/)** för korttidsanvändning.
+A4: Ja, du kan skaffa en **[temporary license](https://purchase.aspose.com/temporary-license/) ** för korttidsanvändning.
 
 ### Q5: Var kan jag köpa Aspose.Drawing?
 
-A5: Köp Aspose.Drawing **[here](https://purchase.aspose.com/buy)**.
+A5: Köp Aspose.Drawing **[here](https://purchase.aspose.com/buy) **.
 
 ## Slutsats
 

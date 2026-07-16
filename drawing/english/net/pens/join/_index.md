@@ -122,23 +122,23 @@ The `Save` call writes the bitmap to a file in PNG format. Adjust the path to ma
 
 ### Q1: Can I use Aspose.Drawing for free?
 
-A1: Aspose.Drawing is a commercial product, but you can explore its capabilities with a **[free trial](https://releases.aspose.com/)**.
+A1: Aspose.Drawing is a commercial product, but you can explore its capabilities with a **[free trial](https://releases.aspose.com/) **.
 
 ### Q2: Where can I find Aspose.Drawing documentation?
 
-A2: Refer to the **[documentation](https://reference.aspose.com/drawing/net/)** for comprehensive guidance.
+A2: Refer to the **[documentation](https://reference.aspose.com/drawing/net/) ** for comprehensive guidance.
 
 ### Q3: How can I get support for Aspose.Drawing?
 
-A3: Visit the **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)** for community help and official support.
+A3: Visit the **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) ** for community help and official support.
 
 ### Q4: Are temporary licenses available for Aspose.Drawing?
 
-A4: Yes, you can obtain a **[temporary license](https://purchase.aspose.com/temporary-license/)** for short‑term usage.
+A4: Yes, you can obtain a **[temporary license](https://purchase.aspose.com/temporary-license/) ** for short‑term usage.
 
 ### Q5: Where can I purchase Aspose.Drawing?
 
-A5: Purchase Aspose.Drawing **[here](https://purchase.aspose.com/buy)**.
+A5: Purchase Aspose.Drawing **[here](https://purchase.aspose.com/buy) **.
 
 ## Conclusion
 

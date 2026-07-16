@@ -9,11 +9,7 @@ url: /th/net/pens/join/
 weight: 11
 ---
 
-.
-
-Also ensure the table formatting with pipes remains.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -127,23 +123,23 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Q1: ฉันสามารถใช้ Aspose.Drawing ได้ฟรีหรือไม่?
 
-A1: Aspose.Drawing เป็นผลิตภัณฑ์เชิงพาณิชย์, แต่คุณสามารถสำรวจความสามารถของมันด้วย **[free trial](https://releases.aspose.com/)**.
+A1: Aspose.Drawing เป็นผลิตภัณฑ์เชิงพาณิชย์, แต่คุณสามารถสำรวจความสามารถของมันด้วย **[free trial](https://releases.aspose.com/) **.
 
 ### Q2: ฉันจะหาเอกสาร Aspose.Drawing ได้จากที่ไหน?
 
-A2: ดู **[documentation](https://reference.aspose.com/drawing/net/)** เพื่อรับคำแนะนำอย่างครบถ้วน.
+A2: ดู **[documentation](https://reference.aspose.com/drawing/net/) ** เพื่อรับคำแนะนำอย่างครบถ้วน.
 
 ### Q3: ฉันจะรับการสนับสนุนสำหรับ Aspose.Drawing อย่างไร?
 
-A3: เยี่ยมชม **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)** เพื่อรับความช่วยเหลือจากชุมชนและการสนับสนุนจากทีมงาน.
+A3: เยี่ยมชม **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) ** เพื่อรับความช่วยเหลือจากชุมชนและการสนับสนุนจากทีมงาน.
 
 ### Q4: มีไลเซนส์ชั่วคราวสำหรับ Aspose.Drawing หรือไม่?
 
-A4: มี, คุณสามารถรับ **[temporary license](https://purchase.aspose.com/temporary-license/)** สำหรับการใช้งานระยะสั้น.
+A4: มี, คุณสามารถรับ **[temporary license](https://purchase.aspose.com/temporary-license/) ** สำหรับการใช้งานระยะสั้น.
 
 ### Q5: ฉันจะซื้อ Aspose.Drawing ได้จากที่ไหน?
 
-A5: ซื้อ Aspose.Drawing **[here](https://purchase.aspose.com/buy)**.
+A5: ซื้อ Aspose.Drawing **[here](https://purchase.aspose.com/buy) **.
 
 ## สรุป
 

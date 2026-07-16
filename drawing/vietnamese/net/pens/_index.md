@@ -78,6 +78,16 @@ Nghệ thuật nối các đường bằng bút là kỹ năng nền tảng cho 
 - **Avoid over‑use of rounded joins** trên đầu ra có độ phân giải rất cao; chúng có thể làm tăng kích thước tệp và thời gian render.  
 - **Test different `MiterLimit` values** nếu bạn nhận thấy các mũi nhọn quá dài ở các góc nhọn.
 
+## Hướng dẫn về Bút
+### [Working with Colors in Aspose.Drawing](./colors/)
+Khám phá thế giới sống động của lập trình đồ họa trong .NET với Aspose.Drawing. Tạo ra những hình ảnh tuyệt đẹp một cách dễ dàng.
+
+### [Joining Paths with Pens in Aspose.Drawing](./join/)
+Khám phá nghệ thuật nối các đường bằng bút trong Aspose.Drawing cho .NET. Tạo ra các đồ họa ấn tượng với các tùy chọn LineJoin.
+
+### [Setting Width of Pens in Aspose.Drawing](./width/)
+Khám phá thế giới đồ họa với Aspose.Drawing cho .NET. Học cách đặt độ rộng bút một cách động để tạo ra những hình ảnh tuyệt đẹp. Bắt đầu với hướng dẫn từng bước của chúng tôi.
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.Drawing trong ứng dụng web không?**  
@@ -107,13 +117,3 @@ A: Các nối tròn hoặc chéo yêu cầu tính toán nhiều hơn; đối v�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn về Bút
-### [Working with Colors in Aspose.Drawing](./colors/)
-Khám phá thế giới sống động của lập trình đồ họa trong .NET với Aspose.Drawing. Tạo ra những hình ảnh tuyệt đẹp một cách dễ dàng.
-
-### [Joining Paths with Pens in Aspose.Drawing](./join/)
-Khám phá nghệ thuật nối các đường bằng bút trong Aspose.Drawing cho .NET. Tạo ra các đồ họa ấn tượng với các tùy chọn LineJoin.
-
-### [Setting Width of Pens in Aspose.Drawing](./width/)
-Khám phá thế giới đồ họa với Aspose.Drawing cho .NET. Học cách đặt độ rộng bút một cách động để tạo ra những hình ảnh tuyệt đẹp. Bắt đầu với hướng dẫn từng bước của chúng tôi.

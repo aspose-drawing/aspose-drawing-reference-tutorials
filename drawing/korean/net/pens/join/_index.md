@@ -123,23 +123,23 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Q1: Aspose.Drawing을 무료로 사용할 수 있나요?
 
-A1: Aspose.Drawing은 상용 제품이지만, **[무료 체험판](https://releases.aspose.com/)**을 통해 기능을 살펴볼 수 있습니다.
+A1: Aspose.Drawing은 상용 제품이지만, **[무료 체험판](https://releases.aspose.com/) **을 통해 기능을 살펴볼 수 있습니다.
 
 ### Q2: Aspose.Drawing 문서는 어디서 찾을 수 있나요?
 
-A2: 포괄적인 가이드는 **[문서](https://reference.aspose.com/drawing/net/)**를 참고하세요.
+A2: 포괄적인 가이드는 **[문서](https://reference.aspose.com/drawing/net/) ** 를 참고하세요.
 
 ### Q3: Aspose.Drawing 지원을 어떻게 받을 수 있나요?
 
-A3: 커뮤니티 도움과 공식 지원을 위해 **[Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44)**을 방문하세요.
+A3: 커뮤니티 도움과 공식 지원을 위해 **[Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44) ** 을 방문하세요.
 
 ### Q4: Aspose.Drawing에 임시 라이선스가 있나요?
 
-A4: 네, 단기 사용을 위한 **[임시 라이선스](https://purchase.aspose.com/temporary-license/)**를 발급받을 수 있습니다.
+A4: 네, 단기 사용을 위한 **[임시 라이선스](https://purchase.aspose.com/temporary-license/) ** 를 발급받을 수 있습니다.
 
 ### Q5: Aspose.Drawing은 어디서 구매하나요?
 
-A5: **[여기](https://purchase.aspose.com/buy)**에서 구매할 수 있습니다.
+A5: **[여기](https://purchase.aspose.com/buy) ** 에서 구매할 수 있습니다.
 
 ## 결론
 

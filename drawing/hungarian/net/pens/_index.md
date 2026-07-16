@@ -80,6 +80,16 @@ A dinamikus tollszélesség lehetővé teszi a vonalvastagság adaptálását a 
 - **Kerüld a túlzott lekerekített csatlakozások használatát** nagyon magas felbontású kimeneteknél; ezek növelhetik a fájlméretet és a renderelési időt.  
 - **Teszteld a különböző `MiterLimit` értékeket**, ha túl hosszú csúcsokat látsz éles szögekben.
 
+## Tollak oktatóanyagai
+### [Working with Colors in Aspose.Drawing](./colors/)
+Fedezd fel a .NET grafikus programozás színes világát az Aspose.Drawing segítségével. Készíts lenyűgöző vizuális elemeket könnyedén.
+
+### [Joining Paths with Pens in Aspose.Drawing](./join/)
+Ismerd meg az útvonalak tollal való összekapcsolásának művészetét az Aspose.Drawing‑ban .NET számára. Hozz létre lenyűgöző grafikákat a LineJoin opciókkal.
+
+### [Setting Width of Pens in Aspose.Drawing](./width/)
+Fedezd fel a grafika világát az Aspose.Drawing for .NET‑el. Tanuld meg, hogyan állítsd be dinamikusan a tollszélességet a lenyűgöző vizuális elemekhez. Kezdj el egy lépésről‑lépésre útmutatóval.
+
 ## Gyakran feltett kérdések
 
 **Q: Használhatom az Aspose.Drawing‑ot webalkalmazásban?**  
@@ -103,21 +113,11 @@ A: A lekerekített vagy ferde csatlakozások több számítást igényelnek; nag
 **Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tollak oktatóanyagai
-### [Working with Colors in Aspose.Drawing](./colors/)
-Fedezd fel a .NET grafikus programozás színes világát az Aspose.Drawing segítségével. Készíts lenyűgöző vizuális elemeket könnyedén.
-
-### [Joining Paths with Pens in Aspose.Drawing](./join/)
-Ismerd meg az útvonalak tollal való összekapcsolásának művészetét az Aspose.Drawing‑ban .NET számára. Hozz létre lenyűgöző grafikákat a LineJoin opciókkal.
-
-### [Setting Width of Pens in Aspose.Drawing](./width/)
-Fedezd fel a grafika világát az Aspose.Drawing for .NET‑el. Tanuld meg, hogyan állítsd be dinamikusan a tollszélességet a lenyűgöző vizuális elemekhez. Kezdj el egy lépésről‑lépésre útmutatóval.
-
----

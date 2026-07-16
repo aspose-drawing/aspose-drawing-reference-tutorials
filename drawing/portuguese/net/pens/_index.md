@@ -78,6 +78,16 @@ Larguras de caneta dinâmicas permitem adaptar a espessura da linha com base no 
 - **Evite o uso excessivo de junções arredondadas** em saídas de altíssima resolução; elas podem aumentar o tamanho do arquivo e o tempo de renderização.  
 - **Teste valores diferentes de `MiterLimit`** se notar picos excessivamente longos em ângulos agudos.
 
+## Tutoriais de Pen
+### [Trabalhando com Cores no Aspose.Drawing](./colors/)
+Explore o vibrante mundo da programação gráfica em .NET com Aspose.Drawing. Crie visuais impressionantes sem esforço.
+
+### [Unindo caminhos com Pen no Aspose.Drawing](./join/)
+Explore a arte de unir caminhos com pen no Aspose.Drawing para .NET. Crie gráficos impressionantes com opções de LineJoin.
+
+### [Definindo a largura das Pen no Aspose.Drawing](./width/)
+Explore o mundo dos gráficos com Aspose.Drawing para .NET. Aprenda a definir larguras de caneta dinamicamente para visuais deslumbrantes. Comece com nosso guia passo a passo.
+
 ## Perguntas frequentes
 
 **Q: Posso usar Aspose.Drawing em uma aplicação web?**  
@@ -101,21 +111,11 @@ A: Junções arredondadas ou chanfradas exigem mais cálculos; para renderizaç�
 **Testado com:** Aspose.Drawing 24.11 para .NET  
 **Autor:** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriais de Pen
-### [Trabalhando com Cores no Aspose.Drawing](./colors/)
-Explore o vibrante mundo da programação gráfica em .NET com Aspose.Drawing. Crie visuais impressionantes sem esforço.
-
-### [Unindo caminhos com Pen no Aspose.Drawing](./join/)
-Explore a arte de unir caminhos com pen no Aspose.Drawing para .NET. Crie gráficos impressionantes com opções de LineJoin.
-
-### [Definindo a largura das Pen no Aspose.Drawing](./width/)
-Explore o mundo dos gráficos com Aspose.Drawing para .NET. Aprenda a definir larguras de caneta dinamicamente para visuais deslumbrantes. Comece com nosso guia passo a passo.
-
----

@@ -123,23 +123,23 @@ A `Save` hívás a bitmapet PNG formátumban egy fájlba írja. Igazítsd a útv
 
 ### Q1: Használhatom ingyenesen az Aspose.Drawing‑ot?
 
-A1: Az Aspose.Drawing kereskedelmi termék, de **[ingyenes próbaverzióval](https://releases.aspose.com/)** felfedezheted a lehetőségeket.
+A1: Az Aspose.Drawing kereskedelmi termék, de **[ingyenes próbaverzióval](https://releases.aspose.com/) ** felfedezheted a lehetőségeket.
 
 ### Q2: Hol találom az Aspose.Drawing dokumentációját?
 
-A2: Tekintsd meg a **[dokumentációt](https://reference.aspose.com/drawing/net/)** a részletes útmutatóért.
+A2: Tekintsd meg a **[dokumentációt](https://reference.aspose.com/drawing/net/) ** a részletes útmutatóért.
 
 ### Q3: Hogyan kaphatok támogatást az Aspose.Drawing‑hoz?
 
-A3: Látogasd meg az **[Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44)** a közösségi segítségért és a hivatalos támogatásért.
+A3: Látogasd meg az **[Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44) ** a közösségi segítségért és a hivatalos támogatásért.
 
 ### Q4: Elérhetőek ideiglenes licencek az Aspose.Drawing‑hoz?
 
-A4: Igen, kérhetsz **[ideiglenes licencet](https://purchase.aspose.com/temporary-license/)** rövid távú használatra.
+A4: Igen, kérhetsz **[ideiglenes licencet](https://purchase.aspose.com/temporary-license/) ** rövid távú használatra.
 
 ### Q5: Hol vásárolhatom meg az Aspose.Drawing‑ot?
 
-A5: Vásárolj az **[itt](https://purchase.aspose.com/buy)** található oldalon.
+A5: Vásárolj az **[itt](https://purchase.aspose.com/buy) ** található oldalon.
 
 ## Összegzés
 

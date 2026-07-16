@@ -78,6 +78,16 @@ Le larghezze dinamiche della penna ti consentono di adattare lo spessore delle l
 - **Evita l'uso eccessivo di unioni arrotondate** su output a risoluzione molto alta; possono aumentare le dimensioni del file e i tempi di rendering.  
 - **Prova valori diversi di `MiterLimit`** se noti punte eccessivamente lunghe su angoli acuti.  
 
+## Tutorial sulle penne
+### [Lavorare con i colori in Aspose.Drawing](./colors/)
+Esplora il mondo vibrante della programmazione grafica in .NET con Aspose.Drawing. Crea visuali sorprendenti senza sforzo.
+
+### [Unire percorsi con le penne in Aspose.Drawing](./join/)
+Scopri l'arte di unire percorsi con le penne in Aspose.Drawing per .NET. Crea grafiche straordinarie con le opzioni di LineJoin.
+
+### [Impostare la larghezza delle penne in Aspose.Drawing](./width/)
+Esplora il mondo della grafica con Aspose.Drawing per .NET. Impara a impostare dinamicamente le larghezze delle penne per visuali mozzafiato. Inizia con la nostra guida passo‑passo.
+
 ## Domande frequenti
 
 **Q: Posso usare Aspose.Drawing in un'applicazione web?**  
@@ -105,13 +115,3 @@ A: Unioni arrotondate o smussate richiedono più calcoli; per rendering ad alto 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutorial sulle penne
-### [Lavorare con i colori in Aspose.Drawing](./colors/)
-Esplora il mondo vibrante della programmazione grafica in .NET con Aspose.Drawing. Crea visuali sorprendenti senza sforzo.
-
-### [Unire percorsi con le penne in Aspose.Drawing](./join/)
-Scopri l'arte di unire percorsi con le penne in Aspose.Drawing per .NET. Crea grafiche straordinarie con le opzioni di LineJoin.
-
-### [Impostare la larghezza delle penne in Aspose.Drawing](./width/)
-Esplora il mondo della grafica con Aspose.Drawing per .NET. Impara a impostare dinamicamente le larghezze delle penne per visuali mozzafiato. Inizia con la nostra guida passo‑passo.

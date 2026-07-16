@@ -123,23 +123,23 @@ Volání `Save` zapíše bitmapu do souboru ve formátu PNG. Přizpůsobte cestu
 
 ### Q1: Mohu používat Aspose.Drawing zdarma?
 
-A1: Aspose.Drawing je komerční produkt, ale můžete si jeho možnosti vyzkoušet pomocí **[bezplatné zkušební verze](https://releases.aspose.com/)**.
+A1: Aspose.Drawing je komerční produkt, ale můžete si jeho možnosti vyzkoušet pomocí **[bezplatné zkušební verze](https://releases.aspose.com/) **.
 
 ### Q2: Kde najdu dokumentaci k Aspose.Drawing?
 
-A2: Podívejte se na **[dokumentaci](https://reference.aspose.com/drawing/net/)** pro podrobné pokyny.
+A2: Podívejte se na **[dokumentaci](https://reference.aspose.com/drawing/net/) ** pro podrobné pokyny.
 
 ### Q3: Jak mohu získat podporu pro Aspose.Drawing?
 
-A3: Navštivte **[forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44)** pro komunitní pomoc a oficiální podporu.
+A3: Navštivte **[forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) ** pro komunitní pomoc a oficiální podporu.
 
 ### Q4: Jsou k dispozici dočasné licence pro Aspose.Drawing?
 
-A4: Ano, můžete získat **[dočasnou licenci](https://purchase.aspose.com/temporary-license/)** pro krátkodobé použití.
+A4: Ano, můžete získat **[dočasnou licenci](https://purchase.aspose.com/temporary-license/) ** pro krátkodobé použití.
 
 ### Q5: Kde si mohu zakoupit Aspose.Drawing?
 
-A5: Zakupte Aspose.Drawing **[zde](https://purchase.aspose.com/buy)**.
+A5: Zakupte Aspose.Drawing **[zde](https://purchase.aspose.com/buy) **.
 
 ## Závěr
 

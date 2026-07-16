@@ -122,23 +122,23 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 ### Q1：我可以免費使用 Aspose.Drawing 嗎？
 
-A1：Aspose.Drawing 為商業產品，但您可透過 **[免費試用](https://releases.aspose.com/)** 來體驗其功能。
+A1：Aspose.Drawing 為商業產品，但您可透過 **[免費試用](https://releases.aspose.com/) ** 來體驗其功能。
 
 ### Q2：在哪裡可以找到 Aspose.Drawing 文件？
 
-A2：請參閱 **[文件說明](https://reference.aspose.com/drawing/net/)** 以獲得完整指引。
+A2：請參閱 **[文件說明](https://reference.aspose.com/drawing/net/) ** 以獲得完整指引。
 
 ### Q3：如何取得 Aspose.Drawing 的支援？
 
-A3：前往 **[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44)** 取得社群協助與官方支援。
+A3：前往 **[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44) ** 取得社群協助與官方支援。
 
 ### Q4：Aspose.Drawing 是否提供臨時授權？
 
-A4：是的，您可取得 **[臨時授權](https://purchase.aspose.com/temporary-license/)** 以供短期使用。
+A4：是的，您可取得 **[臨時授權](https://purchase.aspose.com/temporary-license/) ** 以供短期使用。
 
 ### Q5：在哪裡可以購買 Aspose.Drawing？
 
-A5：請於 **[此處](https://purchase.aspose.com/buy)** 購買 Aspose.Drawing。
+A5：請於 **[此處](https://purchase.aspose.com/buy) ** 購買 Aspose.Drawing。
 
 ## 結論
 

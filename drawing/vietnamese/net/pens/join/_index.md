@@ -123,23 +123,23 @@ Lệnh `Save` ghi bitmap vào một tệp dưới định dạng PNG. Điều ch
 
 ### Câu hỏi 1: Tôi có thể sử dụng Aspose.Drawing miễn phí không?
 
-A1: Aspose.Drawing là sản phẩm thương mại, nhưng bạn có thể khám phá các tính năng của nó với **[bản dùng thử miễn phí](https://releases.aspose.com/)**.
+A1: Aspose.Drawing là sản phẩm thương mại, nhưng bạn có thể khám phá các tính năng của nó với **[bản dùng thử miễn phí](https://releases.aspose.com/) **.
 
 ### Câu hỏi 2: Tôi có thể tìm tài liệu Aspose.Drawing ở đâu?
 
-A2: Tham khảo **[tài liệu](https://reference.aspose.com/drawing/net/)** để có hướng dẫn chi tiết.
+A2: Tham khảo **[tài liệu](https://reference.aspose.com/drawing/net/) ** để có hướng dẫn chi tiết.
 
 ### Câu hỏi 3: Làm sao tôi có thể nhận hỗ trợ cho Aspose.Drawing?
 
-A3: Truy cập **[diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44)** để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
+A3: Truy cập **[diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44) ** để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
 
 ### Câu hỏi 4: Có giấy phép tạm thời cho Aspose.Drawing không?
 
-A4: Có, bạn có thể nhận **[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)** cho việc sử dụng ngắn hạn.
+A4: Có, bạn có thể nhận **[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) ** cho việc sử dụng ngắn hạn.
 
 ### Câu hỏi 5: Tôi có thể mua Aspose.Drawing ở đâu?
 
-A5: Mua Aspose.Drawing **[tại đây](https://purchase.aspose.com/buy)**.
+A5: Mua Aspose.Drawing **[tại đây](https://purchase.aspose.com/buy) **.
 
 ## Kết luận
 

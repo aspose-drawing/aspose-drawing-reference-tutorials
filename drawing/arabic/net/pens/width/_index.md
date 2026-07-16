@@ -9,15 +9,7 @@ url: /ar/net/pens/width/
 weight: 12
 ---
 
-10 for .NET
-
-**Author:** Aspose
-
-Then closing shortcodes.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

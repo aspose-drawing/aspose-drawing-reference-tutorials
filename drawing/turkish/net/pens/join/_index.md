@@ -15,47 +15,47 @@ weight: 11
 
 # Aspose.Drawing'de Yol Çizme ve Kalemlerle Yolları Birleştirme
 
-## Introduction
+## Giriiş
 
-Aspose.Drawing for .NET dünyasına hoş geldiniz! Bu öğreticide, **yol çizme** nesnelerini keşfedecek, farklı line‑join stilleriyle birleştirecek ve sonunda **görseli PNG olarak kaydedeceksiniz**. Raporlama aracı, tasarım editörü oluşturuyor ya da sadece net vektör grafiklere ihtiyacınız olsun, kalemlerle yol çizimini ustalaşmak görsel çıktınız üzerinde ince kontrol sağlar.
+Aspose.Drawing for .NET'te hoş geldiniz! Bu öğretende, **yol çizme** nesnelerini keşfedecek, farklı line‑join stilleriyle birleştirecek ve sonunda **görseli PNG olarak kaydedeceksiniz**. Raporlama aracı, tasarım programlarını oluşturur ya da sadece net görsellerde ihtiyacınız olsun, kalemlerle yol çizimini ustalıkla görsel olarak ortaya çıkarıp üzerinde ince kontrol sağlar.
 
-## Quick Answers
-- **“draw path” ne anlama geliyor?** Vektör tabanlı bir çizgi veya şekil tanımı oluşturur ve bir `Graphics` nesnesi tarafından render edilebilir.  
-- **Hangi line join seçenekleri mevcut?** `Bevel`, `Miter`, `Round` ve `BevelClipped`.  
-- **Sonucu PNG olarak dışa aktarabilir miyim?** Evet—`.png` uzantısı ile `Bitmap.Save` kullanın.  
-- **Lisans gerekir mi?** Değerlendirme için bir deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
-- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.6+, .NET Core 3.1+ ve .NET 6+.
+## Hızlı Yanıtlar
+- **“yol çiz” ne anlaşılıyor?** Vektör tabanlı bir çizgi veya şekil tanımı oluşturur ve bir `Grafik` nesnesi tarafından oluşturulabilir.
+- **Hangi hat birleştirme seçenekleri mevcut mu?** `Eğim`, `Gönye`, `Yuvarlak` ve `BevelClipped`.
+- **Sonucu PNG olarak aktarabilir miyim?** Evet—`.png` uzantısı ile `Bitmap.Save` kullanın.
+- **Lisans gerekir mi?** Değerlendirme için bir deneme sürümü çalışır; üretim için ticari lisans gereklidir.
+- **Hangi .NET uzantısı destekleniyor mu?** .NET Framework 4.6+, .NET Core 3.1+ ve .NET 6+.
 
-## What is “how to draw path” in Aspose.Drawing?
+## Aspose.Drawing'de “yol nasıl çizilir” nedir?
 
-Bir yolu çizmek, bir dizi çizgi, eğri veya şekil içeren bir `GraphicsPath` oluşturmak anlamına gelir. Yol oluşturulduktan sonra, bir `Pen` kullanarak `Graphics` yüzeyine boyarsınız. Bu yaklaşım, tek tek çizgiler çizmeye göre daha esnektir; çünkü tüm şekle dönüşüm, kırpma ve farklı join stilleri uygulayabilirsiniz.
+Bir yol çizmek, bir dizi çizgi, eğri veya şekil içeren bir `GraphicsPath` oluşturmak anlamına gelir. Yol oluşturulduktan sonra, bir `Pen` kullanarak `Graphics` ile ayrılırsınız. Bu yaklaşımla, tek çizgileri çizmeye göre daha esnektir; Çünkü tüm bileşenleri dönüştürebilir ve farklı birleştirme bileşenlerini uygulayabilirsiniz.
 
-## Why use Aspose.Drawing for joining paths?
+## Yolları birleştirmek için neden Aspose.Drawing'i kullanmalısınız?
 
-- **Full .NET compatibility** – Windows, Linux ve macOS üzerinde çalışır.  
-- **Rich line‑join options** – tek bir özellik ile köşeleri beveled, rounded veya mitered hâle getirebilirsiniz.  
-- **High‑quality raster output** – ek dönüşüm adımları olmadan doğrudan PNG, JPEG, BMP vb. formatlarda kaydedebilirsiniz.  
-- **No GDI+ limitations** – `System.Drawing.Common` sınırlı olabilecek sunucu tarafı render işlemleri için idealdir.
+- **Tam .NET uyumluluğu** – Windows, Linux ve macOS üzerinde çalışır.
+- **Zengin hat-birleştirme seçenekleri** – tek bir özellik ile köşeleri eğimli, yuvarlak veya köşeli hâle getirebilirsiniz.
+- **Yüksek kaliteli raster çıktı** – ek dönüşüm adımları olmadan doğrudan PNG, JPEG, BMP vb. formatlarda kaydedebilirsiniz.
+- **GDI+ sınırlaması yok** – `System.Drawing.Common` sınırlandırılabilir sunucu tarafı render işlemleri için idealdir.
 
-## Prerequisites
+## Önkoşullar
 
-Kodun içine dalmadan önce şunların kurulu olduğundan emin olun:
+Kodun içine dalmadan önce kuruluşunuz olduğundan emin olun:
 
-1. **Aspose.Drawing Library** – **[buradan](https://releases.aspose.com/drawing/net/)** indirin.  
-2. **.NET Development Environment** – Visual Studio, VS Code veya C# destekleyen herhangi bir IDE.
+1. **Aspose.Drawing Library** – **[buradan](https://releases.aspose.com/drawing/net/)** indirildi.
+2. **.NET Geliştirme Ortamı** – Herhangi bir IDE'yi destekleyen Visual Studio, VS Code veya C#.
 
-Her şey hazır olduğuna göre, adım adım ilerleyelim.
+Her şeyi hazırlayacağınıza göre, adım adım ilerleyelim.
 
-## Import Namespaces
+## Ad Alanlarını İçe Aktar
 
-Dosyanızın en üstüne gerekli ad alanlarını ekleyin, böylece derleyici grafik sınıflarını bulabilir:
+Dosyanızın en üst düzeydeki kapsamını tamamlayın, böylece derleyici grafik sınıflarını bildirin:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## Step 1: Create a Bitmap and Graphics Object
+## Adım 1: Bir Bitmap ve Grafik Nesnesi Oluşturun
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -64,7 +64,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 Boş bir tuval (`Bitmap`) oluşturuyoruz; boyutu 1000 × 800 piksel ve çizim komutlarımızı işletecek bir `Graphics` nesnesi elde ediyoruz.
 
-## Step 2: Define the DrawPath Method
+## Adım 2: DrawPath Yöntemini Tanımlayın
 
 ```csharp
 private static void DrawPath(Graphics graphics, LineJoin join, int y)
@@ -87,7 +87,7 @@ Bu yardımcı metod çizim mantığını kapsüller:
 
 Herhangi bir `LineJoin` değeriyle bu metodu çağırarak görsel farkı görebilirsiniz.
 
-## Step 3: Join Paths with Bevel LineJoin
+## Adım 3: Yolları Bevel LineJoin ile Birleştirin
 
 ```csharp
 DrawPath(graphics, LineJoin.Bevel, 200);
@@ -95,7 +95,7 @@ DrawPath(graphics, LineJoin.Bevel, 200);
 
 `LineJoin.Bevel` kullanmak, iki çizginin buluştuğu noktada düzleştirilmiş bir köşe oluşturur.
 
-## Step 4: Join Paths with Round LineJoin
+## Adım 4: Yolları Round LineJoin ile Birleştirin
 
 ```csharp
 DrawPath(graphics, LineJoin.Round, 400);
@@ -103,7 +103,7 @@ DrawPath(graphics, LineJoin.Round, 400);
 
 `LineJoin.Round` pürüzsüz, yuvarlatılmış bir köşe üretir—daha cilalı bir görünüm için mükemmeldir.
 
-## Step 5: Save the Result as PNG
+## Adım 5: Sonucu PNG Olarak Kaydedin
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
@@ -111,45 +111,45 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 `Save` çağrısı bitmap'i PNG formatında bir dosyaya yazar. Ortamınıza uygun yolu ayarlayın.
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **Image appears blank** | `Graphics` nesnesi temizlenmemiş veya bitmap boyutu çok küçük. | Çizimden önce `graphics.Clear(Color.White);` çağırın veya bitmap boyutlarını artırın. |
-| **Corner looks jagged** | Kalın bir kalemle düşük çözünürlüklü bitmap kullanılması. | Bitmap DPI'yi (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) artırın veya kalem genişliğini azaltın. |
-| **File not found error** | Geçersiz kaydetme yolu. | `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")` gibi bir yol kullanın. |
+| Sayı | Neden Olur | Düzelt |
+|----------|-----|-----|
+| **Resim boş görünüyor** | `Grafik` nesnesi temizlenmemiş veya bitmap boyutu çok küçük. | Çizimden önce `graphics.Clear(Color.White);` çağırın veya bitmap boyutlarını artırın. |
+| **Köşe pürüzlü görünüyor** | Kalın bir kalemle düşük renklerli bitmap kullanımı. | Bitmap DPI'yi (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) artırın veya kalem genişliğini azaltın. |
+| **Dosya bulunamadı hatası** | Geçersiz kaydetme yolu. | `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")` gibi bir yol kullanın. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-### Q1: Can I use Aspose.Drawing for free?
+### S1: Aspose.Drawing'i ücretsiz kullanabilir miyim?
 
-A1: Aspose.Drawing ticari bir üründür, ancak **[free trial](https://releases.aspose.com/)** ile yeteneklerini keşfedebilirsiniz.
+A1: Aspose.Drawing ticari bir ürünü, ancak **[ücretsiz deneme](https://releases.aspose.com/) ** ile üye olabilirsiniz.
 
-### Q2: Where can I find Aspose.Drawing documentation?
+### S2: Aspose.Drawing belgelerini nerede bulabilirim?
 
-A2: Kapsamlı rehberlik için **[documentation](https://reference.aspose.com/drawing/net/)** sayfasına bakın.
+A2: Kapsamlı bağlılık için **[dokümantasyon](https://reference.aspose.com/drawing/net/) ** sayfasına bakın.
 
-### Q3: How can I get support for Aspose.Drawing?
+### S3: Aspose.Drawing için nasıl destek alabilirim?
 
-A3: Topluluk yardımı ve resmi destek için **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)** adresini ziyaret edin.
+C3: Topluluk yardımı ve resmi destek için **[Aspose.Drawing forumu](https://forum.aspose.com/c/drawing/44) ** adresini ziyaret edin.
 
-### Q4: Are temporary licenses available for Aspose.Drawing?
+### S4: Aspose.Drawing için geçici lisanslar mevcut mu?
 
-A4: Evet, kısa vadeli kullanım için **[temporary license](https://purchase.aspose.com/temporary-license/)** alabilirsiniz.
+C4: Evet, kısa vadede kullanım için **[geçici lisans](https://purchase.aspose.com/temporary-license/) ** alabilirsiniz.
 
-### Q5: Where can I purchase Aspose.Drawing?
+### S5: Aspose.Drawing'i nereden satın alabilirim?
 
-A5: Aspose.Drawing'i **[buradan](https://purchase.aspose.com/buy)** satın alabilirsiniz.
+Cevap5: Aspose.Drawing'i **[buradan](https://purchase.aspose.com/buy) ** satın alabilirsiniz.
 
-## Conclusion
+## Çözüm
 
-Bu rehberde **yol çizme** nesnelerini ele aldık, farklı `LineJoin` stillerini uyguladık ve Aspose.Drawing for .NET kullanarak son grafiği PNG dosyası olarak kaydettik. Bu adımları ustalaştırarak sunucu‑tarafı kodunuzdan doğrudan karmaşık vektör grafikler, özel ikonlar veya dinamik grafikler oluşturabilirsiniz.
+Bu rehberde **yol çizme** nesnelerini ele aldık, farklı `LineJoin` stillerini uyguladık ve Aspose.Drawing for .NET kullanarak son grafiği PNG dosyası olarak kaydettik. Bu adımda ustalaştırarak sunucu‑tarafı kodlayarakzdan doğrudan karmaşık parçalar, özel ikonlar veya dinamik parçalar oluşturabilirsiniz.
 
 ---
 
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-19
+**Şunlarla test edilmiştir:** Aspose.Drawing 24.11 for .NET
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -10,17 +10,7 @@ url: /it/net/pens/width/
 weight: 12
 ---
 
-/products/products-backtop-button >}}
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final output with translated content.
-
-Check for any missed items: code block placeholders remain unchanged. Ensure markdown formatting preserved.
-
-Also note "For Italian, ensure proper RTL formatting if needed" - not needed.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

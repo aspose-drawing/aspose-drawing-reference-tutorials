@@ -77,6 +77,16 @@ Pen으로 경로를 연결하는 기술은 그래픽 프로그래머에게 기�
 - **고해상도 출력에서 둥근 조인 과다 사용을 피하세요**; 파일 크기와 렌더링 시간이 증가할 수 있습니다.  
 - **날카로운 각도에서 스파이크가 과도하게 길어 보이면** 다양한 `MiterLimit` 값을 테스트해 보세요.  
 
+## Pen 튜토리얼
+### [Aspose.Drawing에서 색상 작업하기](./colors/)
+.NET에서 Aspose.Drawing을 사용해 그래픽 프로그래밍의 다채로운 세계를 탐험하세요. 손쉽게 눈부신 비주얼을 만들 수 있습니다.
+
+### [Aspose.Drawing에서 Pen으로 경로 연결하기](./join/)
+.NET용 Aspose.Drawing에서 Pen으로 경로를 연결하는 기술을 살펴보세요. LineJoin 옵션을 활용해 멋진 그래픽을 만들 수 있습니다.
+
+### [Aspose.Drawing에서 Pen 너비 설정하기](./width/)
+.NET용 Aspose.Drawing으로 그래픽 세계를 탐험하세요. 동적 펜 너비 설정 방법을 배우고 단계별 가이드를 통해 눈부신 비주얼을 구현해 보세요.
+
 ## 자주 묻는 질문
 
 **Q: Aspose.Drawing을 웹 애플리케이션에서 사용할 수 있나요?**  
@@ -106,13 +116,3 @@ A: 둥근 조인이나 베벨 조인은 계산량이 더 많습니다. 대량 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Pen 튜토리얼
-### [Aspose.Drawing에서 색상 작업하기](./colors/)
-.NET에서 Aspose.Drawing을 사용해 그래픽 프로그래밍의 다채로운 세계를 탐험하세요. 손쉽게 눈부신 비주얼을 만들 수 있습니다.
-
-### [Aspose.Drawing에서 Pen으로 경로 연결하기](./join/)
-.NET용 Aspose.Drawing에서 Pen으로 경로를 연결하는 기술을 살펴보세요. LineJoin 옵션을 활용해 멋진 그래픽을 만들 수 있습니다.
-
-### [Aspose.Drawing에서 Pen 너비 설정하기](./width/)
-.NET용 Aspose.Drawing으로 그래픽 세계를 탐험하세요. 동적 펜 너비 설정 방법을 배우고 단계별 가이드를 통해 눈부신 비주얼을 구현해 보세요.

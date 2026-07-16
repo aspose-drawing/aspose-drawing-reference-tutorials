@@ -78,6 +78,16 @@ Los anchos de pen dinámicos te permiten adaptar el grosor de la línea según e
 - **Evita el uso excesivo de uniones redondeadas** en salidas de muy alta resolución; pueden aumentar el tamaño del archivo y el tiempo de renderizado.  
 - **Prueba diferentes valores de `MiterLimit`** si notas picos excesivamente largos en ángulos agudos.
 
+## Tutoriales de Pen
+### [Trabajando con colores en Aspose.Drawing](./colors/)
+Explora el vibrante mundo de la programación gráfica en .NET con Aspose.Drawing. Crea visuales impresionantes sin esfuerzo.
+
+### [Unir rutas con Pen en Aspose.Drawing](./join/)
+Descubre el arte de unir rutas con Pen en Aspose.Drawing para .NET. Crea gráficos impactantes con opciones de LineJoin.
+
+### [Establecer ancho de Pen en Aspose.Drawing](./width/)
+Explora el mundo de los gráficos con Aspose.Drawing para .NET. Aprende a establecer anchos de pen dinámicamente para visuales deslumbrantes. Comienza con nuestra guía paso a paso.
+
 ## Preguntas frecuentes
 
 **Q: ¿Puedo usar Aspose.Drawing en una aplicación web?**  
@@ -107,13 +117,3 @@ A: Las uniones redondeadas o biseladas requieren más cálculos; para renderizad
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriales de Pen
-### [Trabajando con colores en Aspose.Drawing](./colors/)
-Explora el vibrante mundo de la programación gráfica en .NET con Aspose.Drawing. Crea visuales impresionantes sin esfuerzo.
-
-### [Unir rutas con Pen en Aspose.Drawing](./join/)
-Descubre el arte de unir rutas con Pen en Aspose.Drawing para .NET. Crea gráficos impactantes con opciones de LineJoin.
-
-### [Establecer ancho de Pen en Aspose.Drawing](./width/)
-Explora el mundo de los gráficos con Aspose.Drawing para .NET. Aprende a establecer anchos de pen dinámicamente para visuales deslumbrantes. Comienza con nuestra guía paso a paso.

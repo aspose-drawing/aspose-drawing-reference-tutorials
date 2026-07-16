@@ -123,23 +123,23 @@ A chamada `Save` grava o bitmap em um arquivo no formato PNG. Ajuste o caminho p
 
 ### Q1: Posso usar o Aspose.Drawing gratuitamente?
 
-A1: O Aspose.Drawing é um produto comercial, mas você pode explorar seus recursos com um **[teste gratuito](https://releases.aspose.com/)**.
+A1: O Aspose.Drawing é um produto comercial, mas você pode explorar seus recursos com um **[teste gratuito](https://releases.aspose.com/) **.
 
 ### Q2: Onde posso encontrar a documentação do Aspose.Drawing?
 
-A2: Consulte a **[documentação](https://reference.aspose.com/drawing/net/)** para orientação completa.
+A2: Consulte a **[documentação](https://reference.aspose.com/drawing/net/) ** para orientação completa.
 
 ### Q3: Como posso obter suporte para o Aspose.Drawing?
 
-A3: Visite o **[fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44)** para ajuda da comunidade e suporte oficial.
+A3: Visite o **[fórum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) ** para ajuda da comunidade e suporte oficial.
 
 ### Q4: Licenças temporárias estão disponíveis para o Aspose.Drawing?
 
-A4: Sim, você pode obter uma **[licença temporária](https://purchase.aspose.com/temporary-license/)** para uso de curto prazo.
+A4: Sim, você pode obter uma **[licença temporária](https://purchase.aspose.com/temporary-license/) ** para uso de curto prazo.
 
 ### Q5: Onde posso comprar o Aspose.Drawing?
 
-A5: Compre o Aspose.Drawing **[aqui](https://purchase.aspose.com/buy)**.
+A5: Compre o Aspose.Drawing **[aqui](https://purchase.aspose.com/buy) **.
 
 ## Conclusão
 

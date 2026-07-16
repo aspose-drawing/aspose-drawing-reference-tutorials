@@ -9,18 +9,6 @@ url: /vi/net/pens/width/
 weight: 12
 ---
 
- placeholders unchanged.
-
-Translate table headings "Issue" "Solution" to Vietnamese: "Vấn đề" "Giải pháp". Keep content translation.
-
-Translate FAQ questions and answers.
-
-Make sure to keep URLs unchanged.
-
-Translate "Last Updated:" etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

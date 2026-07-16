@@ -78,6 +78,16 @@ Lebar pen dinamis memungkinkan Anda menyesuaikan ketebalan garis berdasarkan tin
 - **Hindari penggunaan berlebihan sambungan melengkung** pada output beresolusi sangat tinggi; dapat meningkatkan ukuran file dan waktu rendering.  
 - **Uji nilai `MiterLimit` yang berbeda** jika Anda melihat puncak yang terlalu panjang pada sudut tajam.  
 
+## Pens Tutorials
+### [Working with Colors in Aspose.Drawing](./colors/)
+Jelajahi dunia pemrograman grafis yang penuh warna di .NET dengan Aspose.Drawing. Buat visual yang menakjubkan dengan mudah.
+
+### [Joining Paths with Pens in Aspose.Drawing](./join/)
+Jelajahi seni menggabungkan path dengan pen di Aspose.Drawing untuk .NET. Buat grafik menakjubkan dengan opsi LineJoin.
+
+### [Setting Width of Pens in Aspose.Drawing](./width/)
+Jelajahi dunia grafik dengan Aspose.Drawing untuk .NET. Pelajari cara mengatur lebar pen secara dinamis untuk visual yang menakjubkan. Mulailah dengan panduan langkah‑demi‑langkah kami.
+
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.Drawing in a web application?**  
@@ -116,21 +126,11 @@ A: Rounded or beveled joins require more calculations; for high‑volume renderi
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Pens Tutorials
-### [Working with Colors in Aspose.Drawing](./colors/)
-Jelajahi dunia pemrograman grafis yang penuh warna di .NET dengan Aspose.Drawing. Buat visual yang menakjubkan dengan mudah.
-
-### [Joining Paths with Pens in Aspose.Drawing](./join/)
-Jelajahi seni menggabungkan path dengan pen di Aspose.Drawing untuk .NET. Buat grafik menakjubkan dengan opsi LineJoin.
-
-### [Setting Width of Pens in Aspose.Drawing](./width/)
-Jelajahi dunia grafik dengan Aspose.Drawing untuk .NET. Pelajari cara mengatur lebar pen secara dinamis untuk visual yang menakjubkan. Mulailah dengan panduan langkah‑demi‑langkah kami.
-
----

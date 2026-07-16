@@ -11,15 +11,7 @@ url: /fr/net/pens/
 weight: 24
 ---
 
- for stunning visuals. Get started with our step‑by‑step guide."
-
-Translate: "Explorez le monde du graphisme avec Aspose.Drawing pour .NET. Apprenez à définir dynamiquement les largeurs de stylo pour des visuels époustouflants. Commencez avec notre guide étape par étape."
-
----
-
-Make sure to keep all markdown formatting, shortcodes, links unchanged except link text. Ensure no extra spaces causing mismatch.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -87,6 +79,16 @@ Les largeurs de stylo dynamiques vous permettent d’adapter l’épaisseur des 
 - **Évitez la sur‑utilisation des jointures arrondies** sur des sorties très haute résolution ; elles peuvent augmenter la taille du fichier et le temps de rendu.  
 - **Testez différentes valeurs de `MiterLimit`** si vous remarquez des pointes excessivement longues sur des angles aigus.  
 
+## Tutoriels sur les stylos
+### [Travailler avec les couleurs dans Aspose.Drawing](./colors/)
+Explorez le monde dynamique de la programmation graphique en .NET avec Aspose.Drawing. Créez des visuels époustouflants sans effort.
+
+### [Joindre des chemins avec des stylos dans Aspose.Drawing](./join/)
+Explorez l’art de joindre des chemins avec des stylos dans Aspose.Drawing pour .NET. Créez des graphiques époustouflants avec les options LineJoin.
+
+### [Définir la largeur des stylos dans Aspose.Drawing](./width/)
+Explorez le monde du graphisme avec Aspose.Drawing pour .NET. Apprenez à définir dynamiquement les largeurs de stylo pour des visuels époustouflants. Commencez avec notre guide étape par étape.
+
 ## Foire aux questions
 
 **Q : Puis‑je utiliser Aspose.Drawing dans une application web ?**  
@@ -110,21 +112,11 @@ R : Les jointures arrondies ou biseautées nécessitent plus de calculs ; po
 **Testé avec :** Aspose.Drawing 24.11 for .NET  
 **Auteur :** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriels sur les stylos
-### [Travailler avec les couleurs dans Aspose.Drawing](./colors/)
-Explorez le monde dynamique de la programmation graphique en .NET avec Aspose.Drawing. Créez des visuels époustouflants sans effort.
-
-### [Joindre des chemins avec des stylos dans Aspose.Drawing](./join/)
-Explorez l’art de joindre des chemins avec des stylos dans Aspose.Drawing pour .NET. Créez des graphiques époustouflants avec les options LineJoin.
-
-### [Définir la largeur des stylos dans Aspose.Drawing](./width/)
-Explorez le monde du graphisme avec Aspose.Drawing pour .NET. Apprenez à définir dynamiquement les largeurs de stylo pour des visuels époustouflants. Commencez avec notre guide étape par étape.
-
----

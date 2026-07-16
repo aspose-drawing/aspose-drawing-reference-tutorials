@@ -9,11 +9,7 @@ url: /id/net/pens/join/
 weight: 11
 ---
 
- code formatting.
-
-Now produce final content with same shortcodes.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -127,23 +123,23 @@ Pemanggilan `Save` menulis bitmap ke file dalam format PNG. Sesuaikan path denga
 
 ### Q1: Apakah saya dapat menggunakan Aspose.Drawing secara gratis?
 
-A1: Aspose.Drawing adalah produk komersial, tetapi Anda dapat menjelajahi kemampuannya dengan **[percobaan gratis](https://releases.aspose.com/)**.
+A1: Aspose.Drawing adalah produk komersial, tetapi Anda dapat menjelajahi kemampuannya dengan **[percobaan gratis](https://releases.aspose.com/) **.
 
 ### Q2: Di mana saya dapat menemukan dokumentasi Aspose.Drawing?
 
-A2: Lihat **[dokumentasi](https://reference.aspose.com/drawing/net/)** untuk panduan lengkap.
+A2: Lihat **[dokumentasi](https://reference.aspose.com/drawing/net/) ** untuk panduan lengkap.
 
 ### Q3: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.Drawing?
 
-A3: Kunjungi **[forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44)** untuk bantuan komunitas dan dukungan resmi.
+A3: Kunjungi **[forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) ** untuk bantuan komunitas dan dukungan resmi.
 
 ### Q4: Apakah lisensi sementara tersedia untuk Aspose.Drawing?
 
-A4: Ya, Anda dapat memperoleh **[lisensi sementara](https://purchase.aspose.com/temporary-license/)** untuk penggunaan jangka pendek.
+A4: Ya, Anda dapat memperoleh **[lisensi sementara](https://purchase.aspose.com/temporary-license/) ** untuk penggunaan jangka pendek.
 
 ### Q5: Di mana saya dapat membeli Aspose.Drawing?
 
-A5: Beli Aspose.Drawing **[di sini](https://purchase.aspose.com/buy)**.
+A5: Beli Aspose.Drawing **[di sini](https://purchase.aspose.com/buy) **.
 
 ## Kesimpulan
 

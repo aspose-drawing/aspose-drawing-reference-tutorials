@@ -91,33 +91,33 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 
 ## 常見問答
 
-### Q1: Can I use Aspose.Drawing for commercial projects?
+### 問題1：我可以使用 Aspose.Drawing 用於商業專案嗎？
 
-A1: Yes, Aspose.Drawing is suitable for both personal and commercial projects. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
+答1：可以，Aspose.Drawing 適用於個人和商業項目。請造訪[購買頁面](https://purchase.aspose.com/buy)以了解授權詳情。
 
-### Q2: How can I get a temporary license for testing purposes?
+### 問題2：如何取得測試的臨時許可證？
 
-A2: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/) to explore the full potential of Aspose.Drawing during the trial period.
+答2：您可以從[此處](https://purchase.aspose.com/temporary-license/)取得臨時許可證，以便在試用期內探索 Aspose.Drawing 的全部功能。
 
-### Q3: Where can I find additional support or ask questions?
+### 問題3：我可以在哪裡獲得更多支持或提出問題？
 
-A3: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to seek assistance, share experiences, and connect with the community.
+答3：請造訪[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44)尋求協助、分享經驗並與社群交流。
 
-### Q4: Is there a free trial available?
+### 問題4：是否有免費試用版？
 
-A4: Yes, you can access the free trial version of Aspose.Drawing [here](https://releases.aspose.com/).
+A4：是的，您可以[點擊此處](https://releases.aspose.com/)存取Aspose.Drawing的免費試用版。
 
-### Q5: What documentation resources are available?
+### Q5：有哪些文件資源可用？
 
-A5: Refer to the [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) for in‑depth information and examples.
+A5：請參閱[Aspose.Drawing文件](https://reference.aspose.com/drawing/net/)以取得詳細資訊和範例。
 
-### Q6: Can I change the pen color dynamically?
+### Q6：我可以動態改變畫筆顏色嗎？
 
-A6: Absolutely. Pass any `Color` object to the `Pen` constructor, e.g., `new Pen(Color.Red, 3)`. You can also use `Color.FromArgb` for custom colors.
+A6：當然可以。將任何`Color`物件傳遞給`Pen`建構函數，例如`new Pen(Color.Red, 3)`。您也可以使用`Color.FromArgb`來設定自訂顏色。
 
-### Q7: How do I draw anti‑aliased lines for smoother edges?
+### Q7：如何繪製抗鋸齒線條以獲得更平滑的邊緣？
 
-A7: Set `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;` before drawing your lines.
+A7：在繪製線條之前，設定`graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;`。
 
 ## 結論
 

@@ -10,9 +10,7 @@ url: /nl/net/pens/
 weight: 24
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -80,6 +78,16 @@ Dynamische penbreedtes laten je de lijndikte aanpassen op basis van zoomniveau, 
 - **Vermijd overmatig gebruik van afgeronde verbindingen** bij zeer hoge resolutie‑output; ze kunnen de bestandsgrootte en render‑tijd vergroten.  
 - **Test verschillende `MiterLimit`‑waarden** als je te lange spikes bij scherpe hoeken opmerkt.  
 
+## Pen‑tutorials
+### [Werken met kleuren in Aspose.Drawing](./colors/)
+Ontdek de levendige wereld van grafisch programmeren in .NET met Aspose.Drawing. Creëer moeiteloos verbluffende visuals.
+
+### [Paden verbinden met pens in Aspose.Drawing](./join/)
+Ontdek de kunst van het verbinden van paden met pens in Aspose.Drawing voor .NET. Maak verbluffende graphics met LineJoin‑opties.
+
+### [Penbreedte instellen in Aspose.Drawing](./width/)
+Ontdek de wereld van graphics met Aspose.Drawing voor .NET. Leer hoe je penbreedtes dynamisch instelt voor verbluffende visuals. Begin met onze stap‑voor‑stap gids.
+
 ## Veelgestelde vragen
 
 **Q: Kan ik Aspose.Drawing gebruiken in een webapplicatie?**  
@@ -109,13 +117,3 @@ A: Afgeronde of afgeschuinde joins vereisen meer berekeningen; bij high‑volume
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Pen‑tutorials
-### [Werken met kleuren in Aspose.Drawing](./colors/)
-Ontdek de levendige wereld van grafisch programmeren in .NET met Aspose.Drawing. Creëer moeiteloos verbluffende visuals.
-
-### [Paden verbinden met pens in Aspose.Drawing](./join/)
-Ontdek de kunst van het verbinden van paden met pens in Aspose.Drawing voor .NET. Maak verbluffende graphics met LineJoin‑opties.
-
-### [Penbreedte instellen in Aspose.Drawing](./width/)
-Ontdek de wereld van graphics met Aspose.Drawing voor .NET. Leer hoe je penbreedtes dynamisch instelt voor verbluffende visuals. Begin met onze stap‑voor‑stap gids.

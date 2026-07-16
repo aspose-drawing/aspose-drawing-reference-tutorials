@@ -78,6 +78,16 @@ Dynamische Pen‑Breiten ermöglichen es, die Linienstärke basierend auf Zoom�
 - **Vermeiden Sie übermäßigen Einsatz von abgerundeten Verbindungen** bei sehr hochauflösenden Ausgaben; sie können Dateigröße und Renderzeit erhöhen.  
 - **Testen Sie verschiedene `MiterLimit`‑Werte**, wenn Sie übermäßig lange Spitzen bei scharfen Winkeln bemerken.  
 
+## Pen‑Tutorials
+### [Working with Colors in Aspose.Drawing](./colors/)
+Entdecken Sie die lebendige Welt der Grafik‑Programmierung in .NET mit Aspose.Drawing. Erstellen Sie mühelos beeindruckende Visuals.
+
+### [Joining Paths with Pens in Aspose.Drawing](./join/)
+Entdecken Sie die Kunst, Pfade mit Pens in Aspose.Drawing für .NET zu verbinden. Erstellen Sie beeindruckende Grafiken mit LineJoin‑Optionen.
+
+### [Setting Width of Pens in Aspose.Drawing](./width/)
+Erkunden Sie die Welt der Grafiken mit Aspose.Drawing für .NET. Lernen Sie, Pen‑Breiten dynamisch für beeindruckende Visuals festzulegen. Starten Sie mit unserem Schritt‑für‑Schritt‑Leitfaden.
+
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.Drawing in einer Webanwendung verwenden?**  
@@ -107,13 +117,3 @@ A: Abgerundete oder abgeschrägte Verbindungen erfordern mehr Berechnungen; für
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Pen‑Tutorials
-### [Working with Colors in Aspose.Drawing](./colors/)
-Entdecken Sie die lebendige Welt der Grafik‑Programmierung in .NET mit Aspose.Drawing. Erstellen Sie mühelos beeindruckende Visuals.
-
-### [Joining Paths with Pens in Aspose.Drawing](./join/)
-Entdecken Sie die Kunst, Pfade mit Pens in Aspose.Drawing für .NET zu verbinden. Erstellen Sie beeindruckende Grafiken mit LineJoin‑Optionen.
-
-### [Setting Width of Pens in Aspose.Drawing](./width/)
-Erkunden Sie die Welt der Grafiken mit Aspose.Drawing für .NET. Lernen Sie, Pen‑Breiten dynamisch für beeindruckende Visuals festzulegen. Starten Sie mit unserem Schritt‑für‑Schritt‑Leitfaden.
