@@ -113,28 +113,6 @@ A kép PNG fájlként kerül mentésre, teljesítve a *bitmap mentése PNG‑ké
 - **A szöveg levágott?** Növelje a téglalap méretét vagy csökkentse a betűméretet.  
 - **Teljesítményproblémák?** Amikor csak lehetséges, használja újra ugyanazt a `Graphics` objektumot több rajzolási művelethez.  
 
-## GyIK
-
-### Q1: Használhatok egyedi betűtípusokat az Aspose.Drawing for .NET‑tel?
-
-A1: Igen, egyedi betűtípusokat adhat meg a `Font` objektum létrehozásakor a kódban.
-
-### Q2: Hogyan adhatok szövegeffektusokat, például félkövér vagy dőlt?
-
-A2: Állítsa be a `Font` objektum `FontStyle` tulajdonságát. Például a `FontStyle.Bold` használatával félkövér szöveget kap.
-
-### Q3: Kompatibilis az Aspose.Drawing a .NET Core‑ral?
-
-A3: Igen, az Aspose.Drawing támogatja a .NET Core‑t, lehetővé téve annak használatát keresztplatformos alkalmazásokban.
-
-### Q4: Rajzolhatok szöveget egy meglévő képre?
-
-A4: Természetesen! Töltse be a meglévő képet a `Bitmap.FromFile()` segítségével, majd folytassa a szövegrajzolási lépésekkel.
-
-### Q5: Van közösségi fórum az Aspose.Drawing támogatásához?
-
-A5: Igen, támogatást és megbeszélhet problémákat a [Aspose.Drawing fórumon](https://forum.aspose.com/c/drawing/44).
-
 ## Gyakran Ismételt Kérdések
 
 **K: Hogyan változtathatom meg a kimeneti formátumot JPEG‑re?**  

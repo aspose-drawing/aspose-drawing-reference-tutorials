@@ -112,28 +112,6 @@ Gambar disimpan sebagai file PNG, memenuhi persyaratan *menyimpan bitmap sebagai
 - **Teks terpotong?** Perbesar ukuran persegi panjang atau kurangi ukuran font.  
 - **Kekhawatiran performa?** Gunakan kembali objek `Graphics` yang sama untuk beberapa operasi menggambar bila memungkinkan.
 
-## FAQ
-
-### Q1: Bisakah saya menggunakan font khusus dengan Aspose.Drawing untuk .NET?
-
-A1: Ya, Anda dapat menentukan font khusus saat membuat objek `Font` dalam kode Anda.
-
-### Q2: Bagaimana cara menambahkan efek teks seperti tebal atau miring?
-
-A2: Sesuaikan properti `FontStyle` pada objek `Font`. Misalnya, gunakan `FontStyle.Bold` untuk teks tebal.
-
-### Q3: Apakah Aspose.Drawing kompatibel dengan .NET Core?
-
-A3: Ya, Aspose.Drawing mendukung .NET Core, memungkinkan Anda menggunakannya dalam aplikasi lintas‑platform.
-
-### Q4: Bisakah saya menggambar teks pada gambar yang sudah ada?
-
-A4: Tentu! Muat gambar yang ada menggunakan `Bitmap.FromFile()` dan kemudian lanjutkan dengan langkah‑langkah menggambar teks.
-
-### Q5: Apakah ada forum komunitas untuk dukungan Aspose.Drawing?
-
-A5: Ya, Anda dapat menemukan dukungan dan berdiskusi tentang masalah di [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara mengubah format output menjadi JPEG?**  

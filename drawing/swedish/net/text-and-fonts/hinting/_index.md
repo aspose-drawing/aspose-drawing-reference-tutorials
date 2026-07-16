@@ -9,9 +9,7 @@ url: /sv/net/text-and-fonts/hinting/
 weight: 12
 ---
 
- original.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

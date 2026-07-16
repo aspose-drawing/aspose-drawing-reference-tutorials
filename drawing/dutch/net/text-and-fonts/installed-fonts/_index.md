@@ -128,15 +128,15 @@ A: Download een proeflicentie van de [Aspose temporary‑license page](https://p
 
 Door deze stappen te volgen heb je geleerd hoe je **PNG‑afbeeldingen** maakt die dynamisch **geïnstalleerde lettertypen opsommen**, **lettertype‑families tonen**, **graphics vanuit bitmap creëren** en **tekst met lettertypen tekenen** met Aspose.Drawing voor .NET. Je weet nu hoe je **bitmap‑graphics C#** maakt, de bitmap‑resolutie aanpast en indien nodig aangepaste lettertypen integreert. Voel je vrij om te experimenteren met andere lettertypen, kleuren en bitmap‑groottes om te voldoen aan de visuele eisen van je project.
 
+---
+
+**Laatst bijgewerkt:** 2026-02-25  
+**Getest met:** Aspose.Drawing 24.11 for .NET  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-25  
-**Getest met:** Aspose.Drawing 24.11 for .NET  
-**Auteur:** Aspose

@@ -93,23 +93,6 @@ Szabadítsd fel a pontos szöveg renderelés erejét az Aspose.Drawing for .NET 
 ### [Working with Installed Fonts in Aspose.Drawing](./installed-fonts/)
 Fedezd fel az Aspose.Drawing for .NET erejét a telepített betűtípusok manipulálásában. Fejleszd képfeldolgozási képességeidet ezzel az átfogó oktatóanyaggal.
 
-## Gyakran Ismételt Kérdések
-
-**Q: Használhatom az Aspose.Drawing‑ot képek generálására egy webkiszolgálón anélkül, hogy extra betűtípusokat telepítenék?**  
-A: Igen. Beágyazhatod az egyedi betűtípusokat közvetlenül a kódodba, vagy támaszkodhatsz a rendszer telepített betűtípusaira. A könyvtár fejlett környezetekben, például ASP.NET Core‑ban is működik.
-
-**Q: Befolyásolja a hinting a teljesítményt nagy mennyiségű kép esetén?**  
-A: A hinting kis extra terhet jelent, de a vizuális előny általában meghaladja a költséget. Magas áteresztőképességű esetekben a `TextRenderingHint`-et képenként állíthatod be.
-
-**Q: Van korlátozás a kép méretére vagy a renderelhető szöveg hosszára?**  
-A: Az egyetlen gyakorlati korlát a rendelkezésre álló memória és az alaprendszer grafikus felülete. Az Aspose.Drawing képes nagyon nagy vásznakat kezelni (pl. 10 000 × 10 000 px), ha a szerveren elegendő RAM áll rendelkezésre.
-
-**Q: Hogyan biztosíthatom, hogy a generált kép megfeleljen a márkám színpalettájának?**  
-A: Használd a `SolidBrush` vagy `LinearGradientBrush`-t pontos ARGB értékekkel a szöveg rajzolásakor. A márkaszíneket tárolhatod egy konfigurációs fájlban, és programozottan hivatkozhatsz rájuk.
-
-**Q: Szükségem van kereskedelmi licencre a fejlesztéshez?**  
-A: Ingyenes értékelő licenc elérhető teszteléshez. A termelési környezetben kereskedelmi licenc szükséges az értékelő vízjelek eltávolításához és a teljes funkcionalitás feloldásához.
-
 ## További GYIK
 
 **Q: Hogyan tudok **add text watermark**-t hozzáadni egy meglévő fényképhez?**  

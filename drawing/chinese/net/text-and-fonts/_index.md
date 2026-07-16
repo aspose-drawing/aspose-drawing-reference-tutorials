@@ -8,8 +8,6 @@ url: /zh/net/text-and-fonts/
 weight: 26
 ---
 
- final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -92,23 +90,6 @@ Hinting 对字形渲染进行微调，使字符在任何尺寸或 DPI 下都保�
 释放 Aspose.Drawing for .NET 的精准文本渲染能力。掌握 Hinting 技巧，实现晶莹剔透的字体。
 ### [Aspose.Drawing 中的已安装字体使用](./installed-fonts/)
 探索 Aspose.Drawing for .NET 在操作已安装字体方面的强大功能。通过本综合教程提升图像处理技能。
-
-## 常见问题
-
-**问：我可以在不安装额外字体的情况下，在 Web 服务器上使用 Aspose.Drawing 生成图像吗？**  
-答：可以。您可以直接在代码中嵌入自定义字体，或使用系统已安装的字体。该库在无头环境（如 ASP.NET Core）中也能正常工作。
-
-**问：Hinting 会影响大批量图像的性能吗？**  
-答：Hinting 会带来少量开销，但视觉收益通常超过成本。对于高吞吐场景，您可以针对每张图像切换 `TextRenderingHint`。
-
-**问：我可以渲染的图像尺寸或文本长度是否有限制？**  
-答：唯一的实际限制是可用内存和底层图形表面。只要服务器拥有足够的 RAM，Aspose.Drawing 能处理非常大的画布（例如 10,000 × 10,000 px）。
-
-**问：如何确保生成的图像符合品牌配色方案？**  
-答：在绘制文本时使用 `SolidBrush` 或 `LinearGradientBrush` 并提供精确的 ARGB 值。您也可以将品牌颜色存放在配置文件中，程序化引用。
-
-**问：开发阶段是否需要商业许可证？**  
-答：提供免费评估许可证用于测试。生产环境需要商业许可证，以去除评估水印并解锁全部功能。
 
 ## 其他常见问题
 

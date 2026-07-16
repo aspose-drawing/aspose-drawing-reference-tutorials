@@ -11,23 +11,7 @@ url: /nl/net/text-and-fonts/draw-text/
 weight: 10
 ---
 
-". Keep as is.
-
-Then Q1 etc translate.
-
-Make sure to keep code placeholders unchanged.
-
-At the end, "Last Updated:" etc keep same but translate labels.
-
-"Last Updated:" -> "Laatst bijgewerkt:".
-
-"Tested With:" -> "Getest met:".
-
-"Author:" -> "Auteur:".
-
-Now produce final content with all shortcodes.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -128,28 +112,6 @@ De afbeelding wordt opgeslagen als een PNG‑bestand, waarmee aan de *bitmap ops
 - **Lettertype niet gevonden?** Zorg dat het lettertype op de hostmachine is geïnstalleerd of gebruik een private font‑collectie.  
 - **Tekst afgekapt?** Vergroot de rechthoek of verklein de lettergrootte.  
 - **Prestatiezorgen?** Hergebruik hetzelfde `Graphics`‑object voor meerdere tekenbewerkingen wanneer mogelijk.
-
-## FAQ's
-
-### Q1: Kan ik aangepaste lettertypen gebruiken met Aspose.Drawing voor .NET?
-
-A1: Ja, je kunt aangepaste lettertypen opgeven bij het maken van het `Font`‑object in je code.
-
-### Q2: Hoe kan ik teksteffecten toevoegen zoals vet of cursief?
-
-A2: Pas de `FontStyle`‑eigenschap van het `Font`‑object aan. Gebruik bijvoorbeeld `FontStyle.Bold` voor vette tekst.
-
-### Q3: Is Aspose.Drawing compatibel met .NET Core?
-
-A3: Ja, Aspose.Drawing ondersteunt .NET Core, zodat je het kunt gebruiken in cross‑platformtoepassingen.
-
-### Q4: Kan ik tekst tekenen op een bestaande afbeelding?
-
-A4: Zeker! Laad de bestaande afbeelding met `Bitmap.FromFile()` en ga vervolgens verder met de tekst‑tekenstappen.
-
-### Q5: Is er een community‑forum voor Aspose.Drawing‑ondersteuning?
-
-A5: Ja, je kunt ondersteuning vinden en discussies voeren op het [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
 
 ## Veelgestelde Vragen
 

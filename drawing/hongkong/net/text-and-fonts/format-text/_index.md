@@ -8,10 +8,6 @@ url: /zh-hant/net/text-and-fonts/format-text/
 weight: 11
 ---
 
- sure to preserve all markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -137,15 +133,15 @@ A4：提供完整的圖形操作工具集，包含文字、形狀等多種格式
 
 A5：請前往 Aspose.Drawing 論壇[此處](https://forum.aspose.com/c/drawing/44)取得社群支援與討論。
 
-**Additional Q&A**
+**其他問答**
 
-**Q: How do I draw a string without a surrounding rectangle?**  
+**問：如何繪製一條沒有邊框的字串？ **  
 A: 省略 `DrawRectangle` 呼叫，直接將目標 `PointF` 位置傳給 `Graphics.DrawString`。
 
-**Q: Can I rotate the text while keeping alignment?**  
+**問：如何在保持對齊的情況下旋轉文字？ **  
 A: 可以——在繪製前對 `Graphics` 物件套用 `Matrix` 變換，繪製完畢後再重設。
 
-**Q: Is it possible to export the image as JPEG instead of PNG?**  
+**問：是否可以將影像匯出為 JPEG 格式而不是 PNG 格式？ **  
 A: 只要在 `bitmap.Save` 時更改檔案副檔名，並視需要指定 `ImageFormat.Jpeg` 即可。
 
 ---

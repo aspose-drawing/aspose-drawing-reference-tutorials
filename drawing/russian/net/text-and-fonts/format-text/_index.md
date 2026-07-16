@@ -9,24 +9,6 @@ url: /ru/net/text-and-fonts/format-text/
 weight: 11
 ---
 
- the file extension in `bitmap.Save` and optionally specify `ImageFormat.Jpeg`.
-
-Translate.
-
-Then footer:
-
-**Last Updated:** 2026-02-25 => keep date.
-
-**Tested With:** Aspose.Drawing 24.11 for .NET
-
-**Author:** Aspose
-
-Then closing shortcodes.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

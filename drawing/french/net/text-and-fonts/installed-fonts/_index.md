@@ -12,13 +12,7 @@ url: /fr/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 
- intégrez des polices personnalisées dans votre application. |
-| **Fichier enregistré corrompu** | Format de pixel incorrect ou permissions d’écriture manquantes. | Assurez‑vous que le dossier cible existe et que l’application a les droits d’écriture ; conservez `Format32bppPArgb`. |
-| **Le texte apparaît flou** | Paramètres DPI faibles. | Augmentez les dimensions du bitmap ou définissez `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
-
-Make sure to keep backticks.
-
-Now final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -138,15 +132,15 @@ R : Téléchargez une licence d’essai depuis la [page de licence temporaire 
 
 En suivant ces étapes, vous avez appris à **save PNG image** des fichiers qui **list installed fonts** dynamiquement, **show font families**, **create graphics from bitmap**, et **draw text with fonts** en utilisant Aspose.Drawing pour .NET. Vous savez maintenant comment **create bitmap graphics C#**, ajuster la résolution du bitmap et incorporer des polices personnalisées si nécessaire. N’hésitez pas à expérimenter d’autres polices, couleurs et tailles de bitmap pour répondre aux exigences visuelles de votre projet.
 
+---
+
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose

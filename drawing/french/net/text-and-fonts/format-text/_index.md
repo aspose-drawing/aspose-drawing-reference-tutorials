@@ -9,9 +9,7 @@ url: /fr/net/text-and-fonts/format-text/
 weight: 11
 ---
 
- block placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

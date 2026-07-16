@@ -12,7 +12,7 @@ url: /el/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -128,15 +128,15 @@ bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 
 Ακολουθώντας αυτά τα βήματα μάθατε πώς να **αποθηκεύετε εικόνες PNG** που καταγράφουν δυναμικά **εγκατεστημένες γραμματοσειρές**, **εμφανίζουν οικογένειες γραμματοσειρών**, **δημιουργούν γραφικά από bitmap** και **σχεδιάζουν κείμενο με γραμματοσειρές** χρησιμοποιώντας το Aspose.Drawing για .NET. Τώρα ξέρετε πώς να **δημιουργήσετε bitmap graphics C#**, να ρυθμίσετε την ανάλυση του bitmap και να ενσωματώσετε προσαρμοσμένες γραμματοσειρές όταν χρειάζεται. Μη διστάσετε να πειραματιστείτε με άλλες γραμματοσειρές, χρώματα και μεγέθη bitmap ώστε να ταιριάζουν στις οπτικές απαιτήσεις του έργου σας.
 
+---
+
+**Τελευταία ενημέρωση:** 2026-02-25  
+**Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-02-25  
-**Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
-**Συγγραφέας:** Aspose

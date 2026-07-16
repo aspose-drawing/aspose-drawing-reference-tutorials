@@ -93,23 +93,6 @@ Sblocca il potere del rendering preciso del testo con Aspose.Drawing per .NET. P
 ### [Lavorare con i font installati in Aspose.Drawing](./installed-fonts/)
 Esplora la potenza di Aspose.Drawing per .NET nella manipolazione dei font installati. Migliora le tue competenze di elaborazione immagini con questo tutorial completo.
 
-## Domande frequenti
-
-**D: Posso usare Aspose.Drawing per generare immagini su un server web senza installare font aggiuntivi?**  
-R: Sì. Puoi incorporare font personalizzati direttamente nel tuo codice o fare affidamento sui font installati dal sistema. La libreria funziona in ambienti headless come ASP.NET Core.
-
-**D: Il hinting influisce sulle prestazioni con grandi lotti di immagini?**  
-R: Il hinting aggiunge un piccolo overhead, ma il beneficio visivo di solito supera il costo. Per scenari ad alto volume, puoi attivare o disattivare `TextRenderingHint` per immagine.
-
-**D: Esiste un limite alla dimensione dell'immagine o alla lunghezza del testo che posso renderizzare?**  
-R: I limiti pratici sono la memoria disponibile e la superficie grafica sottostante. Aspose.Drawing può gestire tele molto grandi (ad es., 10.000 × 10.000 px) se il server dispone di RAM sufficiente.
-
-**D: Come garantisco che l'immagine generata corrisponda alla palette di colori del mio brand?**  
-R: Usa `SolidBrush` o `LinearGradientBrush` con valori ARGB esatti quando disegni il testo. Puoi anche memorizzare i colori del brand in un file di configurazione e riferirli programmaticamente.
-
-**D: È necessaria una licenza commerciale per lo sviluppo?**  
-R: È disponibile una licenza di valutazione gratuita per i test. Per le distribuzioni in produzione, è richiesta una licenza commerciale per rimuovere le filigrane di valutazione e sbloccare tutte le funzionalità.
-
 ## FAQ aggiuntive
 
 **D: Come posso **aggiungere filigrana di testo** a una foto esistente?**  

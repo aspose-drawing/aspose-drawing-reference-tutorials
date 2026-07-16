@@ -91,23 +91,6 @@ Unlock the power of precise text rendering with Aspose.Drawing for .NET. Master 
 ### [Working with Installed Fonts in Aspose.Drawing](./installed-fonts/)
 Explore the power of Aspose.Drawing for .NET in manipulating installed fonts. Enhance your image‑processing skills with this comprehensive tutorial.
 
-## Frequently Asked Questions
-
-**Q: Can I use Aspose.Drawing to generate images on a web server without installing extra fonts?**  
-A: Yes. You can embed custom fonts directly in your code or rely on the system’s installed fonts. The library works in headless environments such as ASP.NET Core.
-
-**Q: Does hinting affect performance on large batches of images?**  
-A: Hinting adds a small overhead, but the visual benefit usually outweighs the cost. For high‑throughput scenarios, you can toggle `TextRenderingHint` per image.
-
-**Q: Is there a limit to the image size or text length I can render?**  
-A: The only practical limits are the available memory and the underlying graphics surface. Aspose.Drawing can handle very large canvases (e.g., 10,000 × 10,000 px) if the server has enough RAM.
-
-**Q: How do I ensure the generated image matches my brand’s color palette?**  
-A: Use `SolidBrush` or `LinearGradientBrush` with exact ARGB values when drawing text. You can also store brand colors in a configuration file and reference them programmatically.
-
-**Q: Do I need a commercial license for development?**  
-A: A free evaluation license is available for testing. For production deployments, a commercial license is required to remove evaluation watermarks and unlock full functionality.
-
 ## Additional FAQ
 
 **Q: How can I **add text watermark** to an existing photo?**  

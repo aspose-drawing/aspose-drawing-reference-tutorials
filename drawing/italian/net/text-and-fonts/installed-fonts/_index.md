@@ -12,21 +12,7 @@ url: /it/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 
--25  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose
-
-Translate the last metadata? Probably keep as is, but translate "Last Updated", "Tested With", "Author". The requirement: translate all text content. So translate those labels.
-
-Italian: "**Ultimo aggiornamento:** 2026-02-25  
-**Testato con:** Aspose.Drawing 24.11 per .NET  
-**Autore:** Aspose"
-
-Make sure bold formatting stays.
-
-Now produce final content with all unchanged shortcodes and code block placeholders.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -145,15 +131,15 @@ A: Scarica una licenza di prova dalla [Aspose temporary‑license page](https://
 
 Seguendo questi passaggi hai imparato a **save PNG image** file che elencano dinamicamente i **font installati**, mostrano le **famiglie di font**, **creano grafica da bitmap** e **draw text with fonts** usando Aspose.Drawing per .NET. Ora sai come **create bitmap graphics C#**, regolare la risoluzione del bitmap e incorporare font personalizzati quando necessario. Sentiti libero di sperimentare con altri font, colori e dimensioni del bitmap per soddisfare i requisiti visivi del tuo progetto.
 
+---
+
+**Ultimo aggiornamento:** 2026-02-25  
+**Testato con:** Aspose.Drawing 24.11 per .NET  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-02-25  
-**Testato con:** Aspose.Drawing 24.11 per .NET  
-**Autore:** Aspose

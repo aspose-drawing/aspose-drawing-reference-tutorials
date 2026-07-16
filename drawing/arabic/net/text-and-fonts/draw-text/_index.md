@@ -10,9 +10,7 @@ url: /ar/net/text-and-fonts/draw-text/
 weight: 10
 ---
 
- keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -113,28 +111,6 @@ bitmap.Save("Your Document Directory" + @"TextFonts\DrawText_out.png");
 - **الخط غير موجود؟** تأكد من تثبيت الخط على الجهاز المضيف أو استخدم مجموعة خطوط خاصة.  
 - **النص مقطوع؟** زد حجم المستطيل أو قلل حجم الخط.  
 - **مخاوف الأداء؟** أعد استخدام كائن `Graphics` نفسه لعمليات رسم متعددة عندما يكون ذلك ممكنًا.
-
-## الأسئلة المتكررة
-
-### س1: هل يمكنني استخدام خطوط مخصصة مع Aspose.Drawing لـ .NET؟
-
-ج1: نعم، يمكنك تحديد خطوط مخصصة عند إنشاء كائن `Font` في الشيفرة الخاصة بك.
-
-### س2: كيف يمكنني إضافة تأثيرات نصية مثل الغامق أو المائل؟
-
-ج2: عدّل خاصية `FontStyle` لكائن `Font`. على سبيل المثال، استخدم `FontStyle.Bold` للنص الغامق.
-
-### س3: هل Aspose.Drawing متوافق مع .NET Core؟
-
-ج3: نعم، يدعم Aspose.Drawing .NET Core، مما يتيح لك استخدامه في تطبيقات متعددة المنصات.
-
-### س4: هل يمكنني رسم نص على صورة موجودة؟
-
-ج4: بالتأكيد! حمّل الصورة الموجودة باستخدام `Bitmap.FromFile()` ثم تابع خطوات رسم النص.
-
-### س5: هل هناك منتدى مجتمع لدعم Aspose.Drawing؟
-
-ج5: نعم، يمكنك العثور على الدعم ومناقشة القضايا في [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ## أسئلة شائعة
 

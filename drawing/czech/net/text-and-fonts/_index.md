@@ -10,11 +10,7 @@ url: /cs/net/text-and-fonts/
 weight: 26
 ---
 
- blocks? None. Images? None. Links preserved.
-
-Make sure to keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -96,23 +92,6 @@ Naučte se snadno formátovat text v Aspose.Drawing pro .NET. Krok‑za‑krokem
 Odemkněte sílu přesného vykreslování textu pomocí Aspose.Drawing pro .NET. Ovládněte techniky hintingu pro krystalicky čisté fonty.
 ### [Working with Installed Fonts in Aspose.Drawing](./installed-fonts/)
 Prozkoumejte sílu Aspose.Drawing pro .NET při manipulaci s nainstalovanými fonty. Zlepšete své dovednosti v zpracování obrázků pomocí tohoto komplexního tutoriálu.
-
-## Často kladené otázky
-
-**Q:** Mohu použít Aspose.Drawing k generování obrázků na webovém serveru bez instalace dalších fontů?  
-**A:** Ano. Můžete vložit vlastní fonty přímo do kódu nebo se spolehnout na fonty nainstalované v systému. Knihovna funguje v headless prostředích, jako je ASP.NET Core.
-
-**Q:** Ovlivňuje hinting výkon při zpracování velkých dávek obrázků?  
-**A:** Hinting přidává malou režii, ale vizuální přínos obvykle převáží náklady. Pro scénáře s vysokou propustností můžete přepínat `TextRenderingHint` u každého obrázku.
-
-**Q:** Existuje limit na velikost obrázku nebo délku textu, který mohu vykreslit?  
-**A:** Jedinými praktickými omezeními jsou dostupná paměť a podkladová grafická plocha. Aspose.Drawing dokáže zpracovat velmi velké plátna (např. 10 000 × 10 000 px), pokud má server dostatek RAM.
-
-**Q:** Jak zajistím, že generovaný obrázek odpovídá barevné paletě mé značky?  
-**A:** Použijte `SolidBrush` nebo `LinearGradientBrush` s přesnými ARGB hodnotami při kreslení textu. Můžete také uložit barvy značky do konfiguračního souboru a odkazovat na ně programově.
-
-**Q:** Potřebuji pro vývoj komerční licenci?  
-**A:** Pro testování je k dispozici bezplatná evaluační licence. Pro produkční nasazení je nutná komerční licence, která odstraní evaluační vodoznaky a odemkne plnou funkčnost.
 
 ## Další časté otázky
 

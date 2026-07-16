@@ -92,23 +92,6 @@ Desbloqueie o poder da renderização precisa de texto com Aspose.Drawing para .
 ### [Trabalhando com Fontes Instaladas no Aspose.Drawing](./installed-fonts/)
 Explore o poder do Aspose.Drawing para .NET na manipulação de fontes instaladas. Aprimore suas habilidades de processamento de imagens com este tutorial abrangente.
 
-## Perguntas Frequentes
-
-**Q: Posso usar Aspose.Drawing para gerar imagens em um servidor web sem instalar fontes extras?**  
-A: Sim. Você pode incorporar fontes personalizadas diretamente no código ou confiar nas fontes instaladas no sistema. A biblioteca funciona em ambientes sem interface gráfica, como ASP.NET Core.
-
-**Q: O hinting afeta o desempenho em lotes grandes de imagens?**  
-A: O hinting adiciona uma pequena sobrecarga, mas o benefício visual geralmente supera o custo. Em cenários de alta taxa de processamento, você pode alternar `TextRenderingHint` por imagem.
-
-**Q: Existe um limite para o tamanho da imagem ou comprimento do texto que posso renderizar?**  
-A: Os únicos limites práticos são a memória disponível e a superfície gráfica subjacente. Aspose.Drawing pode lidar com telas muito grandes (por exemplo, 10.000 × 10.000 px) se o servidor possuir RAM suficiente.
-
-**Q: Como garantir que a imagem gerada corresponda à paleta de cores da minha marca?**  
-A: Use `SolidBrush` ou `LinearGradientBrush` com valores ARGB exatos ao desenhar texto. Você também pode armazenar as cores da marca em um arquivo de configuração e referenciá‑las programaticamente.
-
-**Q: Preciso de uma licença comercial para desenvolvimento?**  
-A: Uma licença de avaliação gratuita está disponível para testes. Para implantações em produção, é necessária uma licença comercial para remover marcas d'água de avaliação e desbloquear todas as funcionalidades.
-
 ## FAQ Adicional
 
 **Q: Como posso **adicionar marca d'água de texto** a uma foto existente?**  

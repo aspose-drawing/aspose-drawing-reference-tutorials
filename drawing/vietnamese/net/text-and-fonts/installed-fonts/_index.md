@@ -128,15 +128,15 @@ bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 
 Bằng cách thực hiện các bước trên, bạn đã học được cách **save PNG image** với việc **list installed fonts**, **show font families**, **create graphics from bitmap**, và **draw text with fonts** bằng Aspose.Drawing cho .NET. Bạn hiện đã biết cách **create bitmap graphics C#**, điều chỉnh độ phân giải bitmap và tích hợp phông chữ tùy chỉnh khi cần. Hãy tự do thử nghiệm với các phông chữ, màu sắc và kích thước bitmap khác nhau để đáp ứng yêu cầu hình ảnh của dự án.
 
+---
+
+**Cập nhật lần cuối:** 2026-02-25  
+**Đã kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-02-25  
-**Đã kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
-**Tác giả:** Aspose

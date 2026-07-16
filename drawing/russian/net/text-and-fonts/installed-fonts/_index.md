@@ -12,11 +12,7 @@ url: /ru/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
 
-ет:**". Let's do that.
-
-Thus blockquote: "> **Совет:** Используйте `Path.Combine`..." Keep.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -141,15 +137,15 @@ A: Скачайте пробную лицензию со страницы [Aspos
 
 Следуя этим шагам, вы узнали, как **save PNG image** файлы, которые динамически **list installed fonts**, **show font families**, **create graphics from bitmap** и **draw text with fonts** с помощью Aspose.Drawing для .NET. Теперь вы знаете, как **create bitmap graphics C#**, регулировать разрешение bitmap и при необходимости использовать пользовательские шрифты. Не стесняйтесь экспериментировать с другими шрифтами, цветами и размерами bitmap, чтобы соответствовать визуальным требованиям вашего проекта.
 
+---
+
+**Последнее обновление:** 2026-02-25  
+**Тестировано с:** Aspose.Drawing 24.11 for .NET  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-02-25  
-**Тестировано с:** Aspose.Drawing 24.11 for .NET  
-**Автор:** Aspose

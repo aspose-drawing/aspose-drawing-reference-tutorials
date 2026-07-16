@@ -9,16 +9,6 @@ url: /de/net/text-and-fonts/format-text/
 weight: 11
 ---
 
- markdown formatting.
-
-Now produce final content.
-
-Let's write German translations.
-
-Be careful with bold formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

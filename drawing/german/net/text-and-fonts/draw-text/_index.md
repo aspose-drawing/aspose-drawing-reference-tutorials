@@ -113,28 +113,6 @@ Das Bild wird als PNG‑Datei gespeichert, wodurch die Anforderung *Bitmap als P
 - **Text abgeschnitten?** Vergrößern Sie die Rechteckgröße oder reduzieren Sie die Schriftgröße.  
 - **Leistungsbedenken?** Verwenden Sie nach Möglichkeit dasselbe `Graphics`‑Objekt für mehrere Zeichenoperationen erneut.
 
-## FAQ's
-
-### Q1: Kann ich benutzerdefinierte Schriften mit Aspose.Drawing für .NET verwenden?
-
-A1: Ja, Sie können benutzerdefinierte Schriften angeben, wenn Sie das `Font`‑Objekt in Ihrem Code erstellen.
-
-### Q2: Wie kann ich Texteffekte wie fett oder kursiv hinzufügen?
-
-A2: Passen Sie die `FontStyle`‑Eigenschaft des `Font`‑Objekts an. Verwenden Sie beispielsweise `FontStyle.Bold` für fetten Text.
-
-### Q3: Ist Aspose.Drawing mit .NET Core kompatibel?
-
-A3: Ja, Aspose.Drawing unterstützt .NET Core und ermöglicht die Verwendung in plattformübergreifenden Anwendungen.
-
-### Q4: Kann ich Text auf ein bestehendes Bild zeichnen?
-
-A4: Natürlich! Laden Sie das bestehende Bild mit `Bitmap.FromFile()` und fahren Sie dann mit den Text‑Zeichnungsschritten fort.
-
-### Q5: Gibt es ein Community‑Forum für Aspose.Drawing‑Support?
-
-A5: Ja, Sie können Unterstützung finden und Themen im [Aspose.Drawing‑Forum](https://forum.aspose.com/c/drawing/44) diskutieren.
-
 ## Häufig gestellte Fragen
 
 **F: Wie ändere ich das Ausgabeformat zu JPEG?**  

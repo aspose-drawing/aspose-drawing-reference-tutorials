@@ -10,9 +10,7 @@ url: /es/net/text-and-fonts/
 weight: 26
 ---
 
- keep headings levels.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -95,24 +93,7 @@ Desbloquea el poder del renderizado preciso de texto con Aspose.Drawing para .NE
 ### [Trabajar con fuentes instaladas en Aspose.Drawing](./installed-fonts/)
 Explora el poder de Aspose.Drawing para .NET en la manipulación de fuentes instaladas. Mejora tus habilidades de procesamiento de imágenes con este tutorial completo.
 
-## Preguntas frecuentes
-
-**Q: ¿Puedo usar Aspose.Drawing para generar imágenes en un servidor web sin instalar fuentes adicionales?**  
-A: Sí. Puedes incrustar fuentes personalizadas directamente en tu código o confiar en las fuentes instaladas del sistema. La biblioteca funciona en entornos sin cabeza como ASP.NET Core.
-
-**Q: ¿El hinting afecta al rendimiento en lotes grandes de imágenes?**  
-A: El hinting añade una pequeña sobrecarga, pero el beneficio visual suele superar el costo. Para escenarios de alto rendimiento, puedes alternar `TextRenderingHint` por imagen.
-
-**Q: ¿Existe un límite al tamaño de la imagen o la longitud del texto que puedo renderizar?**  
-A: Los únicos límites prácticos son la memoria disponible y la superficie gráfica subyacente. Aspose.Drawing puede manejar lienzos muy grandes (p. ej., 10 000 × 10 000 px) si el servidor dispone de suficiente RAM.
-
-**Q: ¿Cómo garantizo que la imagen generada coincida con la paleta de colores de mi marca?**  
-A: Usa `SolidBrush` o `LinearGradientBrush` con valores ARGB exactos al dibujar texto. También puedes almacenar los colores de la marca en un archivo de configuración y referenciarlos programáticamente.
-
-**Q: ¿Necesito una licencia comercial para el desarrollo?**  
-A: Hay una licencia de evaluación gratuita disponible para pruebas. Para despliegues en producción, se requiere una licencia comercial para eliminar marcas de agua de evaluación y desbloquear la funcionalidad completa.
-
-## FAQ adicional
+## Preguntas frecuentes adicionales
 
 **Q: ¿Cómo puedo **añadir marca de agua de texto** a una foto existente?**  
 A: Carga la foto en un `Bitmap`, crea un objeto `Graphics`, establece el `TextRenderingHint` deseado, elige un `SolidBrush` semitransparente y llama a `DrawString` en las coordenadas deseadas.

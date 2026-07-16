@@ -93,23 +93,6 @@ Débloquez la puissance d’un rendu de texte précis avec Aspose.Drawing pour .
 ### [Travailler avec les polices installées dans Aspose.Drawing](./installed-fonts/)
 Explorez la puissance d’Aspose.Drawing pour .NET dans la manipulation des polices installées. Améliorez vos compétences en traitement d’image avec ce tutoriel complet.
 
-## Questions fréquemment posées
-
-**Q : Puis‑je utiliser Aspose.Drawing pour générer des images sur un serveur web sans installer de polices supplémentaires ?**  
-R : Oui. Vous pouvez incorporer des polices personnalisées directement dans votre code ou vous appuyer sur les polices installées du système. La bibliothèque fonctionne dans des environnements sans interface graphique tels qu’ASP.NET Core.
-
-**Q : Le hinting affecte‑t‑il les performances sur de gros lots d’images ?**  
-R : Le hinting ajoute un léger surcoût, mais le bénéfice visuel l’emporte généralement sur le coût. Pour des scénarios à haut débit, vous pouvez activer ou désactiver `TextRenderingHint` image par image.
-
-**Q : Existe‑t‑il une limite à la taille de l’image ou à la longueur du texte que je peux rendre ?**  
-R : Les seules limites pratiques sont la mémoire disponible et la surface graphique sous‑jacente. Aspose.Drawing peut gérer des canevas très grands (par ex., 10 000 × 10 000 px) si le serveur dispose de suffisamment de RAM.
-
-**Q : Comment garantir que l’image générée correspond à la palette de couleurs de ma marque ?**  
-R : Utilisez `SolidBrush` ou `LinearGradientBrush` avec des valeurs ARGB exactes lors du dessin du texte. Vous pouvez également stocker les couleurs de la marque dans un fichier de configuration et les référencer programmatiquement.
-
-**Q : Ai‑je besoin d’une licence commerciale pour le développement ?**  
-R : Une licence d’évaluation gratuite est disponible pour les tests. Pour les déploiements en production, une licence commerciale est requise afin de supprimer les filigranes d’évaluation et de débloquer l’ensemble des fonctionnalités.
-
 ## FAQ supplémentaires
 
 **Q : Comment puis‑je **add text watermark** à une photo existante ?**  

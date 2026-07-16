@@ -10,21 +10,7 @@ url: /nl/net/text-and-fonts/
 weight: 26
 ---
 
-.
-
-Then footer:
-
-**Last Updated:** 2026-02-25 -> keep date.
-
-**Tested With:** Aspose.Drawing 24.11 for .NET -> keep.
-
-**Author:** Aspose -> keep.
-
-Then closing shortcodes.
-
-Make sure to keep all markdown formatting, code fences (none present besides inline code). No code blocks.
-
-Proceed to produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -106,23 +92,6 @@ Leer moeiteloos tekst te formatteren in Aspose.Drawing voor .NET. Stap‑voor‑
 Ontgrendel de kracht van precieze tekstweergave met Aspose.Drawing voor .NET. Beheers hinting‑technieken voor kristalheldere lettertypen.
 ### [Working with Installed Fonts in Aspose.Drawing](./installed-fonts/)
 Ontdek de mogelijkheden van Aspose.Drawing voor .NET bij het manipuleren van geïnstalleerde lettertypen. Versterk je image‑processing vaardigheden met deze uitgebreide tutorial.
-
-## Veelgestelde Vragen
-
-**Q: Kan ik Aspose.Drawing gebruiken om afbeeldingen te genereren op een webserver zonder extra lettertypen te installeren?**  
-**A:** Ja. Je kunt aangepaste lettertypen direct in je code embedden of vertrouwen op de systeem‑geïnstalleerde lettertypen. De bibliotheek werkt in headless‑omgevingen zoals ASP.NET Core.
-
-**Q: Heeft hinting invloed op de prestaties bij grote batches afbeeldingen?**  
-**A:** Hinting voegt een kleine overhead toe, maar het visuele voordeel weegt meestal zwaarder dan de kosten. Voor scenario’s met hoge doorvoer kun je `TextRenderingHint` per afbeelding in- of uitschakelen.
-
-**Q: Is er een limiet aan de afbeeldingsgrootte of tekengrootte die ik kan renderen?**  
-**A:** De enige praktische grenzen zijn het beschikbare geheugen en het onderliggende graphics‑oppervlak. Aspose.Drawing kan zeer grote canvassen aan (bijv. 10.000 × 10.000 px) mits de server voldoende RAM heeft.
-
-**Q: Hoe zorg ik ervoor dat de gegenereerde afbeelding overeenkomt met het kleurenpalet van mijn merk?**  
-**A:** Gebruik `SolidBrush` of `LinearGradientBrush` met exacte ARGB‑waarden bij het tekenen van tekst. Je kunt merkkleuren ook in een configuratie‑bestand opslaan en programmatisch refereren.
-
-**Q: Heb ik een commerciële licentie nodig voor ontwikkeling?**  
-**A:** Er is een gratis evaluatielicentie beschikbaar voor testdoeleinden. Voor productie‑implementaties is een commerciële licentie vereist om evaluatiewatermerken te verwijderen en volledige functionaliteit te ontgrendelen.
 
 ## Aanvullende Veelgestelde Vragen
 

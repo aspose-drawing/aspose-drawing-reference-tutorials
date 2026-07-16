@@ -93,23 +93,6 @@ Aspose.Drawing for .NET ile hassas metin render'ının gücünü ortaya çıkar�
 ### [Aspose.Drawing'de Yüklü Fontlarla Çalışma](./installed-fonts/)
 Aspose.Drawing for .NET'in yüklü fontları manipüle etme gücünü keşfedin. Bu kapsamlı öğreticiyle görüntü‑işleme becerilerinizi geliştirin.
 
-## Sıkça Sorulan Sorular
-
-**Q: Aspose.Drawing'i ekstra font kurmadan bir web sunucusunda görüntü üretmek için kullanabilir miyim?**  
-A: Evet. Özel fontları doğrudan kodunuza gömebilir veya sistemin yüklü fontlarına güvenebilirsiniz. Kütüphane, ASP.NET Core gibi başsız (headless) ortamlarla çalışır.
-
-**Q: Hinting, büyük görüntü partilerinde performansı etkiler mi?**  
-A: Hinting küçük bir ek yük ekler, ancak görsel fayda genellikle maliyeti aşar. Yüksek verimlilik senaryoları için, her görüntüde `TextRenderingHint`'i değiştirebilirsiniz.
-
-**Q: Render edebileceğim görüntü boyutu veya metin uzunluğu için bir limit var mı?**  
-A: Tek pratik sınırlama mevcut bellek ve temel grafik yüzeyidir. Sunucunun yeterli RAM'i varsa Aspose.Drawing çok büyük kanvasları (ör. 10.000 × 10.000 px) işleyebilir.
-
-**Q: Oluşturulan görüntünün marka renk paletime uymasını nasıl sağlarım?**  
-A: Metin çizerken `SolidBrush` veya `LinearGradientBrush` ile tam ARGB değerlerini kullanın. Ayrıca marka renklerini bir yapılandırma dosyasında saklayabilir ve programatik olarak referans alabilirsiniz.
-
-**Q: Geliştirme için ticari bir lisansa ihtiyacım var mı?**  
-A: Test için ücretsiz bir değerlendirme lisansı mevcuttur. Üretim dağıtımları için, değerlendirme filigranlarını kaldırmak ve tam işlevselliği açmak amacıyla ticari bir lisans gereklidir.
-
 ## Ek SSS
 
 **Q: Mevcut bir fotoğrafa **add text watermark** nasıl ekleyebilirim?**  

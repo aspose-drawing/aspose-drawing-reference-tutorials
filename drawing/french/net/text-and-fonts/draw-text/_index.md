@@ -11,8 +11,6 @@ url: /fr/net/text-and-fonts/draw-text/
 weight: 10
 ---
 
- content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -114,28 +112,6 @@ L’image est enregistrée au format PNG, répondant ainsi à l’exigence *save
 - **Police introuvable ?** Assurez‑vous que la police est installée sur la machine hôte ou utilisez une collection de polices privées.  
 - **Texte tronqué ?** Augmentez la taille du rectangle ou réduisez la taille de la police.  
 - **Problèmes de performance ?** Réutilisez le même objet `Graphics` pour plusieurs opérations de dessin lorsque c’est possible.
-
-## FAQ
-
-### Q1 : Puis‑je utiliser des polices personnalisées avec Aspose.Drawing pour .NET ?
-
-R1 : Oui, vous pouvez spécifier des polices personnalisées lors de la création de l’objet `Font` dans votre code.
-
-### Q2 : Comment ajouter des effets de texte comme gras ou italique ?
-
-R2 : Modifiez la propriété `FontStyle` de l’objet `Font`. Par exemple, utilisez `FontStyle.Bold` pour du texte en gras.
-
-### Q3 : Aspose.Drawing est‑il compatible avec .NET Core ?
-
-R3 : Oui, Aspose.Drawing prend en charge .NET Core, vous permettant de l’utiliser dans des applications multiplateformes.
-
-### Q4 : Puis‑je dessiner du texte sur une image existante ?
-
-R4 : Bien sûr ! Chargez l’image existante avec `Bitmap.FromFile()` puis poursuivez les étapes de dessin de texte.
-
-### Q5 : Existe‑t‑il un forum communautaire pour le support d’Aspose.Drawing ?
-
-R5 : Oui, vous pouvez obtenir de l’aide et discuter des problèmes sur le [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ## Questions fréquemment posées
 

@@ -16,33 +16,33 @@ weight: 10
 
 # Jak rysować tekst przy użyciu Aspose.Drawing dla .NET
 
-## Introduction
+## Wstęp
 
-W tym przewodniku krok po kroku nauczysz się **jak rysować tekst** na obrazach przy użyciu Aspose.Drawing dla .NET. Niezależnie od tego, czy potrzebujesz stworzyć *dynamiczny obraz tekstowy*, dodać tekst do istniejącego bitmapa, czy wygenerować grafikę z własnymi czcionkami, ten tutorial przeprowadzi Cię przez każdy szczegół, abyś mógł zacząć rysować tekst w kilka minut.
+W tym przewodniku krok po kroku nauczyćsz się **jak rysować tekst** na obrazach przy użyciu Aspose.Drawing dla .NET. Oprogramowanie od tego, czy pochodzi z *dynamiczny obraz tekstowy*, przesłany tekst do bitmapy, czy wygenerowany grafikę z znanych czcionkami, dziesięć samouczków przeprowadzonych przez każdy szczegółowy, może być zapisany do rysowania tekstu w kilku minutach.
 
-## Quick Answers
-- **Jakiej biblioteki użyto?** Aspose.Drawing for .NET  
-- **Główne zadanie?** Rysowanie tekstu na obrazie (tworzenie obrazu z tekstem)  
-- **Kluczowa metoda?** `Graphics.DrawString` (rysowanie ciągu znaków na obrazie)  
-- **Format wyjściowy?** PNG (zapis bitmapy jako PNG)  
-- **Wymagania wstępne?** Środowisko programistyczne .NET oraz biblioteka Aspose.Drawing  
+## Szybkie odpowiedzi
+- **Jakiej biblioteki użyto?** Aspose.Drawing dla .NET
+- **Główne zadanie?** Rysowanie tekstu na obrazie (tworzenie obrazu z tekstem)
+- **Kluczowa metoda?** `Graphics.DrawString` (rysowanie ciągu znaków na obrazie)
+- **Format wyjściowy?** PNG (zapis bitmapy jako PNG)
+- **Wymagania wstępne?** Środowisko programistyczne .NET oraz biblioteka Aspose.Drawing
 
-## What is drawing text with Aspose.Drawing?
-Aspose.Drawing udostępnia w pełni zarządzane API, które odzwierciedla klasyczny model GDI+, jednocześnie dodając obsługę wieloplatformową. Pozwala renderować tekst, kształty i obrazy wysokiej jakości bez polegania na System.Drawing.Common.
+## Co to jest rysowanie tekstu za pomocą Aspose.Drawing?
+Rysunki udostępniające w pełni zarządzane API, które wyznaczają klasyczny model GDI+, jednocześnie dodając obsługę wieloplatformową. Umożliwia renderowanie tekstu, kształtowanie i obrazy o wysokiej jakości bez konieczności stosowania systemu.Drawing.Common.
 
-## Why use Aspose.Drawing to add text to images?
-- **Niezawodność wieloplatformowa** – działa na Windows, Linux i macOS.  
-- **Zaawansowane renderowanie** – antyaliasing i wygładzanie tekstu subpikselowego dla wyraźnego wyniku.  
-- **Brak zewnętrznych zależności** – biblioteka zawiera wszystko, czego potrzebujesz, aby *tworzyć obraz z tekstem*.
+## Dlaczego warto używać Aspose.Drawing do dodawania tekstu do obrazów?
+- **Niezawodność wieloplatformowa** – działa na Windows, Linux i macOS.
+- **Zaawansowane renderowanie** – antyaliasing i wygładzanie tekstu subpikselowego dla zaawansowanego wyniku.
+- **Brak zewnętrznych zależności** – biblioteka zawiera wszystko, co potrzebne, aby *stwórz obraz z tekstem*.
 
-## Prerequisites
+## Warunki wstępne
 
-Before diving in, make sure you have:
+Przed nurkowaniem upewnij się, że masz:
 
-- **Aspose.Drawing for .NET** – pobierz go z [dokumentacji Aspose.Drawing](https://reference.aspose.com/drawing/net/).  
-- **IDE .NET** takie jak Visual Studio lub VS Code.  
+- **Aspose.Drawing dla .NET** – pobierz go z [dokumentacji Aspose.Drawing](https://reference.aspose.com/drawing/net/).
+- **IDE .NET** takie jak Visual Studio lub VS Code.
 
-## Import Namespaces
+## Importuj przestrzenie nazw
 
 Rozpocznij od zaimportowania wymaganych przestrzeni nazw:
 
@@ -51,9 +51,7 @@ using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Step 1: Create Bitmap and Graphics Objects
-
-### Krok 1: Utwórz obiekty Bitmap i Graphics
+## Krok 1: Utwórz obiekty Bitmap i Graphics
 
 Tutaj tworzymy `Bitmap`, który będzie przechowywał ostateczny obraz, oraz obiekt `Graphics`, który pozwala rysować na nim. Wskazówka antyaliasingu zapewnia płynny wygląd tekstu.
 
@@ -64,9 +62,7 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## Step 2: Set Up Brush, Pen, and Font
-
-### Krok 2: Skonfiguruj Brush, Pen i Font
+## Krok 2: Skonfiguruj Brush, Pen i Font
 
 - **Brush** określa kolor tekstu.  
 - **Pen** jest używany później do rysowania prostokąta wokół tekstu (opcjonalnie).  
@@ -78,9 +74,7 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 1);
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## Step 3: Define Text and Rectangle
-
-### Krok 3: Zdefiniuj tekst i prostokąt
+## Krok 3: Zdefiniuj tekst i prostokąt
 
 `Rectangle` określa, gdzie zostanie umieszczony tekst. Dostosuj współrzędne i rozmiar do swojego układu.
 
@@ -89,9 +83,7 @@ string text = "Lorem ipsum..."; // (Your desired text)
 Rectangle rectangle = new Rectangle(100, 100, 800, 600);
 ```
 
-## Step 4: Draw Rectangle and Text
-
-### Krok 4: Narysuj prostokąt i tekst
+## Krok 4: Narysuj prostokąt i tekst
 
 Najpierw obrysowujemy obszar niebieskim prostokątem, a następnie **dodajemy tekst do bitmapy** wywołując `DrawString`. To jest sedno *rysowania tekstu* na obrazie.
 
@@ -100,9 +92,7 @@ graphics.DrawRectangle(pen, rectangle);
 graphics.DrawString(text, arial, brush, rectangle);
 ```
 
-## Step 5: Save the Result
-
-### Krok 5: Zapisz wynik
+## Krok 5: Zapisz wynik
 
 Obraz jest zapisywany jako plik PNG, spełniając wymaganie *zapis bitmapy jako PNG*. Zastąp ścieżkę zastępczą rzeczywistym folderem, w którym chcesz przechowywać plik.
 
@@ -110,66 +100,40 @@ Obraz jest zapisywany jako plik PNG, spełniając wymaganie *zapis bitmapy jako 
 bitmap.Save("Your Document Directory" + @"TextFonts\DrawText_out.png");
 ```
 
-## Common Use Cases
-
-### Typowe przypadki użycia
+## Typowe przypadki użycia
 
 - **Generowanie certyfikatów** z spersonalizowanymi nazwiskami.  
 - **Tworzenie miniatur z znakami wodnymi** dla galerii internetowych.  
 - **Budowanie dynamicznych wykresów** zawierających etykiety lub adnotacje.  
 
-## Troubleshooting & Tips
-
-### Rozwiązywanie problemów i wskazówki
+## Rozwiązywanie problemów i wskazówki
 
 - **Czcionka nie znaleziona?** Upewnij się, że czcionka jest zainstalowana na maszynie hosta lub użyj prywatnej kolekcji czcionek.  
 - **Tekst obcięty?** Zwiększ rozmiar prostokąta lub zmniejsz rozmiar czcionki.  
 - **Obawy o wydajność?** Ponownie używaj tego samego obiektu `Graphics` dla wielu operacji rysowania, gdy to możliwe.  
 
-## FAQ's
+## Często zadawane pytania
 
-### Q1: Can I use custom fonts with Aspose.Drawing for .NET?
+**P: Jak zmienić format wyjściowy na JPEG?**
+O: Zastąp definicji `.png` rozszerzeniam `.jpg` w metodzie `Save` i opcji definicji `ImageCodecInfo` dla jakości JPEG.
 
-**A1:** Tak, możesz określić własne czcionki przy tworzeniu obiektu `Font` w swoim kodzie.
+**P: Czy mogę rysować tekst wielowierszowy?**
+O: Tak, wstaw znaki nowej linii (`\n`) w ciągu znaków lub `StringFormat` z `FormatFlags.LineLimit`.
 
-### Q2: How can I add text effects like bold or italic?
+**P: Czy istnieje sposób zmierzenia rozmiaru tekstu przed rysowaniem?**
+O: wykorzystanie `Graphics.MeasureString`, aby uzyskać szczegółowe dane renderowanego tekstu.
 
-**A2:** Dostosuj właściwość `FontStyle` obiektu `Font`. Na przykład użyj `FontStyle.Bold` dla pogrubionego tekstu.
+**P: Czy Aspose.Drawing obsługuje znaki Unicode?**
+O: Zdecydowanie tak. Dostarcz czcionkę zawiera wymaganą glify, a biblioteka wyrenderuje je poprawnie.
 
-### Q3: Is Aspose.Drawing compatible with .NET Core?
-
-**A3:** Tak, Aspose.Drawing obsługuje .NET Core, umożliwiając użycie w aplikacjach wieloplatformowych.
-
-### Q4: Can I draw text on an existing image?
-
-**A4:** Oczywiście! Załaduj istniejący obraz używając `Bitmap.FromFile()` i następnie kontynuuj kroki rysowania tekstu.
-
-### Q5: Is there a community forum for Aspose.Drawing support?
-
-**A5:** Tak, możesz znaleźć wsparcie i dyskutować problemy na [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
-
-## Frequently Asked Questions
-
-**P: How do I change the output format to JPEG?**  
-O: Zastąp rozszerzenie `.png` rozszerzeniem `.jpg` w metodzie `Save` i opcjonalnie określ `ImageCodecInfo` dla jakości JPEG.
-
-**P: Can I draw multi‑line text?**  
-O: Tak, wstaw znaki nowej linii (`\n`) w ciągu znaków lub użyj `StringFormat` z `FormatFlags.LineLimit`.
-
-**P: Is there a way to measure text size before drawing?**  
-O: Użyj `Graphics.MeasureString`, aby uzyskać dokładne wymiary renderowanego tekstu.
-
-**P: Does Aspose.Drawing support Unicode characters?**  
-O: Zdecydowanie tak. Dostarcz czcionkę zawierającą wymagane glify, a biblioteka wyrenderuje je poprawnie.
-
-**P: What version of Aspose.Drawing was used for testing?**  
-O: Przykłady zostały przetestowane z Aspose.Drawing 24.11 dla .NET.
+**P: Jaka wersja Aspose.Drawing została użyta do testów?**
+O: Przykłady opracowane z Aspose.Drawing 24.11 dla .NET.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-25  
-**Testowano z:** Aspose.Drawing 24.11 for .NET  
-**Autor:** Aspose  
+**Aktualizacja Ostatnia:** 2026-02-25
+**Testowano z:** Aspose.Drawing 24.11 dla .NET
+**Autor:** Asponuj  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

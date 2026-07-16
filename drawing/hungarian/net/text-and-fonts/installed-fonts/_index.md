@@ -128,15 +128,15 @@ V: Tölts le egy próbaverzió licencet az [Aspose ideiglenes licenc oldaláról
 
 Ezekkel a lépésekkel megtanultad, hogyan **menthetsz PNG képeket**, amelyek dinamikusan **listázzák a telepített betűtípusokat**, **megmutatják a betűtípuscsaládokat**, **bitmapből hoznak létre grafikát**, és **betűtípusokkal szöveget rajzolnak** az Aspose.Drawing for .NET segítségével. Most már tudod, hogyan **hozz létre bitmap grafikai képeket C#‑ban**, állítsd be a bitmap felbontását, és szükség esetén használj egyéni betűtípusokat. Nyugodtan kísérletezz más betűtípusokkal, színekkel és bitmap méretekkel, hogy megfeleljenek projekted vizuális igényeinek.
 
+---
+
+**Utoljára frissítve:** 2026-02-25  
+**Tesztelve:** Aspose.Drawing 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-02-25  
-**Tesztelve:** Aspose.Drawing 24.11 for .NET  
-**Szerző:** Aspose

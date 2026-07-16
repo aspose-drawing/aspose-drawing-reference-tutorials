@@ -93,23 +93,6 @@ Entdecken Sie die Kraft präziser Textdarstellung mit Aspose.Drawing für .NET. 
 ### [Working with Installed Fonts in Aspose.Drawing](./installed-fonts/)
 Erforschen Sie die Möglichkeiten von Aspose.Drawing für .NET bei der Manipulation installierter Schriftarten. Verbessern Sie Ihre Bild‑Verarbeitungs‑Fähigkeiten mit diesem umfassenden Tutorial.
 
-## Häufig gestellte Fragen
-
-**Q: Kann ich Aspose.Drawing verwenden, um Bilder auf einem Web‑Server zu erzeugen, ohne zusätzliche Schriftarten zu installieren?**  
-A: Ja. Sie können benutzerdefinierte Schriftarten direkt in Ihrem Code einbetten oder sich auf die vom System installierten Schriftarten verlassen. Die Bibliothek funktioniert in headless‑Umgebungen wie ASP.NET Core.
-
-**Q: Beeinflusst Hinting die Leistung bei großen Bildchargen?**  
-A: Hinting verursacht einen geringen Mehraufwand, aber der visuelle Nutzen überwiegt meist die Kosten. Für Hochdurchsatz‑Szenarien können Sie `TextRenderingHint` pro Bild umschalten.
-
-**Q: Gibt es ein Limit für Bildgröße oder Textlänge, das ich rendern kann?**  
-A: Die einzigen praktischen Grenzen sind der verfügbare Speicher und die zugrunde liegende Grafikfläche. Aspose.Drawing kann sehr große Leinwände (z. B. 10.000 × 10.000 px) verarbeiten, sofern der Server über ausreichend RAM verfügt.
-
-**Q: Wie stelle ich sicher, dass das erzeugte Bild zur Farbpalette meiner Marke passt?**  
-A: Verwenden Sie `SolidBrush` oder `LinearGradientBrush` mit genauen ARGB‑Werten beim Zeichnen von Text. Sie können Markenfarben auch in einer Konfigurationsdatei speichern und programmgesteuert referenzieren.
-
-**Q: Benötige ich für die Entwicklung eine kommerzielle Lizenz?**  
-A: Eine kostenlose Evaluationslizenz steht zum Testen zur Verfügung. Für Produktionsumgebungen ist eine kommerzielle Lizenz erforderlich, um Evaluations‑Wasserzeichen zu entfernen und die volle Funktionalität freizuschalten.
-
 ## Zusätzliche FAQ
 
 **Q: Wie kann ich **add text watermark** zu einem bestehenden Foto hinzufügen?**  

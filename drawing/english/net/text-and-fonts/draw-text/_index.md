@@ -110,28 +110,6 @@ The image is saved as a PNG file, fulfilling the *save bitmap as PNG* requiremen
 - **Text clipped?** Increase the rectangle size or reduce the font size.  
 - **Performance concerns?** Reuse the same `Graphics` object for multiple draw operations when possible.
 
-## FAQ's
-
-### Q1: Can I use custom fonts with Aspose.Drawing for .NET?
-
-A1: Yes, you can specify custom fonts when creating the `Font` object in your code.
-
-### Q2: How can I add text effects like bold or italic?
-
-A2: Adjust the `FontStyle` property of the `Font` object. For example, use `FontStyle.Bold` for bold text.
-
-### Q3: Is Aspose.Drawing compatible with .NET Core?
-
-A3: Yes, Aspose.Drawing supports .NET Core, allowing you to use it in cross‑platform applications.
-
-### Q4: Can I draw text on an existing image?
-
-A4: Certainly! Load the existing image using `Bitmap.FromFile()` and then proceed with the text‑drawing steps.
-
-### Q5: Is there a community forum for Aspose.Drawing support?
-
-A5: Yes, you can find support and discuss issues on the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
-
 ## Frequently Asked Questions
 
 **Q: How do I change the output format to JPEG?**  

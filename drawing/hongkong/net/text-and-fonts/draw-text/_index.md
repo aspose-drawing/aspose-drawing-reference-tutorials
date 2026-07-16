@@ -113,28 +113,6 @@ bitmap.Save("Your Document Directory" + @"TextFonts\DrawText_out.png");
 - **文字被裁切？** 增大矩形尺寸或縮小字型大小。  
 - **效能顧慮？** 如有可能，重複使用同一個 `Graphics` 物件進行多次繪圖操作。
 
-## 常見問題
-
-### Q1：我可以在 Aspose.Drawing for .NET 中使用自訂字型嗎？
-
-A1：可以，您可以在程式碼中建立 `Font` 物件時指定自訂字型。
-
-### Q2：如何為文字加入粗體或斜體等效果？
-
-A2：調整 `Font` 物件的 `FontStyle` 屬性。例如，使用 `FontStyle.Bold` 取得粗體文字。
-
-### Q3：Aspose.Drawing 是否相容於 .NET Core？
-
-A3：是的，Aspose.Drawing 支援 .NET Core，讓您可在跨平台應用程式中使用。
-
-### Q4：我可以在現有圖像上繪製文字嗎？
-
-A4：當然可以！使用 `Bitmap.FromFile()` 載入現有圖像，然後繼續執行文字繪製步驟。
-
-### Q5：是否有 Aspose.Drawing 的社群論壇可供支援？
-
-A5：有，您可在 [Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44) 獲得支援與討論問題。
-
 ## 常見問答
 
 **Q：如何將輸出格式改為 JPEG？**  

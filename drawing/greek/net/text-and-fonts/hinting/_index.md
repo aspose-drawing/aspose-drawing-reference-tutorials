@@ -10,12 +10,6 @@ url: /el/net/text-and-fonts/hinting/
 weight: 12
 ---
 
-.
-
-Also shortcodes at top and bottom.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

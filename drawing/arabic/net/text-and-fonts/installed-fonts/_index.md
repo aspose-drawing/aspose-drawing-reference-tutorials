@@ -131,15 +131,15 @@ bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 
 باتباعك هذه الخطوات، تعلمت كيفية **save PNG image** ملفات التي تقوم ديناميكيًا بـ **list installed fonts**، **show font families**، **create graphics from bitmap**، و **draw text with fonts** باستخدام Aspose.Drawing لـ .NET. الآن تعرف كيف **create bitmap graphics C#**، تعديل دقة الـ bitmap، وإدراج خطوط مخصصة عند الحاجة. لا تتردد في تجربة خطوط أخرى، ألوان، وأحجام bitmap لتتناسب مع متطلبات مشروعك البصرية.
 
+---
+
+**آخر تحديث:** 2026-02-25  
+**تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-25  
-**تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
-**المؤلف:** Aspose

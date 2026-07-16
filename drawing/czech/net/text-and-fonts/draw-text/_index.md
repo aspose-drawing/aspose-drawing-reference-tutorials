@@ -112,28 +112,6 @@ Obrázek je uložen jako soubor PNG, čímž splňuje požadavek *uložit bitmap
 - **Text oříznut?** Zvětšete velikost obdélníku nebo zmenšete velikost písma.  
 - **Obavy o výkon?** Znovu použijte stejný objekt `Graphics` pro více kreslících operací, pokud je to možné.
 
-## FAQ's
-
-### Q1: Mohu použít vlastní fonty s Aspose.Drawing pro .NET?
-
-A1: Ano, můžete specifikovat vlastní fonty při vytváření objektu `Font` ve vašem kódu.
-
-### Q2: Jak mohu přidat textové efekty jako tučné nebo kurzívu?
-
-A2: Upravit vlastnost `FontStyle` objektu `Font`. Například použijte `FontStyle.Bold` pro tučný text.
-
-### Q3: Je Aspose.Drawing kompatibilní s .NET Core?
-
-A3: Ano, Aspose.Drawing podporuje .NET Core, což vám umožní jej používat v aplikacích napříč platformami.
-
-### Q4: Mohu kreslit text na existujícím obrázku?
-
-A4: Samozřejmě! Načtěte existující obrázek pomocí `Bitmap.FromFile()` a poté pokračujte s kroky pro kreslení textu.
-
-### Q5: Existuje komunitní fórum pro podporu Aspose.Drawing?
-
-A5: Ano, podporu a diskusi najdete na [Aspose.Drawing fóru](https://forum.aspose.com/c/drawing/44).
-
 ## Často kladené otázky
 
 **Q: Jak změnit výstupní formát na JPEG?**  

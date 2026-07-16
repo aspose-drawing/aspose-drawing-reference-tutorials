@@ -10,12 +10,6 @@ url: /vi/net/text-and-fonts/draw-text/
 weight: 10
 ---
 
- sure not to translate URLs.
-
-Also preserve markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -117,28 +111,6 @@ Hình ảnh được lưu dưới dạng tệp PNG, đáp ứng yêu cầu *lưu
 - **Không tìm thấy phông chữ?** Đảm bảo phông chữ đã được cài đặt trên máy chủ hoặc sử dụng bộ sưu tập phông chữ riêng.  
 - **Văn bản bị cắt?** Tăng kích thước hình chữ nhật hoặc giảm kích thước phông chữ.  
 - **Lo ngại về hiệu năng?** Tái sử dụng cùng một đối tượng `Graphics` cho nhiều thao tác vẽ khi có thể.
-
-## Câu hỏi thường gặp
-
-### Q1: Tôi có thể sử dụng phông chữ tùy chỉnh với Aspose.Drawing cho .NET không?
-
-A1: Có, bạn có thể chỉ định phông chữ tùy chỉnh khi tạo đối tượng `Font` trong mã của mình.
-
-### Q2: Làm sao để thêm hiệu ứng văn bản như in đậm hoặc nghiêng?
-
-A2: Điều chỉnh thuộc tính `FontStyle` của đối tượng `Font`. Ví dụ, dùng `FontStyle.Bold` để tạo văn bản in đậm.
-
-### Q3: Aspose.Drawing có tương thích với .NET Core không?
-
-A3: Có, Aspose.Drawing hỗ trợ .NET Core, cho phép bạn sử dụng nó trong các ứng dụng đa nền tảng.
-
-### Q4: Tôi có thể vẽ văn bản lên một hình ảnh hiện có không?
-
-A4: Chắc chắn! Tải hình ảnh hiện có bằng `Bitmap.FromFile()` rồi tiếp tục các bước vẽ văn bản.
-
-### Q5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.Drawing không?
-
-A5: Có, bạn có thể tìm kiếm hỗ trợ và thảo luận các vấn đề trên [diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ## Các câu hỏi thường gặp khác
 

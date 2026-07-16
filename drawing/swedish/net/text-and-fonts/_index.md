@@ -93,23 +93,6 @@ Lås upp kraften i exakt textrendering med Aspose.Drawing för .NET. Bemästra h
 ### [Arbeta med installerade teckensnitt i Aspose.Drawing](./installed-fonts/)
 Utforska Aspose.Drawings möjligheter att manipulera installerade teckensnitt. Förbättra dina färdigheter i bildbehandling med denna omfattande tutorial.
 
-## Vanliga frågor
-
-**Q: Kan jag använda Aspose.Drawing för att generera bilder på en webbserver utan att installera extra teckensnitt?**  
-A: Ja. Du kan bädda in anpassade teckensnitt direkt i din kod eller förlita dig på systemets installerade teckensnitt. Biblioteket fungerar i huvudlösa miljöer såsom ASP.NET Core.
-
-**Q: Påverkar hinting prestandan vid stora bildbatcher?**  
-A: Hinting tillför en liten overhead, men den visuella vinsten överväger vanligtvis kostnaden. För höggenomströmningsscenarier kan du växla `TextRenderingHint` per bild.
-
-**Q: Finns det någon gräns för bildstorlek eller textlängd som jag kan rendera?**  
-A: De enda praktiska begränsningarna är tillgängligt minne och den underliggande grafikytan. Aspose.Drawing kan hantera mycket stora dukar (t.ex. 10 000 × 10 000 px) om servern har tillräckligt med RAM.
-
-**Q: Hur säkerställer jag att den genererade bilden matchar mitt varumärkes färgpalett?**  
-A: Använd `SolidBrush` eller `LinearGradientBrush` med exakta ARGB‑värden när du ritar text. Du kan även lagra varumärkesfärger i en konfigurationsfil och referera dem programatiskt.
-
-**Q: Behöver jag en kommersiell licens för utveckling?**  
-A: En gratis utvärderingslicens finns tillgänglig för testning. För produktionsmiljöer krävs en kommersiell licens för att ta bort utvärderingsvattenmärken och låsa upp full funktionalitet.
-
 ## Ytterligare FAQ
 
 **Q: Hur kan jag **lägga till textvattenmärke** på ett befintligt foto?**  

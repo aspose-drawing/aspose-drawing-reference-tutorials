@@ -93,23 +93,6 @@ Odblokuj moc precyzyjnego renderowania tekstu z Aspose.Drawing dla .NET. Opanuj 
 ### [Praca z zainstalowanymi czcionkami w Aspose.Drawing](./installed-fonts/)
 Poznaj możliwości Aspose.Drawing dla .NET w manipulacji zainstalowanymi czcionkami. Rozwijaj umiejętności przetwarzania obrazów dzięki temu kompleksowemu samouczkowi.
 
-## Najczęściej zadawane pytania
-
-**Q: Czy mogę używać Aspose.Drawing do generowania obrazów na serwerze WWW bez instalowania dodatkowych czcionek?**  
-A: Tak. Możesz osadzać własne czcionki bezpośrednio w kodzie lub polegać na czcionkach zainstalowanych w systemie. Biblioteka działa w środowiskach bez interfejsu graficznego, takich jak ASP.NET Core.
-
-**Q: Czy hinting wpływa na wydajność przy dużych partiach obrazów?**  
-A: Hinting wprowadza niewielki narzut, ale korzyść wizualna zazwyczaj przewyższa koszt. W scenariuszach o wysokiej przepustowości możesz przełączać `TextRenderingHint` dla poszczególnych obrazów.
-
-**Q: Czy istnieje limit rozmiaru obrazu lub długości tekstu, które mogę renderować?**  
-A: Praktyczne ograniczenia to dostępna pamięć i podłoże graficzne. Aspose.Drawing radzi sobie z bardzo dużymi płótnami (np. 10 000 × 10 000 px), o ile serwer dysponuje wystarczającą ilością RAM.
-
-**Q: Jak zapewnić, że wygenerowany obraz odpowiada paletcie kolorów mojej marki?**  
-A: Użyj `SolidBrush` lub `LinearGradientBrush` z dokładnymi wartościami ARGB przy rysowaniu tekstu. Możesz także przechowywać kolory marki w pliku konfiguracyjnym i odwoływać się do nich programowo.
-
-**Q: Czy potrzebna jest komercyjna licencja do rozwoju?**  
-A: Dostępna jest darmowa licencja ewaluacyjna do testów. W środowiskach produkcyjnych wymagana jest licencja komercyjna, aby usunąć znak wodny ewaluacji i odblokować pełną funkcjonalność.
-
 ## Dodatkowe FAQ
 
 **Q: Jak mogę **dodać znak wodny z tekstem** do istniejącego zdjęcia?**  

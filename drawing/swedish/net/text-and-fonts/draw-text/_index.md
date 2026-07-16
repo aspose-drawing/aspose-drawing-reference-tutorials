@@ -112,28 +112,6 @@ Bilden sparas som en PNG‑fil, vilket uppfyller kravet *spara bitmap som PNG*. 
 - **Text avklippt?** Öka rektangelns storlek eller minska fontstorleken.  
 - **Prestandaproblem?** Återanvänd samma `Graphics`‑objekt för flera ritoperationer när det är möjligt.
 
-## Vanliga frågor
-
-### Q1: Kan jag använda anpassade typsnitt med Aspose.Drawing för .NET?
-
-A1: Ja, du kan ange anpassade typsnitt när du skapar `Font`‑objektet i din kod.
-
-### Q2: Hur kan jag lägga till texteffekter som fetstil eller kursiv?
-
-A2: Justera `FontStyle`‑egenskapen på `Font`‑objektet. Till exempel, använd `FontStyle.Bold` för fet text.
-
-### Q3: Är Aspose.Drawing kompatibel med .NET Core?
-
-A3: Ja, Aspose.Drawing stödjer .NET Core, vilket gör att du kan använda det i plattformsoberoende applikationer.
-
-### Q4: Kan jag rita text på en befintlig bild?
-
-A4: Självklart! Ladda den befintliga bilden med `Bitmap.FromFile()` och fortsätt sedan med stegen för textritning.
-
-### Q5: Finns det ett community‑forum för Aspose.Drawing‑support?
-
-A5: Ja, du kan hitta support och diskutera frågor på [Aspose.Drawing‑forumet](https://forum.aspose.com/c/drawing/44).
-
 ## Vanliga frågor och svar
 
 **Q: Hur ändrar jag utdataformatet till JPEG?**  

@@ -128,15 +128,15 @@ A: Stáhněte si zkušební licenci na [Aspose temporary‑license page](https:/
 
 Postupným sledováním těchto kroků jste se naučili, jak **uložit PNG obrázek**, který dynamicky **vypisuje nainstalované fonty**, **zobrazuje rodiny fontů**, **vytváří grafiku z bitmapy** a **kreslí text s fonty** pomocí Aspose.Drawing pro .NET. Nyní umíte **vytvořit bitmapovou grafiku v C#**, upravit rozlišení bitmapy a v případě potřeby začlenit vlastní fonty. Nebojte se experimentovat s dalšími fonty, barvami a velikostmi bitmapy, aby výsledek odpovídal vizuálním požadavkům vašeho projektu.
 
+---
+
+**Poslední aktualizace:** 2026-02-25  
+**Testováno s:** Aspose.Drawing 24.11 pro .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-25  
-**Testováno s:** Aspose.Drawing 24.11 pro .NET  
-**Autor:** Aspose

@@ -9,8 +9,6 @@ url: /pt/net/text-and-fonts/hinting/
 weight: 12
 ---
 
- produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

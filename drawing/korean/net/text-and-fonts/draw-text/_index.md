@@ -111,28 +111,6 @@ bitmap.Save("Your Document Directory" + @"TextFonts\DrawText_out.png");
 - **텍스트가 잘리나요?** 사각형 크기를 늘리거나 폰트 크기를 줄이세요.  
 - **성능이 우려되나요?** 가능한 경우 동일한 `Graphics` 객체를 재사용해 여러 그리기 작업을 수행하세요.
 
-## FAQ
-
-### Q1: Aspose.Drawing for .NET에서 사용자 정의 폰트를 사용할 수 있나요?
-
-A1: 네, 코드에서 `Font` 객체를 만들 때 사용자 정의 폰트를 지정할 수 있습니다.
-
-### Q2: 굵게 또는 기울임꼴 같은 텍스트 효과를 추가하려면 어떻게 하나요?
-
-A2: `Font` 객체의 `FontStyle` 속성을 조정합니다. 예를 들어 굵은 텍스트는 `FontStyle.Bold`를 사용합니다.
-
-### Q3: Aspose.Drawing이 .NET Core와 호환되나요?
-
-A3: 네, Aspose.Drawing은 .NET Core를 지원하므로 크로스‑플랫폼 애플리케이션에서 사용할 수 있습니다.
-
-### Q4: 기존 이미지에 텍스트를 그릴 수 있나요?
-
-A4: 물론입니다! `Bitmap.FromFile()`로 기존 이미지를 로드한 뒤 텍스트 그리기 단계를 진행하면 됩니다.
-
-### Q5: Aspose.Drawing 지원을 위한 커뮤니티 포럼이 있나요?
-
-A5: 네, [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)에서 지원을 받고 이슈를 논의할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 출력 형식을 JPEG으로 바꾸려면 어떻게 하나요?**  

@@ -8,10 +8,6 @@ url: /zh-hant/net/text-and-fonts/hinting/
 weight: 12
 ---
 
- Chinese, maybe with some Cantonese style? But standard Traditional Chinese is fine.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

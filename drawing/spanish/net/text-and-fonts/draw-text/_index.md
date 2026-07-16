@@ -114,28 +114,6 @@ La imagen se guarda como archivo PNG, cumpliendo el requisito de *guardar bitmap
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar fuentes personalizadas con Aspose.Drawing para .NET?
-
-R1: Sí, puedes especificar fuentes personalizadas al crear el objeto `Font` en tu código.
-
-### P2: ¿Cómo puedo añadir efectos de texto como negrita o cursiva?
-
-R2: Ajusta la propiedad `FontStyle` del objeto `Font`. Por ejemplo, usa `FontStyle.Bold` para texto en negrita.
-
-### P3: ¿Es Aspose.Drawing compatible con .NET Core?
-
-R3: Sí, Aspose.Drawing soporta .NET Core, lo que permite usarlo en aplicaciones multiplataforma.
-
-### P4: ¿Puedo dibujar texto sobre una imagen existente?
-
-R4: ¡Claro! Carga la imagen existente usando `Bitmap.FromFile()` y luego continúa con los pasos de dibujo de texto.
-
-### P5: ¿Existe un foro comunitario para soporte de Aspose.Drawing?
-
-R5: Sí, puedes encontrar soporte y discutir problemas en el [foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
-
-## Preguntas frecuentes
-
 **P: ¿Cómo cambio el formato de salida a JPEG?**  
 R: Reemplaza la extensión `.png` por `.jpg` en el método `Save` y, opcionalmente, especifica un `ImageCodecInfo` para la calidad JPEG.
 

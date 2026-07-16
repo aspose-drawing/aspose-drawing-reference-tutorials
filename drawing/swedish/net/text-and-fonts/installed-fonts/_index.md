@@ -132,15 +132,15 @@ A: Ladda ner en provlicens från [Aspose temporary‑license page](https://purch
 
 Genom att följa dessa steg har du lärt dig hur du **save PNG image**‑filer som dynamiskt **list installed fonts**, **show font families**, **create graphics from bitmap** och **draw text with fonts** med Aspose.Drawing för .NET. Du vet nu hur du **create bitmap graphics C#**, justerar bitmap‑upplösning och integrerar egna teckensnitt när det behövs. Känn dig fri att experimentera med andra teckensnitt, färger och bitmap‑storlekar för att matcha ditt projekts visuella krav.
 
+---
+
+**Senast uppdaterad:** 2026-02-25  
+**Testad med:** Aspose.Drawing 24.11 för .NET  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-25  
-**Testad med:** Aspose.Drawing 24.11 för .NET  
-**Författare:** Aspose

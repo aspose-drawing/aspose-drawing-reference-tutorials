@@ -129,15 +129,15 @@ bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 
 이 단계들을 따라 하면 Aspose.Drawing for .NET을 사용해 동적으로 **list installed fonts**, **show font families**, **create graphics from bitmap**, 그리고 **draw text with fonts**를 수행하는 **save PNG image** 파일을 만드는 방법을 배웠습니다. 이제 **create bitmap graphics C#**를 수행하고 비트맵 해상도를 조정하며 필요 시 커스텀 글꼴을 포함하는 방법을 알게 되었습니다. 프로젝트의 시각적 요구에 맞게 다른 글꼴, 색상 및 비트맵 크기를 자유롭게 실험해 보세요.
 
+---
+
+**마지막 업데이트:** 2026-02-25  
+**테스트 대상:** Aspose.Drawing 24.11 for .NET  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-25  
-**테스트 대상:** Aspose.Drawing 24.11 for .NET  
-**작성자:** Aspose

@@ -93,23 +93,6 @@ Mở khóa sức mạnh của việc render văn bản chính xác với Aspose.
 ### [Làm việc với Phông chữ Đã Cài Đặt trong Aspose.Drawing](./installed-fonts/)
 Khám phá sức mạnh của Aspose.Drawing cho .NET trong việc thao tác các phông chữ đã cài đặt. Nâng cao kỹ năng xử lý hình ảnh của bạn với hướng dẫn toàn diện này.
 
-## Câu Hỏi Thường Gặp
-
-**Q: Tôi có thể sử dụng Aspose.Drawing để tạo hình ảnh trên máy chủ web mà không cần cài đặt phông chữ bổ sung không?**  
-A: Có. Bạn có thể nhúng phông chữ tùy chỉnh trực tiếp trong mã của mình hoặc dựa vào các phông chữ đã cài đặt trên hệ thống. Thư viện hoạt động trong môi trường không giao diện (headless) như ASP.NET Core.
-
-**Q: Hinting có ảnh hưởng đến hiệu năng khi xử lý một lượng lớn hình ảnh không?**  
-A: Hinting gây ra một chút chi phí bổ sung, nhưng lợi ích về mặt hình ảnh thường vượt trội hơn. Đối với các kịch bản xử lý cao, bạn có thể bật/tắt `TextRenderingHint` cho từng hình ảnh.
-
-**Q: Có giới hạn nào về kích thước hình ảnh hoặc độ dài văn bản tôi có thể render không?**  
-A: Giới hạn thực tế duy nhất là bộ nhớ khả dụng và bề mặt đồ họa nền. Aspose.Drawing có thể xử lý các canvas rất lớn (ví dụ 10.000 × 10.000 px) nếu máy chủ có đủ RAM.
-
-**Q: Làm thế nào để đảm bảo hình ảnh được tạo phù hợp với bảng màu thương hiệu của tôi?**  
-A: Sử dụng `SolidBrush` hoặc `LinearGradientBrush` với các giá trị ARGB chính xác khi vẽ văn bản. Bạn cũng có thể lưu màu thương hiệu trong tệp cấu hình và tham chiếu chúng trong mã.
-
-**Q: Tôi có cần giấy phép thương mại cho việc phát triển không?**  
-A: Một giấy phép đánh giá miễn phí có sẵn để thử nghiệm. Đối với triển khai sản xuất, cần giấy phép thương mại để loại bỏ watermark đánh giá và mở khóa đầy đủ tính năng.
-
 ## Câu Hỏi Thêm
 
 **Q: Làm thế nào để **thêm watermark văn bản** vào một bức ảnh hiện có?**  

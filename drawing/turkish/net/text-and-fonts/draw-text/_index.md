@@ -112,28 +112,6 @@ Görüntü, *save bitmap as PNG* gereksinimini karşılayarak PNG dosyası olara
 - **Metin kesildi?** Dikdörtgen boyutunu artırın veya yazı tipi boyutunu küçültün.  
 - **Performans kaygıları?** Mümkün olduğunda aynı `Graphics` nesnesini birden fazla çizim işlemi için yeniden kullanın.
 
-## SSS'ler
-
-### Q1: Aspose.Drawing for .NET ile özel yazı tipleri kullanabilir miyim?
-
-A1: Evet, kodunuzda `Font` nesnesi oluştururken özel yazı tipleri belirtebilirsiniz.
-
-### Q2: Kalın veya italik gibi metin efektleri ekleyebilir miyim?
-
-A2: `Font` nesnesinin `FontStyle` özelliğini ayarlayın. Örneğin, kalın metin için `FontStyle.Bold` kullanın.
-
-### Q3: Aspose.Drawing .NET Core ile uyumlu mu?
-
-A3: Evet, Aspose.Drawing .NET Core'u destekler, böylece çapraz platform uygulamalarında kullanabilirsiniz.
-
-### Q4: Mevcut bir görüntü üzerine metin çizebilir miyim?
-
-A4: Elbette! Mevcut görüntüyü `Bitmap.FromFile()` ile yükleyin ve ardından metin çizme adımlarına devam edin.
-
-### Q5: Aspose.Drawing desteği için bir topluluk forumu var mı?
-
-A5: Evet, destek bulabilir ve konuları tartışabilirsiniz: [Aspose.Drawing forumu](https://forum.aspose.com/c/drawing/44).
-
 ## Sık Sorulan Sorular
 
 **S: Çıktı formatını JPEG'e nasıl değiştiririm?**  

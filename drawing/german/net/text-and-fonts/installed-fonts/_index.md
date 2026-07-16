@@ -131,15 +131,15 @@ A: Laden Sie eine Testlizenz von der [Aspose Temporär‑Lizenz‑Seite](https:/
 
 Durch das Befolgen dieser Schritte haben Sie gelernt, wie man **PNG‑Bilder speichert**, die dynamisch **installierte Schriftarten auflisten**, **Schriftfamilien anzeigen**, **Grafiken aus einem Bitmap erstellen** und **Text mit Schriftarten zeichnen** mit Aspose.Drawing für .NET. Sie wissen jetzt, wie man **Bitmap‑Grafiken in C# erstellt**, die Bitmap‑Auflösung anpasst und bei Bedarf benutzerdefinierte Schriftarten einbindet. Experimentieren Sie gern mit anderen Schriftarten, Farben und Bitmap‑Größen, um die visuellen Anforderungen Ihres Projekts zu erfüllen.
 
+---
+
+**Zuletzt aktualisiert:** 2026-02-25  
+**Getestet mit:** Aspose.Drawing 24.11 für .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-02-25  
-**Getestet mit:** Aspose.Drawing 24.11 für .NET  
-**Autor:** Aspose

@@ -128,15 +128,15 @@ C: [Aspose geçici‑lisans sayfasından](https://purchase.aspose.com/temporary-
 
 Bu adımları izleyerek Aspose.Drawing for .NET kullanarak **save PNG image** dosyalarını dinamik olarak **list installed fonts**, **show font families**, **create graphics from bitmap** ve **draw text with fonts** özellikleriyle nasıl oluşturacağınızı öğrendiniz. Artık **create bitmap graphics C#** yapabilir, bitmap çözünürlüğünü ayarlayabilir ve gerektiğinde özel yazı tiplerini entegre edebilirsiniz. Projenizin görsel gereksinimlerine uygun olarak başka yazı tipleri, renkler ve bitmap boyutlarıyla denemeler yapmaktan çekinmeyin.
 
+---
+
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose

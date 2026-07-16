@@ -8,11 +8,7 @@ url: /zh/net/text-and-fonts/hinting/
 weight: 12
 ---
 
- any missed items: code block placeholders are kept.
-
-Make sure markdown formatting preserved.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
