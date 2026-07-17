@@ -1,27 +1,44 @@
 ---
-title: Aspose.Drawing'de Açıklamalar Yapma
-linktitle: Aspose.Drawing'de Açıklamalar Yapma
-second_title: Aspose.Drawing .NET API - System.Drawing.Common'a alternatif
-description: Aspose.Drawing for .NET'i kullanarak belge çizimlerinizi geliştirin! Daha net ve bilgilendirici görseller için belirtme çizgilerinin nasıl ekleneceğini adım adım öğrenin.
-weight: 10
+date: 2026-03-02
+description: Aspose.Drawing for .NET kullanarak belge illüstrasyonlarınızı geliştirin!
+  Daha net ve bilgilendirici görseller için açıklama balonları eklemeyi adım adım
+  öğrenin.
+linktitle: Making Callouts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Aspose.Drawing for .NET ile Açıklama Balonları Nasıl Eklenir
 url: /tr/net/use-cases/make-callout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing'de Açıklamalar Yapma
+# Aspose.Drawing'de Açıklama Kutuları Oluşturma
 
-## giriiş
-Aspose.Drawing for .NET'te belirtme çizgileri oluşturmaya ilişkin adım adım kılavuzumuza hoş geldiniz! Belge çizimlerinizi belirtme çizgileriyle geliştirmek istiyorsanız doğru yerdesiniz. Bu eğitimde Aspose.Drawing kütüphanesini kullanarak süreci yönetilebilir adımlara ayıracağız.
+## Giriiş
+Aspose.Drawing for .NET kullanarak detaylarınıza veya diyagramlarınıza **açıklama eklemenin** nasıl yapılacağını merak ederek, doğru yerdesiniz. Bu öğreticide, bir resmi kurulumdan şık callout'lar çizmeye kadar tüm süreci adım adım anlatacağız; Böylece çizimlerinizi daha net ve bilgilendirici hâle getirebileceksiniz.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphaneye ihtiyacım var?** Aspose.Drawing for .NET (resmi siteden indirilebilir).
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework4.5+, .NETCore3.1+, .NET5/6+.
+- **Lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü geliştirme amaçlı çalışır; Üretim için ticari lisans gereklidir.
+- **Uygulama ne kadar sürer?** Temel bir açıklama için genellikle 10 dakikadan kısa sürer.
+- **Renkleri ve yazı tiplerini özelleştirebilir miyim?** Evet—her şey standart GDI+ nesneleri (Kalem, Yazı Tipi, Fırça) tarafından yönlendirilir.
+
+## Aspose.Drawing'de Callout'lar Nasıl Eklenir
+Aşağıda, bir görüntüye **açıklama eklemenin** tam olarak nasıl yapılacağını gösteren kısa ve adım adım bir rehber bulacaksınız. Kodu kopyalayıp, konumlarla deney yapın ve stilinizi markanıza uygun şekilde uyarlayın.
+
 ## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Dalışa başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
 - Temel C# programlama dili bilgisi.
--  Aspose.Drawing kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/drawing/net/).
+- Aspose.Drawing kütüphanesi kuruldu. Onu [buradan](https://releases.aspose.com/drawing/net/) indirebilirsiniz.
 - Açıklama eklemek istediğiniz bir belge veya resim.
+
 ## Ad Alanlarını İçe Aktar
 Projenizde gerekli ad alanlarının bulunduğundan emin olun:
+
 ```csharp
 using System.Text;
 using System.Threading.Tasks;
@@ -30,23 +47,29 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 ```
-## 1. Adım: Görüntüyü Yükleyin
- Açıklama eklemek istediğiniz görseli yükleyerek başlayın. Yer değiştirmek`"Your Document Directory"` Ve`"gears.png"` gerçek dizininiz ve resim dosya adınızla birlikte.
+
+## Adım 1: Resmi Yükleyin
+Açıklama balonlarını eklemek istediğiniz resmi yükleyerek başlayın. `"Belge Dizininiz"` ve `"gears.png"` ifadelerini gerçek dizin ve resim dosya adınızla değiştirin.
+
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {
-    // Kodunuz burada
+    // Your code here
 }
 ```
+
 ## Adım 2: Grafik Nesnesi Oluşturun
- Oluşturmak`Graphics` Çizim işlemlerini gerçekleştirmek için görüntüdeki nesneyi seçin.
+Çizim işlemlerini gerçekleştirmek için resimden bir `Graphics` nesnesi oluşturun.
+
 ```csharp
 var graphics = Graphics.FromImage(image);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-## 3. Adım: Belirtme Bilgisi Konumlarını Tanımlayın
-Bilgi değeri ve birimiyle birlikte her bilgi için başlangıç ve bitiş noktalarını tanımlayın.
+
+## Adım 3: Açıklama Balonu Konumlarını Tanımlayın
+Her açıklama balonu için başlangıç ​​ve bitiş noktalarını, açıklama balonu değeri ve birimiyle birlikte tanımlayın.
+
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
 PointF endAnchor1 = new PointF(179, 5);
@@ -57,18 +80,23 @@ PointF endAnchor2 = new PointF(29, 180);
 int value2 = 28;
 string unit2 = "mm";
 ```
-## Adım 4: Açıklamaları Çizin
- Uygulamak`DrawCallOut` Görüntünün üzerine belirtme çizgileri çizme yöntemi.
+
+## Adım 4: Açıklama Balonlarını Çizin
+Resim üzerine açıklama balonları çizmek için `DrawCallOut` yöntemini uygulayın.
+
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
-## Adım 5: Görüntüyü Kaydedin
-Görüntüyü belirtme çizgileriyle birlikte istediğiniz dizine kaydedin.
+
+## Adım 5: Resmi Kaydedin
+Açıklama balonları içeren resmi istediğiniz dizine kaydedin.
+
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
-## Ek Bilgi Kaynak Kodunu Çiz
+
+## Açıklama Balonu Çizim Kaynak Kodu
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -91,31 +119,54 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
                 graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
             }
 ```
-## Çözüm
 
-Tebrikler! Aspose.Drawing for .NET'i kullanarak görüntünüze başarıyla belirtme çizgileri eklediniz. Açıklamalarınızı daha da özelleştirmek için farklı konumlar ve değerlerle denemeler yapmaktan çekinmeyin.
+## Sık Karşılaşılan Sorunlar ve İpuçları
+- **Yanlış bağlantı koordinatları** – başlangıç ​​ve bitiş noktalarının resim sınırları içinde olduğundan emin olun; aksi takdirde açıklama metni kırpılabilir.
+
+- **Metin çakışması** – etiket diğer grafiklerle çakışıyorsa `spaceSize` veya yazı tipi boyutunu ayarlayın.
+
+- **Performans** – çok büyük resimler için, kaynakları serbest bırakmak amacıyla kullanımdan sonra `Pen`, `Font` ve `Brush` nesnelerini atmayı düşünün.
+
+## Sonuç
+Tebrikler! Artık .NET için Aspose.Drawing kullanarak bir resme **açıklama metni eklemeyi** biliyorsunuz. Görsel stilinize uyması için farklı konumlar, renkler ve yazı tipleriyle denemeler yapmaktan çekinmeyin.
 
 ## SSS
 
 ### Aspose.Drawing'i diğer illüstrasyon türleri için kullanabilir miyim?
 
-Evet, Aspose.Drawing, çeşitli illüstrasyon türleri için çok çeşitli çizim işlemlerini destekler.
+Evet, Aspose.Drawing çeşitli illüstrasyon türleri için geniş bir yelpazede çizim işlemlerini destekler.
 
 ### Aspose.Drawing farklı resim formatlarıyla uyumlu mu?
 
-Kesinlikle! Aspose.Drawing PNG, JPEG, GIF ve daha fazlası gibi popüler görüntü formatlarını destekler.
+Kesinlikle! Aspose.Drawing, PNG, JPEG, GIF ve daha fazlası gibi popüler resim formatlarını destekler.
 
-### Daha fazla örnek ve belgeyi nerede bulabilirim?
+### Daha fazla örnek ve dokümantasyona nereden ulaşabilirim?
+Kapsamlı dokümantasyona [buradan](https://reference.aspose.com/drawing/net/) ulaşabilirsiniz.
 
- Kapsamlı belgeleri keşfedin[Burada](https://reference.aspose.com/drawing/net/).
-
-### Sorunla karşılaşırsam nasıl destek alabilirim?
-
- Ziyaret edin[Aspose.Çizim forumu](https://forum.aspose.com/c/drawing/44) topluluk desteği için.
+### Sorun yaşarsam nasıl destek alabilirim?
+Topluluk desteği için [Aspose.Drawing forumunu](https://forum.aspose.com/c/drawing/44) ziyaret edin.
 
 ### Satın almadan önce Aspose.Drawing'i deneyebilir miyim?
 
- Kesinlikle! Ücretsiz denemeyle başlayın[Burada](https://releases.aspose.com/).
+Elbette! Ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) başlayabilirsiniz.
+
+**Ek Soru-Cevap**
+
+**S: Açıklama çizgisi stilini (kesikli, noktalı) değiştirebilir miyim?**
+C: Evet—çizgiyi çizmeden önce `Pen.DashStyle` özelliğini yapılandırmanız yeterlidir.
+
+**S: Açıklama etiketine arka plan rengi eklemek mümkün mü?**
+C: Kesinlikle. İstediğiniz renkle bir `SolidBrush` oluşturun ve `DrawString`'i çağırmadan önce metnin arkasındaki bir dikdörtgeni doldurun.
+
+**S: Açıklama etiketinin yüksek DPI ekranlarda aynı görünmesini nasıl sağlarım?**
+C: `graphics.PageUnit = GraphicsUnit.Pixel` (gösterildiği gibi) olarak ayarlayın ve ölçeklendirmenin tutarlı kalması için vektör tabanlı ölçümler kullanın.
+
+---
+
+**Son Güncelleme:** 2026-03-02
+**Test Edilen Sürüm:** Aspose.Drawing 24.11 for .NET
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

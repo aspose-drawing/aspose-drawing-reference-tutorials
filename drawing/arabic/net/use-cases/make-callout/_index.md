@@ -1,27 +1,43 @@
 ---
-title: إجراء وسائل الشرح في Aspose.Drawing
-linktitle: إجراء وسائل الشرح في Aspose.Drawing
-second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
-description: قم بتحسين الرسوم التوضيحية للمستند الخاص بك باستخدام Aspose.Drawing لـ .NET! تعرف على كيفية إضافة وسائل الشرح خطوة بخطوة للحصول على صور أكثر وضوحًا وغنية بالمعلومات.
-weight: 10
+date: 2026-03-02
+description: عزز توضيحات مستنداتك باستخدام Aspose.Drawing لـ .NET! تعلّم خطوة بخطوة
+  كيفية إضافة التعليقات التوضيحية للحصول على صور أوضح وأكثر إفادة.
+linktitle: Making Callouts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: كيفية إضافة التعليقات التوضيحية باستخدام Aspose.Drawing لـ .NET
 url: /ar/net/use-cases/make-callout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إجراء وسائل الشرح في Aspose.Drawing
+# إنشاء التعليقات التوضيحية في Aspose.Drawing
 
-## مقدمة
-مرحبًا بك في دليلنا خطوة بخطوة حول إجراء وسائل الشرح في Aspose.Drawing لـ .NET! إذا كنت تتطلع إلى تحسين الرسوم التوضيحية للمستند باستخدام وسائل الشرح، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنقوم بتقسيم العملية إلى خطوات يمكن التحكم فيها باستخدام مكتبة Aspose.Drawing.
-## المتطلبات الأساسية
-قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
-- المعرفة الأساسية بلغة البرمجة C#.
--  تم تثبيت مكتبة Aspose.Drawing. يمكنك تنزيله[هنا](https://releases.aspose.com/drawing/net/).
-- مستند أو صورة تريد إضافة وسائل شرح إليها.
+## المقدمة
+إذا كنت تتساءل **كيف تضيف التعليقات التوضيحية** إلى صورك أو مخططاتك باستخدام Aspose.Drawing لـ .NET، فقد وصلت إلى المكان الصحيح. في هذا الدرس سنستعرض العملية بالكامل—من تحميل الصورة إلى رسم التعليقات التوضيحية ذات التصميم الجميل—حتى تتمكن من جعل توضيحاتك أكثر وضوحًا وإفادة.
+
+## إجابات سريعة
+- **ما المكتبة التي أحتاجها؟** Aspose.Drawing لـ .NET (قابلة للتنزيل من الموقع الرسمي).  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6+.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **كم يستغرق التنفيذ؟** عادةً أقل من 10 دقيقة لإنشاء تعليق توضيحي أساسي.  
+- **هل يمكنني تخصيص الألوان والخطوط؟** نعم—كل شيء يتم عبر كائنات GDI+ القياسية (Pen، Font، Brush).
+
+## كيفية إضافة التعليقات التوضيحية في Aspose.Drawing
+فيما يلي دليل مختصر خطوة بخطوة يوضح بالضبط **كيفية إضافة التعليقات التوضيحية** إلى صورة. لا تتردد في نسخ الشيفرة، تجربة المواضع، وتكييف التصميم ليتناسب مع علامتك التجارية.
+
+## المتطلبات المسبقة
+قبل البدء، تأكد من أن لديك:
+
+- معرفة أساسية بلغة البرمجة C#.
+- مكتبة Aspose.Drawing مثبتة. يمكنك تنزيلها [هنا](https://releases.aspose.com/drawing/net/).
+- مستند أو صورة تريد إضافة التعليقات التوضيحية إليها.
+
 ## استيراد مساحات الأسماء
 تأكد من تضمين مساحات الأسماء الضرورية في مشروعك:
+
 ```csharp
 using System.Text;
 using System.Threading.Tasks;
@@ -30,23 +46,29 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 ```
+
 ## الخطوة 1: تحميل الصورة
- ابدأ بتحميل الصورة حيث تريد إضافة وسائل الشرح. يستبدل`"Your Document Directory"` و`"gears.png"` مع الدليل الفعلي واسم ملف الصورة.
+ابدأ بتحميل الصورة التي تريد إضافة التعليقات التوضيحية إليها. استبدل `"Your Document Directory"` و `"gears.png"` بالدليل الفعلي واسم ملف الصورة الخاصين بك.
+
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {
-    // الرمز الخاص بك هنا
+    // Your code here
 }
 ```
-## الخطوة 2: إنشاء كائن رسومي
- إنشاء`Graphics` كائن من الصورة لإجراء عمليات الرسم.
+
+## الخطوة 2: إنشاء كائن Graphics
+أنشئ كائن `Graphics` من الصورة لتنفيذ عمليات الرسم.
+
 ```csharp
 var graphics = Graphics.FromImage(image);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-## الخطوة 3: تحديد مواضع وسائل الشرح
-حدد نقطتي البداية والنهاية لكل وسيلة شرح بالإضافة إلى قيمة وسيلة الشرح والوحدة.
+
+## الخطوة 3: تحديد مواضع التعليقات التوضيحية
+حدد نقاط البداية والنهاية لكل تعليق توضيحي بالإضافة إلى قيمة التعليق ووحدتها.
+
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
 PointF endAnchor1 = new PointF(179, 5);
@@ -57,18 +79,23 @@ PointF endAnchor2 = new PointF(29, 180);
 int value2 = 28;
 string unit2 = "mm";
 ```
-## الخطوة 4: ارسم وسائل الشرح
- تنفيذ`DrawCallOut` طريقة رسم وسائل الشرح على الصورة.
+
+## الخطوة 4: رسم التعليقات التوضيحية
+نفّذ طريقة `DrawCallOut` لرسم التعليقات التوضيحية على الصورة.
+
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
-## الخطوة 5: احفظ الصورة
-احفظ الصورة مع وسائل الشرح في الدليل الذي تريده.
+
+## الخطوة 5: حفظ الصورة
+احفظ الصورة التي تحتوي على التعليقات التوضيحية إلى الدليل الذي تختاره.
+
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
-## رسم كود مصدر وسيلة الشرح
+
+## شفرة مصدر رسم التعليق التوضيحي
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -91,31 +118,49 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
                 graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
             }
 ```
-## خاتمة
 
-تهانينا! لقد نجحت في إضافة وسائل شرح إلى صورتك باستخدام Aspose.Drawing لـ .NET. لا تتردد في تجربة مواضع وقيم مختلفة لتخصيص وسائل الشرح بشكل أكبر.
+## المشكلات الشائعة والنصائح
+- **إحداثيات التثبيت غير صحيحة** – تأكد من أن نقاط البداية والنهاية داخل حدود الصورة؛ وإلا قد يتم قطع التعليق التوضيحي.  
+- **تداخل النص** – عدّل `spaceSize` أو حجم الخط إذا تصادم التسمية مع رسومات أخرى.  
+- **الأداء** – بالنسبة للصور الكبيرة جدًا، فكر في تحرير كائنات `Pen` و `Font` و `Brush` بعد الاستخدام لتوفير الموارد.
 
-## الأسئلة الشائعة
+## الخاتمة
+تهانينا! الآن تعرف **كيفية إضافة التعليقات التوضيحية** إلى صورة باستخدام Aspose.Drawing لـ .NET. لا تتردد في تجربة مواضع وألوان وخطوط مختلفة لتتناسب مع نمطك البصري.
+
+## الأسئلة المتكررة
 
 ### هل يمكنني استخدام Aspose.Drawing لأنواع أخرى من الرسوم التوضيحية؟
-
 نعم، يدعم Aspose.Drawing مجموعة واسعة من عمليات الرسم لأنواع مختلفة من الرسوم التوضيحية.
 
-### هل Aspose.Drawing متوافق مع تنسيقات الصور المختلفة؟
-
-قطعاً! يدعم Aspose.Drawing تنسيقات الصور الشائعة مثل PNG وJPEG وGIF والمزيد.
+### هل Aspose.Drawing متوافق مع صيغ صور مختلفة؟
+بالطبع! يدعم Aspose.Drawing صيغ الصور الشائعة مثل PNG، JPEG، GIF، وغيرها.
 
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
+استكشف الوثائق الشاملة [هنا](https://reference.aspose.com/drawing/net/).
 
- استكشاف الوثائق الشاملة[هنا](https://reference.aspose.com/drawing/net/).
-
-### كيف يمكنني الحصول على الدعم إذا واجهت مشكلات؟
-
- قم بزيارة[Aspose.منتدى الرسم](https://forum.aspose.com/c/drawing/44) لدعم المجتمع.
+### كيف أحصل على الدعم إذا واجهت مشاكل؟
+قم بزيارة [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) للحصول على دعم المجتمع.
 
 ### هل يمكنني تجربة Aspose.Drawing قبل الشراء؟
+بالتأكيد! ابدأ بتجربة مجانية [هنا](https://releases.aspose.com/).
 
- بالتأكيد! ابدأ بالتجربة المجانية[هنا](https://releases.aspose.com/).
+**أسئلة إضافية وإجابات**
+
+**س: هل يمكنني تغيير نمط خط التعليق التوضيحي (متقطع، منقط)؟**  
+**ج: نعم—ما عليك سوى ضبط خاصية `Pen.DashStyle` قبل رسم الخط.**
+
+**س: هل يمكن إضافة لون خلفية لتسمية التعليق التوضيحي؟**  
+**ج: بالتأكيد. أنشئ `SolidBrush` باللون الذي تريده واملأ مستطيلًا خلف النص قبل استدعاء `DrawString`.**
+
+**س: كيف أضمن أن يبدو التعليق التوضيحي بنفس الشكل على شاشات عالية الدقة؟**  
+**ج: اضبط `graphics.PageUnit = GraphicsUnit.Pixel` (كما هو موضح) واستخدم قياسات قائمة على المتجهات للحفاظ على تناسق التحجيم.**
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

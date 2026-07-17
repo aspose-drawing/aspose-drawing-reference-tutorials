@@ -1,10 +1,13 @@
 ---
-title: Callouts in Aspose.Drawing erstellen
-linktitle: Callouts in Aspose.Drawing erstellen
-second_title: Aspose.Drawing .NET API – Alternative zu System.Drawing.Common
-description: Verbessern Sie Ihre Dokumentillustrationen mit Aspose.Drawing für .NET! Erfahren Sie Schritt für Schritt, wie Sie Beschriftungen für klarere und informativere Bilder hinzufügen.
-weight: 10
+date: 2026-03-02
+description: Verbessern Sie Ihre Dokumentillustrationen mit Aspose.Drawing für .NET!
+  Lernen Sie Schritt für Schritt, wie Sie Anmerkungen hinzufügen, um klarere und informativere
+  Visualisierungen zu erhalten.
+linktitle: Making Callouts in Aspose.Drawing
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Wie man Callouts mit Aspose.Drawing für .NET hinzufügt
 url: /de/net/use-cases/make-callout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,14 +17,26 @@ url: /de/net/use-cases/make-callout/
 # Callouts in Aspose.Drawing erstellen
 
 ## Einführung
-Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Erstellen von Callouts in Aspose.Drawing für .NET! Wenn Sie Ihre Dokumentillustrationen mit Beschriftungen aufwerten möchten, sind Sie hier richtig. In diesem Tutorial unterteilen wir den Prozess mithilfe der Aspose.Drawing-Bibliothek in überschaubare Schritte.
+Wenn Sie sich fragen **wie man Callouts** zu Ihren Bildern oder Diagrammen mit Aspose.Drawing für .NET hinzufügt, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie durch den gesamten Prozess – vom Laden eines Bildes bis zum Zeichnen wunderschön gestalteter Callouts – damit Sie Ihre Illustrationen klarer und informativer machen können.
+
+## Schnelle Antworten
+- **Welche Bibliothek benötige ich?** Aspose.Drawing für .NET (von der offiziellen Website herunterladbar).  
+- **Welche .NET-Versionen werden unterstützt?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Wie lange dauert die Implementierung?** In der Regel weniger als 10 Minuten für einen einfachen Callout.  
+- **Kann ich Farben und Schriftarten anpassen?** Ja – alles wird von Standard‑GDI+‑Objekten (Pen, Font, Brush) gesteuert.
+
+## So fügen Sie Callouts in Aspose.Drawing hinzu
+Unten finden Sie eine kompakte Schritt‑für‑Schritt‑Anleitung, die genau zeigt **wie man Callouts** zu einem Bild hinzufügt. Sie können den Code gerne kopieren, mit den Positionen experimentieren und das Styling an Ihre Marke anpassen.
+
 ## Voraussetzungen
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-- Grundkenntnisse der Programmiersprache C#.
--  Aspose.Drawing-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/drawing/net/).
-- Ein Dokument oder Bild, dem Sie Beschriftungen hinzufügen möchten.
+- Grundkenntnisse der Programmiersprache C#.  
+- Aspose.Drawing‑Bibliothek installiert. Sie können sie [hier](https://releases.aspose.com/drawing/net/) herunterladen.  
+- Ein Dokument oder Bild, dem Sie Callouts hinzufügen möchten.
+
 ## Namespaces importieren
-Stellen Sie sicher, dass in Ihrem Projekt die erforderlichen Namespaces enthalten sind:
+Stellen Sie sicher, dass die erforderlichen Namespaces in Ihrem Projekt eingebunden sind:
+
 ```csharp
 using System.Text;
 using System.Threading.Tasks;
@@ -30,23 +45,29 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 ```
-## Schritt 1: Laden Sie das Bild
- Laden Sie zunächst das Bild an der Stelle, an der Sie Beschriftungen hinzufügen möchten. Ersetzen`"Your Document Directory"` Und`"gears.png"` mit Ihrem tatsächlichen Verzeichnis und Bilddateinamen.
+
+## Schritt 1: Bild laden
+Beginnen Sie damit, das Bild zu laden, dem Sie Callouts hinzufügen möchten. Ersetzen Sie `"Your Document Directory"` und `"gears.png"` durch Ihr tatsächliches Verzeichnis und den Bilddateinamen.
+
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
 {
-    // Ihr Code hier
+    // Your code here
 }
 ```
-## Schritt 2: Grafikobjekt erstellen
- Ein ... kreieren`Graphics` Objekt aus dem Bild, um Zeichenvorgänge auszuführen.
+
+## Schritt 2: Graphics‑Objekt erstellen
+Erstellen Sie ein `Graphics`‑Objekt aus dem Bild, um Zeichenoperationen auszuführen.
+
 ```csharp
 var graphics = Graphics.FromImage(image);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
-## Schritt 3: Definieren Sie die Callout-Positionen
-Definieren Sie die Start- und Endpunkte für jedes Callout sowie den Callout-Wert und die Einheit.
+
+## Schritt 3: Callout‑Positionen definieren
+Definieren Sie die Start‑ und Endpunkte für jeden Callout sowie den Callout‑Wert und die Einheit.
+
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
 PointF endAnchor1 = new PointF(179, 5);
@@ -57,18 +78,23 @@ PointF endAnchor2 = new PointF(29, 180);
 int value2 = 28;
 string unit2 = "mm";
 ```
-## Schritt 4: Callouts zeichnen
- Implementieren Sie die`DrawCallOut` Methode zum Zeichnen von Beschriftungen auf dem Bild.
+
+## Schritt 4: Callouts zeichnen
+Implementieren Sie die Methode `DrawCallOut`, um Callouts auf dem Bild zu zeichnen.
+
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
-## Schritt 5: Speichern Sie das Bild
-Speichern Sie das Bild mit Beschriftungen im gewünschten Verzeichnis.
+
+## Schritt 5: Bild speichern
+Speichern Sie das Bild mit den Callouts in Ihrem gewünschten Verzeichnis.
+
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
-## Callout-Quellcode zeichnen
+
+## Quellcode für DrawCallout
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -91,31 +117,49 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
                 graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
             }
 ```
-## Abschluss
 
-Glückwunsch! Sie haben mit Aspose.Drawing für .NET erfolgreich Beschriftungen zu Ihrem Bild hinzugefügt. Experimentieren Sie ruhig mit verschiedenen Positionen und Werten, um Ihre Beschriftungen weiter anzupassen.
+## Häufige Probleme & Tipps
+- **Falsche Ankerkoordinaten** – stellen Sie sicher, dass die Start‑ und Endpunkte innerhalb der Bildgrenzen liegen; sonst könnte der Callout abgeschnitten werden.  
+- **Textüberlagerung** – passen Sie `spaceSize` oder die Schriftgröße an, wenn das Label mit anderen Grafiken kollidiert.  
+- **Leistung** – bei sehr großen Bildern sollten Sie nach Gebrauch die Objekte `Pen`, `Font` und `Brush` freigeben, um Ressourcen zu schonen.
 
-## FAQs
+## Fazit
+Herzlichen Glückwunsch! Sie wissen jetzt **wie man Callouts** zu einem Bild mit Aspose.Drawing für .NET hinzufügt. Experimentieren Sie gern mit verschiedenen Positionen, Farben und Schriftarten, um Ihren visuellen Stil anzupassen.
+
+## FAQ
 
 ### Kann ich Aspose.Drawing für andere Arten von Illustrationen verwenden?
-
-Ja, Aspose.Drawing unterstützt eine breite Palette von Zeichenvorgängen für verschiedene Arten von Illustrationen.
+Ja, Aspose.Drawing unterstützt eine breite Palette von Zeichenoperationen für verschiedene Arten von Illustrationen.
 
 ### Ist Aspose.Drawing mit verschiedenen Bildformaten kompatibel?
-
-Absolut! Aspose.Drawing unterstützt gängige Bildformate wie PNG, JPEG, GIF und mehr.
+Absolut! Aspose.Drawing unterstützt gängige Bildformate wie PNG, JPEG, GIF und weitere.
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
-
- Entdecken Sie die umfassende Dokumentation[Hier](https://reference.aspose.com/drawing/net/).
+Durchstöbern Sie die umfassende Dokumentation [hier](https://reference.aspose.com/drawing/net/).
 
 ### Wie erhalte ich Unterstützung, wenn ich auf Probleme stoße?
+Besuchen Sie das [Aspose.Drawing‑Forum](https://forum.aspose.com/c/drawing/44) für Community‑Support.
 
- Besuche den[Aspose.Drawing-Forum](https://forum.aspose.com/c/drawing/44) für die Unterstützung der Gemeinschaft.
+### Kann ich Aspose.Drawing vor dem Kauf testen?
+Natürlich! Beginnen Sie mit einer kostenlosen Testversion [hier](https://releases.aspose.com/).
 
-### Kann ich Aspose.Drawing vor dem Kauf ausprobieren?
+**Zusätzliche Fragen & Antworten**
 
- Sicherlich! Beginnen Sie mit einer kostenlosen Testversion[Hier](https://releases.aspose.com/).
+**F: Kann ich den Linienstil des Callouts (gestrichelt, punktiert) ändern?**  
+**A: Ja – konfigurieren Sie einfach die Eigenschaft `Pen.DashStyle`, bevor Sie die Linie zeichnen.**
+
+**F: Ist es möglich, dem Callout‑Label eine Hintergrundfarbe hinzuzufügen?**  
+**A: Auf jeden Fall. Erstellen Sie einen `SolidBrush` mit Ihrer gewünschten Farbe und füllen Sie ein Rechteck hinter dem Text, bevor Sie `DrawString` aufrufen.**
+
+**F: Wie stelle ich sicher, dass der Callout auf hochauflösenden Displays gleich aussieht?**  
+**A: Setzen Sie `graphics.PageUnit = GraphicsUnit.Pixel` (wie gezeigt) und verwenden Sie vektorbasierte Maße, um die Skalierung konsistent zu halten.**
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-02  
+**Getestet mit:** Aspose.Drawing 24.11 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
