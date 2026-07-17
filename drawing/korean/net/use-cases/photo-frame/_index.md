@@ -11,7 +11,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Drawing for .NET으로 사진을 창의적으로 프레임하기
 
@@ -161,4 +161,4 @@ Aspose.Drawing 포럼 [here](https://forum.aspose.com/c/drawing/44)에서 도움
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

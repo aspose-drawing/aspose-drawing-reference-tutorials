@@ -10,7 +10,7 @@ date: 2026-03-02
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Frame Your Photos Creatively with Aspose.Drawing for .NET
 
@@ -160,4 +160,4 @@ Yes, you can purchase a license [here](https://purchase.aspose.com/buy) for comm
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

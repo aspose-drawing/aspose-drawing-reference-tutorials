@@ -12,7 +12,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Rama in dina foton kreativt med Aspose.Drawing för .NET
 
@@ -162,4 +162,4 @@ Ja, du kan köpa en licens [här](https://purchase.aspose.com/buy) för kommersi
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

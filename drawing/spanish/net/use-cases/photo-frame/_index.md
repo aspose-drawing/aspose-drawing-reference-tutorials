@@ -12,7 +12,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Enmarca tus fotos creativamente con Aspose.Drawing para .NET
 
@@ -160,4 +160,4 @@ Sí, puedes comprar una licencia [here](https://purchase.aspose.com/buy) para us
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

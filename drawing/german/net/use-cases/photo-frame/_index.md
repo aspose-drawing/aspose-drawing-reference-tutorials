@@ -12,7 +12,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestalten Sie Ihre Fotos kreativ mit Aspose.Drawing für .NET
 
@@ -162,4 +162,4 @@ Ja, Sie können eine Lizenz [hier](https://purchase.aspose.com/buy) für die kom
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

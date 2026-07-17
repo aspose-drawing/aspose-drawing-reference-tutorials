@@ -12,29 +12,29 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing for .NET के साथ अपनी फ़ोटो को रचनात्मक रूप से फ्रेम करें
+# Aspose.Drawing for .NET के साथ अपनी फ़ोटो को क्रिएटिव रूप से फ़्रेम करें
 
-## Introduction
+## परिचय
 क्या आप अपनी छवियों में एक एलेगेंस का स्पर्श जोड़ना चाहते हैं? इस ट्यूटोरियल में आप Aspose.Drawing for .NET का उपयोग करके **फ़ोटो फ्रेम** ग्राफ़िक्स बनाएँगे। हम इमेज फ़ाइल लोड करने, आयताकार बॉर्डर ड्रॉ करने, और सजावटी बॉर्डर के साथ अंतिम चित्र को सेव करने की प्रक्रिया को चरण‑दर‑चरण देखेंगे। अंत तक, आप किसी भी प्रोजेक्ट में जहाँ पॉलिश्ड लुक चाहिए, वही तकनीक लागू करने के लिए तैयार होंगे।
 
-## Quick Answers
+## क्विक आंसर
 - **Aspose.Drawing किस चीज़ को बदलता है?** यह System.Drawing.Common को पूरी तरह समर्थित .NET लाइब्रेरी से बदलता है।  
 - **इम्प्लीमेंटेशन में कितना समय लगता है?** बेसिक फ्रेम के लिए लगभग 10‑15 मिनट।  
 - **कौन से फॉर्मेट समर्थित हैं?** सभी प्रमुख रास्टर फॉर्मेट (JPEG, PNG, BMP, GIF, आदि)।  
 - **परीक्षण के लिए लाइसेंस चाहिए?** एक मुफ्त ट्रायल उपलब्ध है; प्रोडक्शन के लिए लाइसेंस आवश्यक है।  
 - **क्या मैं फ्रेम का रंग और मोटाई बदल सकता हूँ?** हाँ—कोड में `Pen` सेटिंग्स को समायोजित करें।
 
-## What is a photo frame and why add one?
+## फ़ोटो फ़्रेम क्या है और इसे क्यों जोड़ें?
 फ़ोटो फ्रेम एक दृश्य बॉर्डर है जो छवि को उजागर करता है, जिससे वह गैलरी, रिपोर्ट या सोशल मीडिया पोस्ट में अधिक आकर्षक दिखती है। फ्रेम जोड़ने से ध्यान आकर्षित होता है, ब्रांडिंग व्यक्त होती है, या बिना बाहरी डिज़ाइन टूल्स के एक पॉलिश्ड फिनिश मिलती है।
 
-## Prerequisites
+## ज़रूरी शर्तें
 ट्यूटोरियल शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित प्री‑रिक्विज़िट्स मौजूद हैं:
 - Aspose.Drawing for .NET: सुनिश्चित करें कि आपने Aspose.Drawing लाइब्रेरी इंस्टॉल की हुई है। आप इसे [here](https://releases.aspose.com/drawing/net/) से डाउनलोड कर सकते हैं।  
 - Image File: वह इमेज फ़ाइल तैयार रखें जिसे आप फ्रेम करना चाहते हैं। इस ट्यूटोरियल के लिए हम **cat.jpg** नामक सैंपल इमेज का उपयोग करेंगे।
 
-## Import Namespaces
+## नेमस्पेस इंपोर्ट करें
 Aspose.Drawing की कार्यक्षमताओं तक पहुँचने के लिए आवश्यक नेमस्पेसेस इम्पोर्ट करें। अपने कोड की शुरुआत में निम्नलाइनों को जोड़ें:
 
 ```csharp
@@ -48,7 +48,7 @@ using System.Threading.Tasks;
 using System.IO;
 ```
 
-## Step 1: Load the Image File
+## स्टेप 1: इमेज फ़ाइल लोड करें
 सबसे पहले, हमें **इमेज फ़ाइल लोड** करनी होगी ताकि हम उस पर ड्रॉ कर सकें। `Image.FromFile` मेथड डिस्क से चित्र पढ़ता है।
 
 ```csharp
@@ -58,7 +58,7 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Step 2: Create a Graphics Object
+## स्टेप 2: एक ग्राफ़िक्स ऑब्जेक्ट बनाएँ
 एक `Graphics` ऑब्जेक्ट लोडेड इमेज पर ड्रॉइंग क्षमताएँ प्रदान करता है।
 
 ```csharp
@@ -69,7 +69,7 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Step 3: Set Graphics Properties
+## स्टेप 3: ग्राफ़िक्स प्रॉपर्टीज़ सेट करें
 रेंडरिंग हिंट्स और मेज़रमेंट यूनिट्स को समायोजित करें ताकि जब हम **आयताकार बॉर्डर ड्रॉ** करें तो लाइनें स्पष्ट रहें।
 
 ```csharp
@@ -82,7 +82,7 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Step 4: Draw Rectangles (Add Decorative Border)
+## स्टेप 4: रेक्टेंगल बनाएँ (डेकोरेटिव बॉर्डर जोड़ें)
 यहाँ हम दो आयत बनाते हैं—एक बाहरी और एक आंतरिक—ताकि एक साधा सजावटी बॉर्डर तैयार हो सके। आप `Pen` का रंग, मोटाई, और `gap` वैल्यू को बदलकर लुक कस्टमाइज़ कर सकते हैं।
 
 ```csharp
@@ -101,7 +101,7 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Step 5: Save the Framed Image
+## स्टेप 5: फ़्रेम की हुई इमेज सेव करें
 अंत में, हम **फ़्रेम की गई इमेज** को नई फ़ाइल में सेव करेंगे। फ़ाइल एक्सटेंशन बदलकर आउटपुट फॉर्मेट भी बदल सकते हैं।
 
 ```csharp
@@ -124,31 +124,35 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 
 अब आपने सफलतापूर्वक Aspose.Drawing for .NET का उपयोग करके अपनी इमेज के लिए **फ़ोटो फ्रेम** बना लिया है! विभिन्न रंगों, आकारों और साइजों के साथ प्रयोग करें और अपने फ्रेम को और अधिक कस्टमाइज़ करें।
 
-## Why use Aspose.Drawing to create photo frames?
+## फोटो फ्रेम बनाने के लिए Aspose.Drawing का इस्तेमाल क्यों करें?
 - **Cross‑platform**: .NET Framework, .NET Core, और .NET 5/6+ पर काम करता है।  
 - **No GDI+ dependencies**: सर्वर‑साइड रेंडरिंग के लिए आदर्श जहाँ System.Drawing समर्थित नहीं है।  
 - **Rich drawing API**: पेन, ब्रश और शैप्स पर पूर्ण नियंत्रण, जिससे आप **draw shapes image** को साधारण आयतों से आगे तक विस्तारित कर सकते हैं।
 
-## Common Issues & Tips
+## आम दिक्कतें और टिप्स
 - **Image not loading** – पाथ सही है और फ़ाइल मौजूद है, यह जाँचें।  
 - **Pen thickness appears thin** – `new Pen(Color, thickness)` के दूसरे पैरामीटर को बढ़ाएँ।  
 - **Colors look dull** – कस्टम RGBA वैल्यू के लिए `Color.FromArgb` उपयोग करें या एंटी‑एलियासिंग सक्षम करें (पहले से `TextRenderingHint.AntiAliasGridFit` सेट है)।  
 - **Performance** – यदि आपको बैच में कई फ्रेम ड्रॉ करने हैं तो एक ही `Graphics` ऑब्जेक्ट को पुनः उपयोग करें।
 
-## Frequently Asked Questions
-### Is Aspose.Drawing compatible with all image formats?
-हाँ, Aspose.Drawing विभिन्न इमेज फॉर्मेट्स की विस्तृत रेंज को सपोर्ट करता है, जिससे विभिन्न फ़ाइल प्रकारों के साथ संगतता सुनिश्चित होती है।
+## अक्सर पूछे जाने वाले सवाल
+### क्या Aspose.Drawing सभी इमेज फॉर्मेट के साथ कम्पैटिबल है?
 
-### Can I customize the color and thickness of the frame?
-बिल्कुल! आपके पास फ्रेम के रंग और मोटाई पर पूर्ण नियंत्रण है, जिससे अनंत कस्टमाइज़ेशन संभावनाएँ मिलती हैं।
+हाँ, Aspose.Drawing अलग-अलग इमेज फॉर्मेट की विस्तृत रेंज को सपोर्ट करता है, जिससे अलग-अलग फाइल इमेज के साथ स्पेसिफिकेशन सुनिश्चित होती है।
 
-### Does Aspose.Drawing offer a free trial?
-हाँ, आप Aspose.Drawing की सुविधाओं को एक मुफ्त ट्रायल के साथ एक्सप्लोर कर सकते हैं जो [here](https://releases.aspose.com/) उपलब्ध है।
+### क्या मैं फ्रेम का रंग और मोटाई कस्टमाइज़ कर सकता हूँ?
 
-### How can I get support for Aspose.Drawing?
-Aspose.Drawing फ़ोरम पर जाएँ [here](https://forum.aspose.com/c/drawing/44) ताकि सहायता प्राप्त कर सकें और समुदाय से जुड़ सकें।
+बिल्कुल! आपके पास फ्रेम के रंग और स्पेसिफिकेशन पर पूरा कंट्रोल है, जिससे अनंत कस्टमाइजेशन संभावनाएँ मिलती हैं।
 
-### Can I use Aspose.Drawing for commercial projects?
+### क्या Aspose.Drawing फ्री ट्रायल देता है?
+
+हाँ, आप Aspose.Drawing की सुविधाओं को एक फ्री ट्रायल के साथ एक्सप्लोर कर सकते हैं जो [यहाँ](https://releases.aspose.com/) उपलब्ध है।
+
+### मैं Aspose.Drawing के लिए सपोर्ट कैसे पा सकता हूँ?
+
+Aspose.Drawing फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/drawing/44) ताकि सहायता प्राप्त कर सकें और समुदाय से जुड़ सकें।
+
+### क्या मैं कमर्शियल प्रोजेक्ट्स के लिए Aspose.Drawing का उपयोग कर सकता हूँ?
 हाँ, आप व्यावसायिक उपयोग के लिए लाइसेंस [here](https://purchase.aspose.com/buy) खरीद सकते हैं।
 
 ---
@@ -162,4 +166,4 @@ Aspose.Drawing फ़ोरम पर जाएँ [here](https://forum.aspose.c
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

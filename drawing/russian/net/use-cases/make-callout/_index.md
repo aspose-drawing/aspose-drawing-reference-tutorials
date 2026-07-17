@@ -16,28 +16,28 @@ weight: 10
 
 # Создание выносов в Aspose.Drawing
 
-## Introduction
-Если вы задаётесь вопросом, **как добавить выноски** к вашим изображениям или диаграммам с помощью Aspose.Drawing для .NET, вы попали в нужное место. В этом руководстве мы пройдём весь процесс — от загрузки изображения до рисования красиво оформленных выносов — чтобы ваши иллюстрации стали более понятными и информативными.
+## Введение
+Если вы задаетесь вопросом, **как добавить выноски** к вашим изображениям или диаграммам с помощью Aspose.Drawing для .NET, вы должны найти нужное место. В этом руководстве мы пройдём весь процесс — от загрузки изображений до рисования красиво оформленных выводов — чтобы ваши иллюстрации стали более понятными и информативными.
 
-## Quick Answers
-- **Какая библиотека нужна?** Aspose.Drawing for .NET (downloadable from the official site).  
-- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Нужна ли лицензия?** A free trial works for development; a commercial license is required for production.  
-- **Сколько времени занимает реализация?** Typically under 10 minutes for a basic callout.  
-- **Можно ли настроить цвета и шрифты?** Yes—everything is driven by standard GDI+ objects (Pen, Font, Brush).
+## Быстрые ответы
+- **Какая библиотека нужна?** Aspose.Drawing для .NET (можно загрузить с официального сайта).
+- **Какие версии .NET используются?** .NET Framework4.5+, .NETCore3.1+, .NET5/6+.
+- **Нужна ли лицензия?** Бесплатная пробная версия предназначена для разработки; Для производства необходима коммерческая лицензия.
+- **Сколько времени занимает производство?** Обычно для базового вызова требуется менее 10 минут.
+- **Можно ли настроить цвета и шрифты?** Да — все управляется стандартными объектами GDI+ (Перо, Шрифт, Кисть).
 
-## How to Add Callouts in Aspose.Drawing
-Ниже представлено краткое пошаговое руководство, показывающее **как добавить выноски** к изображению. Смело копируйте код, экспериментируйте с позициями и адаптируйте стиль под ваш бренд.
+## Как добавить выноски в Aspose.Drawing
+Ниже представлено краткое пошаговое руководство, показывающее **как добавить выноски** к изображению. Смело копируйте, экспериментируйте с позициями и адаптируйте стиль под свой бренд.
 
-## Prerequisites
+## Предварительные условия
 Перед тем как начать, убедитесь, что у вас есть:
 
-- Базовые знания языка программирования C#.  
-- Aspose.Drawing library installed. You can download it [here](https://releases.aspose.com/drawing/net/).  
-- A document or image where you want to add callouts.
+- Базовые знания языка программирования C#.
+- Установлена ​​библиотека Aspose.Drawing. Вы можете скачать его [здесь](https://releases.aspose.com/drawing/net/).
+– Документ или изображение, к которому вы хотите добавить выноски.
 
-## Import Namespaces
-Убедитесь, что в проекте подключены необходимые пространства имён:
+## Импортировать пространства имен
+Убедитесь, что в проекте подключены необходимые помещения:
 
 ```csharp
 using System.Text;
@@ -48,9 +48,8 @@ using System.Drawing.Text;
 using System.IO;
 ```
 
-## Step 1: Load the Image
-Шаг 1: Загрузка изображения  
-Start by loading the image where you want to add callouts. Replace `"Your Document Directory"` and `"gears.png"` with your actual directory and image filename.
+## Шаг 1: Загрузка изображения  
+Начните с загрузки изображения в том месте, где вы хотите добавить выноски. Замените `"Ваш каталог документов"` и `"gears.png"` на фактическое имя вашего каталога и файла изображения.
 
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears.png")))
@@ -59,9 +58,8 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "gears
 }
 ```
 
-## Step 2: Create Graphics Object
-Шаг 2: Создание объекта Graphics  
-Create a `Graphics` object from the image to perform drawing operations.
+## Шаг 2: Создание объекта Graphics  
+Создайте объект `Graphics` из изображения для выполнения операций рисования.
 
 ```csharp
 var graphics = Graphics.FromImage(image);
@@ -69,9 +67,8 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.PageUnit = GraphicsUnit.Pixel;
 ```
 
-## Step 3: Define Callout Positions
-Шаг 3: Определение позиций выноски  
-Define the start and end points for each callout along with the callout value and unit.
+## Шаг 3: Определение позиций выноски  
+Определите начальную и конечную точки для каждой выноски, а также значение выноски и единицу измерения.
 
 ```csharp
 PointF startAnchor1 = new PointF(107, 55);
@@ -84,25 +81,23 @@ int value2 = 28;
 string unit2 = "mm";
 ```
 
-## Step 4: Draw Callouts
-Шаг 4: Рисование выноски  
-Implement the `DrawCallOut` method to draw callouts on the image.
+## Шаг 4: Рисование выноски  
+Реализуйте метод `DrawCallOut` для рисования выносок на изображении.
 
 ```csharp
 DrawCallOut(graphics, startAnchor1, endAnchor1, value1, unit1);
 DrawCallOut(graphics, startAnchor2, endAnchor2, value2, unit2);
 ```
 
-## Step 5: Save the Image
-Шаг 5: Сохранение изображения  
-Save the image with callouts to your desired directory.
+## Шаг 5: Сохранение изображения  
+Сохраните изображение с выносками в нужном каталоге.
 
 ```csharp
 image.Save(Path.Combine("Your Document Directory", "gears_with_callout_out.png"));
 ```
 
-## Draw Callout Source Code
-Исходный код рисования выноски
+## Исходный код функции отрисовки выноски
+
 ```csharp
 void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
             {
@@ -126,47 +121,47 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
             }
 ```
 
-## Common Issues & Tips
-- **Неправильные координаты якоря** – make sure the start and end points are within the image bounds; otherwise the callout may be clipped.  
-- **Перекрытие текста** – adjust `spaceSize` or the font size if the label collides with other graphics.  
-- **Производительность** – for very large images, consider disposing of `Pen`, `Font`, and `Brush` objects after use to free resources.
+## Распространенные проблемы и советы
+- **Неправильные координаты якоря** — убедитесь, что начальная и конечная точки находятся в пределах изображения; в противном случае выноска может быть обрезана.
+- **Перекрытие текста** — отрегулируйте spaceSize или размер шрифта, если метка конфликтует с другой графикой.
+- **Производительность** – для очень больших изображений рассмотрите возможность удаления объектов Pen, Font и Brush после использования, чтобы освободить ресурсы.
 
-## Conclusion
-Поздравляем! Теперь вы знаете **как добавить выноски** к изображению с помощью Aspose.Drawing для .NET. Feel free to experiment with different positions, colors, and fonts to match your visual style.
+## Заключение
+Поздравляем! Теперь вы знаете, **как добавить выноски** к изображению с помощью Aspose.Drawing для .NET. Не стесняйтесь экспериментировать с разными позициями, цветами и шрифтами, чтобы они соответствовали вашему визуальному стилю.
 
-## FAQs
+## Часто задаваемые вопросы
 
-### Can I use Aspose.Drawing for other types of illustrations?
-Да, Aspose.Drawing supports a wide range of drawing operations for various types of illustrations.
+### Могу ли я использовать Aspose.Drawing для других типов иллюстраций?
+Да, Aspose.Drawing поддерживает широкий спектр операций рисования для различных типов иллюстраций.
 
-### Is Aspose.Drawing compatible with different image formats?
-Absolutely! Aspose.Drawing supports popular image formats like PNG, JPEG, GIF, and more.
+### Совместим ли Aspose.Drawing с различными форматами изображений?
+Безусловно! Aspose.Drawing поддерживает популярные форматы изображений, такие как PNG, JPEG, GIF и другие.
 
-### Where can I find more examples and documentation?
-Explore the comprehensive documentation [here](https://reference.aspose.com/drawing/net/).
+### Где я могу найти больше примеров и документации?
+Ознакомьтесь с подробной документацией [здесь](https://reference.aspose.com/drawing/net/).
 
-### How do I get support if I encounter issues?
-Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) for community support.
+### Как получить поддержку, если у меня возникнут проблемы?
+Посетите [форум Aspose.Drawing](https://forum.aspose.com/c/drawing/44) для получения поддержки от сообщества.
 
-### Can I try Aspose.Drawing before purchasing?
-Certainly! Get started with a free trial [here](https://releases.aspose.com/).
+### Могу ли я попробовать Aspose.Drawing перед покупкой?
+Конечно! Начните с бесплатной пробной версии [здесь](https://releases.aspose.com/).
 
-**Additional Q&A**
+**Дополнительные вопросы и ответы**
 
-**Q: Can I change the callout line style (dashed, dotted)?**  
-A: Yes—simply configure the `Pen.DashStyle` property before drawing the line.
+**В: Можно ли изменить стиль линии выноски (пунктирная, точечная)?**
+О: Да — просто настройте свойство `Pen.DashStyle` перед рисованием линии.
 
-**Q: Is it possible to add a background color to the callout label?**  
-A: Absolutely. Create a `SolidBrush` with your desired color and fill a rectangle behind the text before calling `DrawString`.
+**В: Можно ли добавить цвет фона к метке выноски?**
+О: Конечно. Создайте `SolidBrush` с желаемым цветом и залейте прямоугольник за текстом перед вызовом `DrawString`.
 
-**Q: How do I ensure the callout looks the same on high‑DPI displays?**  
-A: Set `graphics.PageUnit = GraphicsUnit.Pixel` (as shown) and use vector‑based measurements to keep scaling consistent.
+**В: Как обеспечить одинаковый внешний вид выноски на дисплеях с высоким разрешением?**
+О: Установите `graphics.PageUnit = GraphicsUnit.Pixel` (как показано) и используйте векторные измерения для обеспечения согласованности масштабирования.
 
----
+--
 
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Последнее обновление:** 02.03.2026
+**Протестировано с:** Aspose.Drawing 24.11 для .NET
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

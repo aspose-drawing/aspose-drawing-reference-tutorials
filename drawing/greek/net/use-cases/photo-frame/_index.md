@@ -13,7 +13,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Πλαισώστε τις Φωτογραφίες σας Δημιουργικά με το Aspose.Drawing για .NET
 
@@ -163,4 +163,4 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

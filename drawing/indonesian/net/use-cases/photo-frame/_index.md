@@ -12,7 +12,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Bingkai Foto Anda Secara Kreatif dengan Aspose.Drawing untuk .NET
 
@@ -162,4 +162,4 @@ Ya, Anda dapat membeli lisensi [here](https://purchase.aspose.com/buy) untuk pen
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

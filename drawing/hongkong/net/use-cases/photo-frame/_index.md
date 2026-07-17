@@ -10,7 +10,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.Drawing for .NET 創意為您的相片加框
 
@@ -155,9 +155,10 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 **測試環境：** Aspose.Drawing 24.12 for .NET  
 **作者：** Aspose  
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}

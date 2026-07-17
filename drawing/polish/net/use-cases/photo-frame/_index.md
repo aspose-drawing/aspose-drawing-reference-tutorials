@@ -12,7 +12,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Stwórz kreatywne ramki dla swoich zdjęć przy użyciu Aspose.Drawing dla .NET
 
@@ -160,4 +160,4 @@ Tak, możesz zakupić licencję [tutaj](https://purchase.aspose.com/buy) do uży
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
