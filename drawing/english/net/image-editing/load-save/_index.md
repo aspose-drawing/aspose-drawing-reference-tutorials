@@ -1,8 +1,8 @@
 ---
-title: Convert BMP to PNG and Other Formats with Aspose.Drawing
+title: Load, Convert BMP to PNG and Other Formats with Aspose.Drawing
 linktitle: Loading and Saving Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-description: Master image loading, batch image conversion, and format changes in .NET using Aspise.Drawing. Learn to convert bmp to png, how to convert image, and change image format efficiently.
+description: Master image loading, batch conversion, and format changes in .NET using Aspose.Drawing. Learn how to load and save images, convert BMP to PNG, and change image formats efficiently.
 weight: 13
 url: /net/image-editing/load-save/
 date: 2026-05-19
@@ -15,9 +15,7 @@ keywords:
 schemas:
 - type: TechArticle
   headline: Convert BMP to PNG and Other Formats with Aspose.Drawing
-  description: Master image loading, batch image conversion, and format changes in
-    .NET using Aspise.Drawing. Learn to convert bmp to png, how to convert image,
-    and change image format efficiently.
+  description: Master image loading, batch conversion, and format changes in .NET using Aspose.Drawing. Learn how to load and save images, convert BMP to PNG, and change image formats efficiently.
   dateModified: '2026-05-19'
   author: Aspose
 - type: FAQPage
@@ -181,7 +179,6 @@ You now have a solid, production‑ready pattern to **convert BMP to PNG**, perf
 - [How to Crop Image to PNG with Aspose.Drawing for .NET](/drawing/net/image-editing/cropping/)
 - [How to Scale Images with Aspose.Drawing for .NET](/drawing/net/image-editing/scale/)
 - [Save PNG Image and Work with Installed Fonts in Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

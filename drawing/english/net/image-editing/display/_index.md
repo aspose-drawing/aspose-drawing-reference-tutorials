@@ -1,8 +1,8 @@
 ---
-title: How to save bitmap as PNG using Aspose.Drawing for .NET
+title: How to save a bitmap as PNG using the Aspose.Drawing API for .NET
 linktitle: Displaying Images in Aspose.Drawing
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-description: Learn how to save bitmap as PNG with Aspose.Drawing for .NET. This step‑by‑step guide shows you how to draw an image bitmap, handle multiple images, and export the result efficiently.
+description: Learn how to save a bitmap as PNG using the Aspose.Drawing API for .NET. This step‑by‑step guide shows you how to draw an image bitmap, handle multiple images, and export the result efficiently.
 weight: 12
 url: /net/image-editing/display/
 date: 2026-05-19
@@ -171,7 +171,7 @@ Now you have successfully **drawn an image bitmap** and **saved bitmap as PNG** 
 **Q5: Where can I seek help if I encounter issues or have questions about Aspose.Drawing?**  
 **A:** Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to get support from the community and Aspose experts.
 
-**Q6: Can I convert the bitmap to other formats such as JPEG or BMP?**  
+**Q6: Can I convert the bitmap to other formats such? as JPEG or BMP?**  
 **A:** Simply change the file extension in the `Save` method (e.g., `bitmap.Save("output.jpg")`). Aspose.Drawing supports all common raster formats.
 
 ## Conclusion
@@ -194,6 +194,9 @@ You’ve now learned how to **save bitmap as PNG** with Aspose.Drawing, handle m
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
