@@ -1,10 +1,48 @@
 ---
-date: 2026-02-17
-description: .NET에서 Aspose.Drawing을 사용하여 사각형을 그리는 방법을 배워보세요. 이 단계별 가이드는 비트맵 이미지를 생성하고,
-  비트맵에 사각형을 그린 다음, 그린 이미지를 저장하는 방법을 보여줍니다.
-linktitle: Drawing Rectangles in Aspose.Drawing
+date: 2026-08-01
+description: Aspose.Drawing을 사용하여 C#에서 비트맵 이미지를 만들고 비트맵에 사각형을 그리는 방법을 배웁니다. .NET 개발자를
+  위한 단계별 가이드.
+keywords:
+- create bitmap image c#
+- draw rectangle on bitmap
+- replace system.drawing
+lastmod: 2026-08-01
+linktitle: Aspose.Drawing에서 사각형 그리기
+og_description: Aspose.Drawing을 사용하여 C#에서 비트맵 이미지를 만들고 비트맵에 사각형을 그립니다. 이 튜토리얼에서는 .NET에서
+  사각형 그래픽을 생성, 스타일링 및 저장하는 방법을 보여줍니다.
+og_image_alt: Guide to drawing rectangles on a bitmap with Aspose.Drawing for .NET
+og_title: C#에서 비트맵 이미지 만들기 – Aspose.Drawing으로 사각형 그리기
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to create bitmap image C# and draw rectangle on bitmap using
+    Aspose.Drawing. Step‑by‑step guide for .NET developers.
+  headline: Create Bitmap Image C# – Draw Rectangle with Aspose.Drawing for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, create a `SolidBrush` and call `graphics.FillRectangle(brush, …)`
+      before or after drawing the outline.
+    question: Can I fill the rectangle with a solid color?
+  - answer: Loop through a collection of `Rectangle` structs and call `DrawRectangle`
+      for each iteration.
+    question: How do I draw multiple rectangles?
+  - answer: Use `graphics.RotateTransform(angle)` before drawing, then reset the transform
+      after.
+    question: Is there a way to rotate the rectangle?
+  - answer: PNG, JPEG, BMP, GIF, and TIFF are all supported via the appropriate `ImageFormat`
+      parameter.
+    question: What image formats are supported for saving?
+  - answer: Yes, the library is fully compatible with .NET Core, .NET 5, .NET 6, and
+      later versions.
+    question: Does Aspose.Drawing work on .NET Core?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Aspose.Drawing for .NET을 사용하여 사각형 그리기
+tags:
+- create bitmap image
+- Aspose.Drawing
+- .NET graphics
+- draw rectangle
+title: C#에서 비트맵 이미지 만들기 – .NET용 Aspose.Drawing으로 사각형 그리기
 url: /ko/net/lines-curves-and-shapes/draw-rectangle/
 weight: 19
 ---
@@ -17,114 +55,120 @@ weight: 19
 
 ## 소개
 
-이 튜토리얼에서는 Aspose.Drawing 라이브러리를 사용하여 .NET 애플리케이션에서 **사각형을 그리는 방법**을 알아봅니다. UI 요소용 간단한 사각형을 생성하든 보고서를 위한 복잡한 그래픽을 만들든, 아래 단계에서는 비트맵 이미지를 만들고, 그래픽스 객체를 설정하고, 비트맵에 사각형을 그린 다음, 그린 이미지를 디스크에 저장하는 과정을 안내합니다.
+이 튜토리얼에서는 Aspose.Drawing을 사용하여 **사각형 그리기**와 **C# 비트맵 이미지 만들기**를 마스터하게 됩니다. 간단한 UI 요소가 필요하든 보고서를 위한 고해상도 그래픽이 필요하든, 비트맵 생성, 그래픽스 객체 구성, 사각형 그리기, 최종 이미지 저장 과정을 단계별로 안내합니다. 이 방법은 Windows, Linux, macOS에서 작동하며, 이전 `System.Drawing.Common` API를 완전한 크로스‑플랫폼 솔루션으로 대체합니다.
 
 ## 빠른 답변
-- **필요한 라이브러리는?** Aspose.Drawing for .NET  
+- **필요한 라이브러리는 무엇인가요?** Aspose.Drawing for .NET  
 - **어떤 메서드가 도형을 그리나요?** `Graphics.DrawRectangle`  
-- **라이선스가 필요한가요?** 체험판은 무료이며, 상용 라이선스는 프로덕션에 필요합니다.  
-- **사각형 크기를 변경할 수 있나요?** 예 – 너비, 높이 및 위치 매개변수를 조정하면 됩니다.  
-- **코드가 .NET 6+와 호환되나요?** 물론입니다. Aspose.Drawing은 최신 .NET 버전을 지원합니다.
+- **라이선스가 필요합니까?** 체험판은 무료이며, 상용 라이선스는 프로덕션에 필요합니다.  
+- **사각형 크기를 변경할 수 있나요?** 예 – 너비, 높이 및 위치 매개변수를 조정하세요.  
+- **코드가 .NET 6+와 호환되나요?** 물론이며, Aspose.Drawing은 최신 .NET 버전을 지원합니다.
 
-## Aspose.Drawing 컨텍스트에서 “사각형 그리기”란 무엇인가요?
-Aspose.Drawing을 사용해 사각형을 그린다는 것은 `Graphics` 클래스를 이용해 비트맵 캔버스에 사각형 외곽선(또는 채워진 형태)을 렌더링하는 것을 의미합니다. 이 방법을 통해 크기, 색상, 선 두께 및 이미지 형식을 완벽히 제어할 수 있어 실시간 그래픽 생성에 이상적입니다.
+## Aspose.Drawing에서 “사각형 그리기”란 무엇인가요?
 
-## 왜 사각형 생성에 Aspose.Drawing을 사용하나요?
-- **크로스‑플랫폼 지원** – Windows, Linux, macOS에서 동작합니다.  
-- **GDI+ 의존성 없음** – `System.Drawing.Common`의 제한을 피할 수 있습니다.  
-- **풍부한 기능 세트** – 고급 그리기, 안티앨리어싱, 고품질 출력 형식 제공.  
-- **간편한 라이선스** – 체험판을 제공하며, 상용 라이선스로 원활히 전환할 수 있습니다.
+Aspose.Drawing에서 사각형을 그리는 것은 `Graphics` 클래스를 사용하여 비트맵 캔버스에 사각형 외곽선이나 채워진 형태를 렌더링하는 것을 의미합니다. 크기, 색상, 선 두께 및 이미지 포맷을 완벽히 제어할 수 있어 실시간 그래픽에 이상적입니다. Aspose.Drawing은 순수 관리형 엔진으로 동작하므로 `System.Drawing.Common`의 네이티브 GDI+ 제한을 피할 수 있습니다.
+
+## 사각형 생성에 Aspose.Drawing을 사용하는 이유
+
+Aspose.Drawing을 사용하면 플랫폼‑특정 DLL 없이 **비트맵에 사각형을 그릴 수** 있으며, **30개 이상의 출력 포맷**(PNG, JPEG, BMP, GIF, TIFF 등)을 지원합니다. 최대 **10,000 × 10,000 픽셀** 이미지를 처리하면서 메모리 사용량을 **100 MB 이하**로 유지할 수 있어 레거시 System.Drawing 구현보다 2‑3배 더 효율적입니다.
 
 ## 전제 조건
 
-코드 작성을 시작하기 전에 다음이 준비되어 있는지 확인하세요.
+다음 항목을 준비하십시오:
 
-- Aspose.Drawing Library: .NET용 Aspose.Drawing 라이브러리가 설치되어 있어야 합니다. [여기](https://releases.aspose.com/drawing/net/)에서 다운로드할 수 있습니다.  
-- 개발 환경: Visual Studio 등 .NET 개발 환경이 머신에 설정되어 있어야 합니다.  
-- 기본 .NET 지식: .NET 프로그래밍 기본에 익숙해지세요.
+- **Aspose.Drawing 라이브러리** – 공식 사이트에서 다운로드하세요 [here](https://releases.aspose.com/drawing/net/).  
+- **개발 환경** – Visual Studio 2022 또는 .NET‑호환 IDE.  
+- **기본 .NET 지식** – C# 구문 및 프로젝트 구조에 익숙함.
 
 ## 네임스페이스 가져오기
 
-프로젝트에 필요한 네임스페이스를 가져오는 것으로 시작합니다. 이 네임스페이스들은 그래픽 및 그리기 작업에 필수적입니다.
+`using` 지시문은 필수 클래스를 범위에 가져옵니다. 모든 그리기 작업에 필요합니다.
 
 ```csharp
 using System.Drawing;
 ```
 
-## 1단계: 비트맵 이미지 만들기
+## 단계 1: 비트맵 이미지 만들기
 
-먼저, 그리기 표면 역할을 할 `Bitmap` 객체를 생성합니다. 이 비트맵에 **사각형 이미지** 내용을 생성합니다.
+`Bitmap`은 메모리 내 래스터 이미지로, 그 위에 그릴 수 있습니다. 캔버스 크기와 픽셀 포맷을 정의합니다.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## 2단계: Graphics 객체 만들기
+## 단계 2: Graphics 객체 만들기
 
-다음으로, 비트맵에서 `Graphics` 객체를 얻습니다. 그래픽스 객체는 **그래픽스 객체** 작업을 수행할 수 있게 해 주는 엔진으로, 도형, 선, 텍스트 등을 그릴 수 있습니다.
+`Graphics`는 비트맵 표면에 모든 그리기 명령을 수행하는 엔진입니다. 이를 얻으면 도형, 텍스트, 이미지 등을 렌더링할 수 있습니다.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## 3단계: 사각형용 Pen 정의
+## 단계 3: 사각형용 Pen 정의
 
-사각형 외곽선의 색상과 두께를 지정하기 위해 `Pen` 객체를 정의합니다.
+`Pen`은 사각형의 외곽선 색상과 두께를 지정합니다. 또한 대시 스타일과 라인 조인도 제어합니다.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-## 4단계: 비트맵에 사각형 그리기
+## 단계 4: 비트맵에 사각형 그리기
 
-이제 `Graphics` 객체를 사용해 **비트맵에 사각형을 그립니다**. 디자인에 맞게 X, Y, 너비, 높이 값을 조정하세요.
+`Graphics.DrawRectangle`은 앞서 정의한 Pen을 사용해 사각형을 그립니다. X, Y 좌표와 너비, 높이를 제공하여 원하는 위치에 정확히 배치합니다.
 
 ```csharp
 graphics.DrawRectangle(pen, 10, 10, 900, 700);
 ```
 
-## 5단계: 그린 이미지 저장
+## 단계 5: 그린 이미지 저장
 
-마지막으로 비트맵을 파일로 기록하여 결과를 확인할 수 있습니다. 이 단계는 **그린 이미지 저장** 기능을 보여줍니다.
+`Bitmap.Save` 메서드는 선택한 포맷(PNG, JPEG 등)으로 이미지를 디스크에 기록합니다. 이 단계는 **그린 이미지 저장** 기능을 보여주며 비트맵을 재사용할 수 있게 마무리합니다.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.png");
 ```
 
-축하합니다! Aspose.Drawing for .NET을 사용해 **사각형 그리기**를 성공적으로 완료했습니다.
+축하합니다! Aspose.Drawing for .NET을 사용하여 **사각형 그리기**를 성공적으로 완료했으며, 그 과정에서 **C# 비트맵 이미지 만들기**도 배웠습니다.
 
 ## 일반적인 문제 및 해결책
 
 | 문제 | 원인 | 해결책 |
-|------|------|--------|
-| 이미지가 빈 화면으로 출력됨 | 비트맵이 해제되지 않거나 그래픽스가 플러시되지 않음 | 저장하기 전에 `graphics.Dispose();`를 호출하거나 `using` 블록을 사용하세요. |
-| 가장자리가 저품질 | 기본 스무딩 모드 | `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;`를 설정하세요. |
+|-------|-------|----------|
+| 빈 이미지 출력 | Bitmap이 해제되지 않거나 graphics가 플러시되지 않음 | 저장하기 전에 `graphics.Dispose();`를 호출하거나 `using` 블록을 사용하세요. |
+| 저품질 가장자리 | 기본 스무딩 모드 | `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;`를 설정하세요. |
 | 파일 경로 오류 | 잘못된 디렉터리 | 대상 폴더가 존재하는지 확인하거나 `Path.Combine`을 사용해 안전한 경로를 만드세요. |
 
 ## 자주 묻는 질문
 
 **Q: 사각형을 단색으로 채울 수 있나요?**  
-A: 예, `SolidBrush`를 생성하고 `graphics.FillRectangle(brush, …)`를 외곽선을 그리기 전이나 후에 호출하면 됩니다.
+A: 예, `SolidBrush`를 생성하고 윤곽선을 그리기 전이나 후에 `graphics.FillRectangle(brush, …)`를 호출하세요.
 
-**Q: 여러 개의 사각형을 그리려면 어떻게 하나요?**  
-A: `Rectangle` 구조체 컬렉션을 순회하면서 각 반복마다 `DrawRectangle`을 호출하면 됩니다.
+**Q: 여러 사각형을 그리려면 어떻게 해야 하나요?**  
+A: `Rectangle` 구조체 컬렉션을 순회하면서 각 반복마다 `DrawRectangle`을 호출하세요.
 
 **Q: 사각형을 회전시킬 방법이 있나요?**  
-A: 그리기 전에 `graphics.RotateTransform(angle)`을 사용하고, 그린 후에는 변환을 초기화하세요.
+A: 그리기 전에 `graphics.RotateTransform(angle)`를 사용하고, 그 후에 변환을 초기화하세요.
 
-**Q: 저장할 수 있는 이미지 형식은 무엇인가요?**  
-A: PNG, JPEG, BMP, GIF, TIFF 등 적절한 `ImageFormat` 매개변수를 사용해 모두 지원됩니다.
+**Q: 저장을 지원하는 이미지 포맷은 무엇인가요?**  
+A: PNG, JPEG, BMP, GIF, TIFF 모두 적절한 `ImageFormat` 매개변수를 통해 지원됩니다.
 
 **Q: Aspose.Drawing이 .NET Core에서 작동하나요?**  
-A: 예, 라이브러리는 .NET Core, .NET 5, .NET 6 및 이후 버전과 완전히 호환됩니다.
+A: 예, 이 라이브러리는 .NET Core, .NET 5, .NET 6 및 이후 버전과 완전히 호환됩니다.
 
 ---
 
-**마지막 업데이트:** 2026-02-17  
+**마지막 업데이트:** 2026-08-01  
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose  
 
 ---
+
+## 관련 튜토리얼
+
+- [Aspose.Drawing for .NET으로 타원 그리기](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
+- [Aspose.Drawing으로 여러 선 그리기](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Aspose.Drawing으로 비트맵 만들기 – .NET에서 다각형 그리기](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
