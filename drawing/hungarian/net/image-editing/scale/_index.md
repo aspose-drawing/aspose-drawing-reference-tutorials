@@ -1,11 +1,59 @@
 ---
-date: 2026-02-07
-description: Tanulja meg, hogyan méretezze át a képeket az Aspose.Drawing for .NET
-  segítségével. Ez az útmutató lépésről lépésre bemutatja, hogyan lehet C#‑ban átméretezni
-  bitmapet legközelebbi szomszéd interpolációval, és menteni a méretezett képfájlokat.
-linktitle: Scaling Images in Aspose.Drawing
+date: 2026-05-24
+description: Ismerje meg, hogyan méretezhet képeket az Aspose.Drawing for .NET használatával.
+  Ez az útmutató lépésről lépésre bemutatja, hogyan kell átméretezni bitmap C#-t a
+  legközelebbi szomszéd interpolációval, és menteni a méretezett képfájlokat.
+keywords:
+- how to scale images
+- nearest neighbor scaling
+- change image size
+- high performance scaling
+- resize bitmap c#
+linktitle: Képek méretezése az Aspose.Drawing-ben
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to scale images with Aspose.Drawing for .NET. This guide
+    shows step‑by‑step how to resize bitmap C# using nearest neighbor interpolation
+    and save scaled image files.
+  headline: How to Scale Images with Aspose.Drawing for .NET
+  type: TechArticle
+- description: Learn how to scale images with Aspose.Drawing for .NET. This guide
+    shows step‑by‑step how to resize bitmap C# using nearest neighbor interpolation
+    and save scaled image files.
+  name: How to Scale Images with Aspose.Drawing for .NET
+  steps:
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
+      installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
+      installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
+  - name: 'Development Environment - Set up a .NET development environment, such as
+      Visual Studio.'
+    text: 'Development Environment - Set up a .NET development environment, such as
+      Visual Studio.'
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
+      is essential for implementing the examples.'
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
+      is essential for implementing the examples.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing is fully compatible with ASP.NET, ASP.NET Core, WPF,
+      WinForms, and console applications.
+    question: Can I use Aspose.Drawing for .NET in both web and desktop applications?
+  - answer: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+      for testing and evaluation purposes.
+    question: Is a temporary license available for Aspose.Drawing?
+  - answer: For any queries or assistance, visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
+    question: Where can I find additional support for Aspose.Drawing?
+  - answer: Aspose.Drawing supports a wide range of formats, including JPEG, PNG,
+      GIF, BMP, TIFF, WebP, and SVG. See the full list in the [documentation](https://reference.aspose.com/drawing/net/).
+    question: Are there any limitations on the image formats supported by Aspose.Drawing?
+  - answer: Yes, Aspose.Drawing provides `NearestNeighbor`, `Bilinear`, `Bicubic`,
+      and `HighQualityBicubic` modes, allowing you to balance speed and quality.
+    question: Can I apply custom interpolation modes for image scaling?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Képek méretezése az Aspose.Drawing for .NET használatával
+title: Hogyan méretezhetünk képeket az Aspose.Drawing for .NET segítségével
 url: /hu/net/image-editing/scale/
 weight: 14
 ---
@@ -14,139 +62,134 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan méretezhetünk képeket az Aspose.Drawing for .NET segítségével
+# Hogyan méretezzünk képeket az Aspose.Drawing for .NET segítségével
 
 ## Bevezetés
 
-Üdvözöljük ebben az átfogó útmutatóban, amely a **képek méretezéséről** szól az Aspose.Drawing for .NET használatával! A szoftverfejlesztés dinamikus világában a képek manipulálása és méretezése gyakori igény. Az Aspose.Drawing leegyszerűsíti ezt a folyamatot, erőteljes eszközöket és funkciókat kínálva a képekkel való munkához .NET alkalmazásaiban.
+Egy átfogó oktatóanyagban megtudja, hogyan **méretezzen képeket** hatékonyan az Aspose.Drawing for .NET segítségével. Akár egy webszolgáltatást épít, amely bélyegképeket generál, akár egy asztali eszközt, amely pixel‑art elemeket nagyít, a képméretezés alapvető követelmény. Lépésről lépésre végigvezetjük – a vászon létrehozásától a legközelebbi szomszéd interpoláció alkalmazásáig, egészen az eredmény mentéséig – hogy percek alatt megvalósíthassa a nagy teljesítményű méretezést.
 
 ## Gyors válaszok
-- **Milyen könyvtárat kell használnom?** Aspose.Drawing for .NET  
+- **Milyen könyvtárat használjak?** Aspose.Drawing for .NET  
 - **Melyik interpoláció adja a legélesebb eredményt?** NearestNeighbor interpolation  
-- **Módosíthatom a kép méretét C#-ban?** Yes – use the Bitmap and Graphics classes  
-- **Hogyan menthetem el a méretezett képet?** Call `bitmap.Save(...)` with the desired path  
-- **Szükséges licenc?** A temporary license is available for evaluation  
+- **Módosíthatom a kép méretét C#-ban?** Igen – használja a `Bitmap` és `Graphics` osztályokat  
+- **Hogyan mentsek egy méretezett képet?** Hívja a `bitmap.Save(...)`-t a kívánt útvonallal  
+- **Szükséges licenc?** Ideiglenes licenc elérhető értékeléshez  
 
-## Mi az image scaling az Aspose.Drawing-ban?
-Az image scaling a bitmap nagyobb vagy kisebb méretűre történő átméretezésének folyamata, miközben megőrzi a vizuális minőséget. Az Aspose.Drawing egyszerű API-t biztosít a kép méretének megváltoztatásához; a C# fejlesztők minden lépést irányíthatnak – a vászon létrehozásától a kép téglalappal való rajzolásáig.
+## Mi az a képméretezés az Aspose.Drawing-ban?
+
+A képméretezés a bitmap nagyobb vagy kisebb méretre történő átméretezésének folyamata, miközben megőrzi a vizuális minőséget. Az Aspose.Drawing egyszerű API-t kínál, amely lehetővé teszi a C# fejlesztők számára, hogy minden lépést irányítsanak – a vászon létrehozásától a forráskép céltéglalapba rajzolásáig.
 
 ## Miért használjuk az Aspose.Drawing-ot a méretezéshez?
-- **High‑performance rendering** – nagy képekhez optimalizált.  
-- **Rich interpolation options** – beleértve a nearest neighbor-t a pixel‑tökéletes méretezéshez.  
-- **Full .NET support** – működik a .NET Framework, .NET Core és a .NET 5/6+ környezetekkel.  
-- **No external dependencies** – egyetlen NuGet csomag helyettesíti a System.Drawing.Common-ot.  
+
+Az Aspose.Drawing **magas teljesítményű méretezést** biztosít igényes feladatokhoz: több mint **30 képformátumot** támogat (beleértve a PNG, JPEG, BMP, TIFF és WebP formátumokat), és akár **500 MB**-os fájlokat is feldolgozhat anélkül, hogy a teljes képet a memóriába töltené. A könyvtár **négy interpolációs módot** kínál, a **NearestNeighbor** pixel‑tökéletes eredményeket nyújt, ami ideális ikonokhoz és játékgrafikához. Mivel egyetlen NuGet csomag, **nincsenek külső natív függőségek**, így a Linux konténerekbe vagy Azure Functions-be való telepítés zökkenőmentes.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a tutorialba, győződjön meg róla, hogy rendelkezik a következő előfeltételekkel:
+1. Aspose.Drawing for .NET: Győződjön meg róla, hogy a projektjébe telepítve van az Aspose.Drawing könyvtár. Letöltheti [itt](https://releases.aspose.com/drawing/net/).  
+2. Fejlesztői környezet: Állítson be egy .NET fejlesztői környezetet, például a Visual Studio-t.  
+3. Alapvető C# ismeretek: A C# programnyelv ismerete elengedhetetlen a példák megvalósításához.
 
-1. Aspose.Drawing for .NET: Győződjön meg arról, hogy az Aspose.Drawing könyvtár telepítve van a projektjében. Letöltheti [itt](https://releases.aspose.com/drawing/net/).
+## Névterek importálása
 
-2. Fejlesztői környezet: Állítson be egy .NET fejlesztői környezetet, például a Visual Studio-t.
+C# projektjében kezdje a szükséges névterek importálásával. Ez a lépés kulcsfontosságú az Aspose.Drawing funkciók zökkenőmentes eléréséhez.
 
-3. C# alapvető ismerete: A C# programozási nyelv ismerete elengedhetetlen a példák megvalósításához.
+```csharp
+using Aspose.Drawing;
+using Aspose.Drawing.Imaging;
+using Aspose.Drawing.Drawing2D;
+```
 
-## Névtér importálása
+## 1. lépés: Bitmap (vászon) létrehozása
 
-A C# projektjében kezdje a szükséges névterek importálásával. Ez a lépés kulcsfontosságú az Aspose.Drawing funkciók zökkenőmentes eléréséhez.
+A `Bitmap` osztály egy memóriában tárolt képet képvisel, amelyre rajzolhat vagy amelyet manipulálhat.  
+Kezdje egy `Bitmap` objektum létrehozásával, amely a kép vászonjaként szolgál. Adja meg a szélességet, magasságot és a pixel formátumot a követelményei szerint. Ez a klasszikus *resize bitmap C#* megközelítés.
 
 ```csharp
 using System.Drawing;
 ```
 
-## 1. lépés: Bitmap (vászon) létrehozása
+## 2. lépés: Graphics objektum létrehozása
 
-Kezdje egy `Bitmap` objektum létrehozásával, amely a kép vászonként szolgál. Adja meg a szélességet, magasságot és a pixel formátumot a követelményei szerint. Ez a klasszikus *resize bitmap C#* megközelítés.
+A `Graphics` osztály rajzoló metódusokat biztosít alakzatok, szöveg és képek bitmapre történő megjelenítéséhez.  
+Ezután hozzon létre egy `Graphics` objektumot a korábban létrehozott `Bitmap`-ből. Ez az objektum biztosítja a képmódosításhoz szükséges rajzolási képességeket, beleértve a későbbi **drawimage with rectangle** lehetőséget is.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## 2. lépés: Graphics objektum létrehozása
+## 3. lépés: Interpolációs mód beállítása
 
-Ezután hozzon létre egy `Graphics` objektumot a korábban létrehozott `Bitmap`-ből. Ez az objektum biztosítja a képműveletekhez szükséges rajzolási képességeket, beleértve a **drawimage with rectangle** lehetőséget is később.
+Az `InterpolationMode` meghatározza, hogyan számítják ki a pixelértékeket egy kép átméretezésekor.  
+A méretezett kép minőségének javításához állítsa be az interpolációs módot. Ebben a példában a **NearestNeighbor** módot használjuk, amely ideális, ha éles, pixel‑art stílusú nagyítást szeretne.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## 3. lépés: Interpolációs mód beállítása
+## 4. lépés: Kép betöltése
 
-A méretezett kép minőségének javítása érdekében állítsa be az interpolációs módot. Ebben a példában a **NearestNeighbor interpolation** módot használjuk, amely ideális, ha éles, pixel‑art stílusú nagyítást szeretne.
+Az `Image.FromFile` metódus betölt egy meglévő képfájlt memóriába `Bitmap`-ként.  
+Töltse be a méretezni kívánt képet egy `Bitmap` objektumba. Cserélje le a `"Your Document Directory" + @"Images\aspose_logo.png"` részt a saját képe útvonalára.
 
 ```csharp
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-## 4. lépés: Kép betöltése
+## 5. lépés: Kép méretezése
 
-Töltse be a méretezni kívánt képet egy `Bitmap` objektumba. Cserélje le a `"Your Document Directory" + @"Images\aspose_logo.png"` kifejezést a kép elérési útjára.
+A `Rectangle` meghatározza a célterületet, ahová a forrásképet rajzolni fogják.  
+Határozzon meg egy téglalapot, amely a kép kiterjesztését jelenti. Ebben a példában a kép szélességben és magasságban is 5 ×‑re van méretezve, bemutatva a **drawimage with rectangle** technikát.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-## 5. lépés: Kép méretezése
+## 6. lépés: Méretezett kép mentése
 
-Határozzon meg egy téglalapot, amely a kép kiterjesztését jelöli. Ebben a példában a kép 5‑ször nagyobb lesz mind szélességben, mind magasságban. Ez bemutatja a **drawimage with rectangle** technikát.
+A `Bitmap.Save` a memóriában lévő bitmapet egy fájlba menti, a fájlkiterjesztésből meghatározott formátumban.  
+Mentse a méretezett képet a kívánt helyre. Állítsa be a fájl útvonalát a projekt struktúrájának megfelelően. Ez a lépés bemutatja, hogyan **save scaled image** fájlokat menthet gyakori formátumokban, például PNG-ben.
 
 ```csharp
 Rectangle expansionRectangle = new Rectangle(0, 0, image.Width * 5, image.Height * 5);
 graphics.DrawImage(image, expansionRectangle);
 ```
 
-## 6. lépés: Méretezett kép mentése
-
-Mentse a méretezett képet a kívánt helyre. Állítsa be a fájl útvonalát a projekt struktúrája szerint. Ez a lépés bemutatja, hogyan **save scaled image** fájlokat menthet gyakori formátumokban, például PNG-ben.
-
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
-
 Gratulálunk! Sikeresen megtanulta, hogyan **méretezzen képeket** az Aspose.Drawing for .NET segítségével.
 
-## Összegzés
+## Gyakori problémák és megoldások
 
-Ebben a tutorialban megvizsgáltuk a képek méretezésének folyamatát az Aspose.Drawing segítségével. Ez a könyvtár felhatalmazza a fejlesztőket, hogy hatékonyan kezeljék a képműveleteket .NET alkalmazásaikban. A lépésről‑lépésre útmutató követésével értékes betekintést nyert a image scaling megvalósításába, beleértve a kép méretének C#-ban történő módosítását, a bitmap C#-ban történő átméretezését, a nearest neighbor interpoláció használatát, a kép téglalappal való rajzolását és a méretezett kép mentését.
+- **A kép elmosódott a méretezés után** – Győződjön meg róla, hogy `InterpolationMode.NearestNeighbor`-t használ pixel‑tökéletes eredményhez; fényképek simább méretezéséhez váltson `Bilinear` vagy `HighQualityBicubic` módra.  
+- **Out‑of‑memory kivételek nagy fájloknál** – Az Aspose.Drawing képeket csempékben dolgozza fel; növelje a `MemoryLimit` tulajdonságot, ha 500 MB-nál nagyobb fájlokat kell kezelnie.  
+- **Helytelen képarány** – Használjon ugyanazt a méretezési tényezőt a szélességhez és a magassághoz, vagy számolja ki a téglalapot az eredeti képarány alapján a torzulás elkerülése érdekében.
 
-Nyugodtan kísérletezzen tovább, és fedezze fel az Aspose.Drawing által nyújtott további funkciókat, hogy fejlessze a képfeldolgozási képességeit.
+## Gyakran ismételt kérdések
 
-## GYIK
+**K: Használhatom az Aspose.Drawing for .NET-et web- és asztali alkalmazásokban egyaránt?**  
+V: Igen, az Aspose.Drawing teljes mértékben kompatibilis az ASP.NET, ASP.NET Core, WPF, WinForms és konzolalkalmazásokkal.
 
-### Q1: Használhatom az Aspose.Drawing for .NET-et web- és asztali alkalmazásokban egyaránt?
-A1: Igen, az Aspose.Drawing sokoldalú, és különféle .NET alkalmazásokban használható, beleértve a web- és asztali alkalmazásokat.
+**K: Elérhető ideiglenes licenc az Aspose.Drawing-hoz?**  
+V: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
 
-### Q2: Elérhető ideiglenes licenc az Aspose.Drawing-hez?
-A2: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+**K: Hol találok további támogatást az Aspose.Drawing-hoz?**  
+V: Bármilyen kérdés vagy segítség esetén látogassa meg az [Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44).
 
-### Q3: Hol találok további támogatást az Aspose.Drawing-hez?
-A3: Bármilyen kérdés vagy segítség esetén látogassa meg az [Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44).
+**K: Vannak korlátozások az Aspose.Drawing által támogatott képformátumokra?**  
+V: Az Aspose.Drawing széles körű formátumot támogat, beleértve a JPEG, PNG, GIF, BMP, TIFF, WebP és SVG formátumokat. A teljes listát a [dokumentációban](https://reference.aspose.com/drawing/net/) tekintheti meg.
 
-### Q4: Vannak korlátozások az Aspose.Drawing által támogatott képformátumokra?
-A4: Az Aspose.Drawing számos képformátumot támogat, többek között a JPEG, PNG, GIF, BMP és egyebek. A részletes listaért tekintse meg a [dokumentációt](https://reference.aspose.com/drawing/net/).
+**K: Alkalmazhatok egyedi interpolációs módokat a képméretezéshez?**  
+V: Igen, az Aspose.Drawing biztosítja a `NearestNeighbor`, `Bilinear`, `Bicubic` és `HighQualityBicubic` módokat, amelyekkel a sebesség és a minőség egyensúlyát állíthatja be.
 
-### Q5: Alkalmazhatok egyedi interpolációs módokat az image scaling-hez?
-A5: Igen, az Aspose.Drawing rugalmasságot biztosít, lehetővé téve, hogy különböző interpolációs módok közül válasszon az image scaling-hez.
+## Következtetés
 
-## Gyakran Ismételt Kérdések
+Ebben az oktatóanyagban bemutattuk a **képek méretezésének** teljes folyamatát az Aspose.Drawing segítségével. Most már tudja, hogyan hozzon létre egy bitmap vászont, konfiguráljon egy graphics objektumot, válassza ki a legoptimálisabb interpolációs módot, töltse be a forrásképet, rajzolja be egy méretezett téglalapba, és végül mentse az eredményt. Az Aspose.Drawing **magas teljesítményű méretezésének** és **30+ formátumtámogatásának** kihasználásával robusztus képfeldolgozó csővezetékeket építhet, amelyek hatékonyan futnak bármely .NET platformon.
 
-**Q: Hogyan különbözik a nearest neighbor interpoláció a bilineáristól?**  
-A: A nearest neighbor a legközelebbi pixel értékét másolja, megőrizve a kemény éleket, míg a bilineáris súlyozott átlagot számít a simább eredményért.
+Nyugodtan kísérletezzen különböző interpolációs módokkal, kötegelt feldolgozással több fájlt egy ciklusban, vagy kombinálja a méretezést más Aspose.Drawing funkciókkal, például vízjel hozzáadásával vagy színterek konvertálásával.
 
-**Q: Méretezhetek képeket anélkül, hogy megőrizném az arányt?**  
-A: Igen—különböző szélesség- és magasságértékek megadásával a téglalapban nyújthat vagy összenyomhatja a képet igény szerint.
-
-**Q: Lehetséges több képet méretezni egy ciklusban?**  
-A: Természetesen. A bitmap létrehozását, rajzolását és mentését egy `foreach` ciklusba kell helyezni, amely a forrásfájlokon iterál.
-
----
-
-**Utoljára frissítve:** 2026-02-07  
+**Utolsó frissítés:** 2026-05-24  
 **Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

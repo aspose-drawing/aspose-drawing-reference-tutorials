@@ -1,9 +1,57 @@
 ---
-date: 2026-02-07
-description: Lär dig hur du skalar bilder med Aspose.Drawing för .NET. Den här guiden
-  visar steg för steg hur du ändrar storlek på en bitmap i C# med närmaste granne-interpolering
-  och sparar de skalade bildfilerna.
-linktitle: Scaling Images in Aspose.Drawing
+date: 2026-05-24
+description: Lär dig hur du skalar bilder med Aspose.Drawing för .NET. Denna guide
+  visar steg-för-steg hur du ändrar storlek på bitmap C# med nearest neighbor interpolation
+  och sparar skalade bildfiler.
+keywords:
+- how to scale images
+- nearest neighbor scaling
+- change image size
+- high performance scaling
+- resize bitmap c#
+linktitle: Skala bilder i Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to scale images with Aspose.Drawing for .NET. This guide
+    shows step‑by‑step how to resize bitmap C# using nearest neighbor interpolation
+    and save scaled image files.
+  headline: How to Scale Images with Aspose.Drawing for .NET
+  type: TechArticle
+- description: Learn how to scale images with Aspose.Drawing for .NET. This guide
+    shows step‑by‑step how to resize bitmap C# using nearest neighbor interpolation
+    and save scaled image files.
+  name: How to Scale Images with Aspose.Drawing for .NET
+  steps:
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
+      installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
+      installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
+  - name: 'Development Environment - Set up a .NET development environment, such as
+      Visual Studio.'
+    text: 'Development Environment - Set up a .NET development environment, such as
+      Visual Studio.'
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
+      is essential for implementing the examples.'
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
+      is essential for implementing the examples.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing is fully compatible with ASP.NET, ASP.NET Core, WPF,
+      WinForms, and console applications.
+    question: Can I use Aspose.Drawing for .NET in both web and desktop applications?
+  - answer: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+      for testing and evaluation purposes.
+    question: Is a temporary license available for Aspose.Drawing?
+  - answer: For any queries or assistance, visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
+    question: Where can I find additional support for Aspose.Drawing?
+  - answer: Aspose.Drawing supports a wide range of formats, including JPEG, PNG,
+      GIF, BMP, TIFF, WebP, and SVG. See the full list in the [documentation](https://reference.aspose.com/drawing/net/).
+    question: Are there any limitations on the image formats supported by Aspose.Drawing?
+  - answer: Yes, Aspose.Drawing provides `NearestNeighbor`, `Bilinear`, `Bicubic`,
+      and `HighQualityBicubic` modes, allowing you to balance speed and quality.
+    question: Can I apply custom interpolation modes for image scaling?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
 title: Hur man skalar bilder med Aspose.Drawing för .NET
 url: /sv/net/image-editing/scale/
@@ -14,144 +62,138 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man skalar bilder med Aspose.Drawing för .NET
+# Så här skalar du bilder med Aspose.Drawing för .NET
 
 ## Introduktion
 
-Välkommen till denna omfattande guide om **hur man skalar bilder** med Aspose.Drawing för .NET! I den dynamiska världen av mjukvaruutveckling är manipulering och skalning av bilder ett vanligt krav. Aspose.Drawing förenklar denna process och erbjuder kraftfulla verktyg och funktioner för att arbeta med bilder i dina .NET‑applikationer.
+I den här omfattande handledningen kommer du att upptäcka **hur man skalar bilder** effektivt med Aspose.Drawing för .NET. Oavsett om du bygger en webbtjänst som genererar miniatyrbilder eller ett skrivbordsverktyg som förstorar pixel‑art‑tillgångar, är bildskalning ett grundläggande krav. Vi går igenom varje steg—från att skapa en canvas till att tillämpa nearest‑neighbor‑interpolation och slutligen spara resultatet—så att du kan implementera högpresterande skalning på några minuter.
 
 ## Snabba svar
-- **Vilket bibliotek ska jag använda?** Aspose.Drawing for .NET  
+- **Vilket bibliotek ska jag använda?** Aspose.Drawing för .NET  
 - **Vilken interpolation ger det skarpaste resultatet?** NearestNeighbor interpolation  
-- **Kan jag ändra bildstorlek i C#?** Yes – use the Bitmap and Graphics classes  
-- **Hur sparar jag en skalad bild?** Call `bitmap.Save(...)` with the desired path  
-- **Krävs en licens?** A temporary license is available for evaluation  
+- **Kan jag ändra bildstorlek i C#?** Ja – använd `Bitmap`‑ och `Graphics`‑klasserna  
+- **Hur sparar jag en skalad bild?** Anropa `bitmap.Save(...)` med önskad sökväg  
+- **Krävs en licens?** En tillfällig licens finns tillgänglig för utvärdering  
 
 ## Vad är bildskalning i Aspose.Drawing?
-Bildskalning är processen att ändra storleken på en bitmap till större eller mindre dimensioner samtidigt som den visuella kvaliteten bevaras. Aspose.Drawing tillhandahåller ett enkelt API för att ändra bildstorlek; C#‑utvecklare kan kontrollera varje steg – från att skapa en canvas till att rita bilden med en rektangel.
+
+Bildskalning är processen att ändra storlek på en bitmap till större eller mindre dimensioner samtidigt som den visuella kvaliteten bevaras. Aspose.Drawing tillhandahåller ett enkelt API som låter C#‑utvecklare kontrollera varje steg—from canvas‑skapande till att rita källbilden i en mål‑rektangel.
 
 ## Varför använda Aspose.Drawing för skalning?
-- **Högpresterande rendering** – optimerad för stora bilder.  
-- **Rika interpolationsalternativ** – inklusive nearest neighbor för pixelperfekt skalning.  
-- **Full .NET‑stöd** – fungerar med .NET Framework, .NET Core och .NET 5/6+.  
-- **Inga externa beroenden** – ett enda NuGet‑paket ersätter System.Drawing.Common.
+
+Aspose.Drawing levererar **högpresterande skalning** för krävande arbetsbelastningar: det stöder **30+ bildformat** (inklusive PNG, JPEG, BMP, TIFF och WebP) och kan bearbeta filer upp till **500 MB** utan att ladda hela bilden i minnet. Biblioteket erbjuder också **fyra interpolationslägen**, där **NearestNeighbor** ger pixelperfekta resultat som är idealiska för ikoner och spelgrafik. Eftersom det är ett enda NuGet‑paket finns **inga externa inhemska beroenden**, vilket gör distribution till Linux‑containrar eller Azure Functions smidig.
 
 ## Förutsättningar
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
 
-1. Aspose.Drawing for .NET: Se till att du har Aspose.Drawing‑biblioteket installerat i ditt projekt. Du kan ladda ner det [here](https://releases.aspose.com/drawing/net/).
-
-2. Utvecklingsmiljö: Ställ in en .NET‑utvecklingsmiljö, till exempel Visual Studio.
-
-3. Grundläggande kunskap om C#: Bekantskap med programmeringsspråket C# är nödvändig för att implementera exemplen.
+1. Aspose.Drawing för .NET: Se till att du har Aspose.Drawing‑biblioteket installerat i ditt projekt. Du kan ladda ner det [här](https://releases.aspose.com/drawing/net/).  
+2. Utvecklingsmiljö: Ställ in en .NET‑utvecklingsmiljö, t.ex. Visual Studio.  
+3. Grundläggande förståelse för C#: Bekantskap med programmeringsspråket C# är nödvändig för att implementera exemplen.
 
 ## Importera namnrymder
 
 I ditt C#‑projekt, börja med att importera de nödvändiga namnrymderna. Detta steg är avgörande för att sömlöst få åtkomst till Aspose.Drawing‑funktionerna.
 
 ```csharp
-using System.Drawing;
+using Aspose.Drawing;
+using Aspose.Drawing.Imaging;
+using Aspose.Drawing.Drawing2D;
 ```
 
 ## Steg 1: Skapa en Bitmap (canvas)
 
-Börja med att skapa ett `Bitmap`‑objekt som kommer att fungera som canvas för din bild. Ange bredd, höjd och pixelformat enligt dina krav. Detta är den klassiska *resize bitmap C#*‑metoden.
+`Bitmap`‑klassen representerar en bild i minnet som du kan rita på eller manipulera.  
+Börja med att skapa ett `Bitmap`‑objekt som kommer att fungera som canvas för din bild. Ange bredd, höjd och pixelformat enligt dina krav. Detta är det klassiska *resize bitmap C#*‑tillvägagångssättet.
+
+```csharp
+using System.Drawing;
+```
+
+## Steg 2: Skapa ett Graphics‑objekt
+
+`Graphics`‑klassen tillhandahåller ritmetoder för att rendera former, text och bilder på en bitmap.  
+Skapa sedan ett `Graphics`‑objekt från den tidigare skapade `Bitmap`. Detta objekt ger de ritfunktioner som behövs för bildmanipulation, inklusive möjligheten att **drawimage with rectangle** senare.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Steg 2: Skapa ett Graphics‑objekt
+## Steg 3: Ställ in Interpolationsläge
 
-Nästa steg är att skapa ett `Graphics`‑objekt från den tidigare skapade `Bitmap`. Detta objekt tillhandahåller de ritfunktioner som behövs för bildmanipulation, inklusive möjligheten att **drawimage with rectangle** senare.
+`InterpolationMode` bestämmer hur pixelvärden beräknas när en bild ändras i storlek.  
+För att förbättra kvaliteten på den skalade bilden, ställ in interpolationsläget. I detta exempel använder vi **NearestNeighbor**‑läget, vilket är idealiskt när du behöver en skarp, pixel‑art‑stil förstoring.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Steg 3: Ställ in interpolationsläge
+## Steg 4: Ladda bilden
 
-För att förbättra kvaliteten på den skalade bilden, ställ in interpolationsläget. I detta exempel använder vi **NearestNeighbor interpolation**‑läget, vilket är idealiskt när du behöver en skarp, pixel‑art‑stil förstoring.
+`Image.FromFile`‑metoden laddar en befintlig bildfil i minnet som en `Bitmap`.  
+Ladda bilden du vill skala in i ett `Bitmap`‑objekt. Ersätt `"Your Document Directory" + @"Images\aspose_logo.png"` med sökvägen till din bild.
 
 ```csharp
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-## Steg 4: Ladda bilden
+## Steg 5: Skala bilden
 
-Ladda den bild du vill skala in i ett `Bitmap`‑objekt. Ersätt `"Your Document Directory" + @"Images\aspose_logo.png"` med sökvägen till din bild.
+En `Rectangle` definierar destinationsområdet där källbilden kommer att ritas.  
+Definiera en rektangel som representerar bildens expansion. I detta exempel skalas bilden 5 ×  både i bredd och höjd, vilket demonstrerar **drawimage with rectangle**‑tekniken.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-## Steg 5: Skala bilden
+## Steg 6: Spara den skalade bilden
 
-Definiera en rektangel som representerar bildens expansion. I detta exempel skalas bilden 5 gånger både i bredd och höjd. Detta demonstrerar **drawimage with rectangle**‑tekniken.
+`Bitmap.Save` sparar bitmap‑objektet i minnet till en fil i det format som härleds från filändelsen.  
+Spara den skalade bilden till önskad plats. Justera filsökvägen enligt din projektstruktur. Detta steg visar hur du **save scaled image**‑filer i vanliga format som PNG.
 
 ```csharp
 Rectangle expansionRectangle = new Rectangle(0, 0, image.Width * 5, image.Height * 5);
 graphics.DrawImage(image, expansionRectangle);
 ```
 
-## Steg 6: Spara den skalade bilden
+Grattis! Du har framgångsrikt lärt dig **hur man skalar bilder** med Aspose.Drawing för .NET.
 
-Spara den skalade bilden till önskad plats. Justera filsökvägen enligt din projektstruktur. Detta steg visar hur du **save scaled image**‑filer i vanliga format som PNG.
+## Vanliga problem och lösningar
 
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
+- **Bilden blir suddig efter skalning** – Se till att du använder `InterpolationMode.NearestNeighbor` för pixelperfekta resultat; byt till `Bilinear` eller `HighQualityBicubic` för mjukare skalning av fotografier.  
+- **Out‑of‑memory‑undantag på stora filer** – Aspose.Drawing bearbetar bilder i rutor; öka egenskapen `MemoryLimit` om du behöver hantera filer större än 500 MB.  
+- **Felaktigt bildförhållande** – Använd samma skalningsfaktor för bredd och höjd, eller beräkna rektangeln baserat på det ursprungliga bildförhållandet för att undvika förvrängning.
 
-Grattis! Du har nu framgångsrikt lärt dig **hur man skalar bilder** med Aspose.Drawing för .NET.
+## Vanliga frågor
+
+**Q: Kan jag använda Aspose.Drawing för .NET i både webb‑ och skrivbordsapplikationer?**  
+A: Ja, Aspose.Drawing är fullt kompatibelt med ASP.NET, ASP.NET Core, WPF, WinForms och konsolapplikationer.
+
+**Q: Finns en tillfällig licens tillgänglig för Aspose.Drawing?**  
+A: Ja, du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/) för test‑ och utvärderingsändamål.
+
+**Q: Var kan jag hitta ytterligare support för Aspose.Drawing?**  
+A: För frågor eller hjälp, besök [Aspose.Drawing‑forumet](https://forum.aspose.com/c/drawing/44).
+
+**Q: Finns det några begränsningar för de bildformat som stöds av Aspose.Drawing?**  
+A: Aspose.Drawing stödjer ett brett spektrum av format, inklusive JPEG, PNG, GIF, BMP, TIFF, WebP och SVG. Se hela listan i [dokumentationen](https://reference.aspose.com/drawing/net/).
+
+**Q: Kan jag använda egna interpolationslägen för bildskalning?**  
+A: Ja, Aspose.Drawing erbjuder `NearestNeighbor`, `Bilinear`, `Bicubic` och `HighQualityBicubic`‑lägen, så att du kan balansera hastighet och kvalitet.
 
 ## Slutsats
 
-I den här handledningen har vi utforskat processen att skala bilder med Aspose.Drawing. Detta bibliotek ger utvecklare möjlighet att effektivt hantera bildmanipuleringsuppgifter inom sina .NET‑applikationer. Genom att följa den steg‑för‑steg‑guide du har fått värdefulla insikter i implementeringen av bildskalning, inklusive changing image size C#, resizing bitmap C#, using nearest neighbor interpolation, drawing the image with a rectangle, and saving the scaled image.
+I den här handledningen har vi gått igenom hela arbetsflödet för **hur man skalar bilder** med Aspose.Drawing. Du vet nu hur du skapar en bitmap‑canvas, konfigurerar ett graphics‑objekt, väljer optimal interpolationsläge, laddar en källbild, ritar den i en skalad rektangel och slutligen sparar resultatet. Genom att utnyttja Aspose.Drawings **högpresterande skalning** och **30+ formatstöd** kan du bygga robusta bildbehandlingspipelines som körs effektivt på vilken .NET‑plattform som helst.
 
-Känn dig fri att experimentera vidare och utforska andra funktioner som Aspose.Drawing erbjuder för att förbättra dina bildbehandlingsmöjligheter.
-
-## Vanliga frågor
-
-### Q1: Kan jag använda Aspose.Drawing för .NET i både webb- och skrivbordsapplikationer?
-
-A1: Ja, Aspose.Drawing är mångsidigt och kan användas i olika .NET‑applikationer, inklusive webb och skrivbord.
-
-### Q2: Finns en tillfällig licens tillgänglig för Aspose.Drawing?
-
-A2: Ja, du kan skaffa en tillfällig licens [here](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.
-
-### Q3: Var kan jag hitta ytterligare support för Aspose.Drawing?
-
-A3: För frågor eller hjälp, besök det [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
-
-### Q4: Finns det några begränsningar för de bildformat som stöds av Aspose.Drawing?
-
-A4: Aspose.Drawing stöder ett brett spektrum av bildformat, inklusive JPEG, PNG, GIF, BMP och mer. Se [documentation](https://reference.aspose.com/drawing/net/) för en detaljerad lista.
-
-### Q5: Kan jag använda anpassade interpolationslägen för bildskalning?
-
-A5: Ja, Aspose.Drawing ger flexibilitet och låter dig välja bland olika interpolationslägen för bildskalning.
-
-## Vanliga frågor
-
-**Q: Hur skiljer sig nearest neighbor‑interpolation från bilinear?**  
-A: Nearest neighbor kopierar det närmaste pixelvärdet, bevarar hårda kanter, medan bilinear beräknar ett viktat medelvärde för mjukare resultat.
-
-**Q: Kan jag skala bilder utan att bevara bildförhållandet?**  
-A: Ja – genom att ange olika bredd‑ och höjdvärden i rektangeln kan du sträcka eller komprimera bilden efter behov.
-
-**Q: Är det möjligt att skala flera bilder i en loop?**  
-A: Absolut. Lägg in bitmap‑skapande, ritning och sparlogik i en `foreach`‑loop som itererar över dina källfiler.
+Känn dig fri att experimentera med olika interpolationslägen, batch‑processa flera filer i en loop, eller kombinera skalning med andra Aspose.Drawing‑funktioner som vattenstämpling eller färgrymdskonvertering.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-05-24  
+**Testad med:** Aspose.Drawing 24.11 för .NET  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

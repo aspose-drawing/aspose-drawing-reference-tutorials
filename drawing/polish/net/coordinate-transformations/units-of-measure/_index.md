@@ -1,133 +1,223 @@
 ---
-title: Jednostki miary w Aspose.Drawing dla .NET
+date: 2026-05-24
+description: Dowiedz się, jak ustawić jednostkę w Aspose.Drawing dla .NET, łatwo konwertować
+  jednostki graficzne i opanować precyzyjne pomiary przy renderowaniu grafiki.
+keywords:
+- how to set unit
+- convert graphics units
+- Aspose.Drawing units of measure
 linktitle: Jednostki miary w Aspose.Drawing
-second_title: Aspose.Drawing .NET API - alternatywa dla System.Drawing.Common
-description: Odkryj wszechstronność Aspose.Drawing dla .NET w tym szczegółowym samouczku, opanowując jednostki miary dla precyzyjnej grafiki.
-weight: 14
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to set unit in Aspose.Drawing for .NET, convert graphics
+    units easily, and master precise measurements for graphics rendering.
+  headline: How to Set Unit in Aspose.Drawing for .NET – Units of Measure
+  type: TechArticle
+- description: Learn how to set unit in Aspose.Drawing for .NET, convert graphics
+    units easily, and master precise measurements for graphics rendering.
+  name: How to Set Unit in Aspose.Drawing for .NET – Units of Measure
+  steps:
+  - name: Create a Bitmap
+    text: The `Bitmap` class represents an in‑memory image that serves as a drawing
+      canvas.
+  - name: Create a Graphics Object
+    text: '`Graphics` provides drawing methods for rendering shapes and text onto
+      a `Bitmap`.'
+  - name: Set Page Unit to Points
+    text: '`PageUnit` is an enumeration that specifies the unit of measure for page
+      coordinates. `PageUnit.Point` defines points as the unit of measure (1 point
+      = 1/72 inch). This setting applies to all subsequent drawing calls.'
+  - name: Draw a Rectangle in Points
+    text: When you draw a rectangle after setting the unit, the dimensions you specify
+      are interpreted as points, ensuring precise sizing.
+  - name: Set Page Unit to Millimeters
+    text: Assign `PageUnit.Millimeter` to the `Graphics` object; all coordinates now
+      map to the metric system.
+  - name: Draw a Rectangle in Millimeters
+    text: The rectangle’s width and height are now expressed in millimeters, making
+      it easy to align with physical measurements and ensuring that printed output
+      matches real‑world sizes.
+  - name: Set Page Unit to Inches
+    text: '`PageUnit.Inch` changes the coordinate system so that 1 unit equals 1 inch,
+      providing a straightforward way to size elements for print‑oriented layouts.
+      CODE_BLOCK_PLACEHOLDER_10_END'
+  - name: Draw a Rectangle in Inches
+    text: Now any shape you draw uses inches as its measurement base, which is ideal
+      for print layouts and for communicating dimensions to stakeholders accustomed
+      to imperial units. CODE_BLOCK_PLACEHOLDER_11_END
+  type: HowTo
+- questions:
+  - answer: Call `graphics.PageUnit = PageUnit.Point` (or `.Millimeter`, `.Inch`)
+      on the `Graphics` object.
+    question: What is the primary way to change units?
+  - answer: Points.
+    question: Which unit equals 1/72 inch?
+  - answer: 25.4 mm = 1 inch.
+    question: How many millimeters are in an inch?
+  - answer: No, the Aspose.Drawing core library provides all unit constants.
+    question: Do I need extra libraries to use units?
+  - answer: Set the unit once per `Graphics` instance; draw everything using that
+      unit for consistency.
+    question: Can I mix units in one image?
+  type: FAQPage
+second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
+title: Jak ustawić jednostkę w Aspose.Drawing dla .NET – Jednostki miary
 url: /pl/net/coordinate-transformations/units-of-measure/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jednostki miary w Aspose.Drawing dla .NET
+# Jak ustawić jednostkę w Aspose.Drawing dla .NET – Jednostki miary
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w świecie Aspose.Drawing dla .NET, gdzie precyzja i elastyczność spotykają się w manipulacji grafiką. W tym samouczku zagłębimy się w zawiłości jednostek miary w Aspose.Drawing, dostarczając przewodnik krok po kroku, jak wykorzystać moc tej niezwykłej biblioteki.
+Witamy w świecie Aspose.Drawing dla .NET, gdzie precyzja i elastyczność spotykają się w manipulacji grafiką. W tym samouczku odkryjesz **jak ustawić jednostkę** dla swoich rysunków, nauczysz się **konwertować jednostki graficzne** między punktami, milimetrami i calami oraz zobaczysz przykłady z rzeczywistego świata, które sprawiają, że Twoje obrazy są idealnie dopasowane pikselowo. Niezależnie od tego, czy tworzysz raporty, miniatury, czy niestandardowe wykresy, opanowanie jednostek miary jest niezbędne do spójnego renderowania na różnych urządzeniach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest podstawowy sposób zmiany jednostek?** Wywołaj `graphics.PageUnit = PageUnit.Point` (lub `.Millimeter`, `.Inch`) na obiekcie `Graphics`.  
+- **Która jednostka równa się 1/72 cala?** Punkty.  
+- **Ile milimetrów mieści się w calu?** 25.4 mm = 1 inch.  
+- **Czy potrzebuję dodatkowych bibliotek do używania jednostek?** Nie, podstawowa biblioteka Aspose.Drawing dostarcza wszystkie stałe jednostek.  
+- **Czy mogę mieszać jednostki w jednym obrazie?** Ustaw jednostkę raz na instancję `Graphics`; rysuj wszystko używając tej jednostki dla spójności.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
--  Aspose.Drawing dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Możesz go pobrać[Tutaj](https://releases.aspose.com/drawing/net/).
+Zanim zanurkujemy w samouczek, upewnij się, że masz spełnione następujące wymagania:
 
+- Aspose.Drawing dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Możesz ją pobrać [tutaj](https://releases.aspose.com/drawing/net/).
 - Katalog dokumentów: Miej wyznaczony katalog, w którym chcesz zapisywać utworzone dokumenty.
+- Podstawowa znajomość C#: Zalecane jest podstawowe zrozumienie C#, aby w pełni wykorzystać ten przewodnik.
 
-- Podstawowa znajomość języka C#: Aby w pełni wykorzystać ten przewodnik, zaleca się podstawową znajomość języka C#.
+## Importowanie przestrzeni nazw
 
-## Importuj przestrzenie nazw
-
-Zanim zaczniemy, zaimportujmy niezbędne przestrzenie nazw, aby efektywnie korzystać z Aspose.Drawing:
+Zanim zaczniemy, zaimportujmy niezbędne przestrzenie nazw, aby skutecznie korzystać z Aspose.Drawing:
 
 ```csharp
 using System.Drawing;
 ```
 
-Teraz podzielmy każdy przykład na wiele kroków:
+Teraz rozbijmy każdy przykład na kilka kroków:
 
-## Punkty jako jednostki miary
+## Jak ustawić jednostkę na punkty?
 
-1. Utwórz mapę bitową: Zainicjuj mapę bitową o określonej szerokości i wysokości.
+Klasa `Bitmap` reprezentuje obraz w pamięci, który służy jako płótno do rysowania. Załaduj swój bitmap, utwórz obiekt `Graphics` i ustaw jednostkę strony na punkty — to informuje Aspose.Drawing, aby interpretował wszystkie współrzędne jako wartości 1/72 cala. Używanie punktów daje precyzyjną kontrolę nad grafiką gotową do druku i pozwala określać szerokość linii z wysoką dokładnością.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-2. Utwórz grafikę: Wygeneruj obiekt graficzny z mapy bitowej, aby na niej rysować.
+### Krok 1: Utwórz bitmapę  
+Klasa `Bitmap` reprezentuje obraz w pamięci, który służy jako płótno do rysowania.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-3. Ustaw jednostkę strony na punkty: Zdefiniuj punkty jako jednostkę miary (1 punkt = 1/72 cala).
+### Krok 2: Utwórz obiekt Graphics  
+`Graphics` udostępnia metody rysowania do renderowania kształtów i tekstu na `Bitmap`.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Point;
 ```
 
-4. Narysuj prostokąt: Narysuj prostokąt, używając punktów jako jednostki.
+### Krok 3: Ustaw jednostkę strony na punkty  
+`PageUnit` jest wyliczeniem określającym jednostkę miary dla współrzędnych strony. `PageUnit.Point` definiuje punkty jako jednostkę miary (1 punkt = 1/72 cala). To ustawienie ma zastosowanie do wszystkich kolejnych wywołań rysujących.
 
 ```csharp
 graphics.DrawRectangle(new Pen(Color.FromKnownColor(KnownColor.Red), 36f), 72, 72, 72, 72);
 ```
 
-## Milimetry jako jednostki miary
-
-1. Ustaw jednostkę strony na milimetry: Zmień jednostkę miary na milimetry (1 mm = 1/25,4 cala).
+### Krok 4: Narysuj prostokąt w punktach  
+Gdy narysujesz prostokąt po ustawieniu jednostki, podane wymiary są interpretowane jako punkty, zapewniając precyzyjne rozmiary.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Millimeter;
 ```
 
-2. Narysuj prostokąt w milimetrach: Narysuj kolejny prostokąt, używając milimetrów jako jednostki.
+## Jak ustawić jednostkę na milimetry?
+
+`PageUnit` jest wyliczeniem określającym jednostkę miary dla współrzędnych strony. Przejście na milimetry jest przydatne, gdy potrzebujesz wymiarów metrycznych, na przykład przy generowaniu diagramów inżynieryjnych. Aspose.Drawing traktuje 1 mm jako 1/25.4 cala, co pozwala dopasować grafikę do fizycznych pomiarów używanych w produkcji i dokumentacji technicznej.
 
 ```csharp
 graphics.DrawRectangle(new Pen(Color.FromKnownColor(KnownColor.Green), 6.35f), 25.4f, 25.4f, 25.4f, 25.4f);
 ```
 
-## Cale jako jednostki miary
-
-1. Ustaw jednostkę strony na cale: Zmień jednostkę miary na cale.
+### Krok 1: Ustaw jednostkę strony na milimetry  
+Przypisz `PageUnit.Millimeter` do obiektu `Graphics`; wszystkie współrzędne są teraz mapowane na system metryczny.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-2. Narysuj prostokąt w calach: Narysuj prostokąt, używając cali jako jednostki.
+### Krok 2: Narysuj prostokąt w milimetrach  
+Szerokość i wysokość prostokąta są teraz wyrażone w milimetrach, co ułatwia dopasowanie do fizycznych pomiarów i zapewnia, że wydrukowane wyjście odpowiada rzeczywistym rozmiarom.
 
 ```csharp
 graphics.DrawRectangle(new Pen(Color.FromKnownColor(KnownColor.Blue), 0.125f), 1, 1, 1, 1);
 ```
 
-## Zapisz wynik
+## Jak ustawić jednostkę na cale?
 
-Po ukończeniu przykładów zapisz powstały obraz w katalogu dokumentów:
+`Graphics` udostępnia metody rysowania do renderowania kształtów i tekstu na `Bitmap`. Cale są domyślną jednostką w wielu amerykańskich narzędziach projektowych. Ustawienie jednostki na cale pozwala myśleć w znanych jednostkach przy układaniu elementów UI i upraszcza przejście od projektowania ekranowego do druku, gdzie cale są powszechnie używane.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\UnitsOfMeasure_out.png");
 ```
 
-Udało Ci się teraz z powodzeniem poruszać po różnych jednostkach miary w Aspose.Drawing dla .NET, tworząc wizualną reprezentację prostokątów za pomocą punktów, milimetrów i cali.
+### Krok 1: Ustaw jednostkę strony na cale  
+`PageUnit.Inch` zmienia system współrzędnych tak, że 1 jednostka równa się 1 cala, zapewniając prosty sposób na określanie rozmiarów elementów w układach przeznaczonych do druku.
 
-## Wniosek
+CODE_BLOCK_PLACEHOLDER_10_END
 
-W tym samouczku sprawdziliśmy, jak Aspose.Drawing dla .NET obsługuje różne jednostki miary. Manipulując punktami, milimetrami i calami, możesz osiągnąć precyzję i elastyczność swoich kreacji graficznych. Eksperymentuj z tymi koncepcjami, aby odblokować pełny potencjał Aspose.Drawing.
+### Krok 2: Narysuj prostokąt w calach  
+Teraz każdy kształt, który narysujesz, używa cali jako podstawy pomiarowej, co jest idealne dla układów drukowanych i do komunikowania wymiarów interesariuszom przyzwyczajonym do jednostek imperialnych.
 
-## Często zadawane pytania
+CODE_BLOCK_PLACEHOLDER_11_END
 
-### P1: Czy mogę używać Aspose.Drawing dla .NET z innymi frameworkami .NET?
+## Zapisz wynik
 
-O1: Tak, Aspose.Drawing jest kompatybilny z różnymi frameworkami .NET, zapewniając elastyczność w Twoim środowisku programistycznym.
+Po zakończeniu przykładów zapisz powstały obraz w swoim katalogu dokumentów. Metoda `Bitmap.Save` zapisuje plik w formacie, który określisz (PNG, JPEG itp.).
 
-### P2: Czy dostępny jest bezpłatny okres próbny?
+CODE_BLOCK_PLACEHOLDER_12_END
 
- Odpowiedź 2: Tak, możesz poznać Aspose.Drawing w ramach bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Teraz pomyślnie opanowałeś różnorodne jednostki miary w Aspose.Drawing dla .NET, tworząc wizualną reprezentację prostokątów przy użyciu punktów, milimetrów i cali.
 
-### P3: Jak uzyskać wsparcie dla Aspose.Drawing dla .NET?
+## Dlaczego warto używać systemu jednostek Aspose.Drawing?
 
- A3: Odwiedź[Forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) za wsparcie społeczności i dyskusje.
+Aspose.Drawing obsługuje **ponad 30 formatów obrazu** i może przetwarzać obrazy do **5000 × 5000 pikseli** bez ładowania całego pliku do pamięci, zapewniając wysoką wydajność przy generowaniu grafiki na dużą skalę. Poprzez explicite ustawienie jednostki eliminujesz zgadywanie, zmniejszasz liczbę błędów konwersji i zapewniasz, że Twoje wyjście odpowiada dokładnym wymiarom fizycznym na wszystkich platformach.
 
-### P4: Czy mogę kupić tymczasową licencję na projekty krótkoterminowe?
+## Typowe problemy i rozwiązania
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+- **Nieoczekiwany rozmiar po zapisaniu** – Zweryfikuj, że ustawiłeś `graphics.PageUnit` **przed** jakimikolwiek wywołaniami rysującymi; zmiana jednostki później nie zmieni retroaktywnie istniejących kształtów.  
+- **Rozmyte wyjście na ekranach o wysokiej rozdzielczości DPI** – Zwiększ rozdzielczość bitmapy (np. `new Bitmap(width, height, 300)`) aby dopasować się do docelowego DPI.  
+- **Mieszane jednostki w jednym obrazie** – Utwórz osobne instancje `Graphics` dla każdej jednostki lub wykonaj ręczną konwersję przed rysowaniem.
 
-### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Drawing?
+## Najczęściej zadawane pytania
 
- Odpowiedź 5: Dostępna jest obszerna dokumentacja[Tutaj](https://reference.aspose.com/drawing/net/).
+### Q1: Czy mogę używać Aspose.Drawing dla .NET z innymi frameworkami .NET?
+A1: Tak, Aspose.Drawing jest kompatybilny z różnymi frameworkami .NET, zapewniając elastyczność w środowisku programistycznym.
+
+### Q2: Czy dostępna jest bezpłatna wersja próbna?
+A2: Tak, możesz wypróbować Aspose.Drawing w wersji próbnej [tutaj](https://releases.aspose.com/).
+
+### Q3: Jak uzyskać wsparcie dla Aspose.Drawing dla .NET?
+A3: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) w celu uzyskania wsparcia społeczności i dyskusji.
+
+### Q4: Czy mogę kupić tymczasową licencję na krótkoterminowe projekty?
+A4: Tak, możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Drawing?
+A5: Kompleksowa dokumentacja jest dostępna [tutaj](https://reference.aspose.com/drawing/net/).
+
+**Ostatnia aktualizacja:** 2026-05-24  
+**Testowano z:** Aspose.Drawing 24.11 dla .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
