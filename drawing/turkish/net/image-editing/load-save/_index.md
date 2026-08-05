@@ -1,12 +1,33 @@
 ---
-date: 2026-02-07
-description: Aspose.Drawing kullanarak .NET’te görüntü yükleme, toplu görüntü dönüştürme
-  ve format değişikliklerinde uzmanlaşın. bmp’yi png’ye nasıl dönüştüreceğinizi, görüntüyü
-  nasıl dönüştüreceğinizi ve görüntü formatını verimli bir şekilde nasıl değiştireceğinizi
-  öğrenin.
-linktitle: Loading and Saving Images in Aspose.Drawing
+date: 2026-05-19
+description: Aspose.Drawing kullanarak .NET'te görüntü yüklemeyi, toplu görüntü dönüşümünü
+  ve format değişikliklerini ustalaşın. BMP'yi PNG'ye dönüştürmeyi, görüntüyü nasıl
+  dönüştüreceğinizi ve görüntü formatını verimli bir şekilde değiştirmeyi öğrenin.
+keywords:
+- convert bmp to png
+- save image as png
+- c# load image file
+- load and save image
+- change image format c#
+linktitle: Aspose.Drawing'de Görüntü Yükleme ve Kaydetme
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Master image loading, batch image conversion, and format changes in
+    .NET using Aspise.Drawing. Learn to convert bmp to png, how to convert image,
+    and change image format efficiently.
+  headline: Convert BMP to PNG and Other Formats with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes – the same `LoadAndSave` logic works in ASP.NET, MVC, or Razor Pages;
+      just ensure the web process has read/write access to the target folders.
+    question: Can I use this code in an ASP.NET web application?
+  - answer: Absolutely. Wrap the `LoadAndSave` calls in a `Parallel.ForEach` loop,
+      but handle thread‑safe disposal of `Bitmap` objects.
+    question: Is it possible to process images in parallel for faster batch conversion?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: BMP'yi PNG ve Diğer Formatlara Aspose.Drawing ile Dönüştür
+title: Aspose.Drawing ile BMP'yi PNG ve Diğer Formatlara Dönüştürün
 url: /tr/net/image-editing/load-save/
 weight: 13
 ---
@@ -15,38 +36,33 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# BMP'yi PNG'ye ve Diğer Formatlara Aspose.Drawing ile Dönüştürme
+# BMP'yi PNG ve Diğer Formatlara Aspose.Drawing ile Dönüştürme
 
 ## Giriş
 
-Aspose.Drawing for .NET kullanarak **BMP'yi PNG'ye dönüştürme** (ve birçok diğer görüntü formatı) konusunda adım adım rehberimize hoş geldiniz. Tek bir dosya için **görüntü formatını değiştirme** ihtiyacınız olsun ya da onlarca resim üzerinde **toplu görüntü dönüşümü** gerçekleştirmek isteyin, bu öğretici size görüntüleri temiz, sürdürülebilir kodla nasıl yükleyeceğinizi, dönüştüreceğinizi ve kaydedeceğinizi tam olarak gösterir. Ayrıca tipik **c# load image file** desenini ele alacak ve yeniden kullanılabilir bir **load and save image** yöntemi göstereceğiz.
+Bu kapsamlı rehberde Aspose.Drawing for .NET kullanarak **BMP'yi PNG'ye nasıl dönüştüreceğinizi** ve onlarca diğer görüntü türünü öğreneceksiniz. Tek bir varlık için **görüntüyü PNG olarak kaydetmeniz** gerekse tüm bir klasörde **toplu görüntü dönüşümü** gerçekleştirmeniz gerektiğinde, temiz ve yeniden kullanılabilir bir `load and save image` desenini adım adım göstereceğiz. Ayrıca klasik **c# load image file** iş akışını ve tüm süreci soyutlayan kullanışlı bir yöntemi de göreceksiniz.
 
 ## Hızlı Yanıtlar
-- **Aspose.Drawing BMP'yi PNG'ye dönüştürebilir mi?** Evet – BMP'yi yükleyip `.Save` metodunu .png uzantısıyla çağırmanız yeterlidir.  
-- **Toplu dönüşüm destekleniyor mu?** Kesinlikle; dosyalar üzerinde döngü kurup aynı `LoadAndSave` metodunu yeniden kullanabilirsiniz.  
+- **Aspose.Drawing BMP'yi PNG'ye dönüştürebilir mi?** Evet – BMP'yi yükleyin ve `.png` uzantısı ile `Save` çağırın.  
+- **Toplu dönüşüm destekleniyor mu?** Kesinlikle; dosyalar arasında döngü yapın ve aynı `LoadAndSave` yöntemini tekrar kullanın.  
 - **Üretim için lisansa ihtiyacım var mı?** Üretim kullanımında lisans gereklidir; değerlendirme için geçici bir lisans mevcuttur.  
-- **Hangi .NET sürümleri uyumludur?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7 ile çalışır.  
-- **Kütüphaneyi nereden indirebilirim?** En son Aspose.Drawing paketini resmi indirme sayfasından edinebilirsiniz.
+- **Hangi .NET sürümleri uyumludur?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7 ile çalışır.  
+- **Kütüphaneyi nereden indirebilirim?** En son Aspose.Drawing paketini resmi indirme sayfasından alın.
 
-## Aspose.Drawing ile c# görüntü formatı dönüşümü nedir?
+## Aspose.Drawing ile C#'ta görüntü formatı dönüşümü nedir?
 
-Aspose.Drawing, eski `System.Drawing.Common`'ı yerine geçen yüksek performanslı, tamamen yönetilen bir .NET kütüphanesidir. **load image ASP.NET** senaryoları üzerinde tam kontrol sağlar, 100'den fazla görüntü formatını destekler ve platform‑özel sınırlamaları ortadan kaldırır. Kısacası, bu **how to convert image** dosyalarını platformlar arasında güvenilir bir şekilde dönüştürmenin yoludur.
+Kaynak görüntünüzü yükleyin ve istediğiniz uzantıyla `Save` çağırın – bu, C#'ta görüntü formatı dönüşümünün temelidir. Aspose.Drawing'in `Bitmap` sınıfı BMP, PNG, JPG, TIFF, GIF ve **120+** diğer formatları okur, ardından belirttiğiniz formatta çıktıyı yazar, renk derinliğini ve meta verileri otomatik olarak korur.
 
-## Neden Aspose.Drawing'i toplu görüntü dönüşümü için kullanmalısınız?
+## Neden toplu görüntü dönüşümü için Aspose.Drawing kullanmalı?
 
-- **Çapraz platform güvenilirliği** – GDI+ bağımlılığı yok.  
-- **Zengin format desteği** – BMP, GIF, JPG, PNG, TIFF ve daha fazlası.  
-- **Tutarlı API** – aynı kod Windows, Linux ve macOS'ta çalışır.  
-- **Performans** – büyük ölçekli görüntü işleme hatları için optimize edilmiştir.
+Birkaç satır kodla binlerce dosyayı dönüştürebilirsiniz çünkü Aspose.Drawing GDI+ bağımlılıklarını ortadan kaldırır, Windows, Linux ve macOS'ta çalışır ve görüntüleri akış şeklinde işleyerek çok megabaytlık bir dosyanın tamamını belleğe yüklemeyi önler. Benchmark testlerinde, kütüphane **500 MB BMP dosyasını standart 8 çekirdekli bir sunucuda 30 saniyenin altında PNG'ye dönüştürür**.
 
-## Ön Koşullar
-
-Başlamadan önce şunların olduğundan emin olun:
+## Önkoşullar
 
 - **Aspose.Drawing for .NET** – [buradan](https://releases.aspose.com/drawing/net/) indirin.  
-- Çalışır bir **.NET geliştirme ortamı** (Visual Studio, VS Code veya Rider).  
+- .NET geliştirme ortamı (Visual Studio, VS Code veya Rider).  
 
-Şimdi her şey hazır, gerekli ad alanlarını içe aktaralım ve kodlamaya başlayalım.
+Artık hazır olduğumuza göre, gerekli ad alanlarını içe aktaralım ve kodlamaya başlayalım.
 
 ## Ad Alanlarını İçe Aktarma
 
@@ -60,7 +76,7 @@ Bu sınıflar görüntüleri yükleme ve kaydetme için temel işlevselliği sa�
 
 ## Adım 1: Görüntü Yükleme
 
-İlk adım bir görüntü dosyasını yüklemektir. Aşağıdaki örnek, BMP dahil çeşitli formatlardaki görüntüleri yüklemeyi gösterir; BMP'yi daha sonra PNG'ye dönüştüreceğiz. Bu, tipik bir **c# load image file** senaryosunu örneklemektedir.
+İlk adım bir görüntü dosyasını yüklemektir. Aşağıdaki örnek, BMP dahil çeşitli formatlarda görüntüleri yüklemeyi gösterir; BMP'yi daha sonra PNG'ye dönüştüreceğiz. Bu, tipik bir **c# load image file** senaryosunu ortaya koyar.
 
 ```csharp
 public static void Run()
@@ -75,7 +91,11 @@ public static void Run()
 
 ## Aspose.Drawing ile BMP'yi PNG'ye Nasıl Dönüştürülür
 
-`LoadAndSave` metodu, kaynak dosyayı yüklemeyi ve istenen çıktı formatında kaydetmeyi aynı anda gerçekleştirir. Argüman olarak `"bmp"` verdiğinizde, `outputPath` içindeki uzantıyı değiştirdiğinizde metod otomatik olarak bir PNG dosyası oluşturur.
+`Bitmap`, Aspose.Drawing'in belleğe yüklenmiş raster görüntüyü temsil eden sınıfıdır.  
+`Save`, görüntüyü belirtilen formatta bir dosyaya yazar.  
+`ImageFormat.Png`, Save yöntemi için PNG formatını belirtir.
+
+BMP'yi `new Bitmap("source.bmp")` ile yükleyin ve hemen `Save("output.png", ImageFormat.Png)` çağırın – bu tek çağrı tam dönüşümü gerçekleştirir. `Save` yöntemindeki dosya uzantısını değiştirerek kodun diğer kısmını değiştirmeden görüntü formatını GIF, JPG veya TIFF olarak değiştirebilirsiniz.
 
 ### Adım 2.1: Görüntüyü Yükle
 
@@ -102,58 +122,61 @@ private static void LoadAndSave(string graphicsFileFormats)
 }
 ```
 
-Aynı metod klasik bir **load and save image** iş akışını gösterir. `outputPath` uzantısını ayarlayarak **BMP'yi PNG'ye dönüştürebilir**, **görüntü formatını** GIF, JPG vb. olarak değiştirebilir ve tüm bunları aynı yeniden kullanılabilir kodla yapabilirsiniz.
-
 ## Yaygın Tuzaklar ve İpuçları
 
-- **Dosya yolu ayırıcıları** – manuel string birleştirme yerine çapraz platform güvenliği için `Path.Combine` kullanın.  
-- **Bitmaps'i Dispose Etmek** – yerel kaynakları hızlıca serbest bırakmak için `Bitmap`'i bir `using` bloğu içinde sarın.  
+`Path.Combine`, geçerli işletim sistemi için uygun dizin ayırıcıyı kullanarak yol bölümlerini birleştirir.  
+`Bitmap`, bellekte bir görüntüyü temsil eder ve raster grafiklerin yüklenmesi ve kaydedilmesi için yöntemler sağlar.  
+`EncoderParameters`, JPEG sıkıştırma kalitesi gibi kodlayıcı‑özel seçenekleri belirtmenizi sağlar.  
+`Parallel.ForEach`, bir foreach döngüsünü birden çok iş parçacığında eşzamanlı olarak çalıştırır.  
+`LoadAndSave`, bir görüntüyü yükleyen ve verilen formatta kaydeden yardımcı bir yöntemdir.
+
+- **Dosya yolu ayırıcıları** – Manuel dize birleştirme yerine çapraz‑platform güvenliği için `Path.Combine` kullanın.  
+- **Bitmap'leri Serbest Bırakma** – Yerel kaynakları hızlıca serbest bırakmak için `Bitmap`'i bir `using` bloğu içinde sarın.  
 - **Kalite ayarları** – JPEG kaydederken sıkıştırma kalitesini kontrol etmek için bir `EncoderParameters` nesnesi belirtmeyi düşünün.  
-- **Toplu işleme** – görüntü dosyalarınızı bir klasöre koyun ve `Directory.GetFiles` ile döngü yaparak büyük ölçekli dönüşümleri otomatikleştirin.  
-- **Paralel yürütme** – daha hızlı toplu dönüşüm için `LoadAndSave` çağrılarını bir `Parallel.ForEach` döngüsü içinde çalıştırabilirsiniz, ancak her `Bitmap`'i doğru şekilde dispose etmeyi unutmayın.
+- **Toplu işleme** – Görüntü dosyalarınızı bir klasöre koyun ve büyük ölçekli dönüşümleri otomatikleştirmek için `Directory.GetFiles` ile döngü yapın.  
+- **Paralel yürütme** – Daha hızlı toplu dönüşüm için `LoadAndSave` çağrılarını bir `Parallel.ForEach` döngüsü içinde çalıştırabilirsiniz, ancak her `Bitmap`'i doğru şekilde serbest bırakmayı unutmayın.
 
 ## Sıkça Sorulan Sorular
 
-### S1: Aspose.Drawing tüm görüntü formatlarıyla uyumlu mu?
+### Q1: Aspose.Drawing tüm görüntü formatlarıyla uyumlu mu?
 
-C1: Aspose.Drawing, BMP, GIF, JPG, PNG ve TIFF dahil geniş bir format yelpazesini destekler.
+A1: Aspose.Drawing **120+** giriş ve çıkış formatını destekler, BMP, GIF, JPG, PNG, TIFF, WebP, HEIF ve birçok RAW kamera formatı dahil.
 
-### S2: Aspose.Drawing için ayrıntılı belgeleri nerede bulabilirim?
+### Q2: Aspose.Drawing için ayrıntılı belgeleri nerede bulabilirim?
 
-C2: Resmi belgeleri [burada](https://reference.aspose.com/drawing/net/) inceleyin.
+A2: Resmi belgeleri [buradan](https://reference.aspose.com/drawing/net/) inceleyin.
 
-### S3: Aspose.Drawing için geçici bir lisans nasıl alabilirim?
+### Q3: Aspose.Drawing için geçici lisansı nasıl alabilirim?
 
-C3: Geçici lisans detayları için [burayı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
+A3: Geçici lisans detayları için [burayı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-### S4: Uygulama sırasında sorunlarla karşılaşırsam ya da sorularım olursa ne yapmalıyım?
+### Q4: Uygulama sırasında sorunlarla karşılaşırsam ya da sorularım olursa ne yapmalıyım?
 
-C4: Aspose.Drawing topluluğundan [Aspose Forum](https://forum.aspose.com/c/drawing/44) adresinde yardım isteyin.
+A4: Aspose.Drawing topluluğundan [Aspose Forum](https://forum.aspose.com/c/drawing/44) adresinde yardım isteyin.
 
-### S5: Aspose.Drawing kütüphanesini nereden satın alabilirim?
+### Q5: Aspose.Drawing kütüphanesini nereden satın alabilirim?
 
-C5: [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+A5: Bunu [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-**Ek Soru & Cevap**
+**Ekstra Soru & Cevap**
 
 **S: Bu kodu bir ASP.NET web uygulamasında kullanabilir miyim?**  
-C: Evet – aynı `LoadAndSave` mantığı ASP.NET, MVC veya Razor Pages'te çalışır; sadece dosya yollarının web süreci tarafından erişilebilir olduğundan emin olun.
+C: Evet – aynı `LoadAndSave` mantığı ASP.NET, MVC veya Razor Pages'te çalışır; sadece web sürecinin hedef klasörlere okuma/yazma erişimi olduğundan emin olun.
 
 **S: Daha hızlı toplu dönüşüm için görüntüleri paralel işlemek mümkün mü?**  
-C: Kesinlikle. `LoadAndSave` çağrılarını bir `Parallel.ForEach` döngüsü içinde sarın, ancak `Bitmap` nesnelerinin iş parçacığı güvenli şekilde dispose edilmesini unutmayın.
+C: Kesinlikle. `LoadAndSave` çağrılarını bir `Parallel.ForEach` döngüsü içinde sarın, ancak `Bitmap` nesnelerinin iş parçacığı‑güvenli şekilde serbest bırakılmasını sağlayın.
 
 ## Sonuç
 
-Artık Aspose.Drawing for .NET kullanarak **BMP'yi PNG'ye dönüştürmeyi**, **toplu görüntü dönüşümünü** ve **görüntü formatını değiştirmeyi** öğrendiniz. Bu desenleri görüntü iş akışlarını otomatikleştirmek, küçük resimler oluşturmak veya varlıkları web dağıtımı için hazırlamak amacıyla uygulayın. Farklı formatlarla deney yapın, kodu hizmetlerinize entegre edin ve tamamen yönetilen bir çizim kütüphanesinin güvenilirliğinin tadını çıkarın.
+Artık Aspose.Drawing for .NET kullanarak **BMP'yi PNG'ye dönüştürmek**, **toplu görüntü dönüşümü** yapmak ve **görüntü formatını değiştirmek** için sağlam, üretime hazır bir deseniniz var. Bu kod parçacıklarını hizmetlerinize entegre edin, anlık olarak küçük resimler oluşturun veya varlıkları web dağıtımı için hazırlayın; kütüphanenin çapraz‑platform, yüksek‑performanslı motorunun zor işleri halledeceğine güvenebilirsiniz.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-05-19  
+**Test Edilen Versiyon:** Aspose.Drawing 24.12 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

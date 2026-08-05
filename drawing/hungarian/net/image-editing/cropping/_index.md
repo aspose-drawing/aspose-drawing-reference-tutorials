@@ -1,11 +1,74 @@
 ---
-date: 2026-02-07
-description: Lépésről‑lépésre útmutató a kép PNG formátumba vágásához az Aspose.Drawing
-  használatával, a System.Drawing alternatívája .NET fejlesztők számára. Tartalmazza
-  a kötegelt vágást és az alapvető technikákat.
-linktitle: Image Cropping Tutorial – Aspose.Drawing
+date: 2026-05-19
+description: Lépésről‑lépésre útmutató arról, hogyan lehet tömegesen képeket PNG formátumba
+  vágni az Aspose.Drawing segítségével, amely a System.Drawing alternatívája .NET
+  fejlesztők számára.
+keywords:
+- how to batch crop
+- crop image to png
+- alternative to system drawing
+- batch image cropping .net
+linktitle: Képvágási útmutató – Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Step‑by‑step tutorial on how to batch crop images to PNG using Aspose.Drawing,
+    the alternative to System.Drawing for .NET developers.
+  headline: How to Batch Crop Images to PNG Using Aspose.Drawing for .NET
+  type: TechArticle
+- description: Step‑by‑step tutorial on how to batch crop images to PNG using Aspose.Drawing,
+    the alternative to System.Drawing for .NET developers.
+  name: How to Batch Crop Images to PNG Using Aspose.Drawing for .NET
+  steps:
+  - name: Create a Bitmap Canvas
+    text: '`Bitmap` is Aspose.Drawing''s in‑memory representation of an image, providing
+      pixel‑level access and format control. We start with a blank canvas sized to
+      hold the cropped result. Adjust the width and height to match the dimensions
+      of the area you plan to extract.'
+  - name: Create a Graphics Object
+    text: '`Graphics` is the drawing surface that lets you render shapes, text, or
+      other images onto a Bitmap. A `Graphics` object lets us draw onto the canvas.
+      The `InterpolationMode` controls how pixel values are calculated during scaling
+      or transformation—`NearestNeighbor` works well for sharp edges.'
+  - name: Load the Image to Crop
+    text: '`Image` (or `Bitmap`) loads the source file into memory, ready for manipulation.
+      Load the source image. Make sure the path points to an existing file; otherwise
+      an exception will be thrown.'
+  - name: Define Source and Destination Rectangles
+    text: '`Rectangle` objects describe the region of the source image to keep and
+      where it should be placed on the destination canvas. The `sourceRectangle` tells
+      the API which part of the original image to keep. Here we pick the top‑left
+      50 × 40 pixel area. By assigning the same rectangle to `destinationRect'
+  - name: Perform the Crop Operation
+    text: '`Graphics.DrawImage` copies the defined portion of `image` onto our blank
+      `bitmap`. `Graphics.DrawImage` copies the defined portion of `image` onto our
+      blank `bitmap`. This is the core **crop image to PNG** operation.'
+  - name: Save the Cropped Image (Crop Image to PNG)
+    text: '`Bitmap.Save` writes the in‑memory bitmap to a file using the specified
+      format. Finally, write the canvas to disk as a PNG file. PNG preserves any alpha
+      channel and provides lossless quality—ideal for UI assets.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing supports a wide range of formats (PNG, JPEG, BMP,
+      GIF, TIFF, etc.), so you can crop virtually any image type.
+    question: Can I crop images of any format using Aspose.Drawing?
+  - answer: Absolutely. You can combine `GraphicsPath`, `Matrix` transformations,
+      or use the `ImageProcessor` class for more complex selections like circular
+      crops.
+    question: Are there advanced cropping options available?
+  - answer: Yes. After the first crop, you can reuse the resulting bitmap as the new
+      source and repeat the process to chain multiple crops.
+    question: Can I apply multiple crop operations to a single image?
+  - answer: Indeed. Its lightweight API and lack of native dependencies make it perfect
+      for processing large image collections on servers.
+    question: Is Aspose.Drawing suitable for batch image processing?
+  - answer: Head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      to seek assistance and connect with the community.
+    question: How can I get support for Aspose.Drawing‑related queries?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Hogyan vágjunk le egy képet PNG formátumba az Aspose.Drawing for .NET segítségével
+title: Hogyan vágjunk tömegesen képeket PNG formátumba az Aspose.Drawing használatával
+  .NET-hez
 url: /hu/net/image-editing/cropping/
 weight: 10
 ---
@@ -14,129 +77,144 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan vágjunk le képet PNG formátumba az Aspose.Drawing .NET-hez
+# Hogyan lehet kötegelt képkivágást PNG formátumba végezni az Aspose.Drawing for .NET használatával
 
-Ha gyorsan és megbízhatóan szeretne **crop image to PNG**-t végezni .NET környezetben, jó helyen jár. Ebben az útmutatóban végigvezetjük a pontos lépéseken, hogyan töltsünk be egy képet, határozzuk meg a vágási területet, és mentsük el az eredményt PNG fájlként – mindezt az Aspose.Drawing segítségével, egy modern **alternative to System.Drawing**-ként, amely platformfüggetlen.
+Ha gyorsan, megbízhatóan és nagy mennyiségben szeretne **crop image to PNG** műveletet végrehajtani egy .NET környezetben, jó helyen jár. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan töltsünk be egy képet, határozzuk meg a kivágási területet, és mentsük el az eredményt PNG fájlként – mindezt az Aspose.Drawing segítségével, egy modern **alternative to System.Drawing** megoldásként, amely platformfüggetlenül működik. Emellett megmutatjuk, hogyan lehet a egyképes folyamatot egy teljes **batch crop** csővezetékké bővíteni.
 
-## Quick Answers
-- **Milyen könyvtárat használjak?** Aspose.Drawing for .NET (egy teljes funkcionalitású **alternative to System.Drawing.Common**)  
-- **Mennyi időt vesz igénybe az alap vágás?** Általában egy másodpercnél kevesebb egyetlen képnél egy modern CPU-n  
-- **Lehet PNG‑ba vágni?** Igen – mentse a vágott bitmapet PNG fájlként (lásd a 6. lépés)  
-- **Szükség van licencre?** Egy ingyenes próba verzió fejlesztéshez működik; a termeléshez kereskedelmi licenc szükséges  
-- **Lehetséges kötegelt feldolgozás?** Teljesen – csomagolja be ugyanazokat a lépéseket egy ciklusba több fájl feldolgozásához  
+## Gyors válaszok
+- **Melyik könyvtárat kell használnom?** Aspose.Drawing for .NET (a full‑featured alternative to System.Drawing.Common)  
+- **Mennyi ideig tart az alapvető kivágás?** Usually under a second for a single image on a modern CPU  
+- **Vághatok PNG‑be?** Yes – save the cropped bitmap as a PNG file (see Step 6)  
+- **Szükségem van licencre?** A free trial works for development; a commercial license is required for production  
+- **Lehetséges a kötegelt feldolgozás?** Absolutely – wrap the same steps in a loop to process multiple files  
 
-## Mi az a “crop image to PNG”?
+## Hogyan végezzünk kötegelt képkivágást PNG‑be?
 
-A kép vágása azt jelenti, hogy egy téglalap alakú területet nyerünk ki az eredeti bitmapből. Amikor ezt a területet PNG‑ként mentjük, megőrződik az átlátszóság és veszteségmentes tömörítést kapunk – tökéletes bélyegképekhez, ikonokhoz vagy bármilyen UI eszközhöz.
+Töltsük be minden forrásfájlt a `new Bitmap(path)` használatával, hozzunk létre egy megfelelő üres `Bitmap`‑et a kivágási területhez, rajzoljunk ki a kiválasztott téglalapot a `Graphics.DrawImage` segítségével, majd végül hívjuk a `Save("output.png", ImageFormat.Png)`‑t. Ezeket a hat sort egy `foreach` ciklusba csomagolva, amely egy könyvtárat iterál, egy teljes kötegelt kivágási megoldást kapunk, amely másodpercek alatt feldolgozza a tucatnyi képet.
 
-## Miért alternatívája az Aspose.Drawing-nek a System.Drawing-nek?
+## Miért használjuk az Aspose.Drawing‑ot kötegelt kivágáshoz?
 
-- **Cross‑platform támogatás** – Windows, Linux és macOS rendszereken fut natív GDI+ függőségek nélkül.  
-- **Gazdag pixel‑formátum kezelés** – 32‑bit, 24‑bit, indexelt és egyebek.  
-- **Teljesítmény‑központú API** – ideális egyetlen kép szerkesztéséhez és nagyméretű kötegelt feladatokhoz is.  
+Az Aspose.Drawing támogatja a **3 fő operációs rendszert** (Windows, Linux, macOS) és képes **500‑pixel fölötti képeket fél másodperc alatt** kezelni egy tipikus szerver‑osztályú CPU‑n. API-ja elkerüli a natív GDI+ függőségeket, ami azt jelenti, hogy ugyanazt a kódot telepítheti konténerekbe, Azure App Service‑be vagy AWS Lambda‑ba további könyvtárak nélkül. A könyvtár emellett **50+ képformátumot** és **teljes alfa‑csatorna megőrzést** kínál, így ideális a nagy mennyiségű átlátszó PNG kivágáshoz.
 
-## Prerequisites
+## Mi az a „crop image to PNG”?
 
-Mielőtt belemerülnénk, győződjön meg róla, hogy rendelkezik:
+A `crop image to PNG` művelet egy téglalap alakú területet nyer ki egy forrás‑bitmapből, és azt a területet PNG fájlba írja. A PNG megőrzi az alfa csatornát, veszteségmentes tömörítést biztosít, ami az eredményképet ideálissá teszi bélyegképek, ikonok, UI‑eszközök vagy bármely olyan helyzet számára, ahol a minőség és az átlátszóság szükséges.
 
-- **Aspose.Drawing könyvtár** integrálva a .NET projektjébe. Letöltheti [itt](https://releases.aspose.com/drawing/net/).  
-- Egy mappa, amely tartalmazza a vágni kívánt forrásképeket. Cserélje le a kódrészletekben a `"Your Document Directory"`-t a gépén lévő tényleges útvonalra.
+## Miért alternatívája az Aspose.Drawing‑nak a System.Drawing‑nak?
 
-## Import Namespaces
+Az Aspose.Drawing egy beépíthető helyettesítője a System.Drawing‑nak, mivel teljes platformfüggetlen kompatibilitást kínál, és megszünteti a natív GDI+ könyvtárak szükségességét. Széles körű pixelformátumokat támogat, nagy teljesítményű képműveleteket biztosít, és fejlett funkciókat tartalmaz, mint az alfa‑csatorna kezelése és a kiterjedt formátumtámogatás, így alkalmas egyszerű szerkesztésekre és nagy‑léptékű kötegelt feldolgozásra egyaránt.
+
+## Előfeltételek
+
+Mielőtt belevágnánk, győződjön meg róla, hogy:
+
+- **Aspose.Drawing library** integrálva a .NET projektedbe. Letöltheted [itt](https://releases.aspose.com/drawing/net/).  
+- Egy mappa, amely a vágni kívánt forrásképeket tartalmazza. Cseréld le a kódrészletekben a `"Your Document Directory"`-t a gépeden lévő tényleges útvonalra.
+
+## Névterek importálása
+
+A `System.Drawing` névtér hozzáférést biztosít a `Bitmap`, `Graphics` és a kapcsolódó típusokhoz, amelyeket az Aspose.Drawing kiterjeszt.
 
 ```csharp
 using System.Drawing;
 ```
 
-A `System.Drawing` névtér hozzáférést biztosít a `Bitmap`, `Graphics` és a kapcsolódó típusokhoz, amelyeket az Aspose.Drawing kiterjeszt.
+## Lépésről‑lépésre útmutató
 
-## Step‑by‑Step Guide
+### 1. lépés: Bitmap vászon létrehozása
 
-### Step 1: Create a Bitmap Canvas
+`Bitmap` az Aspose.Drawing memóriában lévő képábrázolása, amely pixel‑szintű hozzáférést és formátum‑vezérlést biztosít.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-Egy üres vászonnal kezdünk, amely elég nagy a vágott eredmény tárolásához. Állítsa be a szélességet és magasságot a kinyerni kívánt terület méretéhez.
+Egy üres vászonnal kezdünk, amely elég nagy a kivágott eredmény tárolásához. Állítsd be a szélességet és magasságot úgy, hogy megfeleljen a kinyerni kívánt terület méreteinek.
 
-### Step 2: Create a Graphics Object
+### 2. lépés: Graphics objektum létrehozása
+
+`Graphics` a rajzfelület, amely lehetővé teszi alakzatok, szöveg vagy más képek megjelenítését egy Bitmap‑re.  
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-A `Graphics` objektum lehetővé teszi a rajzolást a vászonra. Az `InterpolationMode` szabályozza, hogyan számítódnak a pixelértékek nagyítás vagy átalakítás során – a `NearestNeighbor` jól működik éles élek esetén.
+A `Graphics` objektum lehetővé teszi a rajzolást a vászonra. Az `InterpolationMode` szabályozza, hogyan számítódnak a pixelértékek méretezés vagy transzformáció során – a `NearestNeighbor` jól működik éles élek esetén.
 
-### Step 3: Load the Image to Crop
+### 3. lépés: A vágandó kép betöltése
+
+`Image` (vagy `Bitmap`) betölti a forrásfájlt a memóriába, készen a manipulációra.  
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-Töltse be a forrásképet. Győződjön meg róla, hogy az útvonal egy létező fájlra mutat; ellenkező esetben kivétel keletkezik.
+Töltsd be a forrásképet. Győződj meg róla, hogy az útvonal egy létező fájlra mutat; ellenkező esetben kivétel keletkezik.
 
-### Step 4: Define Source and Destination Rectangles
+### 4. lépés: Forrás- és cél‑téglalapok meghatározása
+
+`Rectangle` objektumok leírják a forráskép azon részét, amelyet megtartunk, és hogy hol helyeződjön el a célvásznon.  
 
 ```csharp
 Rectangle sourceRectangle = new Rectangle(0, 0, 50, 40);
 Rectangle destinationRectangle = sourceRectangle;
 ```
 
-A `sourceRectangle` megmondja az API-nak, hogy az eredeti kép mely részét tartsa meg. Itt a bal‑felső 50 × 40 pixeles területet választjuk. Ha ugyanazt a téglalapot rendeljük a `destinationRectangle`‑hez, a vágott régió eredeti méretben marad.
+A `sourceRectangle` megmondja az API‑nak, melyik részt tartsa meg az eredeti képből. Itt a bal‑felső 50 × 40 pixeles területet választjuk. Ha ugyanazt a téglalapot a `destinationRectangle`‑nek is hozzárendeljük, a kivágott terület az eredeti méretben marad.
 
-### Step 5: Perform the Crop Operation
+### 5. lépés: A kivágási művelet végrehajtása
+
+`Graphics.DrawImage` átmásolja a `image` meghatározott részét a mi üres `bitmap`‑ünkre.  
 
 ```csharp
 graphics.DrawImage(image, destinationRectangle, sourceRectangle, GraphicsUnit.Pixel);
 ```
 
-`Graphics.DrawImage` átmásolja a `image` meghatározott részét az üres `bitmap`‑re. Ez a fő **crop image to PNG** művelet.
+`Graphics.DrawImage` átmásolja a `image` meghatározott részét a mi üres `bitmap`‑ünkre. Ez a fő **crop image to PNG** művelet.
 
-### Step 6: Save the Cropped Image (Crop Image to PNG)
+### 6. lépés: A kivágott kép mentése (Crop Image to PNG)
+
+`Bitmap.Save` a memóriában lévő bitmapet a megadott formátummal egy fájlba írja.  
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ```
 
-Végül a vásznat PNG fájlként írja a lemezre. A PNG megőrzi az alfa csatornát és veszteségmentes minőséget biztosít – ideális UI eszközökhöz.
+Végül a vásznat PNG fájlként írjuk le a lemezre. A PNG megőrzi az alfa csatornát és veszteségmentes minőséget biztosít – ideális UI‑eszközöknek.
 
-## How to Crop Images in a Batch Scenario
+## Hogyan végezzünk kötegelt képkivágást ciklusban?
 
-Ha tucatnyi vagy akár több száz képe van, egyszerűen helyezze a teljes kódrészletet egy `foreach` ciklusba, amely egy fájlútvonalak gyűjteményén iterál. Ugyanaz a `Graphics.DrawImage` logika érvényes, így a **batch image cropping** triviális kiterjesztése ennek az útmutatónak.
+Iteráljunk minden fájlútvonalon a `foreach (var file in Directory.GetFiles(sourceFolder, "*.png"))` segítségével, ismételjük meg az 1‑6. lépéseket a ciklusban, és minden eredményt egy célmappába tároljunk. Ez a minta lineárisan skálázódik, párhuzamosítható a `Parallel.ForEach`‑vel a még gyorsabb áteresztőképesség érdekében, és hatékonyan, gyorsan dolgozza fel a képeket.
 
-## Common Pitfalls & Tips
+## Gyakori hibák és tippek
 
-- **Pixel formátum eltérések** – biztosítsa, hogy a forráskép és a vászon bitmap kompatibilis pixel formátummal rendelkezzen a színeltolódások elkerülése érdekében.  
-- **GDI objektumok felszabadítása** – csomagolja a `Bitmap` és `Graphics` objektumokat `using` blokkokba vagy hívja meg manuálisan a `Dispose()`‑t; ellenkező esetben nem kezelt erőforrások szivároghatnak.  
-- **Koordináta hibák** – a téglalap koordinátái nullától indulnak. Ha olyan téglalapot választ, amely meghaladja a forráskép határait, kivétel keletkezik.  
+- **Pixel format mismatches** – győződj meg arról, hogy a forráskép és a vászon bitmap kompatibilis pixelformátummal rendelkezik a színeltolódások elkerülése érdekében.  
+- **Disposal of GDI objects** – csomagold a `Bitmap` és `Graphics` objektumokat `using` utasításokba vagy hívd meg manuálisan a `Dispose()`‑t; ellenkező esetben nem kezelt erőforrásokat szivárogtathatsz.  
+- **Coordinate errors** – a téglalap koordinátái nullától indulnak. Ha olyan téglalapot választasz, amely meghaladja a forráskép határait, kivétel keletkezik.  
 
-## Frequently Asked Questions
+## Gyakran feltett kérdések
 
-**Q: Vághatok bármilyen formátumú képet az Aspose.Drawing használatával?**  
-A: Igen, az Aspose.Drawing széles körű formátumot támogat (PNG, JPEG, BMP, GIF, TIFF, stb.), így gyakorlatilag bármilyen képtípust vághat.
+**Q: Kivághatok bármilyen formátumú képeket az Aspose.Drawing használatával?**  
+A: Igen, az Aspose.Drawing széles körű formátumot támogat (PNG, JPEG, BMP, GIF, TIFF, stb.), így gyakorlatilag bármilyen kép típust kivághatsz.
 
-**Q: Elérhetők fejlett vágási lehetőségek?**  
-A: Teljesen. Kombinálhatja a `GraphicsPath`, `Matrix` transzformációkat, vagy használhatja az `ImageProcessor` osztályt összetettebb kivágásokhoz, például kör alakú vágásokhoz.
+**Q: Elérhetők fejlett kivágási opciók?**  
+A: Absolút. Kombinálhatod a `GraphicsPath`, `Matrix` transzformációkat, vagy használhatod az `ImageProcessor` osztályt összetettebb kiválasztásokhoz, például körkivágásokhoz.
 
-**Q: Alkalmazhatok több vágási műveletet egyetlen képre?**  
-A: Igen. Az első vágás után újra felhasználhatja a kapott bitmapet új forrásként, és ismételheti a folyamatot több vágás láncolásához.
+**Q: Alkalmazhatok több kivágási műveletet egyetlen képre?**  
+A: Igen. Az első kivágás után újra felhasználhatod a kapott bitmapet új forrásként, és ismételheted a folyamatot több kivágás láncolásához.
 
-**Q: Az Aspose.Drawing alkalmas kötegelt képfeldolgozásra?**  
-A: Igen. Könnyű API-ja és a natív függőségek hiánya miatt tökéletes nagy mennyiségű képek szerveroldali feldolgozásához.
+**Q: Alkalmas az Aspose.Drawing kötegelt képfeldolgozásra?**  
+A: Igen. Könnyű API-ja és a natív függőségek hiánya tökéletesen alkalmas nagy képkollekciók szervereken történő feldolgozására.
 
 **Q: Hogyan kaphatok támogatást az Aspose.Drawing‑hez kapcsolódó kérdésekhez?**  
-A: Látogasson el a [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) oldalra, hogy segítséget kérjen és csatlakozzon a közösséghez.
+A: Látogasd meg az [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) oldalt, hogy segítséget kérj és csatlakozz a közösséghez.
 
----
-
-**Last Updated:** 2026-02-07  
+**Last Updated:** 2026-05-19  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

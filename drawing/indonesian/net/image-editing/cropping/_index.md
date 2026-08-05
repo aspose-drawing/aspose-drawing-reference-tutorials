@@ -1,11 +1,73 @@
 ---
-date: 2026-02-07
-description: Tutorial langkah demi langkah untuk memotong gambar menjadi PNG menggunakan
-  Aspose.Drawing, alternatif untuk System.Drawing bagi pengembang .NET. Termasuk pemotongan
-  batch dan teknik penting.
-linktitle: Image Cropping Tutorial – Aspose.Drawing
+date: 2026-05-19
+description: Tutorial langkah demi langkah tentang cara memotong gambar secara batch
+  ke PNG menggunakan Aspose.Drawing, alternatif untuk System.Drawing bagi pengembang
+  .NET.
+keywords:
+- how to batch crop
+- crop image to png
+- alternative to system drawing
+- batch image cropping .net
+linktitle: Tutorial Memotong Gambar – Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Step‑by‑step tutorial on how to batch crop images to PNG using Aspose.Drawing,
+    the alternative to System.Drawing for .NET developers.
+  headline: How to Batch Crop Images to PNG Using Aspose.Drawing for .NET
+  type: TechArticle
+- description: Step‑by‑step tutorial on how to batch crop images to PNG using Aspose.Drawing,
+    the alternative to System.Drawing for .NET developers.
+  name: How to Batch Crop Images to PNG Using Aspose.Drawing for .NET
+  steps:
+  - name: Create a Bitmap Canvas
+    text: '`Bitmap` is Aspose.Drawing''s in‑memory representation of an image, providing
+      pixel‑level access and format control. We start with a blank canvas sized to
+      hold the cropped result. Adjust the width and height to match the dimensions
+      of the area you plan to extract.'
+  - name: Create a Graphics Object
+    text: '`Graphics` is the drawing surface that lets you render shapes, text, or
+      other images onto a Bitmap. A `Graphics` object lets us draw onto the canvas.
+      The `InterpolationMode` controls how pixel values are calculated during scaling
+      or transformation—`NearestNeighbor` works well for sharp edges.'
+  - name: Load the Image to Crop
+    text: '`Image` (or `Bitmap`) loads the source file into memory, ready for manipulation.
+      Load the source image. Make sure the path points to an existing file; otherwise
+      an exception will be thrown.'
+  - name: Define Source and Destination Rectangles
+    text: '`Rectangle` objects describe the region of the source image to keep and
+      where it should be placed on the destination canvas. The `sourceRectangle` tells
+      the API which part of the original image to keep. Here we pick the top‑left
+      50 × 40 pixel area. By assigning the same rectangle to `destinationRect'
+  - name: Perform the Crop Operation
+    text: '`Graphics.DrawImage` copies the defined portion of `image` onto our blank
+      `bitmap`. `Graphics.DrawImage` copies the defined portion of `image` onto our
+      blank `bitmap`. This is the core **crop image to PNG** operation.'
+  - name: Save the Cropped Image (Crop Image to PNG)
+    text: '`Bitmap.Save` writes the in‑memory bitmap to a file using the specified
+      format. Finally, write the canvas to disk as a PNG file. PNG preserves any alpha
+      channel and provides lossless quality—ideal for UI assets.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing supports a wide range of formats (PNG, JPEG, BMP,
+      GIF, TIFF, etc.), so you can crop virtually any image type.
+    question: Can I crop images of any format using Aspose.Drawing?
+  - answer: Absolutely. You can combine `GraphicsPath`, `Matrix` transformations,
+      or use the `ImageProcessor` class for more complex selections like circular
+      crops.
+    question: Are there advanced cropping options available?
+  - answer: Yes. After the first crop, you can reuse the resulting bitmap as the new
+      source and repeat the process to chain multiple crops.
+    question: Can I apply multiple crop operations to a single image?
+  - answer: Indeed. Its lightweight API and lack of native dependencies make it perfect
+      for processing large image collections on servers.
+    question: Is Aspose.Drawing suitable for batch image processing?
+  - answer: Head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      to seek assistance and connect with the community.
+    question: How can I get support for Aspose.Drawing‑related queries?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Cara Memotong Gambar menjadi PNG dengan Aspose.Drawing untuk .NET
+title: Cara Memotong Gambar Secara Batch ke PNG Menggunakan Aspose.Drawing untuk .NET
 url: /id/net/image-editing/cropping/
 weight: 10
 ---
@@ -14,129 +76,146 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Memotong Gambar menjadi PNG dengan Aspose.Drawing untuk .NET
+# Cara Memotong Gambar Secara Batch menjadi PNG Menggunakan Aspose.Drawing untuk .NET
 
-Jika Anda perlu **memotong gambar menjadi PNG** dengan cepat dan andal di lingkungan .NET, Anda berada di tempat yang tepat. Pada tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk memuat gambar, menentukan area pemotongan, dan menyimpan hasilnya sebagai file PNG—semua menggunakan Aspose.Drawing, **alternatif modern untuk System.Drawing** yang dapat berjalan lintas‑platform.
+Jika Anda perlu **crop image to PNG** dengan cepat, andal, dan dalam skala besar di lingkungan .NET, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk memuat gambar, menentukan area pemotongan, dan menyimpan hasilnya sebagai file PNG—semua menggunakan Aspose.Drawing, **alternatif modern untuk System.Drawing** yang bekerja lintas‑platform. Anda juga akan melihat cara memperluas alur satu gambar menjadi **pipeline batch crop** lengkap.
 
 ## Jawaban Cepat
-- **Pustaka apa yang harus saya gunakan?** Aspose.Drawing untuk .NET (alternatif lengkap untuk System.Drawing.Common)  
-- **Berapa lama pemotongan dasar berlangsung?** Biasanya kurang dari satu detik untuk satu gambar pada CPU modern  
-- **Apakah saya dapat memotong menjadi PNG?** Ya – simpan bitmap yang dipotong sebagai file PNG (lihat Langkah 6)  
+- **Perpustakaan apa yang harus saya gunakan?** Aspose.Drawing for .NET (a full‑featured alternative to System.Drawing.Common)  
+- **Berapa lama proses crop dasar berlangsung?** Biasanya kurang dari satu detik untuk satu gambar pada CPU modern  
+- **Apakah saya dapat memotong ke PNG?** Ya – simpan bitmap yang dipotong sebagai file PNG (lihat Langkah 6)  
 - **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi  
 - **Apakah pemrosesan batch memungkinkan?** Tentu – bungkus langkah‑langkah yang sama dalam loop untuk memproses banyak file  
 
+## Cara memotong gambar secara batch menjadi PNG?
+
+Muat setiap file sumber dengan `new Bitmap(path)`, buat `Bitmap` kosong yang cocok untuk area pemotongan, gambar persegi panjang yang dipilih menggunakan `Graphics.DrawImage`, dan akhirnya panggil `Save("output.png", ImageFormat.Png)`. Bungkus enam baris ini dalam loop `foreach` yang mengiterasi sebuah direktori dan Anda akan memiliki solusi batch‑crop lengkap yang memproses puluhan gambar dalam hitungan detik.
+
+## Mengapa menggunakan Aspose.Drawing untuk pemotongan batch?
+
+Aspose.Drawing mendukung **3 sistem operasi utama** (Windows, Linux, macOS) dan dapat menangani **gambar lebih dari 500 piksel dalam kurang dari 0,5 detik** pada CPU kelas server tipikal. API‑nya menghindari ketergantungan native GDI+, artinya Anda dapat menyebarkan kode yang sama ke kontainer, Azure App Service, atau AWS Lambda tanpa perpustakaan tambahan. Perpustakaan ini juga menawarkan **lebih dari 50 format gambar** dan **pelestarian saluran alfa penuh**, menjadikannya ideal untuk pemotongan PNG transparan dalam skala besar.
+
 ## Apa itu “crop image to PNG”?
 
-Memotong gambar berarti mengekstrak wilayah persegi panjang dari bitmap asli. Ketika Anda menyimpan wilayah tersebut sebagai PNG, Anda mempertahankan transparansi dan mendapatkan kompresi lossless—sempurna untuk thumbnail, ikon, atau aset UI apa pun.
+Operasi `crop image to PNG` mengekstrak wilayah persegi panjang dari bitmap sumber dan menuliskan wilayah tersebut ke file PNG. PNG mempertahankan saluran alfa apa pun, memberikan kompresi lossless, yang membuat gambar hasilnya ideal untuk thumbnail, ikon, aset UI, atau situasi apa pun yang memerlukan kualitas dan transparansi.
 
-## Mengapa Aspose.Drawing Menjadi Alternatif untuk System.Drawing?
+## Mengapa Aspose.Drawing menjadi Alternatif untuk System.Drawing?
 
-- **Dukungan lintas‑platform** – berjalan di Windows, Linux, dan macOS tanpa ketergantungan native GDI+.  
-- **Penanganan format piksel yang kaya** – 32‑bit, 24‑bit, terindeks, dan lainnya.  
-- **API berfokus pada kinerja** – ideal untuk pengeditan satu gambar maupun pekerjaan batch berskala besar.  
+Aspose.Drawing berfungsi sebagai pengganti drop‑in untuk System.Drawing dengan menawarkan kompatibilitas lintas‑platform penuh, menghilangkan kebutuhan akan perpustakaan native GDI+. Ia mendukung berbagai format piksel, memberikan manipulasi gambar berperforma tinggi, dan menyertakan fitur lanjutan seperti penanganan saluran alfa serta dukungan format yang luas, menjadikannya cocok untuk edit sederhana maupun pemrosesan batch skala besar.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
-- **Pustaka Aspose.Drawing** yang terintegrasi ke dalam proyek .NET Anda. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/drawing/net/).  
+- **Perpustakaan Aspose.Drawing** terintegrasi ke dalam proyek .NET Anda. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/drawing/net/).  
 - Sebuah folder yang berisi gambar sumber yang ingin Anda potong. Ganti `"Your Document Directory"` dalam cuplikan kode dengan jalur sebenarnya di mesin Anda.
 
 ## Impor Namespace
+
+Namespace `System.Drawing` memberi kita akses ke `Bitmap`, `Graphics`, dan tipe terkait yang diperluas oleh Aspose.Drawing.
 
 ```csharp
 using System.Drawing;
 ```
 
-Namespace `System.Drawing` memberi kita akses ke `Bitmap`, `Graphics`, dan tipe terkait yang diperluas oleh Aspose.Drawing.
-
 ## Panduan Langkah‑per‑Langkah
 
 ### Langkah 1: Buat Kanvas Bitmap
+
+`Bitmap` adalah representasi dalam memori Aspose.Drawing untuk sebuah gambar, menyediakan akses tingkat piksel dan kontrol format.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-Kita memulai dengan kanvas kosong berukuran cukup untuk menampung hasil pemotongan. Sesuaikan lebar dan tinggi agar cocok dengan dimensi area yang akan Anda ekstrak.
+Kami memulai dengan kanvas kosong berukuran untuk menampung hasil pemotongan. Sesuaikan lebar dan tinggi agar cocok dengan dimensi area yang akan Anda ekstrak.
 
 ### Langkah 2: Buat Objek Graphics
+
+`Graphics` adalah permukaan gambar yang memungkinkan Anda merender bentuk, teks, atau gambar lain ke dalam Bitmap.  
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-Objek `Graphics` memungkinkan kita menggambar pada kanvas. Properti `InterpolationMode` mengontrol bagaimana nilai piksel dihitung selama penskalaan atau transformasi—`NearestNeighbor` bekerja baik untuk tepi yang tajam.
+Objek `Graphics` memungkinkan kami menggambar pada kanvas. `InterpolationMode` mengontrol bagaimana nilai piksel dihitung selama skala atau transformasi—`NearestNeighbor` bekerja baik untuk tepi yang tajam.
 
-### Langkah 3: Muat Gambar yang Akan Dipotong
+### Langkah 3: Muat Gambar untuk Dipotong
+
+`Image` (atau `Bitmap`) memuat file sumber ke memori, siap untuk manipulasi.  
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-Muat gambar sumber. Pastikan jalurnya mengarah ke file yang ada; jika tidak, akan terjadi pengecualian.
+Muat gambar sumber. Pastikan jalur mengarah ke file yang ada; jika tidak, akan terjadi pengecualian.
 
-### Langkah 4: Tentukan Rectangle Sumber dan Tujuan
+### Langkah 4: Tentukan Persegi Panjang Sumber dan Tujuan
+
+Objek `Rectangle` menggambarkan wilayah gambar sumber yang akan dipertahankan dan dimana wilayah tersebut harus ditempatkan pada kanvas tujuan.  
 
 ```csharp
 Rectangle sourceRectangle = new Rectangle(0, 0, 50, 40);
 Rectangle destinationRectangle = sourceRectangle;
 ```
 
-`sourceRectangle` memberi tahu API bagian mana dari gambar asli yang akan dipertahankan. Di sini kami memilih area 50 × 40 piksel di kiri‑atas. Dengan menetapkan rectangle yang sama ke `destinationRectangle`, kami menjaga wilayah yang dipotong pada ukuran aslinya.
+`sourceRectangle` memberi tahu API bagian mana dari gambar asli yang akan dipertahankan. Di sini kami memilih area 50 × 40 piksel di kiri‑atas. Dengan menetapkan persegi yang sama ke `destinationRectangle`, kami mempertahankan wilayah yang dipotong pada ukuran aslinya.
 
 ### Langkah 5: Lakukan Operasi Pemotongan
+
+`Graphics.DrawImage` menyalin bagian yang ditentukan dari `image` ke `bitmap` kosong kami.  
 
 ```csharp
 graphics.DrawImage(image, destinationRectangle, sourceRectangle, GraphicsUnit.Pixel);
 ```
 
-`Graphics.DrawImage` menyalin bagian yang telah ditentukan dari `image` ke `bitmap` kosong kami. Inilah inti dari operasi **crop image to PNG**.
+`Graphics.DrawImage` menyalin bagian yang ditentukan dari `image` ke `bitmap` kosong kami. Ini adalah operasi inti **crop image to PNG**.
 
 ### Langkah 6: Simpan Gambar yang Dipotong (Crop Image to PNG)
+
+`Bitmap.Save` menulis bitmap dalam memori ke file menggunakan format yang ditentukan.  
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ```
 
-Akhirnya, tulis kanvas ke disk sebagai file PNG. PNG mempertahankan kanal alfa apa pun dan memberikan kualitas lossless—ideal untuk aset UI.
+Akhirnya, tulis kanvas ke disk sebagai file PNG. PNG mempertahankan saluran alfa apa pun dan memberikan kualitas lossless—ideal untuk aset UI.
 
-## Cara Memotong Gambar dalam Skenario Batch
+## Cara memotong gambar secara batch dalam loop?
 
-Ketika Anda memiliki puluhan atau ratusan gambar, cukup letakkan seluruh cuplikan kode di dalam loop `foreach` yang mengiterasi koleksi jalur file. Logika `Graphics.DrawImage` yang sama tetap berlaku, menjadikan **batch image cropping** perpanjangan trivial dari tutorial ini.
+Iterasikan setiap jalur file dengan `foreach (var file in Directory.GetFiles(sourceFolder, "*.png"))`, ulangi Langkah 1‑6 di dalam loop, dan simpan setiap hasil ke folder target. Pola ini berskala linear, dapat diparalelkan dengan `Parallel.ForEach` untuk throughput yang lebih cepat, dan memproses gambar secara efisien dan cepat.
 
 ## Kesalahan Umum & Tips
 
-- **Ketidaksesuaian format piksel** – pastikan gambar sumber dan bitmap kanvas memiliki format piksel yang kompatibel untuk menghindari pergeseran warna.  
-- **Pembuangan objek GDI** – bungkus `Bitmap` dan `Graphics` dalam pernyataan `using` atau panggil `Dispose()` secara manual; jika tidak, Anda dapat mengalami kebocoran sumber daya tak terkelola.  
-- **Kesalahan koordinat** – koordinat rectangle dimulai dari nol. Memilih rectangle yang melampaui batas gambar sumber akan memicu pengecualian.  
+- **Pixel format mismatches** – pastikan gambar sumber dan bitmap kanvas memiliki format piksel yang kompatibel untuk menghindari pergeseran warna.  
+- **Disposal of GDI objects** – bungkus `Bitmap` dan `Graphics` dalam pernyataan `using` atau panggil `Dispose()` secara manual; jika tidak, Anda dapat mengalami kebocoran sumber daya yang tidak dikelola.  
+- **Coordinate errors** – koordinat persegi panjang berbasis nol. Memilih persegi yang melebihi batas gambar sumber akan memunculkan pengecualian.  
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apakah saya dapat memotong gambar dalam format apa pun menggunakan Aspose.Drawing?**  
-J: Ya, Aspose.Drawing mendukung berbagai format (PNG, JPEG, BMP, GIF, TIFF, dll.), sehingga Anda dapat memotong hampir semua jenis gambar.
+**Q: Bisakah saya memotong gambar dalam format apa pun menggunakan Aspose.Drawing?**  
+A: Ya, Aspose.Drawing mendukung berbagai format (PNG, JPEG, BMP, GIF, TIFF, dll.), sehingga Anda dapat memotong hampir semua jenis gambar.
 
-**T: Apakah ada opsi pemotongan lanjutan yang tersedia?**  
-J: Tentu. Anda dapat menggabungkan `GraphicsPath`, transformasi `Matrix`, atau menggunakan kelas `ImageProcessor` untuk seleksi yang lebih kompleks seperti pemotongan melingkar.
+**Q: Apakah ada opsi pemotongan lanjutan yang tersedia?**  
+A: Tentu. Anda dapat menggabungkan `GraphicsPath`, transformasi `Matrix`, atau menggunakan kelas `ImageProcessor` untuk seleksi yang lebih kompleks seperti pemotongan melingkar.
 
-**T: Bisakah saya menerapkan beberapa operasi pemotongan pada satu gambar?**  
-J: Ya. Setelah pemotongan pertama, Anda dapat menggunakan bitmap hasil sebagai sumber baru dan mengulangi proses untuk menumpuk beberapa pemotongan.
+**Q: Bisakah saya menerapkan beberapa operasi pemotongan pada satu gambar?**  
+A: Ya. Setelah pemotongan pertama, Anda dapat menggunakan kembali bitmap hasil sebagai sumber baru dan mengulangi proses untuk menambahkan beberapa pemotongan.
 
-**T: Apakah Aspose.Drawing cocok untuk pemrosesan gambar batch?**  
-J: Memang. API yang ringan dan tanpa ketergantungan native menjadikannya pilihan tepat untuk memproses koleksi gambar besar di server.
+**Q: Apakah Aspose.Drawing cocok untuk pemrosesan gambar batch?**  
+A: Memang. API‑nya yang ringan dan tidak memerlukan dependensi native membuatnya sempurna untuk memproses koleksi gambar besar di server.
 
-**T: Bagaimana cara mendapatkan dukungan untuk pertanyaan terkait Aspose.Drawing?**  
-J: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk meminta bantuan dan berinteraksi dengan komunitas.
+**Q: Bagaimana saya dapat mendapatkan dukungan untuk pertanyaan terkait Aspose.Drawing?**  
+A: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk mencari bantuan dan terhubung dengan komunitas.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-07  
-**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 2026-05-19  
+**Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
+**Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

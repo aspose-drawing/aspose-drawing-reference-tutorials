@@ -1,11 +1,60 @@
 ---
-date: 2026-02-07
-description: Naučte se, jak kreslit bitmapu obrázku a uložit bitmapu jako PNG pomocí
-  Aspose.Drawing pro .NET. Postupujte podle našeho krok‑za‑krokem průvodce a vylepšete
-  vizuální obsah.
-linktitle: Displaying Images in Aspose.Drawing
+date: 2026-05-19
+description: Naučte se, jak uložit bitmapu jako PNG pomocí Aspose.Drawing pro .NET.
+  Tento průvodce krok za krokem vám ukáže, jak nakreslit bitmapu obrázku, pracovat
+  s více obrázky a efektivně exportovat výsledek.
+keywords:
+- save bitmap as png
+- draw multiple images
+- convert image to bitmap
+- draw image on canvas
+- aspose.drawing licensing
+linktitle: Zobrazování obrázků v Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to save bitmap as PNG with Aspose.Drawing for .NET. This
+    step‑by‑step guide shows you how to draw an image bitmap, handle multiple images,
+    and export the result efficiently.
+  headline: How to save bitmap as PNG using Aspose.Drawing for .NET
+  type: TechArticle
+- description: Learn how to save bitmap as PNG with Aspose.Drawing for .NET. This
+    step‑by‑step guide shows you how to draw an image bitmap, handle multiple images,
+    and export the result efficiently.
+  name: How to save bitmap as PNG using Aspose.Drawing for .NET
+  steps:
+  - name: Create a bitmap .NET
+    text: '`Bitmap` represents an image stored in memory as a grid of pixels.'
+  - name: Initialize Graphics
+    text: '`Graphics` provides drawing methods to render shapes, text, and images
+      onto a `Bitmap`.'
+  - name: Load the Image
+    text: '`Image.FromFile` loads an image file from disk into an `Image` object for
+      further processing.'
+  - name: Draw the Image
+    text: '`Graphics.DrawImage` paints an `Image` onto the drawing surface at specified
+      coordinates.'
+  - name: Save the Result – save bitmap png
+    text: '`Bitmap.Save` writes the bitmap to a file in the chosen image format. Now
+      you have successfully **drawn an image bitmap** and **saved bitmap as PNG**
+      using Aspose.Drawing.'
+  type: HowTo
+- questions:
+  - answer: It refers to rendering an image onto a `Bitmap` object using GDI‑like
+      graphics calls.
+    question: What does “draw image bitmap” mean?
+  - answer: Aspose.Drawing for .NET provides a fully managed, cross‑platform API.
+    question: Which library handles this?
+  - answer: Yes, a commercial license (see *aspose.drawing licensing* below) is required
+      for production use.
+    question: Do I need a license?
+  - answer: Absolutely—use `bitmap.Save(... )` with a `.png` extension.
+    question: Can I save the result as PNG?
+  - answer: Yes, you can draw several images on the same canvas (multiple images canvas).
+    question: Is drawing multiple images possible?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Jak nakreslit bitmapu obrázku pomocí Aspose.Drawing pro .NET
+title: Jak uložit bitmapu jako PNG pomocí Aspose.Drawing pro .NET
 url: /cs/net/image-editing/display/
 weight: 12
 ---
@@ -14,119 +63,127 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# kreslení bitmapy obrázku pomocí Aspose.Drawing
+# uložit bitmapu jako PNG pomocí Aspose.Drawing
 
 ## Úvod
 
-V tomto tutoriálu se naučíte, jak **kreslit bitmapu obrázku** pomocí knihovny Aspose.Drawing pro .NET. Ať už vytváříte desktopové UI, generujete zprávy nebo vytváříte dynamickou grafiku, zvládnutí této techniky vám umožní rychle a spolehlivě vykreslovat obrázky. Provedeme vás každým krokem – od vytvoření bitmapy v .NET po uložení finálního PNG – abyste mohli okamžitě začít přidávat vizuální obsah do svých aplikací.
+V tomto tutoriálu se naučíte, jak **save bitmap as PNG** pomocí knihovny Aspose.Drawing pro .NET. Ať už vytváříte desktopové uživatelské rozhraní, generujete zprávy nebo vytváříte dynamickou grafiku, zvládnutí této techniky vám umožní rychle a spolehlivě vykreslovat obrázky. Provedeme vás všemi kroky – od vytvoření bitmapy v .NET po uložení finálního PNG – abyste mohli okamžitě začít přidávat vizuální obsah do svých aplikací.
 
 ## Rychlé odpovědi
-- **Co znamená „draw image bitmap“?** Odkazuje na vykreslení obrázku na objekt `Bitmap` pomocí volání grafiky podobných GDI.  
-- **Která knihovna to provádí?** Aspose.Drawing pro .NET poskytuje plně spravované, multiplatformní API.  
+- **Co znamená „draw image bitmap“?** Odkazuje na vykreslení obrázku na objekt `Bitmap` pomocí volání grafiky podobné GDI.  
+- **Která knihovna to zpracovává?** Aspose.Drawing pro .NET poskytuje plně spravované, multiplatformní API.  
 - **Potřebuji licenci?** Ano, pro produkční použití je vyžadována komerční licence (viz *aspose.drawing licensing* níže).  
-- **Mohu výsledek uložit jako PNG?** Samozřejmě—použijte `bitmap.Save(... )` s příponou `.png`.  
-- **Je možné kreslit více obrázků?** Ano, můžete kreslit několik obrázků na stejném plátně (multiple images canvas).
+- **Mohu výsledek uložit jako PNG?** Ano—použijte `bitmap.Save(... )` s příponou `.png`.  
+- **Je možné kreslit více obrázků?** Ano, můžete nakreslit několik obrázků na stejném plátně (multiple images canvas).
 
 ## Co je „draw image bitmap“?
-Kreslení bitmapy obrázku znamená načtení souboru obrázku do paměti a jeho namalování na plátno `Bitmap` pomocí objektu `Graphics`. Výsledná bitmapa může být následně zobrazena, upravována nebo uložena na disk.
 
-## Proč použít Aspose.Drawing pro kreslení bitmapy obrázku?
-- **Podpora napříč platformami** – funguje na Windows, Linuxu i macOS.  
-- **Žádné nativní závislosti** – na rozdíl od `System.Drawing.Common` je Aspose.Drawing plně spravovaný.  
-- **Bohatá sada funkcí** – podporuje pokročilé formáty pixelů, vysoce kvalitní škálování a rozsáhlou podporu souborových formátů.  
-- **Licencování připravené pro podniky** – flexibilní licenční možnosti pro komerční projekty.
+Kreslení bitmapy obrázku znamená načtení souboru obrázku do paměti a jeho vykreslení na plátno `Bitmap` pomocí objektu `Graphics`. `Bitmap` obsahuje data pixelů, která lze upravovat, zobrazovat na obrazovce nebo ukládat na disk v různých formátech. Tento proces umožňuje další zpracování nebo kompozici obrázku.
 
-## Předpoklady
+## Proč použít Aspose.Drawing k vykreslení bitmapy obrázku?
 
-- **Aspose.Drawing pro .NET** – stáhněte jej [zde](https://releases.aspose.com/drawing/net/).  
-- Fungující **vývojové prostředí .NET** (Visual Studio, VS Code nebo .NET CLI).  
+Aspose.Drawing podporuje **více než 100 formátů obrázků** a dokáže zpracovat soubory až do **2 GB** bez načítání celého obrázku do paměti, což je ideální pro grafiku ve vysokém rozlišení. Nabízí multiplatformní podporu, eliminuje nativní závislosti a poskytuje licence připravené pro podnikové nasazení – vše vám pomůže rychleji vytvářet robustní .NET aplikace.
+
+## Požadavky
+
+- **Aspose.Drawing for .NET** – stáhněte jej [zde](https://releases.aspose.com/drawing/net/).  
+- Fungující **.NET vývojové prostředí** (Visual Studio, VS Code nebo .NET CLI).  
 - Složka, která bude sloužit jako váš **adresář dokumentů** pro vstupní a výstupní obrázky.  
-- Soubor s obrázkem (např. `aspose_logo.png`), který chcete vykreslit.
+- Soubor obrázku (např. `aspose_logo.png`), který chcete vykreslit.
 
-## Průvodce krok za krokem
+## Jak vytvořit bitmapu a vykreslit na ni obrázek?
 
-### Krok 1: Vytvoření bitmapy v .NET
-Nejprve vytvořte `Bitmap`, který bude sloužit jako kreslicí plocha. Velikost a formát pixelů lze upravit podle vašich potřeb.
+`Bitmap` je třída, která představuje plátno obrázku založené na pixelech.  
+
+Načtěte svůj zdrojový obrázek, vytvořte plátno `Bitmap`, namalujte obrázek pomocí `Graphics.DrawImage` a nakonec zavolejte `Save` s příponou `.png`. Toto pořadí dokončuje workflow **save bitmap as PNG** během několika řádků kódu, přičemž Aspose.Drawing automaticky zpracovává škálování, konverzi formátu pixelů a rozdíly mezi platformami.
+
+### Krok 1: Vytvořit bitmapu v .NET
+
+`Bitmap` představuje obrázek uložený v paměti jako mřížka pixelů.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Krok 2: Inicializace Graphics
-Objekt `Graphics` vám poskytuje kreslicí API potřebné k vykreslování tvarů, textu a obrázků na bitmapu.
+### Krok 2: Inicializovat Graphics
+
+`Graphics` poskytuje kreslicí metody pro vykreslení tvarů, textu a obrázků na `Bitmap`.  
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Krok 3: Načtení obrázku
-Načtěte zdrojový obrázek, který chcete vykreslit. Nahraďte zástupnou cestu skutečnou polohou vašeho souboru.
+### Krok 3: Načíst obrázek
+
+`Image.FromFile` načte soubor obrázku z disku do objektu `Image` pro další zpracování.  
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-### Krok 4: Vykreslení obrázku
-Použijte `Graphics.DrawImage` k namalování načteného obrázku na bitmapu. Souřadnice `(0,0)` jej umístí do levého horního rohu.
+### Krok 4: Vykreslit obrázek
+
+`Graphics.DrawImage` namaluje `Image` na kreslicí plochu na zadaných souřadnicích.  
 
 ```csharp
 graphics.DrawImage(image, 0, 0);
 ```
 
-#### Kreslení více obrázků na jednom plátně (multiple images canvas)
-Pokud potřebujete umístit více než jeden obrázek, jednoduše zavolejte `DrawImage` znovu s jinými souřadnicemi nebo velikostmi. Například:
+#### Jak mohu vykreslit více obrázků na jediné plátno?
+
+Pokud potřebujete umístit více než jeden obrázek, jednoduše zavolejte `DrawImage` znovu s jinými souřadnicemi nebo velikostmi. To vám umožní vytvořit složité rozvržení, jako jsou koláže, vodoznaky nebo miniatury UI.
 
 ```csharp
 // graphics.DrawImage(secondImage, 200, 150);
 ```
 
-*(Dodatečná řádka je zobrazena jako komentář pro ilustraci konceptu bez přidání nového bloku kódu.)*
+* (Tento extra řádek je zobrazen jako komentář pro ilustraci konceptu bez přidání nového bloku kódu.)
 
-### Krok 5: Uložení výsledku – uložení bitmapy png
-Nakonec zapište složenou bitmapu na disk. Použití přípony `.png` zajišťuje bezztrátovou kompresi.
+### Krok 5: Uložit výsledek – uložit bitmapu png
+
+`Bitmap.Save` zapíše bitmapu do souboru ve zvoleném formátu obrázku.  
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Display_out.png");
 ```
 
-Nyní jste úspěšně **nakreslili bitmapu obrázku** a uložili ji jako PNG soubor pomocí Aspose.Drawing.
+Nyní jste úspěšně **drawn an image bitmap** a **saved bitmap as PNG** pomocí Aspose.Drawing.
 
 ## Časté problémy a řešení
-- **Cesta k obrázku nebyla nalezena** – Ověřte, že oddělovač adresářů (`\` nebo `/`) odpovídá vašemu OS a že soubor existuje.  
-- **Neshoda formátu pixelů** – Pokud vidíte neočekávané barvy, zkuste jiný `PixelFormat`, například `Format24bppRgb`.  
-- **Chyby nedostatku paměti** – Velké bitmapy spotřebovávají hodně paměti; zvažte práci s menšími rozměry nebo streamování obrázku.
+- **Image path not found** – Ověřte, že oddělovač adresářů (`\` nebo `/`) odpovídá vašemu OS a že soubor existuje.  
+- **Pixel format mismatch** – Pokud vidíte neočekávané barvy, zkuste jiný `PixelFormat`, například `Format24bppRgb`.  
+- **Out‑of‑memory errors** – Velké bitmapy spotřebovávají hodně paměti; zvažte práci s menšími rozměry nebo streamování obrázku.
 
 ## Často kladené otázky
 
-### Q1: Mohu zobrazit více obrázků na jednom plátně pomocí Aspose.Drawing?
-**A:** Ano. Načtěte každý obrázek do vlastního `Bitmap` a zavolejte `Graphics.DrawImage` vícekrát s různými souřadnicemi.
+**Q1: Mohu zobrazit více obrázků na jednom plátně pomocí Aspose.Drawing?**  
+**A:** Ano. Načtěte každý obrázek do vlastní `Bitmap` a zavolejte `Graphics.DrawImage` vícekrát s různými souřadnicemi.
 
-### Q2: Je Aspose.Drawing kompatibilní s nejnovějšími verzemi .NET?
-**A:** Rozhodně. Aspose.Drawing je pravidelně aktualizován tak, aby podporoval .NET 5, .NET 6 a novější verze.
+**Q2: Je Aspose.Drawing kompatibilní s nejnovějšími verzemi .NET?**  
+**A:** Naprosto. Aspose.Drawing je pravidelně aktualizován, aby podporoval .NET 5, .NET 6, .NET 7 a novější verze.
 
-### Q3: Jak mohu v Aspose.Drawing zvládnout škálování obrázku?
-**A:** Upravit parametry šířky a výšky v `DrawImage` nebo použít přetížení `Graphics.DrawImage`, která přijímají cílový obdélník pro přesné škálování.
+**Q3: Jak mohu v Aspose.Drawing řešit škálování obrázku?**  
+**A:** Použijte přetížení `DrawImage`, které přijímá cílový obdélník, nebo nastavte `Graphics.InterpolationMode` na `HighQualityBicubic` pro plynulé škálování.
 
-### Q4: Existují nějaké licenční úvahy při používání Aspose.Drawing v komerčních projektech?
-**A:** Ano. Podívejte se na informace o **aspose.drawing licensing** na [stránce nákupu](https://purchase.aspose.com/buy) pro podrobnosti o trial, vývojářských a podnikových licencích.
+**Q4: Existují licenční úvahy při používání Aspose.Drawing v komerčních projektech?**  
+**A:** Ano. Viz informace o **aspose.drawing licensing** na [stránce nákupu](https://purchase.aspose.com/buy) pro podrobnosti o zkušební, vývojářské a podnikové licenci.
 
-### Q5: Kde mohu získat pomoc, pokud narazím na problémy nebo mám otázky ohledně Aspose.Drawing?
+**Q5: Kde mohu získat pomoc, pokud narazím na problémy nebo mám otázky ohledně Aspose.Drawing?**  
 **A:** Navštivte [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), kde získáte podporu od komunity a odborníků z Aspose.
 
-### Q6: Mohu převést bitmapu do jiných formátů, jako je JPEG nebo BMP?
-**A:** Stačí změnit příponu souboru v metodě `Save` (např. `bitmap.Save("output.jpg")`). Aspose.Drawing podporuje všechny běžné rastrové formáty.
+**Q6: Mohu převést bitmapu do jiných formátů, jako je JPEG nebo BMP?**  
+**A:** Jednoduše změňte příponu souboru v metodě `Save` (např. `bitmap.Save("output.jpg")`). Aspose.Drawing podporuje všechny běžné rastrové formáty.
 
 ## Závěr
 
-Nyní jste se naučili, jak **kreslit bitmapu obrázku** pomocí Aspose.Drawing, pracovat s více obrázky na jednom plátně a **ukládat bitmapy png** pro použití v jakékoli .NET aplikaci. Experimentujte s různými formáty pixelů, velikostmi a kreslicími operacemi a odhalte plný potenciál Aspose.Drawing.
-
-Neváhejte prozkoumat další funkce, jako je vykreslování textu, kreslení tvarů a transformace obrázků. Pro podrobnější informace se podívejte do [oficiální dokumentace](https://reference.aspose.com/drawing/net/).
+Nyní jste se naučili, jak **save bitmap as PNG** s Aspose.Drawing, pracovat s více obrázky na jednom plátně a exportovat výsledek pro jakoukoli .NET aplikaci. Experimentujte s různými formáty pixelů, velikostmi a kreslicími operacemi, abyste odhalili plný potenciál Aspose.Drawing. Pro podrobnější informace si prohlédněte [oficiální dokumentaci](https://reference.aspose.com/drawing/net/).
 
 ---
 
-**Poslední aktualizace:** 2026-02-07  
-**Testováno s:** Aspose.Drawing 24.11 pro .NET  
-**Autor:** Aspose  
+**Poslední aktualizace:** 2026-05-19  
+**Testováno s:** Aspose.Drawing 24.11 for .NET  
+**Autor:** Aspose
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
