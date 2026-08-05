@@ -155,13 +155,6 @@ A: Ze względów bezpieczeństwa unikaj zatwierdzania pliku licencji w publiczny
 **Testowano z:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Powiązane samouczki
-
-- [Ustaw licencję Aspose.Drawing – Jak ustawić licencję Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [Utwórz własne pióra z Aspose.Drawing dla .NET – Kompleksowe samouczki](/drawing/net/)
-- [Jak stworzyć ramkę zdjęcia – Przypadki użycia z Aspose.Drawing dla .NET](/drawing/net/use-cases/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

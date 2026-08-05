@@ -153,13 +153,6 @@ A: 出于安全考虑，避免将许可证文件提交到公共仓库。请使�
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## 相关教程
-
-- [设置 Aspose.Drawing 许可证 – 如何设置 Aspose.Drawing 许可证](/drawing/net/licensing/licensing/)
-- [使用 Aspose.Drawing for .NET 创建自定义笔 – 综合教程](/drawing/net/)
-- [如何创建相框 – Aspose.Drawing for .NET 的使用案例](/drawing/net/use-cases/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

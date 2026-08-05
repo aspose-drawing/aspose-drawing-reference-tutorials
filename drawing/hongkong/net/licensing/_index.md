@@ -152,12 +152,6 @@ A: 為了安全起見，請避免將授權檔案提交至公開的儲存庫。�
 **測試版本：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose
 
-## 相關教學
-
-- [設定 Aspose.Drawing 授權 – 如何設定 Aspose.Drawing 授權](/drawing/net/licensing/licensing/)
-- [使用 Aspose.Drawing for .NET 建立自訂筆刷 – 完整教學](/drawing/net/)
-- [如何建立相框 – Aspose.Drawing for .NET 使用案例](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

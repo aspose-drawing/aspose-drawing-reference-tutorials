@@ -156,12 +156,6 @@ A: सुरक्षा कारणों से, लाइसेंस फ़
 **परीक्षित:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose
 
-## संबंधित ट्यूटोरियल्स
-
-- [Aspose.Drawing लाइसेंस सेट करें – Aspose.Drawing लाइसेंस कैसे सेट करें](/drawing/net/licensing/licensing/)
-- [Aspose.Drawing for .NET के साथ कस्टम पेन बनाएं – व्यापक ट्यूटोरियल्स](/drawing/net/)
-- [फ़ोटो फ्रेम कैसे बनाएं – Aspose.Drawing for .NET के उपयोग केस](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

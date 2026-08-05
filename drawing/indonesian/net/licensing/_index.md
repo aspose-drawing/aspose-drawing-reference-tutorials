@@ -155,13 +155,6 @@ A: Untuk alasan keamanan, hindari meng-commit file lisensi ke repositori publik.
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## Tutorial Terkait
-
-- [Setel Lisensi Aspose.Drawing – Cara Menyetel Lisensi Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [Buat Pena Kustom dengan Aspose.Drawing untuk .NET – Tutorial Komprehensif](/drawing/net/)
-- [Cara Membuat Bingkai Foto – Kasus Penggunaan dengan Aspose.Drawing untuk .NET](/drawing/net/use-cases/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

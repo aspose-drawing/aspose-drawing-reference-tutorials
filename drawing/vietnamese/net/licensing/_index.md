@@ -155,12 +155,6 @@ A: Vì lý do bảo mật, tránh commit tệp giấy phép vào các kho công 
 **Kiểm thử với:** Aspose.Drawing 24.11 cho .NET  
 **Tác giả:** Aspose
 
-## Các hướng dẫn liên quan
-
-- [Cài đặt giấy phép Aspose.Drawing – Cách cài đặt giấy phép Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [Tạo bút tùy chỉnh với Aspose.Drawing cho .NET – Hướng dẫn toàn diện](/drawing/net/)
-- [Cách tạo khung ảnh – Các trường hợp sử dụng với Aspose.Drawing cho .NET](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -155,12 +155,6 @@ A: Biztonsági okokból kerülje a licencfájl nyilvános tárolókba való elk�
 **Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose
 
-## Kapcsolódó oktatóanyagok
-
-- [Aspose.Drawing licenc beállítása – Hogyan állítsuk be az Aspose.Drawing licencet](/drawing/net/licensing/licensing/)
-- [Egyedi tollak létrehozása Aspose.Drawing segítségével .NET-hez – Átfogó oktatóanyagok](/drawing/net/)
-- [Fotókeret létrehozása – Használati esetek az Aspose.Drawing .NET-ben](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

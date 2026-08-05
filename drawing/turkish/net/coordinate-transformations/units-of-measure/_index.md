@@ -219,15 +219,8 @@ A5: Kapsamlı dokümantasyon [burada](https://reference.aspose.com/drawing/net/)
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Öğreticiler
-
-- [Koordinat Sistemi Dönüşümü – Aspose.Drawing for .NET'te Sayfa Dönüşümü](/drawing/net/coordinate-transformations/page-transformation/)
-- [Matris Dönüşümü Öğreticisi: Aspose.Drawing for .NET'te Matris Dönüşümleri](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Dönüşüm Nasıl Uygulanır: Aspose.Drawing for .NET'te Yerel Dönüşüm](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

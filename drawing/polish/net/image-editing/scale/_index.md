@@ -23,17 +23,17 @@ schemas:
     and save scaled image files.
   name: How to Scale Images with Aspose.Drawing for .NET
   steps:
-  - name: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-    text: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-  - name: 'Development Environment: Set up a .NET development environment, such as
+  - name: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-    text: 'Development Environment: Set up a .NET development environment, such as
+    text: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-  - name: 'Basic Understanding of C#: Familiarity with the C# programming language
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
-    text: 'Basic Understanding of C#: Familiarity with the C# programming language
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
   type: HowTo
 - questions:
@@ -193,19 +193,8 @@ W tym samouczku omówiliśmy kompletny przepływ pracy **jak skalować obrazy** 
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
-
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane samouczki
-
-- [Jak rysować bitmapę obrazu przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/display/)
-- [Jak przyciąć obraz do PNG przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/cropping/)
-- [Jak obrócić obraz przy użyciu globalnej transformacji Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

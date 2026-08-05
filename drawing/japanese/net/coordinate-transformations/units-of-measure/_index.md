@@ -224,15 +224,8 @@ A5: 包括的なドキュメントは[こちら](https://reference.aspose.com/dr
 **テスト環境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 関連チュートリアル
-
-- [座標系変換 – Aspose.Drawing for .NET のページ変換](/drawing/net/coordinate-transformations/page-transformation/)
-- [行列変換チュートリアル: Aspose.Drawing for .NET の行列変換](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [変換の適用方法: Aspose.Drawing for .NET のローカル変換](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

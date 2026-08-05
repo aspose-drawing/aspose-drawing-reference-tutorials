@@ -155,12 +155,6 @@ R : Pour des raisons de sécurité, évitez de valider le fichier de licence d
 **Testé avec :** Aspose.Drawing 24.11 for .NET  
 **Auteur :** Aspose
 
-## Tutoriels associés
-
-- [Définir la licence Aspose.Drawing – Comment définir la licence Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [Créer des stylos personnalisés avec Aspose.Drawing pour .NET – Tutoriels complets](/drawing/net/)
-- [Comment créer un cadre photo – Cas d’utilisation avec Aspose.Drawing pour .NET](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

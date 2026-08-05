@@ -219,15 +219,8 @@ A5: 포괄적인 문서는 [here](https://reference.aspose.com/drawing/net/)에�
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [좌표계 변환 – Aspose.Drawing for .NET의 페이지 변환](/drawing/net/coordinate-transformations/page-transformation/)
-- [행렬 변환 튜토리얼: Aspose.Drawing for .NET의 행렬 변환](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [변환 적용 방법: Aspose.Drawing for .NET의 로컬 변환](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -219,15 +219,8 @@ A5: व्यापक दस्तावेज़ीकरण [यहाँ](ht
 **परीक्षण किया गया:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## संबंधित ट्यूटोरियल
-
-- [कोऑर्डिनेट सिस्टम ट्रांसफ़ॉर्मेशन – पेज ट्रांसफ़ॉर्मेशन Aspose.Drawing for .NET में](/drawing/net/coordinate-transformations/page-transformation/)
-- [मैट्रिक्स ट्रांसफ़ॉर्मेशन ट्यूटोरियल: Aspose.Drawing for .NET में मैट्रिक्स ट्रांसफ़ॉर्मेशन](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [ट्रांसफ़ॉर्मेशन कैसे लागू करें: Aspose.Drawing for .NET में लोकल ट्रांसफ़ॉर्मेशन](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

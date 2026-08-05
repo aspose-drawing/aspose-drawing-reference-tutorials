@@ -26,17 +26,17 @@ schemas:
     shows step‑by‑step how to resize bitmap C# using nearest neighbor interpolation
     and save scaled image files.
   steps:
-  - name: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-    text: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-  - name: 'Development Environment: Set up a .NET development environment, such as
+  - name: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-    text: 'Development Environment: Set up a .NET development environment, such as
+    text: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-  - name: 'Basic Understanding of C#: Familiarity with the C# programming language
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
-    text: 'Basic Understanding of C#: Familiarity with the C# programming language
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
 - type: FAQPage
   questions:
@@ -191,19 +191,9 @@ Feel free to experiment with different interpolation modes, batch‑process mult
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
-
-{{< blocks/products/products-backtop-button >}}
-
-## Related Tutorials
-
-- [How to draw image bitmap using Aspose.Drawing for .NET](/drawing/net/image-editing/display/)
-- [How to Crop Image to PNG with Aspose.Drawing for .NET](/drawing/net/image-editing/cropping/)
-- [How to Rotate Image with Aspose.Drawing Global Transformation](/drawing/net/coordinate-transformations/global-transformation/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

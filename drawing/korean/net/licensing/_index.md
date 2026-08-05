@@ -152,12 +152,6 @@ A: 보안상의 이유로 공개 저장소에 라이선스 파일을 커밋하�
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## 관련 튜토리얼
-
-- [Aspose.Drawing 라이선스 설정 – Aspose.Drawing 라이선스 설정 방법](/drawing/net/licensing/licensing/)
-- [Aspose.Drawing for .NET으로 사용자 정의 펜 만들기 – 종합 튜토리얼](/drawing/net/)
-- [사진 프레임 만들기 – Aspose.Drawing for .NET 사용 사례](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

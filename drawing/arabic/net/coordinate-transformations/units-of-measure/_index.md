@@ -219,15 +219,9 @@ A5: الوثائق الشاملة متاحة [هنا](https://reference.aspose.c
 **تم الاختبار باستخدام:** Aspose.Drawing 24.11 لـ .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## دروس ذات صلة
-
-- [تحويل نظام الإحداثيات – تحويل الصفحة في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [درس تحويل المصفوفة: تحويلات المصفوفة في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [كيفية تطبيق التحويل: التحويل المحلي في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

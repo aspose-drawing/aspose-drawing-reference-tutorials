@@ -153,12 +153,6 @@ Unlock the full potential of Aspose.Drawing in .NET. Master licensing for seamle
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## İlgili Eğitimler
-
-- [Aspose.Drawing Lisansını Ayarla – Aspose.Drawing Lisansı Nasıl Ayarlanır](/drawing/net/licensing/licensing/)
-- [Aspose.Drawing for .NET ile Özel Kalemler Oluşturun – Kapsamlı Eğitimler](/drawing/net/)
-- [Foto Çerçevesi Nasıl Oluşturulur – Aspose.Drawing for .NET ile Kullanım Durumları](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

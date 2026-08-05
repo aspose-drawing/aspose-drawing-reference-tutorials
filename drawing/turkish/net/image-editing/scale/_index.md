@@ -23,17 +23,17 @@ schemas:
     and save scaled image files.
   name: How to Scale Images with Aspose.Drawing for .NET
   steps:
-  - name: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-    text: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-  - name: 'Development Environment: Set up a .NET development environment, such as
+  - name: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-    text: 'Development Environment: Set up a .NET development environment, such as
+    text: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-  - name: 'Basic Understanding of C#: Familiarity with the C# programming language
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
-    text: 'Basic Understanding of C#: Familiarity with the C# programming language
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
   type: HowTo
 - questions:
@@ -193,19 +193,8 @@ Farklı interpolasyon modlarıyla denemeler yapın, bir döngü içinde birden �
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose  
 
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
-
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Öğreticiler
-
-- [Aspose.Drawing for .NET kullanarak görüntü bitmap'i çizme](/drawing/net/image-editing/display/)
-- [Aspose.Drawing for .NET ile PNG'ye Görüntü Kırpma](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing Global Transformation ile Görüntü Döndürme](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -198,19 +198,19 @@ Aspose.Drawing รองรับ **รูปแบบภาพกว่า 30 �
 
 ## คำถามที่พบบ่อย
 
-### Q1: Can I use Aspose.Drawing for .NET with other .NET frameworks?
-A1: ใช่, Aspose.Drawing เข้ากันได้กับหลาย .NET frameworks ให้ความยืดหยุ่นในสภาพแวดล้อมการพัฒนาของคุณ
+### คำถามที่ 1: ฉันสามารถใช้ Aspose. Drawing สำหรับ .NET กับ .NET Frameworks อื่นๆ ได้หรือไม่
+คำตอบที่ 1: เป็นไปได้, Aspose. Drawing มีหลาย .NET frameworks ที่ยังคงมีการพัฒนาของคุณ
 
-### Q2: Is there a free trial available?
-A2: ใช่, คุณสามารถทดลองใช้ Aspose.Drawing ได้ฟรี [ที่นี่](https://releases.aspose.com/)
+### Q2: มีการทดลองใช้ฟรีหรือไม่?
+A2: พยายามตรวจสอบอย่างละเอียด Aspose. Drawing สามารถทำได้ [ที่นี่](https://releases.aspose.com/)
 
-### Q3: How do I get support for Aspose.Drawing for .NET?
-A3: เยี่ยมชม [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา
+### Q3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose. Drawing สำหรับ .NET ได้อย่างไร
+A3: จำเป็นต้องมี [Aspose. Drawing Forum](https://forum.aspose.com/c/drawing/44) เพื่อรับชุมชนและการเดินทาง
 
-### Q4: Can I purchase a temporary license for short‑term projects?
-A4: ใช่, คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
+### Q4: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับโครงการระยะสั้นได้หรือไม่
+A4: ทำได้, ไม่เคยรับมาก่อนชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-### Q5: Where can I find detailed documentation for Aspose.Drawing?
+### Q5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose. Drawing ได้จากที่ไหน?
 A5: เอกสารฉบับเต็มพร้อมให้บริการ [ที่นี่](https://reference.aspose.com/drawing/net/)
 
 ---
@@ -219,15 +219,8 @@ A5: เอกสารฉบับเต็มพร้อมให้บริ�
 **ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## บทแนะนำที่เกี่ยวข้อง
-
-- [การแปลงระบบพิกัด – การแปลงหน้าใน Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [บทแนะนำการแปลงเมทริกซ์: การแปลงเมทริกซ์ใน Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [วิธีใช้การแปลง: การแปลงท้องถิ่นใน Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

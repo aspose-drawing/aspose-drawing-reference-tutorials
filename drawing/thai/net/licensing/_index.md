@@ -154,11 +154,6 @@ A: เพื่อความปลอดภัย, ควรหลีกเล
 **ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose
 
-## บทแนะนำที่เกี่ยวข้อง
-- [ตั้งค่าใบอนุญาต Aspose.Drawing – วิธีตั้งค่าใบอนุญาต Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [สร้างปากกาที่กำหนดเองด้วย Aspose.Drawing สำหรับ .NET – บทแนะนำเชิงลึก](/drawing/net/)
-- [วิธีสร้างกรอบรูปภาพ – กรณีการใช้ Aspose.Drawing สำหรับ .NET](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

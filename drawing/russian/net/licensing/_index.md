@@ -155,12 +155,6 @@ A: По соображениям безопасности избегайте к�
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose
 
-## Похожие руководства
-
-- [Set Aspose.Drawing License – How to Set Aspose.Drawing License](/drawing/net/licensing/licensing/)
-- [Create Custom Pens with Aspose.Drawing for .NET – Comprehensive Tutorials](/drawing/net/)
-- [How to Create Photo Frame – Use Cases with Aspose.Drawing for .NET](/drawing/net/use-cases/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

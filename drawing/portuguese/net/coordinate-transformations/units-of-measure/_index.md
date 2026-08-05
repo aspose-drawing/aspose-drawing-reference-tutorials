@@ -219,15 +219,9 @@ A5: A documentação abrangente está disponível [aqui](https://reference.aspos
 **Testado com:** Aspose.Drawing 24.11 para .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriais Relacionados
-
-- [Transformação do Sistema de Coordenadas – Transformação de Página no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutorial de Transformação de Matriz: Transformações de Matriz no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Como Aplicar Transformação: Transformação Local no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

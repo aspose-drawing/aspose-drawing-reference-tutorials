@@ -220,15 +220,8 @@ A5: Полная документация доступна [здесь](https://
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Связанные руководства
-
-- [Преобразование системы координат – Преобразование страницы в Aspose.Drawing для .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Учебник по матричным преобразованиям: Матричные преобразования в Aspose.Drawing для .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Как применить преобразование: Локальное преобразование в Aspose.Drawing для .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

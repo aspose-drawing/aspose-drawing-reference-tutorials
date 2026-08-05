@@ -22,17 +22,17 @@ schemas:
     and save scaled image files.
   name: How to Scale Images with Aspose.Drawing for .NET
   steps:
-  - name: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-    text: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-  - name: 'Development Environment: Set up a .NET development environment, such as
+  - name: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-    text: 'Development Environment: Set up a .NET development environment, such as
+    text: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-  - name: 'Basic Understanding of C#: Familiarity with the C# programming language
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
-    text: 'Basic Understanding of C#: Familiarity with the C# programming language
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
   type: HowTo
 - questions:
@@ -192,18 +192,8 @@ A: 예, Aspose.Drawing은 `NearestNeighbor`, `Bilinear`, `Bicubic`, `HighQuality
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose  
 
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
-
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [Aspose.Drawing for .NET을 사용한 이미지 비트맵 그리기 방법](/drawing/net/image-editing/display/)
-- [Aspose.Drawing for .NET으로 이미지를 PNG로 자르는 방법](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing 전역 변환을 사용한 이미지 회전 방법](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

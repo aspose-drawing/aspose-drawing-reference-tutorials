@@ -155,12 +155,6 @@ A: Av säkerhetsskäl bör du undvika att checka in licensfilen i offentliga ark
 **Testad med:** Aspose.Drawing 24.11 for .NET  
 **Författare:** Aspose  
 
-## Relaterade handledningar
-
-- [Ställ in Aspose.Drawing‑licens – Hur man ställer in Aspose.Drawing‑licens](/drawing/net/licensing/licensing/)
-- [Skapa anpassade pennor med Aspose.Drawing för .NET – Omfattande handledningar](/drawing/net/)
-- [Hur man skapar fotoram – Användningsfall med Aspose.Drawing för .NET](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

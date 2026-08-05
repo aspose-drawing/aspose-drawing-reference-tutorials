@@ -223,15 +223,8 @@ A5：完整文件可在[此處](https://reference.aspose.com/drawing/net/)取得
 **測試環境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相關教學
-
-- [座標系統轉換 – Aspose.Drawing for .NET 中的頁面轉換](/drawing/net/coordinate-transformations/page-transformation/)
-- [矩陣轉換教學：Aspose.Drawing for .NET 中的矩陣轉換](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [如何套用轉換：Aspose.Drawing for .NET 中的本地轉換](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

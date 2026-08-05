@@ -217,15 +217,8 @@ A5: Kompleksowa dokumentacja jest dostępna [tutaj](https://reference.aspose.com
 **Testowano z:** Aspose.Drawing 24.11 dla .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane samouczki
-
-- [Transformacja układu współrzędnych – Transformacja strony w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Samouczek transformacji macierzy: Transformacje macierzy w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Jak zastosować transformację: Transformacja lokalna w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

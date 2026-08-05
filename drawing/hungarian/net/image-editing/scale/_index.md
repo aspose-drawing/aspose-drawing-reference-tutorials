@@ -23,17 +23,17 @@ schemas:
     and save scaled image files.
   name: How to Scale Images with Aspose.Drawing for .NET
   steps:
-  - name: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-    text: 'Aspose.Drawing for .NET: Ensure that you have the Aspose.Drawing library
+    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
       installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-  - name: 'Development Environment: Set up a .NET development environment, such as
+  - name: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-    text: 'Development Environment: Set up a .NET development environment, such as
+    text: 'Development Environment - Set up a .NET development environment, such as
       Visual Studio.'
-  - name: 'Basic Understanding of C#: Familiarity with the C# programming language
+  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
-    text: 'Basic Understanding of C#: Familiarity with the C# programming language
+    text: 'Basic Understanding of C# - Familiarity with the C# programming language
       is essential for implementing the examples.'
   type: HowTo
 - questions:
@@ -189,19 +189,8 @@ Nyugodtan kísérletezzen különböző interpolációs módokkal, kötegelt fel
 **Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
-```csharp
-bitmap.Save("Your Document Directory" + @"Images\Scale_out.png");
-```
-
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [Hogyan rajzoljunk képet bitmapként az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/display/)
-- [Hogyan vágjunk le képet PNG-re az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/cropping/)
-- [Hogyan forgassunk képet az Aspose.Drawing globális transzformációval](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

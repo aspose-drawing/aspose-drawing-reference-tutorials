@@ -220,15 +220,8 @@ CODE_BLOCK_PLACEHOLDER_12_END
 **Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικοί Οδηγοί
-
-- [Μετασχηματισμός Συστήματος Συντεταγμένων – Μετασχηματισμός Σελίδας στο Aspose.Drawing για .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Οδηγός Μετασχηματισμού Πίνακα: Μετασχηματισμοί Πίνακα στο Aspose.Drawing για .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Πώς να Εφαρμόσετε Μετασχηματισμό: Τοπικός Μετασχηματισμός στο Aspose.Drawing για .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

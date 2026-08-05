@@ -219,15 +219,8 @@ A5: Dokumentasi lengkap tersedia [here](https://reference.aspose.com/drawing/net
 **Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Terkait
-
-- [Transformasi Sistem Koordinat – Transformasi Halaman di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutorial Transformasi Matriks: Transformasi Matriks di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Cara Menerapkan Transformasi: Transformasi Lokal di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

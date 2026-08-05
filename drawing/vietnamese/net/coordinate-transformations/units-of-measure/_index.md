@@ -220,15 +220,9 @@ A5: Tài liệu đầy đủ có sẵn [tại đây](https://reference.aspose.co
 **Được Kiểm Tra Với:** Aspose.Drawing 24.11 for .NET  
 **Tác Giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Các Hướng Dẫn Liên Quan
-
-- [Biến Đổi Hệ Tọa Độ – Biến Đổi Trang trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Hướng Dẫn Biến Đổi Ma Trận: Biến Đổi Ma Trận trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Cách Áp Dụng Biến Đổi: Biến Đổi Cục Bộ trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

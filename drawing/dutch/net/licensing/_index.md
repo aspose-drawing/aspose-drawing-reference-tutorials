@@ -156,13 +156,6 @@ A: Om veiligheidsredenen moet je het licentiebestand niet in openbare repositori
 **Getest met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose
 
-## Gerelateerde tutorials
-
-- [Aspose.Drawing-licentie instellen – Hoe Aspose.Drawing-licentie instellen](/drawing/net/licensing/licensing/)
-- [Aangepaste pennen maken met Aspose.Drawing voor .NET – Uitgebreide tutorials](/drawing/net/)
-- [Hoe een foto‑frame te maken – Use cases met Aspose.Drawing voor .NET](/drawing/net/use-cases/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

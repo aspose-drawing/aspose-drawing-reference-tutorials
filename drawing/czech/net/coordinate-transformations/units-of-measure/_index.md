@@ -219,15 +219,9 @@ A5: Komplexní dokumentace je k dispozici [zde](https://reference.aspose.com/dra
 **Testováno s:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Transformace souřadnicového systému – Transformace stránky v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutoriál transformace matic: Transformace matic v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Jak použít transformaci: Lokální transformace v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

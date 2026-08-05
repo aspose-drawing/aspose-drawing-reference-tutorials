@@ -153,13 +153,6 @@ A: Z bezpečnostních důvodů se vyhněte commitování licenčního souboru do
 **Testováno s:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Související tutoriály
-
-- [Nastavit licenci Aspose.Drawing – Jak nastavit licenci Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [Vytvořit vlastní pera s Aspose.Drawing pro .NET – Komplexní tutoriály](/drawing/net/)
-- [Jak vytvořit rámeček na fotografii – Případy použití s Aspose.Drawing pro .NET](/drawing/net/use-cases/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

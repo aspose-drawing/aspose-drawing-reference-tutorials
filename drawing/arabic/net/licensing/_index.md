@@ -154,12 +154,6 @@ weight: 22
 **تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
 **المؤلف:** Aspose
 
-## دروس ذات صلة
-
-- [تعيين ترخيص Aspose.Drawing – كيفية تعيين ترخيص Aspose.Drawing](/drawing/net/licensing/licensing/)
-- [إنشاء أقلام مخصصة باستخدام Aspose.Drawing لـ .NET – دروس شاملة](/drawing/net/)
-- [كيفية إنشاء إطار صورة – حالات استخدام Aspose.Drawing لـ .NET](/drawing/net/use-cases/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

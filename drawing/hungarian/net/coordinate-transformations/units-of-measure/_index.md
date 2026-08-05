@@ -220,15 +220,9 @@ A5: A teljes körű dokumentáció [itt](https://reference.aspose.com/drawing/ne
 **Tesztelt verzió:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [Coordinate System Transformation – Page Transformation in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Matrix Transformation Tutorial: Matrix Transformations in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [How to Apply Transformation: Local Transformation in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/local-transformation/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
