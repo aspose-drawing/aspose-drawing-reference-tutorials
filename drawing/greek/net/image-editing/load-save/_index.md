@@ -176,19 +176,8 @@ A: Απόλυτα. Τυλίξτε τις κλήσεις `LoadAndSave` σε βρ�
 **Δοκιμάστηκε με:** Aspose.Drawing 24.12 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικά Μαθήματα
-
-- [Πώς να Κόψετε Εικόνα σε PNG με Aspose.Drawing για .NET](/drawing/net/image-editing/cropping/)
-- [Πώς να Κλιμακώσετε Εικόνες με Aspose.Drawing για .NET](/drawing/net/image-editing/scale/)
-- [Αποθήκευση PNG Εικόνας και Εργασία με Εγκατεστημένες Γραμματοσειρές στο Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

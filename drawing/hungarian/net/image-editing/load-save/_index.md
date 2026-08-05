@@ -176,19 +176,9 @@ Most már rendelkezik egy stabil, termelés‑kész mintával a **BMP PNG-re kon
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [Hogyan vágjunk képet PNG-re az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/cropping/)
-- [Hogyan méretezzünk képeket az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/scale/)
-- [PNG kép mentése és telepített betűtípusok kezelése az Aspose.Drawing-ben](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

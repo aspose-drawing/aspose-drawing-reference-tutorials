@@ -184,13 +184,6 @@ bitmap.Save("Your Document Directory" + @"Images\Display_out.png");
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose
 
-## Связанные руководства
-
-- [Конвертировать BMP в PNG и другие форматы с Aspose.Drawing](/drawing/net/image-editing/load-save/)
-- [Как масштабировать изображения с Aspose.Drawing для .NET](/drawing/net/image-editing/scale/)
-- [Как обрезать изображение до PNG с Aspose.Drawing для .NET](/drawing/net/image-editing/cropping/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

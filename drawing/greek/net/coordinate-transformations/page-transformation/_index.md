@@ -211,15 +211,9 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 **Δοκιμάστηκε Με:** Aspose.Drawing 24.12 για .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικά Σεμινάρια
-
-- [Μονάδες Μέτρησης στο Aspose.Drawing για .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Πώς να Εφαρμόσετε Μετασχηματισμό: Τοπικός Μετασχηματισμός στο Aspose.Drawing για .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Σεμινάριο Μετασχηματισμού Πίνακα: Μετασχηματισμοί Πίνακα στο Aspose.Drawing για .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

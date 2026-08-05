@@ -209,15 +209,8 @@ W tym przewodniku omówiliśmy wszystko, co potrzebne do **jak narysować prosto
 **Testowano z:** Aspose.Drawing 24.12 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane Samouczki
-
-- [Jednostki miary w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Jak zastosować transformację: Transformacja lokalna w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Samouczek Transformacji Macierzy: Transformacje macierzy w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

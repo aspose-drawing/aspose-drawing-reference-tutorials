@@ -171,19 +171,8 @@ Ora hai a disposizione un modello solido e pronto per la produzione per **conver
 **Testato con:** Aspose.Drawing 24.12 for .NET  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial correlati
-
-- [Come ritagliare un'immagine in PNG con Aspose.Drawing per .NET](/drawing/net/image-editing/cropping/)
-- [Come ridimensionare le immagini con Aspose.Drawing per .NET](/drawing/net/image-editing/scale/)
-- [Salva immagine PNG e lavora con i font installati in Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

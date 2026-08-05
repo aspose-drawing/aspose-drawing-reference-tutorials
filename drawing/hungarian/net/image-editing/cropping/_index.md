@@ -214,13 +214,8 @@ A: Látogasd meg az [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## Kapcsolódó útmutatók
-
-- [Hogyan vágjunk képet PNG‑be az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/cropping/)
-- [Hogyan méretezzünk képeket az Aspose.Drawing for .NET segítségével](/drawing/net/image-editing/scale/)
-- [BMP konvertálása PNG‑be és más formátumokba az Aspose.Drawing segítségével](/drawing/net/image-editing/load-save/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

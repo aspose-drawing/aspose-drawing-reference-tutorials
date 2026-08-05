@@ -181,20 +181,20 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 
 ## 常見問答
 
-**Q: Can I use Aspose.Drawing for free?**  
-A: Yes, a free trial is available [here](https://releases.aspose.com/).
+** Q：我可以免費使用 Aspose.Drawing 嗎？ ** 
+答：可以，您可以[在此處](https://releases.aspose.com/)取得免費試用版。
 
-**Q: Where can I find detailed documentation for Aspose.Drawing?**  
-A: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+**問：在哪裡可以找到 Aspose.Drawing 的詳細文件？ ** 
+答：完整的 API 參考文件位於[此處](https://reference.aspose.com/drawing/net/)。
 
-**Q: How do I get support for Aspose.Drawing?**  
-A: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) for community help and official assistance.
+**問：如何獲得 Aspose.Drawing 的支援？ ** 
+答：請造訪[Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44)以取得社群協助與官方支援。
 
-**Q: Is a temporary license available for Aspose.Drawing?**  
-A: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+**問：Aspose.Drawing 是否提供臨時許可證？ ** 
+答：當然可以－[在此處](https://purchase.aspose.com/temporary-license/)取得。
 
-**Q: Where can I purchase a full Aspose.Drawing license?**  
-A: You can buy it [here](https://purchase.aspose.com/buy).
+**Q：我可以在哪裡購買完整的 Aspose.Drawing 授權？**
+答：您可以[在這裡](https://purchase.aspose.com/buy)購買。
 
 ## 結論
 
@@ -206,15 +206,9 @@ A: You can buy it [here](https://purchase.aspose.com/buy).
 **測試版本：** Aspose.Drawing 24.12 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相關教學
-
-- [Aspose.Drawing for .NET 中的測量單位](/drawing/net/coordinate-transformations/units-of-measure/)
-- [如何套用轉換：Aspose.Drawing for .NET 中的本地轉換](/drawing/net/coordinate-transformations/local-transformation/)
-- [矩陣轉換教學：Aspose.Drawing for .NET 中的矩陣轉換](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

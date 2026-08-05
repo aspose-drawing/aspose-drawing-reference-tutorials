@@ -207,15 +207,9 @@ A: [here](https://purchase.aspose.com/buy) から購入できます。
 **テスト環境:** Aspose.Drawing 24.12 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 関連チュートリアル
-
-- [Aspose.Drawing for .NET の単位](/drawing/net/coordinate-transformations/units-of-measure/)
-- [変換の適用方法: ローカルトランスフォーメーション](/drawing/net/coordinate-transformations/local-transformation/)
-- [マトリックス変換チュートリアル: Aspose.Drawing for .NET のマトリックス変換](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

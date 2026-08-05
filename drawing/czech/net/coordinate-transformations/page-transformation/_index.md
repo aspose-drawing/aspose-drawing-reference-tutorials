@@ -209,15 +209,8 @@ V tomto průvodci jsme pokryli vše, co potřebujete k **nakreslení obdélníku
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Jednotky měření v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Jak použít transformaci: Lokální transformace v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Tutoriál transformace matic: Transformace matic v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

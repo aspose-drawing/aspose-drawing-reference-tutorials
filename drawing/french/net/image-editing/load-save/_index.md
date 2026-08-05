@@ -176,19 +176,8 @@ Vous disposez désormais d’un modèle solide et prêt pour la production afin 
 **Testé avec :** Aspose.Drawing 24.12 pour .NET  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriels associés
-
-- [Comment recadrer une image en PNG avec Aspose.Drawing pour .NET](/drawing/net/image-editing/cropping/)
-- [Comment redimensionner les images avec Aspose.Drawing pour .NET](/drawing/net/image-editing/scale/)
-- [Enregistrer une image PNG et travailler avec les polices installées dans Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

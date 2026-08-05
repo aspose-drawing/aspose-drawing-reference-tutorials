@@ -214,13 +214,6 @@ A: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44), kde
 **Testováno s:** Aspose.Drawing 24.11 pro .NET  
 **Autor:** Aspose
 
-## Související tutoriály
-
-- [Jak oříznout obrázek do PNG pomocí Aspose.Drawing pro .NET](/drawing/net/image-editing/cropping/)
-- [Jak škálovat obrázky s Aspose.Drawing pro .NET](/drawing/net/image-editing/scale/)
-- [Převod BMP na PNG a další formáty s Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}

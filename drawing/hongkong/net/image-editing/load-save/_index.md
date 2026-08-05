@@ -174,19 +174,8 @@ A：絕對可以。將 `LoadAndSave` 呼叫包在 `Parallel.ForEach` 迴圈中�
 **測試版本：** Aspose.Drawing 24.12 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相關教學
-
-- [如何使用 Aspose.Drawing for .NET 裁切圖像為 PNG](/drawing/net/image-editing/cropping/)
-- [如何使用 Aspose.Drawing for .NET 縮放圖像](/drawing/net/image-editing/scale/)
-- [在 Aspose.Drawing 中儲存 PNG 圖像並使用已安裝字型](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

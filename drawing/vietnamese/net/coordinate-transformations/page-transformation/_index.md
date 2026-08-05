@@ -211,15 +211,8 @@ Trong hướng dẫn này, chúng ta đã bao quát mọi thứ bạn cần đ�
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Các Hướng Dẫn Liên Quan
-
-- [Đơn vị đo trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Cách Áp Dụng Biến Đổi: Biến Đổi Cục Bộ trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Hướng Dẫn Biến Đổi Ma Trận: Biến Đổi Ma Trận trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

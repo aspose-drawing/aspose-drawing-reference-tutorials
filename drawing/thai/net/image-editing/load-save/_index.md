@@ -168,19 +168,9 @@ A: แน่นอน. ห่อการเรียก `LoadAndSave` ในล
 **ทดสอบกับ:** Aspose.Drawing 24.12 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## บทแนะนำที่เกี่ยวข้อง
-
-- [วิธีตัดภาพเป็น PNG ด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/cropping/)
-- [วิธีปรับขนาดภาพด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/scale/)
-- [บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

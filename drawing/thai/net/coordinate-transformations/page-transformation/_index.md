@@ -208,15 +208,8 @@ A: คุณสามารถซื้อได้ที่ [here](https://pu
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## บทแนะนำที่เกี่ยวข้อง
-
-- [หน่วยการวัดใน Aspose.Drawing สำหรับ .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [วิธีใช้การแปลง: การแปลงแบบโลคัลใน Aspose.Drawing สำหรับ .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [บทแนะนำการแปลงเมทริกซ์: การแปลงเมทริกซ์ใน Aspose.Drawing สำหรับ .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

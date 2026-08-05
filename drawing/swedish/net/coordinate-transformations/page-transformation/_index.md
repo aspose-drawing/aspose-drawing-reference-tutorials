@@ -209,15 +209,9 @@ I den här guiden har vi gått igenom allt du behöver för att **rita rektangel
 **Testat med:** Aspose.Drawing 24.12 för .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Relaterade handledningar
-
-- [Måttenheter i Aspose.Drawing för .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Hur man tillämpar transformation: Lokal transformation i Aspose.Drawing för .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Matrixtransformationshandledning: Matrixtransformationer i Aspose.Drawing för .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

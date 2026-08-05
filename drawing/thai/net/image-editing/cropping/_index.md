@@ -214,14 +214,9 @@ A: ไปที่ [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
 **ทดสอบกับ:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose
 
-## บทแนะนำที่เกี่ยวข้อง
-
-- [วิธีการตัดภาพเป็น PNG ด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/cropping/)
-- [วิธีการปรับขนาดภาพด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/scale/)
-- [แปลง BMP เป็น PNG และรูปแบบอื่น ๆ ด้วย Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

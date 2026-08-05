@@ -176,19 +176,9 @@ Masz teraz solidny, gotowy do produkcji wzorzec do **konwertowania BMP do PNG**,
 **Testowano z:** Aspose.Drawing 24.12 dla .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane samouczki
-
-- [Jak przyciąć obraz do PNG przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/cropping/)
-- [Jak skalować obrazy przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/scale/)
-- [Zapisz obraz PNG i pracuj z zainstalowanymi czcionkami w Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

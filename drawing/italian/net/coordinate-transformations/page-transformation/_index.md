@@ -209,15 +209,8 @@ In questa guida abbiamo coperto tutto ciò che ti serve per **come disegnare un 
 **Testato con:** Aspose.Drawing 24.12 per .NET  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial correlati
-
-- [Unità di misura in Aspose.Drawing per .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Come applicare la trasformazione: Trasformazione locale in Aspose.Drawing per .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Tutorial di trasformazione matriciale: Trasformazioni matriciali in Aspose.Drawing per .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

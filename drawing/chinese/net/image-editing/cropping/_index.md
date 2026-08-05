@@ -213,13 +213,6 @@ A: 前往 [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) 寻求�
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## 相关教程
-
-- [如何使用 Aspose.Drawing for .NET 将图像裁剪为 PNG](/drawing/net/image-editing/cropping/)
-- [如何使用 Aspose.Drawing for .NET 缩放图像](/drawing/net/image-editing/scale/)
-- [使用 Aspose.Drawing 将 BMP 转换为 PNG 及其他格式](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}

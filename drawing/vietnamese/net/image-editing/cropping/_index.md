@@ -214,14 +214,9 @@ A: Truy cập [Diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/4
 **Đã kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
 **Tác giả:** Aspose
 
-## Các Hướng Dẫn Liên Quan
-
-- [Cách Cắt Hình Ảnh Thành PNG với Aspose.Drawing cho .NET](/drawing/net/image-editing/cropping/)
-- [Cách Thu Phóng Hình Ảnh với Aspose.Drawing cho .NET](/drawing/net/image-editing/scale/)
-- [Chuyển Đổi BMP sang PNG và Các Định Dạng Khác với Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

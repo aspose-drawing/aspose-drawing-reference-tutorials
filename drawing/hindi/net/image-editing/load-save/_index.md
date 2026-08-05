@@ -174,19 +174,9 @@ A5: आप इसे [here](https://purchase.aspose.com/buy) से खरीद
 **परीक्षित संस्करण:** Aspose.Drawing 24.12 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## संबंधित ट्यूटोरियल
-
-- [Aspose.Drawing for .NET के साथ इमेज को PNG में क्रॉप कैसे करें](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET के साथ इमेज को स्केल कैसे करें](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing में PNG इमेज सहेजें और इंस्टॉल्ड फ़ॉन्ट्स के साथ काम करें](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

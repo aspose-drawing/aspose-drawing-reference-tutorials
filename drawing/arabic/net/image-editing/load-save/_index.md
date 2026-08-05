@@ -176,19 +176,8 @@ private static void LoadAndSave(string graphicsFileFormats)
 **تم الاختبار مع:** Aspose.Drawing 24.12 لـ .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## دروس ذات صلة
-
-- [كيفية قص الصورة إلى PNG باستخدام Aspose.Drawing لـ .NET](/drawing/net/image-editing/cropping/)
-- [كيفية تحجيم الصور باستخدام Aspose.Drawing لـ .NET](/drawing/net/image-editing/scale/)
-- [حفظ صورة PNG والعمل مع الخطوط المثبتة في Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

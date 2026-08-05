@@ -176,19 +176,8 @@ Artık Aspose.Drawing for .NET kullanarak **BMP'yi PNG'ye dönüştürmek**, **t
 **Test Edilen Versiyon:** Aspose.Drawing 24.12 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Eğitimler
-
-- [Aspose.Drawing for .NET ile Görüntüyü PNG'ye Kırpma](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET ile Görüntüleri Ölçeklendirme](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing ile PNG Görüntüsü Kaydetme ve Yüklü Yazı Tipleriyle Çalışma](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

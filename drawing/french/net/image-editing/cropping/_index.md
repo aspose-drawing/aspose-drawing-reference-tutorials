@@ -213,14 +213,8 @@ A : Rendez‑vous sur le [Aspose.Drawing Forum](https://forum.aspose.com/c/dra
 **Testé avec :** Aspose.Drawing 24.11 pour .NET  
 **Auteur :** Aspose
 
-## Tutoriels associés
-
-- [Comment recadrer une image au format PNG avec Aspose.Drawing pour .NET](/drawing/net/image-editing/cropping/)
-- [Comment redimensionner des images avec Aspose.Drawing pour .NET](/drawing/net/image-editing/scale/)
-- [Convertir BMP en PNG et autres formats avec Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

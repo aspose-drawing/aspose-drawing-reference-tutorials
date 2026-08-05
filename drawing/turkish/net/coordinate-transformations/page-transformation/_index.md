@@ -209,15 +209,9 @@ Bu rehberde Aspose.Drawing ile **dikdörtgen çizme** grafiklerini oluşturmak i
 **Test Edildi:** Aspose.Drawing 24.12 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Öğreticiler
-
-- [Aspose.Drawing for .NET'te Ölçü Birimleri](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Aspose.Drawing for .NET'te Dönüşüm Uygulama: Yerel Dönüşüm](/drawing/net/coordinate-transformations/local-transformation/)
-- [Aspose.Drawing for .NET'te Matris Dönüşümleri Öğreticisi](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

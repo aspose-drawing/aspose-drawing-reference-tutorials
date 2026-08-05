@@ -209,15 +209,9 @@ Dalam panduan ini kami membahas semua yang Anda perlukan untuk **how to draw rec
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Terkait
-
-- [Units of Measure in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [How to Apply Transformation: Local Transformation in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Matrix Transformation Tutorial: Matrix Transformations in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

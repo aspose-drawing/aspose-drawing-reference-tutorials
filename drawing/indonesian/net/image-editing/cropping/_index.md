@@ -215,14 +215,8 @@ A: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk 
 **Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
 **Penulis:** Aspose
 
-## Tutorial Terkait
-
-- [Cara Memotong Gambar ke PNG dengan Aspose.Drawing untuk .NET](/drawing/net/image-editing/cropping/)
-- [Cara Mengubah Skala Gambar dengan Aspose.Drawing untuk .NET](/drawing/net/image-editing/scale/)
-- [Mengonversi BMP ke PNG dan Format Lain dengan Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

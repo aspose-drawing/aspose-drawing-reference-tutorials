@@ -176,19 +176,9 @@ Nyní máte robustní, připravený vzor pro **převod BMP na PNG**, prováděn�
 **Testováno s:** Aspose.Drawing 24.12 pro .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Jak oříznout obrázek na PNG pomocí Aspose.Drawing pro .NET](/drawing/net/image-editing/cropping/)
-- [Jak škálovat obrázky pomocí Aspose.Drawing pro .NET](/drawing/net/image-editing/scale/)
-- [Uložení PNG obrázku a práce s nainstalovanými fonty v Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

@@ -184,13 +184,6 @@ Most már megtanulta, hogyan **mentse a bitmapet PNG‑ként** az Aspose.Drawing
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## Kapcsolódó oktatóanyagok
-
-- [BMP konvertálása PNG‑re és más formátumokra az Aspose.Drawing segítségével](/drawing/net/image-editing/load-save/)
-- [Hogyan méretezzen képeket az Aspose.Drawing for .NET segítségével](/drawing/net/image-editing/scale/)
-- [Hogyan vágjon képet PNG‑re az Aspose.Drawing for .NET segítségével](/drawing/net/image-editing/cropping/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -212,13 +212,8 @@ Itera su ogni percorso file con `foreach (var file in Directory.GetFiles(sourceF
 **Testato con:** Aspose.Drawing 24.11 per .NET  
 **Autore:** Aspose
 
-## Tutorial correlati
-
-- [Come ritagliare un'immagine in PNG con Aspose.Drawing per .NET](/drawing/net/image-editing/cropping/)
-- [Come ridimensionare le immagini con Aspose.Drawing per .NET](/drawing/net/image-editing/scale/)
-- [Convertire BMP in PNG e altri formati con Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -184,12 +184,6 @@ Du har nu lärt dig hur du **sparar bitmap som PNG** med Aspose.Drawing, hantera
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## Relaterade handledningar
-
-- [Convert BMP to PNG and Other Formats with Aspose.Drawing](/drawing/net/image-editing/load-save/)
-- [How to Scale Images with Aspose.Drawing for .NET](/drawing/net/image-editing/scale/)
-- [How to Crop Image to PNG with Aspose.Drawing for .NET](/drawing/net/image-editing/cropping/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

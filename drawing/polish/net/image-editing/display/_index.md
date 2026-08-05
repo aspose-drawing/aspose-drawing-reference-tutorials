@@ -184,13 +184,6 @@ Teraz wiesz, jak **save bitmap as PNG** przy użyciu Aspose.Drawing, obsługiwa�
 **Testowano z:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Powiązane samouczki
-
-- [Konwertuj BMP do PNG i inne formaty przy użyciu Aspose.Drawing](/drawing/net/image-editing/load-save/)
-- [Jak skalować obrazy przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/scale/)
-- [Jak przyciąć obraz do PNG przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/cropping/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

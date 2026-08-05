@@ -176,19 +176,9 @@ Bạn đã có một mẫu sẵn sàng cho sản xuất để **chuyển đổi 
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Các Hướng Dẫn Liên Quan
-
-- [Cách Cắt Ảnh thành PNG với Aspose.Drawing cho .NET](/drawing/net/image-editing/cropping/)
-- [Cách Thu Phóng Ảnh với Aspose.Drawing cho .NET](/drawing/net/image-editing/scale/)
-- [Lưu Ảnh PNG và Làm việc với Phông chữ Đã Cài Đặt trong Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

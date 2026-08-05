@@ -176,18 +176,8 @@ Ahora dispone de un patrón sólido y listo para producción para **convertir BM
 **Probado con:** Aspose.Drawing 24.12 para .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriales relacionados
-
-- [Cómo recortar una imagen a PNG con Aspose.Drawing para .NET](/drawing/net/image-editing/cropping/)
-- [Cómo escalar imágenes con Aspose.Drawing para .NET](/drawing/net/image-editing/scale/)
-- [Guardar imagen PNG y trabajar con fuentes instaladas en Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

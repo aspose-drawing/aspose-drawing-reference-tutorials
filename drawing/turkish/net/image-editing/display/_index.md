@@ -184,13 +184,6 @@ Artık Aspose.Drawing ile **bitmap'i PNG olarak kaydetmeyi**, tek bir tuval üze
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose
 
-## İlgili Öğreticiler
-
-- [BMP'yi PNG ve Diğer Formatlara Dönüştürme Aspose.Drawing ile](/drawing/net/image-editing/load-save/)
-- [Aspose.Drawing for .NET ile Görüntüleri Ölçeklendirme](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing for .NET ile Görüntüyü PNG'ye Kırpma](/drawing/net/image-editing/cropping/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

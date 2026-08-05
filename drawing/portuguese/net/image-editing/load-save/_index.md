@@ -175,19 +175,8 @@ Agora você tem um padrão sólido e pronto para produção para **converter BMP
 **Testado com:** Aspose.Drawing 24.12 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriais Relacionados
-
-- [Como Cortar Imagem para PNG com Aspose.Drawing para .NET](/drawing/net/image-editing/cropping/)
-- [Como Redimensionar Imagens com Aspose.Drawing para .NET](/drawing/net/image-editing/scale/)
-- [Salvar Imagem PNG e Trabalhar com Fontes Instaladas no Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

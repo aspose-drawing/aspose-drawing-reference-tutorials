@@ -212,15 +212,9 @@ Dans ce guide, nous avons couvert tout ce dont vous avez besoin pour **comment d
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriels associés
-
-- [Unités de mesure dans Aspose.Drawing pour .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Comment appliquer la transformation : Transformation locale dans Aspose.Drawing pour .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Tutoriel de transformation matricielle : Transformations matricielles dans Aspose.Drawing pour .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

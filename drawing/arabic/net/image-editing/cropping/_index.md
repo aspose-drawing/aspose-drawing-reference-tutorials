@@ -214,13 +214,6 @@ bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 **تم الاختبار مع:** Aspose.Drawing 24.11 لـ .NET  
 **المؤلف:** Aspose
 
-## دروس ذات صلة
-
-- [كيفية قص صورة إلى PNG باستخدام Aspose.Drawing لـ .NET](/drawing/net/image-editing/cropping/)
-- [كيفية تحجيم الصور باستخدام Aspose.Drawing لـ .NET](/drawing/net/image-editing/scale/)
-- [تحويل BMP إلى PNG وصيغ أخرى باستخدام Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}

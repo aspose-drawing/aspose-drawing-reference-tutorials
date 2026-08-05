@@ -174,19 +174,9 @@ A: もちろんです。`LoadAndSave` 呼び出しを `Parallel.ForEach` ルー�
 **テスト環境:** Aspose.Drawing 24.12 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 関連チュートリアル
-
-- [Aspose.Drawing for .NET を使用した画像の PNG へのクロップ方法](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET を使用した画像のスケーリング方法](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing で PNG 画像を保存し、インストール済みフォントで作業する方法](/drawing/net/text-and-fonts/installed-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

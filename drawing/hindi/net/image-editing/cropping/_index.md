@@ -187,13 +187,8 @@ A: सहायता के लिए [Aspose.Drawing Forum](https://forum.aspo
 **परीक्षण किया गया:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose
 
-## संबंधित ट्यूटोरियल्स
-
-- [Aspose.Drawing for .NET के साथ इमेज को PNG में कैसे क्रॉप करें](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET के साथ इमेज को स्केल कैसे करें](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing के साथ BMP को PNG और अन्य फ़ॉर्मैट्स में कैसे कनवर्ट करें](/drawing/net/image-editing/load-save/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

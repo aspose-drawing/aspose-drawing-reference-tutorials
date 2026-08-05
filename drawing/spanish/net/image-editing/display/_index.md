@@ -184,12 +184,6 @@ Ahora has aprendido cómo **save bitmap as PNG** con Aspose.Drawing, manejar var
 **Probado con:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Tutoriales relacionados
-
-- [Convertir BMP a PNG y otros formatos con Aspose.Drawing](/drawing/net/image-editing/load-save/)
-- [Cómo escalar imágenes con Aspose.Drawing para .NET](/drawing/net/image-editing/scale/)
-- [Cómo recortar una imagen a PNG con Aspose.Drawing para .NET](/drawing/net/image-editing/cropping/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

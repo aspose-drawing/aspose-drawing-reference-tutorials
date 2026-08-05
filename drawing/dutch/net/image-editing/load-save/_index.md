@@ -176,19 +176,8 @@ Je hebt nu een solide, productie‑klaar patroon om **BMP naar PNG te convertere
 **Getest met:** Aspose.Drawing 24.12 voor .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Gerelateerde tutorials
-
-- [Hoe afbeelding bijsnijden naar PNG met Aspose.Drawing voor .NET](/drawing/net/image-editing/cropping/)
-- [Hoe afbeeldingen schalen met Aspose.Drawing voor .NET](/drawing/net/image-editing/scale/)
-- [PNG-afbeelding opslaan en werken met geïnstalleerde lettertypen in Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

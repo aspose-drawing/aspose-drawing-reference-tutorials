@@ -209,15 +209,8 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 **تم الاختبار مع:** Aspose.Drawing 24.12 لـ .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## دروس ذات صلة
-
-- [وحدات القياس في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [كيفية تطبيق التحويل: التحويل المحلي في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [دروس تحويل المصفوفة: تحويلات المصفوفة في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

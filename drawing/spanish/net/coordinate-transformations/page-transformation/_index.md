@@ -211,15 +211,9 @@ En esta guía cubrimos todo lo que necesitas para **cómo dibujar rectángulos**
 **Probado con:** Aspose.Drawing 24.12 para .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriales relacionados
-
-- [Units of Measure in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [How to Apply Transformation: Local Transformation in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Matrix Transformation Tutorial: Matrix Transformations in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

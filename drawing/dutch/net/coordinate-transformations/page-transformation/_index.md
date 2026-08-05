@@ -209,15 +209,8 @@ In deze gids hebben we alles behandeld wat je nodig hebt om **hoe je een rechtho
 **Getest met:** Aspose.Drawing 24.12 voor .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Gerelateerde tutorials
-
-- [Eenheden van maat in Aspose.Drawing voor .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Hoe transformatie toe te passen: Lokale transformatie in Aspose.Drawing voor .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Matrixtransformatie tutorial: Matrixtransformaties in Aspose.Drawing voor .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

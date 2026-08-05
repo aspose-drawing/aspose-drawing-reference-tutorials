@@ -213,13 +213,6 @@ A: [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) にアクセス
 **テスト済みバージョン:** Aspose.Drawing 24.11 for .NET  
 **著者:** Aspose
 
-## 関連チュートリアル
-
-- [Aspose.Drawing for .NET を使用した PNG への画像クロップ方法](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET を使用した画像のスケーリング方法](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing を使用した BMP から PNG への変換とその他フォーマット](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}

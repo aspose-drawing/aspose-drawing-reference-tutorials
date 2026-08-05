@@ -212,15 +212,9 @@ Ebben az útmutatóban mindent lefedtünk, ami a **téglalap rajzolásához** sz
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [Mértékegységek az Aspose.Drawing for .NET-ben](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Hogyan alkalmazzunk átalakítást: helyi átalakítás az Aspose.Drawing for .NET-ben](/drawing/net/coordinate-transformations/local-transformation/)
-- [Mátrix átalakítás oktatóanyag: mátrix átalakítások az Aspose.Drawing for .NET-ben](/drawing/net/coordinate-transformations/matrix-transformations/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

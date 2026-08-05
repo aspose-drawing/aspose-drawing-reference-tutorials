@@ -200,14 +200,8 @@ A: [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) 에 방문하�
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose
 
-## 관련 튜토리얼
-
-- [Aspose.Drawing for .NET을 사용하여 PNG로 이미지 자르기](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET을 사용하여 이미지 스케일링하기](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing을 사용하여 BMP를 PNG 및 기타 포맷으로 변환하기](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

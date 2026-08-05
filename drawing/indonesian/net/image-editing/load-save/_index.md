@@ -167,18 +167,8 @@ Anda kini memiliki pola yang solid dan siap produksi untuk **mengonversi BMP ke 
 **Diuji Dengan:** Aspose.Drawing 24.12 for .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Terkait
-
-- [Cara Memotong Gambar ke PNG dengan Aspose.Drawing untuk .NET](/drawing/net/image-editing/cropping/)
-- [Cara Menskalakan Gambar dengan Aspose.Drawing untuk .NET](/drawing/net/image-editing/scale/)
-- [Simpan Gambar PNG dan Bekerja dengan Font yang Terpasang di Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

@@ -214,14 +214,9 @@ C: Yardım ve topluluk desteği için [Aspose.Drawing Forum](https://forum.aspos
 **Test Edilen Versiyon:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose
 
-## İlgili Öğreticiler
-
-- [Aspose.Drawing for .NET ile PNG'ye Görüntü Kırpma](/drawing/net/image-editing/cropping/)
-- [Aspose.Drawing for .NET ile Görüntü Ölçekleme](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing ile BMP'yi PNG ve Diğer Formatlara Dönüştürme](/drawing/net/image-editing/load-save/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

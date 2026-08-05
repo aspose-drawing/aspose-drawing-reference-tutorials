@@ -176,19 +176,8 @@ Sie haben nun ein solides, produktionsreifes Muster, um **BMP in PNG zu konverti
 **Tested With:** Aspose.Drawing 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Verwandte Tutorials
-
-- [Wie man ein Bild zu PNG zuschneidet mit Aspose.Drawing für .NET](/drawing/net/image-editing/cropping/)
-- [Wie man Bilder skaliert mit Aspose.Drawing für .NET](/drawing/net/image-editing/scale/)
-- [PNG-Bild speichern und mit installierten Schriftarten in Aspose.Drawing arbeiten](/drawing/net/text-and-fonts/installed-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

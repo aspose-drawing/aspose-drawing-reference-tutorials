@@ -184,13 +184,6 @@ Aspose.Drawing を使用して **ビットマップを PNG として保存**し�
 **テスト環境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose
 
-## 関連チュートリアル
-
-- [Convert BMP to PNG and Other Formats with Aspose.Drawing](/drawing/net/image-editing/load-save/)
-- [How to Scale Images with Aspose.Drawing for .NET](/drawing/net/image-editing/scale/)
-- [How to Crop Image to PNG with Aspose.Drawing for .NET](/drawing/net/image-editing/cropping/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

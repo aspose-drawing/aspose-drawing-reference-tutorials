@@ -209,15 +209,8 @@ Neste guia cobrimos tudo o que você precisa para **como desenhar retângulo** g
 **Testado com:** Aspose.Drawing 24.12 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriais relacionados
-
-- [Unidades de medida no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/units-of-measure/)
-- [Como aplicar transformação: Transformação local no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/local-transformation/)
-- [Tutorial de Transformação de Matriz: Transformações de Matriz no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -214,14 +214,8 @@ A: Gå till [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) för a
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## Relaterade handledningar
-
-- [Hur man beskär bild till PNG med Aspose.Drawing för .NET](/drawing/net/image-editing/cropping/)
-- [Hur man skalar bilder med Aspose.Drawing för .NET](/drawing/net/image-editing/scale/)
-- [Konvertera BMP till PNG och andra format med Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

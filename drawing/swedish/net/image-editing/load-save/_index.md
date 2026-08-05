@@ -177,18 +177,8 @@ Du har nu ett robust, produktionsklart mönster för att **konvertera BMP till P
 **Testad med:** Aspose.Drawing 24.12 for .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Relaterade handledningar
-
-- [Hur man beskär bild till PNG med Aspose.Drawing för .NET](/drawing/net/image-editing/cropping/)
-- [Hur man skalar bilder med Aspose.Drawing för .NET](/drawing/net/image-editing/scale/)
-- [Spara PNG‑bild och arbeta med installerade typsnitt i Aspose.Drawing](/drawing/net/text-and-fonts/installed-fonts/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-```csharp
-using System.Drawing;
-```
+{{< blocks/products/products-backtop-button >}}

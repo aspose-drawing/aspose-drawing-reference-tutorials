@@ -212,13 +212,8 @@ A: Acesse o [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) para b
 **Testado com:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Tutoriais relacionados
-
-- [Como cortar imagem para PNG com Aspose.Drawing para .NET](/drawing/net/image-editing/cropping/)
-- [Como redimensionar imagens com Aspose.Drawing para .NET](/drawing/net/image-editing/scale/)
-- [Converter BMP para PNG e outros formatos com Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

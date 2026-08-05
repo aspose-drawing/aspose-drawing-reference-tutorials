@@ -184,12 +184,6 @@ Je hebt nu geleerd hoe je **bitmap opslaat als PNG** met Aspose.Drawing, meerder
 **Getest met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose
 
-## Gerelateerde tutorials
-
-- [BMP converteren naar PNG en andere formaten met Aspose.Drawing](/drawing/net/image-editing/load-save/)
-- [Hoe afbeeldingen schalen met Aspose.Drawing voor .NET](/drawing/net/image-editing/scale/)
-- [Hoe afbeelding bijsnijden naar PNG met Aspose.Drawing voor .NET](/drawing/net/image-editing/cropping/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
