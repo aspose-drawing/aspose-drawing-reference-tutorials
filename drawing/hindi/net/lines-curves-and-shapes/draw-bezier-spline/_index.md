@@ -188,15 +188,8 @@ A: हाँ, सहेजने से पहले नए बिंदुओ�
 **परीक्षित संस्करण:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## संबंधित ट्यूटोरियल
-
-- [Aspose.Drawing के साथ PNG के रूप में बिटमैप सहेजें और बंद वक्र बनाएं](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Aspose.Drawing में इमेज सहेजें और कार्डिनल स्प्लाइन बनाएं](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Aspose.Drawing for .NET के साथ एलिप्स ड्रॉ करें](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

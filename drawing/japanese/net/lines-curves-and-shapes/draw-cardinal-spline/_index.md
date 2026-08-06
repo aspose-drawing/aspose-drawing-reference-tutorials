@@ -182,14 +182,8 @@ A5: 詳細情報やサンプルは包括的な [ドキュメント](https://refe
 **テスト環境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 関連チュートリアル
-
-- [Aspose.Drawing でビットマップを PNG として保存し、閉曲線を描く](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [C# でビットマップを保存 – Aspose.Drawing でベジエスプラインを描く](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Aspose.Drawing でソリッドブラシを使用してビットマップを PNG として保存](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

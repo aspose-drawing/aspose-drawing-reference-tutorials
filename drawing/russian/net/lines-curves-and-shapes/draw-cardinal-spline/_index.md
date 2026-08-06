@@ -185,15 +185,8 @@ A5: Обратитесь к полной [документации](https://refe
 **Тестировано с:** Aspose.Drawing 24.11 для .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Похожие руководства
-
-- [Сохранить Bitmap как PNG и нарисовать закрытые кривые с Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Сохранить Bitmap C# – нарисовать сплайны Безье с Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Сохранить Bitmap как PNG с использованием сплошных кистей в Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

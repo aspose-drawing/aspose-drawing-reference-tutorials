@@ -170,12 +170,6 @@ Mengganti `System.Drawing.Common` menghilangkan ketergantungan GDI+ spesifik pla
 **Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
 **Penulis:** Aspose
 
-## Tutorial Terkait
-
-- [Transformasi Sistem Koordinat – Transformasi Halaman di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutorial Transformasi Matriks: Transformasi Matriks di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Cara Memutar Gambar dengan Transformasi Global Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

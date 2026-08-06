@@ -168,28 +168,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 
 ## Συχνές Ερωτήσεις
 
-### Ε1: Μπορώ να προσαρμόσω το χρώμα του τόξου;
-
-Α1: Ναι, μπορείτε. Απλώς τροποποιήστε την παράμετρο χρώματος κατά τη δημιουργία του αντικειμένου `Pen`.
-
-### Ε2: Τι γίνεται αν θέλω διαφορετική γωνία έναρξης για το τόξο;
-
-Α2: Προσαρμόστε την παράμετρο γωνίας έναρξης στη μέθοδο `DrawArc` σύμφωνα με τις απαιτήσεις σας.
-
-### Ε3: Είναι το Aspose.Drawing κατάλληλο για άλλα γραφικά στοιχεία;
-
-Α3: Απόλυτα. Το Aspose.Drawing υποστηρίζει ένα ευρύ φάσμα γραφικών στοιχείων, όπως γραμμές, καμπύλες και σχήματα.
-
-### Ε4: Μπορώ να ενσωματώσω το Aspose.Drawing με άλλες βιβλιοθήκες .NET;
-
-Α4: Ναι, το Aspose.Drawing ενσωματώνεται άψογα με άλλες βιβλιοθήκες .NET, παρέχοντας ευελιξία στην ανάπτυξή σας.
-
-### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη ή συζητήσεις κοινότητας;
-
-Α5: Επισκεφθείτε το [φόρουμ Aspose.Drawing](https://forum.aspose.com/c/drawing/44) για υποστήριξη κοινότητας και συζητήσεις.
-
-## Συχνές Ερωτήσεις
-
 **Ε: Λειτουργεί αυτό με .NET 6 και νεότερα;**  
 Α: Ναι, το Aspose.Drawing υποστηρίζει πλήρως τα runtime .NET 6, .NET 7 και .NET 8.
 
@@ -214,13 +192,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 **Τελευταία Ενημέρωση:** 2026-05-29  
 **Δοκιμάστηκε Με:** Aspose.Drawing 24.11 for .NET  
 **Συγγραφέας:** Aspose
-
-## Σχετικά Μαθήματα
-
-- [Πώς να Σχεδιάσετε Τόξα και Άλλα Σχήματα με το Aspose.Drawing για .NET](/drawing/net/lines-curves-and-shapes/)
-- [Πώς να Σχεδιάσετε Έλλειψη με το Aspose.Drawing για .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Πώς να δημιουργήσετε bitmap aspose.drawing – Σχεδίαση Πολυγώνων σε .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

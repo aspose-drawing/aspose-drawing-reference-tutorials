@@ -165,12 +165,6 @@ A `System.Drawing.Common` lecserélése megszünteti a platform‑specifikus GDI
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## Kapcsolódó oktatóanyagok
-
-- [Koordináta Rendszer Átalakítás – Oldal Átalakítás az Aspose.Drawing for .NET‑ben](/drawing/net/coordinate-transformations/page-transformation/)
-- [Mátrix Átalakítás Oktatóanyag: Mátrix Átalakítások az Aspose.Drawing for .NET‑ben](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Hogyan forgassuk el a képet az Aspose.Drawing Globális Átalakítással](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

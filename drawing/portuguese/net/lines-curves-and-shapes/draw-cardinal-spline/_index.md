@@ -184,15 +184,8 @@ A5: Consulte a abrangente [documentação](https://reference.aspose.com/drawing/
 **Testado com:** Aspose.Drawing 24.11 para .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriais Relacionados
-
-- [Salvar Bitmap como PNG e desenhar curvas fechadas com Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Salvar Bitmap C# – Desenhar Splines Bézier com Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Salvar Bitmap como PNG com Pincéis Sólidos no Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

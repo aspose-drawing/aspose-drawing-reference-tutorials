@@ -247,15 +247,9 @@ A5: Посетите [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/4
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Связанные руководства
-
-- [Как лицензировать Aspose.Drawing для .NET – как лицензировать aspose.drawing](/drawing/net/licensing/)
-- [Как масштабировать изображения с помощью Aspose.Drawing для .NET](/drawing/net/image-editing/scale/)
-- [Как рисовать текст и шрифты с помощью Aspose.Drawing для .NET](/drawing/net/text-and-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

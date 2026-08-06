@@ -166,28 +166,6 @@ Le fichier enregistré (`DrawArc_out.png`) contient l’image d’arc générée
 | **Exception fichier non trouvé** | Vérifiez que le répertoire cible existe ou créez‑le programmaticalement avant d’appeler `Save`. |
 | **Les couleurs diffèrent sous Linux** | Utilisez `Color.FromArgb` avec des valeurs RGBA explicites pour garantir un rendu cohérent sur toutes les plateformes. |
 
-## FAQ
-
-### Q1 : Puis‑je personnaliser la couleur de l’arc ?
-
-Oui, vous pouvez. Modifiez simplement le paramètre de couleur lors de la création de l’objet `Pen`.
-
-### Q2 : Et si je veux un angle de départ différent pour l’arc ?
-
-Ajustez le paramètre d’angle de départ dans la méthode `DrawArc` selon vos besoins.
-
-### Q3 : Aspose.Drawing convient‑il à d’autres éléments graphiques ?
-
-Absolument. Aspose.Drawing prend en charge un large éventail d’éléments graphiques, y compris les lignes, les courbes et les formes.
-
-### Q4 : Puis‑je intégrer Aspose.Drawing avec d’autres bibliothèques .NET ?
-
-Oui, Aspose.Drawing s’intègre parfaitement avec d’autres bibliothèques .NET, offrant une flexibilité dans votre développement.
-
-### Q5 : Où puis‑je trouver un support supplémentaire ou des discussions communautaires ?
-
-Visitez le [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pour le support communautaire et les discussions.
-
 ## Questions fréquemment posées
 
 **Q : Cela fonctionne‑t‑il avec .NET 6 et versions ultérieures ?**  
@@ -214,13 +192,6 @@ Vous savez maintenant **comment tracer un arc et enregistrer une image PNG** ave
 **Dernière mise à jour :** 2026-05-29  
 **Testé avec :** Aspose.Drawing 24.11 for .NET  
 **Auteur :** Aspose
-
-## Tutoriels associés
-
-- [Comment tracer des arcs et d’autres formes avec Aspose.Drawing pour .NET](/drawing/net/lines-curves-and-shapes/)
-- [Comment tracer une ellipse avec Aspose.Drawing pour .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Comment créer un bitmap aspose.drawing – Dessiner des polygones en .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

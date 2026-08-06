@@ -247,14 +247,8 @@ Att behärska hur man **ställer in Aspose.Drawing‑licens**—oavsett om det �
 **Testat med:** Aspose.Drawing 24.11 for .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Relaterade handledningar
-
-- [Hur man licensierar Aspose.Drawing för .NET – hur man licensierar aspose.drawing](/drawing/net/licensing/)
-- [Hur man skalar bilder med Aspose.Drawing för .NET](/drawing/net/image-editing/scale/)
-- [Hur man ritar text och typsnitt med Aspose.Drawing för .NET](/drawing/net/text-and-fonts/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

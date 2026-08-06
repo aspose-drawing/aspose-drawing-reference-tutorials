@@ -189,15 +189,8 @@ A: Ano, stačí znovu zavolat `graphics.DrawBezier` s novými body před uložen
 **Testováno s:** Aspose.Drawing 24.11 pro .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Uložit bitmapu jako PNG a kreslit uzavřené křivky s Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Jak uložit obrázek a kreslit kardinální spline v Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Jak nakreslit elipsu s Aspose.Drawing pro .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

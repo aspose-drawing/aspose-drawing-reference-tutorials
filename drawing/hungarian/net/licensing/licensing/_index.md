@@ -247,14 +247,8 @@ A **Aspose.Drawing licenc beállításának** (legyen szó fájlból, stream‑b
 **Tesztelve ezzel:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó útmutatók
-
-- [Hogyan licenceljük az Aspose.Drawing‑t .NET‑hez – hogyan licenceljük az aspose.drawing-et](/drawing/net/licensing/)
-- [Hogyan méretezzünk képeket az Aspose.Drawing‑del .NET‑ben](/drawing/net/image-editing/scale/)
-- [Hogyan rajzoljunk szöveget és betűtípusokat az Aspose.Drawing‑del .NET‑ben](/drawing/net/text-and-fonts/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

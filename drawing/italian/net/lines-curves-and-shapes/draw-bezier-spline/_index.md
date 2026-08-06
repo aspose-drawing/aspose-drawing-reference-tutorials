@@ -186,15 +186,9 @@ A: Sì, basta chiamare nuovamente `graphics.DrawBezier` con nuovi punti prima di
 **Testato Con:** Aspose.Drawing 24.11 for .NET  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Correlati
-
-- [Salva Bitmap come PNG & Disegna Curve Chiuse con Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Come Salvare Immagine e Disegnare Spline Cardinali in Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Come Disegnare un Ellisse con Aspose.Drawing per .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

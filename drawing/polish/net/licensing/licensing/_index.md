@@ -247,15 +247,8 @@ Mastering how to **set Aspose.Drawing license**—whether from a file, a stream,
 **Testowano z:** Aspose.Drawing 24.11 dla .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane samouczki
-
-- [Jak licencjonować Aspose.Drawing dla .NET – jak licencjonować aspose.drawing](/drawing/net/licensing/)
-- [Jak skalować obrazy przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/scale/)
-- [Jak rysować tekst i czcionki przy użyciu Aspose.Drawing dla .NET](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

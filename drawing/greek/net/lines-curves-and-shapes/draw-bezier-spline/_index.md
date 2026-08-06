@@ -186,15 +186,8 @@ A: Ναι, απλώς καλέστε ξανά το `graphics.DrawBezier` με ν
 **Δοκιμάστηκε Με:** Aspose.Drawing 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικές Οδηγίες
-
-- [Αποθήκευση Bitmap ως PNG & Σχεδίαση Κλειστών Καμπυλών με Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Πώς να Αποθηκεύσετε Εικόνα και να Σχεδιάσετε Cardinal Splines στο Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Πώς να Σχεδιάσετε Έλλειψη με Aspose.Drawing για .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

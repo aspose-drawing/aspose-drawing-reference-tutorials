@@ -188,15 +188,8 @@ A: Ja, anropa helt enkelt `graphics.DrawBezier` igen med nya punkter innan du sp
 **Testat med:** Aspose.Drawing 24.11 for .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Relaterade handledningar
-
-- [Spara Bitmap som PNG & Rita slutna kurvor med Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Hur man sparar bild och ritar Cardinal-splines i Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Hur man ritar ellips med Aspose.Drawing för .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

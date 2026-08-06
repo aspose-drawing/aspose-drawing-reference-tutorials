@@ -183,15 +183,9 @@ A: はい。保存する前に新しい点で `graphics.DrawBezier` を再度呼
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 関連チュートリアル
-
-- [Save Bitmap as PNG & Draw Closed Curves with Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [How to Save Image and Draw Cardinal Splines in Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [How to Draw Ellipse with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

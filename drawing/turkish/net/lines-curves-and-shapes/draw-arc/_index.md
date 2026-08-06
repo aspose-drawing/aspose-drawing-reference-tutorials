@@ -155,23 +155,6 @@ Kaydedilen dosya (`DrawArc_out.png`) oluşturulan yay görüntüsünü içerir v
 | **Dosya bulunamadı hatası** | `Save` çağrılmadan önce hedef dizinin var olduğunu doğrulayın veya programatik olarak oluşturun. |
 | **Linux'ta renkler farklı görünüyor** | Platformlar arasında tutarlı render sağlamak için açık RGBA değerleriyle `Color.FromArgb` kullanın. |
 
-## SSS
-
-### S1: Yayı rengini özelleştirebilir miyim?
-C1: Evet, yapabilirsiniz. `Pen` nesnesi oluştururken renk parametresini basitçe değiştirin.
-
-### S2: Yayı için farklı bir başlangıç açısı istesem ne olur?
-C2: Gereksinimlerinize göre `DrawArc` metodundaki başlangıç açısı parametresini ayarlayın.
-
-### S3: Aspose.Drawing diğer grafik öğeleri için uygun mu?
-C3: Kesinlikle. Aspose.Drawing, çizgiler, eğriler ve şekiller dahil olmak üzere geniş bir grafik öğe yelpazesini destekler.
-
-### S4: Aspose.Drawing'i diğer .NET kütüphaneleriyle entegre edebilir miyim?
-C4: Evet, Aspose.Drawing diğer .NET kütüphaneleriyle sorunsuz bir şekilde entegre olur ve geliştirme sürecinizde esneklik sağlar.
-
-### S5: Ek destek veya topluluk tartışmalarını nereden bulabilirim?
-C5: Topluluk desteği ve tartışmalar için [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) adresini ziyaret edin.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu .NET 6 ve sonrası ile çalışıyor mu?**  
@@ -198,13 +181,6 @@ Artık Aspose.Drawing kullanarak **how to draw arc and save image PNG** işlemin
 **Son Güncelleme:** 2026-05-29  
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose
-
-## İlgili Öğreticiler
-
-- [Aspose.Drawing for .NET ile Yaylar ve Diğer Şekilleri Çizme](/drawing/net/lines-curves-and-shapes/)
-- [Aspose.Drawing for .NET ile Elips Çizme](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Aspose.Drawing ile bitmap oluşturma – .NET'te Çokgen Çizme](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

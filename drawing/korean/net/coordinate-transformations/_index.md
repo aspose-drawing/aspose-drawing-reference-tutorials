@@ -164,13 +164,6 @@ Aspose.Drawing for .NET에서 월드 변환을 탐색하세요. 단계별로 쉽
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose
 
-## 관련 튜토리얼
-
-- [Coordinate System Transformation – Page Transformation in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Matrix Transformation Tutorial: Matrix Transformations in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [How to Rotate Image with Aspose.Drawing Global Transformation](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

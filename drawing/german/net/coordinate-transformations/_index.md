@@ -168,12 +168,6 @@ Durch das Ersetzen von `System.Drawing.Common` werden plattformspezifische GDI+�
 **Getestet mit:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Verwandte Tutorials
-
-- [Koordinatensystem-Transformation – Seiten‑Transformation in Aspose.Drawing für .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Matrix‑Transformation Tutorial: Matrix‑Transformationen in Aspose.Drawing für .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Wie man ein Bild mit Aspose.Drawing Global Transformation rotiert](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

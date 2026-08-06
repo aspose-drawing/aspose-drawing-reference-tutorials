@@ -164,28 +164,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 | **文件未找到异常** | 验证目标目录是否存在，或在调用 `Save` 前以编程方式创建它。 |
 | **在 Linux 上颜色显示不同** | 使用带有明确 RGBA 值的 `Color.FromArgb`，以确保跨平台渲染一致。 |
 
-## 常见问题
-
-### 问题 1：我可以自定义弧线的颜色吗？
-
-A1：可以。只需在创建 `Pen` 对象时修改颜色参数即可。
-
-### 问题 2：如果我想要不同的起始角度怎么办？
-
-A2：根据需求在 `DrawArc` 方法中调整起始角度参数。
-
-### 问题 3：Aspose.Drawing 适用于其他图形元素吗？
-
-A3：当然。Aspose.Drawing 支持包括线条、曲线和形状在内的多种图形元素。
-
-### 问题 4：我可以将 Aspose.Drawing 与其他 .NET 库集成吗？
-
-A4：是的，Aspose.Drawing 可无缝集成其他 .NET 库，为开发提供灵活性。
-
-### 问题 5：我在哪里可以找到更多支持或社区讨论？
-
-A5：访问 [Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44) 获取社区支持和讨论。
-
 ## 常见问答
 
 **问：这在 .NET 6 及更高版本上可用吗？**  
@@ -212,13 +190,6 @@ A5：访问 [Aspose.Drawing 论坛](https://forum.aspose.com/c/drawing/44) 获�
 **Last Updated:** 2026-05-29  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
-
-## 相关教程
-
-- [如何使用 Aspose.Drawing for .NET 绘制弧线和其他形状](/drawing/net/lines-curves-and-shapes/)
-- [如何使用 Aspose.Drawing for .NET 绘制椭圆](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [如何创建 bitmap aspose.drawing – 在 .NET 中绘制多边形](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

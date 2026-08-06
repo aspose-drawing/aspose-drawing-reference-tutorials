@@ -181,15 +181,8 @@ A5: 请参考完整的[文档](https://reference.aspose.com/drawing/net/)获取�
 **测试环境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相关教程
-
-- [保存位图为 PNG 并使用 Aspose.Drawing 绘制闭合曲线](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [保存位图 C# – 使用 Aspose.Drawing 绘制贝塞尔样条](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [使用实心画刷在 Aspose.Drawing 中将位图保存为 PNG](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

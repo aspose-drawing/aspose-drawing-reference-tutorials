@@ -188,15 +188,9 @@ A : Oui, il suffit d’appeler à nouveau `graphics.DrawBezier` avec de nouveaux
 **Testé avec :** Aspose.Drawing 24.11 for .NET  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriels associés
-
-- [Enregistrer le bitmap en PNG et dessiner des courbes fermées avec Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Comment enregistrer une image et dessiner des splines cardinales avec Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Comment dessiner une ellipse avec Aspose.Drawing pour .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

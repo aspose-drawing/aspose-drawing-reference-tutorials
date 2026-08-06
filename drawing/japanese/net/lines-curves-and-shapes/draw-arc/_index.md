@@ -164,28 +164,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 | **ファイルが見つからない例外** | `Save` を呼び出す前に、対象ディレクトリが存在するか確認するか、プログラムで作成してください。 |
 | **Linux で色が異なって見える** | プラットフォーム間で一貫した描画を保証するため、明示的な RGBA 値で `Color.FromArgb` を使用してください。 |
 
-## FAQ
-
-### Q1: 円弧の色をカスタマイズできますか？
-
-A1: はい、可能です。`Pen` オブジェクトを作成する際にカラー パラメータを変更するだけです。
-
-### Q2: 円弧の開始角度を変更したい場合は？
-
-A2: 要件に応じて `DrawArc` メソッドの開始角度パラメータを調整してください。
-
-### Q3: Aspose.Drawing は他のグラフィック要素にも適していますか？
-
-A3: もちろんです。Aspose.Drawing は線、曲線、形状など、幅広いグラフィック要素をサポートしています。
-
-### Q4: Aspose.Drawing を他の .NET ライブラリと統合できますか？
-
-A4: はい、Aspose.Drawing は他の .NET ライブラリとシームレスに統合でき、開発に柔軟性を提供します。
-
-### Q5: 追加のサポートやコミュニティディスカッションはどこで見つけられますか？
-
-A5: コミュニティサポートやディスカッションは [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) をご覧ください。
-
 ## よくある質問
 
 **Q: .NET 6 以降でも動作しますか？**  
@@ -212,12 +190,6 @@ A: 終了時に `graphics.Dispose();` と `bitmap.Dispose();` を呼び出して
 **最終更新日:** 2026-05-29  
 **テスト環境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose
-
-## 関連チュートリアル
-
-- [Aspose.Drawing for .NET で円弧やその他の形状を描画する方法](/drawing/net/lines-curves-and-shapes/)
-- [Aspose.Drawing for .NET で楕円を描画する方法](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Aspose.Drawing でビットマップを作成 – .NET で多角形を描画する方法](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -167,28 +167,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 
 ## 자주 묻는 질문
 
-### Q1: 호의 색상을 사용자 정의할 수 있나요?
-
-A1: 예, 가능합니다. `Pen` 객체를 생성할 때 색상 매개변수를 수정하면 됩니다.
-
-### Q2: 호의 시작 각도를 다르게 지정하려면 어떻게 하나요?
-
-A2: `DrawArc` 메서드의 시작 각도 매개변수를 원하는 값으로 조정하면 됩니다.
-
-### Q3: Aspose.Drawing은 다른 그래픽 요소에도 적합한가요?
-
-A3: 물론입니다. Aspose.Drawing은 선, 곡선, 도형 등 다양한 그래픽 요소를 지원합니다.
-
-### Q4: Aspose.Drawing을 다른 .NET 라이브러리와 통합할 수 있나요?
-
-A4: 예, Aspose.Drawing은 다른 .NET 라이브러리와 원활히 통합되어 개발 유연성을 제공합니다.
-
-### Q5: 추가 지원이나 커뮤니티 토론을 어디서 찾을 수 있나요?
-
-A5: [Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44)에서 커뮤니티 지원 및 토론을 확인하세요.
-
-## 자주 묻는 질문
-
 **Q: .NET 6 이상에서도 작동합니까?**  
 A: 예, Aspose.Drawing은 .NET 6, .NET 7 및 .NET 8 런타임을 완전히 지원합니다.
 
@@ -213,12 +191,6 @@ A: 작업이 끝난 후 `graphics.Dispose();` 와 `bitmap.Dispose();` 를 호출
 **마지막 업데이트:** 2026-05-29  
 **테스트 대상:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose
-
-## 관련 튜토리얼
-
-- [Aspose.Drawing for .NET으로 호 및 기타 도형 그리기](/drawing/net/lines-curves-and-shapes/)
-- [Aspose.Drawing for .NET으로 타원 그리기](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Aspose.Drawing으로 비트맵 생성 – .NET에서 다각형 그리기](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

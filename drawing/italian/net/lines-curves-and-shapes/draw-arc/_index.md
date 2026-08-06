@@ -166,28 +166,6 @@ Il file salvato (`DrawArc_out.png`) contiene l'immagine dell'arco generata, pron
 | **Eccezione file non trovato** | Verifica che la directory di destinazione esista o creala programmaticamente prima di chiamare `Save`. |
 | **I colori appaiono diversi su Linux** | Usa `Color.FromArgb` con valori RGBA espliciti per garantire un rendering coerente su tutte le piattaforme. |
 
-## FAQ
-
-### D1: Posso personalizzare il colore dell'arco?
-
-R1: Sì, puoi. Basta modificare il parametro colore quando crei l'oggetto `Pen`.
-
-### D2: Cosa succede se voglio un angolo di partenza diverso per l'arco?
-
-R2: Regola il parametro dell'angolo di partenza nel metodo `DrawArc` secondo le tue esigenze.
-
-### D3: Aspose.Drawing è adatto ad altri elementi grafici?
-
-R3: Assolutamente. Aspose.Drawing supporta una vasta gamma di elementi grafici, incluse linee, curve e forme.
-
-### D4: Posso integrare Aspose.Drawing con altre librerie .NET?
-
-R4: Sì, Aspose.Drawing si integra perfettamente con altre librerie .NET, offrendo flessibilità nello sviluppo.
-
-### D5: Dove posso trovare supporto aggiuntivo o discussioni della community?
-
-R5: Visita il [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) per supporto della community e discussioni.
-
 ## Domande frequenti
 
 **D: Funziona con .NET 6 e versioni successive?**  
@@ -214,12 +192,6 @@ Ora sai **come disegnare un arco e salvare l'immagine PNG** usando Aspose.Drawin
 **Last Updated:** 2026-05-29  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
-
-## Tutorial correlati
-
-- [Come disegnare archi e altre forme con Aspose.Drawing per .NET](/drawing/net/lines-curves-and-shapes/)
-- [Come disegnare un'ellisse con Aspose.Drawing per .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Come creare bitmap aspose.drawing – Disegnare poligoni in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

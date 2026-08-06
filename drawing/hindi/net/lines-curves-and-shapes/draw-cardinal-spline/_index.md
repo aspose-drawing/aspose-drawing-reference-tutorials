@@ -172,13 +172,8 @@ A5: विस्तृत जानकारी और उदाहरणों 
 **परीक्षण किया गया:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## संबंधित ट्यूटोरियल
-- [Bitmap को PNG के रूप में सहेजें और Aspose.Drawing के साथ बंद कर्व ड्रॉ करें](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Bitmap C# को सहेजें – Aspose.Drawing के साथ Bezier स्प्लाइन्स ड्रॉ करें](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Solid Brushes के साथ Aspose.Drawing में Bitmap को PNG के रूप में सहेजें](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

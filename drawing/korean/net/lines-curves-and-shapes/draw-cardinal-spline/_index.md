@@ -182,15 +182,9 @@ A5: 자세한 정보와 예제는 종합적인 [문서](https://reference.aspose
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [Aspose.Drawing으로 비트맵을 PNG로 저장 및 닫힌 곡선 그리기](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [C# 비트맵 저장 – Aspose.Drawing으로 베지어 스플라인 그리기](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Aspose.Drawing에서 솔리드 브러시로 비트맵을 PNG로 저장](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

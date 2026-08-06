@@ -163,12 +163,6 @@ Nahrazení `System.Drawing.Common` odstraňuje platformově specifické závislo
 **Testováno s:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Související tutoriály
-
-- [Transformace souřadnicového systému – Transformace stránky v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutoriál transformace matice: Matice transformací v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Jak otočit obrázek pomocí globální transformace Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

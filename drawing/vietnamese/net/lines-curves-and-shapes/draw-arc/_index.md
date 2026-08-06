@@ -165,28 +165,6 @@ Tệp đã lưu (`DrawArc_out.png`) chứa ảnh cung đã tạo, sẵn sàng s�
 | **Ngoại lệ tệp không tìm thấy** | Kiểm tra thư mục đích có tồn tại hay không hoặc tạo nó bằng mã trước khi gọi `Save`. |
 | **Màu sắc hiển thị khác trên Linux** | Sử dụng `Color.FromArgb` với các giá trị RGBA rõ ràng để đảm bảo việc render nhất quán trên các nền tảng. |
 
-## Câu hỏi thường gặp
-
-### Câu 1: Tôi có thể tùy chỉnh màu của cung không?
-
-A1: Có, bạn có thể. Chỉ cần sửa đổi tham số màu khi tạo đối tượng `Pen`.
-
-### Câu 2: Nếu tôi muốn góc bắt đầu khác cho cung thì sao?
-
-A2: Điều chỉnh tham số góc bắt đầu trong phương thức `DrawArc` theo yêu cầu của bạn.
-
-### Câu 3: Aspose.Drawing có phù hợp cho các yếu tố đồ họa khác không?
-
-A3: Chắc chắn. Aspose.Drawing hỗ trợ một loạt các yếu tố đồ họa, bao gồm đường thẳng, đường cong và hình dạng.
-
-### Câu 4: Tôi có thể tích hợp Aspose.Drawing với các thư viện .NET khác không?
-
-A4: Có, Aspose.Drawing tích hợp liền mạch với các thư viện .NET khác, cung cấp tính linh hoạt trong phát triển.
-
-### Câu 5: Tôi có thể tìm hỗ trợ bổ sung hoặc thảo luận cộng đồng ở đâu?
-
-A5: Truy cập [diễn đàn Aspose.Drawing](https://forum.aspose.com/c/drawing/44) để nhận hỗ trợ cộng đồng và thảo luận.
-
 ## Các câu hỏi thường gặp
 
 **Q: Điều này có hoạt động với .NET 6 và các phiên bản sau không?**  
@@ -213,13 +191,6 @@ Bây giờ bạn đã biết **cách vẽ cung và lưu ảnh PNG** bằng Aspos
 **Cập nhật lần cuối:** 2026-05-29  
 **Kiểm tra với:** Aspose.Drawing 24.11 for .NET  
 **Tác giả:** Aspose
-
-## Hướng dẫn liên quan
-
-- [Cách Vẽ Cung và Các Hình Khác với Aspose.Drawing cho .NET](/drawing/net/lines-curves-and-shapes/)
-- [Cách Vẽ Hình Elip với Aspose.Drawing cho .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Cách tạo bitmap aspose.drawing – Vẽ Đa Giác trong .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

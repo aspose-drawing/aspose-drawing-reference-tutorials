@@ -182,15 +182,8 @@ A5: Odkazujte na komplexní [dokumentaci](https://reference.aspose.com/drawing/n
 **Testováno s:** Aspose.Drawing 24.11 pro .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Uložit bitmapu jako PNG a kreslit uzavřené křivky pomocí Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Uložit bitmapu C# – kreslit Bézierovy spline pomocí Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Uložit bitmapu jako PNG s pevnými štětci v Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

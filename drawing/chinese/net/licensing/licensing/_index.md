@@ -245,15 +245,9 @@ A5：访问 [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) 获取
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相关教程
-
-- [如何为 .NET 许可 Aspose.Drawing – 如何许可 aspose.drawing](/drawing/net/licensing/)
-- [如何使用 Aspose.Drawing 为 .NET 缩放图像](/drawing/net/image-editing/scale/)
-- [如何使用 Aspose.Drawing 为 .NET 绘制文本和字体](/drawing/net/text-and-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

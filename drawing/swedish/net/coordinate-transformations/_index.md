@@ -170,13 +170,6 @@ Att ersätta `System.Drawing.Common` eliminerar plattformspecifika GDI+‑beroen
 **Testat med:** Aspose.Drawing 24.11 for .NET  
 **Författare:** Aspose
 
-## Relaterade handledningar
-
-- [Koordinatsystemstransformation – Sidtransformation i Aspose.Drawing för .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Matristransformationshandledning: Matristransformationer i Aspose.Drawing för .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Hur man roterar bild med Aspose.Drawing global transformation](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -167,12 +167,6 @@ Aspose.Drawing ให้เครื่องมือกราฟิกที�
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## บทแนะนำที่เกี่ยวข้อง
-
-- [การแปลงระบบพิกัด – การแปลงหน้าใน Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [บทแนะนำการแปลงเมทริกซ์: การแปลงแบบ Matrix ใน Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [วิธีการหมุนภาพด้วย Aspose.Drawing Global Transformation](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

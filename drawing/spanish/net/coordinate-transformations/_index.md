@@ -170,12 +170,6 @@ Reemplazar `System.Drawing.Common` elimina dependencias específicas de la plata
 **Probado con:** Aspose.Drawing 24.11 para .NET  
 **Autor:** Aspose
 
-## Tutoriales relacionados
-
-- [Transformación del sistema de coordenadas – Transformación de página en Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutorial de transformación de matriz: Transformaciones de matriz en Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Cómo rotar una imagen con transformación global de Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

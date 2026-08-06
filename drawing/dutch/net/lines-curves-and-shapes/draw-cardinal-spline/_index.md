@@ -185,14 +185,8 @@ A5: Raadpleeg de uitgebreide [documentation](https://reference.aspose.com/drawin
 **Getest met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Gerelateerde tutorials
-
-- [Bitmap opslaan als PNG & Gesloten Curves tekenen met Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Bitmap opslaan C# – Bezier Splines tekenen met Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Bitmap opslaan als PNG met Solid Brushes in Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

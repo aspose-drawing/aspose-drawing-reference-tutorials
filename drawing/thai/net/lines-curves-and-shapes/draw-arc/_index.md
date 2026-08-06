@@ -165,28 +165,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 | **เกิดข้อยกเว้น File not found** | ยืนยันว่าไดเรกทอรีเป้าหมายมีอยู่หรือสร้างมันโดยโปรแกรมก่อนเรียก `Save` |
 | **สีแสดงผลต่างกันบน Linux** | ใช้ `Color.FromArgb` พร้อมค่าระบุ RGBA อย่างชัดเจนเพื่อให้การเรนเดอร์สอดคล้องข้ามแพลตฟอร์ม |
 
-## คำถามที่พบบ่อย (FAQ's)
-
-### Q1: สามารถปรับสีของส่วนโค้งได้หรือไม่?
-
-A1: ได้, เพียงแก้ไขพารามิเตอร์สีเมื่อสร้างอ็อบเจกต์ `Pen`
-
-### Q2: อยากเปลี่ยนมุมเริ่มต้นของส่วนโค้งต้องทำอย่างไร?
-
-A2: ปรับค่ามุมเริ่มต้นในเมธอด `DrawArc` ตามความต้องการของคุณ
-
-### Q3: Aspose.Drawing เหมาะกับองค์ประกอบกราฟิกอื่น ๆ หรือไม่?
-
-A3: แน่นอน, Aspose.Drawing รองรับองค์ประกอบกราฟิกหลากหลายรวมถึงเส้น, โค้ง, และรูปร่างต่าง ๆ
-
-### Q4: สามารถรวม Aspose.Drawing กับไลบรารี .NET อื่นได้หรือไม่?
-
-A4: ได้, Aspose.Drawing สามารถทำงานร่วมกับไลบรารี .NET อื่นได้อย่างราบรื่น, ให้ความยืดหยุ่นในการพัฒนา
-
-### Q5: จะหาแหล่งสนับสนุนหรือชุมชนเพิ่มเติมได้จากที่ไหน?
-
-A5: เยี่ยมชม [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนและการสนทนาจากชุมชน
-
 ## คำถามที่พบบ่อย (Frequently Asked Questions)
 
 **Q: ทำงานได้กับ .NET 6 และรุ่นต่อไปหรือไม่?**  
@@ -213,13 +191,6 @@ A: เรียก `graphics.Dispose();` และ `bitmap.Dispose();` เมื
 **อัปเดตล่าสุด:** 2026-05-29  
 **ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose
-
-## บทเรียนที่เกี่ยวข้อง
-
-- [How to Draw Arcs and Other Shapes with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/)
-- [How to Draw Ellipse with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [How to create bitmap aspose.drawing – Draw Polygons in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -177,15 +177,8 @@ A: Ja, rufen Sie einfach vor dem Speichern erneut `graphics.DrawBezier` mit neue
 **Getestet mit:** Aspose.Drawing 24.11 für .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Verwandte Tutorials
-
-- [Bitmap als PNG speichern & geschlossene Kurven mit Aspose.Drawing zeichnen](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Wie man ein Bild speichert und Kardinal‑Splines mit Aspose.Drawing zeichnet](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Wie man eine Ellipse mit Aspose.Drawing für .NET zeichnet](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

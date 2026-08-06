@@ -247,15 +247,8 @@ Aspose.Drawing lisansını **dosyadan, akıştan veya ölçülen kullanım arac�
 **Test Edilen Versiyon:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Eğitimler
-
-- [Aspose.Drawing'i .NET için Nasıl Lisanslarsınız – how to license aspose.drawing](/drawing/net/licensing/)
-- [Aspose.Drawing ile .NET'te Görüntüleri Nasıl Ölçeklendirirsiniz](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing ile .NET'te Metin ve Yazı Tipi Çizimi](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

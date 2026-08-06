@@ -183,15 +183,8 @@ A5: Konsultieren Sie die umfassende [Dokumentation](https://reference.aspose.com
 **Getestet mit:** Aspose.Drawing 24.11 für .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Verwandte Tutorials
-
-- [Bitmap als PNG speichern & geschlossene Kurven mit Aspose.Drawing zeichnen](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Bitmap in C# speichern – Bezier‑Splines mit Aspose.Drawing zeichnen](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Bitmap als PNG mit Solid‑Brushes in Aspose.Drawing speichern](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

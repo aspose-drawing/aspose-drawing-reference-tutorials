@@ -168,28 +168,6 @@ Het opgeslagen bestand (`DrawArc_out.png`) bevat de gegenereerde boogafbeelding,
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik de kleur van de boog aanpassen?
-
-A1: Ja, dat kan. Pas simpelweg de kleurparameter aan bij het maken van het `Pen`-object.
-
-### Q2: Wat als ik een andere starthoek voor de boog wil?
-
-A2: Pas de starthoekparameter in de `DrawArc`-methode aan volgens uw wensen.
-
-### Q3: Is Aspose.Drawing geschikt voor andere grafische elementen?
-
-A3: Absoluut. Aspose.Drawing ondersteunt een breed scala aan grafische elementen, waaronder lijnen, krommen en vormen.
-
-### Q4: Kan ik Aspose.Drawing integreren met andere .NET-bibliotheken?
-
-A4: Ja, Aspose.Drawing integreert naadloos met andere .NET-bibliotheken, waardoor u flexibiliteit krijgt in uw ontwikkeling.
-
-### Q5: Waar kan ik extra ondersteuning of community‑discussies vinden?
-
-A5: Bezoek het [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) voor community‑ondersteuning en discussies.
-
-## Veelgestelde vragen
-
 **Q: Werkt dit met .NET 6 en later?**  
 A: Ja, Aspose.Drawing ondersteunt .NET 6, .NET 7 en .NET 8 runtimes volledig.
 
@@ -214,13 +192,6 @@ U weet nu **hoe u een boog kunt tekenen en een PNG‑afbeelding kunt opslaan** m
 **Laatst bijgewerkt:** 2026-05-29  
 **Getest met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose
-
-## Gerelateerde tutorials
-
-- [Hoe bogen en andere vormen te tekenen met Aspose.Drawing voor .NET](/drawing/net/lines-curves-and-shapes/)
-- [Hoe een ellips te tekenen met Aspose.Drawing voor .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Hoe een bitmap te maken aspose.drawing – Polygonen tekenen in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

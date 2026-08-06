@@ -167,11 +167,6 @@ Aspose.Drawing for .NET में वर्ल्ड रूपांतरण �
 **परीक्षण किया गया:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose
 
-## संबंधित ट्यूटोरियल
-- [समन्वय प्रणाली रूपांतरण – Aspose.Drawing for .NET में पेज रूपांतरण](/drawing/net/coordinate-transformations/page-transformation/)
-- [मैट्रिक्स रूपांतरण ट्यूटोरियल: Aspose.Drawing for .NET में मैट्रिक्स रूपांतरण](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Aspose.Drawing वैश्विक रूपांतरण के साथ इमेज को कैसे घुमाएँ](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

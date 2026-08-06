@@ -247,14 +247,8 @@ A5: Επισκεφθείτε το [Aspose.Drawing Forum](https://forum.aspose.co
 **Δοκιμάστηκε Με:** Aspose.Drawing 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικά Μαθήματα
-
-- [Πώς να Αδειοδοτήσετε το Aspose.Drawing για .NET – πώς να αδειοδοτήσετε aspose.drawing](/drawing/net/licensing/)
-- [Πώς να Κλιμακώσετε Εικόνες με το Aspose.Drawing για .NET](/drawing/net/image-editing/scale/)
-- [Πώς να Σχεδιάσετε Κείμενο και Γραμματοσειρές με το Aspose.Drawing για .NET](/drawing/net/text-and-fonts/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

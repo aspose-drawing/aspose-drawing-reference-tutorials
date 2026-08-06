@@ -247,15 +247,8 @@ Việc thành thạo **cài đặt giấy phép Aspose.Drawing**—dù từ tệ
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn liên quan
-
-- [Cách cấp phép Aspose.Drawing cho .NET – cách cấp phép aspose.drawing](/drawing/net/licensing/)
-- [Cách thu phóng ảnh với Aspose.Drawing cho .NET](/drawing/net/image-editing/scale/)
-- [Cách vẽ văn bản và phông chữ với Aspose.Drawing cho .NET](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

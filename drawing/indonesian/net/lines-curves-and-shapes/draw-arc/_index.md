@@ -166,28 +166,6 @@ File yang disimpan (`DrawArc_out.png`) berisi gambar busur yang dihasilkan, siap
 
 ## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya menyesuaikan warna busur?
-
-A1: Ya, Anda bisa. Cukup ubah parameter warna saat membuat objek `Pen`.
-
-### Q2: Bagaimana jika saya menginginkan sudut awal yang berbeda untuk busur?
-
-A2: Sesuaikan parameter sudut awal dalam metode `DrawArc` sesuai kebutuhan Anda.
-
-### Q3: Apakah Aspose.Drawing cocok untuk elemen grafis lainnya?
-
-A3: Tentu saja. Aspose.Drawing mendukung berbagai elemen grafis, termasuk garis, kurva, dan bentuk.
-
-### Q4: Bisakah saya mengintegrasikan Aspose.Drawing dengan perpustakaan .NET lainnya?
-
-A4: Ya, Aspose.Drawing terintegrasi mulus dengan perpustakaan .NET lainnya, memberikan fleksibilitas dalam pengembangan Anda.
-
-### Q5: Di mana saya dapat menemukan dukungan tambahan atau diskusi komunitas?
-
-A5: Kunjungi [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) untuk dukungan komunitas dan diskusi.
-
-## Pertanyaan yang Sering Diajukan
-
 **Q: Apakah ini bekerja dengan .NET 6 dan yang lebih baru?**  
 A: Ya, Aspose.Drawing sepenuhnya mendukung runtime .NET 6, .NET 7, dan .NET 8.
 
@@ -212,13 +190,6 @@ Anda kini tahu **cara menggambar busur dan menyimpan gambar PNG** menggunakan As
 **Terakhir Diperbarui:** 2026-05-29  
 **Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
 **Penulis:** Aspose
-
-## Tutorial Terkait
-
-- [Cara Menggambar Busur dan Bentuk Lain dengan Aspose.Drawing untuk .NET](/drawing/net/lines-curves-and-shapes/)
-- [Cara Menggambar Elips dengan Aspose.Drawing untuk .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Cara membuat bitmap aspose.drawing – Menggambar Poligon di .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

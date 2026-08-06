@@ -165,12 +165,6 @@ Zastąpienie `System.Drawing.Common` eliminuje zależności od specyficznego dla
 **Testowano z:** Aspose.Drawing 24.11 dla .NET  
 **Autor:** Aspose
 
-## Powiązane samouczki
-
-- [Transformacja układu współrzędnych – Transformacja strony w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Samouczek transformacji macierzy: Transformacje macierzowe w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Jak obrócić obraz przy użyciu globalnej transformacji Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

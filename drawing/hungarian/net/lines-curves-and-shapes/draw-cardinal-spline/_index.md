@@ -185,15 +185,8 @@ A5: Tekintse meg a részletes [documentation](https://reference.aspose.com/drawi
 **Tesztelve a következővel:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [Bitmap mentése PNG-ként és zárt görbék rajzolása az Aspose.Drawing segítségével](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Bitmap mentése C# – Bezier spline-ok rajzolása az Aspose.Drawing segítségével](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Bitmap mentése PNG-ként szilárd ecsetekkel az Aspose.Drawing-ban](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

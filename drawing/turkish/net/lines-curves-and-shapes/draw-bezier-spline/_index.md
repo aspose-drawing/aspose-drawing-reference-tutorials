@@ -187,15 +187,8 @@ C: Evet, kaydetmeden önce yeni noktalarla `graphics.DrawBezier` metodunu tekrar
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Öğreticiler
-
-- [Bitmap'i PNG Olarak Kaydet ve Aspose.Drawing ile Kapalı Eğrileri Çizin](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Aspose.Drawing ile Görüntüyü Kaydetme ve Kardinal Spline'ları Çizme](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Aspose.Drawing for .NET ile Elips Çizme](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

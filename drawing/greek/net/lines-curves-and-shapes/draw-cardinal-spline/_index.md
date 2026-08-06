@@ -181,15 +181,8 @@ A5: Ανατρέξτε στην ολοκληρωμένη [τεκμηρίωση](
 **Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικά Σεμινάρια
-
-- [Αποθήκευση Bitmap ως PNG & Σχεδίαση Κλειστών Καμπυλών με Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Αποθήκευση Bitmap C# – Σχεδίαση Καμπυλών Bezier με Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Αποθήκευση Bitmap ως PNG με Σταθερά Πινέλα στο Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

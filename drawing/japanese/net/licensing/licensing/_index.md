@@ -245,15 +245,8 @@ A5: コミュニティのヘルプ、サンプル、ディスカッションは 
 **テスト環境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 関連チュートリアル
-
-- [Aspose.Drawing の .NET ライセンス方法 – how to license aspose.drawing](/drawing/net/licensing/)
-- [Aspose.Drawing を使用した画像のスケーリング – .NET](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing でテキストとフォントを描画 – .NET](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

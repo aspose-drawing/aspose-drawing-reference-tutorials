@@ -246,15 +246,9 @@ Menguasai cara **menetapkan lisensi Aspose.Drawing**—baik dari file, stream, a
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Terkait
-
-- [Cara Melisensikan Aspose.Drawing untuk .NET – cara melisensikan aspose.drawing](/drawing/net/licensing/)
-- [Cara Mengubah Skala Gambar dengan Aspose.Drawing untuk .NET](/drawing/net/image-editing/scale/)
-- [Cara Menggambar Teks dan Font dengan Aspose.Drawing untuk .NET](/drawing/net/text-and-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

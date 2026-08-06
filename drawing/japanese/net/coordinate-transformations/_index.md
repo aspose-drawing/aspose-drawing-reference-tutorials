@@ -166,12 +166,6 @@ Aspose.Drawing for .NET のワールド変換を探求し、分かりやすい�
 **テスト環境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose
 
-## 関連チュートリアル
-- [座標系変換 – Aspose.Drawing for .NET のページ変換](/drawing/net/coordinate-transformations/page-transformation/)
-- [マトリックス変換チュートリアル: Aspose.Drawing for .NET のマトリックス変換](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Aspose.Drawing グローバル変換で画像を回転させる方法](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

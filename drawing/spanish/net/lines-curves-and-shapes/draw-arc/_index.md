@@ -168,28 +168,6 @@ El archivo guardado (`DrawArc_out.png`) contiene la imagen de arco generada, lis
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo personalizar el color del arco?
-
-R1: Sí, puede. Simplemente modifique el parámetro de color al crear el objeto `Pen`.
-
-### P2: ¿Qué pasa si quiero un ángulo de inicio diferente para el arco?
-
-R2: Ajuste el parámetro de ángulo de inicio en el método `DrawArc` según sus requisitos.
-
-### P3: ¿Es Aspose.Drawing adecuado para otros elementos gráficos?
-
-R3: Absolutamente. Aspose.Drawing soporta una amplia gama de elementos gráficos, incluidos líneas, curvas y formas.
-
-### P4: ¿Puedo integrar Aspose.Drawing con otras bibliotecas .NET?
-
-R4: Sí, Aspose.Drawing se integra sin problemas con otras bibliotecas .NET, proporcionando flexibilidad en su desarrollo.
-
-### P5: ¿Dónde puedo encontrar soporte adicional o discusiones de la comunidad?
-
-R5: Visite el [foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para obtener soporte y discusiones de la comunidad.
-
-## Preguntas frecuentes
-
 **P: ¿Esto funciona con .NET 6 y posteriores?**  
 R: Sí, Aspose.Drawing soporta completamente .NET 6, .NET 7 y .NET 8.
 

@@ -166,28 +166,6 @@ Zapisany plik (`DrawArc_out.png`) zawiera wygenerowany obraz łuku, gotowy do u�
 | **Wyjątek: plik nie znaleziony** | Sprawdź, czy docelowy katalog istnieje lub utwórz go programowo przed wywołaniem `Save`. |
 | **Kolory wyglądają inaczej na Linuksie** | Użyj `Color.FromArgb` z wyraźnymi wartościami RGBA, aby zapewnić spójne renderowanie na wszystkich platformach. |
 
-## FAQ
-
-### Q1: Czy mogę dostosować kolor łuku?
-
-A1: Tak, możesz. Po prostu zmodyfikuj parametr koloru przy tworzeniu obiektu `Pen`.
-
-### Q2: Co zrobić, jeśli chcę inny kąt początkowy łuku?
-
-A2: Dostosuj parametr kąta początkowego w metodzie `DrawArc` zgodnie z wymaganiami.
-
-### Q3: Czy Aspose.Drawing nadaje się do innych elementów graficznych?
-
-A3: Zdecydowanie. Aspose.Drawing obsługuje szeroki zakres elementów graficznych, w tym linie, krzywe i kształty.
-
-### Q4: Czy mogę zintegrować Aspose.Drawing z innymi bibliotekami .NET?
-
-A4: Tak, Aspose.Drawing płynnie integruje się z innymi bibliotekami .NET, zapewniając elastyczność w rozwoju.
-
-### Q5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
-
-A5: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), aby uzyskać wsparcie społeczności i dyskusje.
-
 ## Najczęściej zadawane pytania
 
 **P: Czy to działa z .NET 6 i nowszymi?**  
@@ -212,12 +190,6 @@ Teraz wiesz **jak narysować łuk i zapisać obraz PNG** przy użyciu Aspose.Dra
 **Ostatnia aktualizacja:** 2026-05-29  
 **Testowano z:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
-
-## Powiązane samouczki
-
-- [Jak rysować łuki i inne kształty przy użyciu Aspose.Drawing dla .NET](/drawing/net/lines-curves-and-shapes/)
-- [Jak narysować elipsę przy użyciu Aspose.Drawing dla .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Jak utworzyć bitmapę aspose.drawing – Rysowanie wielokątów w .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

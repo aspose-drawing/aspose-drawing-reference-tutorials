@@ -247,15 +247,8 @@ A5: समुदाय सहायता, उदाहरण और चर्�
 **परीक्षित संस्करण:** Aspose.Drawing 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## संबंधित ट्यूटोरियल
-
-- [Aspose.Drawing को .NET के लिए लाइसेंस कैसे करें – how to license aspose.drawing](/drawing/net/licensing/)
-- [Aspose.Drawing के साथ .NET में इमेज को स्केल कैसे करें](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing के साथ .NET में टेक्स्ट और फ़ॉन्ट कैसे ड्रॉ करें](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -183,15 +183,8 @@ A: 可以，只需在儲存前再次使用新點呼叫 `graphics.DrawBezier` 即
 **測試環境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相關教學
-
-- [將 Bitmap 儲存為 PNG 並使用 Aspose.Drawing 繪製封閉曲線](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [如何儲存影像並在 Aspose.Drawing 中繪製 Cardinal 樣條](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [如何使用 Aspose.Drawing for .NET 繪製橢圓](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

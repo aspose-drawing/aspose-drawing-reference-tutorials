@@ -161,12 +161,6 @@ Aspose.Drawing 提供一致的跨平台图形引擎，在 Windows、Linux 和 ma
 **测试环境:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose
 
-## 相关教程
-
-- [坐标系统变换 – Aspose.Drawing for .NET 中的页面变换](/drawing/net/coordinate-transformations/page-transformation/)
-- [矩阵变换教程：Aspose.Drawing for .NET 中的矩阵变换](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [使用 Aspose.Drawing 全局变换旋转图像的方法](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

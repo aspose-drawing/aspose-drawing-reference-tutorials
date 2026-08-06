@@ -164,28 +164,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 | **File not found exception** | تحقق من وجود الدليل الهدف أو أنشئه برمجيًا قبل استدعاء `Save`. |
 | **Colors look different on Linux** | استخدم `Color.FromArgb` مع قيم RGBA صريحة لضمان عرض متسق عبر الأنظمة. |
 
-## الأسئلة المتكررة
-
-### س1: هل يمكنني تخصيص لون القوس؟
-
-ج1: نعم، يمكنك ذلك. فقط عدّل معامل اللون عند إنشاء كائن `Pen`.
-
-### س2: ماذا لو أردت زاوية بدء مختلفة للقوس؟
-
-ج2: عدّل معامل زاوية البدء في طريقة `DrawArc` وفقًا لمتطلباتك.
-
-### س3: هل Aspose.Drawing مناسب لعناصر رسومية أخرى؟
-
-ج3: بالتأكيد. يدعم Aspose.Drawing مجموعة واسعة من العناصر الرسومية، بما في ذلك الخطوط، المنحنيات، والأشكال.
-
-### س4: هل يمكنني دمج Aspose.Drawing مع مكتبات .NET أخرى؟
-
-ج4: نعم، يتكامل Aspose.Drawing بسلاسة مع مكتبات .NET الأخرى، مما يوفر مرونة في تطويرك.
-
-### س5: أين يمكنني العثور على دعم إضافي أو مناقشات المجتمع؟
-
-ج5: زر [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) للحصول على دعم المجتمع والمناقشات.
-
 ## أسئلة شائعة
 
 **س: هل يعمل هذا مع .NET 6 وما بعده؟**  
@@ -212,12 +190,6 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 **Last Updated:** 2026-05-29  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
-
-## دروس ذات صلة
-
-- [كيفية رسم أقواس وأشكال أخرى باستخدام Aspose.Drawing لـ .NET](/drawing/net/lines-curves-and-shapes/)
-- [كيفية رسم إهليلج باستخدام Aspose.Drawing لـ .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [كيفية إنشاء bitmap باستخدام aspose.drawing – رسم مضلعات في .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

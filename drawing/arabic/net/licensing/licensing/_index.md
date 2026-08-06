@@ -246,15 +246,9 @@ Console.WriteLine("Credits Consumed: " + credits.ToString());
 **تم الاختبار مع:** Aspose.Drawing 24.11 لـ .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## دروس ذات صلة
-
-- [How to License Aspose.Drawing for .NET – how to license aspose.drawing](/drawing/net/licensing/)
-- [How to Scale Images with Aspose.Drawing for .NET](/drawing/net/image-editing/scale/)
-- [How to Draw Text and Fonts with Aspose.Drawing for .NET](/drawing/net/text-and-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

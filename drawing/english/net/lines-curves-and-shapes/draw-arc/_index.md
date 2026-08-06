@@ -163,28 +163,6 @@ The saved file (`DrawArc_out.png`) contains the generated arc image, ready for u
 | **File not found exception** | Verify that the target directory exists or create it programmatically before calling `Save`. |
 | **Colors look different on Linux** | Use `Color.FromArgb` with explicit RGBA values to guarantee consistent rendering across platforms. |
 
-## FAQ's
-
-### Q1: Can I customize the color of the arc?
-
-A1: Yes, you can. Simply modify the color parameter when creating the `Pen` object.
-
-### Q2: What if I want a different starting angle for the arc?
-
-A2: Adjust the starting angle parameter in the `DrawArc` method according to your requirements.
-
-### Q3: Is Aspose.Drawing suitable for other graphic elements?
-
-A3: Absolutely. Aspose.Drawing supports a wide range of graphic elements, including lines, curves, and shapes.
-
-### Q4: Can I integrate Aspose.Drawing with other .NET libraries?
-
-A4: Yes, Aspose.Drawing seamlessly integrates with other .NET libraries, providing flexibility in your development.
-
-### Q5: Where can I find additional support or community discussions?
-
-A5: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) for community support and discussions.
-
 ## Frequently Asked Questions
 
 **Q: Does this work with .NET 6 and later?**  
@@ -211,13 +189,6 @@ You now know **how to draw arc and save image PNG** using Aspose.Drawing, from c
 **Last Updated:** 2026-05-29  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
-
-## Related Tutorials
-
-- [How to Draw Arcs and Other Shapes with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/)
-- [How to Draw Ellipse with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [How to create bitmap aspose.drawing – Draw Polygons in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

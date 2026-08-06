@@ -165,13 +165,6 @@ Remplacer `System.Drawing.Common` élimine les dépendances GDI+ spécifiques à
 **Testé avec :** Aspose.Drawing 24.11 for .NET  
 **Auteur :** Aspose
 
-## Tutoriels associés
-
-- [Transformation du système de coordonnées – Transformation de page dans Aspose.Drawing pour .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutoriel de transformation matricielle : Transformations matricielles dans Aspose.Drawing pour .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Comment faire pivoter une image avec la transformation globale Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

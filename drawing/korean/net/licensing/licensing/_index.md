@@ -246,15 +246,9 @@ A5: 커뮤니티 도움, 예제 및 토론은 [Aspose.Drawing Forum](https://for
 **테스트 대상:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [Aspose.Drawing을 .NET에서 라이선스하는 방법 – how to license aspose.drawing](/drawing/net/licensing/)
-- [Aspose.Drawing을 사용해 .NET에서 이미지 크기 조정하기](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing을 사용해 .NET에서 텍스트와 폰트 그리기](/drawing/net/text-and-fonts/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

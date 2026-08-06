@@ -162,12 +162,6 @@ Birden fazla dönüşümü, `Matrix` nesnelerini zincirleyerek birleştirin. Öl
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
-## İlgili Eğitimler
-
-- [Koordinat Sistemi Dönüşümü – Aspose.Drawing for .NET'te Sayfa Dönüşümü](/drawing/net/coordinate-transformations/page-transformation/)
-- [Matrix Dönüşüm Tutorialı: Aspose.Drawing for .NET'te Matrix Dönüşümleri](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Aspose.Drawing Global Dönüşümü ile Görüntüyü Döndürme](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

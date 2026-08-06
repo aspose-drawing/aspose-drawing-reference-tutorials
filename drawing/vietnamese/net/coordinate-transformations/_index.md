@@ -165,13 +165,6 @@ Thay thế `System.Drawing.Common` loại bỏ các phụ thuộc GDI+ đặc th
 **Kiểm tra với:** Aspose.Drawing 24.11 cho .NET  
 **Tác giả:** Aspose
 
-## Hướng dẫn liên quan
-
-- [Chuyển đổi hệ tọa độ – Chuyển đổi trang trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Hướng dẫn chuyển đổi ma trận: Chuyển đổi ma trận trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Cách xoay ảnh với chuyển đổi toàn cục Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -167,28 +167,6 @@ Den sparade filen (`DrawArc_out.png`) innehåller den genererade bågbilden, kla
 
 ## Vanliga frågor
 
-### Q1: Kan jag anpassa färgen på bågen?
-
-A1: Ja, det kan du. Ändra helt enkelt färgparametern när du skapar `Pen`‑objektet.
-
-### Q2: Vad händer om jag vill ha en annan startvinkel för bågen?
-
-A2: Justera startvinkel‑parametern i `DrawArc`‑metoden enligt dina krav.
-
-### Q3: Är Aspose.Drawing lämplig för andra grafiska element?
-
-A3: Absolut. Aspose.Drawing stödjer ett brett spektrum av grafiska element, inklusive linjer, kurvor och former.
-
-### Q4: Kan jag integrera Aspose.Drawing med andra .NET‑bibliotek?
-
-A4: Ja, Aspose.Drawing integreras sömlöst med andra .NET‑bibliotek, vilket ger flexibilitet i din utveckling.
-
-### Q5: Var kan jag hitta ytterligare support eller community‑diskussioner?
-
-A5: Besök [Aspose.Drawing‑forumet](https://forum.aspose.com/c/drawing/44) för community‑support och diskussioner.
-
-## Vanliga frågor
-
 **Q: Fungerar detta med .NET 6 och senare?**  
 A: Ja, Aspose.Drawing stödjer fullt ut .NET 6, .NET 7 och .NET 8‑runtime.
 
@@ -213,12 +191,6 @@ Du vet nu **how to draw arc and save image PNG** med Aspose.Drawing, från att s
 **Last Updated:** 2026-05-29  
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
-
-## Relaterade handledningar
-
-- [Hur man ritar bågar och andra former med Aspose.Drawing för .NET](/drawing/net/lines-curves-and-shapes/)
-- [Hur man ritar ellips med Aspose.Drawing för .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Hur man skapar bitmap aspose.drawing – Rita polygoner i .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

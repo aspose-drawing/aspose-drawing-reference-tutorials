@@ -166,28 +166,6 @@ A mentett fájl (`DrawArc_out.png`) tartalmazza a generált ív képet, készen 
 | **File not found kivétel** | Ellenőrizd, hogy a célkönyvtár létezik-e, vagy hozd létre programozottan a `Save` hívása előtt. |
 | **A színek Linuxon másként jelennek meg** | Használj `Color.FromArgb`‑t explicit RGBA értékekkel a platformok közötti konzisztens megjelenés biztosításához. |
 
-## GYIK
-
-### Q1: Testreszabhatom az ív színét?
-
-A1: Igen. Egyszerűen módosítsd a színparamétert a `Pen` objektum létrehozásakor.
-
-### Q2: Mit tehetek, ha más kezdő szöget szeretnék az ívhez?
-
-A2: Állítsd be a kezdő szög paramétert a `DrawArc` metódusban a saját igényeid szerint.
-
-### Q3: Alkalmas az Aspose.Drawing más grafikai elemekhez is?
-
-A3: Teljes mértékben. Az Aspose.Drawing széles körű grafikai elemeket támogat, beleértve a vonalakat, görbéket és alakzatokat.
-
-### Q4: Integrálhatom az Aspose.Drawing‑et más .NET könyvtárakkal?
-
-A4: Igen, az Aspose.Drawing zökkenőmentesen integrálódik más .NET könyvtárakkal, rugalmasságot biztosítva a fejlesztésben.
-
-### Q5: Hol találok további támogatást vagy közösségi megbeszéléseket?
-
-A5: Látogasd meg az [Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44) a közösségi támogatás és megbeszélésekért.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Ez működik .NET 6 és újabb verziókkal?**  
@@ -214,12 +192,6 @@ Most már tudod, **hogyan rajzolj ívet és ments PNG képet** az Aspose.Drawing
 **Legutóbb frissítve:** 2026-05-29  
 **Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose
-
-## Kapcsolódó útmutatók
-
-- [Hogyan rajzolj íveket és egyéb alakzatokat az Aspose.Drawing for .NET segítségével](/drawing/net/lines-curves-and-shapes/)
-- [Hogyan rajzolj ellipszist az Aspose.Drawing for .NET segítségével](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Hogyan hozz létre bitmapet az aspose.drawing segítségével – Sokszögek rajzolása .NET‑ben](/drawing/net/lines-curves-and-shapes/draw-polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

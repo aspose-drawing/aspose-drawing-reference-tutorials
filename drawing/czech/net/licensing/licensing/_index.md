@@ -246,15 +246,8 @@ Ovládnutí **nastavení licence Aspose.Drawing** — ať už ze souboru, ze
 **Testováno s:** Aspose.Drawing 24.11 pro .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Jak licencovat Aspose.Drawing pro .NET – jak licencovat aspose.drawing](/drawing/net/licensing/)
-- [Jak škálovat obrázky pomocí Aspose.Drawing pro .NET](/drawing/net/image-editing/scale/)
-- [Jak kreslit text a písma pomocí Aspose.Drawing pro .NET](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

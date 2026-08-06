@@ -185,15 +185,8 @@ A: 可以，只需在保存之前再次使用新点调用 `graphics.DrawBezier` 
 **测试环境：** Aspose.Drawing 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 相关教程
-
-- [将位图保存为 PNG 并使用 Aspose.Drawing 绘制闭合曲线](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [如何在 Aspose.Drawing 中保存图像并绘制基数样条](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [如何使用 Aspose.Drawing for .NET 绘制椭圆](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

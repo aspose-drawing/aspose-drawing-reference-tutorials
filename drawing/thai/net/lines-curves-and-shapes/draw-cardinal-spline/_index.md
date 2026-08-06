@@ -182,15 +182,8 @@ A5: ดูที่ [documentation](https://reference.aspose.com/drawing/net/) �
 **ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## บทแนะนำที่เกี่ยวข้อง
-
-- [บันทึก Bitmap เป็น PNG & วาด Closed Curves ด้วย Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [บันทึก Bitmap C# – วาด Bezier Splines ด้วย Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [บันทึก Bitmap เป็น PNG ด้วย Solid Brushes ใน Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

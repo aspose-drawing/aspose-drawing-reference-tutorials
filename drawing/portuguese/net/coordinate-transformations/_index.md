@@ -168,13 +168,6 @@ Substituir `System.Drawing.Common` elimina dependências específicas de platafo
 **Testado com:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
-## Tutoriais Relacionados
-
-- [Transformação de Sistema de Coordenadas – Transformação de Página no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutorial de Transformação de Matriz: Transformações de Matriz no Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Como Rotacionar Imagem com Transformação Global do Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

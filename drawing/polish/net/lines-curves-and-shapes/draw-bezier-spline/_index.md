@@ -187,14 +187,8 @@ A: Tak, po prostu wywołaj ponownie `graphics.DrawBezier` z nowymi punktami prze
 **Testowano z:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane samouczki
-
-- [Zapisz bitmapę jako PNG i rysuj zamknięte krzywe z Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Jak zapisać obraz i rysować krzywe kardynalne w Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Jak narysować elipsę z Aspose.Drawing dla .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

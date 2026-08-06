@@ -185,15 +185,8 @@ A5: Lihat [dokumentasi](https://reference.aspose.com/drawing/net/) yang komprehe
 **Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutorial Terkait
-
-- [Simpan Bitmap sebagai PNG & Gambar Kurva Tertutup dengan Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Simpan Bitmap C# – Gambar Bezier Splines dengan Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Simpan Bitmap sebagai PNG dengan Solid Brushes di Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

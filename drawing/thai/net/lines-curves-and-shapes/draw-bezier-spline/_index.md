@@ -183,15 +183,9 @@ A: ได้, เพียงเรียก `graphics.DrawBezier` อีกค�
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## บทแนะนำที่เกี่ยวข้อง
-
-- [บันทึก Bitmap เป็น PNG และวาดเส้นโค้งปิดด้วย Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [วิธีบันทึกภาพและวาด Cardinal Splines ด้วย Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [วิธีวาดวงรีด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

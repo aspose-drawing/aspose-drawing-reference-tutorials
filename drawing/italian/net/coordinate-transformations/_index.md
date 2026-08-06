@@ -163,12 +163,6 @@ Sostituire `System.Drawing.Common` elimina le dipendenze GDI+ specifiche della p
 **Testato con:** Aspose.Drawing 24.11 for .NET  
 **Autore:** Aspose
 
-## Tutorial correlati
-
-- [Trasformazione del sistema di coordinate – Trasformazione di pagina in Aspose.Drawing per .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Tutorial di trasformazione matriciale: Trasformazioni matriciali in Aspose.Drawing per .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Come ruotare un'immagine con la trasformazione globale di Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

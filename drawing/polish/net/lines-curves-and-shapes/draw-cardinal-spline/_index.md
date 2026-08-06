@@ -182,15 +182,8 @@ A5: Odwołaj się do obszernej [dokumentacji](https://reference.aspose.com/drawi
 **Testowano z:** Aspose.Drawing 24.11 dla .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Powiązane samouczki
-
-- [Zapisz bitmapę jako PNG i rysuj zamknięte krzywe przy użyciu Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Zapisz bitmapę C# – rysuj splajny Beziera przy użyciu Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Zapisz bitmapę jako PNG z użyciem stałych pędzli w Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

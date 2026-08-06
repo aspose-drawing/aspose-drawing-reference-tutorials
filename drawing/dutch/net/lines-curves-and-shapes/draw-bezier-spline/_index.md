@@ -188,15 +188,9 @@ A: Ja, roep gewoon `graphics.DrawBezier` opnieuw aan met nieuwe punten voordat j
 **Getest met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Gerelateerde tutorials
-
-- [Bitmap opslaan als PNG & Gesloten curven tekenen met Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Hoe afbeelding opslaan en Cardinal-splines tekenen in Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Hoe een ellips tekenen met Aspose.Drawing voor .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

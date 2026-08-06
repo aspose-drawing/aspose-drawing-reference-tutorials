@@ -247,15 +247,8 @@ Maîtriser la façon de **définir la licence Aspose.Drawing**—que ce soit à 
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Tutoriels associés
-
-- [Comment licencier Aspose.Drawing pour .NET – comment licencier aspose.drawing](/drawing/net/licensing/)
-- [Comment redimensionner les images avec Aspose.Drawing pour .NET](/drawing/net/image-editing/scale/)
-- [Comment dessiner du texte et des polices avec Aspose.Drawing pour .NET](/drawing/net/text-and-fonts/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

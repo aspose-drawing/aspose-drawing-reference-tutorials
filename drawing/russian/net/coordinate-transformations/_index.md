@@ -164,12 +164,6 @@ Aspose.Drawing предоставляет согласованный, кросс
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose
 
-## Связанные руководства
-
-- [Преобразование системы координат – Преобразование страницы в Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/page-transformation/)
-- [Учебник по матричному преобразованию: Матричные преобразования в Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Как повернуть изображение с помощью глобального преобразования Aspose.Drawing](/drawing/net/coordinate-transformations/global-transformation/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

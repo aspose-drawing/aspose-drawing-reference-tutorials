@@ -183,15 +183,8 @@ C5: Ayrıntılı bilgi ve örnekler için kapsamlı [dokümantasyona](https://re
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## İlgili Öğreticiler
-
-- [Bitmap'i PNG Olarak Kaydet ve Kapalı Eğrileri Aspose.Drawing ile Çiz](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Bitmap'i C# ile Kaydet – Aspose.Drawing ile Bezier Spline'ları Çiz](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Aspose.Drawing'de Katı Fırçalarla Bitmap'i PNG Olarak Kaydet](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

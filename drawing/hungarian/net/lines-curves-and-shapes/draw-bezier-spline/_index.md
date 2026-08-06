@@ -176,14 +176,8 @@ A: Igen, egyszerűen hívja meg újra a `graphics.DrawBezier`‑t új pontokkal 
 **Tesztelve:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [Bitmap mentése PNG‑ként és zárt görbék rajzolása az Aspose.Drawing segítségével](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Kép mentése és Cardinal‑görbék rajzolása az Aspose.Drawing-ben](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Ellipszis rajzolása az Aspose.Drawing for .NET segítségével](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

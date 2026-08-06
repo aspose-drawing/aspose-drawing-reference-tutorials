@@ -187,15 +187,8 @@ A: Có, chỉ cần gọi lại `graphics.DrawBezier` với các điểm mới t
 **Kiểm tra với:** Aspose.Drawing 24.11 for .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn liên quan
-
-- [Lưu Bitmap dưới dạng PNG & Vẽ Đường Đóng với Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Cách Lưu Ảnh và Vẽ Đường Cong Cardinal trong Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Cách Vẽ Ellipse với Aspose.Drawing cho .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -168,28 +168,6 @@ Uložený soubor (`DrawArc_out.png`) obsahuje vygenerovaný obrázek oblouku, p�
 
 ## Často kladené otázky
 
-### Q1: Můžu přizpůsobit barvu oblouku?
-
-A1: Ano, můžete. Jednoduše upravte parametr barvy při vytváření objektu `Pen`.
-
-### Q2: Co když chci jiný počáteční úhel pro oblouk?
-
-A2: Upravit parametr počátečního úhlu v metodě `DrawArc` podle vašich požadavků.
-
-### Q3: Je Aspose.Drawing vhodný pro jiné grafické prvky?
-
-A3: Rozhodně. Aspose.Drawing podporuje širokou škálu grafických prvků, včetně čar, křivek a tvarů.
-
-### Q4: Můžu integrovat Aspose.Drawing s jinými .NET knihovnami?
-
-A4: Ano, Aspose.Drawing se bez problémů integruje s ostatními .NET knihovnami a poskytuje flexibilitu ve vývoji.
-
-### Q5: Kde mohu najít další podporu nebo komunitní diskuse?
-
-A5: Navštivte [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) pro komunitní podporu a diskuse.
-
-## Často kladené otázky
-
 **Q: Funguje to s .NET 6 a novějšími?**  
 A: Ano, Aspose.Drawing plně podporuje runtime .NET 6, .NET 7 a .NET 8.
 
@@ -214,13 +192,6 @@ Nyní víte **jak nakreslit oblouk a uložit obrázek PNG** pomocí Aspose.Drawi
 **Poslední aktualizace:** 2026-05-29  
 **Testováno s:** Aspose.Drawing 24.11 pro .NET  
 **Autor:** Aspose
-
-## Související tutoriály
-
-- [Jak kreslit oblouky a další tvary pomocí Aspose.Drawing pro .NET](/drawing/net/lines-curves-and-shapes/)
-- [Jak nakreslit elipsu pomocí Aspose.Drawing pro .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-- [Jak vytvořit bitmapu aspose.drawing – kreslit polygon v .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

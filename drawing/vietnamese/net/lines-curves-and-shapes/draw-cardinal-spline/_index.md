@@ -188,14 +188,8 @@ A5: Tham khảo [tài liệu](https://reference.aspose.com/drawing/net/) toàn d
 **Kiểm thử với:** Aspose.Drawing 24.11 cho .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn liên quan
-
-- [Lưu Bitmap dưới dạng PNG & Vẽ Đường Đóng với Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Lưu Bitmap C# – Vẽ Đường Cong Bezier với Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-bezier-spline/)
-- [Lưu Bitmap dưới dạng PNG với Solid Brushes trong Aspose.Drawing](/drawing/net/lines-curves-and-shapes/solid-brushes/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

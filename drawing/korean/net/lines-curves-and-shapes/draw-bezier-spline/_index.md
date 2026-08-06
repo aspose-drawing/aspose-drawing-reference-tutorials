@@ -186,15 +186,8 @@ A: 예, 저장하기 전에 새로운 점으로 `graphics.DrawBezier`를 다시 
 **테스트 환경:** Aspose.Drawing 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [비트맵을 PNG로 저장하고 Aspose.Drawing으로 닫힌 곡선 그리기](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Aspose.Drawing에서 이미지 저장 및 카디널 스플라인 그리기](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Aspose.Drawing for .NET으로 타원 그리기](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

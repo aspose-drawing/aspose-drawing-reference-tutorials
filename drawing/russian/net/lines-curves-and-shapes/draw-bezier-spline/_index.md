@@ -186,15 +186,9 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawBezierSpline_out
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Связанные руководства
-
-- [Сохранить Bitmap как PNG и нарисовать замкнутые кривые с Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
-- [Как сохранить изображение и нарисовать кардинальные сплайны в Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-cardinal-spline/)
-- [Как нарисовать эллипс с Aspose.Drawing для .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
