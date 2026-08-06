@@ -1,55 +1,108 @@
 ---
-date: 2026-02-12
-description: Học cách vẽ cung trong các ứng dụng .NET bằng Aspose.Drawing. Hướng dẫn
-  từng bước này sẽ chỉ cho bạn cách tạo bitmap trong C#, đặt màu bút, vẽ cung trên
-  bitmap và lưu bitmap dưới dạng PNG.
-linktitle: Drawing Arcs in Aspose.Drawing
+date: 2026-05-29
+description: Tìm hiểu cách vẽ đường cong và lưu ảnh PNG trong các ứng dụng .NET bằng
+  cách sử dụng Aspose.Drawing. Hướng dẫn vẽ ảnh từng bước này cho bạn biết cách tạo
+  bitmap trong C#, đặt màu đường, vẽ đường cong và lưu kết quả dưới dạng tệp PNG.
+keywords:
+- save image png
+- how to draw arc
+- set line color
+- cross platform drawing
+- replace system drawing
+linktitle: Vẽ Đường Cong trong Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to draw arc and save image PNG in .NET applications using
+    Aspose.Drawing. This step‑by‑step image drawing tutorial shows you how to create
+    a bitmap in C#, set line color, draw the arc, and save the result as a PNG file.
+  headline: How to Draw Arc and Save Image PNG with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to draw arc and save image PNG in .NET applications using
+    Aspose.Drawing. This step‑by‑step image drawing tutorial shows you how to create
+    a bitmap in C#, set line color, draw the arc, and save the result as a PNG file.
+  name: How to Draw Arc and Save Image PNG with Aspose.Drawing
+  steps:
+  - name: Create a bitmap C# object
+    text: 'We first create a `Bitmap` that will serve as the canvas for our drawing.
+      *Explanation*: The bitmap size (1000 × 800) gives us plenty of room, and the
+      pixel format ensures high‑quality alpha blending.'
+  - name: Set up a pen and set pen color
+    text: Now we define a `Pen` that determines the line’s appearance. Here we **set
+      pen color** to blue and choose a width of 2 pixels. You can replace `KnownColor.Blue`
+      with any other known color or a custom `Color.FromArgb` value.
+  - name: Draw the arc on bitmap
+    text: 'With the graphics surface and pen ready, we can **draw arc on bitmap**.
+      The parameters are: - `pen` – the styling we defined. - `0, 0` – the top‑left
+      corner of the bounding rectangle. - `700, 700` – width and height of the rectangle
+      (creates a perfect circle). - `0` – start angle in degrees. - `180`'
+  - name: Save the bitmap PNG
+    text: Load the bitmap into memory and call `Save` with a `.png` extension to **save
+      image PNG** to disk. Adjust the path to match your project’s output folder.
+      The saved file (`DrawArc_out.png`) contains the generated arc image, ready for
+      use in UI, reports, or further processing.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing fully supports .NET 6, .NET 7, and .NET 8 runtimes.
+    question: Does this work with .NET 6 and later?
+  - answer: The size is limited only by the available memory; for very large images
+      consider streaming or tiling techniques.
+    question: How large can the bitmap be?
+  - answer: Absolutely—just call `graphics.DrawArc` multiple times with different
+      coordinates or angles.
+    question: Can I draw multiple arcs on the same bitmap?
+  - answer: You can enable it by setting `graphics.SmoothingMode = SmoothingMode.AntiAlias;`
+      before drawing.
+    question: Is anti‑aliasing applied automatically?
+  - answer: Call `graphics.Dispose();` and `bitmap.Dispose();` when you’re done to
+      free native resources.
+    question: How do I release resources after saving?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Cách vẽ cung với Aspose.Drawing
+title: Cách Vẽ Đường Cong và Lưu Ảnh PNG với Aspose.Drawing
 url: /vi/net/lines-curves-and-shapes/draw-arc/
 weight: 11
 ---
 
- code block placeholders.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Vẽ Đường Cong (Arc) với Aspose.Drawing
+# Cách Vẽ Cung và Lưu Ảnh PNG với Aspose.Drawing
 
 ## Giới thiệu
 
-Nếu bạn cần **cách vẽ arc** trong một dự án .NET, Aspose.Drawing giúp quá trình này trở nên đơn giản và hiệu suất cao. Trong hướng dẫn này, chúng ta sẽ đi qua việc tạo một bitmap trong C#, thiết lập màu bút, tạo hình ảnh arc, và cuối cùng lưu bitmap dưới dạng file PNG. Dù bạn đang xây dựng công cụ báo cáo, một thành phần UI tùy chỉnh, hay chỉ đang thử nghiệm đồ họa, các bước này sẽ cung cấp nền tảng vững chắc.
+Nếu bạn cần **vẽ một cung và lưu ảnh PNG** trong một dự án .NET, Aspose.Drawing giúp quá trình này trở nên đơn giản và hiệu suất cao. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách tạo một bitmap trong C#, thiết lập màu đường, tạo ảnh cung, và cuối cùng lưu bitmap dưới dạng tệp PNG. Dù bạn đang xây dựng công cụ báo cáo, thành phần UI tùy chỉnh, hay chỉ khám phá đồ họa, các bước này sẽ cung cấp cho bạn nền tảng vẽ đa nền tảng vững chắc.
 
 ## Câu trả lời nhanh
-- **Thư viện nào tốt nhất để vẽ arc trong .NET?** Aspose.Drawing for .NET  
-- **Phương thức nào tạo ra arc?** `Graphics.DrawArc`  
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất.  
-- **Tôi có thể lưu kết quả dưới dạng PNG không?** Có, sử dụng `Bitmap.Save` với phần mở rộng `.png`.  
-- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Thư viện nào là tốt nhất để vẽ cung trong .NET?** Aspose.Drawing for .NET  
+- **Phương thức nào tạo ra cung?** `Graphics.DrawArc`  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc kiểm tra; giấy phép cần thiết cho môi trường sản xuất.  
+- **Tôi có thể lưu kết quả dưới dạng PNG không?** Có—sử dụng `Bitmap.Save` với phần mở rộng `.png` để **lưu ảnh PNG**.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
 
-## “Cách vẽ arc” là gì trong Aspose.Drawing?
+## “how to draw arc” là gì trong Aspose.Drawing?
 
-Vẽ một arc có nghĩa là render một đoạn cong của elip hoặc vòng tròn lên bề mặt đồ họa. Aspose.Drawing cung cấp phương thức quen thuộc `Graphics.DrawArc`, cho phép bạn xác định hình chữ nhật bao quanh, góc bắt đầu và góc quét với độ chính xác pixel‑perfect.
+Vẽ một cung trong Aspose.Drawing có nghĩa là hiển thị một phần của hình elip hoặc vòng tròn lên một bitmap hoặc bề mặt đồ họa khác. Bạn tải một đối tượng `Graphics` từ một `Bitmap`, chỉ định hình chữ nhật bao quanh, góc bắt đầu và góc quét, và thư viện sẽ vẽ đoạn cong với độ chính xác pixel‑perfect.  
+`Graphics.DrawArc` vẽ một đoạn cong của hình elip hoặc vòng tròn lên bề mặt đồ họa.
 
-## Tại sao nên sử dụng Aspose.Drawing cho các arc?
+## Tại sao nên sử dụng Aspose.Drawing cho các cung?
 
-- **Tính nhất quán đa nền tảng** – Hoạt động giống nhau trên Windows, Linux và macOS.  
-- **Không phụ thuộc vào System.Drawing.Common** – Lý tưởng cho các ứng dụng .NET Core/5+ hiện đại.  
-- **API phong phú** – Kiểm soát đầy đủ màu sắc, độ rộng đường, và định dạng ảnh.  
+Aspose.Drawing cung cấp việc render nhất quán trên Windows, Linux và macOS mà không phụ thuộc vào System.Drawing.Common, khiến nó trở nên lý tưởng cho các ứng dụng .NET Core và .NET 5+ hiện đại. Nó hỗ trợ hình ảnh độ phân giải cao, khử răng cưa (anti‑aliasing), và một bộ phong phú các primitive vẽ, vì vậy các cung trông mượt mà và chính xác bất kể hệ điều hành.
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
-
-- Visual Studio (bất kỳ phiên bản mới nào).  
-- Aspose.Drawing for .NET – tải về từ [website](https://releases.aspose.com/drawing/net/).  
+- Visual Studio (bất kỳ phiên bản gần đây nào)  
+- Aspose.Drawing for .NET – tải xuống từ [website](https://releases.aspose.com/drawing/net/).  
 - Kiến thức cơ bản về C# (biến, đối tượng và lời gọi phương thức).  
 
 ## Nhập không gian tên
 
-Để bắt đầu, đưa không gian tên cần thiết vào phạm vi:
+`Graphics` là lớp cốt lõi cung cấp các phương thức vẽ cho bề mặt bitmap.  
+
+`Bitmap` đại diện cho một hình ảnh trong bộ nhớ mà bạn có thể vẽ lên.  
+
+`Pen` định nghĩa kiểu đường, độ rộng và màu sắc cho các thao tác vẽ.  
 
 ```csharp
 using System.Drawing;
@@ -59,18 +112,18 @@ using System.Drawing;
 
 ### Bước 1: Tạo đối tượng bitmap C# 
 
-Chúng ta đầu tiên tạo một `Bitmap` sẽ làm nền cho việc vẽ.
+Đầu tiên chúng ta tạo một `Bitmap` sẽ làm nền cho việc vẽ của chúng ta.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-*Giải thích*: Kích thước bitmap (1000 × 800) cung cấp đủ không gian, và định dạng pixel đảm bảo pha trộn alpha chất lượng cao.
+*Explanation*: The bitmap size (1000 × 800) gives us plenty of room, and the pixel format ensures high‑quality alpha blending.
 
 ### Bước 2: Thiết lập bút và đặt màu bút
 
-Bây giờ chúng ta định nghĩa một `Pen` quyết định kiểu dáng của đường. Ở đây chúng ta **đặt màu bút** thành màu xanh và chọn độ rộng 2 pixel.
+Bây giờ chúng ta định nghĩa một `Pen` xác định giao diện của đường. Ở đây chúng tôi **đặt màu bút** thành màu xanh và chọn độ rộng 2 pixel.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
@@ -78,9 +131,9 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 
 Bạn có thể thay `KnownColor.Blue` bằng bất kỳ màu đã biết nào khác hoặc một giá trị tùy chỉnh `Color.FromArgb`.
 
-### Bước 3: Vẽ arc trên bitmap
+### Bước 3: Vẽ cung trên bitmap
 
-Với bề mặt đồ họa và bút đã sẵn sàng, chúng ta có thể **vẽ arc trên bitmap**.
+Với bề mặt đồ họa và bút đã sẵn sàng, chúng ta có thể **vẽ cung trên bitmap**.
 
 ```csharp
 graphics.DrawArc(pen, 0, 0, 700, 700, 0, 180);
@@ -92,74 +145,52 @@ Các tham số là:
 - `0, 0` – góc trên‑trái của hình chữ nhật bao quanh.  
 - `700, 700` – chiều rộng và chiều cao của hình chữ nhật (tạo một vòng tròn hoàn hảo).  
 - `0` – góc bắt đầu tính bằng độ.  
-- `180` – góc quét, tạo ra một nửa vòng tròn.
+- `180` – góc quét, tạo ra một cung nửa vòng tròn.
 
 ### Bước 4: Lưu bitmap dưới dạng PNG
 
-Cuối cùng, chúng ta **lưu bitmap PNG** vào đĩa. Điều chỉnh đường dẫn để phù hợp với thư mục đầu ra của dự án.
+Tải bitmap vào bộ nhớ và gọi `Save` với phần mở rộng `.png` để **lưu ảnh PNG** vào đĩa. Điều chỉnh đường dẫn để phù hợp với thư mục đầu ra của dự án.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 ```
 
-File đã lưu (`DrawArc_out.png`) chứa hình ảnh arc đã tạo, sẵn sàng sử dụng trong UI, báo cáo, hoặc xử lý tiếp theo.
+Tệp đã lưu (`DrawArc_out.png`) chứa ảnh cung đã tạo, sẵn sàng sử dụng trong UI, báo cáo, hoặc xử lý tiếp theo.
 
 ## Các vấn đề thường gặp và giải pháp
 
 | Vấn đề | Giải pháp |
 |-------|----------|
-| **Arc bị biến dạng** | Đảm bảo giá trị chiều rộng và chiều cao bằng nhau để tạo vòng tròn thực; nếu không sẽ nhận được một arc elip. |
-| **Ngoại lệ tệp không tìm thấy** | Kiểm tra thư mục đích tồn tại hoặc tạo nó bằng mã trước khi gọi `Save`. |
-| **Màu sắc hiển thị khác nhau trên Linux** | Sử dụng `Color.FromArgb` với các giá trị RGBA rõ ràng để đảm bảo việc render nhất quán trên mọi nền tảng. |
+| **Cung bị biến dạng** | Đảm bảo giá trị chiều rộng và chiều cao bằng nhau để tạo vòng tròn chính xác; nếu không bạn sẽ nhận được một cung elip. |
+| **Ngoại lệ tệp không tìm thấy** | Kiểm tra thư mục đích có tồn tại hay không hoặc tạo nó bằng mã trước khi gọi `Save`. |
+| **Màu sắc hiển thị khác trên Linux** | Sử dụng `Color.FromArgb` với các giá trị RGBA rõ ràng để đảm bảo việc render nhất quán trên các nền tảng. |
 
-## Câu hỏi thường gặp
+## Các câu hỏi thường gặp
 
-### Câu 1: Tôi có thể tùy chỉnh màu của arc không?
+**Q: Điều này có hoạt động với .NET 6 và các phiên bản sau không?**  
+A: Có, Aspose.Drawing hoàn toàn hỗ trợ các runtime .NET 6, .NET 7 và .NET 8.
 
-A1: Có, bạn có thể. Chỉ cần sửa đổi tham số màu khi tạo đối tượng `Pen`.
+**Q: Kích thước bitmap có thể lớn đến mức nào?**  
+A: Kích thước chỉ bị giới hạn bởi bộ nhớ khả dụng; đối với hình ảnh rất lớn, hãy cân nhắc kỹ thuật streaming hoặc tiling.
 
-### Câu 2: Nếu tôi muốn góc bắt đầu khác cho arc thì sao?
+**Q: Tôi có thể vẽ nhiều cung trên cùng một bitmap không?**  
+A: Chắc chắn—chỉ cần gọi `graphics.DrawArc` nhiều lần với các tọa độ hoặc góc khác nhau.
 
-A2: Điều chỉnh tham số góc bắt đầu trong phương thức `DrawArc` theo yêu cầu của bạn.
+**Q: Khử răng cưa (anti‑aliasing) có được áp dụng tự động không?**  
+A: Bạn có thể bật nó bằng cách đặt `graphics.SmoothingMode = SmoothingMode.AntiAlias;` trước khi vẽ.
 
-### Câu 3: Aspose.Drawing có phù hợp cho các yếu tố đồ họa khác không?
-
-A3: Chắc chắn. Aspose.Drawing hỗ trợ một loạt các yếu tố đồ họa, bao gồm đường thẳng, đường cong và hình dạng.
-
-### Câu 4: Tôi có thể tích hợp Aspose.Drawing với các thư viện .NET khác không?
-
-A4: Có, Aspose.Drawing tích hợp liền mạch với các thư viện .NET khác, cung cấp sự linh hoạt trong phát triển.
-
-### Câu 5: Tôi có thể tìm hỗ trợ bổ sung hoặc thảo luận cộng đồng ở đâu?
-
-A5: Truy cập [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) để nhận hỗ trợ cộng đồng và thảo luận.
-
-## Câu hỏi thường gặp
-
-**Hỏi: Điều này có hoạt động với .NET 6 và các phiên bản sau không?**  
-**Đáp:** Có, Aspose.Drawing hoàn toàn hỗ trợ .NET 6, .NET 7 và .NET 8.
-
-**Hỏi: Kích thước bitmap có thể lớn đến mức nào?**  
-**Đáp:** Kích thước chỉ bị giới hạn bởi bộ nhớ khả dụng; đối với ảnh rất lớn, hãy cân nhắc kỹ thuật streaming hoặc tiling.
-
-**Hỏi: Tôi có thể vẽ nhiều arc trên cùng một bitmap không?**  
-**Đáp:** Chắc chắn—chỉ cần gọi `graphics.DrawArc` nhiều lần với các tọa độ hoặc góc khác nhau.
-
-**Hỏi: Anti‑aliasing có được áp dụng tự động không?**  
-**Đáp:** Bạn có thể bật nó bằng cách đặt `graphics.SmoothingMode = SmoothingMode.AntiAlias;` trước khi vẽ.
-
-**Hỏi: Làm sao giải phóng tài nguyên sau khi lưu?**  
-**Đáp:** Gọi `graphics.Dispose();` và `bitmap.Dispose();` khi hoàn tất để giải phóng tài nguyên gốc.
+**Q: Làm thế nào để giải phóng tài nguyên sau khi lưu?**  
+A: Gọi `graphics.Dispose();` và `bitmap.Dispose();` khi hoàn thành để giải phóng tài nguyên gốc.
 
 ## Kết luận
 
-Bạn đã biết **cách vẽ arc** bằng Aspose.Drawing, từ việc tạo đối tượng bitmap C# đến thiết lập màu bút, tạo hình ảnh arc, và lưu kết quả dưới dạng PNG. Hãy thử nghiệm với các góc, màu sắc và độ rộng đường khác nhau để tạo ra đồ họa tùy chỉnh nâng cao ứng dụng của bạn.
+Bây giờ bạn đã biết **cách vẽ cung và lưu ảnh PNG** bằng Aspose.Drawing, từ việc tạo đối tượng bitmap C# đến thiết lập màu đường, tạo cung, và lưu kết quả dưới dạng tệp PNG. Hãy thử nghiệm với các góc, màu sắc và độ rộng đường khác nhau để tạo đồ họa tùy chỉnh nâng cao ứng dụng của bạn.
 
 ---
 
-**Last Updated:** 2026-02-12  
-**Được kiểm tra với:** Aspose.Drawing 24.11 for .NET  
-**Tác giả:** Aspose  
+**Cập nhật lần cuối:** 2026-05-29  
+**Kiểm tra với:** Aspose.Drawing 24.11 for .NET  
+**Tác giả:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

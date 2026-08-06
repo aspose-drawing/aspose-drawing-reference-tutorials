@@ -1,57 +1,109 @@
 ---
-date: 2026-02-12
-description: Узнайте, как рисовать дугу в приложениях .NET с помощью Aspose.Drawing.
-  Это пошаговое руководство покажет, как создать bitmap в C#, установить цвет пера,
-  нарисовать дугу на bitmap и сохранить bitmap в формате PNG.
-linktitle: Drawing Arcs in Aspose.Drawing
+date: 2026-05-29
+description: Узнайте, как нарисовать дугу и сохранить изображение PNG в приложениях
+  .NET с использованием Aspose.Drawing. Этот пошаговый учебник по рисованию изображений
+  покажет, как создать bitmap в C#, установить цвет линии, нарисовать дугу и сохранить
+  результат в файл PNG.
+keywords:
+- save image png
+- how to draw arc
+- set line color
+- cross platform drawing
+- replace system drawing
+linktitle: Рисование дуг в Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to draw arc and save image PNG in .NET applications using
+    Aspose.Drawing. This step‑by‑step image drawing tutorial shows you how to create
+    a bitmap in C#, set line color, draw the arc, and save the result as a PNG file.
+  headline: How to Draw Arc and Save Image PNG with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to draw arc and save image PNG in .NET applications using
+    Aspose.Drawing. This step‑by‑step image drawing tutorial shows you how to create
+    a bitmap in C#, set line color, draw the arc, and save the result as a PNG file.
+  name: How to Draw Arc and Save Image PNG with Aspose.Drawing
+  steps:
+  - name: Create a bitmap C# object
+    text: 'We first create a `Bitmap` that will serve as the canvas for our drawing.
+      *Explanation*: The bitmap size (1000 × 800) gives us plenty of room, and the
+      pixel format ensures high‑quality alpha blending.'
+  - name: Set up a pen and set pen color
+    text: Now we define a `Pen` that determines the line’s appearance. Here we **set
+      pen color** to blue and choose a width of 2 pixels. You can replace `KnownColor.Blue`
+      with any other known color or a custom `Color.FromArgb` value.
+  - name: Draw the arc on bitmap
+    text: 'With the graphics surface and pen ready, we can **draw arc on bitmap**.
+      The parameters are: - `pen` – the styling we defined. - `0, 0` – the top‑left
+      corner of the bounding rectangle. - `700, 700` – width and height of the rectangle
+      (creates a perfect circle). - `0` – start angle in degrees. - `180`'
+  - name: Save the bitmap PNG
+    text: Load the bitmap into memory and call `Save` with a `.png` extension to **save
+      image PNG** to disk. Adjust the path to match your project’s output folder.
+      The saved file (`DrawArc_out.png`) contains the generated arc image, ready for
+      use in UI, reports, or further processing.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing fully supports .NET 6, .NET 7, and .NET 8 runtimes.
+    question: Does this work with .NET 6 and later?
+  - answer: The size is limited only by the available memory; for very large images
+      consider streaming or tiling techniques.
+    question: How large can the bitmap be?
+  - answer: Absolutely—just call `graphics.DrawArc` multiple times with different
+      coordinates or angles.
+    question: Can I draw multiple arcs on the same bitmap?
+  - answer: You can enable it by setting `graphics.SmoothingMode = SmoothingMode.AntiAlias;`
+      before drawing.
+    question: Is anti‑aliasing applied automatically?
+  - answer: Call `graphics.Dispose();` and `bitmap.Dispose();` when you’re done to
+      free native resources.
+    question: How do I release resources after saving?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Как нарисовать дугу с помощью Aspose.Drawing
+title: Как нарисовать дугу и сохранить изображение PNG с помощью Aspose.Drawing
 url: /ru/net/lines-curves-and-shapes/draw-arc/
 weight: 11
 ---
 
-top-button >}}
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как нарисовать дугу с помощью Aspose.Drawing
+# Как нарисовать дугу и сохранить изображение PNG с помощью Aspose.Drawing
 
 ## Введение
 
-Если вам нужно **как нарисовать дугу** в проекте .NET, Aspose.Drawing делает процесс простым и производительным. В этом руководстве мы пройдемся по созданию bitmap в C#, установке цвета пера, генерации изображения дуги и, наконец, сохранению bitmap в файл PNG. Независимо от того, создаёте ли вы инструмент отчетности, пользовательский UI‑компонент или просто экспериментируете с графикой, эти шаги дадут вам прочную основу.
+Если вам нужно **нарисовать дугу и сохранить изображение PNG** в проекте .NET, Aspose.Drawing делает процесс простым и высокопроизводительным. В этом руководстве мы пройдёмся по созданию bitmap в C#, установке цвета линии, генерации изображения дуги и, наконец, сохранению bitmap в файл PNG. Независимо от того, создаёте ли вы инструмент отчётности, пользовательский UI‑компонент или просто исследуете графику, эти шаги дадут вам надёжную кроссплатформенную основу для рисования.
 
 ## Быстрые ответы
 - **Какая библиотека лучше всего подходит для рисования дуг в .NET?** Aspose.Drawing for .NET  
-- **Какой метод создает дугу?** `Graphics.DrawArc`  
-- **Нужна ли лицензия для разработки?** Бесплатная пробная версия подходит для тестирования; лицензия требуется для продакшн.  
-- **Можно ли сохранить результат в PNG?** Да, используйте `Bitmap.Save` с расширением `.png`.  
-- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Какой метод создаёт дугу?** `Graphics.DrawArc`  
+- **Нужна ли лицензия для разработки?** Бесплатная пробная версия подходит для тестирования; для продакшна требуется лицензия.  
+- **Можно ли сохранить результат в PNG?** Да — используйте `Bitmap.Save` с расширением `.png`, чтобы **сохранить изображение PNG**.  
+- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
 
-## Что такое «как нарисовать дугу» в Aspose.Drawing?
+## Что означает «как нарисовать дугу» в Aspose.Drawing?
 
-Рисование дуги означает отрисовку изогнутого сегмента эллипса или круга на графической поверхности. Aspose.Drawing предоставляет знакомый метод `Graphics.DrawArc`, позволяющий задавать ограничивающий прямоугольник, начальный угол и угол разворота с пиксельной точностью.
+Рисование дуги в Aspose.Drawing означает отрисовку части эллипса или круга на bitmap или другой графической поверхности. Вы загружаете объект `Graphics` из `Bitmap`, указываете ограничивающий прямоугольник, начальный угол и угол охвата, и библиотека рисует изогнутый сегмент с пиксельной точностью.  
+`Graphics.DrawArc` рисует изогнутый сегмент эллипса или круга на графической поверхности.
 
-## Почему использовать Aspose.Drawing для дуг?
+## Почему стоит использовать Aspose.Drawing для дуг?
 
-- **Cross‑platform consistency** – Работает одинаково на Windows, Linux и macOS.  
-- **No System.Drawing.Common dependency** – Идеально для современных приложений .NET Core/5+.  
-- **Rich API** – Полный контроль над цветами, толщиной линий и форматами изображений.  
+Aspose.Drawing обеспечивает согласованную отрисовку на Windows, Linux и macOS без зависимости от System.Drawing.Common, что делает её идеальной для современных приложений на .NET Core и .NET 5+. Она поддерживает изображения высокого разрешения, анти‑алиасинг и богатый набор графических примитивов, поэтому дуги выглядят плавно и точно независимо от операционной системы.
 
 ## Требования
 
-Прежде чем начать, убедитесь, что у вас есть:
-
-- Visual Studio (любая современная версия).  
-- Aspose.Drawing for .NET – скачайте его с [веб‑сайта](https://releases.aspose.com/drawing/net/).  
+- Visual Studio (любая современная версия)  
+- Aspose.Drawing for .NET — скачайте его с [веб‑сайта](https://releases.aspose.com/drawing/net/).  
 - Базовые знания C# (переменные, объекты и вызовы методов).  
 
 ## Импорт пространств имён
 
-Для начала подключите необходимое пространство имён:
+`Graphics` — основной класс, предоставляющий методы рисования для поверхности bitmap.  
+
+`Bitmap` представляет собой изображение в памяти, на которое можно рисовать.  
+
+`Pen` определяет стиль линии, её ширину и цвет для операций рисования.  
 
 ```csharp
 using System.Drawing;
@@ -61,7 +113,7 @@ using System.Drawing;
 
 ### Шаг 1: Создать объект bitmap C# 
 
-Мы сначала создаём `Bitmap`, который будет служить холстом для нашего рисунка.
+Сначала мы создаём `Bitmap`, который будет служить холстом для нашего рисунка.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -70,7 +122,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 *Объяснение*: Размер bitmap (1000 × 800) предоставляет достаточно места, а формат пикселей обеспечивает высококачественное альфа‑смешивание.
 
-### Шаг 2: Настроить перо и задать цвет пера
+### Шаг 2: Настроить Pen и задать цвет пера
 
 Теперь мы определяем `Pen`, который задаёт внешний вид линии. Здесь мы **устанавливаем цвет пера** в синий и выбираем ширину 2 пикселя.
 
@@ -82,7 +134,7 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 
 ### Шаг 3: Нарисовать дугу на bitmap
 
-Когда графическая поверхность и перо готовы, мы можем **нарисовать дугу на bitmap**.
+Имея готовую графическую поверхность и Pen, мы можем **нарисовать дугу на bitmap**.
 
 ```csharp
 graphics.DrawArc(pen, 0, 0, 700, 700, 0, 180);
@@ -90,78 +142,56 @@ graphics.DrawArc(pen, 0, 0, 700, 700, 0, 180);
 
 Параметры:
 
-- `pen` – стиль, который мы задали.  
-- `0, 0` – левый верхний угол ограничивающего прямоугольника.  
-- `700, 700` – ширина и высота прямоугольника (создаёт идеальный круг).  
-- `0` – начальный угол в градусах.  
-- `180` – угол разворота, образующий полукруговую дугу.
+- `pen` — стиль, который мы задали.  
+- `0, 0` — координаты левого верхнего угла ограничивающего прямоугольника.  
+- `700, 700` — ширина и высота прямоугольника (создаёт идеальный круг).  
+- `0` — начальный угол в градусах.  
+- `180` — угол охвата, создающий полукруговую дугу.
 
 ### Шаг 4: Сохранить bitmap в PNG
 
-Наконец, мы **сохраняем bitmap в PNG** на диск. Скорректируйте путь, чтобы он соответствовал папке вывода вашего проекта.
+Загрузите bitmap в память и вызовите `Save` с расширением `.png`, чтобы **сохранить изображение PNG** на диск. Скорректируйте путь, чтобы он соответствовал папке вывода вашего проекта.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawArc_out.png");
 ```
 
-Сохранённый файл (`DrawArc_out.png`) содержит сгенерированное изображение дуги, готовое к использованию в UI, отчетах или дальнейшей обработке.
+Сохранённый файл (`DrawArc_out.png`) содержит сгенерированное изображение дуги, готовое к использованию в UI, отчётах или дальнейшей обработке.
 
 ## Распространённые проблемы и решения
 
 | Проблема | Решение |
-|----------|----------|
+|----------|---------|
 | **Дуга выглядит искажённой** | Убедитесь, что значения ширины и высоты одинаковы для истинного круга; иначе вы получите эллиптическую дугу. |
-| **Исключение «Файл не найден»** | Проверьте, существует ли целевая директория, или создайте её программно перед вызовом `Save`. |
-| **Цвета выглядят иначе на Linux** | Используйте `Color.FromArgb` с явными значениями RGBA, чтобы гарантировать одинаковый рендеринг на всех платформах. |
-
-## FAQ
-
-### Вопрос 1: Можно ли настроить цвет дуги?
-
-**Ответ 1:** Да, можно. Просто измените параметр цвета при создании объекта `Pen`.
-
-### Вопрос 2: Что если я хочу другой начальный угол для дуги?
-
-**Ответ 2:** Измените параметр начального угла в методе `DrawArc` в соответствии с вашими требованиями.
-
-### Вопрос 3: Подходит ли Aspose.Drawing для других графических элементов?
-
-**Ответ 3:** Абсолютно. Aspose.Drawing поддерживает широкий спектр графических элементов, включая линии, кривые и фигуры.
-
-### Вопрос 4: Можно ли интегрировать Aspose.Drawing с другими библиотеками .NET?
-
-**Ответ 4:** Да, Aspose.Drawing без проблем интегрируется с другими библиотеками .NET, предоставляя гибкость в разработке.
-
-### Вопрос 5: Где можно найти дополнительную поддержку или обсуждения сообщества?
-
-**Ответ 5:** Посетите [форум Aspose.Drawing](https://forum.aspose.com/c/drawing/44) для поддержки сообщества и обсуждений.
+| **Исключение File not found** | Проверьте, существует ли целевая директория, или создайте её программно перед вызовом `Save`. |
+| **Цвета выглядят иначе в Linux** | Используйте `Color.FromArgb` с явными значениями RGBA, чтобы обеспечить одинаковый рендеринг на всех платформах. |
 
 ## Часто задаваемые вопросы
 
-**Q: Работает ли это с .NET 6 и новее?**  
-A: Да, Aspose.Drawing полностью поддерживает среды выполнения .NET 6, .NET 7 и .NET 8.
+**Вопрос: Работает ли это с .NET 6 и более новыми версиями?**  
+Ответ: Да, Aspose.Drawing полностью поддерживает среды выполнения .NET 6, .NET 7 и .NET 8.
 
-**Q: Какой максимальный размер bitmap?**  
-A: Размер ограничен только доступной памятью; для очень больших изображений рассмотрите техники потоковой передачи или разбиения на плитки.
+**Вопрос: Какой максимальный размер bitmap?**  
+Ответ: Размер ограничен только доступной памятью; для очень больших изображений рассмотрите техники потоковой передачи или разбиения на плитки.
 
-**Q: Можно ли нарисовать несколько дуг на одном bitmap?**  
-A: Абсолютно — просто вызывайте `graphics.DrawArc` несколько раз с разными координатами или углами.
+**Вопрос: Могу ли я нарисовать несколько дуг на одном bitmap?**  
+Ответ: Абсолютно — просто вызывайте `graphics.DrawArc` несколько раз с разными координатами или углами.
 
-**Q: Применяется ли анти‑алиасинг автоматически?**  
-A: Вы можете включить его, установив `graphics.SmoothingMode = SmoothingMode.AntiAlias;` перед рисованием.
+**Вопрос: Применяется ли анти‑алиасинг автоматически?**  
+Ответ: Вы можете включить его, установив `graphics.SmoothingMode = SmoothingMode.AntiAlias;` перед рисованием.
 
-**Q: Как освободить ресурсы после сохранения?**  
-A: Вызовите `graphics.Dispose();` и `bitmap.Dispose();`, когда закончите, чтобы освободить нативные ресурсы.
+**Вопрос: Как освободить ресурсы после сохранения?**  
+Ответ: Вызовите `graphics.Dispose();` и `bitmap.Dispose();`, когда закончите, чтобы освободить нативные ресурсы.
 
 ## Заключение
 
-Теперь вы знаете **как нарисовать дугу** с помощью Aspose.Drawing, от создания объекта bitmap C# до установки цвета пера, генерации изображения дуги и сохранения результата в PNG. Экспериментируйте с разными углами, цветами и толщиной линий, чтобы создавать пользовательскую графику, улучшая ваши приложения.
+Теперь вы знаете **как нарисовать дугу и сохранить изображение PNG** с помощью Aspose.Drawing, от создания объекта bitmap C# до установки цвета линии, генерации дуги и сохранения результата в файл PNG. Экспериментируйте с разными углами, цветами и толщинами линий, чтобы создавать пользовательскую графику, улучшая ваши приложения.
 
 ---
 
-**Последнее обновление:** 2026-02-12  
+**Последнее обновление:** 2026-05-29  
 **Тестировано с:** Aspose.Drawing 24.11 for .NET  
-**Автор:** Aspose  
+**Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

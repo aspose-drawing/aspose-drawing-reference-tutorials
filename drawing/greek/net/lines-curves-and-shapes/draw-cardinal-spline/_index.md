@@ -1,11 +1,37 @@
 ---
-date: 2026-02-12
-description: Μάθετε πώς να αποθηκεύετε εικόνα και να σχεδιάζετε σπλίνες cardinal στο
-  .NET με το Aspose.Drawing. Αποθηκεύστε την καμπύλη ως PNG και δημιουργήστε ομαλή
-  γραφική απεικόνιση χωρίς κόπο.
-linktitle: Drawing Cardinal Splines in Aspose.Drawing
+date: 2026-05-29
+description: Μάθετε πώς να αποθηκεύσετε PNG και να σχεδιάσετε cardinal splines σε
+  .NET με το Aspose.Drawing. Αποθηκεύστε την καμπύλη ως PNG, δημιουργήστε ομαλή γραφική
+  απεικόνιση και παράγετε bitmap σε αρχείο χωρίς κόπο.
+keywords:
+- how to save png
+- save bitmap to file
+- create smooth curve
+- draw curve c#
+- generate png graphics
+linktitle: Σχεδίαση Cardinal Splines στο Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to save PNG and draw cardinal splines in .NET with Aspose.Drawing.
+    Save curve as PNG, create smooth graphics, and generate bitmap to file effortlessly.
+  headline: How to Save PNG and Draw Cardinal Splines with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: '`Graphics.DrawCurve` interpolates a series of points into a smooth cardinal
+      spline.'
+    question: What does the primary method do?
+  - answer: PNG via `Bitmap.Save`.
+    question: Which format is used to save the image?
+  - answer: A trial works for development; a commercial license is required for production.
+    question: Do I need a license to save images?
+  - answer: Yes, overloads of `DrawCurve` let you specify tension.
+    question: Can I change the curve tension?
+  - answer: Absolutely – it supports .NET Framework and .NET Core/5/6.
+    question: Is Aspose.Drawing compatible with .NET 6+?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Πώς να αποθηκεύσετε εικόνα και να σχεδιάσετε καρδινάλια spline στο Aspose.Drawing
+title: Πώς να αποθηκεύσετε PNG και να σχεδιάσετε Cardinal Splines με το Aspose.Drawing
 url: /el/net/lines-curves-and-shapes/draw-cardinal-spline/
 weight: 13
 ---
@@ -14,59 +40,84 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να αποθηκεύσετε εικόνα και να σχεδιάσετε Cardinal Splines στο Aspose.Drawing
+# Πώς να αποθηκεύσετε PNG και να σχεδιάσετε Καρδινάλια Σπλάινς με Aspose.Drawing
 
-## Introduction
+## Εισαγωγή
 
-Σε αυτό το tutorial θα ανακαλύψετε **πώς να αποθηκεύσετε** αρχεία εικόνας ενώ σχεδιάζετε ομαλές cardinal splines χρησιμοποιώντας το Aspose.Drawing για .NET. Είτε δημιουργείτε ένα στοιχείο γραφήματος, έναν επεξεργαστή διαγραμμάτων, ή απλώς χρειάζεστε να εξάγετε μια προσαρμοσμένη καμπύλη ως PNG, τα παρακάτω βήματα δείχνουν ακριβώς πώς να σχεδιάσετε μια καμπύλη με ένα πενάκι, να προσαρμόσετε το spline και να αποθηκεύσετε το αποτέλεσμα στο δίσκο.
+Σε αυτό το σεμινάριο θα ανακαλύψετε **πώς να αποθηκεύσετε PNG** αρχεία ενώ σχεδιάζετε ομαλές καρδινάλες σπλάινς χρησιμοποιώντας το Aspose.Drawing για .NET. Είτε δημιουργείτε ένα στοιχείο γραφημάτων, έναν επεξεργαστή διαγραμμάτων, ή απλώς χρειάζεστε να εξάγετε μια προσαρμοσμένη καμπύλη ως PNG, τα παρακάτω βήματα θα σας καθοδηγήσουν στη δημιουργία ενός bitmap καμβά, στο σχεδιασμό μιας σπλάινς με ένα πένες, και στην αποθήκευση του αποτελέσματος στο δίσκο. Θα δείτε επίσης γιατί το Aspose.Drawing είναι μια αξιόπιστη διαπλατφορμική εναλλακτική λύση στο System.Drawing.Common.
 
-## Quick Answers
-- **Τι κάνει η κύρια μέθοδος;** `Graphics.DrawCurve` παρεμβάλλει μια σειρά σημείων σε μια ομαλή cardinal spline.  
+## Σύντομες Απαντήσεις
+- **Τι κάνει η κύρια μέθοδος;** `Graphics.DrawCurve` παρεμβάλλει μια σειρά σημείων σε μια ομαλή καρδινάλια σπλάινς.  
 - **Ποια μορφή χρησιμοποιείται για την αποθήκευση της εικόνας;** PNG μέσω `Bitmap.Save`.  
 - **Χρειάζομαι άδεια για την αποθήκευση εικόνων;** Μια δοκιμαστική έκδοση λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Μπορώ να αλλάξω την ένταση της καμπύλης;** Ναι, οι υπερφορτώσεις του `DrawCurve` επιτρέπουν τον καθορισμό της έντασης.  
+- **Μπορώ να αλλάξω την ένταση της καμπύλης;** Ναι, οι υπερφορτώσεις του `DrawCurve` επιτρέπουν να καθορίσετε την ένταση.  
 - **Είναι το Aspose.Drawing συμβατό με .NET 6+;** Απόλυτα – υποστηρίζει .NET Framework και .NET Core/5/6.
 
-## What is “how to save image” in the context of Aspose.Drawing?
-Τι σημαίνει «πώς να αποθηκεύσετε εικόνα» στο πλαίσιο του Aspose.Drawing; Η αποθήκευση μιας εικόνας σημαίνει τη μετατροπή του bitmap στη μνήμη που σχεδιάζετε σε ένα φυσικό αρχείο όπως PNG, JPEG ή BMP. Το Aspose.Drawing παρέχει μια απλή μέθοδο `Bitmap.Save` που διαχειρίζεται την κωδικοποίηση για εσάς.
+## Τι σημαίνει “πώς να αποθηκεύσετε PNG” στο πλαίσιο του Aspose.Drawing;
+Η αποθήκευση ενός PNG σημαίνει τη μετατροπή του bitmap στη μνήμη που σχεδιάζετε σε ένα φυσικό αρχείο PNG στο δίσκο. Η διαδικασία γράφει τα δεδομένα εικονοστοιχείων χρησιμοποιώντας συμπίεση χωρίς απώλειες, διατηρώντας τα ακριβή χρώματα και τυχόν πληροφορίες καναλιού άλφα. Η μέθοδος `Bitmap.Save` του Aspose.Drawing διαχειρίζεται την κωδικοποίηση PNG αυτόματα, έτσι δεν χρειάζεται να διαχειριστείτε τις λεπτομέρειες της μορφής μόνοι σας.
 
-## Why draw a cardinal spline with Aspose.Drawing?
-Γιατί να σχεδιάσετε μια cardinal spline με το Aspose.Drawing; Οι cardinal splines παρέχουν μια ομαλή, ρέουσα καμπύλη που περνά κοντά σε ένα σύνολο σημείων ελέγχου, ιδανική για οπτικοποιήσεις δεδομένων, γραφικά UI και προσαρμοσμένα σχήματα. Χρησιμοποιώντας το Aspose.Drawing αποφεύγετε τους περιορισμούς του `System.Drawing.Common` και αποκτάτε συνέπεια μεταξύ πλατφορμών.
+## Γιατί να σχεδιάσετε μια καρδινάλια σπλάιν με το Aspose.Drawing;
+Μια καρδινάλια σπλάιν παράγει μια ομαλή, ρέουσα καμπύλη που ακολουθεί στενά ένα σύνολο σημείων ελέγχου, καθιστώντας την ιδανική για οπτικοποιήσεις δεδομένων, γραφικά UI και προσαρμοσμένα σχήματα. Το Aspose.Drawing υποστηρίζει **30+ μορφές εικόνας** και μπορεί να αποδώσει γραφικά πολλών εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, προσφέροντας ταχύτητα και ευελιξία.
 
-## Prerequisites
+## Προαπαιτούμενα
 
 - Visual Studio (οποιαδήποτε πρόσφατη έκδοση) εγκατεστημένο.  
-- Aspose.Drawing for .NET library. Μπορείτε να την κατεβάσετε [εδώ](https://releases.aspose.com/drawing/net/).  
+- Βιβλιοθήκη Aspose.Drawing για .NET. Μπορείτε να την κατεβάσετε [εδώ](https://releases.aspose.com/drawing/net/).  
 - Βασικές γνώσεις προγραμματισμού C#.
 
-## Import Namespaces
+## Εισαγωγή Namespaces
 
 Στο αρχείο C# σας, ξεκινήστε εισάγοντας το απαραίτητο namespace:
 
+Το namespace `Aspose.Drawing` περιέχει όλους τους βασικούς τύπους όπως `Bitmap`, `Graphics` και `Pen`.  
+```csharp
+using Aspose.Drawing;
+```
 ```csharp
 using System.Drawing;
 ```
 
-## Step 1: Create a Bitmap (Canvas)
+## Βήμα 1: Δημιουργία Bitmap (Καμβά)
 
-Πρώτα, δημιουργήστε ένα bitmap που θα λειτουργήσει ως καμβάς για το σχέδιό σας. Αυτό το bitmap είναι όπου το spline θα αποδοθεί πριν **αποθηκεύσετε την εικόνα**.
+Πρώτα, δημιουργήστε ένα bitmap που θα λειτουργήσει ως καμβάς για το σχέδιό σας. Αυτό το bitmap είναι όπου θα αποδοθεί η σπλάιν πριν **αποθηκεύσετε την εικόνα**.
 
+Το Bitmap αντιπροσωπεύει μια εικόνα στη μνήμη με καθορισμένη μορφή εικονοστοιχείων και διαστάσεις.  
+```csharp
+int width = 800;
+int height = 600;
+Bitmap bitmap = new Bitmap(width, height, PixelFormat.Format32bppPArgb);
+```
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Step 2: Create a Graphics Object
+## Βήμα 2: Δημιουργία αντικειμένου Graphics
 
 Στη συνέχεια, αποκτήστε ένα αντικείμενο `Graphics` από το bitmap. Αυτό το αντικείμενο παρέχει την επιφάνεια σχεδίασης.
 
+Το Graphics παρέχει μια επιφάνεια σχεδίασης για την απόδοση σχημάτων, κειμένου και εικόνων πάνω σε ένα bitmap.  
+```csharp
+Graphics graphics = Graphics.FromImage(bitmap);
+graphics.Clear(Color.Transparent);
+```
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Step 3: Define Pen and Draw Curve
+## Βήμα 3: Ορισμός Pen και Σχεδίαση Καμπύλης
 
-Ορίστε ένα `Pen` με το επιθυμητό χρώμα και πλάτος, στη συνέχεια σχεδιάστε την cardinal spline χρησιμοποιώντας `DrawCurve`. Αυτό δείχνει την τεχνική **draw curve with pen** και λειτουργεί ως **cardinal spline example**.
+Ορίστε ένα `Pen` με το επιθυμητό χρώμα και πλάτος, στη συνέχεια σχεδιάστε την καρδινάλια σπλάιν χρησιμοποιώντας το `DrawCurve`. Αυτό επιδεικνύει την τεχνική **draw curve with pen** και λειτουργεί ως **παράδειγμα καρδινάλια σπλάιν**.
 
+Το Pen περιλαμβάνει το χρώμα, το πλάτος και το στυλ γραμμής που χρησιμοποιείται για τη σχεδίαση γραμμών και καμπυλών.  
+```csharp
+Pen pen = new Pen(Color.Blue, 3);
+PointF[] points = {
+    new PointF(100, 400), new PointF(200, 100),
+    new PointF(300, 300), new PointF(400, 150),
+    new PointF(500, 350)
+};
+graphics.DrawCurve(pen, points, 0.5f); // tension = 0.5
+```
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawCurve(pen, new Point[] {
@@ -78,72 +129,59 @@ graphics.DrawCurve(pen, new Point[] {
 });
 ```
 
-## Step 4: Save the Image (Save Curve as PNG)
+## Βήμα 4: Αποθήκευση της Εικόνας (Αποθήκευση Καμπύλης ως PNG)
 
-Τέλος, αποθηκεύστε το bitmap σε αρχείο PNG. Αυτό είναι το βασικό μέρος του **πώς να αποθηκεύσετε εικόνα** σε αυτό το tutorial.
+Τέλος, αποθηκεύστε το bitmap σε αρχείο PNG. Αυτό είναι το βασικό μέρος του **πώς να αποθηκεύσετε PNG** σε αυτό το σεμινάριο.
 
+Η μέθοδος Bitmap.Save γράφει την εικόνα σε αρχείο στην καθορισμένη μορφή, όπως PNG.  
+```csharp
+string outputPath = Path.Combine(Environment.CurrentDirectory, "cardinal-spline.png");
+bitmap.Save(outputPath, ImageFormat.Png);
+```
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_out.png");
 ```
 
-> **Συμβουλή:** Χρησιμοποιήστε το `Path.Combine` για να δημιουργήσετε διαδρομές αρχείων με ασφάλεια μεταξύ πλατφορμών.
+> **Συμβουλή:** Χρησιμοποιήστε το `Path.Combine` για να δημιουργήσετε διαδρομές αρχείων με ασφάλεια σε διάφορες πλατφόρμες.
 
-Συγχαρητήρια! Έχετε σχεδιάσει επιτυχώς μια cardinal spline και αποθηκεύσει το αποτέλεσμα ως αρχείο PNG χρησιμοποιώντας το Aspose.Drawing για .NET. Μη διστάσετε να πειραματιστείτε με διαφορετικούς πίνακες σημείων, χρώματα πενάκιου ή πλάτη γραμμής για να προσαρμόσετε τις καμπύλες σας.
+Συγχαρητήρια! Έχετε σχεδιάσει επιτυχώς μια καρδινάλια σπλάιν και αποθηκεύσει το αποτέλεσμα ως εικόνα PNG χρησιμοποιώντας το Aspose.Drawing για .NET. Μη διστάσετε να πειραματιστείτε με διαφορετικούς πίνακες σημείων, χρώματα pen ή πλάτη γραμμής για να προσαρμόσετε τις καμπύλες σας.
 
-## Common Use Cases
+## Συνηθισμένες Περιπτώσεις Χρήσης
 
-- **Οπτικοποιήσεις δεδομένων** – ομαλά γραφήματα γραμμής που χρειάζονται ακριβή σημεία ελέγχου.  
+- **Οπτικοποιήσεις δεδομένων** – ομαλά διαγράμματα γραμμών που χρειάζονται ακριβή σημεία ελέγχου.  
 - **Προσαρμοσμένα UI στοιχεία** – σχεδίαση κουμπιών, ρυθμιστών ή διακοσμητικών περιγραμμάτων.  
-- **Εξαγώγιμα γραφικά** – δημιουργία PNG πόρων σε πραγματικό χρόνο για αναφορές ή περιεχόμενο web.
+- **Εξαγώγιμα γραφικά** – δημιουργία PNG πόρων σε πραγματικό χρόνο για αναφορές ή περιεχόμενο ιστού.
 
-## Troubleshooting & Tips
+## Επίλυση Προβλημάτων & Συμβουλές
 
-- **Η εικόνα εμφανίζεται κενή;** Βεβαιωθείτε ότι η μορφή εικονοστοιχείου του bitmap υποστηρίζει άλφα (`Format32bppPArgb`) και ότι καλείτε `graphics.Clear(Color.Transparent)` αν χρειάζεται.  
-- **Απροσδόκητο σχήμα καμπύλης;** Ρυθμίστε την παράμετρο tension χρησιμοποιώντας την υπερφόρτωση `DrawCurve(pen, points, tension)`.  
+- **Η εικόνα εμφανίζεται κενή;** Βεβαιωθείτε ότι η μορφή εικονοστοιχείων του bitmap υποστηρίζει άλφα (`Format32bppPArgb`) και ότι καλείτε `graphics.Clear(Color.Transparent)` αν χρειάζεται.  
+- **Απρόσμενο σχήμα καμπύλης;** Ρυθμίστε την παράμετρο tension χρησιμοποιώντας την υπερφόρτωση `DrawCurve(pen, points, tension)`.  
 - **Σφάλματα πρόσβασης αρχείου;** Επαληθεύστε ότι ο φάκελος προορισμού υπάρχει και ότι η εφαρμογή σας έχει δικαιώματα εγγραφής.
 
-## Frequently Asked Questions
+## Συχνές Ερωτήσεις
 
-### Q1: Can I use Aspose.Drawing for commercial projects?
-**Μπορώ να χρησιμοποιήσω το Aspose.Drawing για εμπορικά έργα;**  
-Ναι, το Aspose.Drawing είναι κατάλληλο για προσωπικά και εμπορικά έργα. Ελέγξτε τις λεπτομέρειες αδειοδότησης στη [σελίδα αγοράς](https://purchase.aspose.com/buy).
+**Q1: Μπορώ να χρησιμοποιήσω το Aspose.Drawing για εμπορικά έργα;**  
+A1: Ναι, το Aspose.Drawing είναι κατάλληλο τόσο για προσωπικά όσο και για εμπορικά έργα. Ελέγξτε τις λεπτομέρειες αδειοδότησης στη [σελίδα αγοράς](https://purchase.aspose.com/buy).
 
-### Q2: How can I get a temporary license for testing?
-**Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμές;**  
-Αποκτήστε μια προσωρινή άδεια για δοκιμαστικούς σκοπούς [εδώ](https://purchase.aspose.com/temporary-license/).
+**Q2: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμή;**  
+A2: Αποκτήστε μια προσωρινή άδεια για δοκιμαστικούς σκοπούς [εδώ](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Where can I find additional support?
-**Πού μπορώ να βρω επιπλέον υποστήριξη;**  
-Επισκεφθείτε το [φόρουμ Aspose.Drawing](https://forum.aspose.com/c/drawing/44) για υποστήριξη κοινότητας και συζητήσεις.
+**Q3: Πού μπορώ να βρω επιπλέον υποστήριξη;**  
+A3: Επισκεφθείτε το [φόρουμ Aspose.Drawing](https://forum.aspose.com/c/drawing/44) για υποστήριξη κοινότητας και συζητήσεις.
 
-### Q4: Is there a free trial available?
-**Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
-Ναι, εξερευνήστε τις δυνατότητες με την [δωρεάν δοκιμή](https://releases.aspose.com/) πριν κάνετε αγορά.
+**Q4: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+A4: Ναι, εξερευνήστε τις δυνατότητες με την έκδοση [δωρεάν δοκιμής](https://releases.aspose.com/) πριν κάνετε αγορά.
 
-### Q5: How do I access the documentation?
-**Πώς μπορώ να αποκτήσω πρόσβαση στην τεκμηρίωση;**  
-Ανατρέξτε στην ολοκληρωμένη [τεκμηρίωση](https://reference.aspose.com/drawing/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
-
-### Q6: Can I change the output format to JPEG?
-**Μπορώ να αλλάξω τη μορφή εξόδου σε JPEG;**  
-Απόλυτα. Αντικαταστήστε την επέκταση `.png` με `.jpg` και ορίστε `ImageFormat.Jpeg` στη μέθοδο `Save`.
-
-### Q7: Is it possible to draw multiple splines on the same bitmap?
-**Είναι δυνατόν να σχεδιάσετε πολλαπλές splines στο ίδιο bitmap;**  
-Ναι, απλώς καλέστε `graphics.DrawCurve` πολλές φορές με διαφορετικούς πίνακες σημείων και πενάκια.
-
-## Conclusion
-
-Σε αυτόν τον οδηγό καλύψαμε **πώς να αποθηκεύσετε εικόνα** μετά το σχεδιασμό μιας cardinal spline, παρουσιάσαμε μια πρακτική **σχεδίαση καμπύλης με C#**, και ανέδυσαμε κοινά σενάρια όπου αυτή η τεχνική ξεχωρίζει. Τώρα έχετε μια σταθερή βάση για να ενσωματώσετε ομαλά spline γραφικά σε οποιαδήποτε εφαρμογή .NET.
+**Q5: Πώς μπορώ να αποκτήσω πρόσβαση στην τεκμηρίωση;**  
+A5: Ανατρέξτε στην ολοκληρωμένη [τεκμηρίωση](https://reference.aspose.com/drawing/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
 
 ---
 
-**Last Updated:** 2026-02-12  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 2026-05-29  
+**Δοκιμή με:** Aspose.Drawing 24.11 for .NET  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

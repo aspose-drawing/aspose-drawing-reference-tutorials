@@ -1,10 +1,37 @@
 ---
-date: 2026-02-12
-description: Leer hoe je een afbeelding opslaat en cardinal splines tekent in .NET
-  met Aspose.Drawing. Sla de curve op als PNG en maak moeiteloos vloeiende graphics.
-linktitle: Drawing Cardinal Splines in Aspose.Drawing
+date: 2026-05-29
+description: Leer hoe u PNG kunt opslaan en cardinal splines kunt tekenen in .NET
+  met Aspose.Drawing. Sla de curve op als PNG, maak vloeiende graphics en genereer
+  moeiteloos een bitmap naar een bestand.
+keywords:
+- how to save png
+- save bitmap to file
+- create smooth curve
+- draw curve c#
+- generate png graphics
+linktitle: Cardinal Splines tekenen in Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to save PNG and draw cardinal splines in .NET with Aspose.Drawing.
+    Save curve as PNG, create smooth graphics, and generate bitmap to file effortlessly.
+  headline: How to Save PNG and Draw Cardinal Splines with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: '`Graphics.DrawCurve` interpolates a series of points into a smooth cardinal
+      spline.'
+    question: What does the primary method do?
+  - answer: PNG via `Bitmap.Save`.
+    question: Which format is used to save the image?
+  - answer: A trial works for development; a commercial license is required for production.
+    question: Do I need a license to save images?
+  - answer: Yes, overloads of `DrawCurve` let you specify tension.
+    question: Can I change the curve tension?
+  - answer: Absolutely – it supports .NET Framework and .NET Core/5/6.
+    question: Is Aspose.Drawing compatible with .NET 6+?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Hoe afbeelding opslaan en kardinale splines tekenen in Aspose.Drawing
+title: Hoe PNG op te slaan en Cardinal Splines te tekenen met Aspose.Drawing
 url: /nl/net/lines-curves-and-shapes/draw-cardinal-spline/
 weight: 13
 ---
@@ -13,65 +40,88 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe afbeelding op te slaan en kardinale splines te tekenen in Aspose.Drawing
+# Hoe PNG op te slaan en Cardinal Splines te tekenen met Aspose.Drawing
 
-## Introductie
+## Inleiding
 
-In deze tutorial ontdek je **hoe je een afbeelding** kunt opslaan terwijl je gladde kardinale splines tekent met Aspose.Drawing voor .NET. Of je nu een grafiekcomponent, een diagrameditor bouwt, of gewoon een aangepaste curve als PNG wilt exporteren, de onderstaande stappen laten precies zien hoe je een curve tekent met een pen, de spline aanpast en het resultaat op schijf opslaat.
+In deze tutorial ontdek je **how to save PNG** bestanden terwijl je vloeiende cardinal splines tekent met Aspose.Drawing voor .NET. Of je nu een chart‑component bouwt, een diagrameditor, of simpelweg een aangepaste curve als PNG wilt exporteren, de onderstaande stappen leiden je door het maken van een bitmap‑canvas, het tekenen van een spline met een pen, en het opslaan van het resultaat op schijf. Je ziet ook waarom Aspose.Drawing een betrouwbare cross‑platform alternatief is voor System.Drawing.Common.
 
 ## Snelle antwoorden
-- **Wat doet de primaire methode?** `Graphics.DrawCurve` interpolates a series of points into a smooth cardinal spline.  
+- **Wat doet de primaire methode?** `Graphics.DrawCurve` interpoleert een reeks punten tot een vloeiende cardinal spline.  
 - **Welk formaat wordt gebruikt om de afbeelding op te slaan?** PNG via `Bitmap.Save`.  
-- **Heb ik een licentie nodig om afbeeldingen op te slaan?** A trial works for development; a commercial license is required for production.  
-- **Kan ik de spanning van de curve aanpassen?** Yes, overloads of `DrawCurve` let you specify tension.  
-- **Is Aspose.Drawing compatibel met .NET 6+?** Absolutely – it supports .NET Framework and .NET Core/5/6.
+- **Heb ik een licentie nodig om afbeeldingen op te slaan?** Een proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik de spanning van de curve aanpassen?** Ja, overloads van `DrawCurve` laten je spanning specificeren.  
+- **Is Aspose.Drawing compatibel met .NET 6+?** Absoluut – het ondersteunt .NET Framework en .NET Core/5/6.
 
-## Wat betekent “how to save image” in de context van Aspose.Drawing?
-Een afbeelding opslaan betekent het converteren van de in‑memory bitmap waarop je tekent naar een fysiek bestand zoals PNG, JPEG of BMP. Aspose.Drawing biedt een eenvoudige `Bitmap.Save`‑methode die de codering voor je afhandelt.
+## Wat betekent “how to save PNG” in de context van Aspose.Drawing?
 
-## Waarom een kardinale spline tekenen met Aspose.Drawing?
-Kardinale splines geven je een gladde, vloeiende curve die dicht bij een reeks controlepunten passeert, ideaal voor datavisualisaties, UI‑graphics en aangepaste vormen. Met Aspose.Drawing vermijd je de beperkingen van `System.Drawing.Common` en krijg je cross‑platform consistentie.
+Een PNG opslaan betekent het converteren van de in‑memory bitmap waarop je tekent naar een fysiek PNG‑bestand op schijf. Het proces schrijft de pixelgegevens met verliesloze compressie, waardoor de exacte kleuren en eventuele alfa‑kanaalinformatie behouden blijven. De `Bitmap.Save`‑methode van Aspose.Drawing verwerkt de PNG‑codering automatisch, zodat je zelf geen formatdetails hoeft te beheren.
+
+## Waarom een cardinal spline tekenen met Aspose.Drawing?
+
+Een cardinal spline produceert een vloeiende, vloeiende curve die nauwkeurig een reeks controlepunten volgt, waardoor hij perfect is voor datavisualisaties, UI‑graphics en aangepaste vormen. Aspose.Drawing ondersteunt **30+ image formats** en kan multi‑honderd‑pagina graphics renderen zonder het volledige bestand in het geheugen te laden, wat je zowel snelheid als flexibiliteit biedt.
 
 ## Vereisten
 
-Before we dive in, make sure you have:
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
 - Visual Studio (een recente versie) geïnstalleerd.  
 - Aspose.Drawing voor .NET bibliotheek. Je kunt het downloaden [hier](https://releases.aspose.com/drawing/net/).  
-- Basiskennis van C#-programmeren.
+- Basiskennis van C# programmeren.
 
 ## Namespaces importeren
 
-In your C# file, start by importing the necessary namespace:
+In je C#‑bestand begin je met het importeren van de benodigde namespace:
 
+De `Aspose.Drawing` namespace bevat alle kern‑typen zoals `Bitmap`, `Graphics` en `Pen`.  
+```csharp
+using Aspose.Drawing;
+```
 ```csharp
 using System.Drawing;
 ```
 
 ## Stap 1: Maak een Bitmap (Canvas)
 
-First, create a bitmap that will act as the canvas for your drawing. This bitmap is where the spline will be rendered before you **save the image**.
+Eerst maak je een bitmap die fungeert als canvas voor je tekening. Deze bitmap is waar de spline wordt gerenderd voordat je **de afbeelding opslaan**.
 
-Maak eerst een bitmap die fungeert als canvas voor je tekening. Deze bitmap is waar de spline wordt gerenderd voordat je **de afbeelding opslaat**.
-
+Bitmap vertegenwoordigt een in‑memory afbeelding met een gedefinieerd pixelformaat en afmetingen.  
+```csharp
+int width = 800;
+int height = 600;
+Bitmap bitmap = new Bitmap(width, height, PixelFormat.Format32bppPArgb);
+```
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
 ## Stap 2: Maak een Graphics‑object
 
-Next, obtain a `Graphics` object from the bitmap. This object provides the drawing surface.
+Vervolgens haal je een `Graphics`‑object op uit de bitmap. Dit object biedt het tekenoppervlak.
 
+Graphics biedt een tekenoppervlak voor het renderen van vormen, tekst en afbeeldingen op een bitmap.  
+```csharp
+Graphics graphics = Graphics.FromImage(bitmap);
+graphics.Clear(Color.Transparent);
+```
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
 ## Stap 3: Definieer Pen en Teken Curve
 
-Define a `Pen` with the desired color and width, then draw the cardinal spline using `DrawCurve`. This demonstrates the **draw curve with pen** technique and serves as a **cardinal spline example**.
+Definieer een `Pen` met de gewenste kleur en breedte, en teken vervolgens de cardinal spline met `DrawCurve`. Dit demonstreert de **draw curve with pen** techniek en dient als een **cardinal spline example**.
 
-Definieer een `Pen` met de gewenste kleur en breedte, en teken vervolgens de kardinale spline met `DrawCurve`. Dit demonstreert de **draw curve with pen**‑techniek en dient als een **cardinal spline‑voorbeeld**.
-
+Pen omvat de kleur, breedte en lijnstijl die worden gebruikt voor het tekenen van lijnen en curves.  
+```csharp
+Pen pen = new Pen(Color.Blue, 3);
+PointF[] points = {
+    new PointF(100, 400), new PointF(200, 100),
+    new PointF(300, 300), new PointF(400, 150),
+    new PointF(500, 350)
+};
+graphics.DrawCurve(pen, points, 0.5f); // tension = 0.5
+```
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawCurve(pen, new Point[] {
@@ -85,63 +135,57 @@ graphics.DrawCurve(pen, new Point[] {
 
 ## Stap 4: Sla de afbeelding op (Curve opslaan als PNG)
 
-Finally, persist the bitmap to a PNG file. This is the core of **how to save image** in this tutorial.
+Tot slot sla je de bitmap op als een PNG‑bestand. Dit is de kern van **how to save PNG** in deze tutorial.
 
+`Bitmap.Save` schrijft de afbeelding naar een bestand in het opgegeven formaat, zoals PNG.  
+```csharp
+string outputPath = Path.Combine(Environment.CurrentDirectory, "cardinal-spline.png");
+bitmap.Save(outputPath, ImageFormat.Png);
+```
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawCardinalSpline_out.png");
 ```
 
-> **Pro tip:** Gebruik `Path.Combine` om bestands‑paden veilig te bouwen op verschillende platformen.
+> **Pro tip:** Gebruik `Path.Combine` om bestands‑paden veilig op te bouwen over platformen.
 
-Gefeliciteerd! Je hebt met succes een kardinale spline getekend en het resultaat opgeslagen als een PNG‑afbeelding met Aspose.Drawing voor .NET. Voel je vrij om te experimenteren met verschillende punt‑arrays, pen‑kleuren of lijndiktes om je curves aan te passen.
+Gefeliciteerd! Je hebt met succes een cardinal spline getekend en het resultaat opgeslagen als een PNG‑afbeelding met Aspose.Drawing voor .NET. Voel je vrij om te experimenteren met verschillende punt‑arrays, pen‑kleuren of lijndiktes om je curves aan te passen.
 
 ## Veelvoorkomende gebruikssituaties
 
-- **Data visualisaties** – gladde lijndiagrammen die precieze controlepunten nodig hebben.  
-- **Aangepaste UI‑componenten** – het tekenen van knoppen, schuifregelaars of decoratieve randen.  
-- **Exporteerbare graphics** – genereer PNG‑assets on‑the‑fly voor rapporten of webinhoud.
+- **Data visualizations** – vloeiende lijndiagrammen die precieze controlepunten nodig hebben.  
+- **Custom UI components** – knoppen, schuifregelaars of decoratieve randen tekenen.  
+- **Exportable graphics** – PNG‑assets on‑the‑fly genereren voor rapporten of webinhoud.
 
-## Probleemoplossing & Tips
+## Problemen oplossen & Tips
 
-- **Afbeelding is leeg?** Zorg ervoor dat het pixel‑formaat van de bitmap alpha ondersteunt (`Format32bppPArgb`) en dat je `graphics.Clear(Color.Transparent)` aanroept indien nodig.  
-- **Onverwachte curve‑vorm?** Pas de spanningsparameter aan door de overload `DrawCurve(pen, points, tension)` te gebruiken.  
-- **Fout bij bestands‑toegang?** Controleer of de doelmap bestaat en dat je applicatie schrijfrechten heeft.
+- **Image appears blank?** Zorg ervoor dat het pixelformaat van de bitmap alfa ondersteunt (`Format32bppPArgb`) en dat je `graphics.Clear(Color.Transparent)` aanroept indien nodig.  
+- **Unexpected curve shape?** Pas de spanningsparameter aan door de overload `DrawCurve(pen, points, tension)` te gebruiken.  
+- **File access errors?** Controleer of de doelmap bestaat en dat je applicatie schrijfrechten heeft.
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik Aspose.Drawing gebruiken voor commerciële projecten?
-A1: Ja, Aspose.Drawing is geschikt voor zowel persoonlijke als commerciële projecten. Controleer de licentie‑details op de [aankooppagina](https://purchase.aspose.com/buy).
+**Q1: Kan ik Aspose.Drawing gebruiken voor commerciële projecten?**  
+A1: Ja, Aspose.Drawing is geschikt voor zowel persoonlijke als commerciële projecten. Bekijk de licentie‑details op de [purchase page](https://purchase.aspose.com/buy).
 
-### Q2: Hoe kan ik een tijdelijke licentie krijgen voor testen?
+**Q2: Hoe kan ik een tijdelijke licentie krijgen voor testen?**  
 A2: Verkrijg een tijdelijke licentie voor testdoeleinden [hier](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Waar kan ik extra ondersteuning vinden?
-A3: Bezoek het [Aspose.Drawing‑forum](https://forum.aspose.com/c/drawing/44) voor community‑ondersteuning en discussies.
+**Q3: Waar kan ik extra ondersteuning vinden?**  
+A3: Bezoek het [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) voor community‑ondersteuning en discussies.
 
-### Q4: Is er een gratis proefversie beschikbaar?
-A4: Ja, verken de functionaliteit met de [gratis proefversie](https://releases.aspose.com/) voordat je een aankoop doet.
+**Q4: Is er een gratis proefversie beschikbaar?**  
+A4: Ja, verken de functies met de [free trial](https://releases.aspose.com/) versie voordat je een aankoop doet.
 
-### Q5: Hoe krijg ik toegang tot de documentatie?
-A5: Raadpleeg de uitgebreide [documentatie](https://reference.aspose.com/drawing/net/) voor gedetailleerde informatie en voorbeelden.
-
-### Q6: Kan ik het uitvoerformaat wijzigen naar JPEG?
-A6: Absoluut. Vervang de `.png`‑extensie door `.jpg` en specificeer `ImageFormat.Jpeg` in de `Save`‑methode.
-
-### Q7: Is het mogelijk om meerdere splines op dezelfde bitmap te tekenen?
-A7: Ja, roep simpelweg `graphics.DrawCurve` meerdere keren aan met verschillende punt‑arrays en pennen.
-
-## Conclusie
-
-In this guide we covered **how to save image** files after drawing a cardinal spline, demonstrated a practical **draw curve using C#**, and highlighted common scenarios where this technique shines. You now have a solid foundation to integrate smooth spline graphics into any .NET application.
+**Q5: Hoe krijg ik toegang tot de documentatie?**  
+A5: Raadpleeg de uitgebreide [documentation](https://reference.aspose.com/drawing/net/) voor gedetailleerde informatie en voorbeelden.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-12  
+**Laatst bijgewerkt:** 2026-05-29  
 **Getest met:** Aspose.Drawing 24.11 for .NET  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
