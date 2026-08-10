@@ -55,16 +55,16 @@ schemas:
 - type: FAQPage
   questions:
   - question: Can I use Aspose.Drawing for free?
-    answer: 'Yes, a free trial is available [here](https://releases.aspose.com/).'
+    answer: 'Yes, a free trial is available [here](https://releases.aspose.com/) .'
   - question: Where can I find detailed documentation for Aspose.Drawing?
-    answer: 'The full API reference is located [here](https://reference.aspose.com/drawing/net/).'
+    answer: 'The full API reference is located [here](https://reference.aspose.com/drawing/net/) .'
   - question: How do I get support for Aspose.Drawing?
-    answer: 'Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)'
-      for community help and official assistance.
+    answer: 'Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      for community help and official assistance.'
   - question: Is a temporary license available for Aspose.Drawing?
-    answer: 'Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).'
+    answer: 'Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/) .'
   - question: Where can I purchase a full Aspose.Drawing license?
-    answer: 'You can buy it [here](https://purchase.aspose.com/buy).'
+    answer: 'You can buy it [here](https://purchase.aspose.com/buy) .'
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
