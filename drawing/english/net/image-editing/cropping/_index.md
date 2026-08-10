@@ -213,8 +213,10 @@ A: Head over to the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44
 **Tested With:** Aspose.Drawing 24.11 for .NET  
 **Author:** Aspose
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
