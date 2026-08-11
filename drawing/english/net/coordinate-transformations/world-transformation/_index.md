@@ -58,7 +58,7 @@ schemas:
     answer: Absolutely. Aspose.Drawing supports all modern .NET runtimes, including
       .NET Core, .NET 5, .NET 6, and .NET 7.
   - question: Where can I find the full API reference?
-    answer: The complete documentation is available [here](https://reference.aspose.com/drawing/net/).
+    answer: 'The complete documentation is available [Aspose.Drawing .NET API reference](https://reference.aspose.com/drawing/net/).'
   - question: How do I troubleshoot a missing output file?
     answer: Verify the path string, ensure write permissions, and confirm the directory
       exists before calling `Save`.
@@ -70,7 +70,7 @@ schemas:
 
 # How to Save PNG with Aspose.Drawing – World Transformation
 
-## Save Bitmap as PNG – Introduction
+## Save bitmap as PNG – introduction
 
 **How to save PNG** using Aspose.Drawing is a common requirement when you need high‑quality, transparent images generated on the fly. In this tutorial you’ll learn how to **save bitmap as PNG**, apply world transformations such as translate, rotate, and scale, and finally convert graphics to PNG—all with clean, maintainable C# code. Whether you’re building a reporting engine, a charting component, or a custom UI renderer, mastering these steps lets you create dynamic images that look great on any device.
 
@@ -89,11 +89,11 @@ A world transformation changes the coordinate system that your drawing commands 
 
 Load a `Bitmap` object, set any desired world transformations on its `Graphics` instance, draw your shapes, and finally call `bitmap.Save("output.png", ImageFormat.Png)`. This single‑line save call writes a lossless PNG file that preserves transparency and color fidelity, making it ideal for web assets and UI overlays.
 
-## Why Use a Graphics Translate Example?
+## Why use a graphics translate example?
 
 A graphics translate example lets you move the drawing origin once instead of recalculating every point. This approach reduces code complexity, improves readability, and lets the graphics engine handle the matrix math efficiently, which can boost rendering performance by up to 30 % on large canvases.
 
-## Graphics Translate Example
+## Graphics translate example
 
 A **graphics translate example** shows how moving the origin simplifies positioning. Instead of recalculating every point, you shift the coordinate system once and draw as if the new origin were the canvas center.
 
@@ -114,7 +114,7 @@ The `Bitmap`, `Graphics`, and Aspose drawing utilities live in these namespaces.
 
 ## Step‑by‑Step Guide
 
-### Step 1: Create a Bitmap
+### Step 1: create a bitmap
 
 We start by creating a blank canvas that will hold our drawing.
 
@@ -123,7 +123,7 @@ We start by creating a blank canvas that will hold our drawing.
 - **Why 32bppPArgb?** This pixel format supports alpha transparency and high‑quality color rendering, perfect for PNG output.  
 - **Pro tip:** Adjust the width/height to match your target image size.
 
-### Step 2: Set the World Transformation (Graphics Translate Example)
+### Step 2: set the world transformation (Graphics translate example)
 
 `TranslateTransform` moves the origin of the coordinate system to a new location.  
 `graphics.TranslateTransform(bitmap.Width / 2, bitmap.Height / 2)` shifts the (0,0) point to the canvas centre. After this call, any shape you draw using coordinates (0,0) will appear in the middle of the image.
@@ -131,7 +131,7 @@ We start by creating a blank canvas that will hold our drawing.
 - This moves the (0,0) point to (500, 400) – the middle of a 1000 × 800 canvas.  
 - You can chain additional transformations: `RotateTransform` rotates the coordinate system, and `ScaleTransform` scales it, enabling **multiple graphics transformations**.
 
-### Step 3: Draw a Rectangle Using the Transformed Coordinates
+### Step 3: draw a rectangle using the transformed coordinates
 
 `DrawRectangle` draws a rectangle using the specified pen and coordinates.
 
@@ -150,7 +150,7 @@ We start by creating a blank canvas that will hold our drawing.
 - PNG preserves the exact colors and transparency we set earlier.  
 - Replace `"Your Document Directory"` with the actual path on your machine.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
@@ -158,7 +158,7 @@ We start by creating a blank canvas that will hold our drawing.
 | **Blank image** after transformation | `TranslateTransform` called after drawing. | Ensure the transformation is set **before** any drawing commands. |
 | **Distorted colors** | Using an incompatible pixel format. | Stick with `Format32bppPArgb` for PNG output. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply more than one transformation?**  
 A: Yes – you can chain `TranslateTransform`, `RotateTransform`, and `ScaleTransform` to achieve complex effects in a single graphics pipeline.
@@ -170,7 +170,7 @@ A: A free trial is available for evaluation, but a commercial license is require
 A: Absolutely. Aspose.Drawing supports all modern .NET runtimes, including .NET Core, .NET 5, .NET 6, and .NET 7.
 
 **Q: Where can I find the full API reference?**  
-A: The complete documentation is available [here](https://reference.aspose.com/drawing/net/).
+A: The complete documentation is available [Aspose.Drawing .NET API reference](https://reference.aspose.com/drawing/net/).
 
 **Q: How do I troubleshoot a missing output file?**  
 A: Verify the path string, ensure write permissions, and confirm the directory exists before calling `Save`.
