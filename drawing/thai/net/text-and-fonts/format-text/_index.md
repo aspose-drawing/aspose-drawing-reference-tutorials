@@ -1,10 +1,67 @@
 ---
-date: 2026-02-25
-description: เรียนรู้วิธีตั้งการจัดแนวข้อความใน Aspose.Drawing สำหรับ .NET และเพิ่มข้อความลงในภาพ
-  คู่มือแบบขั้นตอนพร้อมตัวอย่าง
-linktitle: Set Text Alignment with Aspose.Drawing for .NET
+date: 2026-07-17
+description: เรียนรู้วิธีป้องกันการล้นของข้อความโดยการตั้งค่าการจัดแนวข้อความใน Aspose.Drawing
+  สำหรับ .NET และเพิ่มข้อความลงในรูปภาพ คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่าง
+keywords:
+- prevent text overflow
+- draw string on image
+- center text in rectangle
+- vertical text alignment
+- replace system drawing
+lastmod: 2026-07-17
+linktitle: ตั้งค่าการจัดแนวข้อความด้วย Aspose.Drawing สำหรับ .NET
+og_description: ป้องกันการล้นของข้อความโดยการตั้งค่าการจัดแนวข้อความใน Aspose.Drawing
+  สำหรับ .NET. เรียนรู้การวาดสตริงบนรูปภาพ, จัดข้อความให้อยู่กึ่งกลางในสี่เหลี่ยม,
+  และแทนที่ System.Drawing.
+og_image_alt: 'Developer guide: Prevent text overflow by aligning text in Aspose.Drawing
+  for .NET'
+og_title: ป้องกันการล้นของข้อความ – ตั้งค่าการจัดแนวข้อความด้วย Aspose.Drawing สำหรับ
+  .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to prevent text overflow by setting text alignment in Aspose.Drawing
+    for .NET and add text to images. Step‑by‑step guide with examples.
+  headline: Prevent Text Overflow – Set Text Alignment with Aspose.Drawing for .NET
+  type: TechArticle
+- description: Learn how to prevent text overflow by setting text alignment in Aspose.Drawing
+    for .NET and add text to images. Step‑by‑step guide with examples.
+  name: Prevent Text Overflow – Set Text Alignment with Aspose.Drawing for .NET
+  steps:
+  - name: '**Aspose.Drawing Library** – download it [here](https://releases.aspose.com/drawing/net/).'
+    text: '**Aspose.Drawing Library** – download it [here](https://releases.aspose.com/drawing/net/).'
+  - name: '**Development Environment** – Visual Studio 2022 (or any C# IDE).'
+    text: '**Development Environment** – Visual Studio 2022 (or any C# IDE).'
+  - name: '**Basic .NET knowledge** – you should be comfortable with C# projects and
+      NuGet packages.'
+    text: '**Basic .NET knowledge** – you should be comfortable with C# projects and
+      NuGet packages.'
+  - name: '**Resize the rectangle** – increase `rectangle.Width` or `rectangle.Height`.'
+    text: '**Resize the rectangle** – increase `rectangle.Width` or `rectangle.Height`.'
+  - name: '**Split the text** – break the string into lines that fit, then call `DrawString`
+      for each line with adjusted Y‑coordinates.'
+    text: '**Split the text** – break the string into lines that fit, then call `DrawString`
+      for each line with adjusted Y‑coordinates.'
+  type: HowTo
+- questions:
+  - answer: Omit the `DrawRectangle` call and pass the desired `PointF` location to
+      `Graphics.DrawString`.
+    question: How do I draw a string without a surrounding rectangle?
+  - answer: Yes—apply a `Matrix` transformation to the `Graphics` object before drawing,
+      then reset it afterwards.
+    question: Can I rotate the text while keeping alignment?
+  - answer: Simply change the file extension in `bitmap.Save` and optionally specify
+      `ImageFormat.Jpeg`.
+    question: Is it possible to export the image as JPEG instead of PNG?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: ตั้งค่าการจัดแนวข้อความด้วย Aspose.Drawing สำหรับ .NET
+tags:
+- prevent text overflow
+- Aspose.Drawing
+- .NET graphics
+- text alignment
+title: ป้องกันการล้นของข้อความ – ตั้งค่าการจัดแนวข้อความด้วย Aspose.Drawing สำหรับ
+  .NET
 url: /th/net/text-and-fonts/format-text/
 weight: 11
 ---
@@ -13,48 +70,51 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตั้งค่าการจัดแนวข้อความใน Aspose.Drawing
+# ป้องกันการล้นของข้อความ – ตั้งการจัดแนวข้อความด้วย Aspose.Drawing
 
-## การแนะนำ
+## บทนำ
 
-**ตั้งค่าการจัดตำแหน่งข้อความ** และดูรูปแบบข้อความในแอปพลิเคชัน .NET ของคุณ Aspose. การวาดภาพเป็นไลบรารีที่ต้องใช้ระบบควบคุมประสิทธิภาพและ API การรับรู้สร้างเครื่องมือรายงานบุคคลสร้างแบจไดนามิกหรือส่วนประกอบที่เน้นกราฟิก การควบคุมวิธีการจัดตำแหน่งข้อความภายในรูปร่างทำให้ผลลัพธ์ดูเรียบหรูและห้องนั่งเล่นในบทแนะนำนี้เราจะค้นคว้าทั้งหมด— ตั้งแต่การเริ่มต้นแคนวาสแมพจนถึงเต็มรูปแบบพร้อมข้อความที่ล้นหลามและสุดท้ายวิจัยภาพ
+เมื่อคุณต้องการ **ป้องกันการล้นของข้อความ** ขณะเรนเดอร์กราฟิกใน .NET, Aspose.Drawing จะให้การควบคุมที่ละเอียดในการวางตำแหน่งข้อความ, การจัดแนว, และการตัดบรรทัด. ไม่ว่าคุณจะสร้างเครื่องสร้างแบจ, รายงานแบบไดนามิก, หรือผลลัพธ์ที่เป็นภาพใด ๆ, การเชี่ยวชาญการจัดแนวข้อความจะทำให้ข้อความของคุณอยู่ภายในสี่เหลี่ยมที่กำหนดและดูเรียบร้อย. ในคู่มือนี้เราจะอธิบายขั้นตอนการสร้างแคนวาส bitmap, การกำหนดค่า `StringFormat`, การวาดสี่เหลี่ยมพร้อมข้อความกึ่งกลาง, การจัดการการล้น, และสุดท้ายการบันทึกรูปภาพ.
 
-## คำตอบด่วน
-- **“ตั้งค่าการจัดตำแหน่งข้อความ” ส่วนใหญ่อะไร?** มันกำหนดว่าข้อความถูกจัดวางตำแหน่งและส่วนการควบคุมภายในวาดอย่างไร
-- ** คลาสใดที่ควบคุมแนวแนวได้เหมือนกัน?** `StringFormat` ให้คุณตั้งค่า `Alignment` และ `LineAlignment`.
-- **เริ่มต้นเขียนและดูและติดตามได้ตลอดเวลา?** สามารถตรวจสอบ—ใช้ `Graphics.DrawRectangle` จากนั้นจึงค้นหา `Graphics.DrawString`
-- ** ฉันจะป้องกันข้อความล้นได้อย่างไร?** ในตอนกลางคืนหรือแยกข้อความเป็นหลายบรรทัดอื่นๆ
-- ** บางครั้งจำเป็นต้องมีจริงหรือไม่?** จำเป็นต้องมีการกำหนดรูปแบบการวาดภาพเพื่อตรวจสอบคุณสมบัติของมัน
+## คำตอบสั้น
+- **“set text alignment” หมายความว่าอะไร?** มันกำหนดว่าข้อความถูกจัดตำแหน่งแนวนอนและแนวตั้งอย่างไรภายในสี่เหลี่ยมวาด.  
+- **คลาสใดควบคุมการจัดแนว?** `StringFormat` ให้คุณตั้งค่า `Alignment` และ `LineAlignment`.  
+- **ฉันสามารถวาดสตริงและสี่เหลี่ยมพร้อมกันได้หรือไม่?** ใช่—ใช้ `Graphics.DrawRectangle` แล้วตามด้วย `Graphics.DrawString`.  
+- **ฉันจะป้องกันการล้นของข้อความได้อย่างไร?** ปรับขนาดสี่เหลี่ยมหรือแยกข้อความเป็นหลายบรรทัดด้วยตนเอง.  
+- **ฉันต้องการใบอนุญาตสำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีใบอนุญาต Aspose.Drawing เชิงพาณิชย์สำหรับการใช้งานที่ไม่ใช่การประเมินผล.
 
-## **ตั้งค่าการจัดตำแหน่งข้อความ** ใน Aspose. Drawing คืออะไร
+## **set text alignment** คืออะไรใน Aspose.Drawing
 
-`set textการจัดตำแหน่ง`ส่วนใหญ่มักจะเป็นที่ที่เห็นได้ชัด (`StringAlignment`) และ (`LineAlignment`) ของข้อความภายใน `Rectangle` หรือพื้นที่ใดๆ วาดลงไปที่จุดนั้นต้องใช้ตัวควบคุมว่าข้อความที่เป็นการจัดด้านซ้าย, จัดกึ่งกลาง, จัดชิดขวา, จัดบน, จัดกลาง, หรือจัดด้านล่าง
+`set text alignment` กำหนดการวางตำแหน่งข้อความในแนวนอน (`StringAlignment`) และแนวตั้ง (`LineAlignment`) ภายใน `Rectangle` หรือพื้นที่วาด. โดยการปรับคุณสมบัติเหล่านี้คุณสามารถควบคุมว่าข้อความจะแสดงเป็นจัดชิดซ้าย, กึ่งกลาง, ชิดขวา, ชิดบน, กลาง, หรือชิดล่าง, ทำให้สามารถจัดวางกราฟิก, แบจ, และรายงานที่สร้างด้วย Aspose.Drawing ได้อย่างแม่นยำ.
 
-## เหตุใดจึงต้องใช้ Aspose. Drawing เพื่อจัดตำแหน่งข้อความ
+## ทำไมต้องใช้ Aspose.Drawing สำหรับการจัดแนวข้อความ?
 
-- **ความเข้ากันได้ของ .NET เต็มรูปแบบ** – รองรับ .NET Framework, .NET Core, และ .NET 5/6+.
-- **การเรนเดอร์พิกเซลที่สมบูรณ์แบบ** – รองรับการแอนตี้เอเลียสและ DPI ของซอฟท์แวร์
-- **ไม่มีข้อจำกัด GDI+** – แตกต่างจาก `System.Painting.Common` Aspose. Drawing สามารถทำงานบน Linux ได้โดยไม่มีการวิจารณ์เนทีฟ.
-- **Rich styling** – สำหรับฟอนต์, เมนบอร์ด, ปากกา, และอ็อบเจกต์ `StringFormat` ประสิทธิภาพของซอฟท์แวร์มาเลเซีย.
+Aspose.Drawing ขจัดข้อจำกัดของ GDI+ ที่ทำให้ `System.Drawing.Common` มีปัญหา. มันรองรับ **5 runtime ของ .NET หลัก** – .NET Framework 4.6+, .NET Core 2.0+, .NET 5, .NET 6, และ .NET 7 – และสามารถเรนเดอร์ภาพได้สูงสุด **4000 × 4000 px** (≈ 100 MB) โดยไม่ทำให้หน่วยความจำหมด. การทำ Anti‑aliasing, การสเกลแบบ high‑DPI, และความเข้ากันได้เต็มรูปแบบกับคอนเทนเนอร์ Linux ทำให้คุณสร้างกราฟิกที่พิกเซล‑เพอร์เฟคในทุกสถานการณ์การปรับใช้.
 
 ## ข้อกำหนดเบื้องต้น
 
-1. **Aspose. Drawing Library** – ดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/drawing/net/)
-2. **สภาพแวดล้อมการพัฒนา** – Visual Studio 2022 (หรือ IDE C# บาหลี)
-3. **ความรู้พื้นฐาน .NET** – ส่วนโปรเจกต์ C# และแพ็กเกจ NuGet.
+1. **Aspose.Drawing Library** – ดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/drawing/net/).  
+2. **Development Environment** – Visual Studio 2022 (หรือ IDE C# ใดก็ได้).  
+3. **Basic .NET knowledge** – คุณควรคุ้นเคยกับโครงการ C# และแพ็กเกจ NuGet.
 
-## นำเข้าเนมสเปซ
+## นำเข้า Namespaces
 
-เพื่อเริ่มต้น ให้นำเนมสเปซที่จำเป็นเข้ามาในสโคป ซึ่งจะทำให้คุณเข้าถึงกราฟิก การเรนเดอร์ข้อความ และออบเจกต์พื้นฐานสำหรับการวาด.
+เพื่อเริ่มต้น ให้นำ Namespaces ที่จำเป็นเข้ามาในสโคป. สิ่งเหล่านี้จะให้คุณเข้าถึงกราฟิก, การเรนเดอร์ข้อความ, และ primitive การวาด.
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## ขั้นตอนที่ 1: สร้างภาพบิตแมปและวัตถุกราฟิก 
+## วิธีป้องกันการล้นของข้อความด้วย Aspose.Drawing?
 
-การสร้าง bitmap จะให้แคนวาสที่คุณสามารถวาดบนมันได้ อ็อบเจกต์ `Graphics` คือพื้นผิวการวาด และเราจะเปิดใช้งานการเรนเดอร์ข้อความคุณภาพสูงด้วย `TextRenderingHint`.
+`Bitmap` เป็นคลาสที่แสดงภาพที่เก็บในหน่วยความจำ, ในขณะที่ `RectangleF` กำหนดพื้นที่สี่เหลี่ยมแบบ floating‑point สำหรับการวาด. โดยการใช้ `StringFormat` ที่ตั้งค่า `Trimming` เป็น `StringTrimming.EllipsisCharacter` ตัวอักษรที่เกินจะถูกแทนที่ด้วยจุดไข่ปลาโดยอัตโนมัติ, ทำให้ข้อความไม่เกินขอบสี่เหลี่ยม. การวัดขนาดสตริงก่อนจะทำให้คุณตัดสินใจว่าจะลดขนาดสี่เหลี่ยมหรือแยกข้อความเป็นหลายบรรทัด, เพื่อให้ได้การจัดวางที่สะอาดโดยไม่มีการล้น.
+
+โหลด bitmap ของคุณ, กำหนด `RectangleF` ที่มีขนาดเหมาะสม, และใช้ `StringFormat` ที่ตั้งค่า `Trimming` เป็น `StringTrimming.EllipsisCharacter` เพื่อทำการตัดอักขระที่เกินโดยอัตโนมัติ. หากต้องการควบคุมเต็มที่, วัดสตริงด้วย `Graphics.MeasureString` แล้วลดขนาดสี่เหลี่ยมหรือแยกข้อความเป็นบรรทัดก่อนการวาด. วิธีนี้รับประกันว่าจะไม่มีอักขระใดล้นออกนอกขอบมองเห็น.
+
+## ขั้นตอนที่ 1: สร้างอ็อบเจ็กต์ Bitmap และ Graphics
+
+`Bitmap` แสดงภาพในหน่วยความจำ, ในขณะที่ `Graphics` ให้เมธอดการวาดสำหรับ bitmap นั้น. การสร้าง bitmap จะให้แคนวาสที่คุณสามารถวาดบนมันได้. อ็อบเจ็กต์ `Graphics` คือพื้นผิวการวาด, และเราจะเปิดใช้งานการเรนเดอร์ข้อความคุณภาพสูงด้วย `TextRenderingHint`.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -63,9 +123,9 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-## ขั้นตอนที่ 2: กำหนด **รูปแบบข้อความ** และสไตล์ 
+## ขั้นตอนที่ 2: กำหนด **StringFormat** และการจัดรูปแบบ
 
-ที่นี่เราจะ **set text alignment** โดยกำหนดค่าอ็อบเจกต์ `StringFormat` นอกจากนี้เรายังเตรียมแปรง, ปากกา, และฟอนต์ที่จะใช้เมื่อวาดสตริง.
+`StringFormat` ระบุตัวเลือกการจัดวางข้อความเช่นการจัดแนว, ระยะห่างบรรทัด, และการตัด. ที่นี่เราจะ **ตั้งค่าการจัดแนวข้อความ** โดยกำหนดค่าอินสแตนซ์ `StringFormat`. เรายังเตรียม brushes, pens, และฟอนต์ที่จะใช้เมื่อวาดสตริง.
 
 ```csharp
 StringFormat stringFormat = new StringFormat();
@@ -77,9 +137,9 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 1);
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-## ขั้นตอนที่ 3: สร้างและจัดรูปแบบข้อความ – **วิธีการวาดข้อความ** และ **การวาดสี่เหลี่ยมที่มีข้อความ**
+## ขั้นตอนที่ 3: สร้างและจัดรูปแบบข้อความ – **วิธีวาดสตริง** และ **วาดสี่เหลี่ยมพร้อมข้อความ**
 
-เราจะประกอบข้อความ, กำหนดสี่เหลี่ยมที่จะบรรจุข้อความ, แล้ววาดทั้งเส้นขอบสี่เหลี่ยมและสตริงเอง.
+`Graphics.DrawString` แสดงข้อความบนแคนวาส, และ `Graphics.DrawRectangle` วาดรูปสี่เหลี่ยม. เราจัดเตรียมข้อความ, กำหนดสี่เหลี่ยมที่จะบรรจุข้อความ, แล้ววาดทั้งขอบสี่เหลี่ยมและสตริงเอง.
 
 ```csharp
 string text = "Lorem ipsum ...";  // (Your lengthy text goes here)
@@ -88,72 +148,81 @@ graphics.DrawRectangle(pen, rectangle);
 graphics.DrawString(text, arial, brush, rectangle, stringFormat);
 ```
 
-### วิธีการจัดการข้อความที่ล้นออกมา
+### วิธีจัดการการล้นของข้อความ
 
-หาก `text` ที่ให้มามากเกินขอบเขตของสี่เหลี่ยม คุณมีสองตัวเลือกทั่วไป:
+หาก `text` ที่ให้เกินขอบของสี่เหลี่ยม, คุณมีสองตัวเลือกทั่วไป:
 
-1. **Resize the rectangle** – เพิ่มค่า `rectangle.Width` หรือ `rectangle.Height`.  
-2. **Split the text** – แยกสตริงเป็นบรรทัดที่พอดี แล้วเรียก `DrawString` สำหรับแต่ละบรรทัดพร้อมปรับค่า Y‑coordinates.
+1. **ปรับขนาดสี่เหลี่ยม** – เพิ่ม `rectangle.Width` หรือ `rectangle.Height`.  
+2. **แยกข้อความ** – แบ่งสตริงเป็นบรรทัดที่พอดี, แล้วเรียก `DrawString` สำหรับแต่ละบรรทัดโดยปรับค่า Y‑coordinates.
 
-## ขั้นตอนที่ 4: บันทึกผลลัพธ์ – **การเพิ่มข้อความลงในภาพ**
+## วิธีวาดสตริงบนภาพโดยใช้ Aspose.Drawing?
 
-สุดท้าย เขียน bitmap ลงดิสก์ ขั้นตอนนี้แสดงการ **add text to image** ในหนึ่งคำสั่ง.
+`Graphics.DrawString` วาดข้อความที่ระบุโดยใช้ฟอนต์และตัวเลือกการจัดรูปแบบ. สร้างอ็อบเจ็กต์ `Graphics` จาก bitmap ของคุณ, แล้วเรียก `DrawString` พร้อม `StringFormat` ที่เตรียมไว้. การเรียกเดียวนี้จะเรนเดอร์ข้อความตรงตำแหน่งที่คุณต้องการ, เคารพการจัดแนว, การตัด, และเมทริกซ์การแปลงใด ๆ ที่คุณได้ใช้. การเพิ่ม hint การเรนเดอร์คุณภาพสูงทำให้ผลลัพธ์คมชัดบนจอแสดงผล high‑DPI.
+
+## วิธีจัดกึ่งกลางข้อความในสี่เหลี่ยม?
+
+`StringAlignment` กำหนดการจัดแนวแนวนอนของข้อความภายในสี่เหลี่ยมการจัดวาง. ตั้งค่า `stringFormat.Alignment = StringAlignment.Center` และ `stringFormat.LineAlignment = StringAlignment.Center`. วิธีนี้จะทำให้ข้อความอยู่กึ่งกลางแนวนอนและแนวตั้งภายในสี่เหลี่ยม, เหมาะสำหรับแบจ, ปุ่ม, หรือการซ้อนป้าย. การจัดวางกึ่งกลางทำงานสอดคล้องกันในขนาดภาพและการตั้งค่า DPI ต่าง ๆ, ให้ลักษณะภาพที่สมดุล.
+
+## วิธีทำให้ข้อความจัดแนวแนวตั้งได้?
+
+`LineAlignment` ควบคุมการวางตำแหน่งแนวตั้งของข้อความภายในสี่เหลี่ยม. ใช้ `stringFormat.LineAlignment` กับค่า `StringAlignment.Near`, `Center`, หรือ `Far` เพื่อวางข้อความที่ด้านบน, กลาง, หรือด้านล่างของสี่เหลี่ยม. ผสานกับ `Graphics.TranslateTransform` หากคุณต้องการหมุนข้อความพร้อมคงการจัดแนวแนวตั้ง. การปรับ `LineAlignment` ทำให้บล็อกหลายบรรทัดจัดตำแหน่งตรงตามที่คุณคาดหวัง, แม้หลังการแปลง.
+
+## ขั้นตอนที่ 4: บันทึกผลลัพธ์ – **เพิ่มข้อความลงในภาพ**
+
+สุดท้าย, เขียน bitmap ลงดิสก์. ขั้นตอนนี้แสดงการ **เพิ่มข้อความลงในภาพ** ด้วยการเรียกเดียว.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\FormatText_out.png");
 ```
 
-## ปัญหาทั่วไปและแนวทางแก้ไข
+## ปัญหาทั่วไปและวิธีแก้
 
-| ปัญหา | โซลูชั่น |
+| Issue | Solution |
 |-------|----------|
-| **ข้อความเบลอ** | การตั้งค่าได้ `graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;` แล้ว |
-| **ข้อความนี้** | ขนาดที่ต่อเนื่องหรือเพื่อให้สามารถตัดคำโดยวัดขนาดได้ (`Graphics.MeasureString`) |
-| **ไม่พบแบบอักษร** | ฟอนต์ฟอนต์ได้ติดตั้งบนเครื่องหรือฝังฟอนต์ส่วนตัวด้วย `PrivateFontCollection`. |
-| **สีที่ Intel** | การควบคุมแปรงและปากกาอีกครั้ง; หลักการ `Color.FromKnownColor` ใช้สีที่กำหนดโดยระบบ |
+| **ข้อความดูเบลอ** | ตรวจสอบให้แน่ใจว่าได้ตั้งค่า `graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;` |
+| **ข้อความถูกตัด** | เพิ่มขนาดสี่เหลี่ยมหรือเปิดใช้งานตรรกะ word‑wrap โดยวัดขนาดสตริง (`Graphics.MeasureString`). |
+| **ไม่พบฟอนต์** | ตรวจสอบว่าฟอนต์ได้ติดตั้งบนเครื่องโฮสต์หรือฝังฟอนต์ส่วนตัวด้วย `PrivateFontCollection`. |
+| **สีที่ไม่คาดคิด** | ตรวจสอบสีของ brush และ pen อีกครั้ง; จำไว้ว่า `Color.FromKnownColor` ใช้สีที่กำหนดโดยระบบ. |
 
 ## คำถามที่พบบ่อย
 
-### Q1: Aspose.Drawing รองรับทุกเวอร์ชันของ .NET หรือไม่?
+**Q1: Aspose.Drawing รองรับทุกเวอร์ชันของ .NET หรือไม่?**  
+A1: ใช่, Aspose.Drawing ถูกออกแบบให้เข้ากันได้กับหลายเวอร์ชันของ .NET, เพื่อความยืดหยุ่นสำหรับนักพัฒนา.
 
-A1: ใช่, Aspose.Drawing ถูกออกแบบให้เข้ากันได้กับหลายเวอร์ชันของ .NET เพื่อให้ความยืดหยุ่นกับนักพัฒนา.
+**Q2: ฉันสามารถปรับแต่งสไตล์ฟอนต์เพิ่มเติมได้หรือไม่?**  
+A2: แน่นอน! ปรับพารามิเตอร์ของอ็อบเจ็กต์ `Font` เพื่อให้ได้ขนาด, สไตล์, และตระกูลฟอนต์ที่ต้องการ.
 
-### Q2: ฉันสามารถปรับแต่งสไตล์ฟอนต์เพิ่มเติมได้หรือไม่?
+**Q3: ฉันจะจัดการการล้นของข้อความภายในสี่เหลี่ยมที่กำหนดได้อย่างไร?**  
+A3: คุณสามารถจัดการการล้นของข้อความโดยปรับขนาดสี่เหลี่ยมหรือใช้ตรรกะแบบกำหนดเองเพื่อจัดการข้อความยาว.
 
-A2: แน่นอน! ปรับพารามิเตอร์ของอ็อบเจกต์ `Font` เพื่อให้ได้ขนาด, สไตล์, และตระกูลฟอนต์ที่ต้องการ.
+**Q4: มีตัวเลือกการจัดรูปแบบอื่น ๆ ใน Aspose.Drawing หรือไม่?**  
+A4: มี, Aspose.Drawing มีชุดเครื่องมือที่ครอบคลุมสำหรับการจัดการกราฟิก, รวมถึงตัวเลือกการจัดรูปแบบต่าง ๆ สำหรับข้อความ, รูปร่าง, และอื่น ๆ.
 
-### Q3: ฉันจะจัดการกับข้อความล้นภายในสี่เหลี่ยมที่กำหนดได้อย่างไร?
+**Q5: ฉันจะหาการสนับสนุนเพิ่มเติมสำหรับ Aspose.Drawing ได้จากที่ไหน?**  
+A5: สำรวจฟอรั่ม Aspose.Drawing [ที่นี่](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
 
-A3: คุณสามารถจัดการข้อความล้นได้โดยปรับขนาดสี่เหลี่ยมหรือใช้ตรรกะแบบกำหนดเองเพื่อจัดการข้อความยาว.
-
-### Q4: มีตัวเลือกการจัดรูปแบบอื่น ๆ ใน Aspose.Drawing หรือไม่?
-
-A4: มี, Aspose.Drawing มีชุดเครื่องมือที่ครอบคลุมสำหรับการจัดการกราฟิก รวมถึงตัวเลือกการจัดรูปแบบต่าง ๆ สำหรับข้อความ, รูปร่าง, และอื่น ๆ.
-
-### Q5: ฉันจะหาแหล่งสนับสนุนเพิ่มเติมสำหรับ Aspose.Drawing ได้จากที่ไหน?
-
-A5: สำรวจฟอรั่ม Aspose.Drawing ที่ [here](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
-
-**คำถามและคำตอบเพิ่มเติม**
-
-**Q: ฉันจะวาดสตริงโดยไม่มีสี่เหลี่ยมล้อมรอบได้อย่างไร?**  
-A: ละเว้นการเรียก `DrawRectangle` และส่งตำแหน่ง `PointF` ที่ต้องการให้กับ `Graphics.DrawString`.
+**Q: ฉันจะวาดสตริงโดยไม่มีสี่เหลี่ยมรอบ ๆ อย่างไร?**  
+A: ไม่ต้องเรียก `DrawRectangle` และส่งตำแหน่ง `PointF` ที่ต้องการให้กับ `Graphics.DrawString`.
 
 **Q: ฉันสามารถหมุนข้อความพร้อมคงการจัดแนวได้หรือไม่?**  
-A: ใช่—ใช้การแปลง `Matrix` กับอ็อบเจกต์ `Graphics` ก่อนวาด แล้วรีเซ็ตหลังจากนั้น.
+A: ใช่—ใช้การแปลง `Matrix` กับอ็อบเจ็กต์ `Graphics` ก่อนวาด, แล้วรีเซ็ตหลังจากนั้น.
 
 **Q: สามารถส่งออกภาพเป็น JPEG แทน PNG ได้หรือไม่?**  
 A: เพียงเปลี่ยนส่วนขยายไฟล์ใน `bitmap.Save` และอาจระบุ `ImageFormat.Jpeg` เพิ่มเติม.
 
----
-
-**อัปเดตล่าสุด:** 2026-02-25  
+**อัปเดตล่าสุด:** 2026-07-17  
 **ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีวาดข้อความด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/text-and-fonts/draw-text/)
+- [การเพิ่มข้อความบนภาพใน Aspose.Drawing](/drawing/net/use-cases/text-on-image/)
+- [วิธีวาดข้อความและฟอนต์ด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/text-and-fonts/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
