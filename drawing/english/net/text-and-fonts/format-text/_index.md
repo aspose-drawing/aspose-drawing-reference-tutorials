@@ -1,7 +1,6 @@
 ---
 date: 2026-07-17
-description: Learn how to prevent text overflow by setting text alignment in Aspose.Drawing
-  for .NET and add text to images. Step‑by‑step guide with examples.
+description: Learn how to prevent text overflow by aligning text in .NET images and add text to pictures. Step‑by‑step guide with examples.
 images:
 - /net/text-and-fonts/format-text/og-image.png
 keywords:
@@ -12,24 +11,21 @@ keywords:
 - replace system drawing
 lastmod: 2026-07-17
 linktitle: Set Text Alignment with Aspose.Drawing for .NET
-og_description: Prevent text overflow by setting text alignment in Aspose.Drawing
-  for .NET. Learn to draw string on image, center text in rectangle, and replace System.Drawing.
+og_description: Prevent text overflow by aligning text in .NET images. Learn to draw string on image, center text in rectangle, and replace System.Drawing.
 og_image_alt: 'Developer guide: Prevent text overflow by aligning text in Aspose.Drawing
   for .NET'
-og_title: Prevent Text Overflow – Set Text Alignment with Aspose.Drawing for .NET
+og_title: Prevent Text Overflow – Align Text in .NET Images
 schemas:
 - author: Aspose
   dateModified: '2026-07-17'
-  description: Learn how to prevent text overflow by setting text alignment in Aspose.Drawing
-    for .NET and add text to images. Step‑by‑step guide with examples.
-  headline: Prevent Text Overflow – Set Text Alignment with Aspose.Drawing for .NET
+  description: Learn how to prevent text overflow by aligning text in .NET images and add text to pictures. Step‑by‑step guide with examples.
+  headline: Prevent Text Overflow – Align Text in .NET Images
   type: TechArticle
-- description: Learn how to prevent text overflow by setting text alignment in Aspose.Drawing
-    for .NET and add text to images. Step‑by‑step guide with examples.
-  name: Prevent Text Overflow – Set Text Alignment with Aspose.Drawing for .NET
+- description: Learn how to prevent text overflow by aligning text in .NET images and add text to pictures. Step‑by‑step guide with examples.
+  name: Prevent Text Overflow – Align Text in .NET Images
   steps:
-  - name: '**Aspose.Drawing Library** – download it [here](https://releases.aspose.com/drawing/net/).'
-    text: '**Aspose.Drawing Library** – download it [here](https://releases.aspose.com/drawing/net/).'
+  - name: '**Aspose.Drawing Library** – download from the [Aspose.Drawing .NET library download page](https://releases.aspose.com/drawing/net/).'
+    text: '**Aspose.Drawing Library** – download from the [Aspose.Drawing .NET library download page](https://releases.aspose.com/drawing/net/).'
   - name: '**Development Environment** – Visual Studio 2022 (or any C# IDE).'
     text: '**Development Environment** – Visual Studio 2022 (or any C# IDE).'
   - name: '**Basic .NET knowledge** – you should be comfortable with C# projects and
@@ -60,7 +56,7 @@ tags:
 - Aspose.Drawing
 - .NET graphics
 - text alignment
-title: Prevent Text Overflow – Set Text Alignment with Aspose.Drawing for .NET
+title: Prevent Text Overflow by Aligning Text in .NET
 url: /net/text-and-fonts/format-text/
 weight: 11
 ---
@@ -92,7 +88,7 @@ Aspose.Drawing eliminates the GDI+ limitations that plague `System.Drawing.Commo
 
 ## Prerequisites
 
-1. **Aspose.Drawing Library** – download it [here](https://releases.aspose.com/drawing/net/).  
+1. **Aspose.Drawing Library** – download from the [Aspose.Drawing .NET library download page](https://releases.aspose.com/drawing/net/).  
 2. **Development Environment** – Visual Studio 2022 (or any C# IDE).  
 3. **Basic .NET knowledge** – you should be comfortable with C# projects and NuGet packages.
 
@@ -111,7 +107,7 @@ Bitmap is a class representing an image stored in memory, while `RectangleF` def
 
 Load your bitmap, define a suitably sized `RectangleF`, and use a `StringFormat` with `Trimming` set to `StringTrimming.EllipsisCharacter` to automatically cut off excess characters. For full control, measure the string with `Graphics.MeasureString` and shrink the rectangle or split the text into lines before drawing. This approach guarantees that no characters spill outside the visual bounds.
 
-## Step 1: Create Bitmap and Graphics Objects  
+## Step 1: create bitmap and graphics objects
 
 Bitmap represents an in‑memory image, while Graphics provides drawing methods for that bitmap. Creating a bitmap provides a canvas you can draw on. The `Graphics` object is the drawing surface, and we enable high‑quality text rendering with `TextRenderingHint`.
 
@@ -141,7 +137,7 @@ Font arial = new Font("Arial", 20, FontStyle.Regular);
 Graphics.DrawString renders text onto the canvas, and Graphics.DrawRectangle draws a rectangle shape. We compose the text, define the rectangle that will contain it, and then draw both the rectangle border and the string itself.
 
 ```csharp
-string text = "Lorem ipsum ...";  // (Your lengthy text goes here)
+string text = "This is a sample sentence that demonstrates how to handle text overflow within a defined rectangle.";
 Rectangle rectangle = new Rectangle(100, 100, 800, 600);
 graphics.DrawRectangle(pen, rectangle);
 graphics.DrawString(text, arial, brush, rectangle, stringFormat);
@@ -174,7 +170,7 @@ Finally, write the bitmap to disk. This step demonstrates **add text to image** 
 bitmap.Save("Your Document Directory" + @"TextFonts\FormatText_out.png");
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -183,7 +179,7 @@ bitmap.Save("Your Document Directory" + @"TextFonts\FormatText_out.png");
 | **Font not found** | Verify the font is installed on the host machine or embed a private font using `PrivateFontCollection`. |
 | **Unexpected colors** | Double‑check brush and pen colors; remember that `Color.FromKnownColor` uses system‑defined colors. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Is Aspose.Drawing compatible with all .NET versions?**  
 A1: Yes, Aspose.Drawing is designed to be compatible with a wide range of .NET versions, ensuring flexibility for developers.
@@ -198,7 +194,7 @@ A3: You can manage text overflow by adjusting the size of the rectangle or imple
 A4: Yes, Aspose.Drawing provides a comprehensive set of tools for graphic manipulation, including various formatting options for text, shapes, and more.
 
 **Q5: Where can I find additional support for Aspose.Drawing?**  
-A5: Explore the Aspose.Drawing forum [here](https://forum.aspose.com/c/drawing/44) for community support and discussions.
+A5: Explore the [Aspose.Drawing community forum](https://forum.aspose.com/c/drawing/44) for community support and discussions.
 
 **Additional Q&A**
 
