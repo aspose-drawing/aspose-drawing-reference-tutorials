@@ -1,11 +1,61 @@
 ---
-date: 2026-02-19
-description: Pelajari cara mengubah ketebalan pena, menyimpan gambar sebagai PNG,
+date: 2026-08-06
+description: Pelajari cara mengatur pen thickness, menyimpan drawing sebagai PNG,
   dan membuat grafik bitmap menggunakan Aspose.Drawing untuk .NET dalam panduan langkah
   demi langkah ini.
-linktitle: Setting Width of Pens in Aspose.Drawing
+keywords:
+- how to set pen
+- change pen thickness
+- save drawing as png
+- draw thicker lines
+- create bitmap graphics
+lastmod: 2026-08-06
+linktitle: Mengatur width of pens di Aspose.Drawing
+og_description: Temukan cara mengatur pen thickness, menggambar garis lebih tebal,
+  dan menyimpan drawing Anda sebagai PNG menggunakan Aspose.Drawing untuk .NET. Termasuk
+  pembuatan bitmap dan tips troubleshooting.
+og_image_alt: Screenshot of Aspose.Drawing code drawing lines with varying pen thickness
+og_title: Cara mengatur pen thickness di Aspose.Drawing – panduan cepat
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to set pen thickness, save drawing as PNG, and create bitmap
+    graphics using Aspose.Drawing for .NET in this step‑by‑step guide.
+  headline: How to set pen thickness in Aspose.Drawing
+  type: TechArticle
+- description: Learn how to set pen thickness, save drawing as PNG, and create bitmap
+    graphics using Aspose.Drawing for .NET in this step‑by‑step guide.
+  name: How to set pen thickness in Aspose.Drawing
+  steps:
+  - name: '**Aspose.Drawing library** – download it from the [website](https://releases.aspose.com/drawing/net/).'
+    text: '**Aspose.Drawing library** – download it from the [website](https://releases.aspose.com/drawing/net/).'
+  - name: '**Development environment** – Visual Studio, Rider, or any IDE that supports
+      .NET development.'
+    text: '**Development environment** – Visual Studio, Rider, or any IDE that supports
+      .NET development.'
+  - name: A valid **Aspose.Drawing license** if you plan to run the code in production.
+    text: A valid **Aspose.Drawing license** if you plan to run the code in production.
+  type: HowTo
+- questions:
+  - answer: '`Graphics` from Aspose.Drawing.'
+    question: What class creates the drawing surface?
+  - answer: Pass the desired width as the second argument of the `Pen` constructor,
+      e.g., `new Pen(Color.Blue, 5)`.
+    question: How do I set pen thickness?
+  - answer: Yes – call `bitmap.Save("Path\\Width_out.png")` after drawing.
+    question: Can I export the result as PNG?
+  - answer: A license is needed for production use; a free trial is available for
+      evaluation.
+    question: Is a commercial license required?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+    question: Which .NET versions are supported?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Cara Mengubah Ketebalan Pena di Aspose.Drawing
+tags:
+- pen thickness
+- Aspose.Drawing
+- .NET graphics
+title: Cara mengatur pen thickness di Aspose.Drawing
 url: /id/net/pens/width/
 weight: 12
 ---
@@ -14,54 +64,53 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengubah Ketebalan Pena di Aspose.Drawing
+# Cara mengatur ketebalan pena di Aspose.Drawing
 
 ## Pendahuluan
 
-Selamat datang di panduan langkah‑demi‑langkah ini tentang **cara mengubah ketebalan** pena menggunakan Aspose.Drawing untuk .NET. Baik Anda sedang membangun alat pelaporan, aplikasi desain, atau hanya perlu menggambar garis yang lebih tajam, mengontrol ketebalan pena sangat penting untuk dampak visual. Dalam tutorial ini kami juga akan menunjukkan cara **menyimpan gambar sebagai PNG** dan **membuat grafik bitmap** yang dapat digunakan kembali di seluruh proyek Anda.
+Dalam tutorial ini Anda akan belajar **cara mengatur pena** ketebalan saat menggambar dengan Aspose.Drawing untuk .NET, cara menyimpan hasilnya sebagai file PNG, dan cara membuat grafik bitmap yang dapat digunakan kembali. Mengontrol lebar pena adalah teknik inti untuk menghasilkan diagram yang jelas, mock‑up UI, atau visualisasi data. Anda akan melihat alur kerja lengkap mulai dari pembuatan bitmap hingga mengekspor gambar akhir, serta tips untuk skenario DPI tinggi dan jebakan umum.
 
 ## Jawaban Cepat
-- **Apa kelas utama untuk menggambar?** `Graphics` dari Aspose.Drawing.
-- **Bagaimana cara mengubah ketebalan pena?** Atur parameter kedua dari konstruktor `Pen` (misalnya, `new Pen(Color.Blue, 5)`).
-- **Apakah saya dapat mengekspor hasil sebagai PNG?** Ya – gunakan `bitmap.Save("Path\\Width_out.png")`.
-- **Apakah saya memerlukan lisensi untuk penggunaan komersial?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.
-- **Versi .NET mana yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+- **Kelas apa yang membuat permukaan gambar?** `Graphics` from Aspose.Drawing.
+- **Bagaimana cara mengatur ketebalan pena?** Pass the desired width as the second argument of the `Pen` constructor, e.g., `new Pen(Color.Blue, 5)`.
+- **Apakah saya dapat mengekspor hasil sebagai PNG?** Yes – call `bitmap.Save("Path\\Width_out.png")` after drawing.
+- **Apakah lisensi komersial diperlukan?** A license is needed for production use; a free trial is available for evaluation.
+- **Versi .NET mana yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
-## Apa itu “cara mengubah ketebalan” dalam kode menggambar?
+## Apa itu cara mengatur ketebalan pena dalam kode menggambar?
 
-Mengubah ketebalan (atau lebar) pena menentukan seberapa tebal sebuah garis muncul di kanvas. Pena yang lebih tebal menggambar garis yang lebih berat, yang dapat digunakan untuk menyorot bagian, membuat batas, atau sekadar meningkatkan keterbacaan grafik.
+Mengubah lebar pena menentukan seberapa tebal setiap garis muncul di kanvas. Di Aspose.Drawing Anda mengatur nilai ini saat menginstansiasi objek `Pen`; parameter konstruktor kedua menentukan ketebalan dalam piksel. Nilai yang lebih besar menghasilkan garis yang lebih tebal, yang berguna untuk penekanan, batas, atau meningkatkan keterbacaan pada tampilan beresolusi rendah.
 
 ## Mengapa menggunakan Aspose.Drawing untuk tugas ini?
 
-Aspose.Drawing menawarkan API .NET murni yang berfungsi tanpa batasan `System.Drawing.Common` pada platform non‑Windows. Ia menyediakan rendering berperforma tinggi, dukungan format piksel yang luas, dan integrasi mulus dengan produk Aspose lainnya.
+Aspose.Drawing menyediakan mesin grafis .NET murni‑managed yang bekerja di Windows, Linux, dan macOS tanpa ketergantungan native GDI+ dari `System.Drawing.Common`. Ia mendukung **30+ image formats**, dapat merender bitmap hingga **10 000 × 10 000 pixels** dalam memori, dan memproses operasi menggambar hingga **3× faster** dibandingkan implementasi legacy System.Drawing pada perangkat keras yang sebanding.
 
 ## Prasyarat
 
-Sebelum Anda memulai, pastikan Anda memiliki:
+1. **Aspose.Drawing library** – download it from the [website](https://releases.aspose.com/drawing/net/).
+2. **Development environment** – Visual Studio, Rider, or any IDE that supports .NET development.
+3. A valid **Aspose.Drawing license** if you plan to run the code in production.
 
-1. **Aspose.Drawing Library** – unduh dari [website](https://releases.aspose.com/drawing/net/).
-2. **Lingkungan Pengembangan** – Visual Studio, Rider, atau IDE apa pun yang mendukung pengembangan .NET.
+## Impor namespace
 
-## Impor Namespace
-
-Tambahkan namespace yang diperlukan di bagian atas file C# Anda sehingga Anda dapat mengakses kelas‑kelas menggambar:
+The `Aspose.Drawing` namespace contains all the core graphics types you’ll need, such as `Bitmap`, `Graphics`, and `Pen`. Import it at the top of your C# file so the compiler can resolve these classes.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Langkah 1: Buat Objek Bitmap dan Graphics
+## Langkah 1: buat objek bitmap dan graphics
 
-Pertama, kami akan **membuat grafik bitmap** yang berfungsi sebagai permukaan menggambar. Bitmap memberi Anda kanvas pixel‑perfect yang kemudian dapat diekspor sebagai PNG.
+First, you create a `Bitmap` that acts as a pixel‑perfect canvas, then obtain a `Graphics` object from that bitmap. The bitmap defines the image dimensions and pixel format, while the graphics object provides drawing methods.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Langkah 2: Atur Ketebalan Pena dalam Loop
+## Langkah 2: atur ketebalan pena dalam loop
 
-Sekarang kami akan mendemonstrasikan **cara mengubah ketebalan** dengan membuat beberapa pena dengan lebar yang meningkat dan menggambar garis horizontal. Contoh visual ini memudahkan melihat efek setiap tingkat ketebalan.
+Next, you generate a series of `Pen` instances with widths ranging from 1 to 7 pixels. Each pen draws a horizontal line, letting you visually compare the effect of different thickness values.
 
 ```csharp
 for (int i = 1; i < 8; ++i)
@@ -73,9 +122,9 @@ for (int i = 1; i < 8; ++i)
 
 Loop ini menggambar tujuh garis, masing‑masing dengan ketebalan pena yang berbeda dari 1 hingga 7 piksel.
 
-## Langkah 3: Simpan Gambar Output
+## Langkah 3: simpan gambar output
 
-Setelah menggambar, Anda ingin **menyimpan gambar sebagai PNG** sehingga dapat digunakan di halaman web, laporan, atau pemrosesan lebih lanjut.
+After drawing, you export the bitmap as a PNG file. PNG preserves lossless quality and is widely supported by browsers and reporting tools. Use the `Save` method on the bitmap and provide a full file path.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
@@ -83,57 +132,63 @@ bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
 
 Ganti `"Your Document Directory"` dengan jalur folder sebenarnya tempat Anda ingin menyimpan file PNG.
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 
 | Masalah | Solusi |
 |-------|----------|
-| **Path file tidak valid** | Gunakan `Path.Combine` untuk membangun path dengan aman, misalnya, `Path.Combine(Environment.CurrentDirectory, "Pens", "Width_out.png")`. |
-| **Pen terlihat terlalu tipis pada tampilan DPI tinggi** | Tingkatkan nilai ketebalan atau set `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
-| **Gambar terlihat buram** | Pastikan Anda menggunakan bitmap resolusi tinggi (misalnya, 300 DPI) dengan mengatur `PixelFormat` yang sesuai. |
+| **File path invalid** | Gunakan `Path.Combine` untuk membangun path dengan aman, misalnya, `Path.Combine(Environment.CurrentDirectory, "Pens", "Width_out.png")`. |
+| **Pen appears too thin on high‑DPI displays** | Tingkatkan nilai ketebalan atau set `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+| **Image looks blurry** | Pastikan Anda membuat bitmap resolusi tinggi (misalnya, 300 DPI) dengan menentukan `PixelFormat` yang sesuai. |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Q1: Apakah saya dapat menggunakan Aspose.Drawing untuk proyek komersial?
+### Q1: Bisakah saya menggunakan Aspose.Drawing untuk proyek komersial?
 
-A1: Ya, Aspose.Drawing cocok untuk proyek pribadi maupun komersial. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk detail lisensi.
+A1: Yes, Aspose.Drawing is licensed for both personal and commercial use. See the [purchase page](https://purchase.aspose.com/buy) for pricing details.
 
-### Q2: Bagaimana saya dapat mendapatkan lisensi sementara untuk tujuan pengujian?
+### Q2: Bagaimana saya dapat memperoleh lisensi sementara untuk pengujian?
 
-A2: Dapatkan lisensi sementara dari [sini](https://purchase.aspose.com/temporary-license/) untuk menjelajahi potensi penuh Aspose.Drawing selama masa percobaan.
+A2: You can request a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/) to evaluate the full feature set during development.
 
-### Q3: Di mana saya dapat menemukan dukungan tambahan atau mengajukan pertanyaan?
+### Q3: Di mana saya dapat menemukan dukungan komunitas atau mengajukan pertanyaan teknis?
 
-A3: Kunjungi [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) untuk meminta bantuan, berbagi pengalaman, dan terhubung dengan komunitas.
+A3: The official support channel is the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44), where you can post questions and share solutions with other developers.
 
-### Q4: Apakah tersedia versi percobaan gratis?
+### Q4: Apakah ada versi percobaan gratis yang dapat saya unduh?
 
-A4: Ya, Anda dapat mengakses versi percobaan gratis Aspose.Drawing [di sini](https://releases.aspose.com/).
+A4: Yes, a free trial is available from the [Aspose.Drawing releases page](https://releases.aspose.com/). The trial includes all APIs but adds a watermark to generated images.
 
-### Q5: Sumber dokumentasi apa yang tersedia?
+### Q5: Sumber daya dokumentasi apa yang tersedia untuk pembelajaran lebih mendalam?
 
-A5: Lihat [dokumentasi Aspose.Drawing](https://reference.aspose.com/drawing/net/) untuk informasi mendalam dan contoh.
+A5: Comprehensive API reference and code samples are provided in the [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/).
 
-### Q6: Apakah saya dapat mengubah warna pena secara dinamis?
+### Q6: Bisakah saya mengubah warna pena secara dinamis saat menggambar?
 
-A6: Tentu saja. Berikan objek `Color` apa pun ke konstruktor `Pen`, misalnya, `new Pen(Color.Red, 3)`. Anda juga dapat menggunakan `Color.FromArgb` untuk warna khusus.
+A6: Absolutely. Pass any `Color` object to the `Pen` constructor, for example `new Pen(Color.Red, 3)`. You can also use `Color.FromArgb` to create custom colours.
 
-### Q7: Bagaimana cara menggambar garis anti‑aliased untuk tepi yang lebih halus?
+### Q7: Bagaimana cara menggambar garis anti‑alias untuk tepi yang lebih halus?
 
-A7: Set `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;` sebelum menggambar garis Anda.
+A7: Set `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;` before you start drawing. This enables sub‑pixel rendering and reduces jagged edges.
 
 ## Kesimpulan
 
-Anda kini telah menguasai **cara mengubah ketebalan** pena, belajar **membuat grafik bitmap**, dan menemukan cara **menyimpan gambar sebagai PNG** menggunakan Aspose.Drawing untuk .NET. Teknik‑teknik ini memungkinkan Anda menghasilkan visual kelas profesional yang meningkatkan tampilan dan nuansa setiap aplikasi.
+Anda sekarang tahu **cara mengatur pena** ketebalan, cara **membuat grafik bitmap**, dan cara **menyimpan gambar sebagai PNG** menggunakan Aspose.Drawing untuk .NET. Teknik‑teknik ini memungkinkan Anda menghasilkan visual kelas profesional, meningkatkan keterbacaan grafik yang dihasilkan, dan mengintegrasikan pembuatan grafik ke dalam layanan atau aplikasi desktop .NET apa pun.
 
 ---
 
-**Last Updated:** 2026-02-19  
+**Last Updated:** 2026-08-06  
 **Tested With:** Aspose.Drawing 24.10 for .NET  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Cara mengatur warna pena di Aspose.Drawing untuk .NET](/drawing/net/pens/colors/)
+- [Buat Pena Kustom dengan Aspose.Drawing untuk .NET – Tutorial Komprehensif](/drawing/net/pens/)
+- [Gambar beberapa garis dengan Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

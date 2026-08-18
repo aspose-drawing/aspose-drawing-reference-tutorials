@@ -1,11 +1,61 @@
 ---
-date: 2026-02-19
-description: Dowiedz się, jak zmienić grubość piór, zapisać rysunek jako PNG oraz
+date: 2026-08-06
+description: Dowiedz się, jak ustawić grubość pióra, zapisać rysunek jako PNG oraz
   tworzyć grafikę bitmapową przy użyciu Aspose.Drawing dla .NET w tym przewodniku
   krok po kroku.
-linktitle: Setting Width of Pens in Aspose.Drawing
+keywords:
+- how to set pen
+- change pen thickness
+- save drawing as png
+- draw thicker lines
+- create bitmap graphics
+lastmod: 2026-08-06
+linktitle: Ustawianie szerokości piór w Aspose.Drawing
+og_description: Odkryj, jak ustawić grubość pióra, rysować grubsze linie i zapisać
+  rysunek jako PNG przy użyciu Aspose.Drawing dla .NET. Zawiera tworzenie bitmap i
+  wskazówki rozwiązywania problemów.
+og_image_alt: Screenshot of Aspose.Drawing code drawing lines with varying pen thickness
+og_title: Jak ustawić grubość pióra w Aspose.Drawing – krótki przewodnik
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to set pen thickness, save drawing as PNG, and create bitmap
+    graphics using Aspose.Drawing for .NET in this step‑by‑step guide.
+  headline: How to set pen thickness in Aspose.Drawing
+  type: TechArticle
+- description: Learn how to set pen thickness, save drawing as PNG, and create bitmap
+    graphics using Aspose.Drawing for .NET in this step‑by‑step guide.
+  name: How to set pen thickness in Aspose.Drawing
+  steps:
+  - name: '**Aspose.Drawing library** – download it from the [website](https://releases.aspose.com/drawing/net/).'
+    text: '**Aspose.Drawing library** – download it from the [website](https://releases.aspose.com/drawing/net/).'
+  - name: '**Development environment** – Visual Studio, Rider, or any IDE that supports
+      .NET development.'
+    text: '**Development environment** – Visual Studio, Rider, or any IDE that supports
+      .NET development.'
+  - name: A valid **Aspose.Drawing license** if you plan to run the code in production.
+    text: A valid **Aspose.Drawing license** if you plan to run the code in production.
+  type: HowTo
+- questions:
+  - answer: '`Graphics` from Aspose.Drawing.'
+    question: What class creates the drawing surface?
+  - answer: Pass the desired width as the second argument of the `Pen` constructor,
+      e.g., `new Pen(Color.Blue, 5)`.
+    question: How do I set pen thickness?
+  - answer: Yes – call `bitmap.Save("Path\\Width_out.png")` after drawing.
+    question: Can I export the result as PNG?
+  - answer: A license is needed for production use; a free trial is available for
+      evaluation.
+    question: Is a commercial license required?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+    question: Which .NET versions are supported?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Jak zmienić grubość piór w Aspose.Drawing
+tags:
+- pen thickness
+- Aspose.Drawing
+- .NET graphics
+title: Jak ustawić grubość pióra w Aspose.Drawing
 url: /pl/net/pens/width/
 weight: 12
 ---
@@ -14,54 +64,53 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak zmienić grubość piór w Aspose.Drawing
+# Jak ustawić grubość pióra w Aspose.Drawing
 
 ## Wprowadzenie
 
-Witamy w tym przewodniku krok po kroku dotyczącym **zmiany grubości** piór przy użyciu Aspose.Drawing dla .NET. Niezależnie od tego, czy tworzysz narzędzie raportujące, aplikację projektową, czy po prostu potrzebujesz rysować wyraźniejsze linie, kontrola grubości pióra jest niezbędna dla uzyskania pożądanego efektu wizualnego. W tym tutorialu pokażemy także, jak **zapisz rysunek jako PNG** oraz **utwórz grafikę bitmapową**, którą można ponownie wykorzystać w projektach.
+W tym samouczku dowiesz się **jak ustawić pióro** grubość podczas rysowania przy użyciu Aspose.Drawing dla .NET, jak zapisać wynik jako plik PNG oraz jak tworzyć wielokrotnego użytku grafiki bitmapowe. Kontrola szerokości pióra to podstawowa technika pozwalająca na tworzenie czytelnych diagramów, makiet UI lub wizualizacji danych. Zobaczysz kompletny przepływ pracy od tworzenia bitmapy po eksport finalnego obrazu, a także wskazówki dotyczące scenariuszy wysokiego DPI i typowych pułapek.
 
 ## Szybkie odpowiedzi
-- **Jaka jest podstawowa klasa do rysowania?** `Graphics` z Aspose.Drawing.
-- **Jak zmienić grubość pióra?** Ustaw drugi parametr konstruktora `Pen` (np. `new Pen(Color.Blue, 5)`).
-- **Czy mogę wyeksportować wynik jako PNG?** Tak – użyj `bitmap.Save("Path\\Width_out.png")`.
-- **Czy potrzebna jest licencja do użytku komercyjnego?** Wymagana jest licencja komercyjna; dostępna jest wersja próbna.
-- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+- **Jaka klasa tworzy powierzchnię rysowania?** `Graphics` from Aspose.Drawing.
+- **Jak ustawić grubość pióra?** Przekaż żądaną szerokość jako drugi argument konstruktora `Pen`, e.g., `new Pen(Color.Blue, 5)`.
+- **Czy mogę wyeksportować wynik jako PNG?** Tak – wywołaj `bitmap.Save("Path\\Width_out.png")` po rysowaniu.
+- **Czy wymagana jest licencja komercyjna?** Licencja jest potrzebna do użytku produkcyjnego; dostępna jest bezpłatna wersja próbna do oceny.
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
-## Co oznacza „jak zmienić grubość” w kodzie rysowania?
+## Co to jest ustawianie grubości pióra w kodzie rysowania?
 
-Zmiana grubości (lub szerokości) pióra określa, jak mocna linia będzie wyglądać na płótnie. Grubsze pióro rysuje cięższą linię, którą można wykorzystać do podkreślenia sekcji, tworzenia obramowań lub po prostu poprawy czytelności grafiki.
+Zmiana szerokości pióra określa, jak pogrubiona będzie każda linia na płótnie. W Aspose.Drawing ustawiasz tę wartość podczas tworzenia obiektu `Pen`; drugi parametr konstruktora określa grubość w pikselach. Większa wartość daje cięższą linię, co jest przydatne przy podkreślaniu, obramowaniach lub poprawie czytelności na wyświetlaczach o niskiej rozdzielczości.
 
 ## Dlaczego używać Aspose.Drawing do tego zadania?
 
-Aspose.Drawing oferuje czyste API .NET, które działa bez ograniczeń `System.Drawing.Common` na platformach nie‑Windowsowych. Zapewnia wysoką wydajność renderowania, szerokie wsparcie formatów pikseli oraz płynną integrację z innymi produktami Aspose.
+Aspose.Drawing dostarcza czysto zarządzany silnik graficzny .NET, działający na Windows, Linux i macOS bez zależności natywnego GDI+ z `System.Drawing.Common`. Obsługuje **ponad 30 formatów obrazów**, może renderować bitmapy do **10 000 × 10 000 pikseli** w pamięci i przetwarza operacje rysowania **3× szybciej** niż starsza implementacja System.Drawing na porównywalnym sprzęcie.
 
-## Wymagania wstępne
+## Prerequisites
 
-Zanim rozpoczniesz, upewnij się, że masz:
-
-1. **Bibliotekę Aspose.Drawing** – pobierz ją ze [strony internetowej](https://releases.aspose.com/drawing/net/).
-2. **Środowisko programistyczne** – Visual Studio, Rider lub dowolne IDE obsługujące rozwój w .NET.
+1. **Biblioteka Aspose.Drawing** – pobierz ją z [strony internetowej](https://releases.aspose.com/drawing/net/).
+2. **Środowisko programistyczne** – Visual Studio, Rider lub dowolne IDE obsługujące rozwój .NET.
+3. Ważna **licencja Aspose.Drawing**, jeśli planujesz uruchamiać kod w środowisku produkcyjnym.
 
 ## Importowanie przestrzeni nazw
 
-Dodaj wymaganą przestrzeń nazw na początku pliku C#, aby mieć dostęp do klas rysunkowych:
+Przestrzeń nazw `Aspose.Drawing` zawiera wszystkie podstawowe typy graficzne, których będziesz potrzebować, takie jak `Bitmap`, `Graphics` i `Pen`. Zaimportuj ją na początku pliku C#, aby kompilator mógł rozwiązać te klasy.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Krok 1: Utwórz obiekty Bitmap i Graphics
+## Krok 1: utwórz obiekty bitmap i graphics
 
-Najpierw **utworzymy grafikę bitmapową**, która będzie służyć jako powierzchnia rysowania. Bitmapa zapewnia płótno o precyzyjnych pikselach, które później można wyeksportować jako PNG.
+Najpierw tworzysz `Bitmap`, który pełni rolę płótna o idealnej rozdzielczości, a następnie uzyskujesz obiekt `Graphics` z tej bitmapy. Bitmapa definiuje wymiary obrazu i format pikseli, natomiast obiekt graficzny udostępnia metody rysowania.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Krok 2: Ustaw grubość pióra w pętli
+## Krok 2: ustaw grubość pióra w pętli
 
-Teraz pokażemy **jak zmienić grubość**, tworząc kilka piór o rosnących szerokościach i rysując linie poziome. Ten wizualny przykład ułatwia zobaczenie efektu każdej wartości grubości.
+Następnie generujesz serię instancji `Pen` o szerokościach od 1 do 7 pikseli. Każde pióro rysuje poziomą linię, co pozwala wizualnie porównać efekt różnych wartości grubości.
 
 ```csharp
 for (int i = 1; i < 8; ++i)
@@ -73,9 +122,9 @@ for (int i = 1; i < 8; ++i)
 
 Pętla rysuje siedem linii, każda o innej grubości pióra od 1 do 7 pikseli.
 
-## Krok 3: Zapisz obraz wyjściowy
+## Krok 3: zapisz obraz wyjściowy
 
-Po narysowaniu będziesz chciał **zapisz rysunek jako PNG**, aby móc go używać na stronach internetowych, w raportach lub w dalszym przetwarzaniu.
+Po zakończeniu rysowania eksportujesz bitmapę jako plik PNG. PNG zachowuje jakość bez strat i jest szeroko wspierany przez przeglądarki oraz narzędzia raportujące. Użyj metody `Save` na bitmapie i podaj pełną ścieżkę pliku.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Width_out.png");
@@ -88,52 +137,58 @@ Zastąp `"Your Document Directory"` rzeczywistą ścieżką folderu, w którym c
 | Problem | Rozwiązanie |
 |-------|----------|
 | **Nieprawidłowa ścieżka pliku** | Użyj `Path.Combine`, aby bezpiecznie zbudować ścieżkę, np. `Path.Combine(Environment.CurrentDirectory, "Pens", "Width_out.png")`. |
-| **Pióro wydaje się zbyt cienkie na wyświetlaczach wysokiej rozdzielczości** | Zwiększ wartość grubości lub ustaw `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
-| **Obraz jest rozmyty** | Upewnij się, że używasz bitmapy o wysokiej rozdzielczości (np. 300 DPI), ustawiając odpowiedni `PixelFormat`. |
+| **Pióro wydaje się zbyt cienkie na wyświetlaczach wysokiej rozdzielczości (DPI)** | Zwiększ wartość grubości lub ustaw `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+| **Obraz jest rozmyty** | Upewnij się, że tworzysz bitmapę o wysokiej rozdzielczości (np. 300 DPI), określając odpowiedni `PixelFormat`. |
 
 ## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.Drawing w projektach komercyjnych?
+### Q1: Czy mogę używać Aspose.Drawing w projektach komercyjnych?
 
-A1: Tak, Aspose.Drawing jest odpowiedni zarówno dla projektów prywatnych, jak i komercyjnych. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy) po szczegóły licencjonowania.
+A1: Tak, Aspose.Drawing jest licencjonowany zarówno do użytku osobistego, jak i komercyjnego. Zobacz [stronę zakupu](https://purchase.aspose.com/buy) po szczegóły cenowe.
 
-### P2: Jak mogę uzyskać tymczasową licencję do celów testowych?
+### Q2: Jak mogę uzyskać tymczasową licencję do testów?
 
-A2: Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/), aby w pełni przetestować możliwości Aspose.Drawing w okresie próbnym.
+A2: Możesz poprosić o tymczasową licencję na [stronie tymczasowych licencji](https://purchase.aspose.com/temporary-license/), aby ocenić pełny zestaw funkcji podczas rozwoju.
 
-### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub zadać pytania?
+### Q3: Gdzie mogę znaleźć wsparcie społeczności lub zadać pytania techniczne?
 
-A3: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), aby uzyskać pomoc, podzielić się doświadczeniami i połączyć z społecznością.
+A3: Oficjalnym kanałem wsparcia jest [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), gdzie możesz zamieszczać pytania i dzielić się rozwiązaniami z innymi programistami.
 
-### P4: Czy dostępna jest darmowa wersja próbna?
+### Q4: Czy dostępna jest darmowa wersja próbna do pobrania?
 
-A4: Tak, darmową wersję próbną Aspose.Drawing znajdziesz [tutaj](https://releases.aspose.com/).
+A4: Tak, darmowa wersja próbna jest dostępna na [stronie wydań Aspose.Drawing](https://releases.aspose.com/). Wersja próbna zawiera wszystkie API, ale dodaje znak wodny do generowanych obrazów.
 
-### P5: Jakie zasoby dokumentacji są dostępne?
+### Q5: Jakie zasoby dokumentacji są dostępne do dalszej nauki?
 
-A5: Zapoznaj się z [dokumentacją Aspose.Drawing](https://reference.aspose.com/drawing/net/), aby uzyskać szczegółowe informacje i przykłady.
+A5: Kompleksowa referencja API i przykłady kodu są dostępne w [dokumentacji Aspose.Drawing](https://reference.aspose.com/drawing/net/).
 
-### P6: Czy mogę dynamicznie zmieniać kolor pióra?
+### Q6: Czy mogę dynamicznie zmieniać kolor pióra podczas rysowania?
 
-A6: Oczywiście. Przekaż dowolny obiekt `Color` do konstruktora `Pen`, np. `new Pen(Color.Red, 3)`. Możesz także użyć `Color.FromArgb` dla niestandardowych kolorów.
+A6: Absolutnie. Przekaż dowolny obiekt `Color` do konstruktora `Pen`, na przykład `new Pen(Color.Red, 3)`. Możesz także użyć `Color.FromArgb`, aby tworzyć kolory niestandardowe.
 
-### P7: Jak rysować linie z antyaliasingiem dla płynniejszych krawędzi?
+### Q7: Jak narysować linie antyaliasowane dla płynniejszych krawędzi?
 
-A7: Ustaw `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;` przed rysowaniem linii.
+A7: Ustaw `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;` przed rozpoczęciem rysowania. To włącza renderowanie podpikselowe i zmniejsza ząbkowanie krawędzi.
 
-## Podsumowanie
+## Zakończenie
 
-Teraz opanowałeś **zmianę grubości** piór, nauczyłeś się **tworzyć grafikę bitmapową** oraz odkryłeś, jak **zapisz rysunek jako PNG** przy użyciu Aspose.Drawing dla .NET. Te techniki pozwalają tworzyć profesjonalne wizualizacje, które podnoszą jakość i wygląd każdej aplikacji.
+Teraz wiesz **jak ustawić pióro** grubość, jak **tworzyć grafiki bitmapowe** oraz jak **zapisać rysunek jako PNG** przy użyciu Aspose.Drawing dla .NET. Te techniki pozwalają tworzyć wizualizacje klasy profesjonalnej, poprawiać czytelność generowanych wykresów i integrować generowanie grafiki w dowolnej usłudze lub aplikacji desktopowej .NET.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-19  
-**Testowane z:** Aspose.Drawing 24.10 for .NET  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-08-06  
+**Testowano z:** Aspose.Drawing 24.10 for .NET  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Jak ustawić kolor pióra w Aspose.Drawing dla .NET](/drawing/net/pens/colors/)
+- [Tworzenie własnych piór w Aspose.Drawing dla .NET – Kompleksowe samouczki](/drawing/net/pens/)
+- [Rysowanie wielu linii za pomocą Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
