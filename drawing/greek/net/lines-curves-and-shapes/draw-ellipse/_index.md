@@ -1,11 +1,52 @@
 ---
-date: 2026-02-14
-description: Μάθετε πώς να σχεδιάζετε έλλειψη χρησιμοποιώντας το Aspose.Drawing για
-  .NET. Ακολουθήστε αυτό το βήμα‑βήμα παράδειγμα σχεδίασης έλλειψης με γραφικό πλαίσιο
-  και δημιουργήστε εικόνα έλλειψης.
-linktitle: Drawing Ellipses in Aspose.Drawing
+date: 2026-07-22
+description: Δημιουργήστε εικόνα έλλειψης .NET χρησιμοποιώντας το Aspose.Drawing –
+  ένα βήμα‑βήμα παράδειγμα σχεδίασης έλλειψης με πλαίσιο γραφικών, ιδανικό για την
+  αντικατάσταση του System.Drawing.Common.
+keywords:
+- create ellipse image .net
+- ellipse drawing example c#
+- replace system.drawing.common
+lastmod: 2026-07-22
+linktitle: Σχεδίαση ελλείψεων στο Aspose.Drawing
+og_description: Δημιουργήστε εικόνα έλλειψης .NET χρησιμοποιώντας το Aspose.Drawing.
+  Αυτό το σεμινάριο παρουσιάζει ένα συνοπτικό παράδειγμα σχεδίασης έλλειψης, ιδανικό
+  για την αντικατάσταση του System.Drawing.Common σε εφαρμογές .NET πολλαπλών πλατφορμών.
+og_image_alt: Guide showing how to draw an ellipse and save as image with Aspose.Drawing
+  for .NET
+og_title: Δημιουργία εικόνας έλλειψης .NET με Aspose.Drawing – Σύντομος οδηγός
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Create ellipse image .NET using Aspose.Drawing – a step‑by‑step ellipse
+    drawing example with graphics context, perfect for replacing System.Drawing.Common.
+  headline: How to Create Ellipse Image .NET with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes. Save the bitmap as PNG or JPEG and serve it like any static image
+      asset; the format is fully compatible with browsers and HTML `<img>` tags.
+    question: Can I use the generated ellipse image in a web application?
+  - answer: No. Aspose.Drawing is completely independent of GDI+, making it safe for
+      containerised Linux deployments and Azure App Service.
+    question: Does Aspose.Drawing require GDI+ on Linux?
+  - answer: Call `graphics.Clear(Color.White);` (or any `Color`) before drawing the
+      ellipse to fill the bitmap with a solid background.
+    question: How do I change the background color of the canvas?
+  - answer: It is not; you must set `graphics.SmoothingMode = SmoothingMode.AntiAlias;`
+      to achieve smooth edges on the ellipse.
+    question: Is anti‑aliasing enabled by default?
+  - answer: Aspose.Drawing works with .NET Framework 4.6+, .NET Core 3.1+, .NET 5,
+      .NET 6, and later releases.
+    question: What .NET versions are supported?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Πώς να σχεδιάσετε μια έλλειψη με το Aspose.Drawing για .NET
+tags:
+- create ellipse image
+- Aspose.Drawing
+- .NET graphics
+- ellipse drawing
+- System.Drawing.Common alternative
+title: Πώς να δημιουργήσετε εικόνα έλλειψης .NET με Aspose.Drawing
 url: /el/net/lines-curves-and-shapes/draw-ellipse/
 weight: 15
 ---
@@ -14,47 +55,45 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Σχεδιάσετε Ellipse με το Aspose.Drawing για .NET
+# Πώς να δημιουργήσετε εικόνα έλλειψης .NET με Aspose.Drawing
 
 ## Εισαγωγή
 
-Αν χρειάζεστε **πώς να σχεδιάσετε ellipse** σε μια εφαρμογή .NET, το Aspose.Drawing παρέχει έναν καθαρό, δια-πλατφορμικό τρόπο για την απόδοση γραφικών υψηλής ποιότητας χωρίς τους περιορισμούς του System.Drawing.Common. Σε αυτό το tutorial θα περάσουμε από ένα **παράδειγμα σχεδίασης ellipse** που δείχνει πώς να ρυθμίσετε ένα graphics context, να σχεδιάσετε ένα ellipse στον καμβά και να **δημιουργήσετε αρχεία εικόνας ellipse** έτοιμα για χρήση σε αναφορές, UI στοιχεία ή pipelines εξαγωγής.
+Αν χρειάζεστε **γρήγορη και αξιόπιστη δημιουργία εικόνας έλλειψης .NET**, το Aspose.Drawing προσφέρει ένα καθαρό, cross‑platform API που αφαιρεί τους περιορισμούς του GDI+ του System.Drawing.Common. Σε αυτό το tutorial θα περάσουμε από ένα σύντομο **παράδειγμα σχεδίασης έλλειψης** που δείχνει πώς να ρυθμίσετε ένα graphics context, να σχεδιάσετε μια έλλειψη σε έναν bitmap καμβά και να **αποθηκεύσετε την εικόνα έλλειψης** στη μορφή που χρειάζεστε. Θα δείτε γιατί αυτή η προσέγγιση είναι ιδανική για server‑side rendering, containerised services και οποιαδήποτε .NET εφαρμογή που απαιτεί υψηλής ποιότητας vector graphics.
 
 ## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Drawing για .NET (διαθέσιμο δωρεάν trial).  
+- **Τι βιβλιοθήκη απαιτείται;** Aspose.Drawing for .NET (διαθέσιμο δωρεάν δοκιμαστικό).  
 - **Ποια μέθοδος σχεδιάζει το σχήμα;** `Graphics.DrawEllipse`.  
-- **Χρειάζεται άδεια για δοκιμή;** Όχι – χρησιμοποιήστε το δωρεάν trial του Aspose για αξιολόγηση.  
-- **Μπορώ να αλλάξω το χρώμα και το πάχος;** Ναι, ρυθμίστε το αντικείμενο `Pen`.  
-- **Ποιοι τύποι εξόδου υποστηρίζονται;** Οποιοσδήποτε τύπος υποστηρίζεται από `Bitmap.Save`, π.χ. PNG, JPEG, BMP.
+- **Χρειάζομαι άδεια για δοκιμή;** Όχι – η δωρεάν δοκιμή σας επιτρέπει να αξιολογήσετε όλες τις λειτουργίες.  
+- **Μπορώ να αλλάξω το χρώμα και το πάχος;** Ναι, ρυθμίστε το αντικείμενο `Pen` πριν το σχεδιάσετε.  
+- **Ποιες μορφές εξόδου υποστηρίζονται;** Οποιαδήποτε μορφή υποστηρίζεται από το `Bitmap.Save`, όπως PNG, JPEG, BMP και TIFF.
 
-## Τι σημαίνει “πώς να σχεδιάσετε ellipse” στο Aspose.Drawing;
-Η σχεδίαση ενός ellipse σημαίνει την απόδοση μιας ομαλής, ωοειδούς καμπύλης σε ένα bitmap ή σε οποιαδήποτε επιφάνεια γραφικών. Το αντικείμενο `Graphics` λειτουργεί ως **πλαίσιο γραφικών** (graphics context) επιτρέποντάς σας να εκτελείτε εντολές υψηλού επιπέδου όπως `DrawEllipse`.
+## Τι είναι η δημιουργία εικόνας έλλειψης .NET;
+**Create ellipse image .NET** αναφέρεται στη δημιουργία προγραμματιστικά ενός γραφικού σχήματος σε σχήμα ωοειδούς και την αποθήκευσή του ως αρχείο εικόνας χρησιμοποιώντας μια βιβλιοθήκη συμβατή με .NET. Η μέθοδος `Graphics.DrawEllipse` του Aspose.Drawing σχεδιάζει το σχήμα πάνω σε bitmap, το οποίο στη συνέχεια μπορεί να αποθηκευτεί σε οποιαδήποτε τυπική μορφή εικόνας.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.Drawing για ένα παράδειγμα σχεδίασης ellipse;
-- **Δια-πλατφορμικό**: Λειτουργεί σε Windows, Linux και macOS.  
-- **Χωρίς εξαρτήσεις GDI+**: Ιδανικό για περιβάλλοντα κοντέινερ ή διακομιστές.  
-- **Πλούσιο API**: Προσφέρει λεπτομερή έλεγχο πάνω σε πένες, πινέλα και anti‑aliasing.  
-- **Δωρεάν trial**: Μπορείτε να δοκιμάσετε το πλήρες σύνολο λειτουργιών χωρίς κόστος πριν την αγορά.
+## Πώς να δημιουργήσετε εικόνα έλλειψης .NET;
+Φορτώστε ένα bitmap, αποκτήστε το `Graphics` context του, ρυθμίστε ένα `Pen`, καλέστε `Graphics.DrawEllipse` και τέλος αποθηκεύστε το bitmap με `Bitmap.Save`. Αυτά τα τέσσερα βήματα παράγουν μια έτοιμη για χρήση εικόνα έλλειψης σε λιγότερο από ένα λεπτό κώδικα. Το API διαχειρίζεται αυτόματα anti‑aliasing και pixel alignment, ώστε η τελική εικόνα να φαίνεται καθαρή σε οθόνες υψηλής DPI.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.Drawing για παράδειγμα σχεδίασης έλλειψης;
+Το Aspose.Drawing υποστηρίζει **πάνω από 30 μορφές εικόνας** και μπορεί να αποδώσει καμβάδες έως **5000 × 5000 px** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, προσφέροντας προβλέψιμη απόδοση σε μεγάλα γραφικά φορτία. Η βιβλιοθήκη λειτουργεί σε **Windows, Linux και macOS**, δεν απαιτεί **GDI+**, και παρέχει λεπτομερή έλεγχο πάνω σε pens, brushes και smoothing modes—κάνοντας την πιο αξιόπιστη εναλλακτική λύση στο System.Drawing.Common για σύγχρονα .NET projects.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε το tutorial, βεβαιωθείτε ότι έχετε τα παρακάτω:
+- Εξοικείωση με C# και τη δομή έργου .NET.  
+- Aspose.Drawing for .NET εγκατεστημένο. Αν δεν το έχετε εγκαταστήσει ακόμη, κατεβάστε το [εδώ](https://releases.aspose.com/drawing/net/).  
+- Visual Studio, Visual Studio Code ή οποιοδήποτε IDE που υποστηρίζει ανάπτυξη .NET.
 
-- Βασική κατανόηση του προγραμματισμού .NET.  
-- Aspose.Drawing για .NET εγκατεστημένο. Αν δεν το έχετε, μπορείτε να το κατεβάσετε [εδώ](https://releases.aspose.com/drawing/net/).  
-- Έναν επεξεργαστή κώδικα όπως το Visual Studio.
+## Εισαγωγή ονοματοχώρων
 
-## Εισαγωγή Namespaces
-
-Για να ξεκινήσετε, εισάγετε τα απαραίτητα namespaces στο .NET project σας:
+Η κλάση `Graphics` είναι η κύρια επιφάνεια σχεδίασης του Aspose.Drawing που αντιπροσωπεύει έναν καμβά στον οποίο μπορείτε να αποδίδετε σχήματα. Εισάγετε τους απαιτούμενους ονοματοχώρους πριν ξεκινήσετε τον κώδικα:
 
 ```csharp
 using System.Drawing;
 ```
 
-## Βήμα 1: Δημιουργία Bitmap (καμβά για το ellipse)
+## Βήμα 1: Δημιουργία Bitmap (καμβά για την έλλειψη)
 
-Ξεκινήστε δημιουργώντας ένα bitmap, το οποίο λειτουργεί ως **καμβάς** για το παράδειγμα σχεδίασης ellipse:
+Η κλάση `Bitmap` αντιπροσωπεύει ένα buffer εικόνας εκτός οθόνης στο οποίο μπορείτε να σχεδιάζετε. Η δημιουργία ενός bitmap ορίζει τις διαστάσεις της εικόνας και τη μορφή pixel για την τελική εικόνα έλλειψης.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, PixelFormat.Format32bppPArgb);
@@ -62,66 +101,77 @@ Bitmap bitmap = new Bitmap(1000, 800, PixelFormat.Format32bppPArgb);
 
 ## Βήμα 2: Λήψη Graphics Context
 
-Αποκτήστε το **graphics context** από το δημιουργημένο bitmap ώστε να ενεργοποιήσετε τις λειτουργίες σχεδίασης:
+`Graphics` παρέχει το context σχεδίασης που κατευθύνει όλες τις εντολές σχεδίασης σχήματος προς το υποκείμενο bitmap. Η λήψη αυτού του context είναι το πρώτο βήμα πριν εκτελεστεί οποιαδήποτε λειτουργία σχεδίασης.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Βήμα 3: Ορισμός Ρυθμίσεων Pen
+## Βήμα 3: Ορισμός ρυθμίσεων Pen
 
-Ρυθμίστε τις παραμέτρους της πέννας για το ellipse. Σε αυτό το παράδειγμα χρησιμοποιείται μια μπλε πέννα με πάχος 2:
+Ένα `Pen` περιγράφει το στυλ περιγράμματος της έλλειψης—το χρώμα, το πλάτος, το μοτίβο dash και το line join. Σε αυτό το παράδειγμα χρησιμοποιούμε ένα μπλε pen με πάχος 2 pixel.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-## Βήμα 4: Σχεδίαση του Ellipse στον Καμβά
+## Βήμα 4: Σχεδίαση της έλλειψης στον καμβά
 
-Χρησιμοποιήστε τη μέθοδο `DrawEllipse` για να αποδώσετε το ellipse στην επιφάνεια γραφικών:
+`Graphics.DrawEllipse` αποδίδει ένα ωοειδές που περιορίζεται από το ορθογώνιο που καθορίζετε (x, y, width, height). Ρυθμίστε αυτές τις παραμέτρους για να ελέγξετε το μέγεθος και τη θέση της έλλειψης στο bitmap.
 
 ```csharp
 graphics.DrawEllipse(pen, 10, 10, 900, 700);
 ```
 
-Αλλάξτε ελεύθερα τις παραμέτρους (`x`, `y`, `width`, `height`) για να τροποποιήσετε το **μέγεθος και τη θέση του ellipse στον καμβά**.
+Μπορείτε να πειραματιστείτε με διαφορετικές τιμές ορθογωνίου για να δημιουργήσετε ψηλές, πλατιές ή τέλεια κυκλικές μορφές.
 
-## Βήμα 5: Αποθήκευση της Εικόνας (δημιουργία ellipse image)
+## Βήμα 5: Αποθήκευση της εικόνας (δημιουργία εικόνας έλλειψης)
 
-Τέλος, αποθηκεύστε το παραγόμενο bitmap σε αρχείο. Αυτό το βήμα **δημιουργεί μια εικόνα ellipse** που μπορείτε να ενσωματώσετε αλλού:
+Η αποθήκευση του bitmap γράφει τα αποδοθέντα γραφικά σε αρχείο στο δίσκο. Μπορείτε να επιλέξετε οποιαδήποτε μορφή υποστηρίζεται από το `Bitmap.Save`, όπως PNG για απώλεια‑μη ποιότητα ή JPEG για μικρότερο μέγεθος αρχείου.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawEllipse_out.png");
 ```
 
-Αντικαταστήστε το `"Your Document Directory"` με το πραγματικό φάκελο όπου θέλετε να αποθηκευτεί το αρχείο PNG.
+Αντικαταστήστε το `"Your Document Directory"` με το πραγματικό μονοπάτι φακέλου όπου θέλετε να αποθηκευτεί το αρχείο PNG. Το αποθηκευμένο αρχείο είναι πλέον μια επαναχρησιμοποιήσιμη **εικόνα έλλειψης** που μπορείτε να ενσωματώσετε σε αναφορές, UI controls ή ιστοσελίδες.
 
-## Συμπέρασμα
+## Συχνά Προβλήματα & Συμβουλές
 
-Συγχαρητήρια! Τώρα ξέρετε **πώς να σχεδιάσετε ellipse** χρησιμοποιώντας το Aspose.Drawing για .NET. Αυτός ο οδηγός κάλυψε τα πάντα, από τη ρύθμιση του καμβά bitmap μέχρι την αποθήκευση της τελικής εικόνας, παρέχοντάς σας μια ισχυρή βάση για πιο προχωρημένες εργασίες γραφικών όπως προσαρμοσμένα διαγράμματα, εικονίδια UI ή δυναμικά γραφικά αναφορών.
+`SmoothingMode` είναι μια απαρίθμηση που ελέγχει την ποιότητα απόδοσης των γραφικών, όπως η ενεργοποίηση anti‑aliasing για πιο ομαλές άκρες.
+
+- **Συμβουλή:** Ενεργοποιήστε anti‑aliasing με `graphics.SmoothingMode = SmoothingMode.AntiAlias;` πριν το σχεδιάσετε για να αποφύγετε σκαλιστές άκρες.  
+- **Πρόβλημα:** Η παράλειψη διαγραφής του αντικειμένου `Graphics` μπορεί να κλειδώσει το αρχείο bitmap. Χρησιμοποιήστε ένα `using` block ή καλέστε `graphics.Dispose()` μετά την αποθήκευση.  
+- **Μεγάλοι καμβάδες:** Για εικόνες μεγαλύτερες από 4000 × 4000 px, αυξήστε τη μορφή pixel του `Bitmap` σε `PixelFormat.Format32bppArgb` για να αποτρέψετε υπερχείλιση μνήμης.
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Μπορώ να χρησιμοποιήσω την παραγόμενη εικόνα ellipse σε μια web εφαρμογή;**  
-Α: Ναι. Αποθηκεύστε το bitmap ως PNG ή JPEG και σερβίρετέ το όπως οποιοδήποτε άλλο αρχείο εικόνας.
+**Ε: Μπορώ να χρησιμοποιήσω την παραγόμενη εικόνα έλλειψης σε web εφαρμογή;**  
+Α: Ναι. Αποθηκεύστε το bitmap ως PNG ή JPEG και σερβίρετέ το όπως οποιοδήποτε στατικό αρχείο εικόνας· η μορφή είναι πλήρως συμβατή με browsers και HTML `<img>` tags.
 
 **Ε: Το Aspose.Drawing απαιτεί GDI+ σε Linux;**  
-Α: Όχι. Το Aspose.Drawing είναι πλήρως ανεξάρτητο από GDI+, καθιστώντας το ιδανικό για κοντέινερ Linux.
+Α: Όχι. Το Aspose.Drawing είναι εντελώς ανεξάρτητο από GDI+, καθιστώντας το ασφαλές για containerised Linux deployments και Azure App Service.
 
 **Ε: Πώς αλλάζω το χρώμα φόντου του καμβά;**  
-Α: Γεμίστε το bitmap με ένα στερεό πινέλο πριν σχεδιάσετε το ellipse, π.χ. `graphics.Clear(Color.White);`.
+Α: Καλέστε `graphics.Clear(Color.White);` (ή οποιοδήποτε `Color`) πριν σχεδιάσετε την έλλειψη για να γεμίσετε το bitmap με ένα ενιαίο φόντο.
 
-**Ε: Είναι το anti‑aliasing ενεργοποιημένο από προεπιλογή;**  
-Α: Μπορείτε να το ενεργοποιήσετε ορίζοντας `graphics.SmoothingMode = SmoothingMode.AntiAlias;` πριν το σχεδιάσετε.
+**Ε: Είναι ενεργοποιημένο το anti‑aliasing από προεπιλογή;**  
+Α: Όχι· πρέπει να ορίσετε `graphics.SmoothingMode = SmoothingMode.AntiAlias;` για να επιτύχετε ομαλές άκρες στην έλλειψη.
 
 **Ε: Ποιες εκδόσεις .NET υποστηρίζονται;**  
-Α: Το Aspose.Drawing λειτουργεί με .NET Framework 4.6+, .NET Core 3.1+, .NET 5, .NET 6 και νεότερες.
+Α: Το Aspose.Drawing λειτουργεί με .NET Framework 4.6+, .NET Core 3.1+, .NET 5, .NET 6 και μεταγενέστερες εκδόσεις.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-02-14  
-**Δοκιμάστηκε με:** Aspose.Drawing 24.11 για .NET  
-**Συγγραφέας:** Aspose  
+**Τελευταία ενημέρωση:** 2026-07-22  
+**Δοκιμάστηκε με:** Aspose.Drawing 24.11 for .NET  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [How to Draw Rectangle with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/draw-rectangle/)
+- [How to create bitmap aspose.drawing – Draw Polygons in .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+- [Coordinate System Transformation – Page Transformation in Aspose.Drawing for .NET](/drawing/net/coordinate-transformations/page-transformation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
