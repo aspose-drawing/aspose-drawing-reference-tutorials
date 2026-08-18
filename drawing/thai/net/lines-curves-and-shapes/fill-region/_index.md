@@ -1,10 +1,76 @@
 ---
-date: 2026-02-17
-description: เรียนรู้วิธีเติมพื้นที่โดยใช้ Aspose.Drawing สำหรับ .NET, สร้างภาพไดนามิก,
-  และสร้างพื้นที่จากรูปหลายเหลี่ยมด้วยโค้ดขั้นตอนต่อขั้นตอน.
-linktitle: How to Fill Region in Aspose.Drawing
+date: 2026-08-16
+description: เรียนรู้วิธีเติมพื้นที่โดยใช้ Aspose.Drawing สำหรับ .NET, generate dynamic
+  images, และสร้างพื้นที่จาก polygon ด้วย step‑by‑step code.
+keywords:
+- how to fill region
+- server side image generation
+- create dynamic images
+- fill shape gradient
+- region filling graphics
+lastmod: 2026-08-16
+linktitle: วิธีเติมพื้นที่ใน Aspose.Drawing
+og_description: เรียนรู้วิธีเติมพื้นที่ด้วย Aspose.Drawing สำหรับ .NET. คู่มือนี้ครอบคลุม
+  server‑side image generation, การสร้าง dynamic images, และการใช้ gradients เพื่อเติมพื้นที่.
+og_image_alt: Screenshot of a filled polygon region created with Aspose.Drawing in
+  .NET
+og_title: วิธีเติมพื้นที่ใน Aspose.Drawing – Server‑Side Image Generation
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to fill region using Aspose.Drawing for .NET, generate dynamic
+    images, and create a region from polygon with step‑by‑step code.
+  headline: How to Fill Region in Aspose.Drawing
+  type: TechArticle
+- description: Learn how to fill region using Aspose.Drawing for .NET, generate dynamic
+    images, and create a region from polygon with step‑by‑step code.
+  name: How to Fill Region in Aspose.Drawing
+  steps:
+  - name: Create a bitmap and graphics object
+    text: '`Graphics` is Aspose.Drawing’s primary drawing surface that provides methods
+      for rendering shapes, text, and images onto a bitmap. We first allocate a bitmap
+      that will act as our canvas and obtain a `Graphics` object to draw on it. >
+      **Pro tip:** Using `Format32bppPArgb` gives you premultiplied alph'
+  - name: Define a graphics path and create a region
+    text: '`GraphicsPath` represents a series of connected lines and curves that can
+      describe any shape. Here we add a polygon that forms a diamond‑like shape, then
+      wrap it in a `Region` object. > This is the **region from polygon** you were
+      looking for. The `Region` object now represents the interior of that '
+  - name: Exclude an inner region
+    text: '`Region.Exclude` removes the pixels of a supplied shape from the current
+      region, effectively creating a “hole.” We create a rectangle and exclude it
+      from the main region.'
+  - name: Choose a brush and fill the region
+    text: '`Brush` is the abstract base for all fill styles. In this example we use
+      a solid blue brush, but you could swap in a `LinearGradientBrush` or `TextureBrush`
+      to generate richer visuals.'
+  - name: Save the resulting image
+    text: '`Bitmap.Save` writes the image to disk in the format you specify. Adjust
+      the path to point to a folder that exists on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing can be used for both personal and commercial projects.
+      For licensing details, visit the [Aspose.Drawing purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.Drawing for commercial projects?
+  - answer: Yes, you can access a free trial [Aspose.Drawing free trial page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      to get assistance from the community and experts.
+    question: How can I get support for Aspose.Drawing?
+  - answer: Absolutely. Aspose.Drawing enables you to dynamically create and manipulate
+      images in your .NET applications.
+    question: Can I generate dynamic images using Aspose.Drawing?
+  - answer: Yes, temporary licenses can be obtained [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: วิธีเติมพื้นที่ใน Aspose.Drawing สำหรับ .NET
+tags:
+- fill region
+- Aspose.Drawing
+- .NET graphics
+- server‑side image generation
+- dynamic image creation
+title: วิธีเติมพื้นที่ใน Aspose.Drawing
 url: /th/net/lines-curves-and-shapes/fill-region/
 weight: 20
 ---
@@ -15,57 +81,54 @@ weight: 20
 
 # วิธีเติมพื้นที่ใน Aspose.Drawing
 
-การสร้างกราฟิกที่สวยงามมักเกี่ยวข้องกับ **การเติมพื้นที่** ด้วยสี, ลวดลาย หรือไล่สี Aspose.Drawing สำหรับ .NET ให้ API ที่สะอาดและมีประสิทธิภาพสูงเพื่อจัดการงานนี้ ไม่ว่าคุณจะสร้างเครื่องมือรายงาน, เครื่องมือออกแบบ, หรือสร้างภาพแบบไดนามิกแบบเรียลไทม์ ในบทเรียนนี้คุณจะได้เห็น **วิธีเติมพื้นที่** อย่างละเอียด ตั้งแต่การตั้งค่า bitmap จนถึงการบันทึกรูปภาพขั้นสุดท้าย
+Creating visually appealing graphics often involves **how to fill region** with colors, patterns, or gradients. Aspose.Drawing for .NET gives you a clean, high‑performance API to tackle this task, whether you’re building a reporting engine, a design tool, or generating dynamic images on the fly. In this tutorial you’ll see exactly **how to fill region** step by step, from setting up the bitmap to saving the final picture.
 
-## คำตอบอย่างรวดเร็ว
-- **ไลบรารีใดจัดการการเติมพื้นที่?** Aspose.Drawing สำหรับ .NET  
-- **เมธอดหลัก?** `Graphics.FillRegion` พร้อมกับ `Brush` และ `Region`  
-- **สามารถสร้างภาพไดนามิกได้หรือไม่?** ได้ – API เดียวกันช่วยให้คุณสร้างภาพได้ในขณะรันไทม์  
-- **ต้องการไลเซนส์สำหรับการใช้งานในโปรดักชันหรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์; มีรุ่นทดลองฟรีให้ใช้  
-- **รองรับเวอร์ชัน .NET ใดบ้าง?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+
+## คำตอบด่วน
+- **What library handles region filling?** Aspose.Drawing for .NET  
+- **Primary method?** `Graphics.FillRegion` with a `Brush` and a `Region`  
+- **Can I generate dynamic images?** Yes – the same API lets you create images at runtime  
+- **Do I need a license for production?** A commercial license is required; a free trial is available  
+- **Supported .NET versions?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+
 
-## “การเติมพื้นที่” ในการเขียนโปรแกรมกราฟิกคืออะไร?
-การเติมพื้นที่หมายถึงการทาสีทุกพิกเซลที่อยู่ในรูปทรงที่กำหนด (เช่น โพลิกอน, วงรี, พาธที่กำหนดเอง) ด้วยแปรง (brush) แปรงนั้นอาจเป็นสีทึบ, ไล่สี, หรือแม้แต่เทกซ์เจอร์ ทำให้คุณควบคุมลักษณะการแสดงผลของพื้นที่ได้อย่างเต็มที่
+## “fill region” คืออะไรในโปรแกรมกราฟิก?
+Filling a region means painting every pixel that belongs to a defined shape (polygon, ellipse, or custom path) with a brush. The brush can be a solid color, a gradient, or a texture, giving you full control over the visual appearance of the area. `Graphics.FillRegion` is the core method that performs this operation in Aspose.Drawing.
 
 ## ทำไมต้องใช้ Aspose.Drawing สำหรับการเติมพื้นที่?
-- **พฤติกรรมสม่ำเสมอ** บน .NET Framework, .NET Core, และ .NET 5/6 – ไม่มีข้อแตกต่างของแพลตฟอร์ม  
-- **ประสิทธิภาพสูง** ด้วย pipeline การเรนเดอร์ที่ปรับแต่งมาเพื่อการสร้างภาพบนเซิร์ฟเวอร์  
-- **API ครบถ้วน** รองรับพาธซับซ้อน, การยกเว้นรูปทรงภายใน, และแปรงขั้นสูง  
-- **ไม่มีการพึ่งพาภายนอก** – ไม่ต้องใช้ GDI+ บนเซิร์ฟเวอร์ ทำให้การปรับใช้ง่ายขึ้น
+Aspose.Drawing processes **over 30 image formats** and can render multi‑hundred‑page graphics without loading the whole file into memory, delivering up to 2× faster performance than GDI+ on typical server hardware. The library works consistently across .NET Framework, .NET Core, and .NET 5/6, eliminating platform‑specific quirks and removing the need for native GDI+ dependencies on headless servers.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนจะเริ่มทำตามขั้นตอน โปรดตรวจสอบว่าคุณมี:
+Before we dive in, make sure you have:
 
-1. **Aspose.Drawing Library** – ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจากเว็บไซต์อย่างเป็นทางการ คุณสามารถหาไลบรารีและเอกสารได้ [ที่นี่](https://reference.aspose.com/drawing/net/)  
-2. **สภาพแวดล้อมการพัฒนา** – Visual Studio (รุ่นใดก็ได้) หรือ IDE .NET ที่คุณชื่นชอบ  
-3. **โครงการ .NET** ที่ตั้งเป้าหมายเป็น .NET Framework 4.6+ หรือ .NET Core 3.1+
+1. **Aspose.Drawing Library** – download and install the latest version from the official site. You can find the library and its documentation [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/).  
+2. **Development environment** – Visual Studio (any edition) or your preferred .NET IDE.  
+3. **A .NET project** targeting .NET Framework 4.6+ or .NET Core 3.1+.
 
-## นำเข้า Namespaces
+## นำเข้าชื่อเนมสเปซ
 
-เริ่มต้นด้วยการนำเข้า namespaces ที่มีคลาสกราฟิกที่เราจะใช้
+Start by importing the namespaces that contain the graphics classes we’ll use.
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-ต่อไปเราจะเดินผ่านตัวอย่างเต็มรูปแบบโดยแบ่งเป็นขั้นตอนง่าย ๆ
+Now let’s walk through the complete example, breaking it down into easy‑to‑follow steps.
 
-## คู่มือแบบขั้นตอน
+## คู่มือขั้นตอนต่อขั้นตอน
 
-### ขั้นตอนที่ 1: สร้าง Bitmap และ Graphics Object
-เราจะจัดสรร bitmap ที่ทำหน้าที่เป็นผ้าใบและรับอ็อบเจ็กต์ `Graphics` เพื่อวาดบนมัน
+### ขั้นตอนที่ 1: สร้าง bitmap และวัตถุ graphics
+`Graphics` is Aspose.Drawing’s primary drawing surface that provides methods for rendering shapes, text, and images onto a bitmap. We first allocate a bitmap that will act as our canvas and obtain a `Graphics` object to draw on it.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-> **เคล็ดลับ:** การใช้ `Format32bppPArgb` จะให้ค่า alpha ที่ทำให้การผสมสีราบรื่นขึ้นเมื่อคุณใช้แปรงที่มีความโปร่งใสในภายหลัง
+> **Pro tip:** Using `Format32bppPArgb` gives you premultiplied alpha, which yields smoother blending when you later apply semi‑transparent brushes.
 
-### ขั้นตอนที่ 2: กำหนด GraphicsPath และสร้าง Region
-`GraphicsPath` ช่วยให้เราบรรยายรูปทรงที่ซับซ้อนได้ ที่นี่เราจะเพิ่มโพลิกอนที่มีลักษณะเป็นรูปเพชร
+### ขั้นตอนที่ 2: กำหนด graphics path และสร้าง region
+`GraphicsPath` represents a series of connected lines and curves that can describe any shape. Here we add a polygon that forms a diamond‑like shape, then wrap it in a `Region` object.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
@@ -73,10 +136,10 @@ path.AddPolygon(new Point[] { new Point(100, 400), new Point(500, 100), new Poin
 Region region = new Region(path);
 ```
 
-> นี่คือ **region จากโพลิกอน** ที่คุณกำลังมองหา `Region` ตอนนี้แทนพื้นที่ภายในของโพลิกอนนั้น
+> This is the **region from polygon** you were looking for. The `Region` object now represents the interior of that polygon.
 
 ### ขั้นตอนที่ 3: ยกเว้นพื้นที่ภายใน
-บ่อยครั้งที่คุณต้องการ “รู” ภายในรูปทรง เราจะสร้างสี่เหลี่ยมและยกเว้นออกจาก region หลัก
+`Region.Exclude` removes the pixels of a supplied shape from the current region, effectively creating a “hole.” We create a rectangle and exclude it from the main region.
 
 ```csharp
 GraphicsPath innerPath = new GraphicsPath();
@@ -84,58 +147,64 @@ innerPath.AddRectangle(new Rectangle(300, 300, 400, 200));
 region.Exclude(innerPath);
 ```
 
-### ขั้นตอนที่ 4: เลือก Brush และเติม Region
-เลือกแปรงใดก็ได้ที่คุณต้องการ ในตัวอย่างนี้เราใช้แปรงสีฟ้าแบบทึบ แต่คุณสามารถเปลี่ยนเป็น `LinearGradientBrush` หรือ `TextureBrush` เพื่อสร้างภาพไดนามิกที่มีภาพลักษณ์หลากหลายได้
+### ขั้นตอนที่ 4: เลือก brush แล้วเติม region
+`Brush` is the abstract base for all fill styles. In this example we use a solid blue brush, but you could swap in a `LinearGradientBrush` or `TextureBrush` to generate richer visuals.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
 graphics.FillRegion(brush, region);
 ```
 
-### ขั้นตอนที่ 5: บันทึกรูปภาพที่ได้
-สุดท้ายให้เขียน bitmap ลงดิสก์ ปรับเส้นทางให้ชี้ไปยังโฟลเดอร์ที่มีอยู่บนเครื่องของคุณ
+### ขั้นตอนที่ 5: บันทึกภาพที่ได้
+`Bitmap.Save` writes the image to disk in the format you specify. Adjust the path to point to a folder that exists on your machine.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\FillRegion_out.png");
 ```
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาและวิธีแก้ไขทั่วไป
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|-----|
-| **ภาพแสดงเป็นสีขาว** | Bitmap ไม่ได้บันทึกลงโฟลเดอร์ที่เขียนได้หรือ `Graphics` ไม่ได้ flush | ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีอยู่และเรียก `graphics.Dispose()` หลังการวาด |
-| **Region ไม่ยกเว้นรูปทรงภายใน** | ใช้ `Exclude` ก่อนที่ region จะถูกกำหนดครบ | เรียก `region.Exclude(innerPath);` **หลัง** สร้าง region ภายนอกเสร็จแล้วตามตัวอย่าง |
-| **ประสิทธิภาพช้าบนภาพขนาดใหญ่** | ใช้ `PixelFormat.Format32bppArgb` (ไม่เป็น premultiplied) | เปลี่ยนเป็น `Format32bppPArgb` เพื่อการผสม alpha ที่เร็วขึ้น |
+| **Image appears blank** | Bitmap not saved to a writable folder or `Graphics` not flushed. | Ensure the directory exists and call `graphics.Dispose()` after drawing. |
+| **Region not excluding inner shape** | Using `Exclude` before the region is fully defined. | Call `region.Exclude(innerPath);` **after** the outer region is created, as shown. |
+| **Performance lag on large images** | Using `PixelFormat.Format32bppArgb` (non‑premultiplied). | Switch to `Format32bppPArgb` for faster alpha blending. |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: สามารถใช้ Aspose.Drawing ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
-ตอบ: ได้, Aspose.Drawing สามารถใช้ได้ทั้งในโครงการส่วนบุคคลและเชิงพาณิชย์ สำหรับรายละเอียดไลเซนส์ดูที่ [นี่](https://purchase.aspose.com/buy)
+**Q: Can I use Aspose.Drawing for commercial projects?**  
+A: Yes, Aspose.Drawing can be used for both personal and commercial projects. For licensing details, visit the [Aspose.Drawing purchase page](https://purchase.aspose.com/buy).
 
-**ถาม: มีรุ่นทดลองฟรีหรือไม่?**  
-ตอบ: มี, คุณสามารถเข้าถึงรุ่นทดลองฟรีได้ [ที่นี่](https://releases.aspose.com/)
+**Q: Is there a free trial available?**  
+A: Yes, you can access a free trial [Aspose.Drawing free trial page](https://releases.aspose.com/).
 
-**ถาม: จะขอรับการสนับสนุนสำหรับ Aspose.Drawing อย่างไร?**  
-ตอบ: เยี่ยมชม [ฟอรั่ม Aspose.Drawing](https://forum.aspose.com/c/drawing/44) เพื่อรับความช่วยเหลือจากชุมชนและผู้เชี่ยวชาญ
+**Q: How can I get support for Aspose.Drawing?**  
+A: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) to get assistance from the community and experts.
 
-**ถาม: สามารถสร้างภาพไดนามิกด้วย Aspose.Drawing ได้หรือไม่?**  
-ตอบ: แน่นอน, Aspose.Drawing ช่วยให้คุณสร้างและจัดการภาพแบบไดนามิกในแอปพลิเคชัน .NET ของคุณ
+**Q: Can I generate dynamic images using Aspose.Drawing?**  
+A: Absolutely. Aspose.Drawing enables you to dynamically create and manipulate images in your .NET applications.
 
-**ถาม: มีไลเซนส์ชั่วคราวหรือไม่?**  
-ตอบ: มี, สามารถขอรับไลเซนส์ชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
+**Q: Are temporary licenses available?**  
+A: Yes, temporary licenses can be obtained [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## สรุป
 
-การเติมพื้นที่ด้วย Aspose.Drawing เป็นเทคนิคที่ตรงไปตรงมาแต่มีพลัง ช่วยให้คุณ **สร้างภาพไดนามิก**, สร้างรูปทรงกำหนดเอง, และผลิตกราฟิกที่ดูเป็นมืออาชีพโดยใช้โค้ด ทดลองใช้แปรง, ไล่สี, และพาธที่ซับซ้อนต่าง ๆ เพื่อเปิดศักยภาพเต็มที่ของไลบรารีนี้
+Filling regions with Aspose.Drawing is a straightforward yet powerful technique that opens the door to **generate dynamic images**, create custom shapes, and produce polished graphics programmatically. Experiment with different brushes, gradients, and complex paths to unlock the full potential of the library.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-17  
-**ทดสอบกับ:** Aspose.Drawing 24.11 for .NET  
-**ผู้เขียน:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-08-16  
+**Tested with:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [Set Clipping Region in Aspose.Drawing – .NET Guide](/drawing/net/rendering/clipping/)
+- [How to Draw Arcs and Other Shapes with Aspose.Drawing for .NET](/drawing/net/lines-curves-and-shapes/)
+- [How to Draw Rectangle – Coordinate System Transformation (Page Transformation) using Aspose.Drawing API for .NET](/drawing/net/coordinate-transformations/page-transformation/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
