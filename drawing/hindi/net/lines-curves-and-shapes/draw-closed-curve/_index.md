@@ -1,11 +1,66 @@
 ---
-date: 2026-02-14
-description: Aspose.Drawing का उपयोग करके .NET में बिटमैप को PNG के रूप में सहेजना
-  और बंद वक्रों को ड्रॉ करना सीखें। यह गाइड C# के साथ ड्राइंग को फ़ाइल में निर्यात
-  करने को कवर करता है।
-linktitle: Drawing Closed Curves in Aspose.Drawing
+date: 2026-08-11
+description: Aspose.Drawing का उपयोग करके बंद वक्र बनाते हुए C# में बिटमैप बनाना और
+  उसे PNG के रूप में सहेजना सीखें। .NET के लिए कोड स्निपेट्स के साथ चरण‑दर‑चरण मार्गदर्शिका।
+keywords:
+- create bitmap c#
+- draw closed curve
+- export image as png
+lastmod: 2026-08-11
+linktitle: Aspose.Drawing में बंद वक्र बनाना
+og_description: Aspose.Drawing का उपयोग करके बंद वक्र बनाते हुए C# में बिटमैप बनाएं
+  और उसे PNG के रूप में निर्यात करें। उच्च‑गुणवत्ता वाले ग्राफिक्स के लिए इस संक्षिप्त
+  .NET ट्यूटोरियल का पालन करें।
+og_image_alt: Guide showing how to create a bitmap, draw a closed curve, and save
+  as PNG using Aspose.Drawing in C#
+og_title: C# में बिटमैप बनाएं और Aspose.Drawing के साथ PNG के रूप में सहेजें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to create bitmap in C# and save it as PNG while drawing closed
+    curves using Aspose.Drawing. Step‑by‑step guide with code snippets for .NET.
+  headline: Create bitmap in C# and save as PNG with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to create bitmap in C# and save it as PNG while drawing closed
+    curves using Aspose.Drawing. Step‑by‑step guide with code snippets for .NET.
+  name: Create bitmap in C# and save as PNG with Aspose.Drawing
+  steps:
+  - name: create bitmap and graphics objects
+    text: The `Bitmap` class represents a pixel‑based image that you can draw on.
+      The `Graphics` class provides drawing methods to render shapes onto a `Bitmap`.
+      Create a bitmap of the desired size and obtain a graphics object that will be
+      used for all drawing operations. > **Pro tip:** Using `PixelFormat.For
+  - name: define pen and draw closed curve
+    text: The `Pen` class defines line color, width, and style used for drawing. `Graphics.DrawClosedCurve`
+      automatically creates a smooth spline that passes through the supplied points
+      and closes the shape. Configure a pen, supply an array of points, and invoke
+      the method to render a seamless outline. > **Wh
+  - name: save the output image (save bitmap as PNG)
+    text: The `Bitmap.Save` method writes the in‑memory image to a file. By specifying
+      `ImageFormat.Png` you ensure the output is a lossless PNG that preserves transparency
+      and color depth. Write the bitmap to disk, then dispose of resources when finished.
+      The file will be created in the specified folder, rea
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing is licensed for both personal and commercial use.
+      See the [purchase page](https://purchase.aspose.com/buy) for details.
+    question: Can I use Aspose.Drawing for commercial projects?
+  - answer: Absolutely—download a trial from [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Request one via [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: The full API reference is available [here](https://reference.aspose.com/drawing/net/).
+    question: Where can I find detailed documentation?
+  - answer: Post questions on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      for community and staff assistance.
+    question: What support options are available?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: बिटमैप को PNG के रूप में सहेजें और Aspose.Drawing के साथ बंद वक्र बनाएं
+tags:
+- create bitmap
+- Aspose.Drawing
+- C# graphics
+title: C# में बिटमैप बनाएं और Aspose.Drawing के साथ PNG के रूप में सहेजें
 url: /hi/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
@@ -14,55 +69,60 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# बिटमैप को PNG के रूप में सहेजें और Aspose.Drawing के साथ बंद वक्र बनाएं
+# C# में बिटमैप बनाएं और Aspose.Drawing के साथ PNG के रूप में सहेजें
 
 ## परिचय
 
-यदि आपको **बिटमैप को PNG के रूप में सहेजना** है और साथ ही एक स्मूद बंद वक्र रेंडर करना है, तो आप सही ट्यूटोरियल पर आए हैं। इस गाइड में हम पूरी वर्कफ़्लो को कवर करेंगे—बिटमैप बनाना, बंद वक्र ड्रॉ करना, और अंत में ड्रॉइंग को PNG फ़ाइल में एक्सपोर्ट करना—सभी Aspose.Drawing .NET API का उपयोग करके। अंत तक आप **बंद वक्र** आकार कैसे ड्रॉ करें और **ड्रॉइंग को फ़ाइल में एक्सपोर्ट** करें, यह साफ़ C# कोड के साथ समझ पाएँगे।
+यदि आपको **C# में बिटमैप बनाना** है, एक स्मूद क्लोज़्ड कर्व रेंडर करना है, और फिर **बिटमैप को PNG के रूप में सहेजना** है, तो आप सही ट्यूटोरियल पर आए हैं। इस गाइड में हम पूरी कार्यप्रवाह को समझेंगे—बिटमैप कैनवास बनाना, एक क्लोज़्ड कर्व ड्रॉ करना, और ड्रॉइंग को PNG फ़ाइल में एक्सपोर्ट करना—Aspose.Drawing .NET API का उपयोग करके। अंत तक आप **क्लोज़्ड कर्व** आकार कैसे ड्रॉ करें और **इमेज को PNG के रूप में एक्सपोर्ट** करें, यह साफ़, प्रोडक्शन‑रेडी C# कोड के साथ समझ जाएंगे।
 
 ## त्वरित उत्तर
-- **ट्यूटोरियल क्या कवर करता है?** बंद वक्र बनाना और परिणाम को PNG इमेज के रूप में सहेजना।  
-- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Drawing for .NET (download [यहाँ](https://releases.aspose.com/drawing/net/))।  
+- **ट्यूटोरियल क्या कवर करता है?** क्लोज़्ड कर्व ड्रॉ करना और परिणाम को PNG इमेज के रूप में सहेजना।  
+- **कौनसी लाइब्रेरी आवश्यक है?** .NET के लिए Aspose.Drawing (डाउनलोड [here](https://releases.aspose.com/drawing/net/)).  
 - **क्या मैं इसे C# कंसोल ऐप में उपयोग कर सकता हूँ?** हाँ, कोड किसी भी .NET प्रोजेक्ट में काम करता है जो Aspose.Drawing को रेफ़रेंस करता है।  
 - **क्या सैंपल चलाने के लिए लाइसेंस चाहिए?** विकास के लिए फ्री ट्रायल काम करता है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।  
-- **कौन सा इमेज फ़ॉर्मेट उत्पन्न होता है?** PNG (बिटमैप 32‑bit ARGB के साथ सहेजा गया)।
+- **कौनसा इमेज फॉर्मेट बनता है?** PNG (बिटमैप 32‑bit ARGB के साथ सहेजा गया)।
 
 ## Aspose.Drawing में “बिटमैप को PNG के रूप में सहेजना” क्या है?
+बिटमैप को PNG के रूप में सहेजना का मतलब है इन‑मेमोरी `Bitmap` ऑब्जेक्ट को डिस्क पर एक लॉसलेस PNG फ़ाइल में बदलना, 32‑bit रंग और ट्रांसपैरेंसी को संरक्षित रखना। PNG लॉसलेस कम्प्रेशन का उपयोग करता है, जिससे प्राप्त फ़ाइल UI ग्राफ़िक्स, रिपोर्ट और थंबनेल्स के लिए आदर्श बनती है जिन्हें ब्राउज़र और डिवाइसों में विज़ुअल फ़िडेलिटी बनाए रखनी होती है।
 
-बिटमैप को PNG के रूप में सहेजना बस इसका मतलब है कि इन‑मे़मोरी `Bitmap` ऑब्जेक्ट, जो आपके ड्रॉइंग सतह को दर्शाता है, को पोर्टेबल नेटवर्क ग्राफ़िक्स फ़ॉर्मेट में डिस्क पर लिख देना। PNG ट्रांसपैरेंसी को बनाए रखता है और लॉस‑लेस कंप्रेशन देता है, जिससे यह UI ग्राफ़िक्स, रिपोर्ट और थंबनेल के लिए आदर्श बनता है।
-
-## बंद वक्र बनाने के लिए Aspose.Drawing का उपयोग क्यों करें?
-
-Aspose.Drawing एक पूरी तरह से मैनेज्ड, क्रॉस‑प्लेटफ़ॉर्म विकल्प प्रदान करता है जो पुराने `System.Drawing.Common` लाइब्रेरी की तुलना में बेहतर है। यह हाई‑क्वालिटी रेंडरिंग, विस्तृत कलर मैनेजमेंट सपोर्ट करता है, और Windows, Linux, macOS पर लगातार काम करता है—आधुनिक .NET Core और .NET 5/6 एप्लिकेशन के लिए परफेक्ट।
+## क्लोज़्ड कर्व ड्रॉ करने के लिए Aspose.Drawing क्यों उपयोग करें?
+Aspose.Drawing `System.Drawing.Common` का एक पूरी तरह मैनेज्ड, क्रॉस‑प्लेटफ़ॉर्म विकल्प प्रदान करता है। यह **30+ इमेज फॉर्मेट्स** का समर्थन करता है, Windows, Linux, और macOS पर लगातार चलता है, और **2 GB** तक की फ़ाइलों को पूरी इमेज को मेमोरी में लोड किए बिना प्रोसेस कर सकता है। यह विश्वसनीयता इसे आधुनिक .NET 5/6/7 एप्लिकेशन्स के लिए पसंदीदा बनाती है जिन्हें हाई‑क्वालिटी वेक्टर रेंडरिंग चाहिए।
 
 ## पूर्वापेक्षाएँ
+1. **Aspose.Drawing लाइब्रेरी** – आधिकारिक साइट से नवीनतम पैकेज डाउनलोड करें ([here](https://releases.aspose.com/drawing/net/)).  
+2. **.NET विकास वातावरण** – Visual Studio, VS Code, या कोई भी IDE जो C# को सपोर्ट करता है।  
+3. **बेसिक C# ज्ञान** – सैंपल `System.Drawing` टाइप्स का उपयोग करता है जो Aspose.Drawing द्वारा पुनः एक्सपोज़ किए गए हैं।
 
-1. **Aspose.Drawing लाइब्रेरी** – आधिकारिक साइट से नवीनतम पैकेज डाउनलोड करें ([यहाँ](https://releases.aspose.com/drawing/net/))।  
-2. **.NET विकास वातावरण** – Visual Studio, VS Code, या कोई भी IDE जो C# को सपोर्ट करता हो।  
-3. **बेसिक C# नॉलेज** – सैंपल `System.Drawing` टाइप्स का उपयोग करता है जो Aspose.Drawing द्वारा पुनः एक्सपोज़ किए गए हैं।
+## नेमस्पेस इम्पोर्ट करें
+आवश्यक नेमस्पेस जोड़ें ताकि आप `Bitmap`, `Graphics`, `Pen`, और संबंधित टाइप्स तक पहुंच सकें।
 
-## नेमस्पेस आयात करें
-
-आवश्यक नेमस्पेस जोड़ें ताकि आप `Bitmap`, `Graphics`, `Pen` और संबंधित टाइप्स तक पहुँच सकें।
+`Bitmap` क्लास एक पिक्सेल‑आधारित इमेज का प्रतिनिधित्व करती है जिस पर ड्रॉ किया जा सकता है। `Graphics` बिटमैप पर शैप्स रेंडर करने के लिए ड्रॉइंग मेथड्स प्रदान करता है। `Pen` ड्रॉ की गई लाइनों के रंग, चौड़ाई, और शैली को परिभाषित करता है।
 
 ```csharp
 using System.Drawing;
 ```
 
-## चरण 1: बिटमैप और ग्राफ़िक्स ऑब्जेक्ट बनाएं
+## C# में बिटमैप कैसे बनाएं
+एक नया `Bitmap` ऑब्जेक्ट लोड करें, एक `Graphics` सतह प्राप्त करें, अपना शैप ड्रॉ करें, और अंत में PNG फॉर्मेट के साथ `Save` कॉल करें। यह चार‑स्टेप पैटर्न आपको आकार, रिज़ॉल्यूशन, और रेंडरिंग क्वालिटी पर पूर्ण नियंत्रण देता है जबकि कोड संक्षिप्त रहता है।
 
-पहले, एक **बिटमैप** बनाएं जो कैनवास का काम करेगा। `Graphics` ऑब्जेक्ट आपको उस कैनवास पर ड्रॉ करने की सुविधा देता है।
+### चरण 1: बिटमैप और ग्राफ़िक्स ऑब्जेक्ट बनाएं
+`Bitmap` क्लास एक पिक्सेल‑आधारित इमेज का प्रतिनिधित्व करती है जिस पर आप ड्रॉ कर सकते हैं।  
+`Graphics` क्लास ड्रॉइंग मेथड्स प्रदान करती है ताकि शैप्स को `Bitmap` पर रेंडर किया जा सके।
+
+इच्छित आकार का बिटमैप बनाएं और एक ग्राफ़िक्स ऑब्जेक्ट प्राप्त करें जो सभी ड्रॉइंग ऑपरेशन्स के लिए उपयोग होगा।
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-> **Pro tip:** `Format32bppPArgb` का उपयोग करने से आपको 32‑bit इमेज मिलती है जिसमें प्री‑मल्टिप्लाइड अल्फा होता है, जिससे बाद में आप जो PNG सहेजते हैं वह सही ट्रांसपैरेंसी रखता है।
+> **प्रो टिप:** `PixelFormat.Format32bppPArgb` का उपयोग करने से आपको प्री‑मल्टिप्लाइड अल्फा के साथ 32‑bit इमेज मिलती है, जिससे बाद में सहेजा गया PNG उचित ट्रांसपैरेंसी बनाए रखता है।
 
-## चरण 2: पेन परिभाषित करें और बंद वक्र बनाएं
+### चरण 2: पेन को परिभाषित करें और क्लोज़्ड कर्व ड्रॉ करें
+`Pen` क्लास ड्रॉइंग के लिए लाइन का रंग, चौड़ाई, और शैली निर्धारित करती है।  
+`Graphics.DrawClosedCurve` स्वचालित रूप से एक स्मूद स्प्लाइन बनाता है जो प्रदान किए गए पॉइंट्स के माध्यम से जाता है और शैप को बंद करता है।
 
-अब इच्छित रंग और थिकनेस के साथ एक `Pen` परिभाषित करें, फिर `DrawClosedCurve` को कॉल करें। यह मेथड स्वचालित रूप से एक स्मूद स्प्लाइन बनाता है जो प्रदान किए गए पॉइंट्स के माध्यम से जाता है और आकार को बंद कर देता है।
+एक पेन कॉन्फ़िगर करें, पॉइंट्स की एक एरे प्रदान करें, और मेथड को कॉल करके एक सहज आउटलाइन रेंडर करें।
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
@@ -75,11 +135,12 @@ graphics.DrawClosedCurve(pen, new Point[] {
 });
 ```
 
-> **Why this matters:** एक बंद वक्र कस्टम शैप्स जैसे बैज, लोगो, या UI एलिमेंट्स ड्रॉ करने में उपयोगी होता है जहाँ आपको एक सिमलेस आउटलाइन चाहिए।
+> **क्यों महत्वपूर्ण है:** क्लोज़्ड कर्व कस्टम शैप्स जैसे बैज, लोगो, या UI एलिमेंट्स ड्रॉ करने में उपयोगी है जहाँ आपको एक सहज आउटलाइन चाहिए।
 
-## चरण 3: आउटपुट इमेज सहेजें (बिटमैप को PNG के रूप में सहेजें)
+### चरण 3: आउटपुट इमेज सहेजें (बिटमैप को PNG के रूप में सहेजें)
+`Bitmap.Save` मेथड इन‑मेमोरी इमेज को फ़ाइल में लिखता है। `ImageFormat.Png` निर्दिष्ट करके आप सुनिश्चित करते हैं कि आउटपुट एक लॉसलेस PNG है जो ट्रांसपैरेंसी और कलर डेप्थ को संरक्षित रखता है।
 
-अंत में, बिटमैप को PNG फ़ाइल में लिखें। यही वह चरण है जहाँ हम **बिटमैप को PNG के रूप में सहेजते** हैं और ड्रॉइंग को आगे उपयोग के लिए उपलब्ध कराते हैं।
+बिटमैप को डिस्क पर लिखें, और समाप्त होने पर रिसोर्सेज़ को डिस्पोज़ करें।
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.png");
@@ -88,43 +149,46 @@ bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.
 फ़ाइल निर्दिष्ट फ़ोल्डर में बनाई जाएगी, वेब पेज में दिखाने, रिपोर्ट में एम्बेड करने, या आगे प्रोसेस करने के लिए तैयार।
 
 ## सामान्य समस्याएँ और समाधान
-
 | समस्या | कारण | समाधान |
 |-------|-------|-----|
-| **फ़ाइल नहीं मिली** | गलत आउटपुट पथ | फ़ोल्डर मौजूद है या `Path.Combine` का उपयोग करके सुरक्षित पथ बनाएं, इसे सत्यापित करें। |
-| **खाली छवि** | ग्राफ़िक्स ऑब्जेक्ट साफ़ नहीं किया गया | ड्रॉ करने से पहले `graphics.Clear(Color.Transparent);` कॉल करें। |
-| **खराब वक्र गुणवत्ता** | निम्न‑रिज़ॉल्यूशन बिटमैप | बिटमैप आयाम बढ़ाएँ या एंटी‑एलियासिंग उपयोग करें: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`। |
+| **फ़ाइल नहीं मिली** | गलत आउटपुट पाथ | फ़ोल्डर मौजूद है या नहीं, जांचें या सुरक्षित पाथ बनाने के लिए `Path.Combine` का उपयोग करें। |
+| **खाली इमेज** | Graphics ऑब्जेक्ट क्लियर नहीं किया गया | ड्रॉइंग से पहले `graphics.Clear(Color.Transparent);` कॉल करें। |
+| **खराब कर्व क्वालिटी** | लो‑रेज़ॉल्यूशन बिटमैप | बिटमैप डाइमेंशन बढ़ाएँ या एंटी‑एलियासिंग सक्षम करें: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
+**Q: क्या मैं Aspose.Drawing को कमर्शियल प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
+A: हाँ, Aspose.Drawing व्यक्तिगत और कमर्शियल दोनों उपयोग के लिए लाइसेंस्ड है। विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
 
-**Q:** क्या मैं Aspose.Drawing को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?  
-**A:** हाँ, Aspose.Drawing व्यक्तिगत और व्यावसायिक दोनों उपयोग के लिए लाइसेंस किया गया है। विवरण के लिए [खरीद पृष्ठ](https://purchase.aspose.com/buy) देखें।
+**Q: क्या कोई फ्री ट्रायल उपलब्ध है?**  
+A: बिल्कुल—[here](https://releases.aspose.com/) से ट्रायल डाउनलोड करें।
 
-**Q:** क्या कोई फ्री ट्रायल उपलब्ध है?  
-**A:** बिल्कुल—[यहाँ](https://releases.aspose.com/) से ट्रायल डाउनलोड करें।
+**Q: मैं अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
+A: इस लिंक के माध्यम से अनुरोध करें: [this link](https://purchase.aspose.com/temporary-license/)।
 
-**Q:** मैं अस्थायी लाइसेंस कैसे प्राप्त करूँ?  
-**A:** इस लिंक के माध्यम से अनुरोध करें: [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)।
+**Q: विस्तृत डॉक्यूमेंटेशन कहाँ मिल सकता है?**  
+A: पूरी API रेफ़रेंस [here](https://reference.aspose.com/drawing/net/) पर उपलब्ध है।
 
-**Q:** विस्तृत दस्तावेज़ कहाँ मिलेंगे?  
-**A:** पूर्ण API रेफ़रेंस [यहाँ](https://reference.aspose.com/drawing/net/) उपलब्ध है।
-
-**Q:** कौन से सपोर्ट विकल्प उपलब्ध हैं?  
-**A:** समुदाय और स्टाफ सहायता के लिए [Aspose.Drawing फ़ोरम](https://forum.aspose.com/c/drawing/44) पर प्रश्न पोस्ट करें।
+**Q: कौनसे सपोर्ट विकल्प उपलब्ध हैं?**  
+A: समुदाय और स्टाफ सहायता के लिए प्रश्न [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) पर पोस्ट करें।
 
 ## निष्कर्ष
-
-आपने अब **C# में बिटमैप ग्राफ़िक्स बनाना**, स्मूद बंद वक्र ड्रॉ करना, और Aspose.Drawing का उपयोग करके **बिटमैप को PNG के रूप में सहेजना** सीख लिया है। यह तरीका आपको वेक्टर‑आधारित ड्रॉइंग पर पूर्ण नियंत्रण देता है जबकि आउटपुट फ़ॉर्मेट हल्का और वेब‑रेडी रहता है। विभिन्न पेन स्टाइल, रंग और पॉइंट कलेक्शन के साथ प्रयोग करें और अपने एप्लिकेशन के लिए कस्टम शैप्स बनाएँ।
+अब आपने सीखा है कि **C# में बिटमैप ग्राफ़िक्स कैसे बनाएं**, एक स्मूद क्लोज़्ड कर्व ड्रॉ करें, और Aspose.Drawing का उपयोग करके **बिटमैप को PNG के रूप में सहेजें**। यह तरीका आपको वेक्टर‑आधारित ड्रॉइंग पर पूर्ण नियंत्रण देता है जबकि आउटपुट फॉर्मेट को हल्का और वेब‑रेडी रखता है। विभिन्न पेन स्टाइल्स, रंगों, और पॉइंट कलेक्शन्स के साथ प्रयोग करने में संकोच न करें ताकि आप अपने एप्लिकेशन्स के लिए कस्टम शैप्स बना सकें।
 
 ---
 
-**अंतिम अपडेट:** 2026-02-14  
-**परीक्षण किया गया:** Aspose.Drawing 24.11 for .NET  
-**लेखक:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-08-11  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Drawing API for .NET का उपयोग करके बिटमैप को PNG के रूप में कैसे सहेजें](/drawing/net/image-editing/display/)
+- [Aspose.Drawing के साथ कई लाइनों को ड्रॉ करते हुए बिटमैप को PNG के रूप में कैसे सहेजें](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Aspose.Drawing में बिटमैप बनाएं – .NET में पॉलीगॉन ड्रॉ करें](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

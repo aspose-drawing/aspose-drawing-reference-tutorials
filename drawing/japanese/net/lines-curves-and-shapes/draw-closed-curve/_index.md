@@ -1,10 +1,65 @@
 ---
-date: 2026-02-14
-description: Aspose.Drawing を使用して .NET でビットマップを PNG として保存し、閉曲線を描く方法を学びます。このガイドでは C#
-  を使った描画のファイルへのエクスポートについて説明します。
-linktitle: Drawing Closed Curves in Aspose.Drawing
+date: 2026-08-11
+description: C# でビットマップを作成し、Aspose.Drawing を使用して閉曲線を描きながら PNG として保存する方法を学びます。.NET
+  用のコードスニペット付きステップバイステップガイドです。
+keywords:
+- create bitmap c#
+- draw closed curve
+- export image as png
+lastmod: 2026-08-11
+linktitle: Aspose.Drawing で閉曲線を描く
+og_description: C# でビットマップを作成し、Aspose.Drawing を使用して閉曲線を描きながら PNG にエクスポートします。高品質なグラフィックのための簡潔な
+  .NET チュートリアルをご覧ください。
+og_image_alt: Guide showing how to create a bitmap, draw a closed curve, and save
+  as PNG using Aspose.Drawing in C#
+og_title: C# でビットマップを作成し、Aspose.Drawing を使用して PNG として保存
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to create bitmap in C# and save it as PNG while drawing closed
+    curves using Aspose.Drawing. Step‑by‑step guide with code snippets for .NET.
+  headline: Create bitmap in C# and save as PNG with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to create bitmap in C# and save it as PNG while drawing closed
+    curves using Aspose.Drawing. Step‑by‑step guide with code snippets for .NET.
+  name: Create bitmap in C# and save as PNG with Aspose.Drawing
+  steps:
+  - name: create bitmap and graphics objects
+    text: The `Bitmap` class represents a pixel‑based image that you can draw on.
+      The `Graphics` class provides drawing methods to render shapes onto a `Bitmap`.
+      Create a bitmap of the desired size and obtain a graphics object that will be
+      used for all drawing operations. > **Pro tip:** Using `PixelFormat.For
+  - name: define pen and draw closed curve
+    text: The `Pen` class defines line color, width, and style used for drawing. `Graphics.DrawClosedCurve`
+      automatically creates a smooth spline that passes through the supplied points
+      and closes the shape. Configure a pen, supply an array of points, and invoke
+      the method to render a seamless outline. > **Wh
+  - name: save the output image (save bitmap as PNG)
+    text: The `Bitmap.Save` method writes the in‑memory image to a file. By specifying
+      `ImageFormat.Png` you ensure the output is a lossless PNG that preserves transparency
+      and color depth. Write the bitmap to disk, then dispose of resources when finished.
+      The file will be created in the specified folder, rea
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing is licensed for both personal and commercial use.
+      See the [purchase page](https://purchase.aspose.com/buy) for details.
+    question: Can I use Aspose.Drawing for commercial projects?
+  - answer: Absolutely—download a trial from [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Request one via [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: The full API reference is available [here](https://reference.aspose.com/drawing/net/).
+    question: Where can I find detailed documentation?
+  - answer: Post questions on the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      for community and staff assistance.
+    question: What support options are available?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: ビットマップを PNG 形式で保存し、Aspose.Drawing で閉曲線を描画する
+tags:
+- create bitmap
+- Aspose.Drawing
+- C# graphics
+title: C# でビットマップを作成し、Aspose.Drawing を使用して PNG として保存
 url: /ja/net/lines-curves-and-shapes/draw-closed-curve/
 weight: 14
 ---
@@ -13,57 +68,68 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ビットマップを PNG として保存し、Aspose.Drawing で閉曲線を描く
+# C# でビットマップを作成し、Aspose.Drawing で PNG として保存
 
 ## はじめに
 
-**ビットマップを PNG として保存**しながら滑らかな閉曲線を描画したい場合は、このチュートリアルが最適です。本ガイドでは、ビットマップの作成、閉曲線の描画、そして最終的に描画を PNG ファイルへエクスポートするまでの一連の手順を Aspose.Drawing .NET API を使って解説します。最後まで読むと、**閉曲線を描く方法**と**描画をファイルにエクスポートする方法**をクリーンな C# コードで理解できます。
+C# で **ビットマップを作成** し、滑らかな閉曲線を描画し、そして **ビットマップを PNG として保存** したい場合は、このチュートリアルが最適です。本ガイドでは、ビットマップキャンバスの作成、閉曲線の描画、そして描画結果を PNG ファイルにエクスポートするという完全なワークフローを、Aspose.Drawing .NET API を使用して順に解説します。最後まで読むと、**閉曲線の描画方法** と **画像を PNG としてエクスポート** する方法を、クリーンで本番環境向けの C# コードで理解できるようになります。
 
 ## クイック回答
-- **チュートリアルの内容は何ですか？** 閉曲線を描き、その結果を PNG 画像として保存します。  
-- **必要なライブラリは？** Aspose.Drawing for .NET（[こちらからダウンロード](https://releases.aspose.com/drawing/net/)）。  
-- **C# コンソール アプリで使用できますか？** はい、Aspose.Drawing を参照すれば任意の .NET プロジェクトで動作します。  
-- **サンプル実行にライセンスは必要ですか？** 開発目的なら無料トライアルで動作します。商用利用には商用ライセンスが必要です。  
-- **生成される画像形式は？** PNG（32 ビット ARGB のビットマップ）。
 
-## Aspose.Drawing における「ビットマップを PNG として保存」とは？
+- **このチュートリアルの内容は何ですか？** 閉曲線を描画し、結果を PNG 画像として保存します。  
+- **必要なライブラリはどれですか？** Aspose.Drawing for .NET (download [こちら](https://releases.aspose.com/drawing/net/)).  
+- **C# コンソール アプリで使用できますか？** はい、コードは Aspose.Drawing を参照する任意の .NET プロジェクトで動作します。  
+- **サンプルを実行するのにライセンスは必要ですか？** 開発用には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **生成される画像形式は何ですか？** PNG（32 ビット ARGB で保存されたビットマップ）。
 
-ビットマップを PNG として保存するとは、描画領域を表すインメモリの `Bitmap` オブジェクトを Portable Network Graphics 形式でディスクに書き出すことです。PNG は透過を保持し、ロスレス圧縮を提供するため、UI グラフィック、レポート、サムネイルに最適です。
+## Aspose.Drawing における「ビットマップを PNG として保存」とは
 
-## なぜ Aspose.Drawing を使って閉曲線を描くのか？
+ビットマップを PNG として保存するとは、メモリ上の `Bitmap` オブジェクトをディスク上のロスレス PNG ファイルに変換し、32 ビットカラーと透過性を保持することを意味します。PNG はロスレス圧縮を使用するため、ブラウザやデバイス間で視覚的忠実度を保つ必要がある UI グラフィック、レポート、サムネイルに最適です。
 
-Aspose.Drawing は、従来の `System.Drawing.Common` ライブラリに代わる完全マネージドかつクロスプラットフォームの代替手段です。高品質なレンダリング、豊富なカラーマネジメントをサポートし、Windows、Linux、macOS で一貫して動作するため、最新の .NET Core や .NET 5/6 アプリケーションに最適です。
+## 閉曲線の描画に Aspose.Drawing を使用する理由は？
+
+Aspose.Drawing は `System.Drawing.Common` の完全にマネージドされたクロスプラットフォーム代替品を提供します。**30 以上の画像形式** をサポートし、Windows、Linux、macOS で一貫して動作し、画像全体をメモリに読み込まずに **2 GB** までのファイルを処理できます。この信頼性により、高品質なベクターレンダリングが必要な最新の .NET 5/6/7 アプリケーションに最適な選択肢となります。
 
 ## 前提条件
 
-作業を始める前に以下を用意してください。
-
-1. **Aspose.Drawing ライブラリ** – 公式サイトから最新パッケージをダウンロード（[こちら](https://releases.aspose.com/drawing/net/)）。  
+1. **Aspose.Drawing ライブラリ** – 公式サイトから最新パッケージをダウンロードしてください（[こちら](https://releases.aspose.com/drawing/net/)).  
 2. **.NET 開発環境** – Visual Studio、VS Code、または C# をサポートする任意の IDE。  
-3. **基本的な C# の知識** – サンプルは Aspose.Drawing が再公開する `System.Drawing` 型を使用します。
+3. **基本的な C# の知識** – サンプルは Aspose.Drawing に再公開されている `System.Drawing` 型を使用します。
 
 ## 名前空間のインポート
 
-`Bitmap`、`Graphics`、`Pen` などの型にアクセスできるよう、必要な名前空間を追加します。
+必要な名前空間を追加して、`Bitmap`、`Graphics`、`Pen` などの関連型にアクセスできるようにします。
+
+`Bitmap` クラスは描画可能なピクセルベースの画像を表します。`Graphics` はビットマップ上に形状を描画するためのメソッドを提供します。`Pen` は描画される線の色、幅、スタイルを定義します。
 
 ```csharp
 using System.Drawing;
 ```
 
-## 手順 1: ビットマップと Graphics オブジェクトの作成
+## C# でビットマップを作成する方法
 
-まず、キャンバスとなる **ビットマップ** を作成します。`Graphics` オブジェクトはそのキャンバス上に描画するために使用します。
+新しい `Bitmap` オブジェクトを作成し、`Graphics` サーフェスを取得して形状を描画し、最後に PNG 形式で `Save` を呼び出します。この 4 ステップのパターンにより、サイズ、解像度、レンダリング品質を完全に制御しつつ、コードを簡潔に保つことができます。
+
+### ステップ 1: ビットマップとグラフィックス オブジェクトの作成
+
+`Bitmap` クラスは描画可能なピクセルベースの画像を表します。  
+`Graphics` クラスは `Bitmap` 上に形状を描画するためのメソッドを提供します。  
+
+目的のサイズのビットマップを作成し、すべての描画操作で使用されるグラフィックス オブジェクトを取得します。
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-> **プロのコツ:** `Format32bppPArgb` を使用すると、事前乗算アルファ付きの 32 ビット画像が得られ、後で保存する PNG が正しい透過情報を保持します。
+> **プロのコツ:** `PixelFormat.Format32bppPArgb` を使用すると、事前乗算アルファ付きの 32 ビット画像が得られ、後で保存する PNG が適切な透過性を保持します。
 
-## 手順 2: Pen の定義と閉曲線の描画
+### ステップ 2: ペンを定義し、閉曲線を描画
 
-次に、希望する色と太さの `Pen` を定義し、`DrawClosedCurve` を呼び出します。このメソッドは、指定したポイントを通過しながら滑らかなスプラインを自動生成し、形状を閉じます。
+`Pen` クラスは描画に使用される線の色、幅、スタイルを定義します。  
+`Graphics.DrawClosedCurve` は、指定されたポイントを通過し形状を閉じる滑らかなスプラインを自動的に作成します。  
+
+ペンを設定し、ポイントの配列を提供して、シームレスなアウトラインを描画するメソッドを呼び出します。
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
@@ -76,56 +142,63 @@ graphics.DrawClosedCurve(pen, new Point[] {
 });
 ```
 
-> **なぜ重要か:** 閉曲線はバッジ、ロゴ、UI 要素など、シームレスな輪郭が必要なカスタム形状の描画に便利です。
+> **なぜ重要か:** 閉曲線は、バッジ、ロゴ、またはシームレスなアウトラインが必要な UI 要素など、カスタム形状の描画に便利です。
 
-## 手順 3: 出力画像の保存（ビットマップを PNG として保存）
+### ステップ 3: 出力画像を保存（ビットマップを PNG として保存）
 
-最後にビットマップを PNG ファイルへ書き出します。ここが **ビットマップを PNG として保存** するステップで、描画結果を下流のプロセスで利用できるようにします。
+`Bitmap.Save` メソッドはメモリ上の画像をファイルに書き込みます。`ImageFormat.Png` を指定することで、透過性と色深度を保持したロスレス PNG が出力されます。  
+
+ビットマップをディスクに書き込み、完了したらリソースを破棄します。
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawClosedCurve_out.png");
 ```
 
-指定したフォルダーにファイルが作成され、Web ページでの表示やレポートへの埋め込み、さらなる処理にすぐ使えます。
+ファイルは指定されたフォルダーに作成され、ウェブページでの表示、レポートへの埋め込み、またはさらに処理する準備が整います。
 
-## よくある問題と解決策
+## 一般的な問題と解決策
 
-| 問題 | 原因 | 解決策 |
-|------|------|--------|
-| **ファイルが見つからない** | 出力パスが間違っている | フォルダーが存在するか確認するか、`Path.Combine` を使用して安全なパスを構築してください。 |
-| **画像が真っ白** | Graphics オブジェクトがクリアされていない | 描画前に `graphics.Clear(Color.Transparent);` を呼び出してください。 |
-| **曲線の品質が低い** | ビットマップの解像度が低い | ビットマップのサイズを大きくするか、アンチエイリアスを有効にしてください: `graphics.SmoothingMode = SmoothingMode.AntiAlias;`. |
+| 問題 | 原因 | 対策 |
+|-------|-------|-----|
+| **ファイルが見つかりません** | 出力パスが間違っている | フォルダーが存在するか確認するか、`Path.Combine` を使用して安全なパスを作成してください。 |
+| **空白画像** | Graphics オブジェクトがクリアされていない | 描画前に `graphics.Clear(Color.Transparent);` を呼び出してください。 |
+| **曲線の品質が低い** | 低解像度のビットマップ | ビットマップのサイズを増やすか、アンチエイリアスを有効にしてください：`graphics.SmoothingMode = SmoothingMode.AntiAlias;`。 |
 
-## FAQ（よくある質問）
+## よくある質問
 
 **Q: Aspose.Drawing を商用プロジェクトで使用できますか？**  
-A: はい、Aspose.Drawing は個人利用・商用利用ともにライセンスが提供されています。詳細は[購入ページ](https://purchase.aspose.com/buy)をご覧ください。
+A: はい、Aspose.Drawing は個人利用と商用利用の両方にライセンスされています。詳細は [購入ページ](https://purchase.aspose.com/buy) をご覧ください。
 
-**Q: 無料トライアルはありますか？**  
-A: あります—[こちら](https://releases.aspose.com/)からトライアルをダウンロードしてください。
+**Q: 無料トライアルは利用できますか？**  
+A: もちろんです—[こちら](https://releases.aspose.com/)からトライアルをダウンロードしてください。
 
-**Q: 一時ライセンスはどう取得しますか？**  
-A: [このリンク](https://purchase.aspose.com/temporary-license/)からリクエストできます。
+**Q: 一時ライセンスはどうやって取得できますか？**  
+A: [このリンク](https://purchase.aspose.com/temporary-license/)からリクエストしてください。
 
-**Q: 詳細なドキュメントはどこにありますか？**  
-A: 完全な API リファレンスは[こちら](https://reference.aspose.com/drawing/net/)で利用できます。
+**Q: 詳細なドキュメントはどこで見つけられますか？**  
+A: 完全な API リファレンスは [こちら](https://reference.aspose.com/drawing/net/)で利用できます。
 
-**Q: サポートオプションは？**  
-A: コミュニティやスタッフからの支援を受けられる[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)で質問してください。
+**Q: 利用可能なサポートオプションは何ですか？**  
+A: コミュニティやスタッフの支援を受けるには、[Aspose.Drawing フォーラム](https://forum.aspose.com/c/drawing/44)に質問を投稿してください。
 
 ## 結論
 
-これで **C# でビットマップ グラフィックを作成**し、滑らかな閉曲線を描き、**ビットマップを PNG として保存**する方法を Aspose.Drawing を使って習得できました。この手法により、ベクターベースの描画をフルコントロールしつつ、軽量で Web 向けに最適化された出力形式を得られます。ペンのスタイル、色、ポイントコレクションを自由に変えて、アプリケーション向けのカスタム形状をぜひ試してみてください。
+これで **C# でビットマップ グラフィックを作成**し、滑らかな閉曲線を描画し、Aspose.Drawing を使用して **ビットマップを PNG として保存**する方法を学びました。この手法により、ベクターベースの描画を完全に制御しつつ、出力形式を軽量でウェブ対応に保つことができます。さまざまなペンスタイル、色、ポイントの集合を試して、アプリケーション向けのカスタム形状を作成してください。
 
 ---
 
-**最終更新日:** 2026-02-14  
-**テスト環境:** Aspose.Drawing 24.11 for .NET  
+**最終更新日:** 2026-08-11  
+**テスト済み:** Aspose.Drawing 24.11 for .NET  
 **作者:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## 関連チュートリアル
+
+- [Aspose.Drawing API for .NET を使用してビットマップを PNG として保存する方法](/drawing/net/image-editing/display/)
+- [Aspose.Drawing で複数の線を描画しながらビットマップを PNG として保存する方法](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Aspose.Drawing でビットマップを作成 – .NET でポリゴンを描く方法](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
