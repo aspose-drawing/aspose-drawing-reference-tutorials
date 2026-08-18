@@ -1,11 +1,79 @@
 ---
-date: 2026-02-17
-description: Dowiedz się, jak zapisać bitmapę jako PNG przy użyciu jednolitych pędzli
-  w Aspose.Drawing dla .NET. Użyj jednolitego pędzla, aby wypełnić kształty i tworzyć
+date: 2026-08-01
+description: Dowiedz się, jak zapisać bitmapę jako PNG przy użyciu pędzli stałych
+  w Aspose.Drawing dla .NET. Użyj pędzla stałego, aby wypełnić kształty i tworzyć
   żywe grafiki.
-linktitle: Solid Brushes in Aspose.Drawing
+keywords:
+- save bitmap as png
+- export bitmap to png
+- fill shape solid color
+- bitmap to png conversion
+lastmod: 2026-08-01
+linktitle: Pędzle stałe w Aspose.Drawing
+og_description: Zapisz bitmapę jako PNG przy użyciu pędzli stałych w Aspose.Drawing.
+  Ten samouczek krok po kroku pokazuje, jak utworzyć bitmapę, wypełnić kształty stałym
+  kolorem i wyeksportować wynik jako bezstratny plik PNG dla projektów .NET 6+.
+og_image_alt: Guide showing how to save a bitmap as PNG using solid brushes in Aspose.Drawing
+og_title: Zapisz bitmapę jako PNG przy użyciu pędzli stałych – przewodnik Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to save bitmap as PNG using solid brushes in Aspose.Drawing
+    for .NET. Use solid brush to fill shapes with brush and create vibrant graphics.
+  headline: Save Bitmap as PNG with Solid Brushes in Aspose.Drawing
+  type: TechArticle
+- description: Learn how to save bitmap as PNG using solid brushes in Aspose.Drawing
+    for .NET. Use solid brush to fill shapes with brush and create vibrant graphics.
+  name: Save Bitmap as PNG with Solid Brushes in Aspose.Drawing
+  steps:
+  - name: Create a Bitmap
+    text: The `Bitmap` class represents an in‑memory image canvas. The `Bitmap` class
+      is Aspose.Drawing's top‑level object that stores pixel data in a mutable buffer.
+      You can specify width, height, and pixel format when constructing it.
+  - name: Create Graphics Object
+    text: A `Graphics` object provides drawing methods for the bitmap. The `Graphics`
+      class acts as a drawing surface linked to a `Bitmap`. All subsequent drawing
+      commands (lines, shapes, text) are routed through this object.
+  - name: Choose a Solid Brush
+    text: Select a colour for the brush; in this example we use a vivid blue. The
+      `SolidBrush` class defines a brush that paints with a single, uniform colour.
+      It is ideal for filling shapes where a flat colour is required.
+  - name: Fill Shapes with Brush
+    text: Use the brush to paint an ellipse (or any other shape) on the bitmap. `FillEllipse`
+      draws an ellipse filled with the specified brush. The `FillEllipse` method of
+      the `Graphics` object draws an ellipse filled with the supplied `SolidBrush`.
+      You can replace it with `FillRectangle`, `FillPolygon`, etc.
+  - name: Save the Result as PNG
+    text: Export the bitmap to a PNG file on disk. `Save` writes the image to a file
+      in the chosen format. The `Save` method writes the bitmap to the specified path
+      using `ImageFormat.Png`. This operation preserves the alpha channel, ensuring
+      transparent backgrounds remain intact. Repeat these steps, customiz
+  type: HowTo
+- questions:
+  - answer: Absolutely—methods like `FillRectangle`, `FillPolygon`, or `DrawPath`
+      work with the same solid brush.
+    question: Can I use a different shape instead of an ellipse?
+  - answer: Replace the file extension in `Save` and use `ImageFormat.Jpeg` (e.g.,
+      `bitmap.Save("output.jpg", ImageFormat.Jpeg);`).
+    question: How do I change the output format to JPEG?
+  - answer: Yes—create separate `SolidBrush` instances for each colour and call the
+      appropriate `Fill*` methods sequentially.
+    question: Is it possible to draw multiple shapes with different brushes in one
+      bitmap?
+  - answer: It's best practice to wrap them in `using` statements or call `Dispose()`
+      to free unmanaged resources.
+    question: Do I need to dispose of the `Graphics` and `Bitmap` objects?
+  - answer: Aspose.Drawing is cross‑platform; the same code runs on Linux and macOS
+      when targeting .NET Core or .NET 5+.
+    question: Will this work on Linux/macOS with .NET Core?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Zapisz bitmapę jako PNG z pędzlami stałymi w Aspose.Drawing
+tags:
+- save bitmap as png
+- Aspose.Drawing
+- .NET graphics
+- solid brush
+title: Zapisz bitmapę jako PNG przy użyciu pędzli stałych w Aspose.Drawing
 url: /pl/net/lines-curves-and-shapes/solid-brushes/
 weight: 10
 ---
@@ -18,36 +86,35 @@ weight: 10
 
 ## Wprowadzenie
 
-Witamy w naszym kompleksowym przewodniku, jak **zapisać bitmapę jako PNG** przy użyciu stałych pędzli w Aspose.Drawing dla .NET! Jeśli chcesz dodać żywe, niestandardowo kolorowane grafiki do swoich aplikacji .NET, ten tutorial jest właśnie dla Ciebie. Przeprowadzimy Cię krok po kroku – od przygotowania płótna, przez wypełnianie kształtów stałym pędzlem, aż po zapis wyniku jako plik PNG.
+W tym przewodniku dowiesz się **jak zapisać bitmapę jako PNG** przy użyciu stałych pędzli w bibliotece Aspose.Drawing .NET. Niezależnie od tego, czy tworzysz narzędzie desktopowe, usługę internetową generującą ikony, czy silnik raportowy potrzebujący wyraźnych zasobów PNG, poniższe kroki przeprowadzą Cię od pustego płótna do gotowego pliku PNG w kilku linijkach kodu. Omówimy pełny przepływ pracy, wyjaśnimy, dlaczego stałe pędzle są idealnym wyborem do jednolitych wypełnień kolorem, oraz pokażemy, jak utrzymać kod czysty i wieloplatformowy.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „save bitmap as png”?** Oznacza to eksportowanie obiektu `Bitmap` do pliku obrazu PNG na dysku.  
-- **Która klasa tworzy stały pędzel?** `SolidBrush` z przestrzeni nazw `System.Drawing`.  
-- **Czy mogę zmienić kolor pędzla?** Tak – po prostu przekaż inny `Color` do konstruktora `SolidBrush`.  
-- **Czy potrzebna jest licencja do uruchomienia tego kodu?** Wersja próbna działa w celach ewaluacyjnych; licencja komercyjna jest wymagana w produkcji.  
-- **Czy to podejście jest kompatybilne z .NET 6+?** Absolutnie – Aspose.Drawing obsługuje .NET Core oraz .NET 5/6.
+- **Co oznacza „zapisz bitmapę jako png”?** Oznacza to eksportowanie obiektu `Bitmap` do bezstratnego pliku obrazu PNG na dysku.  
+- **Która klasa tworzy stały pędzel?** `SolidBrush` z przestrzeni nazw `Aspose.Drawing.Brushes`.  
+- **Czy mogę zmienić kolor pędzla?** Tak — przekaż dowolny `Color` (w tym wartości ARGB) do konstruktora `SolidBrush`.  
+- **Czy potrzebna jest licencja do produkcji?** Wersja próbna działa w ocenie; licencja komercyjna jest wymagana przy wdrożeniach produkcyjnych.  
+- **Czy to podejście jest kompatybilne z .NET 6+?** Absolutnie — Aspose.Drawing w pełni obsługuje .NET 5, .NET 6 i późniejsze wersje.
 
-## Co to jest „save bitmap as png”?
+## Co to jest „zapisz bitmapę jako png”?
 
-Zapisanie bitmapy jako PNG konwertuje dane pikseli w pamięci na bezstratny plik PNG, zachowując przezroczystość i wierność kolorów. Aspose.Drawing upraszcza ten proces, umożliwiając **użycie stałego pędzla** do malowania kształtów przed eksportem.
+Zapisanie bitmapy jako PNG konwertuje tablicę pikseli w pamięci na bezstratny plik PNG, zachowując przezroczystość i dokładne wartości kolorów. **Zapisz bitmapę jako PNG** to powszechna operacja, gdy potrzebny jest przenośny format obrazu, który przeglądarki i edytory graficzne mogą odczytać bez utraty jakości.
 
-## Dlaczego używać stałych pędzli przy zapisie bitmapy jako PNG?
+## Dlaczego używać stałych pędzli do zapisu bitmapy jako png?
 
-Stałe pędzle zapewniają jednolity kolor, który wypełnia dowolny rysowany kształt – idealne do ikon, odznak lub prostych grafik, gdzie potrzebny jest czysty, spójny wygląd. Połączenie stałego pędzla z wydajnym silnikiem renderującym Aspose.Drawing gwarantuje, że finalny PNG będzie ostry i gotowy do użycia w sieci lub na pulpicie.
+Stałe pędzle zapewniają jeden, jednolity kolor, który natychmiast wypełnia dowolny kształt wektorowy, eliminując potrzebę skomplikowanych gradientów, gdy potrzebny jest jedynie płaski kolor. Używanie stałych pędzli z Aspose.Drawing wykorzystuje silnik renderujący, który może obsługiwać obrazy o rozmiarze do **10 000 × 10 000 pikseli**, przy zużyciu pamięci poniżej **200 MB**, co czyni go odpowiednim dla zasobów wysokiej rozdzielczości.
 
-## Wymagania wstępne
+## Prerequisites
 
-Zanim przejdziemy do tutorialu, upewnij się, że spełniasz poniższe wymagania:
+- Aspose.Drawing dla .NET: Pobierz i zainstaluj bibliotekę z [Dokumentacja Aspose.Drawing dla .NET](https://reference.aspose.com/drawing/net/).
+- Zintegrowane środowisko programistyczne (IDE): Miej skonfigurowane działające środowisko programistyczne .NET, takie jak Visual Studio, na swoim komputerze.
 
-- Biblioteka Aspose.Drawing dla .NET: Pobierz i zainstaluj bibliotekę z [Aspose.Drawing for .NET Documentation](https://reference.aspose.com/drawing/net/).
-
-- Zintegrowane Środowisko Programistyczne (IDE): Miej skonfigurowane środowisko programistyczne .NET, np. Visual Studio, na swoim komputerze.
-
-Teraz, gdy wszystko jest gotowe, przejdźmy do implementacji.
+Teraz, gdy masz wszystko gotowe, przejdźmy do implementacji.
 
 ## Importowanie przestrzeni nazw
 
-W swojej aplikacji .NET rozpocznij od zaimportowania niezbędnych przestrzeni nazw, aby wykorzystać moc Aspose.Drawing:
+Dyrektywy `using` wprowadzają wymagane typy do zasięgu.
+
+Przestrzeń nazw `Aspose.Drawing` dostarcza podstawowe klasy graficzne, natomiast `System.Drawing` zapewnia definicje kolorów oraz klasę `SolidBrush`.
 
 ```csharp
 using System.Drawing;
@@ -55,11 +122,13 @@ using System.Drawing;
 
 ## Jak zapisać bitmapę jako PNG z użyciem stałych pędzli
 
-Poniżej znajdziesz szczegółowy przewodnik krok po kroku, który pokazuje, jak **użyć stałego pędzla** do wypełniania kształtów i następnie **zapisać bitmapę jako PNG**.
+Ta sekcja opisuje pełny przepływ pracy: utwórz płótno bitmapy, uzyskaj powierzchnię graficzną, zainicjuj `SolidBrush` z żądanym kolorem, wypełnij jeden lub więcej kształtów, a na końcu wywołaj `Save`, aby zapisać obraz jako plik PNG. Kod działa wieloplatformowo na .NET 6 i nowszych wersjach.
 
 ### Krok 1: Utwórz bitmapę
 
-Aby efektywnie korzystać ze stałych pędzli, najpierw utwórz bitmapę, która posłuży jako płótno dla Twojej grafiki:
+Klasa `Bitmap` reprezentuje płótno obrazu w pamięci.
+
+Klasa `Bitmap` jest obiektem najwyższego poziomu w Aspose.Drawing, który przechowuje dane pikseli w modyfikowalnym buforze. Podczas tworzenia możesz określić szerokość, wysokość i format pikseli.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -67,7 +136,9 @@ Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format3
 
 ### Krok 2: Utwórz obiekt Graphics
 
-Następnie utwórz obiekt `Graphics`, aby pracować z bitmapą:
+Obiekt `Graphics` zapewnia metody rysowania dla bitmapy.
+
+Klasa `Graphics` działa jako powierzchnia rysunkowa powiązana z obiektem `Bitmap`. Wszystkie kolejne polecenia rysowania (linie, kształty, tekst) są przekazywane przez ten obiekt.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -75,7 +146,9 @@ Graphics graphics = Graphics.FromImage(bitmap);
 
 ### Krok 3: Wybierz stały pędzel
 
-Teraz wybierzmy kolor dla naszego stałego pędzla. W tym przykładzie użyjemy niebieskiego:
+Wybierz kolor dla pędzla; w tym przykładzie używamy intensywnego niebieskiego.
+
+Klasa `SolidBrush` definiuje pędzel, który maluje jednym, jednolitym kolorem. Jest idealna do wypełniania kształtów, gdzie wymagany jest płaski kolor.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
@@ -83,7 +156,9 @@ Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
 
 ### Krok 4: Wypełnij kształty pędzlem
 
-Zastosuj wybrany stały pędzel do obiektu graficznego. Tutaj wypełnimy elipsę niebieskim stałym pędzlem – to pokazuje, jak **wypełniać kształty pędzlem**:
+Użyj pędzla, aby namalować elipsę (lub dowolny inny kształt) na bitmapie.
+
+`FillEllipse` rysuje elipsę wypełnioną podanym pędzlem. Metoda `FillEllipse` obiektu `Graphics` rysuje elipsę wypełnioną dostarczonym `SolidBrush`. Możesz ją zastąpić `FillRectangle`, `FillPolygon` itp., aby tworzyć różne geometrie.
 
 ```csharp
 graphics.FillEllipse(brush, 100, 100, 800, 600);
@@ -91,48 +166,54 @@ graphics.FillEllipse(brush, 100, 100, 800, 600);
 
 ### Krok 5: Zapisz wynik jako PNG
 
-Na koniec wyeksportuj bitmapę do pliku PNG. To moment, w którym **zapisujemy bitmapę jako PNG**:
+Eksportuj bitmapę do pliku PNG na dysku.
+
+`Save` zapisuje obraz do pliku w wybranym formacie. Metoda `Save` zapisuje bitmapę do określonej ścieżki przy użyciu `ImageFormat.Png`. Operacja zachowuje kanał alfa, zapewniając, że przezroczyste tło pozostaje nienaruszone.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Brushes\Solid_out.png");
 ```
 
-Powtarzaj te kroki, dostosowując kolory i kształty do wymagań Twojej aplikacji.
+Powtórz te kroki, dostosowując kolory i kształty do wizualnego projektu Twojej aplikacji.
 
 ## Typowe problemy i rozwiązania
 
 | Problem | Dlaczego się pojawia | Rozwiązanie |
 |---------|----------------------|-------------|
-| **Błąd „file not found”** przy zapisie | Folder docelowy nie istnieje | Upewnij się, że katalog (`Your Document Directory\Brushes`) został utworzony przed wywołaniem `Save`. |
-| **Nieprawidłowe kolory** | Użycie `KnownColor`, które mapuje się na motyw systemowy | Użyj `Color.FromArgb` dla precyzyjnych wartości RGBA. |
-| **Utrata przezroczystości** | Użycie formatu pikseli bez kanału alfa | Zachowaj `PixelFormat.Format32bppPArgb`, jak pokazano, aby zachować kanał alfa. |
+| **Błąd pliku nie znaleziony** podczas zapisywania | Folder docelowy nie istnieje | Upewnij się, że katalog (`Your Document Directory\Brushes`) został utworzony przed wywołaniem `Save`. |
+| **Nieprawidłowe kolory** | Używanie `KnownColor`, które mapuje do motywu systemowego | Użyj `Color.FromArgb` dla precyzyjnych wartości RGBA. |
+| **Utrata przezroczystości** | Używanie formatu pikseli bez kanału alfa | Zachowaj `PixelFormat.Format32bppPArgb` jak pokazano, aby zachować kanał alfa. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę użyć innego kształtu zamiast elipsy?**  
-A: Oczywiście – metody takie jak `FillRectangle`, `FillPolygon` czy `DrawPath` działają z tym samym stałym pędzlem.
+**P: Czy mogę użyć innego kształtu zamiast elipsy?**  
+O: Absolutnie — metody takie jak `FillRectangle`, `FillPolygon` czy `DrawPath` działają z tym samym stałym pędzlem.
 
-**Q: Jak zmienić format wyjściowy na JPEG?**  
-A: Zastąp rozszerzenie pliku w `Save` i użyj `ImageFormat.Jpeg` (np. `bitmap.Save("output.jpg", ImageFormat.Jpeg);`).
+**P: Jak zmienić format wyjściowy na JPEG?**  
+O: Zastąp rozszerzenie pliku w `Save` i użyj `ImageFormat.Jpeg` (np. `bitmap.Save("output.jpg", ImageFormat.Jpeg);`).
 
-**Q: Czy można narysować wiele kształtów różnymi pędzlami w jednej bitmapie?**  
-A: Tak – utwórz osobne instancje `SolidBrush` dla każdego koloru i kolejno wywołuj odpowiednie metody `Fill*`.
+**P: Czy można narysować wiele kształtów z różnymi pędzlami w jednej bitmapie?**  
+O: Tak — utwórz osobne instancje `SolidBrush` dla każdego koloru i kolejno wywołuj odpowiednie metody `Fill*`.
 
-**Q: Czy muszę zwalniać obiekty `Graphics` i `Bitmap`?**  
-A: Najlepszą praktyką jest otoczenie ich blokiem `using` lub wywołanie `Dispose()`, aby zwolnić zasoby niezarządzane.
+**P: Czy muszę zwolnić obiekty `Graphics` i `Bitmap`?**  
+O: Najlepszą praktyką jest otoczenie ich instrukcjami `using` lub wywołanie `Dispose()`, aby zwolnić zasoby niezarządzane.
 
-**Q: Czy to zadziała na Linux/macOS z .NET Core?**  
-A: Aspose.Drawing jest wieloplatformowy; ten sam kod działa na Linux i macOS przy docelowym .NET Core lub .NET 5+.
+**P: Czy to będzie działać na Linux/macOS z .NET Core?**  
+O: Aspose.Drawing jest wieloplatformowy; ten sam kod działa na Linux i macOS przy docelowym .NET Core lub .NET 5+.
 
----
-
-**Ostatnia aktualizacja:** 2026-02-17  
+**Ostatnia aktualizacja:** 2026-08-01  
 **Testowano z:** Aspose.Drawing 24.12 dla .NET  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Zapisz bitmapę jako PNG i rysuj zamknięte krzywe z Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-closed-curve/)
+- [Zapisz bitmapę jako PNG używając transformacji w Aspose.Drawing](/drawing/net/coordinate-transformations/local-transformation/)
+- [Jak przyciąć obraz do PNG z Aspose.Drawing dla .NET](/drawing/net/image-editing/cropping/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

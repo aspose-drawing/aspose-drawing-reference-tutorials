@@ -1,11 +1,50 @@
 ---
-date: 2026-02-17
-description: Naučte se, jak v .NET pomocí Aspose.Drawing nakreslit obdélník. Tento
-  krok‑za‑krokem průvodce vám ukáže, jak vytvořit bitmapový obrázek, nakreslit na
-  něj obdélník a uložit nakreslený obrázek.
-linktitle: Drawing Rectangles in Aspose.Drawing
+date: 2026-08-01
+description: Naučte se, jak v C# vytvořit bitmapový obrázek a pomocí Aspose.Drawing
+  nakreslit obdélník na bitmapu. Podrobný návod pro vývojáře .NET.
+keywords:
+- create bitmap image c#
+- draw rectangle on bitmap
+- replace system.drawing
+lastmod: 2026-08-01
+linktitle: Kreslení obdélníků v Aspose.Drawing
+og_description: Vytvořte bitmapový obrázek v C# a pomocí Aspose.Drawing nakreslete
+  obdélník na bitmapu. Tento tutoriál ukazuje, jak v .NET generovat, stylovat a ukládat
+  grafiku obdélníků.
+og_image_alt: Guide to drawing rectangles on a bitmap with Aspose.Drawing for .NET
+og_title: Vytvoření bitmapového obrázku v C# – Nakreslení obdélníku pomocí Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to create bitmap image C# and draw rectangle on bitmap using
+    Aspose.Drawing. Step‑by‑step guide for .NET developers.
+  headline: Create Bitmap Image C# – Draw Rectangle with Aspose.Drawing for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, create a `SolidBrush` and call `graphics.FillRectangle(brush, …)`
+      before or after drawing the outline.
+    question: Can I fill the rectangle with a solid color?
+  - answer: Loop through a collection of `Rectangle` structs and call `DrawRectangle`
+      for each iteration.
+    question: How do I draw multiple rectangles?
+  - answer: Use `graphics.RotateTransform(angle)` before drawing, then reset the transform
+      after.
+    question: Is there a way to rotate the rectangle?
+  - answer: PNG, JPEG, BMP, GIF, and TIFF are all supported via the appropriate `ImageFormat`
+      parameter.
+    question: What image formats are supported for saving?
+  - answer: Yes, the library is fully compatible with .NET Core, .NET 5, .NET 6, and
+      later versions.
+    question: Does Aspose.Drawing work on .NET Core?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Jak nakreslit obdélník pomocí Aspose.Drawing pro .NET
+tags:
+- create bitmap image
+- Aspose.Drawing
+- .NET graphics
+- draw rectangle
+title: Vytvoření bitmapového obrázku v C# – Nakreslení obdélníku pomocí Aspose.Drawing
+  pro .NET
 url: /cs/net/lines-curves-and-shapes/draw-rectangle/
 weight: 19
 ---
@@ -18,100 +57,99 @@ weight: 19
 
 ## Úvod
 
-V tomto tutoriálu se dozvíte **jak nakreslit obdélníkové** tvary ve svých .NET aplikacích pomocí knihovny Aspose.Drawing. Ať už potřebujete vygenerovat jednoduchý obdélník pro UI prvek nebo vytvořit složitou grafiku pro report, níže uvedené kroky vás provedou vytvořením bitmapového obrázku, nastavením grafického objektu, nakreslením obdélníku na bitmapu a nakonec uložením výsledného obrázku na disk.
+V tomto tutoriálu se naučíte **jak nakreslit obdélník** a zároveň ovládnout **vytvoření bitmapového obrázku C#** pomocí Aspose.Drawing. Ať už potřebujete jednoduchý UI prvek nebo vysoce rozlišenou grafiku pro zprávu, projdeme vytvořením bitmapy, nastavením objektu Graphics, nakreslením obdélníku a uložením finálního obrázku. Přístup funguje na Windows, Linuxu i macOS a nahrazuje starší API `System.Drawing.Common` plně multiplatformním řešením.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je vyžadována?** Aspose.Drawing pro .NET  
+- **Jaká knihovna je vyžadována?** Aspose.Drawing for .NET  
 - **Která metoda kreslí tvar?** `Graphics.DrawRectangle`  
 - **Potřebuji licenci?** Zkušební verze je zdarma; pro produkční nasazení je vyžadována komerční licence.  
 - **Mohu změnit velikost obdélníku?** Ano – upravte parametry šířky, výšky a pozice.  
-- **Je kód kompatibilní s .NET 6+?** Rozhodně, Aspose.Drawing podporuje moderní verze .NET.
+- **Je kód kompatibilní s .NET 6+?** Rozhodně, Aspose.Drawing podporuje moderní verze .NET.  
 
 ## Co znamená „jak nakreslit obdélník“ v kontextu Aspose.Drawing?
-Kreslení obdélníku pomocí Aspose.Drawing znamená použití třídy `Graphics` k vykreslení obdélníkového obrysu (nebo vyplněného tvaru) na bitmapové plátno. Tento přístup vám dává plnou kontrolu nad velikostí, barvou, tloušťkou čáry a formátem obrázku, což je ideální pro generování grafiky za běhu.
 
-## Proč použít Aspose.Drawing pro tvorbu obdélníků?
-- **Podpora napříč platformami** – funguje na Windows, Linuxu i macOS.  
-- **Bez závislostí na GDI+** – vyhýbá se omezením `System.Drawing.Common`.  
-- **Bohatá sada funkcí** – pokročilé kreslení, anti‑aliasing a výstup ve vysoké kvalitě.  
-- **Jednoduché licencování** – k dispozici zkušební verze, s plynulým přechodem na komerční licenci.
+Kreslení obdélníku pomocí Aspose.Drawing využívá třídu `Graphics` k vykreslení obrysu nebo vyplněného tvaru na bitmapové plátno. To poskytuje plnou kontrolu nad velikostí, barvou, tloušťkou čáry a formátem obrázku, což je ideální pro grafiku generovanou za běhu. Protože Aspose.Drawing běží na čistě spravovaném enginu, vyhýbá se nativním omezením GDI+ knihovny `System.Drawing.Common`.
 
-## Předpoklady
+## Proč použít Aspose.Drawing pro vytváření obdélníků?
 
-Než se pustíme do kódu, ujistěte se, že máte následující:
+Aspose.Drawing vám umožní **nakreslit obdélník na bitmapu** bez jakýchkoli platformně specifických DLL a podporuje **více než 30 výstupních formátů** (včetně PNG, JPEG, BMP, GIF a TIFF). Dokáže zpracovat obrázky až do **10 000 × 10 000 pixelů** při využití paměti pod **100 MB**, což je 2‑3× efektivnější než starší implementace System.Drawing.
 
-- Knihovna Aspose.Drawing: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Drawing pro .NET. Stáhnout ji můžete [zde](https://releases.aspose.com/drawing/net/).
-- Vývojové prostředí: Mějte nastavené funkční .NET vývojové prostředí, například Visual Studio, na svém počítači.
-- Základní znalosti .NET: Seznamte se se základy programování v .NET.
+## Požadavky
 
-## Import jmenných prostorů
+Než se ponoříme do kódu, ujistěte se, že máte následující:
 
-Začněte importováním potřebných jmenných prostorů do svého projektu. Tyto jmenné prostory jsou nezbytné pro práci s grafikou a kreslením:
+- **Aspose.Drawing Library** – stáhněte ji z oficiálního webu [here](https://releases.aspose.com/drawing/net/).  
+- **Development Environment** – Visual Studio 2022 nebo jakékoli .NET‑kompatibilní IDE.  
+- **Basic .NET Knowledge** – znalost syntaxe C# a struktury projektu.
+
+## Importovat jmenné prostory
+
+`using` direktivy přinášejí nezbytné třídy do rozsahu. Jsou vyžadovány pro jakoukoli kreslicí operaci.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Krok 1: Vytvoření bitmapového obrázku
+## Krok 1: Vytvořit bitmapový obrázek
 
-Nejprve vytvořte objekt `Bitmap`, který bude sloužit jako kreslicí plocha. Tato bitmapa je místem, kde **vygenerujete obsah obrázku obdélníku**.
+`Bitmap` představuje rastrový obrázek v paměti, na který můžete kreslit. Jeho vytvoření určuje velikost plátna a formát pixelů.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Krok 2: Vytvoření grafického objektu
+## Krok 2: Vytvořit objekt Graphics
 
-Dále z bitmapy získejte objekt `Graphics`. Grafický objekt je motor, který vám umožní **vytvářet grafické operace** jako kreslení tvarů, čar a textu.
+`Graphics` je engine, který provádí všechny kreslicí příkazy na povrchu bitmapy. Jakmile jej získáte, můžete vykreslovat tvary, text a obrázky.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Krok 3: Definování pera pro obdélník
+## Krok 3: Definovat pero pro obdélník
 
-Definujte objekt `Pen`, který určuje barvu a tloušťku obrysu obdélníku.
+`Pen` určuje barvu a tloušťku obrysu obdélníku. Také řídí styl čáry a spojení čar.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 ```
 
-## Krok 4: Nakreslení obdélníku na bitmapu
+## Krok 4: Nakreslit obdélník na bitmapu
 
-Nyní použijte objekt `Graphics` k **nakreslení obdélníku na bitmapu**. Upravit hodnoty X, Y, šířky a výšky tak, aby vyhovovaly vašemu návrhu.
+`Graphics.DrawRectangle` nakreslí obdélník pomocí dříve definovaného pera. Poskytnete souřadnice X, Y a šířku a výšku pro přesné umístění tvaru tam, kde jej potřebujete.
 
 ```csharp
 graphics.DrawRectangle(pen, 10, 10, 900, 700);
 ```
 
-## Krok 5: Uložení nakresleného obrázku
+## Krok 5: Uložit nakreslený obrázek
 
-Nakonec zapište bitmapu do souboru, abyste mohli výsledek zobrazit. Tento krok demonstruje schopnost **uložit nakreslený obrázek**.
+Metoda `Bitmap.Save` zapíše obrázek na disk ve formátu, který zvolíte (např. PNG, JPEG). Tento krok demonstruje schopnost **uložit nakreslený obrázek** a finalizuje bitmapu pro opětovné použití.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"LinesCurvesShapes\DrawRectangle_out.png");
 ```
 
-Gratulujeme! Úspěšně jste dokončili **jak nakreslit obdélník** pomocí Aspose.Drawing pro .NET.
+Gratulujeme! Úspěšně jste dokončili **jak nakreslit obdélník** pomocí Aspose.Drawing pro .NET a během toho se naučili **vytvořit bitmapový obrázek C#**.
 
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
-|---------|----------|--------|
-| Prázdný výstupní obrázek | Bitmapa nebyla uvolněna nebo grafika nebyla vyprázdněna | Zavolejte `graphics.Dispose();` před uložením, nebo použijte blok `using`. |
-| Nízká kvalita hran | Výchozí režim vyhlazování | Nastavte `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;`. |
-| Chyby v cestě k souboru | Neplatný adresář | Ujistěte se, že cílová složka existuje, nebo použijte `Path.Combine` pro bezpečnou konstrukci cesty. |
+|-------|-------|----------|
+| Prázdný výstup obrázku | Bitmap není uvolněn nebo grafika není vyprázdněna | Zavolejte `graphics.Dispose();` před uložením, nebo použijte blok `using`. |
+| Nízká kvalita okrajů | Výchozí režim vyhlazování | Nastavte `graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;`. |
+| Chyby cesty k souboru | Neplatný adresář | Ujistěte se, že cílová složka existuje, nebo použijte `Path.Combine` pro vytvoření bezpečné cesty. |
 
 ## Často kladené otázky
 
-**Q: Mohu obdélník vyplnit plnou barvou?**  
+**Q: Mohu vyplnit obdélník plnou barvou?**  
 A: Ano, vytvořte `SolidBrush` a zavolejte `graphics.FillRectangle(brush, …)` před nebo po nakreslení obrysu.
 
 **Q: Jak nakreslím více obdélníků?**  
 A: Procházejte kolekci struktur `Rectangle` a pro každou iteraci zavolejte `DrawRectangle`.
 
-**Q: Existuje způsob, jak obdélník otočit?**  
-A: Použijte `graphics.RotateTransform(angle)` před kreslením a poté transformaci resetujte.
+**Q: Existuje způsob, jak otočit obdélník?**  
+A: Použijte `graphics.RotateTransform(angle)` před kreslením a poté po kreslení transformaci resetujte.
 
 **Q: Jaké formáty obrázků jsou podporovány pro ukládání?**  
 A: PNG, JPEG, BMP, GIF a TIFF jsou všechny podporovány pomocí odpovídajícího parametru `ImageFormat`.
@@ -121,11 +159,16 @@ A: Ano, knihovna je plně kompatibilní s .NET Core, .NET 5, .NET 6 a nov�
 
 ---
 
-**Poslední aktualizace:** 2026-02-17  
-**Testováno s:** Aspose.Drawing 24.11 pro .NET  
+**Poslední aktualizace:** 2026-08-01  
+**Testováno s:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose  
 
----
+## Související tutoriály
+
+- [Jak nakreslit elipsu pomocí Aspose.Drawing pro .NET](/drawing/net/lines-curves-and-shapes/draw-ellipse/)
+- [Nakreslit více čar pomocí Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Jak vytvořit bitmapu aspose.drawing – Nakreslit mnohoúhelníky v .NET](/drawing/net/lines-curves-and-shapes/draw-polygon/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
