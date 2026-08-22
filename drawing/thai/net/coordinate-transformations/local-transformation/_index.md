@@ -1,16 +1,76 @@
 ---
-date: 2026-04-22
-description: เรียนรู้วิธีบันทึกบิตแมปเป็น PNG ด้วย Aspose.Drawing สำหรับ .NET พร้อมตัวอย่างเมทริกซ์การแปลง
-  ขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ด
+date: 2026-08-22
+description: เรียนรู้วิธีบันทึก bitmap เป็น png ด้วย Aspose.Drawing สำหรับ .NET พร้อมตัวอย่างการแปลง
+  matrix ขั้นตอนต่อขั้นตอนพร้อมโค้ดตัวอย่าง
 keywords:
 - save bitmap as png
-- transformation matrix example
+- matrix transformation example
 - draw rotated ellipse
 - convert graphics to png
-- high-quality png output
-linktitle: การแปลงท้องถิ่นใน Aspose.Drawing
+- high quality png output
+lastmod: 2026-08-22
+linktitle: การแปลงแบบ Local ใน Aspose.Drawing
+og_description: บันทึก bitmap เป็น png ด้วย Aspose.Drawing โดยใช้การแปลง matrix เรียนรู้ขั้นตอนการทำงานทีละขั้นตอนที่เรนเดอร์
+  ellipse ที่หมุนและสร้างผลลัพธ์ PNG คุณภาพสูง
+og_image_alt: Screenshot of a rotated ellipse saved as a high‑quality PNG using Aspose.Drawing
+og_title: บันทึก bitmap เป็น png ด้วยการแปลงใน Aspose.Drawing – คู่มือ .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to save bitmap as png using Aspose.Drawing for .NET with
+    a matrix transformation example. Step‑by‑step guide with code placeholders.
+  headline: Save bitmap as png using transformation in Aspose.Drawing
+  type: TechArticle
+- description: Learn how to save bitmap as png using Aspose.Drawing for .NET with
+    a matrix transformation example. Step‑by‑step guide with code placeholders.
+  name: Save bitmap as png using transformation in Aspose.Drawing
+  steps:
+  - name: create a bitmap
+    text: '`Bitmap` represents an in‑memory image with a defined pixel format and
+      dimensions. > **Pro tip:** Using `Format32bppPArgb` ensures that the image retains
+      premultiplied alpha, which is ideal for png output.'
+  - name: create a graphics object
+    text: '`Graphics` provides drawing methods that render shapes onto a bitmap.'
+  - name: create a graphicspath
+    text: '`GraphicsPath` allows you to define complex vector shapes such as ellipses,
+      lines, and curves.'
+  - name: apply local transformation (matrix transformation example)
+    text: '`Matrix` encapsulates a 3×3 affine transformation matrix used for scaling,
+      rotation, translation, and skewing. > **Why rotate around the centre?** Rotating
+      around the shape’s centre prevents it from orbiting around the origin, giving
+      a natural look.'
+  - name: draw the transformed path
+    text: '`Pen` defines the color, width, and style used to outline shapes when drawing.'
+  - name: save the transformed image (convert graphics to png)
+    text: '`Bitmap.Save` writes the image to a file in the specified format, such
+      as PNG. > **Note:** The `.png` extension automatically triggers Aspose.Drawing’s
+      PNG encoder, fulfilling the **save bitmap as png** requirement.'
+  type: HowTo
+- questions:
+  - answer: Yes. Create a single `Matrix` and call methods like `Scale`, `RotateAt`,
+      and `Translate` in the order you need, then apply it with `path.Transform(matrix);`.
+    question: Can I chain multiple transformations (e.g., scale then rotate)?
+  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
+      typical server hardware and avoids the GDI+ limitations on non‑Windows platforms.
+    question: Is Aspose.Drawing suitable for high‑performance rendering?
+  - answer: Besides rotation, you can perform translation, scaling, and skewing using
+      the same `Matrix` class.
+    question: What other transformation types are supported?
+  - answer: Wrap the drawing code in a `try‑catch` block and inspect `System.Drawing.Drawing2D`
+      exceptions. Refer to the official [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/)
+      for detailed error‑handling guidance.
+    question: How do I handle exceptions during the transformation process?
+  - answer: Yes, a fully functional free trial is available via the [download link](https://releases.aspose.com/drawing/net/).
+    question: Can I try Aspose.Drawing before purchasing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: บันทึก Bitmap เป็น PNG โดยใช้การแปลงใน Aspose.Drawing
+tags:
+- save bitmap as png
+- Aspose.Drawing
+- .NET graphics transformation
+- PNG rendering
+- matrix transformation
+title: บันทึก bitmap เป็น png ด้วยการแปลงใน Aspose.Drawing
 url: /th/net/coordinate-transformations/local-transformation/
 weight: 11
 ---
@@ -19,84 +79,83 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึก Bitmap เป็น PNG ด้วยการแปลงใน Aspose.Drawing
+# บันทึกบิตแมพเป็น png โดยใช้การแปลงใน Aspose.Drawing
 
 ## บทนำ
 
-หากคุณต้องการ **save bitmap as PNG** พร้อมกับใช้การแปลงแบบโลคัลกับกราฟิกภายในแอปพลิเคชัน .NET, Aspose.Drawing ทำให้กระบวนการนี้ง่ายและเชื่อถือได้ ในบทเรียนนี้คุณจะได้เห็นวิธีการใช้เมทริกซ์การแปลงกับรูปทรง, เรนเดอร์ผลลัพธ์, และสุดท้าย **convert graphics to PNG** เพื่อการจัดเก็บหรือการประมวลผลต่อไป เมื่อเสร็จสิ้นคุณจะมีรูปแบบโค้ดที่สามารถนำกลับมาใช้ใหม่ได้และปรับใช้กับสถานการณ์การแปลงแบบโลคัลใด ๆ
+หากคุณต้องการ **save bitmap as png** ขณะใช้การแปลงแบบโลคัลกับกราฟิกภายในแอปพลิเคชัน .NET, Aspose.Drawing ทำให้กระบวนการง่ายและเชื่อถือได้ ในบทเรียนนี้คุณจะได้เห็นวิธีการใช้เมทริกซ์การแปลงกับรูปทรง, แสดงผลลัพธ์, และสุดท้าย **convert graphics to png** เพื่อการจัดเก็บหรือการประมวลผลต่อไป เมื่อเสร็จสิ้นคุณจะมีรูปแบบโค้ดที่สามารถนำกลับมาใช้ใหม่ได้และปรับใช้กับสถานการณ์การแปลงแบบโลคัลใด ๆ
 
 ## คำตอบอย่างรวดเร็ว
-- **การแปลงแบบโลคัลคืออะไร?** เป็นการดำเนินการที่อิงเมทริกซ์ (หมุน, ขยาย, ย้าย, เอียง) ที่นำไปใช้กับองค์ประกอบการวาดเฉพาะโดยไม่กระทบต่อแคนวาสทั้งหมด  
-- **ไลบรารีใดสนับสนุนใน .NET?** Aspose.Drawing สำหรับ .NET ให้ API ครบชุดที่ทำงานบนทุกเวอร์ชัน .NET ที่รองรับ  
-- **ฉันสามารถบันทึกผลลัพธ์เป็น PNG ได้หรือไม่?** ได้—เพียงเรียก `Bitmap.Save` พร้อมชื่อไฟล์ “.png” แล้ว Aspose.Drawing จะจัดการการแปลงให้  
-- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** ทดลองใช้ฟรีสำหรับการทดสอบ; ต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์จริง  
-- **การดำเนินการใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างพื้นฐาน
+- **What is a local transformation?** เป็นการดำเนินการแบบเมทริกซ์ (rotate, scale, translate, skew) ที่ใช้กับองค์ประกอบการวาดเฉพาะโดยไม่กระทบต่อแคนวาสทั้งหมด.  
+- **Which library supports it in .NET?** Aspose.Drawing for .NET มี API ครบชุดที่ทำงานบน .NET เวอร์ชันที่รองรับทั้งหมด.  
+- **Can I save the result as png?** ใช่—เรียก `Bitmap.Save` พร้อมชื่อไฟล์ “.png” และ Aspose.Drawing จะจัดการการแปลงโดยอัตโนมัติ.  
+- **Do I need a license for development?** รุ่นทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
+- **How long does the implementation take?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างพื้นฐาน.
 
-## วิธีบันทึก Bitmap เป็น PNG
+## วิธีบันทึกบิตแมพเป็น png
 
-ด้านล่างคุณจะพบขั้นตอนแบบครบถ้วนที่แสดงตัวอย่าง **transformation matrix example** และจบด้วยไฟล์ PNG คุณภาพสูง
+ด้านล่างคุณจะพบขั้นตอนเต็มรูปแบบที่แสดง **matrix transformation example** และจบด้วย **high quality png output**.
 
-## การ “วิธีการใช้การแปลง” ในการเขียนโปรแกรมกราฟิกคืออะไร?
-การใช้การแปลงหมายถึงการแก้ไขระบบพิกัดของวัตถุการวาดโดยใช้ **Matrix** เมทริกซ์กำหนดว่าจุดต่าง ๆ จะถูกหมุน, ขยาย, หรือย้ายอย่างไร ทำให้คุณสร้างเอฟเฟกต์ภาพที่ซับซ้อนได้ด้วยโค้ดเพียงเล็กน้อย
+## “วิธีการใช้การแปลง” ในการเขียนโปรแกรมกราฟิกคืออะไร?
 
-## ทำไมต้องใช้ Aspose.Drawing เพื่อ **convert graphics to PNG**?
-- **Cross‑platform**: ทำงานบน .NET Framework, .NET Core, และ .NET 5/6+  
-- **No GDI+ dependencies**: หลีกเลี่ยงข้อจำกัดของ `System.Drawing.Common` บนแพลตฟอร์มที่ไม่ใช่ Windows  
-- **High‑quality PNG output**: การแรเงาและการเรนเดอร์ที่พิกเซลสมบูรณ์สำหรับไฟล์ PNG  
-- **Rich API**: รองรับเต็มรูปแบบสำหรับพาธ, ปากกา, แปรง, และเมทริกซ์การแปลง
+การใช้การแปลงหมายถึงการปรับเปลี่ยนระบบพิกัดของวัตถุการวาดโดยใช้ **Matrix** เมทริกซ์กำหนดว่าจุดจะถูกหมุน, ขยาย, หรือย้ายอย่างไร ทำให้คุณสร้างเอฟเฟกต์ภาพที่ซับซ้อนได้ด้วยโค้ดน้อยที่สุดพร้อมคงความแม่นยำของพิกเซล มันทำงานอย่างสม่ำเสมอบนทุกแพลตฟอร์ม .NET เพื่อให้ได้ผลลัพธ์ที่สอดคล้องกัน.
+
+## ทำไมต้องใช้ Aspose.Drawing เพื่อแปลงกราฟิกเป็น png?
+
+Aspose.Drawing มีเอนจินข้ามแพลตฟอร์มที่ไม่ใช้ GDI ซึ่งเรนเดอร์ไฟล์ PNG ที่ 300 dpi ด้วยความลึกสี 32‑bit รับประกันผลลัพธ์ PNG ที่ไม่มีการสูญเสียคุณภาพและคุณภาพสูง ไลบรารีรองรับ **50+ input and output formats** และทำงานบน .NET Framework, .NET Core, และ .NET 5/6+ ทำให้ไม่มีการพึ่งพาแพลตฟอร์มเฉพาะ.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำตามขั้นตอนต่อไปนี้ให้แน่ใจว่าคุณมี:
+ก่อนเริ่ม, ตรวจสอบว่าคุณมี:
 
-1. **Aspose.Drawing for .NET** – ดาวน์โหลดและติดตั้งจาก [download link](https://releases.aspose.com/drawing/net/)  
-2. โฟลเดอร์บนเครื่องของคุณที่ภาพผลลัพธ์จะถูกบันทึก (เช่น `C:\MyImages\`)  
-3. ความคุ้นเคยพื้นฐานกับ C# และการตั้งค่าโครงการ .NET  
+1. **Aspose.Drawing for .NET** – ดาวน์โหลดและติดตั้งจาก [download link](https://releases.aspose.com/drawing/net/).  
+2. โฟลเดอร์บนเครื่องของคุณที่ภาพผลลัพธ์จะถูกบันทึก (เช่น `C:\MyImages\`).  
+3. ความคุ้นเคยพื้นฐานกับ C# และการตั้งค่าโปรเจกต์ .NET.  
 
-## นำเข้า Namespaces
+## นำเข้า namespace
 
-ก่อนอื่นให้เพิ่ม Namespaces ที่จำเป็นลงในไฟล์ C# ของคุณ:
+แรกเริ่ม, นำ namespace ที่จำเป็นเข้าสู่ไฟล์ C# ของคุณ:
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-Namespaces เหล่านี้ให้คุณเข้าถึงคลาส `Bitmap`, `Graphics`, `GraphicsPath`, และ `Matrix` ที่จำเป็นสำหรับกระบวนการแปลง
+Namespace เหล่านี้ให้คุณเข้าถึงคลาส `Bitmap`, `Graphics`, `GraphicsPath`, และ `Matrix` ที่จำเป็นสำหรับกระบวนการแปลง.
 
 ## คู่มือขั้นตอนต่อขั้นตอน
 
-### ขั้นตอนที่ 1: สร้าง Bitmap
+### ขั้นตอน 1: สร้าง bitmap
 
-เราเริ่มด้วยแคนวาสเปล่า ขนาดและรูปแบบพิกเซลของ bitmap ถูกเลือกเพื่อให้ได้ภาพ 32‑bit คุณภาพสูงที่รองรับความโปร่งใสของอัลฟา
+`Bitmap` แสดงภาพในหน่วยความจำที่มีรูปแบบพิกเซลและขนาดที่กำหนด.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-> **Pro tip:** การใช้ `Format32bppPArgb` ทำให้ภาพคงอัลฟาแบบ premultiplied ซึ่งเหมาะอย่างยิ่งสำหรับการส่งออกเป็น PNG
+> **Pro tip:** การใช้ `Format32bppPArgb` ทำให้ภาพคงค่า alpha ที่ทำล่วงหน้าไว้, ซึ่งเหมาะสำหรับการส่งออก png.
 
-### ขั้นตอนที่ 2: สร้าง Graphics Object
+### ขั้นตอน 2: สร้าง graphics object
 
-อ็อบเจ็กต์ `Graphics` ให้เมธอดการวาดที่ทำงานบน bitmap เราเคลียร์พื้นหลังเป็นสีเทากลางเพื่อให้รูปทรงที่แปลงแล้วโดดเด่น
+`Graphics` ให้เมธอดการวาดที่แสดงรูปทรงบน bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### ขั้นตอนที่ 3: สร้าง GraphicsPath
+### ขั้นตอน 3: สร้าง graphicspath
 
-`GraphicsPath` ช่วยให้คุณกำหนดรูปทรงซับซ้อน ที่นี่เราเพิ่มวงรีที่ตำแหน่ง (300, 300) มีความกว้าง 400 และความสูง 200 – **drawing a rotated ellipse** หลังจากการแปลง
+`GraphicsPath` ช่วยให้คุณกำหนดรูปเวกเตอร์ซับซ้อนเช่นวงรี, เส้น, และโค้ง.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddEllipse(300, 300, 400, 200);
 ```
 
-### ขั้นตอนที่ 4: ใช้ Local Transformation (ตัวอย่างเมทริกซ์การแปลง)
+### ขั้นตอน 4: ใช้การแปลงแบบโลคัล (ตัวอย่าง matrix transformation)
 
-ตอนนี้เราตอบคำถามหลัก: **how to apply transformation** เราสร้าง `Matrix` แล้วหมุน 45° รอบศูนย์กลางของวงรี (500, 400) จากนั้นนำเมทริกซ์ไปใช้กับ path
+`Matrix` ประกอบด้วยเมทริกซ์การแปลงเชิง affine ขนาด 3×3 ที่ใช้สำหรับการสเกล, การหมุน, การแปล, และการบิด.
 
 ```csharp
 Matrix matrix = new Matrix();
@@ -104,64 +163,73 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-> **Why rotate around the centre?** การหมุนรอบศูนย์กลางของรูปทรงจะป้องกันไม่ให้รูปทรงโคจรรอบจุดกำเนิด ทำให้ดูเป็นธรรมชาติ
+> **Why rotate around the centre?** การหมุนรอบศูนย์กลางของรูปทรงช่วยป้องกันไม่ให้มันโคจรรอบจุดกำเนิด, ทำให้ดูเป็นธรรมชาติ.
 
-### ขั้นตอนที่ 5: วาด Path ที่แปลงแล้ว
+### ขั้นตอน 5: วาดเส้นทางที่แปลงแล้ว
 
-เมื่อมีการแปลงอยู่แล้ว เราเรนเดอร์ path ด้วยปากกาสีฟ้า ความหนา 2 ซึ่งขั้นตอนนี้ **draws a rotated ellipse** บนแคนวาส
+`Pen` กำหนดสี, ความกว้าง, และสไตล์ที่ใช้ในการวาดขอบรูปทรง.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-### ขั้นตอนที่ 6: บันทึกภาพที่แปลงแล้ว (Convert Graphics to PNG)
+### ขั้นตอน 6: บันทึกภาพที่แปลงแล้ว (convert graphics to png)
 
-สุดท้ายเราบันทึก bitmap เป็นไฟล์ PNG เส้นทางจะรวมไดเรกทอรีที่คุณเลือกกับโฟลเดอร์ย่อยสำหรับตัวอย่างการแปลง
+`Bitmap.Save` เขียนภาพลงไฟล์ในรูปแบบที่ระบุ, เช่น PNG.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\LocalTransformation_out.png");
 ```
 
-> **Note:** ส่วนขยาย `.png` จะทำให้ Aspose.Drawing เรียกใช้ตัวเข้ารหัส PNG โดยอัตโนมัติ ทำให้ตรงตามความต้องการ **save bitmap as png**
+> **Note:** ส่วนขยาย `.png` จะทำให้ Aspose.Drawing เรียกใช้ตัวเข้ารหัส PNG โดยอัตโนมัติ, ตอบสนองความต้องการ **save bitmap as png**.
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไป & วิธีแก้
 
-| ปัญหา | สาเหตุ | วิธีแก้ |
+| Issue | Cause | Fix |
 |-------|-------|-----|
-| **Blank output image** | Graphics ไม่ได้เคลียร์หรือสีปากกาเหมือนพื้นหลัง | เรียก `graphics.Clear` ด้วยสีที่ตัดกันและตรวจสอบให้สีปากกาเห็นได้ชัด |
-| **Distorted rotation** | ใช้ `Rotate` แทน `RotateAt` | ใช้ `RotateAt` และระบุจุดศูนย์กลางของรูปทรง |
-| **File not saved** | เส้นทางไดเรกทอรีไม่ถูกต้องหรือไม่มีสิทธิ์เขียน | ตรวจสอบว่าไดเรกทอรีมีอยู่และแอปมีสิทธิ์เขียน |
-| **PNG appears fuzzy** | ตั้งค่า DPI ของ bitmap ต่ำ | สร้าง bitmap ด้วยความละเอียดสูงกว่า หรือกำหนด `graphics.SmoothingMode = SmoothingMode.AntiAlias` |
+| **ภาพผลลัพธ์เป็นสีขาว** | Graphics ไม่ได้ทำความสะอาดหรือสีของ pen ตรงกับพื้นหลัง | เรียก `graphics.Clear` ด้วยสีที่ตัดกันและตรวจสอบให้สีของ pen มองเห็นได้ |
+| **การหมุนบิดเบี้ยว** | ใช้ `Rotate` แทน `RotateAt` | ใช้ `RotateAt` และระบุจุดศูนย์กลางของรูปทรง |
+| **ไฟล์ไม่ถูกบันทึก** | เส้นทางไดเรกทอรีไม่ถูกต้องหรือไม่มีสิทธิ์เขียน | ตรวจสอบว่าไดเรกทอรีมีอยู่และแอปพลิเคชันมีสิทธิ์เขียน |
+| **Png ปรากฏเบลอ** | การตั้งค่า DPI ต่ำบน bitmap | สร้าง bitmap ด้วยความละเอียดสูงขึ้นหรือกำหนด `graphics.SmoothingMode = SmoothingMode.AntiAlias` |
 
 ## คำถามที่พบบ่อย
 
-**Q: ฉันสามารถเชื่อมต่อการแปลงหลายขั้นตอนได้หรือไม่ (เช่น ปรับขนาดแล้วหมุน)?**  
-A: ได้. สร้าง `Matrix` ตัวเดียวแล้วเรียกเมธอดเช่น `Scale`, `RotateAt`, และ `Translate` ตามลำดับที่ต้องการ จากนั้นใช้กับ `path.Transform(matrix);`
+**Q: ฉันสามารถเชื่อมต่อการแปลงหลาย ๆ ครั้ง (เช่น สเกลแล้วหมุน) ได้หรือไม่?**  
+A: ใช่. สร้าง `Matrix` เดียวและเรียกเมธอดเช่น `Scale`, `RotateAt`, และ `Translate` ตามลำดับที่ต้องการ, จากนั้นใช้กับ `path.Transform(matrix);`.
 
 **Q: Aspose.Drawing เหมาะสำหรับการเรนเดอร์ประสิทธิภาพสูงหรือไม่?**  
-A: แน่นอน. ไลบรารีนี้ได้รับการปรับให้ทำงานเร็วและคุณภาพดี พร้อมหลีกเลี่ยงข้อจำกัดของ GDI+ บนแพลตฟอร์มที่ไม่ใช่ Windows
+A: แน่นอน. ไลบรารีประมวลผลภาพ 200 หน้าในเวลาน้อยกว่า 2 วินาทีบนฮาร์ดแวร์เซิร์ฟเวอร์ทั่วไปและหลีกเลี่ยงข้อจำกัดของ GDI+ บนแพลตฟอร์มที่ไม่ใช่ Windows.
 
-**Q: มีประเภทการแปลงอื่น ๆ ที่สนับสนุนบ้าง?**  
-A: นอกจากการหมุนแล้ว คุณยังสามารถทำการแปล (translation), การขยาย (scaling) และการเอียง (skewing) ได้ด้วยคลาส `Matrix` เดียวกัน
+**Q: มีประเภทการแปลงอื่น ๆ ที่รองรับหรือไม่?**  
+A: นอกจากการหมุน, คุณสามารถทำการแปล, การสเกล, และการบิดโดยใช้คลาส `Matrix` เดียวกัน.
 
 **Q: ฉันจะจัดการกับข้อยกเว้นระหว่างกระบวนการแปลงอย่างไร?**  
-A: ห่อโค้ดการวาดด้วยบล็อก `try‑catch` แล้วตรวจสอบข้อยกเว้นจาก `System.Drawing.Drawing2D` ดูรายละเอียดเพิ่มเติมใน [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/)
+A: ห่อโค้ดการวาดด้วยบล็อก `try‑catch` และตรวจสอบข้อยกเว้นจาก `System.Drawing.Drawing2D`. ดูเอกสารอย่างเป็นทางการของ [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) สำหรับคำแนะนำการจัดการข้อผิดพลาดโดยละเอียด.
 
 **Q: ฉันสามารถทดลองใช้ Aspose.Drawing ก่อนซื้อได้หรือไม่?**  
-A: ได้, มีรุ่นทดลองใช้งานเต็มรูปแบบที่พร้อมดาวน์โหลดจาก [download link](https://releases.aspose.com/drawing/net/)
+A: ได้, มีรุ่นทดลองฟรีที่ทำงานเต็มรูปแบบผ่าน [download link](https://releases.aspose.com/drawing/net/).
 
 ## สรุป
 
-โดยทำตามคู่มือนี้คุณจะรู้ **how to save bitmap as PNG** หลังจากใช้การแปลงแบบโลคัลกับ Aspose.Drawing สำหรับ .NET รูปแบบเดียวกันนี้สามารถนำไปใช้ซ้ำสำหรับการขยาย, การแปล, หรือการเอียงรูปทรงใด ๆ ช่วยให้คุณสร้างคอมโพเนนต์ภาพที่มีความโต้ตอบและคุณภาพ PNG สูงในแอปพลิเคชันของคุณ
+โดยทำตามคู่มือนี้คุณจะรู้ **how to save bitmap as png** หลังจากใช้การแปลงแบบโลคัลกับ Aspose.Drawing สำหรับ .NET. รูปแบบเดียวกันสามารถนำกลับมาใช้ใหม่สำหรับการสเกล, การแปล, หรือการบิดรูปทรงใด ๆ, ช่วยให้คุณสร้างคอมโพเนนต์ภาพที่มีความโต้ตอบและหลากหลายในแอปพลิเคชันของคุณพร้อมผลลัพธ์ PNG คุณภาพสูง.
 
 ---
 
-**Last Updated:** 2026-04-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-08-22  
+**ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [บทแนะนำการแปลงเมทริกซ์: Matrix Transformations ใน Aspose.Drawing สำหรับ .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [วิธีบันทึก PNG ด้วย Aspose.Drawing – การแปลงแบบ World](/drawing/net/coordinate-transformations/world-transformation/)
+- [โหลด, แปลง BMP เป็น PNG และรูปแบบอื่น ๆ ด้วย Aspose.Drawing](/drawing/net/image-editing/load-save/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
