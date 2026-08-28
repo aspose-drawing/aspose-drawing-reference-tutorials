@@ -1,15 +1,46 @@
 ---
-date: 2026-05-03
-description: 學習如何使用 Aspose.Drawing 全域變換 .NET 旋轉圖像並繪製旋轉橢圓。跟隨我們的逐步指南，打造驚艷的圖形。
+date: 2026-08-28
+description: 了解如何使用 Aspose.Drawing 在 .NET 中的全局變換繪製旋轉橢圓並旋轉圖像。請依照我們的逐步指南，製作高品質圖形。
 keywords:
-- how to rotate image
 - draw rotated ellipse
+- set global rotation
+- transformation matrix graphics
 - global transformation .net
-- apply rotation transform
-- graphics rotatetransform example
-linktitle: Aspose.Drawing for .NET 的全球轉換
+- rotate image without affecting
+lastmod: 2026-08-28
+linktitle: Aspose.Drawing 在 .NET 中的全局變換
+og_description: 使用 Aspose.Drawing 在 .NET 中的全局變換繪製旋轉橢圓並旋轉圖像。本教學提供逐步程式碼與高品質圖形的技巧。
+og_image_alt: Screenshot of rotated ellipse created with Aspose.Drawing global transformation
+og_title: 使用 Aspose.Drawing 繪製旋轉橢圓 – 全局變換指南
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to draw rotated ellipse and rotate images using Aspose.Drawing's
+    global transformation in .NET. Follow our step‑by‑step guide for high‑quality
+    graphics.
+  headline: How to draw rotated ellipse with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Drawing runs on .NET Core, .NET 5, .NET 6 and later versions.
+    question: Is Aspose.Drawing compatible with .NET Core?
+  - answer: Absolutely. You can chain `graphics.RotateTransform`, `graphics.ScaleTransform`,
+      and `graphics.TranslateTransform` to build a composite matrix.
+    question: Can I apply multiple global transformations to a single graphics context?
+  - answer: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      for a wealth of community‑shared samples and discussions.
+    question: Where can I find more tutorials and examples for Aspose.Drawing?
+  - answer: Yes, you can explore a free trial of Aspose.Drawing [Aspose.Drawing free
+      trial download](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Drawing?
+  - answer: Obtain a temporary license for Aspose.Drawing [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: 如何使用 Aspose.Drawing 全域變換旋轉圖像
+tags:
+- draw rotated ellipse
+- Aspose.Drawing
+- .NET graphics
+title: 如何使用 Aspose.Drawing 繪製旋轉橢圓
 url: /zh-hant/net/coordinate-transformations/global-transformation/
 weight: 10
 ---
@@ -18,46 +49,43 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose.Drawing 全域變換旋轉圖像
+# 如何使用 Aspose.Drawing 繪製旋轉橢圓
 
 ## 介紹
 
-歡迎！在本教學中，您將學習使用 Aspose.Drawing for .NET 的全域變換功能來 **旋轉圖像** 物件。全域變換允許您對每個繪圖操作套用單一變換矩陣，這對於以最少程式碼創建複雜的視覺效果非常理想。完成本指南後，您還會看到 **繪製橢圓** 形狀如何繼承相同的旋轉，為構建複雜圖形奠定堅實基礎。
+在本指南中，您將學習 **如何繪製旋轉橢圓**，以及透過在 Aspose.Drawing for .NET 中套用 **全局變換** 矩陣來旋轉影像。全局變換允許單一矩陣影響其後的每個繪圖呼叫，讓您在保持程式碼整潔的同時，創建複雜的視覺效果。完成本教學後，您也會了解如何重設變換，以免影響其他圖形。
 
-## 使用全域變換旋轉圖像
+## 快速解答
+- **什麼是全局變換？** 它是一個單一矩陣，會自動套用於設定之後的所有繪圖指令。  
+- **我可以旋轉影像而不影響其他物件嗎？** 可以 – 先繪製旋轉的元素，然後呼叫 `graphics.ResetTransform()` 以回復原始狀態。  
+- **哪個命名空間提供此 API？** `System.Drawing` 透過 Aspose.Drawing 套件公開。  
+- **生產環境是否需要授權？** 免費試用足以學習；商業授權則是生產部署的必要條件。  
+- **此函式庫是否跨平台？** 絕對支援 – Aspose.Drawing 可在 .NET Core、.NET 5、.NET 6 及更高版本上執行。
 
-全域變換的做法是您只需設定一次旋轉，之後的每一次繪圖呼叫——無論是圖像、形狀或文字——都會自動遵循該旋轉。這樣可避免逐一旋轉每個元素，讓程式碼保持簡潔且易於維護。
+## 什麼是全局變換？
 
-## 快速回答
-- **「全域變換」是什麼意思？** 單一矩陣會影響所有後續的繪圖指令。  
-- **我可以只旋轉圖像而不影響其他物件嗎？** 可以——套用變換、繪製，然後重設或使用不同的 graphics context。  
-- **需要哪個命名空間？** `System.Drawing`（由 Aspose.Drawing 提供）。  
-- **開發時需要授權嗎？** 免費試用版可用於學習；正式上線需購買商業授權。  
-- **此功能在 .NET Core / .NET 6+ 上受支援嗎？** 當然支援——Aspose.Drawing 為跨平台。
+**全局變換** 是一種變換矩陣，套用到 `Graphics` 物件後，會影響其後的每一次繪圖操作，直到矩陣被變更或重設。它透過乘算每個繪製元素的座標，使您能夠統一地旋轉、縮放、平移或剪切所有物件，而無需逐一修改。
+
+## 為什麼使用全局變換？
+
+套用全局旋轉可讓您一次呼叫即可旋轉多個物件，提升 **一致性**、減少 **CPU 開銷**（矩陣計算次數減少），並支援 **彈性組合** 的縮放、平移與剪切。Aspose.Drawing 能處理最高 **10 000 × 10 000 px** 的影像，並支援 **30+** 種點陣與向量格式，於記憶體中直接處理，無需暫存檔案。
 
 ## 前置條件
 
-在深入探索 Aspose.Drawing 的全域變換精彩世界之前，請確保已具備以下前置條件：
-
-- Aspose.Drawing 程式庫：下載並安裝 Aspose.Drawing 程式庫。您可於[此處](https://reference.aspose.com/drawing/net/)找到程式庫及其文件說明。
-
-- 開發環境：確保您已具備可用的 .NET 開發環境。
-
-現在已完成基礎說明，讓我們直接進入實作！
+- **Aspose.Drawing 函式庫** – 從官方參考網站下載 [Aspose.Drawing .NET reference](https://reference.aspose.com/drawing/net/)。  
+- **.NET 開發環境** – Visual Studio 2022、VS Code，或任何支援 .NET 6+ 的 IDE。
 
 ## 匯入命名空間
 
-在開始撰寫程式碼之前，必須匯入必要的命名空間以存取 Aspose.Drawing 所提供的功能。請在程式碼中加入以下命名空間：
+`System.Drawing` 命名空間（由 Aspose.Drawing 提供）包含您將使用的核心圖形類型。
 
 ```csharp
 using System.Drawing;
 ```
 
-## 使用全域變換旋轉圖像
+## 如何使用全局變換旋轉影像
 
-第一步是真正建立畫布（`Bitmap`）並從中取得 `Graphics` 物件。此 graphics context 會保存全域變換，讓之後繪製的所有內容皆受到旋轉影響。
-
-### 步驟 1：建立 Bitmap 與 Graphics Context
+載入 `Bitmap`，取得其 `Graphics` 物件，然後使用 `graphics.RotateTransform` 設定旋轉矩陣。變換套用後，任何繪圖操作——例如繪製其他影像、形狀或文字——都會以指定的旋轉角度呈現。最後，儲存 bitmap 以保留全局旋轉的內容。
 
 ```csharp
 // Create a Bitmap with specified width, height, and pixel format
@@ -70,18 +98,22 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### 步驟 2：套用旋轉變換（旋轉 15°）
+## 步驟 1：建立 bitmap 與 graphics 上下文
 
-現在我們套用會全域影響 **旋轉圖像** 操作的旋轉。`RotateTransform` 方法會在目前的變換矩陣上加入 15 度的旋轉。
+`Bitmap` 代表記憶體中的影像，而 `Graphics` 提供繪圖表面。  
+
+`Bitmap` 是以像素為基礎的容器，可儲存為常見的影像格式，如 PNG 或 JPEG。  
+
+`Graphics` 是畫布，讓您能在 bitmap 上繪製形狀、文字或其他影像。
 
 ```csharp
 // Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
 
-### 步驟 3：在旋轉後繪製旋轉的橢圓
+## 步驟 2：套用旋轉變換（旋轉 15°）
 
-在套用旋轉後，您繪製的任何形狀——包括橢圓——都會呈現旋轉效果。這示範了 **繪製橢圓** 時如何遵循全域變換，同時滿足次要關鍵字 *draw rotated ellipse*。
+`RotateTransform` 會在目前矩陣上加入 15 度的旋轉。此方法會更新 `Graphics` 物件的內部變換矩陣，影響之後繪製的所有內容。
 
 ```csharp
 // Create a Pen with specified color and width
@@ -91,57 +123,65 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-### 步驟 4：儲存結果
+## 步驟 3：在旋轉後繪製旋轉橢圓
 
-在套用全域變換並繪製形狀後，現在可以將圖像寫入磁碟儲存。
+由於旋轉矩陣已經啟用，呼叫 `DrawEllipse` 會產生自動旋轉的橢圓。這示範了 **如何繪製旋轉橢圓**，同時遵循全局變換。
 
 ```csharp
 // Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
 
-## 為何使用全域變換？
+## 步驟 4：儲存結果
 
-- **一致性** – 單一變換套用於每一次繪圖呼叫，免除逐一旋轉各物件的需求。  
-- **效能** – 減少需要手動管理的矩陣計算次數。  
-- **彈性** – 可輕鬆結合旋轉、縮放與平移，產生複雜效果。
+繪製完成後，呼叫 `bitmap.Save` 以儲存影像。儲存的檔案會反映套用於影像與橢圓的全局旋轉。
+
+## 使用全局變換的好處
+
+一次載入單一矩陣並重複使用，可消除重複程式碼，確保每個視覺元素具有完全相同的方向，這對於需要保持同步的儀表板、量表或遊戲精靈尤為重要。
 
 ## 在實務情境中套用旋轉變換
 
-想像您正在打造一個儀表板，以旋轉儀表呈現感測器資料，或是開發一款需要讓精靈圍繞中心點旋轉的遊戲。使用 **套用旋轉變換** 技術意味著您只需編寫一次旋轉程式碼，讓圖形引擎自行處理其餘部分。隨著加入更多元素，此模式能優雅擴展——每個新形狀都會自動繼承相同的旋轉。
+想像一個遙測儀表板，數個量表圍繞共同中心旋轉，或是使用者改變方向時需要一起旋轉的圖示介面。透過一次 **套用旋轉變換**，您可避免對每個元素進行計算，即使每幀渲染數十個物件，仍能保持 UI 的回應性。
 
 ## Graphics RotateTransform 範例 – 常見陷阱與技巧
 
-- **重設變換**：若稍後需要繪製未旋轉的元素，請在相應的繪圖呼叫前呼叫 `graphics.ResetTransform()`。  
-- **順序重要**：變換會依加入的順序套用；先旋轉再平移的結果與先平移再旋轉不同。  
-- **像素格式**：使用 `Format32bppPArgb` 可確保高品質的 alpha 混合，對於旋轉形狀尤為重要。
+- **重設變換**：在繪製應保持未旋轉的元素之前，呼叫 `graphics.ResetTransform()`。  
+- **順序重要**：先旋轉再平移的視覺結果，與先平移再旋轉不同。  
+- **像素格式**：使用 `PixelFormat.Format32bppPArgb` 可為旋轉形狀提供高品質的 Alpha 混合。
 
 ## 常見問題
 
 **Q: Aspose.Drawing 是否相容於 .NET Core？**  
-A: 是的，Aspose.Drawing 完全相容於 .NET Core、.NET 5、.NET 6 以及更高版本。
+A: 是的，Aspose.Drawing 可在 .NET Core、.NET 5、.NET 6 及更高版本上執行。
 
-**Q: 我可以對單一 graphics context 套用多個全域變換嗎？**  
-A: 當然可以！您可以串接呼叫，例如 `graphics.RotateTransform`、`graphics.ScaleTransform` 與 `graphics.TranslateTransform`，以建立複合矩陣。
+**Q: 我可以對單一 graphics 上下文套用多個全局變換嗎？**  
+A: 絕對可以。您可以串接 `graphics.RotateTransform`、`graphics.ScaleTransform` 與 `graphics.TranslateTransform` 以建立複合矩陣。
 
-**Q: 我在哪裡可以找到更多 Aspose.Drawing 的教學與範例？**  
-A: 前往 [Aspose.Drawing 論壇](https://forum.aspose.com/c/drawing/44) 獲取豐富的教學、範例與社群討論。
+**Q: 我可以在哪裡找到更多 Aspose.Drawing 的教學與範例？**  
+A: 前往 [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) 瀏覽豐富的社群分享範例與討論。
 
 **Q: Aspose.Drawing 有提供免費試用嗎？**  
-A: 有，您可於[此處](https://releases.aspose.com/)探索 Aspose.Drawing 的免費試用版。
+A: 有，您可以探索 Aspose.Drawing 的免費試用 [Aspose.Drawing free trial download](https://releases.aspose.com/)。
 
-**Q: 我要如何取得 Aspose.Drawing 的臨時授權？**  
-A: 請於[此處](https://purchase.aspose.com/temporary-license/)取得 Aspose.Drawing 的臨時授權。
+**Q: 我該如何取得 Aspose.Drawing 的臨時授權？**  
+A: 取得 Aspose.Drawing 的臨時授權請前往 [temporary license page](https://purchase.aspose.com/temporary-license/)。
 
 ## 結論
 
-本指南說明了使用 Aspose.Drawing 的全域變換功能 **旋轉圖像**，並示範了 **繪製橢圓** 時自動繼承旋轉的做法。這些技巧為任何 .NET 應用程式的高階圖形創作開啟大門。您可嘗試加入其他變換——縮放、剪切或串接多重旋轉，以釋放更多視覺可能性。
+您現在已了解 **如何繪製旋轉橢圓**，以及使用 Aspose.Drawing 的全局變換功能來旋轉影像。可使用相同模式加入縮放、剪切或平移，以打造更豐富的圖形，且在需要未旋轉的元素時記得重設矩陣。嘗試不同角度與複合變換，便能在任何 .NET 應用程式中創建動態視覺化效果。
 
 ---
 
-**最後更新：** 2026-05-03  
-**測試環境：** Aspose.Drawing 24.11 for .NET  
-**作者：** Aspose  
+**最後更新：** 2026-08-28  
+**測試版本：** Aspose.Drawing 24.11 for .NET  
+**作者：** Aspose
+
+## 相關教學
+
+- [如何使用 Aspose.Drawing API for .NET 繪製矩形 – 座標系統變換（頁面變換）](/drawing/net/coordinate-transformations/page-transformation/)
+- [矩陣變換教學：Aspose.Drawing for .NET 中的矩陣變換](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [逐步變換 – 座標變換](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

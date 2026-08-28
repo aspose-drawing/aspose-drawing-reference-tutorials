@@ -1,17 +1,50 @@
 ---
-date: 2026-05-03
-description: Aspose.Drawing global transformation .NET kullanarak görüntüyü nasıl
-  döndüreceğinizi ve döndürülmüş elips çizeceğinizi öğrenin. Çarpıcı grafikler için
-  adım adım rehberimizi izleyin.
+date: 2026-08-28
+description: Aspose.Drawing'ın .NET'teki global transformation'ını kullanarak rotated
+  ellipse çizmeyi ve rotate images işlemini öğrenin. high‑quality graphics için adım‑adım
+  rehberimizi izleyin.
 keywords:
-- how to rotate image
 - draw rotated ellipse
+- set global rotation
+- transformation matrix graphics
 - global transformation .net
-- apply rotation transform
-- graphics rotatetransform example
-linktitle: Aspose.Drawing for .NET'te Küresel Dönüşüm
+- rotate image without affecting
+lastmod: 2026-08-28
+linktitle: Aspose.Drawing için .NET'te Global Transformation
+og_description: Aspose.Drawing'ın .NET'teki global transformation'ını kullanarak rotated
+  ellipse çizin ve rotate images yapın. Bu öğreticide adım‑adım kod ve high‑quality
+  graphics için ipuçları gösterilmektedir.
+og_image_alt: Screenshot of rotated ellipse created with Aspose.Drawing global transformation
+og_title: Aspose.Drawing ile rotated ellipse çiz – global transformation rehberi
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to draw rotated ellipse and rotate images using Aspose.Drawing's
+    global transformation in .NET. Follow our step‑by‑step guide for high‑quality
+    graphics.
+  headline: How to draw rotated ellipse with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Drawing runs on .NET Core, .NET 5, .NET 6 and later versions.
+    question: Is Aspose.Drawing compatible with .NET Core?
+  - answer: Absolutely. You can chain `graphics.RotateTransform`, `graphics.ScaleTransform`,
+      and `graphics.TranslateTransform` to build a composite matrix.
+    question: Can I apply multiple global transformations to a single graphics context?
+  - answer: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      for a wealth of community‑shared samples and discussions.
+    question: Where can I find more tutorials and examples for Aspose.Drawing?
+  - answer: Yes, you can explore a free trial of Aspose.Drawing [Aspose.Drawing free
+      trial download](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Drawing?
+  - answer: Obtain a temporary license for Aspose.Drawing [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Aspose.Drawing Küresel Dönüşüm ile Görüntüyü Döndürme
+tags:
+- draw rotated ellipse
+- Aspose.Drawing
+- .NET graphics
+title: Aspose.Drawing ile döndürülmüş elips nasıl çizilir
 url: /tr/net/coordinate-transformations/global-transformation/
 weight: 10
 ---
@@ -20,46 +53,43 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing Global Transformation ile Görüntüyü Döndürme
+# Aspose.Drawing ile Döndürülmüş Elips Çizme
 
 ## Giriş
 
-Hoş geldiniz! Bu öğreticide Aspose.Drawing for .NET'in global dönüşüm özelliğini kullanarak **how to rotate image** nesnelerini nasıl döndüreceğinizi keşfedeceksiniz. Global dönüşüm, her çizim işlemi için tek bir dönüşüm matrisini uygulamanıza olanak tanır; bu, minimal kodla sofistike görsel efektler oluşturmak için mükemmeldir. Kılavuzun sonunda aynı dönüşümü miras alan **how to draw ellipse** şekillerini de göreceksiniz, bu da karmaşık grafikler oluşturmak için sağlam bir temel sağlar.
-
-## Global Dönüşüm Kullanarak Görüntüyü Döndürme
-
-Global dönüşüm yaklaşımı, dönüşümü bir kez ayarladığınızda, ardından gelen her çizim çağrısının—ister bir görüntü, ister bir şekil, ister metin olsun—otomatik olarak bu dönüşümü dikkate alması anlamına gelir. Bu, her öğeyi ayrı ayrı döndürmek zorunda kalmanızı önler ve kodunuzu temiz ve sürdürülebilir tutar.
+Bu rehberde **döndürülmüş elips nasıl çizilir** ve Aspose.Drawing for .NET'te bir **global dönüşüm** matrisi uygulayarak görüntüleri nasıl döndürürsünüz öğreneceksiniz. Global dönüşüm, tek bir matrisin sonraki tüm çizim çağrılarını otomatik olarak uygulamasına olanak tanır, böylece kodunuzu düzenli tutarken karmaşık görsel efektler oluşturabilirsiniz. Öğreticinin sonunda, diğer grafiklerin etkilenmemesi için dönüşümü nasıl sıfırlayacağınızı da anlayacaksınız.
 
 ## Hızlı Yanıtlar
-- **What does “global transformation” mean?** Tek bir matris, sonraki tüm çizim komutlarını etkiler.  
-- **Can I rotate an image without affecting other objects?** Evet – dönüşümü uygula, çiz, ardından sıfırla veya ayrı bir grafik bağlamı kullan.  
-- **Which namespace is required?** `System.Drawing` (Aspose.Drawing tarafından sağlanır).  
-- **Do I need a license for development?** Ücretsiz deneme öğrenme için çalışır; üretim için ticari lisans gereklidir.  
-- **Is this supported on .NET Core / .NET 6+?** Kesinlikle – Aspose.Drawing çapraz platformdur.
+- **Global dönüşüm nedir?** Ayarlandıktan sonra verilen tüm çizim komutlarına otomatik olarak uygulanan tek bir matristir.  
+- **Diğer nesneleri etkilemeden bir görüntüyü döndürebilir miyim?** Evet – döndürülmüş öğeyi çizin, ardından `graphics.ResetTransform()` çağırarak orijinal duruma geri dönün.  
+- **Hangi ad alanı API'yi sağlar?** `System.Drawing`, Aspose.Drawing paketi aracılığıyla sunulur.  
+- **Üretim için lisansa ihtiyacım var mı?** Öğrenme için ücretsiz deneme yeterlidir; üretim dağıtımları için ticari lisans gereklidir.  
+- **Kütüphane çapraz platform mu?** Kesinlikle – Aspose.Drawing .NET Core, .NET 5, .NET 6 ve sonrası üzerinde çalışır.
 
-## Ön Koşullar
+## Global dönüşüm nedir?
 
-Aspose.Drawing ile global dönüşümün heyecan verici dünyasına dalmadan önce, aşağıdaki ön koşulların yerine getirildiğinden emin olun:
+**Global dönüşüm**, bir `Graphics` nesnesine uygulandığında, matris değiştirildiği veya sıfırlandığı ana kadar sonraki tüm çizim işlemlerini etkileyen bir dönüşüm matrisidir. Her çizilen öğenin koordinatlarını çarparak çalışır, böylece her bir nesneyi ayrı ayrı değiştirmeden tüm nesneleri aynı anda döndürebilir, ölçeklendirebilir, çevirebilir veya kaydırabilirsiniz.
 
-- Aspose.Drawing Kütüphanesi: Aspose.Drawing kütüphanesini indirin ve kurun. Kütüphaneyi ve belgelerini [burada](https://reference.aspose.com/drawing/net/) bulabilirsiniz.
+## Neden global dönüşüm kullanmalı?
 
-- Geliştirme Ortamı: .NET için çalışan bir geliştirme ortamınızın olduğundan emin olun.
+Global bir döndürme uygulamak, tek bir çağrıyla birçok nesneyi döndürmenizi sağlar; bu da **tutarlılığı** artırır, **CPU yükünü** azaltır (daha az matris hesabı) ve ölçekleme, çevirme ve kaydırmanın **esnek bir bileşimini** mümkün kılar. Aspose.Drawing, **10 000 × 10 000 px** kadar büyük görüntüleri işleyebilir ve **30+** raster ve vektör formatını destekler; geçici dosyalara ihtiyaç duymadan bellekte işler.
 
-Temel konuları ele aldığımıza göre, uygulamaya geçelim!
+## Önkoşullar
 
-## Ad Alanlarını İçe Aktarma
+- **Aspose.Drawing kütüphanesi** – resmi referans sitesinden indirin: [Aspose.Drawing .NET reference](https://reference.aspose.com/drawing/net/).  
+- **.NET geliştirme ortamı** – Visual Studio 2022, VS Code veya .NET 6+ destekleyen herhangi bir IDE.
 
-Kod yazmaya başlamadan önce, Aspose.Drawing tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktarmak önemlidir. Aşağıdaki ad alanlarını kodunuza ekleyin:
+## Ad alanlarını içe aktar
+
+`System.Drawing` ad alanı (Aspose.Drawing tarafından sağlanır) kullanacağınız temel grafik türlerini içerir.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Global Dönüşüm ile Görüntüyü Döndürme
+## Global dönüşüm kullanarak görüntüyü nasıl döndürürüm
 
-İlk gerçek adım, bir tuval (bir `Bitmap`) oluşturmak ve ondan bir `Graphics` nesnesi almaktır. Bu grafik bağlamı, ardından çizeceğiniz her şeyi döndüren global dönüşümü tutacaktır.
-
-### Adım 1: Bitmap ve Graphics Bağlamı Oluşturma
+`Bitmap` yükleyin, onun `Graphics` nesnesini alın ve ardından `graphics.RotateTransform` kullanarak bir döndürme matrisi ayarlayın. Dönüşüm uygulandıktan sonra, başka bir görüntü, şekil veya metin çizmek gibi herhangi bir çizim işlemi belirtilen döndürme ile renderlanacaktır. Son olarak, bitmap'i kaydederek global olarak döndürülmüş içeriği kalıcı hale getirin.
 
 ```csharp
 // Create a Bitmap with specified width, height, and pixel format
@@ -72,18 +102,22 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Adım 2: Döndürme Dönüşümünü Uygula (15° Döndür)
+## Adım 1: bitmap ve grafik bağlamı oluşturma
 
-Şimdi, **how to rotate image** işlemlerini global olarak etkileyecek döndürmeyi uyguluyoruz. `RotateTransform` yöntemi, mevcut dönüşüm matrisine 15 derece döndürme ekler.
+`Bitmap`, bellekteki bir görüntüyü temsil eder, `Graphics` ise çizim yüzeyini sağlar.  
+
+`Bitmap`, PNG veya JPEG gibi yaygın görüntü formatlarına kaydedilebilen piksel tabanlı bir konteynerdir.  
+
+`Graphics`, bitmap üzerine şekil, metin veya diğer görüntüleri çizebileceğiniz bir tuvaldir.
 
 ```csharp
 // Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
 
-### Adım 3: Döndürmeden Sonra Döndürülmüş Elips Çizme
+## Adım 2: döndürme dönüşümünü uygula (15° döndür)
 
-Döndürme yerinde olduğunda, çizdiğiniz herhangi bir şekil—elips dahil—döndürülmüş olarak görünecektir. Bu, **how to draw ellipse**'i global dönüşümü dikkate alarak gösterir ve aynı zamanda ikinci anahtar kelime *draw rotated ellipse*'i karşılar.
+`RotateTransform`, mevcut matrise 15 derece döndürme ekler. Metot, `Graphics` nesnesinin iç dönüşüm matrisini günceller ve sonrasında çizilen her şeyi etkiler.
 
 ```csharp
 // Create a Pen with specified color and width
@@ -93,57 +127,64 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-### Adım 4: Sonucu Kaydet
+## Adım 3: döndürmeden sonra döndürülmüş elipsi çiz
 
-Global dönüşümü uygulayıp şekillerinizi çizdiğinizde, görüntüyü diske kaydetme zamanı gelmiştir.
+Döndürme matrisi zaten aktif olduğu için `DrawEllipse` çağrısı otomatik olarak döndürülmüş bir elips üretir. Bu, global dönüşümü korurken **döndürülmüş elips nasıl çizilir** gösterir.
 
 ```csharp
 // Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
 
-## Neden Global Dönüşüm Kullanmalı?
+## Adım 4: sonucu kaydet
 
-- **Consistency** – Tek bir dönüşüm, her çizim çağrısına uygulanır, her nesneyi ayrı ayrı döndürme ihtiyacını ortadan kaldırır.  
-- **Performance** – Manuel olarak yönetmeniz gereken matris hesaplamalarının sayısını azaltır.  
-- **Flexibility** – Karmaşık efektler için döndürme, ölçekleme ve çevirme işlemlerini kolayca birleştirir.
+Çizimden sonra, görüntüyü kalıcı hale getirmek için `bitmap.Save` çağırın. Kaydedilen dosya, hem görüntüye hem de elipse uygulanan global döndürmeyi yansıtır.
 
-## Gerçek Dünya Senaryolarında Döndürme Dönüşümünü Uygulama
+## Global dönüşüm kullanmanın faydaları
 
-Sensör verilerini dönen göstergeler olarak görselleştiren bir kontrol paneli oluşturduğunuzu ya da bir oyunun merkez noktası etrafında sprite'ları döndürmesi gerektiğini hayal edin. **apply rotation transform** tekniğini kullanmak, döndürme kodunu bir kez yazıp geri kalanını grafik motorunun halletmesi anlamına gelir. Bu desen, daha fazla öğe ekledikçe güzel bir şekilde ölçeklenir—her yeni şekil otomatik olarak aynı dönüşümü miras alır.
+Tek bir matrisi bir kez yükleyip yeniden kullanmak, tekrarlayan kodu ortadan kaldırır ve her görsel öğenin aynı yönelimi paylaşmasını sağlar; bu, senkronize kalması gereken panolar, göstergeler veya oyun sprite'ları için kritik öneme sahiptir.
 
-## Graphics RotateTransform Örneği – Yaygın Tuzaklar ve İpuçları
+## Gerçek dünya senaryolarında döndürme dönüşümünü uygula
 
-- **Resetting the Transform:** Daha sonra döndürülmemiş öğeler çizmeniz gerekiyorsa, bu çizim çağrılarından önce `graphics.ResetTransform()` metodunu çağırın.  
-- **Order Matters:** Dönüşümler, eklendikleri sırayla uygulanır; çevirme işleminden önce döndürmek, tersine göre farklı sonuçlar verir.  
-- **Pixel Format:** `Format32bppPArgb` kullanmak, yüksek kaliteli alfa karışımını sağlar; bu, döndürülmüş şekiller için önemlidir.
+Birden fazla göstergenin ortak bir merkez etrafında döndüğü bir telemetri panosu ya da kullanıcının yön değiştirdiğinde simgelerin birlikte dönmesi gereken bir UI hayal edin. **Döndürme dönüşümünü uygula** tek seferde kullanarak, öğe başına hesaplamalardan kaçınır ve her karede onlarca nesne renderlansa bile UI'nın yanıt vermesini sağlarsınız.
+
+## Graphics RotateTransform örneği – yaygın tuzaklar ve ipuçları
+
+- **Dönüşümü sıfırla**: Döndürülmemesi gereken öğeleri çizmeye başlamadan önce `graphics.ResetTransform()` çağırın.  
+- **Sıra önemlidir**: Çevirmeden önce çevirme, çevirme öncesi çevirme farklı bir görsel sonuç verir.  
+- **Piksel formatı**: `PixelFormat.Format32bppPArgb` kullanmak, döndürülmüş şekiller için yüksek kaliteli alfa karışımı sağlar.
 
 ## Sıkça Sorulan Sorular
 
-**Q: Aspose.Drawing .NET Core ile uyumlu mu?**  
-A: Evet, Aspose.Drawing .NET Core, .NET 5, .NET 6 ve sonraki sürümlerle tamamen uyumludur.
+**S: Aspose.Drawing .NET Core ile uyumlu mu?**  
+C: Evet, Aspose.Drawing .NET Core, .NET 5, .NET 6 ve sonraki sürümlerde çalışır.
 
-**Q: Tek bir graphics bağlamına birden fazla global dönüşüm uygulayabilir miyim?**  
-A: Kesinlikle! `graphics.RotateTransform`, `graphics.ScaleTransform` ve `graphics.TranslateTransform` gibi çağrıları zincirleyerek birleşik bir matris oluşturabilirsiniz.
+**S: Tek bir grafik bağlamına birden fazla global dönüşüm uygulayabilir miyim?**  
+C: Kesinlikle. `graphics.RotateTransform`, `graphics.ScaleTransform` ve `graphics.TranslateTransform` zincirleyerek birleşik bir matris oluşturabilirsiniz.
 
-**Q: Aspose.Drawing için daha fazla öğretici ve örnek nerede bulunabilir?**  
-A: Bol miktarda öğretici, örnek ve topluluk tartışması için [Aspose.Drawing forumunu](https://forum.aspose.com/c/drawing/44) ziyaret edin.
+**S: Aspose.Drawing için daha fazla öğretici ve örnek nerede bulunur?**  
+C: Topluluk tarafından paylaşılan çok sayıda örnek ve tartışma için [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) adresini ziyaret edin.
 
-**Q: Aspose.Drawing için ücretsiz deneme mevcut mu?**  
-A: Evet, Aspose.Drawing'in ücretsiz denemesini [burada](https://releases.aspose.com/) keşfedebilirsiniz.
+**S: Aspose.Drawing için ücretsiz deneme mevcut mu?**  
+C: Evet, Aspose.Drawing'in ücretsiz denemesini keşfedebilirsiniz: [Aspose.Drawing free trial download](https://releases.aspose.com/).
 
-**Q: Aspose.Drawing için geçici bir lisans nasıl alabilirim?**  
-A: Aspose.Drawing için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+**S: Aspose.Drawing için geçici bir lisans nasıl alabilirim?**  
+C: Aspose.Drawing için geçici bir lisans alın: [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## Sonuç
 
-Bu rehberde Aspose.Drawing'in global dönüşüm özelliğini kullanarak **how to rotate image** işlemini nasıl yapacağınızı ve otomatik olarak dönüşümü miras alan **how to draw ellipse**'i nasıl çizeceğinizi ele aldık. Bu teknikler, herhangi bir .NET uygulamasında sofistike grafikler oluşturmanın kapılarını açar. Ek dönüşümler—ölçekleme, kaydırma veya birden fazla döndürmeyi zincirleme—ile deney yaparak daha fazla görsel olasılık keşfedin.
+Artık **döndürülmüş elips nasıl çizilir** ve Aspose.Drawing'in global dönüşüm özelliğiyle görüntüleri nasıl döndürürsünüz biliyorsunuz. Daha zengin grafikler için aynı deseni ölçekleme, kaydırma veya çevirme eklemek için kullanın ve döndürülmemiş öğelere ihtiyaç duyduğunuzda matrisi sıfırlamayı unutmayın. Farklı açı ve birleşik dönüşümlerle deney yaparak herhangi bir .NET uygulamasında dinamik görselleştirmeler oluşturun.
 
----
+**Son Güncelleme:** 2026-08-28  
+**Test Edilen Versiyon:** Aspose.Drawing 24.11 for .NET  
+**Yazar:** Aspose
 
-**Last Updated:** 2026-05-03  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+## İlgili Öğreticiler
+
+- [Nasıl Dikdörtgen Çizilir – Koordinat Sistemi Dönüşümü (Sayfa Dönüşümü) Aspose.Drawing API for .NET kullanarak](/drawing/net/coordinate-transformations/page-transformation/)
+- [Matris Dönüşümü Öğreticisi: Aspose.Drawing for .NET'te Matris Dönüşümleri](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [Adım Adım Dönüşüm – Koordinat Dönüşümleri](/drawing/net/coordinate-transformations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

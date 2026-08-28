@@ -1,17 +1,50 @@
 ---
-date: 2026-05-03
-description: Naucz się obracać obraz i rysować obróconą elipsę przy użyciu globalnej
-  transformacji Aspose.Drawing w .NET. Postępuj zgodnie z naszym przewodnikiem krok
-  po kroku, aby uzyskać zachwycające grafiki.
+date: 2026-08-28
+description: Dowiedz się, jak narysować obróconą elipsę i obracać obrazy przy użyciu
+  globalnej transformacji Aspose.Drawing w .NET. Postępuj zgodnie z naszym przewodnikiem
+  krok po kroku, aby uzyskać grafikę wysokiej jakości.
 keywords:
-- how to rotate image
 - draw rotated ellipse
+- set global rotation
+- transformation matrix graphics
 - global transformation .net
-- apply rotation transform
-- graphics rotatetransform example
+- rotate image without affecting
+lastmod: 2026-08-28
 linktitle: Globalna transformacja w Aspose.Drawing dla .NET
+og_description: Rysuj obróconą elipsę i obracaj obrazy przy użyciu globalnej transformacji
+  Aspose.Drawing w .NET. Ten tutorial prezentuje kod krok po kroku oraz wskazówki
+  dotyczące grafiki wysokiej jakości.
+og_image_alt: Screenshot of rotated ellipse created with Aspose.Drawing global transformation
+og_title: Rysowanie obróconej elipsy w Aspose.Drawing – przewodnik po globalnej transformacji
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to draw rotated ellipse and rotate images using Aspose.Drawing's
+    global transformation in .NET. Follow our step‑by‑step guide for high‑quality
+    graphics.
+  headline: How to draw rotated ellipse with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Drawing runs on .NET Core, .NET 5, .NET 6 and later versions.
+    question: Is Aspose.Drawing compatible with .NET Core?
+  - answer: Absolutely. You can chain `graphics.RotateTransform`, `graphics.ScaleTransform`,
+      and `graphics.TranslateTransform` to build a composite matrix.
+    question: Can I apply multiple global transformations to a single graphics context?
+  - answer: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      for a wealth of community‑shared samples and discussions.
+    question: Where can I find more tutorials and examples for Aspose.Drawing?
+  - answer: Yes, you can explore a free trial of Aspose.Drawing [Aspose.Drawing free
+      trial download](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Drawing?
+  - answer: Obtain a temporary license for Aspose.Drawing [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Jak obrócić obraz przy użyciu globalnej transformacji Aspose.Drawing
+tags:
+- draw rotated ellipse
+- Aspose.Drawing
+- .NET graphics
+title: Jak narysować obróconą elipsę przy użyciu Aspose.Drawing
 url: /pl/net/coordinate-transformations/global-transformation/
 weight: 10
 ---
@@ -20,36 +53,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak obrócić obraz przy użyciu globalnej transformacji Aspose.Drawing
+# Jak narysować obrócony elipsę za pomocą Aspose.Drawing
 
 ## Wprowadzenie
 
-Witamy! W tym samouczku odkryjesz **how to rotate image** obiektów przy użyciu funkcji globalnej transformacji Aspose.Drawing dla .NET. Globalna transformacja pozwala zastosować jedną macierz transformacji do każdej operacji rysowania, co jest idealne do tworzenia zaawansowanych efektów wizualnych przy minimalnym kodzie. Pod koniec tego przewodnika zobaczysz również **how to draw ellipse** kształty, które dziedziczą tę samą rotację, dając solidne podstawy do budowania złożonej grafiki.
-
-## Jak obrócić obraz przy użyciu globalnej transformacji
-
-Podejście globalnej transformacji oznacza, że ustawiasz rotację raz, a następnie każde kolejne wywołanie rysowania — niezależnie od tego, czy jest to obraz, kształt czy tekst — automatycznie respektuje tę rotację. Dzięki temu nie musisz obracać każdego elementu osobno i utrzymujesz kod czystym oraz łatwym w utrzymaniu.
-
 ## Szybkie odpowiedzi
-- **What does “global transformation” mean?** Pojedyncza macierz, która wpływa na wszystkie kolejne polecenia rysowania.  
-- **Can I rotate an image without affecting other objects?** Tak – zastosuj transformację, rysuj, a następnie zresetuj lub użyj osobnego kontekstu graficznego.  
-- **Which namespace is required?** `System.Drawing` (dostarczany przez Aspose.Drawing).  
-- **Do I need a license for development?** Darmowa wersja próbna wystarczy do nauki; licencja komercyjna jest wymagana w produkcji.  
-- **Is this supported on .NET Core / .NET 6+?** Absolutnie – Aspose.Drawing jest wieloplatformowy.
+- **Czym jest globalna transformacja?** Jest to pojedyncza macierz, która automatycznie stosuje się do wszystkich poleceń rysowania wydanych po jej ustawieniu.  
+- **Czy mogę obrócić obraz bez wpływu na inne obiekty?** Tak – narysuj obrócony element, a następnie wywołaj `graphics.ResetTransform()`, aby powrócić do pierwotnego stanu.  
+- **Która przestrzeń nazw udostępnia API?** `System.Drawing` jest udostępniona przez pakiet Aspose.Drawing.  
+- **Czy potrzebuję licencji do produkcji?** Darmowa wersja próbna wystarczy do nauki; licencja komercyjna jest wymagana przy wdrożeniach produkcyjnych.  
+- **Czy biblioteka jest wieloplatformowa?** Zdecydowanie – Aspose.Drawing działa na .NET Core, .NET 5, .NET 6 i nowszych.
+
+## Czym jest globalna transformacja?
+
+**globalna transformacja** to macierz transformacji, która po zastosowaniu do obiektu `Graphics` wpływa na każdą kolejną operację rysowania, aż do zmiany lub zresetowania macierzy. Działa poprzez mnożenie współrzędnych każdego rysowanego elementu, umożliwiając obracanie, skalowanie, przesuwanie lub ścinanie wszystkich obiektów jednocześnie, bez konieczności modyfikowania każdego z osobna.
+
+## Dlaczego używać globalnej transformacji?
+
+Zastosowanie globalnego obrotu pozwala obrócić wiele obiektów jednym wywołaniem, co poprawia **spójność**, zmniejsza **obciążenie CPU** (mniej obliczeń macierzy) i umożliwia **elastyczną kompozycję** skalowania, przesuwania i ścinania. Aspose.Drawing może obsługiwać obrazy do **10 000 × 10 000 px** i wspiera **30+** formatów rastrowych i wektorowych, przetwarzając je w pamięci bez potrzeby plików tymczasowych.
 
 ## Wymagania wstępne
 
-Zanim zanurkujemy w ekscytujący świat globalnej transformacji z Aspose.Drawing, upewnij się, że masz spełnione następujące wymagania:
-
-- Aspose.Drawing Library: Pobierz i zainstaluj bibliotekę Aspose.Drawing. Bibliotekę i jej dokumentację znajdziesz [tutaj](https://reference.aspose.com/drawing/net/).
-
-- Development Environment: Upewnij się, że masz działające środowisko programistyczne dla .NET.
-
-Teraz, gdy podstawy są już omówione, przejdźmy do implementacji!
+- **Biblioteka Aspose.Drawing** – pobierz ją z oficjalnej strony referencyjnej [Aspose.Drawing .NET reference](https://reference.aspose.com/drawing/net/).  
+- **Środowisko programistyczne .NET** – Visual Studio 2022, VS Code lub dowolne IDE obsługujące .NET 6+.
 
 ## Importowanie przestrzeni nazw
 
-Zanim zaczniesz pisać kod, konieczne jest zaimportowanie niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności dostarczanej przez Aspose.Drawing. Dodaj następujące przestrzenie nazw do swojego kodu:
+Przestrzeń nazw `System.Drawing` (dostarczana przez Aspose.Drawing) zawiera podstawowe typy graficzne, których będziesz używać.
 
 ```csharp
 using System.Drawing;
@@ -57,9 +87,7 @@ using System.Drawing;
 
 ## Jak obrócić obraz przy użyciu globalnej transformacji
 
-Pierwszym prawdziwym krokiem jest stworzenie płótna (obiektu `Bitmap`) i uzyskanie z niego obiektu `Graphics`. Ten kontekst graficzny będzie przechowywać globalną transformację, która obraca wszystko, co zostanie narysowane później.
-
-### Krok 1: Utwórz Bitmap i kontekst graficzny
+Załaduj `Bitmap`, uzyskaj jego obiekt `Graphics`, a następnie ustaw macierz obrotu za pomocą `graphics.RotateTransform`. Po zastosowaniu transformacji każda operacja rysowania — np. rysowanie kolejnego obrazu, kształtów lub tekstu — zostanie wykonana z określonym obrotem. Na końcu zapisz bitmapę, aby zachować globalnie obrócony zawartość.
 
 ```csharp
 // Create a Bitmap with specified width, height, and pixel format
@@ -72,18 +100,22 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Krok 2: Zastosuj transformację rotacji (Obróć o 15°)
+## Krok 1: utwórz bitmapę i kontekst graficzny
 
-Teraz stosujemy rotację, która globalnie wpłynie na operacje **how to rotate image**. Metoda `RotateTransform` dodaje rotację o 15 stopni do bieżącej macierzy transformacji.
+`Bitmap` reprezentuje obraz w pamięci, natomiast `Graphics` zapewnia powierzchnię rysowania.  
+
+`Bitmap` jest kontenerem opartym na pikselach, który można zapisać w popularnych formatach obrazów, takich jak PNG lub JPEG.  
+
+`Graphics` to płótno, które pozwala rysować kształty, tekst lub inne obrazy na bitmapie.
 
 ```csharp
 // Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
 
-### Krok 3: Narysuj obrócony elipsę po rotacji
+## Krok 2: zastosuj transformację obrotu (obróć o 15°)
 
-Przy zastosowanej rotacji każdy kształt, który narysujesz — w tym elipsę — będzie wyglądał na obrócony. To pokazuje **how to draw ellipse**, respektując globalną transformację i jednocześnie spełnia drugie słowo kluczowe *draw rotated ellipse*.
+`RotateTransform` dodaje obrót o 15 stopni do bieżącej macierzy. Metoda aktualizuje wewnętrzną macierz transformacji obiektu `Graphics`, wpływając na wszystko, co zostanie narysowane później.
 
 ```csharp
 // Create a Pen with specified color and width
@@ -93,57 +125,66 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-### Krok 4: Zapisz wynik
+## Krok 3: narysuj obrócony elipsę po obrocie
 
-Po zastosowaniu globalnej transformacji i narysowaniu kształtów, nadszedł czas, aby zapisać obraz na dysku.
+Ponieważ macierz obrotu jest już aktywna, wywołanie `DrawEllipse` tworzy elipsę, która jest automatycznie obrócona. To pokazuje **jak narysować obrócony elipsę**, zachowując globalną transformację.
 
 ```csharp
 // Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
 
-## Dlaczego używać globalnej transformacji?
+## Krok 4: zapisz wynik
 
-- **Consistency** – Jedna transformacja stosowana jest do każdego wywołania rysowania, eliminując potrzebę obracania każdego obiektu osobno.  
-- **Performance** – Redukuje liczbę obliczeń macierzy, które musisz zarządzać ręcznie.  
-- **Flexibility** – Łatwo łączyć rotację, skalowanie i translację w celu uzyskania złożonych efektów.
+Po rysowaniu wywołaj `bitmap.Save`, aby zapisać obraz. Zapisany plik odzwierciedla globalny obrót zastosowany zarówno do obrazu, jak i elipsy.
 
-## Zastosowanie transformacji rotacji w rzeczywistych scenariuszach
+## Korzyści z używania globalnej transformacji
 
-Wyobraź sobie, że tworzysz pulpit nawigacyjny wizualizujący dane czujników jako obracające się wskaźniki, lub grę, w której trzeba obracać sprite'y wokół centralnego punktu. Użycie techniki **apply rotation transform** oznacza, że napiszesz kod rotacji raz i pozwolisz silnikowi graficznemu zająć się resztą. Ten wzorzec pięknie skaluje się w miarę dodawania kolejnych elementów — każdy nowy kształt automatycznie dziedziczy tę samą rotację.
+Załadowanie jednej macierzy raz i jej ponowne użycie eliminuje powtarzalny kod i zapewnia, że każdy element wizualny ma dokładnie taką samą orientację, co jest kluczowe dla pulpitów nawigacyjnych, wskaźników lub sprite'ów w grach, które muszą być zsynchronizowane.
+
+## Zastosowanie transformacji obrotu w rzeczywistych scenariuszach
+
+Wyobraź sobie pulpit telemetryczny, w którym kilka wskaźników obraca się wokół wspólnego środka, lub interfejs użytkownika, w którym ikony muszą obracać się razem, gdy użytkownik zmienia orientację. Używając **apply rotation transform** raz, unikasz obliczeń dla każdego elementu i utrzymujesz responsywność UI, nawet gdy dziesiątki obiektów są renderowane w każdej klatce.
 
 ## Przykład Graphics RotateTransform – typowe pułapki i wskazówki
 
-- **Resetting the Transform:** Jeśli później musisz narysować elementy nieobrócone, wywołaj `graphics.ResetTransform()` przed tymi wywołaniami rysowania.  
-- **Order Matters:** Transformacje są stosowane w kolejności, w jakiej zostały dodane; obracanie przed translacją daje inne wyniki niż odwrotnie.  
-- **Pixel Format:** Użycie `Format32bppPArgb` zapewnia wysokiej jakości mieszanie alfa, co jest ważne dla obróconych kształtów.
+- **Resetowanie transformacji**: Wywołaj `graphics.ResetTransform()` przed rysowaniem elementów, które mają pozostać nieobrócone.  
+- **Kolejność ma znaczenie**: Obrót przed przesunięciem daje inny efekt wizualny niż przesunięcie przed obrotem.  
+- **Format pikseli**: Użycie `PixelFormat.Format32bppPArgb` zapewnia wysokiej jakości mieszanie alfa dla obróconych kształtów.
 
 ## Najczęściej zadawane pytania
 
 **Q: Czy Aspose.Drawing jest kompatybilny z .NET Core?**  
-A: Tak, Aspose.Drawing jest w pełni kompatybilny z .NET Core, .NET 5, .NET 6 i późniejszymi wersjami.
+A: Tak, Aspose.Drawing działa na .NET Core, .NET 5, .NET 6 i nowszych wersjach.
 
 **Q: Czy mogę zastosować wiele globalnych transformacji do jednego kontekstu graficznego?**  
-A: Absolutnie! Możesz łączyć wywołania takie jak `graphics.RotateTransform`, `graphics.ScaleTransform` i `graphics.TranslateTransform`, aby zbudować macierz kompozytową.
+A: Zdecydowanie. Możesz łączyć `graphics.RotateTransform`, `graphics.ScaleTransform` i `graphics.TranslateTransform`, aby zbudować macierz kompozytową.
 
-**Q: Gdzie mogę znaleźć więcej samouczków i przykładów dla Aspose.Drawing?**  
-A: Odwiedź [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44), aby uzyskać mnóstwo samouczków, przykładów i dyskusji społecznościowych.
+**Q: Gdzie mogę znaleźć więcej tutoriali i przykładów dla Aspose.Drawing?**  
+A: Odwiedź [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44), aby uzyskać mnóstwo przykładów i dyskusji udostępnianych przez społeczność.
 
 **Q: Czy dostępna jest darmowa wersja próbna Aspose.Drawing?**  
-A: Tak, możesz wypróbować darmową wersję próbną Aspose.Drawing [tutaj](https://releases.aspose.com/).
+A: Tak, możesz wypróbować darmową wersję próbną Aspose.Drawing [Aspose.Drawing free trial download](https://releases.aspose.com/).
 
 **Q: Jak mogę uzyskać tymczasową licencję dla Aspose.Drawing?**  
-A: Uzyskaj tymczasową licencję dla Aspose.Drawing [tutaj](https://purchase.aspose.com/temporary-license/).
+A: Uzyskaj tymczasową licencję dla Aspose.Drawing [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-## Zakończenie
+## Podsumowanie
 
-W tym przewodniku omówiliśmy **how to rotate image** przy użyciu funkcji globalnej transformacji Aspose.Drawing oraz zademonstrowaliśmy **how to draw ellipse**, które automatycznie dziedziczy rotację. Te techniki otwierają drzwi do zaawansowanego tworzenia grafiki w dowolnej aplikacji .NET. Eksperymentuj z dodatkowymi transformacjami — skalowaniem, ścinaniem lub łączeniem wielu rotacji — aby odblokować jeszcze więcej możliwości wizualnych.
+Teraz wiesz **jak narysować obrócony elipsę** i obracać obrazy przy użyciu funkcji globalnej transformacji w Aspose.Drawing. Użyj tego samego wzorca, aby dodać skalowanie, ścinanie lub przesunięcie dla bardziej zaawansowanej grafiki i pamiętaj o resetowaniu macierzy, gdy potrzebujesz nieobróconych elementów. Eksperymentuj z różnymi kątami i transformacjami kompozytowymi, aby tworzyć dynamiczne wizualizacje w dowolnej aplikacji .NET.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-05-03  
-**Testowano z:** Aspose.Drawing 24.11 for .NET  
-**Autor:** Aspose  
+**Last Updated:** 2026-08-28  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+## Powiązane tutoriale
+
+- [Jak narysować prostokąt – Transformacja układu współrzędnych (Transformacja strony) przy użyciu Aspose.Drawing API dla .NET](/drawing/net/coordinate-transformations/page-transformation/)
+- [Tutorial Transformacji macierzy: Transformacje macierzy w Aspose.Drawing dla .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [Krok po kroku Transformacja – Transformacje współrzędnych](/drawing/net/coordinate-transformations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

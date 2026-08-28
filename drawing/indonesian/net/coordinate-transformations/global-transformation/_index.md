@@ -1,17 +1,50 @@
 ---
-date: 2026-05-03
-description: Pelajari cara memutar gambar dan menggambar elips berputar menggunakan
-  transformasi global Aspose.Drawing .NET. Ikuti panduan langkah demi langkah kami
-  untuk grafik yang menakjubkan.
+date: 2026-08-28
+description: Pelajari cara menggambar elips berputar dan memutar gambar menggunakan
+  transformasi global Aspose.Drawing di .NET. Ikuti panduan langkah demi langkah kami
+  untuk grafik berkualitas tinggi.
 keywords:
-- how to rotate image
 - draw rotated ellipse
+- set global rotation
+- transformation matrix graphics
 - global transformation .net
-- apply rotation transform
-- graphics rotatetransform example
-linktitle: Transformasi Global dalam Aspose.Drawing untuk .NET
+- rotate image without affecting
+lastmod: 2026-08-28
+linktitle: Transformasi Global di Aspose.Drawing untuk .NET
+og_description: Gambar elips berputar dan putar gambar menggunakan transformasi global
+  Aspose.Drawing di .NET. Tutorial ini menampilkan kode langkah demi langkah dan tips
+  untuk grafik berkualitas tinggi.
+og_image_alt: Screenshot of rotated ellipse created with Aspose.Drawing global transformation
+og_title: Menggambar elips berputar dengan Aspose.Drawing – panduan transformasi global
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to draw rotated ellipse and rotate images using Aspose.Drawing's
+    global transformation in .NET. Follow our step‑by‑step guide for high‑quality
+    graphics.
+  headline: How to draw rotated ellipse with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Drawing runs on .NET Core, .NET 5, .NET 6 and later versions.
+    question: Is Aspose.Drawing compatible with .NET Core?
+  - answer: Absolutely. You can chain `graphics.RotateTransform`, `graphics.ScaleTransform`,
+      and `graphics.TranslateTransform` to build a composite matrix.
+    question: Can I apply multiple global transformations to a single graphics context?
+  - answer: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      for a wealth of community‑shared samples and discussions.
+    question: Where can I find more tutorials and examples for Aspose.Drawing?
+  - answer: Yes, you can explore a free trial of Aspose.Drawing [Aspose.Drawing free
+      trial download](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Drawing?
+  - answer: Obtain a temporary license for Aspose.Drawing [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Cara Memutar Gambar dengan Transformasi Global Aspose.Drawing
+tags:
+- draw rotated ellipse
+- Aspose.Drawing
+- .NET graphics
+title: Cara menggambar elips berputar dengan Aspose.Drawing
 url: /id/net/coordinate-transformations/global-transformation/
 weight: 10
 ---
@@ -20,45 +53,43 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Memutar Gambar dengan Transformasi Global Aspose.Drawing
+# Cara menggambar elips berputar dengan Aspose.Drawing
 
 ## Pendahuluan
 
-Selamat datang! Dalam tutorial ini Anda akan menemukan **how to rotate image** objek menggunakan fitur transformasi global Aspose.Drawing untuk .NET. Transformasi global memungkinkan Anda menerapkan satu matriks transformasi ke setiap operasi menggambar, yang sempurna untuk membuat efek visual yang canggih dengan kode minimal. Pada akhir panduan ini Anda juga akan melihat **how to draw ellipse** bentuk yang mewarisi rotasi yang sama, memberikan dasar yang kuat untuk membangun grafik yang kompleks.
-
-## Cara Memutar Gambar Menggunakan Transformasi Global
-
-Pendekatan transformasi global berarti Anda mengatur rotasi satu kali, kemudian setiap panggilan menggambar berikutnya—baik itu gambar, bentuk, atau teks—secara otomatis menghormati rotasi tersebut. Ini menghemat Anda dari harus memutar setiap elemen secara terpisah dan menjaga kode Anda tetap bersih serta mudah dipelihara.
+Dalam panduan ini Anda akan belajar **cara menggambar elips berputar** dan memutar gambar dengan menerapkan matriks **transformasi global** di Aspose.Drawing untuk .NET. Transformasi global memungkinkan satu matriks memengaruhi setiap panggilan menggambar berikutnya, sehingga Anda dapat menjaga kode tetap rapi sambil menciptakan efek visual yang canggih. Pada akhir tutorial Anda juga akan memahami cara mengatur ulang transformasi sehingga grafik lain tidak terpengaruh.
 
 ## Jawaban Cepat
-- **What does “global transformation” mean?** Satu matriks yang memengaruhi semua perintah menggambar berikutnya.  
-- **Can I rotate an image without affecting other objects?** Ya – terapkan transformasi, gambar, kemudian reset atau gunakan konteks grafis terpisah.  
-- **Which namespace is required?** `System.Drawing` (provided by Aspose.Drawing).  
-- **Do I need a license for development?** Versi percobaan gratis cukup untuk belajar; lisensi komersial diperlukan untuk produksi.  
-- **Is this supported on .NET Core / .NET 6+?** Tentu – Aspose.Drawing bersifat lintas‑platform.
+- **Apa itu transformasi global?** Itu adalah satu matriks yang secara otomatis diterapkan pada semua perintah menggambar yang dikeluarkan setelah diatur.  
+- **Apakah saya dapat memutar gambar tanpa memengaruhi objek lain?** Ya – gambar elemen yang diputar, lalu panggil `graphics.ResetTransform()` untuk kembali ke keadaan semula.  
+- **Namespace mana yang menyediakan API?** `System.Drawing` disediakan melalui paket Aspose.Drawing.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Versi percobaan gratis cukup untuk belajar; lisensi komersial diperlukan untuk penyebaran produksi.  
+- **Apakah perpustakaan ini lintas‑platform?** Tentu – Aspose.Drawing berjalan di .NET Core, .NET 5, .NET 6, dan versi selanjutnya.
+
+## Apa itu transformasi global?
+
+Sebuah **transformasi global** adalah matriks transformasi yang, setelah diterapkan pada objek `Graphics`, memengaruhi setiap operasi menggambar berikutnya hingga matriks tersebut diubah atau direset. Ini bekerja dengan mengalikan koordinat setiap elemen yang digambar, memungkinkan Anda memutar, memperbesar, mentranslasi, atau memiringkan semua objek secara seragam tanpa harus memodifikasi masing‑masing secara individual.
+
+## Mengapa menggunakan transformasi global?
+
+Menerapkan rotasi global memungkinkan Anda memutar banyak objek dengan satu panggilan, yang meningkatkan **konsistensi**, mengurangi **beban CPU** (lebih sedikit perhitungan matriks), dan memungkinkan **komposisi fleksibel** dari skala, translasi, dan shear. Aspose.Drawing dapat menangani gambar hingga **10 000 × 10 000 px** dan mendukung **30+** format raster dan vektor, memprosesnya di memori tanpa memerlukan file sementara.
 
 ## Prasyarat
 
-Sebelum kita menyelami dunia menarik transformasi global dengan Aspose.Drawing, pastikan Anda memiliki prasyarat berikut ini:
+- **Perpustakaan Aspose.Drawing** – unduh dari situs referensi resmi [Referensi Aspose.Drawing .NET](https://reference.aspose.com/drawing/net/).  
+- **Lingkungan pengembangan .NET** – Visual Studio 2022, VS Code, atau IDE apa pun yang mendukung .NET 6+.
 
-- Aspose.Drawing Library: Unduh dan pasang perpustakaan Aspose.Drawing. Anda dapat menemukan perpustakaan dan dokumentasinya [di sini](https://reference.aspose.com/drawing/net/).
-- Development Environment: Pastikan Anda memiliki lingkungan pengembangan yang berfungsi untuk .NET.
+## Impor namespace
 
-Setelah kami mencakup dasar-dasarnya, mari kita langsung ke implementasinya!
-
-## Impor Namespace
-
-Sebelum Anda mulai menulis kode, penting untuk mengimpor namespace yang diperlukan guna mengakses fungsionalitas yang disediakan oleh Aspose.Drawing. Tambahkan namespace berikut ke dalam kode Anda:
+Namespace `System.Drawing` (disediakan oleh Aspose.Drawing) berisi tipe grafik inti yang akan Anda gunakan.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Cara Memutar Gambar dengan Transformasi Global
+## Cara memutar gambar menggunakan transformasi global
 
-Langkah nyata pertama adalah membuat kanvas (sebuah `Bitmap`) dan memperoleh objek `Graphics` darinya. Konteks grafis ini akan menyimpan transformasi global yang memutar semua yang Anda gambar selanjutnya.
-
-### Langkah 1: Buat Bitmap dan Konteks Graphics
+Muat sebuah `Bitmap`, dapatkan objek `Graphics`‑nya, lalu tetapkan matriks rotasi menggunakan `graphics.RotateTransform`. Setelah transformasi diterapkan, setiap operasi menggambar—seperti menggambar gambar lain, bentuk, atau teks—akan dirender dengan rotasi yang ditentukan. Akhirnya, simpan bitmap untuk mempertahankan konten yang diputar secara global.
 
 ```csharp
 // Create a Bitmap with specified width, height, and pixel format
@@ -71,18 +102,22 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Langkah 2: Terapkan Transformasi Rotasi (Putar 15°)
+## Langkah 1: buat bitmap dan konteks grafik
 
-Sekarang kami menerapkan rotasi yang akan memengaruhi operasi **how to rotate image** secara global. Metode `RotateTransform` menambahkan rotasi 15‑derajat ke matriks transformasi saat ini.
+`Bitmap` mewakili gambar dalam memori, sementara `Graphics` menyediakan permukaan menggambar.  
+
+`Bitmap` adalah wadah berbasis piksel yang dapat disimpan ke format gambar umum seperti PNG atau JPEG.  
+
+`Graphics` adalah kanvas yang memungkinkan Anda menggambar bentuk, teks, atau gambar lain ke bitmap.
 
 ```csharp
 // Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
 
-### Langkah 3: Gambar Elips yang Diputar Setelah Rotasi
+## Langkah 2: terapkan transformasi rotasi (rotasi 15°)
 
-Dengan rotasi yang diterapkan, setiap bentuk yang Anda gambar—termasuk elips—akan tampak diputar. Ini menunjukkan **how to draw ellipse** sambil menghormati transformasi global dan juga memenuhi kata kunci sekunder *draw rotated ellipse*.
+`RotateTransform` menambahkan rotasi 15‑derajat ke matriks saat ini. Metode ini memperbarui matriks transformasi internal objek `Graphics`, memengaruhi semua yang digambar setelahnya.
 
 ```csharp
 // Create a Pen with specified color and width
@@ -92,57 +127,65 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-### Langkah 4: Simpan Hasil
+## Langkah 3: gambar elips berputar setelah rotasi
 
-Setelah Anda menerapkan transformasi global dan menggambar bentuk-bentuk Anda, saatnya menyimpan gambar ke disk.
+Karena matriks rotasi sudah aktif, memanggil `DrawEllipse` menghasilkan elips yang otomatis berputar. Ini mendemonstrasikan **cara menggambar elips berputar** sambil menghormati transformasi global.
 
 ```csharp
 // Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
 
-## Mengapa Menggunakan Transformasi Global?
+## Langkah 4: simpan hasil
 
-- **Consistency** – Satu transformasi diterapkan pada setiap panggilan menggambar, menghilangkan kebutuhan memutar setiap objek secara individual.  
-- **Performance** – Mengurangi jumlah perhitungan matriks yang harus Anda kelola secara manual.  
-- **Flexibility** – Mudah menggabungkan rotasi, skala, dan translasi untuk efek yang kompleks.
+Setelah menggambar, panggil `bitmap.Save` untuk menyimpan gambar. File yang disimpan mencerminkan rotasi global yang diterapkan pada gambar dan elips.
 
-## Terapkan Transformasi Rotasi dalam Skenario Dunia Nyata
+## Manfaat menggunakan transformasi global
 
-Bayangkan Anda sedang membangun dasbor yang memvisualisasikan data sensor sebagai gauge berputar, atau sebuah game yang perlu memutar sprite di sekitar titik pusat. Menggunakan teknik **apply rotation transform** berarti Anda menulis kode rotasi sekali saja dan membiarkan mesin grafis menangani sisanya. Pola ini berkembang dengan indah saat Anda menambahkan lebih banyak elemen—setiap bentuk baru secara otomatis mewarisi rotasi yang sama.
+Memuat satu matriks sekali dan menggunakannya kembali menghilangkan kode berulang dan memastikan setiap elemen visual memiliki orientasi yang sama persis, yang penting untuk dasbor, gauge, atau sprite game yang harus tetap sinkron.
 
-## Contoh Graphics RotateTransform – Kesalahan Umum & Tips
+## Terapkan transformasi rotasi dalam skenario dunia nyata
 
-- **Resetting the Transform:** Jika Anda perlu menggambar elemen yang tidak diputar nanti, panggil `graphics.ResetTransform()` sebelum panggilan menggambar tersebut.  
-- **Order Matters:** Urutan penting: Transformasi diterapkan sesuai urutan penambahannya; memutar sebelum mentranslasi menghasilkan hasil yang berbeda dibandingkan sebaliknya.  
-- **Pixel Format:** Menggunakan `Format32bppPArgb` memastikan blending alfa berkualitas tinggi, yang penting untuk bentuk yang diputar.
+Bayangkan sebuah dasbor telemetri di mana beberapa gauge berputar di sekitar pusat yang sama, atau UI di mana ikon perlu berputar bersama ketika pengguna mengubah orientasi. Dengan menggunakan **apply rotation transform** sekali, Anda menghindari perhitungan per‑elemen dan menjaga UI tetap responsif bahkan ketika puluhan objek dirender setiap frame.
 
-## Pertanyaan yang Sering Diajukan
+## Contoh Graphics RotateTransform – jebakan umum & tips
+
+- **Atur ulang transformasi**: Panggil `graphics.ResetTransform()` sebelum menggambar elemen yang harus tetap tidak berputar.  
+- **Urutan penting**: Memutar sebelum mentranslasi menghasilkan hasil visual yang berbeda dibandingkan mentranslasi sebelum memutar.  
+- **Format piksel**: Menggunakan `PixelFormat.Format32bppPArgb` memberikan pencampuran alfa berkualitas tinggi untuk bentuk yang diputar.
+
+## Pertanyaan yang sering diajukan
 
 **Q: Apakah Aspose.Drawing kompatibel dengan .NET Core?**  
-A: Ya, Aspose.Drawing sepenuhnya kompatibel dengan .NET Core, .NET 5, .NET 6, dan versi selanjutnya.
+A: Ya, Aspose.Drawing berjalan di .NET Core, .NET 5, .NET 6 dan versi selanjutnya.
 
-**Q: Dapatkah saya menerapkan beberapa transformasi global pada satu konteks grafis?**  
-A: Tentu! Anda dapat menautkan panggilan seperti `graphics.RotateTransform`, `graphics.ScaleTransform`, dan `graphics.TranslateTransform` untuk membangun matriks komposit.
+**Q: Dapatkah saya menerapkan beberapa transformasi global pada satu konteks grafik?**  
+A: Tentu. Anda dapat menchain `graphics.RotateTransform`, `graphics.ScaleTransform`, dan `graphics.TranslateTransform` untuk membangun matriks komposit.
 
 **Q: Di mana saya dapat menemukan lebih banyak tutorial dan contoh untuk Aspose.Drawing?**  
-A: Kunjungi [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) untuk banyak tutorial, contoh, dan diskusi komunitas.
+A: Kunjungi [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44) untuk banyak contoh dan diskusi yang dibagikan komunitas.
 
-**Q: Apakah ada versi percobaan gratis untuk Aspose.Drawing?**  
-A: Ya, Anda dapat menjelajahi versi percobaan gratis Aspose.Drawing [di sini](https://releases.aspose.com/).
+**Q: Apakah ada percobaan gratis tersedia untuk Aspose.Drawing?**  
+A: Ya, Anda dapat menjelajahi percobaan gratis Aspose.Drawing [unduhan percobaan gratis Aspose.Drawing](https://releases.aspose.com/).
 
 **Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Drawing?**  
-A: Dapatkan lisensi sementara untuk Aspose.Drawing [di sini](https://purchase.aspose.com/temporary-license/).
+A: Dapatkan lisensi sementara untuk Aspose.Drawing [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ## Kesimpulan
 
-Dalam panduan ini kami membahas **how to rotate image** menggunakan fitur transformasi global Aspose.Drawing dan mendemonstrasikan **how to draw ellipse** yang secara otomatis mewarisi rotasi. Teknik ini membuka pintu untuk pembuatan grafik canggih dalam aplikasi .NET apa pun. Bereksperimenlah dengan transformasi tambahan—skala, shearing, atau menautkan beberapa rotasi—untuk membuka lebih banyak kemungkinan visual.
+Anda kini tahu **cara menggambar elips berputar** dan memutar gambar menggunakan fitur transformasi global Aspose.Drawing. Gunakan pola yang sama untuk menambahkan skala, shear, atau translasi demi grafik yang lebih kaya, dan ingat untuk mengatur ulang matriks ketika Anda memerlukan elemen yang tidak berputar. Bereksperimenlah dengan sudut yang berbeda dan transformasi komposit untuk menciptakan visualisasi dinamis dalam aplikasi .NET apa pun.
 
 ---
 
-**Terakhir Diperbarui:** 2026-05-03  
-**Diuji Dengan:** Aspose.Drawing 24.11 untuk .NET  
-**Penulis:** Aspose  
+**Last Updated:** 2026-08-28  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Menggambar Persegi Panjang – Transformasi Sistem Koordinat (Transformasi Halaman) menggunakan API Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/page-transformation/)
+- [Tutorial Transformasi Matriks: Transformasi Matriks di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [Transformasi Langkah demi Langkah – Transformasi Koordinat](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
