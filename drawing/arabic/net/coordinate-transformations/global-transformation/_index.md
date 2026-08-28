@@ -1,16 +1,49 @@
 ---
-date: 2026-05-03
-description: تعلم كيفية تدوير الصورة ورسم إهليلج مائل باستخدام التحويل العالمي Aspose.Drawing
-  في .NET. اتبع دليلنا خطوة بخطوة للحصول على رسومات مذهلة.
+date: 2026-08-28
+description: تعلم كيفية رسم القطع الناقص المدور وتدوير الصور باستخدام التحويل العالمي
+  في Aspose.Drawing على .NET. اتبع دليلنا خطوة بخطوة للحصول على رسومات عالية الجودة.
 keywords:
-- how to rotate image
 - draw rotated ellipse
+- set global rotation
+- transformation matrix graphics
 - global transformation .net
-- apply rotation transform
-- graphics rotatetransform example
+- rotate image without affecting
+lastmod: 2026-08-28
 linktitle: التحويل العالمي في Aspose.Drawing لـ .NET
+og_description: ارسم القطع الناقص المدور وقم بتدوير الصور باستخدام التحويل العالمي
+  في Aspose.Drawing على .NET. يوضح هذا البرنامج التعليمي كودًا خطوة بخطوة ونصائح للحصول
+  على رسومات عالية الجودة.
+og_image_alt: Screenshot of rotated ellipse created with Aspose.Drawing global transformation
+og_title: رسم القطع الناقص المدور باستخدام Aspose.Drawing – دليل التحويل العالمي
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to draw rotated ellipse and rotate images using Aspose.Drawing's
+    global transformation in .NET. Follow our step‑by‑step guide for high‑quality
+    graphics.
+  headline: How to draw rotated ellipse with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Drawing runs on .NET Core, .NET 5, .NET 6 and later versions.
+    question: Is Aspose.Drawing compatible with .NET Core?
+  - answer: Absolutely. You can chain `graphics.RotateTransform`, `graphics.ScaleTransform`,
+      and `graphics.TranslateTransform` to build a composite matrix.
+    question: Can I apply multiple global transformations to a single graphics context?
+  - answer: Visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      for a wealth of community‑shared samples and discussions.
+    question: Where can I find more tutorials and examples for Aspose.Drawing?
+  - answer: Yes, you can explore a free trial of Aspose.Drawing [Aspose.Drawing free
+      trial download](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Drawing?
+  - answer: Obtain a temporary license for Aspose.Drawing [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: كيفية تدوير الصورة باستخدام التحويل العالمي في Aspose.Drawing
+tags:
+- draw rotated ellipse
+- Aspose.Drawing
+- .NET graphics
+title: كيفية رسم القطع الناقص المدور باستخدام Aspose.Drawing
 url: /ar/net/coordinate-transformations/global-transformation/
 weight: 10
 ---
@@ -19,36 +52,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تدوير الصورة باستخدام التحويل العالمي في Aspose.Drawing
+# كيفية رسم إهليلج مائل باستخدام Aspose.Drawing
 
 ## مقدمة
 
-مرحبًا! في هذا الدرس ستكتشف **how to rotate image** باستخدام ميزة التحويل العالمي في Aspose.Drawing لـ .NET. يتيح لك التحويل العالمي تطبيق مصفوفة تحويل واحدة على كل عملية رسم، وهو مثالي لإنشاء تأثيرات بصرية متقدمة بأقل قدر من الشيفرة. في نهاية هذا الدليل ستتعرف أيضًا على **how to draw ellipse** التي ترث نفس الدوران، مما يمنحك أساسًا قويًا لبناء رسومات معقدة.
-
-## كيفية تدوير الصورة باستخدام التحويل العالمي
-
-تقتضي طريقة التحويل العالمي أن تقوم بتعيين الدوران مرة واحدة، ثم كل استدعاء رسم لاحق—سواء كان صورة أو شكل أو نص—سيحترم ذلك الدوران تلقائيًا. هذا يوفر عليك الحاجة إلى تدوير كل عنصر على حدة ويحافظ على نظافة وصيانة الشيفرة.
+في هذا الدليل ستتعلم **كيفية رسم إهليلج مائل** وتدوير الصور عن طريق تطبيق مصفوفة **تحويل عالمي** في Aspose.Drawing لـ .NET. يسمح التحويل العالمي لمصفوفة واحدة بالتأثير على كل استدعاء رسم يليه، مما يتيح لك الحفاظ على نظافة الكود أثناء إنشاء تأثيرات بصرية متقدمة. بنهاية البرنامج التعليمي ستفهم أيضًا كيفية إعادة تعيين التحويل بحيث لا تتأثر الرسومات الأخرى.
 
 ## إجابات سريعة
-- **ما معنى “global transformation”?** مصفوفة واحدة تؤثر على جميع أوامر الرسم اللاحقة.  
-- **هل يمكنني تدوير صورة دون التأثير على الكائنات الأخرى؟** نعم – قم بتطبيق التحويل، ثم الرسم، ثم إعادة الضبط أو استخدم سياق رسومي منفصل.  
-- **ما هي مساحة الأسماء المطلوبة؟** `System.Drawing` (مقدمة من Aspose.Drawing).  
-- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تكفي للتعلم؛ الترخيص التجاري مطلوب للإنتاج.  
-- **هل هذا مدعوم على .NET Core / .NET 6+؟** بالطبع – Aspose.Drawing متعدد المنصات.
+- **ما هو التحويل العالمي؟** إنها مصفوفة واحدة تُطبق تلقائيًا على جميع أوامر الرسم التي تُصدر بعد تعيينها.  
+- **هل يمكنني تدوير صورة دون التأثير على الكائنات الأخرى؟** نعم – ارسم العنصر المدور، ثم استدعِ `graphics.ResetTransform()` للعودة إلى الحالة الأصلية.  
+- **أي مساحة أسماء توفر الواجهة البرمجية؟** `System.Drawing` متاحة عبر حزمة Aspose.Drawing.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** النسخة التجريبية مجانية للتعلم؛ يلزم ترخيص تجاري للنشر في بيئات الإنتاج.  
+- **هل المكتبة متعددة المنصات؟** بالتأكيد – Aspose.Drawing تعمل على .NET Core، .NET 5، .NET 6 وما بعده.
+
+## ما هو التحويل العالمي؟
+
+الـ **تحويل العالمي** هو مصفوفة تحويل تُطبق على كائن `Graphics`، وتؤثر على كل عملية رسم تالية حتى يتم تغيير المصفوفة أو إعادة تعيينها. يعمل عن طريق ضرب إحداثيات كل عنصر مرسوم، مما يتيح لك تدوير، تكبير/تصغير، إزاحة أو قص جميع الكائنات بشكل موحد دون تعديل كل منها على حدة.
+
+## لماذا نستخدم التحويل العالمي؟
+
+تطبيق دوران عالمي يتيح لك تدوير العديد من الكائنات باستدعاء واحد، مما يحسن **الاتساق**، يقلل **استهلاك المعالج** (حسابات مصفوفة أقل)، ويسمح بـ **تركيب مرن** للتكبير/التصغير، الإزاحة، والقص. يمكن لـ Aspose.Drawing معالجة صور تصل إلى **10 000 × 10 000 px** ويدعم **أكثر من 30** صيغة نقطية ومتجهة، مع معالجتها في الذاكرة دون الحاجة إلى ملفات مؤقتة.
 
 ## المتطلبات المسبقة
 
-قبل أن نغوص في عالم التحويل العالمي المثير مع Aspose.Drawing، تأكد من توفر المتطلبات التالية:
-
-- مكتبة Aspose.Drawing: قم بتنزيل وتثبيت مكتبة Aspose.Drawing. يمكنك العثور على المكتبة ووثائقها [هنا](https://reference.aspose.com/drawing/net/).
-
-- بيئة التطوير: تأكد من وجود بيئة تطوير صالحة لـ .NET.
-
-الآن بعد أن غطينا الأساسيات، لننتقل إلى التنفيذ!
+- **مكتبة Aspose.Drawing** – قم بتنزيلها من موقع المرجع الرسمي [Aspose.Drawing .NET reference](https://reference.aspose.com/drawing/net/).  
+- **بيئة تطوير .NET** – Visual Studio 2022، VS Code، أو أي بيئة تطوير تدعم .NET 6+.
 
 ## استيراد مساحات الأسماء
 
-قبل أن تبدأ بكتابة الشيفرة، من الضروري استيراد مساحات الأسماء اللازمة للوصول إلى الوظائف التي توفرها Aspose.Drawing. أضف مساحات الأسماء التالية إلى الشيفرة الخاصة بك:
+مساحة الأسماء `System.Drawing` (المقدمة من Aspose.Drawing) تحتوي على أنواع الرسومات الأساسية التي ستستخدمها.
 
 ```csharp
 using System.Drawing;
@@ -56,9 +88,7 @@ using System.Drawing;
 
 ## كيفية تدوير الصورة باستخدام التحويل العالمي
 
-الخطوة الأولى الفعلية هي إنشاء لوحة رسم (ـ `Bitmap`) والحصول على كائن `Graphics` منها. سيحتفظ هذا السياق الرسومي بالتحويل العالمي الذي يدور كل ما ترسمه بعد ذلك.
-
-### الخطوة 1: إنشاء Bitmap وسياق Graphics
+حمّل كائن `Bitmap`، احصل على كائن `Graphics` الخاص به، ثم اضبط مصفوفة دوران باستخدام `graphics.RotateTransform`. بعد تطبيق التحويل، سيتم تنفيذ أي عملية رسم—مثل رسم صورة أخرى، أشكال، أو نص—بالتدوير المحدد. أخيرًا، احفظ الـ bitmap لتخزين المحتوى المدور عالميًا.
 
 ```csharp
 // Create a Bitmap with specified width, height, and pixel format
@@ -71,18 +101,22 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### الخطوة 2: تطبيق تحويل الدوران (Rotate 15°)
+## الخطوة 1: إنشاء bitmap وسياق graphics
 
-الآن نطبق الدوران الذي سيؤثر على عمليات **how to rotate image** عالميًا. تضيف طريقة `RotateTransform` دورانًا قدره 15 درجة إلى مصفوفة التحويل الحالية.
+`Bitmap` يمثل صورة في الذاكرة، بينما `Graphics` يوفر سطح الرسم.
+
+`Bitmap` هو حاوية مبنية على البكسل يمكن حفظها بصيغ صور شائعة مثل PNG أو JPEG.
+
+`Graphics` هو القماش الذي يتيح لك رسم الأشكال، النص، أو صور أخرى على الـ bitmap.
 
 ```csharp
 // Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
 
-### الخطوة 3: رسم إهليلج مدور بعد الدوران
+## الخطوة 2: تطبيق تحويل الدوران (دوران 15°)
 
-مع وجود الدوران، أي شكل ترسمه—بما في ذلك إهليلج—سيظهر مدورًا. هذا يوضح **how to draw ellipse** مع احترام التحويل العالمي ويحقق أيضًا الكلمة المفتاحية الثانوية *draw rotated ellipse*.
+`RotateTransform` يضيف دورانًا قدره 15 درجة إلى المصفوفة الحالية. تقوم الطريقة بتحديث مصفوفة التحويل الداخلية لكائن `Graphics`، مما يؤثر على كل ما يُرسم بعد ذلك.
 
 ```csharp
 // Create a Pen with specified color and width
@@ -92,57 +126,65 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-### الخطوة 4: حفظ النتيجة
+## الخطوة 3: رسم إهليلج مائل بعد الدوران
 
-بعد تطبيق التحويل العالمي ورسم الأشكال، حان الوقت لحفظ الصورة على القرص.
+نظرًا لأن مصفوفة الدوران مفعلة بالفعل، فإن استدعاء `DrawEllipse` ينتج إهليلجًا يتم تدويره تلقائيًا. هذا يوضح **كيفية رسم إهليلج مائل** مع احترام التحويل العالمي.
 
 ```csharp
 // Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
 
-## لماذا نستخدم التحويل العالمي؟
+## الخطوة 4: حفظ النتيجة
 
-- **Consistency** – تطبيق تحويل واحد على كل استدعاء رسم، مما يلغي الحاجة إلى تدوير كل كائن على حدة.  
-- **Performance** – يقلل من عدد حسابات المصفوفة التي يجب إدارتها يدويًا.  
-- **Flexibility** – دمج سهل للدوران، التحجيم، والانتقال لإنشاء تأثيرات معقدة.
+بعد الرسم، استدعِ `bitmap.Save` لحفظ الصورة. يعكس الملف المحفوظ الدوران العالمي المطبق على كل من الصورة والإهليلج.
+
+## فوائد استخدام التحويل العالمي
+
+تحميل مصفوفة واحدة مرة واحدة وإعادة استخدامها يلغي الحاجة إلى كود متكرر ويضمن أن كل عنصر بصري يشارك نفس الاتجاه بالضبط، وهو أمر حاسم للوحة التحكم، المؤشرات، أو رسومات الألعاب التي يجب أن تبقى متزامنة.
 
 ## تطبيق تحويل الدوران في سيناريوهات العالم الحقيقي
 
-تخيل أنك تبني لوحة تحكم تعرض بيانات المستشعرات كعدادات دوارة، أو لعبة تحتاج إلى تدوير الكائنات حول نقطة مركزية. باستخدام تقنية **apply rotation transform**، تكتب كود الدوران مرة واحدة وتترك محرك الرسومات يتولى الباقي. هذا النمط يتوسع بسهولة مع إضافة المزيد من العناصر—كل شكل جديد يرث نفس الدوران تلقائيًا.
+تخيل لوحة تحكم قياس بيانات حيث تدور عدة مؤشرات حول مركز مشترك، أو واجهة مستخدم تحتاج فيها الأيقونات إلى الدوران معًا عندما يغيّر المستخدم الاتجاه. باستخدام **تطبيق تحويل الدوران** مرة واحدة، تتجنب حسابات كل عنصر وتبقي الواجهة سريعة الاستجابة حتى عندما يتم رسم العشرات من الكائنات في كل إطار.
 
 ## مثال Graphics RotateTransform – الأخطاء الشائعة والنصائح
 
-- **Resetting the Transform:** إذا احتجت إلى رسم عناصر غير مدورة لاحقًا، استدعِ `graphics.ResetTransform()` قبل تلك الاستدعاءات.  
-- **Order Matters:** تُطبق التحويلات بالترتيب الذي تُضاف فيه؛ الدوران قبل الانتقال يعطي نتائج مختلفة عن العكس.  
-- **Pixel Format:** استخدام `Format32bppPArgb` يضمن دمج ألفا عالي الجودة، وهو مهم للأشكال المدورة.
+- **إعادة تعيين التحويل**: استدعِ `graphics.ResetTransform()` قبل رسم العناصر التي يجب أن تبقى غير مدورة.  
+- **الترتيب مهم**: الدوران قبل الإزاحة ينتج نتيجة بصرية مختلفة عن الإزاحة قبل الدوران.  
+- **تنسيق البكسل**: استخدام `PixelFormat.Format32bppPArgb` يوفر دمج ألفا عالي الجودة للأشكال المدورة.
 
 ## الأسئلة المتكررة
 
 **س: هل Aspose.Drawing متوافق مع .NET Core؟**  
-ج: نعم، Aspose.Drawing متوافق تمامًا مع .NET Core، .NET 5، .NET 6، والإصدارات اللاحقة.
+ج: نعم، Aspose.Drawing يعمل على .NET Core، .NET 5، .NET 6 والإصدارات اللاحقة.
 
-**س: هل يمكنني تطبيق تحولات عالمية متعددة على سياق رسومي واحد؟**  
-ج: بالطبع! يمكنك ربط الاستدعاءات مثل `graphics.RotateTransform`، `graphics.ScaleTransform`، و`graphics.TranslateTransform` لبناء مصفوفة مركبة.
+**س: هل يمكنني تطبيق تحويلات عالمية متعددة على سياق رسومات واحد؟**  
+ج: بالتأكيد. يمكنك ربط `graphics.RotateTransform`، `graphics.ScaleTransform`، و `graphics.TranslateTransform` لإنشاء مصفوفة مركبة.
 
-**س: أين يمكنني العثور على المزيد من الدروس والأمثلة لـ Aspose.Drawing؟**  
-ج: زر [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) للحصول على مجموعة واسعة من الدروس، الأمثلة، ومناقشات المجتمع.
+**س: أين يمكنني العثور على مزيد من الدروس والأمثلة لـ Aspose.Drawing؟**  
+ج: زر [منتدى Aspose.Drawing](https://forum.aspose.com/c/drawing/44) للحصول على مجموعة غنية من العينات والنقاشات التي يشاركها المجتمع.
 
 **س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Drawing؟**  
-ج: نعم، يمكنك استكشاف نسخة تجريبية مجانية من Aspose.Drawing [هنا](https://releases.aspose.com/).
+ج: نعم، يمكنك تجربة نسخة تجريبية مجانية من Aspose.Drawing [تحميل النسخة التجريبية المجانية لـ Aspose.Drawing](https://releases.aspose.com/).
 
 **س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Drawing؟**  
-ج: احصل على ترخيص مؤقت لـ Aspose.Drawing [هنا](https://purchase.aspose.com/temporary-license/).
+ج: احصل على ترخيص مؤقت لـ Aspose.Drawing عبر [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
 
 ## الخلاصة
 
-في هذا الدليل غطينا **how to rotate image** باستخدام ميزة التحويل العالمي في Aspose.Drawing وأظهرنا **how to draw ellipse** التي ترث الدوران تلقائيًا. تفتح هذه التقنيات باب إنشاء رسومات متقدمة في أي تطبيق .NET. جرب تحويلات إضافية—التحجيم، القص، أو ربط دورانات متعددة—لتفتح المزيد من الإمكانيات البصرية.
+أنت الآن تعرف **كيفية رسم إهليلج مائل** وتدوير الصور باستخدام ميزة التحويل العالمي في Aspose.Drawing. استخدم نفس النمط لإضافة التكبير/التصغير، القص، أو الإزاحة للحصول على رسومات أكثر غنى، وتذكر إعادة تعيين المصفوفة عندما تحتاج إلى عناصر غير مدورة. جرب زوايا مختلفة وتحويلات مركبة لإنشاء تصورات ديناميكية في أي تطبيق .NET.
 
 ---
 
-**آخر تحديث:** 2026-05-03  
-**تم الاختبار مع:** Aspose.Drawing 24.11 لـ .NET  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-08-28  
+**تم الاختبار مع:** Aspose.Drawing 24.11 for .NET  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية رسم مستطيل – تحويل نظام الإحداثيات (تحويل الصفحة) باستخدام Aspose.Drawing API لـ .NET](/drawing/net/coordinate-transformations/page-transformation/)
+- [دروس تحويل المصفوفة: تحويلات المصفوفة في Aspose.Drawing لـ .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [تحويل خطوة بخطوة – تحويلات الإحداثيات](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
