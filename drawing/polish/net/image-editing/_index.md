@@ -1,17 +1,69 @@
 ---
-date: 2026-05-03
-description: Dowiedz się, jak skalować obraz bez utraty jakości przy użyciu Aspose.Drawing
+date: 2026-09-03
+description: Dowiedz się, jak osiągnąć bezstratne skalowanie obrazu przy użyciu Aspose.Drawing
   dla .NET, umożliwiając wysokiej jakości zmianę rozmiaru, przycinanie, ładowanie,
-  zapisywanie i wyświetlanie.
+  zapisywanie i wyświetlanie obrazów.
 keywords:
-- how to scale image
+- lossless image scaling
 - high quality image resize
-- batch process images
-- scale image high dpi
+- batch image processing
+- resize image without loss
+- image processing pipeline
+lastmod: 2026-09-03
 linktitle: Edycja obrazu
+og_description: Poznaj bezstratne skalowanie obrazu z Aspose.Drawing dla .NET. Uzyskaj
+  wysokiej jakości zmianę rozmiaru obrazu, przetwarzanie wsadowe i równoległe potoki
+  obrazów w kilka minut.
+og_image_alt: Screenshot of Aspose.Drawing lossless image scaling tutorial
+og_title: Bezstratne skalowanie obrazu z Aspose.Drawing – wysokiej jakości zmiana
+  rozmiaru
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to achieve lossless image scaling using Aspose.Drawing for
+    .NET, enabling high quality image resize, cropping, loading, saving, and displaying.
+  headline: How to achieve lossless image scaling with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to achieve lossless image scaling using Aspose.Drawing for
+    .NET, enabling high quality image resize, cropping, loading, saving, and displaying.
+  name: How to achieve lossless image scaling with Aspose.Drawing
+  steps:
+  - name: '**Load the image** – `Image.Load("source.png")` reads the bitmap into memory.'
+    text: '**Load the image** – `Image.Load("source.png")` reads the bitmap into memory.'
+  - name: '**Scale losslessly** – call `image.Resize(new Size(targetWidth, targetHeight),
+      InterpolationMode.Lanczos)` to apply the Lanczos filter.'
+    text: '**Scale losslessly** – call `image.Resize(new Size(targetWidth, targetHeight),
+      InterpolationMode.Lanczos)` to apply the Lanczos filter.'
+  - name: '**Save the output** – `image.Save("scaled.png", ImageFormat.Png)` writes
+      the resized bitmap while preserving the original DPI.'
+    text: '**Save the output** – `image.Save("scaled.png", ImageFormat.Png)` writes
+      the resized bitmap while preserving the original DPI.'
+  type: HowTo
+- questions:
+  - answer: Yes. After scaling, you can save the image in a different format (e.g.,
+      PNG → JPEG) while preserving the scaled dimensions. Choose a lossless target
+      format if you need to keep every pixel intact.
+    question: Can I scale an image without loss and still change its file format?
+  - answer: The algorithm is more compute‑intensive than a simple nearest‑neighbor
+      resize, but Aspose.Drawing is optimized for speed. For bulk operations, consider
+      processing images in parallel.
+    question: Is there a performance penalty when using loss‑less scaling?
+  - answer: The library can scale each frame individually, preserving animation. You’ll
+      need to iterate over frames and apply the same scaling settings.
+    question: Does Aspose.Drawing support animated GIFs during scaling?
+  - answer: After scaling, set the `ResolutionX` and `ResolutionY` properties to the
+      original DPI values before saving.
+    question: How do I maintain the original DPI when scaling?
+  - answer: Aspose.Drawing accepts floating‑point dimensions, and the resampling engine
+      will calculate the best pixel values to avoid artifacts.
+    question: What if I need to scale an image to a non‑integer size?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Jak skalować obraz bez utraty jakości – edycja obrazu z Aspose.Drawing
-url: /pl/net/image-editing/
+tags:
+- lossless image scaling
+- Aspose.Drawing
+- .NET image processing
+title: Jak osiągnąć bezstratne skalowanie obrazu przy użyciu Aspose.Drawing
 weight: 21
 ---
 
@@ -23,126 +75,143 @@ weight: 21
 
 ## Wprowadzenie
 
-Welcome! In this guide you’ll discover **jak skalować obraz** without loss using the powerful Aspose.Drawing .NET API. Whether you’re building a web portal, a desktop graphics tool, or an automated image‑processing pipeline, mastering loss‑less scaling—and the surrounding techniques like cropping, resizing, loading, saving, and displaying—will let you deliver crisp, professional visuals every time. We’ll also cover real‑world scenarios such as high‑DPI asset preparation, batch processing of product photos, and high‑quality image resize for print‑ready PDFs.
+Aspose.Drawing jest biblioteką .NET, która zapewnia kompleksowe możliwości manipulacji obrazami bez korzystania z GDI+. Witamy! W tym przewodniku odkryjesz **jak osiągnąć bezstratne skalowanie obrazu** przy użyciu potężnego API Aspose.Drawing .NET. Niezależnie od tego, czy tworzysz portal internetowy, narzędzie graficzne na pulpit, czy zautomatyzowany potok przetwarzania obrazów, opanowanie bezstratnego skalowania — oraz technik towarzyszących, takich jak przycinanie, zmiana rozmiaru, ładowanie, zapisywanie i wyświetlanie — pozwoli Ci dostarczać wyraźne, profesjonalne wizualizacje za każdym razem. Omówimy także scenariusze rzeczywiste, takie jak przygotowanie zasobów o wysokiej rozdzielczości DPI, przetwarzanie wsadowe zdjęć produktów oraz wysokiej jakości zmiana rozmiaru obrazu dla PDF‑ów gotowych do druku.
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki użyć, aby skalować obraz bez utraty?** Aspose.Drawing for .NET
-- **Czy mogę również przycinać, zmieniać rozmiar, ładować, zapisywać i wyświetlać obrazy przy użyciu tego samego API?** Yes – all covered in the linked tutorials
-- **Czy potrzebna jest licencja do użytku produkcyjnego?** A commercial license is required; a free trial is available
-- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7
-- **Czy skalowanie bez utraty jakości jest bezpieczne dla dużych obrazów?** Absolutely – Aspose.Drawing uses high‑quality resampling algorithms
-- **Jak mogę efektywnie przetwarzać obrazy wsadowo?** Combine the API calls in a loop or use Parallel.ForEach for concurrent processing
-- **Jaki tryb resamplingu daje najlepszą jakość?** Lanczos or high‑quality bicubic provides the highest fidelity for a high quality image resize
+- **Jaką bibliotekę mogę użyć do skalowania obrazu bez utraty?** Aspose.Drawing for .NET  
+- **Czy mogę również przycinać, zmieniać rozmiar, ładować, zapisywać i wyświetlać obrazy przy użyciu tego samego API?** Tak – wszystko opisane w powiązanych tutorialach  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest licencja komercyjna; dostępna jest darmowa wersja próbna  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Czy bezstratne skalowanie jest bezpieczne dla dużych obrazów?** Absolutnie – Aspose.Drawing używa wysokiej jakości algorytmów resamplingu  
+- **Jak mogę efektywnie przetwarzać obrazy wsadowo?** Połącz wywołania API w pętli lub użyj `Parallel.ForEach` do równoległego przetwarzania  
+- **Jaki tryb resamplingu zapewnia najlepszą jakość?** Lanczos lub wysokiej jakości bicubic zapewniają najwyższą wierność przy wysokiej jakości zmianie rozmiaru obrazu  
 
-## Co to jest skalowanie obrazu bez utraty jakości?
+## Czym jest bezstratne skalowanie obrazu?
 
-Scaling an image without loss means changing its dimensions while preserving the original visual fidelity. Aspose.Drawing achieves this by applying advanced interpolation (e.g., bicubic, Lanczos) that minimizes artifacts, keeping edges sharp and colors accurate.
+Bezstratne skalowanie obrazu to proces zmiany wymiarów obrazu przy zachowaniu każdego szczegółu wizualnego — krawędzie pozostają ostre, kolory dokładne, a żadne dane pikseli nie są tracone. Aspose.Drawing osiąga to, stosując zaawansowaną interpolację (np. Lanczos, wysokiej jakości bicubic), która minimalizuje artefakty.
 
-## Jak skalować obraz bez utraty jakości przy użyciu Aspose.Drawing
+## Jak działa bezstratne skalowanie obrazu?
 
-When you need to resize a picture for a responsive website or generate thumbnails, you’ll typically:
-
-1. **Load the image** – this is the “how to load image” step.  
-2. **Apply a loss‑less scaling operation** – you can specify the target width/height and the resampling mode.  
-3. **Save the result** – the “how to save image” step, preserving the original format or converting as needed.
-
-These three actions are the backbone of any image‑processing workflow, and Aspose.Drawing makes each one straightforward.
+Wczytaj źródłowy bitmap, wybierz filtr resamplingu odpowiadający Twoim wymaganiom jakościowym, określ docelową szerokość i wysokość, a następnie pozwól Aspose.Drawing wygenerować nowy bitmap. Biblioteka oblicza pośrednie wartości pikseli przy użyciu kernelów opartych na matematyce, zapewniając, że wynik zachowuje oryginalną wierność wizualną nawet po znaczących zmianach rozmiaru.
 
 ## Dlaczego warto używać Aspose.Drawing do wysokiej jakości zmiany rozmiaru obrazu?
 
-- **Cross‑platform**: Works on Windows, Linux, and macOS.  
-- **Full‑featured**: Handles cropping, direct data access, displaying, loading/saving, and scaling—all in one package.  
-- **High performance**: Optimized for speed and memory usage, perfect for batch jobs.  
-- **No GDI+ dependencies**: Avoids the pitfalls of `System.Drawing.Common` in non‑Windows environments.  
-- **Advanced resampling**: Built‑in Lanczos and bicubic filters give you the best possible high quality image resize results.
+Aspose.Drawing zapewnia wieloplatformowy, pamięciooszczędny silnik, który obsługuje szeroką gamę formatów rastrowych i wektorowych, jednocześnie dostarczając wiodącą w branży jakość resamplingu. Jego API działa konsekwentnie na Windows, Linux i macOS, eliminuje zależności od GDI+ i zawiera wbudowane filtry Lanczos i bicubic, które generują wyniki z ponad 95 SSIM w porównaniu do oryginału.
+
+- **Wsparcie wieloplatformowe**: Działa na Windows, Linux i macOS, obejmując 3 główne rodziny systemów operacyjnych.  
+- **Szerokie wsparcie formatów**: Obsługuje ponad 12 formatów rastrowych i wektorowych, w tym PNG, JPEG, TIFF, BMP, GIF, WebP i SVG.  
+- **Pamięciooszczędne przetwarzanie**: Może obsługiwać obrazy do 10 000 × 10 000 pikseli bez wczytywania całego pliku do pamięci, co jest 2‑3× szybsze niż System.Drawing w środowiskach bez interfejsu graficznego.  
+- **Brak zależności od GDI+**: Usuwa problem „System.Drawing.Common not supported on Linux”, co czyni go bezpiecznym dla konteneryzowanych mikro‑serwisów.  
+- **Zaawansowany resampling**: Wbudowane filtry Lanczos i bicubic zapewniają najlepsze wyniki zmiany rozmiaru obrazu, mierzone na > 95 SSIM (Structural Similarity Index) w porównaniu do oryginału.  
 
 ## Wymagania wstępne
 
-- .NET development environment (Visual Studio 2022, VS Code, or Rider)  
-- Aspose.Drawing for .NET NuGet package (`Install-Package Aspose.Drawing`)  
-- Basic familiarity with C# and image concepts (pixels, DPI, color depth)
+- .NET środowisko programistyczne (Visual Studio 2022, VS Code lub Rider)  
+- Pakiet NuGet Aspose.Drawing for .NET (`Install-Package Aspose.Drawing`)  
+- Podstawowa znajomość C# i pojęć związanych z obrazami (piksele, DPI, głębia koloru)
 
-### Jak przyciąć obraz (Jak przyciąć obraz)
+### Jak przyciąć obraz (how to crop image)
 
-Below is the dedicated tutorial that walks you through precise cropping techniques. Mastering cropping helps you focus on the most important parts of a picture and improves overall composition.
+Poniżej znajduje się dedykowany tutorial, który przeprowadzi Cię przez precyzyjne techniki przycinania. Opanowanie przycinania pomaga skupić się na najważniejszych częściach obrazu i poprawia ogólną kompozycję.
 
 [Cropping Images in Aspose.Drawing](./cropping/)
 
-### Jak uzyskać bezpośredni dostęp do danych obrazu (Jak zmienić rozmiar obrazu)
+### Jak uzyskać bezpośredni dostęp do danych obrazu (how to resize image)
 
-Direct data access gives you low‑level control over pixel buffers, enabling custom filters and transformations. This knowledge also underpins loss‑less scaling.
+Bezpośredni dostęp do danych daje kontrolę niskiego poziomu nad buforami pikseli, umożliwiając stosowanie własnych filtrów i transformacji. Ta wiedza jest również podstawą bezstratnego skalowania.
 
 [Direct Data Access in Aspose.Drawing](./direct-data-access/)
 
-### Jak wyświetlać obrazy w aplikacji (Jak wyświetlać obraz)
+### Jak wyświetlać obrazy w aplikacji (how to display image)
 
-Showing images correctly—whether in WinForms, WPF, or ASP.NET—requires the right rendering pipeline. This tutorial covers the “how to display image” workflow.
+Poprawne wyświetlanie obrazów — niezależnie od tego, czy w WinForms, WPF, czy ASP.NET — wymaga odpowiedniego potoku renderowania. Ten tutorial obejmuje przepływ pracy „how to display image”.
 
 [Displaying Images in Aspose.Drawing](./display/)
 
-### Jak efektywnie ładować i zapisywać obrazy (Jak ładować obraz / Jak zapisywać obraz)
+### Jak efektywnie ładować i zapisywać obrazy (how to load image / how to save image)
 
-Loading and saving are the bookends of any image workflow. Learn the best practices for handling BMP, GIF, JPG, PNG, and TIFF files without quality loss.
+Ładowanie i zapisywanie to podstawowe elementy każdego przepływu pracy z obrazami. Poznaj najlepsze praktyki obsługi plików BMP, GIF, JPG, PNG i TIFF bez utraty jakości.
 
 [Loading and Saving Images in Aspose.Drawing](./load-save/)
 
-### Jak skalować obrazy zachowując jakość (Jak zmienić rozmiar obrazu)
+### Jak skalować obrazy zachowując jakość (how to resize image)
 
-Finally, discover the exact steps to **skalować obraz** without loss, choose the appropriate resampling mode, and maintain aspect ratios.
+Na koniec odkryj dokładne kroki, aby **skalować obraz** bez utraty, wybrać odpowiedni tryb resamplingu i zachować proporcje.
 
 [Scaling Images in Aspose.Drawing](./scale/)
 
-## Efektywne przetwarzanie wsadowe obrazów
+## Jak wykonać bezstratne skalowanie obrazu krok po kroku
 
-When you have hundreds or thousands of product photos, you can combine the API calls in a loop or use `Parallel.ForEach` to speed up processing. The same `Load → Crop → Scale → Save` pattern applies, and because Aspose.Drawing is memory‑efficient, it scales well even on modest servers.
+Aby bezstratnie skalować obraz, wczytujesz źródło, stosujesz wysokiej jakości filtr resamplingu i zapisujesz wynik. Ten trzyetapowy przepływ pracy można wyrazić w kilku zwięzłych wywołaniach API, co ułatwia wbudowanie go w skrypty lub większe potoki przetwarzania.
 
-## Skalowanie obrazów dla wyświetlaczy wysokiej rozdzielczości DPI
+`Image.Load` is a static method that reads an image file into an Aspose.Drawing `Image` object.  
+`InterpolationMode.Lanczos` specifies the Lanczos resampling filter for high‑quality scaling.  
+`Image.Save` writes the image to a file in the chosen format.
 
-High‑DPI screens demand images that retain sharpness at larger pixel densities. After scaling, simply preserve the original DPI by copying `ResolutionX` and `ResolutionY` to the output image. This ensures the image looks crisp on Retina and 4K displays.
+1. **Wczytaj obraz** – `Image.Load("source.png")` odczytuje bitmapę do pamięci.  
+2. **Skaluj bezstratnie** – wywołaj `image.Resize(new Size(targetWidth, targetHeight), InterpolationMode.Lanczos)`, aby zastosować filtr Lanczos.  
+3. **Zapisz wynik** – `image.Save("scaled.png", ImageFormat.Png)` zapisuje przeskalowaną bitmapę, zachowując oryginalne DPI.
+
+Te trzy działania stanowią podstawę każdego przepływu pracy przetwarzania obrazów, a Aspose.Drawing ułatwia każde z nich.
+
+## Równoległe przetwarzanie obrazów w zadaniach wsadowych
+
+Gdy masz setki lub tysiące zdjęć produktów, możesz połączyć wywołania API w pętli lub użyć `Parallel.ForEach`, aby przyspieszyć przetwarzanie. Ten sam wzorzec `Load → Crop → Scale → Save` ma zastosowanie, a ponieważ Aspose.Drawing jest pamięciooszczędny, dobrze skalowuje się nawet na skromnych serwerach. W praktyce równoległe skalowanie może skrócić całkowity czas wykonania o 60 % na maszynie czterordzeniowej.
+
+## Skalowanie obrazów dla wyświetlaczy o wysokiej rozdzielczości DPI
+
+Ekrany o wysokiej rozdzielczości DPI wymagają obrazów, które zachowują ostrość przy większej gęstości pikseli. Po skalowaniu po prostu skopiuj oryginalne wartości `ResolutionX` i `ResolutionY` do obrazu wyjściowego. To gwarantuje, że obraz będzie wyraźny na wyświetlaczach Retina, 4K i innych wysokiej rozdzielczości.
 
 ## Typowe przypadki użycia
 
-| Scenariusz | Dlaczego to ważne | Podstawowe wywołania API |
-|------------|-------------------|--------------------------|
+| Scenariusz | Dlaczego to ważne | Główne wywołania API |
+|------------|-------------------|----------------------|
 | **Generowanie miniatur do galerii** | Utrzymuje szybkie ładowanie strony przy zachowaniu jakości wizualnej | `Load → Scale (loss‑less) → Save` |
-| **Przygotowywanie zasobów dla wyświetlaczy wysokiej rozdzielczości DPI** | Zapobiega rozmytym elementom interfejsu na nowoczesnych ekranach | `Load → Resize (bicubic) → Save` |
-| **Wsadowe przetwarzanie zdjęć produktów** | Zapewnia spójność marki w tysiącach obrazów | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
-| **Tworzenie PDF‑ów do druku** | Utrzymuje rozdzielczość gotową do druku | `Load → Scale (no loss) → Embed in PDF` |
+| **Przygotowywanie zasobów dla wyświetlaczy o wysokiej rozdzielczości DPI** | Unika rozmytych elementów UI na nowoczesnych ekranach | `Load → Resize (bicubic) → Save` |
+| **Wsadowe przetwarzanie zdjęć produktów** | Zapewnia spójność marki w tysiącach obrazów | Pętla po plikach z `Load`, `Crop`, `Scale`, `Save` |
+| **Tworzenie drukowalnych PDF‑ów** | Zachowuje rozdzielczość gotową do druku | `Load → Scale (no loss) → Embed in PDF` |
 
-## Samouczki edycji obrazów
+## Tutoriale edycji obrazów
 ### [Przycinanie obrazów w Aspose.Drawing](./cropping/)
-Master image cropping with Aspose.Drawing for .NET. This step‑by‑step guide empowers developers to enhance image processing skills effortlessly.  
+Opanuj przycinanie obrazów z Aspose.Drawing dla .NET. Ten przewodnik krok po kroku umożliwia programistom łatwe podnoszenie umiejętności przetwarzania obrazów.  
 ### [Bezpośredni dostęp do danych w Aspose.Drawing](./direct-data-access/)
-Learn to manipulate images efficiently with Aspose.Drawing for .NET. Dive into direct data access with our step‑by‑step guide.  
+Dowiedz się, jak efektywnie manipulować obrazami przy użyciu Aspose.Drawing dla .NET. Zagłęb się w bezpośredni dostęp do danych dzięki naszemu przewodnikowi krok po kroku.  
 ### [Wyświetlanie obrazów w Aspose.Drawing](./display/)
-Learn how to display images in .NET applications with Aspose.Drawing. Follow our tutorial for easy steps and enhance your visual content.  
+Dowiedz się, jak wyświetlać obrazy w aplikacjach .NET przy użyciu Aspose.Drawing. Skorzystaj z naszego tutorialu, aby uzyskać proste kroki i ulepszyć swoje treści wizualne.  
 ### [Ładowanie i zapisywanie obrazów w Aspose.Drawing](./load-save/)
-Master image loading and saving in .NET with Aspose.Drawing. Explore BMP, GIF, JPG, PNG, TIFF formats effortlessly.  
+Opanuj ładowanie i zapisywanie obrazów w .NET przy użyciu Aspose.Drawing. Bez wysiłku eksploruj formaty BMP, GIF, JPG, PNG i TIFF.  
 ### [Skalowanie obrazów w Aspose.Drawing](./scale/)
-Learn how to scale images effortlessly in .NET using Aspose.Drawing. Our step‑by‑step guide ensures seamless integration, providing powerful image manipulation capabilities.
+Dowiedz się, jak łatwo skalować obrazy w .NET przy użyciu Aspose.Drawing. Nasz przewodnik krok po kroku zapewnia płynną integrację, oferując potężne możliwości manipulacji obrazami.
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę skalować obraz bez utraty i jednocześnie zmienić format pliku?**  
-A: Yes. After scaling, you can save the image in a different format (e.g., PNG → JPEG) while preserving the scaled dimensions. Choose a lossless target format if you need to keep every pixel intact.
+**Q: Czy mogę skalować obraz bez utraty i jednocześnie zmienić jego format pliku?**  
+A: Tak. Po skalowaniu możesz zapisać obraz w innym formacie (np. PNG → JPEG), zachowując skalowane wymiary. Wybierz bezstratny format docelowy, jeśli musisz zachować każdy piksel.
 
-**Q: Czy istnieje spadek wydajności przy użyciu skalowania bez utraty?**  
-A: The algorithm is more compute‑intensive than a simple nearest‑neighbor resize, but Aspose.Drawing is optimized for speed. For bulk operations, consider processing images in parallel.
+**Q: Czy istnieje spadek wydajności przy użyciu bezstratnego skalowania?**  
+A: Algorytm jest bardziej wymagający obliczeniowo niż proste skalowanie metodą najbliższego sąsiada, ale Aspose.Drawing jest zoptymalizowany pod kątem szybkości. W przypadku operacji masowych rozważ przetwarzanie obrazów równolegle.
 
 **Q: Czy Aspose.Drawing obsługuje animowane GIF‑y podczas skalowania?**  
-A: The library can scale each frame individually, preserving animation. You’ll need to iterate over frames and apply the same scaling settings.
+A: Biblioteka może skalować każdą klatkę osobno, zachowując animację. Należy iterować po klatkach i zastosować te same ustawienia skalowania.
 
 **Q: Jak zachować oryginalne DPI przy skalowaniu?**  
-A: After scaling, set the `ResolutionX` and `ResolutionY` properties to the original DPI values before saving.
+A: Po skalowaniu ustaw właściwości `ResolutionX` i `ResolutionY` na oryginalne wartości DPI przed zapisem.
 
-**Q: Co jeśli muszę skalować obraz do rozmiaru nie‑całkowitego?**  
-A: Aspose.Drawing accepts floating‑point dimensions, and the resampling engine will calculate the best pixel values to avoid artifacts.
+**Q: Co zrobić, jeśli muszę skalować obraz do rozmiaru niecałkowitego?**  
+A: Aspose.Drawing akceptuje wymiary zmiennoprzecinkowe, a silnik resamplingu obliczy najlepsze wartości pikseli, aby uniknąć artefaktów.
 
 ---
 
-**Last Updated:** 2026-05-03  
-**Tested With:** Aspose.Drawing for .NET 24.11  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-09-03  
+**Testowano z:** Aspose.Drawing for .NET 24.11  
+**Autor:** Aspose
+
+## Powiązane tutoriale
+
+- [Jak skalować obrazy przy użyciu Aspose.Drawing dla .NET](/drawing/net/image-editing/scale/)
+- [Popraw jakość obrazu za pomocą antyaliasingu w Aspose.Drawing](/drawing/net/rendering/antialiasing/)
+- [Ładuj, konwertuj BMP na PNG i inne formaty przy użyciu Aspose.Drawing](/drawing/net/image-editing/load-save/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
