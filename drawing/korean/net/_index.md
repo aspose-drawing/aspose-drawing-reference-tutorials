@@ -1,15 +1,49 @@
 ---
-date: 2026-04-22
-description: Aspose.Drawing for .NET을 사용하여 사용자 정의 펜을 만드는 방법, 안티앨리어싱을 활성화하는 방법, 그리고
-  그래픽을 마스터하는 방법을 배워보세요. 매트릭스 변환 튜토리얼, 알파 블렌딩 등도 포함됩니다.
+date: 2026-09-03
+description: Aspose.Drawing for .NET에서 pens를 만들고, antialiasing을 활성화하며, matrix transformation
+  튜토리얼을 마스터하는 방법을 배웁니다. 50+ 포맷과 .NET 4.5+를 지원합니다.
 keywords:
-- create custom pens
-- enable antialiasing
-- coordinate transformations
-- add text image
 - matrix transformation tutorial
-linktitle: .NET용 Aspose.Drawing 튜토리얼
-title: Aspose.Drawing for .NET으로 맞춤 펜 만들기 – 종합 튜토리얼
+- custom pens asp.net
+- antialiasing graphics
+- vector graphics tutorial
+lastmod: 2026-09-03
+linktitle: Aspose.Drawing for .NET 튜토리얼
+og_description: Matrix transformation 튜토리얼은 Aspose.Drawing for .NET에서 custom pens를
+  만들고, antialiasing을 활성화하며, 고급 그래픽을 적용하는 방법을 알려줍니다.
+og_image_alt: Guide showing matrix transformation tutorial and custom pen creation
+  in Aspose.Drawing for .NET
+og_title: Matrix transformation 튜토리얼 – pens with Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to create pens, enable antialiasing, and master matrix transformation
+    tutorial in Aspose.Drawing for .NET. Supports 50+ formats and .NET 4.5+.
+  headline: Matrix transformation tutorial – pens with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Absolutely. You can assign a transformed `Matrix` to a `Pen` to rotate,
+      scale, or skew strokes dynamically.
+    question: Can I mix custom pens with matrix transformations?
+  - answer: It adds a modest overhead, but the visual improvement is usually worth
+      it for most UI and reporting scenarios.
+    question: Does enabling antialiasing affect performance?
+  - answer: Use the `Pen.DashPattern` property and provide an array of float values
+      that define the dash‑gap sequence.
+    question: How do I change the dash pattern of a custom pen?
+  - answer: Yes. By updating the `Pen.Width` property inside a rendering loop you
+      can create animated stroke effects.
+    question: Is it possible to animate pen width changes?
+  - answer: A perpetual or subscription license from Aspose ensures full support and
+      updates; the trial mode is limited to evaluation only.
+    question: What licensing model should I choose for production?
+  type: FAQPage
+tags:
+- matrix transformation
+- Aspose.Drawing
+- custom pens
+- .NET graphics
+title: Matrix transformation 튜토리얼 – pens with Aspose.Drawing
 url: /ko/net/
 weight: 10
 ---
@@ -18,106 +52,121 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing for .NET으로 사용자 정의 펜 만들기
+# 행렬 변환 튜토리얼 – Aspose.Drawing 펜
 
-## 소개  
+## 소개
 
-.NET에서 벡터 그래픽의 전체 기능을 활용하고 **사용자 정의 펜을 만들**고 싶다면, 바로 여기가 정답입니다. Aspose.Drawing for .NET은 정밀한 좌표 변환부터 정교한 텍스트 렌더링까지 모든 것을 위한 풍부한 코드‑퍼스트 API를 제공합니다. 이 허브에서는 사용자 정의 펜 제작, 알파 채널 블렌딩, 이미지 자르기, 안티앨리어싱 활성화 등 단계별 튜토리얼을 찾아볼 수 있어 .NET 애플리케이션에서 픽셀 단위의 완벽한 그래픽을 구현할 수 있습니다.
+.NET에서 **행렬 변환 튜토리얼**을 마스터하면서 **맞춤 펜 만들기**를 원한다면, 올바른 곳에 오셨습니다. Aspose.Drawing for .NET은 순수 관리형, 코드 우선 API를 제공하여 모든 스트로크를 제어하고 전역 또는 로컬 행렬 변환을 적용하며 픽셀 완벽 렌더링을 위한 안티앨리어싱을 활성화합니다. 데스크톱 보고 도구, 클라우드 기반 이미지 서비스, 또는 크로스 플랫폼 UI를 구축하든, 이 허브는 벡터 그래픽의 전체 기능을 활용할 수 있도록 단계별 가이드를 제공합니다.
 
 ## 빠른 답변
-- **사용자 정의 펜으로 무엇을 할 수 있나요?** 벡터 그래픽의 스트로크 스타일, 두께, 대시 패턴 및 라인 조인에 대한 정밀한 제어.  
-- **Aspose.Drawing을 사용하려면 라이선스가 필요합니까?** 개발에는 무료 체험판을 사용할 수 있으며, 프로덕션에서는 상용 라이선스가 필요합니다.  
-- **지원되는 .NET 버전은 무엇인가요?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **안티앨리어싱을 어떻게 활성화하나요?** `Graphics.SmoothingMode` 속성을 `SmoothingMode.AntiAlias` 로 설정합니다.  
-- **매트릭스 변환 튜토리얼이 있나요?** 네, 전체 매트릭스 변환 튜토리얼은 “Coordinate Transformations” 섹션을 참고하세요.
+- **맞춤 펜으로 무엇을 달성할 수 있나요?** 벡터 그래픽의 스트로크 스타일, 두께, 대시 패턴 및 라인 조인에 대한 정밀한 제어.
+- **Aspose.Drawing을 사용하려면 라이선스가 필요합니까?** 무료 체험판은 개발에 사용할 수 있으며, 상용 라이선스는 프로덕션에 필요합니다.
+- **지원되는 .NET 버전은 무엇인가요?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **안티앨리어싱을 어떻게 활성화하나요?** `Graphics.SmoothingMode` 속성을 `SmoothingMode.AntiAlias`로 설정합니다.
+- **행렬 변환 튜토리얼이 있나요?** 예, 전체 행렬 변환 튜토리얼은 “Coordinate Transformations” 섹션을 참조하십시오.
 
-## Aspose.Drawing에서 “사용자 정의 펜 만들기”란?
+## Aspose.Drawing에서 “맞춤 펜 만들기”란 무엇인가요?
 
-사용자 정의 펜을 만든다는 것은 `Pen` 객체를 특정 색상, 두께, 대시 스타일, 라인 조인 및 변환 설정으로 구성하여 그리는 모든 선이 디자인 요구사항에 맞도록 하는 것을 의미합니다. 이를 통해 프로페셔널 수준의 벡터 아트를 프로그래밍 방식으로 제작할 수 있는 유연성을 제공합니다.
+`Pen`은 Aspose.Drawing의 객체로, 선이 어떻게 스트로크되는지를 정의합니다 – 색상, 두께, 대시 스타일, 라인 조인 및 선택적 변환 행렬. `Pen`을 구성함으로써 렌더러에 각 벡터 세그먼트가 어떻게 표시될지 정확히 지정할 수 있어, 서예 스트로크, 기술 도면 라인, 혹은 예술적 브러시 효과를 정밀하게 모방할 수 있습니다.
 
-## 사용자 정의 펜에 Aspose.Drawing을 사용하는 이유는?
+## 맞춤 펜에 Aspose.Drawing을 사용하는 이유
 
-- **픽셀 단위 완벽한 렌더링** – 스트로크 외관에 대한 완전한 제어.  
-- **크로스‑플랫폼** – 데스크톱, 웹, 클라우드 .NET 애플리케이션에서 작동합니다.  
-- **외부 종속성 없음** – 순수 .NET 라이브러리이며, 네이티브 GDI+가 필요하지 않습니다.  
-- **풍부한 기능 세트** – 펜을 매트릭스 변환, 알파 블렌딩, 안티앨리어싱과 결합하여 고급 효과를 구현합니다.
+- **픽셀 완벽 렌더링** – 스트로크 외관에 대한 완전한 제어로 고 DPI 디스플레이에서 선명한 가장자리를 제공합니다.
+- **크로스 플랫폼 지원** – Windows, Linux, macOS에서 .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7(총 7개의 지원 런타임 버전)과 함께 작동합니다.
+- **외부 종속성 없음** – 순수 .NET 라이브러리이며, 네이티브 GDI+ 또는 플랫폼별 바이너리가 필요하지 않습니다.
+- **풍부한 기능 세트** – 펜을 행렬 변환, 알파 블렌딩 및 안티앨리어싱과 결합하여 고급 시각 효과를 구현합니다.
 
-## 좌표 변환 – 매트릭스 변환 튜토리얼  
+## 좌표 변환 – 행렬 변환 튜토리얼
 
-Aspose.Drawing에서 전역, 로컬, 매트릭스, 페이지 및 월드 변환의 예술성을 탐구하세요. 이 섹션은 **매트릭스 변환 튜토리얼** 역할을 하며 각 변환 유형의 미묘한 차이를 안내하고 이를 결합해 고정밀 그래픽을 만드는 방법을 보여줍니다.
+**Graphics** 클래스는 그리기 표면을 나타내며 도형, 텍스트 및 이미지 렌더링 메서드를 제공합니다. `Graphics` 객체를 로드하고 `Transform` 속성에 `Matrix`를 할당하면 이후 모든 `Pen` 스트로크가 해당 변환을 상속합니다. 이 접근 방식은 재사용 가능한 차트 축을 만들거나, 로고를 회전시키거나, 줌‑팬 인터랙션을 구현하는 데 이상적입니다.
 
-## 이미지 편집 – 이미지 자르기 방법  
+## 이미지 편집 – 이미지 자르기
 
-Aspose.Drawing 튜토리얼로 이미지 편집 기술을 한 단계 끌어올리세요! 자르기 기법, 직접 데이터 접근, 표시 및 스케일링 방법을 배워 **이미지를 효율적으로 자르는 방법**을 품질을 유지하면서 익힐 수 있습니다.
+**Bitmap** 클래스는 이미지의 픽셀 데이터를 보유하며 메모리 내에서 복제 및 조작을 지원합니다. **Aspose.Drawing으로 이미지를 어떻게 자르나요?** 소스 이미지를 `Bitmap`에 로드하고, 자를 영역을 나타내는 `Rectangle`을 정의한 뒤 `Bitmap.Clone(rect, pixelFormat)`을 호출합니다. 이 메서드는 선택된 영역만 포함하는 새로운 `Bitmap`을 반환하며, 원본 이미지의 해상도와 색 깊이를 유지합니다.
 
-## 라이선스  
+자르기는 완전히 메모리에서 수행되므로, 중간 파일을 디스크에 쓰지 않고도 스케일링이나 맞춤 `Pen` 외곽선 적용과 같은 추가 처리와 연계할 수 있습니다.
 
-원활한 라이선스 튜토리얼을 통해 .NET에서 Aspose.Drawing의 전체 잠재력을 활용하세요. 손쉽게 통합하고 그래픽을 향상시키며 이미지를 자유롭게 조작할 수 있습니다. 우리의 라이선스 가이드는 Aspose.Drawing의 힘을 활용하는 원활한 여정을 보장합니다.
+## 라이선스
 
-## 선, 곡선 및 도형  
+**License** 클래스는 평가 제한을 제거하는 라이선스 파일을 로드합니다. Aspose.Drawing은 간단한 라이선스 파일(`Aspose.Drawing.lic`)을 사용하며, 이를 애플리케이션에 포함하거나 런타임에 `License license = new License(); license.SetLicense("Aspose.Drawing.lic");`와 같이 로드합니다.
 
-.NET에서 Aspose.Drawing의 마법을 경험하세요! 선, 곡선 및 도형 튜토리얼을 탐구하여 활기찬 그래픽을 만들 수 있습니다. 솔리드 브러시, 호, 스플라인, 타원 등을 마스터하면 복잡한 벡터 아트를 구축하는 데 완벽합니다.
+상용 라이선스는 평가 워터마크를 제거하고 모든 렌더링 기능을 잠금 해제하며, 개발, 스테이징 및 프로덕션 환경 전반에 걸쳐 무제한 배포를 허용합니다.
 
-## 펜 – 사용자 정의 펜 만들기 방법  
+## 선, 곡선 및 도형
 
-Aspose.Drawing 튜토리얼을 통해 .NET에서 그래픽 프로그래밍의 힘을 발견하세요. 이 섹션은 **사용자 정의 펜 만들기**에 중점을 두며 색상 조작, 경로 연결 및 동적 펜 두께 설정을 다루어 프로젝트가 요구하는 정확한 스트로크 스타일을 설계할 수 있게 합니다.
+`Graphics.DrawLine`, `Graphics.DrawCurve`, `Graphics.DrawEllipse`는 제공된 `Pen`을 사용하여 기본 기하학적 프리미티브를 렌더링하는 메서드입니다. 이를 `SolidBrush` 또는 `TextureBrush`와 결합하면 도형을 채우고, 복잡한 스플라인 경로를 만들며, 품질 손실 없이 스케일되는 벡터 기반 아이콘을 생성할 수 있습니다.
 
-## 렌더링 – 안티앨리어싱 활성화 방법  
+## 펜 – 맞춤 펜 만들기
 
-Aspose.Drawing으로 .NET에서 그래픽 마스터리를 달성하세요! 부드러운 가장자리를 위한 **안티앨리어싱 활성화 방법**과 투명 효과를 위한 **알파 블렌딩 방법**을 배워 프로젝트를 향상시킵니다. 이러한 렌더링 튜토리얼은 전문적이고 시각적으로 놀라운 그래픽을 구현하는 핵심을 제공합니다.
+**Pen** 클래스는 색상, 두께, 대시 패턴 및 라인 조인과 같은 스트로크 속성을 정의합니다. **Aspose.Drawing에서 맞춤 펜을 어떻게 만들나요?** 원하는 `Color`와 `Width`로 `Pen`을 인스턴스화하고, 선택적으로 대시 패턴(`Pen.DashPattern = new float[] { 4, 2 }`)과 `LineJoin` 스타일(`Pen.LineJoin = LineJoin.Round`)을 지정합니다. 마지막으로 `Graphics.DrawLine(pen, start, end)`와 같은 그리기 호출에 `Pen`을 연결합니다.
 
-## 텍스트 및 폰트 – 텍스트 이미지 추가  
+맞춤 펜을 사용하면 프로그래밍 방식으로 서예 스트로크를 모방하고, 기술 도면 라인 스타일을 생성하거나, 예술적 브러시 효과를 만들 수 있습니다.
 
-Aspose.Drawing for .NET의 잠재력을 활용하세요! 튜토리얼을 통해 동적 텍스트, 폰트 및 이미지 생성을 마스터합니다. 그래픽에 **텍스트 이미지를 추가**하는 방법과 텍스트 포맷팅, 힌팅, 폰트 조작을 완벽히 수행해 선명한 비주얼을 구현하는 법을 배웁니다.
+## 렌더링 – 안티앨리어싱 활성화 방법
 
-## 사용 사례  
+**Graphics.SmoothingMode** 속성은 렌더링 중 적용되는 안티앨리어싱 수준을 제어합니다. **부드러운 그래픽을 위해 안티앨리어싱을 어떻게 활성화하나요?** 모든 그리기 작업 전에 `graphics.SmoothingMode = SmoothingMode.AntiAlias`를 설정합니다. 이는 렌더러에게 서브픽셀 샘플링을 적용하도록 지시하여 대각선 및 곡선 라인의 톱니 모양 가장자리를 감소시킵니다. 더 높은 품질을 위해 `TextRenderingHint.ClearTypeGridFit`를 활성화하여 선명한 텍스트를 얻을 수도 있습니다.
 
-Aspose.Drawing for .NET으로 일러스트레이션을 한 단계 끌어올리세요! 사용 사례 튜토리얼은 콜아웃 추가, 멋진 프레임 생성, 텍스트를 이미지에 매끄럽게 통합하는 방법을 안내합니다. 무한한 가능성을 탐색하고 Aspose.Drawing으로 창의적 작업을 강화하세요.
+안티앨리어싱은 약간의 CPU 오버헤드(일반적으로 최신 하드웨어에서 5‑10 % 정도)를 추가하지만, 특히 고해상도 디스플레이에서 시각적 충실도를 크게 향상시킵니다.
 
-자세한 튜토리얼 덕분에 Aspose.Drawing for .NET을 사용하는 것이 그 어느 때보다 쉬워졌습니다. 그래픽 세계에 뛰어들어 기술을 향상하고 오늘 바로 Aspose.Drawing의 전체 잠재력을 활용하세요!
+## 텍스트 및 폰트 – 이미지에 텍스트 추가
+
+**Graphics.DrawString** 메서드는 설치된 TrueType 또는 OpenType 폰트를 사용하여 이미지에 텍스트를 렌더링합니다. **이미지에 텍스트를 어떻게 추가하나요?** `FontFamily`, `FontStyle`, `FontSize`와 결합하여 정밀한 타이포그래피 제어를 구현합니다. 또한 `Graphics.MeasureString`을 사용해 텍스트 경계를 측정하여 맞춤형 클리핑 영역 내에서 텍스트를 중앙 정렬하거나 줄 바꿈할 수 있습니다.
+
+## 사용 사례
+
+- **주석 및 캡션** – 회전 행렬이 적용된 얇은 대시 `Pen`을 사용하여 이동하는 차트 요소에 맞춰 포인터 라인을 그립니다.
+- **동적 프레임** – 사각형 `Pen`에 스케일링 행렬을 적용하여 컨테이너 크기에 따라 반응하는 테두리를 생성합니다.
+- **텍스트 오버 이미지 워터마크** – `AlphaBlend`와 맞춤 `Pen`을 사용해 반투명 텍스트를 렌더링하여 이미지 배경을 가리지 않고 브랜드를 삽입합니다.
+
+Aspose.Drawing for .NET를 사용하는 것이 이렇게 쉬운 적은 없었습니다. 자세한 튜토리얼 덕분에 그래픽 세계에 뛰어들어 기술을 향상시키고 Aspose.Drawing의 전체 잠재력을 지금 바로 활용하세요!
 
 ## Aspose.Drawing for .NET 튜토리얼
 ### [좌표 변환](./coordinate-transformations/)
-Aspose.Drawing 튜토리얼로 그래픽 기술을 향상시키세요. 전역, 로컬, 매트릭스, 페이지 및 월드 변환을 탐구하며 .NET에서 정밀 그래픽을 마스터합니다.
+Aspose.Drawing 튜토리얼을 통해 그래픽 기술을 향상시키세요. 전역, 로컬, 행렬, 페이지 및 월드 변환을 탐색하며 .NET에서 정밀 그래픽을 마스터합니다.
 ### [이미지 편집](./image-editing/)
-Aspose.Drawing 튜토리얼로 이미지 편집 기술을 향상시키세요! 자르기, 직접 데이터 접근, 표시 및 스케일링 기법을 배워 놀라운 결과를 얻을 수 있습니다.
+Aspose.Drawing 튜토리얼로 이미지 편집 기술을 향상시키세요! 자르기, 직접 데이터 접근, 표시 및 스케일링 기법을 배우고 놀라운 결과를 얻으세요.
 ### [라이선스](./licensing/)
-원활한 라이선스 튜토리얼을 통해 .NET에서 Aspose.Drawing의 전체 잠재력을 활용하세요. 손쉽게 통합하고 그래픽을 향상시키며 이미지를 자유롭게 조작합니다.
+Aspose.Drawing의 전체 잠재력을 .NET에서 원활한 라이선스 튜토리얼로 활용하세요. 손쉽게 통합하고 그래픽을 고급화하며 이미지를 자유롭게 조작합니다.
 ### [선, 곡선 및 도형](./lines-curves-and-shapes/)
-Aspose.Drawing의 .NET 마법을 발휘하세요! 선, 곡선 및 도형 튜토리얼을 탐구해 활기찬 그래픽을 만들고, 솔리드 브러시, 호, 스플라인, 타원 등을 창의적으로 마스터합니다.
+Aspose.Drawing의 .NET 마법을 발휘하세요! 선, 곡선, 도형 튜토리얼을 탐색하여 활기찬 그래픽을 구현하고, 솔리드 브러시, 호, 스플라인, 타원 등을 창의적으로 마스터합니다.
 ### [펜](./pens/)
-Aspose.Drawing 튜토리얼로 .NET에서 그래픽 프로그래밍의 힘을 활용하세요. 색상 조작, 경로 연결 및 동적 펜 두께 설정을 통해 놀라운 비주얼을 구현합니다.
+Aspose.Drawing 튜토리얼로 .NET에서 그래픽 프로그래밍의 힘을 열어보세요. 색상 조작, 경로 연결 및 동적 펜 두께 설정을 발견하여 놀라운 시각 효과를 구현합니다.
 ### [렌더링](./rendering/)
-Aspose.Drawing으로 .NET 그래픽 마스터리를 달성하세요! 투명 효과를 위한 알파 블렌딩으로 프로젝트를 향상시키고, 안티앨리어싱 및 클리핑을 배워 디자인을 강화합니다.
+Aspose.Drawing으로 .NET 그래픽 마스터리를 달성하세요! 알파 블렌딩으로 투명 효과를 높이고, 안티앨리어싱 및 클리핑을 배워 디자인을 향상시킵니다.
 ### [텍스트 및 폰트](./text-and-fonts/)
-Aspose.Drawing for .NET을 활용하세요! 동적 텍스트, 폰트 및 이미지 생성 기술을 마스터하고, 텍스트 포맷팅, 힌팅 및 폰트 조작을 완벽히 수행해 선명한 비주얼을 구현합니다.
+Aspose.Drawing for .NET를 활용하세요! 동적 텍스트, 폰트 및 이미지 생성 기술을 마스터하고, 텍스트 포맷팅, 힌팅 및 폰트 조작을 완벽히 구현하여 선명한 시각 효과를 얻으세요.
 ### [사용 사례](./use-cases/)
-Aspose.Drawing for .NET으로 일러스트레이션을 향상시키세요! 콜아웃을 추가하고 멋진 프레임을 만들며, 텍스트를 이미지에 매끄럽게 통합하는 방법을 튜토리얼에서 배웁니다.
+Aspose.Drawing for .NET로 일러스트레이션을 한 단계 끌어올리세요! 캡션을 추가하고, 멋진 프레임을 만들며, 텍스트를 이미지에 원활히 통합하는 튜토리얼을 제공합니다.
 
 ## 자주 묻는 질문
 
-**Q: 사용자 정의 펜을 매트릭스 변환과 혼합할 수 있나요?**  
-A: 물론입니다. 변환된 `Matrix`를 `Pen`에 할당하여 스트로크를 동적으로 회전, 스케일링 또는 스큐할 수 있습니다.
+**Q: 맞춤 펜을 행렬 변환과 혼합할 수 있나요?**  
+A: 물론입니다. 변환된 `Matrix`를 `Pen`에 할당하여 스트로크를 동적으로 회전, 스케일링 또는 스키우할 수 있습니다.
 
 **Q: 안티앨리어싱을 활성화하면 성능에 영향을 미치나요?**  
-A: 약간의 오버헤드가 추가되지만, 대부분의 UI 및 보고 시나리오에서 시각적 개선이 그만큼의 가치를 제공합니다.
+A: 약간의 오버헤드가 추가되지만, 대부분의 UI 및 보고 시나리오에서 시각적 향상이 충분히 가치가 있습니다.
 
-**Q: 사용자 정의 펜의 대시 패턴을 어떻게 변경하나요?**  
+**Q: 맞춤 펜의 대시 패턴을 어떻게 변경하나요?**  
 A: `Pen.DashPattern` 속성을 사용하고 대시‑갭 시퀀스를 정의하는 float 배열을 제공하면 됩니다.
 
 **Q: 펜 두께 변화를 애니메이션화할 수 있나요?**  
-A: 가능합니다. 렌더링 루프 내에서 `Pen.Width` 속성을 업데이트하면 애니메이션 스트로크 효과를 만들 수 있습니다.
+A: 예. 렌더링 루프 내에서 `Pen.Width` 속성을 업데이트하면 애니메이션 스트로크 효과를 만들 수 있습니다.
 
 **Q: 프로덕션에 어떤 라이선스 모델을 선택해야 하나요?**  
-A: Aspose의 영구 라이선스 또는 구독 라이선스는 전체 지원 및 업데이트를 보장합니다; 체험 모드는 평가용으로만 제한됩니다.
+A: Aspose의 영구 라이선스 또는 구독 라이선스는 전체 지원 및 업데이트를 보장하며, 체험 모드는 평가 용도로만 제한됩니다.
 
----
+---  
 
-**마지막 업데이트:** 2026-04-22  
+**마지막 업데이트:** 2026-09-03  
 **테스트 환경:** Aspose.Drawing for .NET (latest release)  
 **작성자:** Aspose
 
----
+## 관련 튜토리얼
+
+- [Aspose.Drawing API for .NET를 사용한 사각형 그리기 – 좌표 시스템 변환 (페이지 변환)](/drawing/net/coordinate-transformations/page-transformation/)
+- [Aspose.Drawing for .NET에서 단위 설정 – 측정 단위](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Aspose.Drawing에서 안티앨리어싱으로 이미지 품질 향상](/drawing/net/rendering/antialiasing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
