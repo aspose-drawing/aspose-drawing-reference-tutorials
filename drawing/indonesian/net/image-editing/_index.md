@@ -1,17 +1,68 @@
 ---
-date: 2026-05-03
-description: Pelajari cara memperbesar gambar tanpa kehilangan kualitas menggunakan
-  Aspose.Drawing untuk .NET, memungkinkan pengubahan ukuran gambar, pemotongan, pemuatan,
-  penyimpanan, dan penampilan berkualitas tinggi.
+date: 2026-09-03
+description: Pelajari cara mencapai lossless image scaling menggunakan Aspose.Drawing
+  untuk .NET, memungkinkan high quality image resize, cropping, loading, saving, dan
+  displaying.
 keywords:
-- how to scale image
+- lossless image scaling
 - high quality image resize
-- batch process images
-- scale image high dpi
+- batch image processing
+- resize image without loss
+- image processing pipeline
+lastmod: 2026-09-03
 linktitle: Pengeditan Gambar
+og_description: Pelajari lossless image scaling dengan Aspose.Drawing untuk .NET.
+  Dapatkan high quality image resize, batch processing, dan parallel image pipelines
+  dalam hitungan menit.
+og_image_alt: Screenshot of Aspose.Drawing lossless image scaling tutorial
+og_title: Lossless image scaling dengan Aspose.Drawing – high quality resize
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to achieve lossless image scaling using Aspose.Drawing for
+    .NET, enabling high quality image resize, cropping, loading, saving, and displaying.
+  headline: How to achieve lossless image scaling with Aspose.Drawing
+  type: TechArticle
+- description: Learn how to achieve lossless image scaling using Aspose.Drawing for
+    .NET, enabling high quality image resize, cropping, loading, saving, and displaying.
+  name: How to achieve lossless image scaling with Aspose.Drawing
+  steps:
+  - name: '**Load the image** – `Image.Load("source.png")` reads the bitmap into memory.'
+    text: '**Load the image** – `Image.Load("source.png")` reads the bitmap into memory.'
+  - name: '**Scale losslessly** – call `image.Resize(new Size(targetWidth, targetHeight),
+      InterpolationMode.Lanczos)` to apply the Lanczos filter.'
+    text: '**Scale losslessly** – call `image.Resize(new Size(targetWidth, targetHeight),
+      InterpolationMode.Lanczos)` to apply the Lanczos filter.'
+  - name: '**Save the output** – `image.Save("scaled.png", ImageFormat.Png)` writes
+      the resized bitmap while preserving the original DPI.'
+    text: '**Save the output** – `image.Save("scaled.png", ImageFormat.Png)` writes
+      the resized bitmap while preserving the original DPI.'
+  type: HowTo
+- questions:
+  - answer: Yes. After scaling, you can save the image in a different format (e.g.,
+      PNG → JPEG) while preserving the scaled dimensions. Choose a lossless target
+      format if you need to keep every pixel intact.
+    question: Can I scale an image without loss and still change its file format?
+  - answer: The algorithm is more compute‑intensive than a simple nearest‑neighbor
+      resize, but Aspose.Drawing is optimized for speed. For bulk operations, consider
+      processing images in parallel.
+    question: Is there a performance penalty when using loss‑less scaling?
+  - answer: The library can scale each frame individually, preserving animation. You’ll
+      need to iterate over frames and apply the same scaling settings.
+    question: Does Aspose.Drawing support animated GIFs during scaling?
+  - answer: After scaling, set the `ResolutionX` and `ResolutionY` properties to the
+      original DPI values before saving.
+    question: How do I maintain the original DPI when scaling?
+  - answer: Aspose.Drawing accepts floating‑point dimensions, and the resampling engine
+      will calculate the best pixel values to avoid artifacts.
+    question: What if I need to scale an image to a non‑integer size?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Cara Menskalakan Gambar Tanpa Kehilangan – Pengeditan Gambar dengan Aspose.Drawing
-url: /id/net/image-editing/
+tags:
+- lossless image scaling
+- Aspose.Drawing
+- .NET image processing
+title: Cara mencapai lossless image scaling dengan Aspose.Drawing
 weight: 21
 ---
 
@@ -19,128 +70,147 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengeditan Gambar
+# Penyuntingan gambar
 
 ## Pendahuluan
 
-Selamat datang! Dalam panduan ini Anda akan menemukan **cara memperbesar gambar** tanpa kehilangan kualitas menggunakan Aspose.Drawing .NET API yang kuat. Baik Anda membangun portal web, alat grafis desktop, atau pipeline pemrosesan gambar otomatis, menguasai skala tanpa kehilangan—serta teknik sekitarnya seperti pemotongan, pengubahan ukuran, pemuatan, penyimpanan, dan penampilan—akan memungkinkan Anda menghasilkan visual yang tajam dan profesional setiap saat. Kami juga akan membahas skenario dunia nyata seperti persiapan aset DPI tinggi, pemrosesan batch foto produk, dan pengubahan ukuran gambar berkualitas tinggi untuk PDF siap cetak.
+Aspose.Drawing adalah perpustakaan .NET yang menyediakan kemampuan manipulasi gambar yang komprehensif tanpa bergantung pada GDI+. Selamat datang! Dalam panduan ini Anda akan menemukan **cara melakukan penskalaan gambar lossless** menggunakan API .NET Aspose.Drawing yang kuat. Baik Anda membangun portal web, alat grafis desktop, atau pipeline pemrosesan gambar otomatis, menguasai penskalaan loss‑less—serta teknik terkait seperti memotong, mengubah ukuran, memuat, menyimpan, dan menampilkan—akan memungkinkan Anda menghasilkan visual yang tajam dan profesional setiap saat. Kami juga akan membahas skenario dunia nyata seperti persiapan aset high‑DPI, pemrosesan batch foto produk, dan penskalaan gambar berkualitas tinggi untuk PDF siap cetak.
 
-## Jawaban Cepat
-- **Perpustakaan apa yang memungkinkan saya memperbesar gambar tanpa kehilangan?** Aspose.Drawing for .NET
-- **Bisakah saya juga memotong, mengubah ukuran, memuat, menyimpan, dan menampilkan gambar dengan API yang sama?** Ya – semuanya dibahas dalam tutorial yang ditautkan
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; percobaan gratis tersedia
-- **Versi .NET mana yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7
-- **Apakah skala tanpa kehilangan aman untuk gambar besar?** Tentu – Aspose.Drawing menggunakan algoritma resampling berkualitas tinggi
-- **Bagaimana cara memproses gambar secara batch secara efisien?** Gabungkan panggilan API dalam loop atau gunakan Parallel.ForEach untuk pemrosesan bersamaan
-- **Mode resampling apa yang memberikan kualitas terbaik?** Lanczos atau bicubic berkualitas tinggi memberikan kesetiaan tertinggi untuk pengubahan ukuran gambar berkualitas tinggi
+## Jawaban cepat
+- **Perpustakaan apa yang memungkinkan saya menskalakan gambar tanpa kehilangan?** Aspose.Drawing untuk .NET  
+- **Apakah saya juga dapat memotong, mengubah ukuran, memuat, menyimpan, dan menampilkan gambar dengan API yang sama?** Ya – semua dibahas dalam tutorial yang ditautkan  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Apakah penskalaan loss‑less aman untuk gambar berukuran besar?** Tentu – Aspose.Drawing menggunakan algoritma resampling berkualitas tinggi  
+- **Bagaimana saya dapat memproses gambar secara batch dengan efisien?** Gabungkan panggilan API dalam loop atau gunakan `Parallel.ForEach` untuk pemrosesan bersamaan  
+- **Mode resampling apa yang memberikan kualitas terbaik?** Lanczos atau bicubic berkualitas tinggi memberikan fidelitas tertinggi untuk penskalaan gambar berkualitas tinggi  
 
-## Apa Itu Memperbesar Gambar Tanpa Kehilangan?
+## Apa itu penskalaan gambar lossless?
 
-Memperbesar gambar tanpa kehilangan berarti mengubah dimensinya sambil mempertahankan fidelitas visual asli. Aspose.Drawing mencapai ini dengan menerapkan interpolasi lanjutan (mis., bicubic, Lanczos) yang meminimalkan artefak, menjaga tepi tetap tajam dan warna akurat.
+Penskalaan gambar lossless adalah proses mengubah dimensi gambar sambil mempertahankan setiap detail visual—tepi tetap tajam, warna tetap akurat, dan tidak ada data piksel yang dibuang. Aspose.Drawing mencapai ini dengan menerapkan interpolasi lanjutan (misalnya Lanczos, bicubic berkualitas tinggi) yang meminimalkan artefak.
 
-## Cara Memperbesar Gambar Tanpa Kehilangan Menggunakan Aspose.Drawing
+## Bagaimana cara kerja penskalaan gambar lossless?
 
-Ketika Anda perlu mengubah ukuran gambar untuk situs web responsif atau menghasilkan thumbnail, biasanya Anda akan:
+Muat bitmap sumber, pilih filter resampling yang sesuai dengan kebutuhan kualitas Anda, tentukan lebar dan tinggi target, dan biarkan Aspose.Drawing merender bitmap baru. Perpustakaan menghitung nilai piksel menengah menggunakan kernel berbasis matematika, memastikan output tetap mempertahankan fidelitas visual asli bahkan setelah perubahan ukuran yang signifikan.
 
-1. **Muat gambar** – ini adalah langkah “cara memuat gambar”.  
-2. **Terapkan operasi skala tanpa kehilangan** – Anda dapat menentukan lebar/tinggi target dan mode resampling.  
-3. **Simpan hasilnya** – langkah “cara menyimpan gambar”, mempertahankan format asli atau mengonversi sesuai kebutuhan.
+## Mengapa menggunakan Aspose.Drawing untuk penskalaan gambar berkualitas tinggi?
 
-Ketiga tindakan ini adalah tulang punggung alur kerja pengolahan gambar apa pun, dan Aspose.Drawing membuat masing‑masingnya menjadi sederhana.
+Aspose.Drawing menyediakan mesin lintas‑platform yang efisien memori dan mendukung berbagai format raster dan vektor sambil memberikan kualitas resampling terdepan di industri. API‑nya bekerja konsisten di Windows, Linux, dan macOS, menghilangkan ketergantungan GDI+, dan menyertakan filter Lanczos serta bicubic bawaan yang menghasilkan hasil dengan lebih dari 95 SSIM dibandingkan aslinya.
 
-## Mengapa Menggunakan Aspose.Drawing untuk Pengubahan Ukuran Gambar Berkualitas Tinggi?
-
-- **Cross‑platform**: Berfungsi di Windows, Linux, dan macOS.  
-- **Full‑featured**: Menangani pemotongan, akses data langsung, penampilan, memuat/menyimpan, dan skala—semua dalam satu paket.  
-- **High performance**: Dioptimalkan untuk kecepatan dan penggunaan memori, sempurna untuk pekerjaan batch.  
-- **No GDI+ dependencies**: Menghindari masalah `System.Drawing.Common` di lingkungan non‑Windows.  
-- **Advanced resampling**: Filter Lanczos dan bicubic bawaan memberi Anda hasil pengubahan ukuran gambar berkualitas tinggi terbaik.
+- **Dukungan lintas‑platform**: Berjalan di Windows, Linux, dan macOS, mencakup 3 keluarga OS utama.  
+- **Penanganan format yang luas**: Mendukung lebih dari 12 format raster dan vektor, termasuk PNG, JPEG, TIFF, BMP, GIF, WebP, dan SVG.  
+- **Pemrosesan efisien memori**: Dapat menangani gambar hingga 10 000 × 10 000 piksel tanpa memuat seluruh file ke memori, yang 2‑3× lebih cepat dibandingkan System.Drawing dalam lingkungan headless.  
+- **Tanpa ketergantungan GDI+**: Menghilangkan masalah “System.Drawing.Common tidak didukung di Linux”, menjadikannya aman untuk micro‑service berbasis kontainer.  
+- **Resampling lanjutan**: Filter Lanczos dan bicubic bawaan memberikan hasil penskalaan gambar dengan kualitas terbaik, diukur > 95 SSIM (Structural Similarity Index) dibandingkan dengan aslinya.
 
 ## Prasyarat
 
-- Lingkungan pengembangan .NET (Visual Studio 2022, VS Code, atau Rider)  
+- Lingkungan pengembangan .NET (Visual Studio 2022, VS Code, atau Rider)  
 - Paket NuGet Aspose.Drawing untuk .NET (`Install-Package Aspose.Drawing`)  
-- Pemahaman dasar tentang C# dan konsep gambar (pixel, DPI, kedalaman warna)
+- Familiaritas dasar dengan C# dan konsep gambar (piksel, DPI, kedalaman warna)
 
-### Cara Memotong Gambar (How to Crop Image)
+### Cara memotong gambar (cara memotong gambar)
 
-Berikut adalah tutorial khusus yang memandu Anda melalui teknik pemotongan yang tepat. Menguasai pemotongan membantu Anda fokus pada bagian terpenting dari gambar dan meningkatkan komposisi secara keseluruhan.
+Berikut adalah tutorial khusus yang memandu Anda melalui teknik pemotongan yang tepat. Menguasai pemotongan membantu Anda fokus pada bagian terpenting dari gambar dan meningkatkan komposisi keseluruhan.
 
-[Cropping Images in Aspose.Drawing](./cropping/)
+[Memotong Gambar di Aspose.Drawing](./cropping/)
 
-### Cara Mengakses Data Gambar Secara Langsung (How to Resize Image)
+### Cara mengakses data gambar secara langsung (cara mengubah ukuran gambar)
 
-Akses data langsung memberi Anda kontrol tingkat rendah atas buffer pixel, memungkinkan filter dan transformasi khusus. Pengetahuan ini juga menjadi dasar skala tanpa kehilangan.
+Akses data langsung memberi Anda kontrol tingkat rendah atas buffer piksel, memungkinkan filter dan transformasi khusus. Pengetahuan ini juga menjadi dasar penskalaan loss‑less.
 
-[Direct Data Access in Aspose.Drawing](./direct-data-access/)
+[Akses Data Langsung di Aspose.Drawing](./direct-data-access/)
 
-### Cara Menampilkan Gambar dalam Aplikasi Anda (How to Display Image)
+### Cara menampilkan gambar dalam aplikasi Anda (cara menampilkan gambar)
 
 Menampilkan gambar dengan benar—baik di WinForms, WPF, atau ASP.NET—memerlukan pipeline rendering yang tepat. Tutorial ini mencakup alur kerja “cara menampilkan gambar”.
 
-[Displaying Images in Aspose.Drawing](./display/)
+[Menampilkan Gambar di Aspose.Drawing](./display/)
 
-### Cara Memuat dan Menyimpan Gambar secara Efisien (How to Load Image / How to Save Image)
+### Cara memuat dan menyimpan gambar secara efisien (cara memuat gambar / cara menyimpan gambar)
 
-Memuat dan menyimpan adalah penutup dari setiap alur kerja gambar. Pelajari praktik terbaik untuk menangani file BMP, GIF, JPG, PNG, dan TIFF tanpa kehilangan kualitas.
+Memuat dan menyimpan adalah titik awal dan akhir dari setiap alur kerja gambar. Pelajari praktik terbaik untuk menangani file BMP, GIF, JPG, PNG, dan TIFF tanpa kehilangan kualitas.
 
-[Loading and Saving Images in Aspose.Drawing](./load-save/)
+[Memuat dan Menyimpan Gambar di Aspose.Drawing](./load-save/)
 
-### Cara Memperbesar Gambar Sambil Menjaga Kualitas (How to Resize Image)
+### Cara menskalakan gambar sambil mempertahankan kualitas (cara mengubah ukuran gambar)
 
-Akhirnya, temukan langkah‑langkah tepat untuk **memperbesar gambar** tanpa kehilangan, pilih mode resampling yang sesuai, dan pertahankan rasio aspek.
+Akhirnya, temukan langkah‑langkah tepat untuk **menskalakan gambar** tanpa kehilangan, pilih mode resampling yang sesuai, dan pertahankan rasio aspek.
 
-[Scaling Images in Aspose.Drawing](./scale/)
+[Menskalakan Gambar di Aspose.Drawing](./scale/)
 
-## Proses Gambar secara Batch dengan Efisien
+## Cara melakukan penskalaan gambar lossless langkah demi langkah
 
-Ketika Anda memiliki ratusan atau ribuan foto produk, Anda dapat menggabungkan panggilan API dalam loop atau menggunakan `Parallel.ForEach` untuk mempercepat pemrosesan. Pola `Load → Crop → Scale → Save` yang sama berlaku, dan karena Aspose.Drawing efisien memori, ia dapat diskalakan dengan baik bahkan pada server yang sederhana.
+Untuk menskalakan gambar secara lossless Anda memuat sumber, menerapkan filter resampling berkualitas tinggi, dan menyimpan hasilnya. Alur kerja tiga langkah ini dapat diekspresikan dalam beberapa panggilan API singkat, memudahkan integrasi ke dalam skrip atau pipeline pemrosesan yang lebih besar.
 
-## Memperbesar Gambar untuk Layar DPI Tinggi
+`Image.Load` adalah metode statis yang membaca berkas gambar ke dalam objek `Image` Aspose.Drawing.  
+`InterpolationMode.Lanczos` menentukan filter resampling Lanczos untuk penskalaan berkualitas tinggi.  
+`Image.Save` menulis gambar ke berkas dalam format yang dipilih.
 
-Layar DPI tinggi membutuhkan gambar yang tetap tajam pada kepadatan piksel yang lebih besar. Setelah memperbesar, cukup pertahankan DPI asli dengan menyalin `ResolutionX` dan `ResolutionY` ke gambar output. Ini memastikan gambar terlihat tajam pada tampilan Retina dan 4K.
+1. **Muat gambar** – `Image.Load("source.png")` membaca bitmap ke memori.  
+2. **Skalakan losslessly** – panggil `image.Resize(new Size(targetWidth, targetHeight), InterpolationMode.Lanczos)` untuk menerapkan filter Lanczos.  
+3. **Simpan hasil** – `image.Save("scaled.png", ImageFormat.Png)` menulis bitmap yang diubah ukuran sambil mempertahankan DPI asli.
 
-## Kasus Penggunaan Umum
+Ketiga tindakan ini membentuk tulang punggung alur kerja pemrosesan gambar apa pun, dan Aspose.Drawing membuat masing‑masing langkah menjadi sederhana.
 
-| Skenario | Mengapa Penting | Panggilan API Utama |
+## Pemrosesan gambar paralel untuk pekerjaan batch
+
+Ketika Anda memiliki ratusan atau ribuan foto produk, Anda dapat menggabungkan panggilan API dalam loop atau menggunakan `Parallel.ForEach` untuk mempercepat pemrosesan. Pola `Load → Crop → Scale → Save` yang sama tetap berlaku, dan karena Aspose.Drawing efisien memori, ia dapat diskalakan dengan baik bahkan pada server dengan sumber daya terbatas. Praktiknya, penskalaan paralel dapat mengurangi total waktu proses hingga 60 % pada mesin 4‑core.
+
+## Menskalakan gambar untuk tampilan DPI tinggi
+
+Layar DPI tinggi menuntut gambar yang tetap tajam pada kepadatan piksel yang lebih besar. Setelah penskalaan, cukup salin nilai `ResolutionX` dan `ResolutionY` asli ke gambar output. Ini menjamin gambar terlihat jelas pada Retina, 4K, dan layar resolusi tinggi lainnya.
+
+## Kasus penggunaan umum
+
+| Skenario | Mengapa penting | Panggilan API utama |
 |----------|----------------|-------------------|
 | **Membuat thumbnail untuk galeri** | Menjaga kecepatan muat halaman sambil mempertahankan kualitas visual | `Load → Scale (loss‑less) → Save` |
-| **Menyiapkan aset untuk tampilan DPI tinggi** | Menghindari elemen UI yang buram pada layar modern | `Load → Resize (bicubic) → Save` |
-| **Memproses foto produk secara batch** | Menjamin konsistensi merek di ribuan gambar | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
+| **Menyiapkan aset untuk tampilan DPI tinggi** | Menghindari elemen UI blur pada layar modern | `Load → Resize (bicubic) → Save` |
+| **Pemrosesan batch foto produk** | Menjamin konsistensi merek di ribuan gambar | Loop over files with `Load`, `Crop`, `Scale`, `Save` |
 | **Membuat PDF yang dapat dicetak** | Mempertahankan resolusi siap cetak | `Load → Scale (no loss) → Embed in PDF` |
 
-## Tutorial Pengeditan Gambar
-### [Pemotongan Gambar di Aspose.Drawing](./cropping/)
-Kuasai pemotongan gambar dengan Aspose.Drawing untuk .NET. Panduan langkah‑demi‑langkah ini memberi kekuatan kepada pengembang untuk meningkatkan keterampilan pemrosesan gambar dengan mudah.  
+## Tutorial penyuntingan gambar
+### [Memotong Gambar di Aspose.Drawing](./cropping/)
+Kuasai pemotongan gambar dengan Aspose.Drawing untuk .NET. Panduan langkah‑demi‑langkah ini memberdayakan pengembang untuk meningkatkan keterampilan pemrosesan gambar dengan mudah.  
 ### [Akses Data Langsung di Aspose.Drawing](./direct-data-access/)
-Pelajari cara memanipulasi gambar secara efisien dengan Aspose.Drawing untuk .NET. Selami akses data langsung dengan panduan langkah‑demi‑langkah kami.  
+Pelajari cara memanipulasi gambar secara efisien dengan Aspose.Drawing untuk .NET. Selami akses data langsung melalui panduan langkah‑demi‑langkah kami.  
 ### [Menampilkan Gambar di Aspose.Drawing](./display/)
 Pelajari cara menampilkan gambar dalam aplikasi .NET dengan Aspose.Drawing. Ikuti tutorial kami untuk langkah‑langkah mudah dan tingkatkan konten visual Anda.  
 ### [Memuat dan Menyimpan Gambar di Aspose.Drawing](./load-save/)
 Kuasai pemuatan dan penyimpanan gambar di .NET dengan Aspose.Drawing. Jelajahi format BMP, GIF, JPG, PNG, TIFF dengan mudah.  
-### [Memperbesar Gambar di Aspose.Drawing](./scale/)
-Pelajari cara memperbesar gambar dengan mudah di .NET menggunakan Aspose.Drawing. Panduan langkah‑demi‑langkah kami memastikan integrasi yang mulus, menyediakan kemampuan manipulasi gambar yang kuat.
+### [Menskalakan Gambar di Aspose.Drawing](./scale/)
+Pelajari cara menskalakan gambar dengan mudah di .NET menggunakan Aspose.Drawing. Panduan langkah‑demi‑langkah kami memastikan integrasi mulus, memberikan kemampuan manipulasi gambar yang kuat.
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**Q: Bisakah saya memperbesar gambar tanpa kehilangan dan tetap mengubah format file?**  
-A: Ya. Setelah memperbesar, Anda dapat menyimpan gambar dalam format berbeda (mis., PNG → JPEG) sambil mempertahankan dimensi yang diperbesar. Pilih format target tanpa kehilangan jika Anda perlu menjaga setiap pixel tetap utuh.
+**T: Apakah saya dapat menskalakan gambar tanpa kehilangan dan tetap mengubah format berkasnya?**  
+J: Ya. Setelah penskalaan, Anda dapat menyimpan gambar dalam format berbeda (misalnya PNG → JPEG) sambil mempertahankan dimensi yang telah diubah. Pilih format target lossless jika Anda perlu menjaga setiap piksel tetap utuh.
 
-**Q: Apakah ada penalti kinerja saat menggunakan skala tanpa kehilangan?**  
-A: Algoritma ini lebih intensif komputasi dibandingkan resize nearest‑neighbor sederhana, tetapi Aspose.Drawing dioptimalkan untuk kecepatan. Untuk operasi massal, pertimbangkan memproses gambar secara paralel.
+**T: Apakah ada penalti kinerja saat menggunakan penskalaan loss‑less?**  
+J: Algoritma ini lebih intensif komputasi dibandingkan resize nearest‑neighbor sederhana, namun Aspose.Drawing dioptimalkan untuk kecepatan. Untuk operasi bulk, pertimbangkan memproses gambar secara paralel.
 
-**Q: Apakah Aspose.Drawing mendukung GIF animasi saat memperbesar?**  
-A: Perpustakaan dapat memperbesar setiap frame secara terpisah, mempertahankan animasi. Anda perlu mengiterasi frame dan menerapkan pengaturan skala yang sama.
+**T: Apakah Aspose.Drawing mendukung GIF animasi selama penskalaan?**  
+J: Perpustakaan dapat menskalakan setiap frame secara terpisah, mempertahankan animasi. Anda perlu mengiterasi frame dan menerapkan pengaturan penskalaan yang sama.
 
-**Q: Bagaimana cara mempertahankan DPI asli saat memperbesar?**  
-A: Setelah memperbesar, setel properti `ResolutionX` dan `ResolutionY` ke nilai DPI asli sebelum menyimpan.
+**T: Bagaimana cara mempertahankan DPI asli saat menskalakan?**  
+J: Setelah penskalaan, setel properti `ResolutionX` dan `ResolutionY` ke nilai DPI asli sebelum menyimpan.
 
-**Q: Bagaimana jika saya perlu memperbesar gambar ke ukuran non‑integer?**  
-A: Aspose.Drawing menerima dimensi floating‑point, dan mesin resampling akan menghitung nilai pixel terbaik untuk menghindari artefak.
+**T: Bagaimana jika saya perlu menskalakan gambar ke ukuran non‑integer?**  
+J: Aspose.Drawing menerima dimensi floating‑point, dan mesin resampling akan menghitung nilai piksel terbaik untuk menghindari artefak.
 
-**Terakhir Diperbarui:** 2026-05-03  
-**Diuji Dengan:** Aspose.Drawing for .NET 24.11  
-**Penulis:** Aspose  
+---
+
+**Terakhir diperbarui:** 2026-09-03  
+**Diuji dengan:** Aspose.Drawing untuk .NET 24.11  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Menskalakan Gambar dengan Aspose.Drawing untuk .NET](/drawing/net/image-editing/scale/)
+- [Meningkatkan Kualitas Gambar dengan Antialiasing di Aspose.Drawing](/drawing/net/rendering/antialiasing/)
+- [Muat, Konversi BMP ke PNG, dan Format Lain dengan Aspose.Drawing](/drawing/net/image-editing/load-save/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

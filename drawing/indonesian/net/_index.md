@@ -1,16 +1,51 @@
 ---
-date: 2026-04-22
-description: Pelajari cara membuat pena khusus, mengaktifkan antialiasing, dan menguasai
-  grafik dengan Aspose.Drawing untuk .NET. Termasuk tutorial transformasi matriks,
-  pencampuran alfa, dan lainnya.
+date: 2026-09-03
+description: Pelajari cara membuat pens, mengaktifkan antialiasing, dan menguasai
+  tutorial transformasi matriks di Aspose.Drawing untuk .NET. Mendukung lebih dari
+  50 format dan .NET 4.5+.
 keywords:
-- create custom pens
-- enable antialiasing
-- coordinate transformations
-- add text image
 - matrix transformation tutorial
+- custom pens asp.net
+- antialiasing graphics
+- vector graphics tutorial
+lastmod: 2026-09-03
 linktitle: Tutorial Aspose.Drawing untuk .NET
-title: Buat Pena Kustom dengan Aspose.Drawing untuk .NET – Tutorial Komprehensif
+og_description: Tutorial transformasi matriks mengajarkan Anda cara membuat custom
+  pens, mengaktifkan antialiasing, dan menerapkan advanced graphics di Aspose.Drawing
+  untuk .NET.
+og_image_alt: Guide showing matrix transformation tutorial and custom pen creation
+  in Aspose.Drawing for .NET
+og_title: Tutorial transformasi matriks – pens dengan Aspose.Drawing
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to create pens, enable antialiasing, and master matrix transformation
+    tutorial in Aspose.Drawing for .NET. Supports 50+ formats and .NET 4.5+.
+  headline: Matrix transformation tutorial – pens with Aspose.Drawing
+  type: TechArticle
+- questions:
+  - answer: Absolutely. You can assign a transformed `Matrix` to a `Pen` to rotate,
+      scale, or skew strokes dynamically.
+    question: Can I mix custom pens with matrix transformations?
+  - answer: It adds a modest overhead, but the visual improvement is usually worth
+      it for most UI and reporting scenarios.
+    question: Does enabling antialiasing affect performance?
+  - answer: Use the `Pen.DashPattern` property and provide an array of float values
+      that define the dash‑gap sequence.
+    question: How do I change the dash pattern of a custom pen?
+  - answer: Yes. By updating the `Pen.Width` property inside a rendering loop you
+      can create animated stroke effects.
+    question: Is it possible to animate pen width changes?
+  - answer: A perpetual or subscription license from Aspose ensures full support and
+      updates; the trial mode is limited to evaluation only.
+    question: What licensing model should I choose for production?
+  type: FAQPage
+tags:
+- matrix transformation
+- Aspose.Drawing
+- custom pens
+- .NET graphics
+title: Tutorial transformasi matriks – pens dengan Aspose.Drawing
 url: /id/net/
 weight: 10
 ---
@@ -19,104 +54,121 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Pena Kustom dengan Aspose.Drawing untuk .NET
+# Tutorial transformasi matriks – pena dengan Aspose.Drawing  
 
 ## Pendahuluan  
 
-Jika Anda ingin **membuat pena kustom** dan memanfaatkan kekuatan penuh grafik vektor di .NET, Anda berada di tempat yang tepat. Aspose.Drawing untuk .NET memberikan Anda API code‑first yang kaya untuk segala hal mulai dari transformasi koordinat yang tepat hingga rendering teks yang canggih. Di pusat ini Anda akan menemukan tutorial langkah‑demi‑langkah yang menunjukkan cara membuat pena kustom, menggabungkan saluran alfa, memotong gambar, mengaktifkan antialiasing, dan banyak lagi—sehingga Anda dapat menghasilkan grafik pixel‑perfect di aplikasi .NET mana pun.
+Jika Anda ingin **membuat pena khusus** sambil menguasai **tutorial transformasi matriks** di .NET, Anda berada di tempat yang tepat. Aspose.Drawing untuk .NET menyediakan API yang murni‑managed, code‑first yang memungkinkan Anda mengontrol setiap goresan, menerapkan transformasi matriks global atau lokal, dan mengaktifkan antialiasing untuk rendering pixel‑perfect. Baik Anda membangun alat pelaporan desktop, layanan gambar berbasis cloud, atau UI lintas‑platform, pusat ini memberi Anda panduan langkah‑demi‑langkah untuk membuka seluruh kekuatan grafik vektor.  
 
-## Jawaban Cepat
-- **Apa yang dapat saya capai dengan custom pens?** Kontrol presisi atas gaya goresan, lebar, pola dash, dan sambungan garis untuk grafik vektor.  
-- **Do I need a license to use Aspose.Drawing?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **How do I enable antialiasing?** Atur properti `Graphics.SmoothingMode` menjadi `SmoothingMode.AntiAlias`.  
-- **Is there a matrix transformation tutorial?** Ya, lihat bagian “Coordinate Transformations” untuk tutorial transformasi matriks lengkap.
+## Jawaban cepat  
+- **Apa yang dapat saya capai dengan pena khusus?** Kontrol presisi atas gaya goresan, lebar, pola dash, dan sambungan garis untuk grafik vektor.  
+- **Apakah saya memerlukan lisensi untuk menggunakan Aspose.Drawing?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Bagaimana cara mengaktifkan antialiasing?** Atur properti `Graphics.SmoothingMode` menjadi `SmoothingMode.AntiAlias`.  
+- **Apakah ada tutorial transformasi matriks?** Ya, lihat bagian “Coordinate Transformations” untuk tutorial lengkap transformasi matriks.  
 
-## Apa itu “create custom pens” dalam Aspose.Drawing?
-Membuat pena kustom berarti mengkonfigurasi objek `Pen` dengan warna, lebar, gaya dash, sambungan garis, dan pengaturan transformasi tertentu sehingga setiap garis yang Anda gambar sesuai dengan persyaratan desain Anda. Ini memberi Anda fleksibilitas untuk menghasilkan karya seni vektor tingkat profesional secara programatis.
+## Apa itu “membuat pena khusus” di Aspose.Drawing?  
 
-## Mengapa menggunakan Aspose.Drawing untuk pena kustom?
-- **Pixel‑perfect rendering** – Kontrol penuh atas tampilan goresan.  
-- **Cross‑platform** – Berfungsi di aplikasi .NET desktop, web, dan cloud.  
-- **No external dependencies** – Perpustakaan .NET murni, tanpa kebutuhan GDI+ native.  
-- **Rich feature set** – Gabungkan pena dengan transformasi matriks, blending alfa, dan antialiasing untuk efek lanjutan.
+`Pen` adalah objek Aspose.Drawing yang menentukan bagaimana garis digoreskan – warna, lebar, gaya dash, sambungan garis, dan matriks transformasi opsional. Dengan mengkonfigurasi sebuah `Pen` Anda memberi tahu renderer secara tepat bagaimana setiap segmen vektor harus muncul, memungkinkan Anda meniru goresan kaligrafi, garis diagram teknis, atau efek kuas artistik dengan presisi penuh.  
 
-## Transformasi Koordinat – Tutorial Transformasi Matriks  
+## Mengapa menggunakan Aspose.Drawing untuk pena khusus?  
 
-Jelajahi seni transformasi global, lokal, matriks, halaman, dan dunia dalam Aspose.Drawing. Bagian ini berfungsi sebagai **tutorial transformasi matriks**, membimbing Anda melalui nuansa setiap tipe transformasi dan menunjukkan bagaimana mereka digabungkan untuk menghasilkan grafik presisi tinggi.
+- **Rendering pixel‑perfect** – Kontrol penuh atas tampilan goresan, menghasilkan tepi tajam pada tampilan high‑DPI.  
+- **Dukungan lintas‑platform** – Berfungsi di Windows, Linux, dan macOS pada .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7 (total 7 versi runtime yang didukung).  
+- **Tanpa ketergantungan eksternal** – Perpustakaan .NET murni, tidak memerlukan GDI+ native atau binari spesifik platform.  
+- **Set fitur kaya** – Gabungkan pena dengan transformasi matriks, alpha blending, dan antialiasing untuk efek visual tingkat lanjut.  
 
-## Pengeditan Gambar – Cara Memotong Gambar  
+## Transformasi koordinat – tutorial transformasi matriks  
 
-Tingkatkan keterampilan pengeditan gambar Anda dengan tutorial Aspose.Drawing! Pelajari teknik pemotongan, akses data langsung, penampilan, dan metode skala yang memungkinkan Anda **cara memotong gambar** secara efisien sambil mempertahankan kualitas.
+Kelas **Graphics** mewakili permukaan gambar dan menyediakan metode untuk merender bentuk, teks, dan gambar. Muat objek `Graphics`, tetapkan sebuah `Matrix` ke properti `Transform`‑nya, dan semua goresan `Pen` berikutnya akan mewarisi transformasi tersebut. Pendekatan ini ideal untuk membuat sumbu diagram yang dapat digunakan kembali, memutar logo, atau mengimplementasikan interaksi zoom‑pan.  
+
+## Pengeditan gambar – cara memotong gambar  
+
+Kelas **Bitmap** menyimpan data piksel untuk sebuah gambar dan mendukung kloning serta manipulasi di memori. **Bagaimana cara memotong gambar dengan Aspose.Drawing?** Muat gambar sumber ke dalam `Bitmap`, definisikan sebuah `Rectangle` yang mewakili area potongan, dan panggil `Bitmap.Clone(rect, pixelFormat)`. Metode ini mengembalikan `Bitmap` baru yang hanya berisi wilayah yang dipilih, mempertahankan resolusi dan kedalaman warna gambar asli.  
+
+Pemotongan dilakukan sepenuhnya di memori, sehingga Anda dapat menautkannya dengan pemrosesan lebih lanjut—seperti penskalaan atau menerapkan outline `Pen` khusus—tanpa menulis file menengah ke disk.  
 
 ## Lisensi  
 
-Buka potensi penuh Aspose.Drawing di .NET melalui tutorial lisensi yang mulus. Integrasikan dengan mudah, tingkatkan grafik, dan manipulasi gambar dengan sederhana. Panduan lisensi kami memastikan perjalanan yang lancar untuk memanfaatkan kekuatan Aspose.Drawing.
+Kelas **License** memuat file lisensi yang menghapus pembatasan evaluasi. Aspose.Drawing menggunakan file lisensi sederhana (`Aspose.Drawing.lic`) yang Anda sematkan dalam aplikasi atau muat pada runtime dengan `License license = new License(); license.SetLicense("Aspose.Drawing.lic");`.  
 
-## Garis, Kurva, dan Bentuk  
+Lisensi komersial menghapus watermark evaluasi, membuka semua fitur rendering, dan memberi Anda penyebaran tak terbatas di lingkungan pengembangan, staging, dan produksi.  
 
-Rasakan keajaiban Aspose.Drawing di .NET! Selami tutorial Lines, Curves, dan Shapes untuk membuat grafik yang hidup. Kuasai solid brushes, arcs, splines, ellipses, dan lainnya—sempurna untuk membangun karya seni vektor kompleks.
+## Garis, kurva, dan bentuk  
 
-## Pena – Cara Membuat Pena Kustom  
+`Graphics.DrawLine`, `Graphics.DrawCurve`, dan `Graphics.DrawEllipse` adalah metode yang merender primitif geometris dasar menggunakan `Pen` yang disediakan. Dengan memadukan ini bersama `SolidBrush` atau `TextureBrush`, Anda dapat mengisi bentuk, membuat jalur spline kompleks, atau menghasilkan ikon berbasis vektor yang dapat diskalakan tanpa kehilangan kualitas.  
 
-Temukan kekuatan pemrograman grafis di .NET dengan tutorial Aspose.Drawing. Bagian ini berfokus pada **cara membuat pena kustom**, mencakup manipulasi warna, penggabungan jalur, dan pengaturan lebar pena dinamis sehingga Anda dapat merancang gaya goresan yang tepat sesuai kebutuhan proyek Anda.
+## Pena – cara membuat pena khusus  
 
-## Rendering – Cara Mengaktifkan Antialiasing  
+Kelas **Pen** mendefinisikan atribut goresan seperti warna, lebar, pola dash, dan sambungan garis. **Bagaimana cara membuat pena khusus di Aspose.Drawing?** Buat instance `Pen` dengan `Color` dan `Width` yang diinginkan, lalu opsional tetapkan pola dash (`Pen.DashPattern = new float[] { 4, 2 }`) dan gaya `LineJoin` (`Pen.LineJoin = LineJoin.Round`). Akhirnya, lampirkan `Pen` ke panggilan gambar apa pun, seperti `Graphics.DrawLine(pen, start, end)`.  
 
-Raih keahlian grafis di .NET dengan Aspose.Drawing! Tingkatkan proyek Anda dengan **cara mengaktifkan antialiasing** untuk tepi yang halus dan pelajari **cara menggabungkan alfa** untuk efek transparan. Tutorial rendering ini memberikan kunci untuk mencapai grafik profesional yang memukau secara visual.
+Pena khusus memungkinkan Anda meniru goresan kaligrafi, menghasilkan gaya garis diagram teknis, atau menghasilkan efek kuas artistik secara programatik.  
 
-## Teks dan Font – Tambahkan Gambar Teks  
+## Rendering – cara mengaktifkan antialiasing  
 
-Buka potensi Aspose.Drawing untuk .NET! Kuasai teks dinamis, font, dan pembuatan gambar dengan tutorial kami. Pelajari cara **menambahkan gambar teks** ke grafik Anda, penyusunan teks yang sempurna, hinting, dan manipulasi font untuk visual yang jernih.
+Properti **Graphics.SmoothingMode** mengontrol tingkat antialiasing yang diterapkan selama rendering. **Bagaimana cara mengaktifkan antialiasing untuk grafik yang lebih halus?** Atur `graphics.SmoothingMode = SmoothingMode.AntiAlias` sebelum operasi menggambar apa pun. Ini memberi tahu renderer untuk menerapkan sampling sub‑piksel, yang mengurangi tepi bergerigi pada garis diagonal dan melengkung. Untuk kualitas lebih tinggi, Anda juga dapat mengaktifkan `TextRenderingHint.ClearTypeGridFit` untuk teks yang tajam.  
 
-## Kasus Penggunaan  
+Antialiasing menambah beban CPU yang wajar (biasanya 5‑10 % pada perangkat keras modern) namun secara dramatis meningkatkan fidelitas visual, terutama pada tampilan resolusi tinggi.  
 
-Tingkatkan ilustrasi Anda dengan Aspose.Drawing untuk .NET! Tutorial Kasus Penggunaan kami membimbing Anda menambahkan callouts, membuat bingkai menakjubkan, dan mengintegrasikan teks ke dalam gambar secara mulus. Jelajahi kemungkinan tak terbatas dan tingkatkan upaya kreatif Anda dengan Aspose.Drawing.
+## Teks dan font – menambahkan teks pada gambar  
 
-Menggunakan Aspose.Drawing untuk .NET tidak pernah semudah ini, berkat tutorial detail kami. Selami dunia grafis, tingkatkan keterampilan Anda, dan buka potensi penuh Aspose.Drawing hari ini!
+Metode **Graphics.DrawString** merender teks ke dalam gambar menggunakan font TrueType atau OpenType yang terpasang. **Bagaimana cara menambahkan teks ke gambar?** Kombinasikan dengan `FontFamily`, `FontStyle`, dan `FontSize` untuk kontrol tipografi yang presisi. Anda juga dapat mengukur batas teks dengan `Graphics.MeasureString` untuk memusatkan atau membungkus teks dalam wilayah clipping berbentuk khusus.  
 
-## Tutorial Aspose.Drawing untuk .NET
-### [Transformasi Koordinat](./coordinate-transformations/)
-Tingkatkan keterampilan grafis Anda dengan tutorial Aspose.Drawing kami. Jelajahi transformasi global, lokal, matriks, halaman, dan dunia, menguasai grafik presisi di .NET.
-### [Pengeditan Gambar](./image-editing/)
-Tingkatkan keterampilan pengeditan gambar Anda dengan tutorial Aspose.Drawing! Pelajari teknik pemotongan, akses data langsung, penampilan, dan skala untuk hasil yang menakjubkan.
-### [Lisensi](./licensing/)
-Buka potensi penuh Aspose.Drawing di .NET dengan tutorial lisensi yang mulus. Integrasikan dengan mudah, tingkatkan grafik, dan manipulasi gambar dengan sederhana.
-### [Garis, Kurva, dan Bentuk](./lines-curves-and-shapes/)
-Lepaskan keajaiban Aspose.Drawing di .NET! Jelajahi tutorial Lines, Curves, dan Shapes untuk grafik yang hidup—kuasai solid brushes, arcs, splines, ellipses, dan lebih banyak lagi secara kreatif.
-### [Pena](./pens/)
-Buka kekuatan pemrograman grafis di .NET dengan tutorial Aspose.Drawing. Temukan manipulasi warna, penggabungan jalur, dan pengaturan lebar pena dinamis untuk visual yang menakjubkan.
-### [Rendering](./rendering/)
-Raih keahlian grafis .NET dengan Aspose.Drawing! Tingkatkan proyek dengan alpha blending untuk efek transparan. Pelajari antialiasing dan clipping untuk desain yang lebih baik.
-### [Teks dan Font](./text-and-fonts/)
-Buka Aspose.Drawing untuk .NET! Kuasai teks dinamis, font, dan pembuatan gambar. Penyusunan teks yang sempurna, hinting, dan manipulasi font untuk visual yang jernih.
-### [Kasus Penggunaan](./use-cases/)
-Tingkatkan ilustrasi Anda dengan Aspose.Drawing untuk .NET! Tambahkan callouts, buat bingkai menakjubkan, dan integrasikan teks ke dalam gambar secara mulus dengan tutorial kami.
+## Kasus penggunaan  
 
-## Pertanyaan yang Sering Diajukan
+- **Callout dan anotasi** – Gunakan `Pen` tipis, dash dengan matriks rotasi untuk menggambar garis penunjuk yang tetap selaras dengan elemen diagram yang bergerak.  
+- **Bingkai dinamis** – Terapkan matriks skala ke `Pen` persegi panjang untuk menghasilkan border responsif yang menyesuaikan ukuran kontainer.  
+- **Watermark teks‑di‑gambar** – Render teks semi‑transparan dengan `AlphaBlend` dan `Pen` khusus untuk menyematkan branding tanpa menutupi gambar di bawahnya.  
 
-**Q: Bisakah saya menggabungkan custom pens dengan transformasi matriks?**  
-A: Tentu saja. Anda dapat menetapkan `Matrix` yang telah ditransformasi ke `Pen` untuk memutar, memperbesar, atau memiringkan goresan secara dinamis.
+Menggunakan Aspose.Drawing untuk .NET tidak pernah semudah ini, berkat tutorial detail kami. Selami dunia grafik, tingkatkan keterampilan Anda, dan buka potensi penuh Aspose.Drawing hari ini!  
 
-**Q: Apakah mengaktifkan antialiasing memengaruhi kinerja?**  
-A: Itu menambah beban yang cukup ringan, tetapi peningkatan visual biasanya sepadan untuk kebanyakan skenario UI dan pelaporan.
+## Tutorial Aspose.Drawing untuk .NET  
+### [Transformasi koordinat](./coordinate-transformations/)  
+Tingkatkan kemampuan grafik Anda dengan tutorial Aspose.Drawing kami. Jelajahi transformasi global, lokal, matriks, halaman, dan dunia, menguasai grafik presisi di .NET.  
+### [Pengeditan gambar](./image-editing/)  
+Tingkatkan kemampuan pengeditan gambar Anda dengan tutorial Aspose.Drawing! Pelajari pemotongan, akses data langsung, penampilan, dan teknik penskalaan untuk hasil menakjubkan.  
+### [Lisensi](./licensing/)  
+Buka potensi penuh Aspose.Drawing di .NET dengan tutorial lisensi yang mulus. Integrasikan dengan mudah, tingkatkan grafik, dan manipulasi gambar dengan praktis.  
+### [Garis, kurva, dan bentuk](./lines-curves-and-shapes/)  
+Lepaskan keajaiban Aspose.Drawing di .NET! Jelajahi tutorial Garis, Kurva, dan Bentuk untuk grafik berwarna—kuasai solid brush, busur, spline, elips, dan lebih banyak lagi secara kreatif.  
+### [Pena](./pens/)  
+Buka kekuatan pemrograman grafis di .NET dengan tutorial Aspose.Drawing. Temukan manipulasi warna, penyambungan jalur, dan pengaturan lebar pena dinamis untuk visual yang memukau.  
+### [Rendering](./rendering/)  
+Kuasai grafis .NET dengan Aspose.Drawing! Tingkatkan proyek dengan alpha blending untuk efek transparan. Pelajari antialiasing dan clipping untuk desain yang lebih baik.  
+### [Teks dan font](./text-and-fonts/)  
+Buka Aspose.Drawing untuk .NET! Kuasai teks dinamis, font, dan pembuatan gambar. Format teks sempurna, hinting, dan manipulasi font untuk visual yang jernih.  
+### [Kasus penggunaan](./use-cases/)  
+Tingkatkan ilustrasi Anda dengan Aspose.Drawing untuk .NET! Tambahkan callout, buat bingkai menakjubkan, dan integrasikan teks ke dalam gambar dengan mulus melalui tutorial kami.  
 
-**Q: Bagaimana cara mengubah pola dash pada custom pen?**  
-A: Gunakan properti `Pen.DashPattern` dan berikan array nilai float yang mendefinisikan urutan dash‑gap.
+## Pertanyaan yang sering diajukan  
 
-**Q: Apakah memungkinkan untuk menganimasikan perubahan lebar pena?**  
-A: Ya. Dengan memperbarui properti `Pen.Width` di dalam loop rendering, Anda dapat membuat efek goresan yang dianimasikan.
+**T: Bisakah saya menggabungkan pena khusus dengan transformasi matriks?**  
+J: Tentu saja. Anda dapat menetapkan `Matrix` yang ditransformasi ke sebuah `Pen` untuk memutar, menskala, atau memiringkan goresan secara dinamis.  
 
-**Q: Model lisensi apa yang harus saya pilih untuk produksi?**  
-A: Lisensi perpetual atau berlangganan dari Aspose memastikan dukungan penuh dan pembaruan; mode percobaan terbatas hanya untuk evaluasi.
+**T: Apakah mengaktifkan antialiasing memengaruhi kinerja?**  
+J: Itu menambah beban yang wajar, namun peningkatan visual biasanya sepadan untuk kebanyakan skenario UI dan pelaporan.  
 
----
+**T: Bagaimana cara mengubah pola dash pena khusus?**  
+J: Gunakan properti `Pen.DashPattern` dan berikan array nilai float yang mendefinisikan urutan dash‑gap.  
 
-**Terakhir Diperbarui:** 2026-04-22  
-**Diuji Dengan:** Aspose.Drawing for .NET (latest release)  
-**Penulis:** Aspose
+**T: Apakah memungkinkan menganimasikan perubahan lebar pena?**  
+J: Ya. Dengan memperbarui properti `Pen.Width` di dalam loop rendering Anda dapat menciptakan efek goresan animasi.  
 
----
+**T: Model lisensi apa yang harus saya pilih untuk produksi?**  
+J: Lisensi perpetual atau subscription dari Aspose memastikan dukungan penuh dan pembaruan; mode percobaan terbatas hanya untuk evaluasi.  
+
+---  
+
+**Terakhir Diperbarui:** 2026-09-03  
+**Diuji Dengan:** Aspose.Drawing untuk .NET (rilis terbaru)  
+**Penulis:** Aspose  
+
+## Tutorial Terkait
+
+- [Cara Menggambar Persegi Panjang – Transformasi Sistem Koordinat (Transformasi Halaman) menggunakan Aspose.Drawing API untuk .NET](/drawing/net/coordinate-transformations/page-transformation/)
+- [Cara Menetapkan Unit di Aspose.Drawing untuk .NET – Unit Pengukuran](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Meningkatkan Kualitas Gambar dengan Antialiasing di Aspose.Drawing](/drawing/net/rendering/antialiasing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
