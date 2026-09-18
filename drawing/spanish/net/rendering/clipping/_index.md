@@ -1,11 +1,75 @@
 ---
-date: 2026-02-22
-description: Aprende cómo establecer la región de recorte, cómo recortar una imagen,
-  guardar la imagen recortada y aplicar un renderizado de texto personalizado usando
-  Aspose.Drawing para .NET en un tutorial paso a paso.
-linktitle: Set Clipping Region in Aspose.Drawing
+date: 2026-09-18
+description: Aprenda cómo crear un clipping path, clip image y save clipped image
+  con Aspose.Drawing para .NET en un tutorial paso a paso.
+keywords:
+- create clipping path
+- how to clip image
+- save clipped image
+- clip multiple shapes
+lastmod: 2026-09-18
+linktitle: Establecer Clipping Region en Aspose.Drawing
+og_description: Cree un clipping path con Aspose.Drawing para .NET – clip image, render
+  custom text y save clipped image en unas pocas líneas de código. Aprenda los pasos
+  y las mejores prácticas.
+og_image_alt: Guide showing how to create clipping path and save clipped image using
+  Aspose.Drawing in .NET
+og_title: Cómo crear un clipping path con Aspose.Drawing en .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create clipping path, clip image, and save clipped image
+    with Aspose.Drawing for .NET in a step‑by‑step tutorial.
+  headline: How to create clipping path with Aspose.Drawing in .NET
+  type: TechArticle
+- description: Learn how to create clipping path, clip image, and save clipped image
+    with Aspose.Drawing for .NET in a step‑by‑step tutorial.
+  name: How to create clipping path with Aspose.Drawing in .NET
+  steps:
+  - name: create a bitmap (the canvas)
+    text: '`Bitmap` represents the in‑memory image that you will draw onto and eventually
+      save.'
+  - name: create a graphics context
+    text: The `Graphics` object provides drawing methods for the bitmap and lets you
+      enable high‑quality rendering options.
+  - name: define the clipping region
+    text: '`GraphicsPath` is used here to build an ellipse inside a rectangle, which
+      becomes the clipping mask.'
+  - name: apply custom text rendering
+    text: '`StringFormat` controls how text is aligned inside the clipping region;
+      centering both horizontally and vertically ensures the text appears exactly
+      in the middle of the ellipse.'
+  - name: draw text on the clipped region
+    text: Because the clipping region is already active, any `DrawString` call renders
+      only inside the ellipse; everything outside is automatically omitted.
+  - name: save the result (save clipped image)
+    text: '`Bitmap.Save` writes the final image to disk in the format you choose (PNG,
+      JPEG, etc.), preserving the clipped content.'
+  type: HowTo
+- questions:
+  - answer: Yes. Call `graphics.SetClip` with a new path; the previous clip is replaced
+      unless you use `CombineMode.Intersect`.
+    question: Can I apply multiple clipping regions in a single image?
+  - answer: Absolutely. Formats such as `Format24bppRgb`, `Format32bppArgb`, and `Format8bppIndexed`
+      are all supported.
+    question: Does Aspose.Drawing support other pixel formats for Bitmaps?
+  - answer: You can modify the region on the fly by creating a new `GraphicsPath`
+      and calling `SetClip` again.
+    question: Can I change the clipping region at runtime?
+  - answer: Yes. It works in ASP.NET Core, Azure Functions, and other server‑side
+      environments.
+    question: Is Aspose.Drawing suitable for web‑based .NET applications?
+  - answer: Clipping is lightweight; Aspose.Drawing leverages native GDI+ optimizations,
+      so the overhead is minimal for typical image sizes.
+    question: What is the performance impact of clipping?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Establecer región de recorte en Aspose.Drawing – Guía .NET
+tags:
+- clipping path
+- Aspose.Drawing
+- .NET graphics
+- image processing
+title: Cómo crear un clipping path con Aspose.Drawing en .NET
 url: /es/net/rendering/clipping/
 weight: 12
 ---
@@ -14,36 +78,43 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Establecer región de recorte en Aspose.Drawing
+# Cómo crear una ruta de recorte con Aspose.Drawing en .NET
 
 ## Introducción
 
-Cuando necesitas **establecer una región de recorte** para ocultar o revelar partes específicas de una imagen, Aspose.Drawing para .NET hace que el proceso sea sencillo y de alto rendimiento. En esta guía recorreremos **cómo recortar datos de imagen**, aplicar **renderizado de texto personalizado**, y finalmente **guardar archivos de imagen recortados**, todo con código claro y listo para producción. Al final comprenderás por qué el recorte es una herramienta vital en el diseño gráfico y cómo integrarlo en tus propios proyectos .NET.
+En aplicaciones .NET modernas, **crear una ruta de recorte** le permite restringir el dibujo a cualquier forma que defina, ideal para insignias, marcas de agua o resaltados de UI enfocados. Este tutorial le guía a través de **cómo recortar imágenes**, aplicar **renderizado de texto personalizado** dentro del recorte y, finalmente, **guardar archivos de imagen recortados** usando Aspose.Drawing. Al final verá por qué el recorte es una alternativa de alto rendimiento a la manipulación manual de píxeles y cómo integrarlo en proyectos del mundo real.
 
 ## Respuestas rápidas
-- **¿Qué hace “establecer región de recorte”?** Limita las operaciones de dibujo a una forma definida, ocultando todo lo que está fuera de esa forma.  
-- **¿Qué espacio de nombres proporciona soporte para recorte?** `System.Drawing.Drawing2D` (a través de `GraphicsPath`).  
-- **¿Puedo recortar múltiples formas?** Sí – llama a `SetClip` repetidamente con diferentes rutas.  
-- **¿Cómo guardo la imagen recortada?** Usa `Bitmap.Save` después de dibujar dentro del área recortada.  
-- **¿Es posible el renderizado de texto personalizado dentro de un recorte?** Absolutamente – combina `StringFormat` con la región de recorte.
+- **¿Qué hace “set clipping region”?** Limita las operaciones de dibujo a una forma definida, descartando todo lo que esté fuera de esa forma.  
+- **¿Qué espacio de nombres proporciona soporte para recortes?** `System.Drawing.Drawing2D` (via `GraphicsPath`).  
+- **¿Puedo recortar múltiples formas?** Sí – llame a `SetClip` repetidamente con diferentes rutas.  
+- **¿Cómo guardo la imagen recortada?** Use `Bitmap.Save` después de dibujar dentro del área recortada.  
+- **¿Es posible el renderizado de texto personalizado dentro de un recorte?** Absolutamente – combine `StringFormat` con la región de recorte.  
 
-## ¿Qué es “establecer región de recorte”?
-Establecer una región de recorte indica al motor gráfico que restrinja todos los comandos de dibujo posteriores al interior de una forma (rectángulo, elipse, polígono, etc.). Cualquier cosa dibujada fuera de esa forma se descarta, lo que permite efectos visuales precisos sin recortar píxeles manualmente.
+## Qué es “set clipping region”?
 
-## ¿Por qué usar recorte con Aspose.Drawing?
-- **Rendimiento:** El recorte se maneja de forma nativa por la biblioteca, evitando operaciones costosas píxel a píxel.  
-- **Flexibilidad:** Combina cualquier `GraphicsPath` (elipse, rectángulo redondeado, polígono personalizado) con texto, imágenes o formas.  
+Establecer una región de recorte indica al motor gráfico que restrinja todos los comandos de dibujo posteriores al interior de una forma (rectángulo, elipse, polígono, etc.). Todo lo dibujado fuera de esa forma se descarta, lo que permite efectos visuales precisos sin recortar píxeles manualmente. Esta técnica se usa comúnmente para crear máscaras, enfocar la atención o preparar imágenes para una composición posterior.
+
+## Por qué usar recortes con Aspose.Drawing?
+
+El recorte en Aspose.Drawing le permite limitar el dibujo a una forma específica, lo que mejora la velocidad de renderizado y reduce el uso de memoria en comparación con el recorte manual. La biblioteca maneja el recorte internamente, garantizando una salida de alta calidad y un comportamiento consistente en todas las plataformas. También se integra sin problemas con otras características de GDI+, como el antialiasing y los rellenos de degradado.
+
+- **Rendimiento:** El recorte es manejado de forma nativa por la biblioteca, evitando costosas operaciones píxel a píxel.  
+- **Flexibilidad:** Combine cualquier `GraphicsPath` (elipse, rectángulo redondeado, polígono personalizado) con texto, imágenes o formas.  
 - **Multiplataforma:** Funciona igual en .NET Framework, .NET Core y .NET 5/6+.  
-- **Enfoque de diseño:** Perfecto para crear insignias, marcas de agua o áreas de enfoque en gráficos de UI.
+- **Enfocado en el diseño:** Perfecto para crear insignias, marcas de agua o áreas de enfoque en gráficos de UI.  
 
 ## Requisitos previos
 - Conocimientos básicos de C# y desarrollo .NET.  
 - Aspose.Drawing para .NET instalado (paquete NuGet `Aspose.Drawing`).  
 - Visual Studio o cualquier IDE compatible con C#.  
-- Comprensión de conceptos básicos de diseño gráfico (capas, opacidad, etc.).
+- Comprensión de conceptos básicos de diseño gráfico (capas, opacidad, etc.).  
 
 ## Importar espacios de nombres
-Agrega los espacios de nombres requeridos para que el compilador pueda localizar las clases de recorte y dibujo.
+
+La clase `GraphicsPath` representa una serie de líneas y curvas conectadas que definen la forma de recorte.
+
+`GraphicsPath` es el objeto central usado para describir la región que será recortada.
 
 ```csharp
 using System.Drawing;
@@ -53,23 +124,26 @@ using System.Drawing.Text;
 
 ## Guía paso a paso
 
-### Paso 1: Crear un Bitmap (el lienzo)
-Comenzamos con un bitmap en blanco que contendrá la imagen final.
+### Paso 1: crear un bitmap (el lienzo)
+
+`Bitmap` representa la imagen en memoria sobre la que dibujará y que eventualmente guardará.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Paso 2: Crear un contexto Graphics
-El objeto `Graphics` nos permite dibujar sobre el bitmap. También habilitamos el renderizado de texto de alta calidad.
+### Paso 2: crear un contexto gráfico
+
+El objeto `Graphics` proporciona métodos de dibujo para el bitmap y le permite habilitar opciones de renderizado de alta calidad.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 ```
 
-### Paso 3: Definir la región de recorte
-Aquí **establecemos la región de recorte** creando una elipse dentro de un rectángulo. Esto demuestra **cómo establecer recorte** y también muestra un ejemplo clásico de **recorte de imagen con elipse**.
+### Paso 3: definir la región de recorte
+
+`GraphicsPath` se usa aquí para crear una elipse dentro de un rectángulo, que se convierte en la máscara de recorte.
 
 ```csharp
 Rectangle rectangle = new Rectangle(200, 200, 600, 400);
@@ -78,8 +152,9 @@ clipPath.AddEllipse(rectangle);
 graphics.SetClip(clipPath);
 ```
 
-### Paso 4: Aplicar renderizado de texto personalizado
-Configuramos un `StringFormat` para centrar el texto tanto horizontal como verticalmente—un ejemplo de **combinar texto con recorte** dentro del área recortada.
+### Paso 4: aplicar renderizado de texto personalizado
+
+`StringFormat` controla cómo se alinea el texto dentro de la región de recorte; centrarlo tanto horizontal como verticalmente garantiza que el texto aparezca exactamente en el centro de la elipse.
 
 ```csharp
 StringFormat stringFormat = new StringFormat();
@@ -87,8 +162,9 @@ stringFormat.Alignment = StringAlignment.Center;
 stringFormat.LineAlignment = StringAlignment.Center;
 ```
 
-### Paso 5: Dibujar texto en la región recortada
-Ahora el texto se renderiza solo dentro de la elipse definida anteriormente. Todo lo que esté fuera de la elipse se descarta automáticamente.
+### Paso 5: dibujar texto en la región recortada
+
+Como la región de recorte ya está activa, cualquier llamada a `DrawString` se renderiza solo dentro de la elipse; todo lo que está fuera se omite automáticamente.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.White));
@@ -97,58 +173,65 @@ string text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ..."; //
 graphics.DrawString(text, arial, brush, rectangle, stringFormat);
 ```
 
-### Paso 6: Guardar el resultado (guardar imagen recortada)
-Finalmente, persistimos el bitmap en disco. Este es el paso de **guardar imagen recortada**.
+### Paso 6: guardar el resultado (guardar imagen recortada)
+
+`Bitmap.Save` escribe la imagen final en disco en el formato que elija (PNG, JPEG, etc.), preservando el contenido recortado.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ```
 
 ## Problemas comunes y consejos
-- **¿El recorte no se aplica?** Asegúrate de que `SetClip` se llame **antes** de cualquier comando de dibujo.  
-- **¿Colores inesperados?** Verifica el formato de píxel del bitmap (`Format32bppPArgb` funciona bien para transparencia).  
-- **Preocupaciones de rendimiento:** Reutiliza el mismo `GraphicsPath` si necesitas recortar múltiples veces dentro de un bucle.  
-- **Consejo profesional:** Combina varios objetos `GraphicsPath` con `AddPath` para crear recortes compuestos complejos.
+- **¿El recorte no se aplica?** Asegúrese de que `SetClip` se llame **antes** de cualquier comando de dibujo.  
+- **¿Colores inesperados?** Use `PixelFormat.Format32bppPArgb` para un manejo adecuado del alfa.  
+- **Preocupaciones de rendimiento:** Reutilice el mismo `GraphicsPath` al recortar repetidamente en un bucle.  
+- **Consejo profesional:** Combine varios objetos `GraphicsPath` con `AddPath` para crear recortes compuestos complejos.  
 
 ## Casos de uso comunes
-- **Creación de insignias o logotipos:** Recorta un logotipo en una insignia circular o de forma personalizada.  
-- **Marcas de agua dinámicas:** Renderiza texto de marca de agua solo dentro de una región definida, manteniendo el resto de la imagen intacto.  
-- **Elementos UI interactivos:** Resalta una porción de una captura de pantalla de UI recortando una superposición semitransparente.
+- **Creación de insignias o logotipos:** Recorte un logotipo dentro de una insignia circular o de forma personalizada.  
+- **Marcas de agua dinámicas:** Renderice texto de marca de agua solo dentro de una región definida, dejando el resto de la imagen intacto.  
+- **Elementos UI interactivos:** Resalte una parte de una captura de pantalla de UI recortando una superposición semitransparente.  
 
 ## Solución de problemas y trampas
 | Síntoma | Causa probable | Solución |
 |---------|----------------|----------|
-| No se ve texto dentro de la elipse | El recorte se aplicó después del dibujo | Mueve `SetClip` antes de cualquier llamada a `DrawString` |
-| El fondo transparente se vuelve negro | Formato de píxel incorrecto | Usa `Format32bppPArgb` para un manejo adecuado del alfa |
-| Renderizado lento en imágenes grandes | Re‑creación de `GraphicsPath` en cada fotograma | Cachea la ruta y reutilízala |
+| Texto no visible dentro de la elipse | Recorte aplicado después del dibujo | Mueva `SetClip` antes de cualquier llamada a `DrawString` |
+| Fondo transparente se vuelve negro | Formato de píxel incorrecto | Use `Format32bppPArgb` para un manejo adecuado del alfa |
+| Renderizado lento en imágenes grandes | Recrear `GraphicsPath` en cada fotograma | Cache el camino y reutilícelo |
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo aplicar múltiples regiones de recorte en una sola imagen?**  
-R: Sí. Llama a `graphics.SetClip` con una nueva ruta; el recorte anterior se reemplaza a menos que uses `CombineMode.Intersect`.
+**Q: ¿Puedo aplicar múltiples regiones de recorte en una sola imagen?**  
+A: Sí. Llame a `graphics.SetClip` con una nueva ruta; el recorte anterior se reemplaza a menos que use `CombineMode.Intersect`.
 
-**P: ¿Aspose.Drawing admite otros formatos de píxel para Bitmaps?**  
-R: Absolutamente. Formatos como `Format24bppRgb`, `Format32bppArgb` y `Format8bppIndexed` son compatibles.
+**Q: ¿Aspose.Drawing admite otros formatos de píxel para Bitmaps?**  
+A: Absolutamente. Formatos como `Format24bppRgb`, `Format32bppArgb` y `Format8bppIndexed` son compatibles.
 
-**P: ¿Puedo cambiar la región de recorte en tiempo de ejecución?**  
-R: Puedes modificar la región sobre la marcha creando un nuevo `GraphicsPath` y llamando a `SetClip` nuevamente.
+**Q: ¿Puedo cambiar la región de recorte en tiempo de ejecución?**  
+A: Puede modificar la región sobre la marcha creando un nuevo `GraphicsPath` y llamando a `SetClip` nuevamente.
 
-**P: ¿Aspose.Drawing es adecuado para aplicaciones .NET basadas en web?**  
-R: Sí. Funciona en ASP.NET Core, Azure Functions y otros entornos del lado del servidor.
+**Q: ¿Es Aspose.Drawing adecuado para aplicaciones .NET basadas en web?**  
+A: Sí. Funciona en ASP.NET Core, Azure Functions y otros entornos del lado del servidor.
 
-**P: ¿Cuál es el impacto de rendimiento del recorte?**  
-R: El recorte es ligero; Aspose.Drawing utiliza optimizaciones nativas de GDI+, por lo que la sobrecarga es mínima para tamaños de imagen típicos.
+**Q: ¿Cuál es el impacto de rendimiento del recorte?**  
+A: El recorte es ligero; Aspose.Drawing aprovecha las optimizaciones nativas de GDI+, por lo que la sobrecarga es mínima para tamaños de imagen típicos.
 
 ## Conclusión
-Ahora dominas cómo **establecer una región de recorte**, **recortar contenido de imagen**, aplicar **renderizado de texto personalizado**, y **guardar archivos de imagen recortados** usando Aspose.Drawing para .NET. Estas técnicas te brindan un control granular sobre la salida gráfica, permitiendo efectos visuales sofisticados con solo unas pocas líneas de código. Explora más combinando recortes con degradados, patrones o entrada dinámica del usuario para crear gráficos verdaderamente interactivos.
+
+Ahora ha dominado cómo **crear una ruta de recorte**, **recortar contenido de imagen**, aplicar **renderizado de texto personalizado** y **guardar archivos de imagen recortados** usando Aspose.Drawing para .NET. Estas técnicas le brindan un control granular sobre la salida gráfica, permitiendo efectos visuales sofisticados con solo unas pocas líneas de código. Experimente combinando el recorte con degradados, patrones o entradas impulsadas por el usuario para crear gráficos verdaderamente interactivos.
 
 ---
 
-**Última actualización:** 2026-02-22  
+**Última actualización:** 2026-09-18  
 **Probado con:** Aspose.Drawing 24.11 for .NET  
-**Autor:** Aspose  
+**Autor:** Aspose
 
----
+## Tutoriales relacionados
+
+- [Cómo dibujar un rectángulo – Transformación del sistema de coordenadas (Transformación de página) usando la API Aspose.Drawing para .NET](/drawing/net/coordinate-transformations/page-transformation/)
+- [Cómo dibujar un arco y guardar la imagen PNG con Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-arc/)
+- [Mejorar la calidad de la imagen con antialiasing en Aspose.Drawing](/drawing/net/rendering/antialiasing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,75 @@
 ---
-date: 2026-02-22
-description: Scopri come impostare la regione di ritaglio, come ritagliare un'immagine,
-  salvare l'immagine ritagliata e applicare la resa del testo personalizzata utilizzando
-  Aspose.Drawing per .NET in un tutorial passo‑passo.
-linktitle: Set Clipping Region in Aspose.Drawing
+date: 2026-09-18
+description: Scopri come creare un percorso di ritaglio, ritagliare un'immagine e
+  salvare l'immagine ritagliata con Aspose.Drawing per .NET in un tutorial passo‑passo.
+keywords:
+- create clipping path
+- how to clip image
+- save clipped image
+- clip multiple shapes
+lastmod: 2026-09-18
+linktitle: Imposta la regione di ritaglio in Aspose.Drawing
+og_description: Crea un percorso di ritaglio con Aspose.Drawing per .NET – ritaglia
+  l'immagine, rendi testo personalizzato e salva l'immagine ritagliata in poche righe
+  di codice. Scopri i passaggi e le migliori pratiche.
+og_image_alt: Guide showing how to create clipping path and save clipped image using
+  Aspose.Drawing in .NET
+og_title: Come creare un percorso di ritaglio con Aspose.Drawing in .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create clipping path, clip image, and save clipped image
+    with Aspose.Drawing for .NET in a step‑by‑step tutorial.
+  headline: How to create clipping path with Aspose.Drawing in .NET
+  type: TechArticle
+- description: Learn how to create clipping path, clip image, and save clipped image
+    with Aspose.Drawing for .NET in a step‑by‑step tutorial.
+  name: How to create clipping path with Aspose.Drawing in .NET
+  steps:
+  - name: create a bitmap (the canvas)
+    text: '`Bitmap` represents the in‑memory image that you will draw onto and eventually
+      save.'
+  - name: create a graphics context
+    text: The `Graphics` object provides drawing methods for the bitmap and lets you
+      enable high‑quality rendering options.
+  - name: define the clipping region
+    text: '`GraphicsPath` is used here to build an ellipse inside a rectangle, which
+      becomes the clipping mask.'
+  - name: apply custom text rendering
+    text: '`StringFormat` controls how text is aligned inside the clipping region;
+      centering both horizontally and vertically ensures the text appears exactly
+      in the middle of the ellipse.'
+  - name: draw text on the clipped region
+    text: Because the clipping region is already active, any `DrawString` call renders
+      only inside the ellipse; everything outside is automatically omitted.
+  - name: save the result (save clipped image)
+    text: '`Bitmap.Save` writes the final image to disk in the format you choose (PNG,
+      JPEG, etc.), preserving the clipped content.'
+  type: HowTo
+- questions:
+  - answer: Yes. Call `graphics.SetClip` with a new path; the previous clip is replaced
+      unless you use `CombineMode.Intersect`.
+    question: Can I apply multiple clipping regions in a single image?
+  - answer: Absolutely. Formats such as `Format24bppRgb`, `Format32bppArgb`, and `Format8bppIndexed`
+      are all supported.
+    question: Does Aspose.Drawing support other pixel formats for Bitmaps?
+  - answer: You can modify the region on the fly by creating a new `GraphicsPath`
+      and calling `SetClip` again.
+    question: Can I change the clipping region at runtime?
+  - answer: Yes. It works in ASP.NET Core, Azure Functions, and other server‑side
+      environments.
+    question: Is Aspose.Drawing suitable for web‑based .NET applications?
+  - answer: Clipping is lightweight; Aspose.Drawing leverages native GDI+ optimizations,
+      so the overhead is minimal for typical image sizes.
+    question: What is the performance impact of clipping?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Imposta la regione di ritaglio in Aspose.Drawing – Guida .NET
+tags:
+- clipping path
+- Aspose.Drawing
+- .NET graphics
+- image processing
+title: Come creare un percorso di ritaglio con Aspose.Drawing in .NET
 url: /it/net/rendering/clipping/
 weight: 12
 ---
@@ -14,36 +78,43 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta la Regione di Ritaglio in Aspose.Drawing
+# Come creare un percorso di ritaglio con Aspose.Drawing in .NET
 
 ## Introduzione
 
-Quando hai bisogno di **impostare la regione di ritaglio** per nascondere o rivelare parti specifiche di un'immagine, Aspose.Drawing per .NET rende il processo semplice e performante. In questa guida vedremo **come ritagliare un'immagine**, applicare **rendering di testo personalizzato**, e infine **salvare file di immagine ritagliata** — tutto con codice chiaro, pronto per la produzione. Alla fine comprenderai perché il ritaglio è uno strumento fondamentale nel design grafico e come integrarlo nei tuoi progetti .NET.
+Nelle moderne applicazioni .NET, **creare un percorso di ritaglio** consente di limitare il disegno a qualsiasi forma tu definisca—perfetto per distintivi, filigrane o evidenziazioni UI mirate. Questo tutorial ti guida attraverso **come ritagliare i dati di un'immagine**, applicare **rendering di testo personalizzato** all'interno del ritaglio e, infine, **salvare i file immagine ritagliati** usando Aspose.Drawing. Alla fine comprenderai perché il ritaglio è un'alternativa performante alla manipolazione manuale dei pixel e come integrarlo in progetti reali.
 
-## Risposte Rapide
-- **Cosa fa “impostare la regione di ritaglio”?** Limita le operazioni di disegno a una forma definita, nascondendo tutto ciò che si trova al di fuori di quella forma.  
-- **Quale namespace fornisce il supporto al ritaglio?** `System.Drawing.Drawing2D` (tramite `GraphicsPath`).  
-- **Posso ritagliare più forme?** Sì — chiama `SetClip` ripetutamente con percorsi diversi.  
+## Risposte rapide
+- **Cosa fa “set clipping region”?** Limita le operazioni di disegno a una forma definita, scartando tutto ciò che si trova al di fuori di quella forma.  
+- **Quale spazio dei nomi fornisce il supporto al ritaglio?** `System.Drawing.Drawing2D` (tramite `GraphicsPath`).  
+- **Posso ritagliare più forme?** Sì – chiama `SetClip` ripetutamente con percorsi diversi.  
 - **Come salvo l'immagine ritagliata?** Usa `Bitmap.Save` dopo aver disegnato all'interno dell'area ritagliata.  
-- **È possibile eseguire il rendering di testo personalizzato all'interno di un ritaglio?** Assolutamente — combina `StringFormat` con la regione di ritaglio.
+- **È possibile eseguire il rendering di testo personalizzato all'interno di un ritaglio?** Assolutamente sì – combina `StringFormat` con la regione di ritaglio.
 
-## Cos'è “impostare la regione di ritaglio”?
-Impostare una regione di ritaglio indica al motore grafico di limitare tutti i comandi di disegno successivi all'interno di una forma (rettangolo, ellisse, poligono, ecc.). Qualsiasi cosa disegnata al di fuori di quella forma viene scartata, consentendo effetti visivi precisi senza dover ritagliare manualmente i pixel.
+## Cos'è “set clipping region”?
+
+Impostare una regione di ritaglio indica al motore grafico di limitare tutti i comandi di disegno successivi all'interno di una forma (rettangolo, ellisse, poligono, ecc.). Qualsiasi cosa disegnata al di fuori di quella forma viene scartata, consentendo effetti visivi precisi senza dover ritagliare manualmente i pixel. Questa tecnica è comunemente usata per creare maschere, focalizzare l'attenzione o preparare immagini per composizioni successive.
 
 ## Perché usare il ritaglio con Aspose.Drawing?
+
+Il ritaglio in Aspose.Drawing ti permette di limitare il disegno a una forma specifica, migliorando la velocità di rendering e riducendo l'uso di memoria rispetto al ritaglio manuale. La libreria gestisce il ritaglio internamente, garantendo output di alta qualità e comportamento coerente su tutte le piattaforme. Inoltre si integra perfettamente con altre funzionalità GDI+ come l'anti‑aliasing e i riempimenti a gradiente.
+
 - **Prestazioni:** Il ritaglio è gestito nativamente dalla libreria, evitando costose operazioni pixel‑per‑pixel.  
 - **Flessibilità:** Combina qualsiasi `GraphicsPath` (ellisse, rettangolo arrotondato, poligono personalizzato) con testo, immagini o forme.  
 - **Cross‑platform:** Funziona allo stesso modo su .NET Framework, .NET Core e .NET 5/6+.  
-- **Incentrato sul design:** Perfetto per creare badge, filigrane o aree di messa a fuoco nella grafica UI.
+- **Design‑centric:** Ideale per creare distintivi, filigrane o aree di focus nella grafica UI.
 
 ## Prerequisiti
 - Conoscenza di base di C# e sviluppo .NET.  
 - Aspose.Drawing per .NET installato (pacchetto NuGet `Aspose.Drawing`).  
 - Visual Studio o qualsiasi IDE compatibile con C#.  
-- Comprensione dei concetti base di graphic design (livelli, opacità, ecc.).
+- Comprensione dei concetti base di graphic‑design (livelli, opacità, ecc.).
 
-## Importa i Namespace
-Aggiungi i namespace richiesti affinché il compilatore possa individuare le classi di ritaglio e disegno.
+## Importare gli spazi dei nomi
+
+La classe `GraphicsPath` rappresenta una serie di linee e curve connesse che definiscono la forma di ritaglio.
+
+`GraphicsPath` è l'oggetto principale usato per descrivere la regione che verrà ritagliata.
 
 ```csharp
 using System.Drawing;
@@ -51,25 +122,28 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 ```
 
-## Guida Passo‑Passo
+## Guida passo‑passo
 
-### Passo 1: Crea un Bitmap (la tela)
-Iniziamo con un bitmap vuoto che conterrà l'immagine finale.
+### Passo 1: creare un bitmap (la tela)
+
+`Bitmap` rappresenta l'immagine in memoria su cui disegnerai e, infine, salverai.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Passo 2: Crea un Contesto Graphics
-L'oggetto `Graphics` ci permette di disegnare sul bitmap. Attiviamo anche il rendering del testo ad alta qualità.
+### Passo 2: creare un contesto grafico
+
+L'oggetto `Graphics` fornisce i metodi di disegno per il bitmap e ti consente di abilitare opzioni di rendering ad alta qualità.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 ```
 
-### Passo 3: Definisci la Regione di Ritaglio
-Qui **impostiamo la regione di ritaglio** creando un'ellisse all'interno di un rettangolo. Questo dimostra **come impostare il ritaglio** e mostra anche un classico esempio di **ritaglio immagine ellisse**.
+### Passo 3: definire la regione di ritaglio
+
+`GraphicsPath` è utilizzato qui per costruire un'ellisse all'interno di un rettangolo, che diventa la maschera di ritaglio.
 
 ```csharp
 Rectangle rectangle = new Rectangle(200, 200, 600, 400);
@@ -78,8 +152,9 @@ clipPath.AddEllipse(rectangle);
 graphics.SetClip(clipPath);
 ```
 
-### Passo 4: Applica il Rendering di Testo Personalizzato
-Configuriamo un `StringFormat` per centrare il testo sia orizzontalmente che verticalmente — un esempio di **combinare testo e ritaglio** all'interno dell'area ritagliata.
+### Passo 4: applicare il rendering di testo personalizzato
+
+`StringFormat` controlla come il testo è allineato all'interno della regione di ritaglio; centrare sia orizzontalmente che verticalmente garantisce che il testo appaia esattamente al centro dell'ellisse.
 
 ```csharp
 StringFormat stringFormat = new StringFormat();
@@ -87,8 +162,9 @@ stringFormat.Alignment = StringAlignment.Center;
 stringFormat.LineAlignment = StringAlignment.Center;
 ```
 
-### Passo 5: Disegna il Testo sulla Regione Ritagliata
-Ora il testo viene renderizzato solo all'interno dell'ellisse definita in precedenza. Qualsiasi cosa al di fuori dell'ellisse viene automaticamente scartata.
+### Passo 5: disegnare il testo sulla regione ritagliata
+
+Poiché la regione di ritaglio è già attiva, qualsiasi chiamata a `DrawString` viene renderizzata solo all'interno dell'ellisse; tutto ciò che è fuori viene automaticamente omesso.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.White));
@@ -97,33 +173,33 @@ string text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ..."; //
 graphics.DrawString(text, arial, brush, rectangle, stringFormat);
 ```
 
-### Passo 6: Salva il Risultato (salva immagine ritagliata)
-Infine, salviamo il bitmap su disco. Questo è il passo di **salvataggio dell'immagine ritagliata**.
+### Passo 6: salvare il risultato (salvare l'immagine ritagliata)
+
+`Bitmap.Save` scrive l'immagine finale su disco nel formato scelto (PNG, JPEG, ecc.), preservando il contenuto ritagliato.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Rendering\Clipping_out.png");
 ```
 
-## Problemi Comuni e Suggerimenti
+## Problemi comuni e consigli
 - **Ritaglio non applicato?** Assicurati che `SetClip` sia chiamato **prima** di qualsiasi comando di disegno.  
-- **Colori inattesi?** Verifica il formato pixel del bitmap (`Format32bppPArgb` funziona bene per la trasparenza).  
-- **Problemi di prestazioni:** Riutilizza lo stesso `GraphicsPath` se devi ritagliare più volte in un ciclo.  
-- **Consiglio professionale:** Combina più oggetti `GraphicsPath` con `AddPath` per creare ritagli compositi complessi.
+- **Colori inattesi?** Usa `PixelFormat.Format32bppPArgb` per una corretta gestione dell'alpha.  
+- **Preoccupazioni di performance:** Riutilizza lo stesso `GraphicsPath` quando ritagli ripetutamente in un ciclo.  
+- **Suggerimento professionale:** Combina più oggetti `GraphicsPath` con `AddPath` per costruire ritagli compositi complessi.
 
-## Casi d'Uso Comuni
-- **Creazione di badge o logo:** Ritaglia un logo in un badge circolare o di forma personalizzata.  
-- **Filigrane dinamiche:** Renderizza il testo della filigrana solo all'interno di una regione definita, lasciando intatta il resto dell'immagine.  
-- **Elementi UI interattivi:** Evidenzia una parte di uno screenshot UI ritagliando una sovrapposizione semi‑trasparente.
+## Casi d'uso comuni
+- **Creazione di distintivi o loghi:** Ritaglia un logo in un distintivo circolare o di forma personalizzata.  
+- **Filigrane dinamiche:** Renderizza il testo della filigrana solo all'interno di una regione definita, lasciando intatto il resto dell'immagine.  
+- **Elementi UI interattivi:** Evidenzia una porzione di uno screenshot UI ritagliando una sovrapposizione semitrasparente.
 
-## Risoluzione dei Problemi e Insidie
-
-| Sintomo | Causa Probabile | Soluzione |
-|---------|-----------------|-----------|
+## Risoluzione dei problemi e insidie
+| Sintomo | Probabile causa | Correzione |
+|---------|----------------|------------|
 | Nessun testo visibile all'interno dell'ellisse | Ritaglio applicato dopo il disegno | Sposta `SetClip` prima di qualsiasi chiamata a `DrawString` |
 | Lo sfondo trasparente diventa nero | Formato pixel errato | Usa `Format32bppPArgb` per una corretta gestione dell'alpha |
-| Rendering lento su immagini grandi | Ricreare `GraphicsPath` ad ogni frame | Metti in cache il percorso e riutilizzalo |
+| Rendering lento su immagini grandi | Ricreazione di `GraphicsPath` ad ogni frame | Cache il percorso e riutilizzalo |
 
-## Domande Frequenti
+## Domande frequenti
 
 **D: Posso applicare più regioni di ritaglio in una singola immagine?**  
 R: Sì. Chiama `graphics.SetClip` con un nuovo percorso; il ritaglio precedente viene sostituito a meno che non usi `CombineMode.Intersect`.
@@ -138,16 +214,24 @@ R: Puoi modificare la regione al volo creando un nuovo `GraphicsPath` e chiamand
 R: Sì. Funziona in ASP.NET Core, Azure Functions e altri ambienti server‑side.
 
 **D: Qual è l'impatto sulle prestazioni del ritaglio?**  
-R: Il ritaglio è leggero; Aspose.Drawing utilizza ottimizzazioni native GDI+, quindi l'overhead è minimo per le dimensioni tipiche delle immagini.
+R: Il ritaglio è leggero; Aspose.Drawing sfrutta ottimizzazioni native di GDI+, quindi l'overhead è minimo per le dimensioni tipiche delle immagini.
 
 ## Conclusione
-Hai ora padroneggiato come **impostare la regione di ritaglio**, **ritagliare contenuti di immagine**, applicare **rendering di testo personalizzato** e **salvare file di immagine ritagliata** usando Aspose.Drawing per .NET. Queste tecniche ti offrono un controllo granulare sull'output grafico, consentendo effetti visivi sofisticati con poche righe di codice. Esplora ulteriormente combinando il ritaglio con gradienti, pattern o input dinamico dell'utente per creare grafiche davvero interattive.
+
+Ora hai imparato a **creare un percorso di ritaglio**, **ritagliare il contenuto di un'immagine**, applicare **rendering di testo personalizzato** e **salvare file immagine ritagliati** usando Aspose.Drawing per .NET. Queste tecniche ti offrono un controllo granulare sull'output grafico, consentendo effetti visivi sofisticati con poche righe di codice. Sperimenta combinando il ritaglio con gradienti, pattern o input dell'utente per creare grafiche davvero interattive.
 
 ---
 
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose
+**Ultimo aggiornamento:** 2026-09-18  
+**Testato con:** Aspose.Drawing 24.11 per .NET  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Come disegnare un rettangolo – Trasformazione del sistema di coordinate (Trasformazione di pagina) usando l'Aspose.Drawing API per .NET](/drawing/net/coordinate-transformations/page-transformation/)
+- [Come disegnare un arco e salvare l'immagine PNG con Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-arc/)
+- [Migliora la qualità dell'immagine con l'Antialiasing in Aspose.Drawing](/drawing/net/rendering/antialiasing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
