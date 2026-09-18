@@ -1,10 +1,54 @@
 ---
-date: 2026-02-19
+date: 2026-09-18
 description: Leer hoe je een pad tekent en paden verbindt met pennen in Aspose.Drawing,
-  en sla vervolgens de afbeelding op als PNG met eenvoudige C#‑code.
-linktitle: Joining Paths with Pens in Aspose.Drawing
+  en vervolgens de afbeelding opslaat als PNG met eenvoudige C#‑code.
+keywords:
+- save image as png
+- server side image rendering
+- raster image from vector
+- export graphics to png
+- alternative to system drawing
+lastmod: 2026-09-18
+linktitle: Paden verbinden met pennen in Aspose.Drawing
+og_description: Sla afbeelding op als PNG met Aspose.Drawing. Leer paden te tekenen,
+  line‑join stijlen toe te passen en hoogwaardige rastergrafieken te exporteren vanuit
+  vectorgegevens op de server.
+og_image_alt: Developer guide showing how to draw and join paths with pens, then save
+  the result as a PNG file using Aspose.Drawing
+og_title: Hoe een pad te tekenen, paden te verbinden met pennen en afbeelding op te
+  slaan als PNG
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to draw path and join paths with pens in Aspose.Drawing,
+    then save the image as PNG using simple C# code.
+  headline: How to draw path, join paths with pens and save image as PNG
+  type: TechArticle
+- questions:
+  - answer: Aspose.Drawing is a commercial product, but you can explore its capabilities
+      with a **[free trial](https://releases.aspose.com/)**.
+    question: Can I use Aspose.Drawing for free?
+  - answer: Refer to the **[documentation](https://reference.aspose.com/drawing/net/)**
+      for comprehensive guidance.
+    question: Where can I find Aspose.Drawing documentation?
+  - answer: Visit the **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)**
+      for community help and official assistance.
+    question: How can I get support for Aspose.Drawing?
+  - answer: Yes, you can obtain a **[temporary license](https://purchase.aspose.com/temporary-license/)**
+      for short‑term usage.
+    question: Are temporary licenses available for Aspose.Drawing?
+  - answer: Purchase Aspose.Drawing **[Aspose.Drawing purchase page](https://purchase.aspose.com/buy)**.
+    question: Where can I purchase Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Hoe paden te tekenen en paden te verbinden met pennen in Aspose.Drawing
+tags:
+- Aspose.Drawing
+- C# graphics
+- save PNG
+- vector to raster
+- server side rendering
+title: Hoe een pad te tekenen, paden te verbinden met pennen en afbeelding op te slaan
+  als PNG
 url: /nl/net/pens/join/
 weight: 11
 ---
@@ -13,66 +57,69 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe paden tekenen en paden verbinden met pennen in Aspose.Drawing
+# Hoe pad te tekenen, paden te verbinden met pennen en afbeelding opslaan als PNG
 
 ## Introductie
 
-Welkom in de wereld van **Aspose.Drawing for .NET**! In deze tutorial ontdek je **hoe je padobjecten tekent**, ze verbindt met verschillende line‑join stijlen, en uiteindelijk **de afbeelding opslaat als PNG**. Of je nu een rapportagetool, een ontwerpeditor bouwt, of gewoon scherpe vectorafbeeldingen nodig hebt, het beheersen van padtekenen met pennen geeft je fijnmazige controle over de visuele output.
+In deze tutorial leer je hoe je **draw path** objecten tekent, ze verbindt met verschillende line‑join stijlen, en **save image as PNG** gebruikt met Aspose.Drawing voor .NET. Of je nu een rapportage‑engine bouwt, een ontwerp‑editor, of server‑side afbeeldingsrendering nodig hebt voor een webservice, het beheersen van padtekenen met pennen geeft je precieze controle over vector‑naar‑raster conversie.
 
 ## Snelle antwoorden
 - **Wat betekent “draw path”?** Het maakt vector‑gebaseerde lijn‑ of vormdefinities die een `Graphics` object kan renderen.  
-- **Welke line‑joins zijn beschikbaar?** `Bevel`, `Miter`, `Round` en `BevelClipped`.  
+- **Welke line joins zijn beschikbaar?** `Bevel`, `Miter`, `Round` en `BevelClipped`.  
 - **Kan ik het resultaat exporteren als PNG?** Ja—gebruik `Bitmap.Save` met een `.png` extensie.  
 - **Heb ik een licentie nodig?** Een proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
 - **Welke .NET‑versies worden ondersteund?** .NET Framework 4.6+, .NET Core 3.1+ en .NET 6+.
 
-## Wat betekent “how to draw path” in Aspose.Drawing?
+## Wat is “draw path” in Aspose.Drawing?
 
-Een pad tekenen betekent een `GraphicsPath` construeren die een reeks lijnen, curven of vormen bevat. Zodra het pad is opgebouwd, schilder je het op een `Graphics`‑oppervlak met een `Pen`. Deze aanpak is flexibeler dan het tekenen van individuele lijnen omdat je transformaties, clipping en verschillende join‑stijlen kunt toepassen op de gehele vorm.
+**Draw path** betekent het construeren van een `GraphicsPath` die een reeks lijnen, curven of vormen bevat.  
+`GraphicsPath` is de container van Aspose.Drawing voor vector‑geometrie; je kunt het later renderen met een `Pen` of vullen met een penseel. Deze aanpak stelt je in staat om transformaties, clipping en consistente line‑join stijlen toe te passen op de hele vorm in plaats van elk segment afzonderlijk te tekenen.
 
-## Waarom Aspose.Drawing gebruiken voor het verbinden van paden?
+## Waarom Aspose.Drawing gebruiken voor server‑side afbeeldingsrendering?
 
-- **Volledige .NET‑compatibiliteit** – werkt op Windows, Linux en macOS.  
-- **Rijke line‑join opties** – maak afgeschuinde, afgeronde of miterhoeken met één eigenschap.  
-- **Hoogwaardige rasteroutput** – sla direct op als PNG, JPEG, BMP, enz., zonder extra conversiestappen.  
-- **Geen GDI+ beperkingen** – ideaal voor server‑side rendering waar `System.Drawing.Common` mogelijk beperkt is.
+Aspose.Drawing biedt een robuuste server‑side renderengine die op elk besturingssysteem werkt zonder afhankelijk te zijn van GDI+, waardoor het ideaal is voor clouddiensten, gecontaineriseerde applicaties en high‑performance web‑API's waar cross‑platform compatibiliteit en headless werking vereist zijn, wat zorgt voor schaalbare prestaties.
+
+- **Volledige .NET‑compatibiliteit** – ondersteunt .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Rijke line‑join opties** – `Bevel`, `Miter`, `Round`, `BevelClipped`.  
+- **Hoge‑kwaliteit rasteroutput** – kan exporteren naar **10+ rasterformaten** (PNG, JPEG, BMP, GIF, TIFF, enz.) direct vanuit vectorgegevens.  
+- **Geen GDI+ beperkingen** – ideaal voor clouddiensten, containers en headless omgevingen.
 
 ## Voorvereisten
 
-Voordat we in de code duiken, zorg dat je het volgende hebt:
+Voordat we in de code duiken, zorg ervoor dat je het volgende hebt:
 
-1. **Aspose.Drawing Bibliotheek** – download deze **[hier](https://releases.aspose.com/drawing/net/)**.  
-2. **.NET Ontwikkelomgeving** – Visual Studio, VS Code, of elke IDE die C# ondersteunt.
+1. **Aspose.Drawing Library** – download deze van de **[Aspose.Drawing download page](https://releases.aspose.com/drawing/net/)**.  
+2. **.NET Development Environment** – Visual Studio, VS Code, of een IDE die C# ondersteunt.
 
 Nu alles klaar is, laten we elke stap doorlopen.
 
-## Import Namespaces
+## Namespaces importeren
 
-Voeg de benodigde namespaces toe aan de bovenkant van je bestand zodat de compiler weet waar de grafische klassen te vinden zijn:
+De `System.Drawing` en `System.Drawing.Drawing2D` namespaces bevatten de kern grafische types die door Aspose.Drawing worden gebruikt.  
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## Stap 1: Maak een Bitmap en Graphics‑object
+## Stap 1: Maak een bitmap en graphics‑object
 
-We beginnen met een leeg canvas (`Bitmap`) van 1000 × 800 pixels en verkrijgen een `Graphics` object dat onze tekenopdrachten zal uitvoeren.
+`Bitmap` is het in‑memory rastercanvas van Aspose.Drawing. Het vertegenwoordigt een rasterafbeelding waarop je kunt tekenen met een `Graphics` oppervlak.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Stap 2: Definieer de DrawPath‑methode
+We beginnen met een leeg canvas (`Bitmap`) van 1000 × 800 pixels en verkrijgen een `Graphics` object dat onze tekenopdrachten zal renderen.
 
-Deze hulpfunctie bevat de tekenlogica:
+## Stap 2: Definieer de drawPath‑methode
 
-- **Pen** – stelt de kleur en dikte in (30 px).  
-- **GraphicsPath** – definieert twee verbonden lijnen die een “L”‑vorm vormen.  
-- **LineJoin** – bepaalt hoe de hoek tussen de twee lijnen wordt weergegeven (`Bevel`, `Round`, etc.).  
+`Pen` is het gereedschap van Aspose.Drawing voor het stroken van vectorcontouren; het bepaalt kleur, dikte en line‑join stijl.  
 
-Je kunt deze methode aanroepen met elke `LineJoin` waarde om het visuele verschil te zien.
+`LineJoin` bepaalt hoe twee lijnsegmenten bij een hoek worden verbonden.  
+
+`GraphicsPath` is de vectorcontainer die de reeks lijnen bevat die we zullen verbinden.
 
 ```csharp
 private static void DrawPath(Graphics graphics, LineJoin join, int y)
@@ -87,17 +134,25 @@ private static void DrawPath(Graphics graphics, LineJoin join, int y)
 }
 ```
 
-## Stap 3: Paden verbinden met Bevel LineJoin
+Deze hulpfunctie omvat de tekenlogica:
 
-Het gebruik van `LineJoin.Bevel` creëert een afgevlakte hoek waar de twee lijnen elkaar ontmoeten.
+- **Pen** – stelt de kleur en dikte in (30 px).  
+- **GraphicsPath** – definieert twee verbonden lijnen die een “L” vorm vormen.  
+- **LineJoin** – bepaalt hoe de hoek tussen de twee lijnen wordt gerenderd (`Bevel`, `Round`, etc.).  
+
+Je kunt deze methode aanroepen met elke `LineJoin` waarde om het visuele verschil te zien.
+
+## Stap 3: Paden verbinden met bevel line join
+
+`LineJoin.Bevel` creëert een afgevlakte hoek waar de twee lijnen elkaar ontmoeten, wat handig is wanneer je een scherpe, niet‑overlappende verbinding wilt.
 
 ```csharp
 DrawPath(graphics, LineJoin.Bevel, 200);
 ```
 
-## Stap 4: Paden verbinden met Round LineJoin
+## Stap 4: Paden verbinden met round line join
 
-`LineJoin.Round` levert een gladde, afgeronde hoek—perfect voor een meer gepolijste uitstraling.
+`LineJoin.Round` produceert een gladde, afgeronde hoek—perfect voor een meer gepolijste uitstraling.
 
 ```csharp
 DrawPath(graphics, LineJoin.Round, 400);
@@ -105,7 +160,7 @@ DrawPath(graphics, LineJoin.Round, 400);
 
 ## Stap 5: Sla het resultaat op als PNG
 
-De `Save`‑aanroep schrijft de bitmap naar een bestand in PNG‑formaat. Pas het pad aan zodat het overeenkomt met jouw omgeving.
+De `Save`‑aanroep schrijft de bitmap naar een bestand in PNG‑formaat, waarmee de **save image as PNG** workflow voltooid is. Pas het pad aan op jouw omgeving.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
@@ -115,41 +170,43 @@ bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 
 | Probleem | Waarom het gebeurt | Oplossing |
 |----------|--------------------|-----------|
-| **Afbeelding verschijnt leeg** | Het `Graphics` object was niet gewist of de bitmapgrootte is te klein. | Roep `graphics.Clear(Color.White);` aan vóór het tekenen, of vergroot de bitmapafmetingen. |
-| **Hoek ziet er gekarteld uit** | Een bitmap met lage resolutie gebruiken in combinatie met een dikke pen. | Verhoog de bitmap‑DPI (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) of verklein de penbreedte. |
-| **Bestand niet gevonden fout** | Ongeldig opslaan‑pad. | Gebruik `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")`. |
+| **Afbeelding is leeg** | Het `Graphics` object was niet gewist of de bitmapgrootte is te klein. | Roep `graphics.Clear(Color.White);` aan vóór het tekenen, of vergroot de bitmapafmetingen. |
+| **Hoek ziet er gekarteld uit** | Gebruik van een bitmap met lage resolutie en een dikke pen. | Verhoog de bitmap DPI (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) of verklein de penbreedte. |
+| **Bestand niet gevonden fout** | Ongeldig opslagpad. | Gebruik `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")`. |
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik Aspose.Drawing gratis gebruiken?
+**V: Kan ik Aspose.Drawing gratis gebruiken?**  
+**A: Aspose.Drawing is een commercieel product, maar je kunt de mogelijkheden verkennen met een **[free trial](https://releases.aspose.com/)**.**
 
-A1: Aspose.Drawing is een commercieel product, maar je kunt de mogelijkheden verkennen met een **[gratis proefversie](https://releases.aspose.com/) **.
+**V: Waar kan ik de Aspose.Drawing documentatie vinden?**  
+**A: Raadpleeg de **[documentation](https://reference.aspose.com/drawing/net/)** voor uitgebreide begeleiding.**
 
-### Q2: Waar kan ik de Aspose.Drawing documentatie vinden?
+**V: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?**  
+**A: Bezoek het **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)** voor community‑hulp en officiële ondersteuning.**
 
-A2: Zie de **[documentatie](https://reference.aspose.com/drawing/net/) ** voor uitgebreide begeleiding.
+**V: Zijn tijdelijke licenties beschikbaar voor Aspose.Drawing?**  
+**A: Ja, je kunt een **[temporary license](https://purchase.aspose.com/temporary-license/)** verkrijgen voor kortetermijngebruik.**
 
-### Q3: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
-
-A3: Bezoek het **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) ** voor community‑hulp en officiële ondersteuning.
-
-### Q4: Zijn tijdelijke licenties beschikbaar voor Aspose.Drawing?
-
-A4: Ja, je kunt een **[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) ** verkrijgen voor kortdurend gebruik.
-
-### Q5: Waar kan ik Aspose.Drawing kopen?
-
-A5: Koop Aspose.Drawing **[hier](https://purchase.aspose.com/buy) **.
+**V: Waar kan ik Aspose.Drawing kopen?**  
+**A: Koop Aspose.Drawing via de **[Aspose.Drawing purchase page](https://purchase.aspose.com/buy)**.**
 
 ## Conclusie
 
-In deze gids hebben we **hoe je padobjecten tekent**, verschillende `LineJoin`‑stijlen toegepast, en de uiteindelijke grafiek opgeslagen als een PNG‑bestand met Aspose.Drawing voor .NET. Door deze stappen te beheersen kun je geavanceerde vectorafbeeldingen, aangepaste iconen of dynamische diagrammen direct vanuit je server‑side code maken.
+In deze gids hebben we behandeld hoe je **draw path** objecten maakt, verschillende `LineJoin` stijlen toepast, en **save image as PNG** gebruikt met Aspose.Drawing voor .NET. Door deze stappen te beheersen kun je geavanceerde vectorafbeeldingen, aangepaste iconen of dynamische grafieken genereren direct vanuit server‑side code, waardoor je een betrouwbare **export graphics to PNG** oplossing krijgt die op elk platform werkt.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-19  
-**Getest met:** Aspose.Drawing 24.11 for .NET  
-**Auteur:** Aspose  
+**Laatste update:** 2026-09-18  
+**Getest met:** Aspose.Drawing 24.11 voor .NET  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe een boog te tekenen en afbeelding PNG op te slaan met Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-arc/)
+- [Hoe bitmap op te slaan als PNG tijdens het tekenen van meerdere lijnen met Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Hoe een bitmap op te slaan als PNG met de Aspose.Drawing API voor .NET](/drawing/net/image-editing/display/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,51 @@
 ---
-date: 2026-02-19
+date: 2026-09-18
 description: Aspose.Drawing에서 펜을 사용하여 경로를 그리고 경로를 연결하는 방법을 배우고, 간단한 C# 코드를 사용해 이미지를
-  PNG로 저장하세요.
-linktitle: Joining Paths with Pens in Aspose.Drawing
+  PNG로 저장합니다.
+keywords:
+- save image as png
+- server side image rendering
+- raster image from vector
+- export graphics to png
+- alternative to system drawing
+lastmod: 2026-09-18
+linktitle: Aspose.Drawing에서 펜으로 경로 연결하기
+og_description: Aspose.Drawing을 사용해 이미지를 PNG로 저장합니다. 경로를 그리고 line‑join styles를 적용하며,
+  서버에서 벡터 데이터를 고품질 래스터 그래픽으로 내보내는 방법을 배웁니다.
+og_image_alt: Developer guide showing how to draw and join paths with pens, then save
+  the result as a PNG file using Aspose.Drawing
+og_title: 경로를 그리는 방법, 펜으로 경로를 연결하고 이미지를 PNG로 저장하는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to draw path and join paths with pens in Aspose.Drawing,
+    then save the image as PNG using simple C# code.
+  headline: How to draw path, join paths with pens and save image as PNG
+  type: TechArticle
+- questions:
+  - answer: Aspose.Drawing is a commercial product, but you can explore its capabilities
+      with a **[free trial](https://releases.aspose.com/)**.
+    question: Can I use Aspose.Drawing for free?
+  - answer: Refer to the **[documentation](https://reference.aspose.com/drawing/net/)**
+      for comprehensive guidance.
+    question: Where can I find Aspose.Drawing documentation?
+  - answer: Visit the **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)**
+      for community help and official assistance.
+    question: How can I get support for Aspose.Drawing?
+  - answer: Yes, you can obtain a **[temporary license](https://purchase.aspose.com/temporary-license/)**
+      for short‑term usage.
+    question: Are temporary licenses available for Aspose.Drawing?
+  - answer: Purchase Aspose.Drawing **[Aspose.Drawing purchase page](https://purchase.aspose.com/buy)**.
+    question: Where can I purchase Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Aspose.Drawing에서 펜으로 경로를 그리고 경로를 연결하는 방법
+tags:
+- Aspose.Drawing
+- C# graphics
+- save PNG
+- vector to raster
+- server side rendering
+title: 경로를 그리는 방법, 펜으로 경로를 연결하고 이미지를 PNG로 저장하는 방법
 url: /ko/net/pens/join/
 weight: 11
 ---
@@ -13,58 +54,69 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing에서 펜으로 경로 그리기 및 경로 연결하기
+# 경로를 그리기, 펜으로 경로 연결 및 PNG로 이미지 저장
 
 ## 소개
 
-**Aspose.Drawing for .NET**의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 **경로 그리기** 객체를 만들고, 다양한 line‑join 스타일로 연결한 뒤, 최종적으로 **이미지를 PNG로 저장**하는 방법을 알아봅니다. 보고서 도구, 디자인 편집기 제작 혹은 선명한 벡터 그래픽이 필요할 때, 펜을 이용한 경로 그리기를 마스터하면 시각적 출력에 대한 세밀한 제어가 가능합니다.
+이 튜토리얼에서는 Aspose.Drawing for .NET을 사용하여 **draw path** 객체를 그리고, 다양한 line‑join 스타일로 연결하며, **save image as PNG** 하는 방법을 배웁니다. 보고서 엔진, 디자인 편집기 구축 또는 웹 서비스용 서버‑사이드 이미지 렌더링이 필요하든, 펜으로 경로 그리기를 마스터하면 벡터‑래스터 변환을 정밀하게 제어할 수 있습니다.
 
 ## 빠른 답변
-- **“draw path”는 무엇을 의미하나요?** `Graphics` 객체가 렌더링할 수 있는 벡터 기반 선 또는 도형 정의를 생성합니다.  
-- **어떤 line join이 제공되나요?** `Bevel`, `Miter`, `Round`, `BevelClipped`.  
-- **결과를 PNG로 내보낼 수 있나요?** 예—`.png` 확장자를 사용해 `Bitmap.Save`를 호출하면 됩니다.  
-- **라이선스가 필요합니까?** 평가용 트라이얼은 사용 가능하지만, 상용 환경에서는 상업용 라이선스가 필요합니다.  
-- **지원되는 .NET 버전은 무엇인가요?** .NET Framework 4.6+, .NET Core 3.1+, .NET 6+.
+- **draw path는 무엇을 의미합니까?** It creates vector‑based line or shape definitions that a `Graphics` object can render.  
+- **사용 가능한 line join은 무엇입니까?** `Bevel`, `Miter`, `Round`, 및 `BevelClipped`.  
+- **결과를 PNG로 내보낼 수 있나요?** 예—`.png` 확장자를 사용하여 `Bitmap.Save`를 호출합니다.  
+- **라이선스가 필요합니까?** 평가용으로는 체험판을 사용할 수 있지만, 제품 환경에서는 상용 라이선스가 필요합니다.  
+- **지원되는 .NET 버전은 무엇입니까?** .NET Framework 4.6+, .NET Core 3.1+, 및 .NET 6+.
 
-## Aspose.Drawing에서 “경로 그리기”란 무엇인가요?
+## Aspose.Drawing에서 “draw path”란 무엇인가요?
 
-경로를 그린다는 것은 일련의 선, 곡선 또는 도형을 포함하는 `GraphicsPath`를 구성하는 것을 의미합니다. 경로가 만들어지면 `Pen`을 사용해 `Graphics` 표면에 그립니다. 개별 선을 그리는 것보다 변환, 클리핑 및 다양한 코너 스타일을 전체 도형에 적용할 수 있어 더 유연합니다.
+**Draw path**는 일련의 선, 곡선 또는 형태를 포함하는 `GraphicsPath`를 구성하는 것을 의미합니다.  
+`GraphicsPath`는 Aspose.Drawing의 벡터 기하학 컨테이너이며, 이후 `Pen`으로 렌더링하거나 브러시로 채울 수 있습니다. 이 방법을 사용하면 각 세그먼트를 개별적으로 그리는 대신 전체 형태에 변환, 클리핑 및 일관된 line‑join 스타일을 적용할 수 있습니다.
 
-## 왜 Aspose.Drawing을 사용해 경로를 연결할까요?
+## 서버‑사이드 이미지 렌더링에 Aspose.Drawing을 사용하는 이유는?
 
-- **전체 .NET 호환성** – Windows, Linux, macOS에서 모두 동작합니다.  
-- **다양한 line‑join 옵션** – 하나의 속성만으로 베벨, 라운드, 미터 코너를 만들 수 있습니다.  
-- **고품질 래스터 출력** – 별도 변환 단계 없이 PNG, JPEG, BMP 등으로 바로 저장합니다.  
-- **GDI+ 제한 없음** – `System.Drawing.Common`이 제한될 수 있는 서버‑사이드 렌더링에 이상적입니다.
+Aspose.Drawing은 GDI+에 의존하지 않고 모든 운영 체제에서 작동하는 견고한 서버‑사이드 렌더링 엔진을 제공하므로, 크로스‑플랫폼 호환성과 헤드리스 운영이 필요한 클라우드 서비스, 컨테이너화된 애플리케이션 및 고성능 웹 API에 이상적이며 확장 가능한 성능을 보장합니다.
 
-## 전제 조건
+- **Full .NET compatibility** – .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7을 지원합니다.  
+- **Rich line‑join options** – `Bevel`, `Miter`, `Round`, `BevelClipped`.  
+- **High‑quality raster output** – 벡터 데이터에서 직접 **10개 이상의 래스터 포맷**(PNG, JPEG, BMP, GIF, TIFF 등)으로 내보낼 수 있습니다.  
+- **No GDI+ limitations** – 클라우드 서비스, 컨테이너 및 헤드리스 환경에 이상적입니다.
 
-시작하기 전에 다음을 준비하세요:
+## 사전 요구 사항
 
-1. **Aspose.Drawing Library** – **[여기](https://releases.aspose.com/drawing/net/)**에서 다운로드합니다.  
-2. **.NET 개발 환경** – Visual Studio, VS Code 또는 C#을 지원하는 任意 IDE.
+코드에 들어가기 전에 다음이 준비되어 있는지 확인하십시오:
 
-모든 준비가 끝났으니, 이제 단계별로 진행해 보겠습니다.
+1. **Aspose.Drawing Library** – **[Aspose.Drawing 다운로드 페이지](https://releases.aspose.com/drawing/net/)**에서 다운로드하십시오.  
+2. **.NET Development Environment** – Visual Studio, VS Code 또는 C#을 지원하는 기타 IDE.
+
+모든 준비가 완료되었으니, 각 단계를 살펴보겠습니다.
 
 ## 네임스페이스 가져오기
 
-파일 상단에 필요한 네임스페이스를 추가하여 컴파일러가 그래픽 클래스를 찾을 수 있도록 합니다:
+`System.Drawing` 및 `System.Drawing.Drawing2D` 네임스페이스에는 Aspose.Drawing에서 사용하는 핵심 그래픽 타입이 포함되어 있습니다.  
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## 단계 1: Bitmap 및 Graphics 객체 만들기
+## 단계 1: 비트맵 및 그래픽 객체 생성
+
+`Bitmap`은 Aspose.Drawing의 메모리 내 래스터 캔버스입니다. `Graphics` 표면을 사용하여 그릴 수 있는 래스터 이미지를 나타냅니다.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-빈 캔버스(`Bitmap`)를 1000 × 800 픽셀 크기로 생성하고, 그 위에 그리기 명령을 실행할 `Graphics` 객체를 얻습니다.
+우리는 1000 × 800 픽셀 크기의 빈 캔버스(`Bitmap`)를 시작으로, 그리기 명령을 렌더링할 `Graphics` 객체를 얻습니다.
 
-## 단계 2: DrawPath 메서드 정의
+## 단계 2: drawPath 메서드 정의
+
+`Pen`은 벡터 윤곽선을 스트로크하기 위한 Aspose.Drawing 도구이며, 색상, 두께 및 line‑join 스타일을 정의합니다.  
+
+`LineJoin`은 두 선분이 코너에서 어떻게 연결되는지를 제어합니다.  
+
+`GraphicsPath`는 우리가 연결할 일련의 선을 보관하는 벡터 컨테이너입니다.  
 
 ```csharp
 private static void DrawPath(Graphics graphics, LineJoin join, int y)
@@ -82,74 +134,76 @@ private static void DrawPath(Graphics graphics, LineJoin join, int y)
 이 헬퍼 메서드는 그리기 로직을 캡슐화합니다:
 
 - **Pen** – 색상과 두께(30 px)를 설정합니다.  
-- **GraphicsPath** – “L” 모양을 이루는 두 개의 연결된 선을 정의합니다.  
-- **LineJoin** – 두 선 사이 코너가 어떻게 렌더링될지(`Bevel`, `Round` 등) 제어합니다.  
+- **GraphicsPath** – “L” 형태를 이루는 두 개의 연결된 선을 정의합니다.  
+- **LineJoin** – 두 선 사이 코너가 어떻게 렌더링되는지를 제어합니다(`Bevel`, `Round` 등).  
 
-任意 `LineJoin` 값을 전달해 시각적 차이를 확인할 수 있습니다.
+이 메서드를 원하는 `LineJoin` 값으로 호출하면 시각적 차이를 확인할 수 있습니다.
 
-## 단계 3: Bevel LineJoin으로 경로 연결
+## 단계 3: bevel line join으로 경로 연결
+
+`LineJoin.Bevel`은 두 선이 만나는 곳에 평평한 코너를 만들며, 선명하고 겹치지 않는 연결이 필요할 때 유용합니다.
 
 ```csharp
 DrawPath(graphics, LineJoin.Bevel, 200);
 ```
 
-`LineJoin.Bevel`을 사용하면 두 선이 만나는 지점이 평평하게 처리됩니다.
+## 단계 4: round line join으로 경로 연결
 
-## 단계 4: Round LineJoin으로 경로 연결
+`LineJoin.Round`은 부드럽고 둥근 코너를 만들어 보다 세련된 외관을 제공합니다.
 
 ```csharp
 DrawPath(graphics, LineJoin.Round, 400);
 ```
 
-`LineJoin.Round`는 부드러운 둥근 코너를 만들어 보다 깔끔한 외관을 제공합니다.
-
 ## 단계 5: 결과를 PNG로 저장
+
+`Save` 호출은 비트맵을 PNG 형식 파일로 저장하여 **save image as PNG** 작업 흐름을 완료합니다. 경로를 환경에 맞게 조정하십시오.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ```
 
-`Save` 호출이 비트맵을 PNG 형식 파일로 기록합니다. 환경에 맞게 경로를 조정하세요.
-
 ## 일반적인 문제 및 해결책
 
 | 문제 | 발생 원인 | 해결 방법 |
-|------|-----------|-----------|
-| **이미지가 비어 있음** | `Graphics` 객체를 초기화하지 않았거나 비트맵 크기가 너무 작음 | 그리기 전에 `graphics.Clear(Color.White);`를 호출하거나 비트맵 크기를 늘립니다. |
-| **코너가 들쭉날쭉함** | 저해상도 비트맵에 두꺼운 펜을 사용함 | 비트맵 DPI를 높이거나(`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) 펜 두께를 줄입니다. |
-| **파일을 찾을 수 없음 오류** | 저장 경로가 잘못됨 | `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")`와 같이 올바른 경로를 사용합니다. |
+|-------|----------------|-----|
+| **이미지가 비어 있음** | `Graphics` 객체가 초기화되지 않았거나 비트맵 크기가 너무 작습니다. | 그리기 전에 `graphics.Clear(Color.White);`를 호출하거나 비트맵 크기를 늘리세요. |
+| **코너가 들쭉날쭉함** | 두꺼운 펜을 사용한 저해상도 비트맵을 사용했기 때문입니다. | 비트맵 DPI를 높이세요(`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) 또는 펜 두께를 줄이세요. |
+| **파일을 찾을 수 없음 오류** | 잘못된 저장 경로입니다. | `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")`를 사용하세요. |
 
 ## 자주 묻는 질문
 
-### Q1: Aspose.Drawing을 무료로 사용할 수 있나요?
+**Q: Aspose.Drawing를 무료로 사용할 수 있나요?**  
+A: Aspose.Drawing는 상용 제품이지만, **[무료 체험](https://releases.aspose.com/)**을 통해 기능을 살펴볼 수 있습니다.
 
-A1: Aspose.Drawing은 상용 제품이지만, **[무료 체험판](https://releases.aspose.com/) **을 통해 기능을 살펴볼 수 있습니다.
+**Q: Aspose.Drawing 문서는 어디에서 찾을 수 있나요?**  
+A: 포괄적인 안내는 **[문서](https://reference.aspose.com/drawing/net/)**를 참고하십시오.
 
-### Q2: Aspose.Drawing 문서는 어디서 찾을 수 있나요?
+**Q: Aspose.Drawing 지원을 어떻게 받을 수 있나요?**  
+A: 커뮤니티 도움 및 공식 지원을 위해 **[Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44)**을 방문하십시오.
 
-A2: 포괄적인 가이드는 **[문서](https://reference.aspose.com/drawing/net/) ** 를 참고하세요.
+**Q: Aspose.Drawing에 임시 라이선스가 있나요?**  
+A: 예, 단기 사용을 위해 **[임시 라이선스](https://purchase.aspose.com/temporary-license/)**를 받을 수 있습니다.
 
-### Q3: Aspose.Drawing 지원을 어떻게 받을 수 있나요?
-
-A3: 커뮤니티 도움과 공식 지원을 위해 **[Aspose.Drawing 포럼](https://forum.aspose.com/c/drawing/44) ** 을 방문하세요.
-
-### Q4: Aspose.Drawing에 임시 라이선스가 있나요?
-
-A4: 네, 단기 사용을 위한 **[임시 라이선스](https://purchase.aspose.com/temporary-license/) ** 를 발급받을 수 있습니다.
-
-### Q5: Aspose.Drawing은 어디서 구매하나요?
-
-A5: **[여기](https://purchase.aspose.com/buy) ** 에서 구매할 수 있습니다.
+**Q: Aspose.Drawing를 어디서 구매할 수 있나요?**  
+A: Aspose.Drawing를 **[구매 페이지](https://purchase.aspose.com/buy)**에서 구매하십시오.
 
 ## 결론
 
-이 가이드에서는 **경로 그리기** 객체를 만들고, 다양한 `LineJoin` 스타일을 적용한 뒤, Aspose.Drawing for .NET을 사용해 최종 그래픽을 PNG 파일로 저장하는 방법을 살펴보았습니다. 이 단계를 마스터하면 서버‑사이드 코드만으로도 정교한 벡터 그래픽, 맞춤 아이콘, 동적 차트를 손쉽게 생성할 수 있습니다.
+이 가이드에서는 **draw path** 객체를 만들고, 다양한 `LineJoin` 스타일을 적용하며, Aspose.Drawing for .NET을 사용해 **save image as PNG** 하는 방법을 다루었습니다. 이러한 단계를 마스터하면 서버‑사이드 코드에서 직접 정교한 벡터 그래픽, 맞춤 아이콘 또는 동적 차트를 생성할 수 있어, 모든 플랫폼에서 작동하는 신뢰할 수 있는 **export graphics to PNG** 솔루션을 제공합니다.
 
 ---
 
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose  
+**마지막 업데이트:** 2026-09-18  
+**테스트 환경:** Aspose.Drawing 24.11 for .NET  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Aspose.Drawing으로 호를 그리기 및 PNG 이미지 저장 방법](/drawing/net/lines-curves-and-shapes/draw-arc/)
+- [Aspose.Drawing으로 여러 선을 그리면서 비트맵을 PNG로 저장하는 방법](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Aspose.Drawing API for .NET을 사용해 비트맵을 PNG로 저장하는 방법](/drawing/net/image-editing/display/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
