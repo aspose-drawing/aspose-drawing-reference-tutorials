@@ -1,10 +1,54 @@
 ---
-date: 2026-02-19
-description: Tanulja meg, hogyan rajzoljon útvonalakat és kapcsoljon össze útvonalakat
-  tollakkal az Aspose.Drawing-ben, majd egyszerű C# kóddal mentse a képet PNG formátumban.
-linktitle: Joining Paths with Pens in Aspose.Drawing
+date: 2026-09-18
+description: Tanulja meg, hogyan rajzoljon útvonalat és csatlakoztassa az útvonalakat
+  tollal az Aspose.Drawing-ban, majd egyszerű C# kóddal mentse a képet PNG formátumban.
+keywords:
+- save image as png
+- server side image rendering
+- raster image from vector
+- export graphics to png
+- alternative to system drawing
+lastmod: 2026-09-18
+linktitle: Útvonalak összekapcsolása tollal az Aspose.Drawing-ban
+og_description: Mentse a képet PNG formátumban az Aspose.Drawing segítségével. Tanulja
+  meg, hogyan rajzoljon útvonalakat, alkalmazzon vonal‑csatlakozási stílusokat, és
+  exportáljon magas minőségű raszteres grafikákat vektoros adatokból a szerveren.
+og_image_alt: Developer guide showing how to draw and join paths with pens, then save
+  the result as a PNG file using Aspose.Drawing
+og_title: Hogyan rajzoljunk útvonalat, csatlakoztassuk az útvonalakat tollal, és mentsük
+  a képet PNG formátumban
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to draw path and join paths with pens in Aspose.Drawing,
+    then save the image as PNG using simple C# code.
+  headline: How to draw path, join paths with pens and save image as PNG
+  type: TechArticle
+- questions:
+  - answer: Aspose.Drawing is a commercial product, but you can explore its capabilities
+      with a **[free trial](https://releases.aspose.com/)**.
+    question: Can I use Aspose.Drawing for free?
+  - answer: Refer to the **[documentation](https://reference.aspose.com/drawing/net/)**
+      for comprehensive guidance.
+    question: Where can I find Aspose.Drawing documentation?
+  - answer: Visit the **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)**
+      for community help and official assistance.
+    question: How can I get support for Aspose.Drawing?
+  - answer: Yes, you can obtain a **[temporary license](https://purchase.aspose.com/temporary-license/)**
+      for short‑term usage.
+    question: Are temporary licenses available for Aspose.Drawing?
+  - answer: Purchase Aspose.Drawing **[Aspose.Drawing purchase page](https://purchase.aspose.com/buy)**.
+    question: Where can I purchase Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Hogyan rajzolj útvonalat és csatlakoztass útvonalakat tollakkal az Aspose.Drawing-ban
+tags:
+- Aspose.Drawing
+- C# graphics
+- save PNG
+- vector to raster
+- server side rendering
+title: Hogyan rajzoljunk útvonalat, csatlakoztassuk az útvonalakat tollal, és mentsük
+  a képet PNG formátumban
 url: /hu/net/pens/join/
 weight: 11
 ---
@@ -13,58 +57,67 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan rajzoljunk útvonalat és kapcsoljunk össze útvonalakat tollal az Aspose.Drawing-ban
+# Útvonal rajzolása, útvonalak összekapcsolása tollal és kép mentése PNG formátumban
 
 ## Bevezetés
 
-Üdvözlünk az **Aspose.Drawing for .NET** világában! Ebben az útmutatóban megtanulod, **hogyan rajzoljunk útvonal** objektumokat, hogyan kapcsoljuk össze őket különböző vonal‑csatlakozási stílusokkal, és végül **mentsük el a képet PNG‑ként**. Akár jelentéskészítő eszközt, tervező szerkesztőt építesz, akár csak tiszta vektorgrafikára van szükséged, az útvonalak tollal való rajzolásának elsajátítása finomhangolt vezérlést biztosít a vizuális kimenet felett.
+Ebben az oktatóanyagban megtanulja, hogyan **rajzoljon útvonal** objektumokat, hogyan kapcsolja össze őket különböző vonalösszekötési stílusokkal, és hogyan **mentse a képet PNG‑ként** az Aspose.Drawing for .NET segítségével. Akár jelentéskészítő motor, tervező szerkesztő építése, akár szerveroldali képrenderelés szükséges egy webszolgáltatáshoz, a tollal történő útvonalrajzolás pontos vezérlést biztosít a vektorból raszterre konvertáláshoz.
 
 ## Gyors válaszok
-- **Mit jelent a „draw path”?** Vektor‑alapú vonal‑ vagy alakdefiníciókat hoz létre, amelyeket egy `Graphics` objektum megjeleníthet.  
-- **Milyen vonal‑csatlakozások érhetők el?** `Bevel`, `Miter`, `Round` és `BevelClipped`.  
-- **Exportálhatom az eredményt PNG‑ként?** Igen — használd a `Bitmap.Save` metódust `.png` kiterjesztéssel.  
-- **Szükség van licencre?** A próbaverzió elegendő értékeléshez; a kereskedelmi licenc kötelező a termeléshez.  
-- **Mely .NET verziók támogatottak?** .NET Framework 4.6+, .NET Core 3.1+, és .NET 6+.
+- **Mi a „draw path” jelentése?** Létrehozza a vektor‑alapú vonal- vagy alakdefiníciókat, amelyeket egy `Graphics` objektum megjeleníthet.  
+- **Milyen vonalösszekötések érhetők el?** `Bevel`, `Miter`, `Round`, és `BevelClipped`.  
+- **Exportálhatom az eredményt PNG‑ként?** Igen—használja a `Bitmap.Save` metódust `.png` kiterjesztéssel.  
+- **Szükségem van licencre?** A próbaverzió elegendő értékeléshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.6+, .NET Core 3.1+, és .NET 6+.
 
-## Mi az a „how to draw path” az Aspose.Drawing-ban?
+## Mi a „draw path” az Aspose.Drawing‑ban?
 
-Az útvonal rajzolása egy `GraphicsPath` létrehozását jelenti, amely sorozatos vonalakat, görbéket vagy alakzatokat tartalmaz. Miután az útvonal felépült, egy `Pen` segítségével festjük rá egy `Graphics` felületre. Ez a megközelítés rugalmasabb, mint egyedi vonalak rajzolása, mivel átalakításokat, vágásokat és különböző csatlakozási stílusokat alkalmazhatunk az egész alakzatra.
+**Draw path** azt jelenti, hogy egy `GraphicsPath` objektumot hozunk létre, amely sorozatos vonalakat, görbéket vagy alakzatokat tartalmaz.  
+`GraphicsPath` az Aspose.Drawing vektor‑geometria tárolója; később egy `Pen`‑nel megrajzolhatja vagy ecsettel kitöltheti. Ez a megközelítés lehetővé teszi transzformációk, vágások és egységes vonalösszekötési stílusok alkalmazását az egész alakzatra, ahelyett, hogy egyes szegmenseket rajzolna külön-külön.
 
-## Miért használjuk az Aspose.Drawing‑ot útvonalak összekapcsolásához?
+## Miért használjuk az Aspose.Drawing‑ot szerveroldali képrendereléshez?
 
-- **Teljes .NET kompatibilitás** — Windows, Linux és macOS rendszereken egyaránt működik.  
-- **Gazdag vonal‑csatlakozási lehetőségek** — egyetlen tulajdonsággal hozhatsz létre ferde, lekerekített vagy szögletes sarkokat.  
-- **Magas minőségű raszter kimenet** — közvetlenül mentheted PNG, JPEG, BMP stb. formátumokba, extra konverziós lépések nélkül.  
-- **Nincsenek GDI+ korlátozások** — ideális szerver‑oldali rendereléshez, ahol a `System.Drawing.Common` korlátozott lehet.
+Az Aspose.Drawing egy robusztus szerveroldali renderelő motor, amely bármely operációs rendszeren működik GDI+ függőség nélkül, így ideális felhőszolgáltatásokhoz, konténerekhez és magas teljesítményű web‑API‑khoz, ahol a platformközi kompatibilitás és a fej nélküli működés szükséges, biztosítva a skálázható teljesítményt.
 
-## Előfeltételek
+- **Teljes .NET kompatibilitás** – támogatja a .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7 verziókat.  
+- **Gazdag vonalösszekötési lehetőségek** – `Bevel`, `Miter`, `Round`, `BevelClipped`.  
+- **Magas minőségű raszter kimenet** – közvetlenül vektoradatokból exportálhat **10+ raszter formátumba** (PNG, JPEG, BMP, GIF, TIFF stb.).  
+- **Nincs GDI+ korlátozás** – ideális felhőszolgáltatásokhoz, konténerekhez és fej nélküli környezetekhez.
 
-Mielőtt a kódba merülnél, győződj meg róla, hogy a következők rendelkezésre állnak:
+## Előkövetelmények
 
-1. **Aspose.Drawing könyvtár** — töltsd le **[itt](https://releases.aspose.com/drawing/net/)**.  
-2. **.NET fejlesztői környezet** — Visual Studio, VS Code vagy bármely C#‑ot támogató IDE.
+1. **Aspose.Drawing Library** – töltse le a **[Aspose.Drawing letöltési oldalról](https://releases.aspose.com/drawing/net/)**.  
+2. **.NET fejlesztői környezet** – Visual Studio, VS Code vagy bármely C#‑ot támogató IDE.
 
-Miután minden készen áll, lépjünk végig a lépéseken.
+Most, hogy minden készen áll, lépjünk át minden lépésen.
 
-## Namespace-ek importálása
+## Névterek importálása
 
-Add hozzá a szükséges namespace-eket a fájlod tetejéhez, hogy a fordító megtalálja a grafikai osztályokat:
+A `System.Drawing` és `System.Drawing.Drawing2D` névterek tartalmazzák az Aspose.Drawing által használt alap grafikai típusokat.  
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## 1. lépés: Bitmap és Graphics objektum létrehozása
+## 1. lépés: Bitmap és graphics objektum létrehozása
+
+`Bitmap` az Aspose.Drawing memóriában lévő raszter vászna. Egy raszter képet képvisel, amelyre a `Graphics` felület segítségével rajzolhat.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-Egy üres vászon (`Bitmap`) indul 1000 × 800 pixel mérettel, és egy `Graphics` objektumot kapunk, amely a rajzolási parancsokat végrehajtja.
+Egy üres vászonnal (`Bitmap`) kezdünk, amely 1000 × 800 pixel méretű, és egy `Graphics` objektumot kapunk, amely meg fogja jeleníteni a rajzolási parancsainkat.
 
-## 2. lépés: A DrawPath metódus definiálása
+## 2. lépés: A drawPath metódus meghatározása
+
+`Pen` az Aspose.Drawing eszköze a vektorvonalak körvonalazásához; meghatározza a színt, vastagságot és a vonalösszekötési stílust.  
+
+`LineJoin` szabályozza, hogy két vonal szegmens hogyan kapcsolódik egy sarkon.  
+
+`GraphicsPath` a vektor tároló, amely a vonalak sorozatát tartalmazza, amelyeket összekapcsolunk.  
 
 ```csharp
 private static void DrawPath(Graphics graphics, LineJoin join, int y)
@@ -79,77 +132,79 @@ private static void DrawPath(Graphics graphics, LineJoin join, int y)
 }
 ```
 
-Ez a segédfüggvény tartalmazza a rajzolási logikát:
+Ez a segédmetódus magába foglalja a rajzolási logikát:
 
-- **Pen** — beállítja a színt és a vastagságot (30 px).  
-- **GraphicsPath** — két összekapcsolt vonalat definiál, amelyek egy „L” alakzatot alkotnak.  
-- **LineJoin** — szabályozza, hogyan jelenik meg a két vonal közötti sarok (`Bevel`, `Round` stb.).  
+- **Pen** – beállítja a színt és a vastagságot (30 px).  
+- **GraphicsPath** – két összekapcsolt vonalat definiál, amelyek egy „L” alakot alkotnak.  
+- **LineJoin** – szabályozza, hogyan jelenik meg a két vonal közötti sarok (`Bevel`, `Round`, stb.).  
 
-A metódust bármely `LineJoin` értékkel meghívhatod, hogy lásd a vizuális különbséget.
+A metódust bármely `LineJoin` értékkel meghívhatja, hogy lássa a vizuális különbséget.
 
-## 3. lépés: Útvonalak összekapcsolása Bevel LineJoin‑nal
+## 3. lépés: Útvonalak összekapcsolása bevel vonalösszekötéssel
+
+`LineJoin.Bevel` egy lapított sarkot hoz létre, ahol a két vonal találkozik, ami hasznos, ha tiszta, nem átfedő csatlakozást szeretne.  
 
 ```csharp
 DrawPath(graphics, LineJoin.Bevel, 200);
 ```
 
-A `LineJoin.Bevel` egy lelapított sarkot hoz létre, ahol a két vonal találkozik.
+## 4. lépés: Útvonalak összekapcsolása round vonalösszekötéssel
 
-## 4. lépés: Útvonalak összekapcsolása Round LineJoin‑nal
+`LineJoin.Round` egy sima, lekerekített sarkot eredményez – tökéletes egy kifinomultabb megjelenéshez.  
 
 ```csharp
 DrawPath(graphics, LineJoin.Round, 400);
 ```
 
-A `LineJoin.Round` sima, lekerekített sarkot eredményez — tökéletes egy kifinomultabb megjelenéshez.
-
 ## 5. lépés: Az eredmény mentése PNG‑ként
+
+A `Save` hívás a bitmapet PNG formátumú fájlba írja, befejezve a **kép mentése PNG‑ként** munkafolyamatot. Igazítsa az elérési utat a környezetéhez.  
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ```
 
-A `Save` hívás a bitmapet PNG formátumban egy fájlba írja. Igazítsd a útvonalat a saját környezetedhez.
-
 ## Gyakori problémák és megoldások
 
 | Probléma | Miért fordul elő | Megoldás |
 |----------|------------------|----------|
-| **A kép üresnek jelenik meg** | A `Graphics` objektum nem lett törölve, vagy a bitmap mérete túl kicsi. | Hívd meg a `graphics.Clear(Color.White);` metódust a rajzolás előtt, vagy növeld a bitmap méretét. |
-| **A sarok szaggatott** | Alacsony felbontású bitmap vastag tollal. | Növeld a bitmap DPI‑ját (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) vagy csökkentsd a toll vastagságát. |
-| **Fájl nem található hiba** | Érvénytelen mentési útvonal. | Használd a `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")` kifejezést. |
+| **A kép üresnek jelenik meg** | A `Graphics` objektum nem volt törölve, vagy a bitmap mérete túl kicsi. | Hívja a `graphics.Clear(Color.White);`‑t a rajzolás előtt, vagy növelje a bitmap méreteit. |
+| **A sarok szaggatottnak tűnik** | Alacsony felbontású bitmap használata vastag tollal. | Növelje a bitmap DPI‑t (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) vagy csökkentse a toll vastagságát. |
+| **Fájl nem található hiba** | Érvénytelen mentési útvonal. | Használja a `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")`‑t. |
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-### Q1: Használhatom ingyenesen az Aspose.Drawing‑ot?
+**K: Használhatom ingyenesen az Aspose.Drawing‑ot?**  
+A: Az Aspose.Drawing egy kereskedelmi termék, de a **[ingyenes próbaverzióval](https://releases.aspose.com/)** felfedezheti a lehetőségeit.
 
-A1: Az Aspose.Drawing kereskedelmi termék, de **[ingyenes próbaverzióval](https://releases.aspose.com/) ** felfedezheted a lehetőségeket.
+**K: Hol találom az Aspose.Drawing dokumentációt?**  
+A: Tekintse meg a **[dokumentációt](https://reference.aspose.com/drawing/net/)** a részletes útmutatóért.
 
-### Q2: Hol találom az Aspose.Drawing dokumentációját?
+**K: Hogyan kaphatok támogatást az Aspose.Drawing‑hoz?**  
+A: Látogassa meg az **[Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44)** a közösségi segítségért és hivatalos támogatásért.
 
-A2: Tekintsd meg a **[dokumentációt](https://reference.aspose.com/drawing/net/) ** a részletes útmutatóért.
+**K: Elérhetők ideiglenes licencek az Aspose.Drawing‑hoz?**  
+A: Igen, a **[ideiglenes licencet](https://purchase.aspose.com/temporary-license/)** rövid távú használatra szerezheti be.
 
-### Q3: Hogyan kaphatok támogatást az Aspose.Drawing‑hoz?
-
-A3: Látogasd meg az **[Aspose.Drawing fórumot](https://forum.aspose.com/c/drawing/44) ** a közösségi segítségért és a hivatalos támogatásért.
-
-### Q4: Elérhetőek ideiglenes licencek az Aspose.Drawing‑hoz?
-
-A4: Igen, kérhetsz **[ideiglenes licencet](https://purchase.aspose.com/temporary-license/) ** rövid távú használatra.
-
-### Q5: Hol vásárolhatom meg az Aspose.Drawing‑ot?
-
-A5: Vásárolj az **[itt](https://purchase.aspose.com/buy) ** található oldalon.
+**K: Hol vásárolhatom meg az Aspose.Drawing‑ot?**  
+A: Vásárolja meg az Aspose.Drawing‑ot a **[Aspose.Drawing vásárlási oldalon](https://purchase.aspose.com/buy)**.
 
 ## Összegzés
 
-Ebben az útmutatóban megismertük a **útvonalak rajzolását**, különböző `LineJoin` stílusok alkalmazását, és a végleges grafika PNG‑ként való mentését az Aspose.Drawing for .NET segítségével. Ezeknek a lépéseknek a elsajátításával kifinomult vektorgrafikákat, egyedi ikonokat vagy dinamikus diagramokat hozhatsz létre közvetlenül a szerver‑oldali kódból.
+Ebben az útmutatóban bemutattuk, hogyan **rajzoljunk útvonal** objektumokat, alkalmazzunk különböző `LineJoin` stílusokat, és **mentsünk képet PNG‑ként** az Aspose.Drawing for .NET segítségével. E lépések elsajátításával kifinomult vektorgrafikákat, egyedi ikonokat vagy dinamikus diagramokat generálhat közvetlenül szerveroldali kódból, megbízható **grafika exportálása PNG‑be** megoldást biztosítva, amely minden platformon működik.
 
 ---
 
-**Utoljára frissítve:** 2026-02-19  
-**Tesztelve:** Aspose.Drawing 24.11 for .NET  
-**Szerző:** Aspose  
+**Last Updated:** 2026-09-18  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan rajzoljunk ívet és mentsünk PNG képet az Aspose.Drawing segítségével](/drawing/net/lines-curves-and-shapes/draw-arc/)
+- [Hogyan mentsünk bitmapet PNG‑ként több vonal rajzolása közben az Aspose.Drawing segítségével](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Hogyan mentsünk bitmapet PNG‑ként az Aspose.Drawing API for .NET használatával](/drawing/net/image-editing/display/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

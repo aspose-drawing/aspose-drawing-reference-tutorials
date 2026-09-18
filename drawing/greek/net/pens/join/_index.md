@@ -1,10 +1,55 @@
 ---
-date: 2026-02-19
-description: Μάθετε πώς να σχεδιάζετε διαδρομές και να τις ενώσετε με πέννες στο Aspose.Drawing,
-  και στη συνέχεια αποθηκεύστε την εικόνα ως PNG χρησιμοποιώντας απλό κώδικα C#.
-linktitle: Joining Paths with Pens in Aspose.Drawing
+date: 2026-09-18
+description: Μάθετε πώς να σχεδιάσετε διαδρομή και να ενώσετε διαδρομές με πένες στο
+  Aspose.Drawing, στη συνέχεια αποθηκεύστε την εικόνα ως PNG χρησιμοποιώντας απλό
+  κώδικα C#.
+keywords:
+- save image as png
+- server side image rendering
+- raster image from vector
+- export graphics to png
+- alternative to system drawing
+lastmod: 2026-09-18
+linktitle: Ένωση διαδρομών με πένες στο Aspose.Drawing
+og_description: Αποθηκεύστε την εικόνα ως PNG με το Aspose.Drawing. Μάθετε να σχεδιάζετε
+  διαδρομές, να εφαρμόζετε στυλ line‑join και να εξάγετε raster graphics υψηλής ποιότητας
+  από διανυσματικά δεδομένα στον διακομιστή.
+og_image_alt: Developer guide showing how to draw and join paths with pens, then save
+  the result as a PNG file using Aspose.Drawing
+og_title: Πώς να σχεδιάσετε διαδρομή, να ενώσετε διαδρομές με πένες και να αποθηκεύσετε
+  την εικόνα ως PNG
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to draw path and join paths with pens in Aspose.Drawing,
+    then save the image as PNG using simple C# code.
+  headline: How to draw path, join paths with pens and save image as PNG
+  type: TechArticle
+- questions:
+  - answer: Aspose.Drawing is a commercial product, but you can explore its capabilities
+      with a **[free trial](https://releases.aspose.com/)**.
+    question: Can I use Aspose.Drawing for free?
+  - answer: Refer to the **[documentation](https://reference.aspose.com/drawing/net/)**
+      for comprehensive guidance.
+    question: Where can I find Aspose.Drawing documentation?
+  - answer: Visit the **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)**
+      for community help and official assistance.
+    question: How can I get support for Aspose.Drawing?
+  - answer: Yes, you can obtain a **[temporary license](https://purchase.aspose.com/temporary-license/)**
+      for short‑term usage.
+    question: Are temporary licenses available for Aspose.Drawing?
+  - answer: Purchase Aspose.Drawing **[Aspose.Drawing purchase page](https://purchase.aspose.com/buy)**.
+    question: Where can I purchase Aspose.Drawing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Πώς να σχεδιάσετε μονοπάτι και να ενώσετε μονοπάτια με πέννες στο Aspose.Drawing
+tags:
+- Aspose.Drawing
+- C# graphics
+- save PNG
+- vector to raster
+- server side rendering
+title: Πώς να σχεδιάσετε διαδρομή, να ενώσετε διαδρομές με πένες και να αποθηκεύσετε
+  την εικόνα ως PNG
 url: /el/net/pens/join/
 weight: 11
 ---
@@ -13,58 +58,67 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Σχεδιάσετε Διαδρομή και να Συνδέσετε Διαδρομές με Στυλό στο Aspose.Drawing
+# Πώς να σχεδιάσετε διαδρομή, να ενώσετε διαδρομές με πένες και να αποθηκεύσετε την εικόνα ως PNG
 
 ## Εισαγωγή
 
-Καλώς ήρθατε στον κόσμο του **Aspose.Drawing for .NET**! Σε αυτό το σεμινάριο, θα ανακαλύψετε **πώς να σχεδιάσετε διαδρομές** αντικείμενα, να τις συνδέσετε με διαφορετικά στυλ line‑join, και τελικά **να αποθηκεύσετε την εικόνα ως PNG**. Είτε δημιουργείτε ένα εργαλείο αναφορών, έναν επεξεργαστή σχεδίασης, είτε χρειάζεστε καθαρά διανυσματικά γραφικά, η εξοικείωση με το σχεδιασμό διαδρομών με στυλό σας δίνει λεπτομερή έλεγχο του οπτικού αποτελέσματος.
+Σε αυτό το tutorial θα μάθετε πώς να **draw path** αντικείμενα, να τα ενώσετε με διαφορετικά στυλ line‑join και να **save image as PNG** χρησιμοποιώντας το Aspose.Drawing για .NET. Είτε δημιουργείτε μια μηχανή αναφορών, έναν επεξεργαστή σχεδίου, είτε χρειάζεστε server‑side απόδοση εικόνας για μια web υπηρεσία, η εξοικείωση με το σχεδιασμό διαδρομών με πένες σας δίνει ακριβή έλεγχο της μετατροπής vector‑to‑raster.
 
-## Γρήγορες Απαντήσεις
+## Γρήγορες απαντήσεις
 - **Τι σημαίνει “draw path”;** Δημιουργεί ορισμούς γραμμών ή σχημάτων βασισμένους σε διανύσματα που ένα αντικείμενο `Graphics` μπορεί να αποδώσει.  
 - **Ποια line joins είναι διαθέσιμα;** `Bevel`, `Miter`, `Round`, και `BevelClipped`.  
 - **Μπορώ να εξάγω το αποτέλεσμα ως PNG;** Ναι—χρησιμοποιήστε `Bitmap.Save` με επέκταση `.png`.  
 - **Χρειάζομαι άδεια;** Μια δοκιμαστική έκδοση λειτουργεί για αξιολόγηση· απαιτείται εμπορική άδεια για παραγωγή.  
 - **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.6+, .NET Core 3.1+, και .NET 6+.
 
-## Τι είναι το “how to draw path” στο Aspose.Drawing;
+## Τι είναι το “draw path” στο Aspose.Drawing;
 
-Το σχεδιασμό μιας διαδρομής σημαίνει τη δημιουργία ενός `GraphicsPath` που περιέχει μια σειρά από γραμμές, καμπύλες ή σχήματα. Μόλις η διαδρομή δημιουργηθεί, τη βαφτίζετε σε μια επιφάνεια `Graphics` χρησιμοποιώντας ένα `Pen`. Αυτή η προσέγγιση είναι πιο ευέλικτη από το σχεδιασμό μεμονωμένων γραμμών, επειδή μπορείτε να εφαρμόσετε μετασχηματισμούς, αποκοπή και διαφορετικά στυλ join σε ολόκληρο το σχήμα.
+**Draw path** σημαίνει τη δημιουργία ενός `GraphicsPath` που περιέχει μια σειρά από γραμμές, καμπύλες ή σχήματα.  
+`GraphicsPath` είναι το κοντέινερ του Aspose.Drawing για γεωμετρία διανύσματος· μπορείτε αργότερα να το αποδώσετε με ένα `Pen` ή να το γεμίσετε με πινέλο. Αυτή η προσέγγιση σας επιτρέπει να εφαρμόζετε μετασχηματισμούς, αποκοπή και συνεπή στυλ line‑join σε ολόκληρο το σχήμα αντί να σχεδιάζετε κάθε τμήμα ξεχωριστά.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.Drawing για τη σύνδεση διαδρομών;
+## Γιατί να χρησιμοποιήσετε το Aspose.Drawing για server side απόδοση εικόνας;
 
-- **Πλήρης συμβατότητα με .NET** – λειτουργεί σε Windows, Linux και macOS.  
-- **Πλούσιες επιλογές line‑join** – δημιουργήστε λοξές, στρογγυλεμένες ή κοφτερές γωνίες με μία μόνο ιδιότητα.  
-- **Υψηλής ποιότητας raster έξοδος** – αποθηκεύστε απευθείας σε PNG, JPEG, BMP κ.λπ., χωρίς επιπλέον βήματα μετατροπής.  
-- **Χωρίς περιορισμούς GDI+** – ιδανικό για server‑side rendering όπου το `System.Drawing.Common` μπορεί να είναι περιορισμένο.
+Το Aspose.Drawing παρέχει μια ισχυρή μηχανή απόδοσης server‑side που λειτουργεί σε οποιοδήποτε λειτουργικό σύστημα χωρίς εξάρτηση από το GDI+, καθιστώντας το ιδανικό για υπηρεσίες cloud, εφαρμογές σε containers και web APIs υψηλής απόδοσης όπου απαιτείται συμβατότητα μεταξύ πλατφορμών και λειτουργία headless, εξασφαλίζοντας κλιμακώσιμη απόδοση.
+
+- **Πλήρης συμβατότητα .NET** – υποστηρίζει .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Πλούσιες επιλογές line‑join** – `Bevel`, `Miter`, `Round`, `BevelClipped`.  
+- **Υψηλής ποιότητας raster έξοδος** – μπορεί να εξάγει σε **10+ raster μορφές** (PNG, JPEG, BMP, GIF, TIFF, κλπ.) απευθείας από δεδομένα διανύσματος.  
+- **Χωρίς περιορισμούς GDI+** – ιδανικό για υπηρεσίες cloud, containers και περιβάλλοντα headless.
 
 ## Προαπαιτούμενα
 
-Πριν βυθιστούμε στον κώδικα, βεβαιωθείτε ότι έχετε:
-
-1. **Aspose.Drawing Library** – κατεβάστε το **[εδώ](https://releases.aspose.com/drawing/net/)**.  
-2. **Περιβάλλον Ανάπτυξης .NET** – Visual Studio, VS Code ή οποιοδήποτε IDE που υποστηρίζει C#.
+1. **Aspose.Drawing Library** – κατεβάστε το από τη **[Aspose.Drawing download page](https://releases.aspose.com/drawing/net/)**.  
+2. **.NET Development Environment** – Visual Studio, VS Code ή οποιοδήποτε IDE που υποστηρίζει C#.
 
 Τώρα που όλα είναι έτοιμα, ας περάσουμε από κάθε βήμα.
 
-## Εισαγωγή Namespaces
+## Εισαγωγή namespaces
 
-Προσθέστε τα απαιτούμενα namespaces στην αρχή του αρχείου σας ώστε ο μεταγλωττιστής να γνωρίζει πού βρίσκονται οι κλάσεις γραφικών:
+Τα namespaces `System.Drawing` και `System.Drawing.Drawing2D` περιέχουν τους βασικούς τύπους γραφικών που χρησιμοποιεί το Aspose.Drawing.  
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## Βήμα 1: Δημιουργία Bitmap και Graphics Object
+## Βήμα 1: Δημιουργία bitmap και αντικειμένου graphics
+
+`Bitmap` είναι το in‑memory raster καμβά του Aspose.Drawing. Αντιπροσωπεύει μια raster εικόνα στην οποία μπορείτε να σχεδιάσετε χρησιμοποιώντας μια επιφάνεια `Graphics`.  
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-Ξεκινάμε με έναν κενό καμβά (`Bitmap`) διαστάσεων 1000 × 800 pixel και λαμβάνουμε ένα αντικείμενο `Graphics` που θα αποδώσει τις εντολές σχεδίασής μας.
+Ξεκινάμε με έναν κενό καμβά (`Bitmap`) μεγέθους 1000 × 800 pixel και λαμβάνουμε ένα αντικείμενο `Graphics` που θα αποδώσει τις εντολές σχεδίασής μας.
 
-## Βήμα 2: Ορισμός της Μεθόδου DrawPath
+## Βήμα 2: Ορισμός της μεθόδου drawPath
+
+`Pen` είναι το εργαλείο του Aspose.Drawing για το στίλβωση διανυσματικών περιγραμμάτων· ορίζει χρώμα, πάχος και στυλ line‑join.  
+
+`LineJoin` ελέγχει πώς δύο τμήματα γραμμής συνδέονται σε μια γωνία.  
+
+`GraphicsPath` είναι το διανυσματικό κοντέινερ που κρατά τη σειρά των γραμμών που θα ενώσουμε.  
 
 ```csharp
 private static void DrawPath(Graphics graphics, LineJoin join, int y)
@@ -79,77 +133,79 @@ private static void DrawPath(Graphics graphics, LineJoin join, int y)
 }
 ```
 
-Αυτή η βοηθητική μέθοδος ενσωματώνει τη λογική σχεδίασης:
+Αυτή η βοηθητική μέθοδος περιλαμβάνει τη λογική σχεδίασης:
 
 - **Pen** – ορίζει το χρώμα και το πάχος (30 px).  
 - **GraphicsPath** – ορίζει δύο συνδεδεμένες γραμμές που σχηματίζουν σχήμα “L”.  
 - **LineJoin** – ελέγχει πώς αποδίδεται η γωνία μεταξύ των δύο γραμμών (`Bevel`, `Round`, κλπ.).  
 
-Μπορείτε να καλέσετε αυτή τη μέθοδο με οποιαδήποτε τιμή `LineJoin` για να δείτε τη διαφορά στο αποτέλεσμα.
+Μπορείτε να καλέσετε αυτή τη μέθοδο με οποιαδήποτε τιμή `LineJoin` για να δείτε τη διαφορά.
 
-## Βήμα 3: Σύνδεση Διαδρομών με Bevel LineJoin
+## Βήμα 3: Ένωση διαδρομών με line join τύπου bevel
+
+`LineJoin.Bevel` δημιουργεί μια επίπεδη γωνία όπου συναντώνται οι δύο γραμμές, χρήσιμο όταν θέλετε μια καθαρή, μη επικαλυπτόμενη ένωση.
 
 ```csharp
 DrawPath(graphics, LineJoin.Bevel, 200);
 ```
 
-Η χρήση του `LineJoin.Bevel` δημιουργεί μια επίπεδη γωνία όπου συναντώνται οι δύο γραμμές.
+## Βήμα 4: Ένωση διαδρομών με line join τύπου round
 
-## Βήμα 4: Σύνδεση Διαδρομών με Round LineJoin
+`LineJoin.Round` παράγει μια ομαλή, στρογγυλεμένη γωνία—ιδανική για πιο επεξεργασμένη εμφάνιση.
 
 ```csharp
 DrawPath(graphics, LineJoin.Round, 400);
 ```
 
-`LineJoin.Round` παράγει μια ομαλή, στρογγυλεμένη γωνία—τέλεια για πιο επαγγελματική εμφάνιση.
+## Βήμα 5: Αποθήκευση του αποτελέσματος ως PNG
 
-## Βήμα 5: Αποθήκευση του Αποτελέσματος ως PNG
+Η κλήση `Save` γράφει το bitmap σε αρχείο σε μορφή PNG, ολοκληρώνοντας τη ροή εργασίας **save image as PNG**. Προσαρμόστε τη διαδρομή ώστε να ταιριάζει με το περιβάλλον σας.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Pens\Join_out.png");
 ```
 
-Η κλήση `Save` γράφει το bitmap σε αρχείο σε μορφή PNG. Προσαρμόστε τη διαδρομή ώστε να ταιριάζει με το περιβάλλον σας.
-
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Συχνά προβλήματα και λύσεις
 
 | Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
 |----------|----------------|----------|
 | **Η εικόνα εμφανίζεται κενή** | Το αντικείμενο `Graphics` δεν καθαρίστηκε ή το μέγεθος του bitmap είναι πολύ μικρό. | Καλέστε `graphics.Clear(Color.White);` πριν το σχεδιασμό, ή αυξήστε τις διαστάσεις του bitmap. |
-| **Η γωνία φαίνεται τραχιά** | Χρήση bitmap χαμηλής ανάλυσης με παχύ στυλό. | Αυξήστε το DPI του bitmap (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) ή μειώστε το πάχος του στυλό. |
+| **Η γωνία φαίνεται δονισμένη** | Χρήση bitmap χαμηλής ανάλυσης με παχύ πέννα. | Αυξήστε το DPI του bitmap (`new Bitmap(width, height, PixelFormat.Format32bppPArgb)`) ή μειώστε το πάχος του πέννα. |
 | **Σφάλμα αρχείου δεν βρέθηκε** | Μη έγκυρη διαδρομή αποθήκευσης. | Χρησιμοποιήστε `Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Pens", "Join_out.png")`. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.Drawing δωρεάν;
+**Ε: Μπορώ να χρησιμοποιήσω το Aspose.Drawing δωρεάν;**  
+Α: Το Aspose.Drawing είναι εμπορικό προϊόν, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια **[free trial](https://releases.aspose.com/)**.
 
-Α1: Το Aspose.Drawing είναι εμπορικό προϊόν, αλλά μπορείτε να εξερευνήσετε τις δυνατότητές του με μια **[δωρεάν δοκιμή](https://releases.aspose.com/) **.
+**Ε: Πού μπορώ να βρω την τεκμηρίωση του Aspose.Drawing;**  
+Α: Ανατρέξτε στην **[documentation](https://reference.aspose.com/drawing/net/)** για ολοκληρωμένη καθοδήγηση.
 
-### Ε2: Πού μπορώ να βρω την τεκμηρίωση του Aspose.Drawing;
+**Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;**  
+Α: Επισκεφθείτε το **[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)** για βοήθεια της κοινότητας και επίσημη υποστήριξη.
 
-Α2: Ανατρέξτε στην **[τεκμηρίωση](https://reference.aspose.com/drawing/net/) ** για ολοκληρωμένη καθοδήγηση.
+**Ε: Διατίθενται προσωρινές άδειες για το Aspose.Drawing;**  
+Α: Ναι, μπορείτε να αποκτήσετε μια **[temporary license](https://purchase.aspose.com/temporary-license/)** για βραχυπρόθεσμη χρήση.
 
-### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;
-
-Α3: Επισκεφθείτε το **[φόρουμ Aspose.Drawing](https://forum.aspose.com/c/drawing/44) ** για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
-
-### Ε4: Διατίθενται προσωρινές άδειες για το Aspose.Drawing;
-
-Α4: Ναι, μπορείτε να αποκτήσετε μια **[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) ** για βραχυπρόθεσμη χρήση.
-
-### Ε5: Πού μπορώ να αγοράσω το Aspose.Drawing;
-
-Α5: Αγοράστε το Aspose.Drawing **[εδώ](https://purchase.aspose.com/buy) **.
+**Ε: Πού μπορώ να αγοράσω το Aspose.Drawing;**  
+Α: Αγοράστε το Aspose.Drawing από την **[Aspose.Drawing purchase page](https://purchase.aspose.com/buy)**.
 
 ## Συμπέρασμα
 
-Σε αυτόν τον οδηγό καλύψαμε **πώς να σχεδιάσετε διαδρομές** αντικείμενα, εφαρμόσαμε διαφορετικά στυλ `LineJoin`, και αποθηκεύσαμε το τελικό γραφικό ως αρχείο PNG χρησιμοποιώντας το Aspose.Drawing για .NET. Με την εξοικείωση με αυτά τα βήματα μπορείτε να δημιουργήσετε εξελιγμένα διανυσματικά γραφικά, προσαρμοσμένα εικονίδια ή δυναμικά διαγράμματα απευθείας από τον κώδικα server‑side.
+Σε αυτόν τον οδηγό καλύψαμε πώς να δημιουργήσετε αντικείμενα **draw path**, να εφαρμόσετε διαφορετικά στυλ `LineJoin`, και να **save image as PNG** χρησιμοποιώντας το Aspose.Drawing για .NET. Με την εξοικείωση με αυτά τα βήματα μπορείτε να παράγετε σύνθετα διανυσματικά γραφικά, προσαρμοσμένα εικονίδια ή δυναμικά διαγράμματα απευθείας από κώδικα server‑side, παρέχοντας μια αξιόπιστη λύση **export graphics to PNG** που λειτουργεί σε οποιαδήποτε πλατφόρμα.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-19  
-**Δοκιμάστηκε Με:** Aspose.Drawing 24.11 for .NET  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-09-18  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Πώς να Σχεδιάσετε Τόξο και να Αποθηκεύσετε Εικόνα PNG με Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-arc/)
+- [Πώς να αποθηκεύσετε bitmap ως PNG ενώ σχεδιάζετε πολλαπλές γραμμές με Aspose.Drawing](/drawing/net/lines-curves-and-shapes/draw-lines/)
+- [Πώς να αποθηκεύσετε ένα bitmap ως PNG χρησιμοποιώντας το Aspose.Drawing API για .NET](/drawing/net/image-editing/display/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
