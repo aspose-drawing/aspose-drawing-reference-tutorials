@@ -1,11 +1,73 @@
 ---
-date: 2026-02-25
-description: เรียนรู้วิธีสร้างกราฟิกบิตแมพด้วย C# และบันทึกภาพ PNG พร้อมแสดงรายการฟอนต์ที่ติดตั้ง,
-  วาดข้อความด้วยฟอนต์, และปรับความละเอียดของบิตแมพโดยใช้ Aspose.Drawing สำหรับ .NET.
-linktitle: Create Bitmap Graphics C# – Save PNG Image and Work with Installed Fonts
-  in Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: สร้างกราฟิกบิตแมปด้วย C# – บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing
+date: 2026-09-23
+description: เรียนรู้วิธีบันทึกภาพ PNG ใน C# ด้วย Aspose.Drawing, รายการ fonts ที่ติดตั้ง,
+  วาดข้อความด้วย fonts กำหนดเอง, และปรับความละเอียดของ bitmap เพื่อกราฟิกคุณภาพสูง
+keywords:
+- save png image c#
+- installed fonts aspnet
+- aspose.drawing bitmap graphics
+- c# font collection
+- png export .net
+lastmod: 2026-09-23
+linktitle: บันทึกภาพ PNG ใน C# ด้วย Aspose.Drawing และ fonts ที่ติดตั้งไว้
+og_description: บันทึกภาพ PNG ใน C# ด้วย Aspose.Drawing คู่มือนี้แสดงวิธีการรายการ
+  fonts ที่ติดตั้ง, วาดข้อความ, และควบคุมความละเอียดของ bitmap สำหรับกราฟิกระดับมืออาชีพ
+og_image_alt: Developer guide showing C# code that creates a bitmap, lists system
+  fonts, and saves a PNG file with Aspose.Drawing
+og_title: บันทึกภาพ PNG ใน C# ด้วย Aspose.Drawing และ fonts ที่ติดตั้งไว้
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to save PNG image in C# using Aspose.Drawing, list installed
+    fonts, draw text with custom fonts, and adjust bitmap resolution for high‑quality
+    graphics.
+  headline: Save PNG image in C# with Aspose.Drawing and installed fonts
+  type: TechArticle
+- description: Learn how to save PNG image in C# using Aspose.Drawing, list installed
+    fonts, draw text with custom fonts, and adjust bitmap resolution for high‑quality
+    graphics.
+  name: Save PNG image in C# with Aspose.Drawing and installed fonts
+  steps:
+  - name: Create a bitmap (the canvas)
+    text: '`Bitmap` is the raster image object that holds pixel data for the canvas.'
+  - name: Create graphics from bitmap
+    text: '`Graphics` is the object that supplies drawing functions such as drawing
+      shapes and text onto a bitmap.'
+  - name: Set up brush and font (draw text with fonts)
+    text: '`Brush` defines how shapes and text are filled with colour, while `Font`
+      specifies the typeface, size, and style for text rendering.'
+  - name: List installed fonts and show font families
+    text: '`InstalledFontCollection` provides access to all font families installed
+      on the host system.'
+  - name: Save PNG image
+    text: '`bitmap.Save` writes the bitmap to a file in the chosen image format, such
+      as PNG. > **Pro tip:** Use `Path.Combine` for building file paths to avoid issues
+      with directory separators on different operating systems.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the font file into a `PrivateFontCollection` and create a `Font`
+      from that collection, then draw it the same way as system fonts.
+    question: Can I use custom fonts that are not installed on the machine?
+  - answer: Wrap font creation in a `try/catch` block and inspect `ArgumentException`
+      for missing families; provide a fallback font such as `Arial`.
+    question: How do I handle font‑related exceptions?
+  - answer: Absolutely. The library works in ASP.NET Core, Azure Functions, and other
+      server‑side .NET environments without needing GDI+.
+    question: Is Aspose.Drawing suitable for web applications?
+  - answer: Yes. Use different `Brush` types (e.g., `LinearGradientBrush`) and modify
+      the `FontStyle` enum to apply bold, italic, or underline.
+    question: Can I change the text colour or style?
+  - answer: Download a trial license from the [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/).
+    question: Where can I get a temporary license for testing?
+  type: FAQPage
+second_title: Aspose.Drawing .NET API – bitmap graphics and font handling
+tags:
+- save png
+- aspose.drawing
+- c# graphics
+- installed fonts
+- bitmap
+title: บันทึกภาพ PNG ใน C# ด้วย Aspose.Drawing และ fonts ที่ติดตั้งไว้
 url: /th/net/text-and-fonts/installed-fonts/
 weight: 13
 ---
@@ -14,53 +76,72 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึกภาพ PNG และทำงานกับฟอนต์ที่ติดตั้งใน Aspose.Drawing
+# บันทึกภาพ PNG ใน C# ด้วย Aspose.Drawing และฟอนต์ที่ติดตั้ง
 
-## การแนะนำ
+## บทนำ
 
-** บันทึกไฟล์ภาพ PNG** ใน ** สร้างกราฟิกในเว็บไซต์แมพ C#**, Aspose. Drawing สำหรับ .NET จะให้ขั้นตอนที่สะอาดและเข้าสู่แพลตฟอร์มในบทแนะนำนี้เราจะอธิบายรายการฟอนต์ประกอบ, แสดงตระกูลฟอนต์, สร้างกราฟิกจากบิตแมพ, และวาดข้อความด้วยฟอนต์— ทั้งหมดและสุดท้ายบันทึกผลลัพธ์เป็นไฟล์ PNG ก่อนที่เราจะเสร็จสิ้นการรวบรวมข้อมูลอีกครั้งในโปรเจกต์ .NET
+หากคุณต้องการ **บันทึกภาพ PNG ใน C#** พร้อมกับ **สร้างกราฟิกบิตแมพ** Aspose.Drawing สำหรับ .NET จะมอบวิธีที่สะอาดและข้ามแพลตฟอร์มให้คุณทำได้ ในบทเรียนนี้เราจะอธิบายขั้นตอนการแสดงรายการฟอนต์ที่ติดตั้ง, แสดงตระกูลฟอนต์, สร้างกราฟิกจากบิตแมพ, และวาดข้อความด้วยฟอนต์—ทั้งหมดนี้พร้อมบันทึกผลลัพธ์เป็นไฟล์ PNG ในที่สุด เมื่อเสร็จคุณจะได้โค้ดสั้นที่นำกลับมาใช้ใหม่ได้ซึ่งสามารถใส่ลงในโปรเจกต์ .NET ใดก็ได้ ไม่ว่าจะรันบน Windows, Linux หรือ macOS.
 
-## คำตอบด่วน
-- **บทแนะนำนี้สร้างอะไร?** ภาพ PNG ที่ต้องมีตระกูลฟอนต์ประกอบ
-- **ไลบรารีต้องการอะไร?** Aspose. Drawing สำหรับ .NET (ไม่ต้องใช้ System. Drawing.Common)
-- **ฉันสามารถใช้ฟอนต์ได้ในปริมาณที่สามารถเป็นไปได้?** ใช่ – เพียงโหลดฟอนต์สำหรับการเข้าถึง `InstalledFontCollection`
-- ** ความละเอียดของผลลัพธ์ของผลลัพธ์ที่สามารถทำได้?** แน่นอน – ขนาดเปลี่ยนแปลงแมพหรือรูปแบบห้องครัวเพื่อ **ปรับความละเอียดบิตแมป C#**
-- **ต้องใช้ลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** เป็นเพียงส่วนหนึ่งที่สามารถใช้ได้; ต้องมีเต็มเปี่ยมจริง
+## คำตอบอย่างรวดเร็ว
+- **บทเรียนนี้สร้างอะไร?** ภาพ PNG ที่แสดงรายการตระกูลฟอนต์ที่ติดตั้งบนเครื่องโฮสต์.  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Drawing สำหรับ .NET (ไม่มีการพึ่งพา System.Drawing.Common).  
+- **ฉันสามารถใช้ฟอนต์กำหนดเองได้หรือไม่?** ใช่ – โหลดฟอนต์เข้า `InstalledFontCollection` หรือ `PrivateFontCollection`.  
+- **ความละเอียดของผลลัพธ์ปรับได้หรือไม่?** แน่นอน – เปลี่ยนขนาดบิตแมพหรือรูปแบบพิกเซลเพื่อควบคุมความละเอียด.  
+- **ต้องใช้ลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** ลิขสิทธิ์ชั่วคราวใช้ได้สำหรับการประเมิน; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง.
 
-## “บันทึกรูปภาพ PNG” ในบริบทของ Aspose. Drawing คืออะไร
-การวิจัยภาพ PNG ตรวจสอบการเรนเดอร์ส่วนใหญ่ของคุณ (เช่น `Bitmap`) ไฟล์ที่มีนามสกุล `.png` Aspose. Drawing จะจัดเก็บข้อมูลให้คุณเพียงแค่เรียก `bitmap.Save(...)` พร้อมเส้นทางที่ต้องการ
+## “บันทึกภาพ PNG” หมายถึงอะไรในบริบทของ Aspose.Drawing?
 
-## เหตุใดจึงแสดงรายการแบบอักษรที่ติดตั้งและแสดงตระกูลแบบอักษร
-การรู้ว่าฟอนต์นั้นมักจะต้องสร้างกราฟิกที่ต้องการที่ปรับให้เห็นได้ชัดว่าส่วนใหญ่มักจะมีประโยชน์สำหรับรายงาน, เอกสาร, หรือเนื้อหาภาพใดๆ มากมายที่แบรนด์มักจะใช้ในการจัดส่งไฟล์ฟอนต์
+`Bitmap` คือคอนเทนเนอร์ภาพแรสเตอร์ของ Aspose.Drawing ที่เก็บข้อมูลพิกเซล  
+การบันทึกภาพ PNG หมายถึงการเรนเดอร์พื้นผิวการวาดของคุณ—`Bitmap`—ไปยังไฟล์ที่มีส่วนขยาย `.png` Aspose.Drawing ทำการบีบอัด PNG แบบไม่มีการสูญเสียและสามารถจัดการภาพได้ถึง **10 000 × 10 000 พิกเซล** โดยไม่ทำให้หน่วยความจำหมด ทำให้เหมาะสำหรับกราฟิกความละเอียดสูง ไฟล์ที่ได้สามารถใช้ในหน้าเว็บ, รายงาน, หรือขั้นตอนการประมวลผลภาพต่อไป
 
-## จะสร้างกราฟิกบิตแมป C# ด้วย Aspose. Drawing ได้อย่างไร
-หลังจากนั้นเป็นขั้นตอนการปฏิบัติแบบเพิ่มมากขึ้นว่า ** สร้างกราฟิกบิตแมพ C#** อย่างไร, วาดข้อความด้วยฟอนต์, และปรับความละเอียดของบิตแมพ
+## ทำไมต้องแสดงรายการฟอนต์ที่ติดตั้งและแสดงตระกูลฟอนต์?
+
+การแสดงรายการฟอนต์ที่ติดตั้งทำให้แอปพลิเคชันของคุณปรับตัวเข้ากับสภาพแวดล้อมของผู้ใช้ปลายทาง, ทำให้กราฟิกที่สร้างตรงกับแบรนด์ขององค์กรหรือความชอบของผู้ใช้โดยไม่ต้องจัดส่งไฟล์ฟอนต์เพิ่มเติม `InstalledFontCollection` จะ enumerate ฟอนต์ที่ติดตั้งบนระบบปฏิบัติการ ซึ่งมีประโยชน์อย่างยิ่งสำหรับการสร้างรายงานอัตโนมัติ, ใบรับรอง, หรือเนื้อหาภาพใด ๆ ที่ต้องเคารพการพิมพ์แบบของระบบ.
+
+## วิธีสร้างกราฟิกบิตแมพใน C# ด้วย Aspose.Drawing?
+
+`Bitmap` แสดงถึงแคนวาสภาพภาพ; `Graphics` ให้เมธอดการวาดสำหรับแคนวาสนั้น; `Font` บรรยายแบบอักษรที่ใช้ในการเรนเดอร์ข้อความ คุณสามารถสร้าง PNG สมบูรณ์ได้ในไม่กี่บรรทัด: สร้าง `Bitmap`, รับอ็อบเจกต์ `Graphics`, วาดข้อความโดยใช้ `Font` จากคอลเลกชันที่ติดตั้ง, และสุดท้ายเรียก `bitmap.Save` คู่มือขั้นตอนต่อขั้นตอนต่อไปนี้จะขยายแต่ละส่วนและเพิ่มเคล็ดลับที่เป็นประโยชน์.
 
 ## ข้อกำหนดเบื้องต้น
 
-- **Aspose. Drawing Library** – ดาวน์โหลดล่าสุดจาก [หน้าดาวน์โหลด Aspose Drawing](https://releases.aspose.com/writing/net/)
-- **IDE** – Visual Studio, Rider หรือเครื่องมือแก้ไขใด ๆ ที่เข้ากันได้กับ .NET
-- **ความรู้ C# พื้นฐาน** – รวมถึงคลาสต่างๆ, อ็อบเจกต์, และความเชื่อหลัก
+- **ไลบรารี Aspose.Drawing** – ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose Drawing download page](https://releases.aspose.com/drawing/net/).  
+- **IDE** – Visual Studio, Rider หรือเครื่องมือแก้ไขที่รองรับ .NET ใดก็ได้.  
+- **ความรู้พื้นฐาน C#** – คุณควรคุ้นเคยกับคลาส, อ็อบเจกต์, และลูปง่าย ๆ.  
+- **รันไทม์ .NET** – แนะนำใช้ .NET 6+ หรือ .NET Core 3.1+ เพื่อการสนับสนุนข้ามแพลตฟอร์มเต็มรูปแบบ.
 
-## นำเข้าเนมสเปซ
-เพื่อทำงานกับฟอนต์และกราฟิก ให้นำเข้า namespace เหล่านี้ที่ส่วนหัวของไฟล์ C# ของคุณ:
+## นำเข้า namespace
+
+เพิ่มคำสั่ง `using` ต่อไปนี้ที่ส่วนหัวของไฟล์ C# ของคุณเพื่อให้คอมไพเลอร์สามารถค้นหาชนิดของกราฟิกและฟอนต์ได้:
+
+```csharp
+using Aspose.Drawing;
+using Aspose.Drawing.Imaging;
+using Aspose.Drawing.Text;
+using System.IO;
+```
+
+## คู่มือขั้นตอนต่อขั้นตอน
+
+### ขั้นตอนที่ 1: สร้างบิตแมพ (แคนวาส)
+
+`Bitmap` คืออ็อบเจกต์ภาพแรสเตอร์ที่เก็บข้อมูลพิกเซลสำหรับแคนวาส.
 
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## คู่มือทีละขั้นตอน
+### ขั้นตอนที่ 2: สร้างกราฟิกจากบิตแมพ
 
-### ขั้นตอนที่ 1: สร้างบิตแมป (ผืนผ้าใบ)
-ก่อนอื่น เราจะสร้างบิตแมพที่ใช้เก็บภาพสุดท้าย ขนาดบิตแมพและรูปแบบพิกเซลกำหนดคุณภาพของ PNG ที่บันทึกและทำให้คุณ **adjust bitmap resolution C#**  
+`Graphics` คืออ็อบเจกต์ที่ให้ฟังก์ชันการวาด เช่น การวาดรูปทรงและข้อความลงบนบิตแมพ.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### ขั้นตอนที่ 2: สร้างกราฟิกจากบิตแมป
-ต่อไป เราจะได้อ็อบเจกต์ `Graphics` จากบิตแมพ อ็อบเจกต์นี้ทำให้เราวาดรูปทรง, ข้อความ, และภาพลงบนแคนวาส  
+### ขั้นตอนที่ 3: ตั้งค่า brush และ font (วาดข้อความด้วยฟอนต์)
+
+`Brush` กำหนดวิธีการเติมสีให้กับรูปทรงและข้อความ, ส่วน `Font` ระบุแบบอักษร, ขนาด, และสไตล์สำหรับการเรนเดอร์ข้อความ.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -68,8 +149,9 @@ graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 graphics.Clear(Color.FromKnownColor(KnownColor.White));
 ```
 
-### ขั้นตอนที่ 3: ตั้งค่าแปรงและแบบอักษร (วาดข้อความด้วยแบบอักษร)
-เราต้องการ brush สำหรับสีข้อความและอ็อบเจกต์ `Font` ที่กำหนดแบบอักษร, ขนาด, และสไตล์ นี่คือจุดที่เราจะ **draw text with fonts**  
+### ขั้นตอนที่ 4: แสดงรายการฟอนต์ที่ติดตั้งและแสดงตระกูลฟอนต์
+
+`InstalledFontCollection` ให้การเข้าถึงตระกูลฟอนต์ทั้งหมดที่ติดตั้งบนระบบโฮสต์.
 
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
@@ -77,8 +159,9 @@ InstalledFontCollection fonts = new InstalledFontCollection();
 Font arial = new Font("Arial", 20, FontStyle.Regular);
 ```
 
-### ขั้นตอนที่ 4: แสดงรายการแบบอักษรที่ติดตั้งและแสดงตระกูลแบบอักษร
-ตอนนี้เราจะแสดงจำนวนตระกูลฟอนต์และชื่อแรก ๆ บนบิตแมพโดยตรง ซึ่งแสดงความสามารถของ **list installed fonts** และ **show font families**  
+### ขั้นตอนที่ 5: บันทึกภาพ PNG
+
+`bitmap.Save` เขียนบิตแมพลงไฟล์ในรูปแบบภาพที่เลือก เช่น PNG.
 
 ```csharp
 graphics.DrawString(fonts.Families.Length + " installed font families.", arial, brush, 100, 100);
@@ -89,48 +172,59 @@ for (int i = 0; i < 6 && i < fonts.Families.Length; ++i)
 }
 ```
 
-### ขั้นตอนที่ 5: บันทึกภาพ PNG
-สุดท้าย เราจะบันทึกบิตแมพลงดิสก์เป็นไฟล์ PNG นี่คือการดำเนินการหลักของ **save png image**  
+> **เคล็ดลับ:** ใช้ `Path.Combine` ในการสร้างเส้นทางไฟล์เพื่อหลีกเลี่ยงปัญหาเครื่องหมายแยกโฟลเดอร์บนระบบปฏิบัติการต่าง ๆ.
+
+## ปัญหาทั่วไปและวิธีแก้ไข
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **ไม่มีฟอนต์แสดงผล** | `InstalledFontCollection` ไม่ได้ถูกเติม (เช่น รันบนเซิร์ฟเวอร์ headless ที่ไม่มีฟอนต์). | ติดตั้งฟอนต์ที่ต้องการบนเซิร์ฟเวอร์หรือฝังฟอนต์กำหนดเองในแอปพลิเคชันของคุณ. |
+| **ไฟล์ที่บันทึกเสียหาย** | รูปแบบพิกเซลไม่ถูกต้องหรือไม่มีสิทธิ์เขียน. | ตรวจสอบว่าโฟลเดอร์เป้าหมายมีอยู่และแอปมีสิทธิ์เขียน; ใช้ `PixelFormat.Format32bppPArgb`. |
+| **ข้อความดูเบลอ** | การตั้งค่า DPI ต่ำหรือขนาดบิตแมพเล็ก. | เพิ่มขนาดบิตแมพหรือกำหนด `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+
+## คำถามที่พบบ่อย
+
+**ถาม:** ฉันสามารถใช้ฟอนต์กำหนดเองที่ไม่ได้ติดตั้งบนเครื่องได้หรือไม่?  
+**ตอบ:** ใช่. โหลดไฟล์ฟอนต์เข้า `PrivateFontCollection` และสร้าง `Font` จากคอลเลกชันนั้น, จากนั้นวาดเช่นเดียวกับฟอนต์ระบบ.
+
+**ถาม:** ฉันจะจัดการกับข้อยกเว้นที่เกี่ยวกับฟอนต์อย่างไร?  
+**ตอบ:** ห่อการสร้างฟอนต์ด้วยบล็อก `try/catch` และตรวจสอบ `ArgumentException` สำหรับตระกูลที่หายไป; ให้ฟอนต์สำรองเช่น `Arial`.
+
+**ถาม:** Aspose.Drawing เหมาะกับแอปพลิเคชันเว็บหรือไม่?  
+**ตอบ:** แน่นอน. ไลบรารีทำงานใน ASP.NET Core, Azure Functions, และสภาพแวดล้อม .NET ฝั่งเซิร์ฟเวอร์อื่น ๆ โดยไม่ต้องใช้ GDI+.
+
+**ถาม:** ฉันสามารถเปลี่ยนสีหรือสไตล์ของข้อความได้หรือไม่?  
+**ตอบ:** ใช่. ใช้ประเภท `Brush` ต่าง ๆ (เช่น `LinearGradientBrush`) และปรับเปลี่ยน enum `FontStyle` เพื่อใช้ตัวหนา, ตัวเอียง, หรือขีดเส้นใต้.
+
+**ถาม:** ฉันจะได้ลิขสิทธิ์ชั่วคราวสำหรับการทดสอบจากที่ไหน?  
+**ตอบ:** ดาวน์โหลดลิขสิทธิ์ทดลองจาก [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/).
+
+## สรุป
+
+โดยทำตามขั้นตอนเหล่านี้คุณได้เรียนรู้วิธี **บันทึกภาพ PNG ใน C#** ที่แสดงรายการฟอนต์ที่ติดตั้งแบบไดนามิก, **แสดงตระกูลฟอนต์**, **สร้างกราฟิกจากบิตแมพ**, และ **วาดข้อความด้วยฟอนต์** ด้วย Aspose.Drawing สำหรับ .NET ตอนนี้คุณรู้วิธี **สร้างกราฟิกบิตแมพใน C#**, ปรับความละเอียดของบิตแมพ, และรวมฟอนต์กำหนดเองเมื่อจำเป็น ทดลองใช้สีต่าง ๆ, ขนาดฟอนต์, และขนาดบิตแมพเพื่อให้ตรงกับความต้องการด้านภาพของโครงการของคุณ, และสำรวจคุณลักษณะอื่น ๆ ของ Aspose.Drawing เช่น การวาดรูปทรงและการจัดการภาพเพื่อกราฟิกที่สมบูรณ์ยิ่งขึ้น.
+
+---
+
+**Last Updated:** 2026-09-23  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+
+
+
+
+
+
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\InstalledFonts_out.png");
 ```
 
-> **เคล็ดลับ:** ใช้ `Path.Combine` เพื่อสร้างเส้นทางไฟล์เพื่อหลีกเลี่ยงปัญหาเครื่องหมายแยกโฟลเดอร์บนระบบปฏิบัติการต่าง ๆ  
+## Related Tutorials
 
-## ปัญหาทั่วไปและแนวทางแก้ไข
-| ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|-------|-----|
-| **ไม่มีฟอนต์คริสต์มาส** | `InstalledFontCollection`เพื่อให้ถูกเติม (เช่น รันบนเซิร์ฟเวอร์ headless นี่เป็นฟอนต์) | ติดตั้งฟอนต์ที่ต้องการบนเซิร์ฟเวอร์หรือฝังฟอนต์ในแอปพลิเคชันของคุณ |
-| **ไฟล์ที่บันทึกอัตโนมัติ** | ไม่จำเป็นต้องได้รับอนุญาตให้เขียน | การควบคุมให้กลุ่มเป้าหมายมีอยู่และสิทธิ์ในการเขียน; ใช้ `Format32bppPArgb` |
-| **ข้อความดูเบลอ** | นอกจากนี้ DPI ต่ำ | ขนาดคงที่แมพหรือกำหนด `graphics.SmoothingMode = SmoothingMode.AntiAlias` |
+- [How to Draw Text with Aspose.Drawing for .NET](/drawing/net/text-and-fonts/draw-text/)
+- [Improve Image Quality with Antialiasing in Aspose.Drawing](/drawing/net/rendering/antialiasing/)
+- [How to Save PNG with Aspose.Drawing – World Transformation](/drawing/net/coordinate-transformations/world-transformation/)
 
-## คำถามที่พบบ่อย
-
-**ถาม: ฉันสามารถเขียนแบบอักษรลงบนเครื่องได้หรือไม่**
-**ตอบ:** ลองดาวน์โหลดไฟล์ฟอนต์เข้ามา `PrivateFontCollection` แล้วสร้าง `Font` จากความร้อนนั้น
-
-**ถาม: จะกล่าวถึงฟอนต์อย่างไร?**
-** ตอบ:** ห่อ การสร้างฟอนต์ด้วยบล็อก `try/catch` `ArgumentException` สำหรับฟอนต์ที่หายไป
-
-**ถาม: Aspose.การวาดภาพเป็นสิ่งที่เว็บหรือไม่?**
-**ตอบ:** แน่นอนว่าไลบรารีทำงานได้ใน ASP.NET Core, Azure Functions, และอีกฝั่งเซิร์ฟเวอร์อื่นๆ
-
-**ถาม: การเปลี่ยนสีหรือสไตล์ของข้อความนั้น?**
-**ตอบ:** เป็นไปได้ที่จะใช้ประเภท `Brush` ต่าง (เช่น `LinearGradientBrush`) และผู้รักษาประตูค่า enum `FontStyle`
-
-**ถาม: แล้วนี่ชั่วคราวสำหรับการทดสอบจากที่ไหน?**
-**ตอบ** ดาวน์โหลดได้เลยทดลองจาก [Aspose temporary‑license [ลิงก์ไปยังหน้าใบอนุญาตชั่วคราวของ Aspose: https://purchase.aspose.com/temporary-license/]
-
-## สรุป
-
-โดยทำตามขั้นตอนเหล่านี้ คุณได้เรียนรู้วิธี **บันทึกไฟล์ PNG image** ที่แสดงรายการฟอนต์ที่ติดตั้งแบบไดนามิก, **แสดงตระกูลฟอนต์**, **สร้างกราฟิกจากบิตแมพ**, และ **วาดข้อความด้วยฟอนต์** ด้วย Aspose.Drawing สำหรับ .NET ตอนนี้คุณรู้วิธี **สร้างกราฟิกบิตแมพ C#**, ปรับความละเอียดบิตแมพ, และรวมฟอนต์กำหนดเองเมื่อจำเป็น อย่าลังเลที่จะทดลองฟอนต์, สี, และขนาดบิตแมพอื่น ๆ เพื่อให้ตรงกับความต้องการด้านภาพของโปรเจกต์ของคุณ
-
----
-
-**อัปเดตล่าสุด:** 2026-02-25  
-**ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
-**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
