@@ -1,11 +1,53 @@
 ---
-date: 2026-02-25
-description: Aspose.Drawing for .NET kullanarak metin çizmeyi ve dinamik metin görüntüleri
-  oluşturmayı öğrenin. Bu adım adım rehber, bitmap'e metin eklemeyi, görüntü üzerine
-  dize çizmeyi ve bitmap'i PNG olarak kaydetmeyi gösterir.
-linktitle: How to Draw Text with Aspose.Drawing
+date: 2026-09-23
+description: Aspose.Drawing for .NET kullanarak görüntü üzerine metin nasıl çizilir
+  öğrenin. Metin içeren bir görüntü oluşturun, bitmap'e metin ekleyin ve bitmap'i
+  özel yazı tipleriyle PNG olarak kaydedin.
+keywords:
+- draw text on image
+- generate image with text
+- custom font on image
+- save bitmap as png
+- add text to bitmap
+lastmod: 2026-09-23
+linktitle: Aspose.Drawing ile Metin Çizme
+og_description: Aspose.Drawing for .NET kullanarak görüntü üzerine metin nasıl çizilir
+  öğrenin. Bu öğreticide, metin içeren bir görüntü oluşturma, bitmap'e metin ekleme
+  ve bitmap'i özel yazı tipleriyle PNG olarak kaydetme adımları gösterilmektedir.
+og_image_alt: Screenshot of a PNG image created with Aspose.Drawing showing custom
+  text
+og_title: Aspose.Drawing for .NET ile görüntü üzerine metin çizme – Quick guide
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to draw text on image using Aspose.Drawing for .NET. Generate
+    image with text, add text to bitmap, and save bitmap as PNG with custom fonts.
+  headline: How to draw text on image with Aspose.Drawing for .NET
+  type: TechArticle
+- questions:
+  - answer: Replace the `.png` extension with `.jpg` in the `Save` method and optionally
+      specify an `ImageCodecInfo` for JPEG quality.
+    question: How do I change the output format to JPEG?
+  - answer: Yes, include line‑break characters (`\n`) in the string or use `StringFormat`
+      with `FormatFlags.LineLimit`.
+    question: Can I draw multi‑line text?
+  - answer: Use `Graphics.MeasureString` to get the exact dimensions of the rendered
+      text.
+    question: Is there a way to measure text size before drawing?
+  - answer: Absolutely. Provide a font that contains the required glyphs and the library
+      will render them correctly.
+    question: Does Aspose.Drawing support Unicode characters?
+  - answer: The examples were tested with Aspose.Drawing 24.11 for .NET.
+    question: What version of Aspose.Drawing was used for testing?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Aspose.Drawing for .NET ile Metin Nasıl Çizilir
+tags:
+- draw text on image
+- Aspose.Drawing
+- .NET image processing
+- generate image with text
+- custom font on image
+title: Aspose.Drawing for .NET ile görüntü üzerine metin çizme
 url: /tr/net/text-and-fonts/draw-text/
 weight: 10
 ---
@@ -14,45 +56,53 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing for .NET ile Metin Çizme
+# Aspose.Drawing for .NET ile görüntü üzerine metin çizme
 
 ## Giriş
 
-Bu adım adım kılavuzda, Aspose.Drawing for .NET kullanarak görüntülere **metin nasıl çizilir** öğreneceksiniz. *Dinamik metin görüntüsü* oluşturmanız, mevcut bir bitmap'e metin eklemeniz veya özel yazı tipleriyle bir grafik üretmeniz gerekse, bu öğretici her ayrıntıyı size göstererek dakikalar içinde metin çizmeye başlamanızı sağlar.
+Bu adım‑adım kılavuzda Aspose.Drawing for .NET kullanarak **görüntü üzerine metin çizme** öğrenirsiniz. *Dinamik metin görüntüsü* oluşturmanız, mevcut bir bitmap'e metin eklemeniz veya özel yazı tipleriyle bir grafik üretmeniz gerekirse, bu öğretici her ayrıntıyı size gösterir, böylece dakikalar içinde metin çizmeye başlayabilirsiniz. Kütüphane 30’dan fazla GDI+ metodunu destekler, Windows, Linux ve macOS'ta çalışır ve **sıfır dış bağımlılık** içerir; bu da sunucu‑tarafı görüntü üretimi için güvenilir bir seçim olmasını sağlar.
 
-## Hızlı Yanıtlar
+## Hızlı cevaplar
 - **Hangi kütüphane kullanılıyor?** Aspose.Drawing for .NET  
-- **Ana görev?** Draw text on an image (create image with text)  
-- **Ana yöntem?** `Graphics.DrawString` (draw string on image)  
-- **Çıktı formatı?** PNG (save bitmap as PNG)  
-- **Önkoşullar?** .NET development environment and Aspose.Drawing library  
+- **Ana görev?** Bir görüntü üzerine metin çizme (metinli görüntü oluşturma)  
+- **Ana yöntem?** `Graphics.DrawString` (görüntü üzerine dize çizme)  
+- **Çıktı formatı?** PNG (bitmap'i PNG olarak kaydetme)  
+- **Önkoşullar?** .NET geliştirme ortamı ve Aspose.Drawing kütüphanesi  
 
-## Aspose.Drawing ile metin çizme nedir?
-Aspose.Drawing, klasik GDI+ modelini yansıtan ve çapraz platform desteği ekleyen tamamen yönetilen bir API sunar. System.Drawing.Common'a bağımlı olmadan yüksek kaliteli metin, şekil ve görüntü render etmenizi sağlar.
+## Aspose.Drawing ile metin çizmek nedir?
 
-## Görüntülere metin eklemek için neden Aspose.Drawing kullanılmalı?
-- **Çapraz platform güvenilirliği** – Windows, Linux ve macOS'ta çalışır.  
-- **Gelişmiş renderleme** – keskin çıktı için anti-aliasing ve alt piksel metin yumuşatması.  
-- **Harici bağımlılık yok** – kütüphane, *metinli görüntü oluşturma* için ihtiyacınız olan her şeyi içinde barındırır.
+Aspose.Drawing ile metin çizmek, kütüphanenin GDI+‑uyumlu API'sını kullanarak Unicode dizgilerini bir raster kanvas üzerine işlemek anlamına gelir. `Graphics.DrawString` yöntemi metni bir bitmap'e yazar, böylece yazı tipi, renk, hizalama ve anti‑aliasing kontrol edilebilir. Bu yaklaşım, System.Drawing.Common yüklemeden yüksek‑kaliteli görüntüler üretmenizi sağlar.
+
+## Neden Aspose.Drawing'i görüntülere metin eklemek için kullanmalısınız?
+
+Aspose.Drawing, yerel GDI+ kütüphanelerine ihtiyaç duymadan metni görüntülere işlemek için güvenilir, çapraz‑platform bir yol sunar; herhangi bir işletim sisteminde tutarlı kalite ve performans sağlar. Gelişmiş anti‑aliasing, Unicode karakterleri ve özel yazı tiplerini destekler ve .NET uygulamalarıyla sorunsuz entegrasyon sağlar; bu da sunucu‑tarafı görüntü üretimi ve masaüstü araçları için idealdir.
+
+- **Cross‑platform reliability** – Windows, Linux ve macOS'ta çalışır.  
+- **Advanced rendering** – keskin çıktı için anti‑aliasing ve alt‑piksel metin yumuşatma.  
+- **No external dependencies** – kütüphane, *metinli görüntü oluşturma* için ihtiyacınız olan her şeyi paketler.
 
 ## Önkoşullar
 
-Başlamadan önce şunların olduğundan emin olun:
+İlerlemeye başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-- **Aspose.Drawing for .NET** – download it from the [Aspose.Drawing belgeleri](https://reference.aspose.com/drawing/net/).  
-- **Bir .NET IDE** (ör. Visual Studio veya VS Code).  
+- **Aspose.Drawing for .NET** – bunu [Aspose.Drawing belgeleri](https://reference.aspose.com/drawing/net/) üzerinden indirin.  
+- **Bir .NET IDE** örneğin Visual Studio veya VS Code.  
 
-## Ad Alanlarını İçe Aktarın
+## Ad alanlarını içe aktar
 
 Gerekli ad alanlarını içe aktararak başlayın:
 
+Bu ad alanları `Bitmap`, `Graphics` ve metin işleme yardımcıları gibi temel GDI+ türlerini sağlar.  
 ```csharp
 using System.Drawing;
 using System.Drawing.Text;
 ```
 
-## Adım 1: Bitmap ve Graphics Nesnelerini Oluşturma
+## Adım 1: bitmap ve graphics nesnelerini oluşturma
 
+`Bitmap`, Aspose.Drawing'in piksel verileri için raster görüntü kapsayıcısıdır ve `Graphics`, şekil ve metin çizmeye yarayan yöntemleri sunar.  
+
+`Bitmap` bellekte bir görüntüyü temsil ederken, `Graphics` o bitmap üzerine çizmeye yarayan yöntemleri sağlar.  
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -62,8 +112,11 @@ graphics.Clear(Color.FromKnownColor(KnownColor.White));
 
 Burada, son resmi tutacak bir `Bitmap` ve üzerine çizmeyi sağlayan bir `Graphics` nesnesi oluşturuyoruz. Anti‑aliasing ipucu, metnin pürüzsüz görünmesini sağlar.
 
-## Adım 2: Brush, Pen ve Font'u Ayarlama
+## Adım 2: fırça, kalem ve yazı tipini ayarlama
 
+`Brush` doldurma rengini, `Pen` şekil kenarlarını ve `Font` metin işleme için tipografi, boyut ve stili belirler.  
+
+`Brush` şekilleri renk ile doldurur, `Pen` kenarları çizer ve `Font` metin işleme için tipografi ve boyutu tanımlar.  
 ```csharp
 Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Black));
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 1);
@@ -72,68 +125,82 @@ Font arial = new Font("Arial", 20, FontStyle.Regular);
 
 - **Brush** metin rengini tanımlar.  
 - **Pen** daha sonra metnin etrafına bir dikdörtgen çizmek için kullanılır (isteğe bağlı).  
-- **Font** *draw string on image* işlemi için yazı tipi, boyut ve stili belirler.
+- **Font** *görüntü üzerine dize çizme* işlemi için tipografi, boyut ve stili belirler.
 
-## Adım 3: Metin ve Dikdörtgen Tanımlama
+## Adım 3: metin ve dikdörtgeni tanımlama
 
+`Rectangle` metnin yerleştirileceği sınırlayıcı kutuyu tanımlar; X/Y koordinatları ve genişlik/yükseklik belirlenir.  
+
+`Rectangle` burada çizilen metni sınırlayan dikdörtgenin konum ve boyutunu belirtir.  
 ```csharp
 string text = "Lorem ipsum..."; // (Your desired text)
 Rectangle rectangle = new Rectangle(100, 100, 800, 600);
 ```
 
-`Rectangle`, metnin nerede yer alacağını belirler. Koordinatları ve boyutu, düzeninize uygun şekilde ayarlayın.
+`Rectangle`, metnin nerede yer alacağını belirler. Düzeninize uygun şekilde koordinatları ve boyutu ayarlayın.
 
-## Adım 4: Dikdörtgen ve Metni Çizme
+## Adım 4: dikdörtgen ve metni çizme
 
+`Graphics.DrawString` belirtilen metni, verilen font ve fırça ile belirli bir dikdörtgen içinde işler.  
+
+`Graphics.DrawString` verilen font ve fırça ile belirli bir dikdörtgen içinde bir metin dizesi çizer.  
 ```csharp
 graphics.DrawRectangle(pen, rectangle);
 graphics.DrawString(text, arial, brush, rectangle);
 ```
 
-İlk olarak alanı mavi bir dikdörtgenle çerçeveliyoruz, ardından `DrawString` çağırarak **bitmap'e metin ekliyoruz**. Bu, görüntü üzerinde *metin çizme* işleminin özüdür.
+İlk olarak alanı mavi bir dikdörtgenle çerçeveliyoruz, ardından `DrawString` çağrısıyla **bitmap'e metin ekliyoruz**. Bu, görüntü üzerine *metin çizme* işleminin çekirdeğidir.
 
-## Adım 5: Sonucu Kaydetme
+## Adım 5: sonucu kaydetme
 
+Görüntü, *bitmap'i PNG olarak kaydetme* gereksinimini karşılayarak PNG dosyası olarak kaydedilir. Yer tutucu yolu, dosyanın kaydedileceği gerçek klasörle değiştirin.  
+
+`bitmap.Save` görüntüyü seçilen formatta, örneğin PNG, bir dosyaya yazar.  
 ```csharp
 bitmap.Save("Your Document Directory" + @"TextFonts\DrawText_out.png");
 ```
 
-Görüntü, *save bitmap as PNG* gereksinimini karşılayarak PNG dosyası olarak kaydedilir. Yer tutucu yolu, dosyanın kaydedilmesini istediğiniz gerçek klasörle değiştirin.
+## Yaygın kullanım senaryoları
 
-## Ortak Kullanım Senaryoları
+- **Kişiselleştirilmiş isimlerle sertifika** oluşturma.  
+- **Web galerileri için filigranlı küçük resimler** oluşturma.  
+- **Etiket veya açıklama içeren dinamik grafikler** oluşturma.  
 
-- **Kişiselleştirilmiş isimlerle sertifika oluşturma**.  
-- **Web galerileri için filigranlı küçük resimler oluşturma**.  
-- **Etiket veya açıklama içeren dinamik grafikler oluşturma**.  
+## Sorun giderme ve ipuçları
 
-## Sorun Giderme ve İpuçları
+- **Yazı tipi bulunamadı mı?** Yazı tipinin host makinede yüklü olduğundan emin olun veya özel bir yazı tipi koleksiyonu kullanın.  
+- **Metin kesiliyor mu?** Dikdörtgen boyutunu artırın veya yazı tipi boyutunu küçültün.  
+- **Performans kaygıları?** Mümkün olduğunca aynı `Graphics` nesnesini birden çok çizim işlemi için yeniden kullanın.  
 
-- **Yazı tipi bulunamadı?** Yazı tipinin ana makinede yüklü olduğundan emin olun veya özel bir yazı tipi koleksiyonu kullanın.  
-- **Metin kesildi?** Dikdörtgen boyutunu artırın veya yazı tipi boyutunu küçültün.  
-- **Performans kaygıları?** Mümkün olduğunda aynı `Graphics` nesnesini birden fazla çizim işlemi için yeniden kullanın.
+## Sıkça sorulan sorular
 
-## Sık Sorulan Sorular
-
-**S: Çıktı formatını JPEG'e nasıl değiştiririm?**  
-C: `Save` metodunda `.png` uzantısını `.jpg` ile değiştirin ve isteğe bağlı olarak JPEG kalitesi için bir `ImageCodecInfo` belirtin.
+**S: Çıktı formatını JPEG olarak nasıl değiştiririm?**  
+C: `Save` metodundaki `.png` uzantısını `.jpg` ile değiştirin ve isteğe bağlı olarak JPEG kalitesi için bir `ImageCodecInfo` belirtin.
 
 **S: Çok satırlı metin çizebilir miyim?**  
 C: Evet, dizede satır sonu karakterleri (`\n`) ekleyin veya `StringFormat` ile `FormatFlags.LineLimit` kullanın.
 
 **S: Çizmeden önce metin boyutunu ölçmenin bir yolu var mı?**  
-C: Render edilen metnin tam boyutlarını elde etmek için `Graphics.MeasureString` kullanın.
+C: `Graphics.MeasureString` kullanarak işlenen metnin tam boyutlarını alabilirsiniz.
 
 **S: Aspose.Drawing Unicode karakterleri destekliyor mu?**  
 C: Kesinlikle. Gerekli glifleri içeren bir yazı tipi sağlayın, kütüphane bunları doğru şekilde render eder.
 
 **S: Test için hangi Aspose.Drawing sürümü kullanıldı?**  
-C: Örnekler, Aspose.Drawing 24.11 for .NET ile test edilmiştir.
+C: Örnekler Aspose.Drawing 24.11 for .NET ile test edilmiştir.
 
 ---
 
-**Son Güncelleme:** 2026-02-25  
+**Son Güncelleme:** 2026-09-23  
 **Test Edilen:** Aspose.Drawing 24.11 for .NET  
-**Yazar:** Aspose  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Bitmap Grafik Oluşturma C# – PNG Görüntüsü Kaydetme ve Aspose.Drawing'de Yüklü Yazı Tipleriyle Çalışma](/drawing/net/text-and-fonts/installed-fonts/)
+- [Aspose.Drawing API for .NET kullanarak bitmap'i PNG olarak kaydetme](/drawing/net/image-editing/display/)
+- [Görüntü Üzerinde Metin](/drawing/net/use-cases/text-on-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
