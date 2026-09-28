@@ -1,11 +1,78 @@
 ---
-date: 2026-03-02
-description: Leer hoe u foto‑frame‑afbeeldingen maakt met Aspose.Drawing voor .NET.
-  Volg deze stapsgewijze handleiding om decoratieve randen toe te voegen, rechthoekige
-  randen te tekenen en afbeeldingsbestanden moeiteloos te laden.
-linktitle: Creating Photo Frames in Aspose.Drawing
+date: 2026-09-28
+description: Leer hoe je een rand om een afbeelding tekent en fotolijsten maakt met
+  Aspose.Drawing for .NET. Volg de stap‑voor‑stap handleiding om decoratieve randen
+  toe te voegen en afbeeldingsbestanden te laden.
+keywords:
+- draw border around image
+- add photo frame picture
+- load image file .net
+lastmod: 2026-09-28
+linktitle: Fotolijsten maken in Aspose.Drawing
+og_description: Leer hoe je een rand om een afbeelding tekent en fotolijsten maakt
+  met Aspose.Drawing for .NET. Deze gids laat je stap‑voor‑stap zien hoe je decoratieve
+  randen toevoegt en afbeeldingsbestanden laadt.
+og_image_alt: Screenshot of a photo frame created with Aspose.Drawing for .NET
+og_title: Rand om afbeelding tekenen met Aspose.Drawing for .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to draw border around image and create photo frames using
+    Aspose.Drawing for .NET. Follow the step‑by‑step guide to add decorative borders
+    and load image files.
+  headline: How to draw border around image with Aspose.Drawing for .NET
+  type: TechArticle
+- description: Learn how to draw border around image and create photo frames using
+    Aspose.Drawing for .NET. Follow the step‑by‑step guide to add decorative borders
+    and load image files.
+  name: How to draw border around image with Aspose.Drawing for .NET
+  steps:
+  - name: load image file
+    text: The `Image` class represents an image loaded into memory. Use `Image.FromFile`
+      to read the picture from disk, which prepares it for drawing operations.
+  - name: create a graphics object
+    text: A `Graphics` object provides the drawing canvas tied to the loaded image.
+      It enables you to render shapes, text, and other visual elements directly onto
+      the bitmap.
+  - name: set graphics properties
+    text: Adjust rendering hints and measurement units so that the rectangle border
+      appears crisp and anti‑aliased. Setting `SmoothingMode.AntiAlias` and `TextRenderingHint.AntiAliasGridFit`
+      ensures high‑quality output.
+  - name: draw rectangles (add decorative border)
+    text: Here we create two rectangles—an outer one and an inner one—to form a simple
+      decorative border. You can customize the `Pen` color, thickness, and the `gap`
+      value to change the look.
+  - name: save the framed image
+    text: Finally, call `Save` on the `Image` instance to write the framed picture
+      to a new file. Changing the file extension lets you output PNG, JPEG, BMP, or
+      any supported format. Now you have successfully **drawn a border around image**
+      and created a photo frame using Aspose.Drawing for .NET! Experiment w
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Drawing supports 50+ raster and vector formats, including
+      JPEG, PNG, BMP, GIF, TIFF, and SVG.
+    question: Is Aspose.Drawing compatible with all image formats?
+  - answer: Absolutely. The `Pen` constructor lets you specify any `Color` and numeric
+      thickness, giving you full control over the frame’s appearance.
+    question: Can I customize the color and thickness of the frame?
+  - answer: Yes, you can explore Aspose.Drawing's features with a free trial available
+      [free trial download page](https://releases.aspose.com/).
+    question: Does Aspose.Drawing offer a free trial?
+  - answer: Visit the Aspose.Drawing forum [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44)
+      to get assistance and connect with the community.
+    question: How can I get support for Aspose.Drawing?
+  - answer: Yes, you can purchase a license [purchase a license](https://purchase.aspose.com/buy)
+      for commercial use.
+    question: Can I use Aspose.Drawing for commercial projects?
+  type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Hoe maak je een foto-frame met Aspose.Drawing voor .NET
+tags:
+- photo frame
+- Aspose.Drawing
+- .NET image processing
+- draw border around image
+- add photo frame picture
+title: Hoe een rand om een afbeelding te tekenen met Aspose.Drawing for .NET
 url: /nl/net/use-cases/photo-frame/
 weight: 11
 ---
@@ -14,28 +81,37 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kader je foto’s creatief met Aspose.Drawing voor .NET
+# Teken rand rond afbeelding met Aspose.Drawing voor .NET
 
-## Introductie
-Wil je een elegantie aan je afbeeldingen toevoegen? In deze tutorial maak je **create photo frame** graphics met Aspose.Drawing voor .NET. We lopen stap voor stap door het laden van een afbeeldingsbestand, het tekenen van rechthoekige randen en het opslaan van de stille afbeelding met een decoratieve rand. Aan het einde ben je klaar om dezelfde techniek te passen op elk project dat een gepolijste uitstraling nodig heeft.
+## Inleiding
+In deze tutorial leer je hoe je **rand rond afbeelding tekenen** en gewone foto's omtovert tot gepolijste fotolijsten met Aspose.Drawing voor .NET. We lopen door het laden van een afbeeldingsbestand, het configureren van grafische instellingen, het tekenen van rechthoekige randen en het opslaan van de uiteindelijke afbeelding. Aan het einde kun je dezelfde techniek toepassen op elk .NET‑project dat een professioneel uitziende lijst nodig heeft.
 
 ## Snelle antwoorden
-- **Wat vervangt Aspose.Drawing?** Het vervangt System.Drawing.Common door een volledig ondersteunde .NET-bibliotheek.
-- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een basisframe.
-- **Welke formaten worden ondersteund?** Alle belangrijke rasterformaten (JPEG, PNG, BMP, GIF, enz.).
-- **Heb ik een licentie nodig voor testen?** Een gratis proefversie is beschikbaar; een licentie is vereist voor productie.
-- **Kan ik de kleur en dikte van het frame aanpassen?** Ja—pas eenvoudig de `Pen`-instellingen in de code aan.
+- **Wat vervangt Aspose.Drawing?** Het vervangt System.Drawing.Common door een volledig ondersteunde, cross‑platform .NET‑bibliotheek.  
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een eenvoudige lijst.  
+- **Welke formaten worden ondersteund?** Alle belangrijke rasterformaten (JPEG, PNG, BMP, GIF, enz.).  
+- **Heb ik een licentie nodig voor testen?** Er is een gratis proefversie beschikbaar; een licentie is vereist voor productiegebruik.  
+- **Kan ik de kleur en dikte van de lijst aanpassen?** Ja—pas de `Pen`‑instellingen in de code aan.
 
-## Wat is een fotolijst en waarom zou je er een toevoegen?
-Een foto‑frame is een visuele rand die een illegale afbeelding, waardoor deze in galerijen wordt geplaatst, rapporten van berichten op sociale media. Het toevoegen van een frame kan de aandacht trekken, branding overbrengen, of een gepolijste afwerking geven zonder externe ontwerptools.
+## Wat is een fotolijst en waarom er een toevoegen?
+Een fotolijst is een visuele rand die een afbeelding benadrukt, waardoor deze opvalt in galerijen, rapporten of berichten op sociale media. Het toevoegen van een lijst trekt de aandacht, versterkt de branding en geeft een gepolijste afwerking zonder externe ontwerptools. Lijsten helpen ook om consistente afmetingen te behouden over een reeks afbeeldingen, ideaal voor catalogi of presentaties.
 
-## Vereisten
-Voordat we aan de tutorial beginnen, zorg ervoor dat je de volgende vereisten hebt:
-- Aspose.Drawing voor .NET: Zorg ervoor dat je de Aspose.Drawing‑bibliotheek defect hebt. Je kunt dit downloaden [hier](https://releases.aspose.com/drawing/net/).
-- Afbeeldingenbestand: Bereid een afbeelding voor die je wilt kaderen. Voor deze tutorial gebruiken we een voorbeeldafbeelding met de naam **cat.jpg**.
+## Waarom Aspose.Drawing gebruiken om fotolijsten te maken?
+Aspose.Drawing stelt je in staat om **rand rond afbeelding tekenen** aan de serverzijde uit te voeren zonder GDI+‑afhankelijkheden. Het ondersteunt .NET Framework, .NET Core en .NET 5/6+, verwerkt meer dan 50 afbeeldingsformaten en kan multi‑honderd‑pagina‑documenten verwerken zonder het volledige bestand in het geheugen te laden, waardoor consistente resultaten worden geleverd in headless‑omgevingen.
 
-## Naamruimten importeren
-Begin met het importeren van de vergelijkbare naamruimten om toegang te krijgen tot de functionaliteiten van Aspose.Drawing. Voeg de volgende regels toe aan het begin van je code:
+## Voorvereisten
+Voordat we in de code duiken, zorg ervoor dat je de volgende zaken hebt:
+- Aspose.Drawing for .NET: Zorg ervoor dat je de Aspose.Drawing‑bibliotheek hebt geïnstalleerd. Je kunt het downloaden van [download Aspose.Drawing for .NET](https://releases.aspose.com/drawing/net/).
+- Image file: Bereid een afbeeldingsbestand voor dat je wilt omlijsten. Voor deze tutorial gebruiken we een voorbeeldafbeelding met de naam **cat.jpg**.
+
+## Importeer namespaces
+De `using`‑directieven geven je toegang tot de Aspose.Drawing‑API.  
+```csharp
+using Aspose.Drawing;
+using Aspose.Drawing.Imaging;
+using Aspose.Drawing.Drawing2D;
+```
+*De `using`‑statements zijn vereist voordat er naar Aspose.Drawing‑typen kan worden verwezen.*
 
 ```csharp
 using System;
@@ -48,8 +124,11 @@ using System.Threading.Tasks;
 using System.IO;
 ```
 
-## Stap 1: Laad het afbeeldingsbestand
-Eerst moeten we de **load image file** zodat we erop kunnen tekenen. De `Image.FromFile`‑methode leest de afbeelding van de schijf.
+## Hoe rand rond afbeelding tekenen met Aspose.Drawing voor .NET
+Laad de afbeelding, maak een graphics‑oppervlak, configureer tekenopties, teken twee rechthoeken en sla het resultaat op. Het proces laadt de bitmap, maakt een Graphics‑object, stelt anti‑aliasing in, tekent een of meer rechthoekige omtrekken met configureerbare pennen, en slaat de uiteindelijke afbeelding op in het gewenste formaat. Deze end‑to‑end‑stroom stelt je in staat om een decoratieve rand toe te voegen in slechts een paar regels code.
+
+### Stap 1: afbeeldingsbestand laden
+De `Image`‑klasse vertegenwoordigt een afbeelding die in het geheugen is geladen. Gebruik `Image.FromFile` om de foto van de schijf te lezen, waardoor deze klaar is voor tekenbewerkingen.
 
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCases", "cat.jpg")))
@@ -58,8 +137,8 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Stap 2: Maak een grafisch object aan
-Een `Graphics`‑object geeft ons tekenmogelijkheden op de geladen afbeelding.
+### Stap 2: een graphics‑object maken
+Een `Graphics`‑object biedt het tekencanvas dat is gekoppeld aan de geladen afbeelding. Het stelt je in staat om vormen, tekst en andere visuele elementen direct op de bitmap te renderen.
 
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCases", "cat.jpg")))
@@ -69,8 +148,8 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Stap 3: Stel de grafische eigenschappen in
-Pas render‑hints en meeteenheden aan om scherpe lijnen te garanderen wanneer we de **draw rectangle border** tekenen.
+### Stap 3: graphics‑eigenschappen instellen
+Pas render‑hints en meeteenheden aan zodat de rechthoekige rand scherp en anti‑aliased verschijnt. Het instellen van `SmoothingMode.AntiAlias` en `TextRenderingHint.AntiAliasGridFit` zorgt voor een hoge kwaliteit output.
 
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCases", "cat.jpg")))
@@ -82,8 +161,8 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Stap 4: Teken rechthoeken (voeg een decoratieve rand toe)
-Hier maken we twee rechthoeken—een buitenste en een binnenste—om een eenvoudige decoratieve rand te vormen. Je kunt de kleur, dikte van de `Pen` en de `gap`‑waarde aanpassen om het uiterlijk te wijzigen.
+### Stap 4: rechthoeken tekenen (decoratieve rand toevoegen)
+Hier maken we twee rechthoeken—een buitenste en een binnenste—om een eenvoudige decoratieve rand te vormen. Je kunt de `Pen`‑kleur, dikte en de `gap`‑waarde aanpassen om het uiterlijk te wijzigen.
 
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCases", "cat.jpg")))
@@ -101,8 +180,8 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-## Stap 5: Sla de ingelijste afbeelding op
-Tot slot **save the framed image** naar een nieuw bestand. Voel je vrij om het uitvoerformaat te wijzigen door de bestandsextensie aan te passen.
+### Stap 5: de omlijste afbeelding opslaan
+Roep ten slotte `Save` aan op de `Image`‑instantie om de omlijste foto naar een nieuw bestand te schrijven. Door de bestandsextensie te wijzigen kun je PNG, JPEG, BMP of elk ondersteund formaat outputten.
 
 ```csharp
 using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCases", "cat.jpg")))
@@ -122,40 +201,42 @@ using (var image = Image.FromFile(Path.Combine("Your Document Directory", "UseCa
 }
 ```
 
-Nu heb je met succes **create photo frame** voor je afbeelding gemaakt met Aspose.Drawing voor .NET! Experimenteer met verschillende kleuren, vormen en maten om je frames verder aan te passen.
+Nu heb je met succes **een rand rond afbeelding getekend** en een fotolijst gemaakt met Aspose.Drawing voor .NET! Experimenteer met verschillende kleuren, vormen en maten om je lijsten verder aan te passen.
 
-## Waarom Aspose.Drawing gebruiken om fotolijsten te maken?
-- **Cross‑platform**: Werkt op .NET Framework, .NET Core en .NET 5/6+.
-- **Geen GDI+ afhankelijkheden**: Ideaal voor server-side rendering waar System.Drawing niet wordt ondersteund.
-- **Rich drawing API**: Volledige controle over pennen, penselen en vormen, waardoor je **tekenvormenafbeelding** kunt maken, verder dan eenvoudige rechthoeken.
-
-## Veelvoorkomende problemen en tips
-- **Afbeelding wordt niet geladen** – Controleer of het pad correct is en het bestand bestaat.
-- **Pendikte lijkt dun** – Verhoog de tweede parameter van `new Pen(Color, Thickness)`.
-- **Kleuren zien er dof uit** – Gebruik `Color.FromArgb` voor aangepaste RGBA-waarden of schakel anti‑aliasing in (reeds ingesteld met `TextRenderingHint.AntiAliasGridFit`).
-- **Prestaties** – Hergebruik hetzelfde `Graphics`‑object als je meerdere frames in één batch moet tekenen.
+## Veelvoorkomende problemen & tips
+- **Afbeelding laadt niet** – Controleer of het pad correct is en het bestand bestaat.  
+- **Pen‑dikte lijkt dun** – Verhoog de tweede parameter van `new Pen(Color, thickness)`.  
+- **Kleuren zien er dof uit** – Gebruik `Color.FromArgb` voor aangepaste RGBA‑waarden of schakel anti‑aliasing in (reeds ingesteld met `TextRenderingHint.AntiAliasGridFit`).  
+- **Prestaties** – Hergebruik hetzelfde `Graphics`‑object als je meerdere lijsten in één batch moet tekenen.
 
 ## Veelgestelde vragen
-### Is Aspose.Drawing compatibel met alle afbeeldingsformaten?
-Ja, Aspose.Drawing ondersteunt een breed scala aan afbeeldingsformaten, waardoor compatibiliteit met verschillende bestandstypen onmogelijk wordt.
+**Q: Is Aspose.Drawing compatibel met alle afbeeldingsformaten?**  
+A: Ja, Aspose.Drawing ondersteunt meer dan 50 raster‑ en vectorformaten, waaronder JPEG, PNG, BMP, GIF, TIFF en SVG.
 
-### Kan ik de kleur en dikte van het frame aanpassen?
-Absoluut! Je hebt volledige controle over de kleur en dikte van het frame, waardoor er lastige aanpassingsmogelijkheden ontstaan.
+**Q: Kan ik de kleur en dikte van de lijst aanpassen?**  
+A: Absoluut. De `Pen`‑constructor laat je elke `Color` en numerieke dikte opgeven, waardoor je volledige controle hebt over het uiterlijk van de lijst.
 
-### Biedt Aspose.Drawing een gratis proefperiode?
-Ja, je kunt de functies van Aspose.Drawing verkennen met een gratis proefversie beschikbaar [hier](https://releases.aspose.com/).
+**Q: Biedt Aspose.Drawing een gratis proefversie?**  
+A: Ja, je kunt de functies van Aspose.Drawing verkennen met een gratis proefversie, beschikbaar op de [free trial download page](https://releases.aspose.com/).
 
-### Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?
-Bezoek het Aspose.Drawing‑forum [hier](https://forum.aspose.com/c/drawing/44) om hulp te krijgen en contact te maken met de community.
+**Q: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing?**  
+A: Bezoek het Aspose.Drawing‑forum [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) voor hulp en om contact te maken met de community.
 
-### Kan ik Aspose.Drawing gebruiken voor commerciële projecten?
-Ja, je kunt [hier](https://purchase.aspose.com/buy) een licentie kopen voor commercieel gebruik.
+**Q: Kan ik Aspose.Drawing gebruiken voor commerciële projecten?**  
+A: Ja, je kunt een licentie aanschaffen [purchase a license](https://purchase.aspose.com/buy) voor commercieel gebruik.
 
 ---
 
-**Laatst bijgewerkt:** 02-03-2026
-**Getest met:** Aspose.Drawing 24.12 voor .NET
-**Auteur:** Aspose  
+**Laatst bijgewerkt:** 2026-09-28  
+**Getest met:** Aspose.Drawing 24.12 for .NET  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe een fotolijst maken met Aspose.Drawing voor .NET](/drawing/net/use-cases/photo-frame/)
+- [BMP laden, converteren naar PNG en andere formaten met Aspose.Drawing](/drawing/net/image-editing/load-save/)
+- [Hoe een rechthoek tekenen – Coördinatensysteemtransformatie (pagina‑transformatie) met Aspose.Drawing API voor .NET](/drawing/net/coordinate-transformations/page-transformation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
