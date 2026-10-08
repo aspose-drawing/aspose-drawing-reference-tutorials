@@ -1,18 +1,24 @@
 ---
-date: 2026-05-24
-description: Scopri come ridimensionare le immagini con Aspose.Drawing per .NET. Questa
-  guida mostra passo‑passo come ridimensionare bitmap C# usando l'interpolazione nearest
-  neighbor e salvare i file immagine ridimensionati.
+date: 2026-10-08
+description: Scopri come ridimensionare un bitmap c# con Aspose.Drawing per .NET.
+  Questa guida mostra passo‑passo come scalare le immagini usando nearest neighbor
+  interpolation e salvare i risultati.
 keywords:
-- how to scale images
-- nearest neighbor scaling
-- change image size
-- high performance scaling
 - resize bitmap c#
-linktitle: Ridimensionamento delle immagini in Aspose.Drawing
+- nearest neighbor image scaling
+- resize images .net
+- scale images .net
+- change image size c#
+lastmod: 2026-10-08
+linktitle: Scalare le immagini con Aspose.Drawing
+og_description: Scopri come ridimensionare un bitmap c# con Aspose.Drawing per .NET.
+  Segui le istruzioni passo‑passo per scalare le immagini in modo efficiente usando
+  nearest neighbor interpolation.
+og_image_alt: Tutorial showing how to resize bitmap c# with Aspose.Drawing for .NET
+og_title: Come ridimensionare un bitmap c# usando Aspose.Drawing per .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-24'
+  dateModified: '2026-10-08'
   description: Learn how to scale images with Aspose.Drawing for .NET. This guide
     shows step‑by‑step how to resize bitmap C# using nearest neighbor interpolation
     and save scaled image files.
@@ -23,37 +29,43 @@ schemas:
     and save scaled image files.
   name: How to Scale Images with Aspose.Drawing for .NET
   steps:
-  - name: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
-      installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-    text: 'Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
-      installed in your project. You can download it [here](https://releases.aspose.com/drawing/net/).'
-  - name: 'Development Environment - Set up a .NET development environment, such as
-      Visual Studio.'
-    text: 'Development Environment: Set up a .NET development environment, such as
-      Visual Studio.'
-  - name: 'Basic Understanding of C# - Familiarity with the C# programming language
-      is essential for implementing the examples.'
-    text: 'Basic Understanding of C# - Familiarity with the C# programming language
-      is essential for implementing the examples.'
+  - name: Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
+      installed in your project. You can download it [Aspose.Drawing .NET download
+      page](https://releases.aspose.com/drawing/net/).
+    text: Aspose.Drawing for .NET - Ensure that you have the Aspose.Drawing library
+      installed in your project. You can download it [Aspose.Drawing .NET download
+      page](https://releases.aspose.com/drawing/net/).
+  - name: Development Environment - Set up a .NET development environment, such as
+      Visual Studio.
+    text: Development Environment - Set up a .NET development environment, such as
+      Visual Studio.
+  - name: Basic Understanding of C# - Familiarity with the C# programming language
+      is essential for implementing the examples.
+    text: Basic Understanding of C# - Familiarity with the C# programming language
+      is essential for implementing the examples.
   type: HowTo
 - questions:
   - answer: Yes, Aspose.Drawing is fully compatible with ASP.NET, ASP.NET Core, WPF,
       WinForms, and console applications.
     question: Can I use Aspose.Drawing for .NET in both web and desktop applications?
-  - answer: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+  - answer: Yes, you can obtain a temporary license [temporary license page](https://purchase.aspose.com/temporary-license/)
       for testing and evaluation purposes.
     question: Is a temporary license available for Aspose.Drawing?
   - answer: For any queries or assistance, visit the [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44).
     question: Where can I find additional support for Aspose.Drawing?
   - answer: Aspose.Drawing supports a wide range of formats, including JPEG, PNG,
-      GIF, BMP, TIFF, WebP, and SVG. See the full list in the [documentation](https://reference.aspose.com/drawing/net/).
+      GIF, BMP, TIFF, WebP, and SVG. See the full list in the [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/).
     question: Are there any limitations on the image formats supported by Aspose.Drawing?
   - answer: Yes, Aspose.Drawing provides `NearestNeighbor`, `Bilinear`, `Bicubic`,
       and `HighQualityBicubic` modes, allowing you to balance speed and quality.
     question: Can I apply custom interpolation modes for image scaling?
   type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: Come ridimensionare le immagini con Aspose.Drawing per .NET
+tags:
+- resize bitmap c#
+- Aspose.Drawing
+- .NET image processing
+title: Come ridimensionare un bitmap c# usando Aspose.Drawing per .NET
 url: /it/net/image-editing/scale/
 weight: 14
 ---
@@ -62,11 +74,11 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come ridimensionare le immagini con Aspose.Drawing per .NET
+# Come ridimensionare bitmap c# usando Aspose.Drawing per .NET
 
 ## Introduzione
 
-In questo tutorial completo scoprirai **come ridimensionare le immagini** in modo efficiente usando Aspose.Drawing per .NET. Che tu stia costruendo un servizio web che genera miniature o uno strumento desktop che ingrandisce asset pixel‑art, il ridimensionamento delle immagini è un requisito fondamentale. Ti guideremo passo passo—dalla creazione di una canvas all’applicazione dell’interpolazione nearest‑neighbor e infine al salvataggio del risultato—così potrai implementare un ridimensionamento ad alte prestazioni in pochi minuti.
+In questo tutorial completo scoprirai **come ridimensionare bitmap c#** in modo efficiente usando Aspose.Drawing per .NET. Che tu debba generare miniature per un'API web, ingrandire risorse pixel‑art per un gioco, o elaborare in batch fotografie su un server, il ridimensionamento delle immagini è un requisito fondamentale. Ti guideremo passo passo—dalla creazione di una canvas all'applicazione dell'interpolazione nearest‑neighbor e infine al salvataggio del risultato—così potrai implementare un ridimensionamento ad alte prestazioni in pochi minuti.
 
 ## Risposte rapide
 - **Quale libreria dovrei usare?** Aspose.Drawing per .NET  
@@ -77,23 +89,26 @@ In questo tutorial completo scoprirai **come ridimensionare le immagini** in mod
 
 ## Cos'è il ridimensionamento delle immagini in Aspose.Drawing?
 
-Il ridimensionamento delle immagini è il processo di modificare le dimensioni di un bitmap, ingrandendolo o riducendolo, mantenendo la qualità visiva. Aspose.Drawing fornisce un'API semplice che consente agli sviluppatori C# di controllare ogni passaggio—dalla creazione della canvas al disegno dell’immagine sorgente all’interno di un rettangolo di destinazione.
+Il ridimensionamento delle immagini è il processo di modificare le dimensioni di una bitmap, rendendola più grande o più piccola, mantenendo la qualità visiva. **Consente di cambiare le dimensioni dell'immagine c# ridefinendo la griglia di pixel che l'immagine occupa.** Usando Aspose.Drawing, controlli la canvas di origine, l'algoritmo di interpolazione e il formato di output in un unico flusso di lavoro fluido.
 
 ## Perché usare Aspose.Drawing per il ridimensionamento?
 
-Aspose.Drawing offre **ridimensionamento ad alte prestazioni** per carichi di lavoro esigenti: supporta **oltre 30 formati immagine** (inclusi PNG, JPEG, BMP, TIFF e WebP) e può elaborare file fino a **500 MB** senza caricare l’intera immagine in memoria. La libreria offre anche **quattro modalità di interpolazione**, con **NearestNeighbor** che fornisce risultati pixel‑perfect ideali per icone e arte di gioco. Poiché è un unico pacchetto NuGet, non ha **dipendenze native esterne**, rendendo la distribuzione su container Linux o Azure Functions senza problemi.
+Aspose.Drawing offre **ridimensionamento ad alte prestazioni** per carichi di lavoro esigenti: supporta **oltre 30 formati di immagine** (inclusi PNG, JPEG, BMP, TIFF e WebP) e può elaborare file fino a **500 MB** senza caricare l'intera immagine in memoria. La libreria offre anche **quattro modalità di interpolazione**, con **NearestNeighbor** che fornisce risultati pixel‑perfect ideali per icone e arte di gioco. Poiché è un unico pacchetto NuGet, non ci sono **dipendenze native esterne**, rendendo la distribuzione su container Linux o Azure Functions senza problemi. Puoi scaricare la libreria dalla [pagina di download di Aspose.Drawing .NET](https://releases.aspose.com/drawing/net/).
+
+## Come ridimensionare bitmap c# usando Aspose.Drawing?
+
+Carica l'immagine di origine con `Image.FromFile`, crea un `Bitmap` di destinazione con le dimensioni desiderate, imposta `Graphics.InterpolationMode` su `NearestNeighbor`, disegna l'immagine di origine nel rettangolo di destinazione e infine chiama `Bitmap.Save`. Questo conciso schema a quattro passaggi gestisce sia l'ingrandimento che il ridimensionamento mantenendo un basso utilizzo di memoria e alte prestazioni.
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di avere i seguenti prerequisiti:
-
-1. Aspose.Drawing per .NET: Assicurati di avere la libreria Aspose.Drawing installata nel tuo progetto. Puoi scaricarla [qui](https://releases.aspose.com/drawing/net/).  
+1. Aspose.Drawing per .NET: Assicurati di avere la libreria Aspose.Drawing installata nel tuo progetto. Puoi scaricarla dalla [pagina di download di Aspose.Drawing .NET](https://releases.aspose.com/drawing/net/).  
 2. Ambiente di sviluppo: Configura un ambiente di sviluppo .NET, come Visual Studio.  
-3. Conoscenza di base di C#: Familiarità con il linguaggio di programmazione C# è essenziale per implementare gli esempi.
+3. Conoscenza di base di C#: Familiarità con il linguaggio di programmazione C# è essenziale per implementare gli esempi.  
+4. È possibile ottenere una licenza temporanea dalla [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) se hai bisogno di funzionalità complete durante la valutazione.
 
-## Importare gli spazi dei nomi
+## Importa i namespace
 
-Nel tuo progetto C#, inizia importando gli spazi dei nomi necessari. Questo passaggio è fondamentale per accedere senza problemi alle funzionalità di Aspose.Drawing.
+Nel tuo progetto C#, inizia importando i namespace necessari. Questo passaggio è fondamentale per accedere senza problemi alle funzionalità di Aspose.Drawing.
 
 ```csharp
 using Aspose.Drawing;
@@ -101,99 +116,105 @@ using Aspose.Drawing.Imaging;
 using Aspose.Drawing.Drawing2D;
 ```
 
-## Passo 1: Creare un Bitmap (canvas)
+## Passo 1: Crea un bitmap (canvas)
 
-La classe `Bitmap` rappresenta un'immagine in memoria su cui puoi disegnare o manipolare.  
-Inizia creando un oggetto `Bitmap` che servirà da canvas per la tua immagine. Specifica larghezza, altezza e formato pixel in base alle tue esigenze. Questo è l'approccio classico *resize bitmap C#*.
+`Bitmap` rappresenta un'immagine raster in memoria su cui puoi disegnare o salvare su disco.  
+Inizia creando un oggetto `Bitmap` che servirà da canvas per la tua immagine. Specifica larghezza, altezza e formato pixel secondo le tue esigenze. Questo è l'approccio classico per *ridimensionare bitmap C#*.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Passo 2: Creare un oggetto Graphics
+## Passo 2: Crea un oggetto graphics
 
-La classe `Graphics` fornisce metodi di disegno per renderizzare forme, testo e immagini su un bitmap.  
-Successivamente, crea un oggetto `Graphics` dal `Bitmap` appena creato. Questo oggetto fornisce le capacità di disegno necessarie per la manipolazione delle immagini, inclusa la possibilità di **drawimage with rectangle** in seguito.
+`Graphics` fornisce metodi di disegno per renderizzare forme, testo e immagini su un bitmap.  
+Successivamente, crea un oggetto `Graphics` dal `Bitmap` precedentemente creato. Questo oggetto fornisce le capacità di disegno necessarie per la manipolazione delle immagini, inclusa la possibilità di **drawimage with rectangle** in seguito.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-## Passo 3: Impostare la modalità di interpolazione
+## Passo 3: Imposta la modalità di interpolazione
 
-`InterpolationMode` determina come vengono calcolati i valori dei pixel quando un'immagine viene ridimensionata.  
-Per migliorare la qualità dell’immagine ridimensionata, imposta la modalità di interpolazione. In questo esempio, usiamo la modalità **NearestNeighbor**, ideale quando hai bisogno di un ingrandimento nitido in stile pixel‑art.
+L'enumerazione `InterpolationMode` specifica come vengono calcolati i valori dei pixel durante il ridimensionamento di un'immagine.  
+Per migliorare la qualità dell'immagine ridimensionata, imposta la modalità di interpolazione. In questo esempio, utilizziamo la modalità **NearestNeighbor**, ideale quando è necessario un ingrandimento nitido in stile pixel‑art.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-## Passo 4: Caricare l'immagine
+## Passo 4: Carica l'immagine
 
-Il metodo `Image.FromFile` carica un file immagine esistente in memoria come `Bitmap`.  
-Carica l’immagine che desideri ridimensionare in un oggetto `Bitmap`. Sostituisci `"Your Document Directory" + @"Images\aspose_logo.png"` con il percorso della tua immagine.
+`Image` è la classe base per tutti i tipi di immagine in Aspose.Drawing.  
+Il metodo `Image.FromFile` carica un file immagine esistente in memoria come `Bitmap`. Carica l'immagine che desideri ridimensionare in un oggetto `Bitmap`. Sostituisci `"Your Document Directory" + @"Images\aspose_logo.png"` con il percorso della tua immagine.
 
 ```csharp
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-## Passo 5: Ridimensionare l'immagine
+## Passo 5: Ridimensiona l'immagine
 
-Un `Rectangle` definisce l’area di destinazione dove l’immagine sorgente verrà disegnata.  
-Definisci un rettangolo che rappresenta l’espansione dell’immagine. In questo esempio, l’immagine è ridimensionata 5 ×  sia in larghezza che in altezza, dimostrando la tecnica **drawimage with rectangle**.
+`Rectangle` definisce l'area di destinazione per disegnare l'immagine di origine.  
+Definisci un rettangolo che rappresenta l'espansione dell'immagine. In questo esempio, l'immagine è ingrandita di 5 ×  sia in larghezza che in altezza, dimostrando la tecnica **drawimage with rectangle**.
 
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-## Passo 6: Salvare l'immagine ridimensionata
+## Passo 6: Salva l'immagine ridimensionata
 
-`Bitmap.Save` persiste il bitmap in memoria su un file nel formato dedotto dall’estensione del file.  
-Salva l’immagine ridimensionata nella posizione desiderata. Regola il percorso del file in base alla struttura del tuo progetto. Questo passaggio mostra come **save scaled image** in formati comuni come PNG.
+`Bitmap.Save` scrive il bitmap in memoria su un file nel formato specificato.  
+Salva l'immagine ridimensionata nella posizione desiderata. Regola il percorso del file in base alla struttura del tuo progetto. Questo passaggio mostra come **salvare immagini ridimensionate** in formati comuni come PNG.
 
 ```csharp
 Rectangle expansionRectangle = new Rectangle(0, 0, image.Width * 5, image.Height * 5);
 graphics.DrawImage(image, expansionRectangle);
 ```
 
-Congratulazioni! Hai imparato con successo **come ridimensionare le immagini** usando Aspose.Drawing per .NET.
+Congratulazioni! Hai imparato con successo **come ridimensionare bitmap c#** usando Aspose.Drawing per .NET.
 
 ## Problemi comuni e soluzioni
 
 - **L'immagine appare sfocata dopo il ridimensionamento** – Assicurati di utilizzare `InterpolationMode.NearestNeighbor` per risultati pixel‑perfect; passa a `Bilinear` o `HighQualityBicubic` per un ridimensionamento più fluido delle fotografie.  
-- **Eccezioni out‑of‑memory su file di grandi dimensioni** – Aspose.Drawing elabora le immagini a tasselli; aumenta la proprietà `MemoryLimit` se devi gestire file superiori a 500 MB.  
-- **Rapporto d'aspetto errato** – Usa lo stesso fattore di scala per larghezza e altezza, o calcola il rettangolo basandoti sul rapporto d'aspetto originale per evitare distorsioni.
+- **Eccezioni out‑of‑memory su file di grandi dimensioni** – Aspose.Drawing elabora le immagini a tasselli; aumenta la proprietà `MemoryLimit` se devi gestire file più grandi di 500 MB.  
+- **Rapporto d'aspetto errato** – Usa lo stesso fattore di scala per larghezza e altezza, oppure calcola il rettangolo in base al rapporto d'aspetto originale per evitare distorsioni.
 
 ## Domande frequenti
 
-**Q: Posso usare Aspose.Drawing per .NET sia in applicazioni web che desktop?**  
-A: Sì, Aspose.Drawing è pienamente compatibile con ASP.NET, ASP.NET Core, WPF, WinForms e applicazioni console.
+**D: Posso usare Aspose.Drawing per .NET sia in applicazioni web che desktop?**  
+R: Sì, Aspose.Drawing è pienamente compatibile con ASP.NET, ASP.NET Core, WPF, WinForms e applicazioni console.
 
-**Q: È disponibile una licenza temporanea per Aspose.Drawing?**  
-A: Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/) per scopi di test e valutazione.
+**D: È disponibile una licenza temporanea per Aspose.Drawing?**  
+R: Sì, è possibile ottenere una licenza temporanea dalla [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) per scopi di test e valutazione.
 
-**Q: Dove posso trovare supporto aggiuntivo per Aspose.Drawing?**  
-A: Per qualsiasi domanda o assistenza, visita il [forum Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
+**D: Dove posso trovare supporto aggiuntivo per Aspose.Drawing?**  
+R: Per qualsiasi domanda o assistenza, visita il [forum di Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
-**Q: Ci sono limitazioni sui formati immagine supportati da Aspose.Drawing?**  
-A: Aspose.Drawing supporta un'ampia gamma di formati, inclusi JPEG, PNG, GIF, BMP, TIFF, WebP e SVG. Vedi l'elenco completo nella [documentazione](https://reference.aspose.com/drawing/net/).
+**D: Ci sono limitazioni sui formati immagine supportati da Aspose.Drawing?**  
+R: Aspose.Drawing supporta un'ampia gamma di formati, inclusi JPEG, PNG, GIF, BMP, TIFF, WebP e SVG. Vedi l'elenco completo nella [documentazione di Aspose.Drawing](https://reference.aspose.com/drawing/net/).
 
-**Q: Posso applicare modalità di interpolazione personalizzate per il ridimensionamento delle immagini?**  
-A: Sì, Aspose.Drawing fornisce le modalità `NearestNeighbor`, `Bilinear`, `Bicubic` e `HighQualityBicubic`, consentendoti di bilanciare velocità e qualità.
+**D: Posso applicare modalità di interpolazione personalizzate per il ridimensionamento delle immagini?**  
+R: Sì, Aspose.Drawing fornisce le modalità `NearestNeighbor`, `Bilinear`, `Bicubic` e `HighQualityBicubic`, consentendoti di bilanciare velocità e qualità.
 
 ## Conclusione
 
-In questo tutorial abbiamo esplorato il flusso di lavoro end‑to‑end per **come ridimensionare le immagini** usando Aspose.Drawing. Ora sai come creare una canvas bitmap, configurare un oggetto graphics, selezionare la modalità di interpolazione ottimale, caricare un’immagine sorgente, disegnarla in un rettangolo ridimensionato e infine persistere il risultato. Sfruttando il **ridimensionamento ad alte prestazioni** di Aspose.Drawing e il **supporto a oltre 30 formati**, puoi costruire pipeline di elaborazione immagini robuste ed efficienti su qualsiasi piattaforma .NET.
-
-Sentiti libero di sperimentare con diverse modalità di interpolazione, elaborare in batch più file in un ciclo, o combinare il ridimensionamento con altre funzionalità di Aspose.Drawing come il watermarking o la conversione dello spazio colore.
+In questo tutorial abbiamo esplorato il flusso di lavoro completo per **come ridimensionare bitmap c#** usando Aspose.Drawing. Ora sai come creare una canvas bitmap, configurare un oggetto graphics, selezionare la modalità di interpolazione ottimale, caricare un'immagine di origine, disegnarla in un rettangolo ridimensionato e infine salvare il risultato. Sfruttando il **ridimensionamento ad alte prestazioni** e il **supporto a oltre 30 formati** di Aspose.Drawing, puoi costruire pipeline di elaborazione immagini robuste che funzionano in modo efficiente su qualsiasi piattaforma .NET. Per ulteriore assistenza, visita il [forum di Aspose.Drawing](https://forum.aspose.com/c/drawing/44).
 
 ---
 
-**Ultimo aggiornamento:** 2026-05-24  
-**Testato con:** Aspose.Drawing 24.11 per .NET  
-**Autore:** Aspose  
+**Ultimo aggiornamento:** 2026-10-08  
+**Testato con:** Aspose.Drawing 24.11 for .NET  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Come ritagliare in batch immagini in PNG con l'API Aspose.Drawing per .NET](/drawing/net/image-editing/cropping/)
+- [Carica, converti BMP in PNG e altri formati con Aspose.Drawing](/drawing/net/image-editing/load-save/)
+- [Come licenziare Aspose.Drawing per .NET – come licenziare aspose.drawing](/drawing/net/licensing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

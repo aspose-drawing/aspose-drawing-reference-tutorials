@@ -1,29 +1,35 @@
 ---
-date: 2026-05-19
-description: เรียนรู้วิธีบันทึก bitmap เป็น PNG ด้วย Aspose.Drawing สำหรับ .NET คู่มือแบบ
-  step‑by‑step นี้จะแสดงวิธีวาด image bitmap, จัดการหลายภาพ, และส่งออกผลลัพธ์อย่างมีประสิทธิภาพ
+date: 2026-10-08
+description: เรียนรู้วิธีบันทึก PNG ด้วย Aspose.Drawing สำหรับ .NET คู่มือแบบขั้นตอนแสดงให้คุณเห็นวิธีวาด
+  image bitmap จัดการหลายภาพ และส่งออกผลลัพธ์อย่างมีประสิทธิภาพ
 keywords:
-- save bitmap as png
+- how to save png
 - draw multiple images
-- convert image to bitmap
-- draw image on canvas
-- aspose.drawing licensing
+- convert image bitmap
+- create bitmap image
+- .net image editing
+lastmod: 2026-10-08
 linktitle: การแสดงภาพใน Aspose.Drawing
+og_description: วิธีบันทึก PNG ด้วย Aspose.Drawing สำหรับ .NET เรียนรู้การวาด image
+  bitmap, จัดการหลายภาพ, และส่งออกไฟล์ PNG อย่างมีประสิทธิภาพ
+og_image_alt: Tutorial showing how to save a bitmap as PNG using Aspose.Drawing API
+  in .NET
+og_title: วิธีบันทึก PNG ด้วย Aspose.Drawing สำหรับ .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
-  description: Learn how to save bitmap as PNG with Aspose.Drawing for .NET. This
-    step‑by‑step guide shows you how to draw an image bitmap, handle multiple images,
-    and export the result efficiently.
-  headline: How to save bitmap as PNG using Aspose.Drawing for .NET
+  dateModified: '2026-10-08'
+  description: Learn how to save PNG with Aspose.Drawing for .NET. This step‑by‑step
+    guide shows you how to draw an image bitmap, handle multiple images, and export
+    the result efficiently.
+  headline: How to save PNG using Aspose.Drawing for .NET
   type: TechArticle
-- description: Learn how to save bitmap as PNG with Aspose.Drawing for .NET. This
-    step‑by‑step guide shows you how to draw an image bitmap, handle multiple images,
-    and export the result efficiently.
-  name: How to save bitmap as PNG using Aspose.Drawing for .NET
+- description: Learn how to save PNG with Aspose.Drawing for .NET. This step‑by‑step
+    guide shows you how to draw an image bitmap, handle multiple images, and export
+    the result efficiently.
+  name: How to save PNG using Aspose.Drawing for .NET
   steps:
   - name: Create a bitmap .NET
-    text: '`Bitmap` represents an image stored in memory as a grid of pixels.'
+    text: '`Bitmap` represents an image stored in memory as a grid of pixels.`'
   - name: Initialize Graphics
     text: '`Graphics` provides drawing methods to render shapes, text, and images
       onto a `Bitmap`.'
@@ -53,7 +59,11 @@ schemas:
     question: Is drawing multiple images possible?
   type: FAQPage
 second_title: Aspose.Drawing .NET API - Alternative to System.Drawing.Common
-title: วิธีบันทึก bitmap เป็น PNG ด้วย Aspose.Drawing สำหรับ .NET
+tags:
+- save bitmap as png
+- Aspose.Drawing
+- .NET image processing
+title: วิธีบันทึก PNG ด้วย Aspose.Drawing สำหรับ .NET
 url: /th/net/image-editing/display/
 weight: 12
 ---
@@ -62,128 +72,123 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึก bitmap เป็น PNG ด้วย Aspose.Drawing
+# บันทึกบิตแมพเป็น PNG ด้วย Aspose.Drawing
 
 ## บทนำ
 
-ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **บันทึก bitmap เป็น PNG** ด้วยไลบรารี Aspose.Drawing สำหรับ .NET ไม่ว่าคุณจะกำลังสร้าง UI บนเดสก์ท็อป, สร้างรายงาน, หรือทำกราฟิกแบบไดนามิก การเชี่ยวชาญเทคนิคนี้จะช่วยให้คุณเรนเดอร์ภาพได้อย่างรวดเร็วและเชื่อถือได้ เราจะอธิบายขั้นตอนทั้งหมด—from การสร้าง bitmap ใน .NET ไปจนถึงการบันทึก PNG สุดท้าย—เพื่อให้คุณสามารถเพิ่มเนื้อหาภาพลงในแอปพลิเคชันของคุณได้ทันที
+ในบทเรียนนี้คุณจะได้เรียนรู้ **วิธีบันทึก png** โดยใช้ไลบรารี Aspose.Drawing สำหรับ .NET ไม่ว่าคุณจะกำลังสร้าง UI บนเดสก์ท็อป, สร้างรายงานอัตโนมัติ, หรือสร้างกราฟิกแบบไดนามิกสำหรับเว็บเซอร์วิส การเชี่ยวชาญกระบวนการนี้จะทำให้คุณเรนเดอร์ภาพได้อย่างรวดเร็ว, เชื่อถือได้, และไม่ต้องพึ่งพาไลบรารีเนทีฟ เราจะเดินผ่านทุกขั้นตอน—from การสร้างบิตแมพใน .NET ไปจนถึงการส่งออก PNG สุดท้าย—เพื่อให้คุณเริ่มเพิ่มเนื้อหาภาพในแอปพลิเคชันของคุณได้ทันที
 
-## คำตอบสั้น
-- **“draw image bitmap” หมายถึงอะไร?** It refers to rendering an image onto a `Bitmap` object using GDI‑like graphics calls.  
-- **ไลบรารีใดจัดการเรื่องนี้?** Aspose.Drawing for .NET provides a fully managed, cross‑platform API.  
-- **ฉันต้องมีลิขสิทธิ์หรือไม่?** Yes, a commercial license (see *aspose.drawing licensing* below) is required for production use.  
-- **ฉันสามารถบันทึกผลลัพธ์เป็น PNG ได้หรือไม่?** Absolutely—use `bitmap.Save(... )` with a `.png` extension.  
-- **สามารถวาดหลายภาพได้หรือไม่?** Yes, you can draw several images on the same canvas (multiple images canvas).
+## คำตอบอย่างรวดเร็ว
+- **“draw image bitmap” หมายถึงอะไร?** หมายถึงการเรนเดอร์ภาพลงบนอ็อบเจ็กต์ `Bitmap` โดยใช้การเรียกกราฟิกแบบคล้าย GDI.  
+- **ไลบรารีใดจัดการสิ่งนี้?** Aspose.Drawing สำหรับ .NET มี API ที่จัดการเต็มรูปแบบและข้ามแพลตฟอร์ม.  
+- **ฉันต้องการใบอนุญาตหรือไม่?** ใช่, จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์ (ดู *aspose.drawing licensing* ด้านล่าง) สำหรับการใช้งานในผลิตภัณฑ์.  
+- **ฉันสามารถบันทึกผลลัพธ์เป็น PNG ได้หรือไม่?** แน่นอน—ใช้ `bitmap.Save(... )` พร้อมส่วนขยาย `.png`.  
+- **สามารถวาดหลายภาพได้หรือไม่?** ได้, คุณสามารถวาดหลายภาพบนแคนวาสเดียวกัน (multiple images canvas).
 
-## “draw image bitmap” คืออะไร?
+## สิ่งที่หมายถึง “draw image bitmap”
 
-การวาด image bitmap หมายถึงการโหลดไฟล์ภาพเข้าสู่หน่วยความจำและวาดลงบนแคนวาส `Bitmap` โดยใช้วัตถุ `Graphics` `Bitmap` จะเก็บข้อมูลพิกเซลที่สามารถแก้ไข, แสดงบนหน้าจอ, หรือบันทึกลงดิสก์ในรูปแบบต่าง ๆ กระบวนการนี้ทำให้สามารถทำการประมวลผลหรือประกอบภาพต่อไปได้
+การวาด image bitmap หมายถึงการโหลดไฟล์ภาพเข้าสู่หน่วยความจำและวาดลงบนแคนวาส `Bitmap` โดยใช้วัตถุ `Graphics` `Bitmap` จะเก็บข้อมูลพิกเซลซึ่งคุณสามารถปรับแต่ง, แสดงผล, หรือบันทึกในรูปแบบต่าง ๆ เช่น PNG การดำเนินการนี้เป็นพื้นฐานของการประกอบภาพใน .NET
 
 ## ทำไมต้องใช้ Aspose.Drawing เพื่อวาด image bitmap?
 
-Aspose.Drawing รองรับ **รูปแบบภาพกว่า 100 แบบ** และสามารถประมวลผลไฟล์ขนาดถึง **2 GB** โดยไม่ต้องโหลดภาพทั้งหมดเข้าสู่หน่วยความจำ ทำให้เหมาะกับกราฟิกความละเอียดสูง มันให้การสนับสนุนแบบข้ามแพลตฟอร์ม, ไม่ต้องพึ่งพาไลบรารีเนทีฟ, และมีระบบลิขสิทธิ์ระดับองค์กร—ทั้งหมดนี้ช่วยให้คุณสร้างแอปพลิเคชัน .NET ที่แข็งแรงได้เร็วขึ้น
+Aspose.Drawing รองรับ **100+ image formats** และสามารถประมวลผลไฟล์ขนาดถึง **2 GB** โดยไม่ต้องโหลดภาพทั้งหมดเข้าสู่หน่วยความจำ ทำให้เหมาะกับกราฟิกความละเอียดสูง การออกแบบแบบข้ามแพลตฟอร์มช่วยขจัดการพึ่งพา DLL เนทีฟ และโมเดลใบอนุญาตระดับองค์กรทำให้คุณได้รับการอัปเดตและการสนับสนุนอย่างมืออาชีพอย่างทันท่วงที
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
-
-- **Aspose.Drawing for .NET** – ดาวน์โหลดได้จาก [here](https://releases.aspose.com/drawing/net/).  
-- สภาพแวดล้อมการพัฒนา **.NET** ที่ทำงานได้ (Visual Studio, VS Code, หรือ .NET CLI).  
-- โฟลเดอร์ที่จะใช้เป็น **document directory** ของคุณสำหรับภาพเข้าและออก.  
+- **Aspose.Drawing for .NET** – ดาวน์โหลดจาก [Aspose.Drawing download page](https://releases.aspose.com/drawing/net/).  
+- สภาพแวดล้อมการพัฒนา .NET (Visual Studio, VS Code, หรือ .NET CLI).  
+- โฟลเดอร์ที่จะใช้เป็นไดเรกทอรีเอกสารของคุณสำหรับภาพเข้าและออก.  
 - ไฟล์ภาพ (เช่น `aspose_logo.png`) ที่คุณต้องการเรนเดอร์.
 
-## วิธีสร้าง bitmap และวาดภาพลงบนมัน
+## วิธีสร้างบิตแมพและวาดภาพลงบนบิตแมพ
 
-`Bitmap` เป็นคลาสที่แสดงถึงแคนวาสภาพภาพแบบพิกเซล  
+`Bitmap` แสดงถึงภาพที่เก็บอยู่ในหน่วยความจำเป็นตารางพิกเซล `Graphics` มีเมธอดสำหรับวาดรูปทรง, ข้อความ, และภาพลงบนบิตแมพ โหลดภาพต้นฉบับของคุณ, สร้างแคนวาส `Bitmap`, วาดภาพด้วย `Graphics.DrawImage`, แล้วเรียก `Save` พร้อมส่วนขยาย `.png` ลำดับสั้นนี้ทำให้กระบวนการ **save bitmap as PNG** เสร็จสมบูรณ์โดยที่ Aspose.Drawing จัดการการสเกล, การแปลงรูปแบบพิกเซล, และความแตกต่างของแพลตฟอร์มโดยอัตโนมัติ
 
-โหลดภาพต้นฉบับของคุณ, สร้างแคนวาส `Bitmap`, วาดภาพด้วย `Graphics.DrawImage`, และสุดท้ายเรียก `Save` ด้วยนามสกุล `.png` ลำดับนี้จะทำให้เวิร์กโฟลว์ **บันทึก bitmap เป็น PNG** เสร็จสมบูรณ์ในไม่กี่บรรทัดของโค้ด, โดยที่ Aspose.Drawing จะจัดการการสเกล, การแปลงรูปแบบพิกเซล, และความแตกต่างของแพลตฟอร์มโดยอัตโนมัติ
+### ขั้นตอนที่ 1: สร้างบิตแมพ .NET
 
-### ขั้นตอนที่ 1: สร้าง bitmap ด้วย .NET
-
-`Bitmap` แสดงถึงภาพที่เก็บอยู่ในหน่วยความจำเป็นตารางของพิกเซล.
-
+`Bitmap` แสดงถึงภาพที่เก็บอยู่ในหน่วยความจำเป็นตารางพิกเซล.  
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
 ### ขั้นตอนที่ 2: เริ่มต้น Graphics
 
-`Graphics` มีเมธอดการวาดเพื่อแสดงรูปทรง, ข้อความ, และภาพลงบน `Bitmap`.
-
+`Graphics` มีเมธอดสำหรับวาดรูปทรง, ข้อความ, และภาพลงบน `Bitmap`.  
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
 ### ขั้นตอนที่ 3: โหลดภาพ
 
-`Image.FromFile` โหลดไฟล์ภาพจากดิสก์เข้าสู่วัตถุ `Image` เพื่อการประมวลผลต่อไป.
-
+`Image.FromFile` โหลดไฟล์ภาพจากดิสก์เข้าสู่วัตถุ `Image` เพื่อการประมวลผลต่อไป.  
 ```csharp
 Bitmap image = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
 ### ขั้นตอนที่ 4: วาดภาพ
 
-`Graphics.DrawImage` วาด `Image` ลงบนพื้นผิวการวาดตามพิกัดที่กำหนด.
-
+`Graphics.DrawImage` วาด `Image` ลงบนพื้นผิวการวาดที่ตำแหน่งพิกัดที่กำหนด.  
 ```csharp
 graphics.DrawImage(image, 0, 0);
 ```
 
 #### ฉันจะวาดหลายภาพบนแคนวาสเดียวได้อย่างไร?
 
-หากคุณต้องการวางภาพมากกว่าหนึ่งภาพ เพียงเรียก `DrawImage` อีกครั้งด้วยพิกัดหรือขนาดที่ต่างกัน นี้ทำให้คุณสามารถจัดวางเลย์เอาต์ที่ซับซ้อน เช่น โคลงภาพ, ลายน้ำ, หรือรูปย่อ UI.
-
+คุณสามารถเรียก `Graphics.DrawImage` ซ้ำหลายครั้งด้วยพิกัดหรือสี่เหลี่ยมปลายทางที่ต่างกันเพื่อประกอบภาพหลายภาพบนแคนวาสเดียว เทคนิคนี้ทำให้สร้างคอลลาจ, วอเตอร์มาร์ค, และแถบรูปย่อได้โดยไม่ต้องสร้างไฟล์แยกสำหรับแต่ละองค์ประกอบ.  
 ```csharp
 // graphics.DrawImage(secondImage, 200, 150);
 ```
 
-*(บรรทัดเพิ่มเติมนี้แสดงเป็นคอมเมนต์เพื่ออธิบายแนวคิดโดยไม่ต้องเพิ่มบล็อกโค้ดใหม่.)*
+### ขั้นตอนที่ 5: บันทึกผลลัพธ์ – บันทึกบิตแมพเป็น png
 
-### ขั้นตอนที่ 5: บันทึกผลลัพธ์ – บันทึก bitmap เป็น png
-
-`Bitmap.Save` เขียน bitmap ไปยังไฟล์ในรูปแบบภาพที่เลือก.
-
+`Bitmap.Save` เขียนบิตแมพลงไฟล์ในรูปแบบภาพที่เลือก.  
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Display_out.png");
 ```
 
-ตอนนี้คุณได้ **วาด image bitmap** และ **บันทึก bitmap เป็น PNG** อย่างสำเร็จโดยใช้ Aspose.Drawing.
+ตอนนี้คุณได้ **วาด image bitmap** และ **บันทึก bitmap เป็น PNG** ด้วย Aspose.Drawing อย่างสำเร็จ
 
-## ปัญหาที่พบบ่อยและวิธีแก้
-- **ไม่พบเส้นทางภาพ** – ตรวจสอบว่าเครื่องหมายแยกโฟลเดอร์ (`\` หรือ `/`) ตรงกับระบบปฏิบัติการของคุณและไฟล์มีอยู่จริง.  
-- **รูปแบบพิกเซลไม่ตรงกัน** – หากคุณเห็นสีที่ไม่คาดคิด ลองใช้ `PixelFormat` อื่น เช่น `Format24bppRgb`.  
-- **ข้อผิดพลาดหน่วยความจำเต็ม** – Bitmap ขนาดใหญ่ใช้หน่วยความจำมาก; พิจารณาใช้ขนาดเล็กลงหรือสตรีมภาพ.
+## ปัญหาทั่วไปและวิธีแก้
+- **Image path not found** – ตรวจสอบให้แน่ใจว่าตัวคั่นไดเรกทอรี (`\` หรือ `/`) ตรงกับระบบปฏิบัติการของคุณและไฟล์มีอยู่.  
+- **Pixel format mismatch** – หากสีแสดงไม่ถูกต้อง ลองใช้ `PixelFormat` อื่นเช่น `Format24bppRgb`.  
+- **Out‑of‑memory errors** – บิตแมพขนาดใหญ่ใช้หน่วยความจำมาก; พิจารณาลดขนาดหรือประมวลผลภาพเป็นส่วนย่อย.
 
 ## คำถามที่พบบ่อย
 
 **Q1: ฉันสามารถแสดงหลายภาพบนแคนวาสเดียวโดยใช้ Aspose.Drawing ได้หรือไม่?**  
-**A:** ใช่. โหลดแต่ละภาพเข้าสู่ `Bitmap` ของตนเองและเรียก `Graphics.DrawImage` หลายครั้งด้วยพิกัดที่ต่างกัน.
+**A:** ได้. โหลดแต่ละภาพเข้าสู่ `Bitmap` ของตนเองและเรียก `Graphics.DrawImage` หลายครั้งด้วยพิกัดที่ต่างกัน.
 
 **Q2: Aspose.Drawing รองรับเวอร์ชัน .NET ล่าสุดหรือไม่?**  
-**A:** แน่นอน. Aspose.Drawing มีการอัปเดตเป็นประจำเพื่อรองรับ .NET 5, .NET 6, .NET 7, และเวอร์ชันใหม่ ๆ
+**A:** แน่นอน. Aspose.Drawing มีการอัปเดตเป็นประจำเพื่อสนับสนุน .NET 5, .NET 6, .NET 7, และเวอร์ชันใหม่ ๆ
 
 **Q3: ฉันจะจัดการการสเกลภาพใน Aspose.Drawing อย่างไร?**  
-**A:** ใช้ overload ของ `DrawImage` ที่รับ `Rectangle` ปลายทาง, หรือกำหนด `Graphics.InterpolationMode` เป็น `HighQualityBicubic` เพื่อสเกลที่ราบรื่น.
+**A:** ใช้ overload ของ `DrawImage` ที่รับสี่เหลี่ยมปลายทาง, หรือกำหนด `Graphics.InterpolationMode` เป็น `HighQualityBicubic` เพื่อสเกลที่ราบรื่น.
 
-**Q4: มีข้อพิจารณาด้านลิขสิทธิ์สำหรับการใช้ Aspose.Drawing ในโครงการเชิงพาณิชย์หรือไม่?**  
-**A:** ใช่. ดูข้อมูล **aspose.drawing licensing** บน [purchase page](https://purchase.aspose.com/buy) เพื่อรายละเอียดเกี่ยวกับลิขสิทธิ์ทดลอง, นักพัฒนา, และองค์กร.
+**Q4: มีข้อพิจารณาเรื่องใบอนุญาตสำหรับโครงการเชิงพาณิชย์หรือไม่?**  
+**A:** มี. ดูข้อมูล **aspose.drawing licensing** บน [purchase page](https://purchase.aspose.com/buy) สำหรับรายละเอียดการทดลอง, นักพัฒนา, และใบอนุญาตระดับองค์กร.
 
-**Q5: ฉันจะหาแหล่งช่วยเหลือเมื่อเจอปัญหาหรือมีคำถามเกี่ยวกับ Aspose.Drawing ได้จากที่ไหน?**  
+**Q5: ฉันจะขอความช่วยเหลือเมื่อเจอปัญหาได้จากที่ไหน?**  
 **A:** เยี่ยมชม [Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) เพื่อรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญของ Aspose.
 
-**Q6: ฉันสามารถแปลง bitmap ไปเป็นรูปแบบอื่นเช่น JPEG หรือ BMP ได้หรือไม่?**  
-**A:** เพียงเปลี่ยนนามสกุลไฟล์ในเมธอด `Save` (เช่น `bitmap.Save("output.jpg")`). Aspose.Drawing รองรับรูปแบบเรสเตอร์ทั่วไปทั้งหมด.
+**Q6: ฉันสามารถแปลงบิตแมพเป็นรูปแบบอื่นเช่น JPEG หรือ BMP ได้หรือไม่?**  
+**A:** เพียงเปลี่ยนส่วนขยายไฟล์ในเมธอด `Save` (เช่น `bitmap.Save("output.jpg")`). Aspose.Drawing รองรับรูปแบบเรสเตอร์ทั่วไปทั้งหมด.
 
 ## สรุป
 
-คุณได้เรียนรู้วิธี **บันทึก bitmap เป็น PNG** ด้วย Aspose.Drawing, วิธีจัดการหลายภาพบนแคนวาสเดียว, และการส่งออกผลลัพธ์สำหรับแอปพลิเคชัน .NET ใด ๆ ลองทดลองใช้รูปแบบพิกเซล, ขนาด, และการวาดที่ต่างกันเพื่อเปิดศักยภาพเต็มของ Aspose.Drawing สำหรับรายละเอียดเพิ่มเติม, ดูที่ [official documentation](https://reference.aspose.com/drawing/net/).
+คุณตอนนี้รู้ **วิธีบันทึก png** ด้วย Aspose.Drawing, วิธีวาดหนึ่งหรือหลายภาพบนแคนวาสเดียว, และวิธีส่งออกผลลัพธ์สุดท้ายสำหรับแอปพลิเคชัน .NET ใด ๆ ทดลองกับรูปแบบพิกเซล, ขนาดแคนวาส, และการวาดต่าง ๆ เพื่อเปิดศักยภาพเต็มของ Aspose.Drawing สำหรับรายละเอียดเพิ่มเติมสำรวจ [official documentation](https://reference.aspose.com/drawing/net/).
 
 ---
 
-**อัปเดตล่าสุด:** 2026-05-19  
-**ทดสอบด้วย:** Aspose.Drawing 24.11 for .NET  
-**ผู้เขียน:** Aspose
+**Last Updated:** 2026-10-08  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [โหลด, แปลง BMP เป็น PNG และรูปแบบอื่นด้วย Aspose.Drawing](/drawing/net/image-editing/load-save/)
+- [วิธีสเกลภาพด้วย Aspose.Drawing สำหรับ .NET](/drawing/net/image-editing/scale/)
+- [วิธีตัดภาพเป็น PNG เป็นชุดด้วย Aspose.Drawing API สำหรับ .NET](/drawing/net/image-editing/cropping/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
