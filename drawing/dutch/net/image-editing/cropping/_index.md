@@ -1,48 +1,57 @@
 ---
-date: 2026-05-19
-description: Stapsgewijze tutorial over hoe je afbeeldingen batchgewijs bijsnijdt
-  naar PNG met Aspose.Drawing, het alternatief voor System.Drawing voor .NET‑ontwikkelaars.
+date: 2026-10-13
+description: Leer hoe je afbeeldingen in batch kunt bijsnijden naar PNG met de Aspose.Drawing
+  API, het cross‑platform alternatief voor System.Drawing voor .NET‑ontwikkelaars.
 keywords:
 - how to batch crop
-- crop image to png
-- alternative to system drawing
-- batch image cropping .net
+- crop images to png
+- batch image cropping
+- convert images to png
+- batch crop images
+lastmod: 2026-10-13
 linktitle: Afbeeldingen bijsnijden tutorial – Aspose.Drawing
+og_description: Leer hoe je afbeeldingen in batch snel kunt bijsnijden naar PNG met
+  Aspose.Drawing, het cross‑platform alternatief voor System.Drawing voor .NET‑ontwikkelaars.
+  Volg stap‑voor‑stap instructies om meerdere bestanden efficiënt te verwerken.
+og_image_alt: 'Developer guide: batch crop images to PNG using Aspose.Drawing .NET
+  API'
+og_title: Hoe afbeeldingen in batch bijsnijden naar PNG met Aspose.Drawing voor .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
-  description: Step‑by‑step tutorial on how to batch crop images to PNG using Aspose.Drawing,
-    the alternative to System.Drawing for .NET developers.
-  headline: How to Batch Crop Images to PNG Using Aspose.Drawing for .NET
+  dateModified: '2026-10-13'
+  description: Learn how to batch crop images to PNG using the Aspose.Drawing API,
+    the cross‑platform alternative to System.Drawing for .NET developers.
+  headline: How to batch crop images to PNG using Aspose.Drawing for .NET
   type: TechArticle
-- description: Step‑by‑step tutorial on how to batch crop images to PNG using Aspose.Drawing,
-    the alternative to System.Drawing for .NET developers.
-  name: How to Batch Crop Images to PNG Using Aspose.Drawing for .NET
+- description: Learn how to batch crop images to PNG using the Aspose.Drawing API,
+    the cross‑platform alternative to System.Drawing for .NET developers.
+  name: How to batch crop images to PNG using Aspose.Drawing for .NET
   steps:
-  - name: Create a Bitmap Canvas
+  - name: Create a bitmap canvas
     text: '`Bitmap` is Aspose.Drawing''s in‑memory representation of an image, providing
       pixel‑level access and format control. We start with a blank canvas sized to
       hold the cropped result. Adjust the width and height to match the dimensions
       of the area you plan to extract.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: '`Graphics` is the drawing surface that lets you render shapes, text, or
       other images onto a Bitmap. A `Graphics` object lets us draw onto the canvas.
       The `InterpolationMode` controls how pixel values are calculated during scaling
       or transformation—`NearestNeighbor` works well for sharp edges.'
-  - name: Load the Image to Crop
+  - name: Load the image to crop
     text: '`Image` (or `Bitmap`) loads the source file into memory, ready for manipulation.
       Load the source image. Make sure the path points to an existing file; otherwise
       an exception will be thrown.'
-  - name: Define Source and Destination Rectangles
+  - name: Define source and destination rectangles
     text: '`Rectangle` objects describe the region of the source image to keep and
       where it should be placed on the destination canvas. The `sourceRectangle` tells
       the API which part of the original image to keep. Here we pick the top‑left
       50 × 40 pixel area. By assigning the same rectangle to `destinationRect'
-  - name: Perform the Crop Operation
+  - name: Perform the crop operation
     text: '`Graphics.DrawImage` copies the defined portion of `image` onto our blank
-      `bitmap`. `Graphics.DrawImage` copies the defined portion of `image` onto our
-      blank `bitmap`. This is the core **crop image to PNG** operation.'
-  - name: Save the Cropped Image (Crop Image to PNG)
+      `bitmap`. This is the core **crop image to PNG** operation. The method respects
+      the source rectangle and writes only the selected pixels to the destination
+      bitmap.'
+  - name: Save the cropped image (crop image to PNG)
     text: '`Bitmap.Save` writes the in‑memory bitmap to a file using the specified
       format. Finally, write the canvas to disk as a PNG file. PNG preserves any alpha
       channel and provides lossless quality—ideal for UI assets.'
@@ -66,7 +75,12 @@ schemas:
     question: How can I get support for Aspose.Drawing‑related queries?
   type: FAQPage
 second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Hoe afbeeldingen batchgewijs bijsnijden naar PNG met Aspose.Drawing voor .NET
+tags:
+- batch image cropping
+- Aspose.Drawing
+- .NET image processing
+- PNG conversion
+title: Hoe afbeeldingen in batch bijsnijden naar PNG met Aspose.Drawing voor .NET
 url: /nl/net/image-editing/cropping/
 weight: 10
 ---
@@ -75,43 +89,43 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe batchafbeeldingen bijsnijden naar PNG met Aspose.Drawing voor .NET
+# Hoe afbeeldingen in batch bijsnijden naar PNG met Aspose.Drawing voor .NET
 
-Als je snel, betrouwbaar en op schaal een **crop image to PNG** moet uitvoeren in een .NET‑omgeving, ben je hier op de juiste plek. In deze tutorial lopen we de exacte stappen door om een afbeelding te laden, het bijsnijdgebied te definiëren en het resultaat op te slaan als een PNG‑bestand — allemaal met Aspose.Drawing, een moderne **alternative to System.Drawing** die cross‑platform werkt. Je ziet ook hoe je de single‑image‑flow kunt uitbreiden naar een volledige **batch crop**‑pipeline.
+Als je snel, betrouwbaar en op schaal een **crop image to PNG** wilt uitvoeren in een .NET‑omgeving, ben je hier aan het juiste adres. In deze tutorial lopen we de exacte stappen door om een afbeelding te laden, het bijsnijdgebied te definiëren en het resultaat op te slaan als een PNG‑bestand — allemaal met Aspose.Drawing, een modern **alternative to System.Drawing** dat cross‑platform werkt. Je ziet ook hoe je de single‑image‑flow kunt uitbreiden naar een volledige **batch crop**‑pipeline.
 
 ## Snelle antwoorden
 - **Welke bibliotheek moet ik gebruiken?** Aspose.Drawing for .NET (a full‑featured alternative to System.Drawing.Common)  
-- **Hoe lang duurt de basis‑bijsnijding?** Usually under a second for a single image on a modern CPU  
+- **Hoe lang duurt de basis‑crop?** Usually under a second for a single image on a modern CPU  
 - **Kan ik bijsnijden naar PNG?** Yes – save the cropped bitmap as a PNG file (see Step 6)  
 - **Heb ik een licentie nodig?** A free trial works for development; a commercial license is required for production  
-- **Is batchverwerking mogelijk?** Absolutely – wrap the same steps in a loop to process multiple files  
+- **Is batchverwerking mogelijk?** Absolutely – wrap the same steps in a loop to process multiple files in seconds  
 
-## Hoe batchafbeeldingen bijsnijden naar PNG?
+## Hoe afbeeldingen in batch bijsnijden naar PNG?
 
-Laad elk bronbestand met `new Bitmap(path)`, maak een overeenkomstige lege `Bitmap` voor het bijsnijdgebied, teken de geselecteerde rechthoek met `Graphics.DrawImage`, en roep uiteindelijk `Save("output.png", ImageFormat.Png)` aan. Plaats deze zes regels in een `foreach`‑lus die over een map iterereert en je hebt een complete batch‑crop‑oplossing die tientallen afbeeldingen in seconden verwerkt.
+Laad elk bronbestand met `new Bitmap(path)`, maak een bijpassende lege `Bitmap` voor het bijsnijdgebied, teken de geselecteerde rechthoek met `Graphics.DrawImage`, en roep tenslotte `Save("output.png", ImageFormat.Png)` aan. Plaats deze zes regels in een `foreach`‑lus die over een map itereert en je hebt een complete batch‑crop‑oplossing die tientallen afbeeldingen in enkele seconden verwerkt.
 
 ## Waarom Aspose.Drawing gebruiken voor batch‑bijsnijden?
 
-Aspose.Drawing ondersteunt **3 belangrijke besturingssystemen** (Windows, Linux, macOS) en kan **500‑plus‑pixel afbeeldingen in minder dan 0,5 seconden** verwerken op een typische server‑klasse CPU. De API vermijdt native GDI+‑afhankelijkheden, waardoor je dezelfde code kunt inzetten in containers, Azure App Service, of AWS Lambda zonder extra bibliotheken. De bibliotheek biedt ook **50+ image formats** en **full alpha‑channel preservation**, waardoor het ideaal is voor transparante PNG‑bijsnijding op schaal.
+Aspose.Drawing draait op **Windows, Linux en macOS**, verwerkt **500‑plus‑pixel afbeeldingen in minder dan 0,5 seconden** op een typische server‑klasse CPU, en ondersteunt **50+ image formats** met volledige alpha‑channel‑behoud. Omdat het native GDI+‑afhankelijkheden elimineert, kun je dezelfde code naar containers, Azure App Service of AWS Lambda inzetten zonder extra bibliotheken, wat het ideaal maakt voor grootschalige afbeeldings‑pipelines.
 
 ## Wat is “crop image to PNG”?
 
-De `crop image to PNG`‑operatie haalt een rechthoekig gebied uit een bron‑bitmap en schrijft dat gebied naar een PNG‑bestand. PNG behoudt elk alfa‑kanaal en levert verliesloze compressie, waardoor de resulterende afbeelding ideaal is voor miniaturen, iconen, UI‑assets, of elke situatie waarin kwaliteit en transparantie vereist zijn.
+De `crop image to PNG`‑operatie haalt een rechthoekig gebied uit een bron‑bitmap en schrijft dat gebied naar een PNG‑bestand. PNG behoudt elk alpha‑kanaal en levert verliesloze compressie, waardoor de resulterende afbeelding ideaal is voor miniaturen, iconen, UI‑assets of elke situatie waarin kwaliteit en transparantie vereist zijn.
 
 ## Waarom Aspose.Drawing een alternatief is voor System.Drawing?
 
-Aspose.Drawing fungeert als een drop‑in‑vervanging voor System.Drawing door volledige cross‑platform compatibiliteit te bieden, waardoor native GDI+‑bibliotheken overbodig worden. Het ondersteunt een breed scala aan pixel‑formaten, levert hoge‑prestaties bij beeldbewerking, en bevat geavanceerde functies zoals alfa‑kanaal handling en uitgebreide formatondersteuning, waardoor het geschikt is voor zowel eenvoudige bewerkingen als grootschalige batchverwerking.
+Aspose.Drawing fungeert als een drop‑in‑vervanging voor System.Drawing door volledige cross‑platform compatibiliteit te bieden en de noodzaak voor native GDI+‑bibliotheken te elimineren. Het ondersteunt een breed scala aan pixel‑formaten, levert high‑performance beeldbewerking en bevat geavanceerde functies zoals alpha‑channel‑verwerking en uitgebreide formatondersteuning, waardoor het geschikt is voor zowel eenvoudige bewerkingen als grootschalige batchverwerking.
 
-## Vereisten
+## Voorvereisten
 
 Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-- **Aspose.Drawing library** geïntegreerd in je .NET‑project. Je kunt het downloaden [hier](https://releases.aspose.com/drawing/net/).  
+- **Aspose.Drawing library** geïntegreerd in je .NET‑project. Je kunt het downloaden van de [Aspose.Drawing download page](https://releases.aspose.com/drawing/net/).  
 - Een map die de bronafbeeldingen bevat die je wilt bijsnijden. Vervang `"Your Document Directory"` in de code‑fragmenten door het daadwerkelijke pad op je machine.
 
 ## Namespaces importeren
 
-De `System.Drawing`‑namespace geeft ons toegang tot `Bitmap`, `Graphics` en gerelateerde types die Aspose.Drawing uitbreidt.
+De `System.Drawing` namespace geeft ons toegang tot `Bitmap`, `Graphics` en gerelateerde types die Aspose.Drawing uitbreidt.
 
 ```csharp
 using System.Drawing;
@@ -119,7 +133,7 @@ using System.Drawing;
 
 ## Stapsgewijze handleiding
 
-### Stap 1: Maak een Bitmap‑canvas
+### Stap 1: Maak een bitmap‑canvas
 
 `Bitmap` is de in‑memory weergave van een afbeelding in Aspose.Drawing, die pixel‑niveau toegang en format‑controle biedt.  
 
@@ -129,7 +143,7 @@ Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format3
 
 We beginnen met een leeg canvas met de afmetingen die nodig zijn voor het bijgesneden resultaat. Pas de breedte en hoogte aan zodat ze overeenkomen met de afmetingen van het gebied dat je wilt extraheren.
 
-### Stap 2: Maak een Graphics‑object
+### Stap 2: Maak een graphics‑object
 
 `Graphics` is het tekenoppervlak waarmee je vormen, tekst of andere afbeeldingen op een Bitmap kunt renderen.  
 
@@ -138,7 +152,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
 ```
 
-Een `Graphics`‑object stelt ons in staat om op het canvas te tekenen. De `InterpolationMode` bepaalt hoe pixelwaarden worden berekend tijdens schalen of transformaties — `NearestNeighbor` werkt goed voor scherpe randen.
+Een `Graphics`‑object laat ons op het canvas tekenen. De `InterpolationMode` bepaalt hoe pixelwaarden worden berekend tijdens schalen of transformaties — `NearestNeighbor` werkt goed voor scherpe randen.
 
 ### Stap 3: Laad de afbeelding om bij te snijden
 
@@ -152,67 +166,77 @@ Laad de bronafbeelding. Zorg ervoor dat het pad naar een bestaand bestand wijst;
 
 ### Stap 4: Definieer bron‑ en bestemmingsrechthoeken
 
-`Rectangle`‑objecten beschrijven het gebied van de bronafbeelding dat behouden moet blijven en waar het op het bestemmingscanvas moet worden geplaatst.  
+`Rectangle`‑objecten beschrijven het gebied van de bronafbeelding dat behouden moet blijven en waar het op het bestemmingscanvas geplaatst moet worden.  
 
 ```csharp
 Rectangle sourceRectangle = new Rectangle(0, 0, 50, 40);
 Rectangle destinationRectangle = sourceRectangle;
 ```
 
-De `sourceRectangle` geeft de API aan welk deel van de originele afbeelding behouden moet blijven. Hier kiezen we het boven‑linker gebied van 50 × 40 pixel. Door dezelfde rechthoek toe te wijzen aan `destinationRectangle`, behouden we het bijgesneden gebied in de oorspronkelijke grootte.
+De `sourceRectangle` vertelt de API welk deel van de originele afbeelding behouden moet blijven. Hier kiezen we het boven‑linker gebied van 50 × 40 pixel. Door dezelfde rechthoek toe te wijzen aan `destinationRectangle`, behouden we het bijgesneden gebied in de oorspronkelijke grootte.
 
 ### Stap 5: Voer de bijsnijd‑operatie uit
 
-`Graphics.DrawImage` kopieert het gedefinieerde deel van `image` naar ons lege `bitmap`.  
+`Graphics.DrawImage` kopieert het gedefinieerde gedeelte van `image` naar ons lege `bitmap`.  
 
 ```csharp
 graphics.DrawImage(image, destinationRectangle, sourceRectangle, GraphicsUnit.Pixel);
 ```
 
-`Graphics.DrawImage` kopieert het gedefinieerde deel van `image` naar ons lege `bitmap`. Dit is de kern **crop image to PNG**‑operatie.
+Dit is de kern **crop image to PNG**‑operatie. De methode respecteert de bron‑rechthoek en schrijft alleen de geselecteerde pixels naar de bestemmings‑bitmap.
 
-### Stap 6: Sla de bijgesneden afbeelding op (Crop Image to PNG)
+### Stap 6: Sla de bijgesneden afbeelding op (crop image to PNG)
 
-`Bitmap.Save` schrijft het in‑memory bitmap naar een bestand met het opgegeven formaat.  
+`Bitmap.Save` schrijft de in‑memory bitmap naar een bestand met het opgegeven formaat.  
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"Images\Cropping_out.png");
 ```
 
-Schrijf tenslotte het canvas naar schijf als een PNG‑bestand. PNG behoudt elk alfa‑kanaal en biedt verliesloze kwaliteit — ideaal voor UI‑assets.
+Schrijf tenslotte het canvas naar schijf als een PNG‑bestand. PNG behoudt elk alpha‑kanaal en biedt verliesloze kwaliteit — ideaal voor UI‑assets.
 
-## Hoe batchafbeeldingen bijsnijden in een lus?
+## Hoe afbeeldingen in batch bijsnijden in een lus?
 
-Itereer over elk bestandspad met `foreach (var file in Directory.GetFiles(sourceFolder, "*.png"))`, herhaal Stappen 1‑6 binnen de lus, en sla elk resultaat op in een doelmap. Dit patroon schaalt lineair, kan worden geparallelliseerd met `Parallel.ForEach` voor nog snellere doorvoer, en verwerkt afbeeldingen efficiënt en snel.
+Itereer over elk bestandspad met `foreach (var file in Directory.GetFiles(sourceFolder, "*.png"))`, herhaal Stappen 1‑6 binnen de lus, en sla elk resultaat op in een doelmap. Dit patroon schaalt lineair, kan worden gep paralleliseerd met `Parallel.ForEach` voor nog snellere doorvoer, en verwerkt afbeeldingen efficiënt en snel.
 
 ## Veelvoorkomende valkuilen & tips
 
-- **Pixel format mismatches** – zorg ervoor dat de bronafbeelding en het canvas‑bitmap een compatibel pixel‑formaat delen om kleurschakeringen te voorkomen.  
+- **Pixel format mismatches** – zorg ervoor dat de bronafbeelding en de canvas‑bitmap een compatibel pixel‑formaat delen om kleurverschuivingen te voorkomen.  
 - **Disposal of GDI objects** – wikkel `Bitmap` en `Graphics` in `using`‑statements of roep handmatig `Dispose()` aan; anders kun je onbeheerste resources lekken.  
 - **Coordinate errors** – rechthoekcoördinaten zijn nul‑gebaseerd. Het selecteren van een rechthoek die buiten de grenzen van de bronafbeelding valt, zal een uitzondering veroorzaken.  
 
 ## Veelgestelde vragen
 
 **Q: Kan ik afbeeldingen van elk formaat bijsnijden met Aspose.Drawing?**  
-A: Ja, Aspose.Drawing ondersteunt een breed scala aan formaten (PNG, JPEG, BMP, GIF, TIFF, enz.), zodat je praktisch elk type afbeelding kunt bijsnijden.
+A: Ja, Aspose.Drawing ondersteunt een breed scala aan formaten (PNG, JPEG, BMP, GIF, TIFF, enz.), dus je kunt praktisch elk type afbeelding bijsnijden.
 
 **Q: Zijn er geavanceerde bijsnijdopties beschikbaar?**  
 A: Absoluut. Je kunt `GraphicsPath`, `Matrix`‑transformaties combineren, of de `ImageProcessor`‑klasse gebruiken voor complexere selecties zoals cirkelvormige bijsnijdingen.
 
 **Q: Kan ik meerdere bijsnijdoperaties op één afbeelding toepassen?**  
-A: Ja. Na de eerste bijsnijding kun je het resulterende bitmap hergebruiken als nieuwe bron en het proces herhalen om meerdere bijsnijdingen te ketenen.
+A: Ja. Na de eerste bijsnijding kun je de resulterende bitmap hergebruiken als nieuwe bron en het proces herhalen om meerdere bijsnijdingen te ketenen.
 
 **Q: Is Aspose.Drawing geschikt voor batch‑beeldverwerking?**  
-A: Zeker. De lichte API en het ontbreken van native afhankelijkheden maken het perfect voor het verwerken van grote beeldcollecties op servers.
+A: Zeker. De lichte API en het ontbreken van native afhankelijkheden maken het perfect voor het verwerken van grote afbeeldingscollecties op servers.
 
 **Q: Hoe kan ik ondersteuning krijgen voor Aspose.Drawing‑gerelateerde vragen?**  
-A: Ga naar het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) voor hulp en om contact te maken met de community.
+A: Ga naar het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) om hulp te zoeken en contact te maken met de community.
 
-**Last Updated:** 2026-05-19  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose
+---
+
+**Laatst bijgewerkt:** 2026-10-13  
+**Getest met:** Aspose.Drawing 24.11 for .NET  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Laad, converteer BMP naar PNG en andere formaten met Aspose.Drawing](/drawing/net/image-editing/load-save/)
+- [Hoe Aspose.Drawing voor .NET licentiëren – hoe aspose.drawing licentiëren](/drawing/net/licensing/)
+- [Hoe een rechthoek tekenen – coördinatensysteemtransformatie (pagina‑transformatie) met de Aspose.Drawing API voor .NET](/drawing/net/coordinate-transformations/page-transformation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
