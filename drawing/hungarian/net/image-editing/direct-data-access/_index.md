@@ -1,18 +1,21 @@
 ---
-date: 2026-07-22
+date: 2026-10-18
 description: Ismerje meg, hogyan olvashatja be hatékonyan a pixeleket az Aspose.Drawing
   közvetlen adat-hozzáférésével a .NET környezetben a nagy teljesítményű képfeldolgozáshoz.
+images:
+- /net/image-editing/direct-data-access/og-image.png
 keywords:
 - how to read pixels
 - high performance image processing
-- bulk image watermarking
-lastmod: 2026-07-22
-linktitle: Hogyan olvassuk be a pixeleket közvetlen adat-hozzáféréssel az Aspose.Drawing-ban
-og_description: Hogyan olvassuk be gyorsan a pixeleket az Aspose.Drawing közvetlen
-  adat-hozzáférésével. Ez az útmutató bemutatja a nagy teljesítményű képfeldolgozási
-  technikákat .NET fejlesztők számára.
+- direct data access
+- Aspose.Drawing pixel manipulation
+lastmod: 2026-10-18
+linktitle: Hogyan olvassuk be a pixeleket a Direct Data Access használatával az Aspose.Drawing-ban
+og_description: Ismerje meg, hogyan olvashatja be gyorsan a pixeleket az Aspose.Drawing
+  közvetlen adat-hozzáférésével. Ez az útmutató a .NET fejlesztők számára mutat be
+  nagy teljesítményű képfeldolgozási technikákat.
 og_image_alt: 'Developer guide: Direct pixel access with Aspose.Drawing in .NET'
-og_title: Hogyan olvassuk be a pixeleket – Nagy teljesítményű képfeldolgozás az Aspose.Drawing
+og_title: Hogyan olvassuk be a pixeleket – nagy teljesítményű képfeldolgozás az Aspose.Drawing
   segítségével
 schemas:
 - author: Aspose
@@ -60,7 +63,7 @@ tags:
 - Aspose.Drawing
 - pixel manipulation
 - .NET image editing
-title: Hogyan olvassuk be a pixeleket közvetlen adat-hozzáféréssel az Aspose.Drawing-ban
+title: Hogyan olvassuk be a pixeleket a Direct Data Access használatával az Aspose.Drawing-ban
 url: /hu/net/image-editing/direct-data-access/
 weight: 11
 ---
@@ -69,91 +72,94 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan olvassuk ki a pixeleket közvetlen adat-hozzáféréssel az Aspose.Drawing-ben
+# Hogyan olvassuk a pixeleket közvetlen adat‑hozzáféréssel az Aspose.Drawing‑ban
 
 ## Bevezetés
 
-Ebben az útmutatóban megtudja, **how to read pixels** egy képről, és **direct data access** funkcióival visszaírja a pixel adatokat. A **high performance image processing** közvetlen adat-hozzáféréssel alacsony szintű vezérlést biztosít a pixel pufferek felett, így a képmódosítás gyors és memóriahatékony – tökéletes egyedi szűrők, képelemzés vagy tömeges pixel átalakítások .NET alkalmazásokban.
+Ebben a bemutatóban megtudja, hogyan **hogyan olvassuk a pixeleket** egy képről, és hogyan írja vissza a pixeladatokat az Aspose.Drawing **közvetlen adat‑hozzáférési** funkcióival. A **magas teljesítményű képfeldolgozás** közvetlen adat‑hozzáféréssel alacsony szintű vezérlést biztosít a pixelpufferek felett, így a képmódosítás gyors és memóriahatékony – tökéletes egyedi szűrők, képelemzés vagy tömeges pixeltranszformációk .NET‑alkalmazásokban történő végrehajtásához.
 
 ## Gyors válaszok
-- **Mi a fő módszer a pixelek olvasására?** Használja a `ReadArgb32Pixels`-t egy `Bitmap` példányon.  
-- **Melyik pixel formátum a legalkalmasabb a közvetlen hozzáféréshez?** A `PixelFormat.Format32bppPArgb` 32‑bit ARGB értékeket biztosít előre szorzott alfával.  
-- **Szükségem van licencre az Aspose.Drawing-hez?** Elérhető egy ingyenes próba; licenc szükséges a termelési használathoz.  
-- **Futtathatom ezt a kódot .NET 6+ környezetben?** Igen, az Aspose.Drawing támogatja a .NET 5, .NET 6 és újabb verziókat.  
-- **A művelet szálbiztos?** A különálló bitmap példányokon történő olvasás/írás biztonságos; kerülje el ugyanannak a bitmapnek a szálak közötti megosztását szinkronizáció nélkül.
 
-`ReadArgb32Pixels` beolvassa a teljes ARGB32 pixel puffert egy bitmapből egy egész szám tömbbe.  
-`PixelFormat.Format32bppPArgb` egy 32‑bit pixel formátum előre szorzott alfával.  
-`Bitmap` egy képet képvisel, amely pixel adatok által definiált.
+A `ReadArgb32Pixels` a `Bitmap` egy metódusa, amely kinyeri a teljes ARGB32 pixelpuffert. A `PixelFormat.Format32bppPArgb` egy 32‑bites pixelformátum előre szorzott alfával. A `Bitmap` egy memóriában lévő képet jelöl, amelynek pixeladatai közvetlenül olvashatók vagy írhatók.
 
-## Mi az a Direct Data Access az Aspose.Drawing-ben?
+- **Mi a fő módszer a pixelek olvasásához?** Használja a `ReadArgb32Pixels`‑t egy `Bitmap` példányon.  
+- **Melyik pixelformátum a legalkalmasabb a közvetlen hozzáféréshez?** A `PixelFormat.Format32bppPArgb` 32‑bit ARGB értékeket biztosít előre szorzott alfával.  
+- **Szükségem van licencre az Aspose.Drawing‑hoz?** Egy ingyenes próbaverzió elérhető; licenc szükséges a termelési használathoz.  
+- **Futtathatom ezt a kódot .NET 6+ környezetben?** Igen, az Aspose.Drawing támogatja a .NET 5, .NET 6 és későbbi verziókat.  
+- **A művelet szálbiztos?** A különálló bitmap példányokon végzett olvasás/írás biztonságos; kerülje el ugyanazon bitmap megosztását szálak között szinkronizáció nélkül.
 
-A Direct data access lehetővé teszi, hogy egy bitmap teljes pixel puffert egyetlen hívással lekérje vagy helyettesítse, ezzel megszüntetve a per‑pixel getter/setter metódusok okozta terhelést. Ez a megközelítés beolvas egy ARGB32 egész szám tömböt (`0xAARRGGBB`), amelyet bármilyen .NET logikával manipulálhat, majd egy műveletben visszaírja a módosított tömböt.
+A `ReadArgb32Pixels` beolvassa a teljes ARGB32 pixelpuffert egy bitmap‑ből egy egész tömbbe.  
+A `PixelFormat.Format32bppPArgb` egy 32‑bites pixelformátum előre szorzott alfával.  
+A `Bitmap` egy pixeladatok által definiált képet jelöl.
 
-## Miért használjuk a Direct Data Access-et a High Performance Image Processing-hez?
+## Mi a közvetlen adat‑hozzáférés az Aspose.Drawing‑ban?
 
-Töltsön be egy teljes képet egy kezelt egész szám tömbbe, dolgozzon fel több ezer pixelt vektorizált vagy párhuzamos kóddal, és írja vissza az eredményt csak két API hívással. Ez akár 90 %-kal csökkenti az interop átmeneteket, és lehetővé teszi 10 000 × 10 000‑pixel méretű képek feldolgozását extra ideiglenes pufferek lefoglalása nélkül, valódi magas teljesítményű képfeldolgozást biztosítva.
+A közvetlen adat‑hozzáférés lehetővé teszi, hogy egy bitmap teljes pixelpuffert egyetlen hívással lekérje vagy helyettesítse, ezzel megszüntetve a per‑pixel getter/setter metódusok által okozott terhelést. Ez a megközelítés egy ARGB32 egész tömböt (`0xAARRGGBB`) olvas, amelyet bármilyen .NET logikával módosíthat, majd a módosított tömböt egy műveletben visszaírja.
+
+## Miért használjuk a közvetlen adat‑hozzáférést a magas teljesítményű képfeldolgozáshoz?
+
+Lehetővé teszi, hogy egy képet betöltsön egy kezelt egész tömbbe, milliókat processzáljon pixelben vektorizált vagy párhuzamos kóddal, és az eredményt csak két API‑hívással írja vissza. Ez akár **90 %**‑kal csökkenti az interop átmenetek számát, és lehetővé teszi **10 000 × 10 000‑pixel** méretű képek feldolgozását extra ideiglenes pufferek lefoglalása nélkül, valódi magas teljesítményű képfeldolgozást biztosítva.
 
 ## Gyakori felhasználási esetek
 
-- Egyedi képszűrők építése (szepia, élkiemelés, **apply sepia filter**)  
+- Egyedi képszűrők építése (szépia, élkiemelés, **szépia szűrő alkalmazása**)  
 - Pixel‑szintű statisztikai elemzés végrehajtása számítógépes látás feladatokhoz  
-- Képek színterének konvertálása vagy tömeges színkorrekciók alkalmazása  
-- Miniatűrök generálása vagy **bulk image watermarking** nagy képkészletekhez  
+- Képszínterek konvertálása vagy tömeges színkorrekciók alkalmazása  
+- Miniatűrök generálása vagy **tömeges képvízjel** elhelyezése nagyméretű képkészletekhez  
 
 ## Előfeltételek
 
-- **Aspose.Drawing Library:** Töltse le és hivatkozzon a legújabb Aspose.Drawing for .NET-re a hivatalos oldalról.  
-- **Development Environment:** Bármely .NET IDE (Visual Studio, Rider, VS Code) az Aspose.Drawing NuGet csomaggal telepítve.  
+- **Aspose.Drawing Library:** Töltse le és hivatkozza a legújabb Aspose.Drawing for .NET‑et a hivatalos oldalról.  
+- **Fejlesztői környezet:** Bármely .NET IDE (Visual Studio, Rider, VS Code) az Aspose.Drawing NuGet csomag telepítésével.
 
-A könyvtárat letöltheti [itt](https://releases.aspose.com/drawing/net/).
+A könyvtárat letöltheti [itt](https://releases.aspose.com/drawing/net/). A fő Aspose kiadási oldalt is meglátogathatja [itt](https://releases.aspose.com/).
 
-## Névterek importálása
+## Névtér importálása
 
-Először hozza be a szükséges névteret a hatókörbe, hogy a bitmap osztályok elérhetők legyenek.
+Először hozza be a szükséges névteret a láthatóságba, hogy a bitmap osztályok elérhetők legyenek.
 
 ```csharp
 using System.Drawing;
 ```
 
-## Lépésről‑lépésre útmutató
+## Lépés‑ről‑lépésre útmutató
 
-### 1. lépés: Forráskép betöltése  
+### 1. lépés: a forráskép betöltése  
 
-Először betöltjük a feldolgozni kívánt képet. Cserélje le a helyőrző útvonalat a kép tényleges helyére.
+Először betöltjük a kívánt elemzendő képet. Cserélje le a helyőrző útvonalat a kép tényleges helyére.
 
 ```csharp
 Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-### 2. lépés: Cél‑bitmap létrehozása  
+### 2. lépés: cél‑bitmap létrehozása  
 
-Hozzon létre egy új bitmapet, amely megegyezik a forrás méreteivel, és 32‑bit pixel formátumot használ, amely alkalmas a közvetlen hozzáférésre.
+Hozzon létre egy új bitmapet, amely megegyezik a forrás méreteivel, és 32‑bites pixelformátumot használ, amely alkalmas a közvetlen hozzáférésre.
 
 ```csharp
 Bitmap targetBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### 3. lépés: Pixeladatok olvasása  
+### 3. lépés: pixeladatok olvasása  
 
-Olvassa be a teljes ARGB32 pixel puffert a forrás bitmapből egy egész szám tömbbe. Ez a **how to read pixels** lépés.
+Olvassa be a teljes ARGB32 pixelpuffert a forrás bitmap‑ből egy egész tömbbe. Ez a **hogyan olvassuk a pixeleket** lépés.
 
 ```csharp
 int[] pixels = new int[sourceBitmap.Width * sourceBitmap.Height];
 sourceBitmap.ReadArgb32Pixels(pixels);
 ```
 
-### 4. lépés: Pixeladatok írása  
+### 4. lépés: pixeladatok írása  
 
-Bármilyen opcionális módosítás (pl. szűrő alkalmazása) után írja vissza a pixel tömböt a cél bitmapbe. Ez bemutatja a **how to write pixels** lépést hatékonyan.
+Bármilyen opcionális módosítás (pl. szűrő alkalmazása) után írja vissza a pixel tömböt a cél‑bitmapbe. Ez hatékonyan bemutatja, **hogyan írjuk a pixeleket**.
 
 ```csharp
 targetBitmap.WriteArgb32Pixels(pixels);
 ```
 
-### 5. lépés: Eredmény mentése  
+### 5. lépés: az eredmény mentése  
 
-Mentse a módosított bitmapet a lemezre. Szükség szerint állítsa be a kimeneti útvonalat.
+Mentse el a módosított bitmapet a lemezre. Szükség szerint állítsa be a kimeneti útvonalat.
 
 ```csharp
 targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png");
@@ -162,49 +168,50 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 ## Gyakori problémák és megoldások
 
 | Probléma | Megoldás |
-|----------|----------|
-| **`ArgumentException` a `ReadArgb32Pixels`-nél** | Győződjön meg róla, hogy a forrás bitmap 32‑bit pixel formátumot használ; ellenkező esetben konvertálja először a `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)` segítségével. |
-| **Helytelen színek írás után** | Ellenőrizze, hogy nem módosítja véletlenül az alfa csatornát; tartsa meg a `0xFF` (átlátszatlan) értéket, ha nincs szükség átlátszóságra. |
-| **Teljesítménycsökkenés nagyon nagy képeknél** | Feldarabolhatja a pixel tömböt, vagy használja a `Parallel.For`-t a többmagos kihasználáshoz. A `Parallel.For` egy ciklust párhuzamosan hajt végre több szálon. |
+|-------|----------|
+| **`ArgumentException` a `ReadArgb32Pixels`‑nél** | Győződjön meg arról, hogy a forrás bitmap 32‑bites pixelformátumot használ; ellenkező esetben konvertálja először a `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)`‑val. |
+| **Hibás színek írás után** | Ellenőrizze, hogy nem módosítja véletlenül az alfa csatornát; tartsa meg a `0xFF` (átlátszatlan) értéket, ha nincs szükség átlátszóságra. |
+| **Teljesítménycsökkenés nagyon nagy képeknél** | A pixel tömböt dolgozza fel darabokban, vagy használja a `Parallel.For`‑t a többmagos kihasználáshoz. A `Parallel.For` egy ciklust párhuzamosan futtat több szálon. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**K: Használhatom az Aspose.Drawing-et .NET-hez más .NET keretrendszerekkel?**  
-V: Igen, az Aspose.Drawing működik .NET Framework, .NET Core és .NET 5/6+ környezetekkel.  
+**Q: Használhatom az Aspose.Drawing‑t .NET‑hez más .NET keretrendszerekkel?**  
+A: Igen, az Aspose.Drawing működik .NET Framework, .NET Core és .NET 5/6+ környezetben.  
 
-**K: Elérhető ingyenes próba az Aspose.Drawing-hez?**  
-V: Természetesen—letöltheti a próbaverziót [itt](https://releases.aspose.com/).  
+**Q: Elérhető ingyenes próbaverzió az Aspose.Drawing‑ból?**  
+A: Természetesen—letöltheti a próbaverziót [itt](https://releases.aspose.com/).  
 
-**K: Hogyan kaphatok támogatást az Aspose.Drawing-hez?**  
-V: Látogassa meg az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44) a közösségi segítségért és a hivatalos támogatásért.  
+**Q: Hogyan kaphatok támogatást az Aspose.Drawing‑hoz?**  
+A: Látogassa meg a [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44) a közösségi segítségért és a hivatalos támogatásért.  
 
-**K: Hol találom az Aspose.Drawing dokumentációját?**  
-V: A teljes API referencia elérhető az [Aspose.Drawing dokumentációs oldalon](https://reference.aspose.com/drawing/net/).  
+**Q: Hol találom az Aspose.Drawing dokumentációját?**  
+A: A teljes API‑referencia elérhető a [Aspose.Drawing dokumentációs oldalon](https://reference.aspose.com/drawing/net/).  
 
-**K: Hogyan vásárolhatok licencet az Aspose.Drawing-hez?**  
-V: Licencet vásárolhat közvetlenül az Aspose áruházban [itt](https://purchase.aspose.com/buy).  
+**Q: Hogyan vásárolhatok licencet az Aspose.Drawing‑hoz?**  
+A: Licencet közvetlenül az Aspose áruházból vásárolhat [itt](https://purchase.aspose.com/buy).  
 
-**K: Manipulálhatom a pixel adatokat több szálas környezetben?**  
-V: Igen, amennyiben minden szál saját bitmap példányon dolgozik, vagy szinkronizálja a megosztott erőforrások hozzáférését.
+**Q: Manipulálhatom a pixel adatokat több szálas környezetben?**  
+A: Igen, amennyiben minden szál saját bitmap példányon dolgozik, vagy szinkronizálja a megosztott erőforrások hozzáférését.
 
-## Következtetés
+## Összegzés
 
-Most már megtanulta, hogyan **read pixels** egy bitmapből, hogyan manipulálja az ARGB32 tömböt, és hogyan **write pixel data** vissza az Aspose.Drawing Direct Data Access segítségével. Ez a megközelítés lehetővé teszi a **high performance image processing**-et egyedi szűrők, pixel‑szintű elemzés és tömeges átalakítások számára .NET alkalmazásaiban.
+Most már megtanulta, **hogyan olvassa a pixeleket** egy bitmapből, hogyan manipulálja az ARGB32 tömböt, és **hogyan írja vissza a pixeladatokat** az Aspose.Drawing közvetlen adat‑hozzáférésével. Ez a megközelítés **magas teljesítményű képfeldolgozást** tesz lehetővé egyedi szűrők, pixel‑szintű elemzés és tömeges transzformációk számára .NET‑alkalmazásaiban.
 
 ---
 
-**Legutóbb frissítve:** 2026-07-22  
-**Tesztelve ezzel:** Aspose.Drawing latest for .NET  
+**Utoljára frissítve:** 2026-10-18  
+**Tesztelve a következővel:** Aspose.Drawing 24.12 for .NET (latest)  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+## Kapcsolódó bemutatók
 
-## Kapcsolódó oktatóanyagok
-
-- [Hogyan méretezzen képet veszteség nélkül – Képszerkesztés az Aspose.Drawing segítségével](/drawing/net/image-editing/)
-- [Hogyan méretezzen képeket az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/scale/)
-- [Hogyan vágjon le egy képet PNG-re az Aspose.Drawing for .NET használatával](/drawing/net/image-editing/cropping/)
+- [Hogyan méretezzen képet veszteség nélkül – Képszerkesztés az Aspose.Drawing‑dal](/drawing/net/image-editing/)
+- [Hogyan méretezzen képeket az Aspose.Drawing for .NET‑tel](/drawing/net/image-editing/scale/)
+- [Hogyan vágjon le képet PNG‑re az Aspose.Drawing for .NET‑tel](/drawing/net/image-editing/cropping/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
