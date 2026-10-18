@@ -1,18 +1,21 @@
 ---
-date: 2026-07-22
-description: Aspose.Drawing'in direct data access özelliğini kullanarak .NET'te yüksek
-  performanslı görüntü işleme için pikselleri verimli bir şekilde okumayı öğrenin.
+date: 2026-10-18
+description: Aspose.Drawing'in direct data access'ini kullanarak .NET'te high performance
+  image processing için pikselleri verimli bir şekilde okumayı öğrenin.
+images:
+- /net/image-editing/direct-data-access/og-image.png
 keywords:
 - how to read pixels
 - high performance image processing
-- bulk image watermarking
-lastmod: 2026-07-22
+- direct data access
+- Aspose.Drawing pixel manipulation
+lastmod: 2026-10-18
 linktitle: Aspose.Drawing'de Direct Data Access ile Pikselleri Okuma
-og_description: Aspose.Drawing'in direct data access özelliğini kullanarak pikselleri
-  hızlı bir şekilde okumayı öğrenin. Bu kılavuz, .NET geliştiricileri için yüksek
-  performanslı görüntü işleme tekniklerini gösterir.
+og_description: Aspose.Drawing'in direct data access'ini kullanarak pikselleri hızlı
+  bir şekilde okumayı öğrenin. Bu rehber, .NET geliştiricileri için high performance
+  image processing tekniklerini gösterir.
 og_image_alt: 'Developer guide: Direct pixel access with Aspose.Drawing in .NET'
-og_title: Pikselleri Okuma – Aspose.Drawing ile Yüksek Performanslı Görüntü İşleme
+og_title: Pikselleri Okuma – Aspose.Drawing ile high performance image processing
 schemas:
 - author: Aspose
   dateModified: '2026-07-22'
@@ -68,46 +71,49 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing'da Doğrudan Veri Erişimi ile Pikselleri Okuma
+# Aspose.Drawing'de doğrudan veri erişimiyle pikselleri okuma
 
 ## Giriş
 
-Bu öğreticide, bir görüntüden **pikselleri nasıl okuyacağınızı** ve Aspose.Drawing'in **doğrudan veri erişimi** özelliklerini kullanarak piksel verilerini geri yazmayı keşfedeceksiniz. **Yüksek performanslı görüntü işleme**'yi doğrudan veri erişimiyle kullanmak, piksel tamponları üzerinde düşük seviyeli kontrol sağlar, görüntü manipülasyonunu hızlı ve bellek‑verimli hâle getirir—özelleştirilmiş filtreler, görüntü analizi veya .NET uygulamalarında toplu piksel dönüşümleri için mükemmeldir.
+Bu öğreticide bir görüntüden **pikselleri nasıl okuyacağınızı** keşfedecek ve Aspose.Drawing'in **doğrudan veri erişimi** özelliklerini kullanarak piksel verilerini geri yazacaksınız. **Yüksek performanslı görüntü işleme**'yi doğrudan veri erişimiyle kullanmak, piksel tamponları üzerinde düşük seviyeli kontrol sağlar, görüntü manipülasyonunu hızlı ve bellek‑verimli hâle getirir—özel filtreler, görüntü analizi veya .NET uygulamalarında toplu piksel dönüşümleri için mükemmeldir.
 
-## Hızlı Yanıtlar
-- **Pikselleri okumak için birincil yöntem nedir?** `Bitmap` örneği üzerinde `ReadArgb32Pixels` kullanın.  
+## Hızlı cevaplar
+
+`ReadArgb32Pixels`, `Bitmap`'in tam ARGB32 piksel tamponunu çıkaran bir yöntemdir. `PixelFormat.Format32bppPArgb` önceden çarpılmış alfa içeren 32‑bit piksel formatıdır. `Bitmap`, piksel verileri doğrudan okunup yazılabilen bellek içi bir görüntüyü temsil eder.
+
+- **Pikselleri okumanın birincil yöntemi nedir?** `ReadArgb32Pixels` metodunu bir `Bitmap` örneği üzerinde kullanın.  
 - **Doğrudan erişim için en uygun piksel formatı hangisidir?** `PixelFormat.Format32bppPArgb`, önceden çarpılmış alfa ile 32‑bit ARGB değerleri sağlar.  
-- **Aspose.Drawing için lisansa ihtiyacım var mı?** Ücretsiz bir deneme mevcuttur; üretim kullanımı için bir lisans gereklidir.  
+- **Aspose.Drawing için lisansa ihtiyacım var mı?** Ücretsiz bir deneme sürümü mevcuttur; üretim kullanımı için lisans gereklidir.  
 - **Bu kodu .NET 6+ üzerinde çalıştırabilir miyim?** Evet, Aspose.Drawing .NET 5, .NET 6 ve sonrasını destekler.  
-- **İşlem çok iş parçacıklı (thread‑safe) mi?** Ayrı bitmap örnekleri üzerinde okuma/yazma güvenlidir; aynı bitmap'i senkronizasyon olmadan birden fazla iş parçacığı arasında paylaşmaktan kaçının.
+- **İşlem çoklu iş parçacığı güvenli mi?** Ayrı bitmap örnekleri üzerinde okuma/yazma güvenlidir; aynı bitmap'i senkronizasyon olmadan birden fazla iş parçacığı arasında paylaşmaktan kaçının.
 
-`ReadArgb32Pixels` bir bitmap'ten tüm ARGB32 piksel tamponunu bir tamsayı dizisine okur.  
-`PixelFormat.Format32bppPArgb` önceden çarpılmış alfa içeren 32‑bit bir piksel formatıdır.  
+`ReadArgb32Pixels` tüm ARGB32 piksel tamponunu bir bitmap'ten tamsayı dizisine okur.  
+`PixelFormat.Format32bppPArgb` önceden çarpılmış alfa içeren 32‑bit piksel formatıdır.  
 `Bitmap`, piksel verileriyle tanımlanan bir görüntüyü temsil eder.
 
-## Aspose.Drawing'da Doğrudan Veri Erişimi Nedir?
+## Aspose.Drawing'de doğrudan veri erişimi nedir?
 
-Doğrudan veri erişimi, bir bitmap'in tüm piksel tamponunu tek bir çağrıda almanıza veya değiştirmenize olanak tanır, piksel başına getter/setter yöntemlerinin getirdiği ek yükü ortadan kaldırır. Bu yaklaşım, herhangi bir .NET mantığıyla manipüle edebileceğiniz bir ARGB32 tamsayı dizisini (`0xAARRGGBB`) okur ve ardından değiştirilmiş diziyi tek bir işlemle geri yazar.
+Doğrudan veri erişimi, bir bitmap'in tüm piksel tamponunu tek bir çağrıyla almanıza veya değiştirmenize olanak tanır, piksel başına getter/setter metodlarının getirdiği ek yükü ortadan kaldırır. Bu yaklaşım, bir ARGB32 tamsayı dizisi (`0xAARRGGBB`) okur; bu diziyi herhangi bir .NET mantığıyla işleyebilir ve ardından değiştirilmiş diziyi tek bir işlemde geri yazar.
 
-## Yüksek Performanslı Görüntü İşleme için Doğrudan Veri Erişimini Neden Kullanmalısınız?
+## Yüksek performanslı görüntü işleme için neden doğrudan veri erişimi kullanılmalı?
 
-Bir görüntüyü tamamen yönetilen bir tamsayı dizisine yükleyin, binlerce pikseli vektörleştirilmiş veya paralel kodla işleyin ve sonucu sadece iki API çağrısıyla geri yazın. Bu, interop geçişlerini %90'a kadar azaltır ve ek geçici tamponlar ayırmadan 10.000 × 10.000 piksel görüntülerin işlenmesini sağlar, gerçek yüksek performanslı görüntü işleme sunar.
+Bu, bir görüntüyü yönetilen bir tamsayı dizisine yüklemenizi, milyonlarca pikseli vektörleştirilmiş veya paralel kodla işlemenizi ve sonucu yalnızca iki API çağrısıyla geri yazmanızı sağlar. Bu, interop geçişlerini **%90** kadar azaltır ve ek geçici tamponlar ayırmadan **10.000 × 10.000 piksel** görüntüleri işlemeyi mümkün kılar, gerçek yüksek‑performanslı görüntü işleme sunar.
 
-## Yaygın Kullanım Senaryoları
+## Yaygın kullanım senaryoları
 
-- Özelleştirilmiş görüntü filtreleri oluşturma (sepia, kenar algılama, **sepia filtresi uygula**)  
-- Bilgisayarlı görü görevleri için piksel‑düzeyinde istatistiksel analiz gerçekleştirme  
+- Özel görüntü filtreleri oluşturma (sepia, kenar tespiti, **apply sepia filter**)  
+- Bilgisayarlı görü görevleri için piksel‑seviyesinde istatistiksel analiz yapma  
 - Görüntü renk uzaylarını dönüştürme veya toplu renk düzeltmeleri uygulama  
-- Büyük görüntü toplulukları için **toplu görüntü filigranı ekleme** veya küçük resimler oluşturma  
+- Küçük önizlemeler oluşturma veya **bulk image watermarking** için büyük görüntü topluluklarında filigran ekleme  
 
 ## Önkoşullar
 
-- **Aspose.Drawing Kütüphanesi:** Resmi siteden en son Aspose.Drawing for .NET'i indirin ve referans gösterin.  
-- **Geliştirme Ortamı:** Aspose.Drawing NuGet paketi yüklü herhangi bir .NET IDE (Visual Studio, Rider, VS Code).  
+- **Aspose.Drawing Library:** Resmi siteden en son Aspose.Drawing for .NET'i indirin ve referans olarak ekleyin.  
+- **Development environment:** Aspose.Drawing NuGet paketi yüklü herhangi bir .NET IDE (Visual Studio, Rider, VS Code).
 
-Kütüphaneyi [buradan](https://releases.aspose.com/drawing/net/) indirebilirsiniz.
+Kütüphaneyi [buradan](https://releases.aspose.com/drawing/net/) indirebilirsiniz. Ayrıca ana Aspose sürüm sayfasını [buradan](https://releases.aspose.com/) ziyaret edebilirsiniz.
 
-## Ad Alanlarını İçe Aktarma
+## Ad alanlarını içe aktar
 
 İlk olarak, bitmap sınıflarının kullanılabilir olması için gerekli ad alanını kapsam içine getirin.
 
@@ -115,17 +121,17 @@ Kütüphaneyi [buradan](https://releases.aspose.com/drawing/net/) indirebilirsin
 using System.Drawing;
 ```
 
-## Adım‑Adım Kılavuz
+## Adım adım kılavuz
 
-### Adım 1: Kaynak Görüntüyü Yükle  
+### Adım 1: kaynak görüntüyü yükle  
 
-İlk olarak analiz etmek istediğiniz görüntüyü yüklüyoruz. Yer tutucu yolu, görüntü dosyanızın gerçek konumuyla değiştirin.
+Analiz etmek istediğiniz görüntüyü yükleyerek başlıyoruz. Yer tutucu yolu, görüntü dosyanızın gerçek konumuyla değiştirin.
 
 ```csharp
 Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-### Adım 2: Hedef Bitmap Oluştur  
+### Adım 2: hedef bitmap oluştur  
 
 Kaynak boyutlarıyla aynı olan ve doğrudan erişim için uygun 32‑bit piksel formatı kullanan yeni bir bitmap oluşturun.
 
@@ -133,7 +139,7 @@ Kaynak boyutlarıyla aynı olan ve doğrudan erişim için uygun 32‑bit piksel
 Bitmap targetBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Adım 3: Piksel Verilerini Oku  
+### Adım 3: piksel verilerini oku  
 
 Kaynak bitmap'ten tüm ARGB32 piksel tamponunu bir tamsayı dizisine okuyun. Bu, **pikselleri nasıl okuyacağınız** adımıdır.
 
@@ -142,15 +148,15 @@ int[] pixels = new int[sourceBitmap.Width * sourceBitmap.Height];
 sourceBitmap.ReadArgb32Pixels(pixels);
 ```
 
-### Adım 4: Piksel Verilerini Yaz  
+### Adım 4: piksel verilerini yaz  
 
-İsteğe bağlı herhangi bir manipülasyondan (ör. bir filtre uygulama) sonra, piksel dizisini hedef bitmap'e geri yazın. Bu, **pikselleri nasıl yazacağınız**ı verimli bir şekilde gösterir.
+İsteğe bağlı herhangi bir manipülasyondan (ör. bir filtre uygulama) sonra, piksel dizisini hedef bitmap'e geri yazın. Bu, **pikselleri nasıl yazacağınız** verimli bir şekilde gösterir.
 
 ```csharp
 targetBitmap.WriteArgb32Pixels(pixels);
 ```
 
-### Adım 5: Sonucu Kaydet  
+### Adım 5: sonucu kaydet  
 
 Değiştirilmiş bitmap'i diske kaydedin. Çıktı yolunu gerektiği gibi ayarlayın.
 
@@ -158,53 +164,53 @@ Değiştirilmiş bitmap'i diske kaydedin. Çıktı yolunu gerektiği gibi ayarla
 targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png");
 ```
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Çözüm |
 |-------|----------|
-| **`ReadArgb32Pixels` üzerinde `ArgumentException`** | Kaynak bitmap'in 32‑bit piksel formatı kullandığından emin olun; aksi takdirde, önce `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)` ile dönüştürün. |
+| **`ReadArgb32Pixels` üzerindeki `ArgumentException`** | Kaynak bitmap'in 32‑bit piksel formatı kullandığından emin olun; aksi takdirde, önce `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)` ile dönüştürün. |
 | **Yazma sonrası hatalı renkler** | Alfa kanalını istemeden değiştirmediğinizden emin olun; şeffaflığa ihtiyacınız yoksa `0xFF` (opak) değerini koruyun. |
-| **Çok büyük görüntülerde performans gecikmesi** | Piksel dizisini parçalar halinde işleyin veya çoklu çekirdeklerden yararlanmak için `Parallel.For` kullanın. `Parallel.For`, döngüyü birden fazla iş parçacığı üzerinde paralel olarak yürütür. |
+| **Çok büyük görüntülerde performans gecikmesi** | Piksel dizisini parçalar halinde işleyin veya çok çekirdekten yararlanmak için `Parallel.For` kullanın. `Parallel.For`, bir döngüyü birden fazla iş parçacığında paralel olarak yürütür. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Drawing'ı .NET ile diğer .NET çerçevelerinde kullanabilir miyim?**  
-C: Evet, Aspose.Drawing .NET Framework, .NET Core ve .NET 5/6+ ile çalışır.
+**Q: Aspose.Drawing'i .NET ile diğer .NET çerçevelerinde kullanabilir miyim?**  
+A: Evet, Aspose.Drawing .NET Framework, .NET Core ve .NET 5/6+ ile çalışır.
 
-**S: Aspose.Drawing için ücretsiz bir deneme mevcut mu?**  
-C: Kesinlikle—deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**Q: Aspose.Drawing için ücretsiz bir deneme sürümü mevcut mu?**  
+A: Kesinlikle—deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
-**S: Aspose.Drawing için destek nasıl alabilirim?**  
-C: Topluluk yardımı ve resmi destek için [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) adresini ziyaret edin.
+**Q: Aspose.Drawing için nasıl destek alabilirim?**  
+A: Topluluk yardımı ve resmi destek için [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) adresini ziyaret edin.
 
-**S: Aspose.Drawing dokümantasyonunu nerede bulabilirim?**  
-C: Tam API referansı [Aspose.Drawing dokümantasyon sitesi](https://reference.aspose.com/drawing/net/) adresinde mevcuttur.
+**Q: Aspose.Drawing belgelerini nerede bulabilirim?**  
+A: Tam API referansı [Aspose.Drawing dokümantasyon sitesinde](https://reference.aspose.com/drawing/net/) mevcuttur.
 
-**S: Aspose.Drawing için lisans nasıl satın alabilirim?**  
-C: Lisansı doğrudan Aspose mağazasından [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+**Q: Aspose.Drawing için lisans nasıl satın alınır?**  
+A: Lisansı doğrudan Aspose mağazasından [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-**S: Çok iş parçacıklı bir ortamda piksel verilerini manipüle edebilir miyim?**  
-C: Evet, her iş parçacığı kendi bitmap örneği üzerinde çalıştığı sürece veya paylaşılan kaynaklara erişimi senkronize ettiğiniz sürece.
+**Q: Piksel verilerini çok iş parçacıklı bir ortamda manipüle edebilir miyim?**  
+A: Evet, her iş parçacığı kendi bitmap örneği üzerinde çalıştığı sürece veya paylaşılan kaynaklara erişimi senkronize ettiğiniz sürece.
 
 ## Sonuç
 
-Artık bir bitmap'ten **pikselleri nasıl okuyacağınızı**, ARGB32 dizisini nasıl manipüle edeceğinizi ve Aspose.Drawing'in doğrudan veri erişimiyle **piksel verilerini** nasıl geri yazacağınızı öğrendiniz. Bu yaklaşım, .NET uygulamalarınızda özelleştirilmiş filtreler, piksel‑düzeyinde analiz ve toplu dönüşümler için **yüksek performanslı görüntü işleme**yi mümkün kılar.
+Artık bir bitmap'ten **pikselleri nasıl okuyacağınızı**, ARGB32 dizisini nasıl manipüle edeceğinizi ve Aspose.Drawing'in doğrudan veri erişimiyle **piksel verilerini nasıl geri yazacağınızı** öğrendiniz. Bu yaklaşım, .NET uygulamalarınızda özel filtreler, piksel‑seviyesi analiz ve toplu dönüşümler için **yüksek performanslı görüntü işleme** sağlar.
 
 ---
 
-**Last Updated:** 2026-07-22  
-**Tested With:** Aspose.Drawing latest for .NET  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-10-18  
+**Test Edilen:** Aspose.Drawing 24.12 for .NET (latest)  
+**Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+## İlgili öğreticiler
 
-## İlgili Öğreticiler
-
-- [Kayıpsız Görüntü Ölçekleme – Aspose.Drawing ile Görüntü Düzenleme](/drawing/net/image-editing/)
-- [Aspose.Drawing ile .NET'te Görüntüleri Ölçekleme](/drawing/net/image-editing/scale/)
-- [Aspose.Drawing ile .NET'te Görüntüyü PNG'ye Kırpma](/drawing/net/image-editing/cropping/)
-
+- [Kaybı Olmadan Görüntüyü Ölçeklendirme – Aspose.Drawing ile Görüntü Düzenleme](/drawing/net/image-editing/)
+- [Aspose.Drawing ile .NET için Görüntüleri Ölçeklendirme](/drawing/net/image-editing/scale/)
+- [Aspose.Drawing ile .NET için Görüntüyü PNG'ye Kırpma](/drawing/net/image-editing/cropping/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,19 +1,21 @@
 ---
-date: 2026-07-22
-description: Aprenda cómo leer píxeles de manera eficiente utilizando el acceso directo
-  a datos de Aspose.Drawing para el procesamiento de imágenes de alto rendimiento
-  en .NET.
+date: 2026-10-18
+description: Aprenda cómo leer píxeles de forma eficiente utilizando el direct data
+  access de Aspose.Drawing para high performance image processing en .NET.
+images:
+- /net/image-editing/direct-data-access/og-image.png
 keywords:
 - how to read pixels
 - high performance image processing
-- bulk image watermarking
-lastmod: 2026-07-22
-linktitle: Cómo leer píxeles con acceso directo a datos en Aspose.Drawing
-og_description: Cómo leer píxeles rápidamente usando el acceso directo a datos de
-  Aspose.Drawing. Esta guía muestra técnicas de procesamiento de imágenes de alto
-  rendimiento para desarrolladores .NET.
+- direct data access
+- Aspose.Drawing pixel manipulation
+lastmod: 2026-10-18
+linktitle: Cómo leer píxeles con Direct Data Access en Aspose.Drawing
+og_description: Aprenda cómo leer píxeles rápidamente utilizando el direct data access
+  de Aspose.Drawing. Esta guía muestra técnicas de high performance image processing
+  para desarrolladores .NET.
 og_image_alt: 'Developer guide: Direct pixel access with Aspose.Drawing in .NET'
-og_title: Cómo leer píxeles – Procesamiento de imágenes de alto rendimiento con Aspose.Drawing
+og_title: Cómo leer píxeles – high performance image processing con Aspose.Drawing
 schemas:
 - author: Aspose
   dateModified: '2026-07-22'
@@ -60,7 +62,7 @@ tags:
 - Aspose.Drawing
 - pixel manipulation
 - .NET image editing
-title: Cómo leer píxeles con acceso directo a datos en Aspose.Drawing
+title: Cómo leer píxeles con Direct Data Access en Aspose.Drawing
 url: /es/net/image-editing/direct-data-access/
 weight: 11
 ---
@@ -73,44 +75,47 @@ weight: 11
 
 ## Introducción
 
-En este tutorial descubrirá **cómo leer píxeles** de una imagen y escribir los datos de píxeles de vuelta usando las funciones de **acceso directo a datos** de Aspose.Drawing. Aprovechar el **procesamiento de imágenes de alto rendimiento** con acceso directo a datos le brinda control a bajo nivel sobre los buffers de píxeles, haciendo que la manipulación de imágenes sea rápida y eficiente en memoria—perfecta para filtros personalizados, análisis de imágenes o transformaciones masivas de píxeles en aplicaciones .NET.
+En este tutorial descubrirá **cómo leer píxeles** de una imagen y escribir los datos de píxeles de nuevo usando las características de **acceso directo a datos** de Aspose.Drawing. Aprovechar el **procesamiento de imágenes de alto rendimiento** con acceso directo a datos le brinda control de bajo nivel sobre los búferes de píxeles, haciendo que la manipulación de imágenes sea rápida y eficiente en memoria—perfecta para filtros personalizados, análisis de imágenes o transformaciones masivas de píxeles en aplicaciones .NET.
 
 ## Respuestas rápidas
-- **¿Cuál es el método principal para leer píxeles?** Use `ReadArgb32Pixels` on a `Bitmap` instance.  
-- **¿Qué formato de píxel funciona mejor para acceso directo?** `PixelFormat.Format32bppPArgb` provides 32‑bit ARGB values with premultiplied alpha.  
-- **¿Necesito una licencia para Aspose.Drawing?** A free trial is available; a license is required for production use.  
-- **¿Puedo ejecutar este código en .NET 6+?** Yes, Aspose.Drawing supports .NET 5, .NET 6, and later.  
-- **¿La operación es segura para subprocesos?** Read/write on separate bitmap instances is safe; avoid sharing the same bitmap across threads without synchronization.
 
-`ReadArgb32Pixels` lee todo el buffer de píxeles ARGB32 de un bitmap en una matriz de enteros.  
-`PixelFormat.Format32bppPArgb` es un formato de píxel de 32 bits con alfa premultiplicada.  
+`ReadArgb32Pixels` es un método de `Bitmap` que extrae el búfer completo de píxeles ARGB32. `PixelFormat.Format32bppPArgb` es un formato de píxel de 32 bits con alfa premultiplicada. `Bitmap` representa una imagen en memoria cuyos datos de píxeles pueden leerse o escribirse directamente.
+
+- **¿Cuál es el método principal para leer píxeles?** Utilice `ReadArgb32Pixels` en una instancia de `Bitmap`.  
+- **¿Qué formato de píxel funciona mejor para acceso directo?** `PixelFormat.Format32bppPArgb` proporciona valores ARGB de 32 bits con alfa premultiplicada.  
+- **¿Necesito una licencia para Aspose.Drawing?** Hay una versión de prueba gratuita disponible; se requiere una licencia para uso en producción.  
+- **¿Puedo ejecutar este código en .NET 6+?** Sí, Aspose.Drawing soporta .NET 5, .NET 6 y versiones posteriores.  
+- **¿Es la operación segura para subprocesos?** Leer/escribir en instancias de bitmap separadas es seguro; evite compartir el mismo bitmap entre hilos sin sincronización.
+
+`ReadArgb32Pixels` lee todo el búfer de píxeles ARGB32 de un bitmap a un array de enteros.  
+`PixelFormat.Format32bppPArgb` es un formato de píxel de 32 bits con alfa premultiplicada.  
 `Bitmap` representa una imagen definida por datos de píxeles.
 
 ## ¿Qué es el acceso directo a datos en Aspose.Drawing?
 
-El acceso directo a datos le permite recuperar o reemplazar todo el buffer de píxeles de un bitmap en una sola llamada, eliminando la sobrecarga de los métodos getter/setter por píxel. Este enfoque lee una matriz de enteros ARGB32 (`0xAARRGGBB`) que puede manipular con cualquier lógica .NET, y luego escribe la matriz modificada de vuelta en una operación.
+El acceso directo a datos le permite recuperar o reemplazar todo el búfer de píxeles de un bitmap en una sola llamada, eliminando la sobrecarga de los métodos getter/setter por píxel. Este enfoque lee un array entero ARGB32 (`0xAARRGGBB`) que puede manipular con cualquier lógica .NET, y luego escribe el array modificado de vuelta en una sola operación.
 
 ## ¿Por qué usar acceso directo a datos para procesamiento de imágenes de alto rendimiento?
 
-Cargue una imagen completa en una matriz de enteros administrada, procese miles de píxeles con código vectorizado o paralelo, y escriba el resultado de vuelta en solo dos llamadas API. Esto reduce las transiciones de interop en hasta un 90 % y permite procesar imágenes de 10 000 × 10 000 píxeles sin asignar buffers temporales adicionales, ofreciendo un verdadero procesamiento de imágenes de alto rendimiento.
+Le permite cargar una imagen en un array entero gestionado, procesar millones de píxeles con código vectorizado o paralelo, y escribir el resultado de vuelta en solo dos llamadas a la API. Esto reduce las transiciones de interop en hasta **90 %** y permite procesar imágenes de **10,000 × 10,000 píxeles** sin asignar búferes temporales adicionales, ofreciendo un verdadero procesamiento de imágenes de alto rendimiento.
 
 ## Casos de uso comunes
 
 - Crear filtros de imagen personalizados (sepia, detección de bordes, **aplicar filtro sepia**)  
 - Realizar análisis estadístico a nivel de píxel para tareas de visión por computadora  
-- Convertir espacios de color de la imagen o aplicar correcciones de color masivas  
+- Convertir espacios de color de imágenes o aplicar correcciones de color masivas  
 - Generar miniaturas o **marcas de agua masivas en imágenes** para lotes de imágenes masivos  
 
 ## Requisitos previos
 
-- **Biblioteca Aspose.Drawing:** Descargue y haga referencia a la última versión de Aspose.Drawing para .NET desde el sitio oficial.  
+- **Aspose.Drawing Library:** Descargue y haga referencia a la última versión de Aspose.Drawing para .NET desde el sitio oficial.  
 - **Entorno de desarrollo:** Cualquier IDE .NET (Visual Studio, Rider, VS Code) con el paquete NuGet de Aspose.Drawing instalado.  
 
-Puede descargar la biblioteca [aquí](https://releases.aspose.com/drawing/net/).
+Puede descargar la biblioteca [aquí](https://releases.aspose.com/drawing/net/). También puede visitar la página principal de lanzamientos de Aspose [aquí](https://releases.aspose.com/).
 
 ## Importar espacios de nombres
 
-Primero, importe el espacio de nombres requerido para que las clases de bitmap estén disponibles.
+Primero, introduzca el espacio de nombres requerido en el alcance para que las clases de bitmap estén disponibles.
 
 ```csharp
 using System.Drawing;
@@ -118,40 +123,40 @@ using System.Drawing;
 
 ## Guía paso a paso
 
-### Paso 1: Cargar la imagen de origen  
+### Paso 1: cargar la imagen de origen  
 
-Comenzamos cargando la imagen que desea analizar. Reemplace la ruta del marcador de posición con la ubicación real de su archivo de imagen.
+Comenzamos cargando la imagen que desea analizar. Reemplace la ruta de marcador de posición con la ubicación real de su archivo de imagen.
 
 ```csharp
 Bitmap sourceBitmap = new Bitmap("Your Document Directory" + @"Images\aspose_logo.png");
 ```
 
-### Paso 2: Crear un bitmap de destino  
+### Paso 2: crear un bitmap de destino  
 
-Cree un nuevo bitmap que coincida con las dimensiones de origen y use un formato de píxel de 32 bits adecuado para acceso directo.
+Cree un nuevo bitmap que coincida con las dimensiones de origen y use un formato de píxel de 32 bits adecuado para acceso directo.
 
 ```csharp
 Bitmap targetBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Paso 3: Leer datos de píxeles  
+### Paso 3: leer datos de píxeles  
 
-Lea todo el buffer de píxeles ARGB32 del bitmap de origen en una matriz de enteros. Este es el paso de **cómo leer píxeles**.
+Lea todo el búfer de píxeles ARGB32 del bitmap de origen a un array de enteros. Este es el paso de **cómo leer píxeles**.
 
 ```csharp
 int[] pixels = new int[sourceBitmap.Width * sourceBitmap.Height];
 sourceBitmap.ReadArgb32Pixels(pixels);
 ```
 
-### Paso 4: Escribir datos de píxeles  
+### Paso 4: escribir datos de píxeles  
 
-Después de cualquier manipulación opcional (p.ej., aplicar un filtro), escriba la matriz de píxeles de vuelta al bitmap de destino. Esto demuestra **cómo escribir píxeles** de manera eficiente.
+Después de cualquier manipulación opcional (p.ej., aplicar un filtro), escriba el array de píxeles de vuelta al bitmap de destino. Esto demuestra **cómo escribir píxeles** de manera eficiente.
 
 ```csharp
 targetBitmap.WriteArgb32Pixels(pixels);
 ```
 
-### Paso 5: Guardar el resultado  
+### Paso 5: guardar el resultado  
 
 Guarde el bitmap modificado en disco. Ajuste la ruta de salida según sea necesario.
 
@@ -163,41 +168,39 @@ targetBitmap.Save("Your Document Directory" + @"Images\DirectDataAccess_out.png"
 
 | Problema | Solución |
 |----------|----------|
-| **`ArgumentException` en `ReadArgb32Pixels`** | Asegúrese de que el bitmap de origen use un formato de píxel de 32 bits; de lo contrario, conviértalo primero con `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)`. |
+| **`ArgumentException` en `ReadArgb32Pixels`** | Asegúrese de que el bitmap de origen use un formato de píxel de 32 bits; de lo contrario, conviértalo primero con `sourceBitmap.Clone(..., PixelFormat.Format32bppPArgb)`. |
 | **Colores incorrectos después de escribir** | Verifique que no esté modificando involuntariamente el canal alfa; mantenga el valor `0xFF` (opaco) si no necesita transparencia. |
-| **Retraso de rendimiento en imágenes muy grandes** | Procese la matriz de píxeles en fragmentos o use `Parallel.For` para aprovechar múltiples núcleos. `Parallel.For` ejecuta un bucle en paralelo en varios subprocesos. |
+| **Retardo de rendimiento en imágenes muy grandes** | Procese el array de píxeles en fragmentos o use `Parallel.For` para aprovechar múltiples núcleos. `Parallel.For` ejecuta un bucle en paralelo en varios hilos. |
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo usar Aspose.Drawing para .NET con otros frameworks .NET?**  
-R: Sí, Aspose.Drawing funciona con .NET Framework, .NET Core y .NET 5/6+.  
+**Q: ¿Puedo usar Aspose.Drawing para .NET con otros marcos .NET?**  
+A: Sí, Aspose.Drawing funciona con .NET Framework, .NET Core y .NET 5/6+.  
 
-**P: ¿Hay una versión de prueba gratuita disponible para Aspose.Drawing?**  
-R: Absolutamente—descargue una versión de prueba [aquí](https://releases.aspose.com/).  
+**Q: ¿Hay una versión de prueba gratuita disponible para Aspose.Drawing?**  
+A: Por supuesto—descargue una versión de prueba [aquí](https://releases.aspose.com/).  
 
-**P: ¿Cómo puedo obtener soporte para Aspose.Drawing?**  
-R: Visite el [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para obtener ayuda de la comunidad y soporte oficial.  
+**Q: ¿Cómo puedo obtener soporte para Aspose.Drawing?**  
+A: Visite el [Foro de Aspose.Drawing](https://forum.aspose.com/c/drawing/44) para ayuda de la comunidad y soporte oficial.  
 
-**P: ¿Dónde puedo encontrar la documentación de Aspose.Drawing?**  
-R: La referencia completa de la API está disponible en el [sitio de documentación de Aspose.Drawing](https://reference.aspose.com/drawing/net/).  
+**Q: ¿Dónde puedo encontrar la documentación de Aspose.Drawing?**  
+A: La referencia completa de la API está disponible en el [sitio de documentación de Aspose.Drawing](https://reference.aspose.com/drawing/net/).  
 
-**P: ¿Cómo compro una licencia para Aspose.Drawing?**  
-R: Puede comprar una licencia directamente en la tienda de Aspose [aquí](https://purchase.aspose.com/buy).  
+**Q: ¿Cómo compro una licencia para Aspose.Drawing?**  
+A: Puede comprar una licencia directamente en la tienda de Aspose [aquí](https://purchase.aspose.com/buy).  
 
-**P: ¿Puedo manipular datos de píxeles en un entorno multihilo?**  
-R: Sí, siempre que cada subproceso trabaje con su propia instancia de bitmap o sincronice el acceso a recursos compartidos.
+**Q: ¿Puedo manipular datos de píxeles en un entorno multihilo?**  
+A: Sí, siempre que cada hilo trabaje en su propia instancia de bitmap o sincronice el acceso a recursos compartidos.
 
 ## Conclusión
 
-Ahora ha aprendido **cómo leer píxeles** de un bitmap, manipular la matriz ARGB32 y **escribir datos de píxeles** de vuelta usando el acceso directo a datos de Aspose.Drawing. Este enfoque permite **procesamiento de imágenes de alto rendimiento** para filtros personalizados, análisis a nivel de píxel y transformaciones masivas en sus aplicaciones .NET.
+Ahora ha aprendido **cómo leer píxeles** de un bitmap, manipular el array ARGB32 y **escribir datos de píxeles** de vuelta usando el acceso directo a datos de Aspose.Drawing. Este enfoque permite **procesamiento de imágenes de alto rendimiento** para filtros personalizados, análisis a nivel de píxel y transformaciones masivas en sus aplicaciones .NET.
 
 ---
 
-**Última actualización:** 2026-07-22  
-**Probado con:** Aspose.Drawing latest for .NET  
+**Última actualización:** 2026-10-18  
+**Probado con:** Aspose.Drawing 24.12 for .NET (latest)  
 **Autor:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutoriales relacionados
 
@@ -205,7 +208,9 @@ Ahora ha aprendido **cómo leer píxeles** de un bitmap, manipular la matriz ARG
 - [Cómo escalar imágenes con Aspose.Drawing para .NET](/drawing/net/image-editing/scale/)
 - [Cómo recortar una imagen a PNG con Aspose.Drawing para .NET](/drawing/net/image-editing/cropping/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
