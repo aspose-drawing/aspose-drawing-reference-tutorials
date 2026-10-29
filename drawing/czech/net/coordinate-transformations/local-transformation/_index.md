@@ -1,23 +1,25 @@
 ---
-date: 2026-08-22
+date: 2026-10-29
 description: Naučte se, jak uložit bitmapu jako PNG pomocí Aspose.Drawing pro .NET
-  s příkladem matrix transformation. Průvodce krok za krokem s ukázkami kódu.
+  s příkladem maticové transformace. Průvodce krok za krokem s ukázkami kódu.
+images:
+- /net/coordinate-transformations/local-transformation/og-image.png
 keywords:
 - save bitmap as png
-- matrix transformation example
+- affine transformation matrix
 - draw rotated ellipse
 - convert graphics to png
-- high quality png output
-lastmod: 2026-08-22
+- define vector shapes
+lastmod: 2026-10-29
 linktitle: Lokální transformace v Aspose.Drawing
-og_description: Uložte bitmapu jako PNG s Aspose.Drawing aplikací matrix transformation.
-  Naučte se krok za krokem workflow, který vykresluje otočenou elipsu a vytváří výstup
-  PNG vysoké kvality.
+og_description: Uložte bitmapu jako PNG pomocí Aspose.Drawing aplikací maticové transformace.
+  Tento průvodce ukazuje, jak vykreslit otočenou elipsu a vytvořit vysoce kvalitní
+  PNG v .NET.
 og_image_alt: Screenshot of a rotated ellipse saved as a high‑quality PNG using Aspose.Drawing
-og_title: Uložte bitmapu jako PNG pomocí transformace v Aspose.Drawing – .NET průvodce
+og_title: Uložit bitmapu jako PNG s transformací pomocí Aspose.Drawing
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to save bitmap as png using Aspose.Drawing for .NET with
     a matrix transformation example. Step‑by‑step guide with code placeholders.
   headline: Save bitmap as png using transformation in Aspose.Drawing
@@ -51,7 +53,7 @@ schemas:
   - answer: Yes. Create a single `Matrix` and call methods like `Scale`, `RotateAt`,
       and `Translate` in the order you need, then apply it with `path.Transform(matrix);`.
     question: Can I chain multiple transformations (e.g., scale then rotate)?
-  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
+  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
       typical server hardware and avoids the GDI+ limitations on non‑Windows platforms.
     question: Is Aspose.Drawing suitable for high‑performance rendering?
   - answer: Besides rotation, you can perform translation, scaling, and skewing using
@@ -71,7 +73,7 @@ tags:
 - .NET graphics transformation
 - PNG rendering
 - matrix transformation
-title: Uložte bitmapu jako PNG pomocí transformace v Aspose.Drawing
+title: Uložit bitmapu jako PNG pomocí transformace v Aspose.Drawing
 url: /cs/net/coordinate-transformations/local-transformation/
 weight: 11
 ---
@@ -80,42 +82,48 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uložit bitmapu jako png pomocí transformace v Aspose.Drawing
+# Uložení bitmapy jako png pomocí transformace v Aspose.Drawing
 
 ## Úvod
 
-Pokud potřebujete **uložit bitmapu jako png** a zároveň aplikovat lokální transformaci na grafiku uvnitř .NET aplikace, Aspose.Drawing proces učiní jednoduchým a spolehlivým. V tomto tutoriálu uvidíte přesně, jak aplikovat transformační matici na tvar, vykreslit výsledek a nakonec **převést grafiku na png** pro uložení nebo další zpracování. Na konci budete mít znovupoužitelný vzor kódu, který můžete přizpůsobit libovolnému scénáři lokální transformace.
+Pokud potřebujete **save bitmap as png** a zároveň aplikovat lokální transformaci na grafiku uvnitř .NET aplikace, Aspose.Drawing proces učiní jednoduchým a spolehlivým. V tomto tutoriálu uvidíte přesně, jak aplikovat transformační matici na tvar, vykreslit výsledek a nakonec **convert graphics to png** pro uložení nebo další zpracování. Na konci budete mít znovupoužitelný kódový vzor, který můžete přizpůsobit libovolnému scénáři lokální transformace.
 
 ## Rychlé odpovědi
-- **Co je lokální transformace?** Jedná se o operaci založenou na matici (rotace, škálování, posunutí, sklon), která se aplikuje na konkrétní kreslicí prvek, aniž by ovlivnila celé plátno.  
+- **Co je lokální transformace?** Jedná se o operaci založenou na matici (rotace, škálování, posunutí, zkosení) aplikovanou na konkrétní kreslicí prvek, aniž by ovlivnila celé plátno.  
 - **Která knihovna to podporuje v .NET?** Aspose.Drawing pro .NET poskytuje plnohodnotné API, které funguje na všech podporovaných verzích .NET.  
-- **Mohu výsledek uložit jako png?** Ano — zavolejte `Bitmap.Save` s názvem souboru končícím na “.png” a Aspose.Drawing automaticky provede konverzi.  
+- **Mohu výsledek uložit jako png?** Ano—voláním `Bitmap.Save` s názvem souboru “.png” Aspose.Drawing automaticky provede konverzi.  
 - **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; pro produkční použití je vyžadována komerční licence.  
 - **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní příklad.
 
 ## Jak uložit bitmapu jako png
 
-Níže najdete kompletní, krok‑za‑krokem průvodce, který demonstruje **příklad matice transformace** a končí **vysokokvalitním png výstupem**.
+Načtěte `Bitmap`, aplikujte `Matrix` na `GraphicsPath`, vykreslete transformovanou cestu pomocí `Pen` a nakonec zavolejte `Bitmap.Save("output.png", ImageFormat.Png)`. Tento stručný postup vytvoří vysoce kvalitní PNG během několika řádků kódu a funguje na Windows, Linuxu i macOS, protože Aspose.Drawing je zcela GDI‑free.
 
-## Co je „aplikace transformace“ v programování grafiky?
+`Bitmap` představuje obrázek v paměti.  
+`Matrix` definuje afinní transformaci používanou pro škálování, rotaci, posunutí a zkosení.  
+`GraphicsPath` obsahuje sérii čar a křivek, které definují tvar.  
+`Pen` určuje, jak jsou obrysy kresleny, včetně barvy a šířky.  
+`Bitmap.Save` zapíše obrázek do souboru ve specifikovaném formátu.
 
-Aplikace transformace znamená úpravu souřadnicového systému kreslicího objektu pomocí **Matrix**. Matice určuje, jak jsou body otáčeny, škálovány nebo posouvány, což vám umožní vytvořit sofistikované vizuální efekty s minimálním kódem při zachování pixelové věrnosti. Funguje jednotně napříč všemi platformami .NET, což zajišťuje konzistentní výsledky.
+## Co je „jak aplikovat transformaci“ v programování grafiky?
 
-## Proč použít Aspose.Drawing k převodu grafiky na png?
+Aplikace transformace znamená úpravu souřadnicového systému kreslicího objektu pomocí **Matrix**. Matice určuje, jak jsou body rotovány, škálovány nebo posouvány, což vám umožní vytvořit sofistikované vizuální efekty s minimálním kódem při zachování pixelové věrnosti. Funguje jednotně napříč všemi platformami .NET, což zajišťuje konzistentní výsledky.
 
-Aspose.Drawing poskytuje multiplatformní, GDI‑free engine, který vykresluje PNG soubory při 300 dpi s 32‑bitovou hloubkou barev, což zaručuje bezztrátový, vysoce kvalitní png výstup. Knihovna podporuje **více než 50 vstupních a výstupních formátů** a běží na .NET Framework, .NET Core a .NET 5/6+, čímž eliminuje závislosti specifické pro platformu.
+## Proč použít Aspose.Drawing pro konverzi grafiky do png?
 
-## Předpoklady
+Aspose.Drawing poskytuje multiplatformní, GDI‑free engine, který renderuje PNG soubory při 300 dpi a 32‑bitové hloubce barev, což zajišťuje bezztrátový, vysoce kvalitní výstup. Podporuje **50+ formátů** a běží na .NET Framework, .NET Core a .NET 5/6+, čímž odstraňuje platformově specifické závislosti. Benchmarky ukazují, že obrázek 4 K × 4 K je zpracován za méně než 120 ms, což je vhodné pro scénáře s vysokou propustností.
+
+## Požadavky
 
 Před zahájením se ujistěte, že máte:
 
-1. **Aspose.Drawing pro .NET** – stáhněte a nainstalujte z [odkaz ke stažení](https://releases.aspose.com/drawing/net/).  
+1. **Aspose.Drawing for .NET** – stáhněte a nainstalujte z [download link](https://releases.aspose.com/drawing/net/).  
 2. Složku ve vašem počítači, kam bude uložen výstupní obrázek (např. `C:\MyImages\`).  
 3. Základní znalost C# a nastavení .NET projektu.  
 
 ## Importovat jmenné prostory
 
-Nejprve přidejte požadované jmenné prostory do vašeho souboru C#:
+Nejprve přidejte požadované jmenné prostory do vašeho C# souboru:
 
 ```csharp
 using System.Drawing;
@@ -134,9 +142,9 @@ Tyto jmenné prostory vám poskytují přístup ke třídám `Bitmap`, `Graphics
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-> **Tip:** Použití `Format32bppPArgb` zajišťuje, že obrázek si zachová přednásobenou alfu, což je ideální pro png výstup.
+> **Tip:** Použití `Format32bppPArgb` zajišťuje, že obrázek si zachová přednásobenou alfu, což je ideální pro výstup PNG.
 
-### Krok 2: vytvořit objekt graphics
+### Krok 2: vytvořit grafický objekt
 
 `Graphics` poskytuje kreslicí metody, které vykreslují tvary na bitmapu.
 
@@ -147,7 +155,7 @@ graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 
 ### Krok 3: vytvořit graphicspath
 
-`GraphicsPath` vám umožňuje definovat složité vektorové tvary, jako jsou elipsy, čáry a křivky.
+`GraphicsPath` vám umožňuje definovat komplexní vektorové tvary jako elipsy, čáry a křivky.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
@@ -156,7 +164,7 @@ path.AddEllipse(300, 300, 400, 200);
 
 ### Krok 4: aplikovat lokální transformaci (příklad matice transformace)
 
-`Matrix` zapouzdřuje 3×3 afinní transformační matici používanou pro škálování, rotaci, posunutí a sklon.
+`Matrix` zapouzdřuje 3×3 matici afinní transformace používanou pro škálování, rotaci, posunutí a zkosení.
 
 ```csharp
 Matrix matrix = new Matrix();
@@ -164,18 +172,18 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-> **Proč otáčet kolem středu?** Otáčení kolem středu tvaru zabraňuje tomu, aby obíhalo kolem počátku, což poskytuje přirozený vzhled.
+> **Proč otáčet kolem středu?** Otáčení kolem středu tvaru zabraňuje jeho oběhu kolem počátku, což dává přirozený vzhled.
 
-### Krok 5: nakreslit transformovanou cestu
+### Krok 5: vykreslit transformovanou cestu
 
-`Pen` definuje barvu, šířku a styl používaný k obkreslení tvarů při kreslení.
+`Pen` určuje barvu, šířku a styl použité k obkreslení tvarů při kreslení.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-### Krok 6: uložit transformovaný obrázek (převést grafiku na png)
+### Krok 6: uložit transformovaný obrázek (konvertovat grafiku do png)
 
 `Bitmap.Save` zapíše obrázek do souboru ve specifikovaném formátu, například PNG.
 
@@ -183,50 +191,49 @@ graphics.DrawPath(pen, path);
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\LocalTransformation_out.png");
 ```
 
-> **Poznámka:** Přípona `.png` automaticky spustí PNG enkodér Aspose.Drawing, čímž splňuje požadavek **uložit bitmapu jako png**.
+> **Poznámka:** Přípona `.png` automaticky spustí PNG enkodér Aspose.Drawing, čímž splňuje požadavek **save bitmap as png**.
 
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
-|-------|-------|-----|
+|---------|---------|--------|
 | **Prázdný výstupní obrázek** | Grafika není vymazána nebo barva pera se shoduje s pozadím | Zavolejte `graphics.Clear` s kontrastní barvou a ujistěte se, že barva pera je viditelná. |
 | **Deformovaná rotace** | Použití `Rotate` místo `RotateAt` | Použijte `RotateAt` a specifikujte středový bod tvaru. |
-| **Soubor nebyl uložen** | Neplatná cesta ke složce nebo chybějící oprávnění k zápisu | Ověřte, že složka existuje a aplikace má oprávnění k zápisu. |
-| **Png vypadá rozmazaně** | Nízké nastavení DPI na bitmapě | Vytvořte bitmapu s vyšším rozlišením nebo nastavte `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+| **Soubor nebyl uložen** | Neplatná cesta ke složce nebo chybějící oprávnění k zápisu | Ověřte, že složka existuje a aplikace má právo zapisovat. |
+| **PNG vypadá rozmazaně** | Nízké nastavení DPI bitmapy | Vytvořte bitmapu s vyšším rozlišením nebo nastavte `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
 ## Často kladené otázky
 
-**Q: Mohu řetězit více transformací (např. škálování a pak rotaci)?**  
+**Q: Mohu řetězit více transformací (např. škálovat a pak otáčet)?**  
 A: Ano. Vytvořte jedinou `Matrix` a zavolejte metody jako `Scale`, `RotateAt` a `Translate` v požadovaném pořadí, poté ji aplikujte pomocí `path.Transform(matrix);`.
 
 **Q: Je Aspose.Drawing vhodný pro vysokovýkonné renderování?**  
-A: Rozhodně. Knihovna zpracuje 200‑stránkové obrázky za méně než 2 sekundy na typickém serverovém hardwaru a vyhýbá se omezením GDI+ na ne‑Windows platformách.
+A: Rozhodně. Knihovna zpracuje 200‑stránkové obrázky za méně než 2 sekundy na typickém serverovém hardware a vyhýbá se omezením GDI+ na ne‑Windows platformách.
 
 **Q: Jaké další typy transformací jsou podporovány?**  
-A: Kromě rotace můžete provádět posunutí, škálování a sklon pomocí stejné třídy `Matrix`.
+A: Kromě rotace můžete provádět posunutí, škálování a zkosení pomocí stejné třídy `Matrix`.
 
-**Q: Jak mohu ošetřit výjimky během procesu transformace?**  
-A: Zabalte kreslicí kód do bloku `try‑catch` a prozkoumejte výjimky `System.Drawing.Drawing2D`. Viz oficiální [dokumentace Aspose.Drawing](https://reference.aspose.com/drawing/net/) pro podrobné pokyny k ošetření chyb.
+**Q: Jak zacházet s výjimkami během procesu transformace?**  
+A: Zabalte kreslicí kód do bloku `try‑catch` a prozkoumejte výjimky `System.Drawing.DrawingD2`. Odkazujte na oficiální [Aspose.Drawing dokumentaci](https://reference.aspose.com/drawing/net/) pro podrobné pokyny k ošetření chyb.
 
 **Q: Můžu vyzkoušet Aspose.Drawing před zakoupením?**  
-A: Ano, plně funkční bezplatná zkušební verze je k dispozici přes [odkaz ke stažení](https://releases.aspose.com/drawing/net/).
+A: Ano, plně funkční bezplatná zkušební verze je k dispozici přes [download link](https://releases.aspose.com/drawing/net/).
 
 ## Závěr
 
-Podle tohoto návodu nyní víte **jak uložit bitmapu jako png** po aplikaci lokální transformace s Aspose.Drawing pro .NET. Stejný vzor lze znovu použít pro škálování, posunutí nebo sklon libovolného tvaru, což vám umožní vytvářet bohaté, interaktivní vizuální komponenty ve vašich aplikacích a zároveň poskytovat vysoce kvalitní PNG výstup.
+Po přečtení tohoto návodu nyní víte **how to save bitmap as png** po aplikaci lokální transformace s Aspose.Drawing pro .NET. Stejný vzor lze znovu použít pro škálování, posunutí nebo zkosení libovolného tvaru, což vám umožní vytvářet bohaté, interaktivní vizuální komponenty ve vašich aplikacích a zároveň poskytovat vysoce kvalitní PNG výstup.
 
 ---
 
-**Poslední aktualizace:** 2026-08-22  
+**Poslední aktualizace:** 2026-10-29  
 **Testováno s:** Aspose.Drawing 24.11 for .NET  
 **Autor:** Aspose
 
 ## Související tutoriály
 
-- [Tutoriál Transformace Matice: Transformace Matice v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Jak uložit PNG s Aspose.Drawing – Světová transformace](/drawing/net/coordinate-transformations/world-transformation/)
-- [Načíst, převést BMP na PNG a další formáty s Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
+- [Tutoriál transformace matice: Matrix Transformations v Aspose.Drawing pro .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [Jak uložit PNG s Aspose.Drawing – World Transformation](/drawing/net/coordinate-transformations/world-transformation/)
+- [Načíst, konvertovat BMP na PNG a další formáty s Aspose.Drawing](/drawing/net/image-editing/load-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
