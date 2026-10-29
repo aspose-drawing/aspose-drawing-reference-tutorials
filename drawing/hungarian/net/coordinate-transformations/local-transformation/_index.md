@@ -1,23 +1,26 @@
 ---
-date: 2026-08-22
-description: Ismerje meg, hogyan menthet bitmapet PNG formátumban az Aspose.Drawing
-  .NET-hez egy mátrix átalakítási példával. Lépésről‑lépésre útmutató kódrészletekkel.
+date: 2026-10-29
+description: Ismerje meg, hogyan menthet bitmapet PNG formátumba az Aspose.Drawing
+  for .NET segítségével egy mátrix transzformációs példával. Lépésről‑lépésre útmutató
+  kódrészletekkel.
+images:
+- /net/coordinate-transformations/local-transformation/og-image.png
 keywords:
 - save bitmap as png
-- matrix transformation example
+- affine transformation matrix
 - draw rotated ellipse
 - convert graphics to png
-- high quality png output
-lastmod: 2026-08-22
-linktitle: Helyi átalakítás az Aspose.Drawing-ban
-og_description: Bitmap mentése PNG formátumban az Aspose.Drawing segítségével mátrix
-  átalakítás alkalmazásával. Ismerje meg a lépésről‑lépésre munkafolyamatot, amely
-  elforgatott ellipszist jelenít meg, és magas minőségű PNG kimenetet állít elő.
+- define vector shapes
+lastmod: 2026-10-29
+linktitle: Helyi transzformáció az Aspose.Drawing-ban
+og_description: Bitmap mentése PNG formátumba az Aspose.Drawing segítségével mátrix
+  transzformáció alkalmazásával. Ez az útmutató bemutatja, hogyan lehet megjeleníteni
+  egy elforgatott ellipszist és magas minőségű PNG-t előállítani .NET-ben.
 og_image_alt: Screenshot of a rotated ellipse saved as a high‑quality PNG using Aspose.Drawing
-og_title: Bitmap mentése PNG formátumban átalakítással az Aspose.Drawing – .NET útmutató
+og_title: Bitmap mentése PNG formátumba transzformációval az Aspose.Drawing segítségével
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to save bitmap as png using Aspose.Drawing for .NET with
     a matrix transformation example. Step‑by‑step guide with code placeholders.
   headline: Save bitmap as png using transformation in Aspose.Drawing
@@ -51,7 +54,7 @@ schemas:
   - answer: Yes. Create a single `Matrix` and call methods like `Scale`, `RotateAt`,
       and `Translate` in the order you need, then apply it with `path.Transform(matrix);`.
     question: Can I chain multiple transformations (e.g., scale then rotate)?
-  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
+  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
       typical server hardware and avoids the GDI+ limitations on non‑Windows platforms.
     question: Is Aspose.Drawing suitable for high‑performance rendering?
   - answer: Besides rotation, you can perform translation, scaling, and skewing using
@@ -71,7 +74,7 @@ tags:
 - .NET graphics transformation
 - PNG rendering
 - matrix transformation
-title: Bitmap mentése PNG formátumban átalakítással az Aspose.Drawing-ban
+title: Bitmap mentése PNG formátumba transzformációval az Aspose.Drawing-ban
 url: /hu/net/coordinate-transformations/local-transformation/
 weight: 11
 ---
@@ -80,36 +83,44 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bitmap mentése png formátumban átalakítással az Aspose.Drawing használatával
+# Bitkép mentése png formátumban átalakítással az Aspose.Drawing használatával
 
 ## Bevezetés
 
-Ha **bitmapet png‑ként szeretne menteni**, miközben helyi átalakítást alkalmaz a grafikára egy .NET alkalmazásban, az Aspose.Drawing egyszerűvé és megbízhatóvá teszi a folyamatot. Ebben az útmutatóban pontosan megmutatjuk, hogyan kell egy transzformációs mátrixot alkalmazni egy alakzatra, megjeleníteni az eredményt, és végül **grafikát png‑re konvertálni** tárolás vagy további feldolgozás céljából. A végére egy újrahasználható kódmintát kap, amelyet bármely helyi átalakítási helyzethez adaptálhat.
+Ha **save bitmap as png** funkcióra van szüksége, miközben helyi átalakítást alkalmaz a grafikaelemekre egy .NET alkalmazásban, az Aspose.Drawing egyszerűvé és megbízhatóvá teszi a folyamatot. Ebben az útmutatóban pontosan megmutatjuk, hogyan kell egy transzformációs mátrixot alkalmazni egy alakzatra, megjeleníteni az eredményt, és végül **convert graphics to png**-t végrehajtani tárolás vagy további feldolgozás céljából. A végére egy újrahasználható kódmintát kap, amelyet bármely helyi átalakítási forgatókönyvre adaptálhat.
 
 ## Gyors válaszok
-- **Mi a helyi átalakítás?** Olyan mátrix‑alapú művelet (forgatás, méretezés, eltolás, nyírás), amely egy adott rajzelemre vonatkozik, anélkül, hogy az egész vászonra hatna.  
-- **Melyik könyvtár támogatja .NET‑ben?** Az Aspose.Drawing for .NET teljes körű API‑t biztosít, amely minden támogatott .NET verzión működik.  
-- **Menthetem az eredményt png‑ként?** Igen—hívja a `Bitmap.Save`‑t egy “.png” kiterjesztésű fájlnévvel, és az Aspose.Drawing automatikusan kezeli a konverziót.  
-- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba verzió tesztelésre megfelelő; a termelésben való használathoz kereskedelmi licenc szükséges.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy alap példához.
+- **Mi az a helyi átalakítás?** Egy mátrix‑alapú művelet (rotate, scale, translate, skew), amely egy adott rajzelemre vonatkozik anélkül, hogy a teljes vászonra hatna.  
+- **Melyik könyvtár támogatja .NET‑ben?** Az Aspose.Drawing for .NET egy teljes körű API‑t biztosít, amely minden támogatott .NET verzión működik.  
+- **Menthetem az eredményt png‑ként?** Igen—hívja a `Bitmap.Save`‑t egy “.png” fájlnévvel, és az Aspose.Drawing automatikusan kezeli a konverziót.  
+- **Szükség van licencre a fejlesztéshez?** Egy ingyenes próba verzió tesztelésre működik; a kereskedelmi licenc szükséges a termelésben való használathoz.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy egyszerű példához.
 
-## Hogyan mentse a bitmapet png‑ként
+## Hogyan mentse a bitképet png‑ként
 
-Az alábbiakban egy teljes, lépésről‑lépésre útmutatót talál, amely egy **mátrix‑átalakítási példát** mutat be, és **magas minőségű png kimenettel** zárul.
+Töltsön be egy `Bitmap`‑et, alkalmazzon egy `Matrix`‑et egy `GraphicsPath`‑ra, rajzolja meg a transzformált útvonalat egy `Pen`‑nel, és végül hívja meg a `Bitmap.Save("output.png", ImageFormat.Png)`‑t. Ez a tömör munkafolyamat néhány kódsorral magas minőségű PNG‑t állít elő, és Windows, Linux, valamint macOS rendszereken is működik, mivel az Aspose.Drawing teljesen GDI‑free.
 
-## Mi az „átalakítás alkalmazása” a grafikus programozásban?
+`Bitmap` egy memóriában lévő képet képvisel.  
+`Matrix` egy affín transzformációt definiál, amelyet méretezésre, forgatásra, eltolásra és nyírásra használnak.  
+`GraphicsPath` egy sor vonalat és ívet tartalmaz, amelyek egy alakzatot definiálnak.  
+`Pen` meghatározza, hogyan rajzolódnak a körvonalak, beleértve a színt és a vastagságot.  
+`Bitmap.Save` a képet egy megadott formátumú fájlba írja.
 
-Az átalakítás alkalmazása azt jelenti, hogy egy **Matrix** segítségével módosítjuk egy rajzobjektum koordináta‑rendszerét. A mátrix meghatározza, hogyan forog, méreteződik vagy mozognak a pontok, lehetővé téve összetett vizuális hatások létrehozását minimális kóddal, miközben megőrzi a pixel‑pontosságot. Egyenletesen működik minden .NET platformon, biztosítva a konzisztens eredményeket.
+## Mi az a „hogyan alkalmazzunk transzformációt” a grafikus programozásban?
 
-## Miért használja az Aspose.Drawing‑ot a grafika png‑re konvertálásához?
+A transzformáció alkalmazása azt jelenti, hogy egy **Matrix** segítségével módosítjuk egy rajzobjektum koordináta‑rendszerét. A mátrix meghatározza, hogyan forgatók, méreteződnek vagy mozognak a pontok, lehetővé téve összetett vizuális hatások létrehozását minimális kóddal, miközben megőrzi a pixel pontosságot. Egyenletesen működik minden .NET platformon, biztosítva a konzisztens eredményeket.
 
-Az Aspose.Drawing egy platformfüggetlen, GDI‑mentes motor, amely 300 dpi és 32‑bit színmélység mellett renderel PNG fájlokat, garantálva a veszteségmentes, magas minőségű png kimenetet. A könyvtár **50+ bemeneti és kimeneti formátumot** támogat, és fut a .NET Framework, .NET Core és .NET 5/6+ környezetekben, ezzel megszüntetve a platform‑specifikus függőségeket.
+## Miért használja az Aspose.Drawing‑ot a grafika png‑vé konvertálásához?
 
-## Előfeltételek
+Az Aspose.Drawing egy keresztplatformos, GDI‑free motorral rendelkezik, amely 300 dpi‑n és 32‑bit színmélységgel renderel PNG fájlokat, biztosítva veszteségmentes, magas minőségű kimenetet. Támogat **50+ formátumot**, és fut a .NET Framework, .NET Core, valamint a .NET 5/6+ környezetekben, eltávolítva a platform‑specifikus függőségeket. A benchmarkok azt mutatják, hogy egy 4 K × 4 K kép feldolgozása kevesebb mint 120 ms‑t vesz igénybe, ami alkalmas nagy áteresztőképességű szcenáriókra.
+
+## Előkövetelmények
+
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
 1. **Aspose.Drawing for .NET** – töltse le és telepítse a [download link](https://releases.aspose.com/drawing/net/) címről.  
-2. Egy mappa a gépén, ahol a kimeneti képet menteni fogja (pl. `C:\MyImages\`).  
-3. Alapvető ismeretek a C#‑ról és a .NET projekt beállításáról.  
+2. Egy mappával a gépén, ahol a kimeneti kép mentésre kerül (pl. `C:\MyImages\`).  
+3. Alapvető ismeretekkel a C#‑ról és a .NET projekt beállításáról.  
 
 ## Névterek importálása
 
@@ -126,17 +137,17 @@ Ezek a névterek hozzáférést biztosítanak a `Bitmap`, `Graphics`, `GraphicsP
 
 ### 1. lépés: bitmap létrehozása
 
-A `Bitmap` egy memóriában tárolt képet jelöl, meghatározott pixelformátummal és méretekkel.
+`Bitmap` egy memóriában lévő képet képvisel meghatározott pixelformátummal és méretekkel.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-> **Pro tipp:** A `Format32bppPArgb` használata biztosítja, hogy a kép megőrizze az előszorozott alfát, ami ideális a png kimenethez.
+> **Pro tipp:** A `Format32bppPArgb` használata biztosítja, hogy a kép megőrizze az előre szorzott alfát, ami ideális a png kimenethez.
 
 ### 2. lépés: graphics objektum létrehozása
 
-A `Graphics` rajzoló metódusokat biztosít, amelyek alakzatokat jelenítenek meg egy bitmapen.
+`Graphics` rajzoló metódusokat biztosít, amelyek alakzatokat renderelnek egy bitmapre.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -145,16 +156,16 @@ graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 
 ### 3. lépés: graphicspath létrehozása
 
-A `GraphicsPath` lehetővé teszi összetett vektoros alakzatok, például ellipszisek, vonalak és görbék definiálását.
+`GraphicsPath` lehetővé teszi összetett vektoralakzatok, például ellipszisek, vonalak és görbék definiálását.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddEllipse(300, 300, 400, 200);
 ```
 
-### 4. lépés: helyi átalakítás alkalmazása (mátrix‑átalakítási példa)
+### 4. lépés: helyi átalakítás alkalmazása (mátrix transzformáció példa)
 
-A `Matrix` egy 3×3-as affín transzformációs mátrixot tartalmaz, amelyet méretezésre, forgatásra, eltolásra és nyírásra használnak.
+`Matrix` egy 3×3 affín transzformációs mátrixot foglal magában, amelyet méretezésre, forgatásra, eltolásra és nyírásra használnak.
 
 ```csharp
 Matrix matrix = new Matrix();
@@ -164,67 +175,66 @@ path.Transform(matrix);
 
 > **Miért forgatunk a középpont körül?** A forma középpontja körül történő forgatás megakadályozza, hogy a forma az origó körül keringjen, természetes megjelenést biztosítva.
 
-### 5. lépés: az átalakított útvonal rajzolása
+### 5. lépés: a transzformált útvonal rajzolása
 
-A `Pen` meghatározza a színt, a vastagságot és a stílust, amelyet az alakzatok körvonalazásához használnak.
+`Pen` meghatározza a színt, a vastagságot és a stílust, amelyet az alakzatok körvonalazásához használnak rajzoláskor.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-### 6. lépés: az átalakított kép mentése (grafika png‑re konvertálása)
+### 6. lépés: a transzformált kép mentése (grafika png‑vé konvertálása)
 
-A `Bitmap.Save` a képet a megadott formátumban, például PNG‑ként, egy fájlba írja.
+`Bitmap.Save` a képet a megadott formátumban, például PNG‑ként, egy fájlba írja.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\LocalTransformation_out.png");
 ```
 
-> **Megjegyzés:** A `.png` kiterjesztés automatikusan elindítja az Aspose.Drawing PNG enkódert, ezzel teljesítve a **bitmap png‑ként mentése** követelményt.
+> **Megjegyzés:** A `.png` kiterjesztés automatikusan elindítja az Aspose.Drawing PNG enkódert, teljesítve a **save bitmap as png** követelményt.
 
 ## Gyakori problémák és megoldások
 
-| Probléma | Ok | Megoldás |
-|----------|----|----------|
-| **Üres kimeneti kép** | A graphics nincs törölve vagy a toll színe megegyezik a háttérrel | Hívja a `graphics.Clear`‑t kontrasztos színnel, és győződjön meg róla, hogy a toll színe látható. |
-| **Torzult forgatás** | `Rotate` használata `RotateAt` helyett | Használja a `RotateAt`‑t és adja meg a forma középpontját. |
-| **A fájl nem ment** | Érvénytelen könyvtárútvonal vagy hiányzó írási jogosultság | Ellenőrizze, hogy a könyvtár létezik és az alkalmazásnak van írási joga. |
-| **A png elmosódottnak tűnik** | Alacsony DPI beállítás a bitmapen | Hozzon létre bitmapet magasabb felbontással, vagy állítsa be a `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Üres kimeneti kép** | A graphics nincs törölve vagy a toll színe megegyezik a háttérrel | `graphics.Clear` hívása kontrasztos színnel, és biztosítsa, hogy a toll színe látható legyen. |
+| **Torzult forgatás** | `Rotate` használata `RotateAt` helyett | `RotateAt` használata és a forma középpontjának megadása. |
+| **A fájl nem lett mentve** | Érvénytelen könyvtárútvonal vagy hiányzó írási jogosultság | Ellenőrizze, hogy a könyvtár létezik, és az alkalmazásnak van írási joga. |
+| **A PNG elmosódottnak tűnik** | Alacsony DPI beállítás a bitmapen | Hozzon létre egy magasabb felbontású bitmapet, vagy állítsa be a `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
-**K: Láncolhatok több átalakítást (pl. méretezés, majd forgatás)?**  
-A: Igen. Hozzon létre egyetlen `Matrix`‑t, és hívja meg a `Scale`, `RotateAt` és `Translate` metódusokat a szükséges sorrendben, majd alkalmazza a `path.Transform(matrix);`‑val.
+**Q: Láncolhatok több transzformációt (pl. méretezés, majd forgatás)?**  
+A: Igen. Hozzon létre egyetlen `Matrix`‑et, és hívja meg a szükséges sorrendben a `Scale`, `RotateAt` és `Translate` metódusokat, majd alkalmazza a `path.Transform(matrix);`‑val.
 
-**K: Az Aspose.Drawing alkalmas nagy teljesítményű renderelésre?**  
-A: Teljes mértékben. A könyvtár 200 oldalas képeket kevesebb, mint 2 másodperc alatt dolgoz fel tipikus szerverhardveren, és elkerüli a GDI+ korlátozásait nem‑Windows platformokon.
+**Q: Az Aspose.Drawing alkalmas nagy‑teljesítményű renderelésre?**  
+A: Teljes mértékben. A könyvtár 200 oldalas képeket kevesebb mint 2 másodperc alatt dolgoz fel tipikus szerverhardveren, és elkerüli a GDI+ korlátait nem‑Windows platformokon.
 
-**K: Milyen egyéb átalakítási típusok támogatottak?**  
+**Q: Milyen egyéb transzformációs típusok támogatottak?**  
 A: A forgatás mellett eltolást, méretezést és nyírást is végezhet ugyanazzal a `Matrix` osztállyal.
 
-**K: Hogyan kezeljem a kivételeket az átalakítási folyamat során?**  
-A: Tegye a rajzoló kódot egy `try‑catch` blokkba, és vizsgálja meg a `System.Drawing.Drawing2D` kivételeket. Részletes hibakezelési útmutatásért tekintse meg a hivatalos [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) oldalt.
+**Q: Hogyan kezeljem a kivételeket a transzformációs folyamat során?**  
+A: Tegye a rajzoló kódot egy `try‑catch` blokkba, és vizsgálja meg a `System.Drawing.DrawingD2` kivételeket. Tekintse meg a hivatalos [Aspose.Drawing dokumentációt](https://reference.aspose.com/drawing/net/) a részletes hibakezelési útmutatóért.
 
-**K: Kipróbálhatom az Aspose.Drawing‑ot vásárlás előtt?**  
-A: Igen, egy teljes funkcionalitású ingyenes próba verzió elérhető a [download link](https://releases.aspose.com/drawing/net/) segítségével.
+**Q: Kipróbálhatom az Aspose.Drawing‑ot vásárlás előtt?**  
+A: Igen, egy teljes funkcionalitású ingyenes próba elérhető a [download link](https://releases.aspose.com/drawing/net/) címen.
 
 ## Következtetés
 
-Az útmutató követésével most már tudja, **hogyan mentse a bitmapet png‑ként** egy helyi átalakítás alkalmazása után az Aspose.Drawing for .NET‑vel. Ugyanezt a mintát újra felhasználhatja bármely alakzat méretezésére, eltolására vagy nyírására, így gazdag, interaktív vizuális komponenseket építhet alkalmazásaiba, miközben magas minőségű PNG kimenetet biztosít.
+Ezzel az útmutatóval most már tudja, **hogyan mentse a bitképet png‑ként** egy helyi átalakítás alkalmazása után az Aspose.Drawing for .NET használatával. Ugyanaz a minta újrahasználható méretezésre, eltolásra vagy nyírásra bármely alakzatra, lehetővé téve, hogy gazdag, interaktív vizuális komponenseket építsen alkalmazásaiba, miközben magas minőségű PNG kimenetet biztosít.
 
 ---
 
-**Utolsó frissítés:** 2026-08-22  
-**Tesztelve:** Aspose.Drawing 24.11 for .NET  
+**Utoljára frissítve:** 2026-10-29  
+**Tesztelve ezzel:** Aspose.Drawing 24.11 for .NET  
 **Szerző:** Aspose
 
-## Kapcsolódó útmutatók
+## Kapcsolódó oktatóanyagok
 
-- [Mátrix átalakítási útmutató: Mátrix átalakítások az Aspose.Drawing for .NET‑ben](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Hogyan mentse a PNG‑t az Aspose.Drawing‑dal – Világ átalakítás](/drawing/net/coordinate-transformations/world-transformation/)
-- [BMP betöltése, PNG‑re és más formátumokra konvertálása az Aspose.Drawing‑dal](/drawing/net/image-editing/load-save/)
-
+- [Mátrix transzformációs oktató: Mátrix transzformációk az Aspose.Drawing for .NET-ben](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [Hogyan mentse PNG‑t az Aspose.Drawing‑dal – Világ transzformáció](/drawing/net/coordinate-transformations/world-transformation/)
+- [BMP betöltése, konvertálása PNG‑re és egyéb formátumokra az Aspose.Drawing segítségével](/drawing/net/image-editing/load-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

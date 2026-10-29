@@ -1,25 +1,26 @@
 ---
-date: 2026-08-22
-description: Pelajari cara menyimpan bitmap sebagai PNG menggunakan Aspose.Drawing
+date: 2026-10-29
+description: Pelajari cara menyimpan bitmap sebagai png menggunakan Aspose.Drawing
   untuk .NET dengan contoh transformasi matriks. Panduan langkah demi langkah dengan
   placeholder kode.
+images:
+- /net/coordinate-transformations/local-transformation/og-image.png
 keywords:
 - save bitmap as png
-- matrix transformation example
+- affine transformation matrix
 - draw rotated ellipse
 - convert graphics to png
-- high quality png output
-lastmod: 2026-08-22
+- define vector shapes
+lastmod: 2026-10-29
 linktitle: Transformasi lokal di Aspose.Drawing
-og_description: Simpan bitmap sebagai PNG dengan Aspose.Drawing dengan menerapkan
-  transformasi matriks. Pelajari alur kerja langkah demi langkah yang menghasilkan
-  elips berputar dan menghasilkan output PNG berkualitas tinggi.
+og_description: Simpan bitmap sebagai png dengan Aspose.Drawing dengan menerapkan
+  transformasi matriks. Panduan ini menunjukkan cara merender elips berputar dan menghasilkan
+  PNG berkualitas tinggi di .NET.
 og_image_alt: Screenshot of a rotated ellipse saved as a high‑quality PNG using Aspose.Drawing
-og_title: Simpan bitmap sebagai PNG menggunakan transformasi di Aspose.Drawing – panduan
-  .NET
+og_title: Simpan bitmap sebagai png dengan transformasi menggunakan Aspose.Drawing
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to save bitmap as png using Aspose.Drawing for .NET with
     a matrix transformation example. Step‑by‑step guide with code placeholders.
   headline: Save bitmap as png using transformation in Aspose.Drawing
@@ -53,7 +54,7 @@ schemas:
   - answer: Yes. Create a single `Matrix` and call methods like `Scale`, `RotateAt`,
       and `Translate` in the order you need, then apply it with `path.Transform(matrix);`.
     question: Can I chain multiple transformations (e.g., scale then rotate)?
-  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
+  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
       typical server hardware and avoids the GDI+ limitations on non‑Windows platforms.
     question: Is Aspose.Drawing suitable for high‑performance rendering?
   - answer: Besides rotation, you can perform translation, scaling, and skewing using
@@ -73,7 +74,7 @@ tags:
 - .NET graphics transformation
 - PNG rendering
 - matrix transformation
-title: Simpan bitmap sebagai PNG menggunakan transformasi di Aspose.Drawing
+title: Simpan bitmap sebagai png menggunakan transformasi di Aspose.Drawing
 url: /id/net/coordinate-transformations/local-transformation/
 weight: 11
 ---
@@ -86,36 +87,45 @@ weight: 11
 
 ## Pendahuluan
 
-Jika Anda perlu **save bitmap as png** sambil menerapkan transformasi lokal pada grafik di dalam aplikasi .NET, Aspose.Drawing membuat prosesnya sederhana dan dapat diandalkan. Dalam tutorial ini Anda akan melihat secara tepat cara menerapkan matriks transformasi pada sebuah bentuk, merender hasilnya, dan akhirnya **convert graphics to png** untuk penyimpanan atau pemrosesan lebih lanjut. Pada akhir tutorial, Anda akan memiliki pola kode yang dapat digunakan kembali dan dapat Anda sesuaikan dengan skenario transformasi lokal apa pun.
+Jika Anda perlu **save bitmap as png** sambil menerapkan transformasi lokal pada grafik di dalam aplikasi .NET, Aspose.Drawing membuat prosesnya sederhana dan dapat diandalkan. Dalam tutorial ini Anda akan melihat secara tepat cara menerapkan matriks transformasi ke sebuah bentuk, merender hasilnya, dan akhirnya **convert graphics to png** untuk penyimpanan atau pemrosesan lebih lanjut. Pada akhir tutorial, Anda akan memiliki pola kode yang dapat digunakan kembali yang dapat Anda sesuaikan dengan skenario transformasi lokal apa pun.
 
 ## Jawaban Cepat
-- **What is a local transformation?** Ini adalah operasi berbasis matriks (rotate, scale, translate, skew) yang diterapkan pada elemen gambar tertentu tanpa memengaruhi seluruh kanvas.  
-- **Which library supports it in .NET?** Aspose.Drawing for .NET menyediakan API lengkap yang berfungsi pada semua versi .NET yang didukung.  
-- **Can I save the result as png?** Ya—panggil `Bitmap.Save` dengan nama file “.png” dan Aspose.Drawing menangani konversi secara otomatis.  
-- **Do I need a license for development?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk penggunaan produksi.  
-- **How long does the implementation take?** Sekitar 10‑15 menit untuk contoh dasar.
+
+- **Apa itu transformasi lokal?** Ini adalah operasi berbasis matriks (rotate, scale, translate, skew) yang diterapkan pada elemen gambar tertentu tanpa memengaruhi seluruh kanvas.  
+- **Perpustakaan mana yang mendukungnya di .NET?** Aspose.Drawing untuk .NET menyediakan API lengkap yang berfungsi pada semua versi .NET yang didukung.  
+- **Bisakah saya menyimpan hasilnya sebagai png?** Ya—panggil `Bitmap.Save` dengan nama file “.png” dan Aspose.Drawing menangani konversi secara otomatis.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Berapa lama waktu yang dibutuhkan untuk implementasi?** Sekitar 10‑15 menit untuk contoh dasar.
 
 ## Cara menyimpan bitmap sebagai png
 
-Di bawah ini Anda akan menemukan panduan lengkap langkah demi langkah yang menunjukkan **matrix transformation example** dan berakhir dengan **high quality png output**.
+Muat sebuah `Bitmap`, terapkan `Matrix` ke `GraphicsPath`, gambar jalur yang telah ditransformasi dengan `Pen`, dan akhirnya panggil `Bitmap.Save("output.png", ImageFormat.Png)`. Alur kerja singkat ini menghasilkan PNG berkualitas tinggi hanya dalam beberapa baris kode dan berfungsi di Windows, Linux, serta macOS karena Aspose.Drawing sepenuhnya bebas GDI.
 
-## Apa itu “how to apply transformation” dalam pemrograman grafis?
+`Bitmap` mewakili gambar dalam memori.  
+`Matrix` mendefinisikan transformasi afine yang digunakan untuk skala, rotasi, translasi, dan skewing.  
+`GraphicsPath` menyimpan serangkaian garis dan kurva yang mendefinisikan sebuah bentuk.  
+`Pen` menentukan bagaimana garis tepi digambar, termasuk warna dan lebar.  
+`Bitmap.Save` menulis gambar ke file dalam format yang ditentukan.
 
-Menerapkan transformasi berarti memodifikasi sistem koordinat objek gambar menggunakan **Matrix**. Matriks menentukan bagaimana titik diputar, diskalakan, atau dipindahkan, memungkinkan Anda membuat efek visual yang canggih dengan kode minimal sambil mempertahankan keakuratan piksel. Ini bekerja secara seragam di semua platform .NET, memastikan hasil yang konsisten.
+## Apa itu “cara menerapkan transformasi” dalam pemrograman grafik?
+
+Menerapkan transformasi berarti memodifikasi sistem koordinat dari objek gambar menggunakan **Matrix**. Matriks menentukan bagaimana titik-titik diputar, diskalakan, atau dipindahkan, memungkinkan Anda membuat efek visual yang canggih dengan kode minimal sambil mempertahankan keakuratan piksel. Ini bekerja secara seragam di semua platform .NET, memastikan hasil yang konsisten.
 
 ## Mengapa menggunakan Aspose.Drawing untuk mengonversi grafik ke png?
 
-Aspose.Drawing menyediakan mesin lintas‑platform, bebas GDI yang merender file PNG pada 300 dpi dengan kedalaman warna 32‑bit, menjamin output png tanpa kehilangan kualitas dan berkualitas tinggi. Library ini mendukung **50+ input and output formats** dan berjalan pada .NET Framework, .NET Core, serta .NET 5/6+, menghilangkan ketergantungan khusus platform.
+Aspose.Drawing menyediakan mesin lintas‑platform, bebas GDI yang merender file PNG pada 300 dpi dengan kedalaman warna 32‑bit, memastikan output tanpa kehilangan kualitas dan berkualitas tinggi. Ia mendukung **50+ format** dan berjalan pada .NET Framework, .NET Core, serta .NET 5/6+, menghilangkan ketergantungan spesifik platform. Benchmark menunjukkan gambar 4 K × 4 K diproses dalam kurang dari 120 ms, cocok untuk skenario throughput tinggi.
 
 ## Prasyarat
 
+Sebelum Anda mulai, pastikan Anda memiliki:
+
 1. **Aspose.Drawing for .NET** – unduh dan instal dari [download link](https://releases.aspose.com/drawing/net/).  
 2. Sebuah folder di mesin Anda tempat gambar output akan disimpan (misalnya, `C:\MyImages\`).  
-3. Familiaritas dasar dengan C# dan pengaturan proyek .NET.  
+3. Familiaritas dasar dengan C# dan penyiapan proyek .NET.
 
 ## Impor namespace
 
-First, bring the required namespaces into your C# file:
+Pertama, bawa namespace yang diperlukan ke dalam file C# Anda:
 
 ```csharp
 using System.Drawing;
@@ -124,7 +134,7 @@ using System.Drawing.Drawing2D;
 
 Namespace ini memberi Anda akses ke kelas `Bitmap`, `Graphics`, `GraphicsPath`, dan `Matrix` yang diperlukan untuk alur kerja transformasi.
 
-## Panduan langkah demi langkah
+## Panduan langkah‑demi‑langkah
 
 ### Langkah 1: buat bitmap
 
@@ -134,7 +144,7 @@ Namespace ini memberi Anda akses ke kelas `Bitmap`, `Graphics`, `GraphicsPath`, 
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-> **Pro tip:** Menggunakan `Format32bppPArgb` memastikan gambar mempertahankan alpha yang telah dipremultiplikasi, yang ideal untuk output png.
+> **Pro tip:** Menggunakan `Format32bppPArgb` memastikan gambar mempertahankan alpha yang dipremultiplikasi, yang ideal untuk output png.
 
 ### Langkah 2: buat objek graphics
 
@@ -164,18 +174,18 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-> **Why rotate around the centre?** Memutar di sekitar pusat bentuk mencegahnya berputar mengelilingi asal, memberikan tampilan yang alami.
+> **Mengapa berputar di sekitar pusat?** Berputar di sekitar pusat bentuk mencegahnya berorbit di sekitar asal, memberikan tampilan yang alami.
 
-### Langkah 5: gambar path yang telah ditransformasi
+### Langkah 5: gambar jalur yang ditransformasi
 
-`Pen` menentukan warna, lebar, dan gaya yang digunakan untuk menebalkan bentuk saat menggambar.
+`Pen` menentukan warna, lebar, dan gaya yang digunakan untuk memberi garis tepi pada bentuk saat menggambar.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-### Langkah 6: simpan gambar yang ditransformasi (convert graphics to png)
+### Langkah 6: simpan gambar yang ditransformasi (konversi grafik ke png)
 
 `Bitmap.Save` menulis gambar ke file dalam format yang ditentukan, seperti PNG.
 
@@ -187,12 +197,12 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Local
 
 ## Masalah umum & solusi
 
-| Masalah | Penyebab | Solusi |
-|---------|----------|--------|
-| **Gambar output kosong** | Graphics tidak dibersihkan atau warna pena sama dengan latar belakang | Panggil `graphics.Clear` dengan warna kontras dan pastikan warna pena terlihat. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Gambar output kosong** | Grafik tidak dibersihkan atau warna pena sama dengan latar belakang | Panggil `graphics.Clear` dengan warna kontras dan pastikan warna pena terlihat. |
 | **Rotasi terdistorsi** | Menggunakan `Rotate` alih-alih `RotateAt` | Gunakan `RotateAt` dan tentukan titik pusat bentuk. |
-| **File tidak tersimpan** | Path direktori tidak valid atau izin menulis tidak ada | Pastikan direktori ada dan aplikasi memiliki akses menulis. |
-| **Png tampak buram** | Pengaturan DPI rendah pada bitmap | Buat bitmap dengan resolusi lebih tinggi atau set `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+| **File tidak tersimpan** | Jalur direktori tidak valid atau izin menulis tidak ada | Verifikasi direktori ada dan aplikasi memiliki akses menulis. |
+| **Png terlihat buram** | Pengaturan DPI rendah pada bitmap | Buat bitmap dengan resolusi lebih tinggi atau setel `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
 ## Pertanyaan yang sering diajukan
 
@@ -200,33 +210,32 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\Local
 A: Ya. Buat satu `Matrix` dan panggil metode seperti `Scale`, `RotateAt`, dan `Translate` dalam urutan yang Anda butuhkan, lalu terapkan dengan `path.Transform(matrix);`.
 
 **Q: Apakah Aspose.Drawing cocok untuk rendering berperforma tinggi?**  
-A: Tentu saja. Library ini memproses gambar 200‑halaman dalam waktu kurang dari 2 detik pada perangkat keras server tipikal dan menghindari batasan GDI+ pada platform non‑Windows.
+A: Tentu saja. Perpustakaan memproses gambar 200‑halaman dalam kurang dari 2 detik pada perangkat keras server tipikal dan menghindari batasan GDI+ pada platform non‑Windows.
 
 **Q: Jenis transformasi lain apa yang didukung?**  
 A: Selain rotasi, Anda dapat melakukan translasi, skala, dan skewing menggunakan kelas `Matrix` yang sama.
 
-**Q: Bagaimana cara menangani pengecualian selama proses transformasi?**  
-A: Bungkus kode menggambar dalam blok `try‑catch` dan periksa pengecualian `System.Drawing.Drawing2D`. Lihat dokumentasi resmi [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) untuk panduan penanganan error yang detail.
+**Q: Bagaimana saya menangani pengecualian selama proses transformasi?**  
+A: Bungkus kode menggambar dalam blok `try‑catch` dan periksa pengecualian `System.Drawing.DrawingD2`. Lihat dokumentasi resmi [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) untuk panduan penanganan error yang detail.
 
 **Q: Bisakah saya mencoba Aspose.Drawing sebelum membeli?**  
-A: Ya, percobaan gratis yang sepenuhnya berfungsi tersedia melalui [download link](https://releases.aspose.com/drawing/net/).
+A: Ya, percobaan gratis yang berfungsi penuh tersedia melalui [download link](https://releases.aspose.com/drawing/net/).
 
 ## Kesimpulan
 
-Dengan mengikuti panduan ini Anda kini tahu **how to save bitmap as png** setelah menerapkan transformasi lokal dengan Aspose.Drawing untuk .NET. Pola yang sama dapat digunakan kembali untuk skala, translasi, atau skewing bentuk apa pun, memungkinkan Anda membangun komponen visual yang kaya dan interaktif dalam aplikasi Anda sambil menghasilkan output PNG berkualitas tinggi.
+Dengan mengikuti panduan ini Anda kini tahu **how to save bitmap as png** setelah menerapkan transformasi lokal dengan Aspose.Drawing untuk .NET. Pola yang sama dapat digunakan kembali untuk skala, translasi, atau skewing bentuk apa pun, memungkinkan Anda membangun komponen visual interaktif yang kaya dalam aplikasi Anda sambil menghasilkan output PNG berkualitas tinggi.
 
 ---
 
-**Last Updated:** 2026-08-22  
-**Tested With:** Aspose.Drawing 24.11 for .NET  
-**Author:** Aspose
+**Terakhir Diperbarui:** 2026-10-29  
+**Diuji Dengan:** Aspose.Drawing 24.11 for .NET  
+**Penulis:** Aspose
 
-## Tutorial Terkait
+## Tutorial terkait
 
 - [Tutorial Transformasi Matriks: Transformasi Matriks di Aspose.Drawing untuk .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
 - [Cara Menyimpan PNG dengan Aspose.Drawing – Transformasi Dunia](/drawing/net/coordinate-transformations/world-transformation/)
 - [Muat, Konversi BMP ke PNG dan Format Lain dengan Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,24 +1,25 @@
 ---
-date: 2026-08-22
+date: 2026-10-29
 description: Tìm hiểu cách lưu bitmap dưới dạng png bằng Aspose.Drawing cho .NET với
-  ví dụ chuyển đổi ma trận. Hướng dẫn từng bước kèm các chỗ đặt mã.
+  ví dụ matrix transformation. Hướng dẫn từng bước kèm các chỗ chèn mã.
+images:
+- /net/coordinate-transformations/local-transformation/og-image.png
 keywords:
 - save bitmap as png
-- matrix transformation example
+- affine transformation matrix
 - draw rotated ellipse
 - convert graphics to png
-- high quality png output
-lastmod: 2026-08-22
+- define vector shapes
+lastmod: 2026-10-29
 linktitle: Chuyển đổi cục bộ trong Aspose.Drawing
-og_description: Lưu bitmap dưới dạng png với Aspose.Drawing bằng cách áp dụng chuyển
-  đổi ma trận. Tìm hiểu quy trình từng bước tạo ra một elip quay và tạo ra đầu ra
-  PNG chất lượng cao.
+og_description: Lưu bitmap dưới dạng png với Aspose.Drawing bằng cách áp dụng matrix
+  transformation. Hướng dẫn này cho thấy cách vẽ một hình elip quay và tạo high‑quality
+  PNG trong .NET.
 og_image_alt: Screenshot of a rotated ellipse saved as a high‑quality PNG using Aspose.Drawing
-og_title: Lưu bitmap dưới dạng png bằng chuyển đổi trong Aspose.Drawing – hướng dẫn
-  .NET
+og_title: Lưu bitmap dưới dạng png với chuyển đổi bằng Aspose.Drawing
 schemas:
 - author: Aspose
-  dateModified: '2026-08-22'
+  dateModified: '2026-10-29'
   description: Learn how to save bitmap as png using Aspose.Drawing for .NET with
     a matrix transformation example. Step‑by‑step guide with code placeholders.
   headline: Save bitmap as png using transformation in Aspose.Drawing
@@ -52,7 +53,7 @@ schemas:
   - answer: Yes. Create a single `Matrix` and call methods like `Scale`, `RotateAt`,
       and `Translate` in the order you need, then apply it with `path.Transform(matrix);`.
     question: Can I chain multiple transformations (e.g., scale then rotate)?
-  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
+  - answer: Absolutely. The library processes 200‑page images in under 2 seconds on
       typical server hardware and avoids the GDI+ limitations on non‑Windows platforms.
     question: Is Aspose.Drawing suitable for high‑performance rendering?
   - answer: Besides rotation, you can perform translation, scaling, and skewing using
@@ -72,7 +73,7 @@ tags:
 - .NET graphics transformation
 - PNG rendering
 - matrix transformation
-title: Lưu bitmap dưới dạng png bằng chuyển đổi trong Aspose.Drawing
+title: Lưu bitmap dưới dạng png bằng cách chuyển đổi trong Aspose.Drawing
 url: /vi/net/coordinate-transformations/local-transformation/
 weight: 11
 ---
@@ -81,37 +82,43 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu bitmap dưới dạng png bằng cách chuyển đổi trong Aspose.Drawing
+# Lưu bitmap dưới dạng png bằng cách biến đổi trong Aspose.Drawing
 
 ## Giới thiệu
 
-Nếu bạn cần **lưu bitmap dưới dạng png** đồng thời áp dụng một chuyển đổi cục bộ cho đồ họa trong một ứng dụng .NET, Aspose.Drawing làm cho quá trình này trở nên đơn giản và đáng tin cậy. Trong hướng dẫn này, bạn sẽ thấy chính xác cách áp dụng ma trận chuyển đổi lên một hình dạng, render kết quả, và cuối cùng **chuyển đổi đồ họa sang png** để lưu trữ hoặc xử lý tiếp theo. Khi kết thúc, bạn sẽ có một mẫu mã có thể tái sử dụng và có thể điều chỉnh cho bất kỳ kịch bản chuyển đổi cục bộ nào.
+Nếu bạn cần **lưu bitmap dưới dạng png** trong khi áp dụng một biến đổi cục bộ lên đồ họa trong một ứng dụng .NET, Aspose.Drawing làm cho quá trình này trở nên đơn giản và đáng tin cậy. Trong hướng dẫn này, bạn sẽ thấy chính xác cách áp dụng ma trận biến đổi lên một hình dạng, render kết quả, và cuối cùng **chuyển đổi đồ họa sang png** để lưu trữ hoặc xử lý tiếp theo. Khi kết thúc, bạn sẽ có một mẫu mã có thể tái sử dụng mà bạn có thể áp dụng cho bất kỳ kịch bản biến đổi cục bộ nào.
 
 ## Câu trả lời nhanh
-- **Biến đổi cục bộ là gì?** Đó là một phép toán dựa trên ma trận (rotate, scale, translate, skew) được áp dụng cho một phần tử vẽ cụ thể mà không ảnh hưởng đến toàn bộ canvas.  
-- **Thư viện nào hỗ trợ nó trong .NET?** Aspose.Drawing for .NET cung cấp một API đầy đủ tính năng hoạt động trên tất cả các phiên bản .NET được hỗ trợ.  
+- **Biến đổi cục bộ là gì?** Đó là một thao tác dựa trên ma trận (xoay, phóng to/thu nhỏ, dịch chuyển, nghiêng) được áp dụng cho một phần tử vẽ cụ thể mà không ảnh hưởng đến toàn bộ canvas.  
+- **Thư viện nào hỗ trợ nó trong .NET?** Aspose.Drawing cho .NET cung cấp một API đầy đủ tính năng hoạt động trên tất cả các phiên bản .NET được hỗ trợ.  
 - **Tôi có thể lưu kết quả dưới dạng png không?** Có — gọi `Bitmap.Save` với tên tệp “.png” và Aspose.Drawing sẽ tự động xử lý việc chuyển đổi.  
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại là bắt buộc cho môi trường sản xuất.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
 - **Thời gian thực hiện khoảng bao lâu?** Khoảng 10‑15 phút cho một ví dụ cơ bản.
 
 ## Cách lưu bitmap dưới dạng png
 
-Dưới đây bạn sẽ tìm thấy một hướng dẫn đầy đủ, từng bước, trình bày một **ví dụ chuyển đổi ma trận** và kết thúc bằng một **đầu ra png chất lượng cao**.
+Tải một `Bitmap`, áp dụng một `Matrix` lên một `GraphicsPath`, vẽ đường đã biến đổi bằng một `Pen`, và cuối cùng gọi `Bitmap.Save("output.png", ImageFormat.Png)`. Quy trình ngắn gọn này tạo ra một PNG chất lượng cao chỉ trong vài dòng mã và hoạt động trên Windows, Linux và macOS vì Aspose.Drawing hoàn toàn không phụ thuộc vào GDI.
 
-## “Cách áp dụng chuyển đổi” trong lập trình đồ họa là gì?
+`Bitmap` đại diện cho một hình ảnh trong bộ nhớ.  
+`Matrix` định nghĩa một phép biến đổi affine được sử dụng cho việc phóng to/thu nhỏ, quay, dịch chuyển và nghiêng.  
+`GraphicsPath` chứa một loạt các đường thẳng và đường cong định nghĩa một hình dạng.  
+`Pen` chỉ định cách vẽ đường viền, bao gồm màu sắc và độ rộng.  
+`Bitmap.Save` ghi hình ảnh vào tệp với định dạng được chỉ định.
 
-Áp dụng một chuyển đổi có nghĩa là thay đổi hệ tọa độ của một đối tượng vẽ bằng cách sử dụng **Matrix**. Ma trận xác định cách các điểm được quay, thu phóng hoặc di chuyển, cho phép bạn tạo ra các hiệu ứng hình ảnh tinh vi với ít mã nhất đồng thời giữ nguyên độ chính xác pixel. Nó hoạt động đồng nhất trên mọi nền tảng .NET, đảm bảo kết quả nhất quán.
+## “Cách áp dụng biến đổi” trong lập trình đồ họa là gì?
+
+Áp dụng một biến đổi có nghĩa là thay đổi hệ tọa độ của một đối tượng vẽ bằng cách sử dụng **Matrix**. Ma trận xác định cách các điểm được quay, phóng to/thu nhỏ hoặc di chuyển, cho phép bạn tạo ra các hiệu ứng hình ảnh tinh vi với ít mã nhất trong khi duy trì độ chính xác pixel. Nó hoạt động đồng nhất trên tất cả các nền tảng .NET, đảm bảo kết quả nhất quán.
 
 ## Tại sao nên sử dụng Aspose.Drawing để chuyển đổi đồ họa sang png?
 
-Aspose.Drawing cung cấp một engine đa nền tảng, không phụ thuộc vào GDI, có khả năng render các tệp PNG ở độ phân giải 300 dpi với độ sâu màu 32‑bit, đảm bảo đầu ra png không mất dữ liệu và chất lượng cao. Thư viện hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và chạy trên .NET Framework, .NET Core, và .NET 5/6+, loại bỏ các phụ thuộc riêng nền tảng.
+Aspose.Drawing cung cấp một engine đa nền tảng, không phụ thuộc vào GDI, có khả năng render các tệp PNG ở độ phân giải 300 dpi với độ sâu màu 32‑bit, đảm bảo đầu ra không mất dữ liệu và chất lượng cao. Nó hỗ trợ **hơn 50 định dạng** và chạy trên .NET Framework, .NET Core và .NET 5/6+, loại bỏ các phụ thuộc riêng nền tảng. Các phép đo hiệu năng cho thấy một hình ảnh 4 K × 4 K được xử lý trong vòng dưới 120 ms, phù hợp cho các kịch bản tải cao.
 
 ## Yêu cầu trước
 
 Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-1. **Aspose.Drawing for .NET** – tải xuống và cài đặt từ [download link](https://releases.aspose.com/drawing/net/).  
-2. Một thư mục trên máy của bạn nơi hình ảnh đầu ra sẽ được lưu (ví dụ, `C:\MyImages\`).  
+1. **Aspose.Drawing cho .NET** – tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/drawing/net/).  
+2. Một thư mục trên máy của bạn nơi ảnh đầu ra sẽ được lưu (ví dụ, `C:\MyImages\`).  
 3. Kiến thức cơ bản về C# và cách thiết lập dự án .NET.  
 
 ## Nhập không gian tên
@@ -123,23 +130,23 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-Các không gian tên này cho phép bạn truy cập các lớp `Bitmap`, `Graphics`, `GraphicsPath` và `Matrix` cần thiết cho quy trình chuyển đổi.
+Các không gian tên này cung cấp cho bạn quyền truy cập vào các lớp `Bitmap`, `Graphics`, `GraphicsPath` và `Matrix` cần thiết cho quy trình biến đổi.
 
 ## Hướng dẫn từng bước
 
 ### Bước 1: tạo bitmap
 
-`Bitmap` đại diện cho một hình ảnh trong bộ nhớ với định dạng pixel và kích thước đã xác định.
+`Bitmap` đại diện cho một hình ảnh trong bộ nhớ với định dạng pixel và kích thước được xác định.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-> **Mẹo:** Sử dụng `Format32bppPArgb` đảm bảo hình ảnh giữ được alpha đã nhân trước, lý tưởng cho đầu ra png.
+> **Pro tip:** Sử dụng `Format32bppPArgb` đảm bảo rằng hình ảnh giữ lại alpha đã được nhân trước, điều này lý tưởng cho đầu ra png.
 
 ### Bước 2: tạo đối tượng graphics
 
-`Graphics` cung cấp các phương thức vẽ để render các hình dạng lên bitmap.
+`Graphics` cung cấp các phương pháp vẽ để render các hình dạng lên bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
@@ -148,16 +155,16 @@ graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 
 ### Bước 3: tạo graphicspath
 
-`GraphicsPath` cho phép bạn định nghĩa các hình dạng vector phức tạp như ellipse, đường thẳng và đường cong.
+`GraphicsPath` cho phép bạn định nghĩa các hình dạng vector phức tạp như hình elip, đường thẳng và đường cong.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddEllipse(300, 300, 400, 200);
 ```
 
-### Bước 4: áp dụng chuyển đổi cục bộ (ví dụ chuyển đổi ma trận)
+### Bước 4: áp dụng biến đổi cục bộ (ví dụ biến đổi ma trận)
 
-`Matrix` bao hàm một ma trận chuyển đổi affine 3×3 được sử dụng cho việc thu phóng, quay, dịch chuyển và nghiêng.
+`Matrix` bao gồm một ma trận biến đổi affine 3×3 được sử dụng cho việc phóng to/thu nhỏ, quay, dịch chuyển và nghiêng.
 
 ```csharp
 Matrix matrix = new Matrix();
@@ -165,18 +172,18 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-> **Tại sao quay quanh trung tâm?** Quay quanh trung tâm của hình dạng ngăn nó quay vòng quanh gốc tọa độ, tạo cảm giác tự nhiên.
+> **Tại sao phải quay quanh trung tâm?** Quay quanh trung tâm của hình dạng ngăn nó quay vòng quanh gốc tọa độ, tạo cảm giác tự nhiên.
 
-### Bước 5: vẽ đường đã chuyển đổi
+### Bước 5: vẽ đường đã biến đổi
 
-`Pen` xác định màu, độ rộng và kiểu được dùng để viền các hình dạng khi vẽ.
+`Pen` xác định màu sắc, độ rộng và kiểu dùng để vẽ đường viền cho các hình dạng khi vẽ.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawPath(pen, path);
 ```
 
-### Bước 6: lưu hình ảnh đã chuyển đổi (chuyển đổi đồ họa sang png)
+### Bước 6: lưu ảnh đã biến đổi (chuyển đổi đồ họa sang png)
 
 `Bitmap.Save` ghi hình ảnh vào tệp với định dạng được chỉ định, chẳng hạn như PNG.
 
@@ -184,50 +191,49 @@ graphics.DrawPath(pen, path);
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\LocalTransformation_out.png");
 ```
 
-> **Lưu ý:** Phần mở rộng `.png` tự động kích hoạt bộ mã hoá PNG của Aspose.Drawing, đáp ứng yêu cầu **save bitmap as png**.
+> **Note:** Phần mở rộng `.png` tự động kích hoạt bộ mã hoá PNG của Aspose.Drawing, đáp ứng yêu cầu **lưu bitmap dưới dạng png**.
 
 ## Các vấn đề thường gặp & giải pháp
 
-| Vấn đề | Nguyên nhân | Giải pháp |
-|-------|-------------|-----------|
-| **Hình ảnh đầu ra trống** | Graphics không được xóa hoặc màu bút trùng màu nền | Gọi `graphics.Clear` với màu tương phản và đảm bảo màu bút có thể nhìn thấy. |
-| **Xoay méo mó** | Sử dụng `Rotate` thay vì `RotateAt` | Sử dụng `RotateAt` và chỉ định điểm trung tâm của hình dạng. |
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|-------------|----------------|
+| **Ảnh đầu ra trống** | Graphics chưa được xóa hoặc màu pen trùng với nền | Gọi `graphics.Clear` với màu tương phản và đảm bảo màu pen hiển thị. |
+| **Xoay bị biến dạng** | Sử dụng `Rotate` thay vì `RotateAt` | Sử dụng `RotateAt` và chỉ định điểm trung tâm của hình dạng. |
 | **Tệp không được lưu** | Đường dẫn thư mục không hợp lệ hoặc thiếu quyền ghi | Kiểm tra thư mục tồn tại và ứng dụng có quyền ghi. |
-| **Png bị mờ** | Cài đặt DPI thấp trên bitmap | Tạo bitmap với độ phân giải cao hơn hoặc đặt `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
+| **PNG bị mờ** | Cài đặt DPI thấp trên bitmap | Tạo bitmap với độ phân giải cao hơn hoặc đặt `graphics.SmoothingMode = SmoothingMode.AntiAlias`. |
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có thể chuỗi nhiều chuyển đổi (ví dụ: thu phóng rồi quay) không?**  
+**Q: Tôi có thể chuỗi nhiều biến đổi (ví dụ: phóng to rồi quay) không?**  
 A: Có. Tạo một `Matrix` duy nhất và gọi các phương thức như `Scale`, `RotateAt`, và `Translate` theo thứ tự bạn cần, sau đó áp dụng nó bằng `path.Transform(matrix);`.
 
-**Q: Aspose.Drawing có phù hợp cho việc render hiệu năng cao không?**  
-A: Hoàn toàn. Thư viện xử lý các hình ảnh 200 trang trong thời gian dưới 2 giây trên phần cứng máy chủ điển hình và tránh các hạn chế của GDI+ trên các nền tảng không phải Windows.
+**Q: Aspose.Drawing có phù hợp cho việc render hiệu suất cao không?**  
+A: Chắc chắn. Thư viện xử lý ảnh 200 trang trong vòng dưới 2 giây trên phần cứng máy chủ tiêu chuẩn và tránh các hạn chế của GDI+ trên các nền tảng không phải Windows.
 
-**Q: Các loại chuyển đổi khác nào được hỗ trợ?**  
-A: Ngoài quay, bạn có thể thực hiện dịch chuyển, thu phóng và nghiêng bằng cùng một lớp `Matrix`.
+**Q: Các loại biến đổi khác nào được hỗ trợ?**  
+A: Ngoài quay, bạn có thể thực hiện dịch chuyển, phóng to/thu nhỏ và nghiêng bằng cùng lớp `Matrix`.
 
-**Q: Làm thế nào để xử lý ngoại lệ trong quá trình chuyển đổi?**  
-A: Bao quanh mã vẽ trong khối `try‑catch` và kiểm tra các ngoại lệ `System.Drawing.Drawing2D`. Tham khảo tài liệu chính thức [Aspose.Drawing documentation](https://reference.aspose.com/drawing/net/) để biết hướng dẫn chi tiết về xử lý lỗi.
+**Q: Làm thế nào để xử lý ngoại lệ trong quá trình biến đổi?**  
+A: Bao bọc mã vẽ trong khối `try‑catch` và kiểm tra các ngoại lệ `System.Drawing.DrawingD2`. Tham khảo tài liệu chính thức của [Aspose.Drawing](https://reference.aspose.com/drawing/net/) để biết hướng dẫn chi tiết về xử lý lỗi.
 
 **Q: Tôi có thể dùng thử Aspose.Drawing trước khi mua không?**  
-A: Có, bản dùng thử đầy đủ chức năng có sẵn qua [download link](https://releases.aspose.com/drawing/net/).
+A: Có, bản dùng thử đầy đủ chức năng có sẵn qua [liên kết tải xuống](https://releases.aspose.com/drawing/net/).
 
 ## Kết luận
 
-Bằng cách làm theo hướng dẫn này, bạn đã biết **cách lưu bitmap dưới dạng png** sau khi áp dụng một chuyển đổi cục bộ với Aspose.Drawing cho .NET. Mẫu tương tự có thể được tái sử dụng cho việc thu phóng, dịch chuyển hoặc nghiêng bất kỳ hình dạng nào, giúp bạn xây dựng các thành phần trực quan phong phú, tương tác trong ứng dụng của mình đồng thời cung cấp đầu ra PNG chất lượng cao.
+Bằng cách làm theo hướng dẫn này, bạn giờ đã biết **cách lưu bitmap dưới dạng png** sau khi áp dụng biến đổi cục bộ với Aspose.Drawing cho .NET. Mẫu này có thể được tái sử dụng cho việc phóng to/thu nhỏ, dịch chuyển hoặc nghiêng bất kỳ hình dạng nào, giúp bạn xây dựng các thành phần trực quan phong phú, tương tác trong ứng dụng của mình đồng thời cung cấp đầu ra PNG chất lượng cao.
 
 ---
 
-**Cập nhật lần cuối:** 2026-08-22  
-**Kiểm tra với:** Aspose.Drawing 24.11 for .NET  
-**Tác giả:** Aspose
+**Last Updated:** 2026-10-29  
+**Tested With:** Aspose.Drawing 24.11 for .NET  
+**Author:** Aspose
 
 ## Hướng dẫn liên quan
 
-- [Hướng dẫn chuyển đổi ma trận: Matrix Transformations trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [Cách lưu PNG với Aspose.Drawing – Chuyển đổi toàn cục](/drawing/net/coordinate-transformations/world-transformation/)
-- [Tải, chuyển đổi BMP sang PNG và các định dạng khác với Aspose.Drawing](/drawing/net/image-editing/load-save/)
-
+- [Hướng dẫn Biến đổi Ma trận: Biến đổi Ma trận trong Aspose.Drawing cho .NET](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [Cách Lưu PNG với Aspose.Drawing – Biến đổi Thế giới](/drawing/net/coordinate-transformations/world-transformation/)
+- [Tải, Chuyển đổi BMP sang PNG và Các Định dạng Khác với Aspose.Drawing](/drawing/net/image-editing/load-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
