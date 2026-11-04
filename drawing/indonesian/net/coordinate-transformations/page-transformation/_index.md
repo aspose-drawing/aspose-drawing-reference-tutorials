@@ -1,71 +1,86 @@
 ---
-date: 2026-05-19
-description: Pelajari cara menggambar grafik persegi panjang sambil melakukan Coordinate
-  System Transformation di .NET dengan Aspose.Drawing. Panduan langkah demi langkah
+date: 2026-11-04
+description: Pelajari cara menggambar grafik persegi panjang sambil melakukan transformasi
+  sistem koordinat di .NET dengan API Aspose.Drawing. Panduan langkah demi langkah
   ini menunjukkan cara mengonversi inci ke piksel dan mengatur satuan halaman.
 keywords:
 - how to draw rectangle
 - convert inches to pixels
-- how to set unit
-- scale graphics printer
-- how to use aspnet
-linktitle: Coordinate System Transformation di Aspose.Drawing
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
+linktitle: Transformasi sistem koordinat di Aspose.Drawing
+og_description: Pelajari cara menggambar grafik persegi panjang sambil mengonversi
+  inci ke piksel dan mengatur satuan halaman di Aspose.Drawing untuk .NET. Ikuti panduan
+  langkah demi langkah untuk transformasi halaman yang tepat.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: Cara menggambar persegi panjang dengan transformasi halaman menggunakan
+  Aspose.Drawing untuk .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   type: TechArticle
 - description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  name: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
   type: HowTo
 - questions:
-  - answer: Yes, a free trial is available [here](https://releases.aspose.com/).
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
     question: Can I use Aspose.Drawing for free?
-  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
     question: Where can I find detailed documentation for Aspose.Drawing?
   - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
       for community help and official assistance.
     question: How do I get support for Aspose.Drawing?
-  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
     question: Is a temporary license available for Aspose.Drawing?
-  - answer: You can buy it [here](https://purchase.aspose.com/buy).
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
     question: Where can I purchase a full Aspose.Drawing license?
   type: FAQPage
-second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Cara Menggambar Persegi Panjang – Coordinate System Transformation (Transformasi
-  Halaman) di Aspose.Drawing untuk .NET
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: Cara menggambar persegi panjang – transformasi sistem koordinat (transformasi
+  halaman) di Aspose.Drawing untuk .NET
 url: /id/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
@@ -74,124 +89,108 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menggambar Persegi Panjang – Transformasi Sistem Koordinat (Transformasi Halaman) di Aspose.Drawing untuk .NET
+# Cara menggambar persegi panjang – transformasi sistem koordinat (transformasi halaman) di Aspose.Drawing untuk .NET
 
 ## Pendahuluan
 
-Selamat datang! Dalam tutorial ini Anda akan menemukan **how to draw rectangle** grafik sambil mentransformasi koordinat halaman menggunakan Aspose.Drawing untuk .NET. Baik Anda membangun aplikasi yang intensif grafis atau membutuhkan kontrol presisi atas satuan gambar, panduan ini akan memandu Anda melalui setiap langkah—dari menyiapkan kanvas hingga menggambar elemen persegi panjang. Pada akhir tutorial, Anda akan dapat menerapkan teknik ini dalam proyek Anda dengan percaya diri.
+Dalam tutorial ini Anda akan belajar **cara menggambar persegi panjang** grafik sambil melakukan transformasi sistem koordinat tingkat halaman menggunakan Aspose.Drawing untuk .NET. Baik Anda sedang membangun mesin pelaporan, alat sketsa bergaya CAD, atau aplikasi apa pun yang membutuhkan pengukuran dunia nyata yang presisi, panduan ini akan membawa Anda melalui setiap langkah—dari membuat bitmap hingga menyimpan PNG akhir. Pada akhir tutorial Anda akan nyaman mengonversi inci ke piksel, membersihkan latar belakang kanvas, dan mengatur unit halaman untuk output siap cetak.
 
-## Jawaban Cepat
-- **Apa itu transformasi sistem koordinat?** Memetakan satuan tingkat halaman (seperti inci) ke piksel tingkat perangkat.  
-- **Mengapa menggunakan Aspose.Drawing?** Menawarkan alternatif sepenuhnya dikelola, lintas‑platform untuk System.Drawing.Common.  
-- **Berapa lama contoh ini membutuhkan waktu untuk diimplementasikan?** Sekitar 5‑10 menit untuk transformasi halaman dasar.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Versi .NET mana yang didukung?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+## Jawaban cepat
+- **Apa itu transformasi sistem koordinat?** Ini memetakan unit tingkat halaman (seperti inci) ke piksel tingkat perangkat sehingga gambar berskala dengan benar pada perangkat output apa pun.  
+- **Mengapa memilih Aspose.Drawing?** Ini menyediakan API grafik yang sepenuhnya dikelola, lintas‑platform yang menggantikan System.Drawing.Common dan mendukung lebih dari 30 format gambar.  
+- **Berapa lama contoh ini membutuhkan waktu untuk diimplementasikan?** Sekitar 5‑10 menit untuk persegi panjang dasar dengan transformasi halaman.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk penyebaran produksi.  
+- **Runtime .NET mana yang didukung?** .NET Framework 4.6+, .NET Core 3.1+, dan .NET 5/6/7.
 
 ## Apa itu Aspose.Drawing?
 
-`Aspose.Drawing` adalah pustaka grafis .NET yang menyediakan **device‑independent API** untuk membuat dan memanipulasi gambar raster, vektor, dan gambar tingkat halaman tanpa bergantung pada GDI+. Ia mendukung **30+ format gambar** dan dapat memproses gambar hingga **10.000 × 10.000 piksel** tanpa memuat seluruh file ke memori.
+Aspose.Drawing adalah perpustakaan grafik .NET yang menyediakan **API independen perangkat** untuk membuat dan memanipulasi gambar raster, vektor, dan gambar tingkat halaman tanpa bergantung pada GDI+. Ini mendukung **lebih dari 30 format gambar** dan dapat memproses gambar hingga **10.000 × 10.000 piksel** sambil menjaga penggunaan memori tetap rendah.
 
 ## Mengapa menggunakan transformasi sistem koordinat dengan Aspose.Drawing?
 
-Transformasi sistem koordinat memungkinkan Anda merancang grafis dalam satuan dunia nyata sementara pustaka menangani skala piksel untuk perangkat output apa pun. Ini memastikan ukuran konsisten di layar dan printer serta menyederhanakan perhitungan tata letak.
+Transformasi sistem koordinat memungkinkan Anda merancang grafik dalam unit dunia nyata sementara perpustakaan secara otomatis menangani skala piksel untuk perangkat output apa pun. Pendekatan ini menjamin bahwa persegi panjang 5‑inci tercetak tepat lima inci pada printer 300 DPI dan muncul secara proporsional pada layar 96 DPI, menghilangkan kesalahan konversi manual.
 
-- **Desain independen perangkat:** Tulis kode sekali dan biarkan Aspose.Drawing menangani skala piksel untuk layar atau printer apa pun.  
-- **Penggambaran presisi:** Ideal untuk diagram teknis, sketsa gaya CAD, atau skenario apa pun di mana ukuran yang tepat penting.  
-- **Keandalan lintas platform:** Bekerja secara konsisten di Windows, Linux, dan macOS tanpa keterbatasan GDI+ pada System.Drawing.  
-- **Angka kinerja:** Pada CPU 2.5 GHz tipikal, menggambar persegi panjang 5‑inci pada 300 DPI memakan waktu kurang dari **15 ms**, dan perpustakaan dapat merender **50 frame per detik** dalam skenario pratinjau waktu nyata.
+- **Desain independen perangkat:** Tulis kode sekali; Aspose.Drawing menskalakannya untuk layar, printer, atau PDF.  
+- **Penggambaran presisi:** Ideal untuk diagram teknis, skematik teknik, atau skenario apa pun di mana pengukuran yang tepat penting.  
+- **Keandalan lintas‑platform:** Bekerja secara konsisten di Windows, Linux, dan macOS tanpa batasan GDI+ pada System.Drawing.  
+- **Kinerja:** Pada CPU tipikal 2,5 GHz, menggambar persegi panjang 5‑inci pada 300 DPI selesai dalam kurang dari **15 ms**, dan perpustakaan dapat merender **50 frame per detik** dalam skenario pratinjau waktu nyata.
 
 ## Prasyarat
 
-- **Pustaka Aspose.Drawing:** Unduh versi terbaru dari situs resmi [here](https://releases.aspose.com/drawing/net/).  
-- **Lingkungan Pengembangan:** Visual Studio, Rider, atau IDE kompatibel .NET apa pun.  
-- **Direktori Dokumen Anda:** Ganti `"Your Document Directory"` dalam kode dengan folder tempat Anda ingin menyimpan gambar output.  
-- **Dukungan ASP.NET (opsional):** Anda dapat menggunakan Aspose.Drawing dalam proyek ASP.NET Core dengan menambahkan paket NuGet ke aplikasi web Anda—ini mengikuti pola **how to use aspnet** yang sama seperti pustaka .NET lainnya.
+- **Perpustakaan Aspose.Drawing:** Unduh versi terbaru dari situs resmi [here](https://releases.aspose.com/drawing/net/).  
+- **IDE:** Visual Studio, Rider, atau editor yang kompatibel dengan .NET apa pun.  
+- **Folder output:** Ganti `"Your Document Directory"` dalam kode contoh dengan folder tempat Anda ingin menyimpan PNG.  
+- **Dukungan ASP.NET opsional:** Anda dapat menambahkan paket NuGet ke proyek ASP.NET Core dan menggunakan API yang sama; pola ini mengikuti pendekatan **how to use aspnet** khas untuk perpustakaan .NET.
 
-Sekarang semua siap, mari kita selami panduan langkah demi langkah.
+## Cara menggambar persegi panjang dengan transformasi halaman?
 
-## Cara Menggambar Persegi Panjang dengan Transformasi Halaman?
+Muat bitmap kosong, atur unit halaman ke inci, dan gambar persegi panjang menggunakan pena biru tipis—ini menyelesaikan penggambaran persegi panjang dalam beberapa baris kode saja. Properti `Graphics.PageUnit` memberi tahu mesin untuk menafsirkan semua koordinat sebagai inci, sehingga Anda dapat berpikir dalam ukuran dunia nyata alih-alih piksel mentah, dan perpustakaan secara otomatis **mengonversi inci ke piksel** berdasarkan DPI bitmap.
 
-Muat bitmap kosong, atur satuan halaman ke inci, dan gambar persegi panjang menggunakan pena biru tipis—ini menyelesaikan gambar persegi panjang dalam beberapa baris kode saja. Properti `Graphics.PageUnit` memberi tahu mesin untuk menafsirkan semua koordinat sebagai inci, sehingga Anda dapat berpikir dalam ukuran dunia nyata alih-alih piksel mentah.
-
-### Langkah 1: Impor Namespace
-
-Pernyataan `using` memberi Anda akses ke kelas gambar inti.
+### Langkah 1: mengimpor namespace
 
 ```csharp
 using System.Drawing;
 ```
 
-### Langkah 2: Buat Bitmap
-
-`Bitmap` mewakili gambar dalam memori yang dapat Anda gambar di atasnya. Kami memulai dengan membuat bitmap kosong yang akan menjadi permukaan gambar. Format piksel `Format32bppPArgb` memberi kami dukungan alfa premultiplied berkualitas tinggi.
+### Langkah 2: membuat bitmap
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Langkah 3: Buat Objek Graphics
-
-Objek `Graphics` menyediakan API gambar untuk bitmap. Ini adalah jembatan antara kode Anda dan buffer piksel.
+### Langkah 3: membuat objek graphics
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Langkah 4: Bersihkan Kanvas
-
-Berikan kanvas latar belakang netral sehingga bentuk yang digambar menonjol. Di sini kami mengisinya dengan abu-abu terang.
+### Langkah 4: membersihkan latar belakang kanvas
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Langkah 5: Atur Transformasi (Cara mengatur satuan)
-
-`Graphics.PageUnit` menentukan satuan ukuran yang digunakan untuk koordinat halaman. Untuk memetakan koordinat halaman ke piksel perangkat, atur properti `PageUnit`. Dalam contoh ini kami memilih inci, tetapi Anda juga dapat menggunakan `GraphicsUnit.Millimeter`, `GraphicsUnit.Point`, atau `GraphicsUnit.Pixel`. Mengatur satuan ke inci memungkinkan Anda **convert inches to pixels** secara otomatis berdasarkan DPI bitmap (96 DPI secara default, 300 DPI untuk pencetakan resolusi tinggi).
+### Langkah 5: mengatur transformasi (cara mengatur unit)
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### Langkah 6: Gambar Persegi Panjang – menggambar grafik persegi panjang
-
-`Pen` menentukan warna, lebar, dan gaya garis yang digambar pada permukaan grafis. Sekarang kami menggambar persegi panjang menggunakan pena biru tipis. Karena kami beralih ke inci, ukuran dan posisi persegi panjang diekspresikan dalam inci, membuat kode lebih mudah dibaca untuk tata letak yang berorientasi cetak.
+### Langkah 6: menggambar persegi panjang – menggambar grafik persegi panjang
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### Langkah 7: Simpan Gambar
-
-Akhirnya, tulis bitmap ke file PNG di folder yang Anda tentukan sebelumnya.
+### Langkah 7: menyimpan bitmap sebagai png
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-## Cara Menskalakan Grafik untuk Printer?
+## Cara menskalakan grafik untuk printer?
 
-Atur DPI bitmap ke resolusi printer target (misalnya, 300 DPI) sebelum menggambar. Ini secara otomatis **scale graphics printer** output sehingga satu inci dalam kode Anda sama dengan satu inci pada halaman tercetak. Setelah menetapkan `bitmap.SetResolution(300, 300)`, persegi panjang yang sama akan muncul lebih besar pada lembar cetak sambil mempertahankan dimensi tepatnya.
+Atur DPI bitmap ke resolusi printer target (misalnya, 300 DPI) sebelum menggambar. Ini secara otomatis **menskalakan grafik printer** output sehingga satu inci dalam kode Anda sama dengan satu inci pada halaman tercetak, sementara ukuran logis persegi panjang tetap tidak berubah. Setelah memanggil `bitmap.SetResolution(300, 300)`, persegi panjang yang sama akan tampak lebih besar di kertas tetapi mempertahankan dimensi tepatnya.
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 
-| Masalah | Mengapa Terjadi | Solusi |
-|---------|----------------|--------|
-| **File output tidak dibuat** | Path tidak benar atau folder tidak ada | Pastikan direktori target ada atau gunakan `Directory.CreateDirectory` sebelum menyimpan. |
-| **Persegi panjang tampak terdistorsi** | `PageUnit` salah atau DPI tidak cocok | Verifikasi bahwa `graphics.PageUnit` sesuai dengan satuan yang ingin Anda gunakan dan DPI bitmap diatur dengan tepat (default 96 DPI). |
+| Masalah | Mengapa terjadi | Solusi |
+|-------|----------------|-----|
+| **File output tidak dibuat** | Path tidak tepat atau folder tidak ada | Pastikan direktori target ada atau panggil `Directory.CreateDirectory` sebelum menyimpan. |
+| **Persegi panjang tampak terdistorsi** | `PageUnit` atau DPI tidak cocok | Verifikasi bahwa `graphics.PageUnit` sesuai dengan unit yang dimaksud dan DPI bitmap diatur dengan tepat (default 96 DPI, 300 DPI untuk cetak). |
 | **Pengecualian lisensi** | Menjalankan tanpa lisensi yang valid di produksi | Terapkan lisensi Aspose.Drawing sementara atau permanen Anda sebelum membuat objek grafik. |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**Q: Apakah saya dapat menggunakan Aspose.Drawing secara gratis?**  
-A: Ya, percobaan gratis tersedia [here](https://releases.aspose.com/).
+**Q: Bisakah saya menggunakan Aspose.Drawing secara gratis?**  
+A: Ya, versi percobaan gratis tersedia [here](https://releases.aspose.com/).
 
-**Q: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Drawing?**  
+**Q: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.Drawing?**  
 A: Referensi API lengkap berada [here](https://reference.aspose.com/drawing/net/).
 
 **Q: Bagaimana cara mendapatkan dukungan untuk Aspose.Drawing?**  
-A: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk bantuan komunitas dan dukungan resmi.
+A: Kunjungi [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) untuk bantuan komunitas dan dukungan resmi.
 
 **Q: Apakah lisensi sementara tersedia untuk Aspose.Drawing?**  
 A: Tentu—dapatkan satu [here](https://purchase.aspose.com/temporary-license/).
@@ -201,14 +200,19 @@ A: Anda dapat membelinya [here](https://purchase.aspose.com/buy).
 
 ## Kesimpulan
 
-Dalam panduan ini kami membahas semua yang Anda perlukan untuk **how to draw rectangle** grafik dengan Aspose.Drawing: menyiapkan kanvas, mengonfigurasi satuan halaman, menggambar bentuk presisi, dan menyimpan hasilnya. Gunakan teknik ini untuk membangun grafis skalabel, independen perangkat untuk laporan, gambar gaya CAD, atau aplikasi apa pun di mana akurasi pengukuran penting. Selanjutnya, jelajahi transformasi lanjutan seperti rotasi, skala, dan asal koordinat khusus untuk membuka lebih banyak skenario menggambar yang kuat.
+Anda kini tahu **cara menggambar persegi panjang** grafik dengan transformasi tingkat halaman menggunakan Aspose.Drawing untuk .NET. Dengan mengatur unit halaman ke inci, membersihkan latar belakang kanvas, dan menyimpan hasil sebagai PNG, Anda memperoleh output yang presisi dan independen perangkat yang cocok untuk tampilan layar maupun pencetakan resolusi tinggi. Bereksperimenlah dengan unit lain, rotasi, atau asal koordinat khusus untuk membuka skenario penggambaran yang lebih kuat.
 
 ---
 
-**Last Updated:** 2026-05-19  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-11-04  
+**Diuji Dengan:** Aspose.Drawing 24.12 for .NET  
+**Penulis:** Aspose
 
+## Tutorial Terkait
+
+- [Cara Mengatur Unit di Aspose.Drawing untuk .NET – Unit Pengukuran](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Transformasi Global](/drawing/net/coordinate-transformations/global-transformation/)
+- [Transformasi Langkah demi Langkah – Transformasi Koordinat](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

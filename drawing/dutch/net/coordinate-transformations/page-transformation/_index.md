@@ -1,70 +1,85 @@
 ---
-date: 2026-05-19
-description: Leer hoe u rechthoekgrafieken kunt tekenen terwijl u Coordinate System
-  Transformation uitvoert in .NET met Aspose.Drawing. Deze stapsgewijze gids laat
-  zien hoe u inches to pixels converteert en page units instelt.
+date: 2026-11-04
+description: Leer hoe u rechthoekgrafieken kunt tekenen terwijl u een coördinatensysteemtransformatie
+  uitvoert in .NET met de Aspose.Drawing API. Deze stapsgewijze gids laat zien hoe
+  u inches naar pixels converteert en paginabereiken instelt.
 keywords:
 - how to draw rectangle
 - convert inches to pixels
-- how to set unit
-- scale graphics printer
-- how to use aspnet
-linktitle: Coordinate System Transformation in Aspose.Drawing
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
+linktitle: Coördinatensysteemtransformatie in Aspose.Drawing
+og_description: Leer hoe u rechthoekgrafieken kunt tekenen terwijl u inches naar pixels
+  converteert en paginabereiken instelt in Aspose.Drawing voor .NET. Volg de stapsgewijze
+  gids voor een nauwkeurige pagina-transformatie.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: Hoe een rechthoek te tekenen met pagina-transformatie met Aspose.Drawing
+  voor .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   type: TechArticle
 - description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  name: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
   type: HowTo
 - questions:
-  - answer: Yes, a free trial is available [here](https://releases.aspose.com/).
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
     question: Can I use Aspose.Drawing for free?
-  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
     question: Where can I find detailed documentation for Aspose.Drawing?
   - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
       for community help and official assistance.
     question: How do I get support for Aspose.Drawing?
-  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
     question: Is a temporary license available for Aspose.Drawing?
-  - answer: You can buy it [here](https://purchase.aspose.com/buy).
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
     question: Where can I purchase a full Aspose.Drawing license?
   type: FAQPage
-second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Hoe een rechthoek te tekenen – Coordinate System Transformation (Page Transformation)
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: Hoe een rechthoek te tekenen – coördinatensysteemtransformatie (pagina-transformatie)
   in Aspose.Drawing voor .NET
 url: /nl/net/coordinate-transformations/page-transformation/
 weight: 13
@@ -74,140 +89,144 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe een rechthoek te tekenen – Coördinatensysteemtransformatie (Paginastransformatie) in Aspose.Drawing voor .NET
+# Hoe een rechthoek te tekenen – coördinatensysteemtransformatie (paginastransformatie) in Aspose.Drawing voor .NET
 
-## Introductie
+## Inleiding
 
-Welkom! In deze tutorial ontdek je **hoe je een rechthoek tekent** grafisch terwijl je paginacoördinaten transformeert met Aspose.Drawing voor .NET. Of je nu een grafisch intensieve applicatie bouwt of nauwkeurige controle over tekeneenheden nodig hebt, deze gids leidt je stap voor stap – van het opzetten van het canvas tot het tekenen van een rechthoekelement. Aan het einde kun je deze technieken met vertrouwen in je eigen projecten toepassen.
+In deze tutorial leer je **hoe een rechthoek te tekenen** grafische afbeeldingen terwijl je een paginaniveau coördinatensysteemtransformatie uitvoert met Aspose.Drawing voor .NET. Of je nu een rapportage‑engine bouwt, een CAD‑achtige schets‑tool, of een toepassing die nauwkeurige real‑world metingen vereist, deze gids leidt je door elke stap — van het maken van een bitmap tot het opslaan van de uiteindelijke PNG. Aan het einde kun je gemakkelijk inches omzetten naar pixels, de achtergrond van het canvas wissen, en paginabereiken instellen voor afdrukklare output.
 
 ## Snelle antwoorden
-- **Wat is coördinatensysteemtransformatie?** Mapping van pagina‑eenheden (zoals inches) naar apparaat‑pixels.  
-- **Waarom Aspose.Drawing gebruiken?** Het biedt een volledig beheerde, cross‑platform alternatieve voor System.Drawing.Common.  
-- **Hoe lang duurt het om het voorbeeld te implementeren?** Ongeveer 5‑10 minuten voor een basis paginastransformatie.  
-- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
-- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+- **Wat is coördinatensysteemtransformatie?** Het mappt paginaniveau‑eenheden (zoals inches) naar apparaatniveau‑pixels zodat tekeningen correct schalen op elk uitvoerapparaat.  
+- **Waarom Aspose.Drawing kiezen?** Het biedt een volledig beheerde, cross‑platform grafische API die System.Drawing.Common vervangt en meer dan 30 image formats ondersteunt.  
+- **Hoe lang duurt het om het voorbeeld te implementeren?** Ongeveer 5‑10 minuten voor een eenvoudige rechthoek met paginatransformatie.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie‑implementaties.  
+- **Welke .NET runtimes worden ondersteund?** .NET Framework 4.6+, .NET Core 3.1+, en .NET 5/6/7.
 
 ## Wat is Aspose.Drawing?
 
-`Aspose.Drawing` is een .NET‑grafiekbibliotheek die een **apparaat‑onafhankelijke API** biedt voor het maken en manipuleren van raster‑afbeeldingen, vectoren en paginagebaseerde tekeningen zonder afhankelijk te zijn van GDI+. Het ondersteunt **30+ afbeeldingsformaten** en kan afbeeldingen tot **10.000 × 10.000 pixels** verwerken zonder het volledige bestand in het geheugen te laden.
+Aspose.Drawing is een .NET grafische bibliotheek die een **device‑independent API** biedt voor het maken en manipuleren van rasterafbeeldingen, vectoren en paginaniveau‑tekeningen zonder afhankelijk te zijn van GDI+. Het ondersteunt **30+ image formats** en kan afbeeldingen verwerken tot **10,000 × 10,000 pixels** terwijl het geheugenverbruik laag blijft.
 
 ## Waarom coördinatensysteemtransformatie gebruiken met Aspose.Drawing?
 
-Coördinatensysteemtransformatie stelt je in staat om grafieken te ontwerpen in reële eenheden terwijl de bibliotheek de pixel‑schaling voor elk uitvoerapparaat afhandelt. Dit zorgt voor consistente afmetingen over schermen en printers en vereenvoudigt lay‑outberekeningen.
+Coördinatensysteemtransformatie stelt je in staat om grafische afbeeldingen te ontwerpen in real‑world eenheden terwijl de bibliotheek automatisch de pixel‑schaal voor elk uitvoerapparaat afhandelt. Deze aanpak garandeert dat een 5‑inch rechthoek exact vijf inches afdrukt op een 300 DPI printer en proportioneel verschijnt op een 96 DPI scherm, waardoor handmatige conversiefouten worden geëlimineerd.
 
-- **Apparaatonafhankelijk ontwerp:** Schrijf de code één keer en laat Aspose.Drawing de pixel‑schaal voor elk scherm of printer afhandelen.  
-- **Precisietekening:** Ideaal voor technische diagrammen, CAD‑achtige schetsen, of elke situatie waarin exacte afmetingen belangrijk zijn.  
-- **Cross‑platform betrouwbaarheid:** Werkt consistent op Windows, Linux en macOS zonder de GDI+ beperkingen van System.Drawing.  
-- **Prestatiecijfers:** Op een typische 2.5 GHz CPU duurt het tekenen van een 5‑inch rechthoek op 300 DPI minder dan **15 ms**, en de bibliotheek kan **50 frames per seconde** renderen in realtime preview‑scenario's.
+- **Device‑independent design:** Schrijf de code één keer; Aspose.Drawing schaalt het voor schermen, printers of PDF's.  
+- **Precision drawing:** Ideaal voor technische diagrammen, engineering‑schema's, of elke situatie waarin exacte metingen belangrijk zijn.  
+- **Cross‑platform reliability:** Werkt consistent op Windows, Linux en macOS zonder de GDI+ beperkingen van System.Drawing.  
+- **Performance:** Op een typische 2.5 GHz CPU voltooit het tekenen van een 5‑inch rechthoek op 300 DPI in minder dan **15 ms**, en de bibliotheek kan **50 frames per second** renderen in real‑time preview‑scenario's.
 
 ## Vereisten
 
-- **Aspose.Drawing Bibliotheek:** Download de nieuwste versie van de officiële site [hier](https://releases.aspose.com/drawing/net/).  
-- **Ontwikkelomgeving:** Visual Studio, Rider, of elke .NET‑compatibele IDE.  
-- **Uw documentmap:** Vervang `"Your Document Directory"` in de code door de map waar u de uitvoerafbeelding wilt opslaan.  
-- **ASP.NET-ondersteuning (optioneel):** U kunt Aspose.Drawing gebruiken in ASP.NET Core-projecten door het NuGet‑pakket toe te voegen aan uw webapp—dit volgt hetzelfde **how to use aspnet** patroon als elke andere .NET‑bibliotheek.
+- **Aspose.Drawing library:** Download de nieuwste versie van de officiële site [here](https://releases.aspose.com/drawing/net/).  
+- **IDE:** Visual Studio, Rider, of een .NET‑compatibele editor.  
+- **Output folder:** Vervang `"Your Document Directory"` in de voorbeeldcode door de map waar je de PNG wilt opslaan.  
+- **Optional ASP.NET support:** Je kunt het NuGet‑pakket toevoegen aan een ASP.NET Core‑project en dezelfde API gebruiken; het patroon volgt de typische **how to use aspnet** aanpak voor .NET‑bibliotheken.
 
-Nu alles klaar is, duiken we in de stap‑voor‑stap gids.
+## Hoe een rechthoek te tekenen met paginatransformatie?
 
-## Hoe een rechthoek tekenen met paginastransformatie?
+Laad een lege bitmap, stel de paginabereik in op inches, en teken een rechthoek met een dunne blauwe pen — dit voltooit het tekenen van de rechthoek in slechts een paar regels code. De eigenschap `Graphics.PageUnit` vertelt de engine om alle coördinaten als inches te interpreteren, zodat je kunt denken in real‑world metingen in plaats van ruwe pixels, en de bibliotheek automatisch **convert inches to pixels** op basis van de DPI van de bitmap.
 
-Laad een lege bitmap, stel de paginagebied‑eenheid in op inches, en teken een rechthoek met een dunne blauwe pen – dit voltooit het tekenen van de rechthoek in slechts een paar regels code. De eigenschap `Graphics.PageUnit` vertelt de engine alle coördinaten als inches te interpreteren, zodat je kunt denken in reële meeteenheden in plaats van ruwe pixels.
+### Stap 1: importeer namespaces
 
-### Stap 1: Namespaces importeren
-
-De `using`‑statements geven je toegang tot de kern‑tekenklassen.
+De `using` statements geven je toegang tot de kerntekenklassen.
 
 ```csharp
 using System.Drawing;
 ```
 
-### Stap 2: Een bitmap maken
+### Stap 2: maak een bitmap
 
-`Bitmap` vertegenwoordigt een afbeelding in het geheugen waarop je kunt tekenen. We beginnen met het maken van een lege bitmap die dient als tekenoppervlak. Het pixelformaat `Format32bppPArgb` biedt ons hoge kwaliteit met premultiplied alpha‑ondersteuning.
+`Bitmap` is de in‑memory afbeeldingcontainer waarop je tekent. Het bevat de pixelbuffer en biedt methoden om op te slaan naar bestanden. Het maken van een bitmap definieert de canvasgrootte en het pixelformaat.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Stap 3: Een Graphics‑object maken
+### Stap 3: maak een graphics‑object
 
-Een `Graphics`‑object biedt de teken‑API voor de bitmap. Het is de brug tussen jouw code en de pixelbuffer.
+`Graphics` biedt het tekenoppervlak voor de bitmap. Het vertaalt high‑level tekenopdrachten (lijnen, vormen, tekst) naar pixeloperaties op de onderliggende bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Stap 4: Het canvas wissen
+### Stap 4: wis de achtergrond van het canvas
 
-Geef het canvas een neutrale achtergrond zodat de getekende vormen opvallen. Hier vullen we het met een lichtgrijs.
+Het wissen van het canvas met een neutrale kleur zorgt ervoor dat je vormen opvallen. In dit voorbeeld vullen we de achtergrond met lichtgrijs, wat ook de **clear canvas background** techniek demonstreert.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Stap 5: De transformatie instellen (Hoe een eenheid instellen)
+### Stap 5: stel de transformatie in (hoe eenheden in te stellen)
 
-`Graphics.PageUnit` specificeert de meeteenheid die wordt gebruikt voor paginacoördinaten. Om paginacoördinaten naar apparaat‑pixels te mappen, stel je de `PageUnit`‑eigenschap in. In dit voorbeeld kiezen we inches, maar je kunt ook `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` of `GraphicsUnit.Pixel` gebruiken. Het instellen van de eenheid op inches laat je **inches automatisch omzetten naar pixels** op basis van de DPI van de bitmap (standaard 96 DPI, 300 DPI voor hoge‑resolutie afdrukken).
+`Graphics.PageUnit` specificeert de meeteenheid die wordt gebruikt voor paginacoördinaten. Het instellen op `GraphicsUnit.Inch` vertelt Aspose.Drawing om **convert inches to pixels** automatisch te doen op basis van de DPI van de bitmap (standaard 96 DPI, 300 DPI voor hoge‑resolutie afdrukken). Je kunt ook kiezen voor `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` of `GraphicsUnit.Pixel` afhankelijk van je layout‑vereisten.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### Stap 6: Een rechthoek tekenen – rechthoekgrafieken tekenen
+### Stap 6: teken een rechthoek – teken rechthoek‑grafieken
 
-`Pen` definieert de kleur, breedte en stijl van lijnen die op een tekenoppervlak worden getekend. Nu tekenen we een rechthoek met een dunne blauwe pen. Omdat we zijn overgeschakeld naar inches, worden de grootte en positie van de rechthoek uitgedrukt in inches, waardoor de code beter leesbaar is voor print‑gerichte lay‑outs.
+`Pen` definieert de kleur, breedte en stijl van lijnen die op een graphics‑oppervlak worden getekend. Met een dunne blauwe pen tekenen we een rechthoek waarvan de afmetingen in inches worden uitgedrukt, waardoor de code beter leesbaar wordt voor print‑gerichte layouts.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### Stap 7: De afbeelding opslaan
+### Stap 7: sla bitmap op als png
 
-Schrijf tenslotte de bitmap naar een PNG‑bestand in de map die je eerder hebt opgegeven.
+Tot slot schrijf je de bitmap naar een PNG‑bestand in de map die je eerder hebt opgegeven. Opslaan als PNG behoudt verliesvrije kwaliteit en wordt breed ondersteund op verschillende platforms.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-## Hoe grafieken schalen voor een printer?
+## Hoe grafische afbeeldingen schalen voor een printer?
 
-Stel de DPI van de bitmap in op de doelprinterresolutie (bijv. 300 DPI) vóór het tekenen. Dit schaalt automatisch **grafieken printer** output zodat één inch in je code gelijk is aan één inch op de afgedrukte pagina. Na het aanroepen van `bitmap.SetResolution(300, 300)` zal dezelfde rechthoek groter verschijnen op het afgedrukte blad terwijl de exacte afmetingen behouden blijven.
+Stel de DPI van de bitmap in op de doelprinterresolutie (bijvoorbeeld 300 DPI) vóór het tekenen. Dit schaalt automatisch de **scale graphics printer** output zodat één inch in je code gelijk is aan één inch op de afgedrukte pagina, terwijl de logische grootte van de rechthoek ongewijzigd blijft. Na het aanroepen van `bitmap.SetResolution(300, 300)` zal dezelfde rechthoek groter op papier verschijnen maar behoudt zijn exacte afmetingen.
 
 ## Veelvoorkomende problemen en oplossingen
 
 | Probleem | Waarom het gebeurt | Oplossing |
 |----------|--------------------|-----------|
-| **Uitvoerbestand niet aangemaakt** | Onjuiste pad of ontbrekende map | Zorg ervoor dat de doelmap bestaat of gebruik `Directory.CreateDirectory` voordat u opslaat. |
-| **Rechthoek verschijnt vervormd** | Verkeerde `PageUnit` of niet‑overeenkomende DPI | Controleer of `graphics.PageUnit` overeenkomt met de eenheden die u wilt gebruiken en of de bitmap‑DPI correct is ingesteld (standaard is 96 DPI). |
-| **Licentie‑exception** | Uitvoeren zonder een geldige licentie in productie | Pas uw tijdelijke of permanente Aspose.Drawing‑licentie toe voordat u graphics‑objecten maakt. |
+| **Uitvoerbestand niet aangemaakt** | Onjuist pad of ontbrekende map | Zorg ervoor dat de doelmap bestaat of roep `Directory.CreateDirectory` aan vóór het opslaan. |
+| **Rechthoek verschijnt vervormd** | Niet overeenkomende `PageUnit` of DPI | Controleer of `graphics.PageUnit` overeenkomt met de beoogde eenheid en of de bitmap DPI correct is ingesteld (standaard 96 DPI, 300 DPI voor afdruk). |
+| **Licentie‑exception** | Uitvoeren zonder een geldige licentie in productie | Pas je tijdelijke of permanente Aspose.Drawing‑licentie toe voordat je graphics‑objecten maakt. |
 
 ## Veelgestelde vragen
 
-**V: Kan ik Aspose.Drawing gratis gebruiken?**  
-A: Ja, een gratis proefversie is beschikbaar [hier](https://releases.aspose.com/).
+**Q: Kan ik Aspose.Drawing gratis gebruiken?**  
+A: Ja, een gratis proefversie is beschikbaar [here](https://releases.aspose.com/).
 
-**V: Waar kan ik gedetailleerde documentatie voor Aspose.Drawing vinden?**  
-A: De volledige API‑referentie is te vinden [hier](https://reference.aspose.com/drawing/net/).
+**Q: Waar kan ik gedetailleerde documentatie voor Aspose.Drawing vinden?**  
+A: De volledige API‑referentie is te vinden [here](https://reference.aspose.com/drawing/net/).
 
-**V: Hoe krijg ik ondersteuning voor Aspose.Drawing?**  
-A: Bezoek het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) voor community‑hulp en officiële assistentie.
+**Q: Hoe krijg ik ondersteuning voor Aspose.Drawing?**  
+A: Bezoek het [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) voor community‑hulp en officiële ondersteuning.
 
-**V: Is er een tijdelijke licentie beschikbaar voor Aspose.Drawing?**  
-A: Absoluut—verkrijg er één [hier](https://purchase.aspose.com/temporary-license/).
+**Q: Is er een tijdelijke licentie beschikbaar voor Aspose.Drawing?**  
+A: Absoluut—verkrijg er één [here](https://purchase.aspose.com/temporary-license/).
 
-**V: Waar kan ik een volledige Aspose.Drawing‑licentie kopen?**  
-A: U kunt deze [hier](https://purchase.aspose.com/buy) kopen.
+**Q: Waar kan ik een volledige Aspose.Drawing‑licentie kopen?**  
+A: Je kunt het kopen [here](https://purchase.aspose.com/buy).
 
 ## Conclusie
 
-In deze gids hebben we alles behandeld wat je nodig hebt om **hoe je een rechthoek tekent** grafisch met Aspose.Drawing: het opzetten van het canvas, het configureren van paginagebied‑eenheden, het nauwkeurig tekenen van vormen, en het opslaan van het resultaat. Gebruik deze technieken om schaalbare, apparaat‑onafhankelijke grafieken te bouwen voor rapporten, CAD‑achtige tekeningen, of elke toepassing waarbij meetnauwkeurigheid van belang is. Verken vervolgens geavanceerde transformaties zoals rotatie, schaling en aangepaste coördinaten‑origin om nog krachtigere tekenscenario's te ontgrendelen.
+Je weet nu **how to draw rectangle** grafische afbeeldingen met paginaniveau‑transformatie met Aspose.Drawing voor .NET. Door de paginabereik in te stellen op inches, de canvas‑achtergrond te wissen, en het resultaat op te slaan als PNG, bereik je precieze, device‑independent output geschikt voor zowel schermweergave als hoge‑resolutie afdrukken. Experimenteer met andere eenheden, rotatie, of aangepaste coördinaat‑origin om nog krachtigere tekenscenario's te ontdekken.
 
 ---
 
-**Last Updated:** 2026-05-19  
-**Getest met:** Aspose.Drawing 24.12 voor .NET  
-**Auteur:** Aspose  
+**Laatst bijgewerkt:** 2026-11-04  
+**Getest met:** Aspose.Drawing 24.12 for .NET  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe een eenheid instellen in Aspose.Drawing voor .NET – Eenheden van Maat](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Globale transformatie](/drawing/net/coordinate-transformations/global-transformation/)
+- [Stap voor stap transformatie – Coördinatentransformaties](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

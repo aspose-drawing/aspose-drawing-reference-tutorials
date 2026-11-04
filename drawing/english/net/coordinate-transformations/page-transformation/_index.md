@@ -1,118 +1,134 @@
 ---
-title: "How to Draw Rectangle – Coordinate System Transformation (Page Transformation) using Aspose.Drawing API for .NET"
-linktitle: "Coordinate System Transformation in Aspose.Drawing"
-second_title: "Aspose.Drawing .NET API – Alternative to System.Drawing.Common"
-description: "Learn how to draw rectangle graphics while performing coordinate system transformation in .NET with the Aspose.Drawing API. This step‑by‑step guide shows how to convert inches to pixels and set page units."
-weight: 13
-url: /net/coordinate-transformations/page-transformation/
-date: 2026-05-19
+date: 2026-11-04
+description: Learn how to draw rectangle graphics while performing coordinate system
+  transformation in .NET with the Aspose.Drawing API. This step‑by‑step guide shows
+  how to convert inches to pixels and set page units.
+images:
+- /net/coordinate-transformations/page-transformation/og-image.png
 keywords:
-  - how to draw rectangle
-  - convert inches to pixels
-  - how to set unit
-  - scale graphics printer
-  - how to use aspnet
+- how to draw rectangle
+- convert inches to pixels
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
+linktitle: Coordinate system transformation in Aspose.Drawing
+og_description: Learn how to draw rectangle graphics while converting inches to pixels
+  and setting page units in Aspose.Drawing for .NET. Follow the step‑by‑step guide
+  for precise page transformation.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: How to draw rectangle with page transformation using Aspose.Drawing for
+  .NET
 schemas:
-- type: TechArticle
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
-    in Aspose.Drawing for .NET
+- author: Aspose
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  dateModified: '2026-05-19'
-  author: Aspose
-- type: HowTo
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
-  description: Learn how to draw rectangle graphics while performing coordinate system
+  type: TechArticle
+- description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
+  name: How to draw rectangle – coordinate system transformation (page transformation)
+    in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
-- type: FAQPage
-  questions:
-  - question: Can I use Aspose.Drawing for free?
-    answer: 'Yes, a free trial is available [here](https://releases.aspose.com/) .'
-  - question: Where can I find detailed documentation for Aspose.Drawing?
-    answer: 'The full API reference is located [here](https://reference.aspose.com/drawing/net/) .'
-  - question: How do I get support for Aspose.Drawing?
-    answer: 'Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
-      for community help and official assistance.'
-  - question: Is a temporary license available for Aspose.Drawing?
-    answer: 'Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/) .'
-  - question: Where can I purchase a full Aspose.Drawing license?
-    answer: 'You can buy it [here](https://purchase.aspose.com/buy) .'
+  type: HowTo
+- questions:
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
+    question: Can I use Aspose.Drawing for free?
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
+    question: Where can I find detailed documentation for Aspose.Drawing?
+  - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
+      for community help and official assistance.
+    question: How do I get support for Aspose.Drawing?
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
+    question: Is a temporary license available for Aspose.Drawing?
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
+    question: Where can I purchase a full Aspose.Drawing license?
+  type: FAQPage
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: How to draw rectangle – coordinate system transformation (page transformation)
+  in Aspose.Drawing for .NET
+url: /net/coordinate-transformations/page-transformation/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Draw Rectangle – Coordinate System Transformation (Page Transformation) in Aspose.Drawing for .NET
+# How to draw rectangle – coordinate system transformation (page transformation) in Aspose.Drawing for .NET
 
 ## Introduction
 
-Welcome! In this tutorial you’ll discover **how to draw rectangle** graphics while transforming page coordinates using Aspose.Drawing for .NET. Whether you’re building a graphics‑intensive application or need precise control over drawing units, this guide walks you through every step—from setting up the canvas to drawing a rectangle element. By the end, you’ll be able to apply these techniques in your own projects with confidence.
+In this tutorial you’ll learn **how to draw rectangle** graphics while performing a page‑level coordinate system transformation using Aspose.Drawing for .NET. Whether you are building a reporting engine, a CAD‑style sketch tool, or any application that needs precise real‑world measurements, this guide walks you through every step—from creating a bitmap to saving the final PNG. By the end you’ll be comfortable converting inches to pixels, clearing the canvas background, and setting page units for print‑ready output.
 
-## Quick Answers
-- **What is coordinate system transformation?** Mapping page‑level units (like inches) to device‑level pixels.  
-- **Why use Aspose.Drawing?** It offers a fully managed, cross‑platform alternative to System.Drawing.Common.  
-- **How long does the example take to implement?** About 5‑10 minutes for a basic page transformation.  
-- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
-- **Which .NET versions are supported?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+## Quick answers
+- **What is coordinate system transformation?** It maps page‑level units (such as inches) to device‑level pixels so drawings scale correctly on any output device.  
+- **Why choose Aspose.Drawing?** It provides a fully managed, cross‑platform graphics API that replaces System.Drawing.Common and supports 30+ image formats.  
+- **How long does the example take to implement?** Roughly 5‑10 minutes for a basic rectangle with page transformation.  
+- **Do I need a license for development?** A free trial works for development; a commercial license is required for production deployments.  
+- **Which .NET runtimes are supported?** .NET Framework 4.6+, .NET Core 3.1+, and .NET 5/6/7.
 
 ## What is Aspose.Drawing?
 
-`Aspose.Drawing` is a .NET graphics library that provides a **device‑independent API** for creating and manipulating raster images, vectors, and page‑level drawings without relying on GDI+. It supports **30+ image formats** and can process images up to **10,000 × 10,000 pixels** without loading the entire file into memory.
+Aspose.Drawing is a .NET graphics library that provides a **device‑independent API** for creating and manipulating raster images, vectors, and page‑level drawings without relying on GDI+. It supports **30+ image formats** and can process images up to **10,000 × 10,000 pixels** while keeping memory usage low.
 
 ## Why use coordinate system transformation with Aspose.Drawing?
 
-Coordinate system transformation lets you design graphics in real‑world units while the library handles pixel scaling for any output device. This ensures consistent sizing across screens and printers and simplifies layout calculations.
+Coordinate system transformation lets you design graphics in real‑world units while the library automatically handles pixel scaling for any output device. This approach guarantees that a 5‑inch rectangle prints at exactly five inches on a 300 DPI printer and appears proportionally on a 96 DPI screen, eliminating manual conversion errors.
 
-- **Device‑independent design:** Write code once and let Aspose.Drawing handle pixel scaling for any screen or printer.  
-- **Precision drawing:** Ideal for technical diagrams, CAD‑style sketches, or any scenario where exact measurements matter.  
+- **Device‑independent design:** Write code once; Aspose.Drawing scales it for screens, printers, or PDFs.  
+- **Precision drawing:** Ideal for technical diagrams, engineering schematics, or any scenario where exact measurements matter.  
 - **Cross‑platform reliability:** Works consistently on Windows, Linux, and macOS without the GDI+ limitations of System.Drawing.  
-- **Performance numbers:** On a typical 2.5 GHz CPU, drawing a 5‑inch rectangle at 300 DPI takes under **15 ms**, and the library can render **50 frames per second** in real‑time preview scenarios.
+- **Performance:** On a typical 2.5 GHz CPU, drawing a 5‑inch rectangle at 300 DPI completes in under **15 ms**, and the library can render **50 frames per second** in real‑time preview scenarios.
 
 ## Prerequisites
 
-Before we start, ensure you have:
+- **Aspose.Drawing library:** Download the latest version from the official site [here](https://releases.aspose.com/drawing/net/).  
+- **IDE:** Visual Studio, Rider, or any .NET‑compatible editor.  
+- **Output folder:** Replace `"Your Document Directory"` in the sample code with the folder where you want the PNG saved.  
+- **Optional ASP.NET support:** You can add the NuGet package to an ASP.NET Core project and use the same API; the pattern follows the typical **how to use aspnet** approach for .NET libraries.
 
-- **Aspose.Drawing Library:** Download the latest version from the official site [here](https://releases.aspose.com/drawing/net/).  
-- **Development Environment:** Visual Studio, Rider, or any .NET‑compatible IDE.  
-- **Your Document Directory:** Replace `"Your Document Directory"` in the code with the folder where you want the output image saved.  
-- **ASP.NET support (optional):** You can use Aspose.Drawing in ASP.NET Core projects by adding the NuGet package to your web app—this follows the same **how to use aspnet** pattern as any other .NET library.
+## How to draw rectangle with page transformation?
 
-Now that everything is ready, let’s dive into the step‑by‑step guide.
+Load a blank bitmap, set the page unit to inches, and draw a rectangle using a thin blue pen—this completes the rectangle drawing in just a few lines of code. The `Graphics.PageUnit` property tells the engine to interpret all coordinates as inches, so you can think in real‑world measurements instead of raw pixels, and the library automatically **convert inches to pixels** based on the bitmap’s DPI.
 
-## How to Draw Rectangle with Page Transformation?
-
-Load a blank bitmap, set the page unit to inches, and draw a rectangle using a thin blue pen—this completes the rectangle drawing in just a few lines of code. The `Graphics.PageUnit` property tells the engine to interpret all coordinates as inches, so you can think in real‑world measurements instead of raw pixels.
-
-### Step 1: Import Namespaces
+### Step 1: import namespaces
 
 The `using` statements give you access to the core drawing classes.
 
@@ -120,68 +136,68 @@ The `using` statements give you access to the core drawing classes.
 using System.Drawing;
 ```
 
-### Step 2: Create a Bitmap
+### Step 2: create a bitmap
 
-`Bitmap` represents an image in memory that you can draw onto. We start by creating a blank bitmap that will serve as the drawing surface. The pixel format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.
+`Bitmap` is the in‑memory image container you draw on. It holds the pixel buffer and exposes methods for saving to files. Creating a bitmap defines the canvas size and pixel format.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Step 3: Create a Graphics Object
+### Step 3: create a graphics object
 
-A `Graphics` object provides the drawing API for the bitmap. It’s the bridge between your code and the pixel buffer.
+`Graphics` provides the drawing surface for the bitmap. It translates high‑level drawing commands (lines, shapes, text) into pixel operations on the underlying bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Step 4: Clear the Canvas
+### Step 4: clear the canvas background
 
-Give the canvas a neutral background so the drawn shapes stand out. Here we fill it with a light gray.
+Clearing the canvas with a neutral color ensures that your shapes stand out. In this example we fill the background with light gray, which also demonstrates the **clear canvas background** technique.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Step 5: Set the Transformation (How to set unit)
+### Step 5: set the transformation (how to set units)
 
-`Graphics.PageUnit` specifies the unit of measure used for page coordinates. To map page coordinates to device pixels, set the `PageUnit` property. In this example we choose inches, but you could also use `GraphicsUnit.Millimeter`, `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to inches lets you **convert inches to pixels** automatically based on the bitmap’s DPI (96 DPI by default, 300 DPI for high‑resolution printing).
+`Graphics.PageUnit` specifies the unit of measure used for page coordinates. Setting it to `GraphicsUnit.Inch` tells Aspose.Drawing to **convert inches to pixels** automatically based on the bitmap’s DPI (96 DPI by default, 300 DPI for high‑resolution printing). You could also choose `GraphicsUnit.Millimeter`, `GraphicsUnit.Point`, or `GraphicsUnit.Pixel` depending on your layout requirements.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### Step 6: Draw a Rectangle – draw rectangle graphics
+### Step 6: draw a rectangle – draw rectangle graphics
 
-`Pen` defines the color, width, and style of lines drawn on a graphics surface. Now we draw a rectangle using a thin blue pen. Because we switched to inches, the rectangle’s size and position are expressed in inches, making the code more readable for print‑oriented layouts.
+`Pen` defines the color, width, and style of lines drawn on a graphics surface. Using a thin blue pen, we draw a rectangle whose dimensions are expressed in inches, making the code more readable for print‑oriented layouts.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### Step 7: Save the Image
+### Step 7: save bitmap as png
 
-Finally, write the bitmap to a PNG file in the folder you specified earlier.
+Finally, write the bitmap to a PNG file in the folder you specified earlier. Saving as PNG preserves lossless quality and is widely supported across platforms.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-## How to Scale Graphics for a Printer?
+## How to scale graphics for a printer?
 
-Set the bitmap’s DPI to the target printer resolution (e.g., 300 DPI) before drawing. This automatically **scale graphics printer** output so that one inch in your code equals one inch on the printed page. After setting `bitmap.SetResolution(300, 300)`, the same rectangle will appear larger on the printed sheet while retaining its exact dimensions.
+Set the bitmap’s DPI to the target printer resolution (for example, 300 DPI) before drawing. This automatically **scale graphics printer** output so that one inch in your code equals one inch on the printed page, while the rectangle’s logical size remains unchanged. After calling `bitmap.SetResolution(300, 300)`, the same rectangle will appear larger on paper but retain its exact dimensions.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
-| Issue | Why it Happens | Fix |
+| Issue | Why it happens | Fix |
 |-------|----------------|-----|
-| **Output file not created** | Incorrect path or missing folder | Ensure the target directory exists or use `Directory.CreateDirectory` before saving. |
-| **Rectangle appears distorted** | Wrong `PageUnit` or mismatched DPI | Verify that `graphics.PageUnit` matches the units you intend to use and that the bitmap DPI is set appropriately (default is 96 DPI). |
+| **Output file not created** | Incorrect path or missing folder | Ensure the target directory exists or call `Directory.CreateDirectory` before saving. |
+| **Rectangle appears distorted** | Mismatched `PageUnit` or DPI | Verify that `graphics.PageUnit` matches the intended unit and that the bitmap DPI is set appropriately (default 96 DPI, 300 DPI for print). |
 | **License exception** | Running without a valid license in production | Apply your temporary or permanent Aspose.Drawing license before creating graphics objects. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Drawing for free?**  
 A: Yes, a free trial is available [here](https://releases.aspose.com/).
@@ -200,13 +216,20 @@ A: You can buy it [here](https://purchase.aspose.com/buy).
 
 ## Conclusion
 
-In this guide we covered everything you need to **how to draw rectangle** graphics with Aspose.Drawing: setting up the canvas, configuring page units, drawing precise shapes, and saving the result. Use these techniques to build scalable, device‑independent graphics for reports, CAD‑style drawings, or any application where measurement accuracy matters. Next, explore advanced transformations like rotation, scaling, and custom coordinate origins to unlock even more powerful drawing scenarios.
+You now know **how to draw rectangle** graphics with page‑level transformation using Aspose.Drawing for .NET. By setting the page unit to inches, clearing the canvas background, and saving the result as a PNG, you achieve precise, device‑independent output suitable for both screen display and high‑resolution printing. Experiment with other units, rotation, or custom coordinate origins to unlock even more powerful drawing scenarios.
 
 ---
 
-**Last Updated:** 2026-05-19  
+**Last Updated:** 2026-11-04  
 **Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Related Tutorials
+
+- [How to Set Unit in Aspose.Drawing for .NET – Units of Measure](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Global Transformation](/drawing/net/coordinate-transformations/global-transformation/)
+- [Step by Step Transformation – Coordinate Transformations](/drawing/net/coordinate-transformations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

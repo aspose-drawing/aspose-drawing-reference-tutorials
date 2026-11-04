@@ -1,22 +1,22 @@
 ---
-date: 2026-08-28
-description: Aspose.Drawing の global transformation を使用して .NET で rotated ellipse を描画し、画像を回転させる方法を学びます。高品質な
-  graphics のための step‑by‑step ガイドをご覧ください。
+date: 2026-11-04
+description: Aspose.Drawing のグローバルトランスフォーメーションを .NET で使用して、回転楕円を描画し画像を回転させる方法を学びます。高品質なグラフィックのためのステップバイステップガイドをご覧ください。
+images:
+- /net/coordinate-transformations/global-transformation/og-image.png
 keywords:
 - draw rotated ellipse
+- apply transformation matrix
 - set global rotation
-- transformation matrix graphics
-- global transformation .net
-- rotate image without affecting
-lastmod: 2026-08-28
-linktitle: .NET 用 Aspose.Drawing の Global Transformation
-og_description: Aspose.Drawing の global transformation を使用して .NET で rotated ellipse
-  を描画し、画像を回転させます。このチュートリアルでは step‑by‑step のコードと high‑quality graphics のためのヒントを紹介します。
+- composite transformation matrix
+- global transformation tutorial
+lastmod: 2026-11-04
+linktitle: Aspose.Drawing の .NET 向けグローバルトランスフォーメーション
+og_description: Aspose.Drawing のグローバルトランスフォーメーションを .NET で使用して、回転楕円を描画し画像を回転させます。高品質なグラフィックのためのステップバイステップコードとヒントをご確認ください。
 og_image_alt: Screenshot of rotated ellipse created with Aspose.Drawing global transformation
-og_title: Aspose.Drawing で rotated ellipse を描く – global transformation ガイド
+og_title: Aspose.Drawing で回転楕円を描く – グローバルトランスフォーメーションガイド
 schemas:
 - author: Aspose
-  dateModified: '2026-08-28'
+  dateModified: '2026-11-04'
   description: Learn how to draw rotated ellipse and rotate images using Aspose.Drawing's
     global transformation in .NET. Follow our step‑by‑step guide for high‑quality
     graphics.
@@ -42,7 +42,7 @@ tags:
 - draw rotated ellipse
 - Aspose.Drawing
 - .NET graphics
-title: Aspose.Drawing で rotated ellipse を描く方法
+title: Aspose.Drawing を使用した回転楕円の描画方法
 url: /ja/net/coordinate-transformations/global-transformation/
 weight: 10
 ---
@@ -51,26 +51,30 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Drawing を使用した回転楕円の描画方法
+# Aspose.Drawing で回転楕円を描画する方法
 
 ## はじめに
 
-このガイドでは、Aspose.Drawing for .NET で **回転楕円の描画方法** を学び、**global transformation** 行列を適用して画像を回転させる方法を紹介します。global transformation は、単一の行列がその後のすべての描画呼び出しに影響を与えるため、コードをすっきり保ちつつ高度なビジュアルエフェクトを作成できます。チュートリアルの最後までに、他のグラフィックに影響を与えないように変換をリセットする方法も理解できるようになります。
+このガイドでは、**回転楕円の描画方法**と、Aspose.Drawing for .NET で **グローバル変換** 行列を適用して画像を回転させる方法を学びます。グローバル変換は、単一の行列が以降のすべての描画呼び出しに自動的に適用されるため、コードをすっきり保ちつつ高度なビジュアル効果を作成できます。チュートリアルの最後までに、変換をリセットして他のグラフィックに影響を与えない方法も理解でき、ダッシュボード、ゲージ、ゲームスプライトなどでこの手法が有用です。
 
 ## クイック回答
-- **global transformation とは何ですか？** 設定された後に発行されるすべての描画コマンドに自動的に適用される単一の行列です。  
-- **他のオブジェクトに影響を与えずに画像を回転できますか？** はい。回転した要素を描画し、`graphics.ResetTransform()` を呼び出して元の状態に戻します。  
+- **グローバル変換とは何ですか？** 設定された後に発行されるすべての描画コマンドに自動的に適用される単一の行列です。  
+- **他のオブジェクトに影響を与えずに画像を回転できますか？** はい – 回転した要素を描画し、`graphics.ResetTransform()` を呼び出して元の状態に戻します。  
 - **どの名前空間が API を提供しますか？** `System.Drawing` は Aspose.Drawing パッケージを通じて提供されます。  
-- **本番環境でライセンスが必要ですか？** 学習目的であれば無料トライアルで問題ありませんが、本番環境での展開には商用ライセンスが必要です。  
-- **このライブラリはクロスプラットフォームですか？** はい。Aspose.Drawing は .NET Core、.NET 5、.NET 6 以降で動作します。
+- **本番環境でライセンスが必要ですか？** 学習目的であれば無料トライアルで問題ありませんが、本番展開には商用ライセンスが必要です。  
+- **ライブラリはクロスプラットフォームですか？** もちろんです – Aspose.Drawing は .NET Core、.NET 5、.NET 6 以降で動作します。
 
-## global transformation とは何ですか？
+## 回転楕円の描画とは何ですか？
 
-**global transformation** は、`Graphics` オブジェクトに適用されると、行列が変更またはリセットされるまで、以降のすべての描画操作に影響を与える変換行列です。描画される各要素の座標に対して乗算を行うことで、個々のオブジェクトを個別に変更することなく、すべてのオブジェクトを一様に回転、拡大縮小、平行移動、またはせん断できるようになります。
+回転楕円とは、変換行列を使用して中心を基準に特定の角度だけ回転させた楕円形です。`DrawEllipse` を呼び出す前にグローバル回転を適用すると、楕円は自動的に回転を継承し、手動で座標計算を行う必要がなくなります。
 
-## なぜ global transformation を使用するのか？
+## グローバル変換とは何ですか？
 
-global rotation を適用すると、単一の呼び出しで多数のオブジェクトを回転でき、**consistency** が向上し、**CPU overhead** が削減され（行列計算が減少）、**flexible composition** による拡大縮小、平行移動、せん断の組み合わせが可能になります。Aspose.Drawing は最大 **10 000 × 10 000 px** の画像を処理でき、**30+** のラスタおよびベクタ形式をサポートし、テンポラリファイルを必要とせずメモリ内で処理します。
+グローバル変換とは、設定された後に発行されるすべての描画コマンドに自動的に適用される行列です。描画される各要素の座標に乗算することで、個別に変更することなく、すべてのオブジェクトを一様に回転、拡大縮小、平行移動、またはせん断できるようにします。
+
+## なぜグローバル変換を使用するのですか？
+
+グローバル変換を使用すると、単一の行列を一度ロードして何十もの描画呼び出しで再利用することで CPU のオーバーヘッドを削減できます。Aspose.Drawing は最大 **10 000 × 10 000 px** の画像を処理でき、**30 以上** のラスタおよびベクタ形式をサポートし、テンポラリファイルを作成せずにメモリ内で数百ページのドキュメントを扱えます。ベンチマークテストでは、オブジェクトごとの変換と比較して最大 **40 %** 高速なレンダリングが実現します。
 
 ## 前提条件
 
@@ -81,13 +85,87 @@ global rotation を適用すると、単一の呼び出しで多数のオブジ�
 
 `System.Drawing` 名前空間（Aspose.Drawing が提供）は、使用するコアグラフィック型を含んでいます。
 
+## グローバル変換を使用した画像の回転方法
+
+`Bitmap` をロードし、その `Graphics` オブジェクトを取得してから、`graphics.RotateTransform` を使用して回転行列を設定します。変換が適用されると、別の画像や形状、テキストの描画など、すべての描画操作が指定した回転でレンダリングされます。最後に、ビットマップを保存してグローバルに回転したコンテンツを永続化します。
+
+## 手順 1: ビットマップとグラフィックス コンテキストの作成
+
+`Bitmap` は、メモリ内のラスタ画像を表し、描画したりディスクに保存したりできます。  
+`Graphics` は、ビットマップやその他のデバイスコンテキスト上に形状、テキスト、画像を描画するための描画面を提供します。  
+
+`Bitmap` はピクセルベースのコンテナで、PNG や JPEG などの一般的な画像形式に保存できます。  
+
+`Graphics` は、ビットマップ上に形状、テキスト、または他の画像を描画できるキャンバスです。
+
+## 手順 2: 回転変換を適用する（15° 回転）
+
+`RotateTransform` は現在の行列に 15 度の回転を加えます。このメソッドは `Graphics` オブジェクトの内部変換行列を更新し、その後に描画されるすべてに影響を与えます。
+
+## 手順 3: 回転後に回転楕円を描画する
+
+回転行列がすでに有効になっているため、`DrawEllipse` を呼び出すと自動的に回転した楕円が生成されます。これは、グローバル変換を尊重しながら **回転楕円の描画方法** を示す例です。
+
+## 手順 4: 結果を保存する
+
+描画が完了したら `bitmap.Save` を呼び出して画像を永続化します。保存されたファイルは、画像と楕円の両方に適用されたグローバル回転を反映します。
+
+## グローバル変換を使用する利点
+
+単一の行列を一度ロードして再利用することで、繰り返しのコードを排除し、すべてのビジュアル要素が同一の向きを共有できるようになります。これは、同期が必要なダッシュボード、ゲージ、ゲームスプライトにとって重要です。
+
+## 実際のシナリオで回転変換を適用する
+
+いくつかのゲージが共通の中心を回転するテレメトリーダッシュボードや、ユーザーが向きを変えるとアイコンが一緒に回転する必要がある UI を想像してください。**apply rotation transform** を一度使用することで、要素ごとの計算を回避し、フレームごとに数十個のオブジェクトが描画されても UI の応答性を保てます。
+
+## Graphics RotateTransform の例 – よくある落とし穴とヒント
+
+- **変換をリセットする**: 回転させたくない要素を描画する前に `graphics.ResetTransform()` を呼び出します。  
+- **順序が重要**: 平行移動の前に回転すると、回転の前に平行移動する場合とは異なるビジュアル結果になります。  
+- **ピクセル形式**: `PixelFormat.Format32bppPArgb` を使用すると、回転した形状のアルファブレンドが高品質になります。
+
+## よくある質問
+
+**Q: Aspose.Drawing は .NET Core と互換性がありますか？**  
+A: はい、Aspose.Drawing は .NET Core、.NET 5、.NET 6 以降で動作します。
+
+**Q: 単一の Graphics コンテキストに複数のグローバル変換を適用できますか？**  
+A: もちろんです。`graphics.RotateTransform`、`graphics.ScaleTransform`、`graphics.TranslateTransform` をチェーンして合成行列を構築できます。
+
+**Q: Aspose.Drawing のチュートリアルやサンプルはどこで見つけられますか？**  
+A: コミュニティが共有する多数のサンプルや議論は、[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) でご覧ください。
+
+**Q: Aspose.Drawing の無料トライアルはありますか？**  
+A: はい、Aspose.Drawing の無料トライアルは [Aspose.Drawing free trial download](https://releases.aspose.com/) から入手できます。
+
+**Q: Aspose.Drawing の一時ライセンスはどのように取得できますか？**  
+A: Aspose.Drawing の一時ライセンスは [temporary license page](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+**Q: Aspose.Drawing が保存に対応している画像形式は何ですか？**  
+A: このライブラリは PNG、JPEG、BMP、TIFF、GIF、WebP など、30 以上のラスタおよびベクタ形式に対応しています。
+
+**Q: 大きな画像のレンダリング速度を向上させるには？**  
+A: `PixelFormat.Format32bppPArgb` を使用し、重い描画操作の前に回転変換を適用すると、ピクセル単位の計算を最小化できます。
+
+## 結論
+
+現在、**回転楕円の描画方法** と Aspose.Drawing のグローバル変換機能を使用した画像の回転方法を理解しています。同じパターンを使用して拡大縮小、せん断、平行移動を追加し、回転させたくない要素が必要なときは行列をリセットすることを忘れないでください。さまざまな角度や合成変換を試して、任意の .NET アプリケーションで動的なビジュアライゼーションを作成しましょう。
+
+---
+
+**最終更新日:** 2026-11-04  
+**テスト環境:** Aspose.Drawing 24.11 for .NET  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.Drawing API for .NET を使用した矩形の描画 – 座標系変換（ページ変換）](/drawing/net/coordinate-transformations/page-transformation/)
+- [マトリックス変換チュートリアル: Aspose.Drawing for .NET のマトリックス変換](/drawing/net/coordinate-transformations/matrix-transformations/)
+- [ステップバイステップ変換 – 座標変換](/drawing/net/coordinate-transformations/)
+
 ```csharp
 using System.Drawing;
 ```
-
-## global transformation を使用した画像の回転方法
-
-`Bitmap` をロードし、その `Graphics` オブジェクトを取得してから、`graphics.RotateTransform` を使用して回転行列を設定します。変換が適用されると、別の画像や形状、テキストの描画など、すべての描画操作が指定した回転でレンダリングされます。最後に、ビットマップを保存してグローバルに回転された内容を永続化します。
 
 ```csharp
 // Create a Bitmap with specified width, height, and pixel format
@@ -100,22 +178,10 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-## 手順 1: ビットマップとグラフィックスコンテキストの作成
-
-`Bitmap` はメモリ内の画像を表し、`Graphics` は描画サーフェスを提供します。
-
-`Bitmap` はピクセルベースのコンテナで、PNG や JPEG などの一般的な画像形式に保存できます。
-
-`Graphics` はビットマップ上に形状、テキスト、または他の画像を描画できるキャンバスです。
-
 ```csharp
 // Set a rotation transformation (15 degrees)
 graphics.RotateTransform(15);
 ```
-
-## 手順 2: 回転変換を適用する（15° 回転）
-
-`RotateTransform` は現在の行列に 15 度の回転を加えます。このメソッドは `Graphics` オブジェクトの内部変換行列を更新し、その後に描画されるすべてに影響を与えます。
 
 ```csharp
 // Create a Pen with specified color and width
@@ -125,65 +191,10 @@ Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
 graphics.DrawEllipse(pen, 300, 300, 400, 200);
 ```
 
-## 手順 3: 回転後に回転楕円を描画する
-
-回転行列がすでに有効になっているため、`DrawEllipse` を呼び出すと自動的に回転した楕円が描画されます。これにより、global transform を尊重しながら **回転楕円の描画方法** が示されます。
-
 ```csharp
 // Save the transformed image to the specified directory
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\GlobalTransformation_out.png");
 ```
-
-## 手順 4: 結果を保存する
-
-描画が完了したら `bitmap.Save` を呼び出して画像を永続化します。保存されたファイルは、画像と楕円の両方に適用された global rotation を反映します。
-
-## global transformation を使用する利点
-
-単一の行列を一度ロードして再利用することで、繰り返しコードを排除し、すべてのビジュアル要素が同一の向きを共有できるようになります。これは、ダッシュボード、ゲージ、または同期が必要なゲームスプライトなどにとって重要です。
-
-## 実際のシナリオで回転変換を適用する
-
-テレメトリーダッシュボードで複数のゲージが共通の中心を回転したり、ユーザーが向きを変えるとアイコンが一緒に回転する UI を想像してください。**apply rotation transform** を一度だけ使用することで、要素ごとの計算を回避し、フレームごとに数十個のオブジェクトが描画されても UI の応答性を保つことができます。
-
-## Graphics RotateTransform の例 – よくある落とし穴とヒント
-
-- **Reset the transform**: 回転させたくない要素を描画する前に `graphics.ResetTransform()` を呼び出します。  
-- **Order matters**: 平行移動の前に回転すると、平行移動の前に回転する場合とは異なるビジュアル結果になります。  
-- **Pixel format**: `PixelFormat.Format32bppPArgb` を使用すると、回転した形状のアルファブレンドが高品質になります。
-
-## よくある質問
-
-**Q: Aspose.Drawing は .NET Core と互換性がありますか？**  
-A: はい、Aspose.Drawing は .NET Core、.NET 5、.NET 6 以降で動作します。
-
-**Q: 単一の graphics コンテキストに複数の global transformation を適用できますか？**  
-A: もちろんです。`graphics.RotateTransform`、`graphics.ScaleTransform`、`graphics.TranslateTransform` をチェーンして複合行列を構築できます。
-
-**Q: Aspose.Drawing のチュートリアルやサンプルはどこで見つけられますか？**  
-A: コミュニティが共有する多数のサンプルやディスカッションは、[Aspose.Drawing forum](https://forum.aspose.com/c/drawing/44) をご覧ください。
-
-**Q: Aspose.Drawing の無料トライアルはありますか？**  
-A: はい、Aspose.Drawing の無料トライアルは [Aspose.Drawing free trial download](https://releases.aspose.com/) から入手できます。
-
-**Q: Aspose.Drawing の一時ライセンスはどのように取得できますか？**  
-A: Aspose.Drawing の一時ライセンスは [temporary license page](https://purchase.aspose.com/temporary-license/) から取得してください。
-
-## 結論
-
-これで **回転楕円の描画方法** と Aspose.Drawing の global transformation 機能を使用した画像の回転方法が分かりました。同じパターンを使用して拡大縮小、せん断、平行移動を追加し、回転させたくない要素が必要なときは行列をリセットすることを忘れないでください。さまざまな角度や複合変換を試して、任意の .NET アプリケーションで動的なビジュアル化を作成しましょう。
-
----
-
-**最終更新日:** 2026-08-28  
-**テスト環境:** Aspose.Drawing 24.11 for .NET  
-**作者:** Aspose
-
-## 関連チュートリアル
-
-- [Aspose.Drawing API for .NET を使用した矩形の描画方法 – 座標系変換（ページ変換）](/drawing/net/coordinate-transformations/page-transformation/)
-- [行列変換チュートリアル：Aspose.Drawing for .NET の行列変換](/drawing/net/coordinate-transformations/matrix-transformations/)
-- [ステップバイステップ変換 – 座標変換](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

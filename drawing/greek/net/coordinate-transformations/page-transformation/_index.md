@@ -1,71 +1,87 @@
 ---
-date: 2026-05-19
-description: Μάθετε πώς να σχεδιάζετε γραφικά ορθογωνίου ενώ εκτελείτε coordinate
-  system transformation στο .NET με Aspose.Drawing. Αυτός ο οδηγός βήμα‑βήμα δείχνει
-  πώς να μετατρέψετε ίντσες σε pixel και να ορίσετε τις μονάδες σελίδας.
+date: 2026-11-04
+description: Μάθετε πώς να δημιουργήσετε γραφικά ορθογωνίου ενώ εκτελείτε μετασχηματισμό
+  συστήματος συντεταγμένων στο .NET με το API του Aspose.Drawing. Αυτός ο οδηγός βήμα
+  προς βήμα δείχνει πώς να μετατρέψετε ίντσες σε εικονοστοιχεία και να ορίσετε τις
+  μονάδες σελίδας.
 keywords:
 - how to draw rectangle
 - convert inches to pixels
-- how to set unit
-- scale graphics printer
-- how to use aspnet
-linktitle: Coordinate System Transformation στο Aspose.Drawing
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
+linktitle: Μετασχηματισμός συστήματος συντεταγμένων στο Aspose.Drawing
+og_description: Μάθετε πώς να δημιουργήσετε γραφικά ορθογωνίου ενώ μετατρέπετε ίντσες
+  σε εικονοστοιχεία και ορίζετε τις μονάδες σελίδας στο Aspose.Drawing για .NET. Ακολουθήστε
+  τον οδηγό βήμα προς βήμα για ακριβή μετασχηματισμό σελίδας.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: Πώς να σχεδιάσετε ορθογώνιο με μετασχηματισμό σελίδας χρησιμοποιώντας Aspose.Drawing
+  για .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   type: TechArticle
 - description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  name: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
   type: HowTo
 - questions:
-  - answer: Yes, a free trial is available [here](https://releases.aspose.com/).
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
     question: Can I use Aspose.Drawing for free?
-  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
     question: Where can I find detailed documentation for Aspose.Drawing?
   - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
       for community help and official assistance.
     question: How do I get support for Aspose.Drawing?
-  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
     question: Is a temporary license available for Aspose.Drawing?
-  - answer: You can buy it [here](https://purchase.aspose.com/buy).
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
     question: Where can I purchase a full Aspose.Drawing license?
   type: FAQPage
-second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Πώς να Σχεδιάσετε Ορθογώνιο – Coordinate System Transformation (Page Transformation)
-  στο Aspose.Drawing για .NET
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: Πώς να σχεδιάσετε ορθογώνιο – μετασχηματισμός συστήματος συντεταγμένων (μετασχηματισμός
+  σελίδας) στο Aspose.Drawing για .NET
 url: /el/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
@@ -74,48 +90,44 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Σχεδιάσετε Ορθογώνιο – Μετασχηματισμός Συντεταγμένων (Μετασχηματισμός Σελίδας) στο Aspose.Drawing για .NET
+# Πώς να σχεδιάσετε ορθογώνιο – μετασχηματισμός συστήματος συντεταγμένων (μετασχηματισμός σελίδας) στο Aspose.Drawing για .NET
 
 ## Εισαγωγή
 
-Καλώς ήρθατε! Σε αυτό το σεμινάριο θα ανακαλύψετε **πώς να σχεδιάσετε ορθογώνιο** γραφικά ενώ μετασχηματίζετε τις συντεταγμένες της σελίδας χρησιμοποιώντας το Aspose.Drawing για .NET. Είτε δημιουργείτε μια εφαρμογή με έντονη χρήση γραφικών είτε χρειάζεστε ακριβή έλεγχο των μονάδων σχεδίασης, αυτός ο οδηγός σας καθοδηγεί βήμα‑βήμα—from την προετοιμασία του καμβά μέχρι το σχεδιασμό ενός ορθογώνιου στοιχείου. Στο τέλος, θα μπορείτε να εφαρμόσετε αυτές τις τεχνικές στα δικά σας έργα με σιγουριά.
+Σε αυτό το tutorial θα μάθετε **πώς να σχεδιάσετε ορθογώνιο** γραφικά ενώ εκτελείτε μετασχηματισμό συστήματος συντεταγμένων επιπέδου σελίδας χρησιμοποιώντας το Aspose.Drawing για .NET. Είτε δημιουργείτε μια μηχανή αναφορών, ένα εργαλείο σκίτσου τύπου CAD, ή οποιαδήποτε εφαρμογή που χρειάζεται ακριβείς πραγματικές μετρήσεις, αυτός ο οδηγός σας καθοδηγεί βήμα προς βήμα—από τη δημιουργία ενός bitmap μέχρι την αποθήκευση του τελικού PNG. Στο τέλος θα είστε άνετοι με τη μετατροπή ιντσών σε pixel, τον καθαρισμό του φόντου του καμβά και τον ορισμό μονάδων σελίδας για εκτύπωση.
 
-## Γρήγορες Απαντήσεις
-- **Τι είναι ο μετασχηματισμός συστήματος συντεταγμένων;** Αντιστοίχιση μονάδων επιπέδου σελίδας (όπως ίντσες) σε εικονοστοιχεία επιπέδου συσκευής.  
-- **Γιατί να χρησιμοποιήσω το Aspose.Drawing;** Προσφέρει μια πλήρως διαχειριζόμενη,跨平台 εναλλακτική λύση στο System.Drawing.Common.  
-- **Πόσο χρόνο παίρνει η υλοποίηση του παραδείγματος;** Περίπου 5‑10 λεπτά για έναν βασικό μετασχηματισμό σελίδας.  
-- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+## Γρήγορες απαντήσεις
+- **Τι είναι ο μετασχηματισμός συστήματος συντεταγμένων;** Μετατρέπει τις μονάδες επιπέδου σελίδας (όπως ίντσες) σε pixel επιπέδου συσκευής ώστε τα σχέδια να κλιμακώνονται σωστά σε οποιαδήποτε συσκευή εξόδου.  
+- **Γιατί να επιλέξετε το Aspose.Drawing;** Παρέχει ένα πλήρως διαχειριζόμενο, cross‑platform API γραφικών που αντικαθιστά το System.Drawing.Common και υποστηρίζει 30+ μορφές εικόνας.  
+- **Πόσο χρόνο χρειάζεται η υλοποίηση του παραδείγματος;** Περίπου 5‑10 λεπτά για ένα βασικό ορθογώνιο με μετασχηματισμό σελίδας.  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγικές εκδόσεις.  
+- **Ποια .NET runtimes υποστηρίζονται;** .NET Framework 4.6+, .NET Core 3.1+, και .NET 5/6/7.
 
 ## Τι είναι το Aspose.Drawing;
 
-`Aspose.Drawing` είναι μια βιβλιοθήκη γραφικών .NET που παρέχει ένα **API ανεξάρτητο από τη συσκευή** για δημιουργία και επεξεργασία raster εικόνων, διανυσμάτων και σχεδίων επιπέδου σελίδας χωρίς εξάρτηση από το GDI+. Υποστηρίζει **πάνω από 30 μορφές εικόνας** και μπορεί να επεξεργαστεί εικόνες έως **10.000 × 10.000 pixel** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη.
+Το Aspose.Drawing είναι μια βιβλιοθήκη γραφικών .NET που παρέχει ένα **device‑independent API** για δημιουργία και επεξεργασία raster εικόνων, διανυσμάτων και σχεδίων επιπέδου σελίδας χωρίς εξάρτηση από το GDI+. Υποστηρίζει **30+ μορφές εικόνας** και μπορεί να επεξεργαστεί εικόνες έως **10.000 × 10.000 pixel** διατηρώντας χαμηλή χρήση μνήμης.
 
-## Γιατί να χρησιμοποιήσω μετασχηματισμό συστήματος συντεταγμένων με το Aspose.Drawing;
+## Γιατί να χρησιμοποιήσετε μετασχηματισμό συστήματος συντεταγμένων με το Aspose.Drawing;
 
-Ο μετασχηματισμός συστήματος συντεταγμένων σας επιτρέπει να σχεδιάζετε γραφικά σε πραγματικές μονάδες μέτρησης ενώ η βιβλιοθήκη διαχειρίζεται την κλιμάκωση σε εικονοστοιχεία για οποιαδήποτε συσκευή εξόδου. Αυτό εξασφαλίζει συνεπή μεγέθη σε οθόνες και εκτυπωτές και απλοποιεί τους υπολογισμούς διάταξης.
+Ο μετασχηματισμός συστήματος συντεταγμένων σας επιτρέπει να σχεδιάζετε γραφικά σε πραγματικές μονάδες, ενώ η βιβλιοθήκη χειρίζεται αυτόματα την κλιμάκωση pixel για οποιαδήποτε συσκευή εξόδου. Αυτή η προσέγγιση εγγυάται ότι ένα ορθογώνιο 5 ιντσών εκτυπώνεται ακριβώς πέντε ίντσες σε έναν εκτυπωτή 300 DPI και εμφανίζεται αναλογικά σε οθόνη 96 DPI, εξαλείφοντας τα σφάλματα χειροκίνητης μετατροπής.
 
-- **Σχεδίαση ανεξάρτητη από τη συσκευή:** Γράψτε τον κώδικα μία φορά και αφήστε το Aspose.Drawing να χειριστεί την κλιμάκωση εικονοστοιχείων για οποιαδήποτε οθόνη ή εκτυπωτή.  
-- **Ακριβής σχεδίαση:** Ιδανικό για τεχνικά διαγράμματα, σκίτσα τύπου CAD ή οποιοδήποτε σενάριο όπου η ακριβής μέτρηση είναι κρίσιμη.  
-- **Αξιοπιστία跨平台:** Λειτουργεί σταθερά σε Windows, Linux και macOS χωρίς τους περιορισμούς του GDI+ του System.Drawing.  
-- **Αριθμοί απόδοσης:** Σε τυπικό CPU 2.5 GHz, το σχεδιασμό ενός 5‑inch ορθογωνίου στα 300 DPI διαρκεί κάτω από **15 ms**, και η βιβλιοθήκη μπορεί να αποδώσει **50 frames per second** σε σενάρια πραγματικού‑χρόνου προεπισκόπησης.
+- **Σχεδίαση ανεξάρτητη από τη συσκευή:** Γράψτε κώδικα μία φορά· το Aspose.Drawing το κλιμακώνει για οθόνες, εκτυπωτές ή PDF.  
+- **Ακριβής σχεδίαση:** Ιδανικό για τεχνικά διαγράμματα, μηχανικά σχήματα ή οποιοδήποτε σενάριο όπου οι ακριβείς μετρήσεις έχουν σημασία.  
+- **Αξιοπιστία跨平台:** Λειτουργεί σταθερά σε Windows, Linux και macOS χωρίς τους περιορισμούς GDI+ του System.Drawing.  
+- **Απόδοση:** Σε τυπική CPU 2.5 GHz, η σχεδίαση ενός ορθογωνίου 5 ιντσών στα 300 DPI ολοκληρώνεται σε κάτω από **15 ms**, και η βιβλιοθήκη μπορεί να αποδίδει **50 καρέ ανά δευτερόλεπτο** σε σενάρια προεπισκόπησης σε πραγματικό χρόνο.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
+- **Βιβλιοθήκη Aspose.Drawing:** Κατεβάστε την τελευταία έκδοση από την επίσημη ιστοσελίδα [here](https://releases.aspose.com/drawing/net/).  
+- **IDE:** Visual Studio, Rider ή οποιονδήποτε επεξεργαστή συμβατό με .NET.  
+- **Φάκελος εξόδου:** Αντικαταστήστε το `"Your Document Directory"` στον κώδικα παραδείγματος με το φάκελο όπου θέλετε να αποθηκευτεί το PNG.  
+- **Προαιρετική υποστήριξη ASP.NET:** Μπορείτε να προσθέσετε το πακέτο NuGet σε ένα έργο ASP.NET Core και να χρησιμοποιήσετε το ίδιο API· το πρότυπο ακολουθεί τη συνήθη προσέγγιση **how to use aspnet** για βιβλιοθήκες .NET.
 
-- **Βιβλιοθήκη Aspose.Drawing:** Κατεβάστε την πιο πρόσφατη έκδοση από την επίσημη ιστοσελίδα [εδώ](https://releases.aspose.com/drawing/net/).  
-- **Περιβάλλον Ανάπτυξης:** Visual Studio, Rider ή οποιοδήποτε IDE συμβατό με .NET.  
-- **Κατάλογος Εγγράφου:** Αντικαταστήστε το `"Your Document Directory"` στον κώδικα με το φάκελο όπου θέλετε να αποθηκευτεί η εικόνα εξόδου.  
-- **Υποστήριξη ASP.NET (προαιρετικό):** Μπορείτε να χρησιμοποιήσετε το Aspose.Drawing σε έργα ASP.NET Core προσθέτοντας το πακέτο NuGet στην εφαρμογή web· ακολουθεί το ίδιο **πρότυπο how to use aspnet** όπως κάθε άλλη βιβλιοθήκη .NET.
+## Πώς να σχεδιάσετε ορθογώνιο με μετασχηματισμό σελίδας;
 
-Τώρα που όλα είναι έτοιμα, ας βουτήξουμε στον οδηγό βήμα‑βήμα.
+Φορτώστε ένα κενό bitmap, ορίστε τη μονάδα σελίδας σε ίντσες και σχεδιάστε ένα ορθογώνιο χρησιμοποιώντας ένα λεπτό μπλε στυλό—αυτό ολοκληρώνει τη σχεδίαση του ορθογωνίου σε λίγες μόνο γραμμές κώδικα. Η ιδιότητα `Graphics.PageUnit` λέει στη μηχανή να ερμηνεύει όλες τις συντεταγμένες ως ίντσες, ώστε να σκέφτεστε σε πραγματικές μετρήσεις αντί για ακατέργαστα pixel, και η βιβλιοθήκη αυτόματα **μετατρέπει τις ίντσες σε pixel** βάσει του DPI του bitmap.
 
-## Πώς να Σχεδιάσετε Ορθογώνιο με Μετασχηματισμό Σελίδας;
-
-Φορτώστε ένα κενό bitmap, ορίστε τη μονάδα σελίδας σε ίντσες και σχεδιάστε ένα ορθογώνιο με λεπτό μπλε στυλό—αυτό ολοκληρώνει το σχεδιασμό του ορθογωνίου σε λίγες μόνο γραμμές κώδικα. Η ιδιότητα `Graphics.PageUnit` λέει στη μηχανή να ερμηνεύει όλες τις συντεταγμένες ως ίντσες, ώστε να σκέφτεστε σε πραγματικές μετρήσεις αντί για ακατέργαστα εικονοστοιχεία.
-
-### Βήμα 1: Εισαγωγή Χώρων Ονομάτων
+### Βήμα 1: εισαγωγή namespaces
 
 Οι δηλώσεις `using` σας δίνουν πρόσβαση στις βασικές κλάσεις σχεδίασης.
 
@@ -123,94 +135,99 @@ weight: 13
 using System.Drawing;
 ```
 
-### Βήμα 2: Δημιουργία Bitmap
+### Βήμα 2: δημιουργία bitmap
 
-`Bitmap` αντιπροσωπεύει μια εικόνα στη μνήμη στην οποία μπορείτε να σχεδιάσετε. Ξεκινάμε δημιουργώντας ένα κενό bitmap που θα λειτουργήσει ως επιφάνεια σχεδίασης. Η μορφή εικονοστοιχείων `Format32bppPArgb` παρέχει υψηλής ποιότητας, προπολλαπλασιασμένη υποστήριξη άλφα.
+`Bitmap` είναι ο κοντέινερ εικόνας στη μνήμη πάνω στον οποίο σχεδιάζετε. Διατηρεί το buffer pixel και εκθέτει μεθόδους για αποθήκευση σε αρχεία. Η δημιουργία ενός bitmap ορίζει το μέγεθος του καμβά και τη μορφή pixel.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Βήμα 3: Δημιουργία Αντικειμένου Graphics
+### Βήμα 3: δημιουργία αντικειμένου graphics
 
-Ένα αντικείμενο `Graphics` παρέχει το API σχεδίασης για το bitmap. Είναι η γέφυρα μεταξύ του κώδικά σας και του buffer εικονοστοιχείων.
+`Graphics` παρέχει την επιφάνεια σχεδίασης για το bitmap. Μετατρέπει εντολές σχεδίασης υψηλού επιπέδου (γραμμές, σχήματα, κείμενο) σε λειτουργίες pixel στο υποκείμενο bitmap.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Βήμα 4: Καθαρισμός Καμβά
+### Βήμα 4: εκκαθάριση φόντου καμβά
 
-Δώστε στον καμβά ένα ουδέτερο φόντο ώστε τα σχεδιασμένα σχήματα να ξεχωρίζουν. Εδώ το γεμίζουμε με ανοιχτό γκρι.
+Η εκκαθάριση του καμβά με ουδέτερο χρώμα εξασφαλίζει ότι τα σχήματά σας ξεχωρίζουν. Σε αυτό το παράδειγμα γεμίζουμε το φόντο με ανοιχτό γκρι, το οποίο επίσης δείχνει την τεχνική **clear canvas background**.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Βήμα 5: Ορισμός Μετασχηματισμού (Πώς να ορίσετε μονάδα)
+### Βήμα 5: ορισμός μετασχηματισμού (πώς να ορίσετε μονάδες)
 
-`Graphics.PageUnit` καθορίζει τη μονάδα μέτρησης που χρησιμοποιείται για τις συντεταγμένες της σελίδας. Για να αντιστοιχίσετε τις συντεταγμένες της σελίδας σε εικονοστοιχεία συσκευής, ορίστε την ιδιότητα `PageUnit`. Στο παράδειγμά μας επιλέγουμε ίντσες, αλλά μπορείτε επίσης να χρησιμοποιήσετε `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` ή `GraphicsUnit.Pixel`. Ο ορισμός της μονάδας σε ίντσες σας επιτρέπει να **μετατρέπετε αυτόματα τις ίντσες σε εικονοστοιχεία** βάσει του DPI του bitmap (96 DPI εξ ορισμού, 300 DPI για υψηλής ανάλυσης εκτύπωση).
+`Graphics.PageUnit` καθορίζει τη μονάδα μέτρησης που χρησιμοποιείται για τις συντεταγμένες της σελίδας. Ορίζοντάς το σε `GraphicsUnit.Inch` λέει στο Aspose.Drawing να **μετατρέπει τις ίντσες σε pixel** αυτόματα βάσει του DPI του bitmap (96 DPI εξ ορισμού, 300 DPI για εκτύπωση υψηλής ανάλυσης). Μπορείτε επίσης να επιλέξετε `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` ή `GraphicsUnit.Pixel` ανάλογα με τις απαιτήσεις διάταξης.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### Βήμα 6: Σχεδίαση Ορθογωνίου – draw rectangle graphics
+### Βήμα 6: σχεδίαση ορθογωνίου – draw rectangle graphics
 
-`Pen` ορίζει το χρώμα, το πλάτος και το στυλ των γραμμών που σχεδιάζονται στην επιφάνεια γραφικών. Τώρα σχεδιάζουμε ένα ορθογώνιο με λεπτό μπλε στυλό. Επειδή μεταβήκαμε σε ίντσες, το μέγεθος και η θέση του ορθογωνίου εκφράζονται σε ίντσες, καθιστώντας τον κώδικα πιο αναγνώσιμο για διατάξεις προσανατολισμένες στην εκτύπωση.
+`Pen` ορίζει το χρώμα, το πλάτος και το στυλ των γραμμών που σχεδιάζονται σε μια επιφάνεια graphics. Χρησιμοποιώντας ένα λεπτό μπλε στυλό, σχεδιάζουμε ένα ορθογώνιο των οποίων οι διαστάσεις εκφράζονται σε ίντσες, κάνοντας τον κώδικα πιο ευανάγνωστο για διατάξεις προσανατολισμένες στην εκτύπωση.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### Βήμα 7: Αποθήκευση Εικόνας
+### Βήμα 7: αποθήκευση bitmap ως png
 
-Τέλος, γράψτε το bitmap σε αρχείο PNG στον φάκελο που καθορίσατε νωρίτερα.
+Τέλος, γράψτε το bitmap σε αρχείο PNG στον φάκελο που καθορίσατε νωρίτερα. Η αποθήκευση ως PNG διατηρεί την απώλεια-μη-απώλειας ποιότητα και υποστηρίζεται ευρέως σε όλες τις πλατφόρμες.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-## Πώς να Κλιμακώσετε Γραφικά για Εκτυπωτή;
+## Πώς να κλιμακώσετε γραφικά για εκτυπωτή;
 
-Ορίστε το DPI του bitmap στην επιθυμητή ανάλυση εκτυπωτή (π.χ., 300 DPI) πριν το σχεδιάσετε. Αυτό κλιμακώνει αυτόματα την **έξοδο γραφικών εκτυπωτή** ώστε μία ίντσα στον κώδικά σας να ισούται με μία ίντσα στην εκτυπωμένη σελίδα. Μετά την κλήση `bitmap.SetResolution(300, 300)`, το ίδιο ορθογώνιο θα εμφανίζεται μεγαλύτερο στο εκτυπωμένο φύλλο διατηρώντας τις ακριβείς διαστάσεις του.
+Ορίστε το DPI του bitmap στην ανάλυση του εκτυπωτή-στόχου (π.χ., 300 DPI) πριν τη σχεδίαση. Αυτό αυτόματα **scale graphics printer** την έξοδο ώστε μία ίντσα στον κώδικά σας να ισούται με μία ίντσα στην εκτυπωμένη σελίδα, ενώ το λογικό μέγεθος του ορθογωνίου παραμένει αμετάβλητο. Μετά την κλήση `bitmap.SetResolution(300, 300)`, το ίδιο ορθογώνιο θα εμφανιστεί μεγαλύτερο στο χαρτί αλλά θα διατηρήσει τις ακριβείς διαστάσεις του.
 
-## Συχνά Προβλήματα και Λύσεις
+## Συχνά προβλήματα και λύσεις
 
 | Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
-|----------|----------------|----------|
-| **Το αρχείο εξόδου δεν δημιουργείται** | Λάθος διαδρομή ή λείπει ο φάκελος | Βεβαιωθείτε ότι ο προορισμός υπάρχει ή χρησιμοποιήστε `Directory.CreateDirectory` πριν την αποθήκευση. |
-| **Το ορθογώνιο εμφανίζεται παραμορφωμένο** | Λάθος `PageUnit` ή μη αντιστοιχισμένο DPI | Επαληθεύστε ότι το `graphics.PageUnit` ταιριάζει με τις μονάδες που θέλετε να χρησιμοποιήσετε και ότι το DPI του bitmap έχει οριστεί σωστά (προεπιλογή 96 DPI). |
-| **Απόρριψη άδειας** | Εκτέλεση χωρίς έγκυρη άδεια σε παραγωγή | Εφαρμόστε την προσωρινή ή μόνιμη άδεια Aspose.Drawing πριν δημιουργήσετε αντικείμενα γραφικών. |
+|----------|------------------|----------|
+| **Το αρχείο εξόδου δεν δημιουργείται** | Λανθασμένη διαδρομή ή έλλειψη φακέλου | Βεβαιωθείτε ότι ο φάκελος προορισμού υπάρχει ή καλέστε `Directory.CreateDirectory` πριν την αποθήκευση. |
+| **Το ορθογώνιο εμφανίζεται παραμορφωμένο** | Ασυμφωνία `PageUnit` ή DPI | Επαληθεύστε ότι το `graphics.PageUnit` ταιριάζει με τη ζητούμενη μονάδα και ότι το DPI του bitmap έχει οριστεί σωστά (προεπιλογή 96 DPI, 300 DPI για εκτύπωση). |
+| **Εξαίρεση άδειας** | Εκτέλεση χωρίς έγκυρη άδεια σε παραγωγή | Εφαρμόστε την προσωρινή ή μόνιμη άδεια Aspose.Drawing πριν τη δημιουργία αντικειμένων graphics. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω το Aspose.Drawing δωρεάν;**  
-Α: Ναι, διαθέσιμη είναι μια δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
+Α: Ναι, μια δωρεάν δοκιμή είναι διαθέσιμη [here](https://releases.aspose.com/).
 
 **Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Drawing;**  
-Α: Η πλήρης αναφορά API βρίσκεται [εδώ](https://reference.aspose.com/drawing/net/).
+Α: Η πλήρης αναφορά API βρίσκεται [here](https://reference.aspose.com/drawing/net/).
 
-**Ε: Πώς λαμβάνω υποστήριξη για το Aspose.Drawing;**  
-Α: Επισκεφθείτε το [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
+**Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Drawing;**  
+Α: Επισκεφθείτε το [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) για βοήθεια της κοινότητας και επίσημη υποστήριξη.
 
-**Ε: Υπάρχει προσωρινή άδεια για το Aspose.Drawing;**  
-Α: Απολύτως—αποκτήστε την [εδώ](https://purchase.aspose.com/temporary-license/).
+**Ε: Διατίθεται προσωρινή άδεια για το Aspose.Drawing;**  
+Α: Απόλυτα—αποκτήστε τη [here](https://purchase.aspose.com/temporary-license/).
 
 **Ε: Πού μπορώ να αγοράσω πλήρη άδεια Aspose.Drawing;**  
-Α: Μπορείτε να την αγοράσετε [εδώ](https://purchase.aspose.com/buy).
+Α: Μπορείτε να την αγοράσετε [here](https://purchase.aspose.com/buy).
 
 ## Συμπέρασμα
 
-Σε αυτόν τον οδηγό καλύψαμε όλα όσα χρειάζεστε για **πώς να σχεδιάσετε ορθογώνιο** γραφικά με το Aspose.Drawing: ρύθμιση καμβά, διαμόρφωση μονάδων σελίδας, σχεδίαση ακριβών σχημάτων και αποθήκευση του αποτελέσματος. Χρησιμοποιήστε αυτές τις τεχνικές για να δημιουργήσετε κλιμακώσιμα, ανεξάρτητα από τη συσκευή γραφικά για αναφορές, σχέδια τύπου CAD ή οποιαδήποτε εφαρμογή όπου η ακρίβεια των μετρήσεων είναι σημαντική. Στη συνέχεια, εξερευνήστε προχωρημένους μετασχηματισμούς όπως περιστροφή, κλιμάκωση και προσαρμοσμένες αρχικές συντεταγμένες για ακόμη πιο ισχυρά σενάρια σχεδίασης.
+Τώρα γνωρίζετε **πώς να σχεδιάσετε ορθογώνιο** γραφικά με μετασχηματισμό επιπέδου σελίδας χρησιμοποιώντας το Aspose.Drawing για .NET. Ορίζοντας τη μονάδα σελίδας σε ίντσες, καθαρίζοντας το φόντο του καμβά και αποθηκεύοντας το αποτέλεσμα ως PNG, επιτυγχάνετε ακριβή, ανεξάρτητη από τη συσκευή έξοδο κατάλληλη τόσο για προβολή σε οθόνη όσο και για εκτύπωση υψηλής ανάλυσης. Πειραματιστείτε με άλλες μονάδες, περιστροφές ή προσαρμοσμένες αρχές συντεταγμένων για να ξεκλειδώσετε ακόμη πιο ισχυρά σενάρια σχεδίασης.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-05-19  
-**Δοκιμάστηκε Με:** Aspose.Drawing 24.12 για .NET  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.Drawing 24.12 for .NET  
+**Author:** Aspose
 
+## Σχετικά Μαθήματα
+
+- [Πώς να ορίσετε μονάδα στο Aspose.Drawing για .NET – Μονάδες Μέτρησης](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Γενικός Μετασχηματισμός](/drawing/net/coordinate-transformations/global-transformation/)
+- [Μετασχηματισμός βήμα προς βήμα – Μετασχηματισμοί Συντεταγμένων](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
