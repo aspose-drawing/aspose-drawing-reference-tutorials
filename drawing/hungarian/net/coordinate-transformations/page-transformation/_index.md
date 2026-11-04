@@ -1,72 +1,86 @@
 ---
-date: 2026-05-19
-description: Ismerje meg, hogyan kell téglalap grafikát rajzolni a coordinate system
-  transformation közben .NET-ben az Aspose.Drawing segítségével. Ez a lépésről‑lépésre
-  útmutató bemutatja, hogyan konvertálhatja az inches‑t pixels‑re, és állíthatja be
-  a page units‑t.
+date: 2026-11-04
+description: Ismerje meg, hogyan lehet téglalap grafikát rajzolni a koordináta-rendszer
+  átalakítása közben a .NET Aspose.Drawing API-val. Ez a lépésről-lépésre útmutató
+  bemutatja, hogyan konvertáljon hüvelyket pixelekre és állítsa be az oldal egységeit.
 keywords:
 - how to draw rectangle
 - convert inches to pixels
-- how to set unit
-- scale graphics printer
-- how to use aspnet
-linktitle: Coordinate System Transformation az Aspose.Drawing-ban
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
+linktitle: Koordináta-rendszer átalakítás az Aspose.Drawing-ban
+og_description: Ismerje meg, hogyan lehet téglalap grafikát rajzolni hüvelykek pixelekre
+  konvertálása és az oldal egységeinek beállítása közben az Aspose.Drawing for .NET-ben.
+  Kövesse a lépésről-lépésre útmutatót a pontos oldal átalakításhoz.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: Hogyan rajzoljunk téglalapot oldal átalakítással az Aspose.Drawing for .NET
+  használatával
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   type: TechArticle
 - description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  name: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
   type: HowTo
 - questions:
-  - answer: Yes, a free trial is available [here](https://releases.aspose.com/).
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
     question: Can I use Aspose.Drawing for free?
-  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
     question: Where can I find detailed documentation for Aspose.Drawing?
   - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
       for community help and official assistance.
     question: How do I get support for Aspose.Drawing?
-  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
     question: Is a temporary license available for Aspose.Drawing?
-  - answer: You can buy it [here](https://purchase.aspose.com/buy).
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
     question: Where can I purchase a full Aspose.Drawing license?
   type: FAQPage
-second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Hogyan rajzoljunk téglalapot – Coordinate System Transformation (Oldal átalakítás)
-  az Aspose.Drawing-ban .NET-hez
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: Hogyan rajzoljunk téglalapot – koordináta-rendszer átalakítás (oldal átalakítás)
+  az Aspose.Drawing for .NET-ben
 url: /hu/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
@@ -75,48 +89,44 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan rajzoljunk téglalapot – Koordináta‑rendszer átalakítás (Oldal átalakítás) az Aspose.Drawing for .NET-ben
+# Hogyan rajzoljunk téglalapot – koordináta‑rendszer átalakítás (oldal átalakítás) az Aspose.Drawing for .NET-ben
 
 ## Bevezetés
 
-Üdvözöljük! Ebben az oktatóanyagban megtanulja, **hogyan rajzoljunk téglalapot** grafikai elemekkel, miközben az oldal koordinátáit átalakítja az Aspose.Drawing for .NET segítségével. Akár grafikai‑intenzív alkalmazást fejleszt, akár pontos vezérlést igényel a rajzolási egységek felett, ez az útmutató minden lépésen végigvezet – a vászon beállításától a téglalap elem rajzolásáig. A végére magabiztosan alkalmazhatja ezeket a technikákat saját projektjeiben.
+Ebben az útmutatóban megtanulja, hogyan **rajzoljon téglalap** grafikát, miközben oldal‑szintű koordináta‑rendszer átalakítást végez az Aspose.Drawing for .NET használatával. Akár jelentéskészítő motor, CAD‑stílusú vázlatkészítő eszköz, vagy bármely olyan alkalmazás fejlesztésén dolgozik, amelynek pontos valós‑világi mérésekre van szüksége, ez az útmutató minden lépésen végigvezet – a bitmap létrehozásától a végső PNG mentéséig. A végére magabiztosan fog tudni hüvelyket pixelekre konvertálni, törölni a vászon hátterét, és beállítani az oldal egységeit a nyomtatásra kész kimenethez.
 
 ## Gyors válaszok
-- **Mi az a koordináta‑rendszer átalakítás?** Az oldal‑szintű egységek (például hüvelyk) leképezése az eszköz‑szintű pixelekre.  
-- **Miért használjuk az Aspose.Drawing‑et?** Teljesen menedzselt, platform‑független alternatívát kínál a System.Drawing.Common‑hoz képest.  
-- **Mennyi időt vesz igénybe a példa megvalósítása?** Körülbelül 5‑10 perc egy alap oldal‑átalakításhoz.  
-- **Szükség van licencre?** Fejlesztéshez egy ingyenes próba verzió működik; termeléshez kereskedelmi licenc szükséges.  
-- **Mely .NET verziók támogatottak?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+- **Mi a koordináta‑rendszer átalakítás?** A lap‑szintű egységeket (például hüvelykeket) eszköz‑szintű pixelekre képezi le, így a rajzok bármely kimeneti eszközön helyesen méreteződnek.  
+- **Miért válassza az Aspose.Drawing‑et?** Teljesen menedzselt, többplatformos grafikai API-t biztosít, amely helyettesíti a System.Drawing.Common‑t, és több mint 30 képformátumot támogat.  
+- **Mennyi időt vesz igénybe a példa megvalósítása?** Körülbelül 5‑10 perc egy egyszerű téglalaphoz oldal átalakítással.  
+- **Szükségem van licencre a fejlesztéshez?** A ingyenes próbaverzió fejlesztéshez használható; a termelésben való telepítéshez kereskedelmi licenc szükséges.  
+- **Mely .NET futtatókörnyezetek támogatottak?** .NET Framework 4.6+, .NET Core 3.1+, valamint .NET 5/6/7.
 
 ## Mi az Aspose.Drawing?
 
-`Aspose.Drawing` egy .NET grafikai könyvtár, amely **eszköz‑független API‑t** biztosít raszteres képek, vektorok és oldal‑szintű rajzok létrehozásához és manipulálásához GDI+ nélkül. Több mint **30 képtípust** támogat, és akár **10 000 × 10 000 pixel** méretű képeket is feldolgozhat anélkül, hogy a teljes fájlt a memóriába töltené.
+Az Aspose.Drawing egy .NET grafikai könyvtár, amely **eszköz‑független API‑t** biztosít raszteres képek, vektorok és oldal‑szintű rajzok létrehozásához és manipulálásához GDI+ nélkül. Több mint **30 képformátumot** támogat, és akár **10 000 × 10 000 pixel** méretű képeket is képes feldolgozni, miközben alacsony memóriahasználatot tart fenn.
 
-## Miért használjunk koordináta‑rendszer átalakítást az Aspose.Drawing‑ben?
+## Miért használjunk koordináta‑rendszer átalakítást az Aspose.Drawing‑del?
 
-A koordináta‑rendszer átalakítás lehetővé teszi, hogy valós‑világi egységekben tervezzen grafikát, miközben a könyvtár gondoskodik a pixel skálázásról bármely kimeneti eszközhöz. Ez biztosítja a méretek konzisztenciáját a képernyők és nyomtatók között, és egyszerűsíti a elrendezési számításokat.
+A koordináta‑rendszer átalakítás lehetővé teszi, hogy valós‑világi egységekben tervezzen grafikákat, miközben a könyvtár automatikusan kezeli a pixel skálázást bármely kimeneti eszköz számára. Ez a megközelítés garantálja, hogy egy 5 hüvelykes téglalap pontosan öt hüvelykként nyomtatódik egy 300 DPI nyomtatón, és arányosan jelenik meg egy 96 DPI képernyőn, ezzel kiküszöbölve a kézi konverziós hibákat.
 
-- **Eszköz‑független tervezés:** Írjon kódot egyszer, és az Aspose.Drawing gondoskodik a pixel skálázásról bármely képernyő vagy nyomtató esetén.  
-- **Precíz rajzolás:** Ideális technikai diagramokhoz, CAD‑stílusú vázlatokhoz vagy bármely olyan helyzethez, ahol a pontos méretek fontosak.  
-- **Platform‑független megbízhatóság:** Konzisztensen működik Windows, Linux és macOS rendszereken a System.Drawing GDI+ korlátai nélkül.  
-- **Teljesítmény adatok:** Egy tipikus 2,5 GHz CPU‑n egy 5‑hüvelykes téglalap rajzolása 300 DPI‑n kevesebb, mint **15 ms**, és a könyvtár képes **50 képkocka másodpercenként** valós‑idő előnézeti szcenáriókban.
+- **Eszköz‑független tervezés:** A kódot egyszer írja meg; az Aspose.Drawing skálázza képernyőkre, nyomtatókra vagy PDF‑ekre.  
+- **Precíz rajzolás:** Ideális műszaki diagramokhoz, mérnöki vázlatokhoz vagy bármely olyan helyzethez, ahol a pontos méretek számítanak.  
+- **Többplatformos megbízhatóság:** Következetesen működik Windows, Linux és macOS rendszereken a System.Drawing GDI+ korlátozása nélkül.  
+- **Teljesítmény:** Egy tipikus 2,5 GHz CPU-n egy 5 hüvelykes téglalap rajzolása 300 DPI‑n kevesebb, mint **15 ms** alatt befejeződik, és a könyvtár **50 képkocka másodpercenként** képes renderelni valós‑idő előnézeti helyzetekben.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
-
-- **Aspose.Drawing könyvtár:** Töltse le a legújabb verziót a hivatalos oldalról [here](https://releases.aspose.com/drawing/net/).  
-- **Fejlesztői környezet:** Visual Studio, Rider vagy bármely .NET‑kompatibilis IDE.  
-- **A dokumentum könyvtára:** Cserélje le a kódban a `"Your Document Directory"` értéket arra a mappára, ahová a kimeneti képet menteni szeretné.  
-- **ASP.NET támogatás (opcionális):** Az Aspose.Drawing használható ASP.NET Core projektekben a NuGet csomag hozzáadásával – ez ugyanazt a **how to use aspnet** mintát követi, mint bármely más .NET könyvtár.
-
-Most, hogy minden készen áll, merüljünk el a lépés‑ről‑lépésre útmutatóban.
+- **Aspose.Drawing könyvtár:** Töltse le a legújabb verziót a hivatalos oldalról [itt](https://releases.aspose.com/drawing/net/).  
+- **IDE:** Visual Studio, Rider vagy bármely .NET‑kompatibilis szerkesztő.  
+- **Kimeneti mappa:** Cserélje le a mintakódban a `"Your Document Directory"` értéket arra a mappára, ahová a PNG-t menteni szeretné.  
+- **Opcionális ASP.NET támogatás:** Hozzáadhatja a NuGet csomagot egy ASP.NET Core projekthez, és ugyanazt az API‑t használhatja; a minta a tipikus **how to use aspnet** megközelítést követi a .NET könyvtáraknál.
 
 ## Hogyan rajzoljunk téglalapot oldal átalakítással?
 
-Töltsön be egy üres bitmapet, állítsa be az oldal egységét hüvelykre, és rajzoljon egy téglalapot egy vékony kék tollal – ez néhány kódsorral megvalósítja a téglalap rajzolását. A `Graphics.PageUnit` tulajdonság azt mondja a motornak, hogy minden koordinátát hüvelykben értelmezzen, így a valós‑világi mérésekre gondolhat a nyers pixelek helyett.
+Töltsön be egy üres bitmapet, állítsa be az oldal egységét hüvelykre, és rajzoljon egy téglalapot egy vékony kék tollal – ez néhány kódsorral befejezi a téglalap rajzolását. A `Graphics.PageUnit` tulajdonság azt mondja a motornak, hogy minden koordinátát hüvelykben értelmezzen, így a nyers pixelek helyett valós‑világi mérésekkel dolgozhat, és a könyvtár automatikusan **konvertálja a hüvelykeket pixelekre** a bitmap DPI‑ja alapján.
 
-### 1. lépés: Névterek importálása
+### 1. lépés: névterek importálása
 
 A `using` utasítások hozzáférést biztosítanak a fő rajzoló osztályokhoz.
 
@@ -124,94 +134,99 @@ A `using` utasítások hozzáférést biztosítanak a fő rajzoló osztályokhoz
 using System.Drawing;
 ```
 
-### 2. lépés: Bitmap létrehozása
+### 2. lépés: bitmap létrehozása
 
-A `Bitmap` egy memóriában lévő képet képvisel, amelyre rajzolhat. Kezdjük egy üres bitmap létrehozásával, amely a rajzolási felületként szolgál. A `Format32bppPArgb` pixelformátum magas minőséget és előre szorzott alfa támogatást nyújt.
+`Bitmap` az a memóriában lévő képtároló, amelyre rajzol. Tartalmazza a pixelpufferet, és módszereket biztosít a fájlokba mentéshez. Egy bitmap létrehozása meghatározza a vászon méretét és a pixelformátumot.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### 3. lépés: Graphics objektum létrehozása
+### 3. lépés: graphics objektum létrehozása
 
-A `Graphics` objektum biztosítja a rajzolási API‑t a bitmaphez. Ez a híd a kód és a pixelpuffer között.
+`Graphics` biztosítja a rajzolási felületet a bitmaphez. A magas szintű rajzolási parancsokat (vonalak, alakzatok, szöveg) pixelműveletekké alakítja az alatta lévő bitmapen.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### 4. lépés: Vászon törlése
+### 4. lépés: a vászon háttér törlése
 
-Adjunk a vászonnak semleges hátteret, hogy a rajzolt alakzatok kiemelkedjenek. Itt egy világosszürke színnel töltjük ki.
+A vászon semleges színnel való törlése biztosítja, hogy alakzatai kiemelkedjenek. Ebben a példában a hátteret világosszürkével töltjük, ami egyben bemutatja a **clear canvas background** technikát.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### 5. lépés: Átalakítás beállítása (Hogyan állítsuk be az egységet)
+### 5. lépés: az átalakítás beállítása (hogyan állítsuk be az egységeket)
 
-A `Graphics.PageUnit` határozza meg a oldal koordinátákhoz használt mértékegységet. Az oldal koordináták eszköz‑pixelekre való leképezéséhez állítsa be a `PageUnit` tulajdonságot. Ebben a példában hüvelyket választunk, de használhatja a `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` vagy `GraphicsUnit.Pixel` értékeket is. Az egység hüvelykre állítása automatikusan **átalakítja a hüvelyket pixelekre** a bitmap DPI‑ja (alapértelmezett 96 DPI, 300 DPI a nagy felbontású nyomtatáshoz) alapján.
+`Graphics.PageUnit` határozza meg az oldal koordinátáihoz használt mértékegységet. `GraphicsUnit.Inch`‑re állítva az Aspose.Drawing automatikusan **konvertálja a hüvelykeket pixelekre** a bitmap DPI‑ja alapján (alapértelmezett 96 DPI, 300 DPI a nagy felbontású nyomtatáshoz). A `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` vagy `GraphicsUnit.Pixel` értékeket is választhatja a tervezési igényeknek megfelelően.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### 6. lépés: Téglalap rajzolása – téglalap grafika
+### 6. lépés: téglalap rajzolása – téglalap grafika
 
-A `Pen` határozza meg a vonalak színét, szélességét és stílusát a grafikai felületen. Most egy vékony kék tollal rajzolunk egy téglalapot. Mivel hüvelykre váltottunk, a téglalap mérete és pozíciója hüvelykben van megadva, ami olvashatóbbá teszi a nyomtatásra szánt elrendezéseket.
+`Pen` határozza meg a grafikus felületen rajzolt vonalak színét, szélességét és stílusát. Egy vékony kék tollal egy olyan téglalapot rajzolunk, amelynek méretei hüvelykben vannak megadva, ezáltal a kód olvashatóbbá válik nyomtatásra orientált elrendezések esetén.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### 7. lépés: Kép mentése
+### 7. lépés: bitmap mentése PNG‑ként
 
-Végül írja a bitmapet egy PNG fájlba abba a mappába, amelyet korábban megadott.
+Végül a bitmapet a korábban megadott mappába PNG fájlként írja. PNG‑ként mentve a veszteségmentes minőséget őrzi, és széles körben támogatott a különböző platformokon.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-## Hogyan méretezzünk grafikát nyomtatóhoz?
+## Hogyan méretezzen grafikákat nyomtatóhoz?
 
-A bitmap DPI‑ját állítsa be a célnyomtató felbontására (például 300 DPI) a rajzolás előtt. Ez automatikusan **méretezi a nyomtató kimenetet**, így a kódban egy hüvelyk egyenlő lesz egy hüvelykkel a nyomtatott lapon. A `bitmap.SetResolution(300, 300)` beállítása után ugyanaz a téglalap nagyobbnak fog látszani a nyomtatott lapon, miközben megőrzi pontos méreteit.
+A rajzolás előtt állítsa be a bitmap DPI‑ját a célnyomtató felbontására (például 300 DPI). Ez automatikusan **scale graphics printer** kimenetet hoz létre, így a kódban egy hüvelyk egyenlő lesz a nyomtatott oldalon egy hüvelykkel, miközben a téglalap logikai mérete változatlan marad. A `bitmap.SetResolution(300, 300)` hívás után ugyanaz a téglalap nagyobbnak fog látszani a papíron, de pontos méreteit megtartja.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Miért fordul elő | Megoldás |
 |----------|------------------|----------|
-| **A kimeneti fájl nem jön létre** | Hibás útvonal vagy hiányzó mappa | Győződjön meg arról, hogy a célkönyvtár létezik, vagy használja a `Directory.CreateDirectory` metódust a mentés előtt. |
-| **A téglalap torzult** | Hibás `PageUnit` vagy nem megfelelő DPI | Ellenőrizze, hogy a `graphics.PageUnit` megegyezik a kívánt egységgel, és a bitmap DPI megfelelően van beállítva (alapértelmezett 96 DPI). |
-| **Licenc kivétel** | Érvényes licenc hiánya a termelésben | Alkalmazza a temporális vagy állandó Aspose.Drawing licencet a grafikai objektumok létrehozása előtt. |
+| **Kimeneti fájl nem jött létre** | Helytelen útvonal vagy hiányzó mappa | Győződjön meg arról, hogy a célkönyvtár létezik, vagy hívja a `Directory.CreateDirectory`‑t a mentés előtt. |
+| **A téglalap torzult** | Nem megfelelő `PageUnit` vagy DPI | Ellenőrizze, hogy a `graphics.PageUnit` megfelel a kívánt egységnek, és a bitmap DPI megfelelően van beállítva (alapértelmezett 96 DPI, 300 DPI nyomtatáshoz). |
+| **Licenc kivétel** | Érvényes licenc hiánya a termelésben | Alkalmazza az ideiglenes vagy állandó Aspose.Drawing licencet a grafikus objektumok létrehozása előtt. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 **Q: Használhatom ingyenesen az Aspose.Drawing‑et?**  
-A: Igen, egy ingyenes próba verzió elérhető [here](https://releases.aspose.com/).
+**A: Igen, egy ingyenes próbaverzió elérhető [itt](https://releases.aspose.com/).**
 
-**Q: Hol találom meg az Aspose.Drawing részletes dokumentációját?**  
-A: A teljes API referencia itt érhető el [here](https://reference.aspose.com/drawing/net/).
+**Q: Hol találhatók részletes dokumentációk az Aspose.Drawing‑hez?**  
+**A: A teljes API-referencia itt érhető el [itt](https://reference.aspose.com/drawing/net/).**
 
 **Q: Hogyan kaphatok támogatást az Aspose.Drawing‑hez?**  
-A: Látogassa meg az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44) közösségi segítségért és hivatalos támogatásért.
+**A: Látogassa meg az [Aspose.Drawing Fórumot](https://forum.aspose.com/c/drawing/44) a közösségi segítségért és hivatalos támogatásért.**
 
-**Q: Elérhető-e ideiglenes licenc az Aspose.Drawing‑hez?**  
-A: Természetesen – szerezze be itt [here](https://purchase.aspose.com/temporary-license/).
+**Q: Elérhető ideiglenes licenc az Aspose.Drawing‑hez?**  
+**A: Természetesen—szerezze be itt [itt](https://purchase.aspose.com/temporary-license/).**
 
 **Q: Hol vásárolhatok teljes Aspose.Drawing licencet?**  
-A: Megvásárolható itt [here](https://purchase.aspose.com/buy).
+**A: Itt vásárolható [itt](https://purchase.aspose.com/buy).**
 
 ## Következtetés
 
-Ebben az útmutatóban mindent lefedtünk, ami a **téglalap rajzolásához** szükséges az Aspose.Drawing‑del: a vászon beállítása, az oldal egységeinek konfigurálása, a pontos alakzatok rajzolása és az eredmény mentése. Használja ezeket a technikákat, hogy skálázható, eszköz‑független grafikákat hozzon létre jelentésekhez, CAD‑stílusú rajzokhoz vagy bármely olyan alkalmazáshoz, ahol a mérési pontosság lényeges. Következő lépésként fedezze fel a fejlettebb átalakításokat, mint a forgatás, méretezés és egyedi koordináta‑origók, hogy még erőteljesebb rajzolási forgatókönyveket valósítson meg.
+Most már tudja, **hogyan rajzoljon téglalap** grafikát oldal‑szintű átalakítással az Aspose.Drawing for .NET használatával. Az oldal egységének hüvelykre állításával, a vászon háttér törlésével és az eredmény PNG‑ként mentésével pontos, eszköz‑független kimenetet ér el, amely alkalmas a képernyőn való megjelenítésre és a nagy felbontású nyomtatásra egyaránt. Kísérletezzen más egységekkel, forgatással vagy egyedi koordináta‑origókkal, hogy még erőteljesebb rajzolási forgatókönyveket nyisson meg.
 
 ---
 
-**Last Updated:** 2026-05-19  
+**Last Updated:** 2026-11-04  
 **Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Author:** Aspose
 
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan állítsuk be az egységet az Aspose.Drawing for .NET‑ben – Mértékegységek](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Globális átalakítás](/drawing/net/coordinate-transformations/global-transformation/)
+- [Lépésről‑lépésre átalakítás – Koordináta‑átalakítások](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

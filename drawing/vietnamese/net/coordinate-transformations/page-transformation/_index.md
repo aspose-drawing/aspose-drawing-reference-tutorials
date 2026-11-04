@@ -1,71 +1,85 @@
 ---
-date: 2026-05-19
-description: Tìm hiểu cách vẽ đồ họa hình chữ nhật trong khi thực hiện biến đổi hệ
-  tọa độ trong .NET với Aspose.Drawing. Hướng dẫn chi tiết này chỉ ra cách chuyển
-  đổi inch sang pixel và thiết lập đơn vị trang.
+date: 2026-11-04
+description: Tìm hiểu cách vẽ đồ họa hình chữ nhật trong khi thực hiện coordinate
+  system transformation trong .NET với API Aspose.Drawing. Hướng dẫn step‑by‑step
+  này chỉ cách chuyển đổi inches sang pixels và thiết lập page units.
 keywords:
 - how to draw rectangle
 - convert inches to pixels
-- how to set unit
-- scale graphics printer
-- how to use aspnet
-linktitle: Biến Đổi Hệ Tọa Độ trong Aspose.Drawing
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
+linktitle: Coordinate system transformation trong Aspose.Drawing
+og_description: Tìm hiểu cách vẽ đồ họa hình chữ nhật trong khi chuyển đổi inches
+  sang pixels và thiết lập page units trong Aspose.Drawing cho .NET. Thực hiện theo
+  hướng dẫn step‑by‑step để có page transformation chính xác.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: Cách vẽ hình chữ nhật với page transformation bằng Aspose.Drawing cho .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   type: TechArticle
 - description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  name: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
   type: HowTo
 - questions:
-  - answer: Yes, a free trial is available [here](https://releases.aspose.com/).
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
     question: Can I use Aspose.Drawing for free?
-  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
     question: Where can I find detailed documentation for Aspose.Drawing?
   - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
       for community help and official assistance.
     question: How do I get support for Aspose.Drawing?
-  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
     question: Is a temporary license available for Aspose.Drawing?
-  - answer: You can buy it [here](https://purchase.aspose.com/buy).
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
     question: Where can I purchase a full Aspose.Drawing license?
   type: FAQPage
-second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Cách Vẽ Hình Chữ Nhật – Biến Đổi Hệ Tọa Độ (Biến Đổi Trang) trong Aspose.Drawing
-  cho .NET
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: Cách vẽ hình chữ nhật – coordinate system transformation (page transformation)
+  trong Aspose.Drawing cho .NET
 url: /vi/net/coordinate-transformations/page-transformation/
 weight: 13
 ---
@@ -74,48 +88,44 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Vẽ Hình Chữ Nhật – Biến Đổi Hệ Tọa Độ (Biến Đổi Trang) trong Aspose.Drawing cho .NET
+# Cách vẽ hình chữ nhật – chuyển đổi hệ tọa độ (chuyển đổi trang) trong Aspose.Drawing cho .NET
 
 ## Giới thiệu
 
-Chào mừng! Trong hướng dẫn này, bạn sẽ khám phá **cách vẽ hình chữ nhật** trong đồ họa đồng thời biến đổi tọa độ trang bằng Aspose.Drawing cho .NET. Dù bạn đang xây dựng một ứng dụng đồ họa nặng hoặc cần kiểm soát chính xác các đơn vị vẽ, hướng dẫn này sẽ dẫn bạn qua từng bước — từ thiết lập canvas đến vẽ một phần tử hình chữ nhật. Khi kết thúc, bạn sẽ có thể áp dụng các kỹ thuật này trong dự án của mình một cách tự tin.
+Trong hướng dẫn này, bạn sẽ học **how to draw rectangle** đồ họa trong khi thực hiện chuyển đổi hệ tọa độ ở mức trang bằng Aspose.Drawing cho .NET. Cho dù bạn đang xây dựng một công cụ báo cáo, một công cụ vẽ kiểu CAD, hoặc bất kỳ ứng dụng nào cần đo lường thực tế chính xác, hướng dẫn này sẽ dẫn bạn qua mọi bước — từ tạo bitmap đến lưu PNG cuối cùng. Khi kết thúc, bạn sẽ thoải mái chuyển đổi inch sang pixel, xóa nền canvas, và đặt đơn vị trang cho đầu ra sẵn sàng in.
 
 ## Câu trả lời nhanh
-- **What is coordinate system transformation?** Ánh xạ các đơn vị cấp trang (như inch) sang pixel cấp thiết bị.  
-- **Why use Aspose.Drawing?** Nó cung cấp một giải pháp hoàn toàn quản lý, đa nền tảng thay thế cho System.Drawing.Common.  
-- **How long does the example take to implement?** Khoảng 5‑10 phút cho một biến đổi trang cơ bản.  
-- **Do I need a license?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Which .NET versions are supported?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+- **What is coordinate system transformation?** Nó ánh xạ các đơn vị ở mức trang (như inch) sang pixel ở mức thiết bị để các bản vẽ được thu phóng chính xác trên bất kỳ thiết bị đầu ra nào.  
+- **Why choose Aspose.Drawing?** Nó cung cấp một API đồ họa được quản lý hoàn toàn, đa nền tảng, thay thế System.Drawing.Common và hỗ trợ hơn 30 định dạng hình ảnh.  
+- **How long does the example take to implement?** Khoảng 5‑10 phút cho một hình chữ nhật cơ bản với chuyển đổi trang.  
+- **Do I need a license for development?** Một bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho triển khai sản xuất.  
+- **Which .NET runtimes are supported?** .NET Framework 4.6+, .NET Core 3.1+, và .NET 5/6/7.
 
 ## Aspose.Drawing là gì?
 
-`Aspose.Drawing` là một thư viện đồ họa .NET cung cấp **API độc lập với thiết bị** để tạo và thao tác ảnh raster, vector và các bản vẽ cấp trang mà không phụ thuộc vào GDI+. Nó hỗ trợ **hơn 30 định dạng ảnh** và có thể xử lý ảnh lên tới **10.000 × 10.000 pixel** mà không cần tải toàn bộ tệp vào bộ nhớ.
+Aspose.Drawing là một thư viện đồ họa .NET cung cấp một **device‑independent API** để tạo và thao tác các hình ảnh raster, vector và bản vẽ ở mức trang mà không phụ thuộc vào GDI+. Nó hỗ trợ **30+ image formats** và có thể xử lý hình ảnh lên tới **10,000 × 10,000 pixels** trong khi giữ mức sử dụng bộ nhớ thấp.
 
-## Tại sao nên sử dụng biến đổi hệ tọa độ với Aspose.Drawing?
+## Tại sao nên sử dụng chuyển đổi hệ tọa độ với Aspose.Drawing?
 
-Biến đổi hệ tọa độ cho phép bạn thiết kế đồ họa bằng các đơn vị thực tế trong khi thư viện tự động xử lý việc tỷ lệ pixel cho bất kỳ thiết bị xuất nào. Điều này đảm bảo kích thước nhất quán trên màn hình và máy in và đơn giản hoá các phép tính bố cục.
+Chuyển đổi hệ tọa độ cho phép bạn thiết kế đồ họa bằng các đơn vị thực tế trong khi thư viện tự động xử lý việc thu phóng pixel cho bất kỳ thiết bị đầu ra nào. Cách tiếp cận này đảm bảo rằng một hình chữ nhật 5‑inch sẽ in ra đúng năm inch trên máy in 300 DPI và hiển thị tỷ lệ trên màn hình 96 DPI, loại bỏ lỗi chuyển đổi thủ công.
 
-- **Device‑independent design:** Viết code một lần và để Aspose.Drawing xử lý việc tỷ lệ pixel cho bất kỳ màn hình hoặc máy in nào.  
-- **Precision drawing:** Lý tưởng cho sơ đồ kỹ thuật, bản vẽ kiểu CAD, hoặc bất kỳ trường hợp nào mà độ đo chính xác quan trọng.  
-- **Cross‑platform reliability:** Hoạt động nhất quán trên Windows, Linux và macOS mà không gặp các hạn chế của GDI+ trong System.Drawing.  
-- **Performance numbers:** Trên một CPU 2.5 GHz điển hình, việc vẽ một hình chữ nhật 5‑inch ở 300 DPI mất dưới **15 ms**, và thư viện có thể render **50 khung hình mỗi giây** trong các kịch bản xem trước thời gian thực.
+- **Device‑independent design:** Viết mã một lần; Aspose.Drawing sẽ thu phóng cho màn hình, máy in hoặc PDF.  
+- **Precision drawing:** Lý tưởng cho sơ đồ kỹ thuật, bản vẽ kỹ sư, hoặc bất kỳ trường hợp nào mà đo lường chính xác quan trọng.  
+- **Cross‑platform reliability:** Hoạt động nhất quán trên Windows, Linux và macOS mà không gặp các hạn chế GDI+ của System.Drawing.  
+- **Performance:** Trên CPU 2.5 GHz điển hình, việc vẽ một hình chữ nhật 5‑inch ở 300 DPI hoàn thành trong dưới **15 ms**, và thư viện có thể render **50 frames per second** trong các kịch bản xem trước thời gian thực.
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+- **Aspose.Drawing library:** Tải phiên bản mới nhất từ trang chính thức [here](https://releases.aspose.com/drawing/net/).  
+- **IDE:** Visual Studio, Rider, hoặc bất kỳ trình soạn thảo nào tương thích .NET.  
+- **Output folder:** Thay thế `"Your Document Directory"` trong mã mẫu bằng thư mục bạn muốn lưu PNG.  
+- **Optional ASP.NET support:** Bạn có thể thêm gói NuGet vào dự án ASP.NET Core và sử dụng cùng API; mẫu này tuân theo cách tiếp cận **how to use aspnet** điển hình cho các thư viện .NET.
 
-- **Thư viện Aspose.Drawing:** Tải phiên bản mới nhất từ trang chính thức [ở đây](https://releases.aspose.com/drawing/net/).  
-- **Môi trường phát triển:** Visual Studio, Rider, hoặc bất kỳ IDE nào hỗ trợ .NET.  
-- **Thư mục tài liệu của bạn:** Thay thế `"Your Document Directory"` trong mã bằng thư mục nơi bạn muốn lưu ảnh đầu ra.  
-- **Hỗ trợ ASP.NET (tùy chọn):** Bạn có thể sử dụng Aspose.Drawing trong các dự án ASP.NET Core bằng cách thêm gói NuGet vào ứng dụng web — cách này tuân theo mẫu **how to use aspnet** giống như bất kỳ thư viện .NET nào khác.
+## Cách vẽ hình chữ nhật với chuyển đổi trang?
 
-Bây giờ mọi thứ đã sẵn sàng, chúng ta cùng bắt đầu hướng dẫn chi tiết.
+Tải một bitmap trống, đặt đơn vị trang thành inch, và vẽ một hình chữ nhật bằng bút màu xanh mỏng — việc này hoàn thành việc vẽ hình chữ nhật chỉ trong vài dòng mã. Thuộc tính `Graphics.PageUnit` cho phép engine hiểu tất cả các tọa độ là inch, vì vậy bạn có thể suy nghĩ bằng các đo lường thực tế thay vì pixel thô, và thư viện tự động **convert inches to pixels** dựa trên DPI của bitmap.
 
-## Cách Vẽ Hình Chữ Nhật với Biến Đổi Trang?
-
-Tải một bitmap trống, đặt đơn vị trang thành inch, và vẽ một hình chữ nhật bằng bút mực xanh mỏng — việc vẽ hình chữ nhật hoàn thành chỉ trong vài dòng code. Thuộc tính `Graphics.PageUnit` cho engine biết cách diễn giải tất cả các tọa độ dưới dạng inch, vì vậy bạn có thể suy nghĩ bằng các đo lường thực tế thay vì pixel thô.
-
-### Bước 1: Nhập Namespace
+### Bước 1: import namespaces
 
 Các câu lệnh `using` cung cấp quyền truy cập vào các lớp vẽ cốt lõi.
 
@@ -123,93 +133,99 @@ Các câu lệnh `using` cung cấp quyền truy cập vào các lớp vẽ cố
 using System.Drawing;
 ```
 
-### Bước 2: Tạo Bitmap
+### Bước 2: create a bitmap
 
-`Bitmap` đại diện cho một ảnh trong bộ nhớ mà bạn có thể vẽ lên. Chúng ta bắt đầu bằng cách tạo một bitmap trống sẽ làm bề mặt vẽ.
+`Bitmap` là container hình ảnh trong bộ nhớ mà bạn vẽ lên. Nó chứa bộ đệm pixel và cung cấp các phương thức để lưu thành file. Tạo một bitmap xác định kích thước canvas và định dạng pixel.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Bước 3: Tạo Đối Tượng Graphics
+### Bước 3: create a graphics object
 
-Đối tượng `Graphics` cung cấp API vẽ cho bitmap. Nó là cầu nối giữa code của bạn và bộ đệm pixel.
+`Graphics` cung cấp bề mặt vẽ cho bitmap. Nó chuyển các lệnh vẽ cấp cao (đường, hình dạng, văn bản) thành các thao tác pixel trên bitmap nền.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Bước 4: Xóa Canvas
+### Bước 4: clear the canvas background
 
-Đặt nền cho canvas để các hình vẽ nổi bật hơn. Ở đây chúng ta lấp đầy nó bằng màu xám nhạt.
+Xóa canvas bằng một màu trung tính đảm bảo các hình dạng của bạn nổi bật. Trong ví dụ này chúng tôi lấp nền bằng màu xám nhạt, cũng minh họa kỹ thuật **clear canvas background**.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Bước 5: Đặt Biến Đổi (Cách đặt đơn vị)
+### Bước 5: set the transformation (how to set units)
 
-`Graphics.PageUnit` xác định đơn vị đo được sử dụng cho tọa độ trang. Để ánh xạ tọa độ trang sang pixel thiết bị, hãy đặt thuộc tính `PageUnit`. Trong ví dụ này chúng ta chọn inch, nhưng bạn cũng có thể dùng `GraphicsUnit.Millimeter`, `GraphicsUnit.Point`, hoặc `GraphicsUnit.Pixel`. Đặt đơn vị thành inch cho phép bạn **tự động chuyển đổi inch sang pixel** dựa trên DPI của bitmap (mặc định 96 DPI, 300 DPI cho in ấn độ phân giải cao).
+`Graphics.PageUnit` chỉ định đơn vị đo được sử dụng cho tọa độ trang. Đặt nó thành `GraphicsUnit.Inch` cho Aspose.Drawing **convert inches to pixels** tự động dựa trên DPI của bitmap (mặc định 96 DPI, 300 DPI cho in độ phân giải cao). Bạn cũng có thể chọn `GraphicsUnit.Millimeter`, `GraphicsUnit.Point`, hoặc `GraphicsUnit.Pixel` tùy theo yêu cầu bố cục.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### Bước 6: Vẽ Hình Chữ Nhật – draw rectangle graphics
+### Bước 6: draw a rectangle – draw rectangle graphics
 
-`Pen` định nghĩa màu, độ rộng và kiểu đường nét được vẽ trên bề mặt đồ họa. Bây giờ chúng ta vẽ một hình chữ nhật bằng bút mực xanh mỏng. Vì chúng ta đã chuyển sang inch, kích thước và vị trí của hình chữ nhật được biểu thị bằng inch, làm cho code dễ đọc hơn cho các bố cục hướng in.
+`Pen` định nghĩa màu, độ rộng và kiểu đường vẽ trên bề mặt graphics. Sử dụng một bút xanh mỏng, chúng tôi vẽ một hình chữ nhật có kích thước được biểu thị bằng inch, làm cho mã dễ đọc hơn cho các bố cục hướng in.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### Bước 7: Lưu Ảnh
+### Bước 7: save bitmap as png
 
-Cuối cùng, ghi bitmap ra file PNG trong thư mục bạn đã chỉ định trước đó.
+Cuối cùng, ghi bitmap vào file PNG trong thư mục bạn đã chỉ định trước đó. Lưu dưới dạng PNG giữ chất lượng không mất dữ liệu và được hỗ trợ rộng rãi trên các nền tảng.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
 ```
 
-## Cách Thu Phóng Đồ Họa cho Máy In?
+## Cách thu phóng đồ họa cho máy in?
 
-Đặt DPI của bitmap thành độ phân giải mục tiêu của máy in (ví dụ, 300 DPI) trước khi vẽ. Điều này tự động **scale graphics printer** đầu ra sao cho một inch trong code bằng một inch trên trang in. Sau khi gọi `bitmap.SetResolution(300, 300)`, cùng một hình chữ nhật sẽ xuất hiện lớn hơn trên tờ in nhưng vẫn giữ đúng kích thước thực tế.
+Đặt DPI của bitmap thành độ phân giải máy in mục tiêu (ví dụ, 300 DPI) trước khi vẽ. Điều này tự động **scale graphics printer** đầu ra sao cho một inch trong mã của bạn bằng một inch trên trang in, trong khi kích thước logic của hình chữ nhật không thay đổi. Sau khi gọi `bitmap.SetResolution(300, 300)`, cùng một hình chữ nhật sẽ xuất hiện lớn hơn trên giấy nhưng vẫn giữ đúng kích thước.
 
-## Các Vấn Đề Thường Gặp và Giải Pháp
+## Các vấn đề thường gặp và giải pháp
 
 | Vấn đề | Nguyên nhân | Giải pháp |
-|-------|-------------|-----------|
-| **Output file not created** | Đường dẫn không đúng hoặc thư mục thiếu | Đảm bảo thư mục đích tồn tại hoặc sử dụng `Directory.CreateDirectory` trước khi lưu. |
-| **Rectangle appears distorted** | `PageUnit` sai hoặc DPI không khớp | Kiểm tra `graphics.PageUnit` khớp với đơn vị bạn định dùng và DPI của bitmap được đặt đúng (mặc định 96 DPI). |
-| **License exception** | Chạy mà không có giấy phép hợp lệ trong môi trường sản xuất | Áp dụng giấy phép Aspose.Drawing tạm thời hoặc chính thức trước khi tạo đối tượng graphics. |
+|-------|----------------|-----|
+| **Output file not created** | Đường dẫn không đúng hoặc thư mục thiếu | Đảm bảo thư mục đích tồn tại hoặc gọi `Directory.CreateDirectory` trước khi lưu. |
+| **Rectangle appears distorted** | `PageUnit` hoặc DPI không khớp | Kiểm tra `graphics.PageUnit` khớp với đơn vị mong muốn và DPI của bitmap được đặt đúng (mặc định 96 DPI, 300 DPI cho in). |
+| **License exception** | Chạy mà không có giấy phép hợp lệ trong môi trường sản xuất | Áp dụng giấy phép tạm thời hoặc vĩnh viễn của Aspose.Drawing trước khi tạo đối tượng graphics. |
 
-## Câu Hỏi Thường Gặp
+## Câu hỏi thường gặp
 
-**Q: Tôi có thể sử dụng Aspose.Drawing miễn phí không?**  
-A: Có, bản dùng thử miễn phí có sẵn [ở đây](https://releases.aspose.com/).
+**Q: Có thể sử dụng Aspose.Drawing miễn phí không?**  
+A: Có, bản dùng thử miễn phí có sẵn [here](https://releases.aspose.com/).
 
 **Q: Tôi có thể tìm tài liệu chi tiết cho Aspose.Drawing ở đâu?**  
-A: Tham khảo toàn bộ API tại [ở đây](https://reference.aspose.com/drawing/net/).
+A: Tham khảo đầy đủ API tại [here](https://reference.aspose.com/drawing/net/).
 
-**Q: Làm sao tôi nhận được hỗ trợ cho Aspose.Drawing?**  
-A: Truy cập [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
+**Q: Làm sao để nhận hỗ trợ cho Aspose.Drawing?**  
+A: Truy cập [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) để nhận trợ giúp cộng đồng và hỗ trợ chính thức.
 
 **Q: Có giấy phép tạm thời cho Aspose.Drawing không?**  
-A: Chắc chắn—bạn có thể lấy một giấy phép tạm thời [ở đây](https://purchase.aspose.com/temporary-license/).
+A: Chắc chắn—đặt mua tại [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: Tôi có thể mua giấy phép đầy đủ cho Aspose.Drawing ở đâu?**  
-A: Bạn có thể mua nó [ở đây](https://purchase.aspose.com/buy).
+**Q: Tôi có thể mua giấy phép Aspose.Drawing đầy đủ ở đâu?**  
+A: Bạn có thể mua tại [here](https://purchase.aspose.com/buy).
 
 ## Kết luận
 
-Trong hướng dẫn này, chúng ta đã bao quát mọi thứ bạn cần để **cách vẽ hình chữ nhật** bằng Aspose.Drawing: thiết lập canvas, cấu hình đơn vị trang, vẽ các hình dạng chính xác, và lưu kết quả. Hãy sử dụng các kỹ thuật này để xây dựng đồ họa mở rộng, độc lập với thiết bị cho báo cáo, bản vẽ kiểu CAD, hoặc bất kỳ ứng dụng nào mà độ chính xác đo lường quan trọng. Tiếp theo, khám phá các biến đổi nâng cao như xoay, thu phóng, và gốc tọa độ tùy chỉnh để mở khóa những kịch bản vẽ mạnh mẽ hơn.
+Bây giờ bạn đã biết **how to draw rectangle** đồ họa với chuyển đổi mức trang bằng Aspose.Drawing cho .NET. Bằng cách đặt đơn vị trang thành inch, xóa nền canvas, và lưu kết quả dưới dạng PNG, bạn đạt được đầu ra chính xác, độc lập thiết bị, phù hợp cho cả hiển thị trên màn hình và in độ phân giải cao. Hãy thử nghiệm với các đơn vị khác, xoay, hoặc gốc tọa độ tùy chỉnh để mở khóa các kịch bản vẽ mạnh mẽ hơn.
 
 ---
 
-**Last Updated:** 2026-05-19  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-11-04  
+**Kiểm tra với:** Aspose.Drawing 24.12 for .NET  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách đặt đơn vị trong Aspose.Drawing cho .NET – Đơn vị đo lường](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Chuyển đổi toàn cục](/drawing/net/coordinate-transformations/global-transformation/)
+- [Chuyển đổi từng bước – Chuyển đổi tọa độ](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

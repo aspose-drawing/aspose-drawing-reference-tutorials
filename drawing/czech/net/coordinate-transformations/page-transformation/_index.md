@@ -1,70 +1,85 @@
 ---
-date: 2026-05-19
-description: Naučte se, jak v .NET s Aspose.Drawing kreslit grafiku obdélníku při
-  provádění coordinate system transformation. Tento průvodce krok za krokem ukazuje,
-  jak převést inches na pixels a nastavit page units.
+date: 2026-11-04
+description: Zjistěte, jak nakreslit grafiku obdélníku při provádění transformace
+  souřadnicového systému v .NET pomocí Aspose.Drawing API. Tento krok‑za‑krokem průvodce
+  ukazuje, jak převést palce na pixely a nastavit jednotky stránky.
 keywords:
 - how to draw rectangle
 - convert inches to pixels
-- how to set unit
-- scale graphics printer
-- how to use aspnet
+- how to set units
+- save bitmap as png
+- clear canvas background
+lastmod: 2026-11-04
 linktitle: Transformace souřadnicového systému v Aspose.Drawing
+og_description: Zjistěte, jak nakreslit grafiku obdélníku při převodu palců na pixely
+  a nastavení jednotek stránky v Aspose.Drawing pro .NET. Postupujte podle průvodce
+  krok‑za‑krokem pro přesnou transformaci stránky.
+og_image_alt: Developer guide showing rectangle drawing with coordinate system transformation
+  in Aspose.Drawing
+og_title: Jak nakreslit obdélník s transformací stránky pomocí Aspose.Drawing pro
+  .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
+  dateModified: '2026-11-04'
   description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  headline: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  headline: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   type: TechArticle
 - description: Learn how to draw rectangle graphics while performing coordinate system
     transformation in .NET with Aspose.Drawing. This step‑by‑step guide shows how
     to convert inches to pixels and set page units.
-  name: How to Draw Rectangle – Coordinate System Transformation (Page Transformation)
+  name: How to draw rectangle – coordinate system transformation (page transformation)
     in Aspose.Drawing for .NET
   steps:
-  - name: Import Namespaces
+  - name: Import namespaces
     text: The `using` statements give you access to the core drawing classes.
-  - name: Create a Bitmap
+  - name: Create a bitmap
     text: '`Bitmap` represents an image in memory that you can draw onto. We start
       by creating a blank bitmap that will serve as the drawing surface. The pixel
       format `Format32bppPArgb` gives us high‑quality, premultiplied alpha support.'
-  - name: Create a Graphics Object
+  - name: Create a graphics object
     text: A `Graphics` object provides the drawing API for the bitmap. It’s the bridge
       between your code and the pixel buffer.
-  - name: Clear the Canvas
+  - name: Clear the canvas
     text: Give the canvas a neutral background so the drawn shapes stand out. Here
       we fill it with a light gray.
-  - name: Set the Transformation (How to set unit)
+  - name: Set the transformation (how to set unit)
     text: '`Graphics.PageUnit` specifies the unit of measure used for page coordinates.
       To map page coordinates to device pixels, set the `PageUnit` property. In this
       example we choose inches, but you could also use `GraphicsUnit.Millimeter`,
       `GraphicsUnit.Point`, or `GraphicsUnit.Pixel`. Setting the unit to i'
-  - name: Draw a Rectangle – draw rectangle graphics
+  - name: Draw a rectangle – draw rectangle graphics
     text: '`Pen` defines the color, width, and style of lines drawn on a graphics
       surface. Now we draw a rectangle using a thin blue pen. Because we switched
       to inches, the rectangle’s size and position are expressed in inches, making
       the code more readable for print‑oriented layouts.'
-  - name: Save the Image
+  - name: Save the image
     text: Finally, write the bitmap to a PNG file in the folder you specified earlier.
   type: HowTo
 - questions:
-  - answer: Yes, a free trial is available [here](https://releases.aspose.com/).
+  - answer: Yes, a free trial is available [here](https://releases.aspose.com/) .
     question: Can I use Aspose.Drawing for free?
-  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/).
+  - answer: The full API reference is located [here](https://reference.aspose.com/drawing/net/)
+      .
     question: Where can I find detailed documentation for Aspose.Drawing?
   - answer: Visit the [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44)
       for community help and official assistance.
     question: How do I get support for Aspose.Drawing?
-  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Absolutely—obtain one [here](https://purchase.aspose.com/temporary-license/)
+      .
     question: Is a temporary license available for Aspose.Drawing?
-  - answer: You can buy it [here](https://purchase.aspose.com/buy).
+  - answer: You can buy it [here](https://purchase.aspose.com/buy) .
     question: Where can I purchase a full Aspose.Drawing license?
   type: FAQPage
-second_title: Aspose.Drawing .NET API – Alternative to System.Drawing.Common
-title: Jak nakreslit obdélník – Transformace souřadnicového systému (Transformace
+second_title: Aspose.Drawing .NET API – alternative to System.Drawing.Common
+tags:
+- Aspose.Drawing
+- coordinate transformation
+- .NET graphics
+- rectangle drawing
+title: Jak nakreslit obdélník – transformace souřadnicového systému (transformace
   stránky) v Aspose.Drawing pro .NET
 url: /cs/net/coordinate-transformations/page-transformation/
 weight: 13
@@ -74,97 +89,95 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak nakreslit obdélník – Transformace souřadnicového systému (Transformace stránky) v Aspose.Drawing pro .NET
+# Jak nakreslit obdélník – transformace souřadnicového systému (transformace stránky) v Aspose.Drawing pro .NET
 
 ## Úvod
 
-Vítejte! V tomto tutoriálu objevíte **jak nakreslit obdélník** grafiku při transformaci souřadnic stránky pomocí Aspose.Drawing pro .NET. Ať už vytváříte aplikaci náročnou na grafiku nebo potřebujete přesnou kontrolu nad jednotkami kreslení, tento průvodce vás provede každým krokem – od nastavení plátna po nakreslení obdélníkového prvku. Na konci budete schopni tyto techniky použít ve svých vlastních projektech s jistotou.
+V tomto tutoriálu se naučíte **jak nakreslit obdélník** grafiku při provádění transformace souřadnicového systému na úrovni stránky pomocí Aspose.Drawing pro .NET. Ať už vytváříte reportingový engine, nástroj pro skicování ve stylu CAD, nebo jakoukoli aplikaci, která potřebuje přesná reálná měření, tento průvodce vás provede každým krokem – od vytvoření bitmapy až po uložení finálního PNG. Na konci budete pohodlně převádět palce na pixely, čistit pozadí plátna a nastavovat jednotky stránky pro tiskové výstupy.
 
 ## Rychlé odpovědi
-- **Co je transformace souřadnicového systému?** Mapování jednotek na úrovni stránky (např. palce) na pixely na úrovni zařízení.  
-- **Proč použít Aspose.Drawing?** Nabízí plně spravovanou, multiplatformní alternativu k System.Drawing.Common.  
-- **Jak dlouho trvá implementace příkladu?** Přibližně 5‑10 minut pro základní transformaci stránky.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
-- **Které verze .NET jsou podporovány?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
+- **Co je transformace souřadnicového systému?** Mapuje jednotky na úrovni stránky (např. palce) na pixely na úrovni zařízení, takže se kresby správně škálují na jakémkoli výstupním zařízení.  
+- **Proč zvolit Aspose.Drawing?** Poskytuje plně spravované, multiplatformní grafické API, které nahrazuje System.Drawing.Common a podporuje více než 30 formátů obrázků.  
+- **Jak dlouho trvá implementace příkladu?** Přibližně 5‑10 minut pro základní obdélník s transformací stránky.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro vývoj; pro produkční nasazení je vyžadována komerční licence.  
+- **Které .NET runtime jsou podporovány?** .NET Framework 4.6+, .NET Core 3.1+, a .NET 5/6/7.
 
 ## Co je Aspose.Drawing?
 
-`Aspose.Drawing` je .NET grafická knihovna, která poskytuje **zařízení‑nezávislé API** pro vytváření a manipulaci s rastrovými obrázky, vektory a kresbami na úrovni stránky bez závislosti na GDI+. Podporuje **30+ formátů obrázků** a může zpracovávat obrázky až do **10 000 × 10 000 pixelů** bez načítání celého souboru do paměti.
+Aspose.Drawing je .NET grafická knihovna, která poskytuje **zařízení‑nezávislé API** pro vytváření a manipulaci rastrových obrázků, vektorů a kreslení na úrovni stránky bez spoléhání se na GDI+. Podporuje **více než 30 formátů obrázků** a může zpracovávat obrázky až do **10 000 × 10 000 pixelů**, přičemž udržuje nízkou spotřebu paměti.
 
 ## Proč použít transformaci souřadnicového systému s Aspose.Drawing?
 
-Transformace souřadnicového systému vám umožní navrhovat grafiku v reálných jednotkách, zatímco knihovna se postará o škálování pixelů pro jakékoli výstupní zařízení. To zajišťuje konzistentní velikost napříč obrazovkami a tiskárnami a zjednodušuje výpočty rozvržení.
+Transformace souřadnicového systému vám umožní navrhovat grafiku v reálných jednotkách, zatímco knihovna automaticky zajišťuje škálování pixelů pro jakékoli výstupní zařízení. Tento přístup zaručuje, že 5‑palcový obdélník se vytiskne přesně na pět palců na tiskárně s 300 DPI a bude proporčně zobrazen na obrazovce s 96 DPI, čímž eliminuje chyby ručního převodu.
 
-- **Zařízení‑nezávislý design:** Napište kód jednou a nechte Aspose.Drawing zvládnout škálování pixelů pro jakoukoliv obrazovku nebo tiskárnu.  
-- **Precizní kreslení:** Ideální pro technické diagramy, CAD‑stylové skici nebo jakýkoli scénář, kde jsou důležité přesné rozměry.  
+- **Zařízení‑nezávislý design:** Napište kód jednou; Aspose.Drawing jej škáluje pro obrazovky, tiskárny nebo PDF.  
+- **Precizní kreslení:** Ideální pro technické diagramy, inženýrské schémata nebo jakýkoli scénář, kde jsou důležité přesná měření.  
 - **Multiplatformní spolehlivost:** Funguje konzistentně na Windows, Linuxu a macOS bez omezení GDI+ v System.Drawing.  
-- **Výkonnostní údaje:** Na typickém 2,5 GHz CPU trvá nakreslení 5‑palcového obdélníku při 300 DPI méně než **15 ms** a knihovna dokáže renderovat **50 snímků za sekundu** v reálných náhledových scénářích.
+- **Výkon:** Na typickém 2,5 GHz procesoru dokončí nakreslení 5‑palcového obdélníku při 300 DPI za méně než **15 ms** a knihovna může renderovat **50 snímků za sekundu** v scénářích náhledu v reálném čase.
 
-## Předpoklady
+## Požadavky
 
 - **Knihovna Aspose.Drawing:** Stáhněte nejnovější verzi z oficiálního webu [here](https://releases.aspose.com/drawing/net/).  
-- **Vývojové prostředí:** Visual Studio, Rider nebo jakékoli .NET‑kompatibilní IDE.  
-- **Váš adresář dokumentů:** Nahraďte `"Your Document Directory"` v kódu složkou, kam chcete uložit výstupní obrázek.  
-- **Podpora ASP.NET (volitelné):** Můžete použít Aspose.Drawing v projektech ASP.NET Core přidáním NuGet balíčku do vaší webové aplikace – to následuje stejný **how to use aspnet** vzor jako jakákoli jiná .NET knihovna.
-
-Nyní, když je vše připraveno, pojďme se ponořit do podrobného průvodce.
+- **IDE:** Visual Studio, Rider nebo jakýkoli editor kompatibilní s .NET.  
+- **Výstupní složka:** Nahraďte `"Your Document Directory"` ve vzorovém kódu složkou, kam chcete PNG uložit.  
+- **Volitelná podpora ASP.NET:** Můžete přidat NuGet balíček do projektu ASP.NET Core a použít stejné API; vzor následuje typický **how to use aspnet** přístup pro .NET knihovny.
 
 ## Jak nakreslit obdélník s transformací stránky?
 
-Načtěte prázdný bitmap, nastavte jednotku stránky na palce a nakreslete obdélník pomocí tenkého modrého pera – tím dokončíte kreslení obdélníku během několika řádků kódu. Vlastnost `Graphics.PageUnit` říká enginu, aby interpretoval všechny souřadnice jako palce, takže můžete uvažovat v reálných měřeních místo surových pixelů.
+Načtěte prázdnou bitmapu, nastavte jednotku stránky na palce a nakreslete obdélník pomocí tenkého modrého pera – tím dokončíte kreslení obdélníku během několika řádků kódu. Vlastnost `Graphics.PageUnit` říká enginu, aby interpretoval všechny souřadnice jako palce, takže můžete myslet v reálných měřeních místo surových pixelů, a knihovna automaticky **převádí palce na pixely** na základě DPI bitmapy.
 
-### Krok 1: Importovat jmenné prostory
+### Krok 1: importovat jmenné prostory
 
-`using` direktivy vám poskytují přístup k základním kreslicím třídám.
+Příkazy `using` vám poskytují přístup k základním třídám pro kreslení.
 
 ```csharp
 using System.Drawing;
 ```
 
-### Krok 2: Vytvořit bitmapu
+### Krok 2: vytvořit bitmapu
 
-`Bitmap` představuje obrázek v paměti, na který můžete kreslit. Začínáme vytvořením prázdné bitmapy, která bude sloužit jako kreslicí plocha. Formát pixelů `Format32bppPArgb` poskytuje vysoce kvalitní podporu přednásobené alfy.
+`Bitmap` je paměťový kontejner obrázku, na který kreslíte. Uchovává pixelový buffer a poskytuje metody pro ukládání do souborů. Vytvoření bitmapy určuje velikost plátna a formát pixelů.
 
 ```csharp
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
 ```
 
-### Krok 3: Vytvořit objekt Graphics
+### Krok 3: vytvořit objekt Graphics
 
-`Graphics` objekt poskytuje API pro kreslení na bitmapu. Je to most mezi vaším kódem a pixelovým bufferem.
+`Graphics` poskytuje kreslicí plochu pro bitmapu. Překládá příkazy vysoké úrovně (čáry, tvary, text) na pixelové operace na podkladové bitmapě.
 
 ```csharp
 Graphics graphics = Graphics.FromImage(bitmap);
 ```
 
-### Krok 4: Vyčistit plátno
+### Krok 4: vymazat pozadí plátna
 
-Dejte plátnu neutrální pozadí, aby vykreslené tvary vynikly. Zde jej vyplníme světle šedou barvou.
+Vymazání plátna neutrální barvou zajišťuje, že vaše tvary vyniknou. V tomto příkladu vyplníme pozadí světle šedou, což také demonstruje techniku **clear canvas background**.
 
 ```csharp
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Krok 5: Nastavit transformaci (Jak nastavit jednotku)
+### Krok 5: nastavit transformaci (jak nastavit jednotky)
 
-`Graphics.PageUnit` určuje jednotku měření používanou pro souřadnice stránky. Pro mapování souřadnic stránky na pixely zařízení nastavte vlastnost `PageUnit`. V tomto příkladu volíme palce, ale můžete také použít `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` nebo `GraphicsUnit.Pixel`. Nastavení jednotky na palce vám umožní **automaticky převádět palce na pixely** na základě DPI bitmapy (96 DPI ve výchozím nastavení, 300 DPI pro tisk ve vysokém rozlišení).
+`Graphics.PageUnit` určuje jednotku měření používanou pro souřadnice stránky. Nastavením na `GraphicsUnit.Inch` říkáte Aspose.Drawing, aby **automaticky převáděl palce na pixely** na základě DPI bitmapy (ve výchozím nastavení 96 DPI, 300 DPI pro tisk ve vysokém rozlišení). Můžete také zvolit `GraphicsUnit.Millimeter`, `GraphicsUnit.Point` nebo `GraphicsUnit.Pixel` podle požadavků na rozvržení.
 
 ```csharp
 graphics.PageUnit = GraphicsUnit.Inch;
 ```
 
-### Krok 6: Nakreslit obdélník – kreslit obdélníkovou grafiku
+### Krok 6: nakreslit obdélník – kreslení obdélníkové grafiky
 
-`Pen` definuje barvu, šířku a styl čar kreslených na grafickém povrchu. Nyní nakreslíme obdélník pomocí tenkého modrého pera. Protože jsme přešli na palce, velikost a pozice obdélníku jsou vyjádřeny v palcích, což činí kód čitelnějším pro rozvržení zaměřené na tisk.
+`Pen` definuje barvu, šířku a styl čar kreslených na grafickém povrchu. Pomocí tenkého modrého pera nakreslíme obdélník, jehož rozměry jsou vyjádřeny v palcích, což činí kód čitelnějším pro rozvržení zaměřené na tisk.
 
 ```csharp
 Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 0.1f);
 graphics.DrawRectangle(pen, 1, 1, 1, 1);
 ```
 
-### Krok 7: Uložit obrázek
+### Krok 7: uložit bitmapu jako png
 
-Na závěr zapíšete bitmapu do souboru PNG ve složce, kterou jste uvedli dříve.
+Nakonec zapíšete bitmapu do souboru PNG ve složce, kterou jste dříve určili. Uložení jako PNG zachovává bezztrátovou kvalitu a je široce podporováno napříč platformami.
 
 ```csharp
 bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageTransformation_out.png");
@@ -172,42 +185,48 @@ bitmap.Save("Your Document Directory" + @"CoordinateSystemsTransformations\PageT
 
 ## Jak škálovat grafiku pro tiskárnu?
 
-Nastavte DPI bitmapy na cílové rozlišení tiskárny (např. 300 DPI) před kreslením. To automaticky **škáluje výstup grafiky pro tiskárnu**, takže jeden palec ve vašem kódu odpovídá jednomu palci na tištěné stránce. Po nastavení `bitmap.SetResolution(300, 300)` se stejný obdélník na tištěném listu zobrazí větší, přičemž zachová své přesné rozměry.
+Před kreslením nastavte DPI bitmapy na rozlišení cílové tiskárny (například 300 DPI). Toto automaticky **škáluje výstup grafiky pro tiskárnu**, takže jeden palec ve vašem kódu odpovídá jednomu palci na tištěné stránce, zatímco logická velikost obdélníku zůstává nezměněna. Po zavolání `bitmap.SetResolution(300, 300)` se stejný obdélník na papíře zobrazí větší, ale zachová své přesné rozměry.
 
 ## Časté problémy a řešení
 
-| Problém | Proč se to děje | Řešení |
-|-------|----------------|-----|
-| **Soubor výstupu nebyl vytvořen** | Nesprávná cesta nebo chybějící složka | Ujistěte se, že cílový adresář existuje, nebo použijte `Directory.CreateDirectory` před uložením. |
-| **Obdélník je deformovaný** | Špatná `PageUnit` nebo nesoulad DPI | Ověřte, že `graphics.PageUnit` odpovídá jednotkám, které chcete použít, a že DPI bitmapy je nastaveno správně (výchozí je 96 DPI). |
+| Problém | Proč k tomu dochází | Řešení |
+|---------|----------------------|--------|
+| **Soubor výstupu nebyl vytvořen** | Nesprávná cesta nebo chybějící složka | Ujistěte se, že cílový adresář existuje, nebo před uložením zavolejte `Directory.CreateDirectory`. |
+| **Obdélník se zobrazuje deformovaně** | Nesoulad `PageUnit` nebo DPI | Ověřte, že `graphics.PageUnit` odpovídá požadované jednotce a že DPI bitmapy je nastaveno správně (výchozí 96 DPI, 300 DPI pro tisk). |
 | **Výjimka licence** | Spuštění bez platné licence v produkci | Aplikujte svou dočasnou nebo trvalou licenci Aspose.Drawing před vytvořením grafických objektů. |
 
 ## Často kladené otázky
 
-**Q: Můžu používat Aspose.Drawing zdarma?**  
+**Q: Mohu používat Aspose.Drawing zdarma?**  
 A: Ano, bezplatná zkušební verze je k dispozici [here](https://releases.aspose.com/).
 
-**Q: Kde najdu podrobnou dokumentaci pro Aspose.Drawing?**  
+**Q: Kde mohu najít podrobnou dokumentaci pro Aspose.Drawing?**  
 A: Kompletní reference API je umístěna [here](https://reference.aspose.com/drawing/net/).
 
-**Q: Jak získat podporu pro Aspose.Drawing?**  
-A: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pro komunitní pomoc a oficiální asistenci.
+**Q: Jak získám podporu pro Aspose.Drawing?**  
+A: Navštivte [Aspose.Drawing Forum](https://forum.aspose.com/c/drawing/44) pro komunitní pomoc a oficiální asistenci.
 
 **Q: Je k dispozici dočasná licence pro Aspose.Drawing?**  
-A: Rozhodně – získáte ji [here](https://purchase.aspose.com/temporary-license/).
+A: Rozhodně—získat ji můžete [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: Kde si mohu zakoupit plnou licenci Aspose.Drawing?**  
-A: Můžete ji zakoupit [here](https://purchase.aspose.com/buy).
+**Q: Kde mohu zakoupit plnou licenci Aspose.Drawing?**  
+A: Můžete ji koupit [here](https://purchase.aspose.com/buy).
 
 ## Závěr
 
-V tomto průvodci jsme pokryli vše, co potřebujete k **nakreslení obdélníku** grafiky s Aspose.Drawing: nastavení plátna, konfiguraci jednotek stránky, kreslení přesných tvarů a uložení výsledku. Použijte tyto techniky k vytvoření škálovatelné, zařízení‑nezávislé grafiky pro zprávy, CAD‑stylové výkresy nebo jakoukoli aplikaci, kde je důležitá přesnost měření. Dále prozkoumejte pokročilé transformace jako rotaci, škálování a vlastní počátky souřadnic, abyste odemkli ještě výkonnější scénáře kreslení.
+Nyní už víte **jak nakreslit obdélník** grafiku s transformací na úrovni stránky pomocí Aspose.Drawing pro .NET. Nastavením jednotky stránky na palce, vymazáním pozadí plátna a uložením výsledku jako PNG dosáhnete přesného, zařízení‑nezávislého výstupu vhodného jak pro zobrazení na obrazovce, tak pro tisk ve vysokém rozlišení. Experimentujte s dalšími jednotkami, rotací nebo vlastními počátky souřadnic a odemkněte tak ještě výkonnější scénáře kreslení.
 
 ---
 
-**Last Updated:** 2026-05-19  
-**Tested With:** Aspose.Drawing 24.12 for .NET  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-11-04  
+**Testováno s:** Aspose.Drawing 24.12 pro .NET  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak nastavit jednotku v Aspose.Drawing pro .NET – Jednotky měření](/drawing/net/coordinate-transformations/units-of-measure/)
+- [Globální transformace](/drawing/net/coordinate-transformations/global-transformation/)
+- [Krok za krokem transformace – Transformace souřadnic](/drawing/net/coordinate-transformations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
